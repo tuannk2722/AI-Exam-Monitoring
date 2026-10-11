@@ -32,3 +32,9 @@ body:
       label: Owner tự review / người chốt (Codex hỗ trợ nếu có)
     validations:
       required: true
+
+  - type: textarea
+    id: contract_impact
+    attributes:
+      label: Contract ảnh hưởng và nơi giữ kết quả
+      description: Ghi contract cần đổi hoặc không đổi; output/report/config/status cần cập nhật. Không mặc định mỗi task phải sửa spec.

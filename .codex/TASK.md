@@ -1,18 +1,19 @@
-﻿# REPOSITORY-HANDOFF-20261011 — Khép audit và bàn giao Git
+﻿# DOC-BOUNDARIES-20261011 — Tách contract, trạng thái và hồ sơ
 
-- Trạng thái: hoàn tất implementation/validation; owner: chủ repository; không delegation.
+- Trạng thái: hoàn thành; owner: chủ repository; không delegation.
 
-## Yêu cầu và hiện trạng
-Owner yêu cầu khắc phục findings rewrite và commit, chọn backup tại gốc D. Đã xử lý Git completeness/archive registry, typing/CI, dependencies v5, mapping công cụ/restore/lifecycle và backup. Kết quả canonical ở development §8, data §8, system/training đã đồng bộ.
+## Yêu cầu và quyết định
+Owner duyệt tổ chức lại tài liệu: spec giữ requirements/contracts; research/results/proposal về đúng hồ sơ; agent tra theo task. Không đổi scientific scope, recipe, labels/splits, quyền train/test/promotion hoặc upload. Giữ thay đổi working tree trước task.
 
-## Đã đọc và quyết định áp dụng
-AGENTS/index/bốn specs, checker/tests/CI, loader/exporter/history và module lịch sử Git ab34b32. Scientific gates/recipe/accepted bytes giữ nguyên; không train/inference/reseal/upload.
+## Đã đọc và inputs
+AGENTS/index/TASK/Git/checker, bốn tài liệu cũ, templates/CI, card/pointer/report v7, E003 run/summary, audit E004, archive registry và original Git locators. Proposal YAML E004 đã pin dù Draft nên giữ bytes.
 
-## Inputs, outputs và ràng buộc
-V4–v7/E001–E003 còn nguyên checksum. Ba metadata dependencies v5 khôi phục exact SHA; config CRLF được Git giữ byte và checker kiểm cả index. Backup D:/ai-exam-monitoring-backup-20261011: 1.917 files/2.778.275.362 bytes copy riêng, SHA PASS; cùng ổ D nên không bảo vệ hỏng ổ. Git bundle bổ sung ở bước commit bàn giao, receipt của backup lưu ngoài repo.
+## Outputs và contract impact
+System/data/training còn contract; development là guide. Docs status/reference/operations/decisions có vai trò riêng. Reports index dẫn tới releases/runs/originals; ba bản tổng hợp data/baseline/handoff di chuyển khỏi spec là snapshot lịch sử, không append task tương lai. E004 proposal cạnh configs, YAML/approval gốc không đổi. AGENTS/README/index/TASK/issue/PR templates định tuyến đọc/ghi và cho phép không sửa spec khi contract không đổi.
 
-## Checks và kết quả
-119 tests PASS trên clean staged checkout, imports đúng source của checkout; Ruff/compile PASS; strict mypy 32 files PASS. Checker kiểm Git index/registry/pins PASS. Loader v4/v5/v6, v7 payload/schema, 42 run checksums PASS; 709 deleted tracked paths truy được archive hoặc Git lịch sử. Restore drill v7/E003 từ backup PASS, không inference. Markdown links/staged diff đã kiểm; không binary/credential được stage.
+## Checks thực hiện
+PASS: 105 config/report/approval có sẵn giữ SHA trước/sau; card v7 khớp pin; 16 bảng data/training cùng entity table và FR IDs được bảo toàn; 132 Markdown links/anchors hợp lệ và tài liệu mới đều reachable từ index; issue YAML parse; original research Git locators tồn tại. Inspect diff và git diff --check PASS.
+Checker --require-git PASS (0 failures) trong delivery snapshot Git độc lập 209 files không cần binary data/model; staged whitespace PASS sau dùng core.autocrlf=true giống repo thật. Index thật giữ nguyên, chưa stage/commit; strict checker với index thật vẫn yêu cầu stage các file mới khi owner yêu cầu commit. Không chạy ML suite/train/inference hoặc full media hashing vì docs/templates-only.
 
-## Bàn giao và bước tiếp
-Owner đã authorize commit; xem git log để lấy commit bàn giao. Sau commit verify Git bundle và historical commits, dọn outputs/_scratch/repository-handoff. Không còn implementation của audit cần làm; task mới thay TASK này. Các gate E004/holdout/runtime tiếp tục theo spec, không được gọi là completed bởi housekeeping. Backup off-device chưa được chọn; không tự upload hoặc hứa chống hỏng ổ D.
+## Vòng đời và bàn giao
+Script/bản trước task/checkouts kiểm ở outputs/_scratch/doc-boundaries là tạm; kết quả giữ trong checkpoint này, nội dung chuyển nằm ở canonical docs/reports/proposal và originals vẫn nguyên. Dọn toàn scratch sau verification; không tạo thêm report cho chính task tổ chức docs. Task mới thay TASK này, bắt đầu từ docs/00-INDEX.md và docs/status.md; không kế thừa quyền scientific từ task docs.

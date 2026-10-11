@@ -28,4 +28,5 @@ Issue liên quan (nếu có):
 - [ ] Đã đọc source-of-truth docs/ADR liên quan
 - [ ] Không tune trên test set
 - [ ] Không commit dataset/model/video/secret
-- [ ] Contract và test đã được cập nhật
+- [ ] Contract được cập nhật nếu thay đổi, hoặc xác nhận không đổi; tests đúng scope
+- [ ] Results/evidence ở đúng hồ sơ; status/index chỉ cập nhật nếu liên quan, không append vào spec

@@ -2,30 +2,32 @@
 
 ## Bắt đầu và quyết định
 
-- Đọc `docs/00-INDEX.md` và `.codex/TASK.md`, đối chiếu Git/files và code trước sửa. Đọc đúng section trong bốn specs; system/data/training đã chứa trạng thái, decisions, nghiên cứu, results và next work. Không đọc lại docs không đổi hoặc mở/bung cả archive cho context thường ngày.
-- Quyết định owner Accepted đúng scope/phiên bản, được ghi trực tiếp trong spec, có ưu tiên; config/approval/receipt pinned và code là bằng chứng triển khai. Draft/TBD không là approval. Code/spec/report khác nhau: báo conflict, không tự đổi labels/splits/metrics/scope hoặc sửa pin để qua gate.
-- Tạo/cập nhật TASK trước sửa theo `docs/templates/task-template.md`. TASK chỉ một task hiện hành: mục tiêu, inputs/version, docs đã đọc, constraints, tiến độ/checks và bước tiếp. Resume đọc index/TASK, kiểm Git/artifacts và chỉ đọc docs đổi; sửa TASK cũ/mâu thuẫn. Không chứa media/credentials/danh tính, không thay approval/spec hoặc nối WORKLOG.
+- Đọc `docs/00-INDEX.md`, `docs/status.md` và `.codex/TASK.md`; đối chiếu Git/files/code trước sửa. Index định tuyến contract/reference/hồ sơ đúng task; không đọc cả archive hoặc mọi report.
+- Spec giữ requirements/contracts, không giữ mọi kết quả task. Status chỉ hiện trạng; reports/source/release/run có version giữ evidence; proposal/config đúng ID giữ thiết kế/variables. Không lấy ID lớn nhất hoặc “next” của report lịch sử làm scope hiện hành.
+- Owner approval đúng scope/version có hiệu lực; Draft/TBD không là approval. Registry `docs/decisions.md` dẫn tới quyết định; configs/receipts/pins và code là bằng chứng. Có conflict: báo rõ, không tự đổi labels/splits/metrics/scope hoặc sửa pins để qua gate.
+- Tạo/cập nhật TASK trước sửa theo `docs/templates/task-template.md`: một task, inputs/version, constraints, progress/checks và bước tiếp. Không chứa media/credentials/danh tính, không thay approval hoặc làm WORKLOG.
 
-## Phạm vi và cách tiến hành
+## Thực hiện
 
-- Thứ tự hiện hành: dataset/annotation QA → baseline/evaluation → dữ liệu đánh giá độc lập/cải tiến model → runtime crop/video → tracking/events → web. V4–v7 và E001–E003 đã có; E004 và pipeline video B chưa xong. Không train lại/smoke lại hoặc mở downstream chỉ vì refactor/docs.
-- Không tự chốt class/formulation, official sources/splits, pretrained/license, training variables, thresholds/metrics, risk/evidence/review hoặc test access. Thiếu decision: chuẩn bị proposal có owner/lý do/evidence/acceptance rồi hỏi đúng phần; tiếp tục phần độc lập. Authorization user đúng scope giữ qua turns/resume, không hỏi lại phần đã duyệt.
-- Chủ động tự động hóa shortlist/draft annotation/group/QA bằng công cụ phù hợp đã có; owner nghiệm thu batch/high-level và ngoại lệ, không bị bắt annotate từng ảnh. Solo owner tự review/chốt, không yêu cầu người thứ hai.
-- Giữ changes tập trung. Canonical logic trong src, notebook launcher/exploration; YAML chứa variables; core không import web. Dùng schema rõ, không prediction/metric/model giả ở production path. Kiểm conventions/imports trước thêm module/CLI/library.
-- Expansion dùng bảng công cụ trong data §8; lifecycle và restore inputs trong development §6. TASK chỉ rõ output tạm/evidence giữ lại. Không copy script theo version/r1/r2; chỉ đưa phần tái dùng đã kiểm vào module theo trách nhiệm.
+- Đối chiếu gate theo hành động ở system/training: implementation, smoke, run, final test và nghiệm thu có scope riêng. Không train lại/smoke lại/mở downstream chỉ vì refactor/docs; phần độc lập được user yêu cầu vẫn tiếp tục.
+- Không tự chốt class/formulation, sources/splits, pretrained/license, training variables, thresholds/metrics, risk/evidence/review hoặc test access. Thiếu decision: đề xuất owner/lý do/evidence/acceptance, hỏi đúng phần. Authorization đúng scope giữ qua turns/resume; không hỏi lại phần đã duyệt.
+- Tự động shortlist/draft annotation/group/QA bằng công cụ hiện có; owner nghiệm thu batch và ngoại lệ, không phải annotate từng ảnh. Solo owner tự review, không yêu cầu người thứ hai.
+- Logic tái dùng trong src; YAML chứa variables; notebook exploration/launcher; core không import web. Không fake predictions/metrics/model trong production. Kiểm conventions/imports và producer/consumer trước đổi.
+- Công cụ/reuse ở `docs/reference.md`, restore ở `docs/operations.md`, lifecycle ở development. Không copy script theo v/r1/r2; chỉ thích nghi phần tái dùng có tests, TASK ghi output tạm/evidence giữ lại.
 
-## Dữ liệu, experiment và bảo toàn
+## Bảo toàn
 
-- Raw bất biến; derivative/version mới ở interim/processed. Mutation cần owner review/pointer/pins, không sửa/reseal release v4–v7 hoặc artifact đã ký. Missing historical inputs: truy/restore theo development spec, không bỏ integrity guards hoặc lấy version khác cùng tên.
-- Git không chứa media/model/checkpoint/env/cache/credentials. Không real identity trong filenames/manifests; không upload người thật/W&B/API khi thiếu consent/use scope. DVC local/pointer không là remote backup; push chỉ scope được duyệt.
-- Run có ID/hypothesis/owner/code/config/data/split/encoding/seed/environment/status/metrics/checksums/observation/decision. Đổi variables là identity mới; OOM/interruption không silent đổi batch/config. Unknown masked, test không dùng tuning hoặc mở lại nếu thiếu protocol/approval.
-- Tái lập run/model cũ dùng original code/pins/environment; code identity đổi sau cleanup không được sửa hash cũ hoặc nới evaluator. Artifact restore chỉ để task cần, gỡ workspace tạm sau dùng.
+- Raw bất biến; derivative/version mới ở interim/processed. Không mutate/reseal accepted releases, config/receipt hoặc artifact đã pin (kể cả Draft đã được audit pin). Missing input: truy/restore đúng version, không bỏ integrity guards.
+- Git không media/model/checkpoint/env/cache/credentials. Không real identity trong filenames/manifests; không upload người thật/W&B/API thiếu consent/use scope. DVC pointer không là remote backup; push chỉ scope được duyệt.
+- Run có ID/hypothesis/owner/code/config/data/split/encoding/seed/environment/status/metrics/checksums/decision. Đổi variables tạo identity mới; OOM/interruption không silent đổi config. Unknown masked; test không tuning hoặc mở lại thiếu protocol/approval.
+- Tái lập run/model cũ bằng original code/pins/environment; không sửa hash cũ hoặc nới evaluator sau refactor. Restore workspace tạm dọn sau dùng.
 
-## Bàn giao và giữ spec hữu ích
+## Bàn giao
 
-- Trước hoàn tất inspect diff, chạy checks đúng phạm vi trong development spec; docs-only không chạy full ML/data hashes. Pass software không thay data/model acceptance.
-- Khi được yêu cầu commit: stage đúng source/spec/config/metadata, chạy checker `--require-git` kiểm đủ Git index và archive registry, kiểm staged diff; không force-add binary. Kiểm clean checkout khi thay cấu trúc rộng. Backup cùng ổ chỉ bảo vệ xóa/sửa nhầm, không gọi là backup chống hỏng ổ.
-- Kết quả mới cập nhật đúng spec: data cho sources/releases/QA; training cho runs/metrics/errors/next hypothesis; system cho requirements/capabilities/gates. Ghi đã làm gì, kết quả/decision/limitations và next work với version/evidence cần thiết; không chỉ tạo report link hoặc giữ pending state cũ.
-- Tài liệu tiếng Việt, dấu cách đầy đủ; không dàn trải results/E004/cleanup/ADR/card Markdown mỗi task khi section hiện có đáp ứng. Thêm file/script/config chỉ khi có trách nhiệm tái dùng thật; dọn preview/cache/checkout/tooling sau khi bảo toàn inputs/evidence/results.
+- Inspect diff, chạy checks đúng scope theo development. Docs-only không full ML/data hashes; software PASS không thay data/model acceptance.
+- **Không sửa spec nếu contract không đổi.** Results ở hồ sơ source/release/run trong artifacts/reports và outputs/data đúng loại; proposal ở configs; cập nhật index/status chỉ khi liên quan. Không append mọi task vào report tổng hợp hoặc status.
+- Thay contract quan trọng cần decision đúng scope và traceability; giữ originals, quan hệ Superseded rõ. Không tạo card/ADR/report cho mọi chỉnh sửa nhỏ; dùng hồ sơ hiện có nếu chưa seal và đủ trách nhiệm.
+- Khi user yêu cầu commit: stage đúng source/docs/config/metadata, checker `--require-git` kiểm index/registry, inspect staged diff và clean checkout khi đổi cấu trúc rộng; không force-add binary hoặc stage chỉ để checker PASS.
+- Tài liệu tiếng Việt, dấu cách đầy đủ; **dọn preview/cache/checkout/tooling sau bảo toàn inputs/evidence/results**. Backup cùng ổ không chống hỏng ổ.
 
-Dừng phần liên quan nếu data/license/path/version không rõ, label/split mâu thuẫn, test có nguy cơ dùng sai, train thiếu config/experiment, cần scientific/scope/risk decision mới hoặc có nguy cơ lộ dữ liệu/credential. Phần độc lập vẫn tiến hành.
+Dừng phần liên quan khi data/license/path/version không rõ, label/split conflict, thiếu protocol test/config experiment hoặc có nguy cơ lộ data/credentials; tiếp tục phần độc lập.

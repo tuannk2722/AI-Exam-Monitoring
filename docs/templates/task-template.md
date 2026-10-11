@@ -1,21 +1,18 @@
-# TASK-ID — Mục tiêu cụ thể
+# TASK-ID — Mục tiêu
 
-- Trạng thái: đang thực hiện / hoàn thành / cần quyết định; owner và phạm vi.
+- Trạng thái: đang làm / hoàn thành / cần quyết định; owner và scope.
 
 ## Yêu cầu và hiện trạng
-Yêu cầu mới nhất của user; hành vi trước/sau, requirement/section spec liên quan. Đối chiếu Git/files/code, không dùng task cũ làm authority.
+User goal, behavior trước/sau, Git/files/code đã đối chiếu. Đọc index/status rồi contract/reference/hồ sơ đúng task; không dùng TASK cũ làm authority.
 
-## Đã đọc và quyết định áp dụng
-Spec/section, code/config/approval đã kiểm; Accepted đúng scope, Draft/TBD còn mở. Không đọc lại tài liệu không đổi cùng task.
+## Quyết định và inputs
+Spec/decision/proposal/approval đọc; exact IDs/versions/pins và scope; phân biệt Draft/Accepted, quyền implementation/run/test. Câu hỏi còn thiếu có owner/lý do/acceptance. Không suy approval từ release hoặc lịch sử.
 
-## Inputs, outputs và ràng buộc
-Exact paths/IDs/versions/pins cần dùng; output/change cần bàn giao. Data-label-split/experiment/privacy impact; nội dung không được mutate. Không copy whole reports/media/secrets vào TASK.
-Ghi output nào là scratch/review/evidence/canonical, nơi lưu và điều kiện dọn; expansion ghi active API hoặc historical module/commit sẽ tái dùng theo data §8.
+## Outputs và vòng đời
+Paths/source/data/output/report giữ lại; scratch ở đâu và khi nào dọn. Chọn hồ sơ đúng đối tượng; hồ sơ đã pin không mutate. Không chứa credentials/media/danh tính. Tái dùng active/historical API theo reference/operations khi cần.
 
-## Tiêu chí nghiệm thu và checks
-Hành vi/contract phải đúng, commands phù hợp theo diff, evidence và giới hạn. Unit PASS không thay quality gate; proposal không là approval.
+## Contract impact và checks
+Contract thay đổi: ghi requirement/schema/decision liên quan, hoặc **không đổi — không sửa spec**. Checks theo scope, bằng chứng và limitations; unit PASS không thay scientific acceptance. Status/index nào thực sự cần cập nhật?
 
-## Checkpoint và bước tiếp
-Tiến độ đã kiểm chứng; files đổi, tests/checks thực chạy và kết quả; câu hỏi/TBD có owner/lý do/điều kiện chốt; bước tiếp cụ thể sau resume. Nếu xong, nêu deliverables/checks/limitations và không giữ backlog task cũ.
-
-TASK chỉ một task hiện hành; quyết định/kết quả cần cho task sau cập nhật đúng spec/config/receipt theo development. Không thêm WORKLOG hoặc nhật ký trạng thái trùng.
+## Checkpoint và bàn giao
+Files đổi, checks đã chạy/kết quả, output/evidence locator, việc còn lại. Hoàn thành thì ghi rõ; task mới thay TASK, không nối nhật ký. Không chép results vào spec để giữ context; agent sau tra đúng hồ sơ qua index/status.
