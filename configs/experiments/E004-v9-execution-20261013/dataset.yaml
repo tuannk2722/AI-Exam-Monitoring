@@ -1,0 +1,19 @@
+status: accepted
+owner_approval:
+  path: artifacts/reports/E004-v9-execution-20261013/owner-execution-approval.json
+  sha256: 27a6bb027cfeec66ad1a2813558a126b4141f0d907d26b97a35e03acec77bfed
+parent_checksums_sha256: ad0959205c24bbbde8cd009335429dab4df4762dac97818608e46cab82b75c73
+ledger_sha256: 74a7960fd6da91d2b421aa846090cce33b5d9414bb98c03d12bbda8c54b76faf
+membership_sha256: d37e27cfcc901d52af19fda3c9e52db66fa71c512ad490390e53c4ccf6a5bff1
+package: data/processed/e004/E004-v9-development-20261013
+counts:
+  review_only: 332
+  val: 120
+  train: 716
+  excluded: 29
+  test: 11
+code_sha256:
+  pilot_package.py: 97278a089c663f71319e3ca1a53b26c2a188e320f689a76cedec1612c7330e67
+  pilot_schema.py: 2568be9f2c88c2f705a788f10fc81125a8c7b636f9d16bfc502644d7ef04f253
+  integrity.py: 03cb7989b6934ead57e54fe625143c8cedffc3ccc80aa433b6eda5f0a98ebed6
+final_test_inference_authorized: false

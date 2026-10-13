@@ -1,0 +1,89 @@
+{
+  "comparator48_groups": 13,
+  "csv_jsonl_ids_exact": true,
+  "git_stage_or_commit": false,
+  "independent_aggregate_assertions": "PASS",
+  "input_pins_checked": 42,
+  "legacy_seal_mismatches": [
+    {
+      "actual_sha256": "3dfaddaee1c2b905cf59dd510616934b7596a0a38811f3a55fa14199584f7ded",
+      "archive_sha256": "3dfaddaee1c2b905cf59dd510616934b7596a0a38811f3a55fa14199584f7ded",
+      "classification": "pre-existing historical README seal mismatch; do not reseal",
+      "effect": "historical README seal not valid; measurement JSON and V7 release seals remain valid",
+      "expected_seal_sha256": "ce6cfe937cc357a23b4f61f8a88ad1f46ed0b960589b18cce6633254e08704fd",
+      "git_head_sha256": "3dfaddaee1c2b905cf59dd510616934b7596a0a38811f3a55fa14199584f7ded",
+      "path": "artifacts/reports/E004-v7-fit-audit-20261010/README.md"
+    }
+  ],
+  "markdown_links_checked": 91,
+  "matrix_rows": 375,
+  "metadata_replay": "PASS",
+  "ml_suite_run": false,
+  "new_training_or_model_inference": false,
+  "old_sealed_artifacts_checked": 19,
+  "outputs": {
+    "../../../configs/experiments/E004-freeze-proposal-20261011.md": {
+      "sha256": "f8741c68abb99dd65126f0845d02b49452d7a53cfbd47f1c496fd777a3af76e6",
+      "size": 19022
+    },
+    "README.md": {
+      "sha256": "a1e693e312fe545f7dcb82a13a24a509f2c9ae14d590e97d036947af1f1c7975",
+      "size": 26724
+    },
+    "added-development-verification.json": {
+      "sha256": "bfdfddc4967beb1d8c5db2d498c8599ef4a8323c2e5da5552baab7a8f00a4c5c",
+      "size": 3829
+    },
+    "build_evidence.py": {
+      "sha256": "25b9f64529a8ddec80f502cf3f97846c0310b35b61323221e47acab3ce8910a9",
+      "size": 35494
+    },
+    "cached-comparator48-baseline.json": {
+      "sha256": "a013d9740ad0e9b425750267759ceb92b6ad4d89ad03bf0086faf08b25dba8bd",
+      "size": 550
+    },
+    "comparator48-verification.json": {
+      "sha256": "c40cbb4f7dad5fc9aaa6a4e81d83f0c636b5ede52e80e134214471833aa27833",
+      "size": 2527
+    },
+    "coverage-matrix.csv": {
+      "sha256": "34674d190d98e8410bdf8710f3045579c51f2655a75b51aca96fcd5aa0071922",
+      "size": 97812
+    },
+    "coverage-matrix.jsonl": {
+      "sha256": "10102fea438be1c94245168bde9a84e9d639efb5dafd6140a3961f3c62fc9c09",
+      "size": 739372
+    },
+    "coverage-summary.json": {
+      "sha256": "3c7e6eb19184d2fb5054f96ac581dd633199fba6c6371d33cad81be87b502c9d",
+      "size": 15127
+    },
+    "input-pins.json": {
+      "sha256": "62b9a1c65c59b1338e2a70efd2c40de2bab094f918c3607e749d75dada8a30cb",
+      "size": 9011
+    },
+    "pairs.json": {
+      "sha256": "91aa79fa23254c8155c064f9b82b4817fc63c0d3478e5d6abffc49d325ab2a05",
+      "size": 61934
+    },
+    "source-visual-review.json": {
+      "sha256": "e2f8ad2621875bf925c90c61087b926c40471d3281af8f965e74757848b8fd87",
+      "size": 5594
+    },
+    "source-zip-audit.json": {
+      "sha256": "7940cc6316d0a8b96a6b46831347320023f5454f3cb1f5cb72a61cbe32bf6d4f",
+      "size": 1251940
+    }
+  },
+  "production_src_or_pinned_yaml_changed": false,
+  "raw_shortlist_items": 40,
+  "repository_checker_without_require_git": "PASS (0 failures)",
+  "rights_owner_confirmed": "both ZIPs, local scope, no further rights questions",
+  "ruff_audit_method": "PASS",
+  "scope": "audit metadata/source ZIPs/proposal; không ML execution hoặc scientific acceptance",
+  "source_images_decoded": 12582,
+  "source_zip_strict_findings": "Student2 invalid files; behavie296 empty, không sửa raw",
+  "status": "COMPLETED_WITH_PREEXISTING_LEGACY_SEAL_MISMATCH",
+  "test11_media_or_predictions_read": false,
+  "val49_mapping_bijective_groups": 14
+}

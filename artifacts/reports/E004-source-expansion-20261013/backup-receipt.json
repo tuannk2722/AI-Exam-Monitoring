@@ -1,0 +1,26 @@
+{
+  "status": "PASS_local_snapshot_and_restore",
+  "archive": "archive/e004-source-expansion-20261013.zip",
+  "archive_sha256": "0c67e1eebd2655e7e02b774c363772ae9ef1a8f67e386627afb20eddad74f595",
+  "files": 2582,
+  "unique_blobs": 2176,
+  "original_bytes": 524096692,
+  "archive_bytes": 397426002,
+  "restored_package_files": 1102,
+  "restore_scope": [
+    "data/processed/pilot-b/pilot-b-20261013-v8",
+    "data/processed/e004-cohorts/E004-EX-development-20261013",
+    "data/processed/e004-cohorts/E004-EX-holdout-reserve-20261013"
+  ],
+  "local_only": true,
+  "remote_upload": false,
+  "same_drive_not_off_device": true,
+  "dvc_pointer": "archive/e004-source-expansion-20261013.zip.dvc",
+  "scope": "Three exact intake ZIPs, new review/accepted evidence, V8 and two cohort packages, config and current Python source. Older raw sources retained in history-20261010 archive.",
+  "excluded_post_snapshot_receipts": [
+    "backup-receipt.json",
+    "delivery-checks.json"
+  ],
+  "cleanup_restore_after_verification": true,
+  "receipt_generation_note": "Initial receipt serialization used len(int); corrected count from verified restored package files. Archive bytes unchanged."
+}

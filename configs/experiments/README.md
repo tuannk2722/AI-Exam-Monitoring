@@ -7,7 +7,14 @@
 | [E001](E001.yaml), [smoke](E001-smoke.yaml) | Frozen CPU probe v4 lịch sử | [Approval](../../docs/experiments/E001-approval.json); final test có protocol riêng qua reports index |
 | [E002](E002.yaml), [smoke](E002-smoke.yaml) | Frozen CPU probe v5 lịch sử | [Approval](../../docs/experiments/E002-approval.json), không test mới/promotion |
 | [E003](E003.yaml), [smoke](E003-smoke.yaml) | Frozen CPU probe v6 lịch sử | [Approval](../../docs/experiments/E003-approval.json), không holdout/promotion |
-| [E004 proposal](E004-proposal.md) | Design/comparator/compute/promotion gates Draft | Không config chạy được hoặc approval |
+| [E004 proposal](E004-proposal.md) | Snapshot thiết kế/gates đã được audit pin | Trạng thái hiện hành/owner approval ở companion execution; không runnable config |
+| [E004 freeze proposal 2026-10-11](E004-freeze-proposal-20261011.md) | Snapshot cohorts/objective/BN/checkpoint/test/reproducibility plan | Owner đã approve tài liệu/thiết kế; giữ chữ Draft và bytes của snapshot, chưa quyền exact run/test |
+| [E004 data execution 2026-10-11](E004-data-execution-20261011.md) | Lifecycle sau approval và các bước data/software freeze | [Receipt crop 12/10](../../artifacts/reports/E004-source-review-20261011/owner-review-receipt-20261012.json); nhãn/geometry đã đóng, group/roles/cohorts và G1–G3 còn thiếu |
 | [E004-plan YAML](E004-plan.yaml) | Snapshot proposal đã được audit pin | Giữ bytes; original paths giải thích trong companion proposal |
+| [E004 execution readiness 12/10](E004-execution-readiness-20261012.md) | Evidence dữ liệu còn thiếu và compute đề xuất sau implementation | Chưa runnable config/approval; software evidence qua reports |
 
 Config mới cần identity/hypothesis/inputs/protocol/owner và approval đúng config trước run. Config được report pin giữ nguyên dù còn Draft; revision mới có identity riêng. Proposal ghi lifecycle/decision và link results; metrics ở hồ sơ run. JSON approvals dưới `docs/experiments` giữ original path do code/config phụ thuộc.
+
+Trạng thái E004 sau ngày 13/10: [V9 và waiver support mới](../../artifacts/reports/E004-v9-consolidation-20261013/README.md). Các yêu cầu bù quota trong snapshot trước đã được owner miễn; protocol/cohort và exact run configs đã được duyệt và thực thi trong revision V9.
+
+Bước hiện hành: [E004 V9 execution freeze](../../artifacts/reports/E004-v9-execution-20261013/README.md), [recipe](E004-v9-execution-20261013/recipe-proposal.yaml), [protocol](E004-v9-execution-20261013/protocol-proposal.json). Exact configs E004-V9-LP.yaml và E004-V9-L4.yaml đã thực thi FINISHED; xem report kết quả. Recipe/protocol proposal giữ snapshot gốc.

@@ -1,0 +1,15 @@
+{
+  "package": "data/processed/pilot-b/pilot-b-20261013-v8",
+  "status": "accepted",
+  "records": 927,
+  "reviewed_crops": 898,
+  "checksums_sha256": "2d43f4eb9a70987dd643d4a5c6b635e879e147a356fa85b2eb24367d248df20e",
+  "deterministic_rebuild": "PASS",
+  "payload_files": 909,
+  "config_sha256": "abc6257b4811a1ab26e162d02bb47b864903d7fba7503943bec01cd9669d758b",
+  "test_protocol": "inherited integrity-only; no prediction or visual review",
+  "export_metadata": {
+    "path": "data/interim/E004-source-expansion-20261013/v8-export-metadata.json",
+    "sha256": "f732bbb3e6b11c29745f92638739666b20f0c89202bb602db7f3dde835220dbd"
+  }
+}

@@ -474,7 +474,7 @@ def build_pilot_package(
         "require a separate owner decision before an end-to-end baseline. "
         "No training, model metrics, DVC upload, or external media sharing is performed.\n\n"
         "Limitations:\n\n- Pilot counts do not demonstrate real-exam generalization.\n"
-        "- Phone positive coverage is concentrated in the Roboflow source.\n"
+        "- Check coverage by source and family before claiming domain diversity.\n"
         "- Static images do not establish behavior duration, intent, or violations.\n"
         + "".join(f"- {str(item)}\n" for item in limitations)
     )

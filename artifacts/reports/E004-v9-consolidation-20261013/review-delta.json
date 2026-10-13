@@ -1,0 +1,2236 @@
+{
+  "review_sha256": "be720ec2f7798fb2459b29bcfdc94c09c4a95a69cf50107be4aae88265c38f67",
+  "rows": [
+    {
+      "sample_id": "E004-EX-C001",
+      "original_states": [
+        "P",
+        "P"
+      ],
+      "role": "Train bổ sung",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C002",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Train bổ sung",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C003",
+      "original_states": [
+        "U",
+        "N"
+      ],
+      "role": "Train bổ sung",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C004",
+      "original_states": [
+        "P",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C005",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C006",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C007",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Train bổ sung",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C008",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Train bổ sung",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C009",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C010",
+      "original_states": [
+        "P",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C011",
+      "original_states": [
+        "U",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C012-R2",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C013",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Train bổ sung",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C014",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C015",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "N/P",
+      "explicit_states": [
+        "N",
+        "P"
+      ],
+      "status": "explicit_owner_revision"
+    },
+    {
+      "sample_id": "E004-EX-C016",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C017",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C018",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Train bổ sung",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C019",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C020",
+      "original_states": [
+        "P",
+        "U"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C021-R2",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C022",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "New-development",
+      "decision": "N/N, giải thích: người đang cầm tài liệu (phao) chứ không phải phone",
+      "explicit_states": [
+        "N",
+        "N"
+      ],
+      "status": "explicit_owner_revision"
+    },
+    {
+      "sample_id": "E004-EX-C023",
+      "original_states": [
+        "P",
+        "U"
+      ],
+      "role": "Train bổ sung",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C024",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C025",
+      "original_states": [
+        "P",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C026",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C027",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C028",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C029",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C030",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "New-development",
+      "decision": "Có phone cạnh tay của áo kem chứ không phải là người đang cầm",
+      "explicit_states": null,
+      "status": "needs_visual_resolution"
+    },
+    {
+      "sample_id": "E004-EX-C031",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C032",
+      "original_states": [
+        "U",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C033",
+      "original_states": [
+        "P",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C034",
+      "original_states": [
+        "U",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C035",
+      "original_states": [
+        "P",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C036",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C037",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C038",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C039",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C040",
+      "original_states": [
+        "P",
+        "U"
+      ],
+      "role": "Reserve holdout",
+      "decision": "P/N, giải thích: người đang nhìn vào thiết bị của mình",
+      "explicit_states": [
+        "P",
+        "N"
+      ],
+      "status": "explicit_owner_revision"
+    },
+    {
+      "sample_id": "E004-EX-C041",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C042",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "role": "New-development",
+      "decision": "P/P, giải thích: có phone đặt trên cạnh mép bàn bị che một ít bởi tài liệu",
+      "explicit_states": [
+        "P",
+        "P"
+      ],
+      "status": "explicit_owner_revision"
+    },
+    {
+      "sample_id": "E004-EX-C043",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C044",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C045",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C046",
+      "original_states": [
+        "P",
+        "U"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C047",
+      "original_states": [
+        "P",
+        "U"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C048",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C049",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C050",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "role": "New-development",
+      "decision": "N/P, giải thích: hai tay người đều có thể quan sát rõ và không có dấu hiệu phone",
+      "explicit_states": [
+        "N",
+        "P"
+      ],
+      "status": "explicit_owner_revision"
+    },
+    {
+      "sample_id": "E004-EX-C051",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C052-R2",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C053",
+      "original_states": [
+        "U",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C054",
+      "original_states": [
+        "P",
+        "P"
+      ],
+      "role": "New-development",
+      "decision": "N/P, giải thích: người đang cầm tài liệu chứ không phải phone",
+      "explicit_states": [
+        "N",
+        "P"
+      ],
+      "status": "explicit_owner_revision"
+    },
+    {
+      "sample_id": "E004-EX-C055",
+      "original_states": [
+        "P",
+        "P"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C056",
+      "original_states": [
+        "P",
+        "P"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C057",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C058",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C059-R2",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C060",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C061",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C062",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C063",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C064",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C065",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C066",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C067",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C068",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C069",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C070",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C071",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C072",
+      "original_states": [
+        "P",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C073",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C074",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C075",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C076",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C077",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C078",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Train bổ sung",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C079",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Train bổ sung",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C080",
+      "original_states": [
+        "P",
+        "P"
+      ],
+      "role": "Train bổ sung",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C081",
+      "original_states": [
+        "P",
+        "U"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C082",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Train bổ sung",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C083",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Train bổ sung",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C084",
+      "original_states": [
+        "U",
+        "N"
+      ],
+      "role": "Train bổ sung",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C085",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Train bổ sung",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C086",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C087",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C088",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C089",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Train bổ sung",
+      "decision": "N/P, giải thích: anchor áo xanh nhìn sang laptop của người ngồi cạnh",
+      "explicit_states": [
+        "N",
+        "P"
+      ],
+      "status": "explicit_owner_revision"
+    },
+    {
+      "sample_id": "E004-EX-C090",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C091",
+      "original_states": [
+        "U",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "N/N, giải thích: nhìn rất rõ tay và không có dấu hiệu của phone",
+      "explicit_states": [
+        "N",
+        "N"
+      ],
+      "status": "explicit_owner_revision"
+    },
+    {
+      "sample_id": "E004-EX-C092",
+      "original_states": [
+        "U",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Không biết là đang crop ai",
+      "explicit_states": null,
+      "status": "needs_visual_resolution"
+    },
+    {
+      "sample_id": "E004-EX-C093",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C094",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C095",
+      "original_states": [
+        "U",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C096",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "P/P, giải thích: có phone cạnh sách trên bàn, crop nên tập trung vào đúng anchor",
+      "explicit_states": [
+        "P",
+        "P"
+      ],
+      "status": "explicit_owner_revision"
+    },
+    {
+      "sample_id": "E004-EX-C097",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C098",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C099",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C100",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C101",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Có phone trên bàn nhưng bị che một phần bên dưới tay",
+      "explicit_states": null,
+      "status": "needs_visual_resolution"
+    },
+    {
+      "sample_id": "E004-EX-C102",
+      "original_states": [
+        "U",
+        "N"
+      ],
+      "role": "Train bổ sung",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C103",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C104",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C105",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C106",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C107",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C108",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C109",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C110",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C111",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Xem xét lại, vì không có dấu hiệu phone",
+      "explicit_states": null,
+      "status": "needs_visual_resolution"
+    },
+    {
+      "sample_id": "E004-EX-C112",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C113",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Xem xét lại, vì không có dấu hiệu phone",
+      "explicit_states": null,
+      "status": "needs_visual_resolution"
+    },
+    {
+      "sample_id": "E004-EX-C114",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C115",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Xem xét lại, vì không có dấu hiệu phone",
+      "explicit_states": null,
+      "status": "needs_visual_resolution"
+    },
+    {
+      "sample_id": "E004-EX-C117",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C118",
+      "original_states": [
+        "P",
+        "U"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C119",
+      "original_states": [
+        "P",
+        "U"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C120",
+      "original_states": [
+        "P",
+        "U"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C121",
+      "original_states": [
+        "P",
+        "U"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C122",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "role": "New-development",
+      "decision": "Xem xét lại, vì không có dấu hiệu phone",
+      "explicit_states": null,
+      "status": "needs_visual_resolution"
+    },
+    {
+      "sample_id": "E004-EX-C123",
+      "original_states": [
+        "P",
+        "U"
+      ],
+      "role": "New-development",
+      "decision": "P/N, không nhìn thấy toàn bộ đầu nhưng hướng mắt vẫn rõ là nhìn vào own-paper",
+      "explicit_states": [
+        "P",
+        "N"
+      ],
+      "status": "explicit_owner_revision"
+    },
+    {
+      "sample_id": "E004-EX-C124",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C125",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C126",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C127",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C128",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C129",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C130",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "New-development",
+      "decision": "Crop tập chung đúng anchor hơn",
+      "explicit_states": null,
+      "status": "needs_visual_resolution"
+    },
+    {
+      "sample_id": "E004-EX-C131",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C132",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C133",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Người đang đứng này có tính không? và phone thì hoàn toàn không có",
+      "explicit_states": null,
+      "status": "needs_visual_resolution"
+    },
+    {
+      "sample_id": "E004-EX-C134",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Crop đúng người hơn và một tay của người tiền cảnh để dưới bàn",
+      "explicit_states": null,
+      "status": "needs_visual_resolution"
+    },
+    {
+      "sample_id": "E004-EX-C135",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C136",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Train bổ sung",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C137",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Crop tập chung vào anchor hơn",
+      "explicit_states": null,
+      "status": "needs_visual_resolution"
+    },
+    {
+      "sample_id": "E004-EX-C138",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Crop tập chung vào anchor hơn",
+      "explicit_states": null,
+      "status": "needs_visual_resolution"
+    },
+    {
+      "sample_id": "E004-EX-C139",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C140",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C141-R2",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C142",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Train bổ sung",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C143",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C144",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C145",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C146",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C147",
+      "original_states": [
+        "P",
+        "U"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C148",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C149",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C150",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C151",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Train bổ sung",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C152",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C153",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Crop tập chung vào anchor hơn",
+      "explicit_states": null,
+      "status": "needs_visual_resolution"
+    },
+    {
+      "sample_id": "E004-EX-C154-R2",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C155",
+      "original_states": [
+        "U",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "N/N",
+      "explicit_states": [
+        "N",
+        "N"
+      ],
+      "status": "explicit_owner_revision"
+    },
+    {
+      "sample_id": "E004-EX-C156",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Một tay đặt dưới bàn nhưng có vẻ không có dấu hiệu sử dụng điện thoại",
+      "explicit_states": null,
+      "status": "needs_visual_resolution"
+    },
+    {
+      "sample_id": "E004-EX-C157-R2",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C158",
+      "original_states": [
+        "U",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "N/N, tại sao tay gần mặt lại cho phone là U? có thể quan sát rõ là không có dấu hiệu gì của phone mà",
+      "explicit_states": [
+        "N",
+        "N"
+      ],
+      "status": "explicit_owner_revision"
+    },
+    {
+      "sample_id": "E004-EX-C159-R2",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C160",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C161",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C162",
+      "original_states": [
+        "U",
+        "N"
+      ],
+      "role": "Train bổ sung",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C163",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Train bổ sung",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C164",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Train bổ sung",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C165",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "role": "New-development",
+      "decision": "N/P, tay đặt trên bàn và không có vật gì gây nhiễu",
+      "explicit_states": [
+        "N",
+        "P"
+      ],
+      "status": "explicit_owner_revision"
+    },
+    {
+      "sample_id": "E004-EX-C166-R2",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C167",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C168",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C169",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C170-R2",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C171",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C172",
+      "original_states": [
+        "U",
+        "N"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C173",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C174",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C175",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C176",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C177",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C178",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C179",
+      "original_states": [
+        "N",
+        "U"
+      ],
+      "role": "Train bổ sung",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C180",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C181",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C182",
+      "original_states": [
+        "P",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C183",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Train bổ sung",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C184",
+      "original_states": [
+        "N",
+        "U"
+      ],
+      "role": "Train bổ sung",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C185",
+      "original_states": [
+        "P",
+        "U"
+      ],
+      "role": "Train bổ sung",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C186",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C187",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C188",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C189",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C190",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C191",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C192",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C193",
+      "original_states": [
+        "U",
+        "N"
+      ],
+      "role": "New-development",
+      "decision": "N/N, vật trong tay rõ ràng là bút",
+      "explicit_states": [
+        "N",
+        "N"
+      ],
+      "status": "explicit_owner_revision"
+    },
+    {
+      "sample_id": "E004-EX-C194",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C195",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C196",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C197",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C198",
+      "original_states": [
+        "P",
+        "P"
+      ],
+      "role": "New-development",
+      "decision": "Vật trong tay là tài liệu chứ không phải phone, nhưng trong crop có phone ở bàn dưới",
+      "explicit_states": null,
+      "status": "needs_visual_resolution"
+    },
+    {
+      "sample_id": "E004-EX-C199",
+      "original_states": [
+        "P",
+        "P"
+      ],
+      "role": "New-development",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    },
+    {
+      "sample_id": "E004-EX-C200",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "role": "Reserve holdout",
+      "decision": "Approve",
+      "explicit_states": null,
+      "status": "unchanged_accepted"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "accepted_new_development": 0,
+  "accepted_new_holdout": 0,
+  "accepted_new_train": 0,
+  "all_canonical_targets_null_mask_zero": true,
+  "confirmed_train_scene_original40": 12,
+  "confirmed_train_scene_sources": 36,
+  "draft_crop_count": 55,
+  "expanded_sources": 80,
+  "inspected_sources": 120,
+  "original_shortlist_sources": 40,
+  "proven_independent_groups": 0,
+  "role_proposals": {
+    "holdout_candidate_reserve": 60,
+    "new_development_candidate_quarantine": 23,
+    "semantic_quarantine_no_crop_selected": 1,
+    "train_supplement_candidate": 36
+  }
+}

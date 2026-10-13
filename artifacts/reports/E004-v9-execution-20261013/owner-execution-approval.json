@@ -1,0 +1,14 @@
+{
+  "status": "approved",
+  "owner": "repository-owner",
+  "recorded_at": "2026-10-13",
+  "decision": "Đồng ý toàn bộ phương án và cho chạy theo điều kiện trên",
+  "scope": "716 train;71 selection;diagnostic49/comparator48/added35;reserve199 closed; family12+53 acceptance; implement revision, freeze exact configs and smoke then matched within approved budget after checks PASS. M4 INCONCLUSIVE, no automatic Selected or final-test access.",
+  "protocol_proposal_sha256": "5f3aaa18994e19b47269bcc3bad2e206d2e3f2ee9c85505c301e02100003535b",
+  "recipe_proposal_sha256": "5e71d185f330c33f55bdaffcb068b136f6d0c165db8371e0d11a42d50b7fded5",
+  "membership_sha256": "d37e27cfcc901d52af19fda3c9e52db66fa71c512ad490390e53c4ccf6a5bff1",
+  "family_enrollment_sha256": "24bdfed0cb2d7c2ec111235ef581452c6489e28f2b2ebfd8e34606c9109fc1c7",
+  "waive_independence": true,
+  "waive_support_shortfalls": true,
+  "final_test_inference_authorized": false
+}

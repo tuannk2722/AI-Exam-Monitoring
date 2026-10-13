@@ -1,0 +1,1604 @@
+{
+  "reviewer": "repository-owner",
+  "reviewed_at": "2026-10-13",
+  "recorded_at": "2026-10-13",
+  "decision": "Đồng ý toàn bộ batch và vai trò",
+  "scope": "Exact 199 crop contexts and all 326 frame family/role reservations; no independence claim or new final-test freeze.",
+  "qa_sha256": "9065bf406cda852d2bab39405b292353d1eb165c0c2054b3add5fb838fac3fb6",
+  "family_proposal_sha256": "0d0bef164aae5ed4aac0a78eb2916f5d9bb7bf2a1dca49da334c2a6445413cb2",
+  "batch_pins_sha256": "99b35616f4c82423da9c524c0339155e35ab619717c8686693f0073ed8396f94",
+  "assignments": [
+    {
+      "sample_id": "E004-EX-C001",
+      "frame_id": "PX-001",
+      "family_id": "EX-PX-001",
+      "role": "train_candidate",
+      "context": "unknown",
+      "crop_sha256": "d1f8c9ebed5724996e6d9149410c3c6779b87de804063514635c775bf5e6c402"
+    },
+    {
+      "sample_id": "E004-EX-C002",
+      "frame_id": "PX-002",
+      "family_id": "EX-PX-002",
+      "role": "train_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "8da897ba3e5dd41a9a69054edd723a2b66017e7527795ef25e8afb8c332b958e"
+    },
+    {
+      "sample_id": "E004-EX-C003",
+      "frame_id": "PX-002",
+      "family_id": "EX-PX-002",
+      "role": "train_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "480aa471d294e57b0f32bc40af239af99688285481f7c0ca1816a4e702e7ea1c"
+    },
+    {
+      "sample_id": "E004-EX-C004",
+      "frame_id": "PX-003",
+      "family_id": "CF-Q137",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "48c7fffea2e051f9feb3329d01ef53f30db0c9aa1ff728245976361b96b6adec"
+    },
+    {
+      "sample_id": "E004-EX-C005",
+      "frame_id": "PX-003",
+      "family_id": "CF-Q137",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "8a41e76ad843f1c412f5d7e47a91d786a5807716018f57fe97bbfbfb73e795f2"
+    },
+    {
+      "sample_id": "E004-EX-C006",
+      "frame_id": "PX-004",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "9bef57bf8d41e2a50ca3b7f0c07449d34b3ee3bda714d21e83e50922c552ebee"
+    },
+    {
+      "sample_id": "E004-EX-C007",
+      "frame_id": "PX-005",
+      "family_id": "EX-PX-005",
+      "role": "train_candidate",
+      "context": "unknown",
+      "crop_sha256": "0a399f7e54a40508e340ef461847fbcb985226548301e1d2f017f3e1808a5a16"
+    },
+    {
+      "sample_id": "E004-EX-C008",
+      "frame_id": "PX-006",
+      "family_id": "EX-PX-006",
+      "role": "train_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "0a0df174a405b0e7f54df8b1f3fca6bb4d45e11b2931e69b7f81b0324c395262"
+    },
+    {
+      "sample_id": "E004-EX-C009",
+      "frame_id": "PX-007",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "32adb59282086db1ff8e2b6e3f8cb11e41c0b0274172195f3891222a404597b7"
+    },
+    {
+      "sample_id": "E004-EX-C010",
+      "frame_id": "PX-008",
+      "family_id": "CF-Q131",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "5a4d51c9d8a9ddcd75dd458f5b0c7d82331084212983d1c26c7ffb50141007fb"
+    },
+    {
+      "sample_id": "E004-EX-C011",
+      "frame_id": "PX-008",
+      "family_id": "CF-Q131",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "052763d4e9897dc29de444a0043a9fbde302ac7c689d9bf99e0db080d909cd12"
+    },
+    {
+      "sample_id": "E004-EX-C012-R2",
+      "frame_id": "PX-009",
+      "family_id": "CF-Q126",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "77b2ebb27ee3d821237f30391040f07afc0a3d7fc64bcbdae06123732f755e1e"
+    },
+    {
+      "sample_id": "E004-EX-C013",
+      "frame_id": "PX-010",
+      "family_id": "EX-PX-010",
+      "role": "train_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "bfbefc03fa703c2e64c64648ebfee325010b5962f3bc52070630135ff86c5e40"
+    },
+    {
+      "sample_id": "E004-EX-C014",
+      "frame_id": "PX-011",
+      "family_id": "CF-Q137",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "6158524f781a204766bcf0ccfba178cfba4728523ded702209ea94bc8e2f9c82"
+    },
+    {
+      "sample_id": "E004-EX-C015",
+      "frame_id": "PX-011",
+      "family_id": "CF-Q137",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "213bdf743d5eda2bdfbf009785b375579880e5307e53721ddf6aa553e465bf5c"
+    },
+    {
+      "sample_id": "E004-EX-C016",
+      "frame_id": "PX-012",
+      "family_id": "CF-Q131",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "45d2e3ec4685df1515942f66fde6cc754beb4cea21f152eac9fac1200a66cffb"
+    },
+    {
+      "sample_id": "E004-EX-C017",
+      "frame_id": "PX-013",
+      "family_id": "CF-Q169",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "7e385cd7987ebbb1d8a0544a5c05c0a48edd270e7c15b687638096acaa70fa0b"
+    },
+    {
+      "sample_id": "E004-EX-C018",
+      "frame_id": "PX-014",
+      "family_id": "EX-PX-014",
+      "role": "train_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "e17a4722309c38e217758a75d599affd57e0576ddf058720d04ef1e2ab93d37b"
+    },
+    {
+      "sample_id": "E004-EX-C019",
+      "frame_id": "PX-015",
+      "family_id": "CF-Q137",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "a8adf6ba57c03663d5976583e97f54feb089db55fd2cf821f8a1fd8ea753111a"
+    },
+    {
+      "sample_id": "E004-EX-C020",
+      "frame_id": "PX-015",
+      "family_id": "CF-Q137",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "a969227a3dc6a28810a84ce7352723a7aa6384c721434ce635687d37ffe4a812"
+    },
+    {
+      "sample_id": "E004-EX-C021-R2",
+      "frame_id": "PX-016",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "8a1a0542637fc8dc2660cf74e11cb2b735f9956e4f016abef0f160b2cf42de9e"
+    },
+    {
+      "sample_id": "E004-EX-C022",
+      "frame_id": "PX-017",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "6b845d8fadd5d6646f8dee18cf13403e30ed89622003087e3ffe82b6b4cba0db"
+    },
+    {
+      "sample_id": "E004-EX-C023",
+      "frame_id": "PX-018",
+      "family_id": "EX-STUDY-BOOK",
+      "role": "train_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "877cb33dfcbecc6d347580cedb174b94cb2ef01b7ec5f69032a134daa685e755"
+    },
+    {
+      "sample_id": "E004-EX-C024",
+      "frame_id": "PX-020",
+      "family_id": "CF-Q126",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "03c0b049ce572a586eb6485e6bbd75eb5baa95c88f89d1f6125e0ebcf2078a64"
+    },
+    {
+      "sample_id": "E004-EX-C025",
+      "frame_id": "PX-021",
+      "family_id": "EX-PX-021",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "d2764b7276d502ca665d1ab9a873998eb923f3d3b4c8c734488c64e79867c70d"
+    },
+    {
+      "sample_id": "E004-EX-C026",
+      "frame_id": "PX-022",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "236cb804a5e0bb320dec146b8483f39147c1e81cb822f9c1932973cfcc891785"
+    },
+    {
+      "sample_id": "E004-EX-C027",
+      "frame_id": "PX-022",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "146c934826957032ee0432dfa6ea7cd0b5be6b52f2122ab9be7954f8aa53b3ee"
+    },
+    {
+      "sample_id": "E004-EX-C028",
+      "frame_id": "PX-024",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "d242581c1f773e82c348b5675154a4d25a2d0a58e1600cb714f8462de5714dde"
+    },
+    {
+      "sample_id": "E004-EX-C029",
+      "frame_id": "PX-025",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "75e12ae8823d4da40bf9b1e4b43229851e1a8783a878053aecd718a815b61779"
+    },
+    {
+      "sample_id": "E004-EX-C030",
+      "frame_id": "PX-026",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "35bde5d66642f02daf75aadce8e8f42508104c43cd94f1de791b7e962f06e9d2"
+    },
+    {
+      "sample_id": "E004-EX-C031",
+      "frame_id": "PX-027",
+      "family_id": "EX-PX-027",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "2d3843509d5565af509166f2962185ffdf16e1f7bf61ea60d0b77f2fa812981a"
+    },
+    {
+      "sample_id": "E004-EX-C032",
+      "frame_id": "PX-027",
+      "family_id": "EX-PX-027",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "c585f7bd881fd7a5e5816ed9da265316582fd8ce7628884777d91cdb4ffd322d"
+    },
+    {
+      "sample_id": "E004-EX-C033",
+      "frame_id": "PX-028",
+      "family_id": "CF-Q112",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "2571f19387b1550dd4795515a4f0bd5603c9e61b983178788663149f958095a1"
+    },
+    {
+      "sample_id": "E004-EX-C034",
+      "frame_id": "PX-029",
+      "family_id": "CF-Q137",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "a164d825970fb9de6f9f2c0cb9bfbd7fce5dac13f8f538d98c63b372da424afb"
+    },
+    {
+      "sample_id": "E004-EX-C035",
+      "frame_id": "PX-029",
+      "family_id": "CF-Q137",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "407a06f860744279094c9933c99cc64b819f6ff7cef27311f736f1e5dc05dac8"
+    },
+    {
+      "sample_id": "E004-EX-C036",
+      "frame_id": "PX-030",
+      "family_id": "CF-Q137",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "c42e8701c3499d2b17d8288f50ec3e4b59bd025bb1a71370134d4b78eee7f030"
+    },
+    {
+      "sample_id": "E004-EX-C037",
+      "frame_id": "PX-030",
+      "family_id": "CF-Q137",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "a1b76e877e545ce2167f9104531a5045c718739aebcd89e387800ee1044ebcff"
+    },
+    {
+      "sample_id": "E004-EX-C038",
+      "frame_id": "PX-031",
+      "family_id": "CF-Q131",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "4ccd904054d85e6c5393ef8921425738ec2cd7390f1b65df4199c896acd283d7"
+    },
+    {
+      "sample_id": "E004-EX-C039",
+      "frame_id": "PX-033",
+      "family_id": "EX-PX-033",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "fe6901e5d973516b7443022338996d593f2260ad04323c70fd53c4b518f4ea57"
+    },
+    {
+      "sample_id": "E004-EX-C040",
+      "frame_id": "PX-034",
+      "family_id": "CF-Q133",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "11c0235ef7f1f49f3d96aab7b9716b9b664ac276eaa37b7d8f199ea121fc7864"
+    },
+    {
+      "sample_id": "E004-EX-C041",
+      "frame_id": "PX-035",
+      "family_id": "EX-LECTURE",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "59143bfd22c0a226a449edb76a600f932de35a365e0b918ac31418bb1b9e674d"
+    },
+    {
+      "sample_id": "E004-EX-C042",
+      "frame_id": "PX-035",
+      "family_id": "EX-LECTURE",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "e2aad9b73be63ab3d046591c790f6da48799656d440656ab23152880df37a205"
+    },
+    {
+      "sample_id": "E004-EX-C043",
+      "frame_id": "PX-037",
+      "family_id": "CF-Q126",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "a372e3735168c5737bce16d54349ac8fa955a6469b0acdc83afdd73783fc5607"
+    },
+    {
+      "sample_id": "E004-EX-C044",
+      "frame_id": "PX-038",
+      "family_id": "EX-ROUND-DESK",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "9a3615337eb1cb3132b59061d8365ea56c5f3a0de4a2715a8dad7fb68e725811"
+    },
+    {
+      "sample_id": "E004-EX-C045",
+      "frame_id": "PX-041",
+      "family_id": "EX-ROUND-DESK",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "d840fd19b1520b866708417896f09970afbb272861613289ddbf73887f463e6a"
+    },
+    {
+      "sample_id": "E004-EX-C046",
+      "frame_id": "PX-042",
+      "family_id": "EX-PX-042",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "7bf8192bc7d2c5581457b873335a1478964ee91fb4de585ff83f35903970abb5"
+    },
+    {
+      "sample_id": "E004-EX-C047",
+      "frame_id": "PX-043",
+      "family_id": "EX-PX-043",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "2559c285037043528c97ccc6820b4828e959857d706b2136bb5e1f3845944cf6"
+    },
+    {
+      "sample_id": "E004-EX-C048",
+      "frame_id": "PX-044",
+      "family_id": "EX-LECTURE",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "ed260c364413ee52a447edae248cd81a86c972b97d79e994dbfd873604a5b6a4"
+    },
+    {
+      "sample_id": "E004-EX-C049",
+      "frame_id": "PX-046",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "c6755aad5babb6d234adfb7ce7920a8b2fb51b905a813c114fd1e8640261316e"
+    },
+    {
+      "sample_id": "E004-EX-C050",
+      "frame_id": "PX-047",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "cbef343baf9faafab8838a4b9135a53ce1a67613749aefe721cbecd0dc1d3510"
+    },
+    {
+      "sample_id": "E004-EX-C051",
+      "frame_id": "PX-048",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "c081640ae3943bd7bc9bd6a24e0d1bef3697f51aab3de2541fa54152fca78050"
+    },
+    {
+      "sample_id": "E004-EX-C052-R2",
+      "frame_id": "PX-051",
+      "family_id": "CF-Q133",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "10992f40532c8b5a056b3828a8bc2985320ba9b0442f5e755eadcf0573b9f6a1"
+    },
+    {
+      "sample_id": "E004-EX-C053",
+      "frame_id": "PX-052",
+      "family_id": "CF-Q133",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "364b8fe0b2496bfd81ddb39734f87cb38eb0f404a3bc174c423e38aac2923685"
+    },
+    {
+      "sample_id": "E004-EX-C054",
+      "frame_id": "PX-053",
+      "family_id": "EX-LECTURE",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "4be1e007d8fe7628af397f7162316b3c06518f8b8420cec044e4c080856123fb"
+    },
+    {
+      "sample_id": "E004-EX-C055",
+      "frame_id": "PX-055",
+      "family_id": "EX-LECTURE",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "7c71022766048eb5154717554dfd51e41d12fa2964e97f3ca4b1a025c2c8c2be"
+    },
+    {
+      "sample_id": "E004-EX-C056",
+      "frame_id": "PX-056",
+      "family_id": "EX-LECTURE",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "697e74ac59a333106e1a3a5d779b43fdbc799701a015804f42d2ae9e584a1ae6"
+    },
+    {
+      "sample_id": "E004-EX-C057",
+      "frame_id": "PX-058",
+      "family_id": "CF-Q112",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "a0d93aec006416bbc7c9112fa1dff22f9e35204d00650cc3026b08f24ee91df3"
+    },
+    {
+      "sample_id": "E004-EX-C058",
+      "frame_id": "PX-059",
+      "family_id": "CF-Q133",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "4031fc650c986094223cb2ce094ae7c351da119858e78f4407816546f1d924b0"
+    },
+    {
+      "sample_id": "E004-EX-C059-R2",
+      "frame_id": "PX-060",
+      "family_id": "CF-Q133",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "b4777753f70ac84b17aff8fd0575edbbf5fbf59510492158048642c1a665d27f"
+    },
+    {
+      "sample_id": "E004-EX-C060",
+      "frame_id": "PX-061",
+      "family_id": "CF-Q131",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "c9233189d3b0a5a48293c1cbc8cab2324c23c527d87bf11e9e2c6032aeaafccc"
+    },
+    {
+      "sample_id": "E004-EX-C061",
+      "frame_id": "PX-062",
+      "family_id": "CF-Q131",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "878441d8bb5ed569bc2eb69e3e0dd29bd4877c5f79b4e4e1b6e28d081b112618"
+    },
+    {
+      "sample_id": "E004-EX-C062",
+      "frame_id": "PX-063",
+      "family_id": "CF-Q133",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "246ee8faa950f5fb16f2688c92cccecd2addccd4192116dee351386003576fc2"
+    },
+    {
+      "sample_id": "E004-EX-C063",
+      "frame_id": "PX-064",
+      "family_id": "CF-Q137",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "bae74bb14dc602dfe8fc20f41e8853ab64fdb5bb69665ac64de986a7cf41dc12"
+    },
+    {
+      "sample_id": "E004-EX-C064",
+      "frame_id": "PX-065",
+      "family_id": "CF-Q137",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "8c0c6fd0ebd11098fe4903bc697f5451a3eef915e429ab7066b5940941c06f18"
+    },
+    {
+      "sample_id": "E004-EX-C065",
+      "frame_id": "PX-066",
+      "family_id": "CF-Q133",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "6c80763dc61f9f2ed1d2a18af6d52b3000c01c91d0789a6bae428ce4996a8806"
+    },
+    {
+      "sample_id": "E004-EX-C066",
+      "frame_id": "PX-067",
+      "family_id": "EX-LECTURE",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "cdf7886b9d3c7707093be2d2273556c902b475535965f4cdc6bcda8af82cbc0e"
+    },
+    {
+      "sample_id": "E004-EX-C067",
+      "frame_id": "US-001",
+      "family_id": "EX-US-BLUECLASS",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "b45d28aaa186ada30fda6fb861d6aefd3703bce49ec9c42f1f8df7618780fdee"
+    },
+    {
+      "sample_id": "E004-EX-C068",
+      "frame_id": "US-001",
+      "family_id": "EX-US-BLUECLASS",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "56e767ed7fee4542e900ad111dfd8db61057efff8d3f4137576159133de93e64"
+    },
+    {
+      "sample_id": "E004-EX-C069",
+      "frame_id": "US-002",
+      "family_id": "EX-US-BLUECLASS",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "7e68b3b63bcddc6098eafc8ba0dba05f5f8f08483901abb69c376787a1385a50"
+    },
+    {
+      "sample_id": "E004-EX-C070",
+      "frame_id": "US-002",
+      "family_id": "EX-US-BLUECLASS",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "c1cffc9e4b7dbe52ceed60914bc27360fa48d43354776686aaed06dfe25391aa"
+    },
+    {
+      "sample_id": "E004-EX-C071",
+      "frame_id": "US-003",
+      "family_id": "EX-US-LECTURE",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "e889993dbb7bdc33bec9910de43c09381ff91522bdd271101da994b3b23985e5"
+    },
+    {
+      "sample_id": "E004-EX-C072",
+      "frame_id": "US-003",
+      "family_id": "EX-US-LECTURE",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "cf0779424405a73b27a80e873c677ada15490441f56f0a89339fda72eec69e57"
+    },
+    {
+      "sample_id": "E004-EX-C073",
+      "frame_id": "US-005",
+      "family_id": "EX-US-BLUECLASS",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "1762ba63bdd4bb856ed81d3c391a11450e6566b6b4af41ed96dda7c135dfe188"
+    },
+    {
+      "sample_id": "E004-EX-C074",
+      "frame_id": "US-005",
+      "family_id": "EX-US-BLUECLASS",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "e525f945598a84348f2f0d8a06e3759efe8f8d80fffe024423df5035267abca9"
+    },
+    {
+      "sample_id": "E004-EX-C075",
+      "frame_id": "US-006",
+      "family_id": "EX-US-BLUECLASS",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "4e99a9620c5c4bb9a00f652d45e0e17f3756cf633cc40d7977db0993cacf2938"
+    },
+    {
+      "sample_id": "E004-EX-C076",
+      "frame_id": "US-006",
+      "family_id": "EX-US-BLUECLASS",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "a421b422ac630e2e6932bc62f5628b6e208ffa20eaad96da7bbdfd5db4e0ddac"
+    },
+    {
+      "sample_id": "E004-EX-C077",
+      "frame_id": "US-007",
+      "family_id": "EX-US-LECTURE",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "d2552258446ee93f9e77a7e95b7280b8e374af8953c2e493707a3d17298109ed"
+    },
+    {
+      "sample_id": "E004-EX-C078",
+      "frame_id": "US-008",
+      "family_id": "EX-US-OFFICE",
+      "role": "train_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "c30bd8d7f880e497a7692cf63444381ff1febd96d854cc7619f296f64cf0356e"
+    },
+    {
+      "sample_id": "E004-EX-C079",
+      "frame_id": "US-009",
+      "family_id": "EX-US-009",
+      "role": "train_candidate",
+      "context": "unknown",
+      "crop_sha256": "f117e48fd4d56e8e67c9971071ac7137aa58e47efc22ceb28756994df4b595ab"
+    },
+    {
+      "sample_id": "E004-EX-C080",
+      "frame_id": "US-010",
+      "family_id": "EX-US-OFFICE",
+      "role": "train_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "0d4d57388bfaa3ec1780e0084f7095fbadec2294fb0aedfba05d059bc661efc1"
+    },
+    {
+      "sample_id": "E004-EX-C081",
+      "frame_id": "US-011",
+      "family_id": "EX-US-011",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "9dcd4c4db48ca20fd3a8ebed21f4dde0ed3786878d1054fdd6298e611937a0d3"
+    },
+    {
+      "sample_id": "E004-EX-C082",
+      "frame_id": "US-013",
+      "family_id": "EX-STUDY-BOOK",
+      "role": "train_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "81e8d45fece930e6d9ed39da6d911fb96cef4bf7079da3365316d9d118fc844c"
+    },
+    {
+      "sample_id": "E004-EX-C083",
+      "frame_id": "US-014",
+      "family_id": "EX-STUDY-BOOK",
+      "role": "train_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "4dd247668027ccd3c80cdb98ab545829d9de82d3ea8ae4bf3611b040e18fe2a8"
+    },
+    {
+      "sample_id": "E004-EX-C084",
+      "frame_id": "US-015",
+      "family_id": "EX-US-015",
+      "role": "train_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "a9552292c8ff0c6b59609eacf3d809008535e69b59d9bc1e7c3ea8b28205d291"
+    },
+    {
+      "sample_id": "E004-EX-C085",
+      "frame_id": "US-016",
+      "family_id": "EX-US-016",
+      "role": "train_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "2e212bc7e9313ec1bcb9b9acb9b6f70f549cba85e4f2d3fec578e5ff12e05cae"
+    },
+    {
+      "sample_id": "E004-EX-C086",
+      "frame_id": "US-017",
+      "family_id": "EX-US-BLUECLASS",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "58fb0f4d77faf51c8301cbea9e8a48367dc46213da3a1dc959848c0282db03e8"
+    },
+    {
+      "sample_id": "E004-EX-C087",
+      "frame_id": "US-018",
+      "family_id": "EX-US-BLUECLASS",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "3a1cc7283c1d84b24f2178414a32c60fae9cd03049eff6d93d46d24be3aa9a8a"
+    },
+    {
+      "sample_id": "E004-EX-C088",
+      "frame_id": "US-019",
+      "family_id": "EX-US-019",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "97b20fce441ba4a7aa10e527b45869afb854125b3495df3c95d781664ba7d5fc"
+    },
+    {
+      "sample_id": "E004-EX-C089",
+      "frame_id": "US-020",
+      "family_id": "EX-US-020",
+      "role": "train_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "ef7897ead0c6b70a602c345b2e486d6a69337c5664a86ace5774a3283456ae3d"
+    },
+    {
+      "sample_id": "E004-EX-C090",
+      "frame_id": "US-022",
+      "family_id": "EX-US-022",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "8e234ba22bf7425681b8d5dc0d66905b957daa50996fc7828be7edf02f194c3f"
+    },
+    {
+      "sample_id": "E004-EX-C091",
+      "frame_id": "US-023",
+      "family_id": "EX-US-023",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "a04d8728cfbaca1d9ffa687fc35c0adeadf1732699ffb69c08266f6ce42bc33f"
+    },
+    {
+      "sample_id": "E004-EX-C092",
+      "frame_id": "US-024",
+      "family_id": "EX-US-LECTURE",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "850140771f38415e76e1e1924b815a5de2f4f24bade907eb45e23226d4376859"
+    },
+    {
+      "sample_id": "E004-EX-C093",
+      "frame_id": "US-025",
+      "family_id": "EX-US-LECTURE",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "88c57adb3d8478453e77dd7b25e49006682cef3983caf0b08e45fee509c5fcdc"
+    },
+    {
+      "sample_id": "E004-EX-C094",
+      "frame_id": "US-025",
+      "family_id": "EX-US-LECTURE",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "6ab8193a62d0b33cdfae1b362138ffa37ef50b48d4cb11eee3ff347f71642c42"
+    },
+    {
+      "sample_id": "E004-EX-C095",
+      "frame_id": "US-026",
+      "family_id": "EX-US-026",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "2c4fb32777d3070a728fb6f3e6aa9b8d7b0d29ac4d2b08596798ef944db4e211"
+    },
+    {
+      "sample_id": "E004-EX-C096",
+      "frame_id": "US-027",
+      "family_id": "EX-US-LECTURE",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "58e28fdf32b1f4ff1a75aa172e1667fb2138e9778a69955a969fc1a2ce0055a0"
+    },
+    {
+      "sample_id": "E004-EX-C097",
+      "frame_id": "US-029",
+      "family_id": "EX-US-BLUECLASS",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "e0d2b4a95d21142e4f988af2d2ff61a2da15e4d92c8df42dfcdb3fc362dfe67f"
+    },
+    {
+      "sample_id": "E004-EX-C098",
+      "frame_id": "US-029",
+      "family_id": "EX-US-BLUECLASS",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "5e1d0fb721bb236bd6386f489a9045cc28dac00fda132e27049199092d8c1eb0"
+    },
+    {
+      "sample_id": "E004-EX-C099",
+      "frame_id": "US-030",
+      "family_id": "EX-US-030",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "95edb8996d759014c16518afd10f3545568150691a15dc39ab3cd59a630d9291"
+    },
+    {
+      "sample_id": "E004-EX-C100",
+      "frame_id": "US-031",
+      "family_id": "EX-US-031",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "976881ce8a9a85479e678181996ae1ca905e4009cb68518450633077cca209f1"
+    },
+    {
+      "sample_id": "E004-EX-C101",
+      "frame_id": "US-033",
+      "family_id": "EX-US-033",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "60e677e922661c8034cb8b0fa0fa0639c9d9cd3fcd7ad74bd5e2bc2e06ea0997"
+    },
+    {
+      "sample_id": "E004-EX-C102",
+      "frame_id": "US-036",
+      "family_id": "EX-US-036",
+      "role": "train_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "68a896f1e8e64573eb0ae3d824b81ba06fd5fc828ac2032a8c1f15a9f28a8f2c"
+    },
+    {
+      "sample_id": "E004-EX-C103",
+      "frame_id": "CF-001",
+      "family_id": "CF-Q001",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "0993d971f8e60771aa4659f85b101b94807b79a20479d330f7893e58782b93fa"
+    },
+    {
+      "sample_id": "E004-EX-C104",
+      "frame_id": "CF-007",
+      "family_id": "CF-Q001",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "c09b50fab8346cbe57b902691eac6721c6224535517aae30b1448176cec41a72"
+    },
+    {
+      "sample_id": "E004-EX-C105",
+      "frame_id": "CF-009",
+      "family_id": "CF-Q009",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "4bde92e41b85752f073560cbd6854d3e26db482ac7a037d82b3f20cac10c8791"
+    },
+    {
+      "sample_id": "E004-EX-C106",
+      "frame_id": "CF-030",
+      "family_id": "CF-Q030",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "342981b5823d2fc83cfed795551274a0a40a60cbd1034ded1fdf140ca2fc8d7b"
+    },
+    {
+      "sample_id": "E004-EX-C107",
+      "frame_id": "CF-030",
+      "family_id": "CF-Q030",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "c86ea500411e7067e1695d912b45f2faeb32f1735a2c7feefbc4bc7d7b419534"
+    },
+    {
+      "sample_id": "E004-EX-C108",
+      "frame_id": "CF-030",
+      "family_id": "CF-Q030",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "a596161098e5516385131215070051ff9b037ea4d8ab95a01660f87dfaf628d8"
+    },
+    {
+      "sample_id": "E004-EX-C109",
+      "frame_id": "CF-030",
+      "family_id": "CF-Q030",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "d107868d325fb53ad83a76256e9fe846cb97b1961a418a8c6a0e69778a8f932c"
+    },
+    {
+      "sample_id": "E004-EX-C110",
+      "frame_id": "CF-030",
+      "family_id": "CF-Q030",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "997d4c56b1e611c61eeccede717d0591d0aaea78c3ea19509001fd4b96872131"
+    },
+    {
+      "sample_id": "E004-EX-C111",
+      "frame_id": "CF-041",
+      "family_id": "CF-Q030",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "04b7bd7753daf987afbf78e4e07b6e3a0c64d12453505ef33a377ee635ae564f"
+    },
+    {
+      "sample_id": "E004-EX-C112",
+      "frame_id": "CF-044",
+      "family_id": "CF-Q030",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "3481d292470670c36110f23ccc06a12c9241aecd6f8a79f173d2f08fe173c9c0"
+    },
+    {
+      "sample_id": "E004-EX-C113",
+      "frame_id": "CF-055",
+      "family_id": "CF-Q030",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "1f19b37ed9e83a7e91244868f30ef61fd657ab2b77bdbf05ca209a584462a401"
+    },
+    {
+      "sample_id": "E004-EX-C114",
+      "frame_id": "CF-061",
+      "family_id": "CF-Q061",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "d9bac830331db74b5fc3c676679b65bf4346a5f8fd4693bfab74a635c4849638"
+    },
+    {
+      "sample_id": "E004-EX-C115",
+      "frame_id": "CF-061",
+      "family_id": "CF-Q061",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "190f199c212b8b78db76a0e4294cd4b43dcb86f79bb07d361be326f0ad201161"
+    },
+    {
+      "sample_id": "E004-EX-C117",
+      "frame_id": "CF-074",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "a81048d85b3576842c61c31072e00479814eb464f548b701186a428cecaeda0c"
+    },
+    {
+      "sample_id": "E004-EX-C118",
+      "frame_id": "CF-077",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "69596e34fd0ca0801752053e55580557c56dc72c82055a8327623b537bb7e178"
+    },
+    {
+      "sample_id": "E004-EX-C119",
+      "frame_id": "CF-078",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "81796e24d15b1405bfd8fe3b7c6d1f58226ae98bb693f758ace3bfcf582994ef"
+    },
+    {
+      "sample_id": "E004-EX-C120",
+      "frame_id": "CF-081",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "51cd4443b7a9803ca283d8a33dcee808fce7f0a45a9c72e320db859bcb34c832"
+    },
+    {
+      "sample_id": "E004-EX-C121",
+      "frame_id": "CF-087",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "9d797f3f62cfd66c5ac2ff4603fca8239433c393b8f38d2ce698c6c5be5e0949"
+    },
+    {
+      "sample_id": "E004-EX-C122",
+      "frame_id": "CF-094",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "67688d2f4554c1d67dfbf1d97761ada5e6d57893d5b761e304f1b7099712e7db"
+    },
+    {
+      "sample_id": "E004-EX-C123",
+      "frame_id": "CF-096",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "e6eb42034a16c8a7b8fb8e09bde2217410f6bf43ed830eca99ddb00aee84eaa2"
+    },
+    {
+      "sample_id": "E004-EX-C124",
+      "frame_id": "CF-100",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "3b9734c0ebc9f3000820b265ddaef8377634ce49965ee910e2f2da6ca776d944"
+    },
+    {
+      "sample_id": "E004-EX-C125",
+      "frame_id": "CF-103",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "5500655e5bf045e86be44cadc96e8272538742e6c9e37541315ec95919eaee94"
+    },
+    {
+      "sample_id": "E004-EX-C126",
+      "frame_id": "CF-112",
+      "family_id": "CF-Q112",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "4c1d4d101fce9c716bbad7e09b6af2fffd40e92126db8cefc215ce0e5a1db5f4"
+    },
+    {
+      "sample_id": "E004-EX-C127",
+      "frame_id": "CF-115",
+      "family_id": "CF-Q112",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "979cb36af7109c7f86a3af62a0cb3fd5f5d6151a961c039f128cd4e0c7a569e0"
+    },
+    {
+      "sample_id": "E004-EX-C128",
+      "frame_id": "CF-117",
+      "family_id": "CF-Q112",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "a13ba5fcb7451b9e5c3a1e292efa2143299260714dfd71416645b7b50356c313"
+    },
+    {
+      "sample_id": "E004-EX-C129",
+      "frame_id": "CF-123",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "de125d2e30dabe684cc2b50546f92fe4b877b82328505a357612115d47c90f9c"
+    },
+    {
+      "sample_id": "E004-EX-C130",
+      "frame_id": "CF-127",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "c472c61a89496af24c739444fe2c9bb752fa6298c54ec239aa66bf9a52bec372"
+    },
+    {
+      "sample_id": "E004-EX-C131",
+      "frame_id": "CF-131",
+      "family_id": "CF-Q131",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "7523842a4f24cefa886050f78f74cfc1f1d7fe40b8cd473fc4e17a15ba0c3b06"
+    },
+    {
+      "sample_id": "E004-EX-C132",
+      "frame_id": "CF-132",
+      "family_id": "CF-Q126",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "cec57c919f44fda5d7bbec10fdd6bedcd1ae3aa31e30150c7110e4f82ed3a5a6"
+    },
+    {
+      "sample_id": "E004-EX-C133",
+      "frame_id": "CF-132",
+      "family_id": "CF-Q126",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "ec226a7f473667397520cf97cb240ea8eea9f9829e6f21733a8a0541e8c7f364"
+    },
+    {
+      "sample_id": "E004-EX-C134",
+      "frame_id": "CF-133",
+      "family_id": "CF-Q133",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "4d024b360e1ebfb428494d0c63bd0a29d53f8713543daefe5dd9478ddbdd7ccf"
+    },
+    {
+      "sample_id": "E004-EX-C135",
+      "frame_id": "CF-134",
+      "family_id": "CF-Q133",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "4edcfb3b9ddcb8872886e72fca0ca6b674aa795cd711e7e45c6c3d2508d1716f"
+    },
+    {
+      "sample_id": "E004-EX-C136",
+      "frame_id": "CF-136",
+      "family_id": "CF-Q136",
+      "role": "train_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "a5e28891bdabc46b7b0ba1099f189d32ecaf7a6ac500fdc1ac0adaa2735a6f81"
+    },
+    {
+      "sample_id": "E004-EX-C137",
+      "frame_id": "CF-138",
+      "family_id": "CF-Q137",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "d95c501ba51e193a66a9e61ed6081d76abb228b5e24dd6c6643067ed24792658"
+    },
+    {
+      "sample_id": "E004-EX-C138",
+      "frame_id": "CF-138",
+      "family_id": "CF-Q137",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "962c0de88560f012bc332184a184f064547cb9dd2c0bd77723f260ff485c59b9"
+    },
+    {
+      "sample_id": "E004-EX-C139",
+      "frame_id": "CF-139",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "62fc055c62eb9ad971e20661dd51e628603c9c34719bb8463fac5cb9adb34db5"
+    },
+    {
+      "sample_id": "E004-EX-C140",
+      "frame_id": "CF-140",
+      "family_id": "CF-Q137",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "bababc1ea8c3b768c4ff74097a3c91a6e82e35762b4bc7d7510de85326e20aec"
+    },
+    {
+      "sample_id": "E004-EX-C141-R2",
+      "frame_id": "CF-141",
+      "family_id": "CF-Q137",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "b0ebd76711c63a0ea63e5647fd12bded968cd3a136c89aa190a59ebeb79e6bd9"
+    },
+    {
+      "sample_id": "E004-EX-C142",
+      "frame_id": "CF-142",
+      "family_id": "CF-Q142",
+      "role": "train_candidate",
+      "context": "unknown",
+      "crop_sha256": "02d44913511da631b2912acf08c23817902e1d069ef93bbd1a1eae146d9da875"
+    },
+    {
+      "sample_id": "E004-EX-C143",
+      "frame_id": "CF-144",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "ad8d17a31c7f8a766e5fc75ca3c56fe6db7168bcd94e5688297ba080a9f7be6e"
+    },
+    {
+      "sample_id": "E004-EX-C144",
+      "frame_id": "CF-146",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "8fc17efd1e736068b0928867944df02b97208aefb1ed2fc70fec77b704f14495"
+    },
+    {
+      "sample_id": "E004-EX-C145",
+      "frame_id": "CF-147",
+      "family_id": "CF-Q137",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "020f468e7b3f76c50a451ecae51502fd8177aeb701a476df73a2efbefbeea320"
+    },
+    {
+      "sample_id": "E004-EX-C146",
+      "frame_id": "CF-147",
+      "family_id": "CF-Q137",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "c88cb0674817de9ebc4c1aec91fa9494c08e0e2abb1e2648a4dfeb8b78f5704b"
+    },
+    {
+      "sample_id": "E004-EX-C147",
+      "frame_id": "CF-148",
+      "family_id": "CF-Q137",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "31fca80e644c05768bf9c90b78f63a5ec073462dffc5865701a623c69b86180f"
+    },
+    {
+      "sample_id": "E004-EX-C148",
+      "frame_id": "CF-151",
+      "family_id": "CF-Q137",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "9abb22e8b308c5e0b004b3bea6c6ef834c6dc588dd848152d27c3a23fa0001ea"
+    },
+    {
+      "sample_id": "E004-EX-C149",
+      "frame_id": "CF-154",
+      "family_id": "CF-Q129",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "16c0466b630025942610bdfb621f23704a1c18d9d97a6876784dfd7482b5d426"
+    },
+    {
+      "sample_id": "E004-EX-C150",
+      "frame_id": "CF-154",
+      "family_id": "CF-Q129",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "bd39cc364afee5cba95d0c6f1b78b265a939ab0916a0ca04e2d1d4fca93e70c7"
+    },
+    {
+      "sample_id": "E004-EX-C151",
+      "frame_id": "CF-155",
+      "family_id": "CF-Q155",
+      "role": "train_candidate",
+      "context": "unknown",
+      "crop_sha256": "10415894c5a32ed5d159e384785705395e9c9127223f23cfea5cd57f567722e6"
+    },
+    {
+      "sample_id": "E004-EX-C152",
+      "frame_id": "CF-156",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "718e7c9a00256f4a4c6b727485bcd2b9222302d99b5ca5a24aaf85592a1f26d7"
+    },
+    {
+      "sample_id": "E004-EX-C153",
+      "frame_id": "CF-160",
+      "family_id": "CF-Q112",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "d180f467282b0f92bbbcb97e379cc704d53ea16a8dad3323ba09dd130de6e5b1"
+    },
+    {
+      "sample_id": "E004-EX-C154-R2",
+      "frame_id": "CF-162",
+      "family_id": "CF-Q112",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "1f7c2e53b649aefdccb66a555b1f95eb0919633c5ce1194516ed4caf183cf76f"
+    },
+    {
+      "sample_id": "E004-EX-C155",
+      "frame_id": "CF-163",
+      "family_id": "CF-Q112",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "de235d3e6b4e5e61d32d9b6e05f4fae04e8f73ee89e8eb28f7051f2e41dba879"
+    },
+    {
+      "sample_id": "E004-EX-C156",
+      "frame_id": "CF-164",
+      "family_id": "CF-Q112",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "399c224385b9c0ea3823289b5b25074f8599d3117851265ef980c344352f0bd8"
+    },
+    {
+      "sample_id": "E004-EX-C157-R2",
+      "frame_id": "CF-164",
+      "family_id": "CF-Q112",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "4f1fdf8e0e8d905669bfe7d55998602e62f486b829f2b5f310005f1c75212670"
+    },
+    {
+      "sample_id": "E004-EX-C158",
+      "frame_id": "CF-167",
+      "family_id": "CF-Q161",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "27caa9233b85037c155d19f9501cbbac3f087c2dbfcb48421b43333c0e7bac93"
+    },
+    {
+      "sample_id": "E004-EX-C159-R2",
+      "frame_id": "CF-168",
+      "family_id": "CF-Q112",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "0d09ec72195f20270d41f59b3b871af61058caae0015879eb17168f5cba37172"
+    },
+    {
+      "sample_id": "E004-EX-C160",
+      "frame_id": "CF-168",
+      "family_id": "CF-Q112",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "61a70625016b5f3c4dcdfd5309df4dfbdd0783d8b1e27606adec388c7b85375f"
+    },
+    {
+      "sample_id": "E004-EX-C161",
+      "frame_id": "CF-169",
+      "family_id": "CF-Q169",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "99c3c464a56cbfedfe9e49f6d463a841f8b4b07fee8e10b5056914b79622e917"
+    },
+    {
+      "sample_id": "E004-EX-C162",
+      "frame_id": "CF-170",
+      "family_id": "CF-Q170",
+      "role": "train_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "be23a3957b4afd5141f8be26e3bbeea97b279a9fd5fb3d7da9f2869d42245fa2"
+    },
+    {
+      "sample_id": "E004-EX-C163",
+      "frame_id": "CF-173",
+      "family_id": "CF-Q173",
+      "role": "train_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "7c2c3e4264dd851bb7478d2f4b4baa06e3c0f374bb2403aec67bc7ae73e7fc84"
+    },
+    {
+      "sample_id": "E004-EX-C164",
+      "frame_id": "CF-174",
+      "family_id": "CF-Q174",
+      "role": "train_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "1449460330665e309b895517199385daff877bd68e9b6ed67aa9bd03eca70135"
+    },
+    {
+      "sample_id": "E004-EX-C165",
+      "frame_id": "CF-175",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "4ca2c516445bbfef1e45ec79107b25d2fb2b5b3dbe780b47cb0572114f9df0b2"
+    },
+    {
+      "sample_id": "E004-EX-C166-R2",
+      "frame_id": "CF-178",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "98a0be5837fe56db8f8626060b69275eb01a62387766549f7f579b42f653083d"
+    },
+    {
+      "sample_id": "E004-EX-C167",
+      "frame_id": "CF-180",
+      "family_id": "CF-Q112",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "843a2599340cc0cf6eb22771311bc68f32d36c2541940191085495e632736df2"
+    },
+    {
+      "sample_id": "E004-EX-C168",
+      "frame_id": "CF-180",
+      "family_id": "CF-Q112",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "200d2b47d777c7e84ee0e7ee9ce210531a303491e8e223d84efbe67b257093d5"
+    },
+    {
+      "sample_id": "E004-EX-C169",
+      "frame_id": "CF-183",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "5fa3a88b90af044177f65bc588f597a186c5a48caa17668c89b27a39c8a327aa"
+    },
+    {
+      "sample_id": "E004-EX-C170-R2",
+      "frame_id": "CF-185",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "ce3bffeb421c85d74480332ce3bbf55d8fe89163fbb906b1a374e4cf16255079"
+    },
+    {
+      "sample_id": "E004-EX-C171",
+      "frame_id": "CF-188",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "ff82bd6a02abffd26001cb543a6329c71617169d6e58b17ba935472d2a701664"
+    },
+    {
+      "sample_id": "E004-EX-C172",
+      "frame_id": "CF-190",
+      "family_id": "CF-Q072",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "725fd4b75ec284331607e61065d841e5c8d7a612b35b85aebc111a20b3136eda"
+    },
+    {
+      "sample_id": "E004-EX-C173",
+      "frame_id": "CF-198",
+      "family_id": "CF-Q112",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "2349c22f3370945b33d90a1242e0e9890ccb4cf637e5949b0c9761be7f4118b7"
+    },
+    {
+      "sample_id": "E004-EX-C174",
+      "frame_id": "CF-201",
+      "family_id": "CF-Q112",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "d183d2aaa05cc3d2a90b4d370c1e8d73b3739602e676aa5fbdc3704c851702de"
+    },
+    {
+      "sample_id": "E004-EX-C175",
+      "frame_id": "CF-213",
+      "family_id": "CF-Q112",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "7e10a9a3dff48fa46859615e2481e99a33685f0824f7fda34043112e3c3e689d"
+    },
+    {
+      "sample_id": "E004-EX-C176",
+      "frame_id": "CF-213",
+      "family_id": "CF-Q112",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "d3fadbd017fc1060cdec13e75eb4d8cc31582c46b83e243208524371bc8ba220"
+    },
+    {
+      "sample_id": "E004-EX-C177",
+      "frame_id": "CF-215",
+      "family_id": "CF-Q112",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "3407ba9e09782b4ea56e88fc729ef1fd238bf144e81be5ec010b55b960e3a529"
+    },
+    {
+      "sample_id": "E004-EX-C178",
+      "frame_id": "US-004",
+      "family_id": "EX-US-LECTURE",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "b780503035e8e31dd36d6849122f17b11952d302e768c9f23832948fc63ca914"
+    },
+    {
+      "sample_id": "E004-EX-C179",
+      "frame_id": "US-012",
+      "family_id": "EX-US-012",
+      "role": "train_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "6653f9ff6364734d9d38124d34e79c006911a822d6c31ae6be06e092da003f29"
+    },
+    {
+      "sample_id": "E004-EX-C180",
+      "frame_id": "US-021",
+      "family_id": "EX-US-LECTURE",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "ba7760f176068ec0463b447d5f8eaea6f6fa32a10dd6d5bfdebb1b1175a2400b"
+    },
+    {
+      "sample_id": "E004-EX-C181",
+      "frame_id": "US-028",
+      "family_id": "EX-US-LECTURE",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "f03908a49ad9ef124ae12d56c2ddac8644338ec62fb555c3ec96155ae3cf9085"
+    },
+    {
+      "sample_id": "E004-EX-C182",
+      "frame_id": "US-028",
+      "family_id": "EX-US-LECTURE",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "246d11191cda9bfa4b8b2096681ed5314ab841c1c7b492ca6fbe6d6fed0e9532"
+    },
+    {
+      "sample_id": "E004-EX-C183",
+      "frame_id": "US-034",
+      "family_id": "EX-US-034",
+      "role": "train_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "533ddf8db9f8c28ccbbf1e85a442850630c2404d04a53861aefa0abf46e25db5"
+    },
+    {
+      "sample_id": "E004-EX-C184",
+      "frame_id": "US-034",
+      "family_id": "EX-US-034",
+      "role": "train_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "9c4718f9ee8c0f51e72bf79c48a134fca94f3e58e5a612a328ccecf121a6dc17"
+    },
+    {
+      "sample_id": "E004-EX-C185",
+      "frame_id": "US-035",
+      "family_id": "EX-US-035",
+      "role": "train_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "e5420e9b48341732359450d15776bd88a7aaf8a338bf94e638bdedab1d2b91a2"
+    },
+    {
+      "sample_id": "E004-EX-C186",
+      "frame_id": "PX-019",
+      "family_id": "CF-Q126",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "bd4d009eb5e70ada6b7d34f8e0572db0df6e515a9aecc4e23da5ac78a8963e8b"
+    },
+    {
+      "sample_id": "E004-EX-C187",
+      "frame_id": "PX-019",
+      "family_id": "CF-Q126",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "7eba9a10c41929bb8e80e5fdd48055f0172645260c5d667987a7b199f34dc67c"
+    },
+    {
+      "sample_id": "E004-EX-C188",
+      "frame_id": "PX-023",
+      "family_id": "CF-Q126",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "30c509d9d2c931c301417fb7e35ca47facc09c4cc133ab98615c9f1145feeac5"
+    },
+    {
+      "sample_id": "E004-EX-C189",
+      "frame_id": "PX-023",
+      "family_id": "CF-Q126",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "1a4ede852729bf157f688d204a22eb63376173273d10589f825a343aec598048"
+    },
+    {
+      "sample_id": "E004-EX-C190",
+      "frame_id": "PX-032",
+      "family_id": "CF-Q126",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "4d94e26c05dcc40e44101441eb4e8574cc5dbf25769742249804650598ab9665"
+    },
+    {
+      "sample_id": "E004-EX-C191",
+      "frame_id": "PX-036",
+      "family_id": "CF-Q137",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "c4169f4146a8d050eeadc6f29b33386af488878f37e2058b10ca015c753ae9f3"
+    },
+    {
+      "sample_id": "E004-EX-C192",
+      "frame_id": "PX-036",
+      "family_id": "CF-Q137",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "da6df1c4cee7a51cf6aac41dd28cdc7fe2c4ba1c1703414802761093b13244a2"
+    },
+    {
+      "sample_id": "E004-EX-C193",
+      "frame_id": "PX-039",
+      "family_id": "EX-ROUND-DESK",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "d5870569ce3a2c9248c3be30edbcc4325f81909088c5172ddf0b26b47ec1cae9"
+    },
+    {
+      "sample_id": "E004-EX-C194",
+      "frame_id": "PX-040",
+      "family_id": "EX-ROUND-DESK",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "40064e1d8e67fd965312ae8393034d53c99d43ca261d388c435d67198ac01bdf"
+    },
+    {
+      "sample_id": "E004-EX-C195",
+      "frame_id": "PX-045",
+      "family_id": "EX-LECTURE",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "2a17f3095dfe9fcc886b1a43c9435712cbfd928ae9ac3439a978ecbec157553b"
+    },
+    {
+      "sample_id": "E004-EX-C196",
+      "frame_id": "PX-049",
+      "family_id": "CF-Q131",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "110b68eaba0c99e9ab0ee0acca81ddd35d44898e63f50079c862161d0301be41"
+    },
+    {
+      "sample_id": "E004-EX-C197",
+      "frame_id": "PX-049",
+      "family_id": "CF-Q131",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "9e4f6c11c463c65cad4c8ebd18fd0b20ad2b6b9bd33911bc1c22d30d11421003"
+    },
+    {
+      "sample_id": "E004-EX-C198",
+      "frame_id": "PX-054",
+      "family_id": "EX-LECTURE",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "70e703dcd5876daa00c88e4a4635bd8e2933c82b7bce196e2ea690b64c58ca6b"
+    },
+    {
+      "sample_id": "E004-EX-C199",
+      "frame_id": "PX-057",
+      "family_id": "EX-LECTURE",
+      "role": "new_development",
+      "context": "confirmed_working",
+      "crop_sha256": "5ccf60fca1be0ef67e1e9e8667a873c62f7880e9d1f5aca9c5dba63f87ec628f"
+    },
+    {
+      "sample_id": "E004-EX-C200",
+      "frame_id": "PX-068",
+      "family_id": "CF-Q137",
+      "role": "reserved_holdout_candidate",
+      "context": "confirmed_working",
+      "crop_sha256": "2ad78a710b30b282b1abd3904a9daf4d697b73d7ff35ea5d182dd7115af60d84"
+    }
+  ]
+}

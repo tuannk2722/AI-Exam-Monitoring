@@ -1,0 +1,48 @@
+{
+  "new_development": {
+    "records": 71,
+    "phone": {
+      "positive": 27,
+      "negative": 33,
+      "unknown": 11
+    },
+    "looking": {
+      "negative": 38,
+      "positive": 28,
+      "unknown": 5
+    }
+  },
+  "reserved_holdout_candidate": {
+    "records": 199,
+    "phone": {
+      "unknown": 33,
+      "negative": 88,
+      "positive": 78
+    },
+    "looking": {
+      "negative": 116,
+      "positive": 75,
+      "unknown": 8
+    }
+  },
+  "train_candidate": {
+    "records": 4,
+    "phone": {
+      "positive": 2,
+      "unknown": 2
+    },
+    "looking": {
+      "negative": 2,
+      "positive": 2
+    }
+  },
+  "auxiliary_unknown": {
+    "records": 7,
+    "phone": {
+      "unknown": 7
+    },
+    "looking": {
+      "unknown": 7
+    }
+  }
+}

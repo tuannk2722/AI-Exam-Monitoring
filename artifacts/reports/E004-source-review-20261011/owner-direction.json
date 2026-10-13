@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-11",
+  "owner": "repository-owner",
+  "decision": "approve_reviewed_reports_and_proposals_and_execute_data_priorities",
+  "owner_message_verbatim": "tôi đã review toàn bộ những thay đổi bạn đã thực hiện và approve các tài liệu báo cáo, đề xuất. Tiếp theo là tiến hành thực hiện theo những gì đã đề ra",
+  "input_sha256": {
+    "artifacts/reports/E004-post-v7-audit-20261011/README.md": "30e7724bab2665b08d28df9c13de730f005a372d7eb2f3d4d8d33ab1f12b96f1",
+    "artifacts/reports/E004-post-v7-audit-20261011/source-zip-audit.json": "7940cc6316d0a8b96a6b46831347320023f5454f3cb1f5cb72a61cbe32bf6d4f",
+    "artifacts/reports/E004-post-v7-audit-20261011/validation.json": "186bbc9b23690cae4f5c0dfaa668ad8edb83440e49bf56a6b8c98d6bddb965bb",
+    "configs/experiments/E004-freeze-proposal-20261011.md": "f8741c68abb99dd65126f0845d02b49452d7a53cfbd47f1c496fd777a3af76e6",
+    "configs/experiments/E004-proposal.md": "ebecf2d5fafa1c8f17d81e74313c263e510f350da5766566bce194b4f4c412d3"
+  },
+  "authorized_actions": [
+    "source_shortlist_visual_and_lineage_review",
+    "expand_candidate_pool_when_useful",
+    "prepare_contextual_negative_draft_batch",
+    "conditional_taxonomy_proposal",
+    "approved_design_software_preparation"
+  ],
+  "not_dataset_acceptance": true,
+  "exact_new_crop_group_assignment_approval_recorded": false,
+  "training_or_final_inference_started": false
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "sample_id": "E004-EX-C030",
+    "states": [
+      "P",
+      "N"
+    ],
+    "reason": "Giữ phone P: mobile nằm cạnh tay anchor áo kem; không cần đang cầm. Không gán thiết bị của người đứng phía sau.",
+    "recrop": false,
+    "role": "New-development",
+    "owner_note": "Có phone cạnh tay của áo kem chứ không phải là người đang cầm",
+    "media_root": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C030",
+    "crop_sha256": "35bde5d66642f02daf75aadce8e8f42508104c43cd94f1de791b7e962f06e9d2",
+    "input_sha256": "4f305ae3492b562dfab22732cdc546f63c306f7dce15a95ad20534033cc4dde1",
+    "status": "pending_owner_exception_acceptance"
+  },
+  {
+    "sample_id": "E004-EX-C092",
+    "states": [
+      "U",
+      "N"
+    ],
+    "reason": "Anchor nam áo tối gần máy ảnh nhất; tay/bàn chưa đủ xác nhận phone N.",
+    "recrop": true,
+    "role": "Reserve holdout",
+    "owner_note": "Không biết là đang crop ai",
+    "media_root": "data/interim/E004-v9-consolidation-20261013/crops/E004-EX-C092-V9R1",
+    "crop_sha256": "35dfe26adf98d992fedb81bee56f388829b2a2c709ea61c468556f725e0fa3cd",
+    "input_sha256": "b5b89e97663c3e40383440dfc6ec34bd570b3ef4e859bdddaa2c2740e74aa1b7",
+    "status": "pending_owner_exception_acceptance"
+  },
+  {
+    "sample_id": "E004-EX-C096",
+    "states": [
+      "P",
+      "P"
+    ],
+    "reason": "Anchor áo denim bên phải, mobile trên bàn trước người; giữ hướng nhìn sang người bên trái.",
+    "recrop": true,
+    "role": "Reserve holdout",
+    "owner_note": "P/P, giải thích: có phone cạnh sách trên bàn, crop nên tập trung vào đúng anchor",
+    "media_root": "data/interim/E004-v9-consolidation-20261013/crops/E004-EX-C096-V9R1",
+    "crop_sha256": "64e97da3c16953b8643f914d19a08793399b973bfcccc84d9b4c7b7dfdd52000",
+    "input_sha256": "4178f67d03bb6ceab7e45ef1e9dadbd6a46c501b3a5e49473eefd81a433d81bc",
+    "status": "pending_owner_exception_acceptance"
+  },
+  {
+    "sample_id": "E004-EX-C101",
+    "states": [
+      "P",
+      "N"
+    ],
+    "reason": "Đồng ý có mobile trên bàn dưới tay anchor áo xanh; sửa phone N thành P.",
+    "recrop": false,
+    "role": "Reserve holdout",
+    "owner_note": "Có phone trên bàn nhưng bị che một phần bên dưới tay",
+    "media_root": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C101",
+    "crop_sha256": "60e677e922661c8034cb8b0fa0fa0639c9d9cd3fcd7ad74bd5e2bc2e06ea0997",
+    "input_sha256": "463977c9cbfa524deeddbc5c26eb4d7b128e747adcfc7f5cad10bb60c0dad11e",
+    "status": "pending_owner_exception_acceptance"
+  },
+  {
+    "sample_id": "E004-EX-C111",
+    "states": [
+      "N",
+      "P"
+    ],
+    "reason": "Hai tay/vùng bàn quan sát được, một tay chống má; đề xuất N theo yêu cầu rà lại của owner.",
+    "recrop": false,
+    "role": "Reserve holdout",
+    "owner_note": "Xem xét lại, vì không có dấu hiệu phone",
+    "media_root": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C111",
+    "crop_sha256": "04b7bd7753daf987afbf78e4e07b6e3a0c64d12453505ef33a377ee635ae564f",
+    "input_sha256": "102ceb5108f25e01ec0e3d9824acea7bf6aa8e178d11d4b5deb15192e5490fc3",
+    "status": "pending_owner_exception_acceptance"
+  },
+  {
+    "sample_id": "E004-EX-C113",
+    "states": [
+      "N",
+      "P"
+    ],
+    "reason": "Tay chống mặt và tay trên bàn quan sát được; đề xuất phone N, giữ looking P.",
+    "recrop": false,
+    "role": "Reserve holdout",
+    "owner_note": "Xem xét lại, vì không có dấu hiệu phone",
+    "media_root": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C113",
+    "crop_sha256": "1f19b37ed9e83a7e91244868f30ef61fd657ab2b77bdbf05ca209a584462a401",
+    "input_sha256": "c4f93bb06dc001bf47a14bc480670ac35a6b74c04b474fab881a8c386898f9c4",
+    "status": "pending_owner_exception_acceptance"
+  },
+  {
+    "sample_id": "E004-EX-C115",
+    "states": [
+      "U",
+      "P"
+    ],
+    "reason": "Tay gần đầu bị che và ảnh nhỏ; chưa đủ bằng chứng absence mobile. Giữ U thay vì suy N từ không thấy thiết bị.",
+    "recrop": false,
+    "role": "Reserve holdout",
+    "owner_note": "Xem xét lại, vì không có dấu hiệu phone",
+    "media_root": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C115",
+    "crop_sha256": "190f199c212b8b78db76a0e4294cd4b43dcb86f79bb07d361be326f0ad201161",
+    "input_sha256": "b7fd92bde1e4f06f452054cb2f7903e0187b5b0a7342a0794f2b404935645fd4",
+    "status": "pending_owner_exception_acceptance"
+  },
+  {
+    "sample_id": "E004-EX-C122",
+    "states": [
+      "U",
+      "P"
+    ],
+    "reason": "Một tay/vùng hông bị khuất; giữ phone U. Hướng nhìn sang người khác rõ.",
+    "recrop": false,
+    "role": "New-development",
+    "owner_note": "Xem xét lại, vì không có dấu hiệu phone",
+    "media_root": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C122",
+    "crop_sha256": "67688d2f4554c1d67dfbf1d97761ada5e6d57893d5b761e304f1b7099712e7db",
+    "input_sha256": "01d60fd43ad3d15570270f4c49b589f063dd5739a612fabb2df1933b4b8caa99",
+    "status": "pending_owner_exception_acceptance"
+  },
+  {
+    "sample_id": "E004-EX-C130",
+    "states": [
+      "P",
+      "N"
+    ],
+    "reason": "Anchor kính áo xanh đen; mobile trong tay, nhìn vào thiết bị riêng.",
+    "recrop": true,
+    "role": "New-development",
+    "owner_note": "Crop tập chung đúng anchor hơn",
+    "media_root": "data/interim/E004-v9-consolidation-20261013/crops/E004-EX-C130-V9R1",
+    "crop_sha256": "f4de10d6e3737545dc4eb8d708f9d0b32c20fb1723e6daecf588976857dcbaef",
+    "input_sha256": "4f2d67b8393bb630c4cb05a441c973694b096d3ed74b492a9402e4d514cc9806",
+    "status": "pending_owner_exception_acceptance"
+  },
+  {
+    "sample_id": "E004-EX-C133",
+    "states": [
+      "N",
+      "P"
+    ],
+    "reason": "Đứng không tự loại mẫu hoặc tạo lớp mới. Anchor áo vest không có mobile; nhìn sang thiết bị của người bên cạnh. Mobile người bên cạnh không thuộc anchor.",
+    "recrop": false,
+    "role": "Reserve holdout",
+    "owner_note": "Người đang đứng này có tính không? và phone thì hoàn toàn không có",
+    "media_root": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C133",
+    "crop_sha256": "ec226a7f473667397520cf97cb240ea8eea9f9829e6f21733a8a0541e8c7f364",
+    "input_sha256": "edb4c9b2992f4db5be141fe8a683b5c61c9b3b86c8af67de21f89b3e5590ca74",
+    "status": "pending_owner_exception_acceptance"
+  },
+  {
+    "sample_id": "E004-EX-C134",
+    "states": [
+      "U",
+      "P"
+    ],
+    "reason": "Anchor tóc xoăn tiền cảnh; một tay dưới bàn, chưa đủ phone N; nhìn ra ngoài bài.",
+    "recrop": true,
+    "role": "Reserve holdout",
+    "owner_note": "Crop đúng người hơn và một tay của người tiền cảnh để dưới bàn",
+    "media_root": "data/interim/E004-v9-consolidation-20261013/crops/E004-EX-C134-V9R1",
+    "crop_sha256": "57bf6f633de4b2d762216d151a3013a992da2c1cd993957a0a7a2796026447c5",
+    "input_sha256": "daf9ea53d907b7ad13b07e8d3cfbf6bdf3326e35313a4c0025d367315554297d",
+    "status": "pending_owner_exception_acceptance"
+  },
+  {
+    "sample_id": "E004-EX-C137",
+    "states": [
+      "P",
+      "N"
+    ],
+    "reason": "Anchor tết tóc áo xanh cầm mobile; bao trọn phần người nhìn thấy và thiết bị.",
+    "recrop": true,
+    "role": "Reserve holdout",
+    "owner_note": "Crop tập chung vào anchor hơn",
+    "media_root": "data/interim/E004-v9-consolidation-20261013/crops/E004-EX-C137-V9R1",
+    "crop_sha256": "948372c848eaa4c4f780c56897a86cf21a79e925e4fe56801f840f4095518781",
+    "input_sha256": "f0149e88a508ec42632677b0a759c010bb9687ddb717a1343172780c67a906a9",
+    "status": "pending_owner_exception_acceptance"
+  },
+  {
+    "sample_id": "E004-EX-C138",
+    "states": [
+      "P",
+      "N"
+    ],
+    "reason": "Anchor áo caro đỏ phía sau; tập trung người và mobile riêng, giữ phần che khuất đúng thực tế.",
+    "recrop": true,
+    "role": "Reserve holdout",
+    "owner_note": "Crop tập chung vào anchor hơn",
+    "media_root": "data/interim/E004-v9-consolidation-20261013/crops/E004-EX-C138-V9R1",
+    "crop_sha256": "29b937dd9a73a5b8747d0775f2f39e91c2fc5b19bc4d2859247bc31251272bf1",
+    "input_sha256": "4d1ec49c8a20e7857fd7879318099cf43d06079c84f2ec942190466f7430ac62",
+    "status": "pending_owner_exception_acceptance"
+  },
+  {
+    "sample_id": "E004-EX-C153",
+    "states": [
+      "N",
+      "N"
+    ],
+    "reason": "Anchor áo hoa đen vàng đang viết; hai tay và giấy rõ, giảm người nền.",
+    "recrop": true,
+    "role": "Reserve holdout",
+    "owner_note": "Crop tập chung vào anchor hơn",
+    "media_root": "data/interim/E004-v9-consolidation-20261013/crops/E004-EX-C153-V9R1",
+    "crop_sha256": "d054da64e0e921ae165d9ed9c7af16784ed7dfb88f749825f4c179669cd9bcaf",
+    "input_sha256": "defabbe64d6f78e649a6350ddabfd27f977d26ea7bf7cce2059f9253ecdb139e",
+    "status": "pending_owner_exception_acceptance"
+  },
+  {
+    "sample_id": "E004-EX-C156",
+    "states": [
+      "U",
+      "N"
+    ],
+    "reason": "Một tay/vùng bàn khuất; đề xuất U cho phone thay vì N. Giữ looking N.",
+    "recrop": false,
+    "role": "Reserve holdout",
+    "owner_note": "Một tay đặt dưới bàn nhưng có vẻ không có dấu hiệu sử dụng điện thoại",
+    "media_root": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C156",
+    "crop_sha256": "399c224385b9c0ea3823289b5b25074f8599d3117851265ef980c344352f0bd8",
+    "input_sha256": "cafd23a0ee69eb2d6bc36281000a9d5e1126cf7bfba1290c5641aa00dd437c71",
+    "status": "pending_owner_exception_acceptance"
+  },
+  {
+    "sample_id": "E004-EX-C198",
+    "states": [
+      "U",
+      "P"
+    ],
+    "reason": "Vật trong tay là tài liệu; thiết bị ở bàn dưới không đủ attribution cho anchor. Sửa phone P thành U, giữ looking P.",
+    "recrop": false,
+    "role": "New-development",
+    "owner_note": "Vật trong tay là tài liệu chứ không phải phone, nhưng trong crop có phone ở bàn dưới",
+    "media_root": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C198",
+    "crop_sha256": "70e703dcd5876daa00c88e4a4635bd8e2933c82b7bce196e2ea690b64c58ca6b",
+    "input_sha256": "adfbcb61d088ac5a552df8560cca94fbd2ba28e634ba8084a99ddeea9d7a1eda",
+    "status": "pending_owner_exception_acceptance"
+  }
+]

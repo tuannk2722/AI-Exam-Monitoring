@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "scope": "source audit, crop acceptance, prepared packages; not training or promotion acceptance",
+  "frames_assessed": 222,
+  "draft_crop_count": 33,
+  "selected_source_frames": 31,
+  "new_owner_accepted_crops": 33,
+  "new_known_cells": 57,
+  "previous_batch_accepted_crops": 20,
+  "source_original_split_crosscheck": "PASS all 20",
+  "source_crop_input224_pixel_and_hash_checks": "PASS all 33",
+  "strict_codec_roundtrip": "PASS pending 33, accepted 20 + 33",
+  "whole_family_role_crossing": "none among 33 reviewed crops and reserved families",
+  "package_payload_checksums": "PASS 2 packages",
+  "deterministic_rebuild": "PASS 2 packages reversed input order, exact payload equality",
+  "training_started": false,
+  "test_media_or_inference_accessed": false,
+  "release_status": "prepared_pending_gates",
+  "pins": {
+    "artifacts/reports/E004-consolidated-frames-20261013/inventory-summary.json": "adda54fcb089fcbef94517fd7c7d9178859de9a88ffa58d1fcf6b33c781421f0",
+    "artifacts/reports/E004-consolidated-frames-20261013/frame-assessment.json": "39f089e47d051e468835a38b763abfb9cad9c029d70ca4abad24a44b4fbb5ff0",
+    "artifacts/reports/E004-consolidated-frames-20261013/overlap-screen.json": "1ec2ac7b588997acefeb112d188cdc962820ba544305cea69dcded1ec3ea1d5a",
+    "artifacts/reports/E004-consolidated-frames-20261013/crop-proposals.json": "540cd3918e5a68a5755d61b8eb37edef1b279ab856b23dd4dbeb2177094f4b1c",
+    "artifacts/reports/E004-consolidated-frames-20261013/qa-proposals.json": "4b38067817d4c2edbcb9b61e6a53abdc60a44633e5211fd623a9879173fccba0",
+    "artifacts/reports/E004-consolidated-frames-20261013/owner-rights.json": "b147be08c7ab85feba9d90f9587858ca3a31b35613e1762a5aded7602620655e",
+    "artifacts/reports/E004-consolidated-frames-20261013/owner-crop-decisions.json": "21b007fc674bf7a7dfba40961956b807ebee68c160536ceb70097bc611d67212",
+    "artifacts/reports/E004-consolidated-frames-20261013/owner-crop-receipt.json": "9c8ac3a24d499421fcbaf5b06ef388c4ce9fb9336064fa94db31ddc838f811f2",
+    "artifacts/reports/E004-consolidated-frames-20261013/owner-family-roles.json": "acefd0348c0b657cc3b67b1a724bfa2c7083436a29adf1d94749e764af61308e",
+    "artifacts/reports/E004-consolidated-frames-20261013/package-config.json": "17067fbccfc8afa12164b4d7bac4c5f7fd6cd213b9dcd5417957245c32873fd4",
+    "artifacts/reports/E004-consolidated-frames-20261013/package-pointers.json": "6ae7925673bb406b67dc79e6d22ca59606636f6087c0365cf380d5e01dacb089",
+    "artifacts/reports/E004-consolidated-frames-20261013/support-proposal.json": "f24f743da49ad97624f1c65dce46a2f30433ed12db12eced626f858e491030c1"
+  },
+  "local_pins": {
+    "data/interim/E004-consolidated-frames-20261013/inventory.json": "11a0fab9facb747ca5a32109373ffb2984274ad7e7db7ef3fc352a8c57b76f68",
+    "data/interim/E004-consolidated-frames-20261013/pending-ledger.jsonl": "a46d13ae8144f98906c4f87ccf8b1492ceb31020c18eea7024016bb6e080a2c8",
+    "data/interim/E004-consolidated-frames-20261013/family-accepted-ledger.jsonl": "c84178682e9eb6a6b9480f82242cfa29011675b04c100753b0aac4ce795f53cb",
+    "data/interim/E004-consolidated-frames-20261013/REVIEW.html": "f361d668e5d2be75d2e58779079761a714fb2f64b60369b4c8a04c95dc55a914"
+  }
+}

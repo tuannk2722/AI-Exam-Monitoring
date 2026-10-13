@@ -1,0 +1,574 @@
+{
+  "target_order": [
+    "phone_use",
+    "looking_around"
+  ],
+  "input_size": 224,
+  "fill": [
+    124,
+    116,
+    104
+  ],
+  "candidates": [
+    {
+      "candidate_id": "E004-SX-C001",
+      "review_id": "SX-001",
+      "source_id": "behavie",
+      "member_sha256": "e0e5db9677db47ae43ffb03df29ee1d4d691f8b39a503f6d87daaa578154386e",
+      "source_sha256": "3d98e641d48e0453a141673eb2862bf01f47f726e8b9be215360aae9cb0a6c49",
+      "person_xyxy": [
+        1180,
+        190,
+        1635,
+        730
+      ],
+      "context_xyxy": [
+        1135,
+        165,
+        1680,
+        765
+      ],
+      "draft_states": [
+        "P",
+        "P"
+      ],
+      "draft_scene_boundary": "BEH-wood-armchairs",
+      "role_proposal": "holdout_candidate_reserve",
+      "phenotype": "visual_review_support_expansion",
+      "reason": "Điện thoại rõ trong tay anchor áo xám kính; đầu quay ra phía người khác, ngoài mặt bàn riêng.",
+      "owner_approved": false
+    },
+    {
+      "candidate_id": "E004-SX-C002",
+      "review_id": "SX-001",
+      "source_id": "behavie",
+      "member_sha256": "e0e5db9677db47ae43ffb03df29ee1d4d691f8b39a503f6d87daaa578154386e",
+      "source_sha256": "3d98e641d48e0453a141673eb2862bf01f47f726e8b9be215360aae9cb0a6c49",
+      "person_xyxy": [
+        535,
+        150,
+        925,
+        790
+      ],
+      "context_xyxy": [
+        520,
+        125,
+        950,
+        830
+      ],
+      "draft_states": [
+        "N",
+        "P"
+      ],
+      "draft_scene_boundary": "BEH-wood-armchairs",
+      "role_proposal": "holdout_candidate_reserve",
+      "phenotype": "visual_review_support_expansion",
+      "reason": "Anchor áo cam: hai tay và bàn riêng quan sát được, không mobile; đầu nhìn ra phía trước ngoài vùng bàn.",
+      "owner_approved": false
+    },
+    {
+      "candidate_id": "E004-SX-C003",
+      "review_id": "SX-003",
+      "source_id": "behavie",
+      "member_sha256": "e7f3918be902e8c6fadaf88aa4eec288305573bed65e3230532cd01b032aed8b",
+      "source_sha256": "0f79fd66ceeac85429e0d935393128b0617076cdbeb26947603d51c019cc23b8",
+      "person_xyxy": [
+        635,
+        345,
+        1230,
+        1080
+      ],
+      "context_xyxy": [
+        600,
+        315,
+        1270,
+        1080
+      ],
+      "draft_states": [
+        "P",
+        "N"
+      ],
+      "draft_scene_boundary": "BEH-wood-armchairs",
+      "role_proposal": "holdout_candidate_reserve",
+      "phenotype": "visual_review_support_expansion",
+      "reason": "Anchor hoodie giữa: mobile có cụm camera ở tay gần túi; đầu cúi về vùng tay/bàn riêng.",
+      "owner_approved": false
+    },
+    {
+      "candidate_id": "E004-SX-C004",
+      "review_id": "SX-003",
+      "source_id": "behavie",
+      "member_sha256": "e7f3918be902e8c6fadaf88aa4eec288305573bed65e3230532cd01b032aed8b",
+      "source_sha256": "0f79fd66ceeac85429e0d935393128b0617076cdbeb26947603d51c019cc23b8",
+      "person_xyxy": [
+        1140,
+        345,
+        1960,
+        1080
+      ],
+      "context_xyxy": [
+        1080,
+        310,
+        1960,
+        1080
+      ],
+      "draft_states": [
+        "P",
+        "N"
+      ],
+      "draft_scene_boundary": "BEH-wood-armchairs",
+      "role_proposal": "holdout_candidate_reserve",
+      "phenotype": "visual_review_support_expansion",
+      "reason": "Anchor áo khoác bên phải: cầm mobile rõ, đầu hướng vào vùng thiết bị riêng.",
+      "owner_approved": false
+    },
+    {
+      "candidate_id": "E004-SX-C005",
+      "review_id": "SX-007",
+      "source_id": "behavie",
+      "member_sha256": "73b20b49d332639286f06faf1323acdd8a03527c7bd74c58c520fe285d267a5f",
+      "source_sha256": "6c0d688cf9ceff21d09c766b24b018a8ce3320023137c8728aa297e0fffb85e6",
+      "person_xyxy": [
+        680,
+        400,
+        1420,
+        1060
+      ],
+      "context_xyxy": [
+        610,
+        365,
+        1480,
+        1080
+      ],
+      "draft_states": [
+        "P",
+        "N"
+      ],
+      "draft_scene_boundary": "BEH-wood-armchairs",
+      "role_proposal": "holdout_candidate_reserve",
+      "phenotype": "visual_review_support_expansion",
+      "reason": "Anchor duy nhất áo tím: mobile ở hai tay, hướng đầu xuống thiết bị; không suy nhìn ngang từ tư thế thân.",
+      "owner_approved": false
+    },
+    {
+      "candidate_id": "E004-SX-C006",
+      "review_id": "SX-002",
+      "source_id": "behavie",
+      "member_sha256": "0c3407b19df204db1c9524eceb8e21da85429b362045678fb594f79cdeb46227",
+      "source_sha256": "b0969678549ab21fd85bba40703851e8430434b3eb741937acd9dfa107922c1a",
+      "person_xyxy": [
+        840,
+        500,
+        1035,
+        738
+      ],
+      "context_xyxy": [
+        800,
+        475,
+        1060,
+        765
+      ],
+      "draft_states": [
+        "P",
+        "N"
+      ],
+      "draft_scene_boundary": "BEH-bright-worktables",
+      "role_proposal": "holdout_candidate_reserve",
+      "phenotype": "visual_review_support_expansion",
+      "reason": "Anchor bàn giữa phía trái: mobile giữa hai tay trên bàn; nhìn xuống thiết bị riêng.",
+      "owner_approved": false
+    },
+    {
+      "candidate_id": "E004-SX-C007",
+      "review_id": "SX-002",
+      "source_id": "behavie",
+      "member_sha256": "0c3407b19df204db1c9524eceb8e21da85429b362045678fb594f79cdeb46227",
+      "source_sha256": "b0969678549ab21fd85bba40703851e8430434b3eb741937acd9dfa107922c1a",
+      "person_xyxy": [
+        1040,
+        495,
+        1220,
+        765
+      ],
+      "context_xyxy": [
+        1015,
+        470,
+        1280,
+        790
+      ],
+      "draft_states": [
+        "P",
+        "N"
+      ],
+      "draft_scene_boundary": "BEH-bright-worktables",
+      "role_proposal": "holdout_candidate_reserve",
+      "phenotype": "visual_review_support_expansion",
+      "reason": "Anchor bàn giữa phía phải: mobile giữa hai tay; đầu cúi về mặt bàn/thiết bị.",
+      "owner_approved": false
+    },
+    {
+      "candidate_id": "E004-SX-C008",
+      "review_id": "SX-005",
+      "source_id": "behavie",
+      "member_sha256": "dcb1617f06886be0cfbbd46d51246ee34beccbf6eba0f71f90811e464748dae1",
+      "source_sha256": "0c1408d0426a86c24324671d4d14b5ba81e9f65cfb01113a2bf174800ab653f5",
+      "person_xyxy": [
+        935,
+        10,
+        1605,
+        1080
+      ],
+      "context_xyxy": [
+        870,
+        0,
+        1730,
+        1080
+      ],
+      "draft_states": [
+        "P",
+        "P"
+      ],
+      "draft_scene_boundary": "BEH-wood-armchairs",
+      "role_proposal": "holdout_candidate_reserve",
+      "phenotype": "visual_review_support_expansion",
+      "reason": "Mobile trên tay ghế gắn đúng anchor áo xám; đang nhổm dậy nhìn ra ngoài vùng bàn. Đứng không tạo class mới.",
+      "owner_approved": false
+    },
+    {
+      "candidate_id": "E004-SX-C009",
+      "review_id": "SX-008",
+      "source_id": "behavie",
+      "member_sha256": "2c087553c71158422020a60c8c5fbbcc35aac2c1e5c702e038b127e5ef4402f1",
+      "source_sha256": "93b1863e97c5ea9f397a1ab70e1b98f4f7a4e868fa02954c7fed9580f1d036ac",
+      "person_xyxy": [
+        1160,
+        85,
+        1750,
+        960
+      ],
+      "context_xyxy": [
+        1080,
+        50,
+        1810,
+        995
+      ],
+      "draft_states": [
+        "P",
+        "P"
+      ],
+      "draft_scene_boundary": "BEH-wood-armchairs",
+      "role_proposal": "holdout_candidate_reserve",
+      "phenotype": "visual_review_support_expansion",
+      "reason": "Mobile trên tay ghế dưới tay anchor áo xám; đầu hướng sang ngoài vùng bàn riêng.",
+      "owner_approved": false
+    },
+    {
+      "candidate_id": "E004-SX-C010",
+      "review_id": "SX-013",
+      "source_id": "behavie",
+      "member_sha256": "e47fa1f7ad094bc79ba17d89cf95f12e7cce955dda058ed02be012783b08b371",
+      "source_sha256": "8f90fc2267cdf31ae952afbe2986956259aa6f3affb1ce46888aa3d07398c96f",
+      "person_xyxy": [
+        330,
+        430,
+        670,
+        1080
+      ],
+      "context_xyxy": [
+        290,
+        395,
+        735,
+        1080
+      ],
+      "draft_states": [
+        "N",
+        "N"
+      ],
+      "draft_scene_boundary": "BEH-worn-yellow-desks",
+      "role_proposal": "holdout_candidate_reserve",
+      "phenotype": "visual_review_support_expansion",
+      "reason": "Anchor nữ bàn trước trái: tay/bút/sách và mặt bàn đủ thấy, không mobile; cúi nhìn sách riêng.",
+      "owner_approved": false
+    },
+    {
+      "candidate_id": "E004-SX-C011",
+      "review_id": "SX-013",
+      "source_id": "behavie",
+      "member_sha256": "e47fa1f7ad094bc79ba17d89cf95f12e7cce955dda058ed02be012783b08b371",
+      "source_sha256": "8f90fc2267cdf31ae952afbe2986956259aa6f3affb1ce46888aa3d07398c96f",
+      "person_xyxy": [
+        1130,
+        430,
+        1425,
+        950
+      ],
+      "context_xyxy": [
+        1080,
+        390,
+        1490,
+        975
+      ],
+      "draft_states": [
+        "N",
+        "P"
+      ],
+      "draft_scene_boundary": "BEH-worn-yellow-desks",
+      "role_proposal": "holdout_candidate_reserve",
+      "phenotype": "visual_review_support_expansion",
+      "reason": "Anchor nam bàn trước phải: hai tay và sách quan sát được, không mobile; đầu quay sang người phía sau/trái.",
+      "owner_approved": false
+    },
+    {
+      "candidate_id": "E004-SX-C012",
+      "review_id": "SX-013",
+      "source_id": "behavie",
+      "member_sha256": "e47fa1f7ad094bc79ba17d89cf95f12e7cce955dda058ed02be012783b08b371",
+      "source_sha256": "8f90fc2267cdf31ae952afbe2986956259aa6f3affb1ce46888aa3d07398c96f",
+      "person_xyxy": [
+        730,
+        265,
+        865,
+        400
+      ],
+      "context_xyxy": [
+        685,
+        235,
+        925,
+        475
+      ],
+      "draft_states": [
+        "U",
+        "P"
+      ],
+      "draft_scene_boundary": "BEH-worn-yellow-desks",
+      "role_proposal": "holdout_candidate_reserve",
+      "phenotype": "visual_review_support_expansion",
+      "reason": "Anchor nam hàng sau bên trái quay đầu sang bên; chi tiết tay/bàn nhỏ nên phone U.",
+      "owner_approved": false
+    },
+    {
+      "candidate_id": "E004-SX-C013",
+      "review_id": "SX-014",
+      "source_id": "behavie",
+      "member_sha256": "96e9582fde3a903b96c6c3192cb883170d10413867ac3d173e4b18534a92fcdd",
+      "source_sha256": "7e3931b059dbcaf637650f4c90ef5c5b5d32174ae7f83b45d0d3a594e4ad8ccd",
+      "person_xyxy": [
+        775,
+        540,
+        1008,
+        1070
+      ],
+      "context_xyxy": [
+        690,
+        510,
+        1070,
+        1080
+      ],
+      "draft_states": [
+        "N",
+        "N"
+      ],
+      "draft_scene_boundary": "BEH-yellow-bunting",
+      "role_proposal": "holdout_candidate_reserve",
+      "phenotype": "visual_review_support_expansion",
+      "reason": "Anchor áo trắng giữa phía trước: hai tay trên bàn trống, nhìn xuống bàn riêng.",
+      "owner_approved": false
+    },
+    {
+      "candidate_id": "E004-SX-C014",
+      "review_id": "SX-014",
+      "source_id": "behavie",
+      "member_sha256": "96e9582fde3a903b96c6c3192cb883170d10413867ac3d173e4b18534a92fcdd",
+      "source_sha256": "7e3931b059dbcaf637650f4c90ef5c5b5d32174ae7f83b45d0d3a594e4ad8ccd",
+      "person_xyxy": [
+        1570,
+        260,
+        1815,
+        650
+      ],
+      "context_xyxy": [
+        1450,
+        230,
+        1940,
+        820
+      ],
+      "draft_states": [
+        "N",
+        "P"
+      ],
+      "draft_scene_boundary": "BEH-yellow-bunting",
+      "role_proposal": "holdout_candidate_reserve",
+      "phenotype": "visual_review_support_expansion",
+      "reason": "Anchor đứng bên phải: hai tay trên bàn quan sát rõ không mobile, đầu quay ngang khỏi bàn.",
+      "owner_approved": false
+    },
+    {
+      "candidate_id": "E004-SX-C015",
+      "review_id": "SX-014",
+      "source_id": "behavie",
+      "member_sha256": "96e9582fde3a903b96c6c3192cb883170d10413867ac3d173e4b18534a92fcdd",
+      "source_sha256": "7e3931b059dbcaf637650f4c90ef5c5b5d32174ae7f83b45d0d3a594e4ad8ccd",
+      "person_xyxy": [
+        700,
+        420,
+        840,
+        560
+      ],
+      "context_xyxy": [
+        635,
+        385,
+        890,
+        665
+      ],
+      "draft_states": [
+        "N",
+        "P"
+      ],
+      "draft_scene_boundary": "BEH-yellow-bunting",
+      "role_proposal": "holdout_candidate_reserve",
+      "phenotype": "visual_review_support_expansion",
+      "reason": "Anchor áo xanh hàng sau bên trái: hai tay cầm giấy trên bàn, đầu quay sang trái ngoài giấy.",
+      "owner_approved": false
+    },
+    {
+      "candidate_id": "E004-SX-C016",
+      "review_id": "SX-014",
+      "source_id": "behavie",
+      "member_sha256": "96e9582fde3a903b96c6c3192cb883170d10413867ac3d173e4b18534a92fcdd",
+      "source_sha256": "7e3931b059dbcaf637650f4c90ef5c5b5d32174ae7f83b45d0d3a594e4ad8ccd",
+      "person_xyxy": [
+        335,
+        700,
+        665,
+        1045
+      ],
+      "context_xyxy": [
+        280,
+        675,
+        830,
+        1080
+      ],
+      "draft_states": [
+        "N",
+        "P"
+      ],
+      "draft_scene_boundary": "BEH-yellow-bunting",
+      "role_proposal": "holdout_candidate_reserve",
+      "phenotype": "visual_review_support_expansion",
+      "reason": "Anchor áo xanh gần máy bên trái: hai tay trên bàn không mobile, đầu quay sang người bên trái.",
+      "owner_approved": false
+    },
+    {
+      "candidate_id": "E004-SX-C017",
+      "review_id": "SX-016",
+      "source_id": "behavie",
+      "member_sha256": "2464a1a1125bf2eea08cb87d9ded2b4f3e1226656739846e3d3ba6882775462f",
+      "source_sha256": "c5590e8eb0cf1de50a2671cd24124791e3bd50e908d9a05395705da151299329",
+      "person_xyxy": [
+        80,
+        420,
+        480,
+        805
+      ],
+      "context_xyxy": [
+        0,
+        390,
+        560,
+        960
+      ],
+      "draft_states": [
+        "N",
+        "N"
+      ],
+      "draft_scene_boundary": "BEH-worn-yellow-desks",
+      "role_proposal": "holdout_candidate_reserve",
+      "phenotype": "visual_review_support_expansion",
+      "reason": "Anchor trước trái: calculator rời ở mép bàn là hard negative, tay không mobile; đầu cúi về tay/bàn riêng.",
+      "owner_approved": false
+    },
+    {
+      "candidate_id": "E004-SX-C018",
+      "review_id": "SX-016",
+      "source_id": "behavie",
+      "member_sha256": "2464a1a1125bf2eea08cb87d9ded2b4f3e1226656739846e3d3ba6882775462f",
+      "source_sha256": "c5590e8eb0cf1de50a2671cd24124791e3bd50e908d9a05395705da151299329",
+      "person_xyxy": [
+        588,
+        315,
+        820,
+        625
+      ],
+      "context_xyxy": [
+        515,
+        285,
+        855,
+        700
+      ],
+      "draft_states": [
+        "N",
+        "N"
+      ],
+      "draft_scene_boundary": "BEH-worn-yellow-desks",
+      "role_proposal": "holdout_candidate_reserve",
+      "phenotype": "visual_review_support_expansion",
+      "reason": "Anchor giữa trái: tay/bàn trống đủ quan sát, đầu cúi vào vùng bàn riêng.",
+      "owner_approved": false
+    },
+    {
+      "candidate_id": "E004-SX-C019",
+      "review_id": "SX-016",
+      "source_id": "behavie",
+      "member_sha256": "2464a1a1125bf2eea08cb87d9ded2b4f3e1226656739846e3d3ba6882775462f",
+      "source_sha256": "c5590e8eb0cf1de50a2671cd24124791e3bd50e908d9a05395705da151299329",
+      "person_xyxy": [
+        850,
+        515,
+        1250,
+        885
+      ],
+      "context_xyxy": [
+        795,
+        470,
+        1370,
+        1000
+      ],
+      "draft_states": [
+        "U",
+        "N"
+      ],
+      "draft_scene_boundary": "BEH-worn-yellow-desks",
+      "role_proposal": "holdout_candidate_reserve",
+      "phenotype": "visual_review_support_expansion",
+      "reason": "Anchor kính trước phải: một tay dưới bàn nên phone U; bút/hộp trên bàn, đầu cúi vào vùng riêng.",
+      "owner_approved": false
+    },
+    {
+      "candidate_id": "E004-SX-C020",
+      "review_id": "SX-009",
+      "source_id": "behavie",
+      "member_sha256": "8e7f654a1c6035905df84736014c53f0f1882927b5bb572a83b00412de5a415e",
+      "source_sha256": "25ea419f13ca518d437c76bab81924226ae77cbc9da005fa58b466fd1f6ef073",
+      "person_xyxy": [
+        1060,
+        190,
+        1200,
+        332
+      ],
+      "context_xyxy": [
+        1000,
+        155,
+        1280,
+        415
+      ],
+      "draft_states": [
+        "U",
+        "P"
+      ],
+      "draft_scene_boundary": "BEH-blue-tiered",
+      "role_proposal": "holdout_candidate_reserve",
+      "phenotype": "visual_review_support_expansion",
+      "reason": "Anchor áo sáng hàng giữa quay đầu/thân rõ sang người bên phải; tay và thiết bị bị context che nên phone U.",
+      "owner_approved": false
+    }
+  ]
+}

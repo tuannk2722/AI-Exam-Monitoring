@@ -1,0 +1,4582 @@
+{
+  "reference_records": 13431,
+  "algorithm": "canonical difference_hash LANCZOS + RGB12x8; fingerprints are retrieval hints, no test media",
+  "rows": [
+    {
+      "id": "PX-001",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "a1f0a316d98ce5a087fdf5eba23115ef058d8e1930d8f5c8321384143c5914d3",
+          "distance": 13
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "c1bd09984473849b0b11be4cce7db66c34fae368fd54bbf294f88563e1a15c75",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "3a1e5af259a6cd3a789e18cdd60ed47131b165f3636bfae74f1fedff207f6c83",
+          "distance": 15
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "e29888a06fc6f6edd177b3becdc329051f0432fd2ca48aa70392dc4bca88f230",
+          "distance": 27.84722222222222
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "cee3267c64b69906f399954530dfa0fa26368ca6e1a27c7386fdc20e3ecff700",
+          "distance": 27.84722222222222
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "9f562dc1debd1173667dc414b2d126fa90d2c062db9af3e6f79db279349cce58",
+          "distance": 27.989583333333332
+        }
+      ]
+    },
+    {
+      "id": "PX-002",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "3219218df6f4324ec297bc73d1598d1789a7f99f78c2d6ed0a5c4be9dc37250a",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "9e854c837857006bc64de2bad3e2b25f6e8cf22a79bba3fe5d06ddde3dfd5e5c",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "32cb7061f9bdbfe1c06653eb5e2923cd25be2a562d4111aae8d30cef77c002ba",
+          "distance": 16
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "3c5589a7b3efda49b4088f6cede4eb32cf87420e5a7f50e9a340b884c38360d6",
+          "distance": 32.513888888888886
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "0f5a965f5776c48ddac0cb0c1915e5851b1f09a7e6573f02db3f2de1e690e264",
+          "distance": 32.513888888888886
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "1c2842a0d0fd5e800871b8ff3f5ffb02a8f33ede586c09f465bf82f36750da9c",
+          "distance": 32.857638888888886
+        }
+      ]
+    },
+    {
+      "id": "PX-003",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "77ac403863bcecf2fb883fa22f5090e48262871e592c80abca1855eb8300e507",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "ce0b3895f134d333bb2bbbe20d09258d0533ef79dc94565eaa1eb78eaa69cba1",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "0703d8d9b8ef642691fb249260b46d28da98234c0332a89785f76502353069a2",
+          "distance": 16
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "66019b1bda2668b5fccace85f52bb210f8f4dcca013d852d2be4bec5d5bed4f1",
+          "distance": 33.270833333333336
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "967d9a6a93287084a6826250033ebd84a317a314554e85eee235f383dc4fbb22",
+          "distance": 33.892361111111114
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "700a981f4be8648561820d118e2b1be0bda27e1d678bf4bacf6741c19bd577b4",
+          "distance": 35.6875
+        }
+      ]
+    },
+    {
+      "id": "PX-004",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "cc15c2817acef911a113e422a69e5e0558efb561985b6756597eec924fe27d22",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "e65ab49ae4e1f3f5e87b024db6093fbaf711d33c7d3450b471d06607940aa547",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "388ad9b9f5a312a81fa257077157ff360b031db80781162d3c2756bdf8d34ca7",
+          "distance": 16
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "d9082588a5ce8e3e51311c0b4a6a4555dbe9f6b07145af04eef8c28102454659",
+          "distance": 37.63194444444444
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "5a1dd7fa7dc2e6cd97de2b9e8a9dbfea783604af8421513295d7b6ac295f4eb2",
+          "distance": 37.96527777777778
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "9f3488296aca69657545333e68584a3b9e86bbc82578ae21f35643ac1e1532a3",
+          "distance": 38.107638888888886
+        }
+      ]
+    },
+    {
+      "id": "PX-005",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "09d586266f207f4685b89cd3221e7b32ff0b181a26d44ac1e48c5581d059e304",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "9a4e71175515916b9170e9e53e6e07d641cac4518c832ff82fc5bd3db63566e0",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "d3392c153cf8e25686ea6d727f3ef2d63281367df9b504a62f49d507e5de5db8",
+          "distance": 16
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "3b63cb99ca6cd7052b8c91c874aec25b31239a84aaa83e07db1ad86fc5274225",
+          "distance": 23.305555555555557
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "de175154316ecebb890c26dff99fabbee82f988530b8ffb69ed9460c26a09684",
+          "distance": 23.88888888888889
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "b0a4d27e876c4553afef359f6adbcea28a024c7b6844f8ec7a270c982542b3dc",
+          "distance": 23.89236111111111
+        }
+      ]
+    },
+    {
+      "id": "PX-006",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "618e3b2ffb1f5bc04731a74928426e8024000e382f88cd2bbd97d6689fab6f27",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "495e4e4d8fecb8993b9aa8da80afb6a730c0ad4d543b5378555a29f2eb2f68fa",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "e2b6cf671341c2f6dff11e556c65a05aa90fcd4b93eb720ca4660a0f6fa5257f",
+          "distance": 14
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "b3da282dc5de9c02d9ce5beb90e6e1bcb6f71615a5c7c0734f7b365e945e6b28",
+          "distance": 39.24652777777778
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "061d0939c7986f33aeaf88a949ae44d027a9674a351f006261513c75e552d9ea",
+          "distance": 40.666666666666664
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "852bb5f266e86278e355440c7765d5ba8ae0f2fc3e1d4f322eaa6f6d41d5e221",
+          "distance": 40.68402777777778
+        }
+      ]
+    },
+    {
+      "id": "PX-007",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "5bb0ec93be937296d54697811cf8e94e87e5aad3b5759e211497d684570202e5",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "70e0b412517b80427ea7169bed69398da4c9d693eb9efe3e7dca9345efd0f395",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "70119b2dc59400af7c8979c0dba82ccb2562bfa865ff67c0cbd11479c24151ab",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "a8b506745be6534520bea3187e07cb7f7de59a72d459037778a04bfeb37be114",
+          "distance": 35.53125
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "0a826dca6b0fbf473a74bd26a704c97382de0861df48010dad60601649311bb3",
+          "distance": 35.53125
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "caee8e2d83114c96abcf87dce92f92ee5dc4a6439379b8fc0da6c20826a82a3f",
+          "distance": 37.00694444444444
+        }
+      ]
+    },
+    {
+      "id": "PX-008",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "a078e043587359f6df0e18a0196baaf5610b0ccd40ebd4cd8da1b85545b9cff6",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "c45f227fc0c6becad28ae2d2e1dcae56bdd18bae1e41b119430d9c55c8a42b7b",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "c38298ec5f04caa8908210310646992fa397349e8581e2432596c3074c621f8f",
+          "distance": 18
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": "CF-214",
+          "inventory": "CF",
+          "sha256": "51d24010c34a51696b13e6f7cf93cc11f6f58180afea71e34efc89c5dbc2ffcf",
+          "distance": 36.125
+        },
+        {
+          "id": "CF-213",
+          "inventory": "CF",
+          "sha256": "a698cf6c56d97cba3edde51a121a7c18bd9d10fe51de84435c2a5a7d3e113ff6",
+          "distance": 36.37847222222222
+        },
+        {
+          "id": "CF-131",
+          "inventory": "CF",
+          "sha256": "eaebe88f843e5347dc99c7759b971f6f919b2ed4d8b5f87d929d4922c1668fe0",
+          "distance": 37.479166666666664
+        }
+      ]
+    },
+    {
+      "id": "PX-009",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "7691271001a5c630eb437a61f0445670b26bcdc569f60cee1b5de33460c18629",
+          "distance": 18
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "d08a8c036b1887af65a4240d25fada7138753ce356248da5743f24e3115a8a90",
+          "distance": 18
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "cd1b0edc29874f1a00d38e4830fcbce6dfc11d08d48be2b4ab534490c656ea29",
+          "distance": 19
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "523e1c0090073976dded16830519d993586383fd8b63a802b85135b6541c7ac5",
+          "distance": 36.166666666666664
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "ef4ba093824bda4182dce09cc56cdc6dfb1621e70b389fe2ed6827dbd038d813",
+          "distance": 36.18402777777778
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "ae88be7cabcd5c9677241cc72159958392ed7f059ce64c7268c59e84f434aaa1",
+          "distance": 36.197916666666664
+        }
+      ]
+    },
+    {
+      "id": "PX-010",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "8978d812265245f0c97513e084ca06d53938df88caf198b804ad8c032065ef5d",
+          "distance": 18
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "2111d574c01fa93276dcbb2ae68457eaa62d24b892ee2cd9a2dc85f0b8ac8429",
+          "distance": 18
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "cb274ff01e66f6e32fce6ea16593d5f24878fdec3a7494e3913d0981a94a811e",
+          "distance": 18
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "660f0a26ff67a4a48a6e2d2b228ab3cba84cebf3a706b785bb9800df2884d45b",
+          "distance": 31.916666666666668
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "caee8e2d83114c96abcf87dce92f92ee5dc4a6439379b8fc0da6c20826a82a3f",
+          "distance": 32.138888888888886
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "9c482eb2b7c5ad7ce9c0dfa6f3126044f780364d7a4dd6f842acd10facb8c9cb",
+          "distance": 33.37152777777778
+        }
+      ]
+    },
+    {
+      "id": "PX-011",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "4374973cb1f2d5cf059118152623b6491365996859e77f1a4a637ea45545c1af",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "1ec5c16485b007c71c6ee396ec5f8250b8724c6959c73ed716f7316c5bc32dce",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "5567cb92ffd622a894efab88b6a96eb79c041c44c7775b9265143df5e5845e1c",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "8ed2521aa1917f4f292ccf344b25ee5a990442cbd4130efc6a37274994362a92",
+          "distance": 33.864583333333336
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "efbe9f21489e2ec04ee11b75fa5533f4fb40fb715a81d4287e48d17a94fff381",
+          "distance": 33.90625
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "ef28655ceea17f664ee921d5e3b8ef7015e15ca082b5d815911849497c0ba053",
+          "distance": 34.048611111111114
+        }
+      ]
+    },
+    {
+      "id": "PX-012",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "b67eba4808e8cc46c005c9cdab3b2786f0c332beb321af4db91bbc8f49adb145",
+          "distance": 18
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "5f9fda59576ddb432690a2660e851ff1e17eed0879851b7df32600e638efcc53",
+          "distance": 18
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "5308c688f40677b83e6b375a08d1a690c538667b4dc0f9f10ec2e294d176e4d8",
+          "distance": 18
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "d18dc85b75096e27f779fd46a789a3241f34fa551e15b40d0d19052c718800ae",
+          "distance": 34.486111111111114
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "577709394314230ee017b65f8faf4f95fd83ea8792f2d9e80b539906c07778d9",
+          "distance": 34.986111111111114
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "ad7cc1ef15c372a7d6dbf698621b775bec24f3cfac3a6e712f272a0b38aa3870",
+          "distance": 36.00347222222222
+        }
+      ]
+    },
+    {
+      "id": "PX-013",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "95f1c16b72bf04015347448182eaddec5a47498982b297bf2f2174f907f13a3c",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "a92bd8a634e270d68342307a35d0c0e8e4830e64d14c2515c4e38c47af266837",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "678b217986db224b614c11cb1bf7fee0839635a2c030dedda83530bd35884742",
+          "distance": 16
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "c349f55f759cda471e0c05c59ab7c03f351990364b47c031d7a4507c0995883b",
+          "distance": 23.05902777777778
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "08265636cfb6ef20d538d18d61cde2e95579215877431f0bbd96f239aff71ac5",
+          "distance": 24.77777777777778
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "a2482efbf7000a6b7306462b5f4987758bbdf845fdfbae6c5c33be8338eaad79",
+          "distance": 24.95486111111111
+        }
+      ]
+    },
+    {
+      "id": "PX-014",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "867d52abf1ef514350a0bae877379fbf0b74d0b67df117394261262aba1ad0c4",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "2a56623ba62b26482f6a66ff5aa145a2cf8c51d010f59a288a6aaca560a037de",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "ca6cc320fded36cd1a8c7244d57d45c8586f8b960c71035d61551dc215f6a1f2",
+          "distance": 16
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "5caba63dff5742f26a92600bb83ba8f3b38134c13e6cb6851105507cab137ad9",
+          "distance": 36.892361111111114
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "8d6891bcc1917c547ef22103a0c86ca8a48ea1c60fec0be656cc5991d1aadaeb",
+          "distance": 37.56944444444444
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "a84e3195a060742a7cedece9aa0eb5e1bc5bb8aadfb1f12d51c18306c38a431a",
+          "distance": 37.56944444444444
+        }
+      ]
+    },
+    {
+      "id": "PX-015",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "cfd7b8ab7d617cac261155481cf9a5c40355d72c6d5bc3aae9493bf7a12d5f3c",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "09aec5b67f9303994224a2bdae66667c043425b52fdaea1d696dae62c0ab3848",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "061d0939c7986f33aeaf88a949ae44d027a9674a351f006261513c75e552d9ea",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "012e256f2c15c9e4de6325efc66d40eab623b32f647b548b1b9dd7951f182185",
+          "distance": 28.225694444444443
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "a0d475ccbae2703cf2c0157c9f5208f648d00fa49fe15252f251ccdb57a7e4bc",
+          "distance": 28.260416666666668
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "22ef36316c8e9f6296fe4116497b78b761eaaa7185a8b55cbe05b063bd802db7",
+          "distance": 28.354166666666668
+        }
+      ]
+    },
+    {
+      "id": "PX-016",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "054b43cfb5e284541f6afc16e8d4775c2f7f24bb87ec0ec68fc7d2a3804a9204",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "def1f98e56f27e0575d9c87e17cc20f11c33254b90d1cbc30b9b5d843d573cfe",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "44ccc06578d14d328e224c53df3ddf8c19c23c0cbce77a3d496946fb7d30c935",
+          "distance": 18
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "ae88be7cabcd5c9677241cc72159958392ed7f059ce64c7268c59e84f434aaa1",
+          "distance": 31.46527777777778
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "81fa1e38f79e50537007488b682729159d469ce3d156c314aeba47fe2a92f0a3",
+          "distance": 32.22222222222222
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "131b9309942b6f896735e4ddb7df994931a04ea43873cc7d89c11bbe765afd97",
+          "distance": 33.5625
+        }
+      ]
+    },
+    {
+      "id": "PX-017",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "20c9a09eb004c82ff3f91168b20ce087432a3ce0b2663b8d3e5b00b55c993804",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "16b95df2c6183945aac8daaf0dfa7662547b7efc654c3cbab0f5531ccee95221",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "f4632b14148c9ebdeffc70b03575286c70620bd03d72b4881e496f102f1dfec0",
+          "distance": 15
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": "CF-077",
+          "inventory": "CF",
+          "sha256": "56258604a8528a9d90656833f7f3c10f6171af5adbb85726182a912533964a60",
+          "distance": 37.114583333333336
+        },
+        {
+          "id": "CF-144",
+          "inventory": "CF",
+          "sha256": "511e4ceb2c58a9719d568d3e3a89c27d5bcb24ebdc52b711de30c30c9a9ecd3d",
+          "distance": 37.861111111111114
+        },
+        {
+          "id": "CF-146",
+          "inventory": "CF",
+          "sha256": "3d418469097de9786cfae01e801a58b1ea7a3da17e3c7936ce4839b5b2f23452",
+          "distance": 39.111111111111114
+        }
+      ]
+    },
+    {
+      "id": "PX-018",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "b54e9d67bbb3abdf73b1bb03fe7cbd0caabf93892baa115581a2845a0a6292fe",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "ab5b07b4f591a0f150c2a3759876128512d98eb805d8e8a5e22ba1659e4e126b",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "dc0ecc1993f2edf4be986b1a0c79aba7dd2a43438cb070d9c81c97eed5054e70",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "a15ed583c827976d9643a47754e7f545183f8ec53310809857073d5264b0dddc",
+          "distance": 36.21180555555556
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "8b668f75a9fff0fcdfcf9e978ecd2b2e665049f32582ace1e89035a2f1a6289e",
+          "distance": 37.97569444444444
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "a85b24995a601e9b2996cc0dcbe5f8d4738af917ce73fdb18a3798de91d675d5",
+          "distance": 38.479166666666664
+        }
+      ]
+    },
+    {
+      "id": "PX-019",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "db92213bb165d7a88ab9a2adc827a2198b47f84787d96a64ce7642d213eb23f8",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "b6383bc9541b3d55b1fe8e00e41d407e9024ae8a84d5e5be11d139fb9ca241a1",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "c18f007380a33ddf79ed832829f68c43fd7eb4c29af0709c4aa27069020a584d",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": "CF-216",
+          "inventory": "CF",
+          "sha256": "e5ce2b9336f76016e23afd37e7a6763fdeb79c37fab963d5d5c41f6d9a24dba2",
+          "distance": 22.395833333333332
+        },
+        {
+          "id": "CF-215",
+          "inventory": "CF",
+          "sha256": "48fe80aa3f4346494ce6414fd5db05f0cb42ae8c074fe4c35444583deb6945d6",
+          "distance": 22.72222222222222
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "929f0e0fe57ca02d0cfb44a7ae4a4cfc5a4d62660554e7dce3d97dbc420823a5",
+          "distance": 26.649305555555557
+        }
+      ]
+    },
+    {
+      "id": "PX-020",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "behavie-inventory.json",
+          "sha256": "f48ec4d135c5814e231837183ab94518bbb96e7415f09528b40c0ccfb2ba7320",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "414eebc38798fb40a6260124297e21362e86eca2f2f093a49c290abe4e7197ff",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "dfe1fd31e7dafb0a5a21a6efd71fb923aa51d31bbd668fe30c7724fb38b42b2b",
+          "distance": 15
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "0aaee8ac19c46e8298787b5fc6080475469f11be79e013e45d66ce66a4b463a6",
+          "distance": 32.31597222222222
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "07a28d6a009f99a2e05404eed8ee16edaa1eb16c9371200c25a17039579ebe8e",
+          "distance": 33.09722222222222
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "2afe00b407ac5f378f924e9e2e98f4b9e282f54fcf33d3fc5854bf174e6fa383",
+          "distance": 34.423611111111114
+        }
+      ]
+    },
+    {
+      "id": "PX-021",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "cfe3ba5cc25ac2e674e1036acf7fa9aa8d6643adfa2b16fad70bc8c09efe5b07",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "292b3b2d42945c436d20a242274a69ed94325431d9eafbeebcfb2f8a59baf356",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "a66ef9f229ee6928b50b044f6c03d88fdc1d44e058172ef2cc2034d4de9bab01",
+          "distance": 18
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "6203bd5f7f3b896fcbc3c17e494257e8fb37775a408fde7db3cf77bba7fd36cd",
+          "distance": 26.069444444444443
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "474eb5f624369612de99393eda34f5c1b9ed6342976cd8a401c6d74a4ecf1ae7",
+          "distance": 26.09027777777778
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "a7152b4f09bb9d11daa95cf9801e98c33b1051c145537244048e981e4b092c7d",
+          "distance": 26.166666666666668
+        }
+      ]
+    },
+    {
+      "id": "PX-022",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "a8fca73abc6f28ae1716b2fc8ab15c38aae01e3b493df2f34665eff2b8016eca",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "ef859666f7f25a5548581c84656219eb61a453a087ace8ad7226ddb5e766fedb",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "6b0350f165de6b92976239232a5a53ba9b9aa294ff6e3796e3efa941e0778932",
+          "distance": 16
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "73941e07b8a3138a83d554e7facb28b6632f128d784e305ede4460ea04fa7783",
+          "distance": 31.67013888888889
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "246ee161fc9d97e891c035efb22f57a58cc99b1de022b5c67310eeb41a396f1f",
+          "distance": 31.96875
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "9a885987148a3a048349fcf4dbdcdc38fdbad1f7c00a1e080fcae66c6775cc95",
+          "distance": 32.08680555555556
+        }
+      ]
+    },
+    {
+      "id": "PX-023",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "11a29bd3b9151cc62f844e4da63298e98a4e84cb48a20eca82227a3d0b5c6101",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "4d27d80aaf9a7d3087af321fd5bb931bcf2c0bd8231220ce86845465b5acd474",
+          "distance": 18
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "866c0b165c55f5c04ca8c253d60ce38f2ad319a6a6dfc6bfa866468b688bdc50",
+          "distance": 18
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "e875f25513afd7377e6f2d74126cb4e01998b6da6b30b597bc57c5432533e9ce",
+          "distance": 25.739583333333332
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "62e765572f0078d9c60a8c9c1c1d821574ebf6acf3c1e26dda0e297a49c2a4de",
+          "distance": 27.416666666666668
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "7ed75d4ca8e6111d919f4d9a42ff81af120c78090bec89197638b21307f640eb",
+          "distance": 27.444444444444443
+        }
+      ]
+    },
+    {
+      "id": "PX-024",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "2f88618d9e8fe96c5733f501dde07423229736926ea5f6aae21c8e9db3106f44",
+          "distance": 12
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "eb62156129a8cb39d99c334d38494b30326220aa66ea1c0a104615adbe5c8b37",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "9d5804147c65a6cf071828bfa11a97490f5ce8a4c999e4117f78dc77c19027cc",
+          "distance": 16
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "behavie-inventory.json",
+          "sha256": "d088e4e037af39ed0964f3b4f04ef5a4e8523e1f5ec398a840badc2602c801e2",
+          "distance": 39.10069444444444
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "8284bfac9d47aa86ed85790562e76580b411ed2dd8af2114360fa663607a879a",
+          "distance": 39.27777777777778
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "3ef83dc0f7e12514f194561dba5d273ebcb53e5730122bf1c66ce15e67dfcda7",
+          "distance": 39.50694444444444
+        }
+      ]
+    },
+    {
+      "id": "PX-025",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "43c157b3375ebdd359713222ed917e65fd9c7f82bcd0abe57f45dd4e7a934756",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "114a98a4522a316c3de805ca9b3d8373744f5790d5945968de01ed916e04afef",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "ffc1a980902ab0866fa3d8462da80b0dcf9df8b674034c9b67d9ec60159c0739",
+          "distance": 16
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "b4e133f0e3412d5818253c62fdf73d7713a329828856a3f1e599ef1352d7da91",
+          "distance": 33.951388888888886
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "9f89e6d0418c57d400690ea6717c1102511bfacf6a8f549a05b65c62ad464545",
+          "distance": 34.583333333333336
+        },
+        {
+          "id": null,
+          "inventory": "behavie-inventory.json",
+          "sha256": "674346a3ea0b76b74d3cd72a0dbaa191f34432512564d3f50618786e1f5f8a13",
+          "distance": 34.63194444444444
+        }
+      ]
+    },
+    {
+      "id": "PX-026",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "f61799be37f17d7e8a4f5cefb29929acaf610d6ca86cae0147c14984d16c65d3",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "1440c098b5b2a3bac82bf9efdca5650a4c11ee5476e20f44caaca2374bd33b06",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "44c7a91379ace626b4b8d245acec1b3aba5336fc2c0aff6389bfd669f956f4ae",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "839ee472a58131d79f5e1514dfb4370c11bfb75501e7e90ea1f80bbe8138475a",
+          "distance": 35.31944444444444
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "96d7363db96b9652d278bff9a0b0fb40561b549a3c227883fb06c307c5ed0764",
+          "distance": 37.03125
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "664948f1d37bdc6c6548fd46a9d7ee75b71ac8298c28742dbc06fe8cb9fc62f7",
+          "distance": 37.142361111111114
+        }
+      ]
+    },
+    {
+      "id": "PX-027",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "453a877fbd51641821de940caba9ec9ccff6a79cfee44a4a4c4710f14421a423",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "7c80590b6542479ec1a0b559f42efe8d5470c7ef517954000db774a155856c5b",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "f314f544e49f5351b5fa27fd013e860bd06735f1aa83cf8cb465ef8f4cb63d8b",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "40f34cf07cd457dd5cf0a30d628de0f5eaab9b26faa426528eedfbe6886df500",
+          "distance": 26.4375
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "246ee161fc9d97e891c035efb22f57a58cc99b1de022b5c67310eeb41a396f1f",
+          "distance": 26.67013888888889
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "d09450ddafc5aba972a04732cf7ee3bb13bebe82efca850bcc25b4384343569f",
+          "distance": 26.99652777777778
+        }
+      ]
+    },
+    {
+      "id": "PX-028",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "9dee40f85ce32b90b0eaa168ff13492a8e2975de5b9e523a947b927aac9229ed",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "478b15e768e5528e22666939dd66823d2340eb6b16b7d9a245a7665525d03620",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "69e82550f07036a92246a7245ba93d12cf3c69579b83687a39d7db59b1a57233",
+          "distance": 18
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": "CF-216",
+          "inventory": "CF",
+          "sha256": "e5ce2b9336f76016e23afd37e7a6763fdeb79c37fab963d5d5c41f6d9a24dba2",
+          "distance": 26.368055555555557
+        },
+        {
+          "id": "CF-215",
+          "inventory": "CF",
+          "sha256": "48fe80aa3f4346494ce6414fd5db05f0cb42ae8c074fe4c35444583deb6945d6",
+          "distance": 26.86111111111111
+        },
+        {
+          "id": "CF-171",
+          "inventory": "CF",
+          "sha256": "370b4f8da3d8070162d0354b3c9edd902a3875c9dcd5ad53d8e411b917298689",
+          "distance": 31.93402777777778
+        }
+      ]
+    },
+    {
+      "id": "PX-029",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "fa9b62b36d67ad985c38a9a8d5fb3073d698b49eb56c68dd43acf7746bedb932",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "fdb96d462c5edd14dccbf46edcd27eb76aecb8c96249ec2aa291f9f6d72f19c7",
+          "distance": 18
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "249d27eedca4911326465e7f1be4c71ff3eacd1abb0a61bdd1a2bed0961f0eb2",
+          "distance": 18
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "bdb9668787b0ef5eddcfd99275ba744673ae5787a3d8b7227e8c17bd0cf11cca",
+          "distance": 30.229166666666668
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "898530b8fb5d35b32e0e95fcf188015d23164ac99bcbb2bad6a0302d41400f64",
+          "distance": 30.45138888888889
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "ed7a6322f7a2b461afaa1d666c20ae5f2c0e75541dd452e0020486d56a84ac5d",
+          "distance": 30.53472222222222
+        }
+      ]
+    },
+    {
+      "id": "PX-030",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "c8a1c5bcbbeb9b5678f9b5faabcbfefd1254ae79dcbf7a7a2c28fd7f82c2a7f7",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "2993a377f368a793f4494644c7eef5871175f9bdce649fe5bf5c54d9fdac88f8",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "59330d522aba16769819c6f879966c88063ccf71cf92664f7f87107dd564a2a1",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "5a4ad7b7968b44c384475fd0edba68aaa712d65a58fbf1300ea085b75376d3b1",
+          "distance": 26.40972222222222
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "3063877a061f96a25bc78ecb8d86f6ee47ce7f49e09170902a11959b77c79a67",
+          "distance": 26.555555555555557
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "b20808c79816c3d86722bfc53edc5a82c068abf6fa241f797c2a35db64638dcf",
+          "distance": 28.29861111111111
+        }
+      ]
+    },
+    {
+      "id": "PX-031",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "09aec5b67f9303994224a2bdae66667c043425b52fdaea1d696dae62c0ab3848",
+          "distance": 13
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "e588f06d40c3efafd6b268c685d328b0e16f803536181c63de75e84b1ec15bcc",
+          "distance": 13
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "3d7542950021587c0a435ecc641d720b4decb667ed5d25fec53d44acba688875",
+          "distance": 13
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "d15a84a1311bc38abb4db85a121e98dc079b27215d525d7ec5e8334a12d6d5d1",
+          "distance": 36.125
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "7ed75d4ca8e6111d919f4d9a42ff81af120c78090bec89197638b21307f640eb",
+          "distance": 38.28125
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "62e765572f0078d9c60a8c9c1c1d821574ebf6acf3c1e26dda0e297a49c2a4de",
+          "distance": 38.28125
+        }
+      ]
+    },
+    {
+      "id": "PX-032",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "3ba0e99b91647bb34fbb256f33fb15b582113f9a1acbc0ecb45f13c48cdd73de",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "b4c81055b19270132a669f53ebe413818dfb86a784a1e90310b714d9d38fd17e",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "a583b87941d725bbd6523a389ef7387ef93fd2c0b4a54f045cda5922b662abff",
+          "distance": 18
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "3c3732958ab60b464588f33e87ec97de28eb7dbae4fdeff81d6ee2b75fea6149",
+          "distance": 32.90972222222222
+        },
+        {
+          "id": "CF-106",
+          "inventory": "CF",
+          "sha256": "ff3a40094a622abf0caf3c378db8c75b1fd4252cbe7200b47bf1c5fc63ea18eb",
+          "distance": 36.15625
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "53072ede0e2d4d6acffca4f7bdb5dce8a66d63bd55ccf49ff4723dfd676d03d4",
+          "distance": 36.44444444444444
+        }
+      ]
+    },
+    {
+      "id": "PX-033",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "3a628a2aac19f7cc119e00c0f28f4beb2bd252fd82e4753e56dd5a375f039c15",
+          "distance": 13
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "b091d68c256a8fa697977be84b53e9ec15ca8fbcfb9143f213f05afda38f7cdc",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "43ffdf0a4809c2234f08143542cd7dc97b7c56279981dcfe409d8300a240ff55",
+          "distance": 15
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "behavie-inventory.json",
+          "sha256": "5d9a3b04386657a11cca4054320df6d319e27854dbbf44ff39bbf3cae8b2c4de",
+          "distance": 34.270833333333336
+        },
+        {
+          "id": null,
+          "inventory": "behavie-inventory.json",
+          "sha256": "913c00f660328c106ad973716ac5c9981711553e5b61201361e434933cdf484c",
+          "distance": 34.30555555555556
+        },
+        {
+          "id": null,
+          "inventory": "behavie-inventory.json",
+          "sha256": "6d0e50f0e235fe15e84ecd076d4c9bbde61a98e887cc97b3ca1d577df54312e5",
+          "distance": 34.30902777777778
+        }
+      ]
+    },
+    {
+      "id": "PX-034",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "d553539ce5dbe6d3efc29fff06d181cf48b9aac7d6ba956fd0f458029b3d2ac9",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "91c2dd65bba17d1ce062375c354b753d12db02a9995ef8d16ddfcbb0eed88859",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "cfe9e92664a10ce83f476f7d96abac62fa8f1e672c3de2d207a363db36dda0fb",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "cd5fb7013a5aa05c6e996ef1c6caa0f8c567973a162b0660c3977d0664271746",
+          "distance": 31.86111111111111
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "c677d93b361eeadf5571b924976e0042807ed0e0f9988e119b98912bf5ca10ce",
+          "distance": 31.913194444444443
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "22ef36316c8e9f6296fe4116497b78b761eaaa7185a8b55cbe05b063bd802db7",
+          "distance": 32.989583333333336
+        }
+      ]
+    },
+    {
+      "id": "PX-035",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "603735b9aaef99cd97c8b61a5b2fa4410ae883e1e7da308e9eb6473b6feb058f",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "e6a67047e6e0e799b9df7541a8055b1df3e90cd8789d3aff41bdb6ce1bb52ee8",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "c3be7d8201574a89c52a85f30153d6febb2726960a44aabe96d8e7ea05900fd8",
+          "distance": 18
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "478834bf00dbfb300809df674f681537d7977d43845bc667297a5d433596411b",
+          "distance": 35.142361111111114
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "38c5b68a643540c7c8e03c9204adc3e91b64e28a25c65326c1cae1a707f7fa1b",
+          "distance": 35.75694444444444
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "8f1051c655d7af3f46488eff63407e542bc0069bd018a049bb35d31336218d96",
+          "distance": 37.166666666666664
+        }
+      ]
+    },
+    {
+      "id": "PX-036",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": "CF-140",
+          "inventory": "CF",
+          "sha256": "e08a103ded86e82b715c3fadc8c903df8aba7c198c78b6a148f5fa5fed590419",
+          "distance": 13
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "fecbaf7499740e59d95089f3329084dc8dcf72ab160a55bc3622e7fb7e1a34d0",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "f265640a24ddff7d0a235e207ef9fbcdbe73a3597bad6a6878e1ec940187f12a",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": "CF-140",
+          "inventory": "CF",
+          "sha256": "e08a103ded86e82b715c3fadc8c903df8aba7c198c78b6a148f5fa5fed590419",
+          "distance": 18.131944444444443
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "f5086a3a3c55eac979951a39b675d9d93b4b826ac7a2892d81cb2a9c9f4465fc",
+          "distance": 28.63888888888889
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "ded2811f638e7b6681af39775e4fac7d58c4bdbea5e2a7174226a9f20768b73c",
+          "distance": 29.5625
+        }
+      ]
+    },
+    {
+      "id": "PX-037",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "98acdafe22d2989fdb2bd1b42233b9794de8e02a75a08a6b33533dcaf7fb2c87",
+          "distance": 13
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "6e13289ea14a1662dded4f3497a8347728fd4cd01e0dde288946bca2a247ae30",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "02350b50210eacb607fe4451e0407639d5972f00d64e7636fcd57109cb898cd5",
+          "distance": 16
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "d15a84a1311bc38abb4db85a121e98dc079b27215d525d7ec5e8334a12d6d5d1",
+          "distance": 36.55902777777778
+        },
+        {
+          "id": "CF-133",
+          "inventory": "CF",
+          "sha256": "898524ba644e5449eeffc9600b33d1fa25460f6784c82072dede40a85bbbce6f",
+          "distance": 36.71180555555556
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "442e1d569f93a7a480ad3af31f1507bf5d89671617aa2ac7e3946a04ef0ee442",
+          "distance": 36.78472222222222
+        }
+      ]
+    },
+    {
+      "id": "PX-038",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "920a67ea87c68133ebfab5a5efe0c001c2451b921bf85b17c66f6e820894a4a0",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "6d24d42375caff4de949c64e6cc35dfc7bec0a3cb2a61d3f8e666ea7a73acae7",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "2a56623ba62b26482f6a66ff5aa145a2cf8c51d010f59a288a6aaca560a037de",
+          "distance": 16
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": "CF-146",
+          "inventory": "CF",
+          "sha256": "3d418469097de9786cfae01e801a58b1ea7a3da17e3c7936ce4839b5b2f23452",
+          "distance": 34.013888888888886
+        },
+        {
+          "id": "CF-151",
+          "inventory": "CF",
+          "sha256": "40aed75e5f11041344ac099d4d6bd034395180aae2dea882f0cc005f36865348",
+          "distance": 34.97569444444444
+        },
+        {
+          "id": "CF-156",
+          "inventory": "CF",
+          "sha256": "aa15d4307bc1f41a8c43adf987f4a4b04345912d027471280cd562903641a4c1",
+          "distance": 35.35069444444444
+        }
+      ]
+    },
+    {
+      "id": "PX-039",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "6c04a3940b5377eaa890852937174772813ed2745769d45c8c71788ad17bd802",
+          "distance": 13
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "bb5e7e8f6afba62faf8b74dc1a3b4096a200adb6628b33b175af47ea4f9acd5d",
+          "distance": 13
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "6d24d42375caff4de949c64e6cc35dfc7bec0a3cb2a61d3f8e666ea7a73acae7",
+          "distance": 13
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": "CF-146",
+          "inventory": "CF",
+          "sha256": "3d418469097de9786cfae01e801a58b1ea7a3da17e3c7936ce4839b5b2f23452",
+          "distance": 38.97222222222222
+        },
+        {
+          "id": "CF-077",
+          "inventory": "CF",
+          "sha256": "56258604a8528a9d90656833f7f3c10f6171af5adbb85726182a912533964a60",
+          "distance": 39.22569444444444
+        },
+        {
+          "id": "CF-156",
+          "inventory": "CF",
+          "sha256": "aa15d4307bc1f41a8c43adf987f4a4b04345912d027471280cd562903641a4c1",
+          "distance": 39.41319444444444
+        }
+      ]
+    },
+    {
+      "id": "PX-040",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "10fd26b29e3d15b13203cb913c122b0508bf8ce5f53594a9629f269263bcdd5e",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "38ab5caf608202f65a1d4db9d696d7712053150c82b1d6e4b4ce8da600bf5553",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "6fc3b0b060ee070f2b35a8fd302d7bfa6ea34bc22fbc81009978af80f648189f",
+          "distance": 14
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": "CF-156",
+          "inventory": "CF",
+          "sha256": "aa15d4307bc1f41a8c43adf987f4a4b04345912d027471280cd562903641a4c1",
+          "distance": 33.21527777777778
+        },
+        {
+          "id": "CF-151",
+          "inventory": "CF",
+          "sha256": "40aed75e5f11041344ac099d4d6bd034395180aae2dea882f0cc005f36865348",
+          "distance": 34.729166666666664
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "09dce09292226df8dbdfff8ec956ca18519f8d2705f3dadcee114c2383163a0f",
+          "distance": 35.954861111111114
+        }
+      ]
+    },
+    {
+      "id": "PX-041",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "920a67ea87c68133ebfab5a5efe0c001c2451b921bf85b17c66f6e820894a4a0",
+          "distance": 12
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "2a56623ba62b26482f6a66ff5aa145a2cf8c51d010f59a288a6aaca560a037de",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "307d7c7abee49e8bc7c687d91baf9d13036be6901339f852269a248487dfcb98",
+          "distance": 15
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": "CF-077",
+          "inventory": "CF",
+          "sha256": "56258604a8528a9d90656833f7f3c10f6171af5adbb85726182a912533964a60",
+          "distance": 35.46875
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "213a9887ba277955df295a4ccaaf872f812a9b096c664e2db0557221b736bcb7",
+          "distance": 37.166666666666664
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "839f478f141292479923d3ad3890f6a803050f3eef2b45ac3dd14a5dc10bcbab",
+          "distance": 38.09375
+        }
+      ]
+    },
+    {
+      "id": "PX-042",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "cb1080a2c897209c43f72f9d257ce4312acc573c80b91cf405d4de390fb27b67",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "ae6175168556d3b1b222e480df5ea4802a74f7d3518995175c673c0613be9755",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "0594c2705c04051439746151192e98999fb45e855918ae3b1f9a215cd92d7150",
+          "distance": 15
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "73457afa56c8695ee9cb6fb2da8ffa1cf6e3ef2adbe420f30e66f4e1e1ea1f07",
+          "distance": 31.552083333333332
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "738ad96f5855d5eaaec3aefc496144a59c01af5a4dc313d7ec1459bc6a1b39e1",
+          "distance": 32.80902777777778
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "9c4b515cab36a4590396b040462c35bfc08d8e4e63e174d94b08bd71c19b5f5e",
+          "distance": 34.458333333333336
+        }
+      ]
+    },
+    {
+      "id": "PX-043",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "d4f02823e3c1ed18acadf06add8915a0c1dc2d8952b205a58f52ee495140001c",
+          "distance": 13
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "1bddd0b817e297943093e7db771ecbe666dfd852c253e277f63d3eeae60f6596",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "e04ac9ef95f6da0ae571f9314ce84242f01cf1b6be2efe9943b74d3b2875bea0",
+          "distance": 15
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "2a1893a6e2cdaea954a7d723407c35ea69653c1d092974bcd371a06ff638d1f2",
+          "distance": 31.65277777777778
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "c875bfe5851a5a6283a00a241fb77184898c3accda5f7e23b2aad265f114b009",
+          "distance": 34.21180555555556
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "6bf32015d6b025a5275acc08d0ff6313ac83ca63f94e9158533c628bec585f58",
+          "distance": 34.951388888888886
+        }
+      ]
+    },
+    {
+      "id": "PX-044",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "3b71a4617d38def9f07c12c8524e7fc5a755856679b5bef8ae7738c7153173a5",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "8a27fe7aebaa2e6bb62ffb556e4b70ae5f6a5e2eceb907798be7339742afbd8a",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "75e3e627159055545a974951fb5e38f1e1443be8d61177d9628127d0ba9fe529",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "behavie-inventory.json",
+          "sha256": "59f5f35fe912aa9a354ea980b2e5cce2f66f89c52998e48bf2ee99835a8a04b9",
+          "distance": 35.71875
+        },
+        {
+          "id": null,
+          "inventory": "behavie-inventory.json",
+          "sha256": "dc1f0079213e78f00d8a660e037fd7db401b86a123bf93991c39e531a886a533",
+          "distance": 35.75694444444444
+        },
+        {
+          "id": null,
+          "inventory": "behavie-inventory.json",
+          "sha256": "0b2429ed0a4b1314144c6d9d6be1450d3e4147bb5c331cf91126dfb5a3226f38",
+          "distance": 35.75694444444444
+        }
+      ]
+    },
+    {
+      "id": "PX-045",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "6bd7f859c20a9c84bb221fb34520d2ed4b4a1335bd463c800bed4ae6e2e3daac",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "3937a55df2a41e8e9d84d1921a5c86ec6e6f9a9f01cf4bb72308e257ef30a985",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "bf4942f67b25e04ed2041f8294e5e018391be1a4b80e412dab0019fff514727b",
+          "distance": 18
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "6d81b455465949c4dfa70f46d9863f1037c2c618000fb35fe01d6a795b08fe50",
+          "distance": 35.052083333333336
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "7cea38beccfe6680314b534f1b8b217bba049af611d1b48be5cc99fcf2d714fa",
+          "distance": 35.05555555555556
+        },
+        {
+          "id": null,
+          "inventory": "behavie-inventory.json",
+          "sha256": "297d2677cb0289e4a8eaf4083a32de2e3ae4dc1dc9e98cce8d7919a77f9bc340",
+          "distance": 35.729166666666664
+        }
+      ]
+    },
+    {
+      "id": "PX-046",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "002aa898b4ec11e46e7cdbe3fdb6c618e927fbfa4875d1e4c2b1105d56ec9d32",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "ff8120dd2218a556a4f17e53a57d57a227b913cbc0e70084423860ccde3cf11c",
+          "distance": 18
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "0130b66f7f693dde20588eb2a4cff1be28cf42efbf86950df8421ac0c14358f7",
+          "distance": 18
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "36b9af463a4bad25e142e8ae97444a14cf1d6353567c83c356ac950b2c562c07",
+          "distance": 25.947916666666668
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "7b1128b4e7a41432a52e2c2ca894fb8b19034669674cfbacc4b79a152fbf6004",
+          "distance": 26.76388888888889
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "27889d5cdff144edc0c8c64e22cdd4d250e987a9959d3889affa6a7501229145",
+          "distance": 27.79861111111111
+        }
+      ]
+    },
+    {
+      "id": "PX-047",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "55c8d7100e3c76f7d9f5fc8e8cc5b6b3b8b63c3b9cc6805c6d679d221a949a4a",
+          "distance": 18
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "d595e544ab5b9716bf7d15126ca8d784f6b1602ffaf7a0875843cbdaf516621e",
+          "distance": 18
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "eca1c4cbef31d277210a4d08750b1d7e750957e0cf5aa7eb63691840a11a3f67",
+          "distance": 18
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "36b9af463a4bad25e142e8ae97444a14cf1d6353567c83c356ac950b2c562c07",
+          "distance": 28.229166666666668
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "7b1128b4e7a41432a52e2c2ca894fb8b19034669674cfbacc4b79a152fbf6004",
+          "distance": 28.69097222222222
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "0f4e9f6d00524d324d73a0b0d52a71164964f8d5f23a593d012ac19f17428500",
+          "distance": 29.069444444444443
+        }
+      ]
+    },
+    {
+      "id": "PX-048",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "689b877b32cbfbe8a088cbedfb016117bd365dfaf80c27072989885ed421dcb0",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "017d37e692e3af687723348fc92e7a116e896e8729f4b9e9e3f1e6590c211e24",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "e938436c82eb113d1172b29363dc0049c2ded481ffd07d51ae33010d9140c3fb",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "36b9af463a4bad25e142e8ae97444a14cf1d6353567c83c356ac950b2c562c07",
+          "distance": 27.32986111111111
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "d9d7761e0bc3bb4f80c13c181160c4e51a3fc00cc981d13e8d5d7eb7aeed261e",
+          "distance": 29.243055555555557
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "27889d5cdff144edc0c8c64e22cdd4d250e987a9959d3889affa6a7501229145",
+          "distance": 29.243055555555557
+        }
+      ]
+    },
+    {
+      "id": "PX-049",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "behavie-inventory.json",
+          "sha256": "ec59c7bb048b3e4e440a451d6861b692d7337716a7589c451899434771622eff",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "behavie-inventory.json",
+          "sha256": "cc731110652015bd38e38ec6d9c0e3c68f6a73e65f12f22b9b30ce166f2645f3",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "71349773260a301fa762cf0dcd4bd8836784efd5ab1c5a3907c39b30b1180e0e",
+          "distance": 16
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "d9d7761e0bc3bb4f80c13c181160c4e51a3fc00cc981d13e8d5d7eb7aeed261e",
+          "distance": 34.517361111111114
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "700a981f4be8648561820d118e2b1be0bda27e1d678bf4bacf6741c19bd577b4",
+          "distance": 34.517361111111114
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "27889d5cdff144edc0c8c64e22cdd4d250e987a9959d3889affa6a7501229145",
+          "distance": 34.517361111111114
+        }
+      ]
+    },
+    {
+      "id": "PX-050",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "fe731d861fa30ba6e2522b21e75ea1d850d367fbeaf2224a6bc49b81f0e61870",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "e75b505f46588d444da04d620f3959a2985c496a379876e3dfe2bcc0d3094631",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "e96f3fb4e680afc6d4118698a85154bb77108e8b6a3f25e2f0f8b8a2d3b9107c",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "0bf493405123042259691dc48cf56a95e12462dfe7ea99fd850c74a2f13b96b1",
+          "distance": 30.51388888888889
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "c37ed036b6a3a018d7b28f4156b1ecf3d780fe3f9d25957cea33460606fa538f",
+          "distance": 30.53125
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "32e0d02ff8a6e3eec40ff7d7b4f3e3e97ba4dba9103526dcd16e0ab7a76b70c5",
+          "distance": 30.57986111111111
+        }
+      ]
+    },
+    {
+      "id": "PX-051",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "87fdf829b77ce6d3c086b50585066967b77fc68c0f7ac7a0d31f0f265c0d98cf",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "59c0102c4c0937bab64b32b7248673d6b2b3051804799e62a23e4ad1638724a0",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "cab1fe89d99b20084839e244d4fda25c193b8fe3eff443524c12e1b2155145a1",
+          "distance": 16
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "c2b60daf6de615ebee7688a5d198f608f1db257a9cd28757098bc311a5462643",
+          "distance": 30.39236111111111
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "32e0d02ff8a6e3eec40ff7d7b4f3e3e97ba4dba9103526dcd16e0ab7a76b70c5",
+          "distance": 31.729166666666668
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "36c2b45a7446e9acd695163765e43d378ed28420578e943886a84d416a47715a",
+          "distance": 31.73611111111111
+        }
+      ]
+    },
+    {
+      "id": "PX-052",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": "CF-151",
+          "inventory": "CF",
+          "sha256": "40aed75e5f11041344ac099d4d6bd034395180aae2dea882f0cc005f36865348",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "26d16c991c12ccc67218442595f4aacdc9ac37e2eda53a82bfdc254f11767371",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "6a1672963bb7e72b63570cb151ba3bd2e0e8041081fb33ef9c06372faad2e9af",
+          "distance": 16
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "d247c64bb6f321b74b255d2ba0c663645184611143d0bbbc6b1ec3146cbf18db",
+          "distance": 28.04513888888889
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "c2b60daf6de615ebee7688a5d198f608f1db257a9cd28757098bc311a5462643",
+          "distance": 28.649305555555557
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "44c5e8e58293fe5a96d4ac120256da316076bf5dddf01de8610ba1f9b43592b1",
+          "distance": 30.260416666666668
+        }
+      ]
+    },
+    {
+      "id": "PX-053",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "6ee0151df73cfa369b932f1bfbf755e54bf3f63a6698291e0e19ad4ea8d5b85b",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "7072e7b5efdafe8cea2183f6643261149febf514ac1dbf7cb86fe304248654df",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "3c2a8a5361a3b152c06cc0dfcadc5ff5ad2821d6e1d6b486c48993fa1324e001",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "21ef2b1bef64c9d4b456758c949a835fe8063faa045ae446955b327851aa54a0",
+          "distance": 28.82638888888889
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "00d67074d50b0c2d4bedcf594dd3cf587a9a6b5ce0e9730654511f8242268786",
+          "distance": 29.322916666666668
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "9e22d28f828df5463c4f9591e854345fb8f1df503e5ccbe4cc42f6a8048cf64a",
+          "distance": 29.61111111111111
+        }
+      ]
+    },
+    {
+      "id": "PX-054",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "e00aeb0a249f0575b6dbb7ee14d4e50ad4a4bfe984b355f59564c148cc3a4029",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "35d3dc6b65265d6b4ec46bcc1ac45e9f332d5c024cacd05a0fe2d2ee6ed2fcae",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "da5dbcfbd2dd632f34c53ab6423f4e8dffea6212951fbaf0ae158f4398bf4e0f",
+          "distance": 16
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "4113ec03169969e585289b70f231a6f8c7ccf59e5fd0c4dac2f4b81067a6d99f",
+          "distance": 29.305555555555557
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "133fdcc0005e784f530ec32d1b0690fbb529e8bf630edcfab1c363f87ec3d38e",
+          "distance": 29.53472222222222
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "895b755f47b6b83e2d20aff4f26456203737d0563770a450387a12c0cee1b467",
+          "distance": 29.5625
+        }
+      ]
+    },
+    {
+      "id": "PX-055",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "9cb65ee4f5c9255e7d21d6ebf54a836396688743750522ccc10da67445379a6b",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "14bf168c3e0a526270089467ec98caa8a3259ebf0d3cc19d9451ed795b7a0c07",
+          "distance": 19
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "1b2d240c804c4ff3eb9833bf6ba25b22f30d1941e92bc9a47db536a9dbc242aa",
+          "distance": 19
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "behavie-inventory.json",
+          "sha256": "7bab1c6b31fb4a7964e31e4e46e8d028eb7fab4ae422dba23b443affc2ad2608",
+          "distance": 30.99652777777778
+        },
+        {
+          "id": null,
+          "inventory": "behavie-inventory.json",
+          "sha256": "918440602f980ca7fd959a86cff8a6102f255b32394a3cdc014d4c4942da2160",
+          "distance": 31.04861111111111
+        },
+        {
+          "id": null,
+          "inventory": "behavie-inventory.json",
+          "sha256": "514f4ed8a543876f67fab33018f9c8380562ae4625b810190416ce7d4dc41561",
+          "distance": 31.07986111111111
+        }
+      ]
+    },
+    {
+      "id": "PX-056",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "776fb67fbd323f50f8a4a7736151d3cbb00585f13345dee8ff149da0a9a3a142",
+          "distance": 18
+        },
+        {
+          "id": "CF-155",
+          "inventory": "CF",
+          "sha256": "f26c034b85dc2cd30f504fc3127b0ae6b8bddc9c99dd924d5bec0481e0867a02",
+          "distance": 18
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "12dfd24ddaa89e87fcbb02ce40df3cff34fb85f639d9d72c59e2c3e740277529",
+          "distance": 18
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "38c5b68a643540c7c8e03c9204adc3e91b64e28a25c65326c1cae1a707f7fa1b",
+          "distance": 27.583333333333332
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "478834bf00dbfb300809df674f681537d7977d43845bc667297a5d433596411b",
+          "distance": 30.04513888888889
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "69c372f4db42999b93ba647d254764d071952306e9f9d22f9843b983b9f9441b",
+          "distance": 31.32638888888889
+        }
+      ]
+    },
+    {
+      "id": "PX-057",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "7e6f25b28658ea95a0fc7151c803213b0edbec0ae72b0780abc3d299b1e98b45",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "776fb67fbd323f50f8a4a7736151d3cbb00585f13345dee8ff149da0a9a3a142",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "731628c67a97c24337a4ca86bd2ad462f3fc0be0c4b9488b755883a455a4c126",
+          "distance": 18
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "38c5b68a643540c7c8e03c9204adc3e91b64e28a25c65326c1cae1a707f7fa1b",
+          "distance": 28.34375
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "478834bf00dbfb300809df674f681537d7977d43845bc667297a5d433596411b",
+          "distance": 29.72222222222222
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "69c372f4db42999b93ba647d254764d071952306e9f9d22f9843b983b9f9441b",
+          "distance": 32.22569444444444
+        }
+      ]
+    },
+    {
+      "id": "PX-058",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "43c7487ea99f0f828fde144f1ff9981b5a622547cef4e9fe16fa0cd100b4f333",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "21fc093c68bcc86897acff30dba35e0c6115d96f933b10d97e787945aa3b9d64",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "b8cf0310c0bf889597d03641d1591152615f4c675e8e11d52b8b20af8cdb5abc",
+          "distance": 15
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": "CF-164",
+          "inventory": "CF",
+          "sha256": "44b670f2472b578879b115e4090b5f5eb11e3968efa3078f9d499fc6342352f0",
+          "distance": 27.416666666666668
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "a0ff0aafff75615e92c42bfe54a4cf4282ea99403f55de83299801f098cded2e",
+          "distance": 28.291666666666668
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "e875f25513afd7377e6f2d74126cb4e01998b6da6b30b597bc57c5432533e9ce",
+          "distance": 28.475694444444443
+        }
+      ]
+    },
+    {
+      "id": "PX-059",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "33224a627735bddbe9a04ad2384497ccfcbb4c39936f6009f29dfc14d7b1fc6a",
+          "distance": 12
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "b4542fadf116b3456760efb30243ed9df0c3559fa8f49bc2ada1f3e141509c03",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "aec07a054ba461ca47513638bef8171e74943d844bf1444ad90f51304438f058",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "0b0c6f26dfe79f2cddbec26db17cd3730688158d07a37f80ea935b756600f84d",
+          "distance": 25.35763888888889
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "5139bc5b8481dc1ed9532da18415cb13489b7c098a73b69aa0b631fbd2bf5ca3",
+          "distance": 25.427083333333332
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "8d51db7141679154dfb09ac35c4862cda9980df3284585bf6032de7ba6c17255",
+          "distance": 25.46875
+        }
+      ]
+    },
+    {
+      "id": "PX-060",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "aec07a054ba461ca47513638bef8171e74943d844bf1444ad90f51304438f058",
+          "distance": 13
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "33224a627735bddbe9a04ad2384497ccfcbb4c39936f6009f29dfc14d7b1fc6a",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "01cd2731c6b634f1842c474da46ad1c3b5c133ccdd31b51c0b2b5c29821295b5",
+          "distance": 16
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "5139bc5b8481dc1ed9532da18415cb13489b7c098a73b69aa0b631fbd2bf5ca3",
+          "distance": 25.399305555555557
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "0b0c6f26dfe79f2cddbec26db17cd3730688158d07a37f80ea935b756600f84d",
+          "distance": 25.40625
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "8d51db7141679154dfb09ac35c4862cda9980df3284585bf6032de7ba6c17255",
+          "distance": 25.475694444444443
+        }
+      ]
+    },
+    {
+      "id": "PX-061",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "c6485f4e69303ae148469723db339137f27790e8d044e1bdd42f4f88b6847dd8",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "c36261c7498ac22eff10286183643787ab50f9befb77eb569be187c033a3ad3f",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "98d35d09dbd4c08199aa45ebe9ffe0e0bbb3108af664d6dfccd408989d129a59",
+          "distance": 15
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "8808d7c316e1fedfcae333273e22717a4946d990cf8b4981630594cce306c0a5",
+          "distance": 24.52777777777778
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "7dafbf741f570548c9ed1b10a344b2a5fc812d1cf48515bfc8abef336e7c0c4c",
+          "distance": 25.583333333333332
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "44c4beb7bc21ab436729557eaedbc551d0c5a86393d17ca9d198dc27d1d1322b",
+          "distance": 25.59375
+        }
+      ]
+    },
+    {
+      "id": "PX-062",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "e3a7d1a380eb1483bf205a2b8f450cea758cfd9d8de184ae148689c55ed44477",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "51ef8a571a07fcd807ab1e1f5ad38253fbb5e4c42a36765caf2744b21db729f7",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "71b496f6ff454e77d217109653be9fe202b2db4ecfe7c8f514f00edfd4db017e",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "b595b12ce807e760fa49f31511ac70245a2c9392bb52eea315ecf43cbbf0af34",
+          "distance": 24.381944444444443
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "9216164ab7f19097dbefd44671f753187e702a313381dff4e80123b3ea245fee",
+          "distance": 24.39236111111111
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "bfbff417e9cd02ed1be99434320f5fd2ce43ec57d168e1e7058c4c64bef43dec",
+          "distance": 25.54861111111111
+        }
+      ]
+    },
+    {
+      "id": "PX-063",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "6990c856e386d579accbb42c0de1436f26a8589a57c1a9460798247a59edd4a6",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "839ff42059a9f74db6bdb2d6926aca1079466d171b6a527d614c113a940334de",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "33d6d8c22884a0a5eeb291d05f4794dd13751eba147fe91cd15140e618ae64cc",
+          "distance": 16
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "a3089464c5e554ac5c69f2664aa3c374917842aaa6ea5a2723d5649d057e9315",
+          "distance": 26.913194444444443
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "d0be66995e8eadc15d4c302aaece6e7d06d536c3b6c371df163126b6459923fc",
+          "distance": 27.802083333333332
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "319885eb8178b68d4a5a146d2042bd0778973a22ab07c5067b9dd915e7fa4174",
+          "distance": 27.854166666666668
+        }
+      ]
+    },
+    {
+      "id": "PX-064",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "f1b97ebb8f979658deb747f78a19a8bb7cd798b934acaaf96aa3294defb44ce6",
+          "distance": 18
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "4bacdb189390024bb03541e75b18978cdd6a707df06bdb3bc97eda03e99b2171",
+          "distance": 18
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "9a9f8a2977d18d176812944ce9c2b7c84c00da270dca99b0d953567a8ee758d2",
+          "distance": 18
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "behavie-inventory.json",
+          "sha256": "007e552536b83f9303aa65efea5914e19495650a51e70e6568c06cf8f4225f22",
+          "distance": 23.729166666666668
+        },
+        {
+          "id": null,
+          "inventory": "behavie-inventory.json",
+          "sha256": "3eac27fa58cb94a271b06553f2ca97bc6933088d8fc75c627228f1027b274aba",
+          "distance": 23.75347222222222
+        },
+        {
+          "id": null,
+          "inventory": "behavie-inventory.json",
+          "sha256": "c2bb51c7d7cae9bbf6c1a93b18a3e8cfe7884b4b165f50e33bef07c83e5f1b07",
+          "distance": 23.76736111111111
+        }
+      ]
+    },
+    {
+      "id": "PX-065",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "4bacdb189390024bb03541e75b18978cdd6a707df06bdb3bc97eda03e99b2171",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "1d1164416da5622b16fc1ff082c91260a348895960cc27cb9a3f93e661bb4825",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "9d6daedcc8e61c5d4c0c9a9379acb478b6bcebe7ed6ac28768b6e8dde7adc3cd",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "bb2150a35504c47d90c9004cad9046c86089ddca2603ca81e133dc5553bf431b",
+          "distance": 24.802083333333332
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "83386ff23cd428d24017514c493879947cddf13a7250af7fe1111674d1bd1aaa",
+          "distance": 24.819444444444443
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "2cea460b7bbf3b2a35e2586f307caf1449485566d9fe4a6579505b0a129369ef",
+          "distance": 25.79513888888889
+        }
+      ]
+    },
+    {
+      "id": "PX-066",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "b335e68fd9607d5665828fa5fae73c4ab6d4e2c87ab9bf3db69a4970920383af",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "03ac8dd0e3c1a9e513379922445a30942e4798de015ffb2797e95c6c061d8265",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "3b7f486e4ac9f67f29a07640ecafb2301c036bf0893989d7fb662e4af576fdc9",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "e429e132f8ea73e0ee66059e9989e9ccb4557da430c81c568c869c4244a33f9c",
+          "distance": 31.333333333333332
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "5e6dae77678d05bbb05c1b0b400c8b70587ee9961c9ef5e06055ffd563f69844",
+          "distance": 33.489583333333336
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "cf9ada1653733ca324c3bccfa171a8173a68f066a992ab99941fe45cd7ef1a61",
+          "distance": 33.56597222222222
+        }
+      ]
+    },
+    {
+      "id": "PX-067",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "e6971ffffc7d043d226b614c1c3ac49fe3a55ce5e7661fb0e2f4a671787cea41",
+          "distance": 13
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "8a787f774c6615de37ff17afa114cc34264f3b6533731b192cbc7194a3c1bb2a",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "ff8120dd2218a556a4f17e53a57d57a227b913cbc0e70084423860ccde3cf11c",
+          "distance": 16
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "12ce0521747b9b6a85aab3c0b63333f263b06322aeb32552c34d96bb57d593c9",
+          "distance": 33.736111111111114
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "fab4701f371edf133fd35ef64880f9a618e54503f910d0cdf83ecf130e24540f",
+          "distance": 35.87152777777778
+        },
+        {
+          "id": null,
+          "inventory": "behavie-inventory.json",
+          "sha256": "4f2bc624057eac19277adf288c535aa9230c63bfeb1c3962e89e7af4ed7d06c0",
+          "distance": 38.22569444444444
+        }
+      ]
+    },
+    {
+      "id": "PX-068",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "bd8a8cbe1c648e898a14c69ff2bff6f6756b9653e6074cd0e396602751816a46",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "b6219a602bb6f94a514831932205bfb9fec1e19ad9e8f7a3e4e6929a190e9474",
+          "distance": 16
+        },
+        {
+          "id": "CF-145",
+          "inventory": "CF",
+          "sha256": "66b79e2f566eeab5bf9380c11809e62c22a6bca073acef5cee0d1d82952f65a4",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "2cea460b7bbf3b2a35e2586f307caf1449485566d9fe4a6579505b0a129369ef",
+          "distance": 23.68402777777778
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "28c9e2a5f739fc8d59525bc5d04bbcbb875bd1d76be41fd16e4cce949aee1413",
+          "distance": 24.23611111111111
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "edad8a522dad72469f3e8782fe153e2f4e82b2891381eccc1de36f484f172312",
+          "distance": 24.368055555555557
+        }
+      ]
+    },
+    {
+      "id": "US-001",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "541683b25b92f1d6a829a5f2a66c060b1b52ad273692a474c1ef4b20d4b9a2f0",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "67021f1b1025e413db6dfdf652bacc65c42c9fe5a6c75e84a91c1d5c93d2b6d1",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "9db89279d323172572efe1eba74a4c6ece0079ff1ea095d127caa1e847c6d542",
+          "distance": 15
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "633603b25fd809518506f24df00922de475b153bd5740c1465560bcc7cfd17ec",
+          "distance": 37.111111111111114
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "565cf19eba04c5ad6aa4f1440111db6525a096e767e15433f33a40f5f0a22c1a",
+          "distance": 37.423611111111114
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "0515c291d7488e9a1364aaebe3cbb9b8ab12e0af9ef710d26f0bf7f2d389e158",
+          "distance": 37.447916666666664
+        }
+      ]
+    },
+    {
+      "id": "US-002",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "3e4c572adfc858a70a9f7beb0b4097f3378a7b5c3f69ceb95b085d8ae7a4e17a",
+          "distance": 13
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "080b4cd35e29e6e7a9211526326d93b846610ca30817a35a117bb83beaa9cb65",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "96804ace968cbf843497647be2f1f6e6e2b7ca12838165cec800dcf6e953db42",
+          "distance": 15
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "4c6cc2ba4f4c131243ddd78138dfa9bc7768397c79241cf1a01bd47f230f04e0",
+          "distance": 32.94097222222222
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "f3f85536dc305d1d0845fd2cf3b52b4e818bd715aa71c306edc8c436676b3e23",
+          "distance": 33.00694444444444
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "27d352cd27cc25276efcf1f6c97b1243f3f4712cd4ae945c434ba9141b30fb52",
+          "distance": 33.010416666666664
+        }
+      ]
+    },
+    {
+      "id": "US-003",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "d3c888df213c8cb2bea6f494d29b10cef37f40187851ae8a1ef5c8de996151f4",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "behavie-inventory.json",
+          "sha256": "2c408b2b0b7df66fc9e6592e137c5e14fa32edc2c52d292b9af59c02990a75f0",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "behavie-inventory.json",
+          "sha256": "36d984a146013289c8cbe457eeef84c4167ecb725daf1e897773ab1a2e092376",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "2cd40e8fa047c0b1c94a4bb379c7f0698edc3c63b48f5fc34a478bb428845dea",
+          "distance": 26.8125
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "32e0d02ff8a6e3eec40ff7d7b4f3e3e97ba4dba9103526dcd16e0ab7a76b70c5",
+          "distance": 26.90972222222222
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "0bf493405123042259691dc48cf56a95e12462dfe7ea99fd850c74a2f13b96b1",
+          "distance": 27.010416666666668
+        }
+      ]
+    },
+    {
+      "id": "US-004",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "4bf5790d0daa4d624b249c4fa6714c4aa8ea12c1744de12a1826e6672e699db9",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "a825de664c86f3db0e89248c4e6ca35384d684dcc094c6e4bf74f90a4835134d",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "87796ebd4d1747df505fa770090634d4bc63819fafb7ae22ea4b46a2255ae1df",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "e429e132f8ea73e0ee66059e9989e9ccb4557da430c81c568c869c4244a33f9c",
+          "distance": 26.37152777777778
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "bc6342b102ac0477c00d4343d67b3025bb23c3cb7eeb1274ba0167ec74524c42",
+          "distance": 26.805555555555557
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "30f3dc3a867fc366369bae6873611c04aede7de4141b451a1d9696d63169a710",
+          "distance": 26.88888888888889
+        }
+      ]
+    },
+    {
+      "id": "US-005",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "98d35d09dbd4c08199aa45ebe9ffe0e0bbb3108af664d6dfccd408989d129a59",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "c963be39a032db6f10bc2a85a612505d5f761ebe085062f661e936b16af2a350",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "416622a89ceec516f13a15bd7a529617971657b65f22fc8b9861d530ba3d5138",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "2a0d9b4db5ee3c6e7e4920de961ce35951ca8d94af80427eb22f7555a33b51af",
+          "distance": 37.89930555555556
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "eeed3181232a60f2191686619c8c92032e1263f43fc494c57b35322dc5f80003",
+          "distance": 38.09027777777778
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "25432fe782103ce220ff1bd1eba0c12a3be6b97eec5fd8258205564fd3ae5049",
+          "distance": 38.104166666666664
+        }
+      ]
+    },
+    {
+      "id": "US-006",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "29c147217c2e3602f668a52df926fa6c060ac95ef3beff9112852e68b5451f97",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "f12d425532fe9a69fd4faeec27105cf72d8a5d453c51e425ee5593dbe1c1cbb1",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "3c804511b9cb12c93bd0bb144a286d4186eb9c4c5aeb8d2b898e281f928a0f79",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "e64dd2ae8b13ed3485b714e2b8f4dad19991bc26f58945d4ae52dfe4886191bd",
+          "distance": 35.385416666666664
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "5c461b3300ee16d0f8bffd07a942c8e551adb5d5295444e7c4f1f5879b7cb1a8",
+          "distance": 35.666666666666664
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "c49df10a1155a19a641ee373046cf718655124c5fb15b1a9187c31706058022e",
+          "distance": 35.954861111111114
+        }
+      ]
+    },
+    {
+      "id": "US-007",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "ad0f56adb7f7fc64e3f2e60bada52d06529951ba4c511b21cd869476fcbbe804",
+          "distance": 18
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "898530b8fb5d35b32e0e95fcf188015d23164ac99bcbb2bad6a0302d41400f64",
+          "distance": 18
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "82982c680b8c878c1b4acb7ec519acb5f954e924329245ed9863900a08987f88",
+          "distance": 18
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "b63c3997c7f915ab2dc1a8e49701be5d3c195fdf7ef1228ed5b074ea4930b789",
+          "distance": 23.92361111111111
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "ef52fc0f07c9bb2337983de00775210bf9eaf82ced4746f1bffb42bc1955a386",
+          "distance": 24.18402777777778
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "d771f6cc7f6601b57afa83a30e49aa6a039e4971470e31fb189a281dbc2da2ee",
+          "distance": 24.46527777777778
+        }
+      ]
+    },
+    {
+      "id": "US-008",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "a670f0e255c137a6eb4444bc51733dbc5a4ddced980f6316722c27bf07a76a08",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "06e9545b2e27abed58c755bef7b1e70c4100d57220ad686a1057badc2975590e",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "1f1c3ea6f0e2d21a96b515f9e421938e4e78a3f035dca277eb0c283b17375f09",
+          "distance": 16
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "f57728000dc2ffb604f9e05b6b90bc4f2940f5e3a23cce1af04903b220f6f3e0",
+          "distance": 30.42361111111111
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "520516238d95a0ca5b7383179a4a313763f40c29e66c3e6d192bb38044d72429",
+          "distance": 30.604166666666668
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "53c93f0b3cc6cecc04941cd12e54fa8d1cbe7dadfff08dcf9a8040c7c6f1f7ea",
+          "distance": 30.61111111111111
+        }
+      ]
+    },
+    {
+      "id": "US-009",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "a29071434eef1142e7ef8a945923b3f8be0c80ed5543957bb71afc89338a2eb0",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "d103cb1a9d1fab72aab2d9c0680bb0c788d532f719e9d0100f68c8e50643c235",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "0e3309abd2d7f4f45e62da046d2b2ab8147d5d176b85e3a07d71424e3cc5dc27",
+          "distance": 16
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "9a824730119b0bcbb600e31a19e66fa7d84d7235bf4b5816327f536f0038fe04",
+          "distance": 21.5
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "f29c11670fe2a7300accfcb2c0eef2c85e874228992e0e7ce78aff000c87ef87",
+          "distance": 21.50347222222222
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "f57728000dc2ffb604f9e05b6b90bc4f2940f5e3a23cce1af04903b220f6f3e0",
+          "distance": 23.62152777777778
+        }
+      ]
+    },
+    {
+      "id": "US-010",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "58bb0000958ed05945626d81502b3dee2a391490dac8f043b7e1b8777ee28db4",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "5b66c7ddab760949808de94197e21a477c5a863782ae8e6f5a0a89a9d4f1f5e3",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "4da8cfc0fd6e8bc81e3ce9860956861bc7ced6067287696ffc459012810fa790",
+          "distance": 16
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "4c5917406a9272bc5fef1962ced80a85ec5184e06fd9d7c8eebd924cc55556cb",
+          "distance": 32.97569444444444
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "1fd300ecfce7304249a33bdb0292635abb1056b390a7768bbfff02522e061482",
+          "distance": 32.982638888888886
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "0b676fe4a5d81cbeebc0ca9fde7d4dde5b6f23e24a1e56cc34f5fc20ff6a6dcf",
+          "distance": 33.55902777777778
+        }
+      ]
+    },
+    {
+      "id": "US-011",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "d6f3a212c2db92dadee39f0ef79e5b32dd48a4192a2298eefd191ec47bcb3f66",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "b64642f2ecf8e9c01eacb39d725889b629ceee33534649a76fd5eeb2e1247f6a",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "c875bfe5851a5a6283a00a241fb77184898c3accda5f7e23b2aad265f114b009",
+          "distance": 15
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "755b3e3fc59dc41d33fc1d111fe67fc176866fc9bca174f14fc0d2b4e6d9effe",
+          "distance": 37.24305555555556
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "569b4176f72fcfe7f9fb90a7597115e3835826aca1de4b3329788b9aa9e6e168",
+          "distance": 37.861111111111114
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "e9a456c5c9f3e21beb2af11cefd3b520f46fcdb569db7c2b61f7b39f88e6f457",
+          "distance": 38.15277777777778
+        }
+      ]
+    },
+    {
+      "id": "US-012",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "6e1c77dce9d728b6f20bfe52084f53aa855976352ee3c012fea67131cacbe39e",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "cdebe8d8d31a353a3c639a887d2537ddc1e73be521b0db33cb652af05488d9c1",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "ecc12eb40458adbe4ad04bea40996a68135c0a62e6cfde22e80596635ad8ad28",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "a4f4a28ea29a37dcec8332409477d496cb1d60b8ba25273ea3d50e19ddc4d98d",
+          "distance": 25.51736111111111
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "54e7d92cc6ee9a411df4920b34d7fce4cab6816997f13fd5d87333804f77fb68",
+          "distance": 25.65625
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "546f94a2d02dd419b2e7cfbce40ff1650c5edda4d45282105ef2a56d2ecf5447",
+          "distance": 25.666666666666668
+        }
+      ]
+    },
+    {
+      "id": "US-013",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": "CF-173",
+          "inventory": "CF",
+          "sha256": "1cf9a433a5f3c32ef95608b4b627fd5565f6f73ff99942969b868528426a9071",
+          "distance": 13
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "2993a377f368a793f4494644c7eef5871175f9bdce649fe5bf5c54d9fdac88f8",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "97bed1810f63893a7c08136382393c99d279cbfa02362f44330d4f512e5c4ebf",
+          "distance": 15
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "41cdf59d45d4106bed9fb3541839e2582a6999d6217fdf69e2857b223dab4cb1",
+          "distance": 30.086805555555557
+        },
+        {
+          "id": null,
+          "inventory": "behavie-inventory.json",
+          "sha256": "1ba715ad08ee04cab46a1e8e9b52a0e4ff83c9a427fdb8a9e349eae792a4233b",
+          "distance": 30.583333333333332
+        },
+        {
+          "id": null,
+          "inventory": "behavie-inventory.json",
+          "sha256": "d640b9f35bbe74ba450a207274fda70eb17b19dba446437bad2f0eb37c7ed2d8",
+          "distance": 30.59027777777778
+        }
+      ]
+    },
+    {
+      "id": "US-014",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "5ef0ca44364c0f13e94d074fb8bd1d09c1a63c7ce1377877e9634366a0e73495",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "257b36d30a1776e9cf921275399f68a2d8621d5d537ac8f296576be70d83c88a",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "59352d517657a825df90799259dce57ef784f310e94d7f737c127ec67f4657bf",
+          "distance": 16
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "b4e133f0e3412d5818253c62fdf73d7713a329828856a3f1e599ef1352d7da91",
+          "distance": 25.836805555555557
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "213a9887ba277955df295a4ccaaf872f812a9b096c664e2db0557221b736bcb7",
+          "distance": 28.57986111111111
+        },
+        {
+          "id": "CF-118",
+          "inventory": "CF",
+          "sha256": "b42fc747d61bd072d18eb4203e8ab054dcc1ecc6a8a222b33e3a76a131c3d094",
+          "distance": 29.20138888888889
+        }
+      ]
+    },
+    {
+      "id": "US-015",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "4e69b07529fec2ce111154661a0e0cc06ddaab0f875d90c4ab1f3622ee104061",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "5627fe946d006056e52513243122c16b655689055e24377def1b6b837a7711e0",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "9e743a33fb284308b6e88da757fb6d22e813ddc693f5ff0b2cb2dd0eae6c4fce",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "a7b35f7407dddeb722598eb8605f78aef0fbe55a990bcba1811f0804e3e1f40f",
+          "distance": 44.642361111111114
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "e0d88f8a8631efcb800c1ac2047bad8d688a8d6bad637bd0b914c017e834c608",
+          "distance": 48.65277777777778
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "c55b06209b31a2a6549d548538f356ee5aae5f3e23ccc898933599260de18fd5",
+          "distance": 49.44444444444444
+        }
+      ]
+    },
+    {
+      "id": "US-016",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "d263fd5b46408d71be5f8e66d334ab3ee8b86bbf62c02d91ea960bcb4d377194",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "2311f9146c531e42c9a3c8de78a052a2c056660a597033e713de6bbb940db047",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "9ca553c7998254af6493ee3e46547e34fc5d86817d518f1594956c138eff2851",
+          "distance": 15
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "16f43e2f488cbd3c4a4663e9a25b1e9791f19bf8ae0033a49a70bd08fe74b010",
+          "distance": 31.10763888888889
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "b284f1e8037ff9e65f9b53bcfe14621233d5a6b4fccc00060daef6bcc72fce6f",
+          "distance": 31.14236111111111
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "b9216b62355efb8b0276ee269a969e9fa0b06e1609104c5a833aa3c05deadb26",
+          "distance": 31.74652777777778
+        }
+      ]
+    },
+    {
+      "id": "US-017",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "735e9b1e9fe0b5144c8f5c245a0fdafb0b957c60e63f6b35cc024843584953b6",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "900cf0130b6a16e7b80330a7d1cc8e7e0b49128abd5328e79ff0099819f1a5c5",
+          "distance": 18
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "04350df73208e9bc3363344766fac6c28fb22c73898aa5e3735e8bb464f02132",
+          "distance": 18
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "d818bb731eadc4ce356317023ead83cf21dadc5c8e9a38de3d55f7abebe9f023",
+          "distance": 32.19097222222222
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "b99a0ffcc71efce153b90ee1178cb05ba2790c947ad4167412cefbe035af3339",
+          "distance": 32.58680555555556
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "56e23f7c80997f0ac94f2cfe6cb840980e08e389279a9f81b4654a6b4e731238",
+          "distance": 32.59027777777778
+        }
+      ]
+    },
+    {
+      "id": "US-018",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "a590da5f963bc2ed3231f5206105aa28fe5e605dccc28a07f250ac1162510f5c",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "af42083021962919377413efb8d85a45c9d3bdc35da12c0f81234b45c8036df0",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "43e2a5e01f13df22dce84a08f19dcea41a7ebbc1a1c731f33e025e950ab3d397",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "bd9bbf2c1942eb094fad83c5532c7a505462e7c7e0bca8bbba51f9062f8424db",
+          "distance": 34.68402777777778
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "9c02d34e0e25c0d7fa09c9dffba9bec1eb9d5b9179236afe89e9922cabf06d27",
+          "distance": 34.739583333333336
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "5a32d82ba89f2823e6717f30fb0c74cacfc8565f4467cc44e945a81f27339309",
+          "distance": 34.75
+        }
+      ]
+    },
+    {
+      "id": "US-019",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "16b7aa220ea4ab2b6befde4a98280c585ebffe187e87c605c49926e03c16986b",
+          "distance": 13
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "715cc0c4927745700755cf2e43031ea66118d48c27131b2323d4bced90127ef8",
+          "distance": 13
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "b10b29015b93f7ca485037f29be40ff32fde1fc5be3a0eab7d84e75f84c1f450",
+          "distance": 15
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "6c53af290e56a9ec8cc098393a41c147330c6f75371c59338b2a674931f3744a",
+          "distance": 35.89930555555556
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "5b57a5b9cff20efe105e8cdc5243ad6247b851c85a61accc9d97eb61fa4aba6a",
+          "distance": 37.24652777777778
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "f10e4a32b7972ed8ab16d24312e2434558751d6a9d7416dbbe910bedc6d96904",
+          "distance": 39.0
+        }
+      ]
+    },
+    {
+      "id": "US-020",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "135eda8f4df6c86e8123808b40c5783665a96bdf924aaa6284cc51fd01522fac",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "76a947d9fce20c4748c2739ff02e734fe99d773437d1746ec55e5591c9af705e",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "edf76b0887dc8909759d33c9cfdc09fc211040a97b725e3c566712de6c9724ef",
+          "distance": 16
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "b4e133f0e3412d5818253c62fdf73d7713a329828856a3f1e599ef1352d7da91",
+          "distance": 34.03472222222222
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "de90fc7eb40010ec6074eeb7fe433a340d2e2726c05649a4179055aecf63cd01",
+          "distance": 36.59375
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "b7527febd40f8e9705d15071297f71e55057472b8886694743ea336eefb1aabe",
+          "distance": 36.670138888888886
+        }
+      ]
+    },
+    {
+      "id": "US-021",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "3befe0424af8ee2ec76c3a7c55dbcf5e9955cca5aa654f185979ff98ee7eb55c",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "fb7d0e05dc070a45457efe30bf3f9d1e83015a4f1fef9b4cea8b5a5c9817a328",
+          "distance": 18
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "97a6457d1619eaab2ba8027790141816db791eb50d5993d7b98614c168a84059",
+          "distance": 18
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "8a5cd9abcca26aecaf73a7a178f7a64d49d85de7c8dbd298642216fd9a821b03",
+          "distance": 25.36111111111111
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "1fa57f515331f12ec307f520201c45c56d3a396fc60505ee226e4c6a5b2af84e",
+          "distance": 27.760416666666668
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "0eac5769a1675fc17635c2ef1f577b8061a68e5a86c828a7df464eacbd26278b",
+          "distance": 27.927083333333332
+        }
+      ]
+    },
+    {
+      "id": "US-022",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "behavie-inventory.json",
+          "sha256": "cb444c9fa6bdcb237055d9043b30f716190f4e324c977e6118a753d759d7a128",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "86c7fcd794db6c702e191e2a51f2f4417c8118c43fb81d607cab01a243be6e7b",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "behavie-inventory.json",
+          "sha256": "0c1408d0426a86c24324671d4d14b5ba81e9f65cfb01113a2bf174800ab653f5",
+          "distance": 16
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "00caad7f35dc8f8f9df7d69e8c1a50c48e795a7fe72061f5041e185f9e46da7c",
+          "distance": 27.430555555555557
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "4c3a8f8e7ea2ac3be795da087909865046df460dec029195ca45cff6e3c10db9",
+          "distance": 27.895833333333332
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "34c7a018e71204f819e838e29380642aaf5e8082dcc4e96510f198ab03a0c925",
+          "distance": 27.916666666666668
+        }
+      ]
+    },
+    {
+      "id": "US-023",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "61f1ed2162027fa4cd622b65a6623f513a852982d086c043565a7bf97876fb95",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "62c23d12e403f062790cfc93d3e0024e11358733e69fa227266374ae49cbb4d3",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "46295665b28b82c64dc753c865222e587538e9e6ba6c8877d40682ed83a4d621",
+          "distance": 15
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "36c2b45a7446e9acd695163765e43d378ed28420578e943886a84d416a47715a",
+          "distance": 30.46875
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "3ecc0dd8845e2fdef4b272c43f3550f77bc84d4f20a8e90fc4f416568678f157",
+          "distance": 31.447916666666668
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "df2872bf785cd1c5fb629ce0829e6203b9fe4763b5be3937e8b35a5da8e94ce1",
+          "distance": 31.46875
+        }
+      ]
+    },
+    {
+      "id": "US-024",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "307d7c7abee49e8bc7c687d91baf9d13036be6901339f852269a248487dfcb98",
+          "distance": 10
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "920a67ea87c68133ebfab5a5efe0c001c2451b921bf85b17c66f6e820894a4a0",
+          "distance": 11
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "2d10f0a7f8b1668d57642464963f56c16430de05c3005420e05d16d2572df9d5",
+          "distance": 11
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "02335623b029319bdbaf23441d6df1f9fc5af2e2fd1a0463d1cef1fb08201dab",
+          "distance": 31.30902777777778
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "0e5c9f69511c4b4059cb87fc0e09a2807ec539e2109761e502dc72ec8e014732",
+          "distance": 32.97569444444444
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "0f693ca09e96ac267524315350dcc0d8eb9c26d1b170baf33fc131b042861245",
+          "distance": 34.02430555555556
+        }
+      ]
+    },
+    {
+      "id": "US-025",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "a03faa10b701772583d63c182b78fa29064714f7179891d84f31b1cb24603503",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "f332c6db3e62141bf882c4c9f70cb453d42266eaa1d9fbc040f1bc3bfd421216",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "2914307fb4c64d1ca1916acd0442cd8efbfe600de8b699e6c5dbadf753e7c009",
+          "distance": 16
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "6561d6bfadd2bc0dfcd2dfa7d2fe94ff54cee2426cde985ce1079f95569afcd9",
+          "distance": 27.836805555555557
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "df6894d0df86f5312110e1fb51b1e09a3a24a21b39d00223d9c4a242d6cf43a2",
+          "distance": 28.072916666666668
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "22521617da856c9c60f285cdd580fd8baaac4e005701e35cde5f0c65c9a0c8b6",
+          "distance": 28.53472222222222
+        }
+      ]
+    },
+    {
+      "id": "US-026",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "527be21b6aa0f690fb97da10263722edd6e10120d8643c3a6e3b1209c2e11b93",
+          "distance": 13
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "5bf6a855039cea7dfc5e78c36f06683074dc4b91824667766dc0a6cddf595c21",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "27e5134912e151174d6ac434334e6a90b941d10bfe0dd56af78b7ee4cb883601",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "f72cf91636b98f07b764307f7cd813429ccc48c46cce194dfec8373a86f4c22a",
+          "distance": 24.3125
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "8884c243434ebb9625c624db133eea7b9bc2d8b088f241f3ca343102861ad7d6",
+          "distance": 24.31597222222222
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "58ffa23fa20d1c3b5dbacc1342a9284f79e67d57a9a1752f8e6bc8cfc51324a7",
+          "distance": 24.89236111111111
+        }
+      ]
+    },
+    {
+      "id": "US-027",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "e13df9606afe55dde925f1c41e5bbb3e32138041aa731a5f7bda0cd949c10026",
+          "distance": 14
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "27f959f57907bfd1c1f1f037ca2a9860f3d2626a99a0e327867458ee69cc57fe",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "1c1844736d4b742372eb45383b93c99a262380dacb3e5852ed7f551a74dc525e",
+          "distance": 15
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "bc6342b102ac0477c00d4343d67b3025bb23c3cb7eeb1274ba0167ec74524c42",
+          "distance": 26.854166666666668
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "782f76ef890a3e8fd76908af7aec29e4b2fc2fa9b35449633ea9a3a94f12241d",
+          "distance": 28.1875
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "daebef60d47aeea4f8413d431a6b175a22df974234a576836e5493ecaeb94539",
+          "distance": 28.774305555555557
+        }
+      ]
+    },
+    {
+      "id": "US-028",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "8a05066ea560699a19a91077d7b31dd1b1dae183845328cb354eb09b60936ad7",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "b3b1143aec3a1aa2f05ad1520cf9d2b4303238bc15a67fcb410e7c49639a46b0",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "9209937b14b7637d1d26f334f6012f7d375ec3ddd3f480d74da93fa9f4cb9df5",
+          "distance": 19
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "99f6cca2b531f2fdca65557c08fbf6a948a7bf8b9b9c27f2ef0a76fc3a4cb9fc",
+          "distance": 22.17361111111111
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "9f3bff8efe5f09c52bf08d53073233e34ec45146f0d9e5f2df7f162ab420801a",
+          "distance": 22.354166666666668
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "4a01d0e931d7a27667ee1f59e8d915bca10c973bef48eb6d7e42648ce08302f6",
+          "distance": 22.538194444444443
+        }
+      ]
+    },
+    {
+      "id": "US-029",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "b2ce781aae7bedc299734ac377896f52f8b2d290ce63e14a4a400ee51bea6aa2",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "d414e8c56e5d6c1f3a5c72512b177c4e1042e2e958e7c0684131504dd431f844",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "7be8de5730a0fca07ec27ab73be4d7f6b41872ccd5153049eef8efb1c7399572",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "9ce176980ca1aa5cc70478ce8c02ac2c58e2aaf042f782fa12c8f8caeac00db5",
+          "distance": 31.47222222222222
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "0c3c497a720a63798a67b5b725588fd83aad64133a957e3e03c482f63293d624",
+          "distance": 31.475694444444443
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "a4bc333cae19441b2860b6846f273b08705c0b32c7e200259e90de912bba51d4",
+          "distance": 31.631944444444443
+        }
+      ]
+    },
+    {
+      "id": "US-030",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "7334da893f816e4659d9721fd1e15d3bce09f327507172d2511b8dbd2297ecd6",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "a6a7ed34bfc67cd59af26bf507ca373e09ccbf0d4292b8486f1667094cb1747c",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "3dfce8c4e7b40c3cf34f7bb35e4b638675ed2aaa6326604ec017c64cccec37e8",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "681139ef0970f466be54acee100fc5b4df8a433cef3f65411cda8a5cdfdfa86c",
+          "distance": 27.961805555555557
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "df02e13d36acde02badee8915bc7232abaf82a8f4d71f04d84b3325c181c60c4",
+          "distance": 28.54513888888889
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "30f3dc3a867fc366369bae6873611c04aede7de4141b451a1d9696d63169a710",
+          "distance": 29.194444444444443
+        }
+      ]
+    },
+    {
+      "id": "US-031",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": "CF-089",
+          "inventory": "CF",
+          "sha256": "3019a1d3bf9c10bcef2e852fdf0f9c80f890e2674f27e2aaa5aa763622b16628",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "4bfaeb23a2369b1b831b566f50d98550c36b1d7ba3400589389e29f7a66e7447",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "1b5bcc50af8cb1448c04cf333e21062bdadac28d921dc56e5ca8a1a94fc393fc",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": "CF-131",
+          "inventory": "CF",
+          "sha256": "eaebe88f843e5347dc99c7759b971f6f919b2ed4d8b5f87d929d4922c1668fe0",
+          "distance": 37.71180555555556
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "fffc8b2409b32bbec74b7303026b4d1adb35fe0fd5e3cb78364309f254aefeb1",
+          "distance": 41.916666666666664
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "2a14fa3148d04bda1f58349f1f5d9e5f872a3bf6c0672288380362dabc83bc9a",
+          "distance": 43.56944444444444
+        }
+      ]
+    },
+    {
+      "id": "US-032",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "3364dd1877945b1997faf7e92eae123039f8a9703a02c10154804d714f275b67",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "6f452938e2110796e09615ad15718adcc19e284be38effc03c8c33779d7f14c6",
+          "distance": 18
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "d85bd330fcd9fdca08935279755fa0996688ea79dc9bd5b1563d89ee8a2e5279",
+          "distance": 18
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "d85bd330fcd9fdca08935279755fa0996688ea79dc9bd5b1563d89ee8a2e5279",
+          "distance": 34.65972222222222
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "c4a55e67f022507198d4a57bb7f9f1934fbc010bf4227015d66c59931310852b",
+          "distance": 34.888888888888886
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "5bc579f51e55016375e909c0aeff9cceb007557e06aa88e26253806ad341b50c",
+          "distance": 34.892361111111114
+        }
+      ]
+    },
+    {
+      "id": "US-033",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": "CF-191",
+          "inventory": "CF",
+          "sha256": "801f8d8187d9200da9d7d542eb87b1ce3f4c20d5f0b2d17f8d768b2cffe71e91",
+          "distance": 17
+        },
+        {
+          "id": "CF-192",
+          "inventory": "CF",
+          "sha256": "f2e47a5d4e6d9a457d0faad758540596f9022e87b73a6948d8159ede112ccf62",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "16416d29bcd8be767268d4e60372cf0a426a539f6fcedc5f06f71886fcb0387a",
+          "distance": 18
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "44ffbfea207b163a285de362cfe89d80ba4b320cbc66263d5a120f550f29fe6a",
+          "distance": 34.666666666666664
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "45bb5d368b66865c069dd599a2483ae22cccc34b54202543284cdd43da7e0824",
+          "distance": 34.71875
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "5139bc5b8481dc1ed9532da18415cb13489b7c098a73b69aa0b631fbd2bf5ca3",
+          "distance": 34.80555555555556
+        }
+      ]
+    },
+    {
+      "id": "US-034",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "301e37b290af81de5d8cd34e0aa99646cf1f74eb68aee0f2f55e601e930c131b",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "fb1d2636d0b7bf41bb8703d24ada52ad612ef0d2c0b1915555199a09bb35693f",
+          "distance": 18
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "9fe6f3deb73fdc1768d58ce51c085c837012bb76262d38fd3c47069f767f5618",
+          "distance": 18
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "22ef36316c8e9f6296fe4116497b78b761eaaa7185a8b55cbe05b063bd802db7",
+          "distance": 42.885416666666664
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "9e4d1a38db6b521841c64dbef2f3f50c1aff0188feb368567ea1300834956e19",
+          "distance": 43.135416666666664
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "012e256f2c15c9e4de6325efc66d40eab623b32f647b548b1b9dd7951f182185",
+          "distance": 43.15277777777778
+        }
+      ]
+    },
+    {
+      "id": "US-035",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "6706cb18d44d7e22b0671c3971785827fedc5c18d6a7f6c4fd08c520afe2a9b0",
+          "distance": 16
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "71f244f087ce8865d395f7058b32298e62b4073180d41e357dce74632871d597",
+          "distance": 17
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "74515d7ea53ad99163e3e9a95e1c1fc59523e2d30f2a2504b88adb489647b63f",
+          "distance": 17
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "fdb96d462c5edd14dccbf46edcd27eb76aecb8c96249ec2aa291f9f6d72f19c7",
+          "distance": 34.895833333333336
+        },
+        {
+          "id": null,
+          "inventory": "non-test-parent-scene-fingerprints.json",
+          "sha256": "cdc57000bb8140b1e4a03e8d7ea9f9f807e1c4f656744fb044de04a5ca517cb3",
+          "distance": 35.489583333333336
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "a37f6400d302d02ab5cdb7e84669febd2cabb76578bf506dda6ca9450cc7d0b4",
+          "distance": 35.638888888888886
+        }
+      ]
+    },
+    {
+      "id": "US-036",
+      "exact_source_matches": [],
+      "nearest_dhash": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "938614988c8c941b17b1f30883431e8f29df1014675d9c257065be6e39ae3fca",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "17f02ba8953b50e04e9f96bee0e5808ec20c26e43a74685825fc73d91a993426",
+          "distance": 15
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "0f9cfc707ad4ecddc86ba98edcae4228c6dd72ab5c9d422eab61ab29e0a6b17c",
+          "distance": 15
+        }
+      ],
+      "nearest_scene": [
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "700a981f4be8648561820d118e2b1be0bda27e1d678bf4bacf6741c19bd577b4",
+          "distance": 35.21527777777778
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "d9d7761e0bc3bb4f80c13c181160c4e51a3fc00cc981d13e8d5d7eb7aeed261e",
+          "distance": 35.979166666666664
+        },
+        {
+          "id": null,
+          "inventory": "studentclassroombehavior-inventory.json",
+          "sha256": "27889d5cdff144edc0c8c64e22cdd4d250e987a9959d3889affa6a7501229145",
+          "distance": 35.979166666666664
+        }
+      ]
+    }
+  ]
+}

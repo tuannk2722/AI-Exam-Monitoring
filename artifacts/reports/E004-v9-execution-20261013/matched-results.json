@@ -1,0 +1,1051 @@
+{
+  "E004-V9-LP": {
+    "run": {
+      "status": "FINISHED",
+      "best_epoch": 10,
+      "completed_epochs": 20,
+      "elapsed_seconds": 1679.972058799991,
+      "peak_rss_bytes": 560893952,
+      "code_sha256": "cdb20fb051b46d3a0a88cf422a004d490c4dc92b8d13a0a7e86bdaae1c842cfb"
+    },
+    "cohorts": {
+      "train": {
+        "macro_bce": 0.4629189372062683,
+        "macro_ap": 0.8638495886788379,
+        "constant_bce": 0.682559166315432,
+        "targets": {
+          "phone_use": {
+            "positive": 247,
+            "negative": 193,
+            "unknown": 276,
+            "tp": 226,
+            "fp": 64,
+            "fn": 21,
+            "tn": 129,
+            "ap": 0.8944694133463278,
+            "precision": 0.7793103448275862,
+            "recall": 0.9149797570850202,
+            "f1": 0.8417132216014898,
+            "reason": null,
+            "fpr": 0.3316062176165803
+          },
+          "looking_around": {
+            "positive": 213,
+            "negative": 297,
+            "unknown": 206,
+            "tp": 158,
+            "fp": 57,
+            "fn": 55,
+            "tn": 240,
+            "ap": 0.833229764011348,
+            "precision": 0.7348837209302326,
+            "recall": 0.7417840375586855,
+            "f1": 0.7383177570093458,
+            "reason": null,
+            "fpr": 0.1919191919191919
+          }
+        },
+        "group_bootstrap": {
+          "groups": 397,
+          "samples": 5000,
+          "seed": 42,
+          "method": "whole_group_percentile_95",
+          "targets": {
+            "phone_use": {
+              "precision": {
+                "interval": [
+                  0.7073170731707317,
+                  0.8322590663193749
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              },
+              "recall": {
+                "interval": [
+                  0.8591533290653008,
+                  0.9555555555555556
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              },
+              "fpr": {
+                "interval": [
+                  0.25,
+                  0.410962709284627
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              }
+            },
+            "looking_around": {
+              "precision": {
+                "interval": [
+                  0.6330918751237542,
+                  0.8155754876820221
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              },
+              "recall": {
+                "interval": [
+                  0.6073564855390009,
+                  0.8421052631578947
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              },
+              "fpr": {
+                "interval": [
+                  0.14285714285714285,
+                  0.24437680428098663
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              }
+            }
+          }
+        }
+      },
+      "selection": {
+        "macro_bce": 0.6778520345687866,
+        "macro_ap": 0.5753683976950549,
+        "constant_bce": 0.6973920494524511,
+        "targets": {
+          "phone_use": {
+            "positive": 27,
+            "negative": 33,
+            "unknown": 11,
+            "tp": 10,
+            "fp": 7,
+            "fn": 17,
+            "tn": 26,
+            "ap": 0.6127359895843214,
+            "precision": 0.5882352941176471,
+            "recall": 0.37037037037037035,
+            "f1": 0.45454545454545453,
+            "reason": null,
+            "fpr": 0.21212121212121213
+          },
+          "looking_around": {
+            "positive": 28,
+            "negative": 38,
+            "unknown": 5,
+            "tp": 9,
+            "fp": 6,
+            "fn": 19,
+            "tn": 32,
+            "ap": 0.5380008058057884,
+            "precision": 0.6,
+            "recall": 0.32142857142857145,
+            "f1": 0.4186046511627907,
+            "reason": null,
+            "fpr": 0.15789473684210525
+          }
+        },
+        "group_bootstrap": {
+          "groups": 10,
+          "samples": 5000,
+          "seed": 42,
+          "method": "whole_group_percentile_95",
+          "targets": {
+            "phone_use": {
+              "precision": {
+                "interval": [
+                  0.0,
+                  0.7619047619047619
+                ],
+                "valid_resamples": 4997,
+                "valid_fraction": 0.9994,
+                "status": "AVAILABLE"
+              },
+              "recall": {
+                "interval": null,
+                "valid_resamples": 4461,
+                "valid_fraction": 0.8922,
+                "status": "INCONCLUSIVE"
+              },
+              "fpr": {
+                "interval": [
+                  0.1111111111111111,
+                  0.4166666666666667
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              }
+            },
+            "looking_around": {
+              "precision": {
+                "interval": [
+                  0.0,
+                  1.0
+                ],
+                "valid_resamples": 4871,
+                "valid_fraction": 0.9742,
+                "status": "AVAILABLE"
+              },
+              "recall": {
+                "interval": [
+                  0.0,
+                  0.5714285714285714
+                ],
+                "valid_resamples": 4993,
+                "valid_fraction": 0.9986,
+                "status": "AVAILABLE"
+              },
+              "fpr": {
+                "interval": [
+                  0.0,
+                  0.232164528432732
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              }
+            }
+          }
+        }
+      },
+      "diagnostic49": {
+        "macro_bce": 0.6226968765258789,
+        "macro_ap": 0.7595450769972382,
+        "constant_bce": 0.7249990528711447,
+        "targets": {
+          "phone_use": {
+            "positive": 16,
+            "negative": 20,
+            "unknown": 13,
+            "tp": 11,
+            "fp": 5,
+            "fn": 5,
+            "tn": 15,
+            "ap": 0.7244854642483953,
+            "precision": 0.6875,
+            "recall": 0.6875,
+            "f1": 0.6875,
+            "reason": null,
+            "fpr": 0.25
+          },
+          "looking_around": {
+            "positive": 17,
+            "negative": 12,
+            "unknown": 20,
+            "tp": 11,
+            "fp": 3,
+            "fn": 6,
+            "tn": 9,
+            "ap": 0.794604689746081,
+            "precision": 0.7857142857142857,
+            "recall": 0.6470588235294118,
+            "f1": 0.7096774193548387,
+            "reason": null,
+            "fpr": 0.25
+          }
+        },
+        "group_bootstrap": {
+          "groups": 14,
+          "samples": 5000,
+          "seed": 42,
+          "method": "whole_group_percentile_95",
+          "targets": {
+            "phone_use": {
+              "precision": {
+                "interval": [
+                  0.14285714285714285,
+                  0.9130434782608695
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              },
+              "recall": {
+                "interval": [
+                  0.4,
+                  1.0
+                ],
+                "valid_resamples": 4952,
+                "valid_fraction": 0.9904,
+                "status": "AVAILABLE"
+              },
+              "fpr": {
+                "interval": [
+                  0.09090909090909091,
+                  0.5
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              }
+            },
+            "looking_around": {
+              "precision": {
+                "interval": [
+                  0.25,
+                  1.0
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              },
+              "recall": {
+                "interval": [
+                  0.2222222222222222,
+                  1.0
+                ],
+                "valid_resamples": 4999,
+                "valid_fraction": 0.9998,
+                "status": "AVAILABLE"
+              },
+              "fpr": {
+                "interval": [
+                  0.0,
+                  0.5714285714285714
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              }
+            }
+          }
+        }
+      },
+      "comparator48": {
+        "macro_bce": 0.6346903443336487,
+        "macro_ap": 0.7630212253228276,
+        "constant_bce": 0.7269126902738746,
+        "targets": {
+          "phone_use": {
+            "positive": 16,
+            "negative": 19,
+            "unknown": 13,
+            "tp": 11,
+            "fp": 5,
+            "fn": 5,
+            "tn": 14,
+            "ap": 0.7286376063549977,
+            "precision": 0.6875,
+            "recall": 0.6875,
+            "f1": 0.6875,
+            "reason": null,
+            "fpr": 0.2631578947368421
+          },
+          "looking_around": {
+            "positive": 17,
+            "negative": 11,
+            "unknown": 20,
+            "tp": 11,
+            "fp": 3,
+            "fn": 6,
+            "tn": 8,
+            "ap": 0.7974048442906574,
+            "precision": 0.7857142857142857,
+            "recall": 0.6470588235294118,
+            "f1": 0.7096774193548387,
+            "reason": null,
+            "fpr": 0.2727272727272727
+          }
+        },
+        "group_bootstrap": {
+          "groups": 13,
+          "samples": 5000,
+          "seed": 42,
+          "method": "whole_group_percentile_95",
+          "targets": {
+            "phone_use": {
+              "precision": {
+                "interval": [
+                  0.16666666666666666,
+                  0.9091414141414134
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              },
+              "recall": {
+                "interval": [
+                  0.38461538461538464,
+                  1.0
+                ],
+                "valid_resamples": 4967,
+                "valid_fraction": 0.9934,
+                "status": "AVAILABLE"
+              },
+              "fpr": {
+                "interval": [
+                  0.09523809523809523,
+                  0.5454545454545454
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              }
+            },
+            "looking_around": {
+              "precision": {
+                "interval": [
+                  0.25,
+                  1.0
+                ],
+                "valid_resamples": 4998,
+                "valid_fraction": 0.9996,
+                "status": "AVAILABLE"
+              },
+              "recall": {
+                "interval": [
+                  0.22970085470085472,
+                  1.0
+                ],
+                "valid_resamples": 4996,
+                "valid_fraction": 0.9992,
+                "status": "AVAILABLE"
+              },
+              "fpr": {
+                "interval": [
+                  0.0,
+                  0.6666666666666666
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              }
+            }
+          }
+        }
+      },
+      "added35": {
+        "macro_bce": 0.7006486654281616,
+        "macro_ap": 0.6765862827293978,
+        "constant_bce": 0.7470415578775658,
+        "targets": {
+          "phone_use": {
+            "positive": 9,
+            "negative": 18,
+            "unknown": 8,
+            "tp": 5,
+            "fp": 5,
+            "fn": 4,
+            "tn": 13,
+            "ap": 0.6083942836393816,
+            "precision": 0.5,
+            "recall": 0.5555555555555556,
+            "f1": 0.5263157894736842,
+            "reason": null,
+            "fpr": 0.2777777777777778
+          },
+          "looking_around": {
+            "positive": 14,
+            "negative": 8,
+            "unknown": 13,
+            "tp": 8,
+            "fp": 3,
+            "fn": 6,
+            "tn": 5,
+            "ap": 0.7447782818194141,
+            "precision": 0.7272727272727273,
+            "recall": 0.5714285714285714,
+            "f1": 0.64,
+            "reason": null,
+            "fpr": 0.375
+          }
+        },
+        "group_bootstrap": {
+          "groups": 12,
+          "samples": 5000,
+          "seed": 42,
+          "method": "whole_group_percentile_95",
+          "targets": {
+            "phone_use": {
+              "precision": {
+                "interval": [
+                  0.14285714285714285,
+                  0.8
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              },
+              "recall": {
+                "interval": [
+                  0.38461538461538464,
+                  1.0
+                ],
+                "valid_resamples": 4956,
+                "valid_fraction": 0.9912,
+                "status": "AVAILABLE"
+              },
+              "fpr": {
+                "interval": [
+                  0.1111111111111111,
+                  0.6
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              }
+            },
+            "looking_around": {
+              "precision": {
+                "interval": [
+                  0.2857142857142857,
+                  1.0
+                ],
+                "valid_resamples": 4999,
+                "valid_fraction": 0.9998,
+                "status": "AVAILABLE"
+              },
+              "recall": {
+                "interval": [
+                  0.23076923076923078,
+                  1.0
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              },
+              "fpr": {
+                "interval": [
+                  0.0,
+                  0.75
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              }
+            }
+          }
+        }
+      }
+    },
+    "run_sha256": "78377a98f925e268a567d97d9702291399b3b8391b344330c94482c50c2fb8dc",
+    "best_checkpoint_sha256": "2cdb53c00149e71b5127096ee4d323865434bbfbba87c68ecd300e7707ceb2cf"
+  },
+  "E004-V9-L4": {
+    "run": {
+      "status": "FINISHED",
+      "best_epoch": 1,
+      "completed_epochs": 11,
+      "elapsed_seconds": 1146.3345035000239,
+      "peak_rss_bytes": 560893952,
+      "code_sha256": "cdb20fb051b46d3a0a88cf422a004d490c4dc92b8d13a0a7e86bdaae1c842cfb"
+    },
+    "cohorts": {
+      "train": {
+        "macro_bce": 0.4806196093559265,
+        "macro_ap": 0.8779832995715265,
+        "constant_bce": 0.682559166315432,
+        "targets": {
+          "phone_use": {
+            "positive": 247,
+            "negative": 193,
+            "unknown": 276,
+            "tp": 188,
+            "fp": 29,
+            "fn": 59,
+            "tn": 164,
+            "ap": 0.9124221072165459,
+            "precision": 0.8663594470046083,
+            "recall": 0.7611336032388664,
+            "f1": 0.8103448275862069,
+            "reason": null,
+            "fpr": 0.15025906735751296
+          },
+          "looking_around": {
+            "positive": 213,
+            "negative": 297,
+            "unknown": 206,
+            "tp": 126,
+            "fp": 23,
+            "fn": 87,
+            "tn": 274,
+            "ap": 0.8435444919265072,
+            "precision": 0.8456375838926175,
+            "recall": 0.5915492957746479,
+            "f1": 0.6961325966850829,
+            "reason": null,
+            "fpr": 0.07744107744107744
+          }
+        },
+        "group_bootstrap": {
+          "groups": 397,
+          "samples": 5000,
+          "seed": 42,
+          "method": "whole_group_percentile_95",
+          "targets": {
+            "phone_use": {
+              "precision": {
+                "interval": [
+                  0.7944444444444444,
+                  0.918918918918919
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              },
+              "recall": {
+                "interval": [
+                  0.7047619047619048,
+                  0.817145757795504
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              },
+              "fpr": {
+                "interval": [
+                  0.09574468085106383,
+                  0.2073203165542293
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              }
+            },
+            "looking_around": {
+              "precision": {
+                "interval": [
+                  0.7586206896551724,
+                  0.9127925069960435
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              },
+              "recall": {
+                "interval": [
+                  0.44370611960364487,
+                  0.7004508829398696
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              },
+              "fpr": {
+                "interval": [
+                  0.04225352112676056,
+                  0.11875256147540979
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              }
+            }
+          }
+        }
+      },
+      "selection": {
+        "macro_bce": 0.7093246579170227,
+        "macro_ap": 0.54123174276394,
+        "constant_bce": 0.6973920494524511,
+        "targets": {
+          "phone_use": {
+            "positive": 27,
+            "negative": 33,
+            "unknown": 11,
+            "tp": 5,
+            "fp": 6,
+            "fn": 22,
+            "tn": 27,
+            "ap": 0.5658926414083263,
+            "precision": 0.45454545454545453,
+            "recall": 0.18518518518518517,
+            "f1": 0.2631578947368421,
+            "reason": null,
+            "fpr": 0.18181818181818182
+          },
+          "looking_around": {
+            "positive": 28,
+            "negative": 38,
+            "unknown": 5,
+            "tp": 2,
+            "fp": 4,
+            "fn": 26,
+            "tn": 34,
+            "ap": 0.5165708441195538,
+            "precision": 0.3333333333333333,
+            "recall": 0.07142857142857142,
+            "f1": 0.11764705882352941,
+            "reason": null,
+            "fpr": 0.10526315789473684
+          }
+        },
+        "group_bootstrap": {
+          "groups": 10,
+          "samples": 5000,
+          "seed": 42,
+          "method": "whole_group_percentile_95",
+          "targets": {
+            "phone_use": {
+              "precision": {
+                "interval": [
+                  0.0,
+                  1.0
+                ],
+                "valid_resamples": 4852,
+                "valid_fraction": 0.9704,
+                "status": "AVAILABLE"
+              },
+              "recall": {
+                "interval": null,
+                "valid_resamples": 4461,
+                "valid_fraction": 0.8922,
+                "status": "INCONCLUSIVE"
+              },
+              "fpr": {
+                "interval": [
+                  0.0,
+                  0.25
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              }
+            },
+            "looking_around": {
+              "precision": {
+                "interval": null,
+                "valid_resamples": 3222,
+                "valid_fraction": 0.6444,
+                "status": "INCONCLUSIVE"
+              },
+              "recall": {
+                "interval": [
+                  0.0,
+                  0.1111111111111111
+                ],
+                "valid_resamples": 4993,
+                "valid_fraction": 0.9986,
+                "status": "AVAILABLE"
+              },
+              "fpr": {
+                "interval": [
+                  0.0,
+                  0.14814814814814814
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              }
+            }
+          }
+        }
+      },
+      "diagnostic49": {
+        "macro_bce": 0.5770031213760376,
+        "macro_ap": 0.824718139663521,
+        "constant_bce": 0.7249990528711447,
+        "targets": {
+          "phone_use": {
+            "positive": 16,
+            "negative": 20,
+            "unknown": 13,
+            "tp": 10,
+            "fp": 1,
+            "fn": 6,
+            "tn": 19,
+            "ap": 0.8016291384128604,
+            "precision": 0.9090909090909091,
+            "recall": 0.625,
+            "f1": 0.7407407407407407,
+            "reason": null,
+            "fpr": 0.05
+          },
+          "looking_around": {
+            "positive": 17,
+            "negative": 12,
+            "unknown": 20,
+            "tp": 9,
+            "fp": 1,
+            "fn": 8,
+            "tn": 11,
+            "ap": 0.8478071409141816,
+            "precision": 0.9,
+            "recall": 0.5294117647058824,
+            "f1": 0.6666666666666666,
+            "reason": null,
+            "fpr": 0.08333333333333333
+          }
+        },
+        "group_bootstrap": {
+          "groups": 14,
+          "samples": 5000,
+          "seed": 42,
+          "method": "whole_group_percentile_95",
+          "targets": {
+            "phone_use": {
+              "precision": {
+                "interval": [
+                  0.25,
+                  1.0
+                ],
+                "valid_resamples": 4957,
+                "valid_fraction": 0.9914,
+                "status": "AVAILABLE"
+              },
+              "recall": {
+                "interval": [
+                  0.1,
+                  1.0
+                ],
+                "valid_resamples": 4952,
+                "valid_fraction": 0.9904,
+                "status": "AVAILABLE"
+              },
+              "fpr": {
+                "interval": [
+                  0.0,
+                  0.2
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              }
+            },
+            "looking_around": {
+              "precision": {
+                "interval": [
+                  0.19666666666666688,
+                  1.0
+                ],
+                "valid_resamples": 4957,
+                "valid_fraction": 0.9914,
+                "status": "AVAILABLE"
+              },
+              "recall": {
+                "interval": [
+                  0.0,
+                  0.6923076923076923
+                ],
+                "valid_resamples": 4999,
+                "valid_fraction": 0.9998,
+                "status": "AVAILABLE"
+              },
+              "fpr": {
+                "interval": [
+                  0.0,
+                  0.3333333333333333
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              }
+            }
+          }
+        }
+      },
+      "comparator48": {
+        "macro_bce": 0.5888102054595947,
+        "macro_ap": 0.8255514729968544,
+        "constant_bce": 0.7269126902738746,
+        "targets": {
+          "phone_use": {
+            "positive": 16,
+            "negative": 19,
+            "unknown": 13,
+            "tp": 10,
+            "fp": 1,
+            "fn": 6,
+            "tn": 18,
+            "ap": 0.8016291384128604,
+            "precision": 0.9090909090909091,
+            "recall": 0.625,
+            "f1": 0.7407407407407407,
+            "reason": null,
+            "fpr": 0.05263157894736842
+          },
+          "looking_around": {
+            "positive": 17,
+            "negative": 11,
+            "unknown": 20,
+            "tp": 9,
+            "fp": 1,
+            "fn": 8,
+            "tn": 10,
+            "ap": 0.8494738075808483,
+            "precision": 0.9,
+            "recall": 0.5294117647058824,
+            "f1": 0.6666666666666666,
+            "reason": null,
+            "fpr": 0.09090909090909091
+          }
+        },
+        "group_bootstrap": {
+          "groups": 13,
+          "samples": 5000,
+          "seed": 42,
+          "method": "whole_group_percentile_95",
+          "targets": {
+            "phone_use": {
+              "precision": {
+                "interval": [
+                  0.2,
+                  1.0
+                ],
+                "valid_resamples": 4967,
+                "valid_fraction": 0.9934,
+                "status": "AVAILABLE"
+              },
+              "recall": {
+                "interval": [
+                  0.07692307692307693,
+                  1.0
+                ],
+                "valid_resamples": 4967,
+                "valid_fraction": 0.9934,
+                "status": "AVAILABLE"
+              },
+              "fpr": {
+                "interval": [
+                  0.0,
+                  0.21428571428571427
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              }
+            },
+            "looking_around": {
+              "precision": {
+                "interval": [
+                  0.2,
+                  1.0
+                ],
+                "valid_resamples": 4950,
+                "valid_fraction": 0.99,
+                "status": "AVAILABLE"
+              },
+              "recall": {
+                "interval": [
+                  0.0,
+                  0.6923076923076923
+                ],
+                "valid_resamples": 4996,
+                "valid_fraction": 0.9992,
+                "status": "AVAILABLE"
+              },
+              "fpr": {
+                "interval": [
+                  0.0,
+                  0.36363636363636365
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              }
+            }
+          }
+        }
+      },
+      "added35": {
+        "macro_bce": 0.6395902633666992,
+        "macro_ap": 0.7089601776792178,
+        "constant_bce": 0.7470415578775658,
+        "targets": {
+          "phone_use": {
+            "positive": 9,
+            "negative": 18,
+            "unknown": 8,
+            "tp": 4,
+            "fp": 1,
+            "fn": 5,
+            "tn": 17,
+            "ap": 0.6330403102229727,
+            "precision": 0.8,
+            "recall": 0.4444444444444444,
+            "f1": 0.5714285714285714,
+            "reason": null,
+            "fpr": 0.05555555555555555
+          },
+          "looking_around": {
+            "positive": 14,
+            "negative": 8,
+            "unknown": 13,
+            "tp": 6,
+            "fp": 1,
+            "fn": 8,
+            "tn": 7,
+            "ap": 0.7848800451354631,
+            "precision": 0.8571428571428571,
+            "recall": 0.42857142857142855,
+            "f1": 0.5714285714285714,
+            "reason": null,
+            "fpr": 0.125
+          }
+        },
+        "group_bootstrap": {
+          "groups": 12,
+          "samples": 5000,
+          "seed": 42,
+          "method": "whole_group_percentile_95",
+          "targets": {
+            "phone_use": {
+              "precision": {
+                "interval": [
+                  0.2,
+                  1.0
+                ],
+                "valid_resamples": 4960,
+                "valid_fraction": 0.992,
+                "status": "AVAILABLE"
+              },
+              "recall": {
+                "interval": [
+                  0.07692307692307693,
+                  1.0
+                ],
+                "valid_resamples": 4956,
+                "valid_fraction": 0.9912,
+                "status": "AVAILABLE"
+              },
+              "fpr": {
+                "interval": [
+                  0.0,
+                  0.22243589743589431
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              }
+            },
+            "looking_around": {
+              "precision": {
+                "interval": [
+                  0.25,
+                  1.0
+                ],
+                "valid_resamples": 4960,
+                "valid_fraction": 0.992,
+                "status": "AVAILABLE"
+              },
+              "recall": {
+                "interval": [
+                  0.0,
+                  0.6002173913043446
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              },
+              "fpr": {
+                "interval": [
+                  0.0,
+                  0.5
+                ],
+                "valid_resamples": 5000,
+                "valid_fraction": 1.0,
+                "status": "AVAILABLE"
+              }
+            }
+          }
+        }
+      }
+    },
+    "run_sha256": "c14ee65fdd8f9b6ecc9f3165f0dadc2bb2279cac022ec63d51b9f5d5b7618133",
+    "best_checkpoint_sha256": "b8b41e8cd2e3e8b794211561030bd3a9f629cccaf27a0a75b1bb3ba6ce3fc019"
+  }
+}

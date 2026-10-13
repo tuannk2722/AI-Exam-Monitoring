@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "archive": "archive/e004-v9-execution-20261013.zip",
+  "sha256": "a16dde889f8582fff05d814833eccc1157f30dc74cb8f180c796bf1a08de589f",
+  "files": 1389,
+  "unique_blobs": 1366,
+  "original_bytes": 1012513653,
+  "archive_bytes": 995020678,
+  "restored_files": 1225,
+  "byte_exact_restore": "PASS",
+  "source_cache_archive": "archive/e004-v9-consolidation-20261013.zip",
+  "scope": "local_only",
+  "storage": "Same-drive archive; not off-device backup"
+}

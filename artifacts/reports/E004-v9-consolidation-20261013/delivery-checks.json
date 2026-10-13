@@ -1,0 +1,11 @@
+{
+  "repository_checker": "PASS",
+  "diff_whitespace": "PASS",
+  "git_delivery": "Unstaged new source/config/pointers remain; no staging or commit authorized. Strict --require-git was 26 missing index paths before V9 DVC pointer, now 27 expected.",
+  "scratch_removed": true,
+  "dvc_local_pointer": true,
+  "remote_upload": false,
+  "production_code_changed_by_this_task": false,
+  "backup_receipt": "backup-receipt.json",
+  "latest_review_complete": true
+}

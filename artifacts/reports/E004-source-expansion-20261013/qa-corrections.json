@@ -1,0 +1,436 @@
+[
+  {
+    "candidate_id": "E004-EX-C012",
+    "current_candidate_id": "E004-EX-C012-R2",
+    "action": "recrop",
+    "old_states": [
+      "N",
+      "N"
+    ],
+    "qa_states": [
+      "N",
+      "N"
+    ],
+    "person_xyxy": [
+      145,
+      122,
+      657,
+      750
+    ],
+    "context_xyxy": [
+      100,
+      85,
+      860,
+      750
+    ],
+    "reason": "Anchor áo ghi kính viết; tay và bàn riêng rõ."
+  },
+  {
+    "candidate_id": "E004-EX-C014",
+    "current_candidate_id": "E004-EX-C014",
+    "action": "state_reason_correction",
+    "old_states": [
+      "P",
+      "P"
+    ],
+    "qa_states": [
+      "P",
+      "N"
+    ],
+    "person_xyxy": [
+      135,
+      120,
+      748,
+      750
+    ],
+    "context_xyxy": [
+      84,
+      82,
+      793,
+      750
+    ],
+    "reason": "Phone trong tay anchor áo caro; mắt hướng xuống thiết bị của mình."
+  },
+  {
+    "candidate_id": "E004-EX-C021",
+    "current_candidate_id": "E004-EX-C021-R2",
+    "action": "recrop",
+    "old_states": [
+      "P",
+      "N"
+    ],
+    "qa_states": [
+      "P",
+      "N"
+    ],
+    "person_xyxy": [
+      360,
+      105,
+      905,
+      750
+    ],
+    "context_xyxy": [
+      300,
+      65,
+      970,
+      750
+    ],
+    "reason": "Áo len kem tương tác phone tại bàn sách."
+  },
+  {
+    "candidate_id": "E004-EX-C032",
+    "current_candidate_id": "E004-EX-C032",
+    "action": "state_reason_correction",
+    "old_states": [
+      "P",
+      "P"
+    ],
+    "qa_states": [
+      "U",
+      "N"
+    ],
+    "person_xyxy": [
+      225,
+      90,
+      551,
+      641
+    ],
+    "context_xyxy": [
+      180,
+      64,
+      602,
+      750
+    ],
+    "reason": "Bàn tay trống, không phải mobile; tay còn lại bị che nên phone U. Đầu hướng xuống vùng sách riêng."
+  },
+  {
+    "candidate_id": "E004-EX-C040",
+    "current_candidate_id": "E004-EX-C040",
+    "action": "state_reason_correction",
+    "old_states": [
+      "P",
+      "U"
+    ],
+    "qa_states": [
+      "P",
+      "U"
+    ],
+    "person_xyxy": [
+      731,
+      240,
+      1102,
+      750
+    ],
+    "context_xyxy": [
+      663,
+      202,
+      1124,
+      750
+    ],
+    "reason": "Thiết bị cầm ngang có hình dạng mobile; không đủ context để chốt hướng nhìn riêng hay vùng bạn."
+  },
+  {
+    "candidate_id": "E004-EX-C052",
+    "current_candidate_id": "E004-EX-C052-R2",
+    "action": "recrop",
+    "old_states": [
+      "P",
+      "P"
+    ],
+    "qa_states": [
+      "P",
+      "P"
+    ],
+    "person_xyxy": [
+      100,
+      22,
+      385,
+      196
+    ],
+    "context_xyxy": [
+      68,
+      8,
+      413,
+      240
+    ],
+    "reason": "Áo vàng cầm/đưa mobile sang bạn, nhìn ra bên."
+  },
+  {
+    "candidate_id": "E004-EX-C053",
+    "current_candidate_id": "E004-EX-C053",
+    "action": "state_reason_correction",
+    "old_states": [
+      "P",
+      "N"
+    ],
+    "qa_states": [
+      "U",
+      "N"
+    ],
+    "person_xyxy": [
+      177,
+      38,
+      405,
+      228
+    ],
+    "context_xyxy": [
+      158,
+      25,
+      426,
+      240
+    ],
+    "reason": "Anchor viết trên giấy; vật sáng cuối bàn quá nhỏ để chứng minh là mobile hoặc absence mobile."
+  },
+  {
+    "candidate_id": "E004-EX-C056",
+    "current_candidate_id": "E004-EX-C056",
+    "action": "state_reason_correction",
+    "old_states": [
+      "N",
+      "P"
+    ],
+    "qa_states": [
+      "P",
+      "P"
+    ],
+    "person_xyxy": [
+      160,
+      86,
+      275,
+      220
+    ],
+    "context_xyxy": [
+      141,
+      74,
+      298,
+      240
+    ],
+    "reason": "Mobile đen nằm trên bàn riêng trước anchor; đầu quay sang người bên trái."
+  },
+  {
+    "candidate_id": "E004-EX-C059",
+    "current_candidate_id": "E004-EX-C059-R2",
+    "action": "recrop",
+    "old_states": [
+      "U",
+      "P"
+    ],
+    "qa_states": [
+      "U",
+      "P"
+    ],
+    "person_xyxy": [
+      229,
+      72,
+      323,
+      235
+    ],
+    "context_xyxy": [
+      200,
+      54,
+      366,
+      240
+    ],
+    "reason": "Áo xanh giữa quay sang phía sau; bàn tay chưa đủ."
+  },
+  {
+    "candidate_id": "E004-EX-C116",
+    "action": "exclude_from_batch",
+    "reason": "CF-068 bị blur/block artefact; không chứng minh phone N và looking N ở input 224."
+  },
+  {
+    "candidate_id": "E004-EX-C141",
+    "current_candidate_id": "E004-EX-C141-R2",
+    "action": "recrop",
+    "old_states": [
+      "U",
+      "P"
+    ],
+    "qa_states": [
+      "U",
+      "P"
+    ],
+    "person_xyxy": [
+      279,
+      89,
+      485,
+      518
+    ],
+    "context_xyxy": [
+      240,
+      65,
+      514,
+      565
+    ],
+    "reason": "Anchor áo xanh bên trái quay nhìn người khác, vùng tay chưa đủ."
+  },
+  {
+    "candidate_id": "E004-EX-C145",
+    "current_candidate_id": "E004-EX-C145",
+    "action": "state_reason_correction",
+    "old_states": [
+      "P",
+      "P"
+    ],
+    "qa_states": [
+      "P",
+      "N"
+    ],
+    "person_xyxy": [
+      197,
+      34,
+      652,
+      750
+    ],
+    "context_xyxy": [
+      124,
+      0,
+      765,
+      750
+    ],
+    "reason": "Mobile được đưa ra trước mặt; mắt hướng xuống thiết bị mình cầm."
+  },
+  {
+    "candidate_id": "E004-EX-C154",
+    "current_candidate_id": "E004-EX-C154-R2",
+    "action": "recrop",
+    "old_states": [
+      "N",
+      "N"
+    ],
+    "qa_states": [
+      "N",
+      "N"
+    ],
+    "person_xyxy": [
+      410,
+      290,
+      795,
+      750
+    ],
+    "context_xyxy": [
+      375,
+      260,
+      825,
+      750
+    ],
+    "reason": "Anchor áo khoác vàng phía sau phải viết; tay/bàn rõ."
+  },
+  {
+    "candidate_id": "E004-EX-C157",
+    "current_candidate_id": "E004-EX-C157-R2",
+    "action": "recrop",
+    "old_states": [
+      "N",
+      "P"
+    ],
+    "qa_states": [
+      "N",
+      "P"
+    ],
+    "person_xyxy": [
+      733,
+      200,
+      1065,
+      675
+    ],
+    "context_xyxy": [
+      685,
+      160,
+      1110,
+      720
+    ],
+    "reason": "Anchor áo vàng sau phải nhìn ra ngoài bài và giơ tay."
+  },
+  {
+    "candidate_id": "E004-EX-C159",
+    "current_candidate_id": "E004-EX-C159-R2",
+    "action": "recrop",
+    "old_states": [
+      "N",
+      "N"
+    ],
+    "qa_states": [
+      "N",
+      "N"
+    ],
+    "person_xyxy": [
+      95,
+      215,
+      350,
+      682
+    ],
+    "context_xyxy": [
+      65,
+      180,
+      393,
+      730
+    ],
+    "reason": "Anchor áo vàng bên trái viết; tay và vùng bài rõ."
+  },
+  {
+    "candidate_id": "E004-EX-C166",
+    "current_candidate_id": "E004-EX-C166-R2",
+    "action": "recrop",
+    "old_states": [
+      "N",
+      "P"
+    ],
+    "qa_states": [
+      "N",
+      "N"
+    ],
+    "person_xyxy": [
+      80,
+      89,
+      240,
+      344
+    ],
+    "context_xyxy": [
+      65,
+      65,
+      240,
+      391
+    ],
+    "reason": "Sau recrop đầy đủ đầu và tay: mắt hướng xuống giấy riêng, không phải quay ra ngoài bài."
+  },
+  {
+    "candidate_id": "E004-EX-C170",
+    "current_candidate_id": "E004-EX-C170-R2",
+    "action": "recrop",
+    "old_states": [
+      "N",
+      "P"
+    ],
+    "qa_states": [
+      "N",
+      "P"
+    ],
+    "person_xyxy": [
+      52,
+      96,
+      243,
+      400
+    ],
+    "context_xyxy": [
+      20,
+      60,
+      287,
+      429
+    ],
+    "reason": "Anchor áo kem phía sau quay ngang; tay và bàn riêng rõ."
+  },
+  {
+    "candidate_id": "E004-EX-C052-R2",
+    "action": "final_input224_state_correction",
+    "old_states": [
+      "P",
+      "P"
+    ],
+    "qa_states": [
+      "U",
+      "P"
+    ],
+    "reason": "Thiết bị chuyền tay quá nhỏ để chốt mobile/attribution sau thu nhỏ; giữ looking P."
+  }
+]

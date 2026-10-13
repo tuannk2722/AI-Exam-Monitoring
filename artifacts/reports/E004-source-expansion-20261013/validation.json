@@ -1,0 +1,32 @@
+{
+  "status": "PASS_preapproval_data_checks",
+  "records": 199,
+  "source_frames_in_batch": 163,
+  "inventory_frames_reviewed": 326,
+  "new_source_frames": 104,
+  "source_crop_input_hash_and_pixel_checks": 199,
+  "deterministic_in_memory_png_rebuilds": 199,
+  "strict_codec_all_null_masks": true,
+  "canonical_new_supervision_cells": 0,
+  "new_crop_byte_duplicates": 0,
+  "exact_same_anchor_or_crop_vs_previous_33": 0,
+  "parent_id_cross_family_conflicts": 0,
+  "exact_origin_cross_family_conflicts": 0,
+  "new_family_role_conflicts": 0,
+  "prior_accepted_family_roles_preserved": true,
+  "new_archives_sha_verified": true,
+  "new_source_vs_13431_refs_exact_sha_matches": 0,
+  "visual_overlap_followups": [
+    "US024 vs old SCB dHash=10: different scene",
+    "US023 vs V7-OE-S089-A01 train crop: different uniforms/room"
+  ],
+  "test11_media_opened": false,
+  "test_similarity_with_closed_media": "not_performed",
+  "model_inference_used": false,
+  "new_owner_acceptance": false,
+  "limitations": [
+    "Visual family hints are conservative quarantine, not verified sessions.",
+    "Schema/hash checks do not replace owner annotation acceptance.",
+    "Overlap retrieval cannot prove absence of all semantic or resized duplicates."
+  ]
+}

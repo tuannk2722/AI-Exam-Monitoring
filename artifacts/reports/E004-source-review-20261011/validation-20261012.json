@@ -1,0 +1,199 @@
+{
+  "accepted_known_target_cells": 85,
+  "candidate_predictions_or_model_inference_used": false,
+  "checks": [
+    {
+      "command": ".venv/Scripts/python.exe -m unittest discover -s tests -p 'test_source*.py' -q",
+      "exit_code": 0,
+      "tests": 9
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m unittest discover -s tests -p test_review_acceptance.py -q",
+      "exit_code": 0,
+      "tests": 6
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m unittest discover -s tests -p 'test_pilot*.py' -q",
+      "exit_code": 0,
+      "tests": 30
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m ruff check src tests scripts",
+      "exit_code": 0
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m mypy src/ai_exam_monitoring scripts/check_repo.py scripts/prepare_source_review.py scripts/build_source_review_batch.py scripts/import_crop_review.py",
+      "exit_code": 0,
+      "files": 38
+    },
+    {
+      "command": "compileall on the 5 added Python files",
+      "exit_code": 0
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0
+    }
+  ],
+  "cleanup": "Scratch/rebuild/intermediate/cache cleanup recorded in TASK after verification; retained inputs and review evidence are pinned above.",
+  "date": "2026-10-12",
+  "deterministic_ledger_and_receipt_reimport": true,
+  "duplicate_concern_evidence": [
+    {
+      "crop_sha256": "03430cac579b0e21898610261762650701e3b456736edcec01dcb5c7d0524045",
+      "person_xyxy": [
+        314,
+        432,
+        657,
+        1048
+      ],
+      "relation": "same_scene_different_frame_not_independent_group",
+      "sample_id": "E004-CN-019",
+      "source_sha256": "0157dcdba9ee5a5b16dc412c6d60f5c08af312d53e41572c124242e32eaff65a"
+    },
+    {
+      "crop_sha256": "209d2d3548b3622058923d0252ed5cbecb320d42a6d2c46230fce7790f5ade4c",
+      "person_xyxy": [
+        265,
+        437,
+        627,
+        1080
+      ],
+      "relation": "same_scene_different_frame_not_independent_group",
+      "sample_id": "E004-CN-031",
+      "source_sha256": "bdbadbdba30751fde3447c5b97cdbbf489661a0b98f39a4bd59245a5b6e26cdd"
+    },
+    {
+      "crop_sha256": "e27acc23b41799a3794a1acd0e897bb89c7197a94bbd215c6aad8832b8a386ff",
+      "person_xyxy": [
+        284,
+        448,
+        657,
+        1080
+      ],
+      "relation": "same_scene_different_frame_not_independent_group",
+      "sample_id": "E004-CN-034",
+      "source_sha256": "a543d4f14a199bc9cdb9ff582f258ce1c46b37890a218d1bc5509fab48404562"
+    }
+  ],
+  "exact_source_crop_input_pixel_reconstruction_count": 56,
+  "git_delivery": {
+    "command": ".venv/Scripts/python.exe scripts/check_repo.py --require-git",
+    "exit_code": 1,
+    "missing_index_files": [
+      "configs/datasets/e004_source_review_20261011.yaml",
+      "configs/experiments/E004-data-execution-20261011.md",
+      "configs/experiments/E004-freeze-proposal-20261011.md",
+      "scripts/build_source_review_batch.py",
+      "scripts/import_crop_review.py",
+      "scripts/prepare_source_review.py",
+      "src/ai_exam_monitoring/data/review_acceptance.py",
+      "src/ai_exam_monitoring/data/source_lineage.py",
+      "src/ai_exam_monitoring/data/source_review.py",
+      "tests/test_review_acceptance.py",
+      "tests/test_source_lineage.py",
+      "tests/test_source_review.py"
+    ],
+    "real_index_modified": false
+  },
+  "graph_rebuild_exact": true,
+  "historical_markdown_pin_not_resealed": true,
+  "independent_groups_proven": 0,
+  "input_pins_preserved": {
+    "artifacts/reports/E004-post-v7-audit-20261011/README.md": "30e7724bab2665b08d28df9c13de730f005a372d7eb2f3d4d8d33ab1f12b96f1",
+    "artifacts/reports/E004-post-v7-audit-20261011/source-zip-audit.json": "7940cc6316d0a8b96a6b46831347320023f5454f3cb1f5cb72a61cbe32bf6d4f",
+    "artifacts/reports/E004-post-v7-audit-20261011/validation.json": "186bbc9b23690cae4f5c0dfaa668ad8edb83440e49bf56a6b8c98d6bddb965bb",
+    "artifacts/reports/E004-source-review-20261011/README.md": "f8b1fc8001e7f0a3f5560ba898b5837bec80dbeaab3d8e8f135a76ae77810909",
+    "artifacts/reports/E004-source-review-20261011/build_review_evidence.py": "cd385e0e7aa4fea927a5b24150eff94c61ee1faf5f8e94640372c72dc81574bf",
+    "artifacts/reports/E004-source-review-20261011/finalize_batch_review.py": "12e1f6778bc1186f7123b5cf9d35264fdd2febfd586c0063c88589bed7464340",
+    "artifacts/reports/E004-source-review-20261011/inspection-assessment120.json": "efdfd2f4f82f371b41fd96bc75101ff5a946ad94161302311177ce7048612e25",
+    "artifacts/reports/E004-source-review-20261011/owner-direction.json": "273a6fc8516f4429cfa13c760f3865e3993c6a6c215a13e81364d28ddcbe8aa8",
+    "artifacts/reports/E004-source-review-20261011/pilot-geometry-followup.json": "c08169c2cec90a266fccbaf3b195100213872f6fd422527ec099cbbbc35110bf",
+    "artifacts/reports/E004-source-review-20261011/pilot-geometry-native-followup.json": "99a2c4621f30d7f1d277f1c52ab10e2284384168cefe2710a1cd260e7f89afac",
+    "artifacts/reports/E004-source-review-20261011/pilot-geometry.json": "7fbfdffa6d4b206ed38b4a6fa14c842d659008550833d9de28574cc999e71555",
+    "artifacts/reports/E004-source-review-20261011/pilot-input224-review-current.json": "205befcacc73cea84e757e28a63e0bced5594468e9a50e14c6d2253dea783a78",
+    "artifacts/reports/E004-source-review-20261011/pilot-input224-review.json": "2f2fb1c0494460037c22f839f163a26de70b8099a3e39f3024f912bec0972556",
+    "artifacts/reports/E004-source-review-20261011/pilot-pairs-current.json": "1d807d2c06a96d2f79fbb17593a50e61cd86fe70282793a45768db0fa5ed9fe0",
+    "artifacts/reports/E004-source-review-20261011/pilot-pairs.json": "13e2d2b1a3f749ec6a40e1916db20eb94bd08d558e211f7cb418b187b2618d58",
+    "artifacts/reports/E004-source-review-20261011/pilot-summary-current.json": "a69088fde7f63e9ab2281d6e34a99b1e80fad2106da3cdad9129170ae88f59ce",
+    "artifacts/reports/E004-source-review-20261011/pilot-summary.json": "cf75c87794102543355f6e75d6321734016bed37a94d13c941eba8c2f966145f",
+    "artifacts/reports/E004-source-review-20261011/qa-update-decisions.json": "2c1b75cc356396bad64e7cef92d1503b5e4077d3d87229c1a36c37c26a762605",
+    "artifacts/reports/E004-source-review-20261011/scene-family-review.json": "306c9d6caeb02f293924a6de7d04d438ea48b2a5588dc4fc797937927803d2a4",
+    "artifacts/reports/E004-source-review-20261011/shortlist40-assessment.json": "85995dfa58987c211e97fbf0186c4f308f612537444dc87e1edfd50181aa34d5",
+    "artifacts/reports/E004-source-review-20261011/software-checks.json": "263ccd64c6d005ea0ab3f145a48aec0e66da3f93aa9cf83caa89e74d4e1f285e",
+    "artifacts/reports/E004-source-review-20261011/triage-summary.json": "18d0aa7e48ddb159b745b019b2502e51707ee16f27aab1ab508fa03fb923735a",
+    "artifacts/reports/E004-source-review-20261011/unknown-review-queue.json": "19734da93d2c1e20ee7e86fed1882bebcd81927fed4199212f69542835986e8d",
+    "artifacts/reports/E004-source-review-20261011/validate_review.py": "a485e5ed6480a24fc5baf004fc57afe003d5733b0b3b40018a33b8862d7edc4b",
+    "artifacts/reports/E004-source-review-20261011/validation.json": "f7d7d107b938dcdfec7126c41ad9fd3480d3f2f68c7d32d32716ba49d2f7f24b",
+    "configs/experiments/E004-freeze-proposal-20261011.md": "f8741c68abb99dd65126f0845d02b49452d7a53cfbd47f1c496fd777a3af76e6",
+    "configs/experiments/E004-proposal.md": "ebecf2d5fafa1c8f17d81e74313c263e510f350da5766566bce194b4f4c412d3",
+    "data/interim/E004-source-review-20261011/behavie-inspection.json": "87df45732736540efdbbfe0bd58018d1f7140954b16e0d01071911a7e932265f",
+    "data/interim/E004-source-review-20261011/behavie-invalid.json": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "data/interim/E004-source-review-20261011/behavie-inventory.json": "44f99d8db5a0c288a7ee646b2fcf63f28c6d61960fcab1c60c1f781c6bb7693d",
+    "data/interim/E004-source-review-20261011/inspection-selection.json": "f77179126a570d373e695b8a27b91ce62c09510c5d9c19344aef7beaa0d0395e",
+    "data/interim/E004-source-review-20261011/non-test-parent-scene-fingerprints.json": "1fbbfd09241b65ccb8abbcce917586fca24ba7161f2b94b934658ae0caee2513",
+    "data/interim/E004-source-review-20261011/parent-comparisons/extra-compare-1.png": "bfa19947f29405a4f58f90d8ae326c8dfcd32f191783c32c90b29396e465d8c5",
+    "data/interim/E004-source-review-20261011/parent-comparisons/extra-compare-2.png": "ef9ddc77cc6986054de345dabca23721d149b404a8bd7df76db6ef4fab51df67",
+    "data/interim/E004-source-review-20261011/parent-comparisons/extra-compare-3.png": "5f0aa52b9ff89bee47bbd6de227fc47795c44f8565a8e0fda5a6d76c0deaa7e2",
+    "data/interim/E004-source-review-20261011/parent-comparisons/extra-compare-4.png": "4a743b22c0cb1ea346ab09f7c5dca1d4c057d79c18d03b4834bd3bc1095dfbce",
+    "data/interim/E004-source-review-20261011/parent-comparisons/extra-compare-5.png": "48e665901fc4bb29fe7963c92c7e7938ff444a36834eb18381078d8b932698f4",
+    "data/interim/E004-source-review-20261011/parent-comparisons/extra-compare-6.png": "ec13c6bb876d29acb5bebb92a24512373c1392e4ae3b4a0d7cff98b86e4f5996",
+    "data/interim/E004-source-review-20261011/parent-comparisons/parent-compare-1.png": "6f29718e7e7cc8a8f985794c53b718ca6fcaeb75435e3bd35a1dd6cee6050c8a",
+    "data/interim/E004-source-review-20261011/parent-comparisons/parent-compare-2.png": "cc2b1bef0d6cae6ec2b6f70c5a0cecd5d5bf2dcff64872f1b481570fb987c731",
+    "data/interim/E004-source-review-20261011/parent-comparisons/parent-compare-3.png": "c16387d337d9fe7095f7ac3719a808f40282298b24166781636468c4132f4854",
+    "data/interim/E004-source-review-20261011/parent-comparisons/parent-compare-4.png": "5333851ab47d7d86d3712a69eca4e602fd459bf5d5b2e96d996e33fdd6259772",
+    "data/interim/E004-source-review-20261011/parent-comparisons/parent-compare-5.png": "cedff7a558a51308e2d6e4b390301d188e80eb7818e3c8a0bb78f4d1520a6300",
+    "data/interim/E004-source-review-20261011/parent-comparisons/parent-compare-6.png": "1681eafcd000dbaf0db9d6c5d365763a4431bda0ff732e3795f3ac55d69017af",
+    "data/interim/E004-source-review-20261011/parent-comparisons/parent-compare-7.png": "5dbb2b23452a29eb1bc151995261318ea261aeff39c839423fc524438e1b0af6",
+    "data/interim/E004-source-review-20261011/parent-comparisons/ranking19-initial-unconfirmed.json": "aa0accb7489208595a7ef6254661f817c2b4857a4fefa7b836d56047d3b5ecf4",
+    "data/interim/E004-source-review-20261011/pilot-followup/batch.json": "b3afda9d088cbe30021debe8d457ed2de742c93ce570bfe20905f8e78d070c39",
+    "data/interim/E004-source-review-20261011/pilot-native-followup/batch.json": "5163d67789ea6317756dcf3d2f6a2ac49a9964ec45bb414fd788aa7991cfc0a0",
+    "data/interim/E004-source-review-20261011/pilot/batch.json": "5c4410830596253172fc6b0c925a092cf081cdfc82fa571eb23a2e0a93950da3",
+    "data/interim/E004-source-review-20261011/pilot/builder-source.py": "3b498f1b5993510e2b2c292bf983636a56acfe2d66f77fa2718639c643b7ff98",
+    "data/interim/E004-source-review-20261011/preparation-builder-source.py": "5271b9d73a9a6897905494e9b06cdf1b88991729be3b77efbb2da6555f18b9d0",
+    "data/interim/E004-source-review-20261011/preparation.json": "a3737fcc50d7bdec79927e7dd7aa8657d43965d106f5cbccb03d55f29692cb9d",
+    "data/interim/E004-source-review-20261011/studentclassroombehavior-inspection.json": "0950332ff18317b4d978707c499042960c6881d6df4b74d7d9fa140620a30fb9",
+    "data/interim/E004-source-review-20261011/studentclassroombehavior-invalid.json": "d6516982fa7a771e9f049fb63b9b5f21821d6867418be62589cb40aa72992c59",
+    "data/interim/E004-source-review-20261011/studentclassroombehavior-inventory.json": "dca8f2fa178b91ebc7ab6c2e3fc2b5afe15d3cdcb22fe2fd46d58c0aa27f7ada",
+    "scripts/build_source_review_batch.py": "b5ef7439e3a3a7d439b3868bd45b197c8261e98532ac4eca442e673e2ce70c88",
+    "scripts/prepare_source_review.py": "53de962b134bf2512c9f00a189624f9b73750b6660c42e237a577a58da954d98",
+    "src/ai_exam_monitoring/data/source_review.py": "8f637dd03fce6c2d4f9ed53fa892ded664e215297d9b95c470a52eb63c023fda",
+    "tests/test_source_review.py": "c6a77f0c7ab79c8ec533b473c84527a294d2d4814a30db3f6fd408e6a4a07f4b"
+  },
+  "local_links_checked": 426,
+  "new_supervised_cohort_assignments": 0,
+  "output_and_tool_pins": {
+    "artifacts/reports/E004-source-review-20261011/REVIEW-OWNER-20261012.md": "be0b4449a0644a585f4479aed13209a424765ec83b93f7199710c13afed65359",
+    "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json": "bf7895b8c066aaa4f807ef65cbcd863f4cbc1859f4d05527a760a1cf280cef0f",
+    "artifacts/reports/E004-source-review-20261011/owner-review-receipt-20261012.json": "233f5aaf0f8bad1963c447ca4819666af6ce8895a16e49aad3eac7f7b95cf7f0",
+    "artifacts/reports/E004-source-review-20261011/phone-gap-assessment-20261012.json": "facee2d76535cf9b1233868e91ea554e17b8f083bc4e04e429ffb448820dc896",
+    "artifacts/reports/E004-source-review-20261011/pilot-input224-review-20261012.json": "8f177e5d4f40e660e3d01d11f2dc00bdecbc7793c3a64917e4ae3d9a315c7934",
+    "artifacts/reports/E004-source-review-20261011/pilot-pairs-20261012.json": "04fab3d21fef17b9607927d0f415e06a543ace3ea3370fd9f60b70867b284c50",
+    "artifacts/reports/E004-source-review-20261011/pilot-summary-20261012.json": "0c73530fd5b428270267668b0580ce0fa41328d7bee2ac6724a4caf63a77d324",
+    "artifacts/reports/E004-source-review-20261011/source-lineage-20261012.json": "3adaa611822dcefde369fb5cbd1995be82927e41badf55bf2438bb1b6291134f",
+    "artifacts/reports/E004-source-review-20261011/source-provenance-20261012.json": "db095dd91aade4be53c2b783ed5b7332634dba967fe167d02ab4b3115c53d8e1",
+    "data/interim/E004-source-review-20261011/owner-review-20261012/REVIEW.html": "dbf715159c1230a7edbf61f59e9458ab2200856ed4d228aafb10e0df0de44fc9",
+    "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl": "357a2085074c1ce7b0304e6f89defac67c4ee50ae63cb0bc339e28def9c84b2f",
+    "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/receipt.json": "9271041f34cc138e85f0849f1b7667f9c7db72906115830510da220a1296915b",
+    "data/interim/E004-source-review-20261011/owner-review-20261012/owner-input.md": "f715395114cd68123fe6c8f8bd3f625bc73e405e53cb4a44c0abb538ca822171",
+    "data/interim/E004-source-review-20261011/owner-review-20261012/pending-ledger.jsonl": "3f9c6a946d574eaa070bee55b31bfb91396c55f3f687d987da9f93a2d408f9e8",
+    "data/interim/E004-source-review-20261011/phone-gap-20261012/selection.json": "5efe9b7dadf4150176abbf1ef0d04f3c522f735582c40132e269a32e48bd5d56",
+    "scripts/import_crop_review.py": "793d914f05efbb5ef88f6679616f96b6bef9535e6226dc21b069804b8648c846",
+    "src/ai_exam_monitoring/data/review_acceptance.py": "ae86526fee12dfb7dc02435f283e4d0f77477eb09b5ddfd107a23c61fa24b3af",
+    "src/ai_exam_monitoring/data/source_lineage.py": "315608a788d368368a54769509c29e98e6a95a113d62680365d0b91a75938a22",
+    "tests/test_review_acceptance.py": "9a206665e8e6b8c608a2f5eb793abc00d9f6ae4e94bcdabf723de9e95336bb78",
+    "tests/test_source_lineage.py": "e087d2bd2255a3bb51d929d721dbdeef1dabd56c6d790644cae083f96e2e8733"
+  },
+  "owner_modified_markdown_preserved": true,
+  "parent_manifest_sha256": "3fc53fedf12b34d0e271effb6af3046b2073b1ceebad3a6300d0e256e3dd1ede",
+  "phone_gap_selection_rebuild_count": 16,
+  "status": "SOFTWARE_AND_LABEL_GEOMETRY_IMPORT_PASS_COHORT_ACCEPTANCE_PENDING_GIT_DELIVERY_PENDING",
+  "strict_ledger_records": 56,
+  "strict_ledger_roundtrip": true,
+  "superseded_versions_absent_from_active_ledger": [
+    "E004-CN-002",
+    "E004-CN-035",
+    "E004-CN-041"
+  ],
+  "test11_media_opened": false
+}

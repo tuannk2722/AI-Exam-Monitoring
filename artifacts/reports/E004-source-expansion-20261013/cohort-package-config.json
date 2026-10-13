@@ -1,0 +1,19 @@
+{
+  "status": "prepared_pending_gates",
+  "accepted_ledger_sha256": "dac71658e55bf42d4bc6a82592d12635b6a57f62d637af7749d558a4d43e81f9",
+  "owner_decision_ref": "artifacts/reports/E004-source-expansion-20261013/owner-family-context-roles.json",
+  "roles": {
+    "new_development": "E004-EX-development-20261013",
+    "reserved_holdout_candidate": "E004-EX-holdout-reserve-20261013"
+  },
+  "code_sha256": {
+    "pilot_package.py": "97278a089c663f71319e3ca1a53b26c2a188e320f689a76cedec1612c7330e67",
+    "pilot_schema.py": "2568be9f2c88c2f705a788f10fc81125a8c7b636f9d16bfc502644d7ef04f253"
+  },
+  "input_source_root": "data/interim/E004-source-expansion-20261013",
+  "limitations": [
+    "Labels/geometry/context and family/role reservations accepted; final cohort/protocol not frozen.",
+    "Support and slice requirements retained; independence waived but not asserted.",
+    "No supervised manifest or test access; only reviewed evidence and coverage."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "commands": [
+    {
+      "command": ".venv/Scripts/python.exe -m unittest discover -s tests -p test_source_review.py -q",
+      "exit_code": 0,
+      "tests": 6
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m unittest discover -s tests -p test_pilot*.py -q",
+      "exit_code": 0,
+      "tests": 30
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m unittest discover -s tests -p test_source*.py -q",
+      "exit_code": 0,
+      "tests": 6
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m ruff check src tests scripts",
+      "exit_code": 0
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m compileall -q src tests scripts",
+      "exit_code": 0
+    },
+    {
+      "command": ".venv/Scripts/python.exe -m mypy src/ai_exam_monitoring scripts/check_repo.py scripts/prepare_source_review.py scripts/build_source_review_batch.py",
+      "exit_code": 0,
+      "files": 35
+    },
+    {
+      "command": "git diff --check",
+      "exit_code": 0
+    }
+  ],
+  "data_release_acceptance": false,
+  "git_delivery": {
+    "command": ".venv/Scripts/python.exe scripts/check_repo.py --require-git",
+    "exit_code": 1,
+    "missing_index_files": [
+      "configs/datasets/e004_source_review_20261011.yaml",
+      "configs/experiments/E004-data-execution-20261011.md",
+      "configs/experiments/E004-freeze-proposal-20261011.md",
+      "scripts/build_source_review_batch.py",
+      "scripts/prepare_source_review.py",
+      "src/ai_exam_monitoring/data/source_review.py",
+      "tests/test_source_review.py"
+    ],
+    "real_index_modified": false,
+    "status": "pending_tracking_before_requested_commit"
+  },
+  "model_acceptance": false,
+  "no_test11_media_access": true,
+  "no_training_smoke_or_model_inference": true,
+  "reproducibility": {
+    "crop_input_hashes_exact": true,
+    "current_cli_followup_crop_rebuild_count": 3,
+    "expanded_inspection_order_rebuilt": 80,
+    "original_builder_snapshot_sha_verified": true
+  },
+  "scope_checks_passed": true
+}

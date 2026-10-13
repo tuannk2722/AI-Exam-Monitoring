@@ -1,0 +1,85 @@
+status: accepted
+dataset_version: pilot-b-20261013-v8
+selection_version: pilot-b-v8-approved-membership-20261013
+crop_policy_version: pilot-b-v8-reviewed-context-20261013
+split_version: pilot-b-v8-preserved-parent-plus-train-20261013
+package: data/processed/pilot-b/pilot-b-20261013-v8
+parent_package: data/processed/pilot-b/pilot-b-20261010-v7
+parent_checksums_sha256: d33a8fdd859889d1d7fb86fe70ef10f94d7d95645fed9c8caf4cdb0e65502610
+ledger:
+  path: data/interim/E004-source-expansion-20261013/v8-accepted-ledger.jsonl
+  sha256: 0c9b82ae4e86d73fa4d674152e3d1436ed369f265e817a30bd2b2f89d2b67d2f
+selection:
+  path: data/interim/E004-source-expansion-20261013/v8-selection.jsonl
+  sha256: 2fc15c6c4f68a6269eeaac1a253e892db08ac5a430a253acbcdb7a434c4f8333
+crop_inputs:
+  path: data/interim/E004-source-expansion-20261013/v8-crop-inputs.json
+  sha256: 8fd6d7193409aa583be7df6612fdad05d663f843ee40c3414be7e187c5332fb9
+source_roots:
+  classroom_attitude: outputs/_scratch/e004-source-expansion-20261013/restore/outputs/pilot-b-v7-release-sources-20261010-r1/sources/classroom_attitude
+  classroom_monitoring_v2: outputs/_scratch/e004-source-expansion-20261013/restore/outputs/pilot-b-v7-release-sources-20261010-r1/sources/classroom_monitoring_v2
+  coco_2017_train: outputs/_scratch/e004-source-expansion-20261013/restore/outputs/pilot-b-v7-release-sources-20261010-r1/sources/coco_2017_train
+  commons_classroom_gapfill: outputs/_scratch/e004-source-expansion-20261013/restore/outputs/pilot-b-v7-release-sources-20261010-r1/sources/commons_classroom_gapfill
+  exam_cheating_keaor: outputs/_scratch/e004-source-expansion-20261013/restore/outputs/pilot-b-v7-release-sources-20261010-r1/sources/exam_cheating_keaor
+  openimages_train_prefix: outputs/_scratch/e004-source-expansion-20261013/restore/outputs/pilot-b-v7-release-sources-20261010-r1/sources/openimages_train_prefix
+  roboflow_v1: outputs/_scratch/e004-source-expansion-20261013/restore/outputs/pilot-b-v7-release-sources-20261010-r1/sources/roboflow_v1
+  scb_head: outputs/_scratch/e004-source-expansion-20261013/restore/outputs/pilot-b-v7-release-sources-20261010-r1/sources/scb_head
+  scb_hrw: outputs/_scratch/e004-source-expansion-20261013/restore/outputs/pilot-b-v7-release-sources-20261010-r1/sources/scb_hrw
+  student_behaviour: outputs/_scratch/e004-source-expansion-20261013/restore/outputs/pilot-b-v7-release-sources-20261010-r1/sources/student_behaviour
+  wmf_knowledge_everyone: outputs/_scratch/e004-source-expansion-20261013/restore/outputs/pilot-b-v7-release-sources-20261010-r1/sources/wmf_knowledge_everyone
+  pexels-v2-20261013: data/interim/E004-source-expansion-20261013
+  unsplash-20261013: data/interim/E004-source-expansion-20261013
+  consolidated-frames-20261013: data/interim/E004-source-expansion-20261013
+source_restore_receipt: artifacts/reports/E004-source-expansion-20261013/source-restore-receipt.json
+approval:
+  path: artifacts/reports/E004-source-expansion-20261013/owner-release-implementation.json
+  sha256: 2cbe7c0b888ca100dc44c7c62ba66fedc655cca7c2024d6dcf71d47f8ddd2ae7
+git_commit: a56fdbb29ec5f9c8f609157227e620206739766c
+workspace_dirty: true
+code_sha256:
+  pilot_package.py: 97278a089c663f71319e3ca1a53b26c2a188e320f689a76cedec1612c7330e67
+  pilot_schema.py: 2568be9f2c88c2f705a788f10fc81125a8c7b636f9d16bfc502644d7ef04f253
+  integrity.py: 03cb7989b6934ead57e54fe625143c8cedffc3ccc80aa433b6eda5f0a98ebed6
+expected_counts:
+  train: 716
+  val: 49
+  test: 11
+  review_only: 122
+  excluded: 29
+expected_source_counts:
+  classroom_monitoring_v2: 24
+  roboflow_v1: 86
+  scb_hrw: 112
+  scb_head: 79
+  classroom_attitude: 156
+  exam_cheating_keaor: 71
+  student_behaviour: 173
+  coco_2017_train: 39
+  openimages_train_prefix: 111
+  commons_classroom_gapfill: 47
+  wmf_knowledge_everyone: 2
+  pexels-v2-20261013: 8
+  unsplash-20261013: 13
+  consolidated-frames-20261013: 6
+approved_use_scope:
+- local_classifier_research
+use_scope: local_classifier_research
+training_run_approved: false
+media_upload_approved: false
+target_order:
+- phone_use
+- looking_around
+unknown_supervision: masked
+test_protocol: Inherit original 11 test identities, source/crop bytes, targets/context/rights/group
+  and original freeze evidence. Hash/decode/copy solely for integrity packaging; no
+  feature extraction, visual review, model inference, tuning or new test sampling.
+crop_policy_review_notes: Preserve parent geometry/semantics unchanged. New 27 explicit
+  visible-person/context rectangles accepted with source/crop/input224 evidence; no
+  automatic padding or runtime policy.
+limitations:
+- 27 auxiliary train additions from owner-approved batch; family/role boundaries retained.
+- Development and reserve remain separate prepared packages; no new test freeze or
+  E004 run acceptance.
+- Old val49/test11 unchanged; support100P/100N gate retained.
+- Visual scene-family does not prove independence; static stock images do not establish
+  exam generalization.

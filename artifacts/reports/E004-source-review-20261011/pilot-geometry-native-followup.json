@@ -1,0 +1,44 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "E004-CN-035-R2",
+      "context_xyxy": [
+        412,
+        394,
+        912,
+        1080
+      ],
+      "draft_scene_boundary": "BEH-yellow-flags",
+      "draft_states": [
+        "N",
+        "P"
+      ],
+      "member_sha256": "7a2bd62d0d02a3f2b57f52a612b3578cb81b0ff14730bdaa7c744da556c9e828",
+      "owner_approved": false,
+      "person_xyxy": [
+        450,
+        432,
+        804,
+        1080
+      ],
+      "phenotype": "peer_gaze_contrast",
+      "reason": "Recrop m? r?ng tr?i ?? gi? c? b?n tay c?m b?t ?? b? clip ? crop ??u; tay/b?i ri?ng quan s?t ???c, head/gaze ngo?i b?i.",
+      "review_id": "BEH-X-2d63d2ddeec9",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "2d63d2ddeec9049ab6d1c7dd2c415f29bae5d8fba9bf283b345204d31137cec8"
+    }
+  ],
+  "fill": [
+    124,
+    116,
+    104
+  ],
+  "input_size": 224,
+  "source_inventory_root": "data/interim/E004-source-review-20261011",
+  "status": "draft_pending_exact_crop_input_review_and_owner_acceptance",
+  "target_order": [
+    "phone_use",
+    "looking_around"
+  ]
+}

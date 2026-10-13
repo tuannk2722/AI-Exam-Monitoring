@@ -28,6 +28,6 @@
 - **Không sửa spec nếu contract không đổi.** Results ở hồ sơ source/release/run trong artifacts/reports và outputs/data đúng loại; proposal ở configs; cập nhật index/status chỉ khi liên quan. Không append mọi task vào report tổng hợp hoặc status.
 - Thay contract quan trọng cần decision đúng scope và traceability; giữ originals, quan hệ Superseded rõ. Không tạo card/ADR/report cho mọi chỉnh sửa nhỏ; dùng hồ sơ hiện có nếu chưa seal và đủ trách nhiệm.
 - Khi user yêu cầu commit: stage đúng source/docs/config/metadata, checker `--require-git` kiểm index/registry, inspect staged diff và clean checkout khi đổi cấu trúc rộng; không force-add binary hoặc stage chỉ để checker PASS.
-- Tài liệu tiếng Việt, dấu cách đầy đủ; **dọn preview/cache/checkout/tooling sau bảo toàn inputs/evidence/results**. Backup cùng ổ không chống hỏng ổ.
+- Tài liệu tiếng Việt, đặc biết chú ý khi viết tài liệu phải dấu cách đầy đủ giữa các chữ/số với nhau; **dọn preview/cache/checkout/tooling sau bảo toàn inputs/evidence/results**. Backup cùng ổ không chống hỏng ổ.
 
 Dừng phần liên quan khi data/license/path/version không rõ, label/split conflict, thiếu protocol test/config experiment hoặc có nguy cơ lộ data/credentials; tiếp tục phần độc lập.

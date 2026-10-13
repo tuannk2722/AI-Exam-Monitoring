@@ -1,0 +1,221 @@
+{
+  "schema_version": "crop-review-acceptance-v1",
+  "scope": "labels_and_geometry_only",
+  "target_order": [
+    "phone_use",
+    "looking_around"
+  ],
+  "ledger_sha256": "81d8bb76794b2e8fa37989c7a4492392eea49f3ae91424648f8c1a08f6215d14",
+  "reviewer": "repository-owner",
+  "reviewed_at": "2026-10-13",
+  "decisions": [
+    {
+      "sample_id": "E004-EX-C030",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Giữ phone P: mobile nằm cạnh tay anchor áo kem; không cần đang cầm. Không gán thiết bị của người đứng phía sau. Owner nghiệm thu ngoại lệ và recrop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "1903a28a256962e7ab34f9e96af3d4c7a0bf514fff3d31b68e1a49072ac9d9d5",
+      "crop_sha256": "35bde5d66642f02daf75aadce8e8f42508104c43cd94f1de791b7e962f06e9d2",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C030/input.png",
+      "input_sha256": "4f305ae3492b562dfab22732cdc546f63c306f7dce15a95ad20534033cc4dde1"
+    },
+    {
+      "sample_id": "E004-EX-C092",
+      "states": [
+        "U",
+        "N"
+      ],
+      "reason": "Anchor nam áo tối gần máy ảnh nhất; tay/bàn chưa đủ xác nhận phone N. Owner nghiệm thu ngoại lệ và recrop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "f3ac1cbe9ee52b47bf6645e4560797211624b7d98434b0ac632541183c8239c3",
+      "crop_sha256": "35dfe26adf98d992fedb81bee56f388829b2a2c709ea61c468556f725e0fa3cd",
+      "input_relpath": "data/interim/E004-v9-consolidation-20261013/crops/E004-EX-C092-V9R1/input.png",
+      "input_sha256": "b5b89e97663c3e40383440dfc6ec34bd570b3ef4e859bdddaa2c2740e74aa1b7"
+    },
+    {
+      "sample_id": "E004-EX-C096",
+      "states": [
+        "P",
+        "P"
+      ],
+      "reason": "Anchor áo denim bên phải, mobile trên bàn trước người; giữ hướng nhìn sang người bên trái. Owner nghiệm thu ngoại lệ và recrop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "7c48e46de7d65b3e22b942269962b71d9e54015dc83ab1265c0893baf77afb02",
+      "crop_sha256": "64e97da3c16953b8643f914d19a08793399b973bfcccc84d9b4c7b7dfdd52000",
+      "input_relpath": "data/interim/E004-v9-consolidation-20261013/crops/E004-EX-C096-V9R1/input.png",
+      "input_sha256": "4178f67d03bb6ceab7e45ef1e9dadbd6a46c501b3a5e49473eefd81a433d81bc"
+    },
+    {
+      "sample_id": "E004-EX-C101",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Đồng ý có mobile trên bàn dưới tay anchor áo xanh; sửa phone N thành P. Owner nghiệm thu ngoại lệ và recrop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "f5b66fd2650c8f536333b6d842612db9c25b0c9da2c34c681d98d9af26b6dfcb",
+      "crop_sha256": "60e677e922661c8034cb8b0fa0fa0639c9d9cd3fcd7ad74bd5e2bc2e06ea0997",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C101/input.png",
+      "input_sha256": "463977c9cbfa524deeddbc5c26eb4d7b128e747adcfc7f5cad10bb60c0dad11e"
+    },
+    {
+      "sample_id": "E004-EX-C111",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Hai tay/vùng bàn quan sát được, một tay chống má; đề xuất N theo yêu cầu rà lại của owner. Owner nghiệm thu ngoại lệ và recrop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "cbb544e229b3082f227f21f811d080cd7cb7fa707790c2389e810a33525c084b",
+      "crop_sha256": "04b7bd7753daf987afbf78e4e07b6e3a0c64d12453505ef33a377ee635ae564f",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C111/input.png",
+      "input_sha256": "102ceb5108f25e01ec0e3d9824acea7bf6aa8e178d11d4b5deb15192e5490fc3"
+    },
+    {
+      "sample_id": "E004-EX-C113",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Tay chống mặt và tay trên bàn quan sát được; đề xuất phone N, giữ looking P. Owner nghiệm thu ngoại lệ và recrop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "3729e82e1b820e43d77a724a121ac33d2b22eab95a93898bc1746422f7116ed2",
+      "crop_sha256": "1f19b37ed9e83a7e91244868f30ef61fd657ab2b77bdbf05ca209a584462a401",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C113/input.png",
+      "input_sha256": "c4f93bb06dc001bf47a14bc480670ac35a6b74c04b474fab881a8c386898f9c4"
+    },
+    {
+      "sample_id": "E004-EX-C115",
+      "states": [
+        "U",
+        "P"
+      ],
+      "reason": "Tay gần đầu bị che và ảnh nhỏ; chưa đủ bằng chứng absence mobile. Giữ U thay vì suy N từ không thấy thiết bị. Owner nghiệm thu ngoại lệ và recrop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "dd81cee17f3d3bc1d540870ae0d1698fa87daef0872681b58ea0f6e9e5ad3afc",
+      "crop_sha256": "190f199c212b8b78db76a0e4294cd4b43dcb86f79bb07d361be326f0ad201161",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C115/input.png",
+      "input_sha256": "b7fd92bde1e4f06f452054cb2f7903e0187b5b0a7342a0794f2b404935645fd4"
+    },
+    {
+      "sample_id": "E004-EX-C122",
+      "states": [
+        "U",
+        "P"
+      ],
+      "reason": "Một tay/vùng hông bị khuất; giữ phone U. Hướng nhìn sang người khác rõ. Owner nghiệm thu ngoại lệ và recrop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "ee6c4b2b19f96295f8db97e3f9ba146d88668e68e7e6990ee7e2d6f03093aca3",
+      "crop_sha256": "67688d2f4554c1d67dfbf1d97761ada5e6d57893d5b761e304f1b7099712e7db",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C122/input.png",
+      "input_sha256": "01d60fd43ad3d15570270f4c49b589f063dd5739a612fabb2df1933b4b8caa99"
+    },
+    {
+      "sample_id": "E004-EX-C130",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Anchor kính áo xanh đen; mobile trong tay, nhìn vào thiết bị riêng. Owner nghiệm thu ngoại lệ và recrop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "243c3ca9f93ebc9eb3c06b45e7ce3a98b6f6ec03a4641f71f23ec048bd4aa6ed",
+      "crop_sha256": "f4de10d6e3737545dc4eb8d708f9d0b32c20fb1723e6daecf588976857dcbaef",
+      "input_relpath": "data/interim/E004-v9-consolidation-20261013/crops/E004-EX-C130-V9R1/input.png",
+      "input_sha256": "4f2d67b8393bb630c4cb05a441c973694b096d3ed74b492a9402e4d514cc9806"
+    },
+    {
+      "sample_id": "E004-EX-C133",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Đứng không tự loại mẫu hoặc tạo lớp mới. Anchor áo vest không có mobile; nhìn sang thiết bị của người bên cạnh. Mobile người bên cạnh không thuộc anchor. Owner nghiệm thu ngoại lệ và recrop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "7e6a4450829e958e69581a670b074e649c3b4647693220727b4fc705f702fe8a",
+      "crop_sha256": "ec226a7f473667397520cf97cb240ea8eea9f9829e6f21733a8a0541e8c7f364",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C133/input.png",
+      "input_sha256": "edb4c9b2992f4db5be141fe8a683b5c61c9b3b86c8af67de21f89b3e5590ca74"
+    },
+    {
+      "sample_id": "E004-EX-C134",
+      "states": [
+        "U",
+        "P"
+      ],
+      "reason": "Anchor tóc xoăn tiền cảnh; một tay dưới bàn, chưa đủ phone N; nhìn ra ngoài bài. Owner nghiệm thu ngoại lệ và recrop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "898524ba644e5449eeffc9600b33d1fa25460f6784c82072dede40a85bbbce6f",
+      "crop_sha256": "57bf6f633de4b2d762216d151a3013a992da2c1cd993957a0a7a2796026447c5",
+      "input_relpath": "data/interim/E004-v9-consolidation-20261013/crops/E004-EX-C134-V9R1/input.png",
+      "input_sha256": "daf9ea53d907b7ad13b07e8d3cfbf6bdf3326e35313a4c0025d367315554297d"
+    },
+    {
+      "sample_id": "E004-EX-C137",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Anchor tết tóc áo xanh cầm mobile; bao trọn phần người nhìn thấy và thiết bị. Owner nghiệm thu ngoại lệ và recrop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "fbe4f00884c8ebf0149671754f82a6fb2cc5359c8945d5d82422a0238bf582aa",
+      "crop_sha256": "948372c848eaa4c4f780c56897a86cf21a79e925e4fe56801f840f4095518781",
+      "input_relpath": "data/interim/E004-v9-consolidation-20261013/crops/E004-EX-C137-V9R1/input.png",
+      "input_sha256": "f0149e88a508ec42632677b0a759c010bb9687ddb717a1343172780c67a906a9"
+    },
+    {
+      "sample_id": "E004-EX-C138",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Anchor áo caro đỏ phía sau; tập trung người và mobile riêng, giữ phần che khuất đúng thực tế. Owner nghiệm thu ngoại lệ và recrop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "fbe4f00884c8ebf0149671754f82a6fb2cc5359c8945d5d82422a0238bf582aa",
+      "crop_sha256": "29b937dd9a73a5b8747d0775f2f39e91c2fc5b19bc4d2859247bc31251272bf1",
+      "input_relpath": "data/interim/E004-v9-consolidation-20261013/crops/E004-EX-C138-V9R1/input.png",
+      "input_sha256": "4d1ec49c8a20e7857fd7879318099cf43d06079c84f2ec942190466f7430ac62"
+    },
+    {
+      "sample_id": "E004-EX-C153",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Anchor áo hoa đen vàng đang viết; hai tay và giấy rõ, giảm người nền. Owner nghiệm thu ngoại lệ và recrop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "47451929d77f7be8f5c75ce854bb69535de2a1ee4041bee9ce8102b21440ce2e",
+      "crop_sha256": "d054da64e0e921ae165d9ed9c7af16784ed7dfb88f749825f4c179669cd9bcaf",
+      "input_relpath": "data/interim/E004-v9-consolidation-20261013/crops/E004-EX-C153-V9R1/input.png",
+      "input_sha256": "defabbe64d6f78e649a6350ddabfd27f977d26ea7bf7cce2059f9253ecdb139e"
+    },
+    {
+      "sample_id": "E004-EX-C156",
+      "states": [
+        "U",
+        "N"
+      ],
+      "reason": "Một tay/vùng bàn khuất; đề xuất U cho phone thay vì N. Giữ looking N. Owner nghiệm thu ngoại lệ và recrop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "44b670f2472b578879b115e4090b5f5eb11e3968efa3078f9d499fc6342352f0",
+      "crop_sha256": "399c224385b9c0ea3823289b5b25074f8599d3117851265ef980c344352f0bd8",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C156/input.png",
+      "input_sha256": "cafd23a0ee69eb2d6bc36281000a9d5e1126cf7bfba1290c5641aa00dd437c71"
+    },
+    {
+      "sample_id": "E004-EX-C198",
+      "states": [
+        "U",
+        "P"
+      ],
+      "reason": "Vật trong tay là tài liệu; thiết bị ở bàn dưới không đủ attribution cho anchor. Sửa phone P thành U, giữ looking P. Owner nghiệm thu ngoại lệ và recrop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "40b8e58bda2150f47bea606abb48fd93106ff6fcb2232e61fe8f11d50083d6b6",
+      "crop_sha256": "70e703dcd5876daa00c88e4a4635bd8e2933c82b7bce196e2ea690b64c58ca6b",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C198/input.png",
+      "input_sha256": "adfbcb61d088ac5a552df8560cca94fbd2ba28e634ba8084a99ddeea9d7a1eda"
+    }
+  ]
+}

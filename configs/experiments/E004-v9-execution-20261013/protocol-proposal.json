@@ -1,0 +1,155 @@
+{
+  "schema_version": "e004-v9-protocol-proposal-v1",
+  "status": "pending_owner_cohort_protocol_acceptance",
+  "owner": "repository-owner",
+  "scope": "promotion-oriented matched experiment; no automatic Selected",
+  "source_release": {
+    "path": "data/processed/pilot-b/pilot-b-20261013-v9/checksums.sha256",
+    "sha256": "ad0959205c24bbbde8cd009335429dab4df4762dac97818608e46cab82b75c73"
+  },
+  "membership": {
+    "path": "artifacts/reports/E004-v9-execution-20261013/cohort-membership.json",
+    "sha256": "d37e27cfcc901d52af19fda3c9e52db66fa71c512ad490390e53c4ccf6a5bff1"
+  },
+  "families": {
+    "path": "artifacts/reports/E004-v9-execution-20261013/family-enrollment.json",
+    "sha256": "24bdfed0cb2d7c2ec111235ef581452c6489e28f2b2ebfd8e34606c9109fc1c7"
+  },
+  "recipe": {
+    "path": "configs/experiments/E004-v9-execution-20261013/recipe-proposal.yaml",
+    "sha256": "5e71d185f330c33f55bdaffcb068b136f6d0c165db8371e0d11a42d50b7fded5"
+  },
+  "waiver_evidence": {
+    "path": "artifacts/reports/E004-v9-consolidation-20261013/owner-direction.json",
+    "sha256": "3cd339781b9c583717a50c661d3e85232037382932bd9cd950109d0fecd01cb0"
+  },
+  "selection": "all71_new_development",
+  "diagnostics": [
+    "diagnostic49",
+    "comparator48",
+    "added35"
+  ],
+  "reserved_holdout": "all199; freeze enrollment before first prediction; final inference requires separate candidate approval",
+  "old_test11": "closed; no inference or tuning",
+  "independence_claim": false,
+  "quota_policy": "owner-waived shortfalls; report actual support, never fill unknown or invent verified contexts",
+  "family_policy": "conservative boundaries only; retain roles, accept remaining12 development and53 reserve boundaries explicitly",
+  "context_policy": "existing accepted context retained; unknown stays unknown",
+  "M1": {
+    "precision_min": 0.85,
+    "recall_min": 0.8,
+    "fpr_max": 0.1
+  },
+  "M2": {
+    "ap_each_min": 0.8,
+    "macro_ap_min": 0.85
+  },
+  "M3": {
+    "bce_constant_ratio_max": 0.9
+  },
+  "M4": {
+    "status": "INCONCLUSIVE_until_context_slice_enrollment_accepted",
+    "no_positive_only_slices": true,
+    "no_score_based_enrollment": true,
+    "precision_min": 0.8,
+    "recall_min": 0.7,
+    "fpr_max": 0.15,
+    "no_automatic_PASS_from_waiver": true
+  },
+  "M5": {
+    "bootstrap_samples": 5000,
+    "seed": 42,
+    "percentiles": [
+      2.5,
+      97.5
+    ],
+    "valid_resample_fraction_min": 0.95,
+    "precision_lower_min": 0.7,
+    "recall_lower_min": 0.65,
+    "fpr_upper_max": 0.2,
+    "interpretation": "sensitivity under quarantine grouping, not proven independent CI"
+  },
+  "M6": {
+    "batch_size": 1,
+    "threads": 4,
+    "warmup": 10,
+    "measured": 500,
+    "p95_ms_max": 200,
+    "rss_gib_max": 1,
+    "benchmark_ids": [
+      "E004-CF-C007",
+      "E004-CF-C008",
+      "E004-CF-C009",
+      "E004-CF-C010",
+      "E004-CF-C011",
+      "E004-CF-C016",
+      "E004-CF-C018",
+      "E004-CF-C021",
+      "E004-CF-C028",
+      "E004-CF-C029",
+      "E004-CF-C030",
+      "E004-CF-C031",
+      "E004-CN-042",
+      "E004-CN-043",
+      "E004-CN-044",
+      "E004-CN-045",
+      "E004-CN-046",
+      "E004-CN-047",
+      "E004-CN-048",
+      "E004-CN-050",
+      "E004-CN-052",
+      "E004-CN-053",
+      "E004-CN-055",
+      "E004-CN-056",
+      "E004-EX-C006",
+      "E004-EX-C009",
+      "E004-EX-C021-R2",
+      "E004-EX-C022",
+      "E004-EX-C026",
+      "E004-EX-C027",
+      "E004-EX-C028",
+      "E004-EX-C029",
+      "E004-EX-C030",
+      "E004-EX-C041",
+      "E004-EX-C042",
+      "E004-EX-C044",
+      "E004-EX-C045",
+      "E004-EX-C048",
+      "E004-EX-C049",
+      "E004-EX-C050",
+      "E004-EX-C051",
+      "E004-EX-C054",
+      "E004-EX-C055",
+      "E004-EX-C056",
+      "E004-EX-C066",
+      "E004-EX-C117",
+      "E004-EX-C118",
+      "E004-EX-C119",
+      "E004-EX-C120",
+      "E004-EX-C121",
+      "E004-EX-C122",
+      "E004-EX-C123",
+      "E004-EX-C124",
+      "E004-EX-C125",
+      "E004-EX-C129",
+      "E004-EX-C130",
+      "E004-EX-C139",
+      "E004-EX-C143",
+      "E004-EX-C144",
+      "E004-EX-C152",
+      "E004-EX-C165",
+      "E004-EX-C166-R2",
+      "E004-EX-C169",
+      "E004-EX-C170-R2",
+      "E004-EX-C171",
+      "E004-EX-C172",
+      "E004-EX-C193",
+      "E004-EX-C194",
+      "E004-EX-C195",
+      "E004-EX-C198",
+      "E004-EX-C199"
+    ]
+  },
+  "M7": "rights, scope, full bundle, restore/checksums, owner promotion decision",
+  "promotion_decision": "Unresolved M4 or invalid/null CI cannot automatically produce Selected; owner reviews evidence after development before any final-test access."
+}

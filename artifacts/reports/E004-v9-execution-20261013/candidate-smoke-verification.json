@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "reload_score_max_abs_error": 5.960464477539063e-08,
+  "frozen_prefix_and_all_bn_buffers_unchanged": true,
+  "layer4_changed_parameters": 15,
+  "head_updated": true,
+  "matched_epoch_permutations": true,
+  "shared_head_initialization": true,
+  "epoch_boundary_resume": true,
+  "seconds": 241.47480580001138,
+  "run_sha256": "71f6ab338cb77e6dbc42cdeccb7addd1b71621636fdca12a8b8e2bb67bd3ca5f"
+}

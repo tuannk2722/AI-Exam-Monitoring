@@ -1,0 +1,442 @@
+{
+  "schema_version": "crop-review-acceptance-v1",
+  "scope": "labels_and_geometry_only",
+  "target_order": [
+    "phone_use",
+    "looking_around"
+  ],
+  "ledger_sha256": "a46d13ae8144f98906c4f87ccf8b1492ceb31020c18eea7024016bb6e080a2c8",
+  "reviewer": "repository-owner",
+  "reviewed_at": "2026-10-13",
+  "decisions": [
+    {
+      "sample_id": "E004-CF-C001",
+      "states": [
+        "U",
+        "N"
+      ],
+      "reason": "Anchor giữa đang viết; vật tối sát bàn tay chưa phân biệt chắc mobile/calculator ở input 224, phone U. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "5d43f23bdb626ce8428768b285069c7ea8c0acbf455f256a72f7cae5fea77b3e",
+      "crop_sha256": "acbdeb8932a9eabfd3248b948d8e93575c620ac28122b5b6ab8f0d88f2bcbc94",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C001/input.png",
+      "input_sha256": "326f74c0a90074cb864b71049efcba115ffcacdd9d94c518a900934be2f9aa68"
+    },
+    {
+      "sample_id": "E004-CF-C002",
+      "states": [
+        "U",
+        "P"
+      ],
+      "reason": "Anchor quay sang người đứng; tay sát mặt có che khuất nên phone U, không suy absence từ không thấy device. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "5d43f23bdb626ce8428768b285069c7ea8c0acbf455f256a72f7cae5fea77b3e",
+      "crop_sha256": "93235ed4d4a060e5751532d3655ca084b83fddf7b0111c8712292995b75bbeb2",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C002/input.png",
+      "input_sha256": "4c63b70dbafb97a2f1328b2fdff82c6d1e5726f107a131eed7135999f46dc36d"
+    },
+    {
+      "sample_id": "E004-CF-C003",
+      "states": [
+        "U",
+        "N"
+      ],
+      "reason": "Anchor áo tím cúi về bài; bàn tay/device quá nhỏ để xác nhận phone N. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "1b5c8d71c3efdd1a6a66eb8f16398e0b476c6bdb2f35217fe082adb95defbd53",
+      "crop_sha256": "da84bb3d3692f80a0dd9d077523dc304694457976c34e08a6012cbd689ebe443",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C003/input.png",
+      "input_sha256": "af5daedb0e5c064918faf63a643b4ae39d78c10c62aa1dc7fc49abbe9c2b2b78"
+    },
+    {
+      "sample_id": "E004-CF-C004",
+      "states": [
+        "U",
+        "N"
+      ],
+      "reason": "Anchor trước giữa viết; vật trên bàn có phím giống calculator, chưa đủ chắc để xác nhận không mobile. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "70cf24927574d66a3dd72d7fbe24c59b25f2ba9a037d1243519da9e00c11b344",
+      "crop_sha256": "e79a3add878754238131a7a4d8ffbfdc19e689284f07052d07c5720f62c07e25",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C004/input.png",
+      "input_sha256": "bc0d0d53ffe2755a27ee08dceccd7337d64fcca5ad3c5f12a5af0b3c591c4a47"
+    },
+    {
+      "sample_id": "E004-CF-C005",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Anchor nữ giữa viết; hai tay và bàn riêng rõ. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "70cf24927574d66a3dd72d7fbe24c59b25f2ba9a037d1243519da9e00c11b344",
+      "crop_sha256": "5a628b9d5136f92fa53265e00c9b837ec74bea49c60d30c37b3bcc72ddbe434d",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C005/input.png",
+      "input_sha256": "2f704373d6bbc48b1a1ad62e2ca5da61270a8358cf1fc8c595976b6b7914e1d0"
+    },
+    {
+      "sample_id": "E004-CF-C006",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Anchor trước bên trái quay sang bạn; tay và bài riêng rõ. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "860c902dc9ca1e9a7c806338d09509d952c14dd8abf1abb8451f6dcba719c149",
+      "crop_sha256": "5bfc90c5be5479a10c2208afcb0aa1ce42beab03e888761da58c5a5d0dd48620",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C006/input.png",
+      "input_sha256": "868b4efc983eed152618852156849d88be81d45d3d93e29c277f69914c963f54"
+    },
+    {
+      "sample_id": "E004-CF-C007",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Mobile có màn hình rõ trong tay; đầu hướng vào vùng bài và thiết bị riêng. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "d36ee38ada9097ac0f0e1fe109bde63aab76a9e11555b7aadf5de0a735eb28ad",
+      "crop_sha256": "488507c856f4989d3f112f01ec50083cc456b331d8ee078a355a6ee0ebe73f46",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C007/input.png",
+      "input_sha256": "a5f2b0b7249a0217f00496c368056547901d14edda8f2c0056011a1cbf9f41a0"
+    },
+    {
+      "sample_id": "E004-CF-C008",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Anchor phía trước viết; tay và bàn riêng rõ, không lấy người nền làm anchor. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "126f2a49f3d6e381d547d785a97c83cec61abae0d420440c7cd979070bd00bc4",
+      "crop_sha256": "a831798321f0c379b649a16ce190caaa89a8a7e30bf13dcca46621f31e293f98",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C008/input.png",
+      "input_sha256": "5c10996cb54cef76eaff5ed76980067d2844a4dde8de09685806b5eb1012269a"
+    },
+    {
+      "sample_id": "E004-CF-C009",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Anchor áo xanh nhìn khỏi bài; hai tay và bàn rõ. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "e848f83791b7f288318868b82c6bd4c9547933c33166591ef3c3ecbebc5a9ae9",
+      "crop_sha256": "1fc4c4d78c2ac7f393ce3a7787c906a8c46575c22f1a594b1b6ddb52099d1bf4",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C009/input.png",
+      "input_sha256": "36ef32fd2575e23af5100597ba96e63941ecb7ce7333863f2d1abbfd65363e40"
+    },
+    {
+      "sample_id": "E004-CF-C010",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Cùng cảnh nhưng anchor đang viết; hai tay và bài rõ. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "d9ead256a33dd88a08625a59478dbcf2ff7f7dd52a7abe8e6aa6b26e7a072ced",
+      "crop_sha256": "c3b12ed1904cd34dbbec393956fa33cc40ea05c7eab356c508c0f5b60c974659",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C010/input.png",
+      "input_sha256": "262cb7995c0d47ed28a3d65b26acc4c98591badbb81f5206e838733c80b0b4bc"
+    },
+    {
+      "sample_id": "E004-CF-C011",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Anchor áo nâu quay ra sau; hai tay trên bài, không mobile. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "68a2fc59bb96483aff0cd38d3cfd7535a8af637e2e5e4cc18f752640da0a6d43",
+      "crop_sha256": "ed36e184e784902bfd5426573815a0d83c91de94847dbe15d02079ffbff297d8",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C011/input.png",
+      "input_sha256": "5dfb0cf6345694364d4aecb79eb6737c1587dd71e714db2fa72d9afb17e13c29"
+    },
+    {
+      "sample_id": "E004-CF-C012",
+      "states": [
+        "P",
+        "U"
+      ],
+      "reason": "Mobile rõ sau sách; đầu chỉ thấy từ phía sau nên looking U. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "a0351064e0578f4b74ca5a234af919a77baf38f2863b7163cc477ecccfb0fb3b",
+      "crop_sha256": "eb0a625682ce63710fb8d03a8a3e11cc344c2adf274fa5cf6f9a42f19f015b28",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C012/input.png",
+      "input_sha256": "ed96ad14511d524cba7b73365972ef582b3f7a8bb6cfedd25b4f905b559ea9a0"
+    },
+    {
+      "sample_id": "E004-CF-C013",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Anchor cầm mobile ngang ở đùi; hướng đầu vào thiết bị riêng. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "c4a258e3f30748811939c0b700b8a13fa8434f16181920487727bccb4a487ffb",
+      "crop_sha256": "7f0c262b286bb690d4834b268bb8be89b67c5bd7d509def3d467233b5a32d7d4",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C013/input.png",
+      "input_sha256": "7b66843e01312210137792e20ed72f82cb75a7f954d07e8c14442c150f96a290"
+    },
+    {
+      "sample_id": "E004-CF-C014",
+      "states": [
+        "P",
+        "P"
+      ],
+      "reason": "Anchor áo xanh cầm mobile và quay sang người bên cạnh. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "507afc60c338f8e3fdade820d59f2cb707498cd58b6815f445ac73fe55744acd",
+      "crop_sha256": "45d715a13be0af6cdd292ed971c03e2074fc433e1aec6b8f94a82c74a79eb24e",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C014/input.png",
+      "input_sha256": "fd382e15eff152c6911eff4bbdf1736739ccbd34b26a400e1ff7de6e8a95bd4c"
+    },
+    {
+      "sample_id": "E004-CF-C015",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Anchor áo tím cầm mobile trước mặt, nhìn thiết bị của mình. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "b536d021599a407de99d65c157521cf3e784533c22e7344144567e9baebd3dda",
+      "crop_sha256": "2e5ad91d755d58af7e075842893be8ec857d27c6f9b4d4d516e59977183687ba",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C015/input.png",
+      "input_sha256": "454108b182f279ba6f5facfbd48d9e70320ce8eb3bce7a9316edf0820315107f"
+    },
+    {
+      "sample_id": "E004-CF-C016",
+      "states": [
+        "P",
+        "P"
+      ],
+      "reason": "Mobile trên sách đang được tương tác; mắt nhìn khỏi vùng bài. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "b01598af84fa2478662c78e50d784e2f44198c73c70f29416e85f790095a7d13",
+      "crop_sha256": "db69d8e2daf2a3943286083d80f3226c1f0ec05bd1d4f9bdbdce6c77e1175a4d",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C016/input.png",
+      "input_sha256": "7258be4438a3ef8fc12e384bfb83a0a82cb5f3c6bfe557d15ec2928793676dd6"
+    },
+    {
+      "sample_id": "E004-CF-C017",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Anchor tết tóc tương tác mobile; hướng nhìn vào thiết bị riêng. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "c60d24979cac6b5b899e05bebe0e94f8fa2faf28299b2023d73686aae0c71221",
+      "crop_sha256": "602267f361e1b6581a53fdf4bba614f442aff184609f0791ec557382a20796a4",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C017/input.png",
+      "input_sha256": "2db2504fca9861827691a91253d53de5bd1b0dacb0c2bb6220ae63a39cd9c256"
+    },
+    {
+      "sample_id": "E004-CF-C018",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Mobile dưới tờ giấy, không phải tablet; anchor nhìn bài/thiết bị riêng. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "d6be49649b03bff010b3aa4f4ad07a3310c4e26d75c55523764db2971c469779",
+      "crop_sha256": "c591279089c611c571663a20d4b05a6c5d2c5ccaef00eca7baa90003c40b900a",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C018/input.png",
+      "input_sha256": "a6688306e18d58b68f193668b279e1e0e95c343f85e410d899d573a9c0f14f81"
+    },
+    {
+      "sample_id": "E004-CF-C019",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Anchor áo caro đỏ cầm mobile; hướng nhìn vào thiết bị. Người trước không là anchor. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "66b79e2f566eeab5bf9380c11809e62c22a6bca073acef5cee0d1d82952f65a4",
+      "crop_sha256": "c491df9273fd7cdb312b24b08cd15c6d95b29b98c5f554bc242990ede3afca6d",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C019/input.png",
+      "input_sha256": "48deeaf314e7a1a1927f73b157b03b21f1b6c5d808df60aa3af1e18441fa0146"
+    },
+    {
+      "sample_id": "E004-CF-C020",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Mobile có camera và hình dáng rõ; anchor nhìn thiết bị trong tay. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "a01ac87c7a105f4518ffd82369d0298bb93a916232651c36344512dccb286526",
+      "crop_sha256": "0681e08b2b64f511aded3e70582d25c28532c62b046e985c37095c27491b1258",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C020/input.png",
+      "input_sha256": "751f679c07d790e57a933876b89bee48771c06d09edbdce6e8833d75bfdacc63"
+    },
+    {
+      "sample_id": "E004-CF-C021",
+      "states": [
+        "P",
+        "P"
+      ],
+      "reason": "Anchor áo caro nền cầm mobile riêng và hướng sang người phía trước; mobile gần máy ảnh thuộc người khác. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "b62a619a1756bd91f4c87d46e085199da124aea6d6e50f3ff425d78554741c66",
+      "crop_sha256": "ed1ac1e59652ec25931df039ca13c0834acebfa4e99eec646a564257958395e8",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C021/input.png",
+      "input_sha256": "bafe55c77cb402c00dcca28c0935e6a62b6d145bed2e7862f7c8ec337bdef086"
+    },
+    {
+      "sample_id": "E004-CF-C022",
+      "states": [
+        "P",
+        "U"
+      ],
+      "reason": "Mobile rõ của anchor nữ trước; thiếu vùng bài làm để diễn giải looking. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "65a4723005b64bff94282a43bf90bb9905a12408fef5d117919c80242bdf7025",
+      "crop_sha256": "b94f03a8be8dd3f358e4f874bc7764624c46f713c3e10df4053671cbb44ee0db",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C022/input.png",
+      "input_sha256": "91cd6dbcb59c3b7a01b52d4961fc8649ab17957de073cce36d341f4a91b0605b"
+    },
+    {
+      "sample_id": "E004-CF-C023",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Anchor áo xanh viết; hai tay và vùng bài rõ. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "e2e1b23d29e2b0c46650cd7bd87a73625e33a4fc83fbaab85e6935ef8b5bd4c3",
+      "crop_sha256": "5f904214fe593e881021943f68092c7281e531e5de671cea8dd30e5e88451044",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C023/input.png",
+      "input_sha256": "f4f4c609224973ebacb42063b2673a10020f61778d2d72437e47b95483dd129e"
+    },
+    {
+      "sample_id": "E004-CF-C024",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Anchor trước đọc sách; vật dài trên bàn là hộp bút, không mobile. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "1f7eafd594744d155cf626568fd276e64998df053c68d66fa256c90390ed6134",
+      "crop_sha256": "d5dbafead2bde73925a3e928706e133a1c3e7c1ebfd3f3032c511974805b161b",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C024/input.png",
+      "input_sha256": "b712f7d999f0baad0f7f9058422f701fdbda4be6a8a6c04c7ccec35ca1e2cc6b"
+    },
+    {
+      "sample_id": "E004-CF-C025",
+      "states": [
+        "U",
+        "N"
+      ],
+      "reason": "Anchor trước viết; một tay khuất sau bài nên phone U. Hộp đồ uống không phải mobile. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "67f4e412f6dd22a8bae778fc4bc6d37aeb83720b95401cabd4045fc00447ea97",
+      "crop_sha256": "a49aff8f8c658524f381e9778ae37cc68d43b86f9d32640a4aa9941a830f92f8",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C025/input.png",
+      "input_sha256": "66ca3129cd3cb8ac31e03eb1ebf98174bb49f766429824ca688fc909ee6f935c"
+    },
+    {
+      "sample_id": "E004-CF-C026",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Anchor áo be quay ngang khỏi bài; hai tay và bàn riêng rõ. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "4a659692149fbd0e0e23c7568053980e23c04dc7e893cece729ec0949bb0a559",
+      "crop_sha256": "a621c18812b35312ccde5b35959cde2104df6334b5350acc7aa4910b3b5dcf6f",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C026/input.png",
+      "input_sha256": "799c380787ca34ec0a7056fbbd50e6b52474b8ecece694ffa2584a8a1c31c550"
+    },
+    {
+      "sample_id": "E004-CF-C027",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Anchor trước viết; hai tay và vùng bài rõ. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "32752c988b162a9804c23b3a55c6a095a648282ac6bc757515fa43a556e736a7",
+      "crop_sha256": "31eadb194753acd921a791a04c61ce756bc4abc7fd84e5c577f7c4f5a5e373fe",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C027/input.png",
+      "input_sha256": "af2a3a668df016fc1abdac35af0f14a14d85c80e311c8558ef851bd700200894"
+    },
+    {
+      "sample_id": "E004-CF-C028",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Anchor áo đỏ quay ngang; calculator xanh trên bàn không là mobile. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "db35a8c5d191a89ff117aa0e303fea952801581208baa6326438cf9b1a03496c",
+      "crop_sha256": "0500408dee121022a55bf2e0318bca08fe3ef044f0c584d2cc344b3cc9b2b751",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C028/input.png",
+      "input_sha256": "bddd911a6590260baa4c608a58a31f80ad3bcd08b5e94c4c1dd22bfc52db6b08"
+    },
+    {
+      "sample_id": "E004-CF-C029",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Anchor áo đỏ nhìn bài/calculator; hai tay và bàn rõ. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "e217e4f2e45a5b340bf96719f1278dc891a73a088d85de7cc21df42af83613ae",
+      "crop_sha256": "ba574185deaa589a54e5817412a797c38a0ac33948c3af2f2f1a2b9d87234c60",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C029/input.png",
+      "input_sha256": "55b3bd2d8cbe475186d4fd1c5d106640cfa846c2e8c46d5500f1394a865353e9"
+    },
+    {
+      "sample_id": "E004-CF-C030",
+      "states": [
+        "U",
+        "P"
+      ],
+      "reason": "Anchor áo nâu nhìn khỏi bài; tay và bàn quan sát được. Phone U vì hộp bút che một phần vùng tay. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "ed9359ca13903d86e56c42f9607f9e0bfff19cf003b98c16e12045b806f554b8",
+      "crop_sha256": "6e228e1eca4c60f4ff7f350c8873058bc0b9b3a2b76c324e98460ab295cdaa97",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C030/input.png",
+      "input_sha256": "64778d3da66d9d6b0b1b2f2308ee2179d3f50f2519bc9298463f1eee2040fa94"
+    },
+    {
+      "sample_id": "E004-CF-C031",
+      "states": [
+        "U",
+        "N"
+      ],
+      "reason": "Anchor áo nâu viết; tay và vùng bài rõ. Phone U vì hộp bút che một phần vùng tay. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "5b402efae5093e3289516edd03f58b08d45c79caef2cf7a6bd7e798380462934",
+      "crop_sha256": "f797645b69c49fb472a09c52b7d0543c472b40f1da350b9d564a522be54739da",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C031/input.png",
+      "input_sha256": "fb3c71f37b5c248187823ae2662b441bc23bca3f91752302f45aa3c4876b7b1e"
+    },
+    {
+      "sample_id": "E004-CF-C032",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Anchor áo tím cầm mobile trước mặt; nhìn thiết bị riêng. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "4c11e65d5e766aba42d5000af3c7c28e929c7346e8175d52bd1897ce8580b1a5",
+      "crop_sha256": "f55d646164e252006ab5ead8b6fa7da344aa3b205db91b0488d099091609f897",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C032/input.png",
+      "input_sha256": "b78bb09a802c741d4e556d3de0108c521c28fb467da41e473c7ffa70d1113004"
+    },
+    {
+      "sample_id": "E004-CF-C033",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Anchor cầm mobile ngang trong đùi; đầu hướng vào thiết bị riêng. Owner đồng ý batch ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "b7d1cc40fa5c387f0740190bdf1dae3f50d04393e37bc1f76698b4d8ab51aa9b",
+      "crop_sha256": "ddaff09542f38cbb6f6952bd8c6072b88c69ef5de9a2f799fb8d88f4d4b45552",
+      "input_relpath": "data/interim/E004-consolidated-frames-20261013/crops/E004-CF-C033/input.png",
+      "input_sha256": "faf6a6befe20ee8532714ee3fc5e9a5c12b9b7111d823090af9fd3c7203964e6"
+    }
+  ]
+}

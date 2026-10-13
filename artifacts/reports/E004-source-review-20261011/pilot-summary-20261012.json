@@ -1,0 +1,80 @@
+{
+  "accepted_at_least_one_known_target": 49,
+  "accepted_label_geometry_records": 56,
+  "accepted_train_val_test_assignments": 0,
+  "active_UU_auxiliary": 7,
+  "active_anchor_candidates": 56,
+  "artifact_crop_versions": 59,
+  "independent_groups_proven": 0,
+  "known_target_cells": 85,
+  "ledger_sha256": "357a2085074c1ce7b0304e6f89defac67c4ee50ae63cb0bc339e28def9c84b2f",
+  "looking_PNU": {
+    "N": 23,
+    "P": 24,
+    "U": 9
+  },
+  "no_work_context_approval_inferred": true,
+  "phone_PNU": {
+    "N": 26,
+    "P": 12,
+    "U": 18
+  },
+  "roles": {
+    "holdout_candidate_reserve": {
+      "accepted_cohort_assignments": 0,
+      "independent_groups_proven": 0,
+      "known_label_crops": 33,
+      "looking_PNU": {
+        "N": 13,
+        "P": 19,
+        "U": 1
+      },
+      "phone_PNU": {
+        "N": 19,
+        "P": 10,
+        "U": 4
+      }
+    },
+    "new_development_candidate_quarantine": {
+      "accepted_cohort_assignments": 0,
+      "independent_groups_proven": 0,
+      "known_label_crops": 12,
+      "looking_PNU": {
+        "N": 8,
+        "P": 3,
+        "U": 1
+      },
+      "phone_PNU": {
+        "N": 7,
+        "U": 5
+      }
+    },
+    "train_supplement_candidate": {
+      "accepted_cohort_assignments": 0,
+      "independent_groups_proven": 0,
+      "known_label_crops": 4,
+      "looking_PNU": {
+        "N": 2,
+        "P": 2
+      },
+      "phone_PNU": {
+        "P": 2,
+        "U": 2
+      }
+    }
+  },
+  "source_images": 24,
+  "state_combinations": {
+    "NN": 13,
+    "NP": 12,
+    "NU": 1,
+    "PN": 3,
+    "PP": 8,
+    "PU": 1,
+    "UN": 7,
+    "UP": 4,
+    "UU": 7
+  },
+  "status": "owner_accepted_labels_geometry_review_only",
+  "superseded_versions": 3
+}

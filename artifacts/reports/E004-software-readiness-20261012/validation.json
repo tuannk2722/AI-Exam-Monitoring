@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-12",
+  "scope": "synthetic software validation only",
+  "real_data_training_or_inference": false,
+  "checks": [
+    {
+      "command": "python -m unittest discover -s tests -q",
+      "tests": 151,
+      "status": "PASS",
+      "seconds": 62.506
+    },
+    {
+      "command": "python -m ruff check src tests scripts",
+      "status": "PASS"
+    },
+    {
+      "command": "python -m mypy src/ai_exam_monitoring scripts/check_repo.py",
+      "status": "PASS",
+      "files": 42
+    },
+    {
+      "command": "python -m compileall -q src tests scripts",
+      "status": "PASS"
+    },
+    {
+      "command": "git diff --check",
+      "status": "PASS"
+    },
+    {
+      "command": "python -m unittest discover -s tests -p test_training_adaptation.py -q",
+      "status": "PASS",
+      "tests": 15,
+      "seconds": 44.122
+    }
+  ],
+  "historical_pins_verified": {
+    "original": 59,
+    "owner_review_and_tools": 20,
+    "mismatches": 0
+  },
+  "source_snapshot": {
+    "status": "PASS",
+    "tests": 151,
+    "seconds": 79.061,
+    "contains_real_media_or_weights": false,
+    "files": 267,
+    "scope": "working-tree source snapshot in ZIP mode, not committed clean checkout",
+    "final_delta": "benchmark environment metadata and import whitespace checked by targeted suite",
+    "structure_checker": "PASS ZIP mode; tracking safety not claimed"
+  },
+  "git_index": {
+    "staged_by_agent": false,
+    "committed_by_agent": false,
+    "require_git_status": "FAIL: new required files untracked; not staged merely for checker",
+    "untracked_required_count": 23
+  },
+  "cleanup": "Validated workspace scratch snapshot and generated caches removed after preserving this receipt; synthetic fixture temporary directories auto-cleaned by tests.",
+  "implementation_sha256": {
+    "src/ai_exam_monitoring/training/adaptation_config.py": "50e72bc2402ecff8cd93c200bf8a9fd6785b5db1491488894d32cad0918607b5",
+    "src/ai_exam_monitoring/training/adaptation_data.py": "ce693e341a6db7cb66fb1b6f4ca382218aa57d5b1be76d8aebf6ef8c20c23c55",
+    "src/ai_exam_monitoring/training/adaptation_evaluate.py": "a2852e5bce1d4e5fc74d0f35256bc4b615802f388cb77b095231b2e05498723f",
+    "src/ai_exam_monitoring/training/adaptation_metrics.py": "3f3bab99a26c5d7099b5c2d6b343df88abed58b16514cedbe9286b9cde2a0c17",
+    "src/ai_exam_monitoring/training/adaptation_model.py": "5242368b81c924a2fe037fbe2558fa8f68ef6e12b16caa5c4e22d2e65d937a9e",
+    "src/ai_exam_monitoring/training/adaptation_train.py": "db757aeb20b7b5349e6885c970119c77fdf28c251ccdd5036d86817291b52711",
+    "src/ai_exam_monitoring/training/holdout_access.py": "12fb1ba2153f1083adb16776123804b6066b0d85cea3d98ad80607869e5fae74",
+    "src/ai_exam_monitoring/training/data.py": "484dc1a79188f4f21d873f51f0fd9e2928ba7764eafbad204d21f0806ba25aba",
+    "src/ai_exam_monitoring/training/train.py": "c8e4d71c50e6c1cabec2f9c24afea0754c907bb3812049969ba6426ad4c1ec33",
+    "src/ai_exam_monitoring/training/evaluate.py": "21b4153d16d87278aba3316834d3ba2d006a56ce9317e40c7ae6634e10754078",
+    "tests/test_training_adaptation.py": "94698feb3183a57f296a94323f0d467334a93bb73770ebdce18ac7d4ea833906",
+    "tests/test_holdout_access.py": "1d90218e6a7462c1e3d19858e375289a3151b50d7c135fb4a3b2d603694b4226",
+    "tests/fixtures/adaptation_fixture.py": "69169ad792a7eabeb877c906362178abbe0e23252a30b4229ba42c18d0414075"
+  },
+  "links": {
+    "checked": 95,
+    "missing": 0
+  }
+}

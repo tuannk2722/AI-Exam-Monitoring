@@ -1,0 +1,201 @@
+{
+  "changed_label_excluded_from_comparator": [
+    "EXP-SCB-002"
+  ],
+  "comparator_retained35": {
+    "ids": [
+      "EXP-RF-007",
+      "EXP-RF-008",
+      "EXP-RF-009",
+      "EXP-SCB-005",
+      "EXP-SCB-014",
+      "EXP-SCB-024",
+      "V6-CA-006",
+      "V6-CA-015",
+      "V6-CA-018",
+      "V6-CA-021",
+      "V6-CA-026",
+      "V6-CA-030",
+      "V6-CA-033",
+      "V6-CA-036",
+      "V6-CA-038",
+      "V6-CA-040",
+      "V6-CA-043",
+      "V6-CA-046",
+      "V6-EX-009",
+      "V6-EX-010",
+      "V6-EX-015",
+      "V6-EX-019",
+      "V6-EX-042",
+      "V6-SB-033",
+      "V6-SB-034",
+      "V6-SB-035",
+      "V6-SB-040",
+      "V6-SB-046",
+      "V6-SB-047",
+      "V6R2-CA-006",
+      "V6R2-CA-007",
+      "V6R2-CA-009",
+      "V6R2-CA-014",
+      "V6R2-EX-008",
+      "V6R2-SB-016"
+    ],
+    "support": {
+      "combinations": {
+        "NN": 7,
+        "NP": 5,
+        "NU": 6,
+        "PP": 2,
+        "PU": 7,
+        "UN": 1,
+        "UP": 7
+      },
+      "fully_known": 14,
+      "looking": {
+        "N": 8,
+        "P": 14,
+        "U": 13
+      },
+      "phone": {
+        "N": 18,
+        "P": 9,
+        "U": 8
+      },
+      "records": 35,
+      "registered_groups": 12
+    }
+  },
+  "current_retained36": {
+    "ids": [
+      "EXP-RF-007",
+      "EXP-RF-008",
+      "EXP-RF-009",
+      "EXP-SCB-002",
+      "EXP-SCB-005",
+      "EXP-SCB-014",
+      "EXP-SCB-024",
+      "V6-CA-006",
+      "V6-CA-015",
+      "V6-CA-018",
+      "V6-CA-021",
+      "V6-CA-026",
+      "V6-CA-030",
+      "V6-CA-033",
+      "V6-CA-036",
+      "V6-CA-038",
+      "V6-CA-040",
+      "V6-CA-043",
+      "V6-CA-046",
+      "V6-EX-009",
+      "V6-EX-010",
+      "V6-EX-015",
+      "V6-EX-019",
+      "V6-EX-042",
+      "V6-SB-033",
+      "V6-SB-034",
+      "V6-SB-035",
+      "V6-SB-040",
+      "V6-SB-046",
+      "V6-SB-047",
+      "V6R2-CA-006",
+      "V6R2-CA-007",
+      "V6R2-CA-009",
+      "V6R2-CA-014",
+      "V6R2-EX-008",
+      "V6R2-SB-016"
+    ],
+    "support": {
+      "combinations": {
+        "NN": 8,
+        "NP": 5,
+        "NU": 6,
+        "PP": 2,
+        "PU": 7,
+        "UN": 1,
+        "UP": 7
+      },
+      "fully_known": 15,
+      "looking": {
+        "N": 9,
+        "P": 14,
+        "U": 13
+      },
+      "phone": {
+        "N": 19,
+        "P": 9,
+        "U": 8
+      },
+      "records": 36,
+      "registered_groups": 13
+    }
+  },
+  "historical_added37": {
+    "ids": [
+      "EXP-RF-007",
+      "EXP-RF-008",
+      "EXP-RF-009",
+      "EXP-SCB-002",
+      "EXP-SCB-005",
+      "EXP-SCB-014",
+      "EXP-SCB-024",
+      "V6-CA-006",
+      "V6-CA-015",
+      "V6-CA-018",
+      "V6-CA-021",
+      "V6-CA-026",
+      "V6-CA-030",
+      "V6-CA-033",
+      "V6-CA-036",
+      "V6-CA-038",
+      "V6-CA-040",
+      "V6-CA-041",
+      "V6-CA-043",
+      "V6-CA-046",
+      "V6-EX-009",
+      "V6-EX-010",
+      "V6-EX-015",
+      "V6-EX-019",
+      "V6-EX-042",
+      "V6-SB-033",
+      "V6-SB-034",
+      "V6-SB-035",
+      "V6-SB-040",
+      "V6-SB-046",
+      "V6-SB-047",
+      "V6R2-CA-006",
+      "V6R2-CA-007",
+      "V6R2-CA-009",
+      "V6R2-CA-014",
+      "V6R2-EX-008",
+      "V6R2-SB-016"
+    ],
+    "support": {
+      "combinations": {
+        "NN": 7,
+        "NP": 6,
+        "NU": 6,
+        "PP": 2,
+        "PU": 8,
+        "UN": 1,
+        "UP": 7
+      },
+      "fully_known": 15,
+      "looking": {
+        "N": 8,
+        "P": 15,
+        "U": 14
+      },
+      "phone": {
+        "N": 19,
+        "P": 10,
+        "U": 8
+      },
+      "records": 37,
+      "registered_groups": 13
+    }
+  },
+  "removed_from_val": [
+    "V6-CA-041"
+  ],
+  "status": "measured_not_frozen"
+}

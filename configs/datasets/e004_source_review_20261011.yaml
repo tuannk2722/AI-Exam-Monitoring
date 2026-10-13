@@ -1,0 +1,47 @@
+status: authorized_draft_preparation
+task_id: E004-DATA-PRIORITY-20261011
+owner_direction: artifacts/reports/E004-source-review-20261011/owner-direction.json
+source_audit: artifacts/reports/E004-post-v7-audit-20261011/source-zip-audit.json
+source_audit_sha256: 7940cc6316d0a8b96a6b46831347320023f5454f3cb1f5cb72a61cbe32bf6d4f
+parent_manifest: data/processed/pilot-b/pilot-b-20261010-v7/manifest.jsonl
+parent_manifest_sha256: 3fc53fedf12b34d0e271effb6af3046b2073b1ceebad3a6300d0e256e3dd1ede
+output: data/interim/E004-source-review-20261011
+input_size: 224
+fill: [124, 116, 104]
+expanded_inspection_per_hint: 8
+sources:
+  - id: behavie
+    audit_key: behavie
+    archive: C:/Users/OS/Downloads/behavie.v2i.yolov8.zip
+    archive_sha256: b90b3d95eb671bd0e454723036bcf62596e0ebafd8616e69a95c894576433057
+    names:
+      0: Bend Over The Desk
+      1: Hand Under Table
+      2: Look Around
+      3: Normal
+      4: Stand Up
+      5: Wave
+      6: phone
+    inspection_hints: [phone, Look Around, Normal, Bend Over The Desk, Hand Under Table]
+  - id: studentclassroombehavior
+    audit_key: StudentClassroomBehavior
+    archive: C:/Users/OS/Downloads/StudentClassroomBehavior.v1i.yolov8.zip
+    archive_sha256: 392052c71bcbfd084a330c3ff8cd1f28a1087e30afeef107fe85ab14acbf400d
+    names:
+      0: Using_phone
+      1: bend
+      2: book
+      3: bow_head
+      4: hand-raising
+      5: phone
+      6: raise_head
+      7: reading
+      8: sleep
+      9: turn_head
+      10: upright
+      11: writing
+    inspection_hints: [phone, Using_phone, turn_head, reading, writing]
+role_policy: reserve_potential_evaluation_families_before_any_train_assignment
+canonical_targets_from_source_names: false
+new_independent_groups_proven: 0
+training_or_model_inference: false

@@ -1,0 +1,11 @@
+{
+  "archive": "archive/history-20261010.zip",
+  "archive_sha256": "dac8a3ca91e9992906227741eb07af25199e9def15fd7cddd97b197c0a13878f",
+  "prefix": "outputs/pilot-b-v7-release-sources-20261010-r1/sources",
+  "destination": "outputs/_scratch/e004-source-expansion-20261013/restore",
+  "status": "restored_with_history_integrity_checks",
+  "windows_extended_paths": true,
+  "initial_short_path_attempt": "Failed on long upstream filename; resumed safely with extended path, no integrity bypass.",
+  "purpose": "Raw source preflight for new V8 build; no historical reseal or predictions.",
+  "cleanup_after_rebuild": true
+}

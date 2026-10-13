@@ -1,0 +1,104 @@
+{
+  "comparator48_support": {
+    "combinations": {
+      "NN": 8,
+      "NP": 5,
+      "NU": 6,
+      "PP": 2,
+      "PU": 14,
+      "UN": 3,
+      "UP": 10
+    },
+    "fully_known": 15,
+    "looking": {
+      "N": 11,
+      "P": 17,
+      "U": 20
+    },
+    "phone": {
+      "N": 19,
+      "P": 16,
+      "U": 13
+    },
+    "records": 48,
+    "registered_groups": 13
+  },
+  "full49_mapping_distinct_from_comparator13": true,
+  "ids": [
+    "EXP-RF-007",
+    "EXP-RF-008",
+    "EXP-RF-009",
+    "EXP-SCB-005",
+    "EXP-SCB-014",
+    "EXP-SCB-024",
+    "P002-person-01",
+    "P006-extra-01",
+    "P006-person-01",
+    "P006-person-02",
+    "P007-extra-01",
+    "P007-person-01",
+    "P007-person-02",
+    "P008-extra-01",
+    "P008-person-01",
+    "P022-person-01",
+    "SCB-write-002",
+    "SCB-write-020",
+    "SCB-write-024",
+    "V6-CA-006",
+    "V6-CA-015",
+    "V6-CA-018",
+    "V6-CA-021",
+    "V6-CA-026",
+    "V6-CA-030",
+    "V6-CA-033",
+    "V6-CA-036",
+    "V6-CA-038",
+    "V6-CA-040",
+    "V6-CA-043",
+    "V6-CA-046",
+    "V6-EX-009",
+    "V6-EX-010",
+    "V6-EX-015",
+    "V6-EX-019",
+    "V6-EX-042",
+    "V6-SB-033",
+    "V6-SB-034",
+    "V6-SB-035",
+    "V6-SB-040",
+    "V6-SB-046",
+    "V6-SB-047",
+    "V6R2-CA-006",
+    "V6R2-CA-007",
+    "V6R2-CA-009",
+    "V6R2-CA-014",
+    "V6R2-EX-008",
+    "V6R2-SB-016"
+  ],
+  "old14_to_new14": {
+    "PB-G-baf0e0aa45deba62941c": "V7-G-fcd93acef79fe0e4e815",
+    "PB-G-d4148f8feed0711bb6c6": "V7-G-e903106f68879fbe175d",
+    "V6-G-18caa4237925ae9749e3": "V7-G-18caa4237925ae9749e3",
+    "V6-G-2fb2b83caf4ae371408a": "V7-G-2fb2b83caf4ae371408a",
+    "V6-G-3a23d0e59022fc16cf45": "V7-G-3a23d0e59022fc16cf45",
+    "V6-G-53fe00e4fc84b2bf7a29": "V7-G-a6902aad84a5672f4f52",
+    "V6-G-5c95c56ac7f8af49105c": "V7-G-5c95c56ac7f8af49105c",
+    "V6-G-73f8ee84e6a5ea4a4049": "V7-G-73f8ee84e6a5ea4a4049",
+    "V6-G-85045be9db4b54bf8935": "V7-G-85045be9db4b54bf8935",
+    "V6-G-ae0cbae3310d6f5db3df": "V7-G-ae0cbae3310d6f5db3df",
+    "V6-G-bfee2347d4708b9a0168": "V7-G-bfee2347d4708b9a0168",
+    "V6-G-c197fd750c63e3f82b42": "V7-G-c197fd750c63e3f82b42",
+    "V6-G-cfcc8e4c59a1eff1e7c2": "V7-G-cfcc8e4c59a1eff1e7c2",
+    "V6-G-d44a821e962a24104c63": "V7-G-d44a821e962a24104c63"
+  },
+  "status": "verified_metadata_not_owner_frozen",
+  "top_two_groups": [
+    [
+      "V7-G-fcd93acef79fe0e4e815",
+      21
+    ],
+    [
+      "V7-G-a6902aad84a5672f4f52",
+      10
+    ]
+  ]
+}

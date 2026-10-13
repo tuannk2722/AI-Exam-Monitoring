@@ -1,0 +1,74 @@
+{
+  "accepted_independent_groups": 0,
+  "accepted_supervised_crops": 0,
+  "active_UU_auxiliary": 9,
+  "active_anchor_candidates": 56,
+  "active_looking_PNU": {
+    "N": 19,
+    "P": 23,
+    "U": 14
+  },
+  "active_phone_PNU": {
+    "N": 22,
+    "P": 11,
+    "U": 23
+  },
+  "artifact_crop_versions": 59,
+  "canonical_null_mask_zero_for_all": true,
+  "proposed_at_least_one_known_target": 47,
+  "proposed_state_combinations": {
+    "NN": 10,
+    "NP": 9,
+    "NU": 3,
+    "PN": 2,
+    "PP": 7,
+    "PU": 2,
+    "UN": 7,
+    "UP": 7
+  },
+  "roles": {
+    "holdout_candidate_reserve": {
+      "crop_count": 33,
+      "looking_PNU": {
+        "N": 11,
+        "P": 19,
+        "U": 3
+      },
+      "phone_PNU": {
+        "N": 15,
+        "P": 9,
+        "U": 9
+      },
+      "visual_boundaries_not_independent_groups": 4
+    },
+    "new_development_candidate_quarantine": {
+      "crop_count": 11,
+      "looking_PNU": {
+        "N": 7,
+        "P": 3,
+        "U": 1
+      },
+      "phone_PNU": {
+        "N": 7,
+        "U": 4
+      },
+      "visual_boundaries_not_independent_groups": 7
+    },
+    "train_supplement_candidate": {
+      "crop_count": 3,
+      "looking_PNU": {
+        "N": 1,
+        "P": 1,
+        "U": 1
+      },
+      "phone_PNU": {
+        "P": 2,
+        "U": 1
+      },
+      "visual_boundaries_not_independent_groups": 2
+    }
+  },
+  "source_images": 24,
+  "status": "current_draft_after_native_followup",
+  "superseded_versions": 3
+}

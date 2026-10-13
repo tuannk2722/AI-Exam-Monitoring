@@ -1,0 +1,38 @@
+{
+  "accepted_independent_groups": 0,
+  "accepted_supervised_crops": 0,
+  "active_UU_auxiliary": 9,
+  "active_anchor_candidates": 56,
+  "active_looking_PNU": {
+    "N": 23,
+    "P": 21,
+    "U": 12
+  },
+  "active_phone_PNU": {
+    "N": 24,
+    "P": 11,
+    "U": 21
+  },
+  "artifact_crop_versions": 58,
+  "candidate_model_scores_used": false,
+  "canonical_null_mask_zero_for_all": true,
+  "proposed_at_least_one_known_target": 47,
+  "proposed_role_counts": {
+    "holdout_candidate_reserve": 33,
+    "new_development_candidate_quarantine": 11,
+    "train_supplement_candidate": 3
+  },
+  "proposed_state_combinations": {
+    "NN": 15,
+    "NP": 8,
+    "NU": 1,
+    "PN": 2,
+    "PP": 7,
+    "PU": 2,
+    "UN": 6,
+    "UP": 6
+  },
+  "reviewed_at_224": 58,
+  "source_images": 24,
+  "superseded_versions": 2
+}

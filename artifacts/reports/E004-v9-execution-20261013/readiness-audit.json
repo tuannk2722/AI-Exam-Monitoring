@@ -1,0 +1,30 @@
+{
+  "status": "prepared_pending_cohort_protocol_decision",
+  "exact_ids_and_record_digests": "PASS",
+  "train_selection_holdout_id_family_source_crop_disjoint": "PASS",
+  "weights_sha256": "PASS",
+  "no_test_media_or_predictions": "PASS",
+  "source_code_guards_require_revision": [
+    "adaptation_data.validate_readiness: original G3 100P/100N,10 independent groups,2 verified contexts",
+    "adaptation_data.prepare_cohorts: selection independence true and accepted manifest val required",
+    "adaptation_evaluate: final independence and original support/context hard-coded"
+  ],
+  "do_not_bypass": [
+    "no independence_verified=true fabrication",
+    "no G0-G3=true before revised evidence validation",
+    "no review-only samples in trainer",
+    "no new test inference from preparation approval"
+  ],
+  "pending_decision": [
+    "selection71 membership as val in new experiment package",
+    "reserve199 exact enrollment and conservative family acceptance for12+53 records",
+    "M4 remains INCONCLUSIVE pending slice evidence; training may proceed after revised guards/smoke but no automatic Selected"
+  ],
+  "unchanged_approved": [
+    "recipe",
+    "compute caps",
+    "labels/geometry",
+    "source rights",
+    "waiver independence and support shortfalls"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "version": "E004-CF-packages-20261013-r2",
+  "status": "prepared_pending_cohort_freeze",
+  "source_archive_sha256": "54bff394fd4a105bc9a1430da008023f5aa4ab5b8825abb467071a3385efddff",
+  "owner_crop_decisions_sha256": "21b007fc674bf7a7dfba40961956b807ebee68c160536ceb70097bc611d67212",
+  "owner_family_roles_sha256": "acefd0348c0b657cc3b67b1a724bfa2c7083436a29adf1d94749e764af61308e",
+  "owner_rights_sha256": "b147be08c7ab85feba9d90f9587858ca3a31b35613e1762a5aded7602620655e",
+  "family_accepted_ledger_sha256": "c84178682e9eb6a6b9480f82242cfa29011675b04c100753b0aac4ce795f53cb",
+  "input_size": 224,
+  "fill": [
+    114,
+    114,
+    114
+  ],
+  "roles": {
+    "new_development": [
+      "E004-CF-C007",
+      "E004-CF-C008",
+      "E004-CF-C009",
+      "E004-CF-C010",
+      "E004-CF-C011",
+      "E004-CF-C016",
+      "E004-CF-C018",
+      "E004-CF-C021",
+      "E004-CF-C028",
+      "E004-CF-C029",
+      "E004-CF-C030",
+      "E004-CF-C031"
+    ],
+    "reserved_holdout_candidate": [
+      "E004-CF-C001",
+      "E004-CF-C002",
+      "E004-CF-C003",
+      "E004-CF-C004",
+      "E004-CF-C005",
+      "E004-CF-C006",
+      "E004-CF-C012",
+      "E004-CF-C013",
+      "E004-CF-C014",
+      "E004-CF-C015",
+      "E004-CF-C017",
+      "E004-CF-C019",
+      "E004-CF-C020",
+      "E004-CF-C022",
+      "E004-CF-C023",
+      "E004-CF-C024",
+      "E004-CF-C025",
+      "E004-CF-C026",
+      "E004-CF-C027",
+      "E004-CF-C032",
+      "E004-CF-C033"
+    ]
+  },
+  "no_training_manifest_until_cohort_freeze": true,
+  "supersedes": "package-config.json",
+  "change": "Generic source coverage card text; no label, geometry or membership change"
+}

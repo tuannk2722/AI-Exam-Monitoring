@@ -1,0 +1,21 @@
+{
+  "status": "approved",
+  "owner": "repository-owner",
+  "scope": "local_classifier_research",
+  "run_kind": "promotion",
+  "configs": {
+    "E004-V9-LP": "675bba92e226f8060966f57fbb431d92e2d1df59fbe0340732d7829dfac9c1c7",
+    "E004-V9-L4": "6ac6994a54499c8896e21db8522e0df0bc1069b1c8510a67bcb0f43d319f49f2"
+  },
+  "matched_signature": "a09a9d92e05ffb917ee5b0567236436523aaa0c2df4559b93a436630d2842da3",
+  "owner_authorization": {
+    "path": "artifacts/reports/E004-v9-execution-20261013/owner-execution-approval.json",
+    "sha256": "27a6bb027cfeec66ad1a2813558a126b4141f0d907d26b97a35e03acec77bfed"
+  },
+  "smoke_condition": {
+    "path": "artifacts/reports/E004-v9-execution-20261013/smoke-pair-acceptance.json",
+    "sha256": "6984a8b869a309c08fee267763ec1f7d395fb2f4a1bf867efaf04a90fd4526f4"
+  },
+  "recorded_at": "2026-10-13",
+  "final_test_inference_authorized": false
+}

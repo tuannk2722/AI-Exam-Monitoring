@@ -1,0 +1,27 @@
+{
+  "status": "accepted",
+  "dataset_version": "pilot-b-20261013-v8",
+  "package": "data/processed/pilot-b/pilot-b-20261013-v8",
+  "counts": {
+    "train": 716,
+    "val": 49,
+    "test": 11,
+    "review_only": 122,
+    "excluded": 29
+  },
+  "manifest_records": 776,
+  "ledger_records": 927,
+  "reviewed_crops": 898,
+  "pins": {
+    "data/processed/pilot-b/pilot-b-20261013-v8/checksums.sha256": "2d43f4eb9a70987dd643d4a5c6b635e879e147a356fa85b2eb24367d248df20e",
+    "data/processed/pilot-b/pilot-b-20261013-v8/manifest.jsonl": "1dce64877605877ff4d7f04a57966c0e7d87c13872affdd6cc9a3c2898cc25d4",
+    "data/processed/pilot-b/pilot-b-20261013-v8/split-assignment.jsonl": "eb550716f2aee9b857d2f6513111c4e4bc1e0b6ed7ebdc3695944e24bde93c15",
+    "data/processed/pilot-b/pilot-b-20261013-v8/dataset-card.md": "feecbd4ba444a36778c335f00ebad1f118674be5a5a1b4fc4feeafd2a9fc3551",
+    "configs/datasets/pilot_b_release_v8.yaml": "abc6257b4811a1ab26e162d02bb47b864903d7fba7503943bec01cd9669d758b",
+    "artifacts/reports/E004-source-expansion-20261013/owner-release-implementation.json": "2cbe7c0b888ca100dc44c7c62ba66fedc655cca7c2024d6dcf71d47f8ddd2ae7",
+    "artifacts/reports/E004-source-expansion-20261013/v8-build-receipt.json": "d1c8174053fbd67d965d0e0bfcbbb048a060fc9ad7a9e6e62722679b0f7ed7eb",
+    "artifacts/reports/E004-source-expansion-20261013/v8-verification.json": "40db874002c13288e0e4485677c4da334d995c8717e508ffc2a882dacf99dde6"
+  },
+  "training_started": false,
+  "test_inference_authorized": false
+}

@@ -1,0 +1,15 @@
+{
+  "archive_sha256": "54bff394fd4a105bc9a1430da008023f5aa4ab5b8825abb467071a3385efddff",
+  "reviewer": "repository-owner",
+  "reviewed_at": "2026-10-13",
+  "decision": "Owner xác nhận toàn quyền sử dụng ZIP và yêu cầu tiếp tục xử lý; không hỏi lại quyền nguồn này.",
+  "approved_use_scope": [
+    "local_processing",
+    "local_training",
+    "local_evaluation",
+    "local_dataset_release"
+  ],
+  "evidence": "Explicit owner reply in current task, 2026-10-13",
+  "upstream_license_claims_are_not_verified_licenses": true,
+  "upload_or_public_redistribution_authorized": false
+}

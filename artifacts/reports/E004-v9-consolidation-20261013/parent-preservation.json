@@ -1,0 +1,21 @@
+{
+  "parent_records": 927,
+  "parent_preserved_semantics_except_explicit_correction": 926,
+  "parent_deltas": [
+    {
+      "sample_id": "E004-EX-C089",
+      "fields": [
+        "phone_use",
+        "looking_around",
+        "crop",
+        "owner_decision_ref",
+        "target_values",
+        "normal_review"
+      ]
+    }
+  ],
+  "parent_crop_hashes_preserved": 927,
+  "val49_and_test11_semantics_preserved": true,
+  "test_inference": false,
+  "old_v8_checksums_sha256": "2d43f4eb9a70987dd643d4a5c6b635e879e147a356fa85b2eb24367d248df20e"
+}

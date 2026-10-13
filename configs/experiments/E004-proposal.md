@@ -2,6 +2,8 @@
 
 **Draft, chưa quyền training/final test/promotion.** Đây là bản diễn giải đang làm, được chuyển từ training spec ngày 2026-10-11; không là ExperimentConfig, không đổi pins hoặc thay approval. [YAML lịch sử đã pin](E004-plan.yaml) giữ nguyên bytes; [audit gốc](../../artifacts/reports/E004-v7-fit-audit-20261010/README.md) và [input pins](../../artifacts/reports/E004-v7-fit-audit-20261010/input-pins.json) là evidence.
 
+Audit bổ sung ngày 2026-10-11: [inventory coverage 375 new-train, gaps và hai ZIP owner cung cấp](../../artifacts/reports/E004-post-v7-audit-20261011/README.md). [Đề xuất freeze và implementation plan](E004-freeze-proposal-20261011.md) cụ thể hóa comparator/selection cohorts, mini-batch objective, BN/checkpoint/resume và test plan; toàn bộ choices mới vẫn Draft. Owner đã xác nhận quyền sử dụng cả hai ZIP trong scope xử lý local; không hỏi lại quyền. Taxonomy/QA224 và provenance independence chưa hoàn tất chỉ vì inventory đã đủ.
+
 Quyền theo hành động và contract chung ở [training](../../docs/training.md); dùng [status](../../docs/status.md) để biết proposal đang được ưu tiên. Khi thiết kế được duyệt, tạo config/approval đúng identity; không sửa YAML lịch sử. Kết quả run thuộc outputs/reports của run, chỉ giữ decision/lifecycle và link kết quả ở hồ sơ này.
 
 ## 1. Proposal đang hoạt động: E004 — Draft, snapshot 2026-10-11
@@ -28,7 +30,7 @@ Hypothesis: sau targeted data/QA, mở layer 4 có thể thích nghi desk-phone 
 
 **Toàn bảng là Draft.** Trainer hiện feature-cache/frozen-head nên không chạy candidate chỉ bằng sửa YAML. Sau khi owner chốt design, cần trainable/BN policy thật, mini-batch masked objective, optimizer groups, checkpoint đủ backbone+head/optimizer/RNG/scheduler nếu có, resume/cache invalidation/evaluator và model bundle. Kiểm frozen vs trainable weights/buffers, uninterrupted–resumed parity và metrics reload bằng fixtures; smoke local trước run thật. Input 384/resolution ablation là experiment riêng chưa approved.
 
-Comparator development chưa Accepted: v7 val 49 từ val 50 sau `V6-CA-041` rời val và `EXP-SCB-002` đổi label. 48 retained IDs giữ source/crop/target/mask/context/rights nhưng literal group/review identity versioned; 14 old groups ánh xạ 1–1 sang new groups. Phải owner freeze IDs/label contract/group mapping và protocol trước run; không tự dùng intersection tùy ý hoặc gọi 49 là cùng 50.
+Comparator development chưa Accepted: v7 val 49 từ val 50 sau `V6-CA-041` rời val và `EXP-SCB-002` đổi label. 48 retained IDs giữ source/crop/target/mask/context/rights nhưng literal group/review identity versioned; mapping toàn retained val49 là 14 old groups ánh xạ 1–1 sang 14 new groups, còn comparator48 có 13 groups. Phải owner freeze IDs/label contract/group mapping và protocol trước run; không tự dùng intersection tùy ý hoặc gọi 49 là cùng 50.
 
 Audit dùng **cached E003 scores**, không model inference, minh họa recall phone 0.529→0.563 và looking 0.611→0.647 khi đổi labels/cohort sang v7. Cùng model mà metric đổi: đây là annotation/cohort effect, không E004 gain. Không chạy E003 trên final holdout mới để dựng comparison.
 
@@ -65,7 +67,7 @@ Proposal development “bước nhảy” trước đây: phone recall+0.20, loo
 
 ## 3. Việc cần làm tiếp theo
 
-1. Đóng targeted matrix/QA/provenance cho 375 new train; thiết kế dữ liệu evaluation mới theo policy owner, không random-split lại release. Đây là bước data, không tự sửa recipe để bỏ qua thiếu evidence.
+1. Inventory matrix đủ 375 new train đã có ở audit bổ sung; tiếp tục đóng taxonomy/QA/provenance còn unknown và thiết kế dữ liệu evaluation mới theo policy owner, không random-split lại release. Đây là bước data, không tự sửa recipe để bỏ qua thiếu evidence.
 2. Owner chốt comparator, recipe/compute, numerical gates và holdout/use scope với exact versions/pins. Có thể đề xuất experiment local chẩn đoán giới hạn nếu owner chọn, nhưng không tự thu hẹp mục tiêu E004/generalization.
 3. Triển khai phần fine-tune/checkpoint/resume/evaluator đã duyệt, meaningful synthetic tests và smoke; chạy matched control/candidate với approval riêng.
 4. Review development evidence theo cùng labels/masks, freeze một candidate trước final evaluation riêng. Selected chỉ sau đủ evidence/gates và owner ký decision.

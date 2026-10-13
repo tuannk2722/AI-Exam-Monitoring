@@ -1,0 +1,23 @@
+{
+  "status": "PASS_scoped_checks_with_git_index_blocker",
+  "validation_ref": "validation.json",
+  "validation_sha256": "7e8347f9623fb133978ee33dfe61ec9bc8e6c362fb6859414be62def8660a1de",
+  "package_pointers_ref": "package-pointers-r2.json",
+  "package_pointers_sha256": "8f4050a39be1911e5ffe7c5395d6762239327d4e4a0c266bd81d52508525dafb",
+  "r2_payload_checksums": "PASS both packages",
+  "review_snapshot_pins": "PASS",
+  "tests": {
+    "pilot_package": "8 PASS",
+    "ruff_pilot_package": "PASS",
+    "git_diff_check": "PASS",
+    "local_markdown_links": "PASS",
+    "require_git_checker": "FAIL: 23 pre-existing untracked required source/config/test paths; no staging requested/performed"
+  },
+  "limitations": [
+    "Prepared packages are not Accepted training/evaluation releases.",
+    "Current exporter Accepted scope requires training records; separate cohort export/freeze remains follow-up.",
+    "Original card boilerplate Roboflow statement superseded by r2 generic source description.",
+    "No full ML suite, training, or test inference for this one-line card change."
+  ],
+  "new_source_code_sha256": "97278a089c663f71319e3ca1a53b26c2a188e320f689a76cedec1612c7330e67"
+}

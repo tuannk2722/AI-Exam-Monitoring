@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "matched_signature": "a09a9d92e05ffb917ee5b0567236436523aaa0c2df4559b93a436630d2842da3",
+  "configs": {
+    "E004-V9-LP": {
+      "path": "configs/experiments/E004-v9-execution-20261013/E004-V9-LP.yaml",
+      "sha256": "918cde592ccd6deecdadc9082af2697f2f6d6a894b20cc36b8b1002f295137d9"
+    },
+    "E004-V9-L4": {
+      "path": "configs/experiments/E004-v9-execution-20261013/E004-V9-L4.yaml",
+      "sha256": "f859fcf08dc94140ce2dee5ea515d59bfa1304f0098a458b83d7ab1badc6cec9"
+    }
+  },
+  "code_identity": "cdb20fb051b46d3a0a88cf422a004d490c4dc92b8d13a0a7e86bdaae1c842cfb",
+  "smoke": "PASS",
+  "no_test_access": true
+}

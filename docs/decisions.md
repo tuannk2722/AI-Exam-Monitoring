@@ -22,9 +22,9 @@ Original ADR ở Git `ab34b32:docs/decisions/<filename>`; tra tên bằng `git l
 | ADR-014 | Approval lịch sử Accepted riêng E001 CPU frozen probe v4 và final protocol; không cấp quyền run mới | [Reports/approvals](../artifacts/reports/README.md) |
 | ADR-015 | Approval lịch sử Accepted riêng E002 train expansion v5, bảo toàn val/test; không test mới/promotion | [Reports/approvals](../artifacts/reports/README.md) |
 | ADR-016 | Approval lịch sử Accepted riêng E003 v6/protocol/CPU/smoke/resume; không holdout/promotion | [Reports/approvals](../artifacts/reports/README.md) |
-| ADR-017 | Proposal; trạng thái và scope hiện hành duy trì ở hồ sơ E004 | [Training gates](../configs/experiments/E004-proposal.md#e004-promotion-gates) |
+| ADR-017 | Original proposal snapshot giữ nguyên; owner approve thiết kế/tài liệu 2026-10-11, exact data/config/run/test scope chưa đóng | [Original gates](../configs/experiments/E004-proposal.md#e004-promotion-gates), [execution/approval locator](../configs/experiments/E004-data-execution-20261011.md) |
 | ADR-018 | Accepted phone chỉ mobile; landline không positive, không relabel hàng loạt thiếu review | [Data semantics](data.md); corrections trong release report |
-
-
+| E004-SUPPORT-WAIVER-20261013 | Accepted: owner miễn thiếu hụt so với support cũ cho hướng V9/E004; thay riêng yêu cầu bù đủ quota của revision trước. Không đổi semantics, tự chứng minh independence hoặc cấp test access | [Owner direction](../artifacts/reports/E004-v9-consolidation-20261013/owner-direction.json), [checkpoint](../artifacts/reports/E004-v9-consolidation-20261013/README.md) |
+| E004-V9-EXECUTION-20261013 | Accepted exact cohort/family/recipe và smoke → matched theo waiver; final test không được cấp quyền, chưa Selected | [Owner receipt](../artifacts/reports/E004-v9-execution-20261013/owner-execution-approval.json), [kết quả](../artifacts/reports/E004-v9-execution-20261013/README.md) |
 
 Quyết định quan trọng mới giữ ID/date/owner/scope, context, lựa chọn và rationale, consequences, approval locator. Có thể ghi trong hồ sơ proposal liên quan; chỉ tạo ADR riêng khi quyết định có phạm vi kiến trúc độc lập. Registry thêm locator và trạng thái, không chép lại toàn văn. Khi thay thế, ghi Superseded/by và phần bị thay; giữ original/pins, cập nhật contract Accepted tương ứng. Accepted lịch sử không cấp quyền run mới. Không tạo ADR cho bug fix hoặc đổi implementation giữ nguyên contract.

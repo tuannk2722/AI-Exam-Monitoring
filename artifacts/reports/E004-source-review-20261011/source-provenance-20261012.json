@@ -1,0 +1,51 @@
+{
+  "interpretation": "Permission to make reasonable choices is not evidence for inventing provenance IDs.",
+  "metadata_inspected": [
+    {
+      "archive_sha256": "b90b3d95eb671bd0e454723036bcf62596e0ebafd8616e69a95c894576433057",
+      "evidence_scope": "export/project/version/license/preprocessing only; no per-image video/session/room/camera mapping",
+      "member": "README.dataset.txt",
+      "sha256": "8760fa16e2f325fb4441464b4db521353dd33020d59a2a6c3baff40e4d223b94",
+      "source_id": "behavie"
+    },
+    {
+      "archive_sha256": "b90b3d95eb671bd0e454723036bcf62596e0ebafd8616e69a95c894576433057",
+      "evidence_scope": "export/project/version/license/preprocessing only; no per-image video/session/room/camera mapping",
+      "member": "README.roboflow.txt",
+      "sha256": "21371c30877a7662c210991bfe20b9edc68143e93f3fbe650aedbf6e33af33fd",
+      "source_id": "behavie"
+    },
+    {
+      "archive_sha256": "b90b3d95eb671bd0e454723036bcf62596e0ebafd8616e69a95c894576433057",
+      "evidence_scope": "export/project/version/license/preprocessing only; no per-image video/session/room/camera mapping",
+      "member": "data.yaml",
+      "sha256": "5a6f8569807ddfe9821415bfd0473f26ed80836c5458dff5bb9e3921bc42d109",
+      "source_id": "behavie"
+    },
+    {
+      "archive_sha256": "392052c71bcbfd084a330c3ff8cd1f28a1087e30afeef107fe85ab14acbf400d",
+      "evidence_scope": "export/project/version/license/preprocessing only; no per-image video/session/room/camera mapping",
+      "member": "data.yaml",
+      "sha256": "6edea292aa7ee338ae62541007f334a862ac8d704bfb2b52ae60837893d463dd",
+      "source_id": "studentclassroombehavior"
+    },
+    {
+      "archive_sha256": "392052c71bcbfd084a330c3ff8cd1f28a1087e30afeef107fe85ab14acbf400d",
+      "evidence_scope": "export/project/version/license/preprocessing only; no per-image video/session/room/camera mapping",
+      "member": "README.roboflow.txt",
+      "sha256": "76f017d9d514a92f7becc5e5c496521887c54d8d5026cc535c5e70a1b349f448",
+      "source_id": "studentclassroombehavior"
+    },
+    {
+      "archive_sha256": "392052c71bcbfd084a330c3ff8cd1f28a1087e30afeef107fe85ab14acbf400d",
+      "evidence_scope": "export/project/version/license/preprocessing only; no per-image video/session/room/camera mapping",
+      "member": "README.dataset.txt",
+      "sha256": "16c6c8b312f01487a9755c05e138bee15cc89571a013f22dd37b2403f31887ec",
+      "source_id": "studentclassroombehavior"
+    }
+  ],
+  "original_video_mapping_found": false,
+  "owner_mapping_received": false,
+  "rights_local_use_preserved": true,
+  "video_session_room_camera_ids_verified": 0
+}

@@ -1,0 +1,26 @@
+{
+  "packages": [
+    {
+      "role": "new_development",
+      "path": "data/processed/e004-cohorts/E004-CF-development-20261013",
+      "status": "prepared_pending_gates",
+      "records": 12,
+      "reviewed_crops": 12,
+      "checksums_sha256": "d22549e52a076117e1ca557df154c55bab28f2b657e4fc85766358ac6e845fe5",
+      "deterministic_rebuild": "PASS",
+      "manifest_present": false
+    },
+    {
+      "role": "reserved_holdout_candidate",
+      "path": "data/processed/e004-cohorts/E004-CF-holdout-reserve-20261013",
+      "status": "prepared_pending_gates",
+      "records": 21,
+      "reviewed_crops": 21,
+      "checksums_sha256": "22b043054bf193312d60be7bdb44858d79446c8d7afc341610c5f140bce50b4d",
+      "deterministic_rebuild": "PASS",
+      "manifest_present": false
+    }
+  ],
+  "training_started": false,
+  "test_accessed": false
+}

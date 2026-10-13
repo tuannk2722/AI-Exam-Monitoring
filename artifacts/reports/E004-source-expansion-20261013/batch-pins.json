@@ -1,0 +1,22 @@
+{
+  "status": "owner_accepted_batch_snapshot",
+  "reviewer": "repository-owner",
+  "reviewed_at": "2026-10-13",
+  "decision": "Đồng ý toàn bộ batch và vai trò",
+  "files": {
+    "artifacts/reports/E004-source-expansion-20261013/qa-proposals.json": "9065bf406cda852d2bab39405b292353d1eb165c0c2054b3add5fb838fac3fb6",
+    "artifacts/reports/E004-source-expansion-20261013/family-proposals.json": "0d0bef164aae5ed4aac0a78eb2916f5d9bb7bf2a1dca49da334c2a6445413cb2",
+    "artifacts/reports/E004-source-expansion-20261013/frame-assessment.json": "46ac863473123c81ad461b340befc4260c63d81f05694cacabcecdc4905816e8",
+    "artifacts/reports/E004-source-expansion-20261013/support-proposal.json": "e942ab44a94054546ee6ccfc5742de993d66478be40694378648edeca9e7d1d4",
+    "artifacts/reports/E004-source-expansion-20261013/release-proposal.json": "2b6f54dfbd29b5c28ec7d1573cf7da61f6d1df61abf60f48a3f20bf6f526b4d3",
+    "artifacts/reports/E004-source-expansion-20261013/owner-source-use.json": "c44600a27b6a403466ae0e82250bd430c79c1a70da79c6321be2efa730a6d04f",
+    "data/interim/E004-source-expansion-20261013/pending-ledger.jsonl": "07ce65846acad52f1fd7c09839dd1b78fd7404deb298fc643fa82039b13d03d0",
+    "data/interim/E004-source-expansion-20261013/REVIEW.html": "716cc7c56f2bbd745830b20a0fcef4df1d3e07f6555695039e2ec66dda066989",
+    "data/interim/E004-source-expansion-20261013/inventory.json": "80b44cf4d48157706daaed9aaa7c20494d2eec56327f8ac1305b8f2c366592d5"
+  },
+  "review_document_at_approval": {
+    "path": "artifacts/reports/E004-source-expansion-20261013/REVIEW.md",
+    "sha256": "31c5a49d15c60cfa1d2a9cf96bbaf3c46e5d72ef4dfee4baec548a9e83b68f57"
+  },
+  "scope": "199 labels/geometry/context and family/role reservation, 27 train / 47 development / 125 holdout reserve; no new holdout final-test protocol or E004 run approval"
+}

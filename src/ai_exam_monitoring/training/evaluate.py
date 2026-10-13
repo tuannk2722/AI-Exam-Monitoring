@@ -33,7 +33,15 @@ def validate_protocol(protocol: dict[str, Any], config: ExperimentConfig, checkp
 
 
 def evaluate(run_dir: Path, output: Path, workspace: Path, split: str,
-             protocol_path: Path | None = None) -> dict[str, Any]:
+             protocol_path: Path | None = None, *, benchmark: bool = False) -> dict[str, Any]:
+    raw_config = json.loads((run_dir / "resolved-config.json").read_text(encoding="utf-8"))
+    if raw_config.get("schema_version") == "matched-adaptation-v1":
+        from .adaptation_evaluate import evaluate_adaptation
+
+        return evaluate_adaptation(run_dir, output, workspace, split, protocol_path,
+                                   run_benchmark=benchmark)
+    if benchmark:
+        raise DataContractError("Benchmark flag requires matched adaptation schema")
     config = ExperimentConfig(**json.loads((run_dir / "resolved-config.json").read_text()))
     verify_approval(config, workspace)
     record = json.loads((run_dir / "run.json").read_text())
@@ -92,8 +100,10 @@ def main() -> int:
     parser.add_argument("--workspace", type=Path, default=Path.cwd())
     parser.add_argument("--split", choices=["val", "test"], default="val")
     parser.add_argument("--protocol", type=Path)
+    parser.add_argument("--benchmark", action="store_true")
     args = parser.parse_args()
-    print(json.dumps(evaluate(args.run, args.output, args.workspace, args.split, args.protocol),
+    print(json.dumps(evaluate(args.run, args.output, args.workspace, args.split, args.protocol,
+                              benchmark=args.benchmark),
                      indent=2))
     return 0
 

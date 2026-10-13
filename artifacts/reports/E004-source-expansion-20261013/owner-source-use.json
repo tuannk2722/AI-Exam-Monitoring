@@ -1,0 +1,18 @@
+{
+  "reviewer": "repository-owner",
+  "reviewed_at": "2026-10-13",
+  "status": "source_use_authorized_by_owner_request",
+  "archive_sha256": [
+    "1032c2a2efa77d3b3b5e202aa573dec9a7bfa885760869ae61239f36c694edbf",
+    "fced9a0c35818ad5ad05135907e98cb84913a860aabbded4d2348a7ae460abb6"
+  ],
+  "evidence": "Owner supplied both ZIPs and requested using suitable frames in any train/val/test set; prior explicit instruction confirms use rights and forbids asking again. This is not label or split acceptance.",
+  "approved_use_scope": [
+    "local_processing",
+    "local_training",
+    "local_evaluation",
+    "local_dataset_release"
+  ],
+  "upstream_license_claims_are_not_verified_licenses": true,
+  "upload_or_public_redistribution_authorized": false
+}

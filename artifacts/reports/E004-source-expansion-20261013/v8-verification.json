@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "owner_accepted_new_crops": 199,
+  "owner_accepted_known_target_cells": 346,
+  "total_accepted_anchors_across_batches": 308,
+  "v8_ledger_records": 927,
+  "v8_manifest_records": 776,
+  "counts": {
+    "train": 716,
+    "excluded": 29,
+    "val": 49,
+    "review_only": 122,
+    "test": 11
+  },
+  "parent_records_semantically_preserved": 900,
+  "parent_crop_hashes_preserved": 871,
+  "parent_val_preserved": 49,
+  "parent_test_preserved": 11,
+  "test_preservation_scope": "Only packaging version fields changed; no visual review, prediction or tuning.",
+  "loader_verify_dataset": "PASS",
+  "loader_train_val_counts": [
+    716,
+    49
+  ],
+  "test_selection_without_access": "REJECTED_as_expected",
+  "new_train224_pixel_equality": 27,
+  "parent_checksums_sha256_unchanged": "d33a8fdd859889d1d7fb86fe70ef10f94d7d95645fed9c8caf4cdb0e65502610",
+  "v8_checksums_sha256": "2d43f4eb9a70987dd643d4a5c6b635e879e147a356fa85b2eb24367d248df20e",
+  "new_holdout_freeze": false,
+  "e004_training_started": false
+}

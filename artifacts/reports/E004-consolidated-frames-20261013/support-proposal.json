@@ -1,0 +1,43 @@
+{
+  "all": {
+    "crops": 33,
+    "phone": {
+      "U": 7,
+      "N": 12,
+      "P": 14
+    },
+    "looking": {
+      "N": 21,
+      "P": 10,
+      "U": 2
+    },
+    "proposed_families": 14
+  },
+  "new_development": {
+    "crops": 12,
+    "phone": {
+      "P": 4,
+      "N": 6,
+      "U": 2
+    },
+    "looking": {
+      "N": 6,
+      "P": 6
+    },
+    "proposed_families": 1
+  },
+  "reserved_holdout_candidate": {
+    "crops": 21,
+    "phone": {
+      "U": 5,
+      "N": 6,
+      "P": 10
+    },
+    "looking": {
+      "N": 15,
+      "P": 4,
+      "U": 2
+    },
+    "proposed_families": 13
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "path": "data/processed/e004/E004-v9-development-20261013",
+  "checksums_sha256": "df505bf90d85815455ad4fce3d76e5834d55beae1d6bcb89c3f63754a79b4ec9",
+  "counts": {
+    "review_only": 332,
+    "val": 120,
+    "train": 716,
+    "excluded": 29,
+    "test": 11
+  },
+  "selection71": true,
+  "old_test11_preserved": true
+}

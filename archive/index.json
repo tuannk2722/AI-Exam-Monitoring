@@ -30,6 +30,58 @@
         "full_mypy_existing_errors": 41,
         "storage": "DVC local cache; workspace ZIP readonly hardlink; chưa remote backup"
       }
+    },
+    {
+      "name": "e004-source-expansion-20261013",
+      "path": "archive/e004-source-expansion-20261013.zip",
+      "sha256": "0c67e1eebd2655e7e02b774c363772ae9ef1a8f67e386627afb20eddad74f595",
+      "files": 2582,
+      "unique_blobs": 2176,
+      "original_bytes": 524096692,
+      "archive_bytes": 397426002,
+      "scope": "local_only",
+      "owner_authorization": "Local backup under repository lifecycle for the user-authorized source expansion and V8 release; no remote upload.",
+      "validation": {
+        "snapshot_paths": 2582,
+        "restored_package_files": 1102,
+        "byte_exact_restore": "PASS",
+        "receipt": "artifacts/reports/E004-source-expansion-20261013/backup-receipt.json",
+        "storage": "Workspace archive and DVC local cache on same drive; not off-device backup"
+      }
+    },
+    {
+      "name": "e004-v9-consolidation-20261013",
+      "path": "archive/e004-v9-consolidation-20261013.zip",
+      "sha256": "8883c176060c82b31c7436dea341867448204e157a20f111c3560eae389342b3",
+      "files": 2988,
+      "unique_blobs": 2891,
+      "original_bytes": 448684910,
+      "archive_bytes": 413772627,
+      "scope": "local_only",
+      "owner_authorization": "User-approved V9 consolidation; local lifecycle backup, no upload.",
+      "validation": {
+        "restored_package_files": 1191,
+        "byte_exact_restore": "PASS",
+        "receipt": "artifacts/reports/E004-v9-consolidation-20261013/backup-receipt.json",
+        "storage": "Same-drive local archive and DVC cache; not off-device."
+      }
+    },
+    {
+      "name": "e004-v9-execution-20261013",
+      "path": "archive/e004-v9-execution-20261013.zip",
+      "sha256": "a16dde889f8582fff05d814833eccc1157f30dc74cb8f180c796bf1a08de589f",
+      "files": 1389,
+      "unique_blobs": 1366,
+      "original_bytes": 1012513653,
+      "archive_bytes": 995020678,
+      "scope": "local_only",
+      "owner_authorization": "User-approved E004 execution; local lifecycle backup, no upload.",
+      "validation": {
+        "restored_files": 1225,
+        "byte_exact_restore": "PASS",
+        "receipt": "artifacts/reports/E004-v9-execution-20261013/backup-receipt.json",
+        "storage": "Same-drive archive; not off-device backup"
+      }
     }
   ]
 }

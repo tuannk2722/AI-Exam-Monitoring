@@ -1,0 +1,331 @@
+[
+  {
+    "candidate_id": "E004-EX-C092-V9R1",
+    "source_sha256": "f3ac1cbe9ee52b47bf6645e4560797211624b7d98434b0ac632541183c8239c3",
+    "source_member_sha256": "cce311844682330f1ef6e767f587c75aa4e42b7f004207ae37b24ba717f04f69",
+    "label_sha256": null,
+    "person_xyxy": [
+      488,
+      248,
+      638,
+      437
+    ],
+    "context_xyxy": [
+      457,
+      226,
+      660,
+      455
+    ],
+    "crop_sha256": "35dfe26adf98d992fedb81bee56f388829b2a2c709ea61c468556f725e0fa3cd",
+    "input_sha256": "b5b89e97663c3e40383440dfc6ec34bd570b3ef4e859bdddaa2c2740e74aa1b7",
+    "input_pixel_sha256": "ff6fbe1494f2e573c04a3ff8b93ad664cd3853570aabf556c9214f1a3a3f06d7",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Anchor nam áo tối gần máy ảnh nhất; tay/bàn chưa đủ xác nhận phone N.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "parent_sample_id": "E004-EX-C092",
+    "role_unchanged": true
+  },
+  {
+    "candidate_id": "E004-EX-C096-V9R1",
+    "source_sha256": "7c48e46de7d65b3e22b942269962b71d9e54015dc83ab1265c0893baf77afb02",
+    "source_member_sha256": "2fb544caa804879c974c128b7b3f274ccd028eda8ee3a2807ae1fc329f34a022",
+    "label_sha256": null,
+    "person_xyxy": [
+      636,
+      58,
+      964,
+      479
+    ],
+    "context_xyxy": [
+      605,
+      35,
+      1020,
+      550
+    ],
+    "crop_sha256": "64e97da3c16953b8643f914d19a08793399b973bfcccc84d9b4c7b7dfdd52000",
+    "input_sha256": "4178f67d03bb6ceab7e45ef1e9dadbd6a46c501b3a5e49473eefd81a433d81bc",
+    "input_pixel_sha256": "570fad36937dfca58be625d16572dd5f4bb27d841f8b318808e8d79e6b660ee4",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "P",
+      "P"
+    ],
+    "draft_reason": "Anchor áo denim bên phải, mobile trên bàn trước người; giữ hướng nhìn sang người bên trái.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "parent_sample_id": "E004-EX-C096",
+    "role_unchanged": true
+  },
+  {
+    "candidate_id": "E004-EX-C130-V9R1",
+    "source_sha256": "243c3ca9f93ebc9eb3c06b45e7ce3a98b6f6ec03a4641f71f23ec048bd4aa6ed",
+    "source_member_sha256": "11ebbfadc647bd62887c62e984ee2fed4b663439ea7f64381f421ccda4b1e979",
+    "label_sha256": null,
+    "person_xyxy": [
+      145,
+      120,
+      552,
+      625
+    ],
+    "context_xyxy": [
+      115,
+      95,
+      640,
+      750
+    ],
+    "crop_sha256": "f4de10d6e3737545dc4eb8d708f9d0b32c20fb1723e6daecf588976857dcbaef",
+    "input_sha256": "4f2d67b8393bb630c4cb05a441c973694b096d3ed74b492a9402e4d514cc9806",
+    "input_pixel_sha256": "d09ea3db9ec84b152d1414ffa6ffdb9fefacb97a46e45a3fa9c7ef983084cf57",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "draft_reason": "Anchor kính áo xanh đen; mobile trong tay, nhìn vào thiết bị riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "parent_sample_id": "E004-EX-C130",
+    "role_unchanged": true
+  },
+  {
+    "candidate_id": "E004-EX-C134-V9R1",
+    "source_sha256": "898524ba644e5449eeffc9600b33d1fa25460f6784c82072dede40a85bbbce6f",
+    "source_member_sha256": "0d2edcc7b83375e00884adfc6be0e3d3ff5f362b23e1cbec972faf2a88518db2",
+    "label_sha256": null,
+    "person_xyxy": [
+      150,
+      180,
+      685,
+      750
+    ],
+    "context_xyxy": [
+      125,
+      160,
+      710,
+      750
+    ],
+    "crop_sha256": "57bf6f633de4b2d762216d151a3013a992da2c1cd993957a0a7a2796026447c5",
+    "input_sha256": "daf9ea53d907b7ad13b07e8d3cfbf6bdf3326e35313a4c0025d367315554297d",
+    "input_pixel_sha256": "314ea5a984ce91401c3277191a8a36156fa562279f6e384a17172bfb788a4d11",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Anchor tóc xoăn tiền cảnh; một tay dưới bàn, chưa đủ phone N; nhìn ra ngoài bài.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "parent_sample_id": "E004-EX-C134",
+    "role_unchanged": true
+  },
+  {
+    "candidate_id": "E004-EX-C137-V9R1",
+    "source_sha256": "fbe4f00884c8ebf0149671754f82a6fb2cc5359c8945d5d82422a0238bf582aa",
+    "source_member_sha256": "67599c13707f3b88cdc60ed9c9fa5222da5f496492917024e4777b229f76faff",
+    "label_sha256": null,
+    "person_xyxy": [
+      68,
+      231,
+      505,
+      750
+    ],
+    "context_xyxy": [
+      45,
+      205,
+      530,
+      750
+    ],
+    "crop_sha256": "948372c848eaa4c4f780c56897a86cf21a79e925e4fe56801f840f4095518781",
+    "input_sha256": "f0149e88a508ec42632677b0a759c010bb9687ddb717a1343172780c67a906a9",
+    "input_pixel_sha256": "def2838f2c86b40c27fe35cb5cefa70b40eb091e1dfa543b50bbeb42520e5a52",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "draft_reason": "Anchor tết tóc áo xanh cầm mobile; bao trọn phần người nhìn thấy và thiết bị.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "parent_sample_id": "E004-EX-C137",
+    "role_unchanged": true
+  },
+  {
+    "candidate_id": "E004-EX-C138-V9R1",
+    "source_sha256": "fbe4f00884c8ebf0149671754f82a6fb2cc5359c8945d5d82422a0238bf582aa",
+    "source_member_sha256": "67599c13707f3b88cdc60ed9c9fa5222da5f496492917024e4777b229f76faff",
+    "label_sha256": null,
+    "person_xyxy": [
+      480,
+      197,
+      701,
+      508
+    ],
+    "context_xyxy": [
+      465,
+      175,
+      715,
+      525
+    ],
+    "crop_sha256": "29b937dd9a73a5b8747d0775f2f39e91c2fc5b19bc4d2859247bc31251272bf1",
+    "input_sha256": "4d1ec49c8a20e7857fd7879318099cf43d06079c84f2ec942190466f7430ac62",
+    "input_pixel_sha256": "75dcb50120bb3a62468d1f77b5fc304af52c832f025da0f25c80345b665228ef",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "draft_reason": "Anchor áo caro đỏ phía sau; tập trung người và mobile riêng, giữ phần che khuất đúng thực tế.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "parent_sample_id": "E004-EX-C138",
+    "role_unchanged": true
+  },
+  {
+    "candidate_id": "E004-EX-C153-V9R1",
+    "source_sha256": "47451929d77f7be8f5c75ce854bb69535de2a1ee4041bee9ce8102b21440ce2e",
+    "source_member_sha256": "9a1e67ea276004e0435dcf4c6954cc609b5bf2d87a7bec2977334068dac704e3",
+    "label_sha256": null,
+    "person_xyxy": [
+      459,
+      311,
+      839,
+      750
+    ],
+    "context_xyxy": [
+      425,
+      285,
+      860,
+      750
+    ],
+    "crop_sha256": "d054da64e0e921ae165d9ed9c7af16784ed7dfb88f749825f4c179669cd9bcaf",
+    "input_sha256": "defabbe64d6f78e649a6350ddabfd27f977d26ea7bf7cce2059f9253ecdb139e",
+    "input_pixel_sha256": "658a2fd5b3ba504de2773f0c487d1713deabb0daad82b51e9cd0ea1c04d06bd4",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "draft_reason": "Anchor áo hoa đen vàng đang viết; hai tay và giấy rõ, giảm người nền.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "parent_sample_id": "E004-EX-C153",
+    "role_unchanged": true
+  }
+]

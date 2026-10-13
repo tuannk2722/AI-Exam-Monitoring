@@ -1,0 +1,31 @@
+{
+  "approved_scope": "labels_and_geometry_only",
+  "batch_confirmation_verbatim": "Đồng ý các crop còn lại",
+  "date": "2026-10-12",
+  "exception_confirmation_verbatim": "Đồng ý cả 10 ngoại lệ",
+  "exception_question_verbatim": "Sau khi kiểm source → crop → input 224, tôi đề xuất chốt 10 ngoại lệ như sau (phone/looking): CN-010 N/N, 011 N/N, 012 U/N, 019 N/P, 020 N/P, 031 N/N (giữ anchor phía trước; người nền là context, frame khác CN-019/034), 036 N/P (đứng không tạo lớp mới; nhìn rõ ra ngoài bài), 039 U/P (tay còn khuất nên chưa chứng minh không có phone), 040 U/N, 043 U/N (hướng đầu/bài làm đủ looking N, phone vẫn thiếu evidence). Bạn đồng ý nghiệm thu nhóm này không?",
+  "excluded_superseded_versions": [
+    "E004-CN-002",
+    "E004-CN-035",
+    "E004-CN-041"
+  ],
+  "explicit_markdown_decisions": 6,
+  "followup_exception_decisions": 10,
+  "group_role_split_or_run_approval": false,
+  "historical_markdown_mismatch_reason": "Owner appended the dated review table before this task; not resealed or edited by agent.",
+  "historical_markdown_pin": "0ad374c80b9c613b895dc0465d3a73c5be9fde677f96a5d8fe3a0c55551f228e",
+  "independence_inferred_from_direction": false,
+  "input_pins": {
+    "artifacts\\reports\\E004-source-review-20261011\\pilot-input224-review-current.json": "205befcacc73cea84e757e28a63e0bced5594468e9a50e14c6d2253dea783a78",
+    "data\\interim\\E004-source-review-20261011\\owner-review-20261012\\pending-ledger.jsonl": "3f9c6a946d574eaa070bee55b31bfb91396c55f3f687d987da9f93a2d408f9e8"
+  },
+  "markdown_input_ref": "artifacts/reports/E004-source-review-20261011/REVIEW-UPDATE.md",
+  "markdown_input_sha256": "f715395114cd68123fe6c8f8bd3f625bc73e405e53cb4a44c0abb538ca822171",
+  "markdown_snapshot_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/owner-input.md",
+  "owner": "repository-owner",
+  "owner_decisions_sha256": "bf7895b8c066aaa4f807ef65cbcd863f4cbc1859f4d05527a760a1cf280cef0f",
+  "owner_table_verbatim": " (2026-10-12)\n\n| ID | Ý kiến nghiệm thu của onwer | Phân tích của onwer |\n|---|---|---|\n| E004-CN-004 | U/N | Hướng đầu về bài làm nhưng có hơi cúi xuống dưới bàn |\n| E004-CN-006 | N/P | Với tư thế như vậy thì chắc chắn là đang nhìn sang bên trái rồi |\n| E004-CN-007 | N/N | Đầu vẫn đang hướng vào bài làm, chỉ có hơi chếch nhẹ sang bên thôi |\n| E004-CN-010 | Bạn xem xét lại | Tôi không thấy vật gì ở tay hay trên bàn cả |\n| E004-CN-011 | Bạn xem xét lại | Một tay có tư thế đang cầm gì đó để vẽ/viết, chứ tôi cũng không thấy có vật gì gần tay cả |\n| E004-CN-012 | Bạn xem xét lại | Khi zoom thì tôi thấy ko có vật gì cả, hoặc khó phân biệt như vậy thì để unknown |\n| E004-CN-019 | Bạn xem xét lại | Không hề có dấu hiệu phone, 2 tay đặt trên bàn |\n| E004-CN-020 | Bạn xem xét lại | Không hề có dấu hiệu phone, 2 tay đặt trên bàn |\n| E004-CN-026 | P/N | Vật là phone |\n| E004-CN-031 | Crop đang bị có 2 người | Kiểm tra lại xem vì bên trên đã có crop từng người trong này rồi |\n| E004-CN-034 | N/P | Crop này hình như đã có rồi mà |\n| E004-CN-036 | Xem xét lại | Người đang đứng thì xử lý như nào? |\n| E004-CN-039 | Xem xét lại | Trông không hề có tư thế hay gì đó liên quan đến việc sử dụng phone thì xử lý sao? |\n| E004-CN-040 | Xem xét lại | Hướng nhìn như vậy thì chắc chắn là không looking_around rồi |\n| E004-CN-043 | Xem xét lại | Hướng đầu và writing mà không tình N được hả? |\n| E004-CN-041-R2 | P/P | Hướng nhìn sang bên cạnh |\n",
+  "provenance_direction_verbatim": "cứ làm cho hợp lý nhất đi, cái này bạn muốn điền hay làm sao thì tùy miễn là hệ đạt yêu cầu là được.",
+  "provenance_evidence_received": false,
+  "remaining_batch_decisions": 40
+}

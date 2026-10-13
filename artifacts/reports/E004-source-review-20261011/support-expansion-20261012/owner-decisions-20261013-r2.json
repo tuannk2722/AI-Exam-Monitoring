@@ -1,0 +1,273 @@
+{
+  "schema_version": "crop-review-acceptance-v1",
+  "scope": "labels_and_geometry_only",
+  "target_order": [
+    "phone_use",
+    "looking_around"
+  ],
+  "ledger_sha256": "1cce6a398282b533b6202bbf3f943dc58df165b062f69d3ba6e34d6eeb68960c",
+  "reviewer": "repository-owner",
+  "reviewed_at": "2026-10-13",
+  "decisions": [
+    {
+      "sample_id": "E004-SX-C001",
+      "states": [
+        "P",
+        "P"
+      ],
+      "reason": "Điện thoại rõ trong tay anchor áo xám kính; đầu quay ra phía người khác, ngoài mặt bàn riêng. Owner approve toàn bộ crop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "3d98e641d48e0453a141673eb2862bf01f47f726e8b9be215360aae9cb0a6c49",
+      "crop_sha256": "76c06fb3185ca921d0ce9a1b5f4e53dce40ac84bddd506cfdbe8ece4609af3a8",
+      "input_relpath": "data/interim/E004-source-review-20261011/support-expansion-20261012/crops/E004-SX-C001/input.png",
+      "input_sha256": "5689044e2257a68e8c028c6cd89a5162bb043076acdff63207fa1e11102fc889"
+    },
+    {
+      "sample_id": "E004-SX-C002",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Anchor áo cam: hai tay và bàn riêng quan sát được, không mobile; đầu nhìn ra phía trước ngoài vùng bàn. Owner approve toàn bộ crop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "3d98e641d48e0453a141673eb2862bf01f47f726e8b9be215360aae9cb0a6c49",
+      "crop_sha256": "8a044fadc0fe94bcf4501b1eb1dc5bd442373091dc25847610824a6de994b52a",
+      "input_relpath": "data/interim/E004-source-review-20261011/support-expansion-20261012/crops/E004-SX-C002/input.png",
+      "input_sha256": "a4573789317164fd2e2a026c5b40459f134e6343201fc56dd484810134002ccc"
+    },
+    {
+      "sample_id": "E004-SX-C003",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Anchor hoodie giữa: mobile có cụm camera ở tay gần túi; đầu cúi về vùng tay/bàn riêng. Owner approve toàn bộ crop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "0f79fd66ceeac85429e0d935393128b0617076cdbeb26947603d51c019cc23b8",
+      "crop_sha256": "c05bf85a311235079b7d2bb44562e6049c096832aade4d0a5626da9a9c2c54c6",
+      "input_relpath": "data/interim/E004-source-review-20261011/support-expansion-20261012/crops/E004-SX-C003/input.png",
+      "input_sha256": "fcb6ad6392ca7f77d9afe693f6d2e9c4b9baa54a7a5e47b4d289b7f8712abb5d"
+    },
+    {
+      "sample_id": "E004-SX-C004",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Anchor áo khoác bên phải: cầm mobile rõ, đầu hướng vào vùng thiết bị riêng. Owner approve toàn bộ crop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "0f79fd66ceeac85429e0d935393128b0617076cdbeb26947603d51c019cc23b8",
+      "crop_sha256": "3c80851e2b99554188caf28e9abb50ef1b83faf989b54e901bc254ae7bbc0961",
+      "input_relpath": "data/interim/E004-source-review-20261011/support-expansion-20261012/crops/E004-SX-C004/input.png",
+      "input_sha256": "a3664cc1f7b9fe789bbaa090f4c5cb27ffa0f28a3922983d19a6233ed19be33c"
+    },
+    {
+      "sample_id": "E004-SX-C005",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Anchor duy nhất áo tím: mobile ở hai tay, hướng đầu xuống thiết bị; không suy nhìn ngang từ tư thế thân. Owner approve toàn bộ crop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "6c0d688cf9ceff21d09c766b24b018a8ce3320023137c8728aa297e0fffb85e6",
+      "crop_sha256": "8c5f773f5df265eca20d63dc24e41e010bfa30a0a9f7e6279c7505b48e46a0e2",
+      "input_relpath": "data/interim/E004-source-review-20261011/support-expansion-20261012/crops/E004-SX-C005/input.png",
+      "input_sha256": "9d609d8d26dd0cad733df93b924c7dc180af1f2a34bc174f429820a89f95401b"
+    },
+    {
+      "sample_id": "E004-SX-C006",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Anchor bàn giữa phía trái: mobile giữa hai tay trên bàn; nhìn xuống thiết bị riêng. Owner approve toàn bộ crop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "b0969678549ab21fd85bba40703851e8430434b3eb741937acd9dfa107922c1a",
+      "crop_sha256": "ee07b045bbf927b3c1d12e9f08d4fcc8c674a19bb04253060d2a0a1265743a5b",
+      "input_relpath": "data/interim/E004-source-review-20261011/support-expansion-20261012/crops/E004-SX-C006/input.png",
+      "input_sha256": "b4b81f0e48047b53246cd768eef37ce04760325c9c760883437364ae93f09c43"
+    },
+    {
+      "sample_id": "E004-SX-C007",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Anchor bàn giữa phía phải: mobile giữa hai tay; đầu cúi về mặt bàn/thiết bị. Owner approve toàn bộ crop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "b0969678549ab21fd85bba40703851e8430434b3eb741937acd9dfa107922c1a",
+      "crop_sha256": "69a6c0726b7a003a4a135176e875de6139fe9c637b74aceba0f991fb255f7ea8",
+      "input_relpath": "data/interim/E004-source-review-20261011/support-expansion-20261012/crops/E004-SX-C007/input.png",
+      "input_sha256": "56dee0846e478603ed8909975941fff1b7cd45d90c7d78f2e41db056808769df"
+    },
+    {
+      "sample_id": "E004-SX-C008",
+      "states": [
+        "U",
+        "P"
+      ],
+      "reason": "Ở input 224, vật trên tay ghế bị thân che và còn nhỏ; không chốt category mobile chắc chắn, phone U. Đầu nhìn ra ngoài vùng bàn, looking P. Owner approve toàn bộ crop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "0c1408d0426a86c24324671d4d14b5ba81e9f65cfb01113a2bf174800ab653f5",
+      "crop_sha256": "1a757bd8efe0f43eba0105956a24eeee2acd3848937a3cd72b1f3d52279631bd",
+      "input_relpath": "data/interim/E004-source-review-20261011/support-expansion-20261012/crops/E004-SX-C008/input.png",
+      "input_sha256": "bc8983e79a9dc8a17635f62a68d53124eb101315e2c1fd302504be4651d60180"
+    },
+    {
+      "sample_id": "E004-SX-C009",
+      "states": [
+        "P",
+        "P"
+      ],
+      "reason": "Mobile trên tay ghế dưới tay anchor áo xám; đầu hướng sang ngoài vùng bàn riêng. Owner approve toàn bộ crop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "93b1863e97c5ea9f397a1ab70e1b98f4f7a4e868fa02954c7fed9580f1d036ac",
+      "crop_sha256": "dd21d41606f77eec4a7ee04c6146db7d6c126929c01a78965913274beac322e6",
+      "input_relpath": "data/interim/E004-source-review-20261011/support-expansion-20261012/crops/E004-SX-C009/input.png",
+      "input_sha256": "fb03b673862b6b86587afcb2cd2897166715c7671a2ed455c58afe8325f72883"
+    },
+    {
+      "sample_id": "E004-SX-C010",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Anchor nữ bàn trước trái: tay/bút/sách và mặt bàn đủ thấy, không mobile; cúi nhìn sách riêng. Owner approve toàn bộ crop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "8f90fc2267cdf31ae952afbe2986956259aa6f3affb1ce46888aa3d07398c96f",
+      "crop_sha256": "0b87b9442bbd54c3c03d3610d6ee4ec22dc7cb215bbb3e883044abf34443f655",
+      "input_relpath": "data/interim/E004-source-review-20261011/support-expansion-20261012/crops/E004-SX-C010/input.png",
+      "input_sha256": "e6821be2b5ee7ee3d3f1fae1fcb48cb452693d9a98a1dd9cbfd8021476c6bb29"
+    },
+    {
+      "sample_id": "E004-SX-C011",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Anchor nam bàn trước phải: hai tay và sách quan sát được, không mobile; đầu quay sang người phía sau/trái. Owner approve toàn bộ crop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "8f90fc2267cdf31ae952afbe2986956259aa6f3affb1ce46888aa3d07398c96f",
+      "crop_sha256": "9b559293ad12c301f20d01d405f74ae6e588681c5fa1da7e22f1c2dc6b43a206",
+      "input_relpath": "data/interim/E004-source-review-20261011/support-expansion-20261012/crops/E004-SX-C011/input.png",
+      "input_sha256": "806404180f48cd81552515792fdf37c57086e28ae82da52e4e3578c873b97d26"
+    },
+    {
+      "sample_id": "E004-SX-C012",
+      "states": [
+        "U",
+        "P"
+      ],
+      "reason": "Anchor nam hàng sau bên trái quay đầu sang bên; chi tiết tay/bàn nhỏ nên phone U. Owner approve toàn bộ crop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "8f90fc2267cdf31ae952afbe2986956259aa6f3affb1ce46888aa3d07398c96f",
+      "crop_sha256": "7ffb33c31558cd3c4f39702a683357b4d15de98bff59b503dfb502b31119390e",
+      "input_relpath": "data/interim/E004-source-review-20261011/support-expansion-20261012/crops/E004-SX-C012/input.png",
+      "input_sha256": "ca07b19ecb6117a7dfcca8f79095424a5aad8307a484ad1ebd2f340a72851c11"
+    },
+    {
+      "sample_id": "E004-SX-C013",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Anchor áo trắng giữa phía trước: hai tay trên bàn trống, nhìn xuống bàn riêng. Owner approve toàn bộ crop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "7e3931b059dbcaf637650f4c90ef5c5b5d32174ae7f83b45d0d3a594e4ad8ccd",
+      "crop_sha256": "c0224eb144cb5686da56c61fae9484cc9a3db8bf8651216c637d6426716d8645",
+      "input_relpath": "data/interim/E004-source-review-20261011/support-expansion-20261012/crops/E004-SX-C013/input.png",
+      "input_sha256": "efaae97f03b04342a9aff62c1f850d88e01990dfd4b6109c446ec5eeda2a097f"
+    },
+    {
+      "sample_id": "E004-SX-C014",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Anchor đứng bên phải: hai tay trên bàn quan sát rõ không mobile, đầu quay ngang khỏi bàn. Owner approve toàn bộ crop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "7e3931b059dbcaf637650f4c90ef5c5b5d32174ae7f83b45d0d3a594e4ad8ccd",
+      "crop_sha256": "58f584188b32210d10d0e3626bf1635e4ddf82043bab0a88000049738f382651",
+      "input_relpath": "data/interim/E004-source-review-20261011/support-expansion-20261012/crops/E004-SX-C014/input.png",
+      "input_sha256": "2baa867c2b18f3bc45a036618cacfe479556239aad340ea3b555754ea3d3e60b"
+    },
+    {
+      "sample_id": "E004-SX-C015",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Anchor áo xanh hàng sau bên trái: hai tay cầm giấy trên bàn, đầu quay sang trái ngoài giấy. Owner approve toàn bộ crop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "7e3931b059dbcaf637650f4c90ef5c5b5d32174ae7f83b45d0d3a594e4ad8ccd",
+      "crop_sha256": "56b508a19dfae2c85ea09e9db97708604b521197c754f338fd80c3b06a5bc685",
+      "input_relpath": "data/interim/E004-source-review-20261011/support-expansion-20261012/crops/E004-SX-C015/input.png",
+      "input_sha256": "c05931077af15007ef546b793c7ba1f2d247c449c25fdc9fd7b403f8742812a6"
+    },
+    {
+      "sample_id": "E004-SX-C016",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Anchor áo xanh gần máy bên trái: hai tay trên bàn không mobile, đầu quay sang người bên trái. Owner approve toàn bộ crop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "7e3931b059dbcaf637650f4c90ef5c5b5d32174ae7f83b45d0d3a594e4ad8ccd",
+      "crop_sha256": "feabb8b7c4556e2b2d7c04703ee25bc2556133751ac4b72cc06bb6391b442dad",
+      "input_relpath": "data/interim/E004-source-review-20261011/support-expansion-20261012/crops/E004-SX-C016/input.png",
+      "input_sha256": "9ddff6c15b7132c1a5e7a3865f6c098c02474926baaf0882925ccf508c4d80a1"
+    },
+    {
+      "sample_id": "E004-SX-C017",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Anchor trước trái: calculator rời ở mép bàn là hard negative, tay không mobile; đầu cúi về tay/bàn riêng. Owner approve toàn bộ crop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "c5590e8eb0cf1de50a2671cd24124791e3bd50e908d9a05395705da151299329",
+      "crop_sha256": "b7e4bfdc5a30fcb1e4f45908ab49a6cd62274708707343ea1399154b3524c69f",
+      "input_relpath": "data/interim/E004-source-review-20261011/support-expansion-20261012/crops/E004-SX-C017/input.png",
+      "input_sha256": "6da7818368110f112046b0ff620fb0801212633cda8580fc6c0f9eb262f8b000"
+    },
+    {
+      "sample_id": "E004-SX-C018",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Anchor giữa trái: tay/bàn trống đủ quan sát, đầu cúi vào vùng bàn riêng. Owner approve toàn bộ crop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "c5590e8eb0cf1de50a2671cd24124791e3bd50e908d9a05395705da151299329",
+      "crop_sha256": "17d84eebb66c1c6a55353a7289ac58c348b29c58b679fd000e1fe5e685bc97e8",
+      "input_relpath": "data/interim/E004-source-review-20261011/support-expansion-20261012/crops/E004-SX-C018/input.png",
+      "input_sha256": "f0de60959f1b24a01a351f47de003a6120ccd870e5e4db3b3389b73b1ea28d7d"
+    },
+    {
+      "sample_id": "E004-SX-C019",
+      "states": [
+        "U",
+        "N"
+      ],
+      "reason": "Anchor kính trước phải: một tay dưới bàn nên phone U; bút/hộp trên bàn, đầu cúi vào vùng riêng. Owner approve toàn bộ crop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "c5590e8eb0cf1de50a2671cd24124791e3bd50e908d9a05395705da151299329",
+      "crop_sha256": "c6536289a4f2d1e963816e3c342d61fc432e0129bd0cd786eedad8c72a26b436",
+      "input_relpath": "data/interim/E004-source-review-20261011/support-expansion-20261012/crops/E004-SX-C019/input.png",
+      "input_sha256": "66b2d2f29d99f0ec1b029007e2721b985a127ef0dadd35a44b4f26b87c967c26"
+    },
+    {
+      "sample_id": "E004-SX-C020",
+      "states": [
+        "U",
+        "P"
+      ],
+      "reason": "Anchor áo sáng hàng giữa quay đầu/thân rõ sang người bên phải; tay và thiết bị bị context che nên phone U. Owner approve toàn bộ crop ngày 2026-10-13.",
+      "geometry_accepted": true,
+      "source_sha256": "25ea419f13ca518d437c76bab81924226ae77cbc9da005fa58b466fd1f6ef073",
+      "crop_sha256": "ae4bd5a02933931f7dcc902fe3a45da1b2293ac32533553d0e7566eab5671d1e",
+      "input_relpath": "data/interim/E004-source-review-20261011/support-expansion-20261012/crops/E004-SX-C020/input.png",
+      "input_sha256": "5dec1d67b26d07b4812fb9b8326da943b5c92bdc9d8d76c18bb24f80226101ee"
+    }
+  ]
+}

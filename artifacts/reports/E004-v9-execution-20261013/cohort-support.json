@@ -1,0 +1,120 @@
+{
+  "train": {
+    "records": 716,
+    "phone": {
+      "positive": 247,
+      "unknown": 276,
+      "negative": 193
+    },
+    "looking": {
+      "positive": 213,
+      "negative": 297,
+      "unknown": 206
+    },
+    "quarantine_families": 397,
+    "unaccepted_family_records": 0,
+    "work_context": {
+      "unknown": 605,
+      "confirmed_working": 105,
+      "confirmed_other": 6
+    }
+  },
+  "selection": {
+    "records": 71,
+    "phone": {
+      "positive": 27,
+      "negative": 33,
+      "unknown": 11
+    },
+    "looking": {
+      "negative": 38,
+      "positive": 28,
+      "unknown": 5
+    },
+    "quarantine_families": 10,
+    "unaccepted_family_records": 12,
+    "work_context": {
+      "unknown": 24,
+      "confirmed_working": 47
+    }
+  },
+  "diagnostic49": {
+    "records": 49,
+    "phone": {
+      "unknown": 13,
+      "negative": 20,
+      "positive": 16
+    },
+    "looking": {
+      "positive": 17,
+      "negative": 12,
+      "unknown": 20
+    },
+    "quarantine_families": 14,
+    "unaccepted_family_records": 0,
+    "work_context": {
+      "unknown": 31,
+      "confirmed_working": 12,
+      "confirmed_other": 6
+    }
+  },
+  "comparator48": {
+    "records": 48,
+    "phone": {
+      "unknown": 13,
+      "negative": 19,
+      "positive": 16
+    },
+    "looking": {
+      "positive": 17,
+      "unknown": 20,
+      "negative": 11
+    },
+    "quarantine_families": 13,
+    "unaccepted_family_records": 0,
+    "work_context": {
+      "unknown": 30,
+      "confirmed_working": 12,
+      "confirmed_other": 6
+    }
+  },
+  "added35": {
+    "records": 35,
+    "phone": {
+      "unknown": 8,
+      "negative": 18,
+      "positive": 9
+    },
+    "looking": {
+      "positive": 14,
+      "unknown": 13,
+      "negative": 8
+    },
+    "quarantine_families": 12,
+    "unaccepted_family_records": 0,
+    "work_context": {
+      "unknown": 18,
+      "confirmed_working": 11,
+      "confirmed_other": 6
+    }
+  },
+  "reserved_holdout": {
+    "records": 199,
+    "phone": {
+      "unknown": 33,
+      "negative": 88,
+      "positive": 78
+    },
+    "looking": {
+      "negative": 116,
+      "positive": 75,
+      "unknown": 8
+    },
+    "quarantine_families": 35,
+    "unaccepted_family_records": 53,
+    "work_context": {
+      "unknown": 74,
+      "confirmed_working": 125
+    }
+  }
+}

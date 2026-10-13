@@ -1,0 +1,2392 @@
+{
+  "schema_version": "crop-review-acceptance-v1",
+  "scope": "labels_and_geometry_only",
+  "target_order": [
+    "phone_use",
+    "looking_around"
+  ],
+  "ledger_sha256": "1996f089a469783f3df8ac8feaf526b0160bcfa8560fc3b9a2b928e42a61427f",
+  "reviewer": "repository-owner",
+  "reviewed_at": "2026-10-13",
+  "decisions": [
+    {
+      "sample_id": "E004-EX-C001",
+      "states": [
+        "P",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C001",
+      "geometry_accepted": true,
+      "source_sha256": "9fa62c3ed8ef26eab6abc9ebc385b544dcf9edf3982cb35987537507af95d303",
+      "crop_sha256": "d1f8c9ebed5724996e6d9149410c3c6779b87de804063514635c775bf5e6c402",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C001/input.png",
+      "input_sha256": "264356b05a75ef9c1c5f5a1d5dc6578e74b9bcd495231b76796b01d197a424f7"
+    },
+    {
+      "sample_id": "E004-EX-C002",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C002",
+      "geometry_accepted": true,
+      "source_sha256": "1f512e9262dca3f2bd6420cdf8a107b2122b8aa17bcfb597ee068cdd90daa986",
+      "crop_sha256": "8da897ba3e5dd41a9a69054edd723a2b66017e7527795ef25e8afb8c332b958e",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C002/input.png",
+      "input_sha256": "f0297a6574d93229252c725499c28ed9b7a6c7ff7a5871a3a19d84abab89b052"
+    },
+    {
+      "sample_id": "E004-EX-C003",
+      "states": [
+        "U",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C003",
+      "geometry_accepted": true,
+      "source_sha256": "1f512e9262dca3f2bd6420cdf8a107b2122b8aa17bcfb597ee068cdd90daa986",
+      "crop_sha256": "480aa471d294e57b0f32bc40af239af99688285481f7c0ca1816a4e702e7ea1c",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C003/input.png",
+      "input_sha256": "e1c38691b8a785a7b69b8a3ca0c9d7225e98e9db105eb4bc9226b876244a97ac"
+    },
+    {
+      "sample_id": "E004-EX-C004",
+      "states": [
+        "P",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C004",
+      "geometry_accepted": true,
+      "source_sha256": "ad81f493d9265ee58e920696ce02d317b28a1f5022449d0e570bed8fbe70c950",
+      "crop_sha256": "48c7fffea2e051f9feb3329d01ef53f30db0c9aa1ff728245976361b96b6adec",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C004/input.png",
+      "input_sha256": "297994eeb9f4bdec7046a747b12555539f6a71e7debef8f2960c41dcb376d53b"
+    },
+    {
+      "sample_id": "E004-EX-C005",
+      "states": [
+        "U",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C005",
+      "geometry_accepted": true,
+      "source_sha256": "ad81f493d9265ee58e920696ce02d317b28a1f5022449d0e570bed8fbe70c950",
+      "crop_sha256": "8a41e76ad843f1c412f5d7e47a91d786a5807716018f57fe97bbfbfb73e795f2",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C005/input.png",
+      "input_sha256": "52b49dba120365d89fbfd92bd9ff10d4b5449830bf55d0ad06b5875b1b5a8b0b"
+    },
+    {
+      "sample_id": "E004-EX-C006",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C006",
+      "geometry_accepted": true,
+      "source_sha256": "ae313d33c5cd099ad360e493e786a3d57482d97ebbe33ea228947a0e4ba3c8af",
+      "crop_sha256": "9bef57bf8d41e2a50ca3b7f0c07449d34b3ee3bda714d21e83e50922c552ebee",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C006/input.png",
+      "input_sha256": "18e69fad16cfe78d28ab08486e676aaaa0e8a040c388d41003684e715fe3359f"
+    },
+    {
+      "sample_id": "E004-EX-C007",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C007",
+      "geometry_accepted": true,
+      "source_sha256": "d5ead066450770a70f63b3b76f2fd79864cf56d76aea74292a96df0959ee0b4a",
+      "crop_sha256": "0a399f7e54a40508e340ef461847fbcb985226548301e1d2f017f3e1808a5a16",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C007/input.png",
+      "input_sha256": "e077be02b5aebd23a172551c5557f5f13522e4277aad8a44478d345414aa4015"
+    },
+    {
+      "sample_id": "E004-EX-C008",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C008",
+      "geometry_accepted": true,
+      "source_sha256": "30eff18182c95497306194b0ac6984a53f9b92712093a23d635628eb73618e26",
+      "crop_sha256": "0a0df174a405b0e7f54df8b1f3fca6bb4d45e11b2931e69b7f81b0324c395262",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C008/input.png",
+      "input_sha256": "4a775912bc1f0dba5e0724ebaf18e6b259aa530253fb7dd4e350cafc7500f8e9"
+    },
+    {
+      "sample_id": "E004-EX-C009",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C009",
+      "geometry_accepted": true,
+      "source_sha256": "e3a4e1f367a4827ccd19c994ddb39bc8c49feaef1e4b87a878379734a2724c7d",
+      "crop_sha256": "32adb59282086db1ff8e2b6e3f8cb11e41c0b0274172195f3891222a404597b7",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C009/input.png",
+      "input_sha256": "f1782860880e071c4a6fd09fb122a2ed1b29c1b07c99d1b59690978bd7134280"
+    },
+    {
+      "sample_id": "E004-EX-C010",
+      "states": [
+        "P",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C010",
+      "geometry_accepted": true,
+      "source_sha256": "0ff3fcdf2d7baa390a32aef4cf10704bd5acc39139f3550fe7e7f9ef7b9ae48c",
+      "crop_sha256": "5a4d51c9d8a9ddcd75dd458f5b0c7d82331084212983d1c26c7ffb50141007fb",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C010/input.png",
+      "input_sha256": "34848c30e2b08b33074ee0ade18c7247d90b6509f58e6698cf771789197dad0a"
+    },
+    {
+      "sample_id": "E004-EX-C011",
+      "states": [
+        "U",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C011",
+      "geometry_accepted": true,
+      "source_sha256": "0ff3fcdf2d7baa390a32aef4cf10704bd5acc39139f3550fe7e7f9ef7b9ae48c",
+      "crop_sha256": "052763d4e9897dc29de444a0043a9fbde302ac7c689d9bf99e0db080d909cd12",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C011/input.png",
+      "input_sha256": "a3e4e888a3fad3a424c45b6cf1bf478425084d29cfdccab80005429328bf079d"
+    },
+    {
+      "sample_id": "E004-EX-C012-R2",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C012-R2",
+      "geometry_accepted": true,
+      "source_sha256": "6338b803fe994931a3b2dc10865976ebfa173437e330fa1ed3b5be94e49ae548",
+      "crop_sha256": "77b2ebb27ee3d821237f30391040f07afc0a3d7fc64bcbdae06123732f755e1e",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C012-R2/input.png",
+      "input_sha256": "d269271cdb6d5958de049b0dcbf03b94b57f4bac70127f1f0a6add565cff286d"
+    },
+    {
+      "sample_id": "E004-EX-C013",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C013",
+      "geometry_accepted": true,
+      "source_sha256": "67dd1881dc71753da253b9014649e4152fa0e78cec5c5e329a6ca61ff03119c3",
+      "crop_sha256": "bfbefc03fa703c2e64c64648ebfee325010b5962f3bc52070630135ff86c5e40",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C013/input.png",
+      "input_sha256": "e1f19707ec80bd6e4e8b3906ca93cd406c278c0bfb380ccefc6f481d90312c34"
+    },
+    {
+      "sample_id": "E004-EX-C014",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C014",
+      "geometry_accepted": true,
+      "source_sha256": "cb3695f2f7bb71c6574faf455e00f7d6be61d6c282c9e3660282efe27ef17171",
+      "crop_sha256": "6158524f781a204766bcf0ccfba178cfba4728523ded702209ea94bc8e2f9c82",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C014/input.png",
+      "input_sha256": "faaf15084cd7276c9facbe49e294d2aff9f4466253640a6a1f0e41088108ae53"
+    },
+    {
+      "sample_id": "E004-EX-C015",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: N/P; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C015",
+      "geometry_accepted": true,
+      "source_sha256": "cb3695f2f7bb71c6574faf455e00f7d6be61d6c282c9e3660282efe27ef17171",
+      "crop_sha256": "213bdf743d5eda2bdfbf009785b375579880e5307e53721ddf6aa553e465bf5c",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C015/input.png",
+      "input_sha256": "4a34921881f22af06103fb49acbb2a537d73c56880675d4cd12f9b61c1450217"
+    },
+    {
+      "sample_id": "E004-EX-C016",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C016",
+      "geometry_accepted": true,
+      "source_sha256": "c9bda02b18033bbdf154b2756b6ab581fb2baed5cc0c1d0cbdc925649ba6f992",
+      "crop_sha256": "45d2e3ec4685df1515942f66fde6cc754beb4cea21f152eac9fac1200a66cffb",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C016/input.png",
+      "input_sha256": "d80274ec3955c38bb7388935d7e24a4cad9a98acf80b4a74402de0edb534879a"
+    },
+    {
+      "sample_id": "E004-EX-C017",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C017",
+      "geometry_accepted": true,
+      "source_sha256": "3e7bb7c1d90afa77c846b06ec4b7683693a3411d0ff789bc81ebefd50122b42a",
+      "crop_sha256": "7e385cd7987ebbb1d8a0544a5c05c0a48edd270e7c15b687638096acaa70fa0b",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C017/input.png",
+      "input_sha256": "318f362667a48db3463eaed891e6ca458347c765213220eb9f8feffcd0933a58"
+    },
+    {
+      "sample_id": "E004-EX-C018",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C018",
+      "geometry_accepted": true,
+      "source_sha256": "bc0bf034153912f5446999969a937d1df6a460e83eed805e9e82e7019d224081",
+      "crop_sha256": "e17a4722309c38e217758a75d599affd57e0576ddf058720d04ef1e2ab93d37b",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C018/input.png",
+      "input_sha256": "d021351cd686f61796d08daf72330a9b11030bbe88eba801150aa7e88119796f"
+    },
+    {
+      "sample_id": "E004-EX-C019",
+      "states": [
+        "U",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C019",
+      "geometry_accepted": true,
+      "source_sha256": "067548badfb8e19ed9b432ea2401fdf534021739a8106f1aeae8b8aed2f6f12e",
+      "crop_sha256": "a8adf6ba57c03663d5976583e97f54feb089db55fd2cf821f8a1fd8ea753111a",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C019/input.png",
+      "input_sha256": "550359bef6e7e9c5e896760f20052f60e2faf95201facc39c47444b95053425f"
+    },
+    {
+      "sample_id": "E004-EX-C020",
+      "states": [
+        "P",
+        "U"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C020",
+      "geometry_accepted": true,
+      "source_sha256": "067548badfb8e19ed9b432ea2401fdf534021739a8106f1aeae8b8aed2f6f12e",
+      "crop_sha256": "a969227a3dc6a28810a84ce7352723a7aa6384c721434ce635687d37ffe4a812",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C020/input.png",
+      "input_sha256": "a99f3b1a63d668801246a2f976abaa09a3e89296c68e333168ba0bcb17d9e5b6"
+    },
+    {
+      "sample_id": "E004-EX-C021-R2",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C021-R2",
+      "geometry_accepted": true,
+      "source_sha256": "bab15ad114541522074ed3becee9ceee73a908e4fe18a5f81f6faac720ccb0e9",
+      "crop_sha256": "8a1a0542637fc8dc2660cf74e11cb2b735f9956e4f016abef0f160b2cf42de9e",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C021-R2/input.png",
+      "input_sha256": "04c7a4cf905cb5fa5b8d2c4319518a3fdb482a8df235387a651a86b8a87afe73"
+    },
+    {
+      "sample_id": "E004-EX-C022",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: N/N, giải thích: người đang cầm tài liệu (phao) chứ không phải phone; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C022",
+      "geometry_accepted": true,
+      "source_sha256": "fb1567b87e87e690ecfcf5bd721182888c8a320aaddb53d29dfa5f64bcdbf351",
+      "crop_sha256": "6b845d8fadd5d6646f8dee18cf13403e30ed89622003087e3ffe82b6b4cba0db",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C022/input.png",
+      "input_sha256": "6e9d45df503dfdbcc05369cc83c0aeb9dc0ad330219c04299e3a3f139b84fc18"
+    },
+    {
+      "sample_id": "E004-EX-C023",
+      "states": [
+        "P",
+        "U"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C023",
+      "geometry_accepted": true,
+      "source_sha256": "d8397f5da181695b0e2b9f2fa6ef767dd12c99d101fa20f338ba3494363a17d5",
+      "crop_sha256": "877cb33dfcbecc6d347580cedb174b94cb2ef01b7ec5f69032a134daa685e755",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C023/input.png",
+      "input_sha256": "76cbfbfa57ffd81dee800499093f57d56c83e5511d5bf61c4df1385cc261b989"
+    },
+    {
+      "sample_id": "E004-EX-C024",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C024",
+      "geometry_accepted": true,
+      "source_sha256": "9943c9c271def786fd82cf976f9304f2b3e3926e8325cf794d6976c152b893aa",
+      "crop_sha256": "03c0b049ce572a586eb6485e6bbd75eb5baa95c88f89d1f6125e0ebcf2078a64",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C024/input.png",
+      "input_sha256": "e26815adbd85087d65e9609ed8f85d113455da0f1221cb765ce7ad8fa265643f"
+    },
+    {
+      "sample_id": "E004-EX-C025",
+      "states": [
+        "P",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C025",
+      "geometry_accepted": true,
+      "source_sha256": "766643c4f14d7eff287a3eee44f274d5d7287d090a40c6918b7e8f885c627888",
+      "crop_sha256": "d2764b7276d502ca665d1ab9a873998eb923f3d3b4c8c734488c64e79867c70d",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C025/input.png",
+      "input_sha256": "bff9a6e0f919c0acc756ee2725978a1ac9b830ae1d2331af70cc201b9736dd3c"
+    },
+    {
+      "sample_id": "E004-EX-C026",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C026",
+      "geometry_accepted": true,
+      "source_sha256": "155bb1bb4993975811b2fd5abf60c59f6048925a8f4a3ee46c23116cd1a87333",
+      "crop_sha256": "236cb804a5e0bb320dec146b8483f39147c1e81cb822f9c1932973cfcc891785",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C026/input.png",
+      "input_sha256": "584ba426677f501f3e02c0abd22d00533c7c25cdfc344a11a0996d817852233a"
+    },
+    {
+      "sample_id": "E004-EX-C027",
+      "states": [
+        "U",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C027",
+      "geometry_accepted": true,
+      "source_sha256": "155bb1bb4993975811b2fd5abf60c59f6048925a8f4a3ee46c23116cd1a87333",
+      "crop_sha256": "146c934826957032ee0432dfa6ea7cd0b5be6b52f2122ab9be7954f8aa53b3ee",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C027/input.png",
+      "input_sha256": "56b481ce73cc3424f3ccaf67419f831313b7571249d30499bc8f3a1f8ec9f253"
+    },
+    {
+      "sample_id": "E004-EX-C028",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C028",
+      "geometry_accepted": true,
+      "source_sha256": "ebd97f5a54c78367dc16d0fb3671ffaca5035a4fae0b3e55d892c584f7ba8826",
+      "crop_sha256": "d242581c1f773e82c348b5675154a4d25a2d0a58e1600cb714f8462de5714dde",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C028/input.png",
+      "input_sha256": "c06164cfa54574efb563adc4f7cba60e2cb5ff36275b0c7f76ba313ec8ced383"
+    },
+    {
+      "sample_id": "E004-EX-C029",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C029",
+      "geometry_accepted": true,
+      "source_sha256": "4c1bb32263f996643d10292e850d201137d9c2702f75ea04bec7598a8d9b1e24",
+      "crop_sha256": "75e12ae8823d4da40bf9b1e4b43229851e1a8783a878053aecd718a815b61779",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C029/input.png",
+      "input_sha256": "eee42fe722f19160ed7dda84782b6ad4320cfe424848c711c2e1636824f9213f"
+    },
+    {
+      "sample_id": "E004-EX-C031",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C031",
+      "geometry_accepted": true,
+      "source_sha256": "87b9c8b11a90f094791f26cbe37f5a1eac4005d2b51c3422d71ba3068c14d7ed",
+      "crop_sha256": "2d3843509d5565af509166f2962185ffdf16e1f7bf61ea60d0b77f2fa812981a",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C031/input.png",
+      "input_sha256": "50fc282ad507ef5139aa9b17078463575cc059f3893ba30b990db6fabf54acf1"
+    },
+    {
+      "sample_id": "E004-EX-C032",
+      "states": [
+        "U",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C032",
+      "geometry_accepted": true,
+      "source_sha256": "87b9c8b11a90f094791f26cbe37f5a1eac4005d2b51c3422d71ba3068c14d7ed",
+      "crop_sha256": "c585f7bd881fd7a5e5816ed9da265316582fd8ce7628884777d91cdb4ffd322d",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C032/input.png",
+      "input_sha256": "4b26bc6f1b2b35926c47f2e491dfe6f55daed47193e62fd2bc344ba9264648e9"
+    },
+    {
+      "sample_id": "E004-EX-C033",
+      "states": [
+        "P",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C033",
+      "geometry_accepted": true,
+      "source_sha256": "d109a3eb8425df134b06fc2e7fe6bda83f2f62c1eb75448312fe17232013da9b",
+      "crop_sha256": "2571f19387b1550dd4795515a4f0bd5603c9e61b983178788663149f958095a1",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C033/input.png",
+      "input_sha256": "85136af11ed7694054422cccfc46377e2ae528848f274dda2abc1b26812ab0d6"
+    },
+    {
+      "sample_id": "E004-EX-C034",
+      "states": [
+        "U",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C034",
+      "geometry_accepted": true,
+      "source_sha256": "9df32eccb5daf5ef55b39ef362bcd052ab2228e98f31e47a14c80ad523506f9c",
+      "crop_sha256": "a164d825970fb9de6f9f2c0cb9bfbd7fce5dac13f8f538d98c63b372da424afb",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C034/input.png",
+      "input_sha256": "9cfb18f2e3da598f895e1a561782fdfbaf1bd7ac31dc2dff54159f56d7d86bbb"
+    },
+    {
+      "sample_id": "E004-EX-C035",
+      "states": [
+        "P",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C035",
+      "geometry_accepted": true,
+      "source_sha256": "9df32eccb5daf5ef55b39ef362bcd052ab2228e98f31e47a14c80ad523506f9c",
+      "crop_sha256": "407a06f860744279094c9933c99cc64b819f6ff7cef27311f736f1e5dc05dac8",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C035/input.png",
+      "input_sha256": "bb78bff1ed2b79b23c2c6e7c52d95ddcccbd4912ba93e64639f22b7479a56b4e"
+    },
+    {
+      "sample_id": "E004-EX-C036",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C036",
+      "geometry_accepted": true,
+      "source_sha256": "03f2cca815836b7025fb6e6302cfc10fd9ea202045c1dda5aa032d8cee2e6f94",
+      "crop_sha256": "c42e8701c3499d2b17d8288f50ec3e4b59bd025bb1a71370134d4b78eee7f030",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C036/input.png",
+      "input_sha256": "c9248fa74ed737c2b5a2c8afe6229afee43e9a852b8fc73ceda59d8667af7908"
+    },
+    {
+      "sample_id": "E004-EX-C037",
+      "states": [
+        "U",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C037",
+      "geometry_accepted": true,
+      "source_sha256": "03f2cca815836b7025fb6e6302cfc10fd9ea202045c1dda5aa032d8cee2e6f94",
+      "crop_sha256": "a1b76e877e545ce2167f9104531a5045c718739aebcd89e387800ee1044ebcff",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C037/input.png",
+      "input_sha256": "9058bf59c4037a46ce8735a29e6970eeecaa3cf796a55710fc9f9613a4b12d3f"
+    },
+    {
+      "sample_id": "E004-EX-C038",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C038",
+      "geometry_accepted": true,
+      "source_sha256": "7477ff9adb37e8f9edce10084d389d99b6332e8987f187c44f13747a6ca8c598",
+      "crop_sha256": "4ccd904054d85e6c5393ef8921425738ec2cd7390f1b65df4199c896acd283d7",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C038/input.png",
+      "input_sha256": "af16fb7e20ef4d861517f8f2d065cc4363704041892740def8d1e720ffdf4b7d"
+    },
+    {
+      "sample_id": "E004-EX-C039",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C039",
+      "geometry_accepted": true,
+      "source_sha256": "6cc1a0e0967f00c6f09719502688b9d99351a82082b56ba9ff546fd1b2352cb7",
+      "crop_sha256": "fe6901e5d973516b7443022338996d593f2260ad04323c70fd53c4b518f4ea57",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C039/input.png",
+      "input_sha256": "7c1a7fa2d21c5ab0c2c56340f5f9e5c0bc922d207102ffdf263dbd03815582b0"
+    },
+    {
+      "sample_id": "E004-EX-C040",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: P/N, giải thích: người đang nhìn vào thiết bị của mình; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C040",
+      "geometry_accepted": true,
+      "source_sha256": "adcbc66ae85284f2c04119db6c6f9ba98bd7737b8add330e89e5913ac74956f4",
+      "crop_sha256": "11c0235ef7f1f49f3d96aab7b9716b9b664ac276eaa37b7d8f199ea121fc7864",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C040/input.png",
+      "input_sha256": "6f97b887e5dcb2b32007b3a7523d32c86b1a95e47a2e4f1de047ede8193a451e"
+    },
+    {
+      "sample_id": "E004-EX-C041",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C041",
+      "geometry_accepted": true,
+      "source_sha256": "c58744346dbdb789eab73798027e7ce746c6968b632c7d9c91ddf0868f27c79e",
+      "crop_sha256": "59143bfd22c0a226a449edb76a600f932de35a365e0b918ac31418bb1b9e674d",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C041/input.png",
+      "input_sha256": "30eb210679c707b6283b771fc03d55a3fd12f6565613dbd4e8411457755793e1"
+    },
+    {
+      "sample_id": "E004-EX-C042",
+      "states": [
+        "P",
+        "P"
+      ],
+      "reason": "Owner review revision: P/P, giải thích: có phone đặt trên cạnh mép bàn bị che một ít bởi tài liệu; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C042",
+      "geometry_accepted": true,
+      "source_sha256": "c58744346dbdb789eab73798027e7ce746c6968b632c7d9c91ddf0868f27c79e",
+      "crop_sha256": "e2aad9b73be63ab3d046591c790f6da48799656d440656ab23152880df37a205",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C042/input.png",
+      "input_sha256": "db25703fe9e01a2833bde25e9af4a2271ddb9f0575b9563b4520b51f836cff0f"
+    },
+    {
+      "sample_id": "E004-EX-C043",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C043",
+      "geometry_accepted": true,
+      "source_sha256": "3569b54729acaabf0bbfb69ffff13b9c92d6b771960a4ca7e6e8d89f879ee7d0",
+      "crop_sha256": "a372e3735168c5737bce16d54349ac8fa955a6469b0acdc83afdd73783fc5607",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C043/input.png",
+      "input_sha256": "1cde8c19345cd876fa15009091b194dbc014c1789a4dbdb9d8101abaa3e3ff25"
+    },
+    {
+      "sample_id": "E004-EX-C044",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C044",
+      "geometry_accepted": true,
+      "source_sha256": "6e3fa5adb97d98c09f6c65975972a88ef2222fe83a5a9d22fc188b40ad7ca99d",
+      "crop_sha256": "9a3615337eb1cb3132b59061d8365ea56c5f3a0de4a2715a8dad7fb68e725811",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C044/input.png",
+      "input_sha256": "ee3a94698fc8348bf2246a60f4497196b1f33e3d1b7db54004063f0f3eba6de5"
+    },
+    {
+      "sample_id": "E004-EX-C045",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C045",
+      "geometry_accepted": true,
+      "source_sha256": "ec15fa7e91617c64ba8fc51d4a6a9a9e6e32a4d8009c87cfb1f1511a1062f07f",
+      "crop_sha256": "d840fd19b1520b866708417896f09970afbb272861613289ddbf73887f463e6a",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C045/input.png",
+      "input_sha256": "e8197ff0f36de2cb634609f158e51daa95a47d6d1ac924866e83e2a7ef29194e"
+    },
+    {
+      "sample_id": "E004-EX-C046",
+      "states": [
+        "P",
+        "U"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C046",
+      "geometry_accepted": true,
+      "source_sha256": "99e63ec635b2969e922768d9e9fb5f7308d54c0a66c70d43d18af20930906dd9",
+      "crop_sha256": "7bf8192bc7d2c5581457b873335a1478964ee91fb4de585ff83f35903970abb5",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C046/input.png",
+      "input_sha256": "4ac97af1b7e06b8551453c603cd9a8da82b8d5680a85bd30b5d15d37cda8eace"
+    },
+    {
+      "sample_id": "E004-EX-C047",
+      "states": [
+        "P",
+        "U"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C047",
+      "geometry_accepted": true,
+      "source_sha256": "e6056bc037d5c94a47a98201a12cbbdde142c7611acf687d56af6a0b8ddf5a5c",
+      "crop_sha256": "2559c285037043528c97ccc6820b4828e959857d706b2136bb5e1f3845944cf6",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C047/input.png",
+      "input_sha256": "b90fee2164ec3c62dd00b739180860992cf99c1df7381e60af0d64467f999d43"
+    },
+    {
+      "sample_id": "E004-EX-C048",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C048",
+      "geometry_accepted": true,
+      "source_sha256": "cde7e5e954f8c0337d07122851d96bc0f451ee0b1dc4dfe7d91893610c208225",
+      "crop_sha256": "ed260c364413ee52a447edae248cd81a86c972b97d79e994dbfd873604a5b6a4",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C048/input.png",
+      "input_sha256": "446ac1f97d94a065acc3339ec0337862c1e98b85c50b0447b06018e035664721"
+    },
+    {
+      "sample_id": "E004-EX-C049",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C049",
+      "geometry_accepted": true,
+      "source_sha256": "8951102f86427c4660874cc036a7b222c215447b26f71f8df21d37b7db12d8fd",
+      "crop_sha256": "c6755aad5babb6d234adfb7ce7920a8b2fb51b905a813c114fd1e8640261316e",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C049/input.png",
+      "input_sha256": "1afd87e29610f448b4e7c2a5a47352e3dff105dd46c5bdad48479980386e0c53"
+    },
+    {
+      "sample_id": "E004-EX-C050",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: N/P, giải thích: hai tay người đều có thể quan sát rõ và không có dấu hiệu phone; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C050",
+      "geometry_accepted": true,
+      "source_sha256": "f7c88bc8dc3405fdeb82c1093a08ee0fcf1c9e4c3277486f6eff49ca601f1780",
+      "crop_sha256": "cbef343baf9faafab8838a4b9135a53ce1a67613749aefe721cbecd0dc1d3510",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C050/input.png",
+      "input_sha256": "dfe3347a100e320ec4c14628daf5ba1685c0706ef052e96438bfeeeef135e809"
+    },
+    {
+      "sample_id": "E004-EX-C051",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C051",
+      "geometry_accepted": true,
+      "source_sha256": "575d84b36ed8634e38fb1617e19a24dab4a5c62e44f844169387099e76e07b30",
+      "crop_sha256": "c081640ae3943bd7bc9bd6a24e0d1bef3697f51aab3de2541fa54152fca78050",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C051/input.png",
+      "input_sha256": "ac4efe60c7272079372109e48c9b41b4bfd59c46922af7c1ab72ef684ed33976"
+    },
+    {
+      "sample_id": "E004-EX-C052-R2",
+      "states": [
+        "U",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C052-R2",
+      "geometry_accepted": true,
+      "source_sha256": "46d315b12deaa6199044fc7175a047f1da03af728240e24e26b27aa4d0c38c56",
+      "crop_sha256": "10992f40532c8b5a056b3828a8bc2985320ba9b0442f5e755eadcf0573b9f6a1",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C052-R2/input.png",
+      "input_sha256": "9dee6d4bbc29f8034095f4d738b7aa8ce7b17dbc0c1557b71b8d5e4d38a22eab"
+    },
+    {
+      "sample_id": "E004-EX-C053",
+      "states": [
+        "U",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C053",
+      "geometry_accepted": true,
+      "source_sha256": "0d99ff2d403e5832e24baadfe18c9b483e469486d28bce03fd4d71111938e3ca",
+      "crop_sha256": "364b8fe0b2496bfd81ddb39734f87cb38eb0f404a3bc174c423e38aac2923685",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C053/input.png",
+      "input_sha256": "e40da276edb9e2d4eb465f11d9dd1e1665987f4b9f984112df0e1e15623fd724"
+    },
+    {
+      "sample_id": "E004-EX-C054",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: N/P, giải thích: người đang cầm tài liệu chứ không phải phone; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C054",
+      "geometry_accepted": true,
+      "source_sha256": "8f86bf938d83b8226044d6a04ed9d97ad38fac6d071d46a248d3d1b43a80c3f5",
+      "crop_sha256": "4be1e007d8fe7628af397f7162316b3c06518f8b8420cec044e4c080856123fb",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C054/input.png",
+      "input_sha256": "5e070a646e5d1f6b29afed97e74352563bcbe79ef51196ea9ba54b98f2d59a7a"
+    },
+    {
+      "sample_id": "E004-EX-C055",
+      "states": [
+        "P",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C055",
+      "geometry_accepted": true,
+      "source_sha256": "13862cc1eae8e0d78d482212739fac0cb9ff0e0652d8fa4170cc5f49dedf3693",
+      "crop_sha256": "7c71022766048eb5154717554dfd51e41d12fa2964e97f3ca4b1a025c2c8c2be",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C055/input.png",
+      "input_sha256": "a0644db0ac66cacb0166cbc53d43f1fdf7a24f7c5031b39f23b054454fc478c8"
+    },
+    {
+      "sample_id": "E004-EX-C056",
+      "states": [
+        "P",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C056",
+      "geometry_accepted": true,
+      "source_sha256": "8bd403f6e85f0f59895052bfd3381328829ccaa5b202c892301b78ab2b55d29c",
+      "crop_sha256": "697e74ac59a333106e1a3a5d779b43fdbc799701a015804f42d2ae9e584a1ae6",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C056/input.png",
+      "input_sha256": "d6e97f2f9deb93ddb927f162455cf812f02098ce9563ca07353e630279a267e8"
+    },
+    {
+      "sample_id": "E004-EX-C057",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C057",
+      "geometry_accepted": true,
+      "source_sha256": "7658964c652105b8f414f1ed76908a541b484e64a00bc4ee6056275fdeddd157",
+      "crop_sha256": "a0d93aec006416bbc7c9112fa1dff22f9e35204d00650cc3026b08f24ee91df3",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C057/input.png",
+      "input_sha256": "5a16fd6e7dba94eb3e9ac494952667cd2f2ac5895783367c0f7f4fd08be75f60"
+    },
+    {
+      "sample_id": "E004-EX-C058",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C058",
+      "geometry_accepted": true,
+      "source_sha256": "1c87c6f1ec85eddbd8294bcf95b3f72eaba292294560e132bced61f71f08e230",
+      "crop_sha256": "4031fc650c986094223cb2ce094ae7c351da119858e78f4407816546f1d924b0",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C058/input.png",
+      "input_sha256": "38e7e8f1baaccdcb9b93ebd5545f7fded9e257170b0438518a858ad8a2023a7a"
+    },
+    {
+      "sample_id": "E004-EX-C059-R2",
+      "states": [
+        "U",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C059-R2",
+      "geometry_accepted": true,
+      "source_sha256": "595d1c5e9a50b0b4b1ca7f7748161c61cbd11977cccddea9eed36d6a50cd44f3",
+      "crop_sha256": "b4777753f70ac84b17aff8fd0575edbbf5fbf59510492158048642c1a665d27f",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C059-R2/input.png",
+      "input_sha256": "17486f900147df8901b22a476df9242c70a26849de21016c4247fd48d3f9063c"
+    },
+    {
+      "sample_id": "E004-EX-C060",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C060",
+      "geometry_accepted": true,
+      "source_sha256": "3c67e7a6d902cf02535c23882fdcb2bf4d7d60cce3a3cfa1d12ce0ab318c51ca",
+      "crop_sha256": "c9233189d3b0a5a48293c1cbc8cab2324c23c527d87bf11e9e2c6032aeaafccc",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C060/input.png",
+      "input_sha256": "a3eadde1344e222fe06b8fa4be9ff52b542fc23e8429ec8da05fcd764f974760"
+    },
+    {
+      "sample_id": "E004-EX-C061",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C061",
+      "geometry_accepted": true,
+      "source_sha256": "ae42871904a8cb9ebeb5f69c9d5f9db4570a66c0b752821d75cc422ff5cc120a",
+      "crop_sha256": "878441d8bb5ed569bc2eb69e3e0dd29bd4877c5f79b4e4e1b6e28d081b112618",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C061/input.png",
+      "input_sha256": "88dea7deb9ac1fa5a08ad7eb226db6efcfc75878ae15edc7ef492c8562ed5088"
+    },
+    {
+      "sample_id": "E004-EX-C062",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C062",
+      "geometry_accepted": true,
+      "source_sha256": "82acd474885bbf6f321484df25e04db37861b3d821c2d7cbf0bdf00944c9c8ef",
+      "crop_sha256": "246ee8faa950f5fb16f2688c92cccecd2addccd4192116dee351386003576fc2",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C062/input.png",
+      "input_sha256": "fbc9f50c8f411f3a9a4c56fc2b8e91dc9fb2ee17b44bcf27d97b2f2415d3fea0"
+    },
+    {
+      "sample_id": "E004-EX-C063",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C063",
+      "geometry_accepted": true,
+      "source_sha256": "80f31ff3a0d703f50684772a5d0f99f8285f034d17bc75b256675515e049e428",
+      "crop_sha256": "bae74bb14dc602dfe8fc20f41e8853ab64fdb5bb69665ac64de986a7cf41dc12",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C063/input.png",
+      "input_sha256": "4bff065c6f21ea7b1b884d4203795ccddf423ea8184a0cdea9c01ac7aa26aee2"
+    },
+    {
+      "sample_id": "E004-EX-C064",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C064",
+      "geometry_accepted": true,
+      "source_sha256": "e141ecbcf7fe1cec987cc6288adbdc61962b358e7b6b78dc44173f128c4ba204",
+      "crop_sha256": "8c0c6fd0ebd11098fe4903bc697f5451a3eef915e429ab7066b5940941c06f18",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C064/input.png",
+      "input_sha256": "a8469132b88bdb3e18c53c890360a8dd43d0ec7b9db929ec0241aa5edd1a5ad5"
+    },
+    {
+      "sample_id": "E004-EX-C065",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C065",
+      "geometry_accepted": true,
+      "source_sha256": "4b24f6ef532644b9509eb65477bac5f9344b3aa3d5c9a68ac04d42f712ee4a3d",
+      "crop_sha256": "6c80763dc61f9f2ed1d2a18af6d52b3000c01c91d0789a6bae428ce4996a8806",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C065/input.png",
+      "input_sha256": "8af2df1b5c9f42c7668f7f1c6e7cdd77a575da8e4bb861aee59036833ec14d29"
+    },
+    {
+      "sample_id": "E004-EX-C066",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C066",
+      "geometry_accepted": true,
+      "source_sha256": "79d95d016016c9c53de92c7537a09f1e6bf190530acde5220ce2d9a6deed5a90",
+      "crop_sha256": "cdf7886b9d3c7707093be2d2273556c902b475535965f4cdc6bcda8af82cbc0e",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C066/input.png",
+      "input_sha256": "1dc9be0d1e36e790b8aa9e4f02a166a092ee3a2c6be14cc354854104c389fdf1"
+    },
+    {
+      "sample_id": "E004-EX-C067",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C067",
+      "geometry_accepted": true,
+      "source_sha256": "f50bcd18012b6f38e462c210cdcad9b4a2cc90be94a6b9994a227de4c321fd72",
+      "crop_sha256": "b45d28aaa186ada30fda6fb861d6aefd3703bce49ec9c42f1f8df7618780fdee",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C067/input.png",
+      "input_sha256": "74d746f0f2a1a2e4590b72af818d0c6d1f7e1fa471c517c4e30f88ab786769ef"
+    },
+    {
+      "sample_id": "E004-EX-C068",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C068",
+      "geometry_accepted": true,
+      "source_sha256": "f50bcd18012b6f38e462c210cdcad9b4a2cc90be94a6b9994a227de4c321fd72",
+      "crop_sha256": "56e767ed7fee4542e900ad111dfd8db61057efff8d3f4137576159133de93e64",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C068/input.png",
+      "input_sha256": "17acf34355371bfa2b8230668cc43d0f8d7da11e028bd32324d0544b87d56e14"
+    },
+    {
+      "sample_id": "E004-EX-C069",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C069",
+      "geometry_accepted": true,
+      "source_sha256": "7127be7cc9dc38568ad2d36f72c1fb01b5a88581c98ebba4d8560bf3b66b3f95",
+      "crop_sha256": "7e68b3b63bcddc6098eafc8ba0dba05f5f8f08483901abb69c376787a1385a50",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C069/input.png",
+      "input_sha256": "3b2e3fa0a9076e78d54a53920502a4730dde7d96df73a1d21a8bf0bb991db4cf"
+    },
+    {
+      "sample_id": "E004-EX-C070",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C070",
+      "geometry_accepted": true,
+      "source_sha256": "7127be7cc9dc38568ad2d36f72c1fb01b5a88581c98ebba4d8560bf3b66b3f95",
+      "crop_sha256": "c1cffc9e4b7dbe52ceed60914bc27360fa48d43354776686aaed06dfe25391aa",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C070/input.png",
+      "input_sha256": "b2b328dfdde7351cf96e6fcdfcb58d3d464c66b138fbc986454ecbf6f4f06513"
+    },
+    {
+      "sample_id": "E004-EX-C071",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C071",
+      "geometry_accepted": true,
+      "source_sha256": "0ec6a6d9e620720926f92744a72a76825abfde09548bb4406c83062969906d68",
+      "crop_sha256": "e889993dbb7bdc33bec9910de43c09381ff91522bdd271101da994b3b23985e5",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C071/input.png",
+      "input_sha256": "c9335cfe968fd0b7fd086436e935655397090cd83af29c6f2778436266b7f7e6"
+    },
+    {
+      "sample_id": "E004-EX-C072",
+      "states": [
+        "P",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C072",
+      "geometry_accepted": true,
+      "source_sha256": "0ec6a6d9e620720926f92744a72a76825abfde09548bb4406c83062969906d68",
+      "crop_sha256": "cf0779424405a73b27a80e873c677ada15490441f56f0a89339fda72eec69e57",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C072/input.png",
+      "input_sha256": "be7a5c271f101bcd87fa73740224c844e74455a65b57a73908b2649c8445e977"
+    },
+    {
+      "sample_id": "E004-EX-C073",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C073",
+      "geometry_accepted": true,
+      "source_sha256": "da9ab0eb902537e6d55085fe65ad459acccd7544ae8d3ee1237dc32ac5f3e950",
+      "crop_sha256": "1762ba63bdd4bb856ed81d3c391a11450e6566b6b4af41ed96dda7c135dfe188",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C073/input.png",
+      "input_sha256": "8bb0d5c223cbbe047b03645bff90601e9108c60814db5d6ed0dec295093f6578"
+    },
+    {
+      "sample_id": "E004-EX-C074",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C074",
+      "geometry_accepted": true,
+      "source_sha256": "da9ab0eb902537e6d55085fe65ad459acccd7544ae8d3ee1237dc32ac5f3e950",
+      "crop_sha256": "e525f945598a84348f2f0d8a06e3759efe8f8d80fffe024423df5035267abca9",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C074/input.png",
+      "input_sha256": "b3ce111d42eeaec7c9e5827e3db46af8d1a772f8d32d531b9c297b087a3c6464"
+    },
+    {
+      "sample_id": "E004-EX-C075",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C075",
+      "geometry_accepted": true,
+      "source_sha256": "f17d15ac3f96b152f90676adbec50884cbc6252b09e97b4ea84efd224dac1b43",
+      "crop_sha256": "4e99a9620c5c4bb9a00f652d45e0e17f3756cf633cc40d7977db0993cacf2938",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C075/input.png",
+      "input_sha256": "80b2444a4764e2d57c6979a51a4ea661ebb8ee30d3182d3dc6f5792ab2d38949"
+    },
+    {
+      "sample_id": "E004-EX-C076",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C076",
+      "geometry_accepted": true,
+      "source_sha256": "f17d15ac3f96b152f90676adbec50884cbc6252b09e97b4ea84efd224dac1b43",
+      "crop_sha256": "a421b422ac630e2e6932bc62f5628b6e208ffa20eaad96da7bbdfd5db4e0ddac",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C076/input.png",
+      "input_sha256": "f44b85ec09aab60a62c59552c9afd70203c8f569073acd0dffa7c464fa2f781d"
+    },
+    {
+      "sample_id": "E004-EX-C077",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C077",
+      "geometry_accepted": true,
+      "source_sha256": "15df3822099144b50b0cfa7d594f5e903b53a7366efb946ffbacfb388827ab74",
+      "crop_sha256": "d2552258446ee93f9e77a7e95b7280b8e374af8953c2e493707a3d17298109ed",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C077/input.png",
+      "input_sha256": "316299d1931f97cbabecda367512913aa87d03bab7c73d77cee1a9c9516513ec"
+    },
+    {
+      "sample_id": "E004-EX-C078",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C078",
+      "geometry_accepted": true,
+      "source_sha256": "8a6b5d168a683bf5f61a615379c75adf83aa021b7e54f4d1876fee0363c9df0c",
+      "crop_sha256": "c30bd8d7f880e497a7692cf63444381ff1febd96d854cc7619f296f64cf0356e",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C078/input.png",
+      "input_sha256": "ba93380769cfcc24aceb294eddbfc3c1d7614b5f619a41705d89669ff49318d3"
+    },
+    {
+      "sample_id": "E004-EX-C079",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C079",
+      "geometry_accepted": true,
+      "source_sha256": "2039489f6f47731bb91174b008be8e573eb3c749e15d32c24b6047cffb340547",
+      "crop_sha256": "f117e48fd4d56e8e67c9971071ac7137aa58e47efc22ceb28756994df4b595ab",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C079/input.png",
+      "input_sha256": "a870102086bc1af1717f4660c9f734a6d90b76f2f45cba6151aac3132b377346"
+    },
+    {
+      "sample_id": "E004-EX-C080",
+      "states": [
+        "P",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C080",
+      "geometry_accepted": true,
+      "source_sha256": "44b4e5ae98a75d8a3b54a99bef8d7ff351fe4ec97891d61f2c2fb453406c3c6c",
+      "crop_sha256": "0d4d57388bfaa3ec1780e0084f7095fbadec2294fb0aedfba05d059bc661efc1",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C080/input.png",
+      "input_sha256": "77c81918d549f9d37b7c3cde2eeac30ec2bded07374d2d01aa11c7ad791f4748"
+    },
+    {
+      "sample_id": "E004-EX-C081",
+      "states": [
+        "P",
+        "U"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C081",
+      "geometry_accepted": true,
+      "source_sha256": "ec3cf363e5ee0ab39a99283eccadfb9e1b87c1d0a5c035c3588b1a9c9f9aba52",
+      "crop_sha256": "9dcd4c4db48ca20fd3a8ebed21f4dde0ed3786878d1054fdd6298e611937a0d3",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C081/input.png",
+      "input_sha256": "1af499c5f891b13a3600651637a9a80069fd93169f89feedd4c1db1e3cd0ff54"
+    },
+    {
+      "sample_id": "E004-EX-C082",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C082",
+      "geometry_accepted": true,
+      "source_sha256": "b921f4d3943084e614f092311d1e606662a5644efb98e66b092807358c359026",
+      "crop_sha256": "81e8d45fece930e6d9ed39da6d911fb96cef4bf7079da3365316d9d118fc844c",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C082/input.png",
+      "input_sha256": "09e27536db27e0fe784b8297f42e7b9463ea1d9d76a3e56f809333ebd3cd664d"
+    },
+    {
+      "sample_id": "E004-EX-C083",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C083",
+      "geometry_accepted": true,
+      "source_sha256": "dee043ba7a9de98e64b3b6c9344410a920ae37e092a10bf34b5424290568f499",
+      "crop_sha256": "4dd247668027ccd3c80cdb98ab545829d9de82d3ea8ae4bf3611b040e18fe2a8",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C083/input.png",
+      "input_sha256": "d26a43d9a71bb98ed2c6bac37ca88e8da7b038dc7734e0867ee70038c35f5f9f"
+    },
+    {
+      "sample_id": "E004-EX-C084",
+      "states": [
+        "U",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C084",
+      "geometry_accepted": true,
+      "source_sha256": "b8dfa645ece3b03772ee06bcc8e87b91bb04c2eb0d135b7b25a6b2c1cae6dea4",
+      "crop_sha256": "a9552292c8ff0c6b59609eacf3d809008535e69b59d9bc1e7c3ea8b28205d291",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C084/input.png",
+      "input_sha256": "6dfe3b097091cf6b2edcc5f908f6105b2752744d21c90ae9a5f7823feef31e43"
+    },
+    {
+      "sample_id": "E004-EX-C085",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C085",
+      "geometry_accepted": true,
+      "source_sha256": "29815ad7e1efd1f9f5e185d03c471c1af388fef390dc52f5fbcb69e26cb00177",
+      "crop_sha256": "2e212bc7e9313ec1bcb9b9acb9b6f70f549cba85e4f2d3fec578e5ff12e05cae",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C085/input.png",
+      "input_sha256": "49428b06ae4fbc4e9a69a0608d984b9a163d15bc9ce6138277b83aafe5d561b8"
+    },
+    {
+      "sample_id": "E004-EX-C086",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C086",
+      "geometry_accepted": true,
+      "source_sha256": "6807b957a3a2590d0df4fffbb6f09dc33dd844f99011ba48f003fe06012fd307",
+      "crop_sha256": "58fb0f4d77faf51c8301cbea9e8a48367dc46213da3a1dc959848c0282db03e8",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C086/input.png",
+      "input_sha256": "46745ca8c3bf9f27afa76136e700b97775169f2f5c74575844f8056bd9854d4f"
+    },
+    {
+      "sample_id": "E004-EX-C087",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C087",
+      "geometry_accepted": true,
+      "source_sha256": "40cc69a3fc68313aa08c312d2f8ff97d16da50c33e91d5c1518a986499350b6c",
+      "crop_sha256": "3a1cc7283c1d84b24f2178414a32c60fae9cd03049eff6d93d46d24be3aa9a8a",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C087/input.png",
+      "input_sha256": "1b11255a1a45d790033d6610961fe87fcaf27ab247f9d850e25b192f10086fa7"
+    },
+    {
+      "sample_id": "E004-EX-C088",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C088",
+      "geometry_accepted": true,
+      "source_sha256": "2b6de2e7fd1ad019569e1a8116d2d8a522ec872d56ee4a9c22ffd69e1911062b",
+      "crop_sha256": "97b20fce441ba4a7aa10e527b45869afb854125b3495df3c95d781664ba7d5fc",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C088/input.png",
+      "input_sha256": "b792b9291835d787b7f41cc1d73117253cca337612a54e5211d6c33870ccb9f9"
+    },
+    {
+      "sample_id": "E004-EX-C089",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: N/P, giải thích: anchor áo xanh nhìn sang laptop của người ngồi cạnh; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C089",
+      "geometry_accepted": true,
+      "source_sha256": "5ae36b5d8739e0e1344d2349a4ec6c99257780c5b8065baf5d4fa209137042bd",
+      "crop_sha256": "ef7897ead0c6b70a602c345b2e486d6a69337c5664a86ace5774a3283456ae3d",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C089/input.png",
+      "input_sha256": "911a9ae6227a528fe31c7a59987fc063d46ad6cd92fabe591e700290c86a8e1c"
+    },
+    {
+      "sample_id": "E004-EX-C090",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C090",
+      "geometry_accepted": true,
+      "source_sha256": "23fb3689128a022dbb424278cf48737b2fdb2da59b52830a793079f00a3e07bd",
+      "crop_sha256": "8e234ba22bf7425681b8d5dc0d66905b957daa50996fc7828be7edf02f194c3f",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C090/input.png",
+      "input_sha256": "960cb3bffb00a3099c5085b04b212690eecd1181908fa9f33abf17eab5bf9cec"
+    },
+    {
+      "sample_id": "E004-EX-C091",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: N/N, giải thích: nhìn rất rõ tay và không có dấu hiệu của phone; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C091",
+      "geometry_accepted": true,
+      "source_sha256": "bdcc131a51010e6a6d33c0dcc389f3889f63ab5142ee7e1adfdb3a4496bd69bf",
+      "crop_sha256": "a04d8728cfbaca1d9ffa687fc35c0adeadf1732699ffb69c08266f6ce42bc33f",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C091/input.png",
+      "input_sha256": "e58b9ea038d47833d19eb388b3920108df920061fa3008491c9100f5c0bd4090"
+    },
+    {
+      "sample_id": "E004-EX-C093",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C093",
+      "geometry_accepted": true,
+      "source_sha256": "40930c290dac91307b5bfb784d68daef1cba2f24de2b91162d69f52aebd72919",
+      "crop_sha256": "88c57adb3d8478453e77dd7b25e49006682cef3983caf0b08e45fee509c5fcdc",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C093/input.png",
+      "input_sha256": "34fde31660dd0066d4134c5febf016954dc8e28d027bc760dbce40bad96b975e"
+    },
+    {
+      "sample_id": "E004-EX-C094",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C094",
+      "geometry_accepted": true,
+      "source_sha256": "40930c290dac91307b5bfb784d68daef1cba2f24de2b91162d69f52aebd72919",
+      "crop_sha256": "6ab8193a62d0b33cdfae1b362138ffa37ef50b48d4cb11eee3ff347f71642c42",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C094/input.png",
+      "input_sha256": "14b64a73c2320a3b0cef78d946340534cbd780320aed44e3c4e4d2c917fbf030"
+    },
+    {
+      "sample_id": "E004-EX-C095",
+      "states": [
+        "U",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C095",
+      "geometry_accepted": true,
+      "source_sha256": "1010d4004da5b8c61d11a8d39b1381cf016e14446898cc624d25f515541570b1",
+      "crop_sha256": "2c4fb32777d3070a728fb6f3e6aa9b8d7b0d29ac4d2b08596798ef944db4e211",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C095/input.png",
+      "input_sha256": "77e5d8c9b1bea144721c1132e50490ce3c60926075e71be2fdd8c147eb86d527"
+    },
+    {
+      "sample_id": "E004-EX-C097",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C097",
+      "geometry_accepted": true,
+      "source_sha256": "fd169a039950ea9bead36086e69d59930ad252330257ba896085ad40bb8de87f",
+      "crop_sha256": "e0d2b4a95d21142e4f988af2d2ff61a2da15e4d92c8df42dfcdb3fc362dfe67f",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C097/input.png",
+      "input_sha256": "dbcdb4acf1c4d3f7a297b08c586c18a00c6daa904e399e3a051b31edf948d22b"
+    },
+    {
+      "sample_id": "E004-EX-C098",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C098",
+      "geometry_accepted": true,
+      "source_sha256": "fd169a039950ea9bead36086e69d59930ad252330257ba896085ad40bb8de87f",
+      "crop_sha256": "5e1d0fb721bb236bd6386f489a9045cc28dac00fda132e27049199092d8c1eb0",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C098/input.png",
+      "input_sha256": "2c3c55d858d129aaec54b5392ebe53883cb55b6fb1ab234b51144c6f17b9ca17"
+    },
+    {
+      "sample_id": "E004-EX-C099",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C099",
+      "geometry_accepted": true,
+      "source_sha256": "c1e37266aa48363e8656f9fb391d0d9f70f1c6794e4195951a7b19a5fb84fa24",
+      "crop_sha256": "95edb8996d759014c16518afd10f3545568150691a15dc39ab3cd59a630d9291",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C099/input.png",
+      "input_sha256": "864ef2a55ebc748ffc76e3622c29dde6430491354171b6568ef434b45da69ff3"
+    },
+    {
+      "sample_id": "E004-EX-C100",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C100",
+      "geometry_accepted": true,
+      "source_sha256": "9437b06b2a65bf0617270367487ef0b3c3e7dfdc448302ff21c7e39bf95efa54",
+      "crop_sha256": "976881ce8a9a85479e678181996ae1ca905e4009cb68518450633077cca209f1",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C100/input.png",
+      "input_sha256": "baf43f48b97687de432f56a38feac7b8643efc00da59949bed0e66e6b8ffc476"
+    },
+    {
+      "sample_id": "E004-EX-C102",
+      "states": [
+        "U",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C102",
+      "geometry_accepted": true,
+      "source_sha256": "17af008a3b3a072d01887c9eb897d3820fc87c5d6bb2dd2dae475db79b07bb76",
+      "crop_sha256": "68a896f1e8e64573eb0ae3d824b81ba06fd5fc828ac2032a8c1f15a9f28a8f2c",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C102/input.png",
+      "input_sha256": "fec77e2bd80590cf3e060dc9ea2eeed1f0ead1defb2d8b75f2223bfd9ba41dd8"
+    },
+    {
+      "sample_id": "E004-EX-C103",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C103",
+      "geometry_accepted": true,
+      "source_sha256": "5d43f23bdb626ce8428768b285069c7ea8c0acbf455f256a72f7cae5fea77b3e",
+      "crop_sha256": "0993d971f8e60771aa4659f85b101b94807b79a20479d330f7893e58782b93fa",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C103/input.png",
+      "input_sha256": "a4abb635560f8cf6aacb4b88978bfb0af2cf232545dfa355c9aeb5a15d3671b1"
+    },
+    {
+      "sample_id": "E004-EX-C104",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C104",
+      "geometry_accepted": true,
+      "source_sha256": "c412e69f63aca49297fe17d2698c94fb92d1c324f2658986057c0223bc12acb9",
+      "crop_sha256": "c09b50fab8346cbe57b902691eac6721c6224535517aae30b1448176cec41a72",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C104/input.png",
+      "input_sha256": "d2e2d8da24e4230a03a3e1566f2848a67ef0e6524a61151e4d604382608a2426"
+    },
+    {
+      "sample_id": "E004-EX-C105",
+      "states": [
+        "U",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C105",
+      "geometry_accepted": true,
+      "source_sha256": "d8cf8027257372884c56d6dd1440ae21f589c82e0bf9b033d4ff33aca6956f60",
+      "crop_sha256": "4bde92e41b85752f073560cbd6854d3e26db482ac7a037d82b3f20cac10c8791",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C105/input.png",
+      "input_sha256": "20d21be380c8a0c6fd91c1e645665bc1027073149317ef2ba12f71a40acb11e1"
+    },
+    {
+      "sample_id": "E004-EX-C106",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C106",
+      "geometry_accepted": true,
+      "source_sha256": "35b0844f30a3132c1853a670f45d669673dc72a30c0adf451e5a58d1663ec517",
+      "crop_sha256": "342981b5823d2fc83cfed795551274a0a40a60cbd1034ded1fdf140ca2fc8d7b",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C106/input.png",
+      "input_sha256": "df63cfe5e480a2c25944bfcac81943b8d8201d8ab2186faa8bc779c0c6ca91fd"
+    },
+    {
+      "sample_id": "E004-EX-C107",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C107",
+      "geometry_accepted": true,
+      "source_sha256": "35b0844f30a3132c1853a670f45d669673dc72a30c0adf451e5a58d1663ec517",
+      "crop_sha256": "c86ea500411e7067e1695d912b45f2faeb32f1735a2c7feefbc4bc7d7b419534",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C107/input.png",
+      "input_sha256": "0fbdf4e9b7096ccfd4c5a7b98b0ceee51e0c1d62659650ef96516e8e357fe075"
+    },
+    {
+      "sample_id": "E004-EX-C108",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C108",
+      "geometry_accepted": true,
+      "source_sha256": "35b0844f30a3132c1853a670f45d669673dc72a30c0adf451e5a58d1663ec517",
+      "crop_sha256": "a596161098e5516385131215070051ff9b037ea4d8ab95a01660f87dfaf628d8",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C108/input.png",
+      "input_sha256": "e9a89905a37c46b5479473dc976835bf6127bd727ed634946691afb278b0239d"
+    },
+    {
+      "sample_id": "E004-EX-C109",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C109",
+      "geometry_accepted": true,
+      "source_sha256": "35b0844f30a3132c1853a670f45d669673dc72a30c0adf451e5a58d1663ec517",
+      "crop_sha256": "d107868d325fb53ad83a76256e9fe846cb97b1961a418a8c6a0e69778a8f932c",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C109/input.png",
+      "input_sha256": "6bec3a41ab7d49aa1edeee4af85628119e45dd474f892c198c68276efdcd6575"
+    },
+    {
+      "sample_id": "E004-EX-C110",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C110",
+      "geometry_accepted": true,
+      "source_sha256": "35b0844f30a3132c1853a670f45d669673dc72a30c0adf451e5a58d1663ec517",
+      "crop_sha256": "997d4c56b1e611c61eeccede717d0591d0aaea78c3ea19509001fd4b96872131",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C110/input.png",
+      "input_sha256": "a88d2b324b500d801799d509a46cb4904a6c6f65994c6f778cfa355d90d76010"
+    },
+    {
+      "sample_id": "E004-EX-C112",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C112",
+      "geometry_accepted": true,
+      "source_sha256": "6eae5e57193e466ff41baf7d27db882d729a326eb17ad0f2ada45f35fe237b66",
+      "crop_sha256": "3481d292470670c36110f23ccc06a12c9241aecd6f8a79f173d2f08fe173c9c0",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C112/input.png",
+      "input_sha256": "a8125b964ea93fb20877be561f583e981256f2c4d8108a60a6ec57f7146acd59"
+    },
+    {
+      "sample_id": "E004-EX-C114",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C114",
+      "geometry_accepted": true,
+      "source_sha256": "dd81cee17f3d3bc1d540870ae0d1698fa87daef0872681b58ea0f6e9e5ad3afc",
+      "crop_sha256": "d9bac830331db74b5fc3c676679b65bf4346a5f8fd4693bfab74a635c4849638",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C114/input.png",
+      "input_sha256": "d6f4257facf600a7f4c1a7e70e45fc15b057f380f44525760007275670de4791"
+    },
+    {
+      "sample_id": "E004-EX-C117",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C117",
+      "geometry_accepted": true,
+      "source_sha256": "f92b823e4f4c04b294e6c19bd8bf6f2017cce5d9b9005a12eadde969a8170c55",
+      "crop_sha256": "a81048d85b3576842c61c31072e00479814eb464f548b701186a428cecaeda0c",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C117/input.png",
+      "input_sha256": "16639dd0df44336a4353d1e019cb1d89499a11d631d9ea6f45313399276ac8fe"
+    },
+    {
+      "sample_id": "E004-EX-C118",
+      "states": [
+        "P",
+        "U"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C118",
+      "geometry_accepted": true,
+      "source_sha256": "56258604a8528a9d90656833f7f3c10f6171af5adbb85726182a912533964a60",
+      "crop_sha256": "69596e34fd0ca0801752053e55580557c56dc72c82055a8327623b537bb7e178",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C118/input.png",
+      "input_sha256": "0c9bc6f13fdc609e54253926e59849b8e559bede744c83f5112ffe7148b6daaa"
+    },
+    {
+      "sample_id": "E004-EX-C119",
+      "states": [
+        "P",
+        "U"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C119",
+      "geometry_accepted": true,
+      "source_sha256": "0d83fcfc127813ec46ae33d97121b5afc4ff47732cee6757eae30c7f41bdd799",
+      "crop_sha256": "81796e24d15b1405bfd8fe3b7c6d1f58226ae98bb693f758ace3bfcf582994ef",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C119/input.png",
+      "input_sha256": "651a13e20dff84b9e6b062b44c478949e4c16a0689dbbd34217d0263ed6be26a"
+    },
+    {
+      "sample_id": "E004-EX-C120",
+      "states": [
+        "P",
+        "U"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C120",
+      "geometry_accepted": true,
+      "source_sha256": "8121f2ae4e4db471a2eb19ca8c930b9361cb017963aa8920235604fc4fefa124",
+      "crop_sha256": "51cd4443b7a9803ca283d8a33dcee808fce7f0a45a9c72e320db859bcb34c832",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C120/input.png",
+      "input_sha256": "00608c933e00fa4ea830b10029445da0c90130aac90b1380fd8209a368bbe302"
+    },
+    {
+      "sample_id": "E004-EX-C121",
+      "states": [
+        "P",
+        "U"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C121",
+      "geometry_accepted": true,
+      "source_sha256": "d6393694053b21d73b251f25c5a7d03b06cf50df0cbe60c65a897443f18bbb85",
+      "crop_sha256": "9d797f3f62cfd66c5ac2ff4603fca8239433c393b8f38d2ce698c6c5be5e0949",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C121/input.png",
+      "input_sha256": "10ceba433b25a0e006b93a21cade463e95e1d14196766349bbe2ddf0c8fbbdd8"
+    },
+    {
+      "sample_id": "E004-EX-C123",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: P/N, không nhìn thấy toàn bộ đầu nhưng hướng mắt vẫn rõ là nhìn vào own-paper; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C123",
+      "geometry_accepted": true,
+      "source_sha256": "1a980415f01a30f1e0e7a4474e389aeb74dbe68e1f127755159b4f12ce894957",
+      "crop_sha256": "e6eb42034a16c8a7b8fb8e09bde2217410f6bf43ed830eca99ddb00aee84eaa2",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C123/input.png",
+      "input_sha256": "070a4d67e2ba38ff62eccdfab52f240f81524c8bcf0906449ce4443fd62a29b4"
+    },
+    {
+      "sample_id": "E004-EX-C124",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C124",
+      "geometry_accepted": true,
+      "source_sha256": "5ae2b1d3b5b026ffa78038aa3499f0278d093b23729cfc597c2065034a772beb",
+      "crop_sha256": "3b9734c0ebc9f3000820b265ddaef8377634ce49965ee910e2f2da6ca776d944",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C124/input.png",
+      "input_sha256": "ef4a45456dba662fc02a83d27e67daed9dba80b2c475e4be265130d794393a72"
+    },
+    {
+      "sample_id": "E004-EX-C125",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C125",
+      "geometry_accepted": true,
+      "source_sha256": "4b5276523ab25a36ef2a70fcc7b1014e78cf6f24e3eb06a4adb891360a4ede5f",
+      "crop_sha256": "5500655e5bf045e86be44cadc96e8272538742e6c9e37541315ec95919eaee94",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C125/input.png",
+      "input_sha256": "c093d18501c4ae708f06b0ff46acb8320a0770fedaa1d5a5bfdc77042fbe65cc"
+    },
+    {
+      "sample_id": "E004-EX-C126",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C126",
+      "geometry_accepted": true,
+      "source_sha256": "3bd0cf95a1b2b6ffd4a6b9818bba2e4f79d84be84ce9404330d4551145634e2b",
+      "crop_sha256": "4c1d4d101fce9c716bbad7e09b6af2fffd40e92126db8cefc215ce0e5a1db5f4",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C126/input.png",
+      "input_sha256": "dc7ef43a47dda4764e419a41a66227910243503fd3f04afd1536f1eb0f415b7c"
+    },
+    {
+      "sample_id": "E004-EX-C127",
+      "states": [
+        "U",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C127",
+      "geometry_accepted": true,
+      "source_sha256": "ecb9b559420a2cabae5897a95744512f2f6e701cdd4a85ca381c48f3529742f1",
+      "crop_sha256": "979cb36af7109c7f86a3af62a0cb3fd5f5d6151a961c039f128cd4e0c7a569e0",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C127/input.png",
+      "input_sha256": "32609d2454896f8083b145c93f6a548216ee2f5a79bf19d87226b4999b8f0c35"
+    },
+    {
+      "sample_id": "E004-EX-C128",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C128",
+      "geometry_accepted": true,
+      "source_sha256": "6dd7e934d80ecf8c1df388fca381f14768d5437cca99fc2aa95b75b931e407a6",
+      "crop_sha256": "a13ba5fcb7451b9e5c3a1e292efa2143299260714dfd71416645b7b50356c313",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C128/input.png",
+      "input_sha256": "92a24dce64272716369fc7ee909c67faa64d862f732b3cd0bfb7b179c28fe871"
+    },
+    {
+      "sample_id": "E004-EX-C129",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C129",
+      "geometry_accepted": true,
+      "source_sha256": "7cdfd65ed7c2d243db5d9516135dcce3d1c4232aaedc304e05e118482d543d99",
+      "crop_sha256": "de125d2e30dabe684cc2b50546f92fe4b877b82328505a357612115d47c90f9c",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C129/input.png",
+      "input_sha256": "934e6dc15759a66f4220cd27bed2793338e5da68da5b41de7789cbd1da2a8fff"
+    },
+    {
+      "sample_id": "E004-EX-C131",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C131",
+      "geometry_accepted": true,
+      "source_sha256": "eaebe88f843e5347dc99c7759b971f6f919b2ed4d8b5f87d929d4922c1668fe0",
+      "crop_sha256": "7523842a4f24cefa886050f78f74cfc1f1d7fe40b8cd473fc4e17a15ba0c3b06",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C131/input.png",
+      "input_sha256": "76cf155af0bfba4b92f69039c00a286cfb31f025298c661b7b43e9848c1f6e82"
+    },
+    {
+      "sample_id": "E004-EX-C132",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C132",
+      "geometry_accepted": true,
+      "source_sha256": "7e6a4450829e958e69581a670b074e649c3b4647693220727b4fc705f702fe8a",
+      "crop_sha256": "cec57c919f44fda5d7bbec10fdd6bedcd1ae3aa31e30150c7110e4f82ed3a5a6",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C132/input.png",
+      "input_sha256": "a9490b45cd05bfae1c4c991a11eff88b52121ff936259722e1521a49a55ab7d4"
+    },
+    {
+      "sample_id": "E004-EX-C135",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C135",
+      "geometry_accepted": true,
+      "source_sha256": "af4eee849312858929925cb2979ec92a4b9a204dc18d4723899db0ab6c8d27ae",
+      "crop_sha256": "4edcfb3b9ddcb8872886e72fca0ca6b674aa795cd711e7e45c6c3d2508d1716f",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C135/input.png",
+      "input_sha256": "8a5ed01a80ee0d995a8f1db3d936d1c94c72467a2987de527a06052eec48ffa7"
+    },
+    {
+      "sample_id": "E004-EX-C136",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C136",
+      "geometry_accepted": true,
+      "source_sha256": "eb8fdb318cb1393e212b019149e830922d497e39ce3da7689b0a320fdc131bfc",
+      "crop_sha256": "a5e28891bdabc46b7b0ba1099f189d32ecaf7a6ac500fdc1ac0adaa2735a6f81",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C136/input.png",
+      "input_sha256": "18202825bf6f4402e85450b4e7560a110e7b632378373321b62a1e5767be0e03"
+    },
+    {
+      "sample_id": "E004-EX-C139",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C139",
+      "geometry_accepted": true,
+      "source_sha256": "ab59cbe9d651c7116968fe3e0b43468c0a31e20fe30567a44f8c84e6439bd1de",
+      "crop_sha256": "62fc055c62eb9ad971e20661dd51e628603c9c34719bb8463fac5cb9adb34db5",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C139/input.png",
+      "input_sha256": "b43c1b16720df0e1d3d4b384b78480566799c900bfc886262eb46a7680b391a4"
+    },
+    {
+      "sample_id": "E004-EX-C140",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C140",
+      "geometry_accepted": true,
+      "source_sha256": "e08a103ded86e82b715c3fadc8c903df8aba7c198c78b6a148f5fa5fed590419",
+      "crop_sha256": "bababc1ea8c3b768c4ff74097a3c91a6e82e35762b4bc7d7510de85326e20aec",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C140/input.png",
+      "input_sha256": "bcb78156a97dccb9c5971e469a7b9a45ab45ae73d213b68dd5b77d18925e45ac"
+    },
+    {
+      "sample_id": "E004-EX-C141-R2",
+      "states": [
+        "U",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C141-R2",
+      "geometry_accepted": true,
+      "source_sha256": "f06cee01e0242f4697072f43cff95cfcbfcce351718b2415f26b87cfc33a9818",
+      "crop_sha256": "b0ebd76711c63a0ea63e5647fd12bded968cd3a136c89aa190a59ebeb79e6bd9",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C141-R2/input.png",
+      "input_sha256": "3a6659bc91df824411805b3db235b070e8a3c126fde4e77ecc6df01376fcdfe8"
+    },
+    {
+      "sample_id": "E004-EX-C142",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C142",
+      "geometry_accepted": true,
+      "source_sha256": "ec2ac1b9388c1c3e927ae0f5f953e10fcf33905948194ba1d22efc2a6f277334",
+      "crop_sha256": "02d44913511da631b2912acf08c23817902e1d069ef93bbd1a1eae146d9da875",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C142/input.png",
+      "input_sha256": "1ad7e0929a4d14633783685b8160adcdefb9fc3b02c53938f46dc1260892f777"
+    },
+    {
+      "sample_id": "E004-EX-C143",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C143",
+      "geometry_accepted": true,
+      "source_sha256": "511e4ceb2c58a9719d568d3e3a89c27d5bcb24ebdc52b711de30c30c9a9ecd3d",
+      "crop_sha256": "ad8d17a31c7f8a766e5fc75ca3c56fe6db7168bcd94e5688297ba080a9f7be6e",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C143/input.png",
+      "input_sha256": "830d2204d01ad0686392dca3d80afa44eeb4eb097fe37e1b5c9f7d7a738c119f"
+    },
+    {
+      "sample_id": "E004-EX-C144",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C144",
+      "geometry_accepted": true,
+      "source_sha256": "3d418469097de9786cfae01e801a58b1ea7a3da17e3c7936ce4839b5b2f23452",
+      "crop_sha256": "8fc17efd1e736068b0928867944df02b97208aefb1ed2fc70fec77b704f14495",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C144/input.png",
+      "input_sha256": "760f147a3d7bda6dbae2d161de42f7390cd9036288f38d118f255e35228707ca"
+    },
+    {
+      "sample_id": "E004-EX-C145",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C145",
+      "geometry_accepted": true,
+      "source_sha256": "294f11dd6e840efaf897e449061014fa28edcd0f5685c6dd0fdd12e2b3305c58",
+      "crop_sha256": "020f468e7b3f76c50a451ecae51502fd8177aeb701a476df73a2efbefbeea320",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C145/input.png",
+      "input_sha256": "573e23aa16356a2370f76a1a6ff96706c6d3ef8cef9fa423a487422967b5f9d4"
+    },
+    {
+      "sample_id": "E004-EX-C146",
+      "states": [
+        "U",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C146",
+      "geometry_accepted": true,
+      "source_sha256": "294f11dd6e840efaf897e449061014fa28edcd0f5685c6dd0fdd12e2b3305c58",
+      "crop_sha256": "c88cb0674817de9ebc4c1aec91fa9494c08e0e2abb1e2648a4dfeb8b78f5704b",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C146/input.png",
+      "input_sha256": "6d170da22396932bcc3b3c3fc7a8b0aa1d7d735ff1c30618f40cac56d2879e41"
+    },
+    {
+      "sample_id": "E004-EX-C147",
+      "states": [
+        "P",
+        "U"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C147",
+      "geometry_accepted": true,
+      "source_sha256": "89aaffedbe9d28dab9e1e1a6b0529330207ebb6fe66fa9fc522dd5576d3103fb",
+      "crop_sha256": "31fca80e644c05768bf9c90b78f63a5ec073462dffc5865701a623c69b86180f",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C147/input.png",
+      "input_sha256": "e8670b593256e790d67dad6f2297e56f295479fc854e6b71d3a015d798d49b73"
+    },
+    {
+      "sample_id": "E004-EX-C148",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C148",
+      "geometry_accepted": true,
+      "source_sha256": "40aed75e5f11041344ac099d4d6bd034395180aae2dea882f0cc005f36865348",
+      "crop_sha256": "9abb22e8b308c5e0b004b3bea6c6ef834c6dc588dd848152d27c3a23fa0001ea",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C148/input.png",
+      "input_sha256": "639881047575991f13073d5749adf902782b325beb06075e370106ecc75a0c3a"
+    },
+    {
+      "sample_id": "E004-EX-C149",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C149",
+      "geometry_accepted": true,
+      "source_sha256": "f674b3c186134860a67626d3705812bbe6b1042cfd2fc985417a3053920a9149",
+      "crop_sha256": "16c0466b630025942610bdfb621f23704a1c18d9d97a6876784dfd7482b5d426",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C149/input.png",
+      "input_sha256": "60198f956a63c007b68485638157734db36158836713e6d1cee231086967d74e"
+    },
+    {
+      "sample_id": "E004-EX-C150",
+      "states": [
+        "U",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C150",
+      "geometry_accepted": true,
+      "source_sha256": "f674b3c186134860a67626d3705812bbe6b1042cfd2fc985417a3053920a9149",
+      "crop_sha256": "bd39cc364afee5cba95d0c6f1b78b265a939ab0916a0ca04e2d1d4fca93e70c7",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C150/input.png",
+      "input_sha256": "0407f8b431873d8a507bf70b6a349919bb51708534b5104284809ee638edd29d"
+    },
+    {
+      "sample_id": "E004-EX-C151",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C151",
+      "geometry_accepted": true,
+      "source_sha256": "f26c034b85dc2cd30f504fc3127b0ae6b8bddc9c99dd924d5bec0481e0867a02",
+      "crop_sha256": "10415894c5a32ed5d159e384785705395e9c9127223f23cfea5cd57f567722e6",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C151/input.png",
+      "input_sha256": "63e03f721100b5d92e4db711780d1b7a8e1844190e5a7a20f38c1f3cd002c2dc"
+    },
+    {
+      "sample_id": "E004-EX-C152",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C152",
+      "geometry_accepted": true,
+      "source_sha256": "aa15d4307bc1f41a8c43adf987f4a4b04345912d027471280cd562903641a4c1",
+      "crop_sha256": "718e7c9a00256f4a4c6b727485bcd2b9222302d99b5ca5a24aaf85592a1f26d7",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C152/input.png",
+      "input_sha256": "d1c73dc79fbb29468fdb7209d619f36febe7bd4be7d52ff61d3662efdc05bbf3"
+    },
+    {
+      "sample_id": "E004-EX-C154-R2",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C154-R2",
+      "geometry_accepted": true,
+      "source_sha256": "67416b85fb2866f88c8d6c0eeaebf0650e37e12e378b87e80f3c062f5fbd1afe",
+      "crop_sha256": "1f7c2e53b649aefdccb66a555b1f95eb0919633c5ce1194516ed4caf183cf76f",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C154-R2/input.png",
+      "input_sha256": "8884b5b0b20c66eebacd919015ef16b957bc666019db2d0d408f8c449dbdf9dd"
+    },
+    {
+      "sample_id": "E004-EX-C155",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: N/N; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C155",
+      "geometry_accepted": true,
+      "source_sha256": "5bc56ae7524f87d668dc9f8921a54445c6c4a5c85dd0e633ddb7810969d31d32",
+      "crop_sha256": "de235d3e6b4e5e61d32d9b6e05f4fae04e8f73ee89e8eb28f7051f2e41dba879",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C155/input.png",
+      "input_sha256": "843b0250940788a7d5a1e8d4f206c1bba64eff53d66fad3e8ef5f25c7b7b4f2d"
+    },
+    {
+      "sample_id": "E004-EX-C157-R2",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C157-R2",
+      "geometry_accepted": true,
+      "source_sha256": "44b670f2472b578879b115e4090b5f5eb11e3968efa3078f9d499fc6342352f0",
+      "crop_sha256": "4f1fdf8e0e8d905669bfe7d55998602e62f486b829f2b5f310005f1c75212670",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C157-R2/input.png",
+      "input_sha256": "5d936ee9249e520636f328a20a430e61a4f2e56ee1c538896eb3cc3b1319931e"
+    },
+    {
+      "sample_id": "E004-EX-C158",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: N/N, tại sao tay gần mặt lại cho phone là U? có thể quan sát rõ là không có dấu hiệu gì của phone mà; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C158",
+      "geometry_accepted": true,
+      "source_sha256": "cb754d6612fb829292ad01aed7826bfbe9f2c9e66cb7c494e1d01ef237edc66a",
+      "crop_sha256": "27caa9233b85037c155d19f9501cbbac3f087c2dbfcb48421b43333c0e7bac93",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C158/input.png",
+      "input_sha256": "39290dd816e802843b485a08d272889fc430c02edec6080c42ce492256572005"
+    },
+    {
+      "sample_id": "E004-EX-C159-R2",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C159-R2",
+      "geometry_accepted": true,
+      "source_sha256": "6221f174f0a015822b452e4dc29e2b95c5d4ead5523c01dafd59e45b84c760f5",
+      "crop_sha256": "0d09ec72195f20270d41f59b3b871af61058caae0015879eb17168f5cba37172",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C159-R2/input.png",
+      "input_sha256": "149bf06e98c2da8bbc7280d47a3605ac5fe8a5be81a38e213691797132b92b2b"
+    },
+    {
+      "sample_id": "E004-EX-C160",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C160",
+      "geometry_accepted": true,
+      "source_sha256": "6221f174f0a015822b452e4dc29e2b95c5d4ead5523c01dafd59e45b84c760f5",
+      "crop_sha256": "61a70625016b5f3c4dcdfd5309df4dfbdd0783d8b1e27606adec388c7b85375f",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C160/input.png",
+      "input_sha256": "8a565b5aca9608ecdf9560cfce1abd679e4fb292ab558b0814c9d162de50b836"
+    },
+    {
+      "sample_id": "E004-EX-C161",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C161",
+      "geometry_accepted": true,
+      "source_sha256": "1f7eafd594744d155cf626568fd276e64998df053c68d66fa256c90390ed6134",
+      "crop_sha256": "99c3c464a56cbfedfe9e49f6d463a841f8b4b07fee8e10b5056914b79622e917",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C161/input.png",
+      "input_sha256": "734c2c2b970e5f646374b6a4b06640600235eb1a18c5e71b37aad4394796a455"
+    },
+    {
+      "sample_id": "E004-EX-C162",
+      "states": [
+        "U",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C162",
+      "geometry_accepted": true,
+      "source_sha256": "a900536ec90fc6d810074bc08c02aae7d38abef100f8e3b5ecc023bf8ea469c7",
+      "crop_sha256": "be23a3957b4afd5141f8be26e3bbeea97b279a9fd5fb3d7da9f2869d42245fa2",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C162/input.png",
+      "input_sha256": "23ef725ed244c53a1187569750bac077cac3b1213b364b6660b0f9356ee85c18"
+    },
+    {
+      "sample_id": "E004-EX-C163",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C163",
+      "geometry_accepted": true,
+      "source_sha256": "1cf9a433a5f3c32ef95608b4b627fd5565f6f73ff99942969b868528426a9071",
+      "crop_sha256": "7c2c3e4264dd851bb7478d2f4b4baa06e3c0f374bb2403aec67bc7ae73e7fc84",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C163/input.png",
+      "input_sha256": "f19e70d1f2eb74a3defd83f3f6c681be5ccdb54c26a2c18d01806aabdc70b8cb"
+    },
+    {
+      "sample_id": "E004-EX-C164",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C164",
+      "geometry_accepted": true,
+      "source_sha256": "b337de11259f5a3723f8221a63699d989f3edfe987dbd444eca4be3fb53992ce",
+      "crop_sha256": "1449460330665e309b895517199385daff877bd68e9b6ed67aa9bd03eca70135",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C164/input.png",
+      "input_sha256": "cc236a0444846ec0bc1ae805d675a8016774ba816dfbc47725d209bbb704cf41"
+    },
+    {
+      "sample_id": "E004-EX-C165",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: N/P, tay đặt trên bàn và không có vật gì gây nhiễu; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C165",
+      "geometry_accepted": true,
+      "source_sha256": "507fd65a05432c8c9bbdf46e12851d3818a88f702f7bcaf1e5e8d0e596cc0bff",
+      "crop_sha256": "4ca2c516445bbfef1e45ec79107b25d2fb2b5b3dbe780b47cb0572114f9df0b2",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C165/input.png",
+      "input_sha256": "00290c8369731e393dc5d94ea1f727d11d83223ebeeb5f86be5fc13f8ae1d9de"
+    },
+    {
+      "sample_id": "E004-EX-C166-R2",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C166-R2",
+      "geometry_accepted": true,
+      "source_sha256": "af00eba20d7f7091ef39f847b4e44c7264d7ffd5f48048d9b8b7208dd4256e13",
+      "crop_sha256": "98a0be5837fe56db8f8626060b69275eb01a62387766549f7f579b42f653083d",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C166-R2/input.png",
+      "input_sha256": "466ab941bedfe41ae877a315685fe41dab975f23ce9843951185d07e44cd2ceb"
+    },
+    {
+      "sample_id": "E004-EX-C167",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C167",
+      "geometry_accepted": true,
+      "source_sha256": "0557cbb1e234c51fb32c3a0f4a96444c6f9318c0f96301a3b30a7ba8ba1669c0",
+      "crop_sha256": "843a2599340cc0cf6eb22771311bc68f32d36c2541940191085495e632736df2",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C167/input.png",
+      "input_sha256": "510de2583f73d6014e1e2a72d5843154d2ef8b6833f668230bc646b5051d9110"
+    },
+    {
+      "sample_id": "E004-EX-C168",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C168",
+      "geometry_accepted": true,
+      "source_sha256": "0557cbb1e234c51fb32c3a0f4a96444c6f9318c0f96301a3b30a7ba8ba1669c0",
+      "crop_sha256": "200d2b47d777c7e84ee0e7ee9ce210531a303491e8e223d84efbe67b257093d5",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C168/input.png",
+      "input_sha256": "9044bb5cc4f50f9ec79716513a51c9704da10a707b1e845564040bd5b93f97a1"
+    },
+    {
+      "sample_id": "E004-EX-C169",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C169",
+      "geometry_accepted": true,
+      "source_sha256": "38db75e904735a4a7e8eb063650780f257b63bc932ed61f866c38949a62867a6",
+      "crop_sha256": "5fa3a88b90af044177f65bc588f597a186c5a48caa17668c89b27a39c8a327aa",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C169/input.png",
+      "input_sha256": "e864808dccb213564334a30a2cc36f24324c4dba1443bbc7958514e09def2a9a"
+    },
+    {
+      "sample_id": "E004-EX-C170-R2",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C170-R2",
+      "geometry_accepted": true,
+      "source_sha256": "1165846f21a50e55cbe3069dbaa8edae543ce55bb7778c9659a2341a6752f879",
+      "crop_sha256": "ce3bffeb421c85d74480332ce3bbf55d8fe89163fbb906b1a374e4cf16255079",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C170-R2/input.png",
+      "input_sha256": "739dba26552ff5a55c665206f375f05c902e2bba2f2163e299eb5c76ac26d2d9"
+    },
+    {
+      "sample_id": "E004-EX-C171",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C171",
+      "geometry_accepted": true,
+      "source_sha256": "64bf0ce8d58c519efa5ca8f55d1cd28455beb9cd04bd41f5b763a3729dee5f73",
+      "crop_sha256": "ff82bd6a02abffd26001cb543a6329c71617169d6e58b17ba935472d2a701664",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C171/input.png",
+      "input_sha256": "fdb822276b05039a013c04863beecb31b688740362a7b877fbe948f56dbb8429"
+    },
+    {
+      "sample_id": "E004-EX-C172",
+      "states": [
+        "U",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C172",
+      "geometry_accepted": true,
+      "source_sha256": "1872678b2b9037edd049ce65b8215a9ee380a563f785e47a75c9c080a52a519c",
+      "crop_sha256": "725fd4b75ec284331607e61065d841e5c8d7a612b35b85aebc111a20b3136eda",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C172/input.png",
+      "input_sha256": "29063f33515a0ade37e123fe941790b895292531feb0a458dc490d14452a49af"
+    },
+    {
+      "sample_id": "E004-EX-C173",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C173",
+      "geometry_accepted": true,
+      "source_sha256": "b4358efe29f34c509968206ce41b779278cf14245104b99ebb5abc19d0fe23f1",
+      "crop_sha256": "2349c22f3370945b33d90a1242e0e9890ccb4cf637e5949b0c9761be7f4118b7",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C173/input.png",
+      "input_sha256": "2fdd3a6cfd5e4cbc51db30dca2bdcab1098f3db8d61780fb259cd61d47d50453"
+    },
+    {
+      "sample_id": "E004-EX-C174",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C174",
+      "geometry_accepted": true,
+      "source_sha256": "6092b249d56ab8c9cb78684af8008244f8d5aa3433a775ac6af5e87a610656a4",
+      "crop_sha256": "d183d2aaa05cc3d2a90b4d370c1e8d73b3739602e676aa5fbdc3704c851702de",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C174/input.png",
+      "input_sha256": "a4cc84cf309fa96673d683b1673bcfe351e7e980805102c167be4205b73b2483"
+    },
+    {
+      "sample_id": "E004-EX-C175",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C175",
+      "geometry_accepted": true,
+      "source_sha256": "a698cf6c56d97cba3edde51a121a7c18bd9d10fe51de84435c2a5a7d3e113ff6",
+      "crop_sha256": "7e10a9a3dff48fa46859615e2481e99a33685f0824f7fda34043112e3c3e689d",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C175/input.png",
+      "input_sha256": "f65ff8038cf5066a05250fdb0f06217975c8863fdb79774666d0e10dc170f519"
+    },
+    {
+      "sample_id": "E004-EX-C176",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C176",
+      "geometry_accepted": true,
+      "source_sha256": "a698cf6c56d97cba3edde51a121a7c18bd9d10fe51de84435c2a5a7d3e113ff6",
+      "crop_sha256": "d3fadbd017fc1060cdec13e75eb4d8cc31582c46b83e243208524371bc8ba220",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C176/input.png",
+      "input_sha256": "0e476ce417dfdce1d6f933afa0b9ad2bc6e66f756e55a8f9aeedfee6b349d595"
+    },
+    {
+      "sample_id": "E004-EX-C177",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C177",
+      "geometry_accepted": true,
+      "source_sha256": "48fe80aa3f4346494ce6414fd5db05f0cb42ae8c074fe4c35444583deb6945d6",
+      "crop_sha256": "3407ba9e09782b4ea56e88fc729ef1fd238bf144e81be5ec010b55b960e3a529",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C177/input.png",
+      "input_sha256": "be19e2382e32c03699885f23b891f3f3b992363767833829f9327417cdf6e930"
+    },
+    {
+      "sample_id": "E004-EX-C178",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C178",
+      "geometry_accepted": true,
+      "source_sha256": "38b511e6f33658fa9c58ef4315d9540292fbe7bab6bf317b41808393bb3f6c02",
+      "crop_sha256": "b780503035e8e31dd36d6849122f17b11952d302e768c9f23832948fc63ca914",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C178/input.png",
+      "input_sha256": "c5bcee99cdf37b9304973fc506de2de894c4efb26d0157e7b6c4c011ba526c93"
+    },
+    {
+      "sample_id": "E004-EX-C179",
+      "states": [
+        "N",
+        "U"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C179",
+      "geometry_accepted": true,
+      "source_sha256": "8273c4a70e67ae9b8185416c80a344982ee8b54140178ca85d05f071b7edbe96",
+      "crop_sha256": "6653f9ff6364734d9d38124d34e79c006911a822d6c31ae6be06e092da003f29",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C179/input.png",
+      "input_sha256": "b9fe3b36dd735c0be328b9aa5f2c3aed8d890a0ffe64f3bbdf56ca324848fbec"
+    },
+    {
+      "sample_id": "E004-EX-C180",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C180",
+      "geometry_accepted": true,
+      "source_sha256": "cb07ab86c4a5d81d8093305b4dfdba0aaeb0c98edc17ede8da547e402caa5007",
+      "crop_sha256": "ba7760f176068ec0463b447d5f8eaea6f6fa32a10dd6d5bfdebb1b1175a2400b",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C180/input.png",
+      "input_sha256": "7d0001ecb8c39f354ac32852731e9a1483ea8d8e7a92166b828e32b87784722c"
+    },
+    {
+      "sample_id": "E004-EX-C181",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C181",
+      "geometry_accepted": true,
+      "source_sha256": "e5e28e48e4dcadcb41c23fa7315a2d4803bc270e76fd1337160399f224464c11",
+      "crop_sha256": "f03908a49ad9ef124ae12d56c2ddac8644338ec62fb555c3ec96155ae3cf9085",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C181/input.png",
+      "input_sha256": "b61c88d3dc860be18a45082ea748862aa7c6810a85f1679529ac9b08e938e6b2"
+    },
+    {
+      "sample_id": "E004-EX-C182",
+      "states": [
+        "P",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C182",
+      "geometry_accepted": true,
+      "source_sha256": "e5e28e48e4dcadcb41c23fa7315a2d4803bc270e76fd1337160399f224464c11",
+      "crop_sha256": "246d11191cda9bfa4b8b2096681ed5314ab841c1c7b492ca6fbe6d6fed0e9532",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C182/input.png",
+      "input_sha256": "0b3f7e836a72c16725bc34b1d25a912a7db52581fe54adf83755fc70cd91a261"
+    },
+    {
+      "sample_id": "E004-EX-C183",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C183",
+      "geometry_accepted": true,
+      "source_sha256": "1bb24f735a952abb28f8b9557ff0247c06e8fa49c39a9d514a1a29e6005b1249",
+      "crop_sha256": "533ddf8db9f8c28ccbbf1e85a442850630c2404d04a53861aefa0abf46e25db5",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C183/input.png",
+      "input_sha256": "d42d5c5e7b80438d834b67c01cf26e8120b5f433a94ec2f61d5235987f57c2b7"
+    },
+    {
+      "sample_id": "E004-EX-C184",
+      "states": [
+        "N",
+        "U"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C184",
+      "geometry_accepted": true,
+      "source_sha256": "1bb24f735a952abb28f8b9557ff0247c06e8fa49c39a9d514a1a29e6005b1249",
+      "crop_sha256": "9c4718f9ee8c0f51e72bf79c48a134fca94f3e58e5a612a328ccecf121a6dc17",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C184/input.png",
+      "input_sha256": "bcc90a4ae61e8916c9fc2cb045d7cf1d8d66892c34a214dcfdaa706ebf5c078f"
+    },
+    {
+      "sample_id": "E004-EX-C185",
+      "states": [
+        "P",
+        "U"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C185",
+      "geometry_accepted": true,
+      "source_sha256": "6593cd01c22bb8491b9b30f9f0c9139bbf6b06ce54a19159630d36e3aa1e3084",
+      "crop_sha256": "e5420e9b48341732359450d15776bd88a7aaf8a338bf94e638bdedab1d2b91a2",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C185/input.png",
+      "input_sha256": "1f3cf8c893668d382a51d23689e52f3497f98e8bb3aa6c036f798858810febb1"
+    },
+    {
+      "sample_id": "E004-EX-C186",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C186",
+      "geometry_accepted": true,
+      "source_sha256": "37da1c3998e9a12bd07e68511aba1f2b1f4c885b9bae13d1fe74b27d65d3539a",
+      "crop_sha256": "bd4d009eb5e70ada6b7d34f8e0572db0df6e515a9aecc4e23da5ac78a8963e8b",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C186/input.png",
+      "input_sha256": "72a288fac3d3f6451a37546983ecea448259c4fbe44c3408d6faf360396bbcc2"
+    },
+    {
+      "sample_id": "E004-EX-C187",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C187",
+      "geometry_accepted": true,
+      "source_sha256": "37da1c3998e9a12bd07e68511aba1f2b1f4c885b9bae13d1fe74b27d65d3539a",
+      "crop_sha256": "7eba9a10c41929bb8e80e5fdd48055f0172645260c5d667987a7b199f34dc67c",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C187/input.png",
+      "input_sha256": "45c4df14afc46d9e149588f32fe223332bf96a60cda47313c2b8b9d9a00f10f1"
+    },
+    {
+      "sample_id": "E004-EX-C188",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C188",
+      "geometry_accepted": true,
+      "source_sha256": "cf1b0b3e037b2c0dcee8ba3916695fa7ec943a227e280029df3ad0c4b3be6984",
+      "crop_sha256": "30c509d9d2c931c301417fb7e35ca47facc09c4cc133ab98615c9f1145feeac5",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C188/input.png",
+      "input_sha256": "fca21026967cf90b1cd913ee218901af080bfe2d345c076cfc511fe804ab7e64"
+    },
+    {
+      "sample_id": "E004-EX-C189",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C189",
+      "geometry_accepted": true,
+      "source_sha256": "cf1b0b3e037b2c0dcee8ba3916695fa7ec943a227e280029df3ad0c4b3be6984",
+      "crop_sha256": "1a4ede852729bf157f688d204a22eb63376173273d10589f825a343aec598048",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C189/input.png",
+      "input_sha256": "fb4ab92215f821441fee5ec4e71f93fd5070c932a548c8b85b297bf7355ecc3d"
+    },
+    {
+      "sample_id": "E004-EX-C190",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C190",
+      "geometry_accepted": true,
+      "source_sha256": "6f8ce50ce59c42840a732a13e8d4315815487ee246de15f6df4f0b90f695bee7",
+      "crop_sha256": "4d94e26c05dcc40e44101441eb4e8574cc5dbf25769742249804650598ab9665",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C190/input.png",
+      "input_sha256": "0ed50ac67739c56f37fc9624e7942650b319ead2ce618d97e1a7433ea2140641"
+    },
+    {
+      "sample_id": "E004-EX-C191",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C191",
+      "geometry_accepted": true,
+      "source_sha256": "6f14bc8ea79370b977aba3917c35f3f316b8ae574bd81a2da517188c18e0b533",
+      "crop_sha256": "c4169f4146a8d050eeadc6f29b33386af488878f37e2058b10ca015c753ae9f3",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C191/input.png",
+      "input_sha256": "46309d4fb08adb95c47877ff2264da83212f006e9cb03805c1dc8036ee6460f7"
+    },
+    {
+      "sample_id": "E004-EX-C192",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C192",
+      "geometry_accepted": true,
+      "source_sha256": "6f14bc8ea79370b977aba3917c35f3f316b8ae574bd81a2da517188c18e0b533",
+      "crop_sha256": "da6df1c4cee7a51cf6aac41dd28cdc7fe2c4ba1c1703414802761093b13244a2",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C192/input.png",
+      "input_sha256": "881f838bbc3861645ed7702cae7a033ef0ccf5c15d42f84826e2e1f08dcc682d"
+    },
+    {
+      "sample_id": "E004-EX-C193",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Owner review revision: N/N, vật trong tay rõ ràng là bút; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C193",
+      "geometry_accepted": true,
+      "source_sha256": "f2716234fe70ce17f59daf5367c9e3321268ab366fd43110605051468435f85a",
+      "crop_sha256": "d5870569ce3a2c9248c3be30edbcc4325f81909088c5172ddf0b26b47ec1cae9",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C193/input.png",
+      "input_sha256": "52a0936b8ca7d79d94d79e2f541556befaca5faba6e2cf4372399925fb2445e0"
+    },
+    {
+      "sample_id": "E004-EX-C194",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C194",
+      "geometry_accepted": true,
+      "source_sha256": "745d632e4abf8a0044f3d521153f2d1c3229f38a4dcf895f4b68321a4d185f93",
+      "crop_sha256": "40064e1d8e67fd965312ae8393034d53c99d43ca261d388c435d67198ac01bdf",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C194/input.png",
+      "input_sha256": "d329e6985347809c8b0ac4e857def8046b842d7e37b3acee9f4687ddf24ecb82"
+    },
+    {
+      "sample_id": "E004-EX-C195",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C195",
+      "geometry_accepted": true,
+      "source_sha256": "a9c7fe4170b6cfc800320e7dff2f17409f25993a9ca35e92a6f279b1f30656b5",
+      "crop_sha256": "2a17f3095dfe9fcc886b1a43c9435712cbfd928ae9ac3439a978ecbec157553b",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C195/input.png",
+      "input_sha256": "9ef6b37f34bd1ceaa516f3a9b8f3a7048c53374917a1e3de7076c5cfba745ca2"
+    },
+    {
+      "sample_id": "E004-EX-C196",
+      "states": [
+        "U",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C196",
+      "geometry_accepted": true,
+      "source_sha256": "1e418e3c45dcd7f534341402066dd4836e105acd78407b41ed56536ebb1edf4a",
+      "crop_sha256": "110b68eaba0c99e9ab0ee0acca81ddd35d44898e63f50079c862161d0301be41",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C196/input.png",
+      "input_sha256": "1605523c28c349dc9cb25eff91ac1b512279e527937ff15c1321bf17f55d980b"
+    },
+    {
+      "sample_id": "E004-EX-C197",
+      "states": [
+        "N",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C197",
+      "geometry_accepted": true,
+      "source_sha256": "1e418e3c45dcd7f534341402066dd4836e105acd78407b41ed56536ebb1edf4a",
+      "crop_sha256": "9e4f6c11c463c65cad4c8ebd18fd0b20ad2b6b9bd33911bc1c22d30d11421003",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C197/input.png",
+      "input_sha256": "ef0afe5315777532439b6a9de0bda83c73ee29086eda49832ef65886543a1152"
+    },
+    {
+      "sample_id": "E004-EX-C199",
+      "states": [
+        "P",
+        "P"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C199",
+      "geometry_accepted": true,
+      "source_sha256": "34c617de80eb7c4e73dc9b13a066987e579c2f0b0efa10dbf0c628e531402394",
+      "crop_sha256": "5ccf60fca1be0ef67e1e9e8667a873c62f7880e9d1f5aca9c5dba63f87ec628f",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C199/input.png",
+      "input_sha256": "b0f7d72e28e5ed9922cde8f4ed941d52f1d4143e141c4309660f7263a8365453"
+    },
+    {
+      "sample_id": "E004-EX-C200",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C200",
+      "geometry_accepted": true,
+      "source_sha256": "b9ce56a8f84d40b692b8acc856b3a948a1bab227399301f1985fb512bbfaf3e8",
+      "crop_sha256": "2ad78a710b30b282b1abd3904a9daf4d697b73d7ff35ea5d182dd7115af60d84",
+      "input_relpath": "data/interim/E004-source-expansion-20261013/crops/E004-EX-C200/input.png",
+      "input_sha256": "b6ecc56316cb4135e3245f29f3ec64ce36439d94eb526c2bd7c10f0497e17386"
+    }
+  ]
+}

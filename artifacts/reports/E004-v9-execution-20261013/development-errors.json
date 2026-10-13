@@ -1,0 +1,862 @@
+{
+  "E004-V9-LP": [
+    {
+      "sample_id": "E004-CF-C007",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.3221319913864136,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-CF-C008",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fp",
+      "score": 0.7091714143753052,
+      "label": 0
+    },
+    {
+      "sample_id": "E004-CF-C009",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.45878180861473083,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-CF-C011",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.17360053956508636,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-CF-C016",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.4379834532737732,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-CF-C016",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.11544343829154968,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-CF-C018",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.139656662940979,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-CF-C021",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.3656787574291229,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-CF-C028",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fp",
+      "score": 0.7007051706314087,
+      "label": 0
+    },
+    {
+      "sample_id": "E004-CF-C028",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.23489463329315186,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-CF-C029",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fp",
+      "score": 0.8072341084480286,
+      "label": 0
+    },
+    {
+      "sample_id": "E004-CF-C031",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fp",
+      "score": 0.6591110825538635,
+      "label": 0
+    },
+    {
+      "sample_id": "E004-CN-042",
+      "group_id": "STU-instructional-view-12",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.4995856285095215,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-CN-044",
+      "group_id": "STU-instructional-view-13",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.29599013924598694,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-CN-045",
+      "group_id": "STU-instructional-view-13",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.2874469757080078,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-CN-048",
+      "group_id": "STU-instructional-view-44",
+      "target": "phone",
+      "error": "fp",
+      "score": 0.6057567596435547,
+      "label": 0
+    },
+    {
+      "sample_id": "E004-CN-048",
+      "group_id": "STU-instructional-view-44",
+      "target": "looking",
+      "error": "fp",
+      "score": 0.5922456979751587,
+      "label": 0
+    },
+    {
+      "sample_id": "E004-CN-052",
+      "group_id": "STU-instructional-view-54",
+      "target": "phone",
+      "error": "fp",
+      "score": 0.5630466341972351,
+      "label": 0
+    },
+    {
+      "sample_id": "E004-EX-C006",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.41491857171058655,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C021-R2",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fp",
+      "score": 0.6588051319122314,
+      "label": 0
+    },
+    {
+      "sample_id": "E004-EX-C026",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.1563938558101654,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C029",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.12368550151586533,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C030",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.43062466382980347,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C041",
+      "group_id": "EX-LECTURE",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.36031192541122437,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C044",
+      "group_id": "EX-ROUND-DESK",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.4251258075237274,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C048",
+      "group_id": "EX-LECTURE",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.2524382472038269,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C049",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.37758520245552063,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C055",
+      "group_id": "EX-LECTURE",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.1771610975265503,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C055",
+      "group_id": "EX-LECTURE",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.41947460174560547,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C066",
+      "group_id": "EX-LECTURE",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.32994043827056885,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C117",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.4079195559024811,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C120",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.1401197910308838,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C121",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.47486424446105957,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C123",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.30445238947868347,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C124",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.24876244366168976,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C125",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.4434340298175812,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C143",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.26919710636138916,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C144",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.16108866035938263,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C165",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.4074672758579254,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C166-R2",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fp",
+      "score": 0.7198101282119751,
+      "label": 0
+    },
+    {
+      "sample_id": "E004-EX-C169",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fp",
+      "score": 0.8045160174369812,
+      "label": 0
+    },
+    {
+      "sample_id": "E004-EX-C170-R2",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fp",
+      "score": 0.5517174005508423,
+      "label": 0
+    },
+    {
+      "sample_id": "E004-EX-C170-R2",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.24301117658615112,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C171",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fp",
+      "score": 0.7061534523963928,
+      "label": 0
+    },
+    {
+      "sample_id": "E004-EX-C194",
+      "group_id": "EX-ROUND-DESK",
+      "target": "phone",
+      "error": "fp",
+      "score": 0.544194757938385,
+      "label": 0
+    },
+    {
+      "sample_id": "E004-EX-C194",
+      "group_id": "EX-ROUND-DESK",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.1585017591714859,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C195",
+      "group_id": "EX-LECTURE",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.26411280035972595,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C199",
+      "group_id": "EX-LECTURE",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.22221581637859344,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C199",
+      "group_id": "EX-LECTURE",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.35175377130508423,
+      "label": 1
+    }
+  ],
+  "E004-V9-L4": [
+    {
+      "sample_id": "E004-CF-C007",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.3044579327106476,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-CF-C008",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fp",
+      "score": 0.5664585828781128,
+      "label": 0
+    },
+    {
+      "sample_id": "E004-CF-C009",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.38757291436195374,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-CF-C011",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.18719254434108734,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-CF-C016",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.2764381766319275,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-CF-C016",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.19437561929225922,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-CF-C018",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.20731306076049805,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-CF-C021",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.27325204014778137,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-CF-C028",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fp",
+      "score": 0.5379508137702942,
+      "label": 0
+    },
+    {
+      "sample_id": "E004-CF-C028",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.4332868158817291,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-CF-C029",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fp",
+      "score": 0.5620657801628113,
+      "label": 0
+    },
+    {
+      "sample_id": "E004-CF-C031",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fp",
+      "score": 0.5961432456970215,
+      "label": 0
+    },
+    {
+      "sample_id": "E004-CN-042",
+      "group_id": "STU-instructional-view-12",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.4391838312149048,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-CN-044",
+      "group_id": "STU-instructional-view-13",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.30629727244377136,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-CN-045",
+      "group_id": "STU-instructional-view-13",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.39007139205932617,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-CN-052",
+      "group_id": "STU-instructional-view-54",
+      "target": "phone",
+      "error": "fp",
+      "score": 0.5162160992622375,
+      "label": 0
+    },
+    {
+      "sample_id": "E004-EX-C006",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.30632057785987854,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C009",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.40928688645362854,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C026",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.1694636195898056,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C027",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.38493484258651733,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C029",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.13935205340385437,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C030",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.28252285718917847,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C041",
+      "group_id": "EX-LECTURE",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.28991591930389404,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C042",
+      "group_id": "EX-LECTURE",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.3833375573158264,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C044",
+      "group_id": "EX-ROUND-DESK",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.10393700003623962,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C048",
+      "group_id": "EX-LECTURE",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.31443434953689575,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C049",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.29611289501190186,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C050",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.3765983581542969,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C054",
+      "group_id": "EX-LECTURE",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.4145466387271881,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C055",
+      "group_id": "EX-LECTURE",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.20721381902694702,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C055",
+      "group_id": "EX-LECTURE",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.3339826464653015,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C056",
+      "group_id": "EX-LECTURE",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.338278204202652,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C056",
+      "group_id": "EX-LECTURE",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.4111163914203644,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C066",
+      "group_id": "EX-LECTURE",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.3466018736362457,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C117",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.4124643802642822,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C118",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.40357211232185364,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C120",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.18625740706920624,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C121",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.21900996565818787,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C123",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.35306164622306824,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C124",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.20710064470767975,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C125",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.29221031069755554,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C129",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.49462416768074036,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C139",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.2082591950893402,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C143",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.37390220165252686,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C144",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.2279159277677536,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C152",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.4604244828224182,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C165",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.3597636818885803,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C166-R2",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fp",
+      "score": 0.505709171295166,
+      "label": 0
+    },
+    {
+      "sample_id": "E004-EX-C166-R2",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fp",
+      "score": 0.5702425241470337,
+      "label": 0
+    },
+    {
+      "sample_id": "E004-EX-C169",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fp",
+      "score": 0.5378878116607666,
+      "label": 0
+    },
+    {
+      "sample_id": "E004-EX-C169",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fp",
+      "score": 0.5378990769386292,
+      "label": 0
+    },
+    {
+      "sample_id": "E004-EX-C170-R2",
+      "group_id": "CF-Q072",
+      "target": "phone",
+      "error": "fp",
+      "score": 0.508979856967926,
+      "label": 0
+    },
+    {
+      "sample_id": "E004-EX-C170-R2",
+      "group_id": "CF-Q072",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.32960933446884155,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C194",
+      "group_id": "EX-ROUND-DESK",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.06999319046735764,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C195",
+      "group_id": "EX-LECTURE",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.3203144073486328,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C198",
+      "group_id": "EX-LECTURE",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.4035804271697998,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C199",
+      "group_id": "EX-LECTURE",
+      "target": "phone",
+      "error": "fn",
+      "score": 0.23553158342838287,
+      "label": 1
+    },
+    {
+      "sample_id": "E004-EX-C199",
+      "group_id": "EX-LECTURE",
+      "target": "looking",
+      "error": "fn",
+      "score": 0.2836787700653076,
+      "label": 1
+    }
+  ]
+}

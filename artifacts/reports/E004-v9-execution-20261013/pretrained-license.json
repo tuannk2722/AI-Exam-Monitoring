@@ -1,0 +1,18 @@
+{
+  "scope": "local_classifier_research",
+  "weights": {
+    "path": "outputs/pretrained/resnet18-f37072fd.pth",
+    "sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+  },
+  "receipt": {
+    "path": "outputs/pretrained/receipt.json",
+    "sha256": "b66adeb1718ffd78d3e345b22a93adc0b64c5047bbbd75dc49e65d663c95d714"
+  },
+  "historical_terms": {
+    "path": "artifacts/reports/E004-v9-execution-20261013/pretrained-original-terms.md",
+    "sha256": "68c2b475f1de5aff2ae342bdb246e52c04b36748d481468787fcd650d0867b4c"
+  },
+  "historical_locator": "git ab34b32:docs/experiments/E001-runbook.md",
+  "new_download": false,
+  "redistribution_authorized": false
+}

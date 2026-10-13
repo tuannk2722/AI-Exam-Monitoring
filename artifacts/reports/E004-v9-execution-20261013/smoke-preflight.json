@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "matched_signature": "9570624659f7895afb22cbdf9f7acad184eaef37139d7e873c9b3cc1ec6c63e9",
+  "cohorts": {
+    "train": 716,
+    "selection": 71,
+    "diagnostic49": 49,
+    "comparator48": 48,
+    "added35": 35
+  },
+  "no_holdout_loaded": true,
+  "weights_sha256_verified": true,
+  "head": {
+    "path": "data/interim/E004-v9-execution-20261013/initial-head.pt",
+    "sha256": "235907aa41a8c161879e8bebfa4c83ff56128e6bb4f864c8b7474eee9ed33101"
+  }
+}

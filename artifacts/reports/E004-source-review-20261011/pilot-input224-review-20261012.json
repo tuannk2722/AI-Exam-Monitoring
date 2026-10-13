@@ -1,0 +1,4041 @@
+[
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-001",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      1,
+      1
+    ],
+    "changed_since_initial_state": true,
+    "context_xyxy": [
+      813,
+      454,
+      1068,
+      756
+    ],
+    "crop_sha256": "c36707ce1ae2cdf2552d6b2a430a50c536b94794eb885d330a96f2b681681e83",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Vật nhỏ ở tay/bàn chưa phân biệt chắc mobile; không map phone nguồn sang P.",
+    "draft_scene_boundary": "BEH-bright-worktables",
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "3319ef7f8499ad08b66e556b14bf742676747a1d634c1ec8078d0475c1e48e1b",
+    "input_sha256": "ade5ac40cd06c8be61744d7ad70424475d6f664211f0aaeff3238a9d31c52a20",
+    "input_size": 224,
+    "label_sha256": "f8df1fda120f67d636c8df3120174cc3359a22c041ff36af445ae3a9145ffd0e",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-001",
+    "owner_accepted_states": [
+      "P",
+      "P"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-001",
+    "person_xyxy": [
+      853,
+      475,
+      990,
+      718
+    ],
+    "phenotype": "small_device_or_book",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Mobile trên bàn dưới tay anchor nhìn rõ; đầu quay sang bên ngoài vùng bài. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-00045fefb430c79f-5b984b7c",
+    "reviewed_draft_states": [
+      "P",
+      "P"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "5b984b7c0fc6d42c395b104e2cfe5fe4c26585e8031bf3314e9b9d0c8f73d598",
+    "source_sha256": "00045fefb430c79f4ba51ef7f91e8e5d053f3bb0a7428171c56139c44707f03e",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-003",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      1,
+      1
+    ],
+    "changed_since_initial_state": true,
+    "context_xyxy": [
+      715,
+      0,
+      1441,
+      1080
+    ],
+    "crop_sha256": "a79e929e6d34a457b20c67ae9b1a478b4f7ee2d0bbd47dc12f69c15d97c882a8",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Thiết bị dạng mobile gắn với tay/bàn của anchor; kiểm lại phân biệt mobile và ownership tại 224.",
+    "draft_scene_boundary": "BEH-chair-staging",
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "0bb0984fb35e32e1dfd7adfad1192042c56d3c014813f63a17209a58563468ce",
+    "input_sha256": "4e50d5018d18116dacfd9cb6df1816cef7e5e39d9625b359ddc49ca05bc36355",
+    "input_size": 224,
+    "label_sha256": "9db296d0f1b5c58488f94ca28370fb6ce43daec37d8312c1b098c503fa83b924",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-003",
+    "owner_accepted_states": [
+      "P",
+      "P"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-003",
+    "person_xyxy": [
+      760,
+      5,
+      1392,
+      1064
+    ],
+    "phenotype": "handheld_phone_control",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Mobile ở tay rõ, gaze hướng bên trái ngoài bàn riêng; bỏ looking N ban đầu. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-00869141080411f8-0f38e460",
+    "reviewed_draft_states": [
+      "P",
+      "P"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "0f38e460078bf92a9231025d852ff9d76b1c8f28d28c344aa4c0d05eb0a7644b",
+    "source_sha256": "00869141080411f8892d45d8751a82d825ad4a9f3f9818c004110649bca8aa79",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "explicit_markdown",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-004",
+    "canonical_mask": [
+      0,
+      1
+    ],
+    "canonical_targets": [
+      null,
+      0
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      490,
+      405,
+      902,
+      1080
+    ],
+    "crop_sha256": "51dbb196917daf10d0330661de0f1afd8a8034fb1efd0871415acaf0e6306bf7",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Đầu hướng về anchor/bên cạnh, context giữ vùng bài riêng; phone chưa đủ evidence thì U.",
+    "draft_scene_boundary": "BEH-yellow-flags",
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "6a5bcbbcd0e22ae1fa9c305250618945875831af49b5f8d26be0beb7fe9f5fea",
+    "input_sha256": "85a4e02ed94ed18bc0ece0794babe33df98436d42bca57c0851ec04db9b745d1",
+    "input_size": 224,
+    "label_sha256": "5f9947d71b8aaa6662f8e358c6da7ce5be02fcea21fe8050b41c330a76cf86da",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-004",
+    "owner_accepted_states": [
+      "U",
+      "N"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-004",
+    "person_xyxy": [
+      588,
+      437,
+      813,
+      1080
+    ],
+    "phenotype": "side_gaze_workarea",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Owner xác nhận đầu về bài làm, hơi cúi dưới bàn; phone U, looking N.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-001ce4967d681ff7-29b86b82",
+    "reviewed_draft_states": [
+      "U",
+      "N"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "29b86b82d62fd8a4b684400a73b23c49ca38f29c002d020d1921cbfbe4030d87",
+    "source_sha256": "001ce4967d681ff769e64b70af8a081966e8be64852d9cd10018bdbaead21dc3",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-005",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      0,
+      1
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      764,
+      378,
+      1176,
+      1058
+    ],
+    "crop_sha256": "9ddffd98e6cc11759c269474fd63e18e3b16932ff5fe2d647824ebccd0b096b3",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+    "draft_scene_boundary": "BEH-yellow-flags",
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "b1ccfca372612a9426006ac62bc79f7e4f091865c1d341f4c94732e15b5f437e",
+    "input_sha256": "69a6042a387e112569e1cd1ca4b37885281d4be1f70678c341256b0eb5689885",
+    "input_size": 224,
+    "label_sha256": "5f9947d71b8aaa6662f8e358c6da7ce5be02fcea21fe8050b41c330a76cf86da",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-005",
+    "owner_accepted_states": [
+      "N",
+      "P"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-005",
+    "person_xyxy": [
+      823,
+      416,
+      1107,
+      1042
+    ],
+    "phenotype": "own_paper_pen",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Native cho thấy head hướng sang trái ngoài giấy riêng; hai tay ở giấy, không giữ looking N. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "qa_revision": "native_followup",
+    "review_id": "BEH-001ce4967d681ff7-29b86b82",
+    "reviewed_draft_states": [
+      "N",
+      "P"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "29b86b82d62fd8a4b684400a73b23c49ca38f29c002d020d1921cbfbe4030d87",
+    "source_sha256": "001ce4967d681ff769e64b70af8a081966e8be64852d9cd10018bdbaead21dc3",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "explicit_markdown",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-006",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      0,
+      1
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      1176,
+      464,
+      1666,
+      1080
+    ],
+    "crop_sha256": "f6564f0e0cedda86b8677827271d2b691b80da80d72475751c4887d8af5ada46",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+    "draft_scene_boundary": "BEH-yellow-flags",
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "fa26467c90ddeb26986d669f22a583cd2a14449f69331e560786ec67df9f6441",
+    "input_sha256": "81e0beb768ecc25506727f40b0c995d6db8d54a4001a17c15e5dd9150f6c6ad5",
+    "input_size": 224,
+    "label_sha256": "5f9947d71b8aaa6662f8e358c6da7ce5be02fcea21fe8050b41c330a76cf86da",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-006",
+    "owner_accepted_states": [
+      "N",
+      "P"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-006",
+    "person_xyxy": [
+      1274,
+      502,
+      1568,
+      1080
+    ],
+    "phenotype": "own_paper_pen",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Owner xác nhận hướng đầu/nhìn sang trái ngoài vùng bài; N/P.",
+    "qa_reviewer": "repository-owner",
+    "qa_revision": "native_followup",
+    "review_id": "BEH-001ce4967d681ff7-29b86b82",
+    "reviewed_draft_states": [
+      "N",
+      "P"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "29b86b82d62fd8a4b684400a73b23c49ca38f29c002d020d1921cbfbe4030d87",
+    "source_sha256": "001ce4967d681ff769e64b70af8a081966e8be64852d9cd10018bdbaead21dc3",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "explicit_markdown",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-007",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      0,
+      0
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      245,
+      410,
+      813,
+      1080
+    ],
+    "crop_sha256": "6ec6df6b633f700e66a2dbf8a46d9c9f22899f46e2b213c70b540fa12044670e",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Đầu hướng về anchor/bên cạnh, context giữ vùng bài riêng; phone chưa đủ evidence thì U. Hai tay/vùng giấy nhìn thấy.",
+    "draft_scene_boundary": "BEH-worn-benches",
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "91cb3ad1709ffa9305a6d3db957385fe347d89fea3a3eedff1a1fd00cb1ca1cd",
+    "input_sha256": "9fc00ec3148cff9a47297b157be0ac56b3d62c84c69551a801727b3c7d370b69",
+    "input_size": 224,
+    "label_sha256": "558ede58db11f07c1188746c68f19a428407db05cbc1ea3e6951654d3b234664",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-007",
+    "owner_accepted_states": [
+      "N",
+      "N"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-007",
+    "person_xyxy": [
+      284,
+      448,
+      647,
+      1053
+    ],
+    "phenotype": "side_gaze_versus_writing",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Owner xác nhận đầu vẫn hướng bài làm, chỉ hơi chếch; N/N.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-003a39144c5194f9-a462c79d",
+    "reviewed_draft_states": [
+      "N",
+      "N"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "a462c79d347e8dd62eda793cf6a9d20573bc0e6bf93e9916b92377131e19df90",
+    "source_sha256": "003a39144c5194f99aa3abd98666930981bd3f4e9dd925b18311bfec6d81ab3c",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-008",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      0,
+      0
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      1049,
+      400,
+      1548,
+      1053
+    ],
+    "crop_sha256": "f6c2e01d702616941df8a407de028ef24e790ea6144e716da348f8235166915a",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+    "draft_scene_boundary": "BEH-worn-benches",
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "40f9864f6b0287e18f5147731781854a51e6d3e9bc11729f45db5ba17c68970b",
+    "input_sha256": "419a6ca75759628b352c5297423a2bd51abec78c976723f4de428bd9532705c2",
+    "input_size": 224,
+    "label_sha256": "558ede58db11f07c1188746c68f19a428407db05cbc1ea3e6951654d3b234664",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-008",
+    "owner_accepted_states": [
+      "N",
+      "N"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-008",
+    "person_xyxy": [
+      1117,
+      437,
+      1441,
+      1004
+    ],
+    "phenotype": "own_paper_pen",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-003a39144c5194f9-a462c79d",
+    "reviewed_draft_states": [
+      "N",
+      "N"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "a462c79d347e8dd62eda793cf6a9d20573bc0e6bf93e9916b92377131e19df90",
+    "source_sha256": "003a39144c5194f99aa3abd98666930981bd3f4e9dd925b18311bfec6d81ab3c",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-009",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      0,
+      0
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      441,
+      308,
+      853,
+      605
+    ],
+    "crop_sha256": "0162ba9728ce156b90f847ed4ae0a2f5f8645580c084e038e7204c47311f789a",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+    "draft_scene_boundary": "BEH-worn-benches",
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "f3ca7684c15958a103ce63817a0044225a10a82423b04ff9c0625b377c5ac7c1",
+    "input_sha256": "8527782f172aff6e5050813a3b3192057d233f6f0202887d0c5849e7c47ba697",
+    "input_size": 224,
+    "label_sha256": "558ede58db11f07c1188746c68f19a428407db05cbc1ea3e6951654d3b234664",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-009",
+    "owner_accepted_states": [
+      "N",
+      "N"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-009",
+    "person_xyxy": [
+      490,
+      346,
+      755,
+      556
+    ],
+    "phenotype": "own_paper_pen",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-003a39144c5194f9-a462c79d",
+    "reviewed_draft_states": [
+      "N",
+      "N"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "a462c79d347e8dd62eda793cf6a9d20573bc0e6bf93e9916b92377131e19df90",
+    "source_sha256": "003a39144c5194f99aa3abd98666930981bd3f4e9dd925b18311bfec6d81ab3c",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "followup_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-010",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      0,
+      0
+    ],
+    "changed_since_initial_state": true,
+    "context_xyxy": [
+      402,
+      486,
+      823,
+      1042
+    ],
+    "crop_sha256": "cc47b4ec1fb086534fcda963a5baf24630baf6ec4730b555965b084118714f42",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Một tay chống cằm, tay kia giữ vật nhỏ; vật/gaze chưa chắc, không nhận Normal là N.",
+    "draft_scene_boundary": "BEH-worn-benches",
+    "draft_states": [
+      "U",
+      "U"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "41fa1af83225b37a8234766927873143c47d008e7e76a94f2155774ca823b8b5",
+    "input_sha256": "bbc01ffd68ba298d0b9cff95dfaa7a4b4ce47084c55c25f30b0f03ffd6c4f0cc",
+    "input_size": 224,
+    "label_sha256": "c52f31b6be88bc8166c8d484418197430169b93e668d77d63b2cff9ebe865e40",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-010",
+    "owner_accepted_states": [
+      "N",
+      "N"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-010",
+    "person_xyxy": [
+      470,
+      524,
+      735,
+      977
+    ],
+    "phenotype": "hand_to_chin_and_small_object",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Source/native/input 224 không xác nhận vật mobile; tay và vùng bàn trống đủ quan sát. Bỏ mô tả cũ vật ở tay; owner nghiệm thu N/N.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-003f06dab7466b9e-a571d0fe",
+    "reviewed_draft_states": [
+      "N",
+      "N"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "a571d0fe0a8a153ed8de649d140a1a100393c7092628fc3527d702316aeccfb7",
+    "source_sha256": "003f06dab7466b9e539376b0f4e1abb8c5a74110485f18810a6464e153b96deb",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "followup_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-011",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      0,
+      0
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      990,
+      470,
+      1470,
+      1042
+    ],
+    "crop_sha256": "8bbcaabcf260baccc97af76232c12e78d631e2e2d88476e16cc58d90fbb76da3",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Hai tay gần vật nhỏ trên bàn; mobile chưa rõ, looking về vùng tay đề xuất N.",
+    "draft_scene_boundary": "BEH-worn-benches",
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "8cf192ec82e16272d10a7491cc52579b1da59ffa1d2f34993b3cb328cede83d0",
+    "input_sha256": "facd46af035a6c28da62c0d8b8646458b74355659ac71c652d367e2cd6982431",
+    "input_size": 224,
+    "label_sha256": "c52f31b6be88bc8166c8d484418197430169b93e668d77d63b2cff9ebe865e40",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-011",
+    "owner_accepted_states": [
+      "N",
+      "N"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-011",
+    "person_xyxy": [
+      1078,
+      497,
+      1362,
+      977
+    ],
+    "phenotype": "hands_on_small_object",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Hai tay trên bàn, động tác cầm bút/viết không phải evidence mobile; không thấy phone ở vùng quan sát. Owner nghiệm thu N/N.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-003f06dab7466b9e-a571d0fe",
+    "reviewed_draft_states": [
+      "N",
+      "N"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "a571d0fe0a8a153ed8de649d140a1a100393c7092628fc3527d702316aeccfb7",
+    "source_sha256": "003f06dab7466b9e539376b0f4e1abb8c5a74110485f18810a6464e153b96deb",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "followup_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-012",
+    "canonical_mask": [
+      0,
+      1
+    ],
+    "canonical_targets": [
+      null,
+      0
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      745,
+      302,
+      1088,
+      578
+    ],
+    "crop_sha256": "d46159fe08a888f5c39a5bb74e2b0cede78b3e42163c4ee6a9b0450234381754",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Anchor xa, tay/vật nhỏ chưa đủ phone evidence.",
+    "draft_scene_boundary": "BEH-worn-benches",
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "5ab738f7fbdacb6c8116fcdf42d59b88fed2c338796d0e84a7360b49d493729a",
+    "input_sha256": "31b8ea059d5dd7c92094191d7b55e57fce708a025da4443cf31262462008b5c0",
+    "input_size": 224,
+    "label_sha256": "c52f31b6be88bc8166c8d484418197430169b93e668d77d63b2cff9ebe865e40",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-012",
+    "owner_accepted_states": [
+      "U",
+      "N"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-012",
+    "person_xyxy": [
+      813,
+      335,
+      1009,
+      529
+    ],
+    "phenotype": "far_anchor_workarea",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Không xác nhận vật mobile; anchor xa, chi tiết tay nhỏ nên giữ phone U theo ngoại lệ owner, looking về bàn N.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-003f06dab7466b9e-a571d0fe",
+    "reviewed_draft_states": [
+      "U",
+      "N"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "a571d0fe0a8a153ed8de649d140a1a100393c7092628fc3527d702316aeccfb7",
+    "source_sha256": "003f06dab7466b9e539376b0f4e1abb8c5a74110485f18810a6464e153b96deb",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-013",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      0,
+      1
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      764,
+      378,
+      1176,
+      1069
+    ],
+    "crop_sha256": "6fd3ba13df59ed5d7eec896df268479a9537033d3bc39dcf114fd38777afe400",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+    "draft_scene_boundary": "BEH-yellow-flags",
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "c76f4c3cf3ddeb75ba439eda9d113306c8d7691a743ac2f0f7a47203cf75fb85",
+    "input_sha256": "388c8a1fe4fe6a2eea63b2b8d288e9a955dd687e3b4e9f6ce3a4816de4dbdd9b",
+    "input_size": 224,
+    "label_sha256": "021421e8bbdd53bc2f2fb0d3c8727bb8aea1ed29542731f0771c4c2e3a76ecd4",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-013",
+    "owner_accepted_states": [
+      "N",
+      "P"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-013",
+    "person_xyxy": [
+      833,
+      416,
+      1098,
+      1042
+    ],
+    "phenotype": "own_paper_pen",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Native cho thấy head hướng sang trái ngoài giấy riêng; bỏ looking N ban đầu. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "qa_revision": "native_followup",
+    "review_id": "BEH-01308f31b3d603b3-c67d8c76",
+    "reviewed_draft_states": [
+      "N",
+      "P"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "c67d8c76c00efa49db71140da43448c3767553cdb1ac1598354d1ac34d85da10",
+    "source_sha256": "01308f31b3d603b3c78d55ad743cfddd955df034c2ccb57ec4dea8973f451f41",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-014",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      0,
+      1
+    ],
+    "changed_since_initial_state": true,
+    "context_xyxy": [
+      1176,
+      475,
+      1666,
+      1080
+    ],
+    "crop_sha256": "402ea9503fb058a477f0e8e04d52467ac82fa580f7c31af60f5a658d7463858a",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+    "draft_scene_boundary": "BEH-yellow-flags",
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "f72b772e88f2e11e9f596ae1c24a01dd23f2e6bbaf63adbd388d2eac7076bc2b",
+    "input_sha256": "234164860625a773f8ea18c1f6550822b01c02b7721236b24903741a1fc8edfb",
+    "input_size": 224,
+    "label_sha256": "021421e8bbdd53bc2f2fb0d3c8727bb8aea1ed29542731f0771c4c2e3a76ecd4",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-014",
+    "owner_accepted_states": [
+      "N",
+      "P"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-014",
+    "person_xyxy": [
+      1274,
+      513,
+      1568,
+      1080
+    ],
+    "phenotype": "own_paper_pen",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Cả hai tay/vùng giấy quan sát được; đầu hướng sang bên, không giữ looking N. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-01308f31b3d603b3-c67d8c76",
+    "reviewed_draft_states": [
+      "N",
+      "P"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "c67d8c76c00efa49db71140da43448c3767553cdb1ac1598354d1ac34d85da10",
+    "source_sha256": "01308f31b3d603b3c78d55ad743cfddd955df034c2ccb57ec4dea8973f451f41",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-015",
+    "canonical_mask": [
+      0,
+      1
+    ],
+    "canonical_targets": [
+      null,
+      1
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      245,
+      265,
+      657,
+      859
+    ],
+    "crop_sha256": "233ea78ae297e3bf528f019ffb85ac8951c14f3e6fa13e739dc021264b394894",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Đầu hướng về anchor/bên cạnh, context giữ vùng bài riêng; phone chưa đủ evidence thì U.",
+    "draft_scene_boundary": "BEH-yellow-flags",
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "05a72894b82977072bd7b3893dc5b0cb9287603b46b4111034031cad060cc1f2",
+    "input_sha256": "49ac59d05524b508368bee2565d627985dd5522c6026040bacaea749c847f669",
+    "input_size": 224,
+    "label_sha256": "021421e8bbdd53bc2f2fb0d3c8727bb8aea1ed29542731f0771c4c2e3a76ecd4",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-015",
+    "owner_accepted_states": [
+      "U",
+      "P"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-015",
+    "person_xyxy": [
+      314,
+      297,
+      559,
+      815
+    ],
+    "phenotype": "peer_gaze_and_occluded_hand",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Đầu hướng về anchor/bên cạnh, context giữ vùng bài riêng; phone chưa đủ evidence thì U. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-01308f31b3d603b3-c67d8c76",
+    "reviewed_draft_states": [
+      "U",
+      "P"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "c67d8c76c00efa49db71140da43448c3767553cdb1ac1598354d1ac34d85da10",
+    "source_sha256": "01308f31b3d603b3c78d55ad743cfddd955df034c2ccb57ec4dea8973f451f41",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-016",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      0,
+      0
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      686,
+      383,
+      1088,
+      664
+    ],
+    "crop_sha256": "fed54894696c74fd59b8e74d1715e05018f53a043223e4764b9bac341ad9c7f4",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+    "draft_scene_boundary": "BEH-worn-benches",
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "a5d5b2bb62fbc2c66431b2bfc4e4ee658fec3c41c7699ba74843ebb6e00eb113",
+    "input_sha256": "a75b544bdc52912f5efbf042bef7c1a233e50c3b6af70483a48a729fc5eab751",
+    "input_size": 224,
+    "label_sha256": "a359358eac88fdf936f5cf4a60e47d77335010ed6f811e6a166d67491bef4caf",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-016",
+    "owner_accepted_states": [
+      "N",
+      "N"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-016",
+    "person_xyxy": [
+      774,
+      410,
+      980,
+      599
+    ],
+    "phenotype": "bent_writing_negative",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-001dd0dd3be2fb89-d30c96dc",
+    "reviewed_draft_states": [
+      "N",
+      "N"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "d30c96dcd2215585a6a3497e022fd70c19ad1979a61081ad96a463314d7065f7",
+    "source_sha256": "001dd0dd3be2fb894680d8fc558dec3bb499cdfc535a9935007a0551c4dc5a57",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-017",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "changed_since_initial_state": true,
+    "context_xyxy": [
+      804,
+      481,
+      1088,
+      702
+    ],
+    "crop_sha256": "6f08d7a685a57c68e639d4382355f1688e2f421fbece7b2cf3e27e04ae8eed82",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Anchor xa/desk che phần tay; không source phone box không là N.",
+    "draft_scene_boundary": "BEH-worn-benches",
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "b526eb4c36df8271666c0c291bbdc757714356f25af2236371ca933478453853",
+    "input_sha256": "7d79a51e6e077b80f7d8074f61d5f333f1488439fb688d47ea63b7e4e68af855",
+    "input_size": 224,
+    "label_sha256": "7f5b24afe129f4acb41935cff8346f580c22ba68cfa2f80941d1ab3eb1a6f16f",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-017",
+    "owner_accepted_states": [
+      "U",
+      "U"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-017",
+    "person_xyxy": [
+      862,
+      508,
+      1000,
+      659
+    ],
+    "phenotype": "far_bent_anchor",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Tay dưới bàn, thiếu bài/đích nhìn và gaze cụ thể; không chỉ từ cúi đầu suy N. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-0052b47269485180-6eb67853",
+    "reviewed_draft_states": [
+      "U",
+      "U"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "6eb67853624f3f4377fb27b275406312151e219a1b729bae2ef06772cebf26d7",
+    "source_sha256": "0052b47269485180483ec77ee7d50a4474ef1f5fd7613301925c588c8c1b6a64",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-018",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "changed_since_initial_state": true,
+    "context_xyxy": [
+      1029,
+      486,
+      1333,
+      718
+    ],
+    "crop_sha256": "126d5ce33bd563cc958652dbe7a0c19104ae4874f1f9ede195e79c283b1eed1c",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Nhìn xuống vùng bài, phone absence không quan sát đủ.",
+    "draft_scene_boundary": "BEH-worn-benches",
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "47e9f9afaf2a368e7cd564cf9c4834bd1cb4d818dc31b741b9c9b3081bc4d897",
+    "input_sha256": "e4948d8d5a07395eb20eb6ba5160e74c553391a493472f4a14363a8ad0a2a718",
+    "input_size": 224,
+    "label_sha256": "7f5b24afe129f4acb41935cff8346f580c22ba68cfa2f80941d1ab3eb1a6f16f",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-018",
+    "owner_accepted_states": [
+      "U",
+      "U"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-018",
+    "person_xyxy": [
+      1078,
+      513,
+      1264,
+      675
+    ],
+    "phenotype": "far_bent_anchor",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Desk che tay/đích nhìn, hướng đầu đơn thuần chưa đủ looking state. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-0052b47269485180-6eb67853",
+    "reviewed_draft_states": [
+      "U",
+      "U"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "6eb67853624f3f4377fb27b275406312151e219a1b729bae2ef06772cebf26d7",
+    "source_sha256": "0052b47269485180483ec77ee7d50a4474ef1f5fd7613301925c588c8c1b6a64",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "followup_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-019",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      0,
+      1
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      235,
+      400,
+      833,
+      1080
+    ],
+    "crop_sha256": "03430cac579b0e21898610261762650701e3b456736edcec01dcb5c7d0524045",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Đầu hướng về anchor/bên cạnh, context giữ vùng bài riêng; phone chưa đủ evidence thì U.",
+    "draft_scene_boundary": "BEH-worn-benches",
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "b484fc6f4025538fe2537dbe6a9578fc34546c04116c2ef94eb15ce464eaa66e",
+    "input_sha256": "941d46d2b712783abacc6cb89155c2f20186efebd60a3dc8b6a5d533991b72b5",
+    "input_size": 224,
+    "label_sha256": "05c78bd392f12093479bc8dbe0171d4c850dc30a0ab20b9e1301d3d6e6394c78",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-019",
+    "owner_accepted_states": [
+      "N",
+      "P"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-019",
+    "person_xyxy": [
+      314,
+      432,
+      657,
+      1048
+    ],
+    "phenotype": "peer_gaze_and_hand_occlusion",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Tay cầm bút/giấy và tay còn lại trên bàn, không thấy mobile; nhìn sang người bên cạnh. Owner nghiệm thu N/P.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-0157dcdba9ee5a5b-f56fbe90",
+    "reviewed_draft_states": [
+      "N",
+      "P"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "f56fbe90a7fb05d0c8f460824daab8336cca06ded7a8efb210c53c369ac2bdd4",
+    "source_sha256": "0157dcdba9ee5a5b16dc412c6d60f5c08af312d53e41572c124242e32eaff65a",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "followup_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-020",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      0,
+      1
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      1068,
+      383,
+      1548,
+      1069
+    ],
+    "crop_sha256": "aa23bae78ae4530b4c069037cd678cbaac47605090926c6e41d6215726f4facd",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Tay dưới bàn và đầu hướng sang bên; phone giữ U.",
+    "draft_scene_boundary": "BEH-worn-benches",
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "60ed3b7349dc860a57ed14a7b1f363f5a74406c3f6d9b8bb4ff9ff54e2ae7fa5",
+    "input_sha256": "31dc9ff1cf7ddded9cd190e5b1db61e4c6529ddfb807dbfa35c174f9dbe7f2cf",
+    "input_size": 224,
+    "label_sha256": "05c78bd392f12093479bc8dbe0171d4c850dc30a0ab20b9e1301d3d6e6394c78",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-020",
+    "owner_accepted_states": [
+      "N",
+      "P"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-020",
+    "person_xyxy": [
+      1156,
+      427,
+      1450,
+      1037
+    ],
+    "phenotype": "hand_under_table",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Sửa mô tả cũ tay dưới bàn: một tay gần cổ, tay còn lại giữ bút trên giấy; không thấy mobile. Owner nghiệm thu N/P.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-0157dcdba9ee5a5b-f56fbe90",
+    "reviewed_draft_states": [
+      "N",
+      "P"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "f56fbe90a7fb05d0c8f460824daab8336cca06ded7a8efb210c53c369ac2bdd4",
+    "source_sha256": "0157dcdba9ee5a5b16dc412c6d60f5c08af312d53e41572c124242e32eaff65a",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-021",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      0,
+      0
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      451,
+      335,
+      872,
+      643
+    ],
+    "crop_sha256": "ae241f736772f9b835bb6ac45baa7407236b687eb5fd7b9ec1f1379d2a5941f5",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+    "draft_scene_boundary": "BEH-worn-benches",
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "b1cd738d6b8567a68e539cb06e2efdf9226876fa21fcb1a22b81afef860a8060",
+    "input_sha256": "f660afe4d3ce2199c113f043b0fcf1b00db65c41756d4289fdb023766a444e9f",
+    "input_size": 224,
+    "label_sha256": "05c78bd392f12093479bc8dbe0171d4c850dc30a0ab20b9e1301d3d6e6394c78",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-021",
+    "owner_accepted_states": [
+      "N",
+      "N"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-021",
+    "person_xyxy": [
+      529,
+      378,
+      764,
+      599
+    ],
+    "phenotype": "own_paper_pen",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-0157dcdba9ee5a5b-f56fbe90",
+    "reviewed_draft_states": [
+      "N",
+      "N"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "f56fbe90a7fb05d0c8f460824daab8336cca06ded7a8efb210c53c369ac2bdd4",
+    "source_sha256": "0157dcdba9ee5a5b16dc412c6d60f5c08af312d53e41572c124242e32eaff65a",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-022",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      1,
+      1
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      617,
+      248,
+      1264,
+      1080
+    ],
+    "crop_sha256": "f9896c99ef2e6913d6beb82f53772b87b5047775bb1b99fbb475ddafdbde4bdb",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Thiết bị dạng mobile gắn với tay/bàn của anchor; kiểm lại phân biệt mobile và ownership tại 224. Đầu quay sang người bên cạnh.",
+    "draft_scene_boundary": "BEH-chair-staging",
+    "draft_states": [
+      "P",
+      "P"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "666970b7d745c52f75910657e08508d309e09183ddaaa844b67ab6b7f56cbad9",
+    "input_sha256": "daef8f23d8ce38bf3b2d3fc6788f2a2b6f8a6ce72126c6874dc4600404a45304",
+    "input_size": 224,
+    "label_sha256": "003dbabb6d121a5c806cb85f4f71d3d05f53b5f8a687bd07befbe8d36bbf071b",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-022",
+    "owner_accepted_states": [
+      "P",
+      "P"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-022",
+    "person_xyxy": [
+      696,
+      281,
+      1186,
+      1080
+    ],
+    "phenotype": "phone_and_peer_gaze",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Thiết bị dạng mobile gắn với tay/bàn của anchor; kiểm lại phân biệt mobile và ownership tại 224. Đầu quay sang người bên cạnh. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-X-6ff292e988cc",
+    "reviewed_draft_states": [
+      "P",
+      "P"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "5eea837e0feafd11fdd7ea56dcb2282a9f3df0598f32de6906cc022975fdbc4c",
+    "source_sha256": "6ff292e988ccb3b6aeeea113850d33456b318a69e8727f0905d840e36f390950",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-023",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      1,
+      1
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      1196,
+      275,
+      1960,
+      1080
+    ],
+    "crop_sha256": "9d048b12e49056adcdf60b2cb372e78b6cf1bfe6ec7a787675311d88245f1e9b",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Thiết bị dạng mobile gắn với tay/bàn của anchor; kiểm lại phân biệt mobile và ownership tại 224. Đầu quay sang người bên cạnh.",
+    "draft_scene_boundary": "BEH-chair-staging",
+    "draft_states": [
+      "P",
+      "P"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "ce9aba265294cae1399e8bd8e2dc24a60918a6fbf651fa8e4679eb7638853f12",
+    "input_sha256": "6aa282e3ec022b3715e26b13b3ea36f122c02f0cc9ebf4aa38cc48faabb01775",
+    "input_size": 224,
+    "label_sha256": "003dbabb6d121a5c806cb85f4f71d3d05f53b5f8a687bd07befbe8d36bbf071b",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-023",
+    "owner_accepted_states": [
+      "P",
+      "P"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-023",
+    "person_xyxy": [
+      1274,
+      302,
+      1960,
+      1080
+    ],
+    "phenotype": "phone_and_peer_gaze",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Thiết bị dạng mobile gắn với tay/bàn của anchor; kiểm lại phân biệt mobile và ownership tại 224. Đầu quay sang người bên cạnh. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-X-6ff292e988cc",
+    "reviewed_draft_states": [
+      "P",
+      "P"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "5eea837e0feafd11fdd7ea56dcb2282a9f3df0598f32de6906cc022975fdbc4c",
+    "source_sha256": "6ff292e988ccb3b6aeeea113850d33456b318a69e8727f0905d840e36f390950",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-024",
+    "canonical_mask": [
+      1,
+      0
+    ],
+    "canonical_targets": [
+      1,
+      null
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      0,
+      238,
+      617,
+      1080
+    ],
+    "crop_sha256": "03a3b5da43b42ffb3562ff2c94d338f3ed9af2511af8007b011621acd6f90aac",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Thiết bị dạng mobile gắn với tay/bàn của anchor; kiểm lại phân biệt mobile và ownership tại 224. Back view không đủ gaze.",
+    "draft_scene_boundary": "BEH-chair-staging",
+    "draft_states": [
+      "P",
+      "U"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "c7846041499097822d0abc898874a20adaf02e39909f8c86fcf603435a483a8d",
+    "input_sha256": "d79b24480821c712da6cc1b5d4d9835d86b6a58eef53edc5de4288d86c67b5e1",
+    "input_size": 224,
+    "label_sha256": "003dbabb6d121a5c806cb85f4f71d3d05f53b5f8a687bd07befbe8d36bbf071b",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-024",
+    "owner_accepted_states": [
+      "P",
+      "U"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-024",
+    "person_xyxy": [
+      49,
+      265,
+      539,
+      1080
+    ],
+    "phenotype": "handheld_phone_back_view",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Thiết bị dạng mobile gắn với tay/bàn của anchor; kiểm lại phân biệt mobile và ownership tại 224. Back view không đủ gaze. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-X-6ff292e988cc",
+    "reviewed_draft_states": [
+      "P",
+      "U"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "5eea837e0feafd11fdd7ea56dcb2282a9f3df0598f32de6906cc022975fdbc4c",
+    "source_sha256": "6ff292e988ccb3b6aeeea113850d33456b318a69e8727f0905d840e36f390950",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-025",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "changed_since_initial_state": true,
+    "context_xyxy": [
+      568,
+      383,
+      1715,
+      1080
+    ],
+    "crop_sha256": "295973510af739e9643eb2463cfbc8ba1dd4b643aed052a63105145c0e967cf3",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop. Context có mobile của hàng ghế phía sau; không gán cho foreground anchor.",
+    "draft_scene_boundary": "BEH-chair-staging",
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "0cd4374d9fab317ec6d0595af7d6fbec6e8295cdb432f104051d5e5f1059f3c5",
+    "input_sha256": "d580bdc3d8bb9bfe91bba3dc21016cf2623773dd1c24b90f58f6d7c6aaa814fb",
+    "input_size": 224,
+    "label_sha256": "095ac6b0832e479f29a2f835bf5516a46bc21f7d74a9d73a5a49960f948f2f39",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-025",
+    "owner_accepted_states": [
+      "U",
+      "U"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-025",
+    "person_xyxy": [
+      627,
+      464,
+      1264,
+      1080
+    ],
+    "phenotype": "foreign_mobile_ownership_negative",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Native cho thấy tay nằm dưới bàn, không đang viết như draft; phone U, gaze/workarea thiếu. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-X-07d41ccb9d51",
+    "reviewed_draft_states": [
+      "U",
+      "U"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "ef31ce829ddfbfc53f322c4ccdf0543a6d1870159bab73bcffc6691f9677c370",
+    "source_sha256": "07d41ccb9d512211d83b9a06ebb28159d496fb513446af98b637945f38894417",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "explicit_markdown",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-026",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      1,
+      0
+    ],
+    "changed_since_initial_state": true,
+    "context_xyxy": [
+      461,
+      97,
+      1049,
+      680
+    ],
+    "crop_sha256": "d4bedbb6879a2eb4589eeba218859de6d66034a5e6ca5956344c7915df610908",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Thiết bị dạng mobile gắn với tay/bàn của anchor; kiểm lại phân biệt mobile và ownership tại 224.",
+    "draft_scene_boundary": "BEH-chair-staging",
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "93179306a7347169a27f75df65502c3933d9d876cd0abf88361b6c486e519c67",
+    "input_sha256": "4a9e89523872b344715b9885fe9dee22cc0f73730a94ca2bbb961ae69f728a06",
+    "input_size": 224,
+    "label_sha256": "095ac6b0832e479f29a2f835bf5516a46bc21f7d74a9d73a5a49960f948f2f39",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-026",
+    "owner_accepted_states": [
+      "P",
+      "N"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-026",
+    "person_xyxy": [
+      519,
+      124,
+      960,
+      610
+    ],
+    "phenotype": "handheld_phone_control",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Owner xác nhận vật là phone; giữ looking N.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-X-07d41ccb9d51",
+    "reviewed_draft_states": [
+      "P",
+      "N"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "ef31ce829ddfbfc53f322c4ccdf0543a6d1870159bab73bcffc6691f9677c370",
+    "source_sha256": "07d41ccb9d512211d83b9a06ebb28159d496fb513446af98b637945f38894417",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-027",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      1,
+      0
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      1098,
+      189,
+      1676,
+      767
+    ],
+    "crop_sha256": "ed29b1d29de32ca09657cba34d9d8320ad723a9c681a0a9713f43259ba9961d7",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Thiết bị dạng mobile gắn với tay/bàn của anchor; kiểm lại phân biệt mobile và ownership tại 224.",
+    "draft_scene_boundary": "BEH-chair-staging",
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "f3a566f6c3af54bd55bcfa9bf36041fd1d32141f4edc9da79df4f72cc206d639",
+    "input_sha256": "80511064cd70da288a68c002473a44def009abcbd1eee2f5f3b9dd1327458071",
+    "input_size": 224,
+    "label_sha256": "095ac6b0832e479f29a2f835bf5516a46bc21f7d74a9d73a5a49960f948f2f39",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-027",
+    "owner_accepted_states": [
+      "P",
+      "N"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-027",
+    "person_xyxy": [
+      1176,
+      221,
+      1617,
+      718
+    ],
+    "phenotype": "handheld_phone_control",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Thiết bị dạng mobile gắn với tay/bàn của anchor; kiểm lại phân biệt mobile và ownership tại 224. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-X-07d41ccb9d51",
+    "reviewed_draft_states": [
+      "P",
+      "N"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "ef31ce829ddfbfc53f322c4ccdf0543a6d1870159bab73bcffc6691f9677c370",
+    "source_sha256": "07d41ccb9d512211d83b9a06ebb28159d496fb513446af98b637945f38894417",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-028",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      1,
+      1
+    ],
+    "changed_since_initial_state": true,
+    "context_xyxy": [
+      559,
+      97,
+      1284,
+      1026
+    ],
+    "crop_sha256": "d7ae353d3fe970b3823d94a48049e4b57e005bfc4d7736fd55242ae7a361b7a7",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Thiết bị dạng mobile gắn với tay/bàn của anchor; kiểm lại phân biệt mobile và ownership tại 224.",
+    "draft_scene_boundary": "BEH-chair-staging",
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "b56c0f4d6aeda7aa5aa9bd7bfc7974686b3d83564afd3687841f19cfaaf9b04c",
+    "input_sha256": "d6c6128b23d236d158f58028ee6e52daa231d7bb7ed3912cc0d2c1cdd0a92b7e",
+    "input_size": 224,
+    "label_sha256": "1fa55c9ebb99da5ab9444fef2b24fe9b5bfbef888129c2c018f193efda28fd17",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-028",
+    "owner_accepted_states": [
+      "P",
+      "P"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-028",
+    "person_xyxy": [
+      627,
+      124,
+      1186,
+      999
+    ],
+    "phenotype": "desk_phone_control",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Mobile trên bàn riêng rõ; đầu/gaze sang bên, không nhìn vùng bài riêng. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-X-8e7445860006",
+    "reviewed_draft_states": [
+      "P",
+      "P"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "b4ee01d7fb3feb84555b7fced74b443b1f0f930ac6e5d27fec7c979736902833",
+    "source_sha256": "8e74458600068230ff4b6ec3b117ea5a42d85455e681be004960b55bac64c14f",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-029",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      1,
+      1
+    ],
+    "changed_since_initial_state": true,
+    "context_xyxy": [
+      0,
+      238,
+      637,
+      1080
+    ],
+    "crop_sha256": "7380f59b2f7057aedf7138a0d621bf24a14cb1d053aa3f35068e781c1b12e5cc",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Thiết bị dạng mobile gắn với tay/bàn của anchor; kiểm lại phân biệt mobile và ownership tại 224.",
+    "draft_scene_boundary": "BEH-chair-staging",
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "056455e5c3bea1165c5c4d46a6d12eb9c4f6a41fb37a87a7ab27014f4b42789e",
+    "input_sha256": "8261281a0596b78870c49961ca2f022c53ff18063976781a2309c176e8a6b8ae",
+    "input_size": 224,
+    "label_sha256": "1fa55c9ebb99da5ab9444fef2b24fe9b5bfbef888129c2c018f193efda28fd17",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-029",
+    "owner_accepted_states": [
+      "P",
+      "P"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-029",
+    "person_xyxy": [
+      0,
+      270,
+      529,
+      1080
+    ],
+    "phenotype": "desk_phone_control",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Mobile ở tay/bàn riêng; đầu/gaze hướng sang bên ngoài vùng bài. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-X-8e7445860006",
+    "reviewed_draft_states": [
+      "P",
+      "P"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "b4ee01d7fb3feb84555b7fced74b443b1f0f930ac6e5d27fec7c979736902833",
+    "source_sha256": "8e74458600068230ff4b6ec3b117ea5a42d85455e681be004960b55bac64c14f",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-030",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      1,
+      1
+    ],
+    "changed_since_initial_state": true,
+    "context_xyxy": [
+      1352,
+      189,
+      1960,
+      1042
+    ],
+    "crop_sha256": "c6930cbd99d14a211b47aba9d0aa0af05c96713dcd11eb1ed7e3dc70f0406845",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Thiết bị dạng mobile gắn với tay/bàn của anchor; kiểm lại phân biệt mobile và ownership tại 224.",
+    "draft_scene_boundary": "BEH-chair-staging",
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "ddaba15dbe0624eaf4c0fb5de7bf93d15d4849f14a0dcfed47e79eae007fbe36",
+    "input_sha256": "10f9d407e0332717a0d91ab7328138af923c84863240dd2ce8a1ce5eb3d991df",
+    "input_size": 224,
+    "label_sha256": "1fa55c9ebb99da5ab9444fef2b24fe9b5bfbef888129c2c018f193efda28fd17",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-030",
+    "owner_accepted_states": [
+      "P",
+      "P"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-030",
+    "person_xyxy": [
+      1411,
+      216,
+      1960,
+      1015
+    ],
+    "phenotype": "desk_phone_control",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Mobile dưới tay anchor rõ; đầu quay sang bên ngoài vùng bài. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-X-8e7445860006",
+    "reviewed_draft_states": [
+      "P",
+      "P"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "b4ee01d7fb3feb84555b7fced74b443b1f0f930ac6e5d27fec7c979736902833",
+    "source_sha256": "8e74458600068230ff4b6ec3b117ea5a42d85455e681be004960b55bac64c14f",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "followup_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-031",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      0,
+      0
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      206,
+      405,
+      784,
+      1080
+    ],
+    "crop_sha256": "209d2d3548b3622058923d0252ed5cbecb320d42a6d2c46230fce7790f5ade4c",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+    "draft_scene_boundary": "BEH-worn-benches",
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "0de399d8e689cc278a7aa2a55c7547df58b048d8bb215abb71d5606af513d046",
+    "input_sha256": "238c98e26b141dd0184bfc83ad38ad11ee6a9100db8c37ab8f9e820cbe73acd3",
+    "input_size": 224,
+    "label_sha256": "d24b3e30f28cefe9a33ac515f641f947730948e284c002fcf7e13135aa3ec4a9",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-031",
+    "owner_accepted_states": [
+      "N",
+      "N"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-031",
+    "person_xyxy": [
+      265,
+      437,
+      627,
+      1080
+    ],
+    "phenotype": "writing_hand_visible",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Anchor là người phía trước, người nền thuộc context; source SHA khác CN-019/034 cùng cảnh. Owner nghiệm thu giữ geometry, N/N.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-X-bdbadbdba307",
+    "reviewed_draft_states": [
+      "N",
+      "N"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "28ffb8c43162c19c9c1a87cf0aee7dbaca2d9f8bdfc198c641a6a82d2b73c571",
+    "source_sha256": "bdbadbdba30751fde3447c5b97cdbbf489661a0b98f39a4bd59245a5b6e26cdd",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-032",
+    "canonical_mask": [
+      0,
+      1
+    ],
+    "canonical_targets": [
+      null,
+      1
+    ],
+    "changed_since_initial_state": true,
+    "context_xyxy": [
+      1039,
+      340,
+      1548,
+      1080
+    ],
+    "crop_sha256": "9d035d164515f24cebaa889b7e6fa1dfa7ed001562f4ea71406ca6346f86d281",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+    "draft_scene_boundary": "BEH-worn-benches",
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "a9309f2b8b9a4dd79e38c5a239f3aa58bd6c077f17056cd69e5ae0bbc00c4f14",
+    "input_sha256": "30bf24adfc3abaf5ffb647548064540bf7e19e42cdd71930b16e4c525d428e5b",
+    "input_size": 224,
+    "label_sha256": "d24b3e30f28cefe9a33ac515f641f947730948e284c002fcf7e13135aa3ec4a9",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-032",
+    "owner_accepted_states": [
+      "U",
+      "P"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-032",
+    "person_xyxy": [
+      1127,
+      367,
+      1441,
+      1048
+    ],
+    "phenotype": "writing_hand_visible",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Native cho thấy một tay dưới bàn; phone N không đủ evidence, giữ U. Head/gaze sang bên rõ. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "qa_revision": "native_followup",
+    "review_id": "BEH-X-bdbadbdba307",
+    "reviewed_draft_states": [
+      "U",
+      "P"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "28ffb8c43162c19c9c1a87cf0aee7dbaca2d9f8bdfc198c641a6a82d2b73c571",
+    "source_sha256": "bdbadbdba30751fde3447c5b97cdbbf489661a0b98f39a4bd59245a5b6e26cdd",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-033",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      1039,
+      497,
+      1548,
+      1058
+    ],
+    "crop_sha256": "768cd727b205d7a27047ee388a31d0aa8dfc5430dfd8ed14bfba8042898b9216",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Đầu và vùng tay bị che bởi tư thế cúi; U/U auxiliary, không supervision.",
+    "draft_scene_boundary": "BEH-worn-benches",
+    "draft_states": [
+      "U",
+      "U"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "82b565a8e64648a1ebe69ce4f7bcbbf6e599a19bcf255b49b02de8135ba81e12",
+    "input_sha256": "ead8b45ae301e8ac2a7a01168f9aa24d42b369ab57092455ef7b09bc2fd88631",
+    "input_size": 224,
+    "label_sha256": "54fcdef219b320e0972105fadf3814426714acdacf00a878c524946f18cfe02d",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-033",
+    "owner_accepted_states": [
+      "U",
+      "U"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-033",
+    "person_xyxy": [
+      1127,
+      562,
+      1441,
+      1004
+    ],
+    "phenotype": "head_down_occlusion",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Đầu và vùng tay bị che bởi tư thế cúi; U/U auxiliary, không supervision. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-X-a543d4f14a19",
+    "reviewed_draft_states": [
+      "U",
+      "U"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "9756228c0986891d3022fb09c5e36d8a04fb96cb365aa4a87d454956f5fe2690",
+    "source_sha256": "a543d4f14a199bc9cdb9ff582f258ce1c46b37890a218d1bc5509fab48404562",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "explicit_markdown",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-034",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      0,
+      1
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      225,
+      410,
+      794,
+      1080
+    ],
+    "crop_sha256": "e27acc23b41799a3794a1acd0e897bb89c7197a94bbd215c6aad8832b8a386ff",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+    "draft_scene_boundary": "BEH-worn-benches",
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "45a96b1a87ddec32f8e8b362dbfe62e2d2bb71b40e0dbf2f7a88fac4fe92ab71",
+    "input_sha256": "acbff73ba388fff1715b8a666032b92ff0545897907ad56475be9ea8a6fe6e3d",
+    "input_size": 224,
+    "label_sha256": "54fcdef219b320e0972105fadf3814426714acdacf00a878c524946f18cfe02d",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-034",
+    "owner_accepted_states": [
+      "N",
+      "P"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-034",
+    "person_xyxy": [
+      284,
+      448,
+      657,
+      1080
+    ],
+    "phenotype": "own_paper_pen",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Owner xác nhận N/P; đối chiếu CN-019/031 là các source SHA/frame khác cùng cảnh, không thêm group độc lập.",
+    "qa_reviewer": "repository-owner",
+    "qa_revision": "native_followup",
+    "review_id": "BEH-X-a543d4f14a19",
+    "reviewed_draft_states": [
+      "N",
+      "P"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "9756228c0986891d3022fb09c5e36d8a04fb96cb365aa4a87d454956f5fe2690",
+    "source_sha256": "a543d4f14a199bc9cdb9ff582f258ce1c46b37890a218d1bc5509fab48404562",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "followup_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-036",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      0,
+      1
+    ],
+    "changed_since_initial_state": true,
+    "context_xyxy": [
+      1166,
+      340,
+      1676,
+      1080
+    ],
+    "crop_sha256": "b4621590af4be188353c97e20f8eba31a7cab09ad7b5657ea472242e6a3a535c",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Đầu hướng về anchor/bên cạnh, context giữ vùng bài riêng; phone chưa đủ evidence thì U.",
+    "draft_scene_boundary": "BEH-yellow-flags",
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "b5f8400a1b44eeee776782ef9bb36cc4aa28b2cb929ec3d37dea32202bc498c6",
+    "input_sha256": "b833f5fc7583601c4d83c6cc379986a608eee8f6a701b6e015a56ccfa32e93e5",
+    "input_size": 224,
+    "label_sha256": "9a2c5117be4d1647a1ef26388aa33ad7002902c66735509a426801436b6992b9",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-036",
+    "owner_accepted_states": [
+      "N",
+      "P"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-036",
+    "person_xyxy": [
+      1264,
+      373,
+      1588,
+      1080
+    ],
+    "phenotype": "upright_peer_gaze",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Đứng không tạo target mới và không là cheating; tay/bàn không mobile, nhìn sang bên ngoài bài. Owner nghiệm thu N/P theo semantics hiện hành.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-X-2d63d2ddeec9",
+    "reviewed_draft_states": [
+      "N",
+      "P"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "7a2bd62d0d02a3f2b57f52a612b3578cb81b0ff14730bdaa7c744da556c9e828",
+    "source_sha256": "2d63d2ddeec9049ab6d1c7dd2c415f29bae5d8fba9bf283b345204d31137cec8",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-037",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      0,
+      0
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      235,
+      265,
+      666,
+      859
+    ],
+    "crop_sha256": "796ef6f40484500c3d04659be5053af4a2876184b66c493baf08556c887c81ee",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+    "draft_scene_boundary": "BEH-yellow-flags",
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "ba365616495ab53e01680875e73fc618ac33eb3c48d8ff6deddfe657ba79311b",
+    "input_sha256": "72a0238d476097ac82ad36668b3a18694e75d8acee823bdf8300b7700ff613fa",
+    "input_size": 224,
+    "label_sha256": "9a2c5117be4d1647a1ef26388aa33ad7002902c66735509a426801436b6992b9",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-037",
+    "owner_accepted_states": [
+      "N",
+      "N"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-037",
+    "person_xyxy": [
+      304,
+      297,
+      568,
+      810
+    ],
+    "phenotype": "own_paper_pen",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-X-2d63d2ddeec9",
+    "reviewed_draft_states": [
+      "N",
+      "N"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "7a2bd62d0d02a3f2b57f52a612b3578cb81b0ff14730bdaa7c744da556c9e828",
+    "source_sha256": "2d63d2ddeec9049ab6d1c7dd2c415f29bae5d8fba9bf283b345204d31137cec8",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-038",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      1,
+      0
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      272,
+      403,
+      419,
+      640
+    ],
+    "crop_sha256": "7478a11d390d8343297df2740e2cf06d84528b9e52c41f153a53a1b1c6a5c7a1",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Thiết bị dạng mobile gắn với tay/bàn của anchor; kiểm lại phân biệt mobile và ownership tại 224.",
+    "draft_scene_boundary": "STU-gray-train",
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "d15d3092242f99a2b39697c62ee59c50ab7b348fd2159d71286281b445fd873a",
+    "input_sha256": "0aa46a52adf02c17b67b6e59a2677e616277f9316f1d8a9b724468f293bc174b",
+    "input_size": 224,
+    "label_sha256": "45a3e438e75cd778746a9db8cdc0fb9b2e18d49d8acd00945857d64708388452",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-038",
+    "owner_accepted_states": [
+      "P",
+      "N"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-038",
+    "person_xyxy": [
+      288,
+      426,
+      390,
+      640
+    ],
+    "phenotype": "handheld_phone_control",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Thiết bị dạng mobile gắn với tay/bàn của anchor; kiểm lại phân biệt mobile và ownership tại 224. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "STU-00081846913ae753-1868c76a",
+    "reviewed_draft_states": [
+      "P",
+      "N"
+    ],
+    "role_proposal": "train_supplement_candidate",
+    "source_annotations_are_hints_only": true,
+    "source_id": "studentclassroombehavior",
+    "source_member_sha256": "1868c76ae71c0084f56f110e3f791826f577ef77afcf851010092775c7282d29",
+    "source_sha256": "00081846913ae75356370f968b923a4323b82954547b992fbab5445f5706ba3b",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "followup_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-039",
+    "canonical_mask": [
+      0,
+      1
+    ],
+    "canonical_targets": [
+      null,
+      1
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      74,
+      362,
+      227,
+      640
+    ],
+    "crop_sha256": "423d9ec5819e391e3ebac5ad4899b16bcf2d793e85b177b23506665a340305ce",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Đầu hướng về anchor/bên cạnh, context giữ vùng bài riêng; phone chưa đủ evidence thì U.",
+    "draft_scene_boundary": "STU-gray-train",
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "e878a439d3663dc769b76d31af4fb5721c39af01acb1dbb1d9946891fd50521a",
+    "input_sha256": "068ec78139d6fe355607fa5b3a94e438dff600b54f7e48396072d5d49b96122c",
+    "input_size": 224,
+    "label_sha256": "45a3e438e75cd778746a9db8cdc0fb9b2e18d49d8acd00945857d64708388452",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-039",
+    "owner_accepted_states": [
+      "U",
+      "P"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-039",
+    "person_xyxy": [
+      102,
+      378,
+      198,
+      640
+    ],
+    "phenotype": "hand_to_chin_peer_gaze",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Không thấy phone không đủ kết luận N: một tay/vùng bàn còn khuất. Giữ U/P; owner đồng ý sau giải thích.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "STU-00081846913ae753-1868c76a",
+    "reviewed_draft_states": [
+      "U",
+      "P"
+    ],
+    "role_proposal": "train_supplement_candidate",
+    "source_annotations_are_hints_only": true,
+    "source_id": "studentclassroombehavior",
+    "source_member_sha256": "1868c76ae71c0084f56f110e3f791826f577ef77afcf851010092775c7282d29",
+    "source_sha256": "00081846913ae75356370f968b923a4323b82954547b992fbab5445f5706ba3b",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "followup_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-040",
+    "canonical_mask": [
+      0,
+      1
+    ],
+    "canonical_targets": [
+      null,
+      0
+    ],
+    "changed_since_initial_state": true,
+    "context_xyxy": [
+      400,
+      416,
+      534,
+      598
+    ],
+    "crop_sha256": "817e7f340298c4194cb09e279db0977b810976c05ca8c5b21120238448a0ce80",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Thiết bị dạng mobile gắn với tay/bàn của anchor; kiểm lại phân biệt mobile và ownership tại 224.",
+    "draft_scene_boundary": "STU-overhead-train",
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "a1134b3729cd9a37ab45d5704229871d151285c6a93ce44f9c0a307fd1cb2709",
+    "input_sha256": "e0afabfef5f4b6634b6688e21267ca4b22d3c35dafd03d68962f16cba171c362",
+    "input_size": 224,
+    "label_sha256": "300ddd6581845be2d0486089a26e6bc5b33b2c5eb95c9513bd3d9546f08271ac",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-040",
+    "owner_accepted_states": [
+      "U",
+      "N"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-040",
+    "person_xyxy": [
+      432,
+      438,
+      506,
+      557
+    ],
+    "phenotype": "small_desk_phone_control",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Hướng đầu xuống vùng bài/thiết bị riêng đủ looking N; vật nhỏ không đủ phone category nên U. Owner nghiệm thu U/N.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "STU-00311dce2cc7fcc4-a03df144",
+    "reviewed_draft_states": [
+      "U",
+      "N"
+    ],
+    "role_proposal": "train_supplement_candidate",
+    "source_annotations_are_hints_only": true,
+    "source_id": "studentclassroombehavior",
+    "source_member_sha256": "a03df144a89179215a0e01f97ec187f63d39a757805ed0dd1fc1b0e4ffd93d56",
+    "source_sha256": "00311dce2cc7fcc4f0dec043a6684ebfd076646baee8f0d4c637bbaba058fe5f",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-042",
+    "canonical_mask": [
+      0,
+      1
+    ],
+    "canonical_targets": [
+      null,
+      1
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      170,
+      288,
+      298,
+      528
+    ],
+    "crop_sha256": "a256d2cfca36058944891b8a54ceaa1616a502d8acfb600a650e2b49fc13d6aa",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Đầu hướng về anchor/bên cạnh, context giữ vùng bài riêng; phone chưa đủ evidence thì U. Nhìn về người ở phía trước, source writing không quyết định target.",
+    "draft_scene_boundary": "STU-instructional-view-12",
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "ff3511250231486f68b286a40b37e1c148307e984c0abf396a1571c85b1df3cb",
+    "input_sha256": "0b9ee4dd8b213a13231392c6a6fe19eceee5e61ca29b49c558e881ad3ac24deb",
+    "input_size": 224,
+    "label_sha256": "483affc8732eca8309745738f16343f90c038a1d61aaf40cfa57501655ab7cb1",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-042",
+    "owner_accepted_states": [
+      "U",
+      "P"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-042",
+    "person_xyxy": [
+      186,
+      310,
+      266,
+      486
+    ],
+    "phenotype": "hand_raise_forward_gaze",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Đầu hướng về anchor/bên cạnh, context giữ vùng bài riêng; phone chưa đủ evidence thì U. Nhìn về người ở phía trước, source writing không quyết định target. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "STU-0030aa43d7c00fb1-e00fbf07",
+    "reviewed_draft_states": [
+      "U",
+      "P"
+    ],
+    "role_proposal": "new_development_candidate_quarantine",
+    "source_annotations_are_hints_only": true,
+    "source_id": "studentclassroombehavior",
+    "source_member_sha256": "e00fbf07a67ce4e3fc687e7916ac08d34c1dcddced588c49300e992b2b0180ff",
+    "source_sha256": "0030aa43d7c00fb14c408282f95086c0ee80f0f5100d4308c28524b6c2b050bb",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "followup_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-043",
+    "canonical_mask": [
+      0,
+      1
+    ],
+    "canonical_targets": [
+      null,
+      0
+    ],
+    "changed_since_initial_state": true,
+    "context_xyxy": [
+      13,
+      454,
+      198,
+      640
+    ],
+    "crop_sha256": "14a313da8e8a8836fb10d513c224be459998c2202548296c863ed3335ca58126",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Vùng bài riêng rõ, tay/desk một phần bị che; phone U.",
+    "draft_scene_boundary": "STU-instructional-view-12",
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "40c3b26f0d78796bf57a6228f06ef2e3dff1229e6c7b182e2d3bb59dafc20eba",
+    "input_sha256": "576edfa6ae9d18ce6495107966b8873816171845a92554f21af5c5bab16223a7",
+    "input_size": 224,
+    "label_sha256": "483affc8732eca8309745738f16343f90c038a1d61aaf40cfa57501655ab7cb1",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-043",
+    "owner_accepted_states": [
+      "U",
+      "N"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-043",
+    "person_xyxy": [
+      26,
+      477,
+      157,
+      640
+    ],
+    "phenotype": "book_writing_occlusion",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Hướng đầu tới vùng giấy/bút riêng đủ looking N, không suy từ source writing; tay/bàn ở biên crop chưa đủ phone N. Owner nghiệm thu U/N.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "STU-0030aa43d7c00fb1-e00fbf07",
+    "reviewed_draft_states": [
+      "U",
+      "N"
+    ],
+    "role_proposal": "new_development_candidate_quarantine",
+    "source_annotations_are_hints_only": true,
+    "source_id": "studentclassroombehavior",
+    "source_member_sha256": "e00fbf07a67ce4e3fc687e7916ac08d34c1dcddced588c49300e992b2b0180ff",
+    "source_sha256": "0030aa43d7c00fb14c408282f95086c0ee80f0f5100d4308c28524b6c2b050bb",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-044",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      0,
+      1
+    ],
+    "changed_since_initial_state": true,
+    "context_xyxy": [
+      160,
+      259,
+      384,
+      640
+    ],
+    "crop_sha256": "5bc75dff94797f221fd14f24df9e8c7a4fd4815d895240013a0ce08b093eb58a",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Đầu hướng về anchor/bên cạnh, context giữ vùng bài riêng; phone chưa đủ evidence thì U.",
+    "draft_scene_boundary": "STU-instructional-view-13",
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "c62ac30fdf3c741415789be609b03e827358fbf0550494b0c95756913e41ff18",
+    "input_sha256": "ca7f278aa4b04a819274d3fd83d3791cd78d6b314cb899455ffa04b31d0e4a16",
+    "input_size": 224,
+    "label_sha256": "37626136a41dddf43284935cae912890573eae5f0da04a4129f185632a086e58",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-044",
+    "owner_accepted_states": [
+      "N",
+      "P"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-044",
+    "person_xyxy": [
+      179,
+      278,
+      333,
+      640
+    ],
+    "phenotype": "hand_to_face_peer_gaze",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Tay chống mặt và tay giữ bút/giấy rõ; head/gaze sang ngoài vùng bài riêng. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "STU-00328b920815bd7c-2b387b66",
+    "reviewed_draft_states": [
+      "N",
+      "P"
+    ],
+    "role_proposal": "new_development_candidate_quarantine",
+    "source_annotations_are_hints_only": true,
+    "source_id": "studentclassroombehavior",
+    "source_member_sha256": "2b387b6615bcea4fd0304b719bd4834a2643d896fa0c2ae31de7711c3d1dda9a",
+    "source_sha256": "00328b920815bd7cee38b1481cf9eb77a39d14853723e7124e342c3f69ed530e",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-045",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      0,
+      1
+    ],
+    "changed_since_initial_state": true,
+    "context_xyxy": [
+      298,
+      259,
+      531,
+      640
+    ],
+    "crop_sha256": "d0857a7ca108ed66fce583e81d71b358ded05a6a514e2d6333f397b39cba5111",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+    "draft_scene_boundary": "STU-instructional-view-13",
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "b56d94cc199ee8487013b26b10f8be8a35115b8ec2fb0e4e893bc87bafd3eee9",
+    "input_sha256": "ccb37f9c1b945ddf5dfdb56c3380aebaa70f295c88b774b6a6f11ef821672424",
+    "input_size": 224,
+    "label_sha256": "37626136a41dddf43284935cae912890573eae5f0da04a4129f185632a086e58",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-045",
+    "owner_accepted_states": [
+      "N",
+      "P"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-045",
+    "person_xyxy": [
+      320,
+      278,
+      464,
+      640
+    ],
+    "phenotype": "book_pen_negative",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Hai tay/vùng bài đủ phone draft N; head hướng phía trước/ngoài bài, không giữ looking N. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "STU-00328b920815bd7c-2b387b66",
+    "reviewed_draft_states": [
+      "N",
+      "P"
+    ],
+    "role_proposal": "new_development_candidate_quarantine",
+    "source_annotations_are_hints_only": true,
+    "source_id": "studentclassroombehavior",
+    "source_member_sha256": "2b387b6615bcea4fd0304b719bd4834a2643d896fa0c2ae31de7711c3d1dda9a",
+    "source_sha256": "00328b920815bd7cee38b1481cf9eb77a39d14853723e7124e342c3f69ed530e",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-046",
+    "canonical_mask": [
+      0,
+      1
+    ],
+    "canonical_targets": [
+      null,
+      0
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      995,
+      600,
+      1576,
+      811
+    ],
+    "crop_sha256": "3baf2b7583213e97e8a1d4c5c67b1505e472d133e79d5293fc38ec70a4ccd2cb",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Đang đọc sách; không coi sách/reading là phone N khi thiếu tay.",
+    "draft_scene_boundary": "STU-instructional-view-16",
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "a380c6cf1eaf10259645493e4b5703850ea8c51d3c269e64573c4c3e17a34553",
+    "input_sha256": "1d07f1435459473381129bd8bc0fc7bb1d3df37eccab91aadf24b8e09ad144fa",
+    "input_size": 224,
+    "label_sha256": "256fe8316a26a3fe1c32c8ad1db99740b1319dc04e95e0f297e6fb25fe2550bd",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-046",
+    "owner_accepted_states": [
+      "U",
+      "N"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-046",
+    "person_xyxy": [
+      1087,
+      637,
+      1456,
+      811
+    ],
+    "phenotype": "book_negative_occluded_hands",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Đang đọc sách; không coi sách/reading là phone N khi thiếu tay. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "STU-001a63e6728bf568-41ec69ae",
+    "reviewed_draft_states": [
+      "U",
+      "N"
+    ],
+    "role_proposal": "new_development_candidate_quarantine",
+    "source_annotations_are_hints_only": true,
+    "source_id": "studentclassroombehavior",
+    "source_member_sha256": "41ec69aec78f105d879535636507e0923205f0fa53871415b60d6c634883f00b",
+    "source_sha256": "001a63e6728bf5687f14371cca89f214f2a581c96b383b4a019264d9138764ce",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-047",
+    "canonical_mask": [
+      0,
+      1
+    ],
+    "canonical_targets": [
+      null,
+      0
+    ],
+    "changed_since_initial_state": true,
+    "context_xyxy": [
+      968,
+      410,
+      1382,
+      665
+    ],
+    "crop_sha256": "cd675f8179384cf4fd4260b49c1870c4fa9f461d5f90f9cb2212a5562babadcb",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Đầu hướng về anchor/bên cạnh, context giữ vùng bài riêng; phone chưa đủ evidence thì U.",
+    "draft_scene_boundary": "STU-instructional-view-16",
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "c6c49eb2fa101c76d6599306a9c42200bc5cbcb452445bdb3dadb2695e151843",
+    "input_sha256": "cc88187e7b83c6769a5d8a50c87c2e2fcfce78d5ee4787952b10df265298d44f",
+    "input_size": 224,
+    "label_sha256": "256fe8316a26a3fe1c32c8ad1db99740b1319dc04e95e0f297e6fb25fe2550bd",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-047",
+    "owner_accepted_states": [
+      "U",
+      "N"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-047",
+    "person_xyxy": [
+      1060,
+      442,
+      1281,
+      604
+    ],
+    "phenotype": "peer_teacher_gaze",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Native/crop là anchor đọc sách giơ trước mặt; không phải nhìn sang teacher như draft. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "STU-001a63e6728bf568-41ec69ae",
+    "reviewed_draft_states": [
+      "U",
+      "N"
+    ],
+    "role_proposal": "new_development_candidate_quarantine",
+    "source_annotations_are_hints_only": true,
+    "source_id": "studentclassroombehavior",
+    "source_member_sha256": "41ec69aec78f105d879535636507e0923205f0fa53871415b60d6c634883f00b",
+    "source_sha256": "001a63e6728bf5687f14371cca89f214f2a581c96b383b4a019264d9138764ce",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-048",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      0,
+      0
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      674,
+      17,
+      1251,
+      832
+    ],
+    "crop_sha256": "0ed65f6320a155a9310ddb94bc569c5d9003e4813374d78716bc730cad009b95",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+    "draft_scene_boundary": "STU-instructional-view-44",
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "d3e1779b7f85c0b18d091763d32c1f70c0313dfb021f4a6b24bc325231dc7be0",
+    "input_sha256": "b5be60cc67ed7d2bacdca7532252dc2873ced22c967e0c11314c2d683c5330ec",
+    "input_size": 224,
+    "label_sha256": "b2adf816bbeeaab4eebd0fb379f384b6e4bc5473be6fe53602eea2c915eef1dc",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-048",
+    "owner_accepted_states": [
+      "N",
+      "N"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-048",
+    "person_xyxy": [
+      734,
+      42,
+      1198,
+      832
+    ],
+    "phenotype": "book_held_in_both_hands",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "STU-X-25417caf81b3",
+    "reviewed_draft_states": [
+      "N",
+      "N"
+    ],
+    "role_proposal": "new_development_candidate_quarantine",
+    "source_annotations_are_hints_only": true,
+    "source_id": "studentclassroombehavior",
+    "source_member_sha256": "bfb5c9d93e640bcf428650558c226583ffe145cda243cfbc9b4313851566badf",
+    "source_sha256": "25417caf81b395ca09deb038bc82382ccdc6f9c3015c9f534d961257449ff924",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-049",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "changed_since_initial_state": true,
+    "context_xyxy": [
+      127,
+      487,
+      532,
+      832
+    ],
+    "crop_sha256": "7ae88acd69aa87e222e293b44da2eb1414eb7b4675bc08d52ac1255b07748650",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Cúi đọc/viết, phần bàn bị crop biên nên phone U.",
+    "draft_scene_boundary": "STU-instructional-view-44",
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "6e9f08a79922afd068cff0b7e7a3615903aae25280e14a7bf114f59367e393e7",
+    "input_sha256": "41f82a49e396e3d6b1e12175f4bf1f174807b8b04c4940689acfccd23a9fcda2",
+    "input_size": 224,
+    "label_sha256": "b2adf816bbeeaab4eebd0fb379f384b6e4bc5473be6fe53602eea2c915eef1dc",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-049",
+    "owner_accepted_states": [
+      "U",
+      "U"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-049",
+    "person_xyxy": [
+      172,
+      520,
+      464,
+      832
+    ],
+    "phenotype": "book_negative_partial_workarea",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Crop biên thiếu tay/bài; không giữ looking N chỉ từ cúi đầu. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "STU-X-25417caf81b3",
+    "reviewed_draft_states": [
+      "U",
+      "U"
+    ],
+    "role_proposal": "new_development_candidate_quarantine",
+    "source_annotations_are_hints_only": true,
+    "source_id": "studentclassroombehavior",
+    "source_member_sha256": "bfb5c9d93e640bcf428650558c226583ffe145cda243cfbc9b4313851566badf",
+    "source_sha256": "25417caf81b395ca09deb038bc82382ccdc6f9c3015c9f534d961257449ff924",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-050",
+    "canonical_mask": [
+      0,
+      1
+    ],
+    "canonical_targets": [
+      null,
+      0
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      46,
+      414,
+      538,
+      919
+    ],
+    "crop_sha256": "fabcc1e0c95196629609d6fa557e2241d9cc9cb28222a55300050c51a368f761",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+    "draft_scene_boundary": "STU-instructional-view-53",
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "3326a4c20cd8bdb8f328c9ac4f2b19d92aece8cb69162b3987029996cc1885b2",
+    "input_sha256": "8fcc9f5cddf5c77fed4d5a271eba5d63d1f2faeb2dc263c3160ec39905cd7875",
+    "input_size": 224,
+    "label_sha256": "8f3316b0e62201127efea16c767b9ac22ac86cb0a6df3db9b687ab1189915edf",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-050",
+    "owner_accepted_states": [
+      "U",
+      "N"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-050",
+    "person_xyxy": [
+      73,
+      446,
+      478,
+      919
+    ],
+    "phenotype": "pen_pencilcase_negative",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Vùng tay sát mặt/bài còn bị che và low-detail tại 224; phone absence chưa đủ, looking về bài riêng giữ draft N. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "qa_revision": "native_followup",
+    "review_id": "STU-X-e41f24405e47",
+    "reviewed_draft_states": [
+      "U",
+      "N"
+    ],
+    "role_proposal": "new_development_candidate_quarantine",
+    "source_annotations_are_hints_only": true,
+    "source_id": "studentclassroombehavior",
+    "source_member_sha256": "86ac39ca6299bcbeea336f110547db37c71924527f39806cb4733ca84ba12134",
+    "source_sha256": "e41f24405e47605fa6d5507fd42c9a71df0344584a8fb6c26eacbfcb16726cc4",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-051",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "changed_since_initial_state": true,
+    "context_xyxy": [
+      498,
+      427,
+      976,
+      901
+    ],
+    "crop_sha256": "7b8d1279b21d1164b0629009b375b4158faa3602ac01b1df4d25248769688941",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+    "draft_scene_boundary": "STU-instructional-view-53",
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "5476369fc722b36499ab0315499673f056b231fb44dc17512f1cf06473ebe2e1",
+    "input_sha256": "3792e8cef58a3dcaaffc26103f0dfb6eeb20c63c452f42f5d28d971c4527ed06",
+    "input_size": 224,
+    "label_sha256": "8f3316b0e62201127efea16c767b9ac22ac86cb0a6df3db9b687ab1189915edf",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-051",
+    "owner_accepted_states": [
+      "U",
+      "U"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-051",
+    "person_xyxy": [
+      564,
+      473,
+      876,
+      818
+    ],
+    "phenotype": "pen_pencilcase_negative",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Pencilcase/tư thế che tay và gaze, low-detail tại 224; giữ U/U. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "STU-X-e41f24405e47",
+    "reviewed_draft_states": [
+      "U",
+      "U"
+    ],
+    "role_proposal": "new_development_candidate_quarantine",
+    "source_annotations_are_hints_only": true,
+    "source_id": "studentclassroombehavior",
+    "source_member_sha256": "86ac39ca6299bcbeea336f110547db37c71924527f39806cb4733ca84ba12134",
+    "source_sha256": "e41f24405e47605fa6d5507fd42c9a71df0344584a8fb6c26eacbfcb16726cc4",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-052",
+    "canonical_mask": [
+      1,
+      0
+    ],
+    "canonical_targets": [
+      0,
+      null
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      559,
+      43,
+      1363,
+      1074
+    ],
+    "crop_sha256": "67dfd835bbedd934c3e94011ac9a73dfcad332dce45daf2a5d76e7a78af0b2b5",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Bút/giấy/tay của anchor rõ; tóc che hướng nhìn nên looking U.",
+    "draft_scene_boundary": "STU-instructional-view-54",
+    "draft_states": [
+      "N",
+      "U"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "940d194ef874c79193f520281fb2042938b45e1dc71602d5a5d2da52af295f21",
+    "input_sha256": "5ba933c2e2c8c923fe3c36943962660e19e959a71092c96a81ef2cdea6df62f1",
+    "input_size": 224,
+    "label_sha256": "8fa683ea98026669e036b0abfc620ed26d20b952dc09d92d3ec102a24588dfcf",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-052",
+    "owner_accepted_states": [
+      "N",
+      "U"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-052",
+    "person_xyxy": [
+      613,
+      70,
+      1363,
+      1074
+    ],
+    "phenotype": "writing_face_occluded",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Bút/giấy/tay của anchor rõ; tóc che hướng nhìn nên looking U. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "STU-X-6878715d2b2c",
+    "reviewed_draft_states": [
+      "N",
+      "U"
+    ],
+    "role_proposal": "new_development_candidate_quarantine",
+    "source_annotations_are_hints_only": true,
+    "source_id": "studentclassroombehavior",
+    "source_member_sha256": "545666402c0680db2a66c9a7d0547bd70978a52c0c9e5a84e6089e08dc2382b8",
+    "source_sha256": "6878715d2b2cd43cc90cdab2bb8599b3fb031e2024f6a7fc138ab1c9447466c8",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-053",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      0,
+      0
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      429,
+      285,
+      1009,
+      967
+    ],
+    "crop_sha256": "a64d8c4d40432b6a7641b7d5370f64a9946817b1bd816fe7a55aa3dfc5aa8f5b",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+    "draft_scene_boundary": "STU-instructional-view-54",
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "a732f59e492eb23a30611435ac5074f1ff7bca6344ea123901cc5d40ec4a1569",
+    "input_sha256": "4c283ed95afc0588540b6c0ff9911f9dd0d864c904bb62685d3727fe25b973d7",
+    "input_size": 224,
+    "label_sha256": "8fa683ea98026669e036b0abfc620ed26d20b952dc09d92d3ec102a24588dfcf",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-053",
+    "owner_accepted_states": [
+      "N",
+      "N"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-053",
+    "person_xyxy": [
+      477,
+      322,
+      961,
+      891
+    ],
+    "phenotype": "pen_negative",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "STU-X-6878715d2b2c",
+    "reviewed_draft_states": [
+      "N",
+      "N"
+    ],
+    "role_proposal": "new_development_candidate_quarantine",
+    "source_annotations_are_hints_only": true,
+    "source_id": "studentclassroombehavior",
+    "source_member_sha256": "545666402c0680db2a66c9a7d0547bd70978a52c0c9e5a84e6089e08dc2382b8",
+    "source_sha256": "6878715d2b2cd43cc90cdab2bb8599b3fb031e2024f6a7fc138ab1c9447466c8",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-054",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      243,
+      362,
+      1181,
+      842
+    ],
+    "crop_sha256": "56dae5126c344f584fad35b22b370485d8353d7c3da3e41b95bc3f8f42d39c1c",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Đầu/vùng tay crop biên che evidence; không ép writing sang N/N.",
+    "draft_scene_boundary": "STU-instructional-view-59",
+    "draft_states": [
+      "U",
+      "U"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "fc32243a2d60dc71dc78704b4d2e5614a7081e0f72b5ad6f6afbc3fccb48d323",
+    "input_sha256": "aa7f82c580a24cdfea5694e2ff2ac94785304c2145e2fd14bd50f426ee1becb5",
+    "input_size": 224,
+    "label_sha256": "8b49a07ee200c115f3da575ecf505c6a6cc35754c3d7e673d3d215aa9a2e50b7",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-054",
+    "owner_accepted_states": [
+      "U",
+      "U"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-054",
+    "person_xyxy": [
+      292,
+      387,
+      1132,
+      842
+    ],
+    "phenotype": "extreme_head_down_occlusion",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Đầu/vùng tay crop biên che evidence; không ép writing sang N/N. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "STU-X-4ec829973e95",
+    "reviewed_draft_states": [
+      "U",
+      "U"
+    ],
+    "role_proposal": "new_development_candidate_quarantine",
+    "source_annotations_are_hints_only": true,
+    "source_id": "studentclassroombehavior",
+    "source_member_sha256": "60315f780197d32555afc4b3241b2ec83cf41b84b1ff51cd01b02701d8aa8753",
+    "source_sha256": "4ec829973e95e49c4f1dfd08340cb564e8137bccd8eb15a3e122d9c3b2d34935",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-055",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      0,
+      0
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      340,
+      97,
+      820,
+      543
+    ],
+    "crop_sha256": "95f0d5317eeddad9610188b2ba7c41244a832bbf55da4452e94cb6b753a01ed5",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+    "draft_scene_boundary": "STU-instructional-view-59",
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "99e62e1e4d5aaa089f15e9ab9c57a1f2b25ed0e1fe365450d1480f8d1cb7bddd",
+    "input_sha256": "00a056fa0aae3495278eae007c408eb2bf615157c95ee3390e86fedcb60c85b7",
+    "input_size": 224,
+    "label_sha256": "8b49a07ee200c115f3da575ecf505c6a6cc35754c3d7e673d3d215aa9a2e50b7",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot/E004-CN-055",
+    "owner_accepted_states": [
+      "N",
+      "N"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-055",
+    "person_xyxy": [
+      389,
+      131,
+      750,
+      484
+    ],
+    "phenotype": "crowded_own_paper",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "STU-X-4ec829973e95",
+    "reviewed_draft_states": [
+      "N",
+      "N"
+    ],
+    "role_proposal": "new_development_candidate_quarantine",
+    "source_annotations_are_hints_only": true,
+    "source_id": "studentclassroombehavior",
+    "source_member_sha256": "60315f780197d32555afc4b3241b2ec83cf41b84b1ff51cd01b02701d8aa8753",
+    "source_sha256": "4ec829973e95e49c4f1dfd08340cb564e8137bccd8eb15a3e122d9c3b2d34935",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-002-R2",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      0,
+      1
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      814,
+      459,
+      1284,
+      756
+    ],
+    "crop_sha256": "8540bccf5146a091927f70c7c5ad9751020caa0f8bafd9eca4809583c3e4bdc0",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Hai tay v? b?n ri?ng quan s?t ???c; mobile ph?a tr?i thu?c anchor b?n c?nh. ??u h??ng sang b?n, kh?ng t? nh?n phone c?a peer.",
+    "draft_scene_boundary": "BEH-bright-worktables",
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "92633eb5f2ab73086a0ef1a6ce826d4bb4778138722f8821b136080742af8c56",
+    "input_sha256": "076aec0047ea45e525de6589cbcd5b462b79f4827c41c8e6e135450ea392e1e7",
+    "input_size": 224,
+    "label_sha256": "f8df1fda120f67d636c8df3120174cc3359a22c041ff36af445ae3a9145ffd0e",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot-followup/E004-CN-002-R2",
+    "owner_accepted_states": [
+      "N",
+      "P"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-002-R2",
+    "person_xyxy": [
+      1058,
+      481,
+      1215,
+      718
+    ],
+    "phenotype": "crowded_shared_worktable",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Hai tay/bàn riêng rõ; mobile phía trái gắn với anchor khác. Gaze ngoài bàn riêng. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "BEH-00045fefb430c79f-5b984b7c",
+    "reviewed_draft_states": [
+      "N",
+      "P"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "5b984b7c0fc6d42c395b104e2cfe5fe4c26585e8031bf3314e9b9d0c8f73d598",
+    "source_sha256": "00045fefb430c79f4ba51ef7f91e8e5d053f3bb0a7428171c56139c44707f03e",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "explicit_markdown",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-041-R2",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      1,
+      1
+    ],
+    "changed_since_initial_state": true,
+    "context_xyxy": [
+      182,
+      272,
+      266,
+      544
+    ],
+    "crop_sha256": "8d0f9bbc82de24a26fc6021af4219f53f46f55b0e32cb0e9c2edf51be3510ca8",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Recrop ??a ??u/anchor tr? l?i context. Mobile g?n v?i tay/b?n c?a anchor; b? ?? xu?t N/N sai c?a crop c?, review l?i t?i 224.",
+    "draft_scene_boundary": "STU-overhead-train",
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "81ebc18225ae05949a6cdf052764383b74215f1f8ac8aacadfc69c42234a9e36",
+    "input_sha256": "99815e57ce65ee8d6824548f0e81fac5433209099bbfd6b1f02c3ca20c3842f0",
+    "input_size": 224,
+    "label_sha256": "300ddd6581845be2d0486089a26e6bc5b33b2c5eb95c9513bd3d9546f08271ac",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot-followup/E004-CN-041-R2",
+    "owner_accepted_states": [
+      "P",
+      "P"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-041-R2",
+    "person_xyxy": [
+      195,
+      288,
+      243,
+      512
+    ],
+    "phenotype": "foreign_mobile_crowded_workarea",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Owner xác nhận phone P và hướng nhìn sang bên cạnh P trên đúng R2.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "STU-00311dce2cc7fcc4-a03df144",
+    "reviewed_draft_states": [
+      "P",
+      "P"
+    ],
+    "role_proposal": "train_supplement_candidate",
+    "source_annotations_are_hints_only": true,
+    "source_id": "studentclassroombehavior",
+    "source_member_sha256": "a03df144a89179215a0e01f97ec187f63d39a757805ed0dd1fc1b0e4ffd93d56",
+    "source_sha256": "00311dce2cc7fcc4f0dec043a6684ebfd076646baee8f0d4c637bbaba058fe5f",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-056",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      0,
+      0
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      64,
+      265,
+      224,
+      552
+    ],
+    "crop_sha256": "91ab15c577f904c11d59d8f6d54788dcd2e5b24ea9ba5d5cadead2828d97d9ef",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Anchor ? h?ng sau vi?t tr?n gi?y ri?ng, c? hai tay ? v?ng b?i; t?o contrast v?i hai foreground anchor nh?n ra ngo?i v?ng b?i.",
+    "draft_scene_boundary": "STU-instructional-view-13",
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "542f382aa2516d0d5947712a23e5bd41796caf996cc17061290a95d6ab3d72c4",
+    "input_sha256": "7cf678c050a4c0c3c62f8803e76356735526c2f092900b54edf17ac07d65083f",
+    "input_size": 224,
+    "label_sha256": "37626136a41dddf43284935cae912890573eae5f0da04a4129f185632a086e58",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot-followup/E004-CN-056",
+    "owner_accepted_states": [
+      "N",
+      "N"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-056",
+    "person_xyxy": [
+      77,
+      285,
+      198,
+      500
+    ],
+    "phenotype": "writing_versus_hand_to_face",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Bút/giấy và hai tay anchor rõ, head/face nhìn về giấy; contrast với foreground nhìn ra ngoài bài. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "review_id": "STU-00328b920815bd7c-2b387b66",
+    "reviewed_draft_states": [
+      "N",
+      "N"
+    ],
+    "role_proposal": "new_development_candidate_quarantine",
+    "source_annotations_are_hints_only": true,
+    "source_id": "studentclassroombehavior",
+    "source_member_sha256": "2b387b6615bcea4fd0304b719bd4834a2643d896fa0c2ae31de7711c3d1dda9a",
+    "source_sha256": "00328b920815bd7cee38b1481cf9eb77a39d14853723e7124e342c3f69ed530e",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  },
+  {
+    "acceptance_basis": "batch_chat",
+    "approval_scope": "labels_and_geometry_only",
+    "candidate_id": "E004-CN-035-R2",
+    "canonical_mask": [
+      1,
+      1
+    ],
+    "canonical_targets": [
+      0,
+      1
+    ],
+    "changed_since_initial_state": false,
+    "context_xyxy": [
+      412,
+      394,
+      912,
+      1080
+    ],
+    "crop_sha256": "052d4f4eae7e5924ff5a1cde8f9d6f36b3267dab703a9ddd67eede575023a9f3",
+    "decision_proposal": "owner_accepted_labels_geometry_only",
+    "draft_reason": "Recrop m? r?ng tr?i ?? gi? c? b?n tay c?m b?t ?? b? clip ? crop ??u; tay/b?i ri?ng quan s?t ???c, head/gaze ngo?i b?i.",
+    "draft_scene_boundary": "BEH-yellow-flags",
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "geometry_qa": "anchor_and_context_reviewed",
+    "independence_proven": false,
+    "input224_qa": "completed_blinded_visual_review",
+    "input_pixel_sha256": "9f382144f887ae7fecedb9d60fee88a70ee31db21d5a73372dee67c4157d60d7",
+    "input_sha256": "6d618ccecc792a7dd515f7eb1d6baa59ec66eb3274e3cbcb0bda01970591caf1",
+    "input_size": 224,
+    "label_sha256": "9a2c5117be4d1647a1ef26388aa33ad7002902c66735509a426801436b6992b9",
+    "ledger_ref": "data/interim/E004-source-review-20261011/owner-review-20261012/accepted/ledger.jsonl",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot-native-followup/E004-CN-035-R2",
+    "owner_accepted_states": [
+      "N",
+      "P"
+    ],
+    "owner_approved": true,
+    "owner_decision_ref": "artifacts/reports/E004-source-review-20261011/owner-decisions-20261012.json#E004-CN-035-R2",
+    "person_xyxy": [
+      450,
+      432,
+      804,
+      1080
+    ],
+    "phenotype": "peer_gaze_contrast",
+    "proposed_role": "unassigned_pending_family_review",
+    "qa_date": "2026-10-12",
+    "qa_reason": "Recrop giữ cả bàn tay cầm bút và tay trên giấy; absence mobile có thể review tại 224, head/gaze sang bên ngoài bài. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+    "qa_reviewer": "repository-owner",
+    "qa_revision": "native_followup",
+    "review_id": "BEH-X-2d63d2ddeec9",
+    "reviewed_draft_states": [
+      "N",
+      "P"
+    ],
+    "role_proposal": "holdout_candidate_reserve",
+    "source_annotations_are_hints_only": true,
+    "source_id": "behavie",
+    "source_member_sha256": "7a2bd62d0d02a3f2b57f52a612b3578cb81b0ff14730bdaa7c744da556c9e828",
+    "source_sha256": "2d63d2ddeec9049ab6d1c7dd2c415f29bae5d8fba9bf283b345204d31137cec8",
+    "source_to_native_crop_to_input224_reviewed": true,
+    "split": null,
+    "usage": "review_only"
+  }
+]

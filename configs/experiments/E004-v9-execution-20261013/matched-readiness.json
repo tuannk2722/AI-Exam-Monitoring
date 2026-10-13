@@ -1,0 +1,68 @@
+{
+  "schema_version": "adaptation-readiness-v2",
+  "status": "approved",
+  "owner": "repository-owner",
+  "scope": "promotion",
+  "protocol_sha256": "bf0c8b5df03797b2190f987fe2c66809d3056be0d5c4f001192f09f7b554285e",
+  "cohorts_sha256": "00531cc0435df34f6557426c357b623a390d51410c85641cd79bca6960309798",
+  "decision_ref": "artifacts/reports/E004-v9-execution-20261013/owner-execution-approval.json",
+  "waiver_approval": {
+    "path": "artifacts/reports/E004-v9-execution-20261013/owner-execution-approval.json",
+    "sha256": "27a6bb027cfeec66ad1a2813558a126b4141f0d907d26b97a35e03acec77bfed"
+  },
+  "gates": {
+    "G0": true,
+    "G1": true,
+    "G2": "owner_waived",
+    "G3": "owner_waived"
+  },
+  "evidence_pins": [
+    {
+      "path": "artifacts/reports/E004-v9-execution-20261013/owner-execution-approval.json",
+      "sha256": "27a6bb027cfeec66ad1a2813558a126b4141f0d907d26b97a35e03acec77bfed"
+    },
+    {
+      "path": "artifacts/reports/E004-v9-execution-20261013/experiment-package.json",
+      "sha256": "d39c6b95d6cab8227b7375653ab3536d36b15fac46fa698508aa7d0b5ebcffe1"
+    },
+    {
+      "path": "artifacts/reports/E004-v9-execution-20261013/cohort-support.json",
+      "sha256": "93cdfa75263d43f7aeafc5bd18dbdbd11775e8206fc7f8c5c6de01db8bf47e48"
+    },
+    {
+      "path": "artifacts/reports/E004-v9-execution-20261013/family-enrollment.json",
+      "sha256": "24bdfed0cb2d7c2ec111235ef581452c6489e28f2b2ebfd8e34606c9109fc1c7"
+    },
+    {
+      "path": "artifacts/reports/E004-v9-execution-20261013/smoke-pair-acceptance.json",
+      "sha256": "6984a8b869a309c08fee267763ec1f7d395fb2f4a1bf867efaf04a90fd4526f4"
+    },
+    {
+      "path": "artifacts/reports/E004-v9-execution-20261013/package-rebuild.json",
+      "sha256": "992253493d36fc7b4ccdc60e6e8c786daa33903ec0ed1686641fbd1ac0d6a363"
+    },
+    {
+      "path": "artifacts/reports/E004-v9-execution-20261013/software-revision-validation.json",
+      "sha256": "94082d65e20ff38713e5e7058b1b7c5eb54a951428c49f472a0f1f1dba6f2926"
+    }
+  ],
+  "holdout_support": {
+    "records": 199,
+    "phone": {
+      "unknown": 33,
+      "negative": 88,
+      "positive": 78
+    },
+    "looking": {
+      "negative": 116,
+      "positive": 75,
+      "unknown": 8
+    },
+    "quarantine_families": 35,
+    "unaccepted_family_records": 53,
+    "work_context": {
+      "unknown": 74,
+      "confirmed_working": 125
+    }
+  }
+}

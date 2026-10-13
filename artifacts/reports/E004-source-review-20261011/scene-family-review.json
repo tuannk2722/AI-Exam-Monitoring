@@ -1,0 +1,518 @@
+[
+  {
+    "confirmed_train_overlap": false,
+    "description": "Phòng sáng, bàn gỗ rộng, cửa sổ bên phải; lớp nguồn phone có box vùng đầu/thân.",
+    "draft_boundary": "BEH-bright-worktables",
+    "evidenced_independent_groups": 0,
+    "image_count": 1,
+    "original40_count": 1,
+    "owner_accepted": false,
+    "review_ids": [
+      "BEH-00045fefb430c79f-5b984b7c"
+    ],
+    "role_proposal": "holdout_candidate_reserve"
+  },
+  {
+    "confirmed_train_overlap": false,
+    "description": "Ghế/bàn xanh, camera góc cao; timestamp cùng ngày 2016 trong các frame đã xem.",
+    "draft_boundary": "BEH-blue-cctv",
+    "evidenced_independent_groups": 0,
+    "image_count": 7,
+    "original40_count": 1,
+    "owner_accepted": false,
+    "review_ids": [
+      "BEH-004cba3905e14b96-a959d24d",
+      "BEH-X-14b94fa0c3fd",
+      "BEH-X-4e0a8a7c5021",
+      "BEH-X-b6adcc3b1449",
+      "BEH-X-8b5225e82b05",
+      "BEH-X-c15dc367dbf9",
+      "BEH-X-f48ec4d135c5"
+    ],
+    "role_proposal": "holdout_candidate_reserve"
+  },
+  {
+    "confirmed_train_overlap": false,
+    "description": "Camera phía sau lớp đông, bàn gỗ; thiết bị rất nhỏ, nhiều anchor.",
+    "draft_boundary": "BEH-rear-cctv",
+    "evidenced_independent_groups": 0,
+    "image_count": 1,
+    "original40_count": 1,
+    "owner_accepted": false,
+    "review_ids": [
+      "BEH-007e552536b83f93-d0d9bbe1"
+    ],
+    "role_proposal": "holdout_candidate_reserve"
+  },
+  {
+    "confirmed_train_overlap": false,
+    "description": "Ghế gỗ có bàn viết, cảnh diễn người lớn; gom thận trọng các góc/sàn khác nhau, chưa xác minh phòng/session.",
+    "draft_boundary": "BEH-chair-staging",
+    "evidenced_independent_groups": 0,
+    "image_count": 8,
+    "original40_count": 1,
+    "owner_accepted": false,
+    "review_ids": [
+      "BEH-00869141080411f8-0f38e460",
+      "BEH-X-6ff292e988cc",
+      "BEH-X-07d41ccb9d51",
+      "BEH-X-8e7445860006",
+      "BEH-X-dc5214b1ddf5",
+      "BEH-X-cc7311106520",
+      "BEH-X-c596ab375b37",
+      "BEH-X-023668f6f270"
+    ],
+    "role_proposal": "holdout_candidate_reserve"
+  },
+  {
+    "confirmed_train_overlap": false,
+    "description": "Tường vàng, cờ dây, bàn gỗ nhỏ, cửa chớp; nhiều tư thế viết/ngẩng/nhìn ngang.",
+    "draft_boundary": "BEH-yellow-flags",
+    "evidenced_independent_groups": 0,
+    "image_count": 7,
+    "original40_count": 4,
+    "owner_accepted": false,
+    "review_ids": [
+      "BEH-001ce4967d681ff7-29b86b82",
+      "BEH-0114fbbf45591e35-07c5b7ae",
+      "BEH-01308f31b3d603b3-c67d8c76",
+      "BEH-014e57d0b50fc6ec-96c60fda",
+      "BEH-X-2d63d2ddeec9",
+      "BEH-X-fd77d2a2c0e3",
+      "BEH-X-2b27cf170f88"
+    ],
+    "role_proposal": "holdout_candidate_reserve"
+  },
+  {
+    "confirmed_train_overlap": false,
+    "description": "Tường vàng cũ, bàn ghế dài; gom thận trọng các bố trí/nhóm người/góc quay có quan hệ chưa rõ.",
+    "draft_boundary": "BEH-worn-benches",
+    "evidenced_independent_groups": 0,
+    "image_count": 36,
+    "original40_count": 12,
+    "owner_accepted": false,
+    "review_ids": [
+      "BEH-003a39144c5194f9-a462c79d",
+      "BEH-010132448e1a56ef-4b97eb30",
+      "BEH-003f06dab7466b9e-a571d0fe",
+      "BEH-00c9ff261f9413b5-8d33a69c",
+      "BEH-001dd0dd3be2fb89-d30c96dc",
+      "BEH-0052b47269485180-6eb67853",
+      "BEH-00eee356c96cabcf-8062314c",
+      "BEH-014e661c623a7908-868bd0bd",
+      "BEH-0157dcdba9ee5a5b-f56fbe90",
+      "BEH-015b385e39908531-be052d30",
+      "BEH-015f875f539691e5-c656c574",
+      "BEH-0161e2e158a58caa-2dbbe836",
+      "BEH-X-607061ffba5b",
+      "BEH-X-18a5baf63f35",
+      "BEH-X-5ecded4ba341",
+      "BEH-X-7d3fc1840670",
+      "BEH-X-bdbadbdba307",
+      "BEH-X-95a077d08b45",
+      "BEH-X-2d1d538b6df9",
+      "BEH-X-4d13465d3366",
+      "BEH-X-3c673000d592",
+      "BEH-X-302dfbfde968",
+      "BEH-X-95e895d52bc1",
+      "BEH-X-a543d4f14a19",
+      "BEH-X-0a50c2ce79ce",
+      "BEH-X-8c513a62495a",
+      "BEH-X-1030bff6c502",
+      "BEH-X-5700ec49eed2",
+      "BEH-X-1abf3c8d5ed0",
+      "BEH-X-928dd7c65ff3",
+      "BEH-X-5ff048038ca2",
+      "BEH-X-514f4ed8a543",
+      "BEH-X-ab1dad0d8eff",
+      "BEH-X-d8558d0f0763",
+      "BEH-X-91c24f45d771",
+      "BEH-X-edd3d113336b"
+    ],
+    "role_proposal": "holdout_candidate_reserve"
+  },
+  {
+    "confirmed_train_overlap": true,
+    "description": "Cảnh tường xám, cửa sổ xanh bên phải, bàn gỗ; đã đối chiếu cùng cảnh train V7.",
+    "draft_boundary": "STU-gray-train",
+    "evidenced_independent_groups": 0,
+    "image_count": 10,
+    "original40_count": 5,
+    "owner_accepted": false,
+    "review_ids": [
+      "STU-00081846913ae753-1868c76a",
+      "STU-01003ba3425d3892-0d78f7af",
+      "STU-0130b66f7f693dde-84cd2262",
+      "STU-049df11bda175dc6-d132df08",
+      "STU-06471b0e8ccf95fa-69f2fc56",
+      "STU-X-88f27ef81662",
+      "STU-X-3a3487a87a27",
+      "STU-X-a937357c8801",
+      "STU-X-5a301ba551cc",
+      "STU-X-6f59b8e99aaa"
+    ],
+    "role_proposal": "train_supplement_candidate"
+  },
+  {
+    "confirmed_train_overlap": true,
+    "description": "Cảnh camera cao, bàn vàng, cửa sổ xanh; đã đối chiếu cùng cảnh train V7.",
+    "draft_boundary": "STU-overhead-train",
+    "evidenced_independent_groups": 0,
+    "image_count": 25,
+    "original40_count": 7,
+    "owner_accepted": false,
+    "review_ids": [
+      "STU-00311dce2cc7fcc4-a03df144",
+      "STU-0282e42c1fd36f1d-14b287e6",
+      "STU-065bd4e3636df1fa-096e0c52",
+      "STU-0b14e020ce5ef511-b2e11f64",
+      "STU-0b7a07be4fadb4a2-1c54b236",
+      "STU-0f6929d74c113444-8b88467e",
+      "STU-12d1bd87d5a603ec-79b9698a",
+      "STU-X-1c76982f128c",
+      "STU-X-db85daeb35d1",
+      "STU-X-af8f96294bd7",
+      "STU-X-ec1fa36923d4",
+      "STU-X-a6721381b1bc",
+      "STU-X-df0c6157151a",
+      "STU-X-9c9a38364c00",
+      "STU-X-b62fe9de507e",
+      "STU-X-b42b60efd4bf",
+      "STU-X-5f5c4e582cfe",
+      "STU-X-2ce621c0cab2",
+      "STU-X-8034298201ae",
+      "STU-X-ad6f8df5d914",
+      "STU-X-fe6692c76edc",
+      "STU-X-bd5fb8876818",
+      "STU-X-cfb7b19cc647",
+      "STU-X-661b56ce72f2",
+      "STU-X-ddc3dc77fef6"
+    ],
+    "role_proposal": "train_supplement_candidate"
+  },
+  {
+    "confirmed_train_overlap": true,
+    "description": "Dãy ghế gỗ dạng giảng đường; ảnh mở rộng đã đối chiếu cùng cảnh train V7.",
+    "draft_boundary": "STU-theater-train",
+    "evidenced_independent_groups": 0,
+    "image_count": 1,
+    "original40_count": 0,
+    "owner_accepted": false,
+    "review_ids": [
+      "STU-X-2d88a5be5b7c"
+    ],
+    "role_proposal": "train_supplement_candidate"
+  },
+  {
+    "confirmed_train_overlap": false,
+    "description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "draft_boundary": "STU-instructional-view-12",
+    "evidenced_independent_groups": 0,
+    "image_count": 1,
+    "original40_count": 1,
+    "owner_accepted": false,
+    "review_ids": [
+      "STU-0030aa43d7c00fb1-e00fbf07"
+    ],
+    "role_proposal": "new_development_candidate_quarantine"
+  },
+  {
+    "confirmed_train_overlap": false,
+    "description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "draft_boundary": "STU-instructional-view-13",
+    "evidenced_independent_groups": 0,
+    "image_count": 1,
+    "original40_count": 1,
+    "owner_accepted": false,
+    "review_ids": [
+      "STU-00328b920815bd7c-2b387b66"
+    ],
+    "role_proposal": "new_development_candidate_quarantine"
+  },
+  {
+    "confirmed_train_overlap": false,
+    "description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "draft_boundary": "STU-instructional-view-14",
+    "evidenced_independent_groups": 0,
+    "image_count": 1,
+    "original40_count": 1,
+    "owner_accepted": false,
+    "review_ids": [
+      "STU-0033efb4ddaf2ba2-e4b69ed2"
+    ],
+    "role_proposal": "new_development_candidate_quarantine"
+  },
+  {
+    "confirmed_train_overlap": false,
+    "description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "draft_boundary": "STU-instructional-view-15",
+    "evidenced_independent_groups": 0,
+    "image_count": 1,
+    "original40_count": 1,
+    "owner_accepted": false,
+    "review_ids": [
+      "STU-003410b7c85773dd-2ba1386b"
+    ],
+    "role_proposal": "new_development_candidate_quarantine"
+  },
+  {
+    "confirmed_train_overlap": false,
+    "description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "draft_boundary": "STU-instructional-view-16",
+    "evidenced_independent_groups": 0,
+    "image_count": 1,
+    "original40_count": 1,
+    "owner_accepted": false,
+    "review_ids": [
+      "STU-001a63e6728bf568-41ec69ae"
+    ],
+    "role_proposal": "new_development_candidate_quarantine"
+  },
+  {
+    "confirmed_train_overlap": false,
+    "description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "draft_boundary": "STU-instructional-view-17",
+    "evidenced_independent_groups": 0,
+    "image_count": 1,
+    "original40_count": 1,
+    "owner_accepted": false,
+    "review_ids": [
+      "STU-008d096ddbe91e1a-daa55468"
+    ],
+    "role_proposal": "new_development_candidate_quarantine"
+  },
+  {
+    "confirmed_train_overlap": false,
+    "description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "draft_boundary": "STU-instructional-view-18",
+    "evidenced_independent_groups": 0,
+    "image_count": 1,
+    "original40_count": 1,
+    "owner_accepted": false,
+    "review_ids": [
+      "STU-0098a369c073cf65-8f7ebf38"
+    ],
+    "role_proposal": "new_development_candidate_quarantine"
+  },
+  {
+    "confirmed_train_overlap": false,
+    "description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "draft_boundary": "STU-instructional-view-19",
+    "evidenced_independent_groups": 0,
+    "image_count": 1,
+    "original40_count": 1,
+    "owner_accepted": false,
+    "review_ids": [
+      "STU-009eae9ca8452a3c-770584fc"
+    ],
+    "role_proposal": "new_development_candidate_quarantine"
+  },
+  {
+    "confirmed_train_overlap": false,
+    "description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "draft_boundary": "STU-instructional-view-44",
+    "evidenced_independent_groups": 0,
+    "image_count": 1,
+    "original40_count": 0,
+    "owner_accepted": false,
+    "review_ids": [
+      "STU-X-25417caf81b3"
+    ],
+    "role_proposal": "new_development_candidate_quarantine"
+  },
+  {
+    "confirmed_train_overlap": false,
+    "description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "draft_boundary": "STU-instructional-view-45",
+    "evidenced_independent_groups": 0,
+    "image_count": 1,
+    "original40_count": 0,
+    "owner_accepted": false,
+    "review_ids": [
+      "STU-X-62980044ff60"
+    ],
+    "role_proposal": "new_development_candidate_quarantine"
+  },
+  {
+    "confirmed_train_overlap": false,
+    "description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "draft_boundary": "STU-instructional-view-46",
+    "evidenced_independent_groups": 0,
+    "image_count": 1,
+    "original40_count": 0,
+    "owner_accepted": false,
+    "review_ids": [
+      "STU-X-e7fe0b8b0cfd"
+    ],
+    "role_proposal": "new_development_candidate_quarantine"
+  },
+  {
+    "confirmed_train_overlap": false,
+    "description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "draft_boundary": "STU-instructional-view-47",
+    "evidenced_independent_groups": 0,
+    "image_count": 1,
+    "original40_count": 0,
+    "owner_accepted": false,
+    "review_ids": [
+      "STU-X-7c99e647c7cd"
+    ],
+    "role_proposal": "new_development_candidate_quarantine"
+  },
+  {
+    "confirmed_train_overlap": false,
+    "description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "draft_boundary": "STU-instructional-view-48",
+    "evidenced_independent_groups": 0,
+    "image_count": 1,
+    "original40_count": 0,
+    "owner_accepted": false,
+    "review_ids": [
+      "STU-X-bcd925da5b79"
+    ],
+    "role_proposal": "new_development_candidate_quarantine"
+  },
+  {
+    "confirmed_train_overlap": false,
+    "description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "draft_boundary": "STU-instructional-view-49",
+    "evidenced_independent_groups": 0,
+    "image_count": 1,
+    "original40_count": 0,
+    "owner_accepted": false,
+    "review_ids": [
+      "STU-X-f9c4fad2efa0"
+    ],
+    "role_proposal": "new_development_candidate_quarantine"
+  },
+  {
+    "confirmed_train_overlap": false,
+    "description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "draft_boundary": "STU-instructional-view-50",
+    "evidenced_independent_groups": 0,
+    "image_count": 1,
+    "original40_count": 0,
+    "owner_accepted": false,
+    "review_ids": [
+      "STU-X-e33e8fc36e66"
+    ],
+    "role_proposal": "new_development_candidate_quarantine"
+  },
+  {
+    "confirmed_train_overlap": false,
+    "description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "draft_boundary": "STU-instructional-view-51",
+    "evidenced_independent_groups": 0,
+    "image_count": 1,
+    "original40_count": 0,
+    "owner_accepted": false,
+    "review_ids": [
+      "STU-X-29cd02897985"
+    ],
+    "role_proposal": "new_development_candidate_quarantine"
+  },
+  {
+    "confirmed_train_overlap": false,
+    "description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "draft_boundary": "STU-instructional-view-52",
+    "evidenced_independent_groups": 0,
+    "image_count": 1,
+    "original40_count": 0,
+    "owner_accepted": false,
+    "review_ids": [
+      "STU-X-d88f877b2d26"
+    ],
+    "role_proposal": "new_development_candidate_quarantine"
+  },
+  {
+    "confirmed_train_overlap": false,
+    "description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "draft_boundary": "STU-instructional-view-53",
+    "evidenced_independent_groups": 0,
+    "image_count": 1,
+    "original40_count": 0,
+    "owner_accepted": false,
+    "review_ids": [
+      "STU-X-e41f24405e47"
+    ],
+    "role_proposal": "new_development_candidate_quarantine"
+  },
+  {
+    "confirmed_train_overlap": false,
+    "description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "draft_boundary": "STU-instructional-view-54",
+    "evidenced_independent_groups": 0,
+    "image_count": 1,
+    "original40_count": 0,
+    "owner_accepted": false,
+    "review_ids": [
+      "STU-X-6878715d2b2c"
+    ],
+    "role_proposal": "new_development_candidate_quarantine"
+  },
+  {
+    "confirmed_train_overlap": false,
+    "description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "draft_boundary": "STU-instructional-view-55",
+    "evidenced_independent_groups": 0,
+    "image_count": 1,
+    "original40_count": 0,
+    "owner_accepted": false,
+    "review_ids": [
+      "STU-X-d83408e7c75e"
+    ],
+    "role_proposal": "new_development_candidate_quarantine"
+  },
+  {
+    "confirmed_train_overlap": false,
+    "description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "draft_boundary": "STU-instructional-view-56",
+    "evidenced_independent_groups": 0,
+    "image_count": 1,
+    "original40_count": 0,
+    "owner_accepted": false,
+    "review_ids": [
+      "STU-X-6f452938e211"
+    ],
+    "role_proposal": "new_development_candidate_quarantine"
+  },
+  {
+    "confirmed_train_overlap": false,
+    "description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "draft_boundary": "STU-instructional-view-57",
+    "evidenced_independent_groups": 0,
+    "image_count": 1,
+    "original40_count": 0,
+    "owner_accepted": false,
+    "review_ids": [
+      "STU-X-ccad6634a8ad"
+    ],
+    "role_proposal": "new_development_candidate_quarantine"
+  },
+  {
+    "confirmed_train_overlap": false,
+    "description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "draft_boundary": "STU-instructional-view-58",
+    "evidenced_independent_groups": 0,
+    "image_count": 1,
+    "original40_count": 0,
+    "owner_accepted": false,
+    "review_ids": [
+      "STU-X-1c1844736d4b"
+    ],
+    "role_proposal": "new_development_candidate_quarantine"
+  },
+  {
+    "confirmed_train_overlap": false,
+    "description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "draft_boundary": "STU-instructional-view-59",
+    "evidenced_independent_groups": 0,
+    "image_count": 1,
+    "original40_count": 0,
+    "owner_accepted": false,
+    "review_ids": [
+      "STU-X-4ec829973e95"
+    ],
+    "role_proposal": "new_development_candidate_quarantine"
+  }
+]

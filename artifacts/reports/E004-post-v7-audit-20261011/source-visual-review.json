@@ -1,0 +1,103 @@
+{
+  "selection": "First hash-ordered unflagged item per four source-class hints; nonrepresentative",
+  "observations": [
+    {
+      "source": "StudentClassroomBehavior",
+      "id": "STU-00081846913ae753-1868c76a",
+      "source_sha256": "00081846913ae75356370f968b923a4323b82954547b992fbab5445f5706ba3b",
+      "archive_sha256": "392052c71bcbfd084a330c3ff8cd1f28a1087e30afeef107fe85ab14acbf400d",
+      "member_sha256": "1868c76ae71c0084f56f110e3f791826f577ef77afcf851010092775c7282d29",
+      "source_hint": "phone",
+      "observation": "Object boxes quanh thiết bị trên bàn; source crowded classroom. Không có person association canonical.",
+      "status": "draft_visual_observation_not_canonical_annotation",
+      "canonical_targets": null,
+      "independence_proven": false
+    },
+    {
+      "source": "StudentClassroomBehavior",
+      "id": "STU-0282e42c1fd36f1d-14b287e6",
+      "source_sha256": "0282e42c1fd36f1d493d62b7fb7f712dda919aed23413e00b4f346a0fe88a066",
+      "archive_sha256": "392052c71bcbfd084a330c3ff8cd1f28a1087e30afeef107fe85ab14acbf400d",
+      "member_sha256": "14b287e6231d1825d907ca0c593f7d4a075429acca52383d9dd626c57cf8ed9c",
+      "source_hint": "Using_phone",
+      "observation": "Object/device regions nhỏ giữa nhiều học sinh; không person/context crop. Timestamp nhìn thấy không xác minh session ID.",
+      "status": "draft_visual_observation_not_canonical_annotation",
+      "canonical_targets": null,
+      "independence_proven": false
+    },
+    {
+      "source": "StudentClassroomBehavior",
+      "id": "STU-0b14e020ce5ef511-b2e11f64",
+      "source_sha256": "0b14e020ce5ef51197b17e8538dc3e33f713b10480b4458d7aa38e313525e4e9",
+      "archive_sha256": "392052c71bcbfd084a330c3ff8cd1f28a1087e30afeef107fe85ab14acbf400d",
+      "member_sha256": "b2e11f64fd9f5005ebe048efb0f496f6f6309f0e83f471c7facb22447188f5c5",
+      "source_hint": "turn_head",
+      "observation": "Head-region boxes trong crowded classroom; cần own-workarea để chốt target looking.",
+      "status": "draft_visual_observation_not_canonical_annotation",
+      "canonical_targets": null,
+      "independence_proven": false
+    },
+    {
+      "source": "StudentClassroomBehavior",
+      "id": "STU-0030aa43d7c00fb1-e00fbf07",
+      "source_sha256": "0030aa43d7c00fb14c408282f95086c0ee80f0f5100d4308c28524b6c2b050bb",
+      "archive_sha256": "392052c71bcbfd084a330c3ff8cd1f28a1087e30afeef107fe85ab14acbf400d",
+      "member_sha256": "e00fbf07a67ce4e3fc687e7916ac08d34c1dcddced588c49300e992b2b0180ff",
+      "source_hint": "writing",
+      "observation": "Upper-person box, classroom instructional context; không tự là looking/phone negative.",
+      "status": "draft_visual_observation_not_canonical_annotation",
+      "canonical_targets": null,
+      "independence_proven": false
+    },
+    {
+      "source": "behavie",
+      "id": "BEH-00045fefb430c79f-5b984b7c",
+      "source_sha256": "00045fefb430c79f4ba51ef7f91e8e5d053f3bb0a7428171c56139c44707f03e",
+      "archive_sha256": "b90b3d95eb671bd0e454723036bcf62596e0ebafd8616e69a95c894576433057",
+      "member_sha256": "5b984b7c0fc6d42c395b104e2cfe5fe4c26585e8031bf3314e9b9d0c8f73d598",
+      "source_hint": "phone",
+      "observation": "Head/upper-person region ở lớp học, thiết bị/association cần QA native; không full person/context.",
+      "status": "draft_visual_observation_not_canonical_annotation",
+      "canonical_targets": null,
+      "independence_proven": false
+    },
+    {
+      "source": "behavie",
+      "id": "BEH-001ce4967d681ff7-29b86b82",
+      "source_sha256": "001ce4967d681ff769e64b70af8a081966e8be64852d9cd10018bdbaead21dc3",
+      "archive_sha256": "b90b3d95eb671bd0e454723036bcf62596e0ebafd8616e69a95c894576433057",
+      "member_sha256": "29b86b82d62fd8a4b684400a73b23c49ca38f29c002d020d1921cbfbe4030d87",
+      "source_hint": "Look Around",
+      "observation": "Head boxes ở phòng học nhiều người; gaze ngoài own workarea và negatives phải review riêng.",
+      "status": "draft_visual_observation_not_canonical_annotation",
+      "canonical_targets": null,
+      "independence_proven": false
+    },
+    {
+      "source": "behavie",
+      "id": "BEH-003f06dab7466b9e-a571d0fe",
+      "source_sha256": "003f06dab7466b9e539376b0f4e1abb8c5a74110485f18810a6464e153b96deb",
+      "archive_sha256": "b90b3d95eb671bd0e454723036bcf62596e0ebafd8616e69a95c894576433057",
+      "member_sha256": "a571d0fe0a8a153ed8de649d140a1a100393c7092628fc3527d702316aeccfb7",
+      "source_hint": "Normal",
+      "observation": "Upper-person boxes, desk context; tên Normal không canonical NN.",
+      "status": "draft_visual_observation_not_canonical_annotation",
+      "canonical_targets": null,
+      "independence_proven": false
+    },
+    {
+      "source": "behavie",
+      "id": "BEH-001dd0dd3be2fb89-d30c96dc",
+      "source_sha256": "001dd0dd3be2fb894680d8fc558dec3bb499cdfc535a9935007a0551c4dc5a57",
+      "archive_sha256": "b90b3d95eb671bd0e454723036bcf62596e0ebafd8616e69a95c894576433057",
+      "member_sha256": "d30c96dcd2215585a6a3497e022fd70c19ad1979a61081ad96a463314d7065f7",
+      "source_hint": "Bend Over The Desk",
+      "observation": "Head region của người ngồi bàn; source posture không tự là looking negative.",
+      "status": "draft_visual_observation_not_canonical_annotation",
+      "canonical_targets": null,
+      "independence_proven": false
+    }
+  ],
+  "media_kept_in_git": false,
+  "new_model_inference": false
+}

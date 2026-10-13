@@ -8,7 +8,7 @@ import re
 from collections import Counter
 from dataclasses import asdict
 from pathlib import Path, PurePosixPath
-from typing import Any
+from typing import Any, Protocol
 
 import torch
 from PIL import Image
@@ -19,7 +19,29 @@ from ai_exam_monitoring.common.provenance import sha256_file
 from ai_exam_monitoring.data.integrity import verify_payload
 from ai_exam_monitoring.data.pilot_schema import PilotRecord, read_records, record_to_dict
 
-from .config import ExperimentConfig
+
+class DatasetVariables(Protocol):
+    @property
+    def dataset(self) -> str: ...
+    @property
+    def dataset_version(self) -> str: ...
+    @property
+    def split_version(self) -> str: ...
+    @property
+    def encoding_version(self) -> str: ...
+    @property
+    def payload_sha256(self) -> str: ...
+
+
+class ImageVariables(Protocol):
+    @property
+    def image_size(self) -> int: ...
+    @property
+    def mean(self) -> list[float]: ...
+    @property
+    def std(self) -> list[float]: ...
+    @property
+    def fill(self) -> list[int]: ...
 
 
 def _read_object(path: Path) -> dict[str, Any]:
@@ -101,7 +123,7 @@ def _evaluation_identity(row: PilotRecord) -> dict[str, Any]:
             "test_freeze_ref": row.test_freeze_ref}
 
 
-def _verify_preservation(root: Path, config: ExperimentConfig, release: dict[str, Any],
+def _verify_preservation(root: Path, config: DatasetVariables, release: dict[str, Any],
                          records: list[PilotRecord], ledger: list[PilotRecord]) -> None:
     relative = PurePosixPath(config.dataset)
     workspace = root.resolve()
@@ -164,7 +186,7 @@ def _verify_preservation(root: Path, config: ExperimentConfig, release: dict[str
             raise DataContractError("Nội dung validation/test khác parent đã freeze")
 
 
-def verify_dataset(root: Path, config: ExperimentConfig) -> list[PilotRecord]:
+def verify_dataset(root: Path, config: DatasetVariables) -> list[PilotRecord]:
     try:
         if sha256_file(root / "checksums.sha256") != config.payload_sha256:
             raise DataContractError("Dataset payload pin changed")
@@ -202,7 +224,7 @@ def select_records(records: list[PilotRecord], split: str, *, final_test: bool =
     return selected
 
 
-def letterbox(image: Image.Image, config: ExperimentConfig) -> Image.Image:
+def letterbox(image: Image.Image, config: ImageVariables) -> Image.Image:
     image = image.convert("RGB")
     scale = config.image_size / max(image.size)
     width, height = (max(1, min(config.image_size, round(v * scale))) for v in image.size)
@@ -214,7 +236,7 @@ def letterbox(image: Image.Image, config: ExperimentConfig) -> Image.Image:
     return result
 
 
-def image_tensor(path: Path, config: ExperimentConfig) -> torch.Tensor:
+def image_tensor(path: Path, config: ImageVariables) -> torch.Tensor:
     with Image.open(path) as image:
         prepared = letterbox(image, config)
     return TF.normalize(TF.to_tensor(prepared), config.mean, config.std)

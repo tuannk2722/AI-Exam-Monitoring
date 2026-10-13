@@ -1,0 +1,1908 @@
+{
+  "additional_assessment_sha256": "facee2d76535cf9b1233868e91ea554e17b8f083bc4e04e429ffb448820dc896",
+  "assessment_sha256": "efdfd2f4f82f371b41fd96bc75101ff5a946ad94161302311177ce7048612e25",
+  "components": [
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "behavie",
+          "5b984b7c0fc6d42c395b104e2cfe5fe4c26585e8031bf3314e9b9d0c8f73d598"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "holdout_candidate_reserve"
+      ],
+      "review_ids": [
+        "BEH-00045fefb430c79f-5b984b7c"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "BEH-bright-worktables"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "00045fefb430c79f4ba51ef7f91e8e5d053f3bb0a7428171c56139c44707f03e"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [
+        "reviewed_shared_scene"
+      ],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "behavie",
+          "07c5b7aef2b3a8a6d0d1d8f4f18a1271868a26d8227b688de6041f97003b225f"
+        ],
+        [
+          "behavie",
+          "11c440493288cd61006ee04227d813d67d2ab99c3a18ea6bf9de609eec3ab8d1"
+        ],
+        [
+          "behavie",
+          "15ed5cd8793f9109a14f66409bfa4c8f2358e330567956029e4eba046eaef683"
+        ],
+        [
+          "behavie",
+          "29b86b82d62fd8a4b684400a73b23c49ca38f29c002d020d1921cbfbe4030d87"
+        ],
+        [
+          "behavie",
+          "7a2bd62d0d02a3f2b57f52a612b3578cb81b0ff14730bdaa7c744da556c9e828"
+        ],
+        [
+          "behavie",
+          "96c60fda89d22fbc732264b799d85748666a2003b311f43383f6912557233dbf"
+        ],
+        [
+          "behavie",
+          "c67d8c76c00efa49db71140da43448c3767553cdb1ac1598354d1ac34d85da10"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "holdout_candidate_reserve"
+      ],
+      "review_ids": [
+        "BEH-001ce4967d681ff7-29b86b82",
+        "BEH-0114fbbf45591e35-07c5b7ae",
+        "BEH-01308f31b3d603b3-c67d8c76",
+        "BEH-014e57d0b50fc6ec-96c60fda",
+        "BEH-X-2b27cf170f88",
+        "BEH-X-2d63d2ddeec9",
+        "BEH-X-fd77d2a2c0e3"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "BEH-yellow-flags"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "001ce4967d681ff769e64b70af8a081966e8be64852d9cd10018bdbaead21dc3",
+        "0114fbbf45591e35ea4b027c6633970d44774832da0edc267c613a6e076d2cc3",
+        "01308f31b3d603b3c78d55ad743cfddd955df034c2ccb57ec4dea8973f451f41",
+        "014e57d0b50fc6ec249da8ed2ccbb980a9a7957235e65698ed6901c989b2104a",
+        "2b27cf170f889f92c5a1d4bfa936cf00cf7597d8fd3bc27cf41c193028711741",
+        "2d63d2ddeec9049ab6d1c7dd2c415f29bae5d8fba9bf283b345204d31137cec8",
+        "fd77d2a2c0e3a7c328339908578203eef64b6ff8d854d2bde14d34ebb299af96"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [
+        "reviewed_shared_scene"
+      ],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "behavie",
+          "07bbd9a7cd97c628ce323a175867d6e1d92fb86a61cb8362f26649360e32b1ef"
+        ],
+        [
+          "behavie",
+          "0b9f4175b82a56a1b571031f419afcfa8f6341875cc9b020fff09e661c4d734a"
+        ],
+        [
+          "behavie",
+          "10bcee96d5a476a5ccdff65abcfabd5dec9c9570933037271101e5b7bff05454"
+        ],
+        [
+          "behavie",
+          "237331828506a52cf3bbf27ee160650ac682cf6c30bce388bc270e761249cbff"
+        ],
+        [
+          "behavie",
+          "28ffb8c43162c19c9c1a87cf0aee7dbaca2d9f8bdfc198c641a6a82d2b73c571"
+        ],
+        [
+          "behavie",
+          "2dbbe836fda37fb58eb93d6f24d02207e49f61ff76b50621e5aeae2825555fb2"
+        ],
+        [
+          "behavie",
+          "2ff6cae824185fb504dbce703cb2fd50b48f8e20e5360510d97b8687244cb8af"
+        ],
+        [
+          "behavie",
+          "35e1300f61247387fd2e832a7fd4b2b404ee57a2f53059ee753031e5195e878d"
+        ],
+        [
+          "behavie",
+          "39bc458e9d638e17bb6ea1ddcef78c83adfc1853153ad5ca38a1c45c9aaed111"
+        ],
+        [
+          "behavie",
+          "39e1acc7445fc9bfe2fd2e17b1573bea2895078142bf7345fb6789cf03a46ad4"
+        ],
+        [
+          "behavie",
+          "4b97eb3060fa4843d5c7043c2cc997b9e616a6409622ea2203d80a0f035b71d1"
+        ],
+        [
+          "behavie",
+          "4dcbfa830bf597eeb623fef2a46e882a092cd5eb5da49c761e09461917520970"
+        ],
+        [
+          "behavie",
+          "6eb67853624f3f4377fb27b275406312151e219a1b729bae2ef06772cebf26d7"
+        ],
+        [
+          "behavie",
+          "6f6c6e35940c4824bc57d205bfc92eb4ac52473b4ed4e21d69a33840f8c91d11"
+        ],
+        [
+          "behavie",
+          "737e186a91a7e4a22ded2407cdd308cff6f91bf1f851acd4bf0248bff83f9d9c"
+        ],
+        [
+          "behavie",
+          "8062314c8cfbc520a642cfa30bd25c1a84a5b35ae0de4a79a4d9e6fbb4e1bb44"
+        ],
+        [
+          "behavie",
+          "825e4a2af8472eeb62edb66c26cae24f87e2785fe5e88507cfaf80418c902c62"
+        ],
+        [
+          "behavie",
+          "82851a443226e1d5f8743b82709fb2b90c3f1bd72a44ef1c866af8fa3f0e684f"
+        ],
+        [
+          "behavie",
+          "835296b9444f647f197abf1dcdbb502df474a730ae1c6fd222102c16da532fa7"
+        ],
+        [
+          "behavie",
+          "868bd0bdbbb50cc7fa4f9f1ddb322e0281f79bc903aefc5ab863efad7f840cb2"
+        ],
+        [
+          "behavie",
+          "8d33a69c38c1173260d6dedfb2cf4eb8b840fed25488ee5564a7ae04f065d7d6"
+        ],
+        [
+          "behavie",
+          "959438eb2988282c834c111e1b1337e3ba0fd6e26f79be0eea3ac95e479b2cbb"
+        ],
+        [
+          "behavie",
+          "9756228c0986891d3022fb09c5e36d8a04fb96cb365aa4a87d454956f5fe2690"
+        ],
+        [
+          "behavie",
+          "9f089741c8251ae4a299dbae733e1a608ced417f73f8059d3874870ff83bbd49"
+        ],
+        [
+          "behavie",
+          "a462c79d347e8dd62eda793cf6a9d20573bc0e6bf93e9916b92377131e19df90"
+        ],
+        [
+          "behavie",
+          "a571d0fe0a8a153ed8de649d140a1a100393c7092628fc3527d702316aeccfb7"
+        ],
+        [
+          "behavie",
+          "ad7d584b92866de9c8652e653e18fede60d1be3d0c4e620d511e06ab3825bc2c"
+        ],
+        [
+          "behavie",
+          "b9516d5ca9473480a177855fa96511cf23d0000e030e757c8255f8923f9a8549"
+        ],
+        [
+          "behavie",
+          "be052d309a632a43e30b2be441bd877f618b990a81ad3d563fd62094b5582776"
+        ],
+        [
+          "behavie",
+          "c10e500588c4604a9139d277d96a622d999616207e9500b9bb7b039c240447bd"
+        ],
+        [
+          "behavie",
+          "c656c574ac4b23ebdeaa4f443e386f81ed691946998c0450f75bfe62840d4bdd"
+        ],
+        [
+          "behavie",
+          "cc82f1d00a561007b3a6f252eef0dc006c369d5c4ad8f850ba0e22a9b95b1b66"
+        ],
+        [
+          "behavie",
+          "d30c96dcd2215585a6a3497e022fd70c19ad1979a61081ad96a463314d7065f7"
+        ],
+        [
+          "behavie",
+          "d50a62e03c3e799c16e23ed2b69a0ef4e757de516bb64c93d0214fa6d432c537"
+        ],
+        [
+          "behavie",
+          "f56fbe90a7fb05d0c8f460824daab8336cca06ded7a8efb210c53c369ac2bdd4"
+        ],
+        [
+          "behavie",
+          "f9df24a6f40a62e17245d93ec628656f4a32d4cb16b59cacd45d0a8f711f3e84"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "holdout_candidate_reserve"
+      ],
+      "review_ids": [
+        "BEH-001dd0dd3be2fb89-d30c96dc",
+        "BEH-003a39144c5194f9-a462c79d",
+        "BEH-003f06dab7466b9e-a571d0fe",
+        "BEH-0052b47269485180-6eb67853",
+        "BEH-00c9ff261f9413b5-8d33a69c",
+        "BEH-00eee356c96cabcf-8062314c",
+        "BEH-010132448e1a56ef-4b97eb30",
+        "BEH-014e661c623a7908-868bd0bd",
+        "BEH-0157dcdba9ee5a5b-f56fbe90",
+        "BEH-015b385e39908531-be052d30",
+        "BEH-015f875f539691e5-c656c574",
+        "BEH-0161e2e158a58caa-2dbbe836",
+        "BEH-X-0a50c2ce79ce",
+        "BEH-X-1030bff6c502",
+        "BEH-X-18a5baf63f35",
+        "BEH-X-1abf3c8d5ed0",
+        "BEH-X-2d1d538b6df9",
+        "BEH-X-302dfbfde968",
+        "BEH-X-3c673000d592",
+        "BEH-X-4d13465d3366",
+        "BEH-X-514f4ed8a543",
+        "BEH-X-5700ec49eed2",
+        "BEH-X-5ecded4ba341",
+        "BEH-X-5ff048038ca2",
+        "BEH-X-607061ffba5b",
+        "BEH-X-7d3fc1840670",
+        "BEH-X-8c513a62495a",
+        "BEH-X-91c24f45d771",
+        "BEH-X-928dd7c65ff3",
+        "BEH-X-95a077d08b45",
+        "BEH-X-95e895d52bc1",
+        "BEH-X-a543d4f14a19",
+        "BEH-X-ab1dad0d8eff",
+        "BEH-X-bdbadbdba307",
+        "BEH-X-d8558d0f0763",
+        "BEH-X-edd3d113336b"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "BEH-worn-benches"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "001dd0dd3be2fb894680d8fc558dec3bb499cdfc535a9935007a0551c4dc5a57",
+        "003a39144c5194f99aa3abd98666930981bd3f4e9dd925b18311bfec6d81ab3c",
+        "003f06dab7466b9e539376b0f4e1abb8c5a74110485f18810a6464e153b96deb",
+        "0052b47269485180483ec77ee7d50a4474ef1f5fd7613301925c588c8c1b6a64",
+        "00c9ff261f9413b5a3ae7e0229e61f650853ad0f6452339781c23be4b4695390",
+        "00eee356c96cabcf2616ab0a24095c2879dc275efafcc1a759c6f38990a9fc29",
+        "010132448e1a56effd48e0e5e3a3db7704fedac8effd572fd343fe82c75ad3b0",
+        "014e661c623a790896ece74a40a7f4597236c20a748c7b3115032a272579f4d3",
+        "0157dcdba9ee5a5b16dc412c6d60f5c08af312d53e41572c124242e32eaff65a",
+        "015b385e39908531332f59a21fdc23332a9670b0b3a64f5f0cb79ce16e78fa42",
+        "015f875f539691e51c295d735afee6600239a535b576bc95e8dfffd9b75fc6f7",
+        "0161e2e158a58caa6e6e894667b086a67d3dbfe0d614aed4b76e946d13eb0537",
+        "0a50c2ce79ce8915aba8e7f5106a652975bc0016f7e506954ad75d3d8c5f3136",
+        "1030bff6c502a10de28919ac6fa4381f9e229b31dc25b63fc6d7d8a25ff15dcb",
+        "18a5baf63f35a8dc3e8901dc518f433b12fd7ffc5dd8f23994fca335b9ef77ee",
+        "1abf3c8d5ed0065621a58e7456b6da6df372b39544970895910bb26b37d5643c",
+        "2d1d538b6df9b6a06b2a18ec52ae0afed16d0cfe35782d0065294847784d66bb",
+        "302dfbfde96864cd382b30f3b8b13138a3b8be3f3b1061d42224182aa07ebbb1",
+        "3c673000d592f6489faaad5fdc6b5361828fd417fd9e43a72a020071005c3dc1",
+        "4d13465d3366aa0d677895280c7baf7edfb19b54ad14bced392ab7a4b1ec603a",
+        "514f4ed8a543876f67fab33018f9c8380562ae4625b810190416ce7d4dc41561",
+        "5700ec49eed2c6255515b47e6dc68699eebfa62920c250543cfc32d27a03fcd6",
+        "5ecded4ba341e1ee1e28f5eaf8daba0dfd52ebe64401b094122fffa0f5ab6614",
+        "5ff048038ca2b66afdd3e6f32cc8a3013fa0844c2e8f852f386125b194d3c385",
+        "607061ffba5be8ad7a9119775cbec147d2c7022d2d139a9b75e33e7c9d8c8e31",
+        "7d3fc184067000e7642f2f5c15beb3e49daed88f6034829532aa0af2df9a536b",
+        "8c513a62495a175baaee5992e88c33a315ac243568d16d89f6c1437cb19142e9",
+        "91c24f45d77150cb6666128cd12d2a084bcb3571d4b68de3ee5f5cc4641ac2f4",
+        "928dd7c65ff35847da57ab9a2b2bc9d97dad9040ee4379e80c231e66f0e59f66",
+        "95a077d08b4518bfbac5f490208ed075660ffce5c0f231f0841cbb85823acc75",
+        "95e895d52bc19e7ee1b04245e7987f4b5c899d4afd1d6ed6a68d3c4e7de94a33",
+        "a543d4f14a199bc9cdb9ff582f258ce1c46b37890a218d1bc5509fab48404562",
+        "ab1dad0d8effcb465f685393fadfee05c8203209e18cbb229759165a4f893a90",
+        "bdbadbdba30751fde3447c5b97cdbbf489661a0b98f39a4bd59245a5b6e26cdd",
+        "d8558d0f07631a51627df6f5cfade210e125ed6740de7c0a5ff0e88cde4fb014",
+        "edd3d113336bd2137653ed24a663d6a47e9944860a84be5f9384b38b0384b767"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [
+        "reviewed_shared_scene"
+      ],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "behavie",
+          "0255c3aedcd4a7141c7a31891702e5c509f1d21b4a49c6823de22cf2788969a8"
+        ],
+        [
+          "behavie",
+          "0e92aa49efaa31e8f84a4ecf68dbf2c052c1a8eafe78f894fc352b90b86d2430"
+        ],
+        [
+          "behavie",
+          "2794879d6243a202b692a095059f4e37d2c75c3f77d23aca24fe44a0d23d6d3d"
+        ],
+        [
+          "behavie",
+          "a959d24da30612026b3e5d736cfdbef9af6956e27478abc4cf201575122d92c2"
+        ],
+        [
+          "behavie",
+          "b5ecb855bf8ddfbd7fe06e839c1c05c1dc65408be91afc472477d3e25f8dbb03"
+        ],
+        [
+          "behavie",
+          "e0d9f260a6769827d91813660a1e8b0d4c140d94a1e97cd854047b1eb5a8c974"
+        ],
+        [
+          "behavie",
+          "e6d3c72ae40ca3ef1a44795002c606df494b60e62cea7c0b2162123f3e3ca119"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "holdout_candidate_reserve"
+      ],
+      "review_ids": [
+        "BEH-004cba3905e14b96-a959d24d",
+        "BEH-X-14b94fa0c3fd",
+        "BEH-X-4e0a8a7c5021",
+        "BEH-X-8b5225e82b05",
+        "BEH-X-b6adcc3b1449",
+        "BEH-X-c15dc367dbf9",
+        "BEH-X-f48ec4d135c5"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "BEH-blue-cctv"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "004cba3905e14b9609a780ab501347e464c5cd67b19748f99da3f0f58fb9616f",
+        "14b94fa0c3fdba17eb907421f8698b6ab39104bac1271a1696780f8538b8fca2",
+        "4e0a8a7c5021a138aa57538a0750c44447739764ed8b6c50dd9ada765f4ff570",
+        "8b5225e82b05403b28b39924b0b15adfa473ae7eb208a02491f12df6aa7c6750",
+        "b6adcc3b14490eac9ae83634529089f61c4f35d10b1dc99ddbe80481d6b1def2",
+        "c15dc367dbf99fc15bb53f485c54e86b7ee636a2fee2853cdd4730a1a4514036",
+        "f48ec4d135c5814e231837183ab94518bbb96e7415f09528b40c0ccfb2ba7320"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "behavie",
+          "d0d9bbe1658c7e436d1587465ef106c9fc8f9a8c1396a5e18809ea8a5fb67df4"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "holdout_candidate_reserve"
+      ],
+      "review_ids": [
+        "BEH-007e552536b83f93-d0d9bbe1"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "BEH-rear-cctv"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "007e552536b83f9303aa65efea5914e19495650a51e70e6568c06cf8f4225f22"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [
+        "reviewed_shared_scene",
+        "same_export_lineage_hint"
+      ],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "behavie",
+          "0f38e460078bf92a9231025d852ff9d76b1c8f28d28c344aa4c0d05eb0a7644b"
+        ],
+        [
+          "behavie",
+          "3ae4f129581dfd5bcbd3a4bbb48db38cde309afda6886a3d073c427368d8291f"
+        ],
+        [
+          "behavie",
+          "4bb9ec39471490bedcb6acc5ca68964fe7ae55d22fff04fb7b9ab1240d5f6e30"
+        ],
+        [
+          "behavie",
+          "5eea837e0feafd11fdd7ea56dcb2282a9f3df0598f32de6906cc022975fdbc4c"
+        ],
+        [
+          "behavie",
+          "849ac5535220cae35b2d4f6d60686786c3ce2794231f9257e21823c83f612c93"
+        ],
+        [
+          "behavie",
+          "9c2f6452fe86e0761a4061350c0981d245c98047eafd6396ba2fe8d5e3537741"
+        ],
+        [
+          "behavie",
+          "b4ee01d7fb3feb84555b7fced74b443b1f0f930ac6e5d27fec7c979736902833"
+        ],
+        [
+          "behavie",
+          "b67c335d0f0c8864fa80c249d0f6d46def80ed8a7549e693691f6647c7c16e26"
+        ],
+        [
+          "behavie",
+          "c32f011568ec2d3046e7f45ed05acbf4d224356fe8a5c83b6f1bd3e201171094"
+        ],
+        [
+          "behavie",
+          "cf48de720e380ef09300bd46664d87e10cf31c6d5f0846cd73ed6e4a1ffb562c"
+        ],
+        [
+          "behavie",
+          "ef31ce829ddfbfc53f322c4ccdf0543a6d1870159bab73bcffc6691f9677c370"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "holdout_candidate_reserve"
+      ],
+      "review_ids": [
+        "BEH-00869141080411f8-0f38e460",
+        "BEH-X-023668f6f270",
+        "BEH-X-07d41ccb9d51",
+        "BEH-X-6ff292e988cc",
+        "BEH-X-8e7445860006",
+        "BEH-X-c596ab375b37",
+        "BEH-X-cc7311106520",
+        "BEH-X-dc5214b1ddf5"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "BEH-chair-staging"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "00869141080411f8892d45d8751a82d825ad4a9f3f9818c004110649bca8aa79",
+        "023668f6f270b61ee560bd79f0a3b2ff3a29fe699cfc81b5ab566d9643b4e73a",
+        "07d41ccb9d512211d83b9a06ebb28159d496fb513446af98b637945f38894417",
+        "0b5c7183accd2ca74569f7b189e1633dc8f450e014ae9d08194c8e56076003d3",
+        "6ff292e988ccb3b6aeeea113850d33456b318a69e8727f0905d840e36f390950",
+        "8e74458600068230ff4b6ec3b117ea5a42d85455e681be004960b55bac64c14f",
+        "c596ab375b379b685282bb233a5fc22272f04bfdb3e4d2cc88f3baa5e264e19b",
+        "cc731110652015bd38e38ec6d9c0e3c68f6a73e65f12f22b9b30ce166f2645f3",
+        "d776769e85aa53da200a088c9566754ca64dadf1ef73b0575590913e301fc55b",
+        "dc5214b1ddf5d4e45b77abfca1937e5b62323cf83779a4204a950ef8bb8ffcaa",
+        "e126c08008a15c9728c1734bee0bf3071cea32078eb02ecb2f5be121c9ae5852"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": true,
+      "edge_types": [
+        "reviewed_shared_scene",
+        "same_export_lineage_hint"
+      ],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "studentclassroombehavior",
+          "04e14693c10f6b3be59729be3122160cf2e994b760facaadc0f5037279115c7e"
+        ],
+        [
+          "studentclassroombehavior",
+          "096e0c5271548ef4864dc95cd90bb36972baa6afa428553a61bf36042af1fa8b"
+        ],
+        [
+          "studentclassroombehavior",
+          "0999963fdab4aa88cfd78281c5b876213efd68b4cec22504d72cc125cc5c2591"
+        ],
+        [
+          "studentclassroombehavior",
+          "1004d6f219bb60a6cd5967930c73670d65bb15df4037705aff6fc9860f27fd89"
+        ],
+        [
+          "studentclassroombehavior",
+          "14b287e6231d1825d907ca0c593f7d4a075429acca52383d9dd626c57cf8ed9c"
+        ],
+        [
+          "studentclassroombehavior",
+          "184bf1fea8b08db813e26f797196f4f134c91ffeebedfcff0d14156a4b45fe90"
+        ],
+        [
+          "studentclassroombehavior",
+          "19b906889cfae919db1181cc6982260c22b66cd2ee8483ee54f991a7b243bc3f"
+        ],
+        [
+          "studentclassroombehavior",
+          "1c54b236e8d321f08a67805fc7b85b8615fbf74545df063bba81552251f3fa0d"
+        ],
+        [
+          "studentclassroombehavior",
+          "1da10c833a7e953d3b4f02d6da84d5a7ceec8c224cebb765da42301be2ca5b12"
+        ],
+        [
+          "studentclassroombehavior",
+          "283bd3b20e9c712a256ccdbc12d024b692b0191f986b5d4ef14618ee4cf16ee7"
+        ],
+        [
+          "studentclassroombehavior",
+          "2b0a587e86daa0facc99845584802b7fdf697f06489b4c3304288f4d2f594778"
+        ],
+        [
+          "studentclassroombehavior",
+          "2f47c166a5b0f18098155dbdec2d1b126bf203c38a6239078cc1b075e69f51c3"
+        ],
+        [
+          "studentclassroombehavior",
+          "2f9a604d9df20ad9e932c8c70dc067e7b7bfb2d42c85ee62f9b684cc23afa2b4"
+        ],
+        [
+          "studentclassroombehavior",
+          "326cda080c06f2653aa273823adede20f2abe760a8ce24137ef7542a770a304a"
+        ],
+        [
+          "studentclassroombehavior",
+          "3334ef5ec09b27d854d0936fddc8d15fdd8eb33195f5eb43121103840e9e02a6"
+        ],
+        [
+          "studentclassroombehavior",
+          "34ea8b7d6350e4b316956ae5f883c335d2ebc20af7ec44de629c903fcb2214ce"
+        ],
+        [
+          "studentclassroombehavior",
+          "3a5dad6d716f11fdb0a78358530d2bf4be6ac57531a6566e094545b52eca95cf"
+        ],
+        [
+          "studentclassroombehavior",
+          "3cf54d67a89740dc9f2a239037d3d976c92be4abb2980fc7fe61fe31927f4290"
+        ],
+        [
+          "studentclassroombehavior",
+          "3d6b566caf1f19f37be5ef6dd5591ef51822eaf4ea0188dad138308258a779bd"
+        ],
+        [
+          "studentclassroombehavior",
+          "3fc31a59281f6e73b40a770f47d0d2042e2ee11770ae87b3812366e6961edf59"
+        ],
+        [
+          "studentclassroombehavior",
+          "4846b64b370ecfb8b2c1101378f9d39321209be5c8f11e423c9330e5d1208ac3"
+        ],
+        [
+          "studentclassroombehavior",
+          "48d2bde0845d069dc359b8bdcca13b288006f905bf2e59a558b6db7a0567b8b0"
+        ],
+        [
+          "studentclassroombehavior",
+          "492f394e36a9c228a52f4f9d62acea27f9b7769c7f08d037b557f2a062c04a53"
+        ],
+        [
+          "studentclassroombehavior",
+          "497f51cb96012c1fed04bc0e388bad7c69d15bd45150306f5734102f4d14bd91"
+        ],
+        [
+          "studentclassroombehavior",
+          "4aa765d9aafe33e3a9e7526daeaa7fa0631f22e150132f12b2b89a90132be257"
+        ],
+        [
+          "studentclassroombehavior",
+          "51d5cc8fc276102cc155a8e6de5bc778f28f0cf4c85269d746326fc00bca1c26"
+        ],
+        [
+          "studentclassroombehavior",
+          "5699a60ad47a5581d690fb5e1e25c770f1f1d6c44f152d11db4c99e095dcb96b"
+        ],
+        [
+          "studentclassroombehavior",
+          "5ad822c18a3afb6a067b5fbd9b49c215f4d32eab1aa94f539dc91141e329fae1"
+        ],
+        [
+          "studentclassroombehavior",
+          "70fe629b2292ae1b084462681a72428cd929b33d4e315f3c479ad63bf8828f63"
+        ],
+        [
+          "studentclassroombehavior",
+          "77ae742ffe783b54a6e4ad150bfc8275d6bf943fdab6168485804567fe1e1018"
+        ],
+        [
+          "studentclassroombehavior",
+          "79b9698a0edda86a121079b1d49a52aa83fd9fac9e4c44d55267ef9c75f2074a"
+        ],
+        [
+          "studentclassroombehavior",
+          "7adc971552b9b3946b5e2b9bc12d8f559f489df37605d6c8de9451e16f75a4ed"
+        ],
+        [
+          "studentclassroombehavior",
+          "84e3bab6ac0cfb0e26efe772215cccfda1a203ebf0544f429bd10564d57a3b23"
+        ],
+        [
+          "studentclassroombehavior",
+          "865ffb7fc3e7eb7309cab4d3c9cf1e542f696c6d5e04434f134cc442831a0400"
+        ],
+        [
+          "studentclassroombehavior",
+          "88431b0d6518f50a963c3585c49ec2af1fd92cbe51315b21ede0e09b71a1d3a8"
+        ],
+        [
+          "studentclassroombehavior",
+          "8b88467e53d5e739aa138a7748fd3e7ffcecf2bddd12c1449d8d685aa8b3e3b7"
+        ],
+        [
+          "studentclassroombehavior",
+          "8fcaae48d156bc2330f3325eabac296d7e39a96196a6543c18d3368fc8068387"
+        ],
+        [
+          "studentclassroombehavior",
+          "9a8a03c5d78ff422c5a5ebc40563b6acac119f4cd66995006f039314ab7263fc"
+        ],
+        [
+          "studentclassroombehavior",
+          "9cb413eded0d488cf94db72bbdb0103f584ca00e06c4c20cd8c4346b7e12be8f"
+        ],
+        [
+          "studentclassroombehavior",
+          "9d91d6b78322300442c1189cf53f3e9a816c4847d0fd0e9259f034b20edf325f"
+        ],
+        [
+          "studentclassroombehavior",
+          "9dcc836c87fe26fb3ced152c8b2ae66cce4c53550a674393a3b61d893e68149d"
+        ],
+        [
+          "studentclassroombehavior",
+          "9de61a84b7a78fdcd22d2b5cad40558936cad8f665f3466e192eebcd234d3f48"
+        ],
+        [
+          "studentclassroombehavior",
+          "a03df144a89179215a0e01f97ec187f63d39a757805ed0dd1fc1b0e4ffd93d56"
+        ],
+        [
+          "studentclassroombehavior",
+          "a20e78fe28190273044829d58d4506bcc7ae7dff81f4c7c1f3af12dd94456857"
+        ],
+        [
+          "studentclassroombehavior",
+          "a21a4be5266f956c7c21e38fd64d2b896d53c31d956ceee9b9a8a55720cb35df"
+        ],
+        [
+          "studentclassroombehavior",
+          "a2b29e704508e6f35a66cab8493e476b8fe0aecd9e578e577b90060077ca0783"
+        ],
+        [
+          "studentclassroombehavior",
+          "a31d2ce21701fff693ff85c641313d3e958f5912f869417e0539a206572dc4e4"
+        ],
+        [
+          "studentclassroombehavior",
+          "aa5f319ac1e3727a79d487d4b04ed377e0f05d3db84517a8b62f4742bdbee5b2"
+        ],
+        [
+          "studentclassroombehavior",
+          "ac3ae14f6e1cee69f342615d338008dac97e7647990516b5cca109099b397d2f"
+        ],
+        [
+          "studentclassroombehavior",
+          "affe6e92da141e9c235a826577af67618844812c7f6c54a06321f3c4e5088250"
+        ],
+        [
+          "studentclassroombehavior",
+          "b2e11f64fd9f5005ebe048efb0f496f6f6309f0e83f471c7facb22447188f5c5"
+        ],
+        [
+          "studentclassroombehavior",
+          "b816e4748bcbfeeb2fb77413e5c729e09cc54b7f93364459ca74c1b514eea1ed"
+        ],
+        [
+          "studentclassroombehavior",
+          "b8c1b6d8ca57dd48a225554ecd121f4b845838333ebeea9a6daa578fbf785a5a"
+        ],
+        [
+          "studentclassroombehavior",
+          "b9a944f5c3a1bca222f03c88150bebf299fdd5c04312e5af8c99851b7d6d86dd"
+        ],
+        [
+          "studentclassroombehavior",
+          "c07016b693eeba2a771055ed7faf9f6f16891fbb11360de5118c80d8b150c513"
+        ],
+        [
+          "studentclassroombehavior",
+          "c087b16fa6424e967d7dda4bcfbf66640f82efd2acead94ce303cfa4e0bdc100"
+        ],
+        [
+          "studentclassroombehavior",
+          "c8969ea4b8dcd1e5f68ae47d9159ebfcc68377036fd16db8592816b0e652dc82"
+        ],
+        [
+          "studentclassroombehavior",
+          "cccacd64806e8ad6fa3efd2b13645097148f1dee9998506443abdde7f2390319"
+        ],
+        [
+          "studentclassroombehavior",
+          "cdf8337d6f336a7823e42ed5977c70363386f09aa0363a18b8fa1eec2fa3e652"
+        ],
+        [
+          "studentclassroombehavior",
+          "d1fb9d822d804e68417b99627b170cd0b8ce5df511a89ad100a5c06832a3b360"
+        ],
+        [
+          "studentclassroombehavior",
+          "d2ff869a1408718b59d846a361de3aeb5045615b28c4e3dfd69b7131e9b2f43a"
+        ],
+        [
+          "studentclassroombehavior",
+          "d61bafcebd8879e37eb2d4049af500d824c9892975baf3eb2e9d73f1e3b76854"
+        ],
+        [
+          "studentclassroombehavior",
+          "d819c093e1629999a874cdf09cb20d602e3343e25eb534861d7dfef56cf2fced"
+        ],
+        [
+          "studentclassroombehavior",
+          "dedf0d93dedfbbe954c367678f54caca618d9a8881e7ed59698836fe120f9fdf"
+        ],
+        [
+          "studentclassroombehavior",
+          "e3962168542627251b6b1452fbd9e8e520f92581f5157a51191a36fc4d3f5d21"
+        ],
+        [
+          "studentclassroombehavior",
+          "e4fb838fed08b6cb3839c98786cc9aff552fe5a883c2d949030f44c077fad508"
+        ],
+        [
+          "studentclassroombehavior",
+          "ec024d034b016abf8bbd70a91f0cd05d291bd8629912ace681cc2219e83ae4ef"
+        ],
+        [
+          "studentclassroombehavior",
+          "ef9cb8a70f5524a134f667dd2d02f2c308f1b9af2ee49a5069d0cfc141ded210"
+        ],
+        [
+          "studentclassroombehavior",
+          "eff431a33623d4c1dd56a6147176faab9cb6b354c3fed302330cafd26c13b02a"
+        ],
+        [
+          "studentclassroombehavior",
+          "f61e02765f694a688e85a93f579b1de96a18ec23d9a417d65fb980205293ea91"
+        ],
+        [
+          "studentclassroombehavior",
+          "f6c647103079c125525c91a4e775cd704660dc2eac7bf86c1ccd7bf9a01722b3"
+        ],
+        [
+          "studentclassroombehavior",
+          "f7318515176fa7fec16a7e64baf289aaa1644f93ea1643982e76d76ef416109f"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "train_supplement_candidate"
+      ],
+      "review_ids": [
+        "E004-PG-001",
+        "E004-PG-002",
+        "E004-PG-003",
+        "E004-PG-004",
+        "E004-PG-005",
+        "E004-PG-007",
+        "E004-PG-008",
+        "E004-PG-010",
+        "E004-PG-011",
+        "E004-PG-013",
+        "E004-PG-014",
+        "E004-PG-015",
+        "E004-PG-016",
+        "STU-00311dce2cc7fcc4-a03df144",
+        "STU-0282e42c1fd36f1d-14b287e6",
+        "STU-065bd4e3636df1fa-096e0c52",
+        "STU-0b14e020ce5ef511-b2e11f64",
+        "STU-0b7a07be4fadb4a2-1c54b236",
+        "STU-0f6929d74c113444-8b88467e",
+        "STU-12d1bd87d5a603ec-79b9698a",
+        "STU-X-1c76982f128c",
+        "STU-X-2ce621c0cab2",
+        "STU-X-5f5c4e582cfe",
+        "STU-X-661b56ce72f2",
+        "STU-X-8034298201ae",
+        "STU-X-9c9a38364c00",
+        "STU-X-a6721381b1bc",
+        "STU-X-ad6f8df5d914",
+        "STU-X-af8f96294bd7",
+        "STU-X-b42b60efd4bf",
+        "STU-X-b62fe9de507e",
+        "STU-X-bd5fb8876818",
+        "STU-X-cfb7b19cc647",
+        "STU-X-db85daeb35d1",
+        "STU-X-ddc3dc77fef6",
+        "STU-X-df0c6157151a",
+        "STU-X-ec1fa36923d4",
+        "STU-X-fe6692c76edc"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "STU-overhead-train"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "00311dce2cc7fcc4f0dec043a6684ebfd076646baee8f0d4c637bbaba058fe5f",
+        "0282e42c1fd36f1d493d62b7fb7f712dda919aed23413e00b4f346a0fe88a066",
+        "065bd4e3636df1fa53f9942a5392c392907467f0958f42b852a3fb5cea130f56",
+        "0b14e020ce5ef51197b17e8538dc3e33f713b10480b4458d7aa38e313525e4e9",
+        "0b7a07be4fadb4a24e5589239831c566525419dac4a70773ddc652abf29d3017",
+        "0f6929d74c113444f73173f8d8c90c3139d3d2d710ef605774ae3ad48faf807e",
+        "12d1bd87d5a603ec802ce8081d0ad73bf1f38b653e80462ad9b1a5805a56e291",
+        "167036a31260d7adffd6e288e74a992304255eb922663a979bc0842ef31c1c0f",
+        "1a5d57486a058110ffdce2a8cca71ddc1c2796810642fd32179b53eb6907da40",
+        "1c76982f128c6232c8d2b433fd1db052c54b2a9f2a2f43f499a6a54af8a3ebea",
+        "2b57b6651142286222f2b47bb62408e2ae83d973c58937683c048c37fec31a5d",
+        "2ce621c0cab21c50a72d673d90d9e7e4a3f2e89986b867fc4378ec75fd3c71f6",
+        "300315283b0aeee9dff48553b38c55a92bd3ee1b35a1ad0ab7c6cb318a8918f0",
+        "367f6d6c7b1e0b6b0def00637748ec161d49511c184e83f448945ed239cb8113",
+        "3953106e876f6f4e6465bf42e3e382f49ca911c2cacf4aba3f59252623b7f310",
+        "40778932619c1966c5005d7e496dae5c3f80b5dfcb6c9e29d98946b7937d736c",
+        "482371f851b657053b83f341bc7d2e42c78e7a29e0c09cf08c9760395987671c",
+        "49c2dcffcad46930031de072e8038f01b1283c241640e5a497c28a60ff451ee5",
+        "4c861b3457c33c417c9aa59bcb794f79bacba1606dc8fd81400d00adf55d3b89",
+        "50c39998d46e4ac60996231c8ccbbb7c64214a819085421eab5b3f9f1f181456",
+        "594e0eb65570b317e205d626548fbecbd51f98a9c52714a9893682d8a6e1d292",
+        "5f5c4e582cfed2777023d8d00b6477491090826a96df702ede0c5c253e10197a",
+        "612255337f769f7542c57f7851fac51d9ab1f04bdb1b33b12624a69b1740c6d4",
+        "65cec72ddc3696fe78060d44a7de10ac39bc031641a576612f27af2fb4682e87",
+        "661b56ce72f226e492074a09ef372adcedf48b3b75a7a0d882ac54da5a0473db",
+        "6ae996299203e087e864401db4dbba456e9ec2a5d36d8a516d6cb65cd85db7e8",
+        "6e43891b6115a8b53f0983144530f1c0cff785b56820b09e7f95a9eb9bd42c46",
+        "7280ad14373b19bc3a30312a2ec864b9fe75c38add9d1a2c3b033d9707dff7f1",
+        "7396900363c90d64871269abd647989e2c1bb85b55563c9b4efb8a9feaa14ba7",
+        "795bd9561eec4ca292c4afea96868083ee1b10d99826c357944a0d834a56f6f8",
+        "7a18ee0d0fcd32449ef0f7afb6104aea58c50b03e84ae1e433f3a53d9acfcc65",
+        "8034298201ae2c2cb81cad525f291f02124bb0a288de7879a405cbfce8a8b917",
+        "8223010e52e490485e8700c27cab249f0c61ee3ee80702907b59552371efac5e",
+        "826f47fe62739ad59cb6c5740400d35cf7bc0d1753f41aeb04ffc738ec8c3eb7",
+        "82afb3e906c8cf8d9918bedccc18611420bd449a9838ffd532973d1feff39bc8",
+        "85080cc631607700bf481a724b7e47d00c47f425152706b74d2671516ed1b66a",
+        "89a8c4730149248ac1bafcaa881c03b6f55b55bea6136ca82f27379044845259",
+        "8a88385d6a5b6abc0eed992a15751106b468112b20061c607f66236353ecfc95",
+        "9c9a38364c00c2388fa7944a08cdf2e311e33286367b9a6061aec1ce018bf079",
+        "a19ff23d844813981f714db9684ab87a99403c98dbfdc8c06b0810c43576fe9d",
+        "a6721381b1bc82a1c4d71fd763ee3fa08c797b58d047a9d12c52c9b191a02ab6",
+        "a6a78198fbd58d9f2c6ab4e4e93d0588e219268b843fb23cfb88cc0aba071226",
+        "ab5d01e7fb2164ab511f3c05b34b6fceaab5f4b7107b9c192e7b9ddb777ab797",
+        "ad6f8df5d91476b177471c9c5c37e2feb44edc61f00efd6dbeb7f0c4699db81f",
+        "af8f96294bd72217712791996274886742f2b511cf98608778aa540e77b305fb",
+        "b1e066fef15254172b9cfef4fbc35b418b604e08670ab74f2e54dcf06b5b292c",
+        "b42b60efd4bfcb77d6f99253dd2091a36ca1dc408c244df7cd0bb4480e968110",
+        "b46d65d5b7716587ff0ad4b64f8515a461543dfc358345188235f175da95f402",
+        "b62fe9de507ed2d4bf4cdc3768414f4c0234c100a10155818cc3a02f5ab3711a",
+        "b63323e957f64f8a1e7648f361a0becfab21b75e720d4cc704fe2d7a46f2254c",
+        "bccba039157c715494fe12e286b7dc872732db74230baa54f3ca41c5df0ebf67",
+        "bd5fb8876818410b5c31fbc77b0529dfbba3f3753a93559c6770616b4fea865d",
+        "bd74337f3c157a28184a155d4439134ebf74caaa8c53b91ff283b05fb3cd9726",
+        "be39deab3b7b2ceb95ab041f2727d048d4c64d2a47b2c3b8c2e99d0228bc4d74",
+        "c2146bab5e45c73d61d9250ea99fddbd422363e028cd29644ea9c92fa0b1823e",
+        "c9d0546b4476d5cefaf888b19da4286deb18686db997ee06e26a784ab867423c",
+        "ce31ef532504ac3698e486c9f58d1381fecb50bc0086df1b24743063df328b2f",
+        "cf9717a0c240e6ff12aa3f4e985d21f4219555d922ca7c63dde6ad86a924c459",
+        "cfb7b19cc64718a7a4a268ee04f864f9923cc34bcf81626b70c283e8d49d318e",
+        "d2368086ac7ca85f938e1acef61fc598b75022a341a4d25945724a569ae98545",
+        "db85daeb35d159e97e1247ec2b1a2703f57f9c549e0a9e92cc01d36fb0b06c58",
+        "ddc3dc77fef69195d725db41ff72dbcb24de8616820a87858d55d0f12f8ef513",
+        "df0c6157151ab67d504eaa61bb9654ec9e2fde9c7dd4e577749d9a587c70ff2e",
+        "e1a307a225e9ba7f60565d0fc8178caa03d138d74d858b05be9743f66b11b44c",
+        "e8bf0e3ce84d82dbffa97463391b3b52aa78ebdb979b6dc8db0e152585b162c8",
+        "ea7210b7845177ed06b2aa13e09b63c7cc2e87ccb2915bae304e9bfa71194f03",
+        "ec1fa36923d4b2ee421fa27db94e9ab9a8af1a8fbcdc7a74630e60c8c999d058",
+        "f4a10c3545ec099a0daeda4a7ecb718f0ad9dea19944bf3cbdda676578b512bb",
+        "f4ee8f8f2ff39fa84dce74e3f30463510b75509337cb23c0442a936df3a7ea96",
+        "fca2f5912ad5969452d56d83b5909e1bb0056226feb69a6d7b6388e62b450d79",
+        "fd1fafe3ee2ce7fec149ba1e488fde3d692a2c96d39669f19049e037a131f740",
+        "fe6692c76edcdb557f866ac1fb0f3e79ae8ed4540f196509f9f464778bcae568"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": true,
+      "edge_types": [
+        "reviewed_shared_scene",
+        "same_export_lineage_hint"
+      ],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "studentclassroombehavior",
+          "0b0a6a49af93bd35c682c1c14c10579688a0f07829dfcad15b5fda30af984456"
+        ],
+        [
+          "studentclassroombehavior",
+          "0b9371a52cfaf5c781b468a5513edd394af737168c40a516a2db936cc4827cea"
+        ],
+        [
+          "studentclassroombehavior",
+          "0cdc633022eac4bc4be9e8b2cfb65c1d185e10049f448041d705175fbd568c4f"
+        ],
+        [
+          "studentclassroombehavior",
+          "0d78f7af6df4a7da0bcad2cd31ca0742a7bba641a3a23f85b88b98a62a4f0480"
+        ],
+        [
+          "studentclassroombehavior",
+          "1868c76ae71c0084f56f110e3f791826f577ef77afcf851010092775c7282d29"
+        ],
+        [
+          "studentclassroombehavior",
+          "1e3e940761c3ba032794c4eb42408f7466b57717145974999f88095691be8323"
+        ],
+        [
+          "studentclassroombehavior",
+          "69f2fc560cb86244b2fabd922000fd4f91a3302bfa4b1a15cd60c2dde25ee34b"
+        ],
+        [
+          "studentclassroombehavior",
+          "84cd22628cf964a28a4a1a07e296d7d115dd666b4093697f67590ace3e023c8d"
+        ],
+        [
+          "studentclassroombehavior",
+          "84e164f24437c203b1e73abeb0a312e71d5009c87010798be89a671a275eac1d"
+        ],
+        [
+          "studentclassroombehavior",
+          "89167303d383a71dc11a252b7939fc3dd254dbafba4fc31b1c6b8424a1ea3917"
+        ],
+        [
+          "studentclassroombehavior",
+          "982e104e5deaf5d90a34a10f43521893ba50e7af451d577bf7765b918d29a1ae"
+        ],
+        [
+          "studentclassroombehavior",
+          "9eb0d821f49050251d52680ce09b5c8485df013ae8dfcd16151faf5d7f27b949"
+        ],
+        [
+          "studentclassroombehavior",
+          "9ec209f051c3d749c5d3d668a8aeb6982e6296b9348837b9931ad3519bba51e7"
+        ],
+        [
+          "studentclassroombehavior",
+          "a103cb29265c94e56eaf12eb9f94376881f5052e0aab814eacf0f3ef4c0617c7"
+        ],
+        [
+          "studentclassroombehavior",
+          "a3e782159db5878c13c2f096b25acb59ca79ea3bbd723b522c9d615f74492e9a"
+        ],
+        [
+          "studentclassroombehavior",
+          "a608bf60b102d67081a0779712ea54dd663fde2e15b3f967a331c46e7df0b5e8"
+        ],
+        [
+          "studentclassroombehavior",
+          "b38a9ea0dc70ec2a6e11f6c52be7be6351fdb6ed1db84d3535abab1ceb810021"
+        ],
+        [
+          "studentclassroombehavior",
+          "b9e077ebc5467e766ae0004ea088f85de67b07b5e9febb140233880a5d327a61"
+        ],
+        [
+          "studentclassroombehavior",
+          "ca03fb90ff3a3d7b8b00837b5f76145bf2f9bbe8894e8d78ef53f524c0ac4f8f"
+        ],
+        [
+          "studentclassroombehavior",
+          "d132df083c73f59bccdeb1b7d7f0e6db129309d13db8a46444143f05418a63f8"
+        ],
+        [
+          "studentclassroombehavior",
+          "d2361dd4b892876c743b663778953a2dd7d08b2b8c0b681f75145640c75b0ae5"
+        ],
+        [
+          "studentclassroombehavior",
+          "e0a935fd69e61d70981c81d67372a1476e2576de294ff0445fcad08c5867dc30"
+        ],
+        [
+          "studentclassroombehavior",
+          "e1ddebd154766b7406503b864ca598797cd5420008410646e2f667fa0f187885"
+        ],
+        [
+          "studentclassroombehavior",
+          "e7de7b6e0636aba40348849985b5e580a546f05950fa18297d7e1e25266a389f"
+        ],
+        [
+          "studentclassroombehavior",
+          "e9ad8f4b3e77a952ed910ffc442f3ea3e09fb49f0b11e7af7d94bcbdcbeebe8b"
+        ],
+        [
+          "studentclassroombehavior",
+          "efed73c661a1ad725d1cb8a4c33d4fb1a78734b6dea54171f1414852e3e3eb49"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "train_supplement_candidate"
+      ],
+      "review_ids": [
+        "E004-PG-006",
+        "E004-PG-009",
+        "E004-PG-012",
+        "STU-00081846913ae753-1868c76a",
+        "STU-01003ba3425d3892-0d78f7af",
+        "STU-0130b66f7f693dde-84cd2262",
+        "STU-049df11bda175dc6-d132df08",
+        "STU-06471b0e8ccf95fa-69f2fc56",
+        "STU-X-3a3487a87a27",
+        "STU-X-5a301ba551cc",
+        "STU-X-6f59b8e99aaa",
+        "STU-X-88f27ef81662",
+        "STU-X-a937357c8801"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "STU-gray-train"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "00081846913ae75356370f968b923a4323b82954547b992fbab5445f5706ba3b",
+        "01003ba3425d3892ec7f4332eb433dc649821f0ff14b744af45c23d5ed81415a",
+        "0130b66f7f693dde20588eb2a4cff1be28cf42efbf86950df8421ac0c14358f7",
+        "049df11bda175dc6f00fb6036105b09cefcf21d72fb724574db0aa85e1d21583",
+        "06471b0e8ccf95fa02ad5330fbb7a35c9799e39632a595532e1694e463768dbf",
+        "0baac46cb0cbe4f0c5ef1ec6bcdb9d503a92932eb0b45e02d0ba72a018d6fa38",
+        "0c481861a9bab73b3497d17c1ddfd49d35edb5805d91d5a4035de27f328e9a31",
+        "12f0ee6ba1ad89641a939367a2b3a85fb0a5aec3070ba995f38d45d141a5b18b",
+        "1b754b95a76a132980064c5a9e9fec6afbb888ff64193b3d16a23ce4cc5f92b0",
+        "22d4853c5fc3afa4bb38c85f1945d9e590ee141afbdfece2c697ce7a9f102656",
+        "3637d336da38c1c48ffce9c0cfe5d816077c9ba31fb72556e3bfacdeff1494fb",
+        "3a3487a87a2777c5f1042cf63a5c597eab769ffce6371813422f71a3f5dfcc1d",
+        "42a4f545fe2d5636dcb491910282b5effd706a721167d52d427886a914ba29c8",
+        "5a301ba551cc11a32d81c5793e4c965f971d9e68acaee76e74e2aeb1759a4ad3",
+        "6e31f98d750b0a1b5da5378fec0426d3a96823056f7b16932db8248abb3bc2a4",
+        "6f59b8e99aaa9b41062772b2b9ccf7d76fea044711c03f758ef644f1047417e5",
+        "7b1b8e7317ab7ad86e9c592e1fd95b4ee96796abecfe5000e9829e4ef4f0da3e",
+        "7fe21ab70add0b68dab7608aba7c0ee6d536b516deabf2e07e53b95316576783",
+        "88f27ef81662d1e8bb3aa86d9343af919ae4d64415dd771a546bf559b0a0f5cc",
+        "92a4cc18e35660c8fd60157172a8d283b7efa5e5078b80fac99030db107af20f",
+        "93d304bc8d99e04509af1865b7f969cbbd9522e320e66807f9cba544d44ff5fd",
+        "a937357c88016157c93d91d81e3883ebc2ecc89cdab674bee91539b08629f8ed",
+        "b55d3519e26bd60bf33f70ffbdc197e8ab8530b818f3c927cec07d661a00cb94",
+        "c6417a72ea775394d4e3ef1b91c49a088474dbd8dd7de03e9fed68fb572980ad",
+        "d533b159518f851fa00c987a1943cc1ef6aa06586b5139027714c1c76af1d16f",
+        "ee358235be171d23f6fe0d3633b413ba3f7d7f892e34c88f3d33cd180d04931e"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "studentclassroombehavior",
+          "41ec69aec78f105d879535636507e0923205f0fa53871415b60d6c634883f00b"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "new_development_candidate_quarantine"
+      ],
+      "review_ids": [
+        "STU-001a63e6728bf568-41ec69ae"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "STU-instructional-view-16"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "001a63e6728bf5687f14371cca89f214f2a581c96b383b4a019264d9138764ce"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [
+        "same_export_lineage_hint"
+      ],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "studentclassroombehavior",
+          "1ce129aa78f6f4fc3fe09bd22338bfaea2e0e11a9f11ff6fbe10afb51e220171"
+        ],
+        [
+          "studentclassroombehavior",
+          "e00fbf07a67ce4e3fc687e7916ac08d34c1dcddced588c49300e992b2b0180ff"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "new_development_candidate_quarantine"
+      ],
+      "review_ids": [
+        "STU-0030aa43d7c00fb1-e00fbf07"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "STU-instructional-view-12"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "0030aa43d7c00fb14c408282f95086c0ee80f0f5100d4308c28524b6c2b050bb",
+        "9b97ec8aa24536693229f48bfb2082168f9ba4fe2e77ba29ef9d224573460374"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [
+        "same_export_lineage_hint"
+      ],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "studentclassroombehavior",
+          "2b387b6615bcea4fd0304b719bd4834a2643d896fa0c2ae31de7711c3d1dda9a"
+        ],
+        [
+          "studentclassroombehavior",
+          "f797f9035dc3cd1546650b616628102b5ec5d880235214b3833c1ff5a30f372c"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "new_development_candidate_quarantine"
+      ],
+      "review_ids": [
+        "STU-00328b920815bd7c-2b387b66"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "STU-instructional-view-13"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "00328b920815bd7cee38b1481cf9eb77a39d14853723e7124e342c3f69ed530e",
+        "3b679630fd4fd9f5beb1e2fb85c5cfb08b1ae723ae765fdfd19b7453f5233ef8"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "studentclassroombehavior",
+          "e4b69ed2d2897685c0209a760b8fdaf74f7401a2dcfd609f136dcf49baf0c28d"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "new_development_candidate_quarantine"
+      ],
+      "review_ids": [
+        "STU-0033efb4ddaf2ba2-e4b69ed2"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "STU-instructional-view-14"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "0033efb4ddaf2ba2a6271531c6a6d10fc4a52b6d1db8c3c639b11ab88f9fcc80"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "studentclassroombehavior",
+          "2ba1386b5de2b9f0c92c76b3d8aafa2a868eb8bcecc3651978a053470863586c"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "new_development_candidate_quarantine"
+      ],
+      "review_ids": [
+        "STU-003410b7c85773dd-2ba1386b"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "STU-instructional-view-15"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "003410b7c85773dd871429020963bc5cdff55ca7f737cc8fb3bf56c274c34ed1"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "studentclassroombehavior",
+          "daa5546869d855bab1f6b06462a743fa5ca7717651363e673a8ee3a1cc8f591e"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "new_development_candidate_quarantine"
+      ],
+      "review_ids": [
+        "STU-008d096ddbe91e1a-daa55468"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "STU-instructional-view-17"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "008d096ddbe91e1ac1149c479124a6d17ad48575e2fac8301a4d7b7b803451fe"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "studentclassroombehavior",
+          "8f7ebf38af3ce348b34d2adf079fc8815dc76c014d2d9d67d8969d584bdcfae2"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "new_development_candidate_quarantine"
+      ],
+      "review_ids": [
+        "STU-0098a369c073cf65-8f7ebf38"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "STU-instructional-view-18"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "0098a369c073cf6509376ecb64de090e5ed1855d0f7e19b92f6284d5d8491754"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "studentclassroombehavior",
+          "770584fccd6da6489af0f68e351e4c948483282e2f17bb4fec1085ef827a99fd"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "new_development_candidate_quarantine"
+      ],
+      "review_ids": [
+        "STU-009eae9ca8452a3c-770584fc"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "STU-instructional-view-19"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "009eae9ca8452a3c4a12e8d7efde547ee74d5db2dd7ee3c0c0323c838b1ab742"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [
+        "same_export_lineage_hint"
+      ],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "studentclassroombehavior",
+          "1b7628629b4458b37b79c44a21785dc441efeb634cb047fee3e94501d2504e4b"
+        ],
+        [
+          "studentclassroombehavior",
+          "21b9f4f8822a63cc25f4cc2a3b9f1bba05095e78395e5034d3683a34756c8fda"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "new_development_candidate_quarantine"
+      ],
+      "review_ids": [
+        "STU-X-1c1844736d4b"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "STU-instructional-view-58"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "1c1844736d4b742372eb45383b93c99a262380dacb3e5852ed7f551a74dc525e",
+        "e13df9606afe55dde925f1c41e5bbb3e32138041aa731a5f7bda0cd949c10026"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "studentclassroombehavior",
+          "bfb5c9d93e640bcf428650558c226583ffe145cda243cfbc9b4313851566badf"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "new_development_candidate_quarantine"
+      ],
+      "review_ids": [
+        "STU-X-25417caf81b3"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "STU-instructional-view-44"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "25417caf81b395ca09deb038bc82382ccdc6f9c3015c9f534d961257449ff924"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "studentclassroombehavior",
+          "e3f5c824568aa7d917cd46ef8b1dfec20efd1e8bb126b2df4fe61220790c51da"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "new_development_candidate_quarantine"
+      ],
+      "review_ids": [
+        "STU-X-29cd02897985"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "STU-instructional-view-51"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "29cd0289798599cec401fc1171748151e7f3ae9f04d3fd66f2c4b6d20f83e4f5"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": true,
+      "edge_types": [
+        "same_export_lineage_hint"
+      ],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "studentclassroombehavior",
+          "18c0076240109bcc44641bebd111c4500b85aa6b5bc11775e5585eea8270ad2c"
+        ],
+        [
+          "studentclassroombehavior",
+          "205016df765912f96eef8c6c5db79c34ad8128c7c81eb4b6bd44f34ea27f883d"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "train_supplement_candidate"
+      ],
+      "review_ids": [
+        "STU-X-2d88a5be5b7c"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "STU-theater-train"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "2d88a5be5b7cb50614b71f8034d52e9107eca5f144263f909c301dfd02926f6c",
+        "c3cb20e9bf24e59ba33e36328a6be8fc1208360bd4d9ea84c70a6ab111addb4f"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "studentclassroombehavior",
+          "60315f780197d32555afc4b3241b2ec83cf41b84b1ff51cd01b02701d8aa8753"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "new_development_candidate_quarantine"
+      ],
+      "review_ids": [
+        "STU-X-4ec829973e95"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "STU-instructional-view-59"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "4ec829973e95e49c4f1dfd08340cb564e8137bccd8eb15a3e122d9c3b2d34935"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [
+        "same_export_lineage_hint"
+      ],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "studentclassroombehavior",
+          "2d5dcfa2d54247290c179eaf92e3c84e357d35c9a70f1d842be4718ef59e1431"
+        ],
+        [
+          "studentclassroombehavior",
+          "a48040ffcf2a969622d2b82bb143f564a6a54455304c72cc389d52384cee9589"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "new_development_candidate_quarantine"
+      ],
+      "review_ids": [
+        "STU-X-62980044ff60"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "STU-instructional-view-45"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "62980044ff606b71e5f52bb11f1c1b15bb873c0ff1ff131f2be1d0352e5fd0dd",
+        "c30a9321a87ceb3d68e1f60c5dfcd0d40552457b769de6a0824d1f9acc66298f"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "studentclassroombehavior",
+          "545666402c0680db2a66c9a7d0547bd70978a52c0c9e5a84e6089e08dc2382b8"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "new_development_candidate_quarantine"
+      ],
+      "review_ids": [
+        "STU-X-6878715d2b2c"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "STU-instructional-view-54"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "6878715d2b2cd43cc90cdab2bb8599b3fb031e2024f6a7fc138ab1c9447466c8"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "studentclassroombehavior",
+          "58e8ed028479ba558b446c7a7e64e2b60772405ae2405980f097c0c96da3f0c0"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "new_development_candidate_quarantine"
+      ],
+      "review_ids": [
+        "STU-X-6f452938e211"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "STU-instructional-view-56"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "6f452938e2110796e09615ad15718adcc19e284be38effc03c8c33779d7f14c6"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "studentclassroombehavior",
+          "4dcbed3c281b9a451e009f2c1afe847b846d04a16abaf4a4f81d2c9043ccd599"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "new_development_candidate_quarantine"
+      ],
+      "review_ids": [
+        "STU-X-7c99e647c7cd"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "STU-instructional-view-47"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "7c99e647c7cd5d673af4911366407b7cf3591b2cd8e530a60974d22cd7efb5f3"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "studentclassroombehavior",
+          "330825fa9bde78c350c5bd04acd661e2e39f79c0854b4593e4c93586153c70ce"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "new_development_candidate_quarantine"
+      ],
+      "review_ids": [
+        "STU-X-bcd925da5b79"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "STU-instructional-view-48"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "bcd925da5b799a9694d42f6e3047c99632b67b480c5660152093cf7fadfc3dd2"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [
+        "same_export_lineage_hint"
+      ],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "studentclassroombehavior",
+          "9ccae230cdfee2d92755ce252e13fcb1208bd88cff8ba209133638696bcbc02f"
+        ],
+        [
+          "studentclassroombehavior",
+          "ec0e32bc405a79811ba69f23d0f47face42366e0753bc83ef13982f04e242414"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "new_development_candidate_quarantine"
+      ],
+      "review_ids": [
+        "STU-X-ccad6634a8ad"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "STU-instructional-view-57"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "ccad6634a8ad6f841b0750da252ecc3859fa1a2c3f67a56d25eaee5f57383952",
+        "dd55548df9a22669a3936d7f2494e5dbef685285859c01c8c5b24eb74a103425"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "studentclassroombehavior",
+          "2f2c9dcbbf98a03b548fc117e7e03900c06c8f4a37acc1720f1634afca28c6ea"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "semantic_quarantine_no_crop_selected"
+      ],
+      "review_ids": [
+        "STU-X-d83408e7c75e"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "STU-instructional-view-55"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "d83408e7c75e80d3f48f4685dfac0e94a20ed93b9783598be13f11385662ee3f"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [
+        "same_export_lineage_hint"
+      ],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "studentclassroombehavior",
+          "1f2f1273f0dd0c0325e6820f7266e5a1048f4642d4079207a855830a3b5cbd8d"
+        ],
+        [
+          "studentclassroombehavior",
+          "87ebff9ba69dedea408c4619a8558fe3bfe772777a674895ebe7bfd3cdc5f3db"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "new_development_candidate_quarantine"
+      ],
+      "review_ids": [
+        "STU-X-d88f877b2d26"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "STU-instructional-view-52"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "9595d1e2d2c6af006f19a0095d4d182cdf3564f2dd21f2adcc06d7c1ec1fd720",
+        "d88f877b2d26a1c6e62d00c310bfd901d5cb3d144fe45abd939d40cc62860cf8"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "studentclassroombehavior",
+          "5f91d0e94bbcd27c3532341829dadd722b053191397cce0992cb60ad77992ff6"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "new_development_candidate_quarantine"
+      ],
+      "review_ids": [
+        "STU-X-e33e8fc36e66"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "STU-instructional-view-50"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "e33e8fc36e66ec2664378a05a22968bf7017d578badafcfd8981b24e8e7db436"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "studentclassroombehavior",
+          "86ac39ca6299bcbeea336f110547db37c71924527f39806cb4733ca84ba12134"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "new_development_candidate_quarantine"
+      ],
+      "review_ids": [
+        "STU-X-e41f24405e47"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "STU-instructional-view-53"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "e41f24405e47605fa6d5507fd42c9a71df0344584a8fb6c26eacbfcb16726cc4"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "studentclassroombehavior",
+          "432f4755137d893d7a224a5919db7f563a5164bd2d598674e5da2476836be53f"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "new_development_candidate_quarantine"
+      ],
+      "review_ids": [
+        "STU-X-e7fe0b8b0cfd"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "STU-instructional-view-46"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "e7fe0b8b0cfda02065e825f40410c5af1260e2d22611ba3aefe1db3356febacf"
+      ],
+      "video_id": null
+    },
+    {
+      "confirmed_train_scene_overlap": false,
+      "edge_types": [],
+      "exact_non_test_parent_samples": [],
+      "independence_proven": false,
+      "member_keys": [
+        [
+          "studentclassroombehavior",
+          "fe870bc10337b1253056a2db5d8434806035abce8326c7460dad02e54bd57f7f"
+        ]
+      ],
+      "quarantine": true,
+      "reserve_role_conflict": false,
+      "reserve_role_proposals": [
+        "new_development_candidate_quarantine"
+      ],
+      "review_ids": [
+        "STU-X-f9c4fad2efa0"
+      ],
+      "room_id": null,
+      "scene_boundaries": [
+        "STU-instructional-view-49"
+      ],
+      "session_id": null,
+      "source_sha256": [
+        "f9c4fad2efa08ca8302fb28835c3b6582fcc67c59bfb24a23cc7bd64d30d1fb0"
+      ],
+      "video_id": null
+    }
+  ],
+  "components_with_role_conflict": 0,
+  "components_with_train_scene_overlap": 3,
+  "independent_groups_proven": 0,
+  "input_pins": {
+    "data\\interim\\E004-source-review-20261011\\behavie-inventory.json": "44f99d8db5a0c288a7ee646b2fcf63f28c6d61960fcab1c60c1f781c6bb7693d",
+    "data\\interim\\E004-source-review-20261011\\non-test-parent-scene-fingerprints.json": "1fbbfd09241b65ccb8abbcce917586fca24ba7161f2b94b934658ae0caee2513",
+    "data\\interim\\E004-source-review-20261011\\studentclassroombehavior-inventory.json": "dca8f2fa178b91ebc7ab6c2e3fc2b5afe15d3cdcb22fe2fd46d58c0aa27f7ada"
+  },
+  "inspected_source_rows": 136,
+  "inventory_rows": 12580,
+  "linked_inventory_members": 193,
+  "parent_non_test_sources": 629,
+  "status": "conservative_quarantine_graph_not_accepted_groups"
+}

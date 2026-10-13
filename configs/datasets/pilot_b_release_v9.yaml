@@ -1,0 +1,68 @@
+status: accepted
+dataset_version: pilot-b-20261013-v9
+package: data/processed/pilot-b/pilot-b-20261013-v9
+parent_package: data/processed/pilot-b/pilot-b-20261013-v8
+parent_checksums_sha256: 2d43f4eb9a70987dd643d4a5c6b635e879e147a356fa85b2eb24367d248df20e
+selection_version: pilot-b-v9-consolidated-20261013
+crop_policy_version: pilot-b-v9-reviewed-context-20261013
+split_version: pilot-b-v9-preserved-roles-20261013
+expected_counts:
+  review_only: 403
+  train: 716
+  excluded: 29
+  val: 49
+  test: 11
+ledger:
+  path: data/interim/E004-v9-consolidation-20261013/v9-ledger.jsonl
+  sha256: 1410a7e85aaf2012ea57bc5dd18a267179821488f8fbec1a74b7e6f6174a97cf
+selection:
+  path: data/interim/E004-v9-consolidation-20261013/v9-selection.jsonl
+  sha256: 7bd4e29feed2d78c0d8a9cfc127a7582bcec403541cdb808ed555f2055176bdb
+crop_inputs:
+  path: data/interim/E004-v9-consolidation-20261013/v9-crop-inputs.json
+  sha256: 54d99ebf5b34a76984bdd01bcf84c2256a42e2112780ef3c4677cf904a8b5a6e
+source_roots:
+  pexels-v2-20261013: outputs/_scratch/e004-v9-consolidation-20261013/sources/pexels-v2-20261013
+  unsplash-20261013: outputs/_scratch/e004-v9-consolidation-20261013/sources/unsplash-20261013
+  consolidated-frames-20261013: outputs/_scratch/e004-v9-consolidation-20261013/sources/consolidated-frames-20261013
+  classroom_monitoring_v2: outputs/_scratch/e004-v9-consolidation-20261013/sources/classroom_monitoring_v2
+  roboflow_v1: outputs/_scratch/e004-v9-consolidation-20261013/sources/roboflow_v1
+  scb_hrw: outputs/_scratch/e004-v9-consolidation-20261013/sources/scb_hrw
+  scb_head: outputs/_scratch/e004-v9-consolidation-20261013/sources/scb_head
+  classroom_attitude: outputs/_scratch/e004-v9-consolidation-20261013/sources/classroom_attitude
+  exam_cheating_keaor: outputs/_scratch/e004-v9-consolidation-20261013/sources/exam_cheating_keaor
+  student_behaviour: outputs/_scratch/e004-v9-consolidation-20261013/sources/student_behaviour
+  coco_2017_train: outputs/_scratch/e004-v9-consolidation-20261013/sources/coco_2017_train
+  openimages_train_prefix: outputs/_scratch/e004-v9-consolidation-20261013/sources/openimages_train_prefix
+  commons_classroom_gapfill: outputs/_scratch/e004-v9-consolidation-20261013/sources/commons_classroom_gapfill
+  wmf_knowledge_everyone: outputs/_scratch/e004-v9-consolidation-20261013/sources/wmf_knowledge_everyone
+  behavie: outputs/_scratch/e004-v9-consolidation-20261013/sources/behavie
+  studentclassroombehavior: outputs/_scratch/e004-v9-consolidation-20261013/sources/studentclassroombehavior
+approval:
+  path: artifacts/reports/E004-v9-consolidation-20261013/owner-release-implementation.json
+  sha256: 606b08ab3d32b718a510864e598e12430da7d65f32e587be3cd21747ebe3bfed
+role_membership:
+  path: artifacts/reports/E004-v9-consolidation-20261013/role-membership.json
+  sha256: 078329883c09f5310c22affa5acf2e382a1a0a278c46d21d390d616fea3c5172
+code_sha256:
+  integrity.py: 03cb7989b6934ead57e54fe625143c8cedffc3ccc80aa433b6eda5f0a98ebed6
+  pilot_package.py: 97278a089c663f71319e3ca1a53b26c2a188e320f689a76cedec1612c7330e67
+  pilot_schema.py: 2568be9f2c88c2f705a788f10fc81125a8c7b636f9d16bfc502644d7ef04f253
+git_commit: a56fdbb29ec5f9c8f609157227e620206739766c
+workspace_dirty: true
+approved_use_scope:
+- local_classifier_research
+use_scope: local_classifier_research
+support_quota_shortfalls_waived: true
+training_run_approved: false
+media_upload_approved: false
+test_protocol: Preserve original 11 test identities/labels/crops/rights/group/freeze
+  evidence. Hash/decode/copy only for integrity; no visual review, inference, feature
+  extraction, tuning or new sampling.
+limitations:
+- Development/reserve consolidated as review-only with preserved roles; no new final-test
+  freeze.
+- Historical CN/SX group/context not silently promoted; 4 train candidates remain
+  review-only.
+- Unknown masked. Independence not asserted. Stock/static images do not establish
+  exam generalization.

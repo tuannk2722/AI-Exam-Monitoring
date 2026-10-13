@@ -1,0 +1,84 @@
+{
+  "status": "draft_projection_not_accepted_test",
+  "new_batch": {
+    "new_development": {
+      "crops": 47,
+      "phone": {
+        "P": 25,
+        "N": 15,
+        "U": 7
+      },
+      "looking": {
+        "N": 23,
+        "P": 19,
+        "U": 5
+      },
+      "families": 3
+    },
+    "reserved_holdout_candidate": {
+      "crops": 125,
+      "phone": {
+        "P": 49,
+        "U": 26,
+        "N": 50
+      },
+      "looking": {
+        "P": 42,
+        "N": 77,
+        "U": 6
+      },
+      "families": 27
+    },
+    "train_candidate": {
+      "crops": 27,
+      "phone": {
+        "P": 14,
+        "U": 4,
+        "N": 9
+      },
+      "looking": {
+        "P": 2,
+        "N": 21,
+        "U": 4
+      },
+      "families": 22
+    }
+  },
+  "new_phone": {
+    "P": 88,
+    "U": 37,
+    "N": 74
+  },
+  "new_looking": {
+    "P": 63,
+    "N": 121,
+    "U": 15
+  },
+  "prior_accepted_anchors": 109,
+  "accepted_new_anchors": 0,
+  "projected_holdout_including_prior_reserve": {
+    "crops": 199,
+    "phone": {
+      "P": 76,
+      "N": 84,
+      "U": 39
+    },
+    "looking": {
+      "P": 75,
+      "N": 115,
+      "U": 9
+    }
+  },
+  "remaining_to_100_each": {
+    "phone": {
+      "P": 24,
+      "N": 16
+    },
+    "looking": {
+      "P": 25,
+      "N": 0
+    }
+  },
+  "independence_claimed": false,
+  "test11_opened": false
+}

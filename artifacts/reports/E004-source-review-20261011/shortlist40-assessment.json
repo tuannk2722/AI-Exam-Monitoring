@@ -1,0 +1,2033 @@
+[
+  {
+    "archive_sha256": "b90b3d95eb671bd0e454723036bcf62596e0ebafd8616e69a95c894576433057",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": false,
+    "crop_feasibility": "Cần vẽ person/context ngoài box thiết bị/đầu nguồn; có cơ hội phone P, phải xác nhận mobile và ownership tại crop/input 224.",
+    "draft_role": "holdout_candidate_reserve",
+    "draft_scene_boundary": "BEH-bright-worktables",
+    "independence_proven": false,
+    "label_sha256": "f8df1fda120f67d636c8df3120174cc3359a22c041ff36af445ae3a9145ffd0e",
+    "member_sha256": "5b984b7c0fc6d42c395b104e2cfe5fe4c26585e8031bf3314e9b9d0c8f73d598",
+    "observed_scene_description": "Phòng sáng, bàn gỗ rộng, cửa sổ bên phải; lớp nguồn phone có box vùng đầu/thân.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [],
+    "priority_hint": "phone",
+    "quality_flags": [],
+    "review_id": "BEH-00045fefb430c79f-5b984b7c",
+    "review_index": 0,
+    "room_id": null,
+    "scope_of_overlap_evidence": "nearest_non_test_comparisons_not_exhaustive_disjointness_proof",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      1960,
+      1080
+    ],
+    "source_class_hints": [
+      "phone"
+    ],
+    "source_id": "behavie",
+    "source_sha256": "00045fefb430c79f4ba51ef7f91e8e5d053f3bb0a7428171c56139c44707f03e",
+    "subject_id": null,
+    "test_candidate_eligibility": "pending_provenance_crop_qa_and_owner_assignment",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "b90b3d95eb671bd0e454723036bcf62596e0ebafd8616e69a95c894576433057",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": false,
+    "crop_feasibility": "Cần vẽ person/context ngoài box thiết bị/đầu nguồn; có cơ hội phone P, phải xác nhận mobile và ownership tại crop/input 224.",
+    "draft_role": "holdout_candidate_reserve",
+    "draft_scene_boundary": "BEH-blue-cctv",
+    "independence_proven": false,
+    "label_sha256": "8276599f199007b75c6016b375ceb20247a965359e21592eff4e32efb87861fe",
+    "member_sha256": "a959d24da30612026b3e5d736cfdbef9af6956e27478abc4cf201575122d92c2",
+    "observed_scene_description": "Ghế/bàn xanh, camera góc cao; timestamp cùng ngày 2016 trong các frame đã xem.",
+    "original_shortlist40": true,
+    "original_split": "valid",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [],
+    "priority_hint": "phone",
+    "quality_flags": [],
+    "review_id": "BEH-004cba3905e14b96-a959d24d",
+    "review_index": 1,
+    "room_id": null,
+    "scope_of_overlap_evidence": "nearest_non_test_comparisons_not_exhaustive_disjointness_proof",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      1960,
+      1080
+    ],
+    "source_class_hints": [
+      "Look Around",
+      "phone"
+    ],
+    "source_id": "behavie",
+    "source_sha256": "004cba3905e14b9609a780ab501347e464c5cd67b19748f99da3f0f58fb9616f",
+    "subject_id": null,
+    "test_candidate_eligibility": "pending_provenance_crop_qa_and_owner_assignment",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "b90b3d95eb671bd0e454723036bcf62596e0ebafd8616e69a95c894576433057",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": false,
+    "crop_feasibility": "Cần vẽ person/context ngoài box thiết bị/đầu nguồn; có cơ hội phone P, phải xác nhận mobile và ownership tại crop/input 224.",
+    "draft_role": "holdout_candidate_reserve",
+    "draft_scene_boundary": "BEH-rear-cctv",
+    "independence_proven": false,
+    "label_sha256": "7100d35ee885dca3fc71da4ce767d6d77052252d8e97ba4713e9daf377829921",
+    "member_sha256": "d0d9bbe1658c7e436d1587465ef106c9fc8f9a8c1396a5e18809ea8a5fb67df4",
+    "observed_scene_description": "Camera phía sau lớp đông, bàn gỗ; thiết bị rất nhỏ, nhiều anchor.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [],
+    "priority_hint": "phone",
+    "quality_flags": [],
+    "review_id": "BEH-007e552536b83f93-d0d9bbe1",
+    "review_index": 2,
+    "room_id": null,
+    "scope_of_overlap_evidence": "nearest_non_test_comparisons_not_exhaustive_disjointness_proof",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      1960,
+      1080
+    ],
+    "source_class_hints": [
+      "phone"
+    ],
+    "source_id": "behavie",
+    "source_sha256": "007e552536b83f9303aa65efea5914e19495650a51e70e6568c06cf8f4225f22",
+    "subject_id": null,
+    "test_candidate_eligibility": "pending_provenance_crop_qa_and_owner_assignment",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "b90b3d95eb671bd0e454723036bcf62596e0ebafd8616e69a95c894576433057",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": false,
+    "crop_feasibility": "Cần vẽ person/context ngoài box thiết bị/đầu nguồn; có cơ hội phone P, phải xác nhận mobile và ownership tại crop/input 224.",
+    "draft_role": "holdout_candidate_reserve",
+    "draft_scene_boundary": "BEH-chair-staging",
+    "independence_proven": false,
+    "label_sha256": "9db296d0f1b5c58488f94ca28370fb6ce43daec37d8312c1b098c503fa83b924",
+    "member_sha256": "0f38e460078bf92a9231025d852ff9d76b1c8f28d28c344aa4c0d05eb0a7644b",
+    "observed_scene_description": "Ghế gỗ có bàn viết, cảnh diễn người lớn; gom thận trọng các góc/sàn khác nhau, chưa xác minh phòng/session.",
+    "original_shortlist40": true,
+    "original_split": "valid",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [],
+    "priority_hint": "phone",
+    "quality_flags": [],
+    "review_id": "BEH-00869141080411f8-0f38e460",
+    "review_index": 3,
+    "room_id": null,
+    "scope_of_overlap_evidence": "nearest_non_test_comparisons_not_exhaustive_disjointness_proof",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      1960,
+      1080
+    ],
+    "source_class_hints": [
+      "phone"
+    ],
+    "source_id": "behavie",
+    "source_sha256": "00869141080411f8892d45d8751a82d825ad4a9f3f9818c004110649bca8aa79",
+    "subject_id": null,
+    "test_candidate_eligibility": "pending_provenance_crop_qa_and_owner_assignment",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "b90b3d95eb671bd0e454723036bcf62596e0ebafd8616e69a95c894576433057",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": false,
+    "crop_feasibility": "Tìm anchor nhìn ngang và anchor viết cùng cảnh; chỉ đầu nghiêng hoặc source head box chưa đủ looking P.",
+    "draft_role": "holdout_candidate_reserve",
+    "draft_scene_boundary": "BEH-yellow-flags",
+    "independence_proven": false,
+    "label_sha256": "5f9947d71b8aaa6662f8e358c6da7ce5be02fcea21fe8050b41c330a76cf86da",
+    "member_sha256": "29b86b82d62fd8a4b684400a73b23c49ca38f29c002d020d1921cbfbe4030d87",
+    "observed_scene_description": "Tường vàng, cờ dây, bàn gỗ nhỏ, cửa chớp; nhiều tư thế viết/ngẩng/nhìn ngang.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [],
+    "priority_hint": "Look Around",
+    "quality_flags": [],
+    "review_id": "BEH-001ce4967d681ff7-29b86b82",
+    "review_index": 4,
+    "room_id": null,
+    "scope_of_overlap_evidence": "nearest_non_test_comparisons_not_exhaustive_disjointness_proof",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      1960,
+      1080
+    ],
+    "source_class_hints": [
+      "Bend Over The Desk",
+      "Hand Under Table",
+      "Look Around",
+      "Normal",
+      "Stand Up",
+      "Wave"
+    ],
+    "source_id": "behavie",
+    "source_sha256": "001ce4967d681ff769e64b70af8a081966e8be64852d9cd10018bdbaead21dc3",
+    "subject_id": null,
+    "test_candidate_eligibility": "pending_provenance_crop_qa_and_owner_assignment",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "b90b3d95eb671bd0e454723036bcf62596e0ebafd8616e69a95c894576433057",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": false,
+    "crop_feasibility": "Tìm anchor nhìn ngang và anchor viết cùng cảnh; chỉ đầu nghiêng hoặc source head box chưa đủ looking P.",
+    "draft_role": "holdout_candidate_reserve",
+    "draft_scene_boundary": "BEH-worn-benches",
+    "independence_proven": false,
+    "label_sha256": "558ede58db11f07c1188746c68f19a428407db05cbc1ea3e6951654d3b234664",
+    "member_sha256": "a462c79d347e8dd62eda793cf6a9d20573bc0e6bf93e9916b92377131e19df90",
+    "observed_scene_description": "Tường vàng cũ, bàn ghế dài; gom thận trọng các bố trí/nhóm người/góc quay có quan hệ chưa rõ.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [],
+    "priority_hint": "Look Around",
+    "quality_flags": [],
+    "review_id": "BEH-003a39144c5194f9-a462c79d",
+    "review_index": 5,
+    "room_id": null,
+    "scope_of_overlap_evidence": "nearest_non_test_comparisons_not_exhaustive_disjointness_proof",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      1960,
+      1080
+    ],
+    "source_class_hints": [
+      "Look Around"
+    ],
+    "source_id": "behavie",
+    "source_sha256": "003a39144c5194f99aa3abd98666930981bd3f4e9dd925b18311bfec6d81ab3c",
+    "subject_id": null,
+    "test_candidate_eligibility": "pending_provenance_crop_qa_and_owner_assignment",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "b90b3d95eb671bd0e454723036bcf62596e0ebafd8616e69a95c894576433057",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": false,
+    "crop_feasibility": "Tìm anchor nhìn ngang và anchor viết cùng cảnh; chỉ đầu nghiêng hoặc source head box chưa đủ looking P.",
+    "draft_role": "holdout_candidate_reserve",
+    "draft_scene_boundary": "BEH-worn-benches",
+    "independence_proven": false,
+    "label_sha256": "644b958ae20bd1fed847637403cf67f048242c1c0e2d66c5d388e299e87837f9",
+    "member_sha256": "4b97eb3060fa4843d5c7043c2cc997b9e616a6409622ea2203d80a0f035b71d1",
+    "observed_scene_description": "Tường vàng cũ, bàn ghế dài; gom thận trọng các bố trí/nhóm người/góc quay có quan hệ chưa rõ.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [],
+    "priority_hint": "Look Around",
+    "quality_flags": [],
+    "review_id": "BEH-010132448e1a56ef-4b97eb30",
+    "review_index": 6,
+    "room_id": null,
+    "scope_of_overlap_evidence": "nearest_non_test_comparisons_not_exhaustive_disjointness_proof",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      1960,
+      1080
+    ],
+    "source_class_hints": [
+      "Look Around"
+    ],
+    "source_id": "behavie",
+    "source_sha256": "010132448e1a56effd48e0e5e3a3db7704fedac8effd572fd343fe82c75ad3b0",
+    "subject_id": null,
+    "test_candidate_eligibility": "pending_provenance_crop_qa_and_owner_assignment",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "b90b3d95eb671bd0e454723036bcf62596e0ebafd8616e69a95c894576433057",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": false,
+    "crop_feasibility": "Tìm anchor nhìn ngang và anchor viết cùng cảnh; chỉ đầu nghiêng hoặc source head box chưa đủ looking P.",
+    "draft_role": "holdout_candidate_reserve",
+    "draft_scene_boundary": "BEH-yellow-flags",
+    "independence_proven": false,
+    "label_sha256": "e93945dbc6d3aefa303f992842e28753200161b1139a1d5f4cc375ff56328e57",
+    "member_sha256": "07c5b7aef2b3a8a6d0d1d8f4f18a1271868a26d8227b688de6041f97003b225f",
+    "observed_scene_description": "Tường vàng, cờ dây, bàn gỗ nhỏ, cửa chớp; nhiều tư thế viết/ngẩng/nhìn ngang.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [],
+    "priority_hint": "Look Around",
+    "quality_flags": [],
+    "review_id": "BEH-0114fbbf45591e35-07c5b7ae",
+    "review_index": 7,
+    "room_id": null,
+    "scope_of_overlap_evidence": "nearest_non_test_comparisons_not_exhaustive_disjointness_proof",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      1960,
+      1080
+    ],
+    "source_class_hints": [
+      "Bend Over The Desk",
+      "Hand Under Table",
+      "Look Around",
+      "Normal",
+      "Wave"
+    ],
+    "source_id": "behavie",
+    "source_sha256": "0114fbbf45591e35ea4b027c6633970d44774832da0edc267c613a6e076d2cc3",
+    "subject_id": null,
+    "test_candidate_eligibility": "pending_provenance_crop_qa_and_owner_assignment",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "b90b3d95eb671bd0e454723036bcf62596e0ebafd8616e69a95c894576433057",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": false,
+    "crop_feasibility": "Nhãn Normal không xác nhận N: một số anchor đang cầm vật dạng thiết bị; review riêng mobile/hand/workarea/gaze.",
+    "draft_role": "holdout_candidate_reserve",
+    "draft_scene_boundary": "BEH-worn-benches",
+    "independence_proven": false,
+    "label_sha256": "c52f31b6be88bc8166c8d484418197430169b93e668d77d63b2cff9ebe865e40",
+    "member_sha256": "a571d0fe0a8a153ed8de649d140a1a100393c7092628fc3527d702316aeccfb7",
+    "observed_scene_description": "Tường vàng cũ, bàn ghế dài; gom thận trọng các bố trí/nhóm người/góc quay có quan hệ chưa rõ.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [],
+    "priority_hint": "Normal",
+    "quality_flags": [],
+    "review_id": "BEH-003f06dab7466b9e-a571d0fe",
+    "review_index": 8,
+    "room_id": null,
+    "scope_of_overlap_evidence": "nearest_non_test_comparisons_not_exhaustive_disjointness_proof",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      1960,
+      1080
+    ],
+    "source_class_hints": [
+      "Normal"
+    ],
+    "source_id": "behavie",
+    "source_sha256": "003f06dab7466b9e539376b0f4e1abb8c5a74110485f18810a6464e153b96deb",
+    "subject_id": null,
+    "test_candidate_eligibility": "pending_provenance_crop_qa_and_owner_assignment",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "b90b3d95eb671bd0e454723036bcf62596e0ebafd8616e69a95c894576433057",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": false,
+    "crop_feasibility": "Nhãn Normal không xác nhận N: một số anchor đang cầm vật dạng thiết bị; review riêng mobile/hand/workarea/gaze.",
+    "draft_role": "holdout_candidate_reserve",
+    "draft_scene_boundary": "BEH-worn-benches",
+    "independence_proven": false,
+    "label_sha256": "28f7a0dc4577e253b490875c7bb14809c2f973d5962f2d9578ad4697193df41f",
+    "member_sha256": "8d33a69c38c1173260d6dedfb2cf4eb8b840fed25488ee5564a7ae04f065d7d6",
+    "observed_scene_description": "Tường vàng cũ, bàn ghế dài; gom thận trọng các bố trí/nhóm người/góc quay có quan hệ chưa rõ.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [],
+    "priority_hint": "Normal",
+    "quality_flags": [],
+    "review_id": "BEH-00c9ff261f9413b5-8d33a69c",
+    "review_index": 9,
+    "room_id": null,
+    "scope_of_overlap_evidence": "nearest_non_test_comparisons_not_exhaustive_disjointness_proof",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      1960,
+      1080
+    ],
+    "source_class_hints": [
+      "Bend Over The Desk",
+      "Hand Under Table",
+      "Normal"
+    ],
+    "source_id": "behavie",
+    "source_sha256": "00c9ff261f9413b5a3ae7e0229e61f650853ad0f6452339781c23be4b4695390",
+    "subject_id": null,
+    "test_candidate_eligibility": "pending_provenance_crop_qa_and_owner_assignment",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "b90b3d95eb671bd0e454723036bcf62596e0ebafd8616e69a95c894576433057",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": false,
+    "crop_feasibility": "Nhãn Normal không xác nhận N: một số anchor đang cầm vật dạng thiết bị; review riêng mobile/hand/workarea/gaze.",
+    "draft_role": "holdout_candidate_reserve",
+    "draft_scene_boundary": "BEH-yellow-flags",
+    "independence_proven": false,
+    "label_sha256": "021421e8bbdd53bc2f2fb0d3c8727bb8aea1ed29542731f0771c4c2e3a76ecd4",
+    "member_sha256": "c67d8c76c00efa49db71140da43448c3767553cdb1ac1598354d1ac34d85da10",
+    "observed_scene_description": "Tường vàng, cờ dây, bàn gỗ nhỏ, cửa chớp; nhiều tư thế viết/ngẩng/nhìn ngang.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [],
+    "priority_hint": "Normal",
+    "quality_flags": [],
+    "review_id": "BEH-01308f31b3d603b3-c67d8c76",
+    "review_index": 10,
+    "room_id": null,
+    "scope_of_overlap_evidence": "nearest_non_test_comparisons_not_exhaustive_disjointness_proof",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      1960,
+      1080
+    ],
+    "source_class_hints": [
+      "Hand Under Table",
+      "Normal"
+    ],
+    "source_id": "behavie",
+    "source_sha256": "01308f31b3d603b3c78d55ad743cfddd955df034c2ccb57ec4dea8973f451f41",
+    "subject_id": null,
+    "test_candidate_eligibility": "pending_provenance_crop_qa_and_owner_assignment",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "b90b3d95eb671bd0e454723036bcf62596e0ebafd8616e69a95c894576433057",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": false,
+    "crop_feasibility": "Nhãn Normal không xác nhận N: một số anchor đang cầm vật dạng thiết bị; review riêng mobile/hand/workarea/gaze.",
+    "draft_role": "holdout_candidate_reserve",
+    "draft_scene_boundary": "BEH-yellow-flags",
+    "independence_proven": false,
+    "label_sha256": "7c3cee1ab2d605312be41a5ff19802ca2777da3d3def917549a461849a7890eb",
+    "member_sha256": "96c60fda89d22fbc732264b799d85748666a2003b311f43383f6912557233dbf",
+    "observed_scene_description": "Tường vàng, cờ dây, bàn gỗ nhỏ, cửa chớp; nhiều tư thế viết/ngẩng/nhìn ngang.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [],
+    "priority_hint": "Normal",
+    "quality_flags": [],
+    "review_id": "BEH-014e57d0b50fc6ec-96c60fda",
+    "review_index": 11,
+    "room_id": null,
+    "scope_of_overlap_evidence": "nearest_non_test_comparisons_not_exhaustive_disjointness_proof",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      1960,
+      1080
+    ],
+    "source_class_hints": [
+      "Hand Under Table",
+      "Look Around",
+      "Normal",
+      "Stand Up"
+    ],
+    "source_id": "behavie",
+    "source_sha256": "014e57d0b50fc6ec249da8ed2ccbb980a9a7957235e65698ed6901c989b2104a",
+    "subject_id": null,
+    "test_candidate_eligibility": "pending_provenance_crop_qa_and_owner_assignment",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "b90b3d95eb671bd0e454723036bcf62596e0ebafd8616e69a95c894576433057",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": false,
+    "crop_feasibility": "Có giá trị posture/occlusion contrast; tay dưới bàn giữ phone U, không dùng absence annotation làm N.",
+    "draft_role": "holdout_candidate_reserve",
+    "draft_scene_boundary": "BEH-worn-benches",
+    "independence_proven": false,
+    "label_sha256": "a359358eac88fdf936f5cf4a60e47d77335010ed6f811e6a166d67491bef4caf",
+    "member_sha256": "d30c96dcd2215585a6a3497e022fd70c19ad1979a61081ad96a463314d7065f7",
+    "observed_scene_description": "Tường vàng cũ, bàn ghế dài; gom thận trọng các bố trí/nhóm người/góc quay có quan hệ chưa rõ.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [],
+    "priority_hint": "Bend Over The Desk",
+    "quality_flags": [],
+    "review_id": "BEH-001dd0dd3be2fb89-d30c96dc",
+    "review_index": 12,
+    "room_id": null,
+    "scope_of_overlap_evidence": "nearest_non_test_comparisons_not_exhaustive_disjointness_proof",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      1960,
+      1080
+    ],
+    "source_class_hints": [
+      "Bend Over The Desk"
+    ],
+    "source_id": "behavie",
+    "source_sha256": "001dd0dd3be2fb894680d8fc558dec3bb499cdfc535a9935007a0551c4dc5a57",
+    "subject_id": null,
+    "test_candidate_eligibility": "pending_provenance_crop_qa_and_owner_assignment",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "b90b3d95eb671bd0e454723036bcf62596e0ebafd8616e69a95c894576433057",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": false,
+    "crop_feasibility": "Có giá trị posture/occlusion contrast; tay dưới bàn giữ phone U, không dùng absence annotation làm N.",
+    "draft_role": "holdout_candidate_reserve",
+    "draft_scene_boundary": "BEH-worn-benches",
+    "independence_proven": false,
+    "label_sha256": "7f5b24afe129f4acb41935cff8346f580c22ba68cfa2f80941d1ab3eb1a6f16f",
+    "member_sha256": "6eb67853624f3f4377fb27b275406312151e219a1b729bae2ef06772cebf26d7",
+    "observed_scene_description": "Tường vàng cũ, bàn ghế dài; gom thận trọng các bố trí/nhóm người/góc quay có quan hệ chưa rõ.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [],
+    "priority_hint": "Bend Over The Desk",
+    "quality_flags": [],
+    "review_id": "BEH-0052b47269485180-6eb67853",
+    "review_index": 13,
+    "room_id": null,
+    "scope_of_overlap_evidence": "nearest_non_test_comparisons_not_exhaustive_disjointness_proof",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      1960,
+      1080
+    ],
+    "source_class_hints": [
+      "Bend Over The Desk",
+      "Hand Under Table"
+    ],
+    "source_id": "behavie",
+    "source_sha256": "0052b47269485180483ec77ee7d50a4474ef1f5fd7613301925c588c8c1b6a64",
+    "subject_id": null,
+    "test_candidate_eligibility": "pending_provenance_crop_qa_and_owner_assignment",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "b90b3d95eb671bd0e454723036bcf62596e0ebafd8616e69a95c894576433057",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": false,
+    "crop_feasibility": "Có giá trị posture/occlusion contrast; tay dưới bàn giữ phone U, không dùng absence annotation làm N.",
+    "draft_role": "holdout_candidate_reserve",
+    "draft_scene_boundary": "BEH-worn-benches",
+    "independence_proven": false,
+    "label_sha256": "e293da05d8d80717eace318edf19633a0c018d5fbe202c8d545839c8f65e4306",
+    "member_sha256": "8062314c8cfbc520a642cfa30bd25c1a84a5b35ae0de4a79a4d9e6fbb4e1bb44",
+    "observed_scene_description": "Tường vàng cũ, bàn ghế dài; gom thận trọng các bố trí/nhóm người/góc quay có quan hệ chưa rõ.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [],
+    "priority_hint": "Bend Over The Desk",
+    "quality_flags": [],
+    "review_id": "BEH-00eee356c96cabcf-8062314c",
+    "review_index": 14,
+    "room_id": null,
+    "scope_of_overlap_evidence": "nearest_non_test_comparisons_not_exhaustive_disjointness_proof",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      1960,
+      1080
+    ],
+    "source_class_hints": [
+      "Bend Over The Desk",
+      "Hand Under Table"
+    ],
+    "source_id": "behavie",
+    "source_sha256": "00eee356c96cabcf2616ab0a24095c2879dc275efafcc1a759c6f38990a9fc29",
+    "subject_id": null,
+    "test_candidate_eligibility": "pending_provenance_crop_qa_and_owner_assignment",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "b90b3d95eb671bd0e454723036bcf62596e0ebafd8616e69a95c894576433057",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": false,
+    "crop_feasibility": "Có giá trị posture/occlusion contrast; tay dưới bàn giữ phone U, không dùng absence annotation làm N.",
+    "draft_role": "holdout_candidate_reserve",
+    "draft_scene_boundary": "BEH-worn-benches",
+    "independence_proven": false,
+    "label_sha256": "53d3b673cd88f4fbe103bc6261edd7987872d8324ca7189ad2176ea05b691718",
+    "member_sha256": "868bd0bdbbb50cc7fa4f9f1ddb322e0281f79bc903aefc5ab863efad7f840cb2",
+    "observed_scene_description": "Tường vàng cũ, bàn ghế dài; gom thận trọng các bố trí/nhóm người/góc quay có quan hệ chưa rõ.",
+    "original_shortlist40": true,
+    "original_split": "valid",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [],
+    "priority_hint": "Bend Over The Desk",
+    "quality_flags": [],
+    "review_id": "BEH-014e661c623a7908-868bd0bd",
+    "review_index": 15,
+    "room_id": null,
+    "scope_of_overlap_evidence": "nearest_non_test_comparisons_not_exhaustive_disjointness_proof",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      1960,
+      1080
+    ],
+    "source_class_hints": [
+      "Bend Over The Desk",
+      "Hand Under Table",
+      "Look Around"
+    ],
+    "source_id": "behavie",
+    "source_sha256": "014e661c623a790896ece74a40a7f4597236c20a748c7b3115032a272579f4d3",
+    "subject_id": null,
+    "test_candidate_eligibility": "pending_provenance_crop_qa_and_owner_assignment",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "b90b3d95eb671bd0e454723036bcf62596e0ebafd8616e69a95c894576433057",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": false,
+    "crop_feasibility": "Có giá trị posture/occlusion contrast; tay dưới bàn giữ phone U, không dùng absence annotation làm N.",
+    "draft_role": "holdout_candidate_reserve",
+    "draft_scene_boundary": "BEH-worn-benches",
+    "independence_proven": false,
+    "label_sha256": "05c78bd392f12093479bc8dbe0171d4c850dc30a0ab20b9e1301d3d6e6394c78",
+    "member_sha256": "f56fbe90a7fb05d0c8f460824daab8336cca06ded7a8efb210c53c369ac2bdd4",
+    "observed_scene_description": "Tường vàng cũ, bàn ghế dài; gom thận trọng các bố trí/nhóm người/góc quay có quan hệ chưa rõ.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [],
+    "priority_hint": "Hand Under Table",
+    "quality_flags": [],
+    "review_id": "BEH-0157dcdba9ee5a5b-f56fbe90",
+    "review_index": 16,
+    "room_id": null,
+    "scope_of_overlap_evidence": "nearest_non_test_comparisons_not_exhaustive_disjointness_proof",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      1960,
+      1080
+    ],
+    "source_class_hints": [
+      "Hand Under Table",
+      "Look Around",
+      "Wave"
+    ],
+    "source_id": "behavie",
+    "source_sha256": "0157dcdba9ee5a5b16dc412c6d60f5c08af312d53e41572c124242e32eaff65a",
+    "subject_id": null,
+    "test_candidate_eligibility": "pending_provenance_crop_qa_and_owner_assignment",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "b90b3d95eb671bd0e454723036bcf62596e0ebafd8616e69a95c894576433057",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": false,
+    "crop_feasibility": "Có giá trị posture/occlusion contrast; tay dưới bàn giữ phone U, không dùng absence annotation làm N.",
+    "draft_role": "holdout_candidate_reserve",
+    "draft_scene_boundary": "BEH-worn-benches",
+    "independence_proven": false,
+    "label_sha256": "58ade45a44401ca829255d4f6b7596f52186e981ca121d7f3c1d5c035a34c032",
+    "member_sha256": "be052d309a632a43e30b2be441bd877f618b990a81ad3d563fd62094b5582776",
+    "observed_scene_description": "Tường vàng cũ, bàn ghế dài; gom thận trọng các bố trí/nhóm người/góc quay có quan hệ chưa rõ.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [],
+    "priority_hint": "Hand Under Table",
+    "quality_flags": [],
+    "review_id": "BEH-015b385e39908531-be052d30",
+    "review_index": 17,
+    "room_id": null,
+    "scope_of_overlap_evidence": "nearest_non_test_comparisons_not_exhaustive_disjointness_proof",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      1960,
+      1080
+    ],
+    "source_class_hints": [
+      "Hand Under Table"
+    ],
+    "source_id": "behavie",
+    "source_sha256": "015b385e39908531332f59a21fdc23332a9670b0b3a64f5f0cb79ce16e78fa42",
+    "subject_id": null,
+    "test_candidate_eligibility": "pending_provenance_crop_qa_and_owner_assignment",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "b90b3d95eb671bd0e454723036bcf62596e0ebafd8616e69a95c894576433057",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": false,
+    "crop_feasibility": "Có giá trị posture/occlusion contrast; tay dưới bàn giữ phone U, không dùng absence annotation làm N.",
+    "draft_role": "holdout_candidate_reserve",
+    "draft_scene_boundary": "BEH-worn-benches",
+    "independence_proven": false,
+    "label_sha256": "d3c798940a9f786932e00eb99503e44acc6c93594554f674157bb8652f4a2afc",
+    "member_sha256": "c656c574ac4b23ebdeaa4f443e386f81ed691946998c0450f75bfe62840d4bdd",
+    "observed_scene_description": "Tường vàng cũ, bàn ghế dài; gom thận trọng các bố trí/nhóm người/góc quay có quan hệ chưa rõ.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [],
+    "priority_hint": "Hand Under Table",
+    "quality_flags": [],
+    "review_id": "BEH-015f875f539691e5-c656c574",
+    "review_index": 18,
+    "room_id": null,
+    "scope_of_overlap_evidence": "nearest_non_test_comparisons_not_exhaustive_disjointness_proof",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      1960,
+      1080
+    ],
+    "source_class_hints": [
+      "Bend Over The Desk",
+      "Hand Under Table"
+    ],
+    "source_id": "behavie",
+    "source_sha256": "015f875f539691e51c295d735afee6600239a535b576bc95e8dfffd9b75fc6f7",
+    "subject_id": null,
+    "test_candidate_eligibility": "pending_provenance_crop_qa_and_owner_assignment",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "b90b3d95eb671bd0e454723036bcf62596e0ebafd8616e69a95c894576433057",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": false,
+    "crop_feasibility": "Có giá trị posture/occlusion contrast; tay dưới bàn giữ phone U, không dùng absence annotation làm N.",
+    "draft_role": "holdout_candidate_reserve",
+    "draft_scene_boundary": "BEH-worn-benches",
+    "independence_proven": false,
+    "label_sha256": "d81044b07b962e55ece8de3256844092a2059d4928117cfe576837bbfb26d16a",
+    "member_sha256": "2dbbe836fda37fb58eb93d6f24d02207e49f61ff76b50621e5aeae2825555fb2",
+    "observed_scene_description": "Tường vàng cũ, bàn ghế dài; gom thận trọng các bố trí/nhóm người/góc quay có quan hệ chưa rõ.",
+    "original_shortlist40": true,
+    "original_split": "valid",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [],
+    "priority_hint": "Hand Under Table",
+    "quality_flags": [],
+    "review_id": "BEH-0161e2e158a58caa-2dbbe836",
+    "review_index": 19,
+    "room_id": null,
+    "scope_of_overlap_evidence": "nearest_non_test_comparisons_not_exhaustive_disjointness_proof",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      1960,
+      1080
+    ],
+    "source_class_hints": [
+      "Bend Over The Desk",
+      "Hand Under Table"
+    ],
+    "source_id": "behavie",
+    "source_sha256": "0161e2e158a58caa6e6e894667b086a67d3dbfe0d614aed4b76e946d13eb0537",
+    "subject_id": null,
+    "test_candidate_eligibility": "pending_provenance_crop_qa_and_owner_assignment",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "392052c71bcbfd084a330c3ff8cd1f28a1087e30afeef107fe85ab14acbf400d",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": true,
+    "crop_feasibility": "Book/pen/hand-to-face có ích cho contextual negative; reading/writing chỉ hint, back view hoặc thiếu vùng tay giữ U.",
+    "draft_role": "train_supplement_candidate",
+    "draft_scene_boundary": "STU-gray-train",
+    "independence_proven": false,
+    "label_sha256": "45a3e438e75cd778746a9db8cdc0fb9b2e18d49d8acd00945857d64708388452",
+    "member_sha256": "1868c76ae71c0084f56f110e3f791826f577ef77afcf851010092775c7282d29",
+    "observed_scene_description": "Cảnh tường xám, cửa sổ xanh bên phải, bàn gỗ; đã đối chiếu cùng cảnh train V7.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [
+      {
+        "sample_id": "V6-SB-005",
+        "source_sha256": "91f4fd1a7bf6dbb4561c5a6374f4e033b407c0a30951163477cb1c3e60fd8309",
+        "usage": "train"
+      },
+      {
+        "sample_id": "V6R2-SB-006",
+        "source_sha256": "fbb1b49d63b29195939297cfc95b430906b986012310a640530ba40c3acdb4ab",
+        "usage": "train"
+      }
+    ],
+    "priority_hint": "phone",
+    "quality_flags": [],
+    "review_id": "STU-00081846913ae753-1868c76a",
+    "review_index": 0,
+    "room_id": null,
+    "scope_of_overlap_evidence": "shared_scene_visual_evidence_not_identity_inference",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      640,
+      640
+    ],
+    "source_class_hints": [
+      "Using_phone",
+      "bend",
+      "book",
+      "bow_head",
+      "phone",
+      "raise_head",
+      "sleep",
+      "upright"
+    ],
+    "source_id": "studentclassroombehavior",
+    "source_sha256": "00081846913ae75356370f968b923a4323b82954547b992fbab5445f5706ba3b",
+    "subject_id": null,
+    "test_candidate_eligibility": "ineligible_known_train_scene",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "392052c71bcbfd084a330c3ff8cd1f28a1087e30afeef107fe85ab14acbf400d",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": true,
+    "crop_feasibility": "Book/pen/hand-to-face có ích cho contextual negative; reading/writing chỉ hint, back view hoặc thiếu vùng tay giữ U.",
+    "draft_role": "train_supplement_candidate",
+    "draft_scene_boundary": "STU-overhead-train",
+    "independence_proven": false,
+    "label_sha256": "300ddd6581845be2d0486089a26e6bc5b33b2c5eb95c9513bd3d9546f08271ac",
+    "member_sha256": "a03df144a89179215a0e01f97ec187f63d39a757805ed0dd1fc1b0e4ffd93d56",
+    "observed_scene_description": "Cảnh camera cao, bàn vàng, cửa sổ xanh; đã đối chiếu cùng cảnh train V7.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [
+      {
+        "sample_id": "V6-SB-012",
+        "source_sha256": "9381f908ce7393eb7d3f4b3f88ec4be1e3876c29694803dcd8c8a0f48fdfc1d5",
+        "usage": "train"
+      },
+      {
+        "sample_id": "V6R2-SB-011",
+        "source_sha256": "8382a999de8eabb13c67f327b33c6d4fb4824475139b14fb2acebc241a3ae564",
+        "usage": "train"
+      }
+    ],
+    "priority_hint": "phone",
+    "quality_flags": [],
+    "review_id": "STU-00311dce2cc7fcc4-a03df144",
+    "review_index": 1,
+    "room_id": null,
+    "scope_of_overlap_evidence": "shared_scene_visual_evidence_not_identity_inference",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      640,
+      640
+    ],
+    "source_class_hints": [
+      "Using_phone",
+      "bend",
+      "book",
+      "bow_head",
+      "phone",
+      "raise_head",
+      "reading",
+      "sleep",
+      "turn_head",
+      "upright"
+    ],
+    "source_id": "studentclassroombehavior",
+    "source_sha256": "00311dce2cc7fcc4f0dec043a6684ebfd076646baee8f0d4c637bbaba058fe5f",
+    "subject_id": null,
+    "test_candidate_eligibility": "ineligible_known_train_scene",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "392052c71bcbfd084a330c3ff8cd1f28a1087e30afeef107fe85ab14acbf400d",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": true,
+    "crop_feasibility": "Book/pen/hand-to-face có ích cho contextual negative; reading/writing chỉ hint, back view hoặc thiếu vùng tay giữ U.",
+    "draft_role": "train_supplement_candidate",
+    "draft_scene_boundary": "STU-gray-train",
+    "independence_proven": false,
+    "label_sha256": "e85c1946f1a98f94b8a504367f3e1f02c951dae4cbea8d457b6226000799dbc2",
+    "member_sha256": "0d78f7af6df4a7da0bcad2cd31ca0742a7bba641a3a23f85b88b98a62a4f0480",
+    "observed_scene_description": "Cảnh tường xám, cửa sổ xanh bên phải, bàn gỗ; đã đối chiếu cùng cảnh train V7.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [
+      {
+        "sample_id": "V6-SB-005",
+        "source_sha256": "91f4fd1a7bf6dbb4561c5a6374f4e033b407c0a30951163477cb1c3e60fd8309",
+        "usage": "train"
+      },
+      {
+        "sample_id": "V6R2-SB-006",
+        "source_sha256": "fbb1b49d63b29195939297cfc95b430906b986012310a640530ba40c3acdb4ab",
+        "usage": "train"
+      }
+    ],
+    "priority_hint": "phone",
+    "quality_flags": [],
+    "review_id": "STU-01003ba3425d3892-0d78f7af",
+    "review_index": 2,
+    "room_id": null,
+    "scope_of_overlap_evidence": "shared_scene_visual_evidence_not_identity_inference",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      640,
+      640
+    ],
+    "source_class_hints": [
+      "Using_phone",
+      "book",
+      "bow_head",
+      "phone",
+      "raise_head",
+      "reading",
+      "upright"
+    ],
+    "source_id": "studentclassroombehavior",
+    "source_sha256": "01003ba3425d3892ec7f4332eb433dc649821f0ff14b744af45c23d5ed81415a",
+    "subject_id": null,
+    "test_candidate_eligibility": "ineligible_known_train_scene",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "392052c71bcbfd084a330c3ff8cd1f28a1087e30afeef107fe85ab14acbf400d",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": true,
+    "crop_feasibility": "Book/pen/hand-to-face có ích cho contextual negative; reading/writing chỉ hint, back view hoặc thiếu vùng tay giữ U.",
+    "draft_role": "train_supplement_candidate",
+    "draft_scene_boundary": "STU-gray-train",
+    "independence_proven": false,
+    "label_sha256": "e83c11100442bda6f0b5508618c6763a13c5354fd70094521b49a5884f59fa3b",
+    "member_sha256": "84cd22628cf964a28a4a1a07e296d7d115dd666b4093697f67590ace3e023c8d",
+    "observed_scene_description": "Cảnh tường xám, cửa sổ xanh bên phải, bàn gỗ; đã đối chiếu cùng cảnh train V7.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [
+      {
+        "sample_id": "V6-SB-005",
+        "source_sha256": "91f4fd1a7bf6dbb4561c5a6374f4e033b407c0a30951163477cb1c3e60fd8309",
+        "usage": "train"
+      },
+      {
+        "sample_id": "V6R2-SB-006",
+        "source_sha256": "fbb1b49d63b29195939297cfc95b430906b986012310a640530ba40c3acdb4ab",
+        "usage": "train"
+      }
+    ],
+    "priority_hint": "phone",
+    "quality_flags": [],
+    "review_id": "STU-0130b66f7f693dde-84cd2262",
+    "review_index": 3,
+    "room_id": null,
+    "scope_of_overlap_evidence": "shared_scene_visual_evidence_not_identity_inference",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      640,
+      640
+    ],
+    "source_class_hints": [
+      "book",
+      "bow_head",
+      "phone",
+      "raise_head",
+      "reading",
+      "upright"
+    ],
+    "source_id": "studentclassroombehavior",
+    "source_sha256": "0130b66f7f693dde20588eb2a4cff1be28cf42efbf86950df8421ac0c14358f7",
+    "subject_id": null,
+    "test_candidate_eligibility": "ineligible_known_train_scene",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "392052c71bcbfd084a330c3ff8cd1f28a1087e30afeef107fe85ab14acbf400d",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": true,
+    "crop_feasibility": "Book/pen/hand-to-face có ích cho contextual negative; reading/writing chỉ hint, back view hoặc thiếu vùng tay giữ U.",
+    "draft_role": "train_supplement_candidate",
+    "draft_scene_boundary": "STU-overhead-train",
+    "independence_proven": false,
+    "label_sha256": "a47839f35f6af42116cda5e7be8a6a9197af8b9c6731ed20c6ac44538e8fcddd",
+    "member_sha256": "14b287e6231d1825d907ca0c593f7d4a075429acca52383d9dd626c57cf8ed9c",
+    "observed_scene_description": "Cảnh camera cao, bàn vàng, cửa sổ xanh; đã đối chiếu cùng cảnh train V7.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [
+      {
+        "sample_id": "V6-SB-012",
+        "source_sha256": "9381f908ce7393eb7d3f4b3f88ec4be1e3876c29694803dcd8c8a0f48fdfc1d5",
+        "usage": "train"
+      },
+      {
+        "sample_id": "V6R2-SB-011",
+        "source_sha256": "8382a999de8eabb13c67f327b33c6d4fb4824475139b14fb2acebc241a3ae564",
+        "usage": "train"
+      }
+    ],
+    "priority_hint": "Using_phone",
+    "quality_flags": [],
+    "review_id": "STU-0282e42c1fd36f1d-14b287e6",
+    "review_index": 4,
+    "room_id": null,
+    "scope_of_overlap_evidence": "shared_scene_visual_evidence_not_identity_inference",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      640,
+      640
+    ],
+    "source_class_hints": [
+      "Using_phone",
+      "bend",
+      "book",
+      "bow_head",
+      "phone",
+      "raise_head",
+      "reading",
+      "sleep",
+      "turn_head",
+      "upright"
+    ],
+    "source_id": "studentclassroombehavior",
+    "source_sha256": "0282e42c1fd36f1d493d62b7fb7f712dda919aed23413e00b4f346a0fe88a066",
+    "subject_id": null,
+    "test_candidate_eligibility": "ineligible_known_train_scene",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "392052c71bcbfd084a330c3ff8cd1f28a1087e30afeef107fe85ab14acbf400d",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": true,
+    "crop_feasibility": "Book/pen/hand-to-face có ích cho contextual negative; reading/writing chỉ hint, back view hoặc thiếu vùng tay giữ U.",
+    "draft_role": "train_supplement_candidate",
+    "draft_scene_boundary": "STU-gray-train",
+    "independence_proven": false,
+    "label_sha256": "19a0b378d93ce8794096c7bd8cca58572335dc1f1d419155e0153b9b3496a32b",
+    "member_sha256": "d132df083c73f59bccdeb1b7d7f0e6db129309d13db8a46444143f05418a63f8",
+    "observed_scene_description": "Cảnh tường xám, cửa sổ xanh bên phải, bàn gỗ; đã đối chiếu cùng cảnh train V7.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [
+      {
+        "sample_id": "V6-SB-005",
+        "source_sha256": "91f4fd1a7bf6dbb4561c5a6374f4e033b407c0a30951163477cb1c3e60fd8309",
+        "usage": "train"
+      },
+      {
+        "sample_id": "V6R2-SB-006",
+        "source_sha256": "fbb1b49d63b29195939297cfc95b430906b986012310a640530ba40c3acdb4ab",
+        "usage": "train"
+      }
+    ],
+    "priority_hint": "Using_phone",
+    "quality_flags": [],
+    "review_id": "STU-049df11bda175dc6-d132df08",
+    "review_index": 5,
+    "room_id": null,
+    "scope_of_overlap_evidence": "shared_scene_visual_evidence_not_identity_inference",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      640,
+      640
+    ],
+    "source_class_hints": [
+      "Using_phone",
+      "book",
+      "bow_head",
+      "phone",
+      "raise_head",
+      "reading",
+      "turn_head",
+      "upright"
+    ],
+    "source_id": "studentclassroombehavior",
+    "source_sha256": "049df11bda175dc6f00fb6036105b09cefcf21d72fb724574db0aa85e1d21583",
+    "subject_id": null,
+    "test_candidate_eligibility": "ineligible_known_train_scene",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "392052c71bcbfd084a330c3ff8cd1f28a1087e30afeef107fe85ab14acbf400d",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": true,
+    "crop_feasibility": "Book/pen/hand-to-face có ích cho contextual negative; reading/writing chỉ hint, back view hoặc thiếu vùng tay giữ U.",
+    "draft_role": "train_supplement_candidate",
+    "draft_scene_boundary": "STU-gray-train",
+    "independence_proven": false,
+    "label_sha256": "8bb423a18e24cea75f0236c18aed494d2c0c435cb705a1ade51c04b13315bd66",
+    "member_sha256": "69f2fc560cb86244b2fabd922000fd4f91a3302bfa4b1a15cd60c2dde25ee34b",
+    "observed_scene_description": "Cảnh tường xám, cửa sổ xanh bên phải, bàn gỗ; đã đối chiếu cùng cảnh train V7.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [
+      {
+        "sample_id": "V6-SB-005",
+        "source_sha256": "91f4fd1a7bf6dbb4561c5a6374f4e033b407c0a30951163477cb1c3e60fd8309",
+        "usage": "train"
+      },
+      {
+        "sample_id": "V6R2-SB-006",
+        "source_sha256": "fbb1b49d63b29195939297cfc95b430906b986012310a640530ba40c3acdb4ab",
+        "usage": "train"
+      }
+    ],
+    "priority_hint": "Using_phone",
+    "quality_flags": [],
+    "review_id": "STU-06471b0e8ccf95fa-69f2fc56",
+    "review_index": 6,
+    "room_id": null,
+    "scope_of_overlap_evidence": "shared_scene_visual_evidence_not_identity_inference",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      640,
+      640
+    ],
+    "source_class_hints": [
+      "Using_phone",
+      "book",
+      "bow_head",
+      "raise_head",
+      "upright"
+    ],
+    "source_id": "studentclassroombehavior",
+    "source_sha256": "06471b0e8ccf95fa02ad5330fbb7a35c9799e39632a595532e1694e463768dbf",
+    "subject_id": null,
+    "test_candidate_eligibility": "ineligible_known_train_scene",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "392052c71bcbfd084a330c3ff8cd1f28a1087e30afeef107fe85ab14acbf400d",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": true,
+    "crop_feasibility": "Book/pen/hand-to-face có ích cho contextual negative; reading/writing chỉ hint, back view hoặc thiếu vùng tay giữ U.",
+    "draft_role": "train_supplement_candidate",
+    "draft_scene_boundary": "STU-overhead-train",
+    "independence_proven": false,
+    "label_sha256": "15302aca0c0d7edc5aac53f5c590b7fe54b19583ae0099d0784a628f38435ce1",
+    "member_sha256": "096e0c5271548ef4864dc95cd90bb36972baa6afa428553a61bf36042af1fa8b",
+    "observed_scene_description": "Cảnh camera cao, bàn vàng, cửa sổ xanh; đã đối chiếu cùng cảnh train V7.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [
+      {
+        "sample_id": "V6-SB-012",
+        "source_sha256": "9381f908ce7393eb7d3f4b3f88ec4be1e3876c29694803dcd8c8a0f48fdfc1d5",
+        "usage": "train"
+      },
+      {
+        "sample_id": "V6R2-SB-011",
+        "source_sha256": "8382a999de8eabb13c67f327b33c6d4fb4824475139b14fb2acebc241a3ae564",
+        "usage": "train"
+      }
+    ],
+    "priority_hint": "Using_phone",
+    "quality_flags": [],
+    "review_id": "STU-065bd4e3636df1fa-096e0c52",
+    "review_index": 7,
+    "room_id": null,
+    "scope_of_overlap_evidence": "shared_scene_visual_evidence_not_identity_inference",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      640,
+      640
+    ],
+    "source_class_hints": [
+      "Using_phone",
+      "bend",
+      "book",
+      "bow_head",
+      "phone",
+      "raise_head",
+      "reading",
+      "sleep",
+      "turn_head",
+      "upright"
+    ],
+    "source_id": "studentclassroombehavior",
+    "source_sha256": "065bd4e3636df1fa53f9942a5392c392907467f0958f42b852a3fb5cea130f56",
+    "subject_id": null,
+    "test_candidate_eligibility": "ineligible_known_train_scene",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "392052c71bcbfd084a330c3ff8cd1f28a1087e30afeef107fe85ab14acbf400d",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": true,
+    "crop_feasibility": "Tìm anchor nhìn ngang và anchor viết cùng cảnh; chỉ đầu nghiêng hoặc source head box chưa đủ looking P.",
+    "draft_role": "train_supplement_candidate",
+    "draft_scene_boundary": "STU-overhead-train",
+    "independence_proven": false,
+    "label_sha256": "f8cf29716ce145f696bda5edb3f7cfdc7255eabc4210238559507019ce977297",
+    "member_sha256": "b2e11f64fd9f5005ebe048efb0f496f6f6309f0e83f471c7facb22447188f5c5",
+    "observed_scene_description": "Cảnh camera cao, bàn vàng, cửa sổ xanh; đã đối chiếu cùng cảnh train V7.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [
+      {
+        "sample_id": "V6-SB-012",
+        "source_sha256": "9381f908ce7393eb7d3f4b3f88ec4be1e3876c29694803dcd8c8a0f48fdfc1d5",
+        "usage": "train"
+      },
+      {
+        "sample_id": "V6R2-SB-011",
+        "source_sha256": "8382a999de8eabb13c67f327b33c6d4fb4824475139b14fb2acebc241a3ae564",
+        "usage": "train"
+      }
+    ],
+    "priority_hint": "turn_head",
+    "quality_flags": [],
+    "review_id": "STU-0b14e020ce5ef511-b2e11f64",
+    "review_index": 8,
+    "room_id": null,
+    "scope_of_overlap_evidence": "shared_scene_visual_evidence_not_identity_inference",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      640,
+      640
+    ],
+    "source_class_hints": [
+      "Using_phone",
+      "bend",
+      "book",
+      "bow_head",
+      "phone",
+      "raise_head",
+      "reading",
+      "sleep",
+      "turn_head",
+      "upright"
+    ],
+    "source_id": "studentclassroombehavior",
+    "source_sha256": "0b14e020ce5ef51197b17e8538dc3e33f713b10480b4458d7aa38e313525e4e9",
+    "subject_id": null,
+    "test_candidate_eligibility": "ineligible_known_train_scene",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "392052c71bcbfd084a330c3ff8cd1f28a1087e30afeef107fe85ab14acbf400d",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": true,
+    "crop_feasibility": "Tìm anchor nhìn ngang và anchor viết cùng cảnh; chỉ đầu nghiêng hoặc source head box chưa đủ looking P.",
+    "draft_role": "train_supplement_candidate",
+    "draft_scene_boundary": "STU-overhead-train",
+    "independence_proven": false,
+    "label_sha256": "a5a7a49717b016c55b27912c79b12b3b4ed18ec7a9da99026007f42691e86cd6",
+    "member_sha256": "1c54b236e8d321f08a67805fc7b85b8615fbf74545df063bba81552251f3fa0d",
+    "observed_scene_description": "Cảnh camera cao, bàn vàng, cửa sổ xanh; đã đối chiếu cùng cảnh train V7.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [
+      {
+        "sample_id": "V6-SB-012",
+        "source_sha256": "9381f908ce7393eb7d3f4b3f88ec4be1e3876c29694803dcd8c8a0f48fdfc1d5",
+        "usage": "train"
+      },
+      {
+        "sample_id": "V6R2-SB-011",
+        "source_sha256": "8382a999de8eabb13c67f327b33c6d4fb4824475139b14fb2acebc241a3ae564",
+        "usage": "train"
+      }
+    ],
+    "priority_hint": "turn_head",
+    "quality_flags": [],
+    "review_id": "STU-0b7a07be4fadb4a2-1c54b236",
+    "review_index": 9,
+    "room_id": null,
+    "scope_of_overlap_evidence": "shared_scene_visual_evidence_not_identity_inference",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      640,
+      640
+    ],
+    "source_class_hints": [
+      "Using_phone",
+      "bend",
+      "book",
+      "bow_head",
+      "phone",
+      "raise_head",
+      "reading",
+      "turn_head",
+      "upright"
+    ],
+    "source_id": "studentclassroombehavior",
+    "source_sha256": "0b7a07be4fadb4a24e5589239831c566525419dac4a70773ddc652abf29d3017",
+    "subject_id": null,
+    "test_candidate_eligibility": "ineligible_known_train_scene",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "392052c71bcbfd084a330c3ff8cd1f28a1087e30afeef107fe85ab14acbf400d",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": true,
+    "crop_feasibility": "Tìm anchor nhìn ngang và anchor viết cùng cảnh; chỉ đầu nghiêng hoặc source head box chưa đủ looking P.",
+    "draft_role": "train_supplement_candidate",
+    "draft_scene_boundary": "STU-overhead-train",
+    "independence_proven": false,
+    "label_sha256": "72f34bd63b9a1c1d5d0e363a01eae7a3913fc31c25c80edcab85956503cd3567",
+    "member_sha256": "8b88467e53d5e739aa138a7748fd3e7ffcecf2bddd12c1449d8d685aa8b3e3b7",
+    "observed_scene_description": "Cảnh camera cao, bàn vàng, cửa sổ xanh; đã đối chiếu cùng cảnh train V7.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [
+      {
+        "sample_id": "V6-SB-012",
+        "source_sha256": "9381f908ce7393eb7d3f4b3f88ec4be1e3876c29694803dcd8c8a0f48fdfc1d5",
+        "usage": "train"
+      },
+      {
+        "sample_id": "V6R2-SB-011",
+        "source_sha256": "8382a999de8eabb13c67f327b33c6d4fb4824475139b14fb2acebc241a3ae564",
+        "usage": "train"
+      }
+    ],
+    "priority_hint": "turn_head",
+    "quality_flags": [],
+    "review_id": "STU-0f6929d74c113444-8b88467e",
+    "review_index": 10,
+    "room_id": null,
+    "scope_of_overlap_evidence": "shared_scene_visual_evidence_not_identity_inference",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      640,
+      640
+    ],
+    "source_class_hints": [
+      "Using_phone",
+      "bend",
+      "book",
+      "bow_head",
+      "phone",
+      "raise_head",
+      "reading",
+      "sleep",
+      "turn_head",
+      "upright"
+    ],
+    "source_id": "studentclassroombehavior",
+    "source_sha256": "0f6929d74c113444f73173f8d8c90c3139d3d2d710ef605774ae3ad48faf807e",
+    "subject_id": null,
+    "test_candidate_eligibility": "ineligible_known_train_scene",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "392052c71bcbfd084a330c3ff8cd1f28a1087e30afeef107fe85ab14acbf400d",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": true,
+    "crop_feasibility": "Tìm anchor nhìn ngang và anchor viết cùng cảnh; chỉ đầu nghiêng hoặc source head box chưa đủ looking P.",
+    "draft_role": "train_supplement_candidate",
+    "draft_scene_boundary": "STU-overhead-train",
+    "independence_proven": false,
+    "label_sha256": "36922303192df79383766d76e0b8799bed36344bc1f6deba25c77ff8d9e9611e",
+    "member_sha256": "79b9698a0edda86a121079b1d49a52aa83fd9fac9e4c44d55267ef9c75f2074a",
+    "observed_scene_description": "Cảnh camera cao, bàn vàng, cửa sổ xanh; đã đối chiếu cùng cảnh train V7.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [
+      {
+        "sample_id": "V6-SB-012",
+        "source_sha256": "9381f908ce7393eb7d3f4b3f88ec4be1e3876c29694803dcd8c8a0f48fdfc1d5",
+        "usage": "train"
+      },
+      {
+        "sample_id": "V6R2-SB-011",
+        "source_sha256": "8382a999de8eabb13c67f327b33c6d4fb4824475139b14fb2acebc241a3ae564",
+        "usage": "train"
+      }
+    ],
+    "priority_hint": "turn_head",
+    "quality_flags": [],
+    "review_id": "STU-12d1bd87d5a603ec-79b9698a",
+    "review_index": 11,
+    "room_id": null,
+    "scope_of_overlap_evidence": "shared_scene_visual_evidence_not_identity_inference",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      640,
+      640
+    ],
+    "source_class_hints": [
+      "Using_phone",
+      "bend",
+      "book",
+      "bow_head",
+      "phone",
+      "raise_head",
+      "reading",
+      "turn_head",
+      "upright"
+    ],
+    "source_id": "studentclassroombehavior",
+    "source_sha256": "12d1bd87d5a603ec802ce8081d0ad73bf1f38b653e80462ad9b1a5805a56e291",
+    "subject_id": null,
+    "test_candidate_eligibility": "ineligible_known_train_scene",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "392052c71bcbfd084a330c3ff8cd1f28a1087e30afeef107fe85ab14acbf400d",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": false,
+    "crop_feasibility": "Book/pen/hand-to-face có ích cho contextual negative; reading/writing chỉ hint, back view hoặc thiếu vùng tay giữ U.",
+    "draft_role": "new_development_candidate_quarantine",
+    "draft_scene_boundary": "STU-instructional-view-12",
+    "independence_proven": false,
+    "label_sha256": "483affc8732eca8309745738f16343f90c038a1d61aaf40cfa57501655ab7cb1",
+    "member_sha256": "e00fbf07a67ce4e3fc687e7916ac08d34c1dcddced588c49300e992b2b0180ff",
+    "observed_scene_description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [],
+    "priority_hint": "writing",
+    "quality_flags": [
+      "upstream_export_quality_and_video_overlay_review"
+    ],
+    "review_id": "STU-0030aa43d7c00fb1-e00fbf07",
+    "review_index": 12,
+    "room_id": null,
+    "scope_of_overlap_evidence": "nearest_non_test_comparisons_not_exhaustive_disjointness_proof",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      640,
+      640
+    ],
+    "source_class_hints": [
+      "hand-raising",
+      "writing"
+    ],
+    "source_id": "studentclassroombehavior",
+    "source_sha256": "0030aa43d7c00fb14c408282f95086c0ee80f0f5100d4308c28524b6c2b050bb",
+    "subject_id": null,
+    "test_candidate_eligibility": "pending_provenance_crop_qa_and_owner_assignment",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "392052c71bcbfd084a330c3ff8cd1f28a1087e30afeef107fe85ab14acbf400d",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": false,
+    "crop_feasibility": "Book/pen/hand-to-face có ích cho contextual negative; reading/writing chỉ hint, back view hoặc thiếu vùng tay giữ U.",
+    "draft_role": "new_development_candidate_quarantine",
+    "draft_scene_boundary": "STU-instructional-view-13",
+    "independence_proven": false,
+    "label_sha256": "37626136a41dddf43284935cae912890573eae5f0da04a4129f185632a086e58",
+    "member_sha256": "2b387b6615bcea4fd0304b719bd4834a2643d896fa0c2ae31de7711c3d1dda9a",
+    "observed_scene_description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [],
+    "priority_hint": "writing",
+    "quality_flags": [
+      "upstream_export_quality_and_video_overlay_review"
+    ],
+    "review_id": "STU-00328b920815bd7c-2b387b66",
+    "review_index": 13,
+    "room_id": null,
+    "scope_of_overlap_evidence": "nearest_non_test_comparisons_not_exhaustive_disjointness_proof",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      640,
+      640
+    ],
+    "source_class_hints": [
+      "hand-raising",
+      "reading",
+      "writing"
+    ],
+    "source_id": "studentclassroombehavior",
+    "source_sha256": "00328b920815bd7cee38b1481cf9eb77a39d14853723e7124e342c3f69ed530e",
+    "subject_id": null,
+    "test_candidate_eligibility": "pending_provenance_crop_qa_and_owner_assignment",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "392052c71bcbfd084a330c3ff8cd1f28a1087e30afeef107fe85ab14acbf400d",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": false,
+    "crop_feasibility": "Book/pen/hand-to-face có ích cho contextual negative; reading/writing chỉ hint, back view hoặc thiếu vùng tay giữ U.",
+    "draft_role": "new_development_candidate_quarantine",
+    "draft_scene_boundary": "STU-instructional-view-14",
+    "independence_proven": false,
+    "label_sha256": "1fce21a3139a1e3775a75653bda51375791912b5cd21cf7cbd65899ea76ff2c0",
+    "member_sha256": "e4b69ed2d2897685c0209a760b8fdaf74f7401a2dcfd609f136dcf49baf0c28d",
+    "observed_scene_description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [],
+    "priority_hint": "writing",
+    "quality_flags": [
+      "upstream_export_quality_and_video_overlay_review"
+    ],
+    "review_id": "STU-0033efb4ddaf2ba2-e4b69ed2",
+    "review_index": 14,
+    "room_id": null,
+    "scope_of_overlap_evidence": "nearest_non_test_comparisons_not_exhaustive_disjointness_proof",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      1920,
+      1080
+    ],
+    "source_class_hints": [
+      "writing"
+    ],
+    "source_id": "studentclassroombehavior",
+    "source_sha256": "0033efb4ddaf2ba2a6271531c6a6d10fc4a52b6d1db8c3c639b11ab88f9fcc80",
+    "subject_id": null,
+    "test_candidate_eligibility": "pending_provenance_crop_qa_and_owner_assignment",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "392052c71bcbfd084a330c3ff8cd1f28a1087e30afeef107fe85ab14acbf400d",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": false,
+    "crop_feasibility": "Book/pen/hand-to-face có ích cho contextual negative; reading/writing chỉ hint, back view hoặc thiếu vùng tay giữ U.",
+    "draft_role": "new_development_candidate_quarantine",
+    "draft_scene_boundary": "STU-instructional-view-15",
+    "independence_proven": false,
+    "label_sha256": "96c65b08405548aef9e7fcd87b0a14a0a796d028a05d4165387f1c3067632bd1",
+    "member_sha256": "2ba1386b5de2b9f0c92c76b3d8aafa2a868eb8bcecc3651978a053470863586c",
+    "observed_scene_description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "original_shortlist40": true,
+    "original_split": "test",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [],
+    "priority_hint": "writing",
+    "quality_flags": [
+      "upstream_export_quality_and_video_overlay_review"
+    ],
+    "review_id": "STU-003410b7c85773dd-2ba1386b",
+    "review_index": 15,
+    "room_id": null,
+    "scope_of_overlap_evidence": "nearest_non_test_comparisons_not_exhaustive_disjointness_proof",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      1855,
+      911
+    ],
+    "source_class_hints": [
+      "hand-raising",
+      "reading",
+      "writing"
+    ],
+    "source_id": "studentclassroombehavior",
+    "source_sha256": "003410b7c85773dd871429020963bc5cdff55ca7f737cc8fb3bf56c274c34ed1",
+    "subject_id": null,
+    "test_candidate_eligibility": "pending_provenance_crop_qa_and_owner_assignment",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "392052c71bcbfd084a330c3ff8cd1f28a1087e30afeef107fe85ab14acbf400d",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": false,
+    "crop_feasibility": "Book/pen/hand-to-face có ích cho contextual negative; reading/writing chỉ hint, back view hoặc thiếu vùng tay giữ U.",
+    "draft_role": "new_development_candidate_quarantine",
+    "draft_scene_boundary": "STU-instructional-view-16",
+    "independence_proven": false,
+    "label_sha256": "256fe8316a26a3fe1c32c8ad1db99740b1319dc04e95e0f297e6fb25fe2550bd",
+    "member_sha256": "41ec69aec78f105d879535636507e0923205f0fa53871415b60d6c634883f00b",
+    "observed_scene_description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "original_shortlist40": true,
+    "original_split": "test",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [],
+    "priority_hint": "reading",
+    "quality_flags": [
+      "upstream_export_quality_and_video_overlay_review"
+    ],
+    "review_id": "STU-001a63e6728bf568-41ec69ae",
+    "review_index": 16,
+    "room_id": null,
+    "scope_of_overlap_evidence": "nearest_non_test_comparisons_not_exhaustive_disjointness_proof",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      1843,
+      811
+    ],
+    "source_class_hints": [
+      "reading"
+    ],
+    "source_id": "studentclassroombehavior",
+    "source_sha256": "001a63e6728bf5687f14371cca89f214f2a581c96b383b4a019264d9138764ce",
+    "subject_id": null,
+    "test_candidate_eligibility": "pending_provenance_crop_qa_and_owner_assignment",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "392052c71bcbfd084a330c3ff8cd1f28a1087e30afeef107fe85ab14acbf400d",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": false,
+    "crop_feasibility": "Book/pen/hand-to-face có ích cho contextual negative; reading/writing chỉ hint, back view hoặc thiếu vùng tay giữ U.",
+    "draft_role": "new_development_candidate_quarantine",
+    "draft_scene_boundary": "STU-instructional-view-17",
+    "independence_proven": false,
+    "label_sha256": "501c79103562bd9d63618daa42d7cf57a6d15fd0c17fcd5f3574b539a6fc97dd",
+    "member_sha256": "daa5546869d855bab1f6b06462a743fa5ca7717651363e673a8ee3a1cc8f591e",
+    "observed_scene_description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "original_shortlist40": true,
+    "original_split": "valid",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [],
+    "priority_hint": "reading",
+    "quality_flags": [
+      "upstream_export_quality_and_video_overlay_review"
+    ],
+    "review_id": "STU-008d096ddbe91e1a-daa55468",
+    "review_index": 17,
+    "room_id": null,
+    "scope_of_overlap_evidence": "nearest_non_test_comparisons_not_exhaustive_disjointness_proof",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      1388,
+      762
+    ],
+    "source_class_hints": [
+      "reading",
+      "writing"
+    ],
+    "source_id": "studentclassroombehavior",
+    "source_sha256": "008d096ddbe91e1ac1149c479124a6d17ad48575e2fac8301a4d7b7b803451fe",
+    "subject_id": null,
+    "test_candidate_eligibility": "pending_provenance_crop_qa_and_owner_assignment",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "392052c71bcbfd084a330c3ff8cd1f28a1087e30afeef107fe85ab14acbf400d",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": false,
+    "crop_feasibility": "Book/pen/hand-to-face có ích cho contextual negative; reading/writing chỉ hint, back view hoặc thiếu vùng tay giữ U.",
+    "draft_role": "new_development_candidate_quarantine",
+    "draft_scene_boundary": "STU-instructional-view-18",
+    "independence_proven": false,
+    "label_sha256": "319f5d436bfb4b1a44f95cb1775077237a2acef7b0be69c4bc598d83917c5052",
+    "member_sha256": "8f7ebf38af3ce348b34d2adf079fc8815dc76c014d2d9d67d8969d584bdcfae2",
+    "observed_scene_description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "original_shortlist40": true,
+    "original_split": "valid",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [],
+    "priority_hint": "reading",
+    "quality_flags": [
+      "upstream_export_quality_and_video_overlay_review",
+      "prominent_player_or_watermark_overlay"
+    ],
+    "review_id": "STU-0098a369c073cf65-8f7ebf38",
+    "review_index": 18,
+    "room_id": null,
+    "scope_of_overlap_evidence": "nearest_non_test_comparisons_not_exhaustive_disjointness_proof",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      1462,
+      966
+    ],
+    "source_class_hints": [
+      "hand-raising",
+      "reading"
+    ],
+    "source_id": "studentclassroombehavior",
+    "source_sha256": "0098a369c073cf6509376ecb64de090e5ed1855d0f7e19b92f6284d5d8491754",
+    "subject_id": null,
+    "test_candidate_eligibility": "pending_provenance_crop_qa_and_owner_assignment",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  },
+  {
+    "archive_sha256": "392052c71bcbfd084a330c3ff8cd1f28a1087e30afeef107fe85ab14acbf400d",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "confirmed_parent_scene_overlap": false,
+    "crop_feasibility": "Book/pen/hand-to-face có ích cho contextual negative; reading/writing chỉ hint, back view hoặc thiếu vùng tay giữ U.",
+    "draft_role": "new_development_candidate_quarantine",
+    "draft_scene_boundary": "STU-instructional-view-19",
+    "independence_proven": false,
+    "label_sha256": "f5aba5db0386d2a1226fc83752d3a6c4f9549729881efd1234a709dc18bda19c",
+    "member_sha256": "770584fccd6da6489af0f68e351e4c948483282e2f17bb4fec1085ef827a99fd",
+    "observed_scene_description": "Video lớp học hướng dẫn, cảnh riêng trong lượt xem; quan hệ giữa video/room/session chưa xác minh.",
+    "original_shortlist40": true,
+    "original_split": "train",
+    "owner_batch_accepted": false,
+    "parent_scene_evidence": [],
+    "priority_hint": "reading",
+    "quality_flags": [
+      "upstream_export_quality_and_video_overlay_review"
+    ],
+    "review_id": "STU-009eae9ca8452a3c-770584fc",
+    "review_index": 19,
+    "room_id": null,
+    "scope_of_overlap_evidence": "nearest_non_test_comparisons_not_exhaustive_disjointness_proof",
+    "selection": "original_shortlist40",
+    "session_id": null,
+    "size": [
+      1037,
+      603
+    ],
+    "source_class_hints": [
+      "hand-raising",
+      "reading"
+    ],
+    "source_id": "studentclassroombehavior",
+    "source_sha256": "009eae9ca8452a3c4a12e8d7efde547ee74d5db2dd7ee3c0c0323c838b1ab742",
+    "subject_id": null,
+    "test_candidate_eligibility": "pending_provenance_crop_qa_and_owner_assignment",
+    "video_id": null,
+    "visual_review": "completed_by_agent_no_candidate_scores"
+  }
+]

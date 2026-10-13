@@ -181,6 +181,13 @@ def peak_rss() -> int | None:
 
 def run(config_path: Path, output: Path, workspace: Path, *, resume: bool = False,
         interrupt_after: int | None = None) -> RunRecord:
+    from ai_exam_monitoring.common.config import load_yaml
+
+    if load_yaml(config_path).get("schema_version") == "matched-adaptation-v1":
+        from .adaptation_train import run_adaptation
+
+        return run_adaptation(config_path, output, workspace, resume=resume,
+                              interrupt_after=interrupt_after)
     config = load_config(config_path)
     output, workspace = output.resolve(), workspace.resolve()
     verify_approval(config, workspace)

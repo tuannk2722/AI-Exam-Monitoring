@@ -1,0 +1,1267 @@
+[
+  {
+    "candidate_id": "E004-EX-C178",
+    "source_sha256": "38b511e6f33658fa9c58ef4315d9540292fbe7bab6bf317b41808393bb3f6c02",
+    "source_member_sha256": "4552997199d273ca052b0de5d66b17b7ae1077cd5b47e3040f35ce6559d6feeb",
+    "label_sha256": null,
+    "person_xyxy": [
+      159,
+      109,
+      385,
+      459
+    ],
+    "context_xyxy": [
+      130,
+      85,
+      410,
+      505
+    ],
+    "crop_sha256": "b780503035e8e31dd36d6849122f17b11952d302e768c9f23832948fc63ca914",
+    "input_sha256": "c5bcee99cdf37b9304973fc506de2de894c4efb26d0157e7b6c4c011ba526c93",
+    "input_pixel_sha256": "ad0f42dc4e67861753eff6dbd192beb989b775f76864cdc9b67b4a9eceb8cd7b",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "draft_reason": "Anchor áo xanh phía sau tự cầm mobile, mắt hướng xuống thiết bị.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "reserved_holdout_candidate",
+    "frame_id": "US-004",
+    "source_size": [
+      1080,
+      608
+    ],
+    "archive_sha256": "fced9a0c35818ad5ad05135907e98cb84913a860aabbded4d2348a7ae460abb6",
+    "family_proposal": "EX-US-LECTURE",
+    "input224_qa": "pending_visual_review",
+    "work_context_proposal": "unknown",
+    "work_context_reason": "Đề xuất context sẽ chốt sau QA."
+  },
+  {
+    "candidate_id": "E004-EX-C179",
+    "source_sha256": "8273c4a70e67ae9b8185416c80a344982ee8b54140178ca85d05f071b7edbe96",
+    "source_member_sha256": "3774778e122efa6839e04d0c2c55b7c58b1ab782ace1124593ebc45306ca7a6a",
+    "label_sha256": null,
+    "person_xyxy": [
+      444,
+      73,
+      983,
+      720
+    ],
+    "context_xyxy": [
+      240,
+      45,
+      1015,
+      720
+    ],
+    "crop_sha256": "6653f9ff6364734d9d38124d34e79c006911a822d6c31ae6be06e092da003f29",
+    "input_sha256": "b9fe3b36dd735c0be328b9aa5f2c3aed8d890a0ffe64f3bbdf56ca324848fbec",
+    "input_pixel_sha256": "5feb8cd1a0cfeb6ca5502d373e9eddbe3395e51ec34f035e397d1cdc910d70c7",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "N",
+      "U"
+    ],
+    "draft_reason": "Tay và bàn sửa thiết bị rõ, chỉ có tablet và linh kiện; back view không đủ looking.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "train_candidate",
+    "frame_id": "US-012",
+    "source_size": [
+      1080,
+      720
+    ],
+    "archive_sha256": "fced9a0c35818ad5ad05135907e98cb84913a860aabbded4d2348a7ae460abb6",
+    "family_proposal": "EX-US-012",
+    "input224_qa": "pending_visual_review",
+    "work_context_proposal": "unknown",
+    "work_context_reason": "Đề xuất context sẽ chốt sau QA."
+  },
+  {
+    "candidate_id": "E004-EX-C180",
+    "source_sha256": "cb07ab86c4a5d81d8093305b4dfdba0aaeb0c98edc17ede8da547e402caa5007",
+    "source_member_sha256": "1aac3626027b9d58834e56b65718c9ea4d36939c4465045e081a8aa5eb9d4275",
+    "label_sha256": null,
+    "person_xyxy": [
+      119,
+      241,
+      298,
+      430
+    ],
+    "context_xyxy": [
+      65,
+      200,
+      335,
+      485
+    ],
+    "crop_sha256": "ba7760f176068ec0463b447d5f8eaea6f6fa32a10dd6d5bfdebb1b1175a2400b",
+    "input_sha256": "7d0001ecb8c39f354ac32852731e9a1483ea8d8e7a92166b828e32b87784722c",
+    "input_pixel_sha256": "7de79367c77b681ae7d66d3c8d54a3f37aad4ea13761bd4600535e1e5307f7a2",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "draft_reason": "Anchor áo caro đỏ nhìn người bên trái, tay cầm giấy trên bàn.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "reserved_holdout_candidate",
+    "frame_id": "US-021",
+    "source_size": [
+      1080,
+      608
+    ],
+    "archive_sha256": "fced9a0c35818ad5ad05135907e98cb84913a860aabbded4d2348a7ae460abb6",
+    "family_proposal": "EX-US-LECTURE",
+    "input224_qa": "pending_visual_review",
+    "work_context_proposal": "unknown",
+    "work_context_reason": "Đề xuất context sẽ chốt sau QA."
+  },
+  {
+    "candidate_id": "E004-EX-C181",
+    "source_sha256": "e5e28e48e4dcadcb41c23fa7315a2d4803bc270e76fd1337160399f224464c11",
+    "source_member_sha256": "ca81ed138079de283a8f5de8ea275f99ee3a71ecaa0ad9aba7405875648561af",
+    "label_sha256": null,
+    "person_xyxy": [
+      406,
+      207,
+      574,
+      406
+    ],
+    "context_xyxy": [
+      365,
+      175,
+      628,
+      433
+    ],
+    "crop_sha256": "f03908a49ad9ef124ae12d56c2ddac8644338ec62fb555c3ec96155ae3cf9085",
+    "input_sha256": "b61c88d3dc860be18a45082ea748862aa7c6810a85f1679529ac9b08e938e6b2",
+    "input_pixel_sha256": "02519edff5a4b21ca7c9a546071e558f08edd45a27b2ca5b1d9b3aa166278310",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "draft_reason": "Anchor áo xanh giữa nhìn sang người khác; hai tay chắp trên sách, không gán mobile bàn trước cho anchor.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "reserved_holdout_candidate",
+    "frame_id": "US-028",
+    "source_size": [
+      1080,
+      608
+    ],
+    "archive_sha256": "fced9a0c35818ad5ad05135907e98cb84913a860aabbded4d2348a7ae460abb6",
+    "family_proposal": "EX-US-LECTURE",
+    "input224_qa": "pending_visual_review",
+    "work_context_proposal": "unknown",
+    "work_context_reason": "Đề xuất context sẽ chốt sau QA."
+  },
+  {
+    "candidate_id": "E004-EX-C182",
+    "source_sha256": "e5e28e48e4dcadcb41c23fa7315a2d4803bc270e76fd1337160399f224464c11",
+    "source_member_sha256": "ca81ed138079de283a8f5de8ea275f99ee3a71ecaa0ad9aba7405875648561af",
+    "label_sha256": null,
+    "person_xyxy": [
+      598,
+      196,
+      828,
+      453
+    ],
+    "context_xyxy": [
+      550,
+      162,
+      877,
+      496
+    ],
+    "crop_sha256": "246d11191cda9bfa4b8b2096681ed5314ab841c1c7b492ca6fbe6d6fed0e9532",
+    "input_sha256": "0b3f7e836a72c16725bc34b1d25a912a7db52581fe54adf83755fc70cd91a261",
+    "input_pixel_sha256": "9a58a777e200545fbaf168dfd1166b5ba71aa54b59a0a81b80a70cc8ca1d5d53",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "P",
+      "P"
+    ],
+    "draft_reason": "Anchor áo denim quay sang người bên trái; mobile trên sách ở bàn riêng phía trước.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "reserved_holdout_candidate",
+    "frame_id": "US-028",
+    "source_size": [
+      1080,
+      608
+    ],
+    "archive_sha256": "fced9a0c35818ad5ad05135907e98cb84913a860aabbded4d2348a7ae460abb6",
+    "family_proposal": "EX-US-LECTURE",
+    "input224_qa": "pending_visual_review",
+    "work_context_proposal": "unknown",
+    "work_context_reason": "Đề xuất context sẽ chốt sau QA."
+  },
+  {
+    "candidate_id": "E004-EX-C183",
+    "source_sha256": "1bb24f735a952abb28f8b9557ff0247c06e8fa49c39a9d514a1a29e6005b1249",
+    "source_member_sha256": "9bcf5e6c0e543cbb2cd3cd8c2afd9b08d1e684569070e84411d35b6cd50fe8cc",
+    "label_sha256": null,
+    "person_xyxy": [
+      141,
+      315,
+      375,
+      708
+    ],
+    "context_xyxy": [
+      100,
+      280,
+      406,
+      751
+    ],
+    "crop_sha256": "533ddf8db9f8c28ccbbf1e85a442850630c2404d04a53861aefa0abf46e25db5",
+    "input_sha256": "d42d5c5e7b80438d834b67c01cf26e8120b5f433a94ec2f61d5235987f57c2b7",
+    "input_pixel_sha256": "c3a404a1c0873d72d7251a4d714767fb7e6bbe7d27e6c31d50e4eaf5b8151835",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "draft_reason": "Anchor tóc hồng bên trái viết; tay và bàn bài riêng đủ quan sát.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "train_candidate",
+    "frame_id": "US-034",
+    "source_size": [
+      1080,
+      810
+    ],
+    "archive_sha256": "fced9a0c35818ad5ad05135907e98cb84913a860aabbded4d2348a7ae460abb6",
+    "family_proposal": "EX-US-034",
+    "input224_qa": "pending_visual_review",
+    "work_context_proposal": "unknown",
+    "work_context_reason": "Đề xuất context sẽ chốt sau QA."
+  },
+  {
+    "candidate_id": "E004-EX-C184",
+    "source_sha256": "1bb24f735a952abb28f8b9557ff0247c06e8fa49c39a9d514a1a29e6005b1249",
+    "source_member_sha256": "9bcf5e6c0e543cbb2cd3cd8c2afd9b08d1e684569070e84411d35b6cd50fe8cc",
+    "label_sha256": null,
+    "person_xyxy": [
+      393,
+      339,
+      625,
+      799
+    ],
+    "context_xyxy": [
+      325,
+      305,
+      659,
+      810
+    ],
+    "crop_sha256": "9c4718f9ee8c0f51e72bf79c48a134fca94f3e58e5a612a328ccecf121a6dc17",
+    "input_sha256": "bcc90a4ae61e8916c9fc2cb045d7cf1d8d66892c34a214dcfdaa706ebf5c078f",
+    "input_pixel_sha256": "e6afb17465cf23b8291ebfa7b67f082b954db6e69dc8a15049fdeb0778aa0cd8",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "N",
+      "U"
+    ],
+    "draft_reason": "Anchor trước quay lưng, hai tay và giấy rõ nhưng không đủ hướng nhìn.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "train_candidate",
+    "frame_id": "US-034",
+    "source_size": [
+      1080,
+      810
+    ],
+    "archive_sha256": "fced9a0c35818ad5ad05135907e98cb84913a860aabbded4d2348a7ae460abb6",
+    "family_proposal": "EX-US-034",
+    "input224_qa": "pending_visual_review",
+    "work_context_proposal": "unknown",
+    "work_context_reason": "Đề xuất context sẽ chốt sau QA."
+  },
+  {
+    "candidate_id": "E004-EX-C185",
+    "source_sha256": "6593cd01c22bb8491b9b30f9f0c9139bbf6b06ce54a19159630d36e3aa1e3084",
+    "source_member_sha256": "5dbaa930c53840fb0a1b98382167c2e7eca29323b246410dbaca48154d9de739",
+    "label_sha256": null,
+    "person_xyxy": [
+      442,
+      231,
+      610,
+      383
+    ],
+    "context_xyxy": [
+      392,
+      196,
+      713,
+      430
+    ],
+    "crop_sha256": "e5420e9b48341732359450d15776bd88a7aaf8a338bf94e638bdedab1d2b91a2",
+    "input_sha256": "1f3cf8c893668d382a51d23689e52f3497f98e8bb3aa6c036f798858810febb1",
+    "input_pixel_sha256": "88f91a0cbba07b6eed348fbf75a13c93546c3fe73c212f6d7115fadb71f94ecf",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "P",
+      "U"
+    ],
+    "draft_reason": "Mobile có màn hình xanh bên tay; góc nhìn trên lưng không đủ looking.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "train_candidate",
+    "frame_id": "US-035",
+    "source_size": [
+      1080,
+      608
+    ],
+    "archive_sha256": "fced9a0c35818ad5ad05135907e98cb84913a860aabbded4d2348a7ae460abb6",
+    "family_proposal": "EX-US-035",
+    "input224_qa": "pending_visual_review",
+    "work_context_proposal": "unknown",
+    "work_context_reason": "Đề xuất context sẽ chốt sau QA."
+  },
+  {
+    "candidate_id": "E004-EX-C186",
+    "source_sha256": "37da1c3998e9a12bd07e68511aba1f2b1f4c885b9bae13d1fe74b27d65d3539a",
+    "source_member_sha256": "100df6377a4ab60d62ec95cc8daf935017b51388a849e2ec17d10c73d110dce7",
+    "label_sha256": null,
+    "person_xyxy": [
+      535,
+      317,
+      651,
+      604
+    ],
+    "context_xyxy": [
+      506,
+      286,
+      701,
+      644
+    ],
+    "crop_sha256": "bd4d009eb5e70ada6b7d34f8e0572db0df6e515a9aecc4e23da5ac78a8963e8b",
+    "input_sha256": "72a288fac3d3f6451a37546983ecea448259c4fbe44c3408d6faf360396bbcc2",
+    "input_pixel_sha256": "fd0340c8075061c100d89088fa05ca092fe6a7c09904a02b05bfa36941fbe4a0",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "draft_reason": "Anchor áo kem đứng giữa, nhìn ra ngoài vùng bài; hai tay trên bàn rõ.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "reserved_holdout_candidate",
+    "frame_id": "PX-019",
+    "source_size": [
+      1125,
+      750
+    ],
+    "archive_sha256": "1032c2a2efa77d3b3b5e202aa573dec9a7bfa885760869ae61239f36c694edbf",
+    "family_proposal": "CF-Q126",
+    "input224_qa": "pending_visual_review",
+    "work_context_proposal": "unknown",
+    "work_context_reason": "Đề xuất context sẽ chốt sau QA."
+  },
+  {
+    "candidate_id": "E004-EX-C187",
+    "source_sha256": "37da1c3998e9a12bd07e68511aba1f2b1f4c885b9bae13d1fe74b27d65d3539a",
+    "source_member_sha256": "100df6377a4ab60d62ec95cc8daf935017b51388a849e2ec17d10c73d110dce7",
+    "label_sha256": null,
+    "person_xyxy": [
+      678,
+      479,
+      859,
+      750
+    ],
+    "context_xyxy": [
+      629,
+      444,
+      909,
+      750
+    ],
+    "crop_sha256": "7eba9a10c41929bb8e80e5fdd48055f0172645260c5d667987a7b199f34dc67c",
+    "input_sha256": "45c4df14afc46d9e149588f32fe223332bf96a60cda47313c2b8b9d9a00f10f1",
+    "input_pixel_sha256": "655576ff376e5da6f0346d4fe31ac43d41e098c078c39c6d64311f6fe5604011",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "draft_reason": "Anchor áo nâu trước phải quay ra sau; hai tay chắp và mặt bàn rõ.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "reserved_holdout_candidate",
+    "frame_id": "PX-019",
+    "source_size": [
+      1125,
+      750
+    ],
+    "archive_sha256": "1032c2a2efa77d3b3b5e202aa573dec9a7bfa885760869ae61239f36c694edbf",
+    "family_proposal": "CF-Q126",
+    "input224_qa": "pending_visual_review",
+    "work_context_proposal": "unknown",
+    "work_context_reason": "Đề xuất context sẽ chốt sau QA."
+  },
+  {
+    "candidate_id": "E004-EX-C188",
+    "source_sha256": "cf1b0b3e037b2c0dcee8ba3916695fa7ec943a227e280029df3ad0c4b3be6984",
+    "source_member_sha256": "12993378b855e85c98b2a6b0da34949d53a532409f433f866321c975aa1e3773",
+    "label_sha256": null,
+    "person_xyxy": [
+      207,
+      355,
+      430,
+      750
+    ],
+    "context_xyxy": [
+      159,
+      318,
+      487,
+      750
+    ],
+    "crop_sha256": "30c509d9d2c931c301417fb7e35ca47facc09c4cc133ab98615c9f1145feeac5",
+    "input_sha256": "fca21026967cf90b1cd913ee218901af080bfe2d345c076cfc511fe804ab7e64",
+    "input_pixel_sha256": "ad080f91c75505ef870de224fe65a841404f7729074ebc80a682b80c5d92031d",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "draft_reason": "Anchor nữ bàn trái quay sang giáo viên; tay và vùng giấy rõ.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "reserved_holdout_candidate",
+    "frame_id": "PX-023",
+    "source_size": [
+      1125,
+      750
+    ],
+    "archive_sha256": "1032c2a2efa77d3b3b5e202aa573dec9a7bfa885760869ae61239f36c694edbf",
+    "family_proposal": "CF-Q126",
+    "input224_qa": "pending_visual_review",
+    "work_context_proposal": "unknown",
+    "work_context_reason": "Đề xuất context sẽ chốt sau QA."
+  },
+  {
+    "candidate_id": "E004-EX-C189",
+    "source_sha256": "cf1b0b3e037b2c0dcee8ba3916695fa7ec943a227e280029df3ad0c4b3be6984",
+    "source_member_sha256": "12993378b855e85c98b2a6b0da34949d53a532409f433f866321c975aa1e3773",
+    "label_sha256": null,
+    "person_xyxy": [
+      316,
+      303,
+      447,
+      530
+    ],
+    "context_xyxy": [
+      288,
+      274,
+      532,
+      569
+    ],
+    "crop_sha256": "1a4ede852729bf157f688d204a22eb63376173273d10589f825a343aec598048",
+    "input_sha256": "fb4ab92215f821441fee5ec4e71f93fd5070c932a548c8b85b297bf7355ecc3d",
+    "input_pixel_sha256": "845d2a2923765aee13c2ee10bc7d7582720f4b9f9717708f4fc9631fe7bbc199",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "draft_reason": "Anchor áo tím phía sau viết; hai tay và bàn riêng rõ.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "reserved_holdout_candidate",
+    "frame_id": "PX-023",
+    "source_size": [
+      1125,
+      750
+    ],
+    "archive_sha256": "1032c2a2efa77d3b3b5e202aa573dec9a7bfa885760869ae61239f36c694edbf",
+    "family_proposal": "CF-Q126",
+    "input224_qa": "pending_visual_review",
+    "work_context_proposal": "unknown",
+    "work_context_reason": "Đề xuất context sẽ chốt sau QA."
+  },
+  {
+    "candidate_id": "E004-EX-C190",
+    "source_sha256": "6f8ce50ce59c42840a732a13e8d4315815487ee246de15f6df4f0b90f695bee7",
+    "source_member_sha256": "97fa991a38ab969465d4644982e3eae70b3da73088a9eefe16766faa1a82efb4",
+    "label_sha256": null,
+    "person_xyxy": [
+      267,
+      328,
+      702,
+      704
+    ],
+    "context_xyxy": [
+      226,
+      288,
+      832,
+      750
+    ],
+    "crop_sha256": "4d94e26c05dcc40e44101441eb4e8574cc5dbf25769742249804650598ab9665",
+    "input_sha256": "0ed50ac67739c56f37fc9624e7942650b319ead2ce618d97e1a7433ea2140641",
+    "input_pixel_sha256": "0737e74fca507c139d92f6a50522d9981edc0cd61db3e462dfd6eb148d4b20c4",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "draft_reason": "Anchor ngồi giữa cầm mobile trước mặt; không gán mobile của người khác.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "reserved_holdout_candidate",
+    "frame_id": "PX-032",
+    "source_size": [
+      1125,
+      750
+    ],
+    "archive_sha256": "1032c2a2efa77d3b3b5e202aa573dec9a7bfa885760869ae61239f36c694edbf",
+    "family_proposal": "CF-Q126",
+    "input224_qa": "pending_visual_review",
+    "work_context_proposal": "unknown",
+    "work_context_reason": "Đề xuất context sẽ chốt sau QA."
+  },
+  {
+    "candidate_id": "E004-EX-C191",
+    "source_sha256": "6f14bc8ea79370b977aba3917c35f3f316b8ae574bd81a2da517188c18e0b533",
+    "source_member_sha256": "6cdc7a777c493bfa82f227dd17eaf1a70fe28431c9868baeacda4a5396120aa6",
+    "label_sha256": null,
+    "person_xyxy": [
+      502,
+      170,
+      820,
+      555
+    ],
+    "context_xyxy": [
+      465,
+      132,
+      851,
+      601
+    ],
+    "crop_sha256": "c4169f4146a8d050eeadc6f29b33386af488878f37e2058b10ca015c753ae9f3",
+    "input_sha256": "46309d4fb08adb95c47877ff2264da83212f006e9cb03805c1dc8036ee6460f7",
+    "input_pixel_sha256": "9820035b86d7a9457ce42ddce86c1143a86189d9cef74a5e46aed069b77e214d",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "draft_reason": "Anchor áo ghi phía sau nhìn sách, tay nằm trên vùng bài.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "reserved_holdout_candidate",
+    "frame_id": "PX-036",
+    "source_size": [
+      1125,
+      750
+    ],
+    "archive_sha256": "1032c2a2efa77d3b3b5e202aa573dec9a7bfa885760869ae61239f36c694edbf",
+    "family_proposal": "CF-Q137",
+    "input224_qa": "pending_visual_review",
+    "work_context_proposal": "unknown",
+    "work_context_reason": "Đề xuất context sẽ chốt sau QA."
+  },
+  {
+    "candidate_id": "E004-EX-C192",
+    "source_sha256": "6f14bc8ea79370b977aba3917c35f3f316b8ae574bd81a2da517188c18e0b533",
+    "source_member_sha256": "6cdc7a777c493bfa82f227dd17eaf1a70fe28431c9868baeacda4a5396120aa6",
+    "label_sha256": null,
+    "person_xyxy": [
+      771,
+      149,
+      1085,
+      750
+    ],
+    "context_xyxy": [
+      704,
+      112,
+      1125,
+      750
+    ],
+    "crop_sha256": "da6df1c4cee7a51cf6aac41dd28cdc7fe2c4ba1c1703414802761093b13244a2",
+    "input_sha256": "881f838bbc3861645ed7702cae7a033ef0ccf5c15d42f84826e2e1f08dcc682d",
+    "input_pixel_sha256": "957d8ca7aee7e28836e222b5ab4e715ae6b54c4f000337af3b498bf5ad627f9d",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "draft_reason": "Anchor áo hoa trước phải cầm mobile; đầu hướng xuống thiết bị.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "reserved_holdout_candidate",
+    "frame_id": "PX-036",
+    "source_size": [
+      1125,
+      750
+    ],
+    "archive_sha256": "1032c2a2efa77d3b3b5e202aa573dec9a7bfa885760869ae61239f36c694edbf",
+    "family_proposal": "CF-Q137",
+    "input224_qa": "pending_visual_review",
+    "work_context_proposal": "unknown",
+    "work_context_reason": "Đề xuất context sẽ chốt sau QA."
+  },
+  {
+    "candidate_id": "E004-EX-C193",
+    "source_sha256": "f2716234fe70ce17f59daf5367c9e3321268ab366fd43110605051468435f85a",
+    "source_member_sha256": "3cd71d51c53c7862b47ed9c8e38fc820234f8644e878c7f825c3763a49a94764",
+    "label_sha256": null,
+    "person_xyxy": [
+      100,
+      0,
+      325,
+      240
+    ],
+    "context_xyxy": [
+      67,
+      0,
+      395,
+      240
+    ],
+    "crop_sha256": "d5870569ce3a2c9248c3be30edbcc4325f81909088c5172ddf0b26b47ec1cae9",
+    "input_sha256": "52a0936b8ca7d79d94d79e2f541556befaca5faba6e2cf4372399925fb2445e0",
+    "input_pixel_sha256": "6223c21c664104750b3a2ce044037f6094ad356ba31f1bf21404f47ee463d8e6",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Anchor áo trắng nhìn vùng giấy; vật trong tay chưa rõ mobile hay bút ở input 224.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "new_development",
+    "frame_id": "PX-039",
+    "source_size": [
+      426,
+      240
+    ],
+    "archive_sha256": "1032c2a2efa77d3b3b5e202aa573dec9a7bfa885760869ae61239f36c694edbf",
+    "family_proposal": "EX-ROUND-DESK",
+    "input224_qa": "pending_visual_review",
+    "work_context_proposal": "unknown",
+    "work_context_reason": "Đề xuất context sẽ chốt sau QA."
+  },
+  {
+    "candidate_id": "E004-EX-C194",
+    "source_sha256": "745d632e4abf8a0044f3d521153f2d1c3229f38a4dcf895f4b68321a4d185f93",
+    "source_member_sha256": "508b673c210d9243ec4566f2ccf46d023d0807500e160740e8f12fbe6b5d9e25",
+    "label_sha256": null,
+    "person_xyxy": [
+      94,
+      25,
+      337,
+      240
+    ],
+    "context_xyxy": [
+      64,
+      0,
+      392,
+      240
+    ],
+    "crop_sha256": "40064e1d8e67fd965312ae8393034d53c99d43ca261d388c435d67198ac01bdf",
+    "input_sha256": "d329e6985347809c8b0ac4e857def8046b842d7e37b3acee9f4687ddf24ecb82",
+    "input_pixel_sha256": "3efce12310a3905bad0631fcca5aba61878194ffac4670946ebbfb767b7ebaeb",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "draft_reason": "Anchor áo trắng quay sang bên; tay cầm bút và tay đang cử chỉ, không mobile.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "new_development",
+    "frame_id": "PX-040",
+    "source_size": [
+      426,
+      240
+    ],
+    "archive_sha256": "1032c2a2efa77d3b3b5e202aa573dec9a7bfa885760869ae61239f36c694edbf",
+    "family_proposal": "EX-ROUND-DESK",
+    "input224_qa": "pending_visual_review",
+    "work_context_proposal": "unknown",
+    "work_context_reason": "Đề xuất context sẽ chốt sau QA."
+  },
+  {
+    "candidate_id": "E004-EX-C195",
+    "source_sha256": "a9c7fe4170b6cfc800320e7dff2f17409f25993a9ca35e92a6f279b1f30656b5",
+    "source_member_sha256": "1df0d0c0a6f6b497085772710216324afe28bea1797e96314bbe0bcd07821334",
+    "label_sha256": null,
+    "person_xyxy": [
+      60,
+      0,
+      284,
+      220
+    ],
+    "context_xyxy": [
+      32,
+      0,
+      333,
+      240
+    ],
+    "crop_sha256": "2a17f3095dfe9fcc886b1a43c9435712cbfd928ae9ac3439a978ecbec157553b",
+    "input_sha256": "9ef6b37f34bd1ceaa516f3a9b8f3a7048c53374917a1e3de7076c5cfba745ca2",
+    "input_pixel_sha256": "43ba3320a9bf2e1e808ef0928d9a6f8295ebe7e9639612298c459e37a1c5c456",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "draft_reason": "Anchor áo đen đọc sách; mobile nằm trên bàn bên phải.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "new_development",
+    "frame_id": "PX-045",
+    "source_size": [
+      426,
+      240
+    ],
+    "archive_sha256": "1032c2a2efa77d3b3b5e202aa573dec9a7bfa885760869ae61239f36c694edbf",
+    "family_proposal": "EX-LECTURE",
+    "input224_qa": "pending_visual_review",
+    "work_context_proposal": "unknown",
+    "work_context_reason": "Đề xuất context sẽ chốt sau QA."
+  },
+  {
+    "candidate_id": "E004-EX-C196",
+    "source_sha256": "1e418e3c45dcd7f534341402066dd4836e105acd78407b41ed56536ebb1edf4a",
+    "source_member_sha256": "ef986d811e1b3864ffbd113840e9b2b7a014b91e58e74996efbdf682a9d623f3",
+    "label_sha256": null,
+    "person_xyxy": [
+      63,
+      112,
+      161,
+      222
+    ],
+    "context_xyxy": [
+      34,
+      84,
+      190,
+      240
+    ],
+    "crop_sha256": "110b68eaba0c99e9ab0ee0acca81ddd35d44898e63f50079c862161d0301be41",
+    "input_sha256": "1605523c28c349dc9cb25eff91ac1b512279e527937ff15c1321bf17f55d980b",
+    "input_pixel_sha256": "93f924978097295748992bc73b8afdea89beef49aeed71508af0ea0bfa2ae9a7",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Anchor nữ bên trái nhìn người đứng; một phần tay khuất nên phone U.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "reserved_holdout_candidate",
+    "frame_id": "PX-049",
+    "source_size": [
+      426,
+      240
+    ],
+    "archive_sha256": "1032c2a2efa77d3b3b5e202aa573dec9a7bfa885760869ae61239f36c694edbf",
+    "family_proposal": "CF-Q131",
+    "input224_qa": "pending_visual_review",
+    "work_context_proposal": "unknown",
+    "work_context_reason": "Đề xuất context sẽ chốt sau QA."
+  },
+  {
+    "candidate_id": "E004-EX-C197",
+    "source_sha256": "1e418e3c45dcd7f534341402066dd4836e105acd78407b41ed56536ebb1edf4a",
+    "source_member_sha256": "ef986d811e1b3864ffbd113840e9b2b7a014b91e58e74996efbdf682a9d623f3",
+    "label_sha256": null,
+    "person_xyxy": [
+      268,
+      60,
+      354,
+      234
+    ],
+    "context_xyxy": [
+      237,
+      35,
+      384,
+      240
+    ],
+    "crop_sha256": "9e4f6c11c463c65cad4c8ebd18fd0b20ad2b6b9bd33911bc1c22d30d11421003",
+    "input_sha256": "ef0afe5315777532439b6a9de0bda83c73ee29086eda49832ef65886543a1152",
+    "input_pixel_sha256": "ec0275a1a759037356a01b368b6d20a1da438413112e32d0b0e6bd1a3c306ac9",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "draft_reason": "Anchor đứng cạnh cửa sổ nhìn sang người khác; hai tay phía trước rõ, không thêm lớp đứng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "reserved_holdout_candidate",
+    "frame_id": "PX-049",
+    "source_size": [
+      426,
+      240
+    ],
+    "archive_sha256": "1032c2a2efa77d3b3b5e202aa573dec9a7bfa885760869ae61239f36c694edbf",
+    "family_proposal": "CF-Q131",
+    "input224_qa": "pending_visual_review",
+    "work_context_proposal": "unknown",
+    "work_context_reason": "Đề xuất context sẽ chốt sau QA."
+  },
+  {
+    "candidate_id": "E004-EX-C198",
+    "source_sha256": "40b8e58bda2150f47bea606abb48fd93106ff6fcb2232e61fe8f11d50083d6b6",
+    "source_member_sha256": "70c8009314ffbf363a73a34bef3b414f8407c91ccde7b9c554ee6e03b0a9b141",
+    "label_sha256": null,
+    "person_xyxy": [
+      40,
+      77,
+      147,
+      165
+    ],
+    "context_xyxy": [
+      12,
+      53,
+      175,
+      190
+    ],
+    "crop_sha256": "70e703dcd5876daa00c88e4a4635bd8e2933c82b7bce196e2ea690b64c58ca6b",
+    "input_sha256": "adfbcb61d088ac5a552df8560cca94fbd2ba28e634ba8084a99ddeea9d7a1eda",
+    "input_pixel_sha256": "eb0c4c19c1c18f85098ef43312fa8a6b767d75310f23295caa8fa681c3886cd2",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "P",
+      "P"
+    ],
+    "draft_reason": "Anchor tóc xoăn trước trái cầm mobile sáng trong tay và nhìn người đứng ngoài bài.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "new_development",
+    "frame_id": "PX-054",
+    "source_size": [
+      426,
+      240
+    ],
+    "archive_sha256": "1032c2a2efa77d3b3b5e202aa573dec9a7bfa885760869ae61239f36c694edbf",
+    "family_proposal": "EX-LECTURE",
+    "input224_qa": "pending_visual_review",
+    "work_context_proposal": "unknown",
+    "work_context_reason": "Đề xuất context sẽ chốt sau QA."
+  },
+  {
+    "candidate_id": "E004-EX-C199",
+    "source_sha256": "34c617de80eb7c4e73dc9b13a066987e579c2f0b0efa10dbf0c628e531402394",
+    "source_member_sha256": "30445b7ba6554ef1306c5bb48417c2367448a50eb24ea90fb6182b731648ad15",
+    "label_sha256": null,
+    "person_xyxy": [
+      171,
+      87,
+      294,
+      203
+    ],
+    "context_xyxy": [
+      140,
+      58,
+      332,
+      228
+    ],
+    "crop_sha256": "5ccf60fca1be0ef67e1e9e8667a873c62f7880e9d1f5aca9c5dba63f87ec628f",
+    "input_sha256": "b0f7d72e28e5ed9922cde8f4ed941d52f1d4143e141c4309660f7263a8365453",
+    "input_pixel_sha256": "51b8edeb241ecb4346ee021cd80c5d90d763ab666c013ddb9d5dbd3ec492371c",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "P",
+      "P"
+    ],
+    "draft_reason": "Anchor áo đen giữa quay ra sau; mobile đen trên bàn riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "new_development",
+    "frame_id": "PX-057",
+    "source_size": [
+      426,
+      240
+    ],
+    "archive_sha256": "1032c2a2efa77d3b3b5e202aa573dec9a7bfa885760869ae61239f36c694edbf",
+    "family_proposal": "EX-LECTURE",
+    "input224_qa": "pending_visual_review",
+    "work_context_proposal": "unknown",
+    "work_context_reason": "Đề xuất context sẽ chốt sau QA."
+  },
+  {
+    "candidate_id": "E004-EX-C200",
+    "source_sha256": "b9ce56a8f84d40b692b8acc856b3a948a1bab227399301f1985fb512bbfaf3e8",
+    "source_member_sha256": "7cda55585af2aa4eb14d56b3f8caf8bea480f7323585bee9c5977fb3e265ea14",
+    "label_sha256": null,
+    "person_xyxy": [
+      196,
+      92,
+      299,
+      234
+    ],
+    "context_xyxy": [
+      169,
+      64,
+      340,
+      240
+    ],
+    "crop_sha256": "2ad78a710b30b282b1abd3904a9daf4d697b73d7ff35ea5d182dd7115af60d84",
+    "input_sha256": "b6ecc56316cb4135e3245f29f3ec64ce36439d94eb526c2bd7c10f0497e17386",
+    "input_pixel_sha256": "6968e579557f69674cdf438280ad6137c84e1a80e271acabcb2f0101caa1cedb",
+    "input_size": 224,
+    "fill": [
+      124,
+      116,
+      104
+    ],
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "draft_reason": "Anchor nam áo xanh trước giữa tương tác mobile trên bàn riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "reserved_holdout_candidate",
+    "frame_id": "PX-068",
+    "source_size": [
+      426,
+      240
+    ],
+    "archive_sha256": "1032c2a2efa77d3b3b5e202aa573dec9a7bfa885760869ae61239f36c694edbf",
+    "family_proposal": "CF-Q137",
+    "input224_qa": "pending_visual_review",
+    "work_context_proposal": "unknown",
+    "work_context_reason": "Đề xuất context sẽ chốt sau QA."
+  }
+]

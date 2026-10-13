@@ -1,0 +1,21 @@
+{
+  "accepted_label_geometry_records": 20,
+  "both_unknown_records": 0,
+  "cli_sha256": "793d914f05efbb5ef88f6679616f96b6bef9535e6226dc21b069804b8648c846",
+  "known_target_cells": 36,
+  "ledger_input_sha256": "cd88dab6bc5b4db0470e523750775aadd271abb49740e343c60f7555112fe8f6",
+  "ledger_output_sha256": "8ecdd7cf15afc79d907574d3e3fce0b0b1bb8a4b8f11dacbd5d1c3ef1368697d",
+  "module_sha256": "ae86526fee12dfb7dc02435f283e4d0f77477eb09b5ddfd107a23c61fa24b3af",
+  "new_independent_groups_proven": 0,
+  "new_train_val_test_assignments": 0,
+  "owner_decisions_ref": "artifacts/reports/E004-source-review-20261011/support-expansion-20261012/owner-decisions-20261013.json",
+  "owner_decisions_sha256": "7c2c98c62f818b3a3df70e72c7f06b51c4d4bbf314d9657ca8ed38b6483fa1ad",
+  "split": null,
+  "usage": "review_only",
+  "owner_statement": "tôi đã approve toàn bộ crop mà bạn đề xuất.",
+  "review_markdown_sha256": "fa0581bf19a15cb8292e13c1b33ac7dddb1c3f269afbb456e32ccb8088f9992a",
+  "qa_sha256": "942e4976898f3794cf88c00971e7e314c5d2416bedc013bab0d7cc441ecfc000",
+  "exception_C008": "U/P accepted after input QA",
+  "historical_review_markdown_pin_mismatch": "Owner changed 20 decision cells to Approve; preserve received bytes, do not reseal old validation",
+  "accepted_ledger": "data/interim/E004-source-review-20261011/support-expansion-20261012/owner-review-20261013/accepted/ledger.jsonl"
+}

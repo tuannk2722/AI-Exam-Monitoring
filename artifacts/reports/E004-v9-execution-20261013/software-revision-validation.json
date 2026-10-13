@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "tests": "16 adaptation tests including v1 regression and explicit v2 waiver scope rejection",
+  "ruff": "PASS",
+  "mypy_adaptation_data": "PASS",
+  "diff_whitespace": "PASS",
+  "modified_code": {
+    "src/ai_exam_monitoring/training/adaptation_data.py": "0e10046ed09720dca64cd77d51b3f3f7feaaaff26a5805e2cad534504efdaa8f"
+  },
+  "v1_gates_preserved": true,
+  "v2_no_fake_independence": true,
+  "final_test_guard_not_relaxed": true
+}

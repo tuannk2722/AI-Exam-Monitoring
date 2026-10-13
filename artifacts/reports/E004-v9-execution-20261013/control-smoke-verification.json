@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "reload_score_max_abs_error": 5.960464477539063e-08,
+  "backbone_all_params_and_buffers_unchanged": true,
+  "head_changed": [
+    "weight",
+    "bias"
+  ],
+  "epoch_boundary_resume": true,
+  "seconds": 252.50746780005284,
+  "run_sha256": "6c19e0738b2c1a3ecd59204098a9997093020cf11c4bc21e50820f546223cfc2"
+}

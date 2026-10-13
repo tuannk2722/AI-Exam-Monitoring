@@ -1,0 +1,18 @@
+{
+  "status": "accepted",
+  "package": "data/processed/pilot-b/pilot-b-20261013-v9",
+  "checksums_sha256": "ad0959205c24bbbde8cd009335429dab4df4762dac97818608e46cab82b75c73",
+  "config": {
+    "path": "configs/datasets/pilot_b_release_v9.yaml",
+    "sha256": "caa01b1717d9c64a3a01f69d2448c5765e8b6b0fd7ce94eee6a3f8a1b82dd9ce"
+  },
+  "approval": {
+    "path": "artifacts/reports/E004-v9-consolidation-20261013/owner-release-implementation.json",
+    "sha256": "606b08ab3d32b718a510864e598e12430da7d65f32e587be3cd21747ebe3bfed"
+  },
+  "build_receipt_sha256": "c7b5c4d3131101f888673d734f354a4b079ce2fab58e4a5a4f9c8cb0855e9cbf",
+  "loader_verification_sha256": "2268875af85f7584b289aebdd1751a80ddad2b9e5e5c4bbafb133b0b5af63ec6",
+  "manifest_sha256": "27d6123f20de1664188befb3eae3226a076fb0b2bf8334690610584443eb5142",
+  "ledger_sha256": "1410a7e85aaf2012ea57bc5dd18a267179821488f8fbec1a74b7e6f6174a97cf",
+  "role_membership_sha256": "078329883c09f5310c22affa5acf2e382a1a0a278c46d21d390d616fea3c5172"
+}

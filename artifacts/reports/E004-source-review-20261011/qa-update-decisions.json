@@ -1,0 +1,20 @@
+{
+  "status": "draft_agent_native_followup_not_owner_acceptance",
+  "supersedes_qa_counts_only": "pilot-input224-review.json",
+  "canonical_labels_and_assignments_changed": false,
+  "overrides": {
+    "E004-CN-005": {"states": ["N", "P"], "reason": "Native cho thấy head hướng sang trái ngoài giấy riêng; hai tay ở giấy, không giữ looking N."},
+    "E004-CN-006": {"states": ["N", "U"], "reason": "Hai tay/giấy rõ nhưng tóc che gaze tại 224; không lấy tư thế đọc làm looking N."},
+    "E004-CN-013": {"states": ["N", "P"], "reason": "Native cho thấy head hướng sang trái ngoài giấy riêng; bỏ looking N ban đầu."},
+    "E004-CN-032": {"states": ["U", "P"], "reason": "Native cho thấy một tay dưới bàn; phone N không đủ evidence, giữ U. Head/gaze sang bên rõ."},
+    "E004-CN-034": {"states": ["N", "U"], "reason": "Tay/bút/giấy quan sát được; tóc che gaze, giữ looking U thay vì lấy writing làm N."},
+    "E004-CN-035": {"states": ["U", "U"], "reason": "Crop cũ clip bàn tay của anchor; superseded bởi E004-CN-035-R2, không đếm hai versions."},
+    "E004-CN-050": {"states": ["U", "N"], "reason": "Vùng tay sát mặt/bài còn bị che và low-detail tại 224; phone absence chưa đủ, looking về bài riêng giữ draft N."}
+  },
+  "added_review": {
+    "candidate_id": "E004-CN-035-R2",
+    "states": ["N", "P"],
+    "reason": "Recrop giữ cả bàn tay cầm bút và tay trên giấy; absence mobile có thể review tại 224, head/gaze sang bên ngoài bài.",
+    "media_directory": "data/interim/E004-source-review-20261011/pilot-native-followup/E004-CN-035-R2"
+  }
+}

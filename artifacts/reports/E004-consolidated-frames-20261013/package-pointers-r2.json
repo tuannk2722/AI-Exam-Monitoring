@@ -1,0 +1,28 @@
+{
+  "packages": [
+    {
+      "role": "new_development",
+      "path": "data/processed/e004-cohorts/E004-CF-development-20261013-r2",
+      "status": "prepared_pending_gates",
+      "records": 12,
+      "reviewed_crops": 12,
+      "checksums_sha256": "0f04aaf62d0adeeb69fbd1e46906c9996680cfee4e030da38ceeb836b8f190a8",
+      "deterministic_rebuild": "PASS",
+      "manifest_present": false
+    },
+    {
+      "role": "reserved_holdout_candidate",
+      "path": "data/processed/e004-cohorts/E004-CF-holdout-reserve-20261013-r2",
+      "status": "prepared_pending_gates",
+      "records": 21,
+      "reviewed_crops": 21,
+      "checksums_sha256": "049fc346e5ffcb9609e1a24c26545832e249625d4dbf284f840e5e2bcf6d003a",
+      "deterministic_rebuild": "PASS",
+      "manifest_present": false
+    }
+  ],
+  "supersedes": "package-pointers.json",
+  "reason": "Card now describes source coverage generically; original versions preserved",
+  "training_started": false,
+  "test_accessed": false
+}

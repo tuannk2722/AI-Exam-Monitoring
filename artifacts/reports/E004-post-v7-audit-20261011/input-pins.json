@@ -1,0 +1,212 @@
+{
+  "AGENTS.md": {
+    "locator": "active",
+    "sha256": "f2c3752d4b386e833839ea6b1c00e24f72f4411f351f0ebe1066e2c131150ad4",
+    "size": 4798
+  },
+  "artifacts/reports/E004-v7-fit-audit-20261010/comparator-proposal.json": {
+    "locator": "active",
+    "sha256": "117e158b3af00a30f008d23ca3ad4f97e4c540120ef68bd40f34f7f94b9f1232",
+    "size": 4261
+  },
+  "artifacts/reports/E004-v7-fit-audit-20261010/pair-join.json": {
+    "locator": "active",
+    "sha256": "f73e4129a138ed7f69928ede7b93058b5201f982760aa06398837cdb66d49029",
+    "size": 77991
+  },
+  "artifacts/reports/pilot-b-v7-audit-r8-20261009/input224-r3/input224-findings.json": {
+    "locator": "archive/history-20261010.zip#artifacts/reports/pilot-b-v7-audit-r8-20261009/input224-r3/input224-findings.json",
+    "sha256": "091eec73349bedd48bb4d38f785e0e7977ec2bd6763ff79607ca8be6c0cbfe20",
+    "size": 232903
+  },
+  "artifacts/reports/pilot-b-v7-audit-r8-20261009/input224-r3/ownership-findings.json": {
+    "locator": "archive/history-20261010.zip#artifacts/reports/pilot-b-v7-audit-r8-20261009/input224-r3/ownership-findings.json",
+    "sha256": "f063411d8c57378ee076f88a9ea9dc0f1311e189c45c301ec5a75266d173762c",
+    "size": 82811
+  },
+  "artifacts/reports/pilot-b-v7-release-20261010/new-source-provenance.jsonl": {
+    "locator": "active",
+    "sha256": "1c2206e6d4469e63cad61fb29a45843b6b3ecf971b96752eb8a3c1b6ecfbbffe",
+    "size": 2175410
+  },
+  "artifacts/reports/pilot-b-v7-release-20261010/owner-approval.json": {
+    "locator": "active",
+    "sha256": "a92984887fd15a1fe74429cc4c862f78be8594016d1221e02d94d2f581e7db81",
+    "size": 2633
+  },
+  "artifacts/reports/pilot-b-v7-release-20261010/rebuild-verification.json": {
+    "locator": "active",
+    "sha256": "64fea192facaf6cbd81932493c51982d33e18c284eff5f47df936675cc5b043d",
+    "size": 577
+  },
+  "artifacts/reports/pilot-b-v7-release-20261010/release-pointer.json": {
+    "locator": "active",
+    "sha256": "bf3cbf10907f373439c57510c493509c6698b7c65b4fe8f2dd89ed28563ca748",
+    "size": 3415
+  },
+  "artifacts/reports/pilot-b-v7-release-20261010/verification.json": {
+    "locator": "active",
+    "sha256": "dc3f9c159af5d43e9dc4b17d9d8b1dd9ef8d18b6f46d3b3c93a388d9c1cd2daa",
+    "size": 1672
+  },
+  "artifacts/reports/pilot-b-v7-targeted-20261008/parent-fingerprints-metadata.json": {
+    "locator": "archive/history-20261010.zip#artifacts/reports/pilot-b-v7-targeted-20261008/parent-fingerprints-metadata.json",
+    "sha256": "e54977c378e6d1a0fbfd1c6feded42ccfb4bd8232b926613c7b5803d2d58fd46",
+    "size": 113418
+  },
+  "configs/datasets/pilot_b_release_v7.yaml": {
+    "locator": "active",
+    "sha256": "25ca3fe13ed2d4104d278d9261d3b90938129a526aa3cd5586e7fa08a447527d",
+    "size": 3345
+  },
+  "configs/experiments/E003.yaml": {
+    "locator": "active",
+    "sha256": "e080a56dd676bf73cbc5e473a2683de7d13bfbdea406c2e407c725bc4f0424c1",
+    "size": 1490
+  },
+  "configs/experiments/E004-plan.yaml": {
+    "locator": "active",
+    "sha256": "8c7e2d19fd65b0f475f8801bc71bbab688424e8721f5d73dff607640934f2b09",
+    "size": 3436
+  },
+  "data/interim/pilot-b/v7-targeted-review-20261008-r7/pairs.json": {
+    "locator": "archive/history-20261010.zip#data/interim/pilot-b/v7-targeted-review-20261008-r7/pairs.json",
+    "sha256": "b49b71d2e89957c8e413b5005d5e7c9e29c5b36d3f4d2bb2d9ee21543817c154",
+    "size": 54602
+  },
+  "data/processed/pilot-b/pilot-b-20261007-v5/manifest.jsonl": {
+    "locator": "active",
+    "sha256": "f7ce29341c2b7ae535d1bffb930edd4c83d3847b961a41f49da98ea6fb194ab2",
+    "size": 390623
+  },
+  "data/processed/pilot-b/pilot-b-20261007-v6/manifest.jsonl": {
+    "locator": "active",
+    "sha256": "9fac24a0e3e02cb38675cbbf071366ea0702993c0c2013dcdd25645c57a194f7",
+    "size": 1509122
+  },
+  "data/processed/pilot-b/pilot-b-20261007-v6/review-ledger.jsonl": {
+    "locator": "active",
+    "sha256": "c8873f46512a45c6eec6312a87dde3e2177feffe6fb759c71fa54f2e99d47ec8",
+    "size": 2022053
+  },
+  "data/processed/pilot-b/pilot-b-20261010-v7/manifest.jsonl": {
+    "locator": "active",
+    "sha256": "3fc53fedf12b34d0e271effb6af3046b2073b1ceebad3a6300d0e256e3dd1ede",
+    "size": 3065719
+  },
+  "data/processed/pilot-b/pilot-b-20261010-v7/release.json": {
+    "locator": "active",
+    "sha256": "4ed29e1f262e4903e08be475a2aae932770e438a90be03a4e2b883265a0854d8",
+    "size": 68864
+  },
+  "data/processed/pilot-b/pilot-b-20261010-v7/review-ledger.jsonl": {
+    "locator": "active",
+    "sha256": "a81ce7f669ce496fef2cf719c2953e6d4ff5c2b996dabb39f6ba0ef0f13df4a0",
+    "size": 3716697
+  },
+  "data/processed/pilot-b/pilot-b-20261010-v7/split-assignment.jsonl": {
+    "locator": "active",
+    "sha256": "cbf2fe185b6cef3d3c476c703313f22fab4bf94e86deed8dced22b3bcd3252bd",
+    "size": 130066
+  },
+  "docs/data.md": {
+    "locator": "active",
+    "sha256": "d38bf890ec2975334233cb0884aa0d53235d7507c6d48c43c90539512dc89c07",
+    "size": 8599
+  },
+  "docs/decisions.md": {
+    "locator": "active",
+    "sha256": "a06c440d5a2397ed19b2e5406e652e6e0c172014a0e1972f67028f1bf62a2f34",
+    "size": 4133
+  },
+  "docs/decisions/ADR-011-person-unit-phone-definition.md": {
+    "locator": "git:ab34b32:docs/decisions/ADR-011-person-unit-phone-definition.md",
+    "sha256": "6753a874e9645687a4b8a45bea5d7fe676820e28b8c9a385e3d0a5faf050667d",
+    "size": 3227
+  },
+  "docs/decisions/ADR-012-formulation-b-multilabel.md": {
+    "locator": "git:ab34b32:docs/decisions/ADR-012-formulation-b-multilabel.md",
+    "sha256": "fcf7d6ee13859f508f07748db45755c0ddbf97fd446d568d1d84865158c83cef",
+    "size": 3721
+  },
+  "docs/decisions/ADR-013-pilot-b-packaging-contract.md": {
+    "locator": "git:ab34b32:docs/decisions/ADR-013-pilot-b-packaging-contract.md",
+    "sha256": "e19fced496c67692935cce6920646b61c23d408e6c37109611a25b9345cb1a79",
+    "size": 2766
+  },
+  "docs/decisions/ADR-017-e004-classifier-promotion-gates.md": {
+    "locator": "git:ab34b32:docs/decisions/ADR-017-e004-classifier-promotion-gates.md",
+    "sha256": "a8da29da58023909ac05b7b4ff206361f10c1cce1d745adf30d54f28ea159f1e",
+    "size": 9701
+  },
+  "docs/decisions/ADR-018-v7-mobile-phone-boundary.md": {
+    "locator": "git:ab34b32:docs/decisions/ADR-018-v7-mobile-phone-boundary.md",
+    "sha256": "1dee683f55182c805290536ac9d14fed345d5f92ceac0296b4f187d31f43748a",
+    "size": 1719
+  },
+  "docs/operations.md": {
+    "locator": "active",
+    "sha256": "799290cb22f027af8dcc255bfb5b253c222e646e583e16cca1248fdb69afc536",
+    "size": 6853
+  },
+  "docs/reference.md": {
+    "locator": "active",
+    "sha256": "704a48461d3393d4395f60d680893ef000b966e00f127c68b9f8b751b16fed3f",
+    "size": 11569
+  },
+  "docs/system.md": {
+    "locator": "active",
+    "sha256": "ff0cbd16c276fcc93e5fba5a256ca10b455816d43017f14e072aa50a60c45201",
+    "size": 10151
+  },
+  "docs/training.md": {
+    "locator": "active",
+    "sha256": "783b15b7c32e92ab2511b7430fbc9a56ff318f05a45caff635459af2ddc0f377",
+    "size": 6221
+  },
+  "outputs/E003/predictions-val.json": {
+    "locator": "active",
+    "sha256": "19311c32a1943cef682767899c3fc78502fd925717d357e8f69b8010030f8e00",
+    "size": 18420
+  },
+  "outputs/v7-owner-execution-20261010-r3/staging-crops.jsonl": {
+    "locator": "archive/history-20261010.zip#outputs/v7-owner-execution-20261010-r3/staging-crops.jsonl",
+    "sha256": "b2e26efc53085752b731800da44e7ad31bc717c15cc07a322d7cadea717a9ba6",
+    "size": 288221
+  },
+  "outputs/v7-owner-review-r5-20261009/review-proposals.jsonl": {
+    "locator": "archive/history-20261010.zip#outputs/v7-owner-review-r5-20261009/review-proposals.jsonl",
+    "sha256": "a75071f1628347acf453cb15f5507c2855c56d120d7581bcc260374e5dc272cb",
+    "size": 641873
+  },
+  "outputs/v7-r8-owner-review-20261009-r6/review-proposals.jsonl": {
+    "locator": "archive/history-20261010.zip#outputs/v7-r8-owner-review-20261009-r6/review-proposals.jsonl",
+    "sha256": "46e66b353bd8656151a3b9d95f23e6c4d3152834feaf92997354ec18a1225926",
+    "size": 22006
+  },
+  "src/ai_exam_monitoring/training/config.py": {
+    "locator": "active",
+    "sha256": "ab2a47bac6c38c1876a0101c8574341ca3a10f23ba318ee938b43e91d18c49b2",
+    "size": 4986
+  },
+  "src/ai_exam_monitoring/training/evaluate.py": {
+    "locator": "active",
+    "sha256": "1bec8f266439e9fd57b189f58731c25515cc5232de113ed98a68198c981f6c09",
+    "size": 5219
+  },
+  "src/ai_exam_monitoring/training/metrics.py": {
+    "locator": "active",
+    "sha256": "a92454b52bda1f62b25f8b3991bc55902b4f3ec6cb68586a96990e0323a67d65",
+    "size": 4225
+  },
+  "src/ai_exam_monitoring/training/model.py": {
+    "locator": "active",
+    "sha256": "dd1ac6ddacbdbb306e4496085317beee13ce937a12f1ae6dc1913dae1046716b",
+    "size": 4355
+  },
+  "src/ai_exam_monitoring/training/train.py": {
+    "locator": "active",
+    "sha256": "c82c1d280d4cc7e80ede0f3ceb6147a8231992fecf462403f54e39c3280f47c0",
+    "size": 14008
+  }
+}

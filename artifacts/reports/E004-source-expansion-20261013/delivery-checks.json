@@ -1,0 +1,37 @@
+{
+  "status": "PASS_local_delivery_with_unstaged_git_files",
+  "checks": [
+    {
+      "name": "repository",
+      "exit_code": 0,
+      "output": "Checking Git index (including staged files; ignored/untracked files excluded)\r\nRepository check complete; failures=0\r\n"
+    },
+    {
+      "name": "git_delivery",
+      "exit_code": 1,
+      "output": "Checking Git index (including staged files; ignored/untracked files excluded)\r\nERROR: required delivery file not in Git index: archive/e004-source-expansion-20261013.zip.dvc\r\nERROR: required delivery file not in Git index: configs/datasets/e004_source_review_20261011.yaml\r\nERROR: required delivery file not in Git index: configs/datasets/pilot_b_release_v8.yaml\r\nERROR: required delivery file not in Git index: configs/experiments/E004-data-execution-20261011.md\r\nERROR: required delivery file not in Git index: configs/experiments/E004-execution-readiness-20261012.md\r\nERROR: required delivery file not in Git index: configs/experiments/E004-freeze-proposal-20261011.md\r\nERROR: required delivery file not in Git index: scripts/build_source_review_batch.py\r\nERROR: required delivery file not in Git index: scripts/import_crop_review.py\r\nERROR: required delivery file not in Git index: scripts/prepare_source_review.py\r\nERROR: required delivery file not in Git index: src/ai_exam_monitoring/data/review_acceptance.py\r\nERROR: required delivery file not in Git index: src/ai_exam_monitoring/data/source_lineage.py\r\nERROR: required delivery file not in Git index: src/ai_exam_monitoring/data/source_review.py\r\nERROR: required delivery file not in Git index: src/ai_exam_monitoring/training/adaptation_config.py\r\nERROR: required delivery file not in Git index: src/ai_exam_monitoring/training/adaptation_data.py\r\nERROR: required delivery file not in Git index: src/ai_exam_monitoring/training/adaptation_evaluate.py\r\nERROR: required delivery file not in Git index: src/ai_exam_monitoring/training/adaptation_metrics.py\r\nERROR: required delivery file not in Git index: src/ai_exam_monitoring/training/adaptation_model.py\r\nERROR: required delivery file not in Git index: src/ai_exam_monitoring/training/adaptation_train.py\r\nERROR: required delivery file not in Git index: src/ai_exam_monitoring/training/holdout_access.py\r\nERROR: required delivery file not in Git index: tests/fixtures/adaptation_fixture.py\r\nERROR: required delivery file not in Git index: tests/test_holdout_access.py\r\nERROR: required delivery file not in Git index: tests/test_review_acceptance.py\r\nERROR: required delivery file not in Git index: tests/test_source_lineage.py\r\nERROR: required delivery file not in Git index: tests/test_source_review.py\r\nERROR: required delivery file not in Git index: tests/test_training_adaptation.py\r\nRepository check complete; failures=25\r\n"
+    },
+    {
+      "name": "diff",
+      "exit_code": 0,
+      "output": "warning: in the working copy of '.codex/TASK.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'archive/index.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'configs/experiments/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/status.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of '.codex/TASK.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'archive/index.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'configs/experiments/README.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/status.md', LF will be replaced by CRLF the next time Git touches it\n .codex/TASK.md                               | 26 ++++++++++-----------\n AGENTS.md                                    |  2 +-\n archive/index.json                           | 18 +++++++++++++++\n artifacts/reports/README.md                  |  6 +++++\n configs/experiments/E004-proposal.md         |  6 +++--\n configs/experiments/README.md                |  5 +++-\n docs/decisions.md                            |  2 +-\n docs/reference.md                            | 14 ++++++++++--\n docs/status.md                               | 14 +++++++-----\n src/ai_exam_monitoring/data/pilot_package.py |  2 +-\n src/ai_exam_monitoring/training/data.py      | 34 +++++++++++++++++++++++-----\n src/ai_exam_monitoring/training/evaluate.py  | 14 ++++++++++--\n src/ai_exam_monitoring/training/train.py     |  7 ++++++\n 13 files changed, 114 insertions(+), 36 deletions(-)\n M archive/index.json\n?? archive/e004-source-expansion-20261013.zip.dvc\n?? configs/datasets/pilot_b_release_v8.yaml\n"
+    }
+  ],
+  "scope": "Dataset/metadata/documentation and local backup only; no new production code changes in this task.",
+  "git_index_note": "Strict --require-git reports 25 unstaged delivery paths: 23 pre-existing plus new V8 config and archive DVC pointer. No files staged or committed.",
+  "cleanup": {
+    "task_scratch_removed": true,
+    "python_cache_directories_removed": 5,
+    "review_media_retained_as_evidence": true
+  },
+  "training_started": false,
+  "remote_upload": false,
+  "markdown_links_checked": 87,
+  "html_media_links_checked": 995,
+  "html_unique_crop_cards": 199,
+  "batch_snapshot_pins": "PASS",
+  "release_pointer_pins": "PASS",
+  "json_parse": "PASS",
+  "final_scratch_absent": true,
+  "final_source_script_caches_absent": true
+}

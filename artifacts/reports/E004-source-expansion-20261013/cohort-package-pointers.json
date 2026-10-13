@@ -1,0 +1,24 @@
+{
+  "packages": [
+    {
+      "role": "new_development",
+      "path": "data/processed/e004-cohorts/E004-EX-development-20261013",
+      "status": "prepared_pending_gates",
+      "records": 47,
+      "checksums_sha256": "08a444b53b4dea82fb4a01c89e5b105542394d58e8cddd77b1c90580f58d12c9",
+      "deterministic_rebuild": "PASS",
+      "manifest_present": false
+    },
+    {
+      "role": "reserved_holdout_candidate",
+      "path": "data/processed/e004-cohorts/E004-EX-holdout-reserve-20261013",
+      "status": "prepared_pending_gates",
+      "records": 125,
+      "checksums_sha256": "cbfc09940deb95a1f2bf7b8f6be1383eef3de040be882e8203681472932b44fc",
+      "deterministic_rebuild": "PASS",
+      "manifest_present": false
+    }
+  ],
+  "prior_packages_preserved": true,
+  "final_test_frozen": false
+}

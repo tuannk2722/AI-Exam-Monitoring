@@ -1,0 +1,811 @@
+{
+  "accepted_complete_phenotype_taxonomy_rows": 0,
+  "by_acquisition_bucket_draft": {
+    "A": {
+      "combinations": {
+        "NN": 20,
+        "NP": 2,
+        "NU": 2,
+        "PN": 2,
+        "PP": 8,
+        "PU": 22
+      },
+      "fully_known": 32,
+      "looking": {
+        "N": 22,
+        "P": 10,
+        "U": 24
+      },
+      "phone": {
+        "N": 24,
+        "P": 32,
+        "U": 0
+      },
+      "records": 56,
+      "registered_groups": 56
+    },
+    "B": {
+      "combinations": {
+        "NN": 26,
+        "NP": 4,
+        "NU": 4,
+        "PU": 37,
+        "UN": 2,
+        "UP": 1
+      },
+      "fully_known": 30,
+      "looking": {
+        "N": 28,
+        "P": 5,
+        "U": 41
+      },
+      "phone": {
+        "N": 34,
+        "P": 37,
+        "U": 3
+      },
+      "records": 74,
+      "registered_groups": 70
+    },
+    "C": {
+      "combinations": {
+        "NN": 3,
+        "NP": 1,
+        "UN": 48,
+        "UP": 47
+      },
+      "fully_known": 4,
+      "looking": {
+        "N": 51,
+        "P": 48,
+        "U": 0
+      },
+      "phone": {
+        "N": 4,
+        "P": 0,
+        "U": 95
+      },
+      "records": 99,
+      "registered_groups": 82
+    },
+    "D": {
+      "combinations": {
+        "NN": 1,
+        "PN": 1,
+        "PP": 2,
+        "PU": 25,
+        "UN": 5,
+        "UP": 2
+      },
+      "fully_known": 4,
+      "looking": {
+        "N": 7,
+        "P": 4,
+        "U": 25
+      },
+      "phone": {
+        "N": 1,
+        "P": 28,
+        "U": 7
+      },
+      "records": 36,
+      "registered_groups": 34
+    },
+    "unknown": {
+      "combinations": {
+        "NN": 27,
+        "NP": 2,
+        "NU": 1,
+        "PN": 10,
+        "PP": 10,
+        "PU": 24,
+        "UN": 18,
+        "UP": 18
+      },
+      "fully_known": 49,
+      "looking": {
+        "N": 55,
+        "P": 30,
+        "U": 25
+      },
+      "phone": {
+        "N": 30,
+        "P": 44,
+        "U": 36
+      },
+      "records": 110,
+      "registered_groups": 63
+    }
+  },
+  "by_domain": {
+    "auxiliary_educational_event": {
+      "combinations": {
+        "PU": 1
+      },
+      "fully_known": 0,
+      "looking": {
+        "N": 0,
+        "P": 0,
+        "U": 1
+      },
+      "phone": {
+        "N": 0,
+        "P": 1,
+        "U": 0
+      },
+      "records": 1,
+      "registered_groups": 1
+    },
+    "auxiliary_home_learning": {
+      "combinations": {
+        "PN": 1
+      },
+      "fully_known": 1,
+      "looking": {
+        "N": 1,
+        "P": 0,
+        "U": 0
+      },
+      "phone": {
+        "N": 0,
+        "P": 1,
+        "U": 0
+      },
+      "records": 1,
+      "registered_groups": 1
+    },
+    "auxiliary_out_of_exam": {
+      "combinations": {
+        "NN": 26,
+        "NP": 6,
+        "NU": 6,
+        "PN": 1,
+        "PP": 8,
+        "PU": 37,
+        "UN": 29,
+        "UP": 14
+      },
+      "fully_known": 41,
+      "looking": {
+        "N": 56,
+        "P": 28,
+        "U": 43
+      },
+      "phone": {
+        "N": 38,
+        "P": 46,
+        "U": 43
+      },
+      "records": 127,
+      "registered_groups": 118
+    },
+    "auxiliary_workshop": {
+      "combinations": {
+        "PN": 1,
+        "PP": 1,
+        "PU": 1
+      },
+      "fully_known": 2,
+      "looking": {
+        "N": 1,
+        "P": 1,
+        "U": 1
+      },
+      "phone": {
+        "N": 0,
+        "P": 3,
+        "U": 0
+      },
+      "records": 3,
+      "registered_groups": 1
+    },
+    "classroom_or_exam_context": {
+      "combinations": {
+        "NN": 39,
+        "NP": 3,
+        "NU": 1,
+        "PN": 7,
+        "PP": 7,
+        "PU": 59,
+        "UN": 36,
+        "UP": 44
+      },
+      "fully_known": 56,
+      "looking": {
+        "N": 82,
+        "P": 54,
+        "U": 60
+      },
+      "phone": {
+        "N": 43,
+        "P": 73,
+        "U": 80
+      },
+      "records": 196,
+      "registered_groups": 144
+    },
+    "classroom_or_learning_context_pending_anchor_review": {
+      "combinations": {
+        "NN": 6,
+        "PN": 3,
+        "PP": 3,
+        "PU": 8,
+        "UN": 5,
+        "UP": 5
+      },
+      "fully_known": 12,
+      "looking": {
+        "N": 14,
+        "P": 8,
+        "U": 8
+      },
+      "phone": {
+        "N": 6,
+        "P": 14,
+        "U": 10
+      },
+      "records": 30,
+      "registered_groups": 13
+    },
+    "computer_room_education_context_unverified": {
+      "combinations": {
+        "PU": 1
+      },
+      "fully_known": 0,
+      "looking": {
+        "N": 0,
+        "P": 0,
+        "U": 1
+      },
+      "phone": {
+        "N": 0,
+        "P": 1,
+        "U": 0
+      },
+      "records": 1,
+      "registered_groups": 1
+    },
+    "educational_workshop_context": {
+      "combinations": {
+        "PP": 1,
+        "UN": 1
+      },
+      "fully_known": 1,
+      "looking": {
+        "N": 1,
+        "P": 1,
+        "U": 0
+      },
+      "phone": {
+        "N": 0,
+        "P": 1,
+        "U": 1
+      },
+      "records": 2,
+      "registered_groups": 1
+    },
+    "public_auxiliary_or_classroom_context_pending_review": {
+      "combinations": {
+        "NN": 6,
+        "PU": 1,
+        "UN": 2,
+        "UP": 5
+      },
+      "fully_known": 6,
+      "looking": {
+        "N": 8,
+        "P": 5,
+        "U": 1
+      },
+      "phone": {
+        "N": 6,
+        "P": 1,
+        "U": 7
+      },
+      "records": 14,
+      "registered_groups": 14
+    }
+  },
+  "by_source": {
+    "classroom_attitude": {
+      "combinations": {
+        "NN": 9,
+        "NP": 1,
+        "PN": 6,
+        "PP": 6,
+        "PU": 56,
+        "UN": 1,
+        "UP": 5
+      },
+      "fully_known": 22,
+      "looking": {
+        "N": 16,
+        "P": 12,
+        "U": 56
+      },
+      "phone": {
+        "N": 10,
+        "P": 68,
+        "U": 6
+      },
+      "records": 84,
+      "registered_groups": 62
+    },
+    "coco_2017_train": {
+      "combinations": {
+        "NN": 6,
+        "NP": 2,
+        "PP": 3,
+        "PU": 17,
+        "UN": 5,
+        "UP": 4
+      },
+      "fully_known": 11,
+      "looking": {
+        "N": 11,
+        "P": 9,
+        "U": 17
+      },
+      "phone": {
+        "N": 8,
+        "P": 20,
+        "U": 9
+      },
+      "records": 37,
+      "registered_groups": 36
+    },
+    "commons_classroom_gapfill": {
+      "combinations": {
+        "NN": 7,
+        "NU": 1,
+        "PN": 5,
+        "PP": 5,
+        "PU": 14,
+        "UN": 8,
+        "UP": 6
+      },
+      "fully_known": 17,
+      "looking": {
+        "N": 20,
+        "P": 11,
+        "U": 15
+      },
+      "phone": {
+        "N": 8,
+        "P": 24,
+        "U": 14
+      },
+      "records": 46,
+      "registered_groups": 19
+    },
+    "exam_cheating_keaor": {
+      "combinations": {
+        "NN": 2,
+        "NP": 1,
+        "UN": 2,
+        "UP": 1
+      },
+      "fully_known": 3,
+      "looking": {
+        "N": 4,
+        "P": 2,
+        "U": 0
+      },
+      "phone": {
+        "N": 3,
+        "P": 0,
+        "U": 3
+      },
+      "records": 6,
+      "registered_groups": 4
+    },
+    "openimages_train_prefix": {
+      "combinations": {
+        "NN": 26,
+        "NP": 4,
+        "NU": 6,
+        "PN": 1,
+        "PP": 5,
+        "PU": 21,
+        "UN": 26,
+        "UP": 15
+      },
+      "fully_known": 36,
+      "looking": {
+        "N": 53,
+        "P": 24,
+        "U": 27
+      },
+      "phone": {
+        "N": 36,
+        "P": 27,
+        "U": 41
+      },
+      "records": 104,
+      "registered_groups": 96
+    },
+    "roboflow_v1": {
+      "combinations": {
+        "NN": 11,
+        "NP": 1,
+        "PN": 1,
+        "PP": 1,
+        "UN": 3,
+        "UP": 13
+      },
+      "fully_known": 14,
+      "looking": {
+        "N": 15,
+        "P": 15,
+        "U": 0
+      },
+      "phone": {
+        "N": 12,
+        "P": 2,
+        "U": 16
+      },
+      "records": 30,
+      "registered_groups": 23
+    },
+    "scb_head": {
+      "combinations": {
+        "NN": 1,
+        "UN": 9,
+        "UP": 22
+      },
+      "fully_known": 1,
+      "looking": {
+        "N": 10,
+        "P": 22,
+        "U": 0
+      },
+      "phone": {
+        "N": 1,
+        "P": 0,
+        "U": 31
+      },
+      "records": 32,
+      "registered_groups": 24
+    },
+    "scb_hrw": {
+      "combinations": {
+        "NN": 3,
+        "UN": 18,
+        "UP": 1
+      },
+      "fully_known": 3,
+      "looking": {
+        "N": 21,
+        "P": 1,
+        "U": 0
+      },
+      "phone": {
+        "N": 3,
+        "P": 0,
+        "U": 19
+      },
+      "records": 22,
+      "registered_groups": 21
+    },
+    "student_behaviour": {
+      "combinations": {
+        "NN": 12
+      },
+      "fully_known": 12,
+      "looking": {
+        "N": 12,
+        "P": 0,
+        "U": 0
+      },
+      "phone": {
+        "N": 12,
+        "P": 0,
+        "U": 0
+      },
+      "records": 12,
+      "registered_groups": 10
+    },
+    "wmf_knowledge_everyone": {
+      "combinations": {
+        "UN": 1,
+        "UP": 1
+      },
+      "fully_known": 0,
+      "looking": {
+        "N": 1,
+        "P": 1,
+        "U": 0
+      },
+      "phone": {
+        "N": 0,
+        "P": 0,
+        "U": 2
+      },
+      "records": 2,
+      "registered_groups": 1
+    }
+  },
+  "cohort_definition": "V7 manifest train IDs absent from V6 full review ledger",
+  "comparator48": {
+    "combinations": {
+      "NN": 8,
+      "NP": 5,
+      "NU": 6,
+      "PP": 2,
+      "PU": 14,
+      "UN": 3,
+      "UP": 10
+    },
+    "fully_known": 15,
+    "looking": {
+      "N": 11,
+      "P": 17,
+      "U": 20
+    },
+    "phone": {
+      "N": 19,
+      "P": 16,
+      "U": 13
+    },
+    "records": 48,
+    "registered_groups": 13
+  },
+  "exact_image_pairs": {
+    "both_endpoints_broad_classroom_by_target": {
+      "looking": 12,
+      "phone": 4
+    },
+    "by_target": {
+      "looking": 17,
+      "phone": 5
+    },
+    "endpoints": 39,
+    "images": 19,
+    "raw_pairs": 22
+  },
+  "explicit_draft_phenotype_tags": {
+    "crowded_ownership": 1,
+    "instruction_context": 1,
+    "looking_side": 2,
+    "matched_looking_negative": 2,
+    "own_paper_visible": 6,
+    "phone_low_light": 1,
+    "phone_partial_hand_occlusion": 1,
+    "phone_small_partial": 1,
+    "same_image_looking_pair": 2
+  },
+  "input224_historical_sha_mismatches": 4,
+  "input224_quality_draft": {
+    "ambiguous": 10,
+    "clear": 94,
+    "unknown": 271
+  },
+  "literal_mentions_not_actual_slice_counts": {
+    "at_ear": {
+      "combinations": {
+        "PN": 1,
+        "PP": 1,
+        "PU": 4
+      },
+      "fully_known": 2,
+      "looking": {
+        "N": 1,
+        "P": 1,
+        "U": 4
+      },
+      "phone": {
+        "N": 0,
+        "P": 6,
+        "U": 0
+      },
+      "records": 6,
+      "registered_groups": 3
+    },
+    "crowded": {
+      "combinations": {
+        "NN": 14,
+        "PN": 2,
+        "PP": 3,
+        "PU": 24,
+        "UN": 8,
+        "UP": 2
+      },
+      "fully_known": 19,
+      "looking": {
+        "N": 24,
+        "P": 5,
+        "U": 24
+      },
+      "phone": {
+        "N": 14,
+        "P": 29,
+        "U": 10
+      },
+      "records": 53,
+      "registered_groups": 50
+    },
+    "desk": {
+      "combinations": {
+        "NN": 1,
+        "PN": 2,
+        "PP": 10,
+        "PU": 26,
+        "UN": 1,
+        "UP": 1
+      },
+      "fully_known": 13,
+      "looking": {
+        "N": 4,
+        "P": 11,
+        "U": 26
+      },
+      "phone": {
+        "N": 1,
+        "P": 38,
+        "U": 2
+      },
+      "records": 41,
+      "registered_groups": 37
+    },
+    "low_detail": {
+      "combinations": {
+        "NN": 1,
+        "PU": 1
+      },
+      "fully_known": 1,
+      "looking": {
+        "N": 1,
+        "P": 0,
+        "U": 1
+      },
+      "phone": {
+        "N": 1,
+        "P": 1,
+        "U": 0
+      },
+      "records": 2,
+      "registered_groups": 2
+    },
+    "own_workarea": {
+      "combinations": {
+        "NN": 18,
+        "NP": 2,
+        "NU": 1,
+        "PN": 3,
+        "PP": 8,
+        "PU": 35,
+        "UN": 27,
+        "UP": 6
+      },
+      "fully_known": 31,
+      "looking": {
+        "N": 48,
+        "P": 16,
+        "U": 36
+      },
+      "phone": {
+        "N": 21,
+        "P": 46,
+        "U": 33
+      },
+      "records": 100,
+      "registered_groups": 89
+    },
+    "partial": {
+      "combinations": {
+        "NN": 1,
+        "NU": 1,
+        "PU": 7,
+        "UN": 3,
+        "UP": 4
+      },
+      "fully_known": 1,
+      "looking": {
+        "N": 4,
+        "P": 4,
+        "U": 8
+      },
+      "phone": {
+        "N": 2,
+        "P": 7,
+        "U": 7
+      },
+      "records": 16,
+      "registered_groups": 15
+    },
+    "read_write": {
+      "combinations": {
+        "NN": 33,
+        "NP": 2,
+        "PN": 4,
+        "PP": 1,
+        "PU": 24,
+        "UN": 16
+      },
+      "fully_known": 40,
+      "looking": {
+        "N": 53,
+        "P": 3,
+        "U": 24
+      },
+      "phone": {
+        "N": 35,
+        "P": 29,
+        "U": 16
+      },
+      "records": 80,
+      "registered_groups": 72
+    },
+    "small": {
+      "combinations": {
+        "PN": 1,
+        "PU": 11
+      },
+      "fully_known": 1,
+      "looking": {
+        "N": 1,
+        "P": 0,
+        "U": 11
+      },
+      "phone": {
+        "N": 0,
+        "P": 12,
+        "U": 0
+      },
+      "records": 12,
+      "registered_groups": 12
+    }
+  },
+  "new_independent_groups_proven": 0,
+  "new_train": {
+    "combinations": {
+      "NN": 77,
+      "NP": 9,
+      "NU": 7,
+      "PN": 13,
+      "PP": 20,
+      "PU": 108,
+      "UN": 73,
+      "UP": 68
+    },
+    "fully_known": 119,
+    "looking": {
+      "N": 163,
+      "P": 97,
+      "U": 115
+    },
+    "phone": {
+      "N": 93,
+      "P": 141,
+      "U": 141
+    },
+    "records": 375,
+    "registered_groups": 289
+  },
+  "new_train_unique_crop_hashes": 375,
+  "new_train_unique_source_images": 327,
+  "ownership_subtype_draft": {
+    "direct_hand_or_own_desk_lap_link_visible": 26,
+    "owner_recrop_or_anchor_delta_pending": 1,
+    "ownership_or_observation_unknown_retained": 7,
+    "unknown": 341
+  },
+  "parent_linked_crop_counts": {
+    "False": 338,
+    "True": 37
+  },
+  "parent_linked_groups": 16,
+  "phone_roi_input224_measured": 3,
+  "primary_exam_camera_verified": 0,
+  "r5_pairs": {
+    "invalid": 24,
+    "raw": 162,
+    "strength": {
+      "same_image": 5,
+      "same_scene": 1,
+      "source_context": 132
+    },
+    "valid": 138
+  },
+  "val49_registered_groups": 14
+}

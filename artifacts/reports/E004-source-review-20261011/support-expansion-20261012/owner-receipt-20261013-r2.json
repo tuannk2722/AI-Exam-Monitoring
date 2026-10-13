@@ -1,0 +1,18 @@
+{
+  "accepted_label_geometry_records": 20,
+  "both_unknown_records": 0,
+  "cli_sha256": "793d914f05efbb5ef88f6679616f96b6bef9535e6226dc21b069804b8648c846",
+  "known_target_cells": 36,
+  "ledger_input_sha256": "1cce6a398282b533b6202bbf3f943dc58df165b062f69d3ba6e34d6eeb68960c",
+  "ledger_output_sha256": "942efef0a9576b18f7686f7779f4769288d7bae684ef72e294e18540103e8832",
+  "module_sha256": "ae86526fee12dfb7dc02435f283e4d0f77477eb09b5ddfd107a23c61fa24b3af",
+  "new_independent_groups_proven": 0,
+  "new_train_val_test_assignments": 0,
+  "owner_decisions_ref": "artifacts/reports/E004-source-review-20261011/support-expansion-20261012/owner-decisions-20261013-r2.json",
+  "owner_decisions_sha256": "523ced58feee01a8adf05f17db3e72818d6293515bf9d08d4fe48ed1d8eae0cd",
+  "split": null,
+  "usage": "review_only",
+  "supersedes": "owner-receipt-20261013.json",
+  "correction": "original_split valid for C005 and C013-C016; labels/geometry unchanged",
+  "ledger_output_ref": "data/interim/E004-source-review-20261011/support-expansion-20261012/owner-review-20261013/accepted-r2/ledger.jsonl"
+}

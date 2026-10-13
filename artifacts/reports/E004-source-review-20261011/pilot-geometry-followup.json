@@ -1,0 +1,100 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "E004-CN-002-R2",
+      "context_xyxy": [
+        814,
+        459,
+        1284,
+        756
+      ],
+      "draft_scene_boundary": "BEH-bright-worktables",
+      "draft_states": [
+        "N",
+        "P"
+      ],
+      "member_sha256": "5b984b7c0fc6d42c395b104e2cfe5fe4c26585e8031bf3314e9b9d0c8f73d598",
+      "owner_approved": false,
+      "person_xyxy": [
+        1058,
+        481,
+        1215,
+        718
+      ],
+      "phenotype": "crowded_shared_worktable",
+      "reason": "Hai tay v? b?n ri?ng quan s?t ???c; mobile ph?a tr?i thu?c anchor b?n c?nh. ??u h??ng sang b?n, kh?ng t? nh?n phone c?a peer.",
+      "review_id": "BEH-00045fefb430c79f-5b984b7c",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "00045fefb430c79f4ba51ef7f91e8e5d053f3bb0a7428171c56139c44707f03e"
+    },
+    {
+      "candidate_id": "E004-CN-041-R2",
+      "context_xyxy": [
+        182,
+        272,
+        266,
+        544
+      ],
+      "draft_scene_boundary": "STU-overhead-train",
+      "draft_states": [
+        "P",
+        "N"
+      ],
+      "member_sha256": "a03df144a89179215a0e01f97ec187f63d39a757805ed0dd1fc1b0e4ffd93d56",
+      "owner_approved": false,
+      "person_xyxy": [
+        195,
+        288,
+        243,
+        512
+      ],
+      "phenotype": "foreign_mobile_crowded_workarea",
+      "reason": "Recrop ??a ??u/anchor tr? l?i context. Mobile g?n v?i tay/b?n c?a anchor; b? ?? xu?t N/N sai c?a crop c?, review l?i t?i 224.",
+      "review_id": "STU-00311dce2cc7fcc4-a03df144",
+      "role_proposal": "train_supplement_candidate",
+      "source_id": "studentclassroombehavior",
+      "source_sha256": "00311dce2cc7fcc4f0dec043a6684ebfd076646baee8f0d4c637bbaba058fe5f"
+    },
+    {
+      "candidate_id": "E004-CN-056",
+      "context_xyxy": [
+        64,
+        265,
+        224,
+        552
+      ],
+      "draft_scene_boundary": "STU-instructional-view-13",
+      "draft_states": [
+        "N",
+        "N"
+      ],
+      "member_sha256": "2b387b6615bcea4fd0304b719bd4834a2643d896fa0c2ae31de7711c3d1dda9a",
+      "owner_approved": false,
+      "person_xyxy": [
+        77,
+        285,
+        198,
+        500
+      ],
+      "phenotype": "writing_versus_hand_to_face",
+      "reason": "Anchor ? h?ng sau vi?t tr?n gi?y ri?ng, c? hai tay ? v?ng b?i; t?o contrast v?i hai foreground anchor nh?n ra ngo?i v?ng b?i.",
+      "review_id": "STU-00328b920815bd7c-2b387b66",
+      "role_proposal": "new_development_candidate_quarantine",
+      "source_id": "studentclassroombehavior",
+      "source_sha256": "00328b920815bd7cee38b1481cf9eb77a39d14853723e7124e342c3f69ed530e"
+    }
+  ],
+  "fill": [
+    124,
+    116,
+    104
+  ],
+  "input_size": 224,
+  "source_inventory_root": "data/interim/E004-source-review-20261011",
+  "status": "draft_pending_exact_crop_input_review_and_owner_acceptance",
+  "target_order": [
+    "phone_use",
+    "looking_around"
+  ]
+}

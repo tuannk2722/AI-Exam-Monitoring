@@ -1,0 +1,64 @@
+status: proposal_pending_exact_cohort_protocol_acceptance
+owner: repository-owner
+parent_dataset: data/processed/pilot-b/pilot-b-20261013-v9
+parent_checksums_sha256: ad0959205c24bbbde8cd009335429dab4df4762dac97818608e46cab82b75c73
+membership:
+  path: artifacts/reports/E004-v9-execution-20261013/cohort-membership.json
+  sha256: d37e27cfcc901d52af19fda3c9e52db66fa71c512ad490390e53c4ccf6a5bff1
+pretrained:
+  path: outputs/pretrained/resnet18-f37072fd.pth
+  sha256: f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec
+weights_receipt:
+  path: outputs/pretrained/receipt.json
+  sha256: b66adeb1718ffd78d3e345b22a93adc0b64c5047bbbd75dc49e65d663c95d714
+seed: 42
+device: cpu
+threads: 4
+batch_size: 16
+workers: 0
+image_size: 224
+mean:
+- 0.485
+- 0.456
+- 0.406
+std:
+- 0.229
+- 0.224
+- 0.225
+fill:
+- 124
+- 116
+- 104
+transform: rgb_letterbox_bilinear_v1
+augmentation: null
+dtype: float32
+optimizer: AdamW
+head_learning_rate: 0.001
+layer4_learning_rate: 0.0001
+weight_decay: 0.0001
+bn_policy: all_eval_affine_follows_model_policy
+objective: global_known_normalized_minibatch_bce_v1
+sampling: uniform_permutation_no_drop_v1
+checkpoint_policy: atomic_epoch_boundary_v1
+patience: 10
+min_delta: 0.0001
+threshold: 0.5
+selection: minimum global macro masked BCE on selection71; first epoch wins ties
+initialization: one shared Linear(512,2) seed42 snapshot, no E003 warm-start
+smoke:
+  ids:
+  - E004-V9-LP-smoke
+  - E004-V9-L4-smoke
+  max_epochs: 2
+  wall_time_seconds_each: 1800
+matched:
+  ids:
+  - E004-V9-LP
+  - E004-V9-L4
+  max_epochs: 50
+  wall_time_seconds_each: 28800
+  condition: smoke PASS, exact configs/approval and revised readiness validated
+model_policies:
+  control: resnet18_matched_control
+  candidate: resnet18_layer4
+final_test_access: false

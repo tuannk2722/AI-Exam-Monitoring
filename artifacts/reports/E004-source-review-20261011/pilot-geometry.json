@@ -1,0 +1,1556 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "E004-CN-001",
+      "context_xyxy": [
+        813,
+        454,
+        1068,
+        756
+      ],
+      "draft_scene_boundary": "BEH-bright-worktables",
+      "draft_states": [
+        "U",
+        "N"
+      ],
+      "member_sha256": "5b984b7c0fc6d42c395b104e2cfe5fe4c26585e8031bf3314e9b9d0c8f73d598",
+      "owner_approved": false,
+      "person_xyxy": [
+        853,
+        475,
+        990,
+        718
+      ],
+      "phenotype": "small_device_or_book",
+      "reason": "Vật nhỏ ở tay/bàn chưa phân biệt chắc mobile; không map phone nguồn sang P.",
+      "review_id": "BEH-00045fefb430c79f-5b984b7c",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "00045fefb430c79f4ba51ef7f91e8e5d053f3bb0a7428171c56139c44707f03e"
+    },
+    {
+      "candidate_id": "E004-CN-002",
+      "context_xyxy": [
+        1000,
+        459,
+        1284,
+        756
+      ],
+      "draft_scene_boundary": "BEH-bright-worktables",
+      "draft_states": [
+        "U",
+        "U"
+      ],
+      "member_sha256": "5b984b7c0fc6d42c395b104e2cfe5fe4c26585e8031bf3314e9b9d0c8f73d598",
+      "owner_approved": false,
+      "person_xyxy": [
+        1058,
+        481,
+        1215,
+        718
+      ],
+      "phenotype": "crowded_shared_worktable",
+      "reason": "Thiếu evidence absence mobile và gaze so vùng bài; giữ U/U làm review phụ.",
+      "review_id": "BEH-00045fefb430c79f-5b984b7c",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "00045fefb430c79f4ba51ef7f91e8e5d053f3bb0a7428171c56139c44707f03e"
+    },
+    {
+      "candidate_id": "E004-CN-003",
+      "context_xyxy": [
+        715,
+        0,
+        1441,
+        1080
+      ],
+      "draft_scene_boundary": "BEH-chair-staging",
+      "draft_states": [
+        "P",
+        "N"
+      ],
+      "member_sha256": "0f38e460078bf92a9231025d852ff9d76b1c8f28d28c344aa4c0d05eb0a7644b",
+      "owner_approved": false,
+      "person_xyxy": [
+        760,
+        5,
+        1392,
+        1064
+      ],
+      "phenotype": "handheld_phone_control",
+      "reason": "Thiết bị dạng mobile gắn với tay/bàn của anchor; kiểm lại phân biệt mobile và ownership tại 224.",
+      "review_id": "BEH-00869141080411f8-0f38e460",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "00869141080411f8892d45d8751a82d825ad4a9f3f9818c004110649bca8aa79"
+    },
+    {
+      "candidate_id": "E004-CN-004",
+      "context_xyxy": [
+        490,
+        405,
+        902,
+        1080
+      ],
+      "draft_scene_boundary": "BEH-yellow-flags",
+      "draft_states": [
+        "U",
+        "P"
+      ],
+      "member_sha256": "29b86b82d62fd8a4b684400a73b23c49ca38f29c002d020d1921cbfbe4030d87",
+      "owner_approved": false,
+      "person_xyxy": [
+        588,
+        437,
+        813,
+        1080
+      ],
+      "phenotype": "side_gaze_workarea",
+      "reason": "Đầu hướng về anchor/bên cạnh, context giữ vùng bài riêng; phone chưa đủ evidence thì U.",
+      "review_id": "BEH-001ce4967d681ff7-29b86b82",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "001ce4967d681ff769e64b70af8a081966e8be64852d9cd10018bdbaead21dc3"
+    },
+    {
+      "candidate_id": "E004-CN-005",
+      "context_xyxy": [
+        764,
+        378,
+        1176,
+        1058
+      ],
+      "draft_scene_boundary": "BEH-yellow-flags",
+      "draft_states": [
+        "N",
+        "N"
+      ],
+      "member_sha256": "29b86b82d62fd8a4b684400a73b23c49ca38f29c002d020d1921cbfbe4030d87",
+      "owner_approved": false,
+      "person_xyxy": [
+        823,
+        416,
+        1107,
+        1042
+      ],
+      "phenotype": "own_paper_pen",
+      "reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+      "review_id": "BEH-001ce4967d681ff7-29b86b82",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "001ce4967d681ff769e64b70af8a081966e8be64852d9cd10018bdbaead21dc3"
+    },
+    {
+      "candidate_id": "E004-CN-006",
+      "context_xyxy": [
+        1176,
+        464,
+        1666,
+        1080
+      ],
+      "draft_scene_boundary": "BEH-yellow-flags",
+      "draft_states": [
+        "N",
+        "N"
+      ],
+      "member_sha256": "29b86b82d62fd8a4b684400a73b23c49ca38f29c002d020d1921cbfbe4030d87",
+      "owner_approved": false,
+      "person_xyxy": [
+        1274,
+        502,
+        1568,
+        1080
+      ],
+      "phenotype": "own_paper_pen",
+      "reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+      "review_id": "BEH-001ce4967d681ff7-29b86b82",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "001ce4967d681ff769e64b70af8a081966e8be64852d9cd10018bdbaead21dc3"
+    },
+    {
+      "candidate_id": "E004-CN-007",
+      "context_xyxy": [
+        245,
+        410,
+        813,
+        1080
+      ],
+      "draft_scene_boundary": "BEH-worn-benches",
+      "draft_states": [
+        "N",
+        "P"
+      ],
+      "member_sha256": "a462c79d347e8dd62eda793cf6a9d20573bc0e6bf93e9916b92377131e19df90",
+      "owner_approved": false,
+      "person_xyxy": [
+        284,
+        448,
+        647,
+        1053
+      ],
+      "phenotype": "side_gaze_versus_writing",
+      "reason": "Đầu hướng về anchor/bên cạnh, context giữ vùng bài riêng; phone chưa đủ evidence thì U. Hai tay/vùng giấy nhìn thấy.",
+      "review_id": "BEH-003a39144c5194f9-a462c79d",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "003a39144c5194f99aa3abd98666930981bd3f4e9dd925b18311bfec6d81ab3c"
+    },
+    {
+      "candidate_id": "E004-CN-008",
+      "context_xyxy": [
+        1049,
+        400,
+        1548,
+        1053
+      ],
+      "draft_scene_boundary": "BEH-worn-benches",
+      "draft_states": [
+        "N",
+        "N"
+      ],
+      "member_sha256": "a462c79d347e8dd62eda793cf6a9d20573bc0e6bf93e9916b92377131e19df90",
+      "owner_approved": false,
+      "person_xyxy": [
+        1117,
+        437,
+        1441,
+        1004
+      ],
+      "phenotype": "own_paper_pen",
+      "reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+      "review_id": "BEH-003a39144c5194f9-a462c79d",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "003a39144c5194f99aa3abd98666930981bd3f4e9dd925b18311bfec6d81ab3c"
+    },
+    {
+      "candidate_id": "E004-CN-009",
+      "context_xyxy": [
+        441,
+        308,
+        853,
+        605
+      ],
+      "draft_scene_boundary": "BEH-worn-benches",
+      "draft_states": [
+        "N",
+        "N"
+      ],
+      "member_sha256": "a462c79d347e8dd62eda793cf6a9d20573bc0e6bf93e9916b92377131e19df90",
+      "owner_approved": false,
+      "person_xyxy": [
+        490,
+        346,
+        755,
+        556
+      ],
+      "phenotype": "own_paper_pen",
+      "reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+      "review_id": "BEH-003a39144c5194f9-a462c79d",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "003a39144c5194f99aa3abd98666930981bd3f4e9dd925b18311bfec6d81ab3c"
+    },
+    {
+      "candidate_id": "E004-CN-010",
+      "context_xyxy": [
+        402,
+        486,
+        823,
+        1042
+      ],
+      "draft_scene_boundary": "BEH-worn-benches",
+      "draft_states": [
+        "U",
+        "U"
+      ],
+      "member_sha256": "a571d0fe0a8a153ed8de649d140a1a100393c7092628fc3527d702316aeccfb7",
+      "owner_approved": false,
+      "person_xyxy": [
+        470,
+        524,
+        735,
+        977
+      ],
+      "phenotype": "hand_to_chin_and_small_object",
+      "reason": "Một tay chống cằm, tay kia giữ vật nhỏ; vật/gaze chưa chắc, không nhận Normal là N.",
+      "review_id": "BEH-003f06dab7466b9e-a571d0fe",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "003f06dab7466b9e539376b0f4e1abb8c5a74110485f18810a6464e153b96deb"
+    },
+    {
+      "candidate_id": "E004-CN-011",
+      "context_xyxy": [
+        990,
+        470,
+        1470,
+        1042
+      ],
+      "draft_scene_boundary": "BEH-worn-benches",
+      "draft_states": [
+        "U",
+        "N"
+      ],
+      "member_sha256": "a571d0fe0a8a153ed8de649d140a1a100393c7092628fc3527d702316aeccfb7",
+      "owner_approved": false,
+      "person_xyxy": [
+        1078,
+        497,
+        1362,
+        977
+      ],
+      "phenotype": "hands_on_small_object",
+      "reason": "Hai tay gần vật nhỏ trên bàn; mobile chưa rõ, looking về vùng tay đề xuất N.",
+      "review_id": "BEH-003f06dab7466b9e-a571d0fe",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "003f06dab7466b9e539376b0f4e1abb8c5a74110485f18810a6464e153b96deb"
+    },
+    {
+      "candidate_id": "E004-CN-012",
+      "context_xyxy": [
+        745,
+        302,
+        1088,
+        578
+      ],
+      "draft_scene_boundary": "BEH-worn-benches",
+      "draft_states": [
+        "U",
+        "N"
+      ],
+      "member_sha256": "a571d0fe0a8a153ed8de649d140a1a100393c7092628fc3527d702316aeccfb7",
+      "owner_approved": false,
+      "person_xyxy": [
+        813,
+        335,
+        1009,
+        529
+      ],
+      "phenotype": "far_anchor_workarea",
+      "reason": "Anchor xa, tay/vật nhỏ chưa đủ phone evidence.",
+      "review_id": "BEH-003f06dab7466b9e-a571d0fe",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "003f06dab7466b9e539376b0f4e1abb8c5a74110485f18810a6464e153b96deb"
+    },
+    {
+      "candidate_id": "E004-CN-013",
+      "context_xyxy": [
+        764,
+        378,
+        1176,
+        1069
+      ],
+      "draft_scene_boundary": "BEH-yellow-flags",
+      "draft_states": [
+        "N",
+        "N"
+      ],
+      "member_sha256": "c67d8c76c00efa49db71140da43448c3767553cdb1ac1598354d1ac34d85da10",
+      "owner_approved": false,
+      "person_xyxy": [
+        833,
+        416,
+        1098,
+        1042
+      ],
+      "phenotype": "own_paper_pen",
+      "reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+      "review_id": "BEH-01308f31b3d603b3-c67d8c76",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "01308f31b3d603b3c78d55ad743cfddd955df034c2ccb57ec4dea8973f451f41"
+    },
+    {
+      "candidate_id": "E004-CN-014",
+      "context_xyxy": [
+        1176,
+        475,
+        1666,
+        1080
+      ],
+      "draft_scene_boundary": "BEH-yellow-flags",
+      "draft_states": [
+        "N",
+        "N"
+      ],
+      "member_sha256": "c67d8c76c00efa49db71140da43448c3767553cdb1ac1598354d1ac34d85da10",
+      "owner_approved": false,
+      "person_xyxy": [
+        1274,
+        513,
+        1568,
+        1080
+      ],
+      "phenotype": "own_paper_pen",
+      "reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+      "review_id": "BEH-01308f31b3d603b3-c67d8c76",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "01308f31b3d603b3c78d55ad743cfddd955df034c2ccb57ec4dea8973f451f41"
+    },
+    {
+      "candidate_id": "E004-CN-015",
+      "context_xyxy": [
+        245,
+        265,
+        657,
+        859
+      ],
+      "draft_scene_boundary": "BEH-yellow-flags",
+      "draft_states": [
+        "U",
+        "P"
+      ],
+      "member_sha256": "c67d8c76c00efa49db71140da43448c3767553cdb1ac1598354d1ac34d85da10",
+      "owner_approved": false,
+      "person_xyxy": [
+        314,
+        297,
+        559,
+        815
+      ],
+      "phenotype": "peer_gaze_and_occluded_hand",
+      "reason": "Đầu hướng về anchor/bên cạnh, context giữ vùng bài riêng; phone chưa đủ evidence thì U.",
+      "review_id": "BEH-01308f31b3d603b3-c67d8c76",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "01308f31b3d603b3c78d55ad743cfddd955df034c2ccb57ec4dea8973f451f41"
+    },
+    {
+      "candidate_id": "E004-CN-016",
+      "context_xyxy": [
+        686,
+        383,
+        1088,
+        664
+      ],
+      "draft_scene_boundary": "BEH-worn-benches",
+      "draft_states": [
+        "N",
+        "N"
+      ],
+      "member_sha256": "d30c96dcd2215585a6a3497e022fd70c19ad1979a61081ad96a463314d7065f7",
+      "owner_approved": false,
+      "person_xyxy": [
+        774,
+        410,
+        980,
+        599
+      ],
+      "phenotype": "bent_writing_negative",
+      "reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+      "review_id": "BEH-001dd0dd3be2fb89-d30c96dc",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "001dd0dd3be2fb894680d8fc558dec3bb499cdfc535a9935007a0551c4dc5a57"
+    },
+    {
+      "candidate_id": "E004-CN-017",
+      "context_xyxy": [
+        804,
+        481,
+        1088,
+        702
+      ],
+      "draft_scene_boundary": "BEH-worn-benches",
+      "draft_states": [
+        "U",
+        "N"
+      ],
+      "member_sha256": "6eb67853624f3f4377fb27b275406312151e219a1b729bae2ef06772cebf26d7",
+      "owner_approved": false,
+      "person_xyxy": [
+        862,
+        508,
+        1000,
+        659
+      ],
+      "phenotype": "far_bent_anchor",
+      "reason": "Anchor xa/desk che phần tay; không source phone box không là N.",
+      "review_id": "BEH-0052b47269485180-6eb67853",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "0052b47269485180483ec77ee7d50a4474ef1f5fd7613301925c588c8c1b6a64"
+    },
+    {
+      "candidate_id": "E004-CN-018",
+      "context_xyxy": [
+        1029,
+        486,
+        1333,
+        718
+      ],
+      "draft_scene_boundary": "BEH-worn-benches",
+      "draft_states": [
+        "U",
+        "N"
+      ],
+      "member_sha256": "6eb67853624f3f4377fb27b275406312151e219a1b729bae2ef06772cebf26d7",
+      "owner_approved": false,
+      "person_xyxy": [
+        1078,
+        513,
+        1264,
+        675
+      ],
+      "phenotype": "far_bent_anchor",
+      "reason": "Nhìn xuống vùng bài, phone absence không quan sát đủ.",
+      "review_id": "BEH-0052b47269485180-6eb67853",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "0052b47269485180483ec77ee7d50a4474ef1f5fd7613301925c588c8c1b6a64"
+    },
+    {
+      "candidate_id": "E004-CN-019",
+      "context_xyxy": [
+        235,
+        400,
+        833,
+        1080
+      ],
+      "draft_scene_boundary": "BEH-worn-benches",
+      "draft_states": [
+        "U",
+        "P"
+      ],
+      "member_sha256": "f56fbe90a7fb05d0c8f460824daab8336cca06ded7a8efb210c53c369ac2bdd4",
+      "owner_approved": false,
+      "person_xyxy": [
+        314,
+        432,
+        657,
+        1048
+      ],
+      "phenotype": "peer_gaze_and_hand_occlusion",
+      "reason": "Đầu hướng về anchor/bên cạnh, context giữ vùng bài riêng; phone chưa đủ evidence thì U.",
+      "review_id": "BEH-0157dcdba9ee5a5b-f56fbe90",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "0157dcdba9ee5a5b16dc412c6d60f5c08af312d53e41572c124242e32eaff65a"
+    },
+    {
+      "candidate_id": "E004-CN-020",
+      "context_xyxy": [
+        1068,
+        383,
+        1548,
+        1069
+      ],
+      "draft_scene_boundary": "BEH-worn-benches",
+      "draft_states": [
+        "U",
+        "P"
+      ],
+      "member_sha256": "f56fbe90a7fb05d0c8f460824daab8336cca06ded7a8efb210c53c369ac2bdd4",
+      "owner_approved": false,
+      "person_xyxy": [
+        1156,
+        427,
+        1450,
+        1037
+      ],
+      "phenotype": "hand_under_table",
+      "reason": "Tay dưới bàn và đầu hướng sang bên; phone giữ U.",
+      "review_id": "BEH-0157dcdba9ee5a5b-f56fbe90",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "0157dcdba9ee5a5b16dc412c6d60f5c08af312d53e41572c124242e32eaff65a"
+    },
+    {
+      "candidate_id": "E004-CN-021",
+      "context_xyxy": [
+        451,
+        335,
+        872,
+        643
+      ],
+      "draft_scene_boundary": "BEH-worn-benches",
+      "draft_states": [
+        "N",
+        "N"
+      ],
+      "member_sha256": "f56fbe90a7fb05d0c8f460824daab8336cca06ded7a8efb210c53c369ac2bdd4",
+      "owner_approved": false,
+      "person_xyxy": [
+        529,
+        378,
+        764,
+        599
+      ],
+      "phenotype": "own_paper_pen",
+      "reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+      "review_id": "BEH-0157dcdba9ee5a5b-f56fbe90",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "0157dcdba9ee5a5b16dc412c6d60f5c08af312d53e41572c124242e32eaff65a"
+    },
+    {
+      "candidate_id": "E004-CN-022",
+      "context_xyxy": [
+        617,
+        248,
+        1264,
+        1080
+      ],
+      "draft_scene_boundary": "BEH-chair-staging",
+      "draft_states": [
+        "P",
+        "P"
+      ],
+      "member_sha256": "5eea837e0feafd11fdd7ea56dcb2282a9f3df0598f32de6906cc022975fdbc4c",
+      "owner_approved": false,
+      "person_xyxy": [
+        696,
+        281,
+        1186,
+        1080
+      ],
+      "phenotype": "phone_and_peer_gaze",
+      "reason": "Thiết bị dạng mobile gắn với tay/bàn của anchor; kiểm lại phân biệt mobile và ownership tại 224. Đầu quay sang người bên cạnh.",
+      "review_id": "BEH-X-6ff292e988cc",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "6ff292e988ccb3b6aeeea113850d33456b318a69e8727f0905d840e36f390950"
+    },
+    {
+      "candidate_id": "E004-CN-023",
+      "context_xyxy": [
+        1196,
+        275,
+        1960,
+        1080
+      ],
+      "draft_scene_boundary": "BEH-chair-staging",
+      "draft_states": [
+        "P",
+        "P"
+      ],
+      "member_sha256": "5eea837e0feafd11fdd7ea56dcb2282a9f3df0598f32de6906cc022975fdbc4c",
+      "owner_approved": false,
+      "person_xyxy": [
+        1274,
+        302,
+        1960,
+        1080
+      ],
+      "phenotype": "phone_and_peer_gaze",
+      "reason": "Thiết bị dạng mobile gắn với tay/bàn của anchor; kiểm lại phân biệt mobile và ownership tại 224. Đầu quay sang người bên cạnh.",
+      "review_id": "BEH-X-6ff292e988cc",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "6ff292e988ccb3b6aeeea113850d33456b318a69e8727f0905d840e36f390950"
+    },
+    {
+      "candidate_id": "E004-CN-024",
+      "context_xyxy": [
+        0,
+        238,
+        617,
+        1080
+      ],
+      "draft_scene_boundary": "BEH-chair-staging",
+      "draft_states": [
+        "P",
+        "U"
+      ],
+      "member_sha256": "5eea837e0feafd11fdd7ea56dcb2282a9f3df0598f32de6906cc022975fdbc4c",
+      "owner_approved": false,
+      "person_xyxy": [
+        49,
+        265,
+        539,
+        1080
+      ],
+      "phenotype": "handheld_phone_back_view",
+      "reason": "Thiết bị dạng mobile gắn với tay/bàn của anchor; kiểm lại phân biệt mobile và ownership tại 224. Back view không đủ gaze.",
+      "review_id": "BEH-X-6ff292e988cc",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "6ff292e988ccb3b6aeeea113850d33456b318a69e8727f0905d840e36f390950"
+    },
+    {
+      "candidate_id": "E004-CN-025",
+      "context_xyxy": [
+        568,
+        383,
+        1715,
+        1080
+      ],
+      "draft_scene_boundary": "BEH-chair-staging",
+      "draft_states": [
+        "N",
+        "N"
+      ],
+      "member_sha256": "ef31ce829ddfbfc53f322c4ccdf0543a6d1870159bab73bcffc6691f9677c370",
+      "owner_approved": false,
+      "person_xyxy": [
+        627,
+        464,
+        1264,
+        1080
+      ],
+      "phenotype": "foreign_mobile_ownership_negative",
+      "reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop. Context có mobile của hàng ghế phía sau; không gán cho foreground anchor.",
+      "review_id": "BEH-X-07d41ccb9d51",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "07d41ccb9d512211d83b9a06ebb28159d496fb513446af98b637945f38894417"
+    },
+    {
+      "candidate_id": "E004-CN-026",
+      "context_xyxy": [
+        461,
+        97,
+        1049,
+        680
+      ],
+      "draft_scene_boundary": "BEH-chair-staging",
+      "draft_states": [
+        "P",
+        "N"
+      ],
+      "member_sha256": "ef31ce829ddfbfc53f322c4ccdf0543a6d1870159bab73bcffc6691f9677c370",
+      "owner_approved": false,
+      "person_xyxy": [
+        519,
+        124,
+        960,
+        610
+      ],
+      "phenotype": "handheld_phone_control",
+      "reason": "Thiết bị dạng mobile gắn với tay/bàn của anchor; kiểm lại phân biệt mobile và ownership tại 224.",
+      "review_id": "BEH-X-07d41ccb9d51",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "07d41ccb9d512211d83b9a06ebb28159d496fb513446af98b637945f38894417"
+    },
+    {
+      "candidate_id": "E004-CN-027",
+      "context_xyxy": [
+        1098,
+        189,
+        1676,
+        767
+      ],
+      "draft_scene_boundary": "BEH-chair-staging",
+      "draft_states": [
+        "P",
+        "N"
+      ],
+      "member_sha256": "ef31ce829ddfbfc53f322c4ccdf0543a6d1870159bab73bcffc6691f9677c370",
+      "owner_approved": false,
+      "person_xyxy": [
+        1176,
+        221,
+        1617,
+        718
+      ],
+      "phenotype": "handheld_phone_control",
+      "reason": "Thiết bị dạng mobile gắn với tay/bàn của anchor; kiểm lại phân biệt mobile và ownership tại 224.",
+      "review_id": "BEH-X-07d41ccb9d51",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "07d41ccb9d512211d83b9a06ebb28159d496fb513446af98b637945f38894417"
+    },
+    {
+      "candidate_id": "E004-CN-028",
+      "context_xyxy": [
+        559,
+        97,
+        1284,
+        1026
+      ],
+      "draft_scene_boundary": "BEH-chair-staging",
+      "draft_states": [
+        "P",
+        "N"
+      ],
+      "member_sha256": "b4ee01d7fb3feb84555b7fced74b443b1f0f930ac6e5d27fec7c979736902833",
+      "owner_approved": false,
+      "person_xyxy": [
+        627,
+        124,
+        1186,
+        999
+      ],
+      "phenotype": "desk_phone_control",
+      "reason": "Thiết bị dạng mobile gắn với tay/bàn của anchor; kiểm lại phân biệt mobile và ownership tại 224.",
+      "review_id": "BEH-X-8e7445860006",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "8e74458600068230ff4b6ec3b117ea5a42d85455e681be004960b55bac64c14f"
+    },
+    {
+      "candidate_id": "E004-CN-029",
+      "context_xyxy": [
+        0,
+        238,
+        637,
+        1080
+      ],
+      "draft_scene_boundary": "BEH-chair-staging",
+      "draft_states": [
+        "P",
+        "N"
+      ],
+      "member_sha256": "b4ee01d7fb3feb84555b7fced74b443b1f0f930ac6e5d27fec7c979736902833",
+      "owner_approved": false,
+      "person_xyxy": [
+        0,
+        270,
+        529,
+        1080
+      ],
+      "phenotype": "desk_phone_control",
+      "reason": "Thiết bị dạng mobile gắn với tay/bàn của anchor; kiểm lại phân biệt mobile và ownership tại 224.",
+      "review_id": "BEH-X-8e7445860006",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "8e74458600068230ff4b6ec3b117ea5a42d85455e681be004960b55bac64c14f"
+    },
+    {
+      "candidate_id": "E004-CN-030",
+      "context_xyxy": [
+        1352,
+        189,
+        1960,
+        1042
+      ],
+      "draft_scene_boundary": "BEH-chair-staging",
+      "draft_states": [
+        "P",
+        "N"
+      ],
+      "member_sha256": "b4ee01d7fb3feb84555b7fced74b443b1f0f930ac6e5d27fec7c979736902833",
+      "owner_approved": false,
+      "person_xyxy": [
+        1411,
+        216,
+        1960,
+        1015
+      ],
+      "phenotype": "desk_phone_control",
+      "reason": "Thiết bị dạng mobile gắn với tay/bàn của anchor; kiểm lại phân biệt mobile và ownership tại 224.",
+      "review_id": "BEH-X-8e7445860006",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "8e74458600068230ff4b6ec3b117ea5a42d85455e681be004960b55bac64c14f"
+    },
+    {
+      "candidate_id": "E004-CN-031",
+      "context_xyxy": [
+        206,
+        405,
+        784,
+        1080
+      ],
+      "draft_scene_boundary": "BEH-worn-benches",
+      "draft_states": [
+        "N",
+        "N"
+      ],
+      "member_sha256": "28ffb8c43162c19c9c1a87cf0aee7dbaca2d9f8bdfc198c641a6a82d2b73c571",
+      "owner_approved": false,
+      "person_xyxy": [
+        265,
+        437,
+        627,
+        1080
+      ],
+      "phenotype": "writing_hand_visible",
+      "reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+      "review_id": "BEH-X-bdbadbdba307",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "bdbadbdba30751fde3447c5b97cdbbf489661a0b98f39a4bd59245a5b6e26cdd"
+    },
+    {
+      "candidate_id": "E004-CN-032",
+      "context_xyxy": [
+        1039,
+        340,
+        1548,
+        1080
+      ],
+      "draft_scene_boundary": "BEH-worn-benches",
+      "draft_states": [
+        "N",
+        "N"
+      ],
+      "member_sha256": "28ffb8c43162c19c9c1a87cf0aee7dbaca2d9f8bdfc198c641a6a82d2b73c571",
+      "owner_approved": false,
+      "person_xyxy": [
+        1127,
+        367,
+        1441,
+        1048
+      ],
+      "phenotype": "writing_hand_visible",
+      "reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+      "review_id": "BEH-X-bdbadbdba307",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "bdbadbdba30751fde3447c5b97cdbbf489661a0b98f39a4bd59245a5b6e26cdd"
+    },
+    {
+      "candidate_id": "E004-CN-033",
+      "context_xyxy": [
+        1039,
+        497,
+        1548,
+        1058
+      ],
+      "draft_scene_boundary": "BEH-worn-benches",
+      "draft_states": [
+        "U",
+        "U"
+      ],
+      "member_sha256": "9756228c0986891d3022fb09c5e36d8a04fb96cb365aa4a87d454956f5fe2690",
+      "owner_approved": false,
+      "person_xyxy": [
+        1127,
+        562,
+        1441,
+        1004
+      ],
+      "phenotype": "head_down_occlusion",
+      "reason": "Đầu và vùng tay bị che bởi tư thế cúi; U/U auxiliary, không supervision.",
+      "review_id": "BEH-X-a543d4f14a19",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "a543d4f14a199bc9cdb9ff582f258ce1c46b37890a218d1bc5509fab48404562"
+    },
+    {
+      "candidate_id": "E004-CN-034",
+      "context_xyxy": [
+        225,
+        410,
+        794,
+        1080
+      ],
+      "draft_scene_boundary": "BEH-worn-benches",
+      "draft_states": [
+        "N",
+        "N"
+      ],
+      "member_sha256": "9756228c0986891d3022fb09c5e36d8a04fb96cb365aa4a87d454956f5fe2690",
+      "owner_approved": false,
+      "person_xyxy": [
+        284,
+        448,
+        657,
+        1080
+      ],
+      "phenotype": "own_paper_pen",
+      "reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+      "review_id": "BEH-X-a543d4f14a19",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "a543d4f14a199bc9cdb9ff582f258ce1c46b37890a218d1bc5509fab48404562"
+    },
+    {
+      "candidate_id": "E004-CN-035",
+      "context_xyxy": [
+        490,
+        394,
+        911,
+        1080
+      ],
+      "draft_scene_boundary": "BEH-yellow-flags",
+      "draft_states": [
+        "N",
+        "P"
+      ],
+      "member_sha256": "7a2bd62d0d02a3f2b57f52a612b3578cb81b0ff14730bdaa7c744da556c9e828",
+      "owner_approved": false,
+      "person_xyxy": [
+        568,
+        432,
+        804,
+        1080
+      ],
+      "phenotype": "peer_gaze_contrast",
+      "reason": "Đầu hướng về anchor/bên cạnh, context giữ vùng bài riêng; phone chưa đủ evidence thì U. Tay/vùng giấy đủ review draft N.",
+      "review_id": "BEH-X-2d63d2ddeec9",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "2d63d2ddeec9049ab6d1c7dd2c415f29bae5d8fba9bf283b345204d31137cec8"
+    },
+    {
+      "candidate_id": "E004-CN-036",
+      "context_xyxy": [
+        1166,
+        340,
+        1676,
+        1080
+      ],
+      "draft_scene_boundary": "BEH-yellow-flags",
+      "draft_states": [
+        "U",
+        "P"
+      ],
+      "member_sha256": "7a2bd62d0d02a3f2b57f52a612b3578cb81b0ff14730bdaa7c744da556c9e828",
+      "owner_approved": false,
+      "person_xyxy": [
+        1264,
+        373,
+        1588,
+        1080
+      ],
+      "phenotype": "upright_peer_gaze",
+      "reason": "Đầu hướng về anchor/bên cạnh, context giữ vùng bài riêng; phone chưa đủ evidence thì U.",
+      "review_id": "BEH-X-2d63d2ddeec9",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "2d63d2ddeec9049ab6d1c7dd2c415f29bae5d8fba9bf283b345204d31137cec8"
+    },
+    {
+      "candidate_id": "E004-CN-037",
+      "context_xyxy": [
+        235,
+        265,
+        666,
+        859
+      ],
+      "draft_scene_boundary": "BEH-yellow-flags",
+      "draft_states": [
+        "N",
+        "N"
+      ],
+      "member_sha256": "7a2bd62d0d02a3f2b57f52a612b3578cb81b0ff14730bdaa7c744da556c9e828",
+      "owner_approved": false,
+      "person_xyxy": [
+        304,
+        297,
+        568,
+        810
+      ],
+      "phenotype": "own_paper_pen",
+      "reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+      "review_id": "BEH-X-2d63d2ddeec9",
+      "role_proposal": "holdout_candidate_reserve",
+      "source_id": "behavie",
+      "source_sha256": "2d63d2ddeec9049ab6d1c7dd2c415f29bae5d8fba9bf283b345204d31137cec8"
+    },
+    {
+      "candidate_id": "E004-CN-038",
+      "context_xyxy": [
+        272,
+        403,
+        419,
+        640
+      ],
+      "draft_scene_boundary": "STU-gray-train",
+      "draft_states": [
+        "P",
+        "N"
+      ],
+      "member_sha256": "1868c76ae71c0084f56f110e3f791826f577ef77afcf851010092775c7282d29",
+      "owner_approved": false,
+      "person_xyxy": [
+        288,
+        426,
+        390,
+        640
+      ],
+      "phenotype": "handheld_phone_control",
+      "reason": "Thiết bị dạng mobile gắn với tay/bàn của anchor; kiểm lại phân biệt mobile và ownership tại 224.",
+      "review_id": "STU-00081846913ae753-1868c76a",
+      "role_proposal": "train_supplement_candidate",
+      "source_id": "studentclassroombehavior",
+      "source_sha256": "00081846913ae75356370f968b923a4323b82954547b992fbab5445f5706ba3b"
+    },
+    {
+      "candidate_id": "E004-CN-039",
+      "context_xyxy": [
+        74,
+        362,
+        227,
+        640
+      ],
+      "draft_scene_boundary": "STU-gray-train",
+      "draft_states": [
+        "U",
+        "P"
+      ],
+      "member_sha256": "1868c76ae71c0084f56f110e3f791826f577ef77afcf851010092775c7282d29",
+      "owner_approved": false,
+      "person_xyxy": [
+        102,
+        378,
+        198,
+        640
+      ],
+      "phenotype": "hand_to_chin_peer_gaze",
+      "reason": "Đầu hướng về anchor/bên cạnh, context giữ vùng bài riêng; phone chưa đủ evidence thì U.",
+      "review_id": "STU-00081846913ae753-1868c76a",
+      "role_proposal": "train_supplement_candidate",
+      "source_id": "studentclassroombehavior",
+      "source_sha256": "00081846913ae75356370f968b923a4323b82954547b992fbab5445f5706ba3b"
+    },
+    {
+      "candidate_id": "E004-CN-040",
+      "context_xyxy": [
+        400,
+        416,
+        534,
+        598
+      ],
+      "draft_scene_boundary": "STU-overhead-train",
+      "draft_states": [
+        "P",
+        "N"
+      ],
+      "member_sha256": "a03df144a89179215a0e01f97ec187f63d39a757805ed0dd1fc1b0e4ffd93d56",
+      "owner_approved": false,
+      "person_xyxy": [
+        432,
+        438,
+        506,
+        557
+      ],
+      "phenotype": "small_desk_phone_control",
+      "reason": "Thiết bị dạng mobile gắn với tay/bàn của anchor; kiểm lại phân biệt mobile và ownership tại 224.",
+      "review_id": "STU-00311dce2cc7fcc4-a03df144",
+      "role_proposal": "train_supplement_candidate",
+      "source_id": "studentclassroombehavior",
+      "source_sha256": "00311dce2cc7fcc4f0dec043a6684ebfd076646baee8f0d4c637bbaba058fe5f"
+    },
+    {
+      "candidate_id": "E004-CN-041",
+      "context_xyxy": [
+        182,
+        342,
+        317,
+        544
+      ],
+      "draft_scene_boundary": "STU-overhead-train",
+      "draft_states": [
+        "N",
+        "N"
+      ],
+      "member_sha256": "a03df144a89179215a0e01f97ec187f63d39a757805ed0dd1fc1b0e4ffd93d56",
+      "owner_approved": false,
+      "person_xyxy": [
+        198,
+        362,
+        288,
+        512
+      ],
+      "phenotype": "foreign_mobile_crowded_workarea",
+      "reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop. Crop chứa lân cận: ownership không theo nearest phone.",
+      "review_id": "STU-00311dce2cc7fcc4-a03df144",
+      "role_proposal": "train_supplement_candidate",
+      "source_id": "studentclassroombehavior",
+      "source_sha256": "00311dce2cc7fcc4f0dec043a6684ebfd076646baee8f0d4c637bbaba058fe5f"
+    },
+    {
+      "candidate_id": "E004-CN-042",
+      "context_xyxy": [
+        170,
+        288,
+        298,
+        528
+      ],
+      "draft_scene_boundary": "STU-instructional-view-12",
+      "draft_states": [
+        "U",
+        "P"
+      ],
+      "member_sha256": "e00fbf07a67ce4e3fc687e7916ac08d34c1dcddced588c49300e992b2b0180ff",
+      "owner_approved": false,
+      "person_xyxy": [
+        186,
+        310,
+        266,
+        486
+      ],
+      "phenotype": "hand_raise_forward_gaze",
+      "reason": "Đầu hướng về anchor/bên cạnh, context giữ vùng bài riêng; phone chưa đủ evidence thì U. Nhìn về người ở phía trước, source writing không quyết định target.",
+      "review_id": "STU-0030aa43d7c00fb1-e00fbf07",
+      "role_proposal": "new_development_candidate_quarantine",
+      "source_id": "studentclassroombehavior",
+      "source_sha256": "0030aa43d7c00fb14c408282f95086c0ee80f0f5100d4308c28524b6c2b050bb"
+    },
+    {
+      "candidate_id": "E004-CN-043",
+      "context_xyxy": [
+        13,
+        454,
+        198,
+        640
+      ],
+      "draft_scene_boundary": "STU-instructional-view-12",
+      "draft_states": [
+        "U",
+        "N"
+      ],
+      "member_sha256": "e00fbf07a67ce4e3fc687e7916ac08d34c1dcddced588c49300e992b2b0180ff",
+      "owner_approved": false,
+      "person_xyxy": [
+        26,
+        477,
+        157,
+        640
+      ],
+      "phenotype": "book_writing_occlusion",
+      "reason": "Vùng bài riêng rõ, tay/desk một phần bị che; phone U.",
+      "review_id": "STU-0030aa43d7c00fb1-e00fbf07",
+      "role_proposal": "new_development_candidate_quarantine",
+      "source_id": "studentclassroombehavior",
+      "source_sha256": "0030aa43d7c00fb14c408282f95086c0ee80f0f5100d4308c28524b6c2b050bb"
+    },
+    {
+      "candidate_id": "E004-CN-044",
+      "context_xyxy": [
+        160,
+        259,
+        384,
+        640
+      ],
+      "draft_scene_boundary": "STU-instructional-view-13",
+      "draft_states": [
+        "U",
+        "P"
+      ],
+      "member_sha256": "2b387b6615bcea4fd0304b719bd4834a2643d896fa0c2ae31de7711c3d1dda9a",
+      "owner_approved": false,
+      "person_xyxy": [
+        179,
+        278,
+        333,
+        640
+      ],
+      "phenotype": "hand_to_face_peer_gaze",
+      "reason": "Đầu hướng về anchor/bên cạnh, context giữ vùng bài riêng; phone chưa đủ evidence thì U.",
+      "review_id": "STU-00328b920815bd7c-2b387b66",
+      "role_proposal": "new_development_candidate_quarantine",
+      "source_id": "studentclassroombehavior",
+      "source_sha256": "00328b920815bd7cee38b1481cf9eb77a39d14853723e7124e342c3f69ed530e"
+    },
+    {
+      "candidate_id": "E004-CN-045",
+      "context_xyxy": [
+        298,
+        259,
+        531,
+        640
+      ],
+      "draft_scene_boundary": "STU-instructional-view-13",
+      "draft_states": [
+        "N",
+        "N"
+      ],
+      "member_sha256": "2b387b6615bcea4fd0304b719bd4834a2643d896fa0c2ae31de7711c3d1dda9a",
+      "owner_approved": false,
+      "person_xyxy": [
+        320,
+        278,
+        464,
+        640
+      ],
+      "phenotype": "book_pen_negative",
+      "reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+      "review_id": "STU-00328b920815bd7c-2b387b66",
+      "role_proposal": "new_development_candidate_quarantine",
+      "source_id": "studentclassroombehavior",
+      "source_sha256": "00328b920815bd7cee38b1481cf9eb77a39d14853723e7124e342c3f69ed530e"
+    },
+    {
+      "candidate_id": "E004-CN-046",
+      "context_xyxy": [
+        995,
+        600,
+        1576,
+        811
+      ],
+      "draft_scene_boundary": "STU-instructional-view-16",
+      "draft_states": [
+        "U",
+        "N"
+      ],
+      "member_sha256": "41ec69aec78f105d879535636507e0923205f0fa53871415b60d6c634883f00b",
+      "owner_approved": false,
+      "person_xyxy": [
+        1087,
+        637,
+        1456,
+        811
+      ],
+      "phenotype": "book_negative_occluded_hands",
+      "reason": "Đang đọc sách; không coi sách/reading là phone N khi thiếu tay.",
+      "review_id": "STU-001a63e6728bf568-41ec69ae",
+      "role_proposal": "new_development_candidate_quarantine",
+      "source_id": "studentclassroombehavior",
+      "source_sha256": "001a63e6728bf5687f14371cca89f214f2a581c96b383b4a019264d9138764ce"
+    },
+    {
+      "candidate_id": "E004-CN-047",
+      "context_xyxy": [
+        968,
+        410,
+        1382,
+        665
+      ],
+      "draft_scene_boundary": "STU-instructional-view-16",
+      "draft_states": [
+        "U",
+        "P"
+      ],
+      "member_sha256": "41ec69aec78f105d879535636507e0923205f0fa53871415b60d6c634883f00b",
+      "owner_approved": false,
+      "person_xyxy": [
+        1060,
+        442,
+        1281,
+        604
+      ],
+      "phenotype": "peer_teacher_gaze",
+      "reason": "Đầu hướng về anchor/bên cạnh, context giữ vùng bài riêng; phone chưa đủ evidence thì U.",
+      "review_id": "STU-001a63e6728bf568-41ec69ae",
+      "role_proposal": "new_development_candidate_quarantine",
+      "source_id": "studentclassroombehavior",
+      "source_sha256": "001a63e6728bf5687f14371cca89f214f2a581c96b383b4a019264d9138764ce"
+    },
+    {
+      "candidate_id": "E004-CN-048",
+      "context_xyxy": [
+        674,
+        17,
+        1251,
+        832
+      ],
+      "draft_scene_boundary": "STU-instructional-view-44",
+      "draft_states": [
+        "N",
+        "N"
+      ],
+      "member_sha256": "bfb5c9d93e640bcf428650558c226583ffe145cda243cfbc9b4313851566badf",
+      "owner_approved": false,
+      "person_xyxy": [
+        734,
+        42,
+        1198,
+        832
+      ],
+      "phenotype": "book_held_in_both_hands",
+      "reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+      "review_id": "STU-X-25417caf81b3",
+      "role_proposal": "new_development_candidate_quarantine",
+      "source_id": "studentclassroombehavior",
+      "source_sha256": "25417caf81b395ca09deb038bc82382ccdc6f9c3015c9f534d961257449ff924"
+    },
+    {
+      "candidate_id": "E004-CN-049",
+      "context_xyxy": [
+        127,
+        487,
+        532,
+        832
+      ],
+      "draft_scene_boundary": "STU-instructional-view-44",
+      "draft_states": [
+        "U",
+        "N"
+      ],
+      "member_sha256": "bfb5c9d93e640bcf428650558c226583ffe145cda243cfbc9b4313851566badf",
+      "owner_approved": false,
+      "person_xyxy": [
+        172,
+        520,
+        464,
+        832
+      ],
+      "phenotype": "book_negative_partial_workarea",
+      "reason": "Cúi đọc/viết, phần bàn bị crop biên nên phone U.",
+      "review_id": "STU-X-25417caf81b3",
+      "role_proposal": "new_development_candidate_quarantine",
+      "source_id": "studentclassroombehavior",
+      "source_sha256": "25417caf81b395ca09deb038bc82382ccdc6f9c3015c9f534d961257449ff924"
+    },
+    {
+      "candidate_id": "E004-CN-050",
+      "context_xyxy": [
+        46,
+        414,
+        538,
+        919
+      ],
+      "draft_scene_boundary": "STU-instructional-view-53",
+      "draft_states": [
+        "N",
+        "N"
+      ],
+      "member_sha256": "86ac39ca6299bcbeea336f110547db37c71924527f39806cb4733ca84ba12134",
+      "owner_approved": false,
+      "person_xyxy": [
+        73,
+        446,
+        478,
+        919
+      ],
+      "phenotype": "pen_pencilcase_negative",
+      "reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+      "review_id": "STU-X-e41f24405e47",
+      "role_proposal": "new_development_candidate_quarantine",
+      "source_id": "studentclassroombehavior",
+      "source_sha256": "e41f24405e47605fa6d5507fd42c9a71df0344584a8fb6c26eacbfcb16726cc4"
+    },
+    {
+      "candidate_id": "E004-CN-051",
+      "context_xyxy": [
+        498,
+        427,
+        976,
+        901
+      ],
+      "draft_scene_boundary": "STU-instructional-view-53",
+      "draft_states": [
+        "N",
+        "N"
+      ],
+      "member_sha256": "86ac39ca6299bcbeea336f110547db37c71924527f39806cb4733ca84ba12134",
+      "owner_approved": false,
+      "person_xyxy": [
+        564,
+        473,
+        876,
+        818
+      ],
+      "phenotype": "pen_pencilcase_negative",
+      "reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+      "review_id": "STU-X-e41f24405e47",
+      "role_proposal": "new_development_candidate_quarantine",
+      "source_id": "studentclassroombehavior",
+      "source_sha256": "e41f24405e47605fa6d5507fd42c9a71df0344584a8fb6c26eacbfcb16726cc4"
+    },
+    {
+      "candidate_id": "E004-CN-052",
+      "context_xyxy": [
+        559,
+        43,
+        1363,
+        1074
+      ],
+      "draft_scene_boundary": "STU-instructional-view-54",
+      "draft_states": [
+        "N",
+        "U"
+      ],
+      "member_sha256": "545666402c0680db2a66c9a7d0547bd70978a52c0c9e5a84e6089e08dc2382b8",
+      "owner_approved": false,
+      "person_xyxy": [
+        613,
+        70,
+        1363,
+        1074
+      ],
+      "phenotype": "writing_face_occluded",
+      "reason": "Bút/giấy/tay của anchor rõ; tóc che hướng nhìn nên looking U.",
+      "review_id": "STU-X-6878715d2b2c",
+      "role_proposal": "new_development_candidate_quarantine",
+      "source_id": "studentclassroombehavior",
+      "source_sha256": "6878715d2b2cd43cc90cdab2bb8599b3fb031e2024f6a7fc138ab1c9447466c8"
+    },
+    {
+      "candidate_id": "E004-CN-053",
+      "context_xyxy": [
+        429,
+        285,
+        1009,
+        967
+      ],
+      "draft_scene_boundary": "STU-instructional-view-54",
+      "draft_states": [
+        "N",
+        "N"
+      ],
+      "member_sha256": "545666402c0680db2a66c9a7d0547bd70978a52c0c9e5a84e6089e08dc2382b8",
+      "owner_approved": false,
+      "person_xyxy": [
+        477,
+        322,
+        961,
+        891
+      ],
+      "phenotype": "pen_negative",
+      "reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+      "review_id": "STU-X-6878715d2b2c",
+      "role_proposal": "new_development_candidate_quarantine",
+      "source_id": "studentclassroombehavior",
+      "source_sha256": "6878715d2b2cd43cc90cdab2bb8599b3fb031e2024f6a7fc138ab1c9447466c8"
+    },
+    {
+      "candidate_id": "E004-CN-054",
+      "context_xyxy": [
+        243,
+        362,
+        1181,
+        842
+      ],
+      "draft_scene_boundary": "STU-instructional-view-59",
+      "draft_states": [
+        "U",
+        "U"
+      ],
+      "member_sha256": "60315f780197d32555afc4b3241b2ec83cf41b84b1ff51cd01b02701d8aa8753",
+      "owner_approved": false,
+      "person_xyxy": [
+        292,
+        387,
+        1132,
+        842
+      ],
+      "phenotype": "extreme_head_down_occlusion",
+      "reason": "Đầu/vùng tay crop biên che evidence; không ép writing sang N/N.",
+      "review_id": "STU-X-4ec829973e95",
+      "role_proposal": "new_development_candidate_quarantine",
+      "source_id": "studentclassroombehavior",
+      "source_sha256": "4ec829973e95e49c4f1dfd08340cb564e8137bccd8eb15a3e122d9c3b2d34935"
+    },
+    {
+      "candidate_id": "E004-CN-055",
+      "context_xyxy": [
+        340,
+        97,
+        820,
+        543
+      ],
+      "draft_scene_boundary": "STU-instructional-view-59",
+      "draft_states": [
+        "N",
+        "N"
+      ],
+      "member_sha256": "60315f780197d32555afc4b3241b2ec83cf41b84b1ff51cd01b02701d8aa8753",
+      "owner_approved": false,
+      "person_xyxy": [
+        389,
+        131,
+        750,
+        484
+      ],
+      "phenotype": "crowded_own_paper",
+      "reason": "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop.",
+      "review_id": "STU-X-4ec829973e95",
+      "role_proposal": "new_development_candidate_quarantine",
+      "source_id": "studentclassroombehavior",
+      "source_sha256": "4ec829973e95e49c4f1dfd08340cb564e8137bccd8eb15a3e122d9c3b2d34935"
+    }
+  ],
+  "fill": [
+    124,
+    116,
+    104
+  ],
+  "input_size": 224,
+  "source_inventory_root": "data/interim/E004-source-review-20261011",
+  "status": "draft_pending_exact_crop_input_review_and_owner_acceptance",
+  "target_order": [
+    "phone_use",
+    "looking_around"
+  ]
+}
