@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Model Inspector — Kiểm tra & Đối chiếu Trực quan Checkpoint</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --card-border: #334155;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --primary: #3b82f6;
+      --primary-hover: #2563eb;
+      --danger: #ef4444;
+      --danger-bg: rgba(239, 68, 68, 0.15);
+      --success: #10b981;
+      --success-bg: rgba(16, 185, 129, 0.15);
+      --warning: #f59e0b;
+      --radius: 12px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      padding: 24px;
+      min-height: 100vh;
+    }
+
+    .container { max-width: 1200px; margin: 0 auto; }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--card-border);
+    }
+    .brand { display: flex; align-items: center; gap: 12px; }
+    .brand-icon {
+      background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+      width: 44px; height: 44px;
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 24px; font-weight: bold;
+    }
+    .brand h1 { font-size: 20px; font-weight: 700; }
+    .brand p { font-size: 13px; color: var(--text-muted); }
+
+    .tag-branch {
+      background: #1e293b;
+      border: 1px solid #475569;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 13px;
+      color: #38bdf8;
+      display: flex; align-items: center; gap: 6px;
+    }
+
+    /* Controls Bar */
+    .controls-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 20px;
+      margin-bottom: 24px;
+      display: grid;
+      grid-template-columns: 1fr 1fr auto;
+      gap: 16px;
+      align-items: end;
+    }
+    @media (max-width: 900px) {
+      .controls-card { grid-template-columns: 1fr; }
+    }
+
+    .form-group { display: flex; flex-direction: column; gap: 6px; }
+    .form-group label {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-muted);
+      display: flex; justify-content: space-between;
+    }
+    select, input[type="text"] {
+      background: #0f172a;
+      border: 1px solid var(--card-border);
+      color: var(--text);
+      padding: 10px 14px;
+      border-radius: 8px;
+      font-size: 14px;
+      outline: none;
+      min-height: 44px;
+    }
+    select:focus { border-color: var(--primary); }
+
+    .toggle-compare {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      min-height: 44px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      user-select: none;
+    }
+    .toggle-compare input { width: 18px; height: 18px; cursor: pointer; }
+
+    .btn {
+      background: var(--primary);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 18px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      min-height: 44px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      transition: background 0.15s;
+    }
+    .btn:hover { background: var(--primary-hover); }
+    .btn-secondary { background: #334155; }
+    .btn-secondary:hover { background: #475569; }
+
+    /* Main Grid */
+    .grid-layout {
+      display: grid;
+      grid-template-columns: 420px 1fr;
+      gap: 24px;
+    }
+    @media (max-width: 960px) {
+      .grid-layout { grid-template-columns: 1fr; }
+    }
+
+    /* Upload Box */
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: var(--radius);
+      padding: 20px;
+    }
+    .card-title {
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 16px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+
+    .drop-zone {
+      border: 2px dashed #475569;
+      border-radius: var(--radius);
+      padding: 32px 16px;
+      text-align: center;
+      cursor: pointer;
+      background: rgba(15, 23, 42, 0.4);
+      transition: border-color 0.2s, background 0.2s;
+      min-height: 180px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+    .drop-zone:hover, .drop-zone.dragover {
+      border-color: var(--primary);
+      background: rgba(59, 130, 246, 0.08);
+    }
+    .drop-icon { font-size: 36px; }
+    .drop-text { font-size: 14px; font-weight: 600; }
+    .drop-sub { font-size: 12px; color: var(--text-muted); }
+
+    /* Visual Previews */
+    .previews-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      margin-top: 16px;
+    }
+    .preview-box {
+      background: #0f172a;
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 10px;
+      text-align: center;
+    }
+    .preview-box img {
+      max-width: 100%;
+      height: 160px;
+      object-fit: contain;
+      border-radius: 4px;
+      background: #1e293b;
+    }
+    .preview-label { font-size: 12px; font-weight: 600; color: var(--text-muted); margin-top: 6px; }
+
+    /* Threshold Control */
+    .slider-box {
+      margin-top: 20px;
+      background: #0f172a;
+      padding: 16px;
+      border-radius: 8px;
+      border: 1px solid var(--card-border);
+    }
+    .slider-header {
+      display: flex; justify-content: space-between;
+      font-size: 13px; font-weight: 600; margin-bottom: 8px;
+    }
+    .slider-val {
+      color: #38bdf8; font-family: monospace; font-size: 14px;
+    }
+    input[type="range"] {
+      width: 100%;
+      height: 6px;
+      background: #334155;
+      border-radius: 4px;
+      outline: none;
+      cursor: pointer;
+    }
+
+    /* Prediction Results */
+    .results-panel { display: flex; flex-direction: column; gap: 20px; }
+    .model-header {
+      display: flex; justify-content: space-between; align-items: center;
+      padding-bottom: 10px; border-bottom: 1px solid var(--card-border);
+      margin-bottom: 14px;
+    }
+    .model-name { font-size: 16px; font-weight: 700; color: #38bdf8; }
+    .model-meta { font-size: 12px; color: var(--text-muted); }
+
+    .metric-row {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+    }
+    .metric-card {
+      background: #0f172a;
+      border: 1px solid var(--card-border);
+      border-radius: 10px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .metric-top {
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .target-title {
+      font-size: 15px; font-weight: 700;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .badge {
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.3px;
+    }
+    .badge-positive {
+      background: var(--danger-bg);
+      color: var(--danger);
+      border: 1px solid rgba(239, 68, 68, 0.4);
+    }
+    .badge-negative {
+      background: var(--success-bg);
+      color: var(--success);
+      border: 1px solid rgba(16, 185, 129, 0.4);
+    }
+
+    .progress-bar-bg {
+      background: #334155;
+      height: 12px;
+      border-radius: 6px;
+      overflow: hidden;
+      position: relative;
+    }
+    .progress-bar-fill {
+      height: 100%;
+      border-radius: 6px;
+      transition: width 0.3s ease;
+    }
+    .fill-danger { background: linear-gradient(90deg, #f59e0b, #ef4444); }
+    .fill-success { background: linear-gradient(90deg, #3b82f6, #10b981); }
+
+    .score-num {
+      display: flex; justify-content: space-between;
+      font-size: 13px; color: var(--text-muted);
+    }
+    .score-percent { font-size: 18px; font-weight: 800; color: var(--text); }
+
+    /* Comparison Dual Columns */
+    .dual-columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    @media (max-width: 768px) {
+      .dual-columns { grid-template-columns: 1fr; }
+    }
+
+    .comparison-summary {
+      background: rgba(56, 189, 248, 0.08);
+      border: 1px solid rgba(56, 189, 248, 0.3);
+      padding: 14px 18px;
+      border-radius: 8px;
+      font-size: 14px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+
+    .placeholder-state {
+      padding: 40px 20px;
+      text-align: center;
+      color: var(--text-muted);
+      border: 1px dashed var(--card-border);
+      border-radius: var(--radius);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="brand-icon">👁️</div>
+        <div>
+          <h1>Model Inspector & Comparison Studio</h1>
+          <p>Kiểm định trực quan mọi ảnh crop với các checkpoint best.pt</p>
+        </div>
+      </div>
+      <div class="tag-branch">
+        <span>🌿 Branch:</span> <strong>tools/model-inspector</strong>
+      </div>
+    </header>
+
+    <!-- Controls -->
+    <div class="controls-card">
+      <div class="form-group">
+        <label for="selectModelA">Mô hình chính (Model A):</label>
+        <select id="selectModelA"></select>
+      </div>
+
+      <div class="form-group" id="groupModelB" style="display: none;">
+        <label for="selectModelB">Mô hình đối chiếu (Model B):</label>
+        <select id="selectModelB"></select>
+      </div>
+
+      <div style="display: flex; gap: 12px; align-items: center;">
+        <label class="toggle-compare">
+          <input type="checkbox" id="chkCompare">
+          <span>So sánh 2 Model</span>
+        </label>
+        <button class="btn btn-secondary" id="btnRefresh" title="Quét lại các file .pt trong outputs/">🔄 Quét lại</button>
+      </div>
+    </div>
+
+    <!-- Main Layout -->
+    <div class="grid-layout">
+      <!-- Left Column: Upload & Image Info -->
+      <div class="card">
+        <div class="card-title">
+          <span>📥 Tải lên ảnh Crop kiểm thử</span>
+        </div>
+
+        <div class="drop-zone" id="dropZone">
+          <div class="drop-icon">🖼️</div>
+          <div class="drop-text">Kéo thả ảnh crop vào đây</div>
+          <div class="drop-sub">hoặc nhấn để chọn file (JPG, PNG) • Hỗ trợ Ctrl+V</div>
+          <input type="file" id="fileInput" accept="image/*" style="display: none;">
+        </div>
+
+        <!-- Previews -->
+        <div class="previews-row" id="previewsRow" style="display: none;">
+          <div class="preview-box">
+            <img id="imgOriginal" alt="Original crop">
+            <div class="preview-label">Ảnh Crop Gốc</div>
+          </div>
+          <div class="preview-box">
+            <img id="imgLetterbox" alt="224x224 Letterbox">
+            <div class="preview-label">Letterbox 224×224 (Input Model)</div>
+          </div>
+        </div>
+
+        <!-- Threshold Slider -->
+        <div class="slider-box">
+          <div class="slider-header">
+            <span>Ngưỡng phân loại (Decision Threshold)</span>
+            <span class="slider-val" id="valThreshold">0.50</span>
+          </div>
+          <input type="range" id="rangeThreshold" min="0.05" max="0.95" step="0.01" value="0.50">
+          <div style="display: flex; justify-content: space-between; font-size: 11px; color: var(--text-muted); margin-top: 4px;">
+            <span>Nhạy hơn (Dễ báo gian lận)</span>
+            <span>Mặc định: 0.50</span>
+            <span>Chặt hơn (Giảm báo sai)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Results Dashboard -->
+      <div class="card">
+        <div class="card-title">
+          <span>📊 Phân tích & Dự đoán</span>
+          <span id="inferTime" style="font-size: 12px; color: var(--text-muted); font-weight: normal;"></span>
+        </div>
+
+        <div id="resultsArea">
+          <div class="placeholder-state">
+            <div style="font-size: 32px; margin-bottom: 10px;">🔍</div>
+            <p>Vui lòng kéo thả hoặc tải lên một bức ảnh crop ở cột bên trái để bắt đầu phân tích.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let currentImageBase64 = null;
+    let lastInferenceData = null;
+
+    // Elements
+    const selectModelA = document.getElementById('selectModelA');
+    const selectModelB = document.getElementById('selectModelB');
+    const groupModelB = document.getElementById('groupModelB');
+    const chkCompare = document.getElementById('chkCompare');
+    const btnRefresh = document.getElementById('btnRefresh');
+    const dropZone = document.getElementById('dropZone');
+    const fileInput = document.getElementById('fileInput');
+    const previewsRow = document.getElementById('previewsRow');
+    const imgOriginal = document.getElementById('imgOriginal');
+    const imgLetterbox = document.getElementById('imgLetterbox');
+    const rangeThreshold = document.getElementById('rangeThreshold');
+    const valThreshold = document.getElementById('valThreshold');
+    const resultsArea = document.getElementById('resultsArea');
+    const inferTime = document.getElementById('inferTime');
+
+    // Load available models
+    async function loadModels() {
+      try {
+        const res = await fetch('/api/models');
+        const models = await res.json();
+        
+        selectModelA.innerHTML = '';
+        selectModelB.innerHTML = '';
+        
+        if (models.length === 0) {
+          selectModelA.innerHTML = '<option value="">(Chưa tìm thấy checkpoint nào)</option>';
+          selectModelB.innerHTML = '<option value="">(Chưa tìm thấy checkpoint nào)</option>';
+          return;
+        }
+
+        models.forEach((m, idx) => {
+          const optA = document.createElement('option');
+          optA.value = m.path;
+          optA.textContent = `${m.label} [${m.size_mb} MB]`;
+          selectModelA.appendChild(optA);
+
+          const optB = document.createElement('option');
+          optB.value = m.path;
+          optB.textContent = `${m.label} [${m.size_mb} MB]`;
+          selectModelB.appendChild(optB);
+        });
+
+        // Default: Model A = first, Model B = second if available
+        if (models.length > 1) {
+          selectModelB.selectedIndex = 1;
+        }
+      } catch (err) {
+        console.error('Lỗi nạp danh sách model:', err);
+      }
+    }
+
+    // Toggle Comparison
+    chkCompare.addEventListener('change', () => {
+      groupModelB.style.display = chkCompare.checked ? 'flex' : 'none';
+      if (currentImageBase64) runInference();
+    });
+
+    btnRefresh.addEventListener('click', async () => {
+      await loadModels();
+      if (currentImageBase64) runInference();
+    });
+
+    selectModelA.addEventListener('change', () => {
+      if (currentImageBase64) runInference();
+    });
+    selectModelB.addEventListener('change', () => {
+      if (currentImageBase64 && chkCompare.checked) runInference();
+    });
+
+    // Threshold live update
+    rangeThreshold.addEventListener('input', () => {
+      const val = parseFloat(rangeThreshold.value);
+      valThreshold.textContent = val.toFixed(2);
+      if (lastInferenceData) {
+        renderResults(lastInferenceData, val);
+      }
+    });
+
+    // File Drop & Paste Handlers
+    dropZone.addEventListener('click', () => fileInput.click());
+    dropZone.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      dropZone.classList.add('dragover');
+    });
+    dropZone.addEventListener('dragleave', () => dropZone.classList.remove('dragover'));
+    dropZone.addEventListener('drop', (e) => {
+      e.preventDefault();
+      dropZone.classList.remove('dragover');
+      if (e.dataTransfer.files.length > 0) {
+        handleFile(e.dataTransfer.files[0]);
+      }
+    });
+    fileInput.addEventListener('change', () => {
+      if (fileInput.files.length > 0) {
+        handleFile(fileInput.files[0]);
+      }
+    });
+
+    // Clipboard paste (Ctrl+V)
+    window.addEventListener('paste', (e) => {
+      const items = e.clipboardData?.items;
+      if (!items) return;
+      for (let i = 0; i < items.length; i++) {
+        if (items[i].type.indexOf('image') !== -1) {
+          const file = items[i].getAsFile();
+          if (file) handleFile(file);
+          break;
+        }
+      }
+    });
+
+    function handleFile(file) {
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        currentImageBase64 = e.target.result;
+        imgOriginal.src = currentImageBase64;
+        previewsRow.style.display = 'grid';
+        runInference();
+      };
+      reader.readAsDataURL(file);
+    }
+
+    // Run Inference
+    async function runInference() {
+      if (!currentImageBase64 || !selectModelA.value) return;
+
+      resultsArea.innerHTML = '<div class="placeholder-state"><p>⏳ Đang nạp mô hình & chạy suy luận...</p></div>';
+      const t0 = performance.now();
+
+      try {
+        const payload = {
+          image_base64: currentImageBase64,
+          model_a: selectModelA.value,
+          model_b: chkCompare.checked ? selectModelB.value : null,
+          threshold: parseFloat(rangeThreshold.value)
+        };
+
+        const res = await fetch('/api/predict', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+
+        const data = await res.json();
+        const elapsed = (performance.now() - t0).toFixed(0);
+        inferTime.textContent = `⚡ Thời gian suy luận: ${elapsed} ms`;
+
+        lastInferenceData = data;
+        if (data.letterbox_base64) {
+          imgLetterbox.src = data.letterbox_base64;
+        }
+
+        renderResults(data, parseFloat(rangeThreshold.value));
+      } catch (err) {
+        resultsArea.innerHTML = `<div class="placeholder-state" style="color: var(--danger);"><p>❌ Lỗi suy luận: ${err.message}</p></div>`;
+      }
+    }
+
+    // Render Results Dashboard
+    function renderResults(data, threshold) {
+      if (!data.model_a) return;
+
+      const isCompare = !!data.model_b;
+
+      if (!isCompare) {
+        // Single Model
+        resultsArea.innerHTML = `
+          <div class="results-panel">
+            <div class="model-header">
+              <div>
+                <div class="model-name">${data.model_a.metadata.relpath}</div>
+                <div class="model-meta">Epoch: ${data.model_a.metadata.epoch ?? 'N/A'} • Val Loss: ${data.model_a.metadata.val_loss?.toFixed(4) ?? 'N/A'} • Size: ${data.model_a.metadata.size_mb} MB</div>
+              </div>
+            </div>
+            <div class="metric-row">
+              ${renderTargetCard('📱 Phone Use (Điện thoại di động)', data.model_a.phone_use.score, threshold)}
+              ${renderTargetCard('👀 Looking Around (Nhìn quanh bài thi)', data.model_a.looking_around.score, threshold)}
+            </div>
+          </div>
+        `;
+      } else {
+        // Dual Comparison Mode
+        const mA = data.model_a;
+        const mB = data.model_b;
+
+        const phoneA_dec = mA.phone_use.score >= threshold;
+        const phoneB_dec = mB.phone_use.score >= threshold;
+        const agreePhone = phoneA_dec === phoneB_dec;
+
+        const lookA_dec = mA.looking_around.score >= threshold;
+        const lookB_dec = mB.looking_around.score >= threshold;
+        const agreeLook = lookA_dec === lookB_dec;
+
+        resultsArea.innerHTML = `
+          <div class="results-panel">
+            <div class="comparison-summary">
+              <div><strong>Đồng thuận:</strong> Phone: ${agreePhone ? '✅ Đồng thuận' : '⚠️ Bất đồng quan điểm'} | Looking: ${agreeLook ? '✅ Đồng thuận' : '⚠️ Bất đồng quan điểm'}</div>
+              <div style="font-size: 12px; color: var(--text-muted);">Ngưỡng: ${threshold.toFixed(2)}</div>
+            </div>
+
+            <div class="dual-columns">
+              <!-- Model A Column -->
+              <div class="card" style="background: #0f172a;">
+                <div class="model-header">
+                  <div>
+                    <div class="model-name">Model A: ${mA.metadata.identity}</div>
+                    <div class="model-meta">Best Epoch: ${mA.metadata.epoch ?? 'N/A'} • Val Loss: ${mA.metadata.val_loss?.toFixed(4) ?? 'N/A'}</div>
+                  </div>
+                </div>
+                <div class="metric-row">
+                  ${renderTargetCard('📱 Phone Use', mA.phone_use.score, threshold)}
+                  ${renderTargetCard('👀 Looking Around', mA.looking_around.score, threshold)}
+                </div>
+              </div>
+
+              <!-- Model B Column -->
+              <div class="card" style="background: #0f172a;">
+                <div class="model-header">
+                  <div>
+                    <div class="model-name">Model B: ${mB.metadata.identity}</div>
+                    <div class="model-meta">Best Epoch: ${mB.metadata.epoch ?? 'N/A'} • Val Loss: ${mB.metadata.val_loss?.toFixed(4) ?? 'N/A'}</div>
+                  </div>
+                </div>
+                <div class="metric-row">
+                  ${renderTargetCard('📱 Phone Use', mB.phone_use.score, threshold)}
+                  ${renderTargetCard('👀 Looking Around', mB.looking_around.score, threshold)}
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+      }
+    }
+
+    function renderTargetCard(title, score, threshold) {
+      const isPositive = score >= threshold;
+      const percent = (score * 100).toFixed(1);
+      const badgeClass = isPositive ? 'badge-positive' : 'badge-negative';
+      const badgeText = isPositive ? 'PHÁT HIỆN HÀNH VI' : 'BÌNH THƯỜNG';
+      const fillClass = isPositive ? 'fill-danger' : 'fill-success';
+
+      return `
+        <div class="metric-card">
+          <div class="metric-top">
+            <span class="target-title">${title}</span>
+            <span class="badge ${badgeClass}">${badgeText}</span>
+          </div>
+          <div class="progress-bar-bg">
+            <div class="progress-bar-fill ${fillClass}" style="width: ${percent}%;"></div>
+          </div>
+          <div class="score-num">
+            <span>Xác suất mô hình tính toán:</span>
+            <span class="score-percent">${percent}%</span>
+          </div>
+        </div>
+      `;
+    }
+
+    // Init
+    loadModels();
+  </script>
+</body>
+</html>
