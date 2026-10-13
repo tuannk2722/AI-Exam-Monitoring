@@ -16,3 +16,4 @@ from tools.inspector.server import run_server  # noqa: E402
 
 if __name__ == "__main__":
     run_server()
+

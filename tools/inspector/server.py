@@ -152,3 +152,4 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     run_server(host=args.host, port=args.port, open_browser=not args.no_browser)
+

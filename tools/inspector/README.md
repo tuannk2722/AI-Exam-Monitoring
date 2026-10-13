@@ -44,3 +44,4 @@ Do công cụ này nằm trên nhánh riêng `tools/model-inspector`:
    python inspect_model.py
    ```
    *(Thư mục `outputs/` không bị Git theo dõi nên toàn bộ checkpoint vừa train xong vẫn giữ nguyên vẹn để nạp vào giao diện).*
+
