@@ -1,0 +1,1086 @@
+{
+  "status": "draft_visual_review_pending",
+  "image_size": 224,
+  "scope": "selection71 stratified diagnostic sample, no representativeness claim",
+  "selection_rule": "all in families <=4; per larger family/target most confident L4 FN FP TP TN plus first LP-correct L4-wrong; deterministic sample_id tie-break",
+  "input_pins": {
+    "outputs/E004-V9-LP/predictions-selection.json": "ffd71f72735b7eac5d549922ac368d18ad1e34aea0a5782eb721b0fe5671cc2c",
+    "outputs/E004-V9-LP/resolved-config.json": "857d39b074f1cee3c25d501878869559e37d8a8a658a127052f5d08c5967d705",
+    "outputs/E004-V9-L4/predictions-selection.json": "571245dfba8c27a89b1d4c60063aacb60a8f435d594d5114a451a6bc468f1797",
+    "outputs/E004-V9-L4/resolved-config.json": "01d0bca644da047d353ed8a74ee6d02a9944b8cb2cbfce213a151bbe1c550056"
+  },
+  "archive": {
+    "archive": "archive/e004-v9-consolidation-20261013.zip",
+    "sha256": "8883c176060c82b31c7436dea341867448204e157a20f111c3560eae389342b3",
+    "files": 2988,
+    "unique_blobs": 2891,
+    "original_bytes": 448684910,
+    "archive_bytes": 413772627,
+    "restore_verified_package_files": 1191,
+    "byte_exact_restore": "PASS",
+    "all_archive_blobs_verified": "PASS",
+    "source_cache_included": true,
+    "source_restore_prefix": "outputs/_scratch/e004-v9-consolidation-20261013/sources",
+    "scope": "local_only",
+    "off_device": false,
+    "remote_uploaded": false
+  },
+  "findings": [
+    {
+      "sample_id": "E004-CF-C021",
+      "split": "val",
+      "group": "CF-Q072",
+      "selection_reasons": [
+        "t0_L4_TP_extreme"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/consolidated-frames-20261013/frames/CF-152.jpg",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-CF-C021.png",
+      "source_sha256": "b62a619a1756bd91f4c87d46e085199da124aea6d6e50f3ff425d78554741c66",
+      "crop_sha256": "ed1ac1e59652ec25931df039ca13c0834acebfa4e99eec646a564257958395e8",
+      "crop_size": [
+        643,
+        675
+      ],
+      "input_scale": 0.33185185185185184,
+      "labels": [
+        1,
+        1
+      ],
+      "label_reasons": [
+        "Anchor áo caro nền cầm mobile riêng và hướng sang người phía trước; mobile gần máy ảnh thuộc người khác. Owner đồng ý batch ngày 2026-10-13.",
+        "Anchor áo caro nền cầm mobile riêng và hướng sang người phía trước; mobile gần máy ảnh thuộc người khác. Owner đồng ý batch ngày 2026-10-13."
+      ],
+      "LP": {
+        "phone": "TP",
+        "looking": "FN"
+      },
+      "L4": {
+        "phone": "TP",
+        "looking": "FN"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/consolidated-frames-20261013/frames/CF-152.jpg"
+    },
+    {
+      "sample_id": "E004-CF-C029",
+      "split": "val",
+      "group": "CF-Q072",
+      "selection_reasons": [
+        "t0_L4_FP_extreme"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/consolidated-frames-20261013/frames/CF-203.jpg",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-CF-C029.png",
+      "source_sha256": "e217e4f2e45a5b340bf96719f1278dc891a73a088d85de7cc21df42af83613ae",
+      "crop_sha256": "ba574185deaa589a54e5817412a797c38a0ac33948c3af2f2f1a2b9d87234c60",
+      "crop_size": [
+        240,
+        374
+      ],
+      "input_scale": 0.5989304812834224,
+      "labels": [
+        0,
+        0
+      ],
+      "label_reasons": [
+        "Anchor áo đỏ nhìn bài/calculator; hai tay và bàn rõ. Owner đồng ý batch ngày 2026-10-13.",
+        "Anchor áo đỏ nhìn bài/calculator; hai tay và bàn rõ. Owner đồng ý batch ngày 2026-10-13."
+      ],
+      "LP": {
+        "phone": "FP",
+        "looking": "TN"
+      },
+      "L4": {
+        "phone": "FP",
+        "looking": "TN"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/consolidated-frames-20261013/frames/CF-203.jpg"
+    },
+    {
+      "sample_id": "E004-CF-C031",
+      "split": "val",
+      "group": "CF-Q072",
+      "selection_reasons": [
+        "t1_L4_FP_extreme"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/consolidated-frames-20261013/frames/CF-209.jpg",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-CF-C031.png",
+      "source_sha256": "5b402efae5093e3289516edd03f58b08d45c79caef2cf7a6bd7e798380462934",
+      "crop_sha256": "f797645b69c49fb472a09c52b7d0543c472b40f1da350b9d564a522be54739da",
+      "crop_size": [
+        210,
+        330
+      ],
+      "input_scale": 0.6787878787878788,
+      "labels": [
+        null,
+        0
+      ],
+      "label_reasons": [
+        "Anchor áo nâu viết; tay và vùng bài rõ. Phone U vì hộp bút che một phần vùng tay. Owner đồng ý batch ngày 2026-10-13.",
+        "Anchor áo nâu viết; tay và vùng bài rõ. Phone U vì hộp bút che một phần vùng tay. Owner đồng ý batch ngày 2026-10-13."
+      ],
+      "LP": {
+        "phone": "U",
+        "looking": "FP"
+      },
+      "L4": {
+        "phone": "U",
+        "looking": "FP"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/consolidated-frames-20261013/frames/CF-209.jpg"
+    },
+    {
+      "sample_id": "E004-EX-C009",
+      "split": "val",
+      "group": "CF-Q072",
+      "selection_reasons": [
+        "t0_degraded_from_LP",
+        "t1_L4_TN_extreme"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/pexels-v2-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C009/source.bin",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-EX-C009.png",
+      "source_sha256": "e3a4e1f367a4827ccd19c994ddb39bc8c49feaef1e4b87a878379734a2724c7d",
+      "crop_sha256": "32adb59282086db1ff8e2b6e3f8cb11e41c0b0274172195f3891222a404597b7",
+      "crop_size": [
+        1035,
+        750
+      ],
+      "input_scale": 0.21642512077294687,
+      "labels": [
+        1,
+        0
+      ],
+      "label_reasons": [
+        "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C009",
+        "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C009"
+      ],
+      "LP": {
+        "phone": "TP",
+        "looking": "TN"
+      },
+      "L4": {
+        "phone": "FN",
+        "looking": "TN"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/pexels-v2-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C009/source.bin"
+    },
+    {
+      "sample_id": "E004-EX-C027",
+      "split": "val",
+      "group": "CF-Q072",
+      "selection_reasons": [
+        "t1_degraded_from_LP"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/pexels-v2-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C027/source.bin",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-EX-C027.png",
+      "source_sha256": "155bb1bb4993975811b2fd5abf60c59f6048925a8f4a3ee46c23116cd1a87333",
+      "crop_sha256": "146c934826957032ee0432dfa6ea7cd0b5be6b52f2122ab9be7954f8aa53b3ee",
+      "crop_size": [
+        377,
+        566
+      ],
+      "input_scale": 0.3957597173144876,
+      "labels": [
+        null,
+        1
+      ],
+      "label_reasons": [
+        "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C027",
+        "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C027"
+      ],
+      "LP": {
+        "phone": "U",
+        "looking": "TP"
+      },
+      "L4": {
+        "phone": "U",
+        "looking": "FN"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/pexels-v2-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C027/source.bin"
+    },
+    {
+      "sample_id": "E004-EX-C029",
+      "split": "val",
+      "group": "CF-Q072",
+      "selection_reasons": [
+        "t1_L4_FN_extreme"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/pexels-v2-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C029/source.bin",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-EX-C029.png",
+      "source_sha256": "4c1bb32263f996643d10292e850d201137d9c2702f75ea04bec7598a8d9b1e24",
+      "crop_sha256": "75e12ae8823d4da40bf9b1e4b43229851e1a8783a878053aecd718a815b61779",
+      "crop_size": [
+        872,
+        686
+      ],
+      "input_scale": 0.25688073394495414,
+      "labels": [
+        0,
+        1
+      ],
+      "label_reasons": [
+        "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C029",
+        "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C029"
+      ],
+      "LP": {
+        "phone": "TN",
+        "looking": "FN"
+      },
+      "L4": {
+        "phone": "TN",
+        "looking": "FN"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/pexels-v2-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C029/source.bin"
+    },
+    {
+      "sample_id": "E004-EX-C051",
+      "split": "val",
+      "group": "CF-Q072",
+      "selection_reasons": [
+        "t0_L4_TN_extreme"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/pexels-v2-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C051/source.bin",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-EX-C051.png",
+      "source_sha256": "575d84b36ed8634e38fb1617e19a24dab4a5c62e44f844169387099e76e07b30",
+      "crop_sha256": "c081640ae3943bd7bc9bd6a24e0d1bef3697f51aab3de2541fa54152fca78050",
+      "crop_size": [
+        272,
+        283
+      ],
+      "input_scale": 0.7915194346289752,
+      "labels": [
+        0,
+        0
+      ],
+      "label_reasons": [
+        "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C051",
+        "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C051"
+      ],
+      "LP": {
+        "phone": "TN",
+        "looking": "TN"
+      },
+      "L4": {
+        "phone": "TN",
+        "looking": "TN"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/pexels-v2-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C051/source.bin"
+    },
+    {
+      "sample_id": "E004-EX-C120",
+      "split": "val",
+      "group": "CF-Q072",
+      "selection_reasons": [
+        "t0_L4_FN_extreme"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/consolidated-frames-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C120/source.bin",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-EX-C120.png",
+      "source_sha256": "8121f2ae4e4db471a2eb19ca8c930b9361cb017963aa8920235604fc4fefa124",
+      "crop_sha256": "51cd4443b7a9803ca283d8a33dcee808fce7f0a45a9c72e320db859bcb34c832",
+      "crop_size": [
+        426,
+        240
+      ],
+      "input_scale": 0.5258215962441315,
+      "labels": [
+        1,
+        null
+      ],
+      "label_reasons": [
+        "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C120",
+        "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C120"
+      ],
+      "LP": {
+        "phone": "FN",
+        "looking": "U"
+      },
+      "L4": {
+        "phone": "FN",
+        "looking": "U"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/consolidated-frames-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C120/source.bin"
+    },
+    {
+      "sample_id": "E004-EX-C122",
+      "split": "val",
+      "group": "CF-Q072",
+      "selection_reasons": [
+        "t1_L4_TP_extreme"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/consolidated-frames-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C122/source.bin",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-EX-C122.png",
+      "source_sha256": "ee6c4b2b19f96295f8db97e3f9ba146d88668e68e7e6990ee7e2d6f03093aca3",
+      "crop_sha256": "67688d2f4554c1d67dfbf1d97761ada5e6d57893d5b761e304f1b7099712e7db",
+      "crop_size": [
+        122,
+        230
+      ],
+      "input_scale": 0.9739130434782609,
+      "labels": [
+        null,
+        1
+      ],
+      "label_reasons": [
+        "Một tay/vùng hông bị khuất; giữ phone U. Hướng nhìn sang người khác rõ. Owner nghiệm thu ngoại lệ và recrop ngày 2026-10-13.",
+        "Một tay/vùng hông bị khuất; giữ phone U. Hướng nhìn sang người khác rõ. Owner nghiệm thu ngoại lệ và recrop ngày 2026-10-13."
+      ],
+      "LP": {
+        "phone": "U",
+        "looking": "TP"
+      },
+      "L4": {
+        "phone": "U",
+        "looking": "TP"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/consolidated-frames-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C122/source.bin"
+    },
+    {
+      "sample_id": "E004-EX-C042",
+      "split": "val",
+      "group": "EX-LECTURE",
+      "selection_reasons": [
+        "t0_L4_TP_extreme",
+        "t1_degraded_from_LP"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/pexels-v2-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C042/source.bin",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-EX-C042.png",
+      "source_sha256": "c58744346dbdb789eab73798027e7ce746c6968b632c7d9c91ddf0868f27c79e",
+      "crop_sha256": "e2aad9b73be63ab3d046591c790f6da48799656d440656ab23152880df37a205",
+      "crop_size": [
+        450,
+        574
+      ],
+      "input_scale": 0.3902439024390244,
+      "labels": [
+        1,
+        1
+      ],
+      "label_reasons": [
+        "Owner review revision: P/P, giải thích: có phone đặt trên cạnh mép bàn bị che một ít bởi tài liệu; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C042",
+        "Owner review revision: P/P, giải thích: có phone đặt trên cạnh mép bàn bị che một ít bởi tài liệu; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C042"
+      ],
+      "LP": {
+        "phone": "TP",
+        "looking": "TP"
+      },
+      "L4": {
+        "phone": "TP",
+        "looking": "FN"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/pexels-v2-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C042/source.bin"
+    },
+    {
+      "sample_id": "E004-EX-C054",
+      "split": "val",
+      "group": "EX-LECTURE",
+      "selection_reasons": [
+        "t0_L4_TN_extreme"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/pexels-v2-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C054/source.bin",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-EX-C054.png",
+      "source_sha256": "8f86bf938d83b8226044d6a04ed9d97ad38fac6d071d46a248d3d1b43a80c3f5",
+      "crop_sha256": "4be1e007d8fe7628af397f7162316b3c06518f8b8420cec044e4c080856123fb",
+      "crop_size": [
+        164,
+        161
+      ],
+      "input_scale": 1.3658536585365855,
+      "labels": [
+        0,
+        1
+      ],
+      "label_reasons": [
+        "Owner review revision: N/P, giải thích: người đang cầm tài liệu chứ không phải phone; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C054",
+        "Owner review revision: N/P, giải thích: người đang cầm tài liệu chứ không phải phone; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C054"
+      ],
+      "LP": {
+        "phone": "TN",
+        "looking": "TP"
+      },
+      "L4": {
+        "phone": "TN",
+        "looking": "FN"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/pexels-v2-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C054/source.bin"
+    },
+    {
+      "sample_id": "E004-EX-C055",
+      "split": "val",
+      "group": "EX-LECTURE",
+      "selection_reasons": [
+        "t0_L4_FN_extreme"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/pexels-v2-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C055/source.bin",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-EX-C055.png",
+      "source_sha256": "13862cc1eae8e0d78d482212739fac0cb9ff0e0652d8fa4170cc5f49dedf3693",
+      "crop_sha256": "7c71022766048eb5154717554dfd51e41d12fa2964e97f3ca4b1a025c2c8c2be",
+      "crop_size": [
+        179,
+        170
+      ],
+      "input_scale": 1.2513966480446927,
+      "labels": [
+        1,
+        1
+      ],
+      "label_reasons": [
+        "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C055",
+        "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C055"
+      ],
+      "LP": {
+        "phone": "FN",
+        "looking": "FN"
+      },
+      "L4": {
+        "phone": "FN",
+        "looking": "FN"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/pexels-v2-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C055/source.bin"
+    },
+    {
+      "sample_id": "E004-EX-C056",
+      "split": "val",
+      "group": "EX-LECTURE",
+      "selection_reasons": [
+        "t0_degraded_from_LP"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/pexels-v2-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C056/source.bin",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-EX-C056.png",
+      "source_sha256": "8bd403f6e85f0f59895052bfd3381328829ccaa5b202c892301b78ab2b55d29c",
+      "crop_sha256": "697e74ac59a333106e1a3a5d779b43fdbc799701a015804f42d2ae9e584a1ae6",
+      "crop_size": [
+        157,
+        166
+      ],
+      "input_scale": 1.3493975903614457,
+      "labels": [
+        1,
+        1
+      ],
+      "label_reasons": [
+        "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C056",
+        "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C056"
+      ],
+      "LP": {
+        "phone": "TP",
+        "looking": "TP"
+      },
+      "L4": {
+        "phone": "FN",
+        "looking": "FN"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/pexels-v2-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C056/source.bin"
+    },
+    {
+      "sample_id": "E004-EX-C195",
+      "split": "val",
+      "group": "EX-LECTURE",
+      "selection_reasons": [
+        "t1_L4_TN_extreme"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/pexels-v2-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C195/source.bin",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-EX-C195.png",
+      "source_sha256": "a9c7fe4170b6cfc800320e7dff2f17409f25993a9ca35e92a6f279b1f30656b5",
+      "crop_sha256": "2a17f3095dfe9fcc886b1a43c9435712cbfd928ae9ac3439a978ecbec157553b",
+      "crop_size": [
+        301,
+        240
+      ],
+      "input_scale": 0.7441860465116279,
+      "labels": [
+        1,
+        0
+      ],
+      "label_reasons": [
+        "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C195",
+        "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C195"
+      ],
+      "LP": {
+        "phone": "FN",
+        "looking": "TN"
+      },
+      "L4": {
+        "phone": "FN",
+        "looking": "TN"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/pexels-v2-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C195/source.bin"
+    },
+    {
+      "sample_id": "E004-EX-C199",
+      "split": "val",
+      "group": "EX-LECTURE",
+      "selection_reasons": [
+        "t1_L4_FN_extreme"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/pexels-v2-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C199/source.bin",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-EX-C199.png",
+      "source_sha256": "34c617de80eb7c4e73dc9b13a066987e579c2f0b0efa10dbf0c628e531402394",
+      "crop_sha256": "5ccf60fca1be0ef67e1e9e8667a873c62f7880e9d1f5aca9c5dba63f87ec628f",
+      "crop_size": [
+        192,
+        170
+      ],
+      "input_scale": 1.1666666666666667,
+      "labels": [
+        1,
+        1
+      ],
+      "label_reasons": [
+        "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C199",
+        "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C199"
+      ],
+      "LP": {
+        "phone": "FN",
+        "looking": "FN"
+      },
+      "L4": {
+        "phone": "FN",
+        "looking": "FN"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/pexels-v2-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C199/source.bin"
+    },
+    {
+      "sample_id": "E004-EX-C044",
+      "split": "val",
+      "group": "EX-ROUND-DESK",
+      "selection_reasons": [
+        "small_family_all"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/pexels-v2-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C044/source.bin",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-EX-C044.png",
+      "source_sha256": "6e3fa5adb97d98c09f6c65975972a88ef2222fe83a5a9d22fc188b40ad7ca99d",
+      "crop_sha256": "9a3615337eb1cb3132b59061d8365ea56c5f3a0de4a2715a8dad7fb68e725811",
+      "crop_size": [
+        328,
+        239
+      ],
+      "input_scale": 0.6829268292682927,
+      "labels": [
+        0,
+        1
+      ],
+      "label_reasons": [
+        "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C044",
+        "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C044"
+      ],
+      "LP": {
+        "phone": "TN",
+        "looking": "FN"
+      },
+      "L4": {
+        "phone": "TN",
+        "looking": "FN"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/pexels-v2-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C044/source.bin"
+    },
+    {
+      "sample_id": "E004-EX-C045",
+      "split": "val",
+      "group": "EX-ROUND-DESK",
+      "selection_reasons": [
+        "small_family_all"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/pexels-v2-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C045/source.bin",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-EX-C045.png",
+      "source_sha256": "ec15fa7e91617c64ba8fc51d4a6a9a9e6e32a4d8009c87cfb1f1511a1062f07f",
+      "crop_sha256": "d840fd19b1520b866708417896f09970afbb272861613289ddbf73887f463e6a",
+      "crop_size": [
+        366,
+        240
+      ],
+      "input_scale": 0.6120218579234973,
+      "labels": [
+        0,
+        0
+      ],
+      "label_reasons": [
+        "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C045",
+        "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C045"
+      ],
+      "LP": {
+        "phone": "TN",
+        "looking": "TN"
+      },
+      "L4": {
+        "phone": "TN",
+        "looking": "TN"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/pexels-v2-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C045/source.bin"
+    },
+    {
+      "sample_id": "E004-EX-C193",
+      "split": "val",
+      "group": "EX-ROUND-DESK",
+      "selection_reasons": [
+        "small_family_all"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/pexels-v2-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C193/source.bin",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-EX-C193.png",
+      "source_sha256": "f2716234fe70ce17f59daf5367c9e3321268ab366fd43110605051468435f85a",
+      "crop_sha256": "d5870569ce3a2c9248c3be30edbcc4325f81909088c5172ddf0b26b47ec1cae9",
+      "crop_size": [
+        328,
+        240
+      ],
+      "input_scale": 0.6829268292682927,
+      "labels": [
+        0,
+        0
+      ],
+      "label_reasons": [
+        "Owner review revision: N/N, vật trong tay rõ ràng là bút; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C193",
+        "Owner review revision: N/N, vật trong tay rõ ràng là bút; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C193"
+      ],
+      "LP": {
+        "phone": "TN",
+        "looking": "TN"
+      },
+      "L4": {
+        "phone": "TN",
+        "looking": "TN"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/pexels-v2-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C193/source.bin"
+    },
+    {
+      "sample_id": "E004-EX-C194",
+      "split": "val",
+      "group": "EX-ROUND-DESK",
+      "selection_reasons": [
+        "small_family_all"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/pexels-v2-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C194/source.bin",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-EX-C194.png",
+      "source_sha256": "745d632e4abf8a0044f3d521153f2d1c3229f38a4dcf895f4b68321a4d185f93",
+      "crop_sha256": "40064e1d8e67fd965312ae8393034d53c99d43ca261d388c435d67198ac01bdf",
+      "crop_size": [
+        328,
+        240
+      ],
+      "input_scale": 0.6829268292682927,
+      "labels": [
+        0,
+        1
+      ],
+      "label_reasons": [
+        "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C194",
+        "Owner review revision: Approve; evidence: artifacts/reports/E004-v9-consolidation-20261013/owner-review-snapshot.md#E004-EX-C194"
+      ],
+      "LP": {
+        "phone": "FP",
+        "looking": "FN"
+      },
+      "L4": {
+        "phone": "TN",
+        "looking": "FN"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/pexels-v2-20261013/data/interim/E004-source-expansion-20261013/crops/E004-EX-C194/source.bin"
+    },
+    {
+      "sample_id": "E004-CN-042",
+      "split": "val",
+      "group": "STU-instructional-view-12",
+      "selection_reasons": [
+        "small_family_all"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/studentclassroombehavior/data/interim/E004-source-review-20261011/pilot/E004-CN-042/source.bin",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-CN-042.png",
+      "source_sha256": "0030aa43d7c00fb14c408282f95086c0ee80f0f5100d4308c28524b6c2b050bb",
+      "crop_sha256": "a256d2cfca36058944891b8a54ceaa1616a502d8acfb600a650e2b49fc13d6aa",
+      "crop_size": [
+        128,
+        240
+      ],
+      "input_scale": 0.9333333333333333,
+      "labels": [
+        null,
+        1
+      ],
+      "label_reasons": [
+        "Đầu hướng về anchor/bên cạnh, context giữ vùng bài riêng; phone chưa đủ evidence thì U. Nhìn về người ở phía trước, source writing không quyết định target. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+        "Đầu hướng về anchor/bên cạnh, context giữ vùng bài riêng; phone chưa đủ evidence thì U. Nhìn về người ở phía trước, source writing không quyết định target. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12."
+      ],
+      "LP": {
+        "phone": "U",
+        "looking": "FN"
+      },
+      "L4": {
+        "phone": "U",
+        "looking": "FN"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/studentclassroombehavior/data/interim/E004-source-review-20261011/pilot/E004-CN-042/source.bin"
+    },
+    {
+      "sample_id": "E004-CN-043",
+      "split": "val",
+      "group": "STU-instructional-view-12",
+      "selection_reasons": [
+        "small_family_all"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/studentclassroombehavior/data/interim/E004-source-review-20261011/pilot/E004-CN-043/source.bin",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-CN-043.png",
+      "source_sha256": "0030aa43d7c00fb14c408282f95086c0ee80f0f5100d4308c28524b6c2b050bb",
+      "crop_sha256": "14a313da8e8a8836fb10d513c224be459998c2202548296c863ed3335ca58126",
+      "crop_size": [
+        185,
+        186
+      ],
+      "input_scale": 1.2043010752688172,
+      "labels": [
+        null,
+        0
+      ],
+      "label_reasons": [
+        "Hướng đầu tới vùng giấy/bút riêng đủ looking N, không suy từ source writing; tay/bàn ở biên crop chưa đủ phone N. Owner nghiệm thu U/N.",
+        "Hướng đầu tới vùng giấy/bút riêng đủ looking N, không suy từ source writing; tay/bàn ở biên crop chưa đủ phone N. Owner nghiệm thu U/N."
+      ],
+      "LP": {
+        "phone": "U",
+        "looking": "TN"
+      },
+      "L4": {
+        "phone": "U",
+        "looking": "TN"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/studentclassroombehavior/data/interim/E004-source-review-20261011/pilot/E004-CN-043/source.bin"
+    },
+    {
+      "sample_id": "E004-CN-044",
+      "split": "val",
+      "group": "STU-instructional-view-13",
+      "selection_reasons": [
+        "small_family_all"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/studentclassroombehavior/data/interim/E004-source-review-20261011/pilot/E004-CN-044/source.bin",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-CN-044.png",
+      "source_sha256": "00328b920815bd7cee38b1481cf9eb77a39d14853723e7124e342c3f69ed530e",
+      "crop_sha256": "5bc75dff94797f221fd14f24df9e8c7a4fd4815d895240013a0ce08b093eb58a",
+      "crop_size": [
+        224,
+        381
+      ],
+      "input_scale": 0.5879265091863517,
+      "labels": [
+        0,
+        1
+      ],
+      "label_reasons": [
+        "Tay chống mặt và tay giữ bút/giấy rõ; head/gaze sang ngoài vùng bài riêng. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+        "Tay chống mặt và tay giữ bút/giấy rõ; head/gaze sang ngoài vùng bài riêng. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12."
+      ],
+      "LP": {
+        "phone": "TN",
+        "looking": "FN"
+      },
+      "L4": {
+        "phone": "TN",
+        "looking": "FN"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/studentclassroombehavior/data/interim/E004-source-review-20261011/pilot/E004-CN-044/source.bin"
+    },
+    {
+      "sample_id": "E004-CN-045",
+      "split": "val",
+      "group": "STU-instructional-view-13",
+      "selection_reasons": [
+        "small_family_all"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/studentclassroombehavior/data/interim/E004-source-review-20261011/pilot/E004-CN-045/source.bin",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-CN-045.png",
+      "source_sha256": "00328b920815bd7cee38b1481cf9eb77a39d14853723e7124e342c3f69ed530e",
+      "crop_sha256": "d0857a7ca108ed66fce583e81d71b358ded05a6a514e2d6333f397b39cba5111",
+      "crop_size": [
+        233,
+        381
+      ],
+      "input_scale": 0.5879265091863517,
+      "labels": [
+        0,
+        1
+      ],
+      "label_reasons": [
+        "Hai tay/vùng bài đủ phone draft N; head hướng phía trước/ngoài bài, không giữ looking N. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+        "Hai tay/vùng bài đủ phone draft N; head hướng phía trước/ngoài bài, không giữ looking N. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12."
+      ],
+      "LP": {
+        "phone": "TN",
+        "looking": "FN"
+      },
+      "L4": {
+        "phone": "TN",
+        "looking": "FN"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/studentclassroombehavior/data/interim/E004-source-review-20261011/pilot/E004-CN-045/source.bin"
+    },
+    {
+      "sample_id": "E004-CN-056",
+      "split": "val",
+      "group": "STU-instructional-view-13",
+      "selection_reasons": [
+        "small_family_all"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/studentclassroombehavior/data/interim/E004-source-review-20261011/pilot-followup/E004-CN-056/source.bin",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-CN-056.png",
+      "source_sha256": "00328b920815bd7cee38b1481cf9eb77a39d14853723e7124e342c3f69ed530e",
+      "crop_sha256": "91ab15c577f904c11d59d8f6d54788dcd2e5b24ea9ba5d5cadead2828d97d9ef",
+      "crop_size": [
+        160,
+        287
+      ],
+      "input_scale": 0.7804878048780488,
+      "labels": [
+        0,
+        0
+      ],
+      "label_reasons": [
+        "Bút/giấy và hai tay anchor rõ, head/face nhìn về giấy; contrast với foreground nhìn ra ngoài bài. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+        "Bút/giấy và hai tay anchor rõ, head/face nhìn về giấy; contrast với foreground nhìn ra ngoài bài. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12."
+      ],
+      "LP": {
+        "phone": "TN",
+        "looking": "TN"
+      },
+      "L4": {
+        "phone": "TN",
+        "looking": "TN"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/studentclassroombehavior/data/interim/E004-source-review-20261011/pilot-followup/E004-CN-056/source.bin"
+    },
+    {
+      "sample_id": "E004-CN-046",
+      "split": "val",
+      "group": "STU-instructional-view-16",
+      "selection_reasons": [
+        "small_family_all"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/studentclassroombehavior/data/interim/E004-source-review-20261011/pilot/E004-CN-046/source.bin",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-CN-046.png",
+      "source_sha256": "001a63e6728bf5687f14371cca89f214f2a581c96b383b4a019264d9138764ce",
+      "crop_sha256": "3baf2b7583213e97e8a1d4c5c67b1505e472d133e79d5293fc38ec70a4ccd2cb",
+      "crop_size": [
+        581,
+        211
+      ],
+      "input_scale": 0.3855421686746988,
+      "labels": [
+        null,
+        0
+      ],
+      "label_reasons": [
+        "Đang đọc sách; không coi sách/reading là phone N khi thiếu tay. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+        "Đang đọc sách; không coi sách/reading là phone N khi thiếu tay. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12."
+      ],
+      "LP": {
+        "phone": "U",
+        "looking": "TN"
+      },
+      "L4": {
+        "phone": "U",
+        "looking": "TN"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/studentclassroombehavior/data/interim/E004-source-review-20261011/pilot/E004-CN-046/source.bin"
+    },
+    {
+      "sample_id": "E004-CN-047",
+      "split": "val",
+      "group": "STU-instructional-view-16",
+      "selection_reasons": [
+        "small_family_all"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/studentclassroombehavior/data/interim/E004-source-review-20261011/pilot/E004-CN-047/source.bin",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-CN-047.png",
+      "source_sha256": "001a63e6728bf5687f14371cca89f214f2a581c96b383b4a019264d9138764ce",
+      "crop_sha256": "cd675f8179384cf4fd4260b49c1870c4fa9f461d5f90f9cb2212a5562babadcb",
+      "crop_size": [
+        414,
+        255
+      ],
+      "input_scale": 0.5410628019323671,
+      "labels": [
+        null,
+        0
+      ],
+      "label_reasons": [
+        "Native/crop là anchor đọc sách giơ trước mặt; không phải nhìn sang teacher như draft. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+        "Native/crop là anchor đọc sách giơ trước mặt; không phải nhìn sang teacher như draft. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12."
+      ],
+      "LP": {
+        "phone": "U",
+        "looking": "TN"
+      },
+      "L4": {
+        "phone": "U",
+        "looking": "TN"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/studentclassroombehavior/data/interim/E004-source-review-20261011/pilot/E004-CN-047/source.bin"
+    },
+    {
+      "sample_id": "E004-CN-048",
+      "split": "val",
+      "group": "STU-instructional-view-44",
+      "selection_reasons": [
+        "small_family_all"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/studentclassroombehavior/data/interim/E004-source-review-20261011/pilot/E004-CN-048/source.bin",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-CN-048.png",
+      "source_sha256": "25417caf81b395ca09deb038bc82382ccdc6f9c3015c9f534d961257449ff924",
+      "crop_sha256": "0ed65f6320a155a9310ddb94bc569c5d9003e4813374d78716bc730cad009b95",
+      "crop_size": [
+        577,
+        815
+      ],
+      "input_scale": 0.2748466257668712,
+      "labels": [
+        0,
+        0
+      ],
+      "label_reasons": [
+        "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+        "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12."
+      ],
+      "LP": {
+        "phone": "FP",
+        "looking": "FP"
+      },
+      "L4": {
+        "phone": "TN",
+        "looking": "TN"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/studentclassroombehavior/data/interim/E004-source-review-20261011/pilot/E004-CN-048/source.bin"
+    },
+    {
+      "sample_id": "E004-CN-050",
+      "split": "val",
+      "group": "STU-instructional-view-53",
+      "selection_reasons": [
+        "small_family_all"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/studentclassroombehavior/data/interim/E004-source-review-20261011/pilot/E004-CN-050/source.bin",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-CN-050.png",
+      "source_sha256": "e41f24405e47605fa6d5507fd42c9a71df0344584a8fb6c26eacbfcb16726cc4",
+      "crop_sha256": "fabcc1e0c95196629609d6fa557e2241d9cc9cb28222a55300050c51a368f761",
+      "crop_size": [
+        492,
+        505
+      ],
+      "input_scale": 0.44356435643564357,
+      "labels": [
+        null,
+        0
+      ],
+      "label_reasons": [
+        "Vùng tay sát mặt/bài còn bị che và low-detail tại 224; phone absence chưa đủ, looking về bài riêng giữ draft N. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+        "Vùng tay sát mặt/bài còn bị che và low-detail tại 224; phone absence chưa đủ, looking về bài riêng giữ draft N. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12."
+      ],
+      "LP": {
+        "phone": "U",
+        "looking": "TN"
+      },
+      "L4": {
+        "phone": "U",
+        "looking": "TN"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/studentclassroombehavior/data/interim/E004-source-review-20261011/pilot/E004-CN-050/source.bin"
+    },
+    {
+      "sample_id": "E004-CN-052",
+      "split": "val",
+      "group": "STU-instructional-view-54",
+      "selection_reasons": [
+        "small_family_all"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/studentclassroombehavior/data/interim/E004-source-review-20261011/pilot/E004-CN-052/source.bin",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-CN-052.png",
+      "source_sha256": "6878715d2b2cd43cc90cdab2bb8599b3fb031e2024f6a7fc138ab1c9447466c8",
+      "crop_sha256": "67dfd835bbedd934c3e94011ac9a73dfcad332dce45daf2a5d76e7a78af0b2b5",
+      "crop_size": [
+        804,
+        1031
+      ],
+      "input_scale": 0.21726479146459748,
+      "labels": [
+        0,
+        null
+      ],
+      "label_reasons": [
+        "Bút/giấy/tay của anchor rõ; tóc che hướng nhìn nên looking U. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+        "Bút/giấy/tay của anchor rõ; tóc che hướng nhìn nên looking U. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12."
+      ],
+      "LP": {
+        "phone": "FP",
+        "looking": "U"
+      },
+      "L4": {
+        "phone": "FP",
+        "looking": "U"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/studentclassroombehavior/data/interim/E004-source-review-20261011/pilot/E004-CN-052/source.bin"
+    },
+    {
+      "sample_id": "E004-CN-053",
+      "split": "val",
+      "group": "STU-instructional-view-54",
+      "selection_reasons": [
+        "small_family_all"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/studentclassroombehavior/data/interim/E004-source-review-20261011/pilot/E004-CN-053/source.bin",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-CN-053.png",
+      "source_sha256": "6878715d2b2cd43cc90cdab2bb8599b3fb031e2024f6a7fc138ab1c9447466c8",
+      "crop_sha256": "a64d8c4d40432b6a7641b7d5370f64a9946817b1bd816fe7a55aa3dfc5aa8f5b",
+      "crop_size": [
+        580,
+        682
+      ],
+      "input_scale": 0.3284457478005865,
+      "labels": [
+        0,
+        0
+      ],
+      "label_reasons": [
+        "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+        "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12."
+      ],
+      "LP": {
+        "phone": "TN",
+        "looking": "TN"
+      },
+      "L4": {
+        "phone": "TN",
+        "looking": "TN"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/studentclassroombehavior/data/interim/E004-source-review-20261011/pilot/E004-CN-053/source.bin"
+    },
+    {
+      "sample_id": "E004-CN-055",
+      "split": "val",
+      "group": "STU-instructional-view-59",
+      "selection_reasons": [
+        "small_family_all"
+      ],
+      "source_path": "outputs/_scratch/e004-visual-audit-20261014/outputs/_scratch/e004-v9-consolidation-20261013/sources/studentclassroombehavior/data/interim/E004-source-review-20261011/pilot/E004-CN-055/source.bin",
+      "crop_path": "data/processed/e004/E004-v9-development-20261013/crops/E004-CN-055.png",
+      "source_sha256": "4ec829973e95e49c4f1dfd08340cb564e8137bccd8eb15a3e122d9c3b2d34935",
+      "crop_sha256": "95f0d5317eeddad9610188b2ba7c41244a832bbf55da4452e94cb6b753a01ed5",
+      "crop_size": [
+        480,
+        446
+      ],
+      "input_scale": 0.4666666666666667,
+      "labels": [
+        0,
+        0
+      ],
+      "label_reasons": [
+        "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12.",
+        "Tay và vùng bài riêng có thể quan sát, đang viết/đọc; đề xuất N/N phải owner xác nhận absence mobile và gaze tại exact crop. Owner đồng ý các crop còn lại trong chat ngày 2026-10-12."
+      ],
+      "LP": {
+        "phone": "TN",
+        "looking": "TN"
+      },
+      "L4": {
+        "phone": "TN",
+        "looking": "TN"
+      },
+      "source_original_archive_path": "outputs/_scratch/e004-v9-consolidation-20261013/sources/studentclassroombehavior/data/interim/E004-source-review-20261011/pilot/E004-CN-055/source.bin"
+    }
+  ]
+}

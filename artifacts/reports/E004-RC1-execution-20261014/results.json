@@ -1,0 +1,2895 @@
+{
+  "scope": "development; one seed; post-hoc diagnostics",
+  "runs": {
+    "E004-RC1-R-H": {
+      "record": {
+        "status": "FINISHED",
+        "best_epoch": 1,
+        "completed_epochs": 11,
+        "elapsed_seconds": 1104.7281544998987
+      },
+      "cohort_metrics": {
+        "train": {
+          "macro_masked_bce": 0.4806196093559265,
+          "macro_ap": 0.8779832995715265,
+          "targets": {
+            "phone_use": {
+              "positive": 247,
+              "negative": 193,
+              "unknown": 276,
+              "tp": 188,
+              "fp": 29,
+              "fn": 59,
+              "tn": 164,
+              "ap": 0.9124221072165459,
+              "precision": 0.8663594470046083,
+              "recall": 0.7611336032388664,
+              "f1": 0.8103448275862069,
+              "reason": null,
+              "fpr": 0.15025906735751296
+            },
+            "looking_around": {
+              "positive": 213,
+              "negative": 297,
+              "unknown": 206,
+              "tp": 126,
+              "fp": 23,
+              "fn": 87,
+              "tn": 274,
+              "ap": 0.8435444919265072,
+              "precision": 0.8456375838926175,
+              "recall": 0.5915492957746479,
+              "f1": 0.6961325966850829,
+              "reason": null,
+              "fpr": 0.07744107744107744
+            }
+          }
+        },
+        "selection": {
+          "macro_masked_bce": 0.7093246579170227,
+          "macro_ap": 0.54123174276394,
+          "targets": {
+            "phone_use": {
+              "positive": 27,
+              "negative": 33,
+              "unknown": 11,
+              "tp": 5,
+              "fp": 6,
+              "fn": 22,
+              "tn": 27,
+              "ap": 0.5658926414083263,
+              "precision": 0.45454545454545453,
+              "recall": 0.18518518518518517,
+              "f1": 0.2631578947368421,
+              "reason": null,
+              "fpr": 0.18181818181818182
+            },
+            "looking_around": {
+              "positive": 28,
+              "negative": 38,
+              "unknown": 5,
+              "tp": 2,
+              "fp": 4,
+              "fn": 26,
+              "tn": 34,
+              "ap": 0.5165708441195538,
+              "precision": 0.3333333333333333,
+              "recall": 0.07142857142857142,
+              "f1": 0.11764705882352941,
+              "reason": null,
+              "fpr": 0.10526315789473684
+            }
+          }
+        },
+        "diagnostic49": {
+          "macro_masked_bce": 0.5770031213760376,
+          "macro_ap": 0.824718139663521,
+          "targets": {
+            "phone_use": {
+              "positive": 16,
+              "negative": 20,
+              "unknown": 13,
+              "tp": 10,
+              "fp": 1,
+              "fn": 6,
+              "tn": 19,
+              "ap": 0.8016291384128604,
+              "precision": 0.9090909090909091,
+              "recall": 0.625,
+              "f1": 0.7407407407407407,
+              "reason": null,
+              "fpr": 0.05
+            },
+            "looking_around": {
+              "positive": 17,
+              "negative": 12,
+              "unknown": 20,
+              "tp": 9,
+              "fp": 1,
+              "fn": 8,
+              "tn": 11,
+              "ap": 0.8478071409141816,
+              "precision": 0.9,
+              "recall": 0.5294117647058824,
+              "f1": 0.6666666666666666,
+              "reason": null,
+              "fpr": 0.08333333333333333
+            }
+          }
+        },
+        "comparator48": {
+          "macro_masked_bce": 0.5888102054595947,
+          "macro_ap": 0.8255514729968544,
+          "targets": {
+            "phone_use": {
+              "positive": 16,
+              "negative": 19,
+              "unknown": 13,
+              "tp": 10,
+              "fp": 1,
+              "fn": 6,
+              "tn": 18,
+              "ap": 0.8016291384128604,
+              "precision": 0.9090909090909091,
+              "recall": 0.625,
+              "f1": 0.7407407407407407,
+              "reason": null,
+              "fpr": 0.05263157894736842
+            },
+            "looking_around": {
+              "positive": 17,
+              "negative": 11,
+              "unknown": 20,
+              "tp": 9,
+              "fp": 1,
+              "fn": 8,
+              "tn": 10,
+              "ap": 0.8494738075808483,
+              "precision": 0.9,
+              "recall": 0.5294117647058824,
+              "f1": 0.6666666666666666,
+              "reason": null,
+              "fpr": 0.09090909090909091
+            }
+          }
+        },
+        "added35": {
+          "macro_masked_bce": 0.6395902633666992,
+          "macro_ap": 0.7089601776792178,
+          "targets": {
+            "phone_use": {
+              "positive": 9,
+              "negative": 18,
+              "unknown": 8,
+              "tp": 4,
+              "fp": 1,
+              "fn": 5,
+              "tn": 17,
+              "ap": 0.6330403102229727,
+              "precision": 0.8,
+              "recall": 0.4444444444444444,
+              "f1": 0.5714285714285714,
+              "reason": null,
+              "fpr": 0.05555555555555555
+            },
+            "looking_around": {
+              "positive": 14,
+              "negative": 8,
+              "unknown": 13,
+              "tp": 6,
+              "fp": 1,
+              "fn": 8,
+              "tn": 7,
+              "ap": 0.7848800451354631,
+              "precision": 0.8571428571428571,
+              "recall": 0.42857142857142855,
+              "f1": 0.5714285714285714,
+              "reason": null,
+              "fpr": 0.125
+            }
+          }
+        }
+      },
+      "independent_cached_metric_check": "PASS",
+      "selection_targets_recomputed": {
+        "phone_use": {
+          "positive": 27,
+          "negative": 33,
+          "unknown": 11,
+          "ap": 0.5658926414083263,
+          "tp": 5,
+          "fp": 6,
+          "fn": 22,
+          "tn": 27,
+          "recall": 0.18518518518518517,
+          "precision": 0.45454545454545453,
+          "fpr": 0.18181818181818182,
+          "bce": 0.707069561125407,
+          "M1_any_threshold_feasible": false
+        },
+        "looking_around": {
+          "positive": 28,
+          "negative": 38,
+          "unknown": 5,
+          "ap": 0.5165708441195537,
+          "tp": 2,
+          "fp": 4,
+          "fn": 26,
+          "tn": 34,
+          "recall": 0.07142857142857142,
+          "precision": 0.3333333333333333,
+          "fpr": 0.10526315789473684,
+          "bce": 0.7115798074407491,
+          "M1_any_threshold_feasible": false
+        }
+      },
+      "family_diagnostic": {
+        "CF-Q072": {
+          "records": 45,
+          "targets": {
+            "phone_use": {
+              "positive": 19,
+              "negative": 21,
+              "unknown": 5,
+              "ap": 0.5954624123757204,
+              "tp": 4,
+              "fp": 5,
+              "fn": 15,
+              "tn": 16,
+              "recall": 0.21052631578947367,
+              "precision": 0.4444444444444444,
+              "fpr": 0.23809523809523808,
+              "bce": 0.7314414518679354,
+              "M1_any_threshold_feasible": false
+            },
+            "looking_around": {
+              "positive": 17,
+              "negative": 24,
+              "unknown": 4,
+              "ap": 0.4671225923085271,
+              "tp": 2,
+              "fp": 4,
+              "fn": 15,
+              "tn": 20,
+              "recall": 0.11764705882352941,
+              "precision": 0.3333333333333333,
+              "fpr": 0.16666666666666666,
+              "bce": 0.7192093989604145,
+              "M1_any_threshold_feasible": false
+            }
+          }
+        },
+        "EX-LECTURE": {
+          "records": 10,
+          "targets": {
+            "phone_use": {
+              "positive": 8,
+              "negative": 1,
+              "unknown": 1,
+              "ap": 1.0,
+              "tp": 1,
+              "fp": 0,
+              "fn": 7,
+              "tn": 1,
+              "recall": 0.125,
+              "precision": 1.0,
+              "fpr": 0.0,
+              "bce": 1.0676766598247367,
+              "M1_any_threshold_feasible": true
+            },
+            "looking_around": {
+              "positive": 6,
+              "negative": 4,
+              "unknown": 0,
+              "ap": 0.7801587301587302,
+              "tp": 0,
+              "fp": 0,
+              "fn": 6,
+              "tn": 4,
+              "recall": 0.0,
+              "precision": null,
+              "fpr": 0.0,
+              "bce": 0.7598408947348295,
+              "M1_any_threshold_feasible": false
+            }
+          }
+        },
+        "EX-ROUND-DESK": {
+          "records": 4,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 4,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 4,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 2,
+              "negative": 2,
+              "unknown": 0,
+              "ap": 0.75,
+              "tp": 0,
+              "fp": 0,
+              "fn": 2,
+              "tn": 2,
+              "recall": 0.0,
+              "precision": null,
+              "fpr": 0.0,
+              "bce": 1.2742695620906797,
+              "M1_any_threshold_feasible": false
+            }
+          }
+        },
+        "STU-instructional-view-12": {
+          "records": 2,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 0,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 0,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 1,
+              "negative": 1,
+              "unknown": 0,
+              "ap": 1.0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 1,
+              "tn": 1,
+              "recall": 0.0,
+              "precision": null,
+              "fpr": 0.0,
+              "bce": 0.46684779058864867,
+              "M1_any_threshold_feasible": true
+            }
+          }
+        },
+        "STU-instructional-view-13": {
+          "records": 3,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 3,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 3,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 2,
+              "negative": 1,
+              "unknown": 0,
+              "ap": 1.0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 2,
+              "tn": 1,
+              "recall": 0.0,
+              "precision": null,
+              "fpr": 0.0,
+              "bce": 0.8266650610156864,
+              "M1_any_threshold_feasible": true
+            }
+          }
+        },
+        "STU-instructional-view-16": {
+          "records": 2,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 0,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 0,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 2,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 2,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            }
+          }
+        },
+        "STU-instructional-view-44": {
+          "records": 1,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 1,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 1,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 1,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 1,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            }
+          }
+        },
+        "STU-instructional-view-53": {
+          "records": 1,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 0,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 0,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 1,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 1,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            }
+          }
+        },
+        "STU-instructional-view-54": {
+          "records": 2,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 2,
+              "ap": null,
+              "tp": 0,
+              "fp": 1,
+              "fn": 0,
+              "tn": 1,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 1,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 1,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            }
+          }
+        },
+        "STU-instructional-view-59": {
+          "records": 1,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 1,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 1,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 1,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 1,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            }
+          }
+        }
+      },
+      "outside_CF_Q072": {
+        "phone_use": {
+          "positive": 8,
+          "negative": 12,
+          "unknown": 6,
+          "ap": 0.535218253968254,
+          "tp": 1,
+          "fp": 1,
+          "fn": 7,
+          "tn": 11,
+          "recall": 0.125,
+          "precision": 0.5,
+          "fpr": 0.08333333333333333,
+          "bce": 0.6583257796403509,
+          "M1_any_threshold_feasible": false
+        },
+        "looking_around": {
+          "positive": 11,
+          "negative": 14,
+          "unknown": 1,
+          "ap": 0.6348650233339229,
+          "tp": 0,
+          "fp": 0,
+          "fn": 11,
+          "tn": 14,
+          "recall": 0.0,
+          "precision": null,
+          "fpr": 0.0,
+          "bce": 0.6990672773484983,
+          "M1_any_threshold_feasible": false
+        }
+      },
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.4806196093559265,
+          "val_loss": 0.7093246579170227,
+          "permutation_sha256": "e39e482086430f59c333a12dc6adcd651c416f9d5df9a40123265e2b643e4501"
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.3870188295841217,
+          "val_loss": 0.8497922420501709,
+          "permutation_sha256": "193529f6f0b44e4ab4d39445e1910210cf2ec58c16200ab28a18d85a743188a1"
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.1134103536605835,
+          "val_loss": 0.8816362619400024,
+          "permutation_sha256": "7b6e755503063233d191b32e60fc97ff3d8622475b3e718436cbdc4c0cf77a32"
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.044187597930431366,
+          "val_loss": 1.3891665935516357,
+          "permutation_sha256": "f4b2923e5725146b0c8426c415b1a30ad628ab0c200dcbb6fe7c6eb473e64eed"
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.00807243213057518,
+          "val_loss": 1.5663294792175293,
+          "permutation_sha256": "df333a95c3b317c89b84f94fac627d2a79e3840df3385f0c712766b2ecd157b2"
+        },
+        {
+          "epoch": 6,
+          "train_loss": 0.009770624339580536,
+          "val_loss": 1.3562030792236328,
+          "permutation_sha256": "ad18e6935bc5a48ed3276bd5e42eb6d3f3f2553ee06c08a2c7175f2c43bafb80"
+        },
+        {
+          "epoch": 7,
+          "train_loss": 0.0018993793055415154,
+          "val_loss": 2.1471872329711914,
+          "permutation_sha256": "a3b404a0ed977caa4057c8f6a809a4ab8ad5dba4536a7b041f073732e11ecfa3"
+        },
+        {
+          "epoch": 8,
+          "train_loss": 0.0004899994237348437,
+          "val_loss": 2.1494193077087402,
+          "permutation_sha256": "49d0131b50c0597d5125b90b10525b348840178d0f3d7a192d35f176d807c059"
+        },
+        {
+          "epoch": 9,
+          "train_loss": 0.00031104451045393944,
+          "val_loss": 2.2287204265594482,
+          "permutation_sha256": "0944bc1c4669e29824eb525183b8c98f6b4a49f2d292f14f76fc4ae73ec23c19"
+        },
+        {
+          "epoch": 10,
+          "train_loss": 0.0002281541092088446,
+          "val_loss": 2.307027816772461,
+          "permutation_sha256": "7174ae303d5d0791120e537c1a9fcf530c296fcaeb5fc2cb7ad95eaa6e3035a0"
+        },
+        {
+          "epoch": 11,
+          "train_loss": 0.00017883423424791545,
+          "val_loss": 2.376709222793579,
+          "permutation_sha256": "5c437fb69be695f0144f8e705bd7141f186df922b967337f5e28082527eea24c"
+        }
+      ],
+      "early_diagnostics": [
+        {
+          "attempt": 1,
+          "epoch": 0,
+          "step": 0,
+          "global_step": 0,
+          "committed_epoch_before_measurement": 0,
+          "diagnostic_only": true,
+          "cohorts": {
+            "train": {
+              "macro_masked_bce": 0.7751936912536621,
+              "macro_ap": 0.521942799746587
+            },
+            "selection": {
+              "macro_masked_bce": 0.7786457538604736,
+              "macro_ap": 0.4087586226769574
+            }
+          }
+        },
+        {
+          "attempt": 1,
+          "epoch": 1,
+          "step": 15,
+          "global_step": 15,
+          "committed_epoch_before_measurement": 0,
+          "diagnostic_only": true,
+          "cohorts": {
+            "train": {
+              "macro_masked_bce": 0.589432954788208,
+              "macro_ap": 0.7760110979677244
+            },
+            "selection": {
+              "macro_masked_bce": 0.7197299003601074,
+              "macro_ap": 0.49777966908614657
+            }
+          }
+        },
+        {
+          "attempt": 1,
+          "epoch": 1,
+          "step": 30,
+          "global_step": 30,
+          "committed_epoch_before_measurement": 0,
+          "diagnostic_only": true,
+          "cohorts": {
+            "train": {
+              "macro_masked_bce": 0.5373550653457642,
+              "macro_ap": 0.8336114676410096
+            },
+            "selection": {
+              "macro_masked_bce": 0.7906724214553833,
+              "macro_ap": 0.49787696449858665
+            }
+          }
+        }
+      ]
+    },
+    "E004-RC1-W-H": {
+      "record": {
+        "status": "FINISHED",
+        "best_epoch": 1,
+        "completed_epochs": 11,
+        "elapsed_seconds": 1110.6581404000754
+      },
+      "cohort_metrics": {
+        "train": {
+          "macro_masked_bce": 0.4558684825897217,
+          "macro_ap": 0.9160618229040858,
+          "targets": {
+            "phone_use": {
+              "positive": 247,
+              "negative": 193,
+              "unknown": 276,
+              "tp": 219,
+              "fp": 32,
+              "fn": 28,
+              "tn": 161,
+              "ap": 0.947728559128106,
+              "precision": 0.8725099601593626,
+              "recall": 0.8866396761133604,
+              "f1": 0.8795180722891566,
+              "reason": null,
+              "fpr": 0.16580310880829016
+            },
+            "looking_around": {
+              "positive": 213,
+              "negative": 297,
+              "unknown": 206,
+              "tp": 139,
+              "fp": 22,
+              "fn": 74,
+              "tn": 275,
+              "ap": 0.8843950866800654,
+              "precision": 0.8633540372670807,
+              "recall": 0.6525821596244131,
+              "f1": 0.7433155080213903,
+              "reason": null,
+              "fpr": 0.07407407407407407
+            }
+          }
+        },
+        "selection": {
+          "macro_masked_bce": 0.6536494493484497,
+          "macro_ap": 0.6076303862360619,
+          "targets": {
+            "phone_use": {
+              "positive": 27,
+              "negative": 33,
+              "unknown": 11,
+              "tp": 10,
+              "fp": 6,
+              "fn": 17,
+              "tn": 27,
+              "ap": 0.6709155082929446,
+              "precision": 0.625,
+              "recall": 0.37037037037037035,
+              "f1": 0.46511627906976744,
+              "reason": null,
+              "fpr": 0.18181818181818182
+            },
+            "looking_around": {
+              "positive": 28,
+              "negative": 38,
+              "unknown": 5,
+              "tp": 6,
+              "fp": 5,
+              "fn": 22,
+              "tn": 33,
+              "ap": 0.5443452641791794,
+              "precision": 0.5454545454545454,
+              "recall": 0.21428571428571427,
+              "f1": 0.3076923076923077,
+              "reason": null,
+              "fpr": 0.13157894736842105
+            }
+          }
+        },
+        "diagnostic49": {
+          "macro_masked_bce": 0.6021033525466919,
+          "macro_ap": 0.8081393712351586,
+          "targets": {
+            "phone_use": {
+              "positive": 16,
+              "negative": 20,
+              "unknown": 13,
+              "tp": 9,
+              "fp": 3,
+              "fn": 7,
+              "tn": 17,
+              "ap": 0.802900534589148,
+              "precision": 0.75,
+              "recall": 0.5625,
+              "f1": 0.6428571428571429,
+              "reason": null,
+              "fpr": 0.15
+            },
+            "looking_around": {
+              "positive": 17,
+              "negative": 12,
+              "unknown": 20,
+              "tp": 10,
+              "fp": 2,
+              "fn": 7,
+              "tn": 10,
+              "ap": 0.8133782078811692,
+              "precision": 0.8333333333333334,
+              "recall": 0.5882352941176471,
+              "f1": 0.6896551724137931,
+              "reason": null,
+              "fpr": 0.16666666666666666
+            }
+          }
+        },
+        "comparator48": {
+          "macro_masked_bce": 0.6130147576332092,
+          "macro_ap": 0.8085595393023854,
+          "targets": {
+            "phone_use": {
+              "positive": 16,
+              "negative": 19,
+              "unknown": 13,
+              "tp": 9,
+              "fp": 3,
+              "fn": 7,
+              "tn": 16,
+              "ap": 0.8037408707236018,
+              "precision": 0.75,
+              "recall": 0.5625,
+              "f1": 0.6428571428571429,
+              "reason": null,
+              "fpr": 0.15789473684210525
+            },
+            "looking_around": {
+              "positive": 17,
+              "negative": 11,
+              "unknown": 20,
+              "tp": 10,
+              "fp": 2,
+              "fn": 7,
+              "tn": 9,
+              "ap": 0.8133782078811692,
+              "precision": 0.8333333333333334,
+              "recall": 0.5882352941176471,
+              "f1": 0.6896551724137931,
+              "reason": null,
+              "fpr": 0.18181818181818182
+            }
+          }
+        },
+        "added35": {
+          "macro_masked_bce": 0.6686540246009827,
+          "macro_ap": 0.6700511460121883,
+          "targets": {
+            "phone_use": {
+              "positive": 9,
+              "negative": 18,
+              "unknown": 8,
+              "tp": 3,
+              "fp": 3,
+              "fn": 6,
+              "tn": 15,
+              "ap": 0.6138608305274971,
+              "precision": 0.5,
+              "recall": 0.3333333333333333,
+              "f1": 0.4,
+              "reason": null,
+              "fpr": 0.16666666666666666
+            },
+            "looking_around": {
+              "positive": 14,
+              "negative": 8,
+              "unknown": 13,
+              "tp": 7,
+              "fp": 2,
+              "fn": 7,
+              "tn": 6,
+              "ap": 0.7262414614968794,
+              "precision": 0.7777777777777778,
+              "recall": 0.5,
+              "f1": 0.6086956521739131,
+              "reason": null,
+              "fpr": 0.25
+            }
+          }
+        }
+      },
+      "independent_cached_metric_check": "PASS",
+      "selection_targets_recomputed": {
+        "phone_use": {
+          "positive": 27,
+          "negative": 33,
+          "unknown": 11,
+          "ap": 0.6709155082929443,
+          "tp": 10,
+          "fp": 6,
+          "fn": 17,
+          "tn": 27,
+          "recall": 0.37037037037037035,
+          "precision": 0.625,
+          "fpr": 0.18181818181818182,
+          "bce": 0.6265003924275734,
+          "M1_any_threshold_feasible": false
+        },
+        "looking_around": {
+          "positive": 28,
+          "negative": 38,
+          "unknown": 5,
+          "ap": 0.5443452641791793,
+          "tp": 6,
+          "fp": 5,
+          "fn": 22,
+          "tn": 33,
+          "recall": 0.21428571428571427,
+          "precision": 0.5454545454545454,
+          "fpr": 0.13157894736842105,
+          "bce": 0.6807985252757538,
+          "M1_any_threshold_feasible": false
+        }
+      },
+      "family_diagnostic": {
+        "CF-Q072": {
+          "records": 45,
+          "targets": {
+            "phone_use": {
+              "positive": 19,
+              "negative": 21,
+              "unknown": 5,
+              "ap": 0.720084729798352,
+              "tp": 9,
+              "fp": 5,
+              "fn": 10,
+              "tn": 16,
+              "recall": 0.47368421052631576,
+              "precision": 0.6428571428571429,
+              "fpr": 0.23809523809523808,
+              "bce": 0.6264517846322792,
+              "M1_any_threshold_feasible": false
+            },
+            "looking_around": {
+              "positive": 17,
+              "negative": 24,
+              "unknown": 4,
+              "ap": 0.5028619544623004,
+              "tp": 3,
+              "fp": 4,
+              "fn": 14,
+              "tn": 20,
+              "recall": 0.17647058823529413,
+              "precision": 0.42857142857142855,
+              "fpr": 0.16666666666666666,
+              "bce": 0.7196037502084454,
+              "M1_any_threshold_feasible": false
+            }
+          }
+        },
+        "EX-LECTURE": {
+          "records": 10,
+          "targets": {
+            "phone_use": {
+              "positive": 8,
+              "negative": 1,
+              "unknown": 1,
+              "ap": 0.9704861111111112,
+              "tp": 1,
+              "fp": 0,
+              "fn": 7,
+              "tn": 1,
+              "recall": 0.125,
+              "precision": 1.0,
+              "fpr": 0.0,
+              "bce": 0.8441973990264564,
+              "M1_any_threshold_feasible": false
+            },
+            "looking_around": {
+              "positive": 6,
+              "negative": 4,
+              "unknown": 0,
+              "ap": 0.9166666666666665,
+              "tp": 3,
+              "fp": 0,
+              "fn": 3,
+              "tn": 4,
+              "recall": 0.5,
+              "precision": 1.0,
+              "fpr": 0.0,
+              "bce": 0.6503467954346056,
+              "M1_any_threshold_feasible": false
+            }
+          }
+        },
+        "EX-ROUND-DESK": {
+          "records": 4,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 4,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 4,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 2,
+              "negative": 2,
+              "unknown": 0,
+              "ap": 0.8333333333333333,
+              "tp": 0,
+              "fp": 0,
+              "fn": 2,
+              "tn": 2,
+              "recall": 0.0,
+              "precision": null,
+              "fpr": 0.0,
+              "bce": 0.9032512009397762,
+              "M1_any_threshold_feasible": false
+            }
+          }
+        },
+        "STU-instructional-view-12": {
+          "records": 2,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 0,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 0,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 1,
+              "negative": 1,
+              "unknown": 0,
+              "ap": 1.0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 1,
+              "tn": 1,
+              "recall": 0.0,
+              "precision": null,
+              "fpr": 0.0,
+              "bce": 0.508492166375241,
+              "M1_any_threshold_feasible": true
+            }
+          }
+        },
+        "STU-instructional-view-13": {
+          "records": 3,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 3,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 3,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 2,
+              "negative": 1,
+              "unknown": 0,
+              "ap": 0.8333333333333333,
+              "tp": 0,
+              "fp": 0,
+              "fn": 2,
+              "tn": 1,
+              "recall": 0.0,
+              "precision": null,
+              "fpr": 0.0,
+              "bce": 0.8229278263444813,
+              "M1_any_threshold_feasible": false
+            }
+          }
+        },
+        "STU-instructional-view-16": {
+          "records": 2,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 0,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 0,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 2,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 2,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            }
+          }
+        },
+        "STU-instructional-view-44": {
+          "records": 1,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 1,
+              "ap": null,
+              "tp": 0,
+              "fp": 1,
+              "fn": 0,
+              "tn": 0,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 1,
+              "ap": null,
+              "tp": 0,
+              "fp": 1,
+              "fn": 0,
+              "tn": 0,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            }
+          }
+        },
+        "STU-instructional-view-53": {
+          "records": 1,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 0,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 0,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 1,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 1,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            }
+          }
+        },
+        "STU-instructional-view-54": {
+          "records": 2,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 2,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 2,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 1,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 1,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            }
+          }
+        },
+        "STU-instructional-view-59": {
+          "records": 1,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 1,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 1,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 1,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 1,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            }
+          }
+        }
+      },
+      "outside_CF_Q072": {
+        "phone_use": {
+          "positive": 8,
+          "negative": 12,
+          "unknown": 6,
+          "ap": 0.5937770562770562,
+          "tp": 1,
+          "fp": 1,
+          "fn": 7,
+          "tn": 11,
+          "recall": 0.125,
+          "precision": 0.5,
+          "fpr": 0.08333333333333333,
+          "bce": 0.6265976080181621,
+          "M1_any_threshold_feasible": false
+        },
+        "looking_around": {
+          "positive": 11,
+          "negative": 14,
+          "unknown": 1,
+          "ap": 0.6765429015429016,
+          "tp": 3,
+          "fp": 1,
+          "fn": 8,
+          "tn": 13,
+          "recall": 0.2727272727272727,
+          "precision": 0.75,
+          "fpr": 0.07142857142857142,
+          "bce": 0.6171579563861396,
+          "M1_any_threshold_feasible": false
+        }
+      },
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.4558684825897217,
+          "val_loss": 0.6536494493484497,
+          "permutation_sha256": "e39e482086430f59c333a12dc6adcd651c416f9d5df9a40123265e2b643e4501"
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.1848766803741455,
+          "val_loss": 0.7551331520080566,
+          "permutation_sha256": "193529f6f0b44e4ab4d39445e1910210cf2ec58c16200ab28a18d85a743188a1"
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.07408349215984344,
+          "val_loss": 0.8399120569229126,
+          "permutation_sha256": "7b6e755503063233d191b32e60fc97ff3d8622475b3e718436cbdc4c0cf77a32"
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.05132288485765457,
+          "val_loss": 1.5501970052719116,
+          "permutation_sha256": "f4b2923e5725146b0c8426c415b1a30ad628ab0c200dcbb6fe7c6eb473e64eed"
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.008807444013655186,
+          "val_loss": 1.8405416011810303,
+          "permutation_sha256": "df333a95c3b317c89b84f94fac627d2a79e3840df3385f0c712766b2ecd157b2"
+        },
+        {
+          "epoch": 6,
+          "train_loss": 0.0047373115085065365,
+          "val_loss": 1.5775609016418457,
+          "permutation_sha256": "ad18e6935bc5a48ed3276bd5e42eb6d3f3f2553ee06c08a2c7175f2c43bafb80"
+        },
+        {
+          "epoch": 7,
+          "train_loss": 0.0009519634186290205,
+          "val_loss": 1.7733139991760254,
+          "permutation_sha256": "a3b404a0ed977caa4057c8f6a809a4ab8ad5dba4536a7b041f073732e11ecfa3"
+        },
+        {
+          "epoch": 8,
+          "train_loss": 0.0004343191976659,
+          "val_loss": 1.9385133981704712,
+          "permutation_sha256": "49d0131b50c0597d5125b90b10525b348840178d0f3d7a192d35f176d807c059"
+        },
+        {
+          "epoch": 9,
+          "train_loss": 0.00028844448388554156,
+          "val_loss": 1.9701063632965088,
+          "permutation_sha256": "0944bc1c4669e29824eb525183b8c98f6b4a49f2d292f14f76fc4ae73ec23c19"
+        },
+        {
+          "epoch": 10,
+          "train_loss": 0.00022267298481892794,
+          "val_loss": 1.997331142425537,
+          "permutation_sha256": "7174ae303d5d0791120e537c1a9fcf530c296fcaeb5fc2cb7ad95eaa6e3035a0"
+        },
+        {
+          "epoch": 11,
+          "train_loss": 0.0001731096563162282,
+          "val_loss": 2.090867042541504,
+          "permutation_sha256": "5c437fb69be695f0144f8e705bd7141f186df922b967337f5e28082527eea24c"
+        }
+      ],
+      "early_diagnostics": [
+        {
+          "attempt": 1,
+          "epoch": 0,
+          "step": 0,
+          "global_step": 0,
+          "committed_epoch_before_measurement": 0,
+          "diagnostic_only": true,
+          "cohorts": {
+            "train": {
+              "macro_masked_bce": 0.4629189372062683,
+              "macro_ap": 0.8638495886788379
+            },
+            "selection": {
+              "macro_masked_bce": 0.6778520345687866,
+              "macro_ap": 0.5753683976950549
+            }
+          }
+        },
+        {
+          "attempt": 1,
+          "epoch": 1,
+          "step": 15,
+          "global_step": 15,
+          "committed_epoch_before_measurement": 0,
+          "diagnostic_only": true,
+          "cohorts": {
+            "train": {
+              "macro_masked_bce": 0.5985152125358582,
+              "macro_ap": 0.8532667795749957
+            },
+            "selection": {
+              "macro_masked_bce": 0.7657477259635925,
+              "macro_ap": 0.5461788026787162
+            }
+          }
+        },
+        {
+          "attempt": 1,
+          "epoch": 1,
+          "step": 30,
+          "global_step": 30,
+          "committed_epoch_before_measurement": 0,
+          "diagnostic_only": true,
+          "cohorts": {
+            "train": {
+              "macro_masked_bce": 0.523076057434082,
+              "macro_ap": 0.8804573402512512
+            },
+            "selection": {
+              "macro_masked_bce": 0.6787903308868408,
+              "macro_ap": 0.5986408297957697
+            }
+          }
+        }
+      ]
+    },
+    "E004-RC1-R-L": {
+      "record": {
+        "status": "FINISHED",
+        "best_epoch": 1,
+        "completed_epochs": 11,
+        "elapsed_seconds": 1177.9972036000108
+      },
+      "cohort_metrics": {
+        "train": {
+          "macro_masked_bce": 0.5667432546615601,
+          "macro_ap": 0.797853149136615,
+          "targets": {
+            "phone_use": {
+              "positive": 247,
+              "negative": 193,
+              "unknown": 276,
+              "tp": 235,
+              "fp": 101,
+              "fn": 12,
+              "tn": 92,
+              "ap": 0.8340010788483663,
+              "precision": 0.6994047619047619,
+              "recall": 0.951417004048583,
+              "f1": 0.8061749571183533,
+              "reason": null,
+              "fpr": 0.5233160621761658
+            },
+            "looking_around": {
+              "positive": 213,
+              "negative": 297,
+              "unknown": 206,
+              "tp": 154,
+              "fp": 66,
+              "fn": 59,
+              "tn": 231,
+              "ap": 0.7617052194248637,
+              "precision": 0.7,
+              "recall": 0.7230046948356808,
+              "f1": 0.7113163972286374,
+              "reason": null,
+              "fpr": 0.2222222222222222
+            }
+          }
+        },
+        "selection": {
+          "macro_masked_bce": 0.7122888565063477,
+          "macro_ap": 0.46948037944711457,
+          "targets": {
+            "phone_use": {
+              "positive": 27,
+              "negative": 33,
+              "unknown": 11,
+              "tp": 13,
+              "fp": 19,
+              "fn": 14,
+              "tn": 14,
+              "ap": 0.4365698747439929,
+              "precision": 0.40625,
+              "recall": 0.48148148148148145,
+              "f1": 0.4406779661016949,
+              "reason": null,
+              "fpr": 0.5757575757575758
+            },
+            "looking_around": {
+              "positive": 28,
+              "negative": 38,
+              "unknown": 5,
+              "tp": 8,
+              "fp": 6,
+              "fn": 20,
+              "tn": 32,
+              "ap": 0.5023908841502362,
+              "precision": 0.5714285714285714,
+              "recall": 0.2857142857142857,
+              "f1": 0.38095238095238093,
+              "reason": null,
+              "fpr": 0.15789473684210525
+            }
+          }
+        },
+        "diagnostic49": {
+          "macro_masked_bce": 0.625813364982605,
+          "macro_ap": 0.7855556231613489,
+          "targets": {
+            "phone_use": {
+              "positive": 16,
+              "negative": 20,
+              "unknown": 13,
+              "tp": 12,
+              "fp": 5,
+              "fn": 4,
+              "tn": 15,
+              "ap": 0.7240286382910132,
+              "precision": 0.7058823529411765,
+              "recall": 0.75,
+              "f1": 0.7272727272727273,
+              "reason": null,
+              "fpr": 0.25
+            },
+            "looking_around": {
+              "positive": 17,
+              "negative": 12,
+              "unknown": 20,
+              "tp": 11,
+              "fp": 3,
+              "fn": 6,
+              "tn": 9,
+              "ap": 0.8470826080316846,
+              "precision": 0.7857142857142857,
+              "recall": 0.6470588235294118,
+              "f1": 0.7096774193548387,
+              "reason": null,
+              "fpr": 0.25
+            }
+          }
+        },
+        "comparator48": {
+          "macro_masked_bce": 0.6289302706718445,
+          "macro_ap": 0.7897109519952012,
+          "targets": {
+            "phone_use": {
+              "positive": 16,
+              "negative": 19,
+              "unknown": 13,
+              "tp": 12,
+              "fp": 5,
+              "fn": 4,
+              "tn": 14,
+              "ap": 0.7295391414141414,
+              "precision": 0.7058823529411765,
+              "recall": 0.75,
+              "f1": 0.7272727272727273,
+              "reason": null,
+              "fpr": 0.2631578947368421
+            },
+            "looking_around": {
+              "positive": 17,
+              "negative": 11,
+              "unknown": 20,
+              "tp": 11,
+              "fp": 3,
+              "fn": 6,
+              "tn": 8,
+              "ap": 0.849882762576261,
+              "precision": 0.7857142857142857,
+              "recall": 0.6470588235294118,
+              "f1": 0.7096774193548387,
+              "reason": null,
+              "fpr": 0.2727272727272727
+            }
+          }
+        },
+        "added35": {
+          "macro_masked_bce": 0.665858805179596,
+          "macro_ap": 0.7168660925295158,
+          "targets": {
+            "phone_use": {
+              "positive": 9,
+              "negative": 18,
+              "unknown": 8,
+              "tp": 6,
+              "fp": 5,
+              "fn": 3,
+              "tn": 13,
+              "ap": 0.631962481962482,
+              "precision": 0.5454545454545454,
+              "recall": 0.6666666666666666,
+              "f1": 0.6,
+              "reason": null,
+              "fpr": 0.2777777777777778
+            },
+            "looking_around": {
+              "positive": 14,
+              "negative": 8,
+              "unknown": 13,
+              "tp": 8,
+              "fp": 3,
+              "fn": 6,
+              "tn": 5,
+              "ap": 0.8017697030965496,
+              "precision": 0.7272727272727273,
+              "recall": 0.5714285714285714,
+              "f1": 0.64,
+              "reason": null,
+              "fpr": 0.375
+            }
+          }
+        }
+      },
+      "independent_cached_metric_check": "PASS",
+      "selection_targets_recomputed": {
+        "phone_use": {
+          "positive": 27,
+          "negative": 33,
+          "unknown": 11,
+          "ap": 0.43656987474399295,
+          "tp": 13,
+          "fp": 19,
+          "fn": 14,
+          "tn": 14,
+          "recall": 0.48148148148148145,
+          "precision": 0.40625,
+          "fpr": 0.5757575757575758,
+          "bce": 0.7467497168376447,
+          "M1_any_threshold_feasible": false
+        },
+        "looking_around": {
+          "positive": 28,
+          "negative": 38,
+          "unknown": 5,
+          "ap": 0.5023908841502362,
+          "tp": 8,
+          "fp": 6,
+          "fn": 20,
+          "tn": 32,
+          "recall": 0.2857142857142857,
+          "precision": 0.5714285714285714,
+          "fpr": 0.15789473684210525,
+          "bce": 0.6778279853637691,
+          "M1_any_threshold_feasible": false
+        }
+      },
+      "family_diagnostic": {
+        "CF-Q072": {
+          "records": 45,
+          "targets": {
+            "phone_use": {
+              "positive": 19,
+              "negative": 21,
+              "unknown": 5,
+              "ap": 0.504861543774286,
+              "tp": 11,
+              "fp": 10,
+              "fn": 8,
+              "tn": 11,
+              "recall": 0.5789473684210527,
+              "precision": 0.5238095238095238,
+              "fpr": 0.47619047619047616,
+              "bce": 0.7164423900227979,
+              "M1_any_threshold_feasible": false
+            },
+            "looking_around": {
+              "positive": 17,
+              "negative": 24,
+              "unknown": 4,
+              "ap": 0.4629729308965788,
+              "tp": 5,
+              "fp": 4,
+              "fn": 12,
+              "tn": 20,
+              "recall": 0.29411764705882354,
+              "precision": 0.5555555555555556,
+              "fpr": 0.16666666666666666,
+              "bce": 0.7025561961224687,
+              "M1_any_threshold_feasible": false
+            }
+          }
+        },
+        "EX-LECTURE": {
+          "records": 10,
+          "targets": {
+            "phone_use": {
+              "positive": 8,
+              "negative": 1,
+              "unknown": 1,
+              "ap": 1.0,
+              "tp": 2,
+              "fp": 0,
+              "fn": 6,
+              "tn": 1,
+              "recall": 0.25,
+              "precision": 1.0,
+              "fpr": 0.0,
+              "bce": 0.7455075553485555,
+              "M1_any_threshold_feasible": true
+            },
+            "looking_around": {
+              "positive": 6,
+              "negative": 4,
+              "unknown": 0,
+              "ap": 0.7749999999999999,
+              "tp": 1,
+              "fp": 0,
+              "fn": 5,
+              "tn": 4,
+              "recall": 0.16666666666666666,
+              "precision": 1.0,
+              "fpr": 0.0,
+              "bce": 0.7214165795578736,
+              "M1_any_threshold_feasible": false
+            }
+          }
+        },
+        "EX-ROUND-DESK": {
+          "records": 4,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 4,
+              "ap": null,
+              "tp": 0,
+              "fp": 3,
+              "fn": 0,
+              "tn": 1,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 2,
+              "negative": 2,
+              "unknown": 0,
+              "ap": 0.75,
+              "tp": 0,
+              "fp": 0,
+              "fn": 2,
+              "tn": 2,
+              "recall": 0.0,
+              "precision": null,
+              "fpr": 0.0,
+              "bce": 0.7751527197985019,
+              "M1_any_threshold_feasible": false
+            }
+          }
+        },
+        "STU-instructional-view-12": {
+          "records": 2,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 0,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 0,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 1,
+              "negative": 1,
+              "unknown": 0,
+              "ap": 1.0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 1,
+              "tn": 1,
+              "recall": 0.0,
+              "precision": null,
+              "fpr": 0.0,
+              "bce": 0.5062514143962404,
+              "M1_any_threshold_feasible": true
+            }
+          }
+        },
+        "STU-instructional-view-13": {
+          "records": 3,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 3,
+              "ap": null,
+              "tp": 0,
+              "fp": 2,
+              "fn": 0,
+              "tn": 1,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 2,
+              "negative": 1,
+              "unknown": 0,
+              "ap": 0.5833333333333333,
+              "tp": 2,
+              "fp": 1,
+              "fn": 0,
+              "tn": 0,
+              "recall": 1.0,
+              "precision": 0.6666666666666666,
+              "fpr": 1.0,
+              "bce": 0.6989895968903954,
+              "M1_any_threshold_feasible": false
+            }
+          }
+        },
+        "STU-instructional-view-16": {
+          "records": 2,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 0,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 0,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 2,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 2,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            }
+          }
+        },
+        "STU-instructional-view-44": {
+          "records": 1,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 1,
+              "ap": null,
+              "tp": 0,
+              "fp": 1,
+              "fn": 0,
+              "tn": 0,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 1,
+              "ap": null,
+              "tp": 0,
+              "fp": 1,
+              "fn": 0,
+              "tn": 0,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            }
+          }
+        },
+        "STU-instructional-view-53": {
+          "records": 1,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 0,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 0,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 1,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 1,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            }
+          }
+        },
+        "STU-instructional-view-54": {
+          "records": 2,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 2,
+              "ap": null,
+              "tp": 0,
+              "fp": 2,
+              "fn": 0,
+              "tn": 0,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 1,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 1,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            }
+          }
+        },
+        "STU-instructional-view-59": {
+          "records": 1,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 1,
+              "ap": null,
+              "tp": 0,
+              "fp": 1,
+              "fn": 0,
+              "tn": 0,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 1,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 1,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            }
+          }
+        }
+      },
+      "outside_CF_Q072": {
+        "phone_use": {
+          "positive": 8,
+          "negative": 12,
+          "unknown": 6,
+          "ap": 0.39898327667774264,
+          "tp": 2,
+          "fp": 9,
+          "fn": 6,
+          "tn": 3,
+          "recall": 0.25,
+          "precision": 0.18181818181818182,
+          "fpr": 0.75,
+          "bce": 0.8073643704673387,
+          "M1_any_threshold_feasible": false
+        },
+        "looking_around": {
+          "positive": 11,
+          "negative": 14,
+          "unknown": 1,
+          "ap": 0.6180937968487376,
+          "tp": 3,
+          "fp": 2,
+          "fn": 8,
+          "tn": 12,
+          "recall": 0.2727272727272727,
+          "precision": 0.6,
+          "fpr": 0.14285714285714285,
+          "bce": 0.6372737197195021,
+          "M1_any_threshold_feasible": false
+        }
+      },
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.5667432546615601,
+          "val_loss": 0.7122888565063477,
+          "permutation_sha256": "e39e482086430f59c333a12dc6adcd651c416f9d5df9a40123265e2b643e4501"
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.5126317143440247,
+          "val_loss": 0.7906501889228821,
+          "permutation_sha256": "193529f6f0b44e4ab4d39445e1910210cf2ec58c16200ab28a18d85a743188a1"
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.3954354226589203,
+          "val_loss": 0.7363928556442261,
+          "permutation_sha256": "7b6e755503063233d191b32e60fc97ff3d8622475b3e718436cbdc4c0cf77a32"
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.32210683822631836,
+          "val_loss": 0.7446510791778564,
+          "permutation_sha256": "f4b2923e5725146b0c8426c415b1a30ad628ab0c200dcbb6fe7c6eb473e64eed"
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.256918728351593,
+          "val_loss": 0.9514815807342529,
+          "permutation_sha256": "df333a95c3b317c89b84f94fac627d2a79e3840df3385f0c712766b2ecd157b2"
+        },
+        {
+          "epoch": 6,
+          "train_loss": 0.1992453634738922,
+          "val_loss": 1.0320485830307007,
+          "permutation_sha256": "ad18e6935bc5a48ed3276bd5e42eb6d3f3f2553ee06c08a2c7175f2c43bafb80"
+        },
+        {
+          "epoch": 7,
+          "train_loss": 0.15490800142288208,
+          "val_loss": 0.8356659412384033,
+          "permutation_sha256": "a3b404a0ed977caa4057c8f6a809a4ab8ad5dba4536a7b041f073732e11ecfa3"
+        },
+        {
+          "epoch": 8,
+          "train_loss": 0.0757485032081604,
+          "val_loss": 0.9702103137969971,
+          "permutation_sha256": "49d0131b50c0597d5125b90b10525b348840178d0f3d7a192d35f176d807c059"
+        },
+        {
+          "epoch": 9,
+          "train_loss": 0.04701042175292969,
+          "val_loss": 1.0726350545883179,
+          "permutation_sha256": "0944bc1c4669e29824eb525183b8c98f6b4a49f2d292f14f76fc4ae73ec23c19"
+        },
+        {
+          "epoch": 10,
+          "train_loss": 0.03187873214483261,
+          "val_loss": 1.1898703575134277,
+          "permutation_sha256": "7174ae303d5d0791120e537c1a9fcf530c296fcaeb5fc2cb7ad95eaa6e3035a0"
+        },
+        {
+          "epoch": 11,
+          "train_loss": 0.021392839029431343,
+          "val_loss": 1.3590583801269531,
+          "permutation_sha256": "5c437fb69be695f0144f8e705bd7141f186df922b967337f5e28082527eea24c"
+        }
+      ],
+      "early_diagnostics": [
+        {
+          "attempt": 1,
+          "epoch": 0,
+          "step": 0,
+          "global_step": 0,
+          "committed_epoch_before_measurement": 0,
+          "diagnostic_only": true,
+          "cohorts": {
+            "train": {
+              "macro_masked_bce": 0.7751936912536621,
+              "macro_ap": 0.521942799746587
+            },
+            "selection": {
+              "macro_masked_bce": 0.7786457538604736,
+              "macro_ap": 0.4087586226769574
+            }
+          }
+        },
+        {
+          "attempt": 1,
+          "epoch": 1,
+          "step": 15,
+          "global_step": 15,
+          "committed_epoch_before_measurement": 0,
+          "diagnostic_only": true,
+          "cohorts": {
+            "train": {
+              "macro_masked_bce": 0.6387056708335876,
+              "macro_ap": 0.6566104549129812
+            },
+            "selection": {
+              "macro_masked_bce": 0.7413970232009888,
+              "macro_ap": 0.4396029719701221
+            }
+          }
+        },
+        {
+          "attempt": 1,
+          "epoch": 1,
+          "step": 30,
+          "global_step": 30,
+          "committed_epoch_before_measurement": 0,
+          "diagnostic_only": true,
+          "cohorts": {
+            "train": {
+              "macro_masked_bce": 0.6023635268211365,
+              "macro_ap": 0.7425614340539282
+            },
+            "selection": {
+              "macro_masked_bce": 0.7511625289916992,
+              "macro_ap": 0.45258195202989027
+            }
+          }
+        }
+      ]
+    },
+    "E004-RC1-W-L": {
+      "record": {
+        "status": "FINISHED",
+        "best_epoch": 1,
+        "completed_epochs": 11,
+        "elapsed_seconds": 1051.8867987999693
+      },
+      "cohort_metrics": {
+        "train": {
+          "macro_masked_bce": 0.38341498374938965,
+          "macro_ap": 0.9197321144887589,
+          "targets": {
+            "phone_use": {
+              "positive": 247,
+              "negative": 193,
+              "unknown": 276,
+              "tp": 229,
+              "fp": 38,
+              "fn": 18,
+              "tn": 155,
+              "ap": 0.9457849135911838,
+              "precision": 0.8576779026217228,
+              "recall": 0.9271255060728745,
+              "f1": 0.8910505836575876,
+              "reason": null,
+              "fpr": 0.19689119170984457
+            },
+            "looking_around": {
+              "positive": 213,
+              "negative": 297,
+              "unknown": 206,
+              "tp": 152,
+              "fp": 29,
+              "fn": 61,
+              "tn": 268,
+              "ap": 0.8936793153863339,
+              "precision": 0.8397790055248618,
+              "recall": 0.7136150234741784,
+              "f1": 0.7715736040609137,
+              "reason": null,
+              "fpr": 0.09764309764309764
+            }
+          }
+        },
+        "selection": {
+          "macro_masked_bce": 0.7229822278022766,
+          "macro_ap": 0.5821399151932918,
+          "targets": {
+            "phone_use": {
+              "positive": 27,
+              "negative": 33,
+              "unknown": 11,
+              "tp": 9,
+              "fp": 7,
+              "fn": 18,
+              "tn": 26,
+              "ap": 0.6228245092103569,
+              "precision": 0.5625,
+              "recall": 0.3333333333333333,
+              "f1": 0.4186046511627907,
+              "reason": null,
+              "fpr": 0.21212121212121213
+            },
+            "looking_around": {
+              "positive": 28,
+              "negative": 38,
+              "unknown": 5,
+              "tp": 6,
+              "fp": 6,
+              "fn": 22,
+              "tn": 32,
+              "ap": 0.5414553211762267,
+              "precision": 0.5,
+              "recall": 0.21428571428571427,
+              "f1": 0.3,
+              "reason": null,
+              "fpr": 0.15789473684210525
+            }
+          }
+        },
+        "diagnostic49": {
+          "macro_masked_bce": 0.6414734721183777,
+          "macro_ap": 0.8021782937648982,
+          "targets": {
+            "phone_use": {
+              "positive": 16,
+              "negative": 20,
+              "unknown": 13,
+              "tp": 11,
+              "fp": 5,
+              "fn": 5,
+              "tn": 15,
+              "ap": 0.7994232616404261,
+              "precision": 0.6875,
+              "recall": 0.6875,
+              "f1": 0.6875,
+              "reason": null,
+              "fpr": 0.25
+            },
+            "looking_around": {
+              "positive": 17,
+              "negative": 12,
+              "unknown": 20,
+              "tp": 10,
+              "fp": 3,
+              "fn": 7,
+              "tn": 9,
+              "ap": 0.8049333258893705,
+              "precision": 0.7692307692307693,
+              "recall": 0.5882352941176471,
+              "f1": 0.6666666666666666,
+              "reason": null,
+              "fpr": 0.25
+            }
+          }
+        },
+        "comparator48": {
+          "macro_masked_bce": 0.6575189828872681,
+          "macro_ap": 0.804029860541034,
+          "targets": {
+            "phone_use": {
+              "positive": 16,
+              "negative": 19,
+              "unknown": 13,
+              "tp": 11,
+              "fp": 5,
+              "fn": 5,
+              "tn": 14,
+              "ap": 0.8018948680991015,
+              "precision": 0.6875,
+              "recall": 0.6875,
+              "f1": 0.6875,
+              "reason": null,
+              "fpr": 0.2631578947368421
+            },
+            "looking_around": {
+              "positive": 17,
+              "negative": 11,
+              "unknown": 20,
+              "tp": 10,
+              "fp": 3,
+              "fn": 7,
+              "tn": 8,
+              "ap": 0.8061648529829665,
+              "precision": 0.7692307692307693,
+              "recall": 0.5882352941176471,
+              "f1": 0.6666666666666666,
+              "reason": null,
+              "fpr": 0.2727272727272727
+            }
+          }
+        },
+        "added35": {
+          "macro_masked_bce": 0.739692211151123,
+          "macro_ap": 0.716182053373838,
+          "targets": {
+            "phone_use": {
+              "positive": 9,
+              "negative": 18,
+              "unknown": 8,
+              "tp": 5,
+              "fp": 5,
+              "fn": 4,
+              "tn": 13,
+              "ap": 0.6766516435634082,
+              "precision": 0.5,
+              "recall": 0.5555555555555556,
+              "f1": 0.5263157894736842,
+              "reason": null,
+              "fpr": 0.2777777777777778
+            },
+            "looking_around": {
+              "positive": 14,
+              "negative": 8,
+              "unknown": 13,
+              "tp": 7,
+              "fp": 3,
+              "fn": 7,
+              "tn": 5,
+              "ap": 0.7557124631842678,
+              "precision": 0.7,
+              "recall": 0.5,
+              "f1": 0.5833333333333334,
+              "reason": null,
+              "fpr": 0.375
+            }
+          }
+        }
+      },
+      "independent_cached_metric_check": "PASS",
+      "selection_targets_recomputed": {
+        "phone_use": {
+          "positive": 27,
+          "negative": 33,
+          "unknown": 11,
+          "ap": 0.6228245092103568,
+          "tp": 9,
+          "fp": 7,
+          "fn": 18,
+          "tn": 26,
+          "recall": 0.3333333333333333,
+          "precision": 0.5625,
+          "fpr": 0.21212121212121213,
+          "bce": 0.7061680803099457,
+          "M1_any_threshold_feasible": false
+        },
+        "looking_around": {
+          "positive": 28,
+          "negative": 38,
+          "unknown": 5,
+          "ap": 0.5414553211762266,
+          "tp": 6,
+          "fp": 6,
+          "fn": 22,
+          "tn": 32,
+          "recall": 0.21428571428571427,
+          "precision": 0.5,
+          "fpr": 0.15789473684210525,
+          "bce": 0.7397963543192725,
+          "M1_any_threshold_feasible": false
+        }
+      },
+      "family_diagnostic": {
+        "CF-Q072": {
+          "records": 45,
+          "targets": {
+            "phone_use": {
+              "positive": 19,
+              "negative": 21,
+              "unknown": 5,
+              "ap": 0.67802433932642,
+              "tp": 7,
+              "fp": 4,
+              "fn": 12,
+              "tn": 17,
+              "recall": 0.3684210526315789,
+              "precision": 0.6363636363636364,
+              "fpr": 0.19047619047619047,
+              "bce": 0.6867806817088913,
+              "M1_any_threshold_feasible": false
+            },
+            "looking_around": {
+              "positive": 17,
+              "negative": 24,
+              "unknown": 4,
+              "ap": 0.50357904227686,
+              "tp": 4,
+              "fp": 5,
+              "fn": 13,
+              "tn": 19,
+              "recall": 0.23529411764705882,
+              "precision": 0.4444444444444444,
+              "fpr": 0.20833333333333334,
+              "bce": 0.7900846954627445,
+              "M1_any_threshold_feasible": false
+            }
+          }
+        },
+        "EX-LECTURE": {
+          "records": 10,
+          "targets": {
+            "phone_use": {
+              "positive": 8,
+              "negative": 1,
+              "unknown": 1,
+              "ap": 0.9704861111111112,
+              "tp": 2,
+              "fp": 0,
+              "fn": 6,
+              "tn": 1,
+              "recall": 0.25,
+              "precision": 1.0,
+              "fpr": 0.0,
+              "bce": 1.145400397564316,
+              "M1_any_threshold_feasible": false
+            },
+            "looking_around": {
+              "positive": 6,
+              "negative": 4,
+              "unknown": 0,
+              "ap": 0.9484126984126984,
+              "tp": 2,
+              "fp": 0,
+              "fn": 4,
+              "tn": 4,
+              "recall": 0.3333333333333333,
+              "precision": 1.0,
+              "fpr": 0.0,
+              "bce": 0.590275153042368,
+              "M1_any_threshold_feasible": false
+            }
+          }
+        },
+        "EX-ROUND-DESK": {
+          "records": 4,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 4,
+              "ap": null,
+              "tp": 0,
+              "fp": 1,
+              "fn": 0,
+              "tn": 3,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 2,
+              "negative": 2,
+              "unknown": 0,
+              "ap": 0.75,
+              "tp": 0,
+              "fp": 0,
+              "fn": 2,
+              "tn": 2,
+              "recall": 0.0,
+              "precision": null,
+              "fpr": 0.0,
+              "bce": 0.997135892917915,
+              "M1_any_threshold_feasible": false
+            }
+          }
+        },
+        "STU-instructional-view-12": {
+          "records": 2,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 0,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 0,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 1,
+              "negative": 1,
+              "unknown": 0,
+              "ap": 1.0,
+              "tp": 0,
+              "fp": 0,
+              "fn": 1,
+              "tn": 1,
+              "recall": 0.0,
+              "precision": null,
+              "fpr": 0.0,
+              "bce": 0.45855096859205335,
+              "M1_any_threshold_feasible": true
+            }
+          }
+        },
+        "STU-instructional-view-13": {
+          "records": 3,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 3,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 3,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 2,
+              "negative": 1,
+              "unknown": 0,
+              "ap": 0.5833333333333333,
+              "tp": 0,
+              "fp": 0,
+              "fn": 2,
+              "tn": 1,
+              "recall": 0.0,
+              "precision": null,
+              "fpr": 0.0,
+              "bce": 1.2530825164153165,
+              "M1_any_threshold_feasible": false
+            }
+          }
+        },
+        "STU-instructional-view-16": {
+          "records": 2,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 0,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 0,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 2,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 2,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            }
+          }
+        },
+        "STU-instructional-view-44": {
+          "records": 1,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 1,
+              "ap": null,
+              "tp": 0,
+              "fp": 1,
+              "fn": 0,
+              "tn": 0,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 1,
+              "ap": null,
+              "tp": 0,
+              "fp": 1,
+              "fn": 0,
+              "tn": 0,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            }
+          }
+        },
+        "STU-instructional-view-53": {
+          "records": 1,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 0,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 0,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 1,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 1,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            }
+          }
+        },
+        "STU-instructional-view-54": {
+          "records": 2,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 2,
+              "ap": null,
+              "tp": 0,
+              "fp": 1,
+              "fn": 0,
+              "tn": 1,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 1,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 1,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            }
+          }
+        },
+        "STU-instructional-view-59": {
+          "records": 1,
+          "targets": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 1,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 1,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 1,
+              "ap": null,
+              "tp": 0,
+              "fp": 0,
+              "fn": 0,
+              "tn": 1,
+              "recall": null,
+              "precision": null,
+              "fpr": null,
+              "bce": null
+            }
+          }
+        }
+      },
+      "outside_CF_Q072": {
+        "phone_use": {
+          "positive": 8,
+          "negative": 12,
+          "unknown": 6,
+          "ap": 0.5510420226703121,
+          "tp": 2,
+          "fp": 3,
+          "fn": 6,
+          "tn": 9,
+          "recall": 0.25,
+          "precision": 0.4,
+          "fpr": 0.25,
+          "bce": 0.7449428775120548,
+          "M1_any_threshold_feasible": false
+        },
+        "looking_around": {
+          "positive": 11,
+          "negative": 14,
+          "unknown": 1,
+          "ap": 0.7046438410074772,
+          "tp": 2,
+          "fp": 1,
+          "fn": 9,
+          "tn": 13,
+          "recall": 0.18181818181818182,
+          "precision": 0.6666666666666666,
+          "fpr": 0.07142857142857142,
+          "bce": 0.6573234748439787,
+          "M1_any_threshold_feasible": false
+        }
+      },
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 0.38341498374938965,
+          "val_loss": 0.7229822278022766,
+          "permutation_sha256": "e39e482086430f59c333a12dc6adcd651c416f9d5df9a40123265e2b643e4501"
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.33865612745285034,
+          "val_loss": 0.8279134035110474,
+          "permutation_sha256": "193529f6f0b44e4ab4d39445e1910210cf2ec58c16200ab28a18d85a743188a1"
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.25603967905044556,
+          "val_loss": 0.747532069683075,
+          "permutation_sha256": "7b6e755503063233d191b32e60fc97ff3d8622475b3e718436cbdc4c0cf77a32"
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.2029961198568344,
+          "val_loss": 0.780393123626709,
+          "permutation_sha256": "f4b2923e5725146b0c8426c415b1a30ad628ab0c200dcbb6fe7c6eb473e64eed"
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.15168124437332153,
+          "val_loss": 0.9859322309494019,
+          "permutation_sha256": "df333a95c3b317c89b84f94fac627d2a79e3840df3385f0c712766b2ecd157b2"
+        },
+        {
+          "epoch": 6,
+          "train_loss": 0.114450603723526,
+          "val_loss": 1.058029294013977,
+          "permutation_sha256": "ad18e6935bc5a48ed3276bd5e42eb6d3f3f2553ee06c08a2c7175f2c43bafb80"
+        },
+        {
+          "epoch": 7,
+          "train_loss": 0.07797248661518097,
+          "val_loss": 0.9274659156799316,
+          "permutation_sha256": "a3b404a0ed977caa4057c8f6a809a4ab8ad5dba4536a7b041f073732e11ecfa3"
+        },
+        {
+          "epoch": 8,
+          "train_loss": 0.0438421294093132,
+          "val_loss": 1.0801576375961304,
+          "permutation_sha256": "49d0131b50c0597d5125b90b10525b348840178d0f3d7a192d35f176d807c059"
+        },
+        {
+          "epoch": 9,
+          "train_loss": 0.029461804777383804,
+          "val_loss": 1.1855967044830322,
+          "permutation_sha256": "0944bc1c4669e29824eb525183b8c98f6b4a49f2d292f14f76fc4ae73ec23c19"
+        },
+        {
+          "epoch": 10,
+          "train_loss": 0.02094949781894684,
+          "val_loss": 1.2652678489685059,
+          "permutation_sha256": "7174ae303d5d0791120e537c1a9fcf530c296fcaeb5fc2cb7ad95eaa6e3035a0"
+        },
+        {
+          "epoch": 11,
+          "train_loss": 0.015242524445056915,
+          "val_loss": 1.3557716608047485,
+          "permutation_sha256": "5c437fb69be695f0144f8e705bd7141f186df922b967337f5e28082527eea24c"
+        }
+      ],
+      "early_diagnostics": [
+        {
+          "attempt": 1,
+          "epoch": 0,
+          "step": 0,
+          "global_step": 0,
+          "committed_epoch_before_measurement": 0,
+          "diagnostic_only": true,
+          "cohorts": {
+            "train": {
+              "macro_masked_bce": 0.4629189372062683,
+              "macro_ap": 0.8638495886788379
+            },
+            "selection": {
+              "macro_masked_bce": 0.6778520345687866,
+              "macro_ap": 0.5753683976950549
+            }
+          }
+        },
+        {
+          "attempt": 1,
+          "epoch": 1,
+          "step": 15,
+          "global_step": 15,
+          "committed_epoch_before_measurement": 0,
+          "diagnostic_only": true,
+          "cohorts": {
+            "train": {
+              "macro_masked_bce": 0.4398048520088196,
+              "macro_ap": 0.8749423013387136
+            },
+            "selection": {
+              "macro_masked_bce": 0.7345293164253235,
+              "macro_ap": 0.5655869728971004
+            }
+          }
+        },
+        {
+          "attempt": 1,
+          "epoch": 1,
+          "step": 30,
+          "global_step": 30,
+          "committed_epoch_before_measurement": 0,
+          "diagnostic_only": true,
+          "cohorts": {
+            "train": {
+              "macro_masked_bce": 0.415463387966156,
+              "macro_ap": 0.8948231761012526
+            },
+            "selection": {
+              "macro_masked_bce": 0.75666344165802,
+              "macro_ap": 0.5711695677048867
+            }
+          }
+        }
+      ]
+    }
+  },
+  "contrasts": {
+    "initialization_high_LR": {
+      "candidate": "E004-RC1-W-H",
+      "control": "E004-RC1-R-H",
+      "selection_bce_delta": -0.055675208568573,
+      "selection_macro_ap_delta": 0.06639864347212188,
+      "target_ap_deltas": {
+        "phone_use": 0.10502286688461826,
+        "looking_around": 0.027774420059625604
+      }
+    },
+    "initialization_low_LR": {
+      "candidate": "E004-RC1-W-L",
+      "control": "E004-RC1-R-L",
+      "selection_bce_delta": 0.010693371295928955,
+      "selection_macro_ap_delta": 0.11265953574617721,
+      "target_ap_deltas": {
+        "phone_use": 0.18625463446636403,
+        "looking_around": 0.039064437025990495
+      }
+    },
+    "LR_random_head": {
+      "candidate": "E004-RC1-R-L",
+      "control": "E004-RC1-R-H",
+      "selection_bce_delta": 0.002964198589324951,
+      "selection_macro_ap_delta": -0.07175136331682547,
+      "target_ap_deltas": {
+        "phone_use": -0.1293227666643334,
+        "looking_around": -0.014179959969317535
+      }
+    },
+    "LR_warm_head": {
+      "candidate": "E004-RC1-W-L",
+      "control": "E004-RC1-W-H",
+      "selection_bce_delta": 0.0693327784538269,
+      "selection_macro_ap_delta": -0.025490471042770135,
+      "target_ap_deltas": {
+        "phone_use": -0.04809099908258763,
+        "looking_around": -0.002889943002952644
+      }
+    }
+  },
+  "inputs": {
+    "outputs/E004-RC1-R-H/run.json": "c35d6177e4ff7cece87019432a77746425fd9ecd53c20b7a57e955938f60998e",
+    "outputs/E004-RC1-R-H/resolved-config.json": "bdcb6f8624e27f9c59c9d3114df5af7cfac37ff692b046d2ce7e77b94a575f0c",
+    "outputs/E004-RC1-R-H/history.json": "325d9c00f014b28ce676dd2e584150dca7af536d3e2aea2d8bb6e5ff213d385d",
+    "outputs/E004-RC1-R-H/metrics.json": "9b6dea852655c63a0cbfc50a49c2e57be48297fd64b09866ee3b60a46bac80cb",
+    "outputs/E004-RC1-R-H/early-diagnostics.json": "b04ffea11bc932d70a5ab4ca591b8392bb9f23a1a7bbf09532f1852ec44fbc42",
+    "outputs/E004-RC1-R-H/predictions-selection.json": "571245dfba8c27a89b1d4c60063aacb60a8f435d594d5114a451a6bc468f1797",
+    "outputs/E004-RC1-W-H/run.json": "11b5c8b252c6a38eb540542c0819a3395691c9ab1a7f8a95194d8fb71022b398",
+    "outputs/E004-RC1-W-H/resolved-config.json": "d153109b5b95bb0edd5cb70fc2eacaa3eefb6d515faed8d4a975f9a614e69c9a",
+    "outputs/E004-RC1-W-H/history.json": "b6ce030a797c6fd4ad93ddb9adb4e619be1844f7d872701278460108477d8c15",
+    "outputs/E004-RC1-W-H/metrics.json": "b06d38ac2f36e906e29c948bb3dcfd6a8fa29dab8aaf1146918c11174064f251",
+    "outputs/E004-RC1-W-H/early-diagnostics.json": "44412641072ed6c6744bfff5fca8c1f6f5ba02a336e1922d017da52016df3b24",
+    "outputs/E004-RC1-W-H/predictions-selection.json": "26b2c985308875bd72f171db08f43b9f728ac4228b194ec3aaa4ed495da40310",
+    "outputs/E004-RC1-R-L/run.json": "dc262a6be4fb19058eba00337c8894dd24e4eecb47bf210906bb2ac4f66d6ce0",
+    "outputs/E004-RC1-R-L/resolved-config.json": "c890fdbcfa09ca552ed6565f15f30f246a7731ba20fb45b11bdfd0b7a7bf4a1f",
+    "outputs/E004-RC1-R-L/history.json": "3d32a51bdf2efb949990a9d3a09cf9be593ab2084d7bed55e7469f922a89e1a7",
+    "outputs/E004-RC1-R-L/metrics.json": "24b267a6b05be321447357550dadb80c00a98b9d18b775d2d700212cc4ff1ff7",
+    "outputs/E004-RC1-R-L/early-diagnostics.json": "b2a32bfaefb0e6b1b9b30cbad93eb173fb8346ddb268a1645658f22a4fc08c06",
+    "outputs/E004-RC1-R-L/predictions-selection.json": "8c1b866d28ce9d5c65a6a211a723d004be06c3436ea49517f57084db6be561df",
+    "outputs/E004-RC1-W-L/run.json": "f522b24f9c606ee8adf311284eee449cc35d4ad9c07f0a0f2381d5f46487efb8",
+    "outputs/E004-RC1-W-L/resolved-config.json": "048ec8fd0b22dfe99346720c055565f334faa00761be0d906c01af0f4120ec30",
+    "outputs/E004-RC1-W-L/history.json": "8698155ae1e7ed9b935983a6af8f0e09bf477580de5394f717c56f532c670c4a",
+    "outputs/E004-RC1-W-L/metrics.json": "7a7637e7e1c53cbc5c5d364e1914e245054e4e51db0aeb91b93262441e85ce88",
+    "outputs/E004-RC1-W-L/early-diagnostics.json": "343a3c4da39eaa9b9c5986ef28a1029c463427ccae1f396e0c6e998b5aa7ad4e",
+    "outputs/E004-RC1-W-L/predictions-selection.json": "d47ef64d781ea0b4bb533b49649523a9e61b35236a9844a9a108acf05c95afce"
+  },
+  "legacy_R_H_history_parity": true,
+  "legacy_R_H_best_tensor_parity": true
+}

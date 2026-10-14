@@ -1,0 +1,13 @@
+{
+  "parent_checkpoint": {
+    "path": "outputs/E004-V9-LP/best.pt",
+    "sha256": "2cdb53c00149e71b5127096ee4d323865434bbfbba87c68ecd300e7707ceb2cf",
+    "epoch": 10,
+    "policy": "Chỉ copy network.fc weight/bias; backbone luôn ImageNet original, optimizer reset."
+  },
+  "output": {
+    "path": "data/interim/E004-RC1-20261014/learned-head.pt",
+    "sha256": "852498780ddf682f334eefbc62efc231f60187e100d8f8db7ca2bce887bb9a37"
+  },
+  "scope": "only network.fc, ImageNet backbone and optimizer reset by canonical model/trainer"
+}

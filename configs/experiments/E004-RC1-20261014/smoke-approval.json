@@ -1,0 +1,25 @@
+{
+  "status": "approved",
+  "owner": "repository-owner",
+  "scope": "local_classifier_research",
+  "run_kind": "smoke",
+  "owner_authorization": {
+    "path": "artifacts/reports/E004-RC1-execution-20261014/owner-approval.json",
+    "sha256": "612722348c156c2bc88be4c21331f03575cf49a58d05a9233ad5e96871dbf027"
+  },
+  "configs": {
+    "E004-RC1-R-H-SMOKE": "f679fe2c12156adbba25e6740bfc979d2ca24eb2f42b409198da83de109d51ab",
+    "E004-RC1-W-H-SMOKE": "1d96d97a2e652e8e63cb4b55a490c6f4aef6048442f96a2a4689d30ed91c3d32",
+    "E004-RC1-R-L-SMOKE": "e3befcd52fd5bfb0f6807c8ec223a30fd789c4e1a38ce835b1616e340c8d7eab",
+    "E004-RC1-W-L-SMOKE": "a0b887da45cb2a2e18cd66d8f114f14d3c5de30cc272cbcef453fdac7b802137"
+  },
+  "config_signatures": {
+    "E004-RC1-R-H-SMOKE": "2d268dbf3e15da8067e6a58f9d628f529364da392f7983a41f1a5acb5940d874",
+    "E004-RC1-W-H-SMOKE": "d8e2bc18333dfe328b4643ad903a33826fe6c6df4ed3131e095a5bb219148cd7",
+    "E004-RC1-R-L-SMOKE": "a447cc565efb0986c273afb73cd1ae520a789ad7079ac9d7bb2ed7c7ece44e80",
+    "E004-RC1-W-L-SMOKE": "770956bbddf184a6e7fb0db11287a163352b73dc34a8f872be6fb794ade07a02"
+  },
+  "code_sha256": "5268fa4a6f0d45aed5e1e96d89cd1e5e085b2f6073ddb60babb8c9302e7dbd32",
+  "final_test_inference_authorized": false,
+  "smoke_condition": null
+}

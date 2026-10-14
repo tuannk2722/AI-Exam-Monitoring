@@ -1,0 +1,22 @@
+{
+  "source_snapshot": "source-snapshot.json",
+  "original_source_snapshot": "original-source-snapshot.json",
+  "config_source": "configs/experiments/E004-RC1-20261014",
+  "dataset": "data/processed/e004/E004-v9-development-20261013",
+  "weights": "outputs/pretrained/resnet18-f37072fd.pth",
+  "random_head": "data/interim/E004-v9-execution-20261013/initial-head.pt",
+  "warm_head": "data/interim/E004-RC1-20261014/learned-head.pt",
+  "warm_parent": "outputs/E004-V9-LP/best.pt",
+  "inherited_release_and_metadata_restoration_receipts": [
+    {
+      "receipt": "artifacts/reports/E004-v9-execution-20261013/backup-receipt.json",
+      "sha256": "99d42787fc36fca45e0cc6170889c311b9e7a23e87147c42e853886f8b2c4423"
+    },
+    {
+      "receipt": "artifacts/reports/E004-v9-consolidation-20261013/backup-receipt.json",
+      "sha256": "37c090fd956aebf846d0a71584c43d6887290ed457631ab1b9b8eb5326021e3e"
+    }
+  ],
+  "restore_does_not_grant_test_access": true,
+  "new_run_backup": "to be sealed after runs/evaluations/analysis"
+}

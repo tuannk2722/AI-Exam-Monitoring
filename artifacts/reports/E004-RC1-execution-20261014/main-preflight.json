@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "code_sha256": "5268fa4a6f0d45aed5e1e96d89cd1e5e085b2f6073ddb60babb8c9302e7dbd32",
+  "shared_variables_sha256": "44dd37628f63d14be8a9afb2b9ee1cc5fa39869f614c3bb95727b0384f821e7b",
+  "smoke_condition": {
+    "path": "artifacts/reports/E004-RC1-execution-20261014/smoke-acceptance.json",
+    "sha256": "f9f20cc945c709c216e962da02ca1c1ec70e1e7cd0ee560cbb129051fcfcd397"
+  },
+  "configs": [
+    {
+      "path": "configs/experiments/E004-RC1-20261014/E004-RC1-R-H.yaml",
+      "sha256": "1d9de52d2a293be5d0b7f3d675c40b0eb495618d1adc92d0736e559f2442f966"
+    },
+    {
+      "path": "configs/experiments/E004-RC1-20261014/E004-RC1-W-H.yaml",
+      "sha256": "6316d4d1c80566770aee3fd16eb584d09e5fcbebc6a44660976cf7d11005829b"
+    },
+    {
+      "path": "configs/experiments/E004-RC1-20261014/E004-RC1-R-L.yaml",
+      "sha256": "9d3f73682e6035426cfe91eddad50b9644b259f7c918f8a1932359f6d68c68ad"
+    },
+    {
+      "path": "configs/experiments/E004-RC1-20261014/E004-RC1-W-L.yaml",
+      "sha256": "f384a45d258204c39f42c9df074e128870a39e1983344a944aa09342a214cd05"
+    }
+  ],
+  "cohort_membership_and_guards": "PASS",
+  "matrix_2x2": "PASS"
+}

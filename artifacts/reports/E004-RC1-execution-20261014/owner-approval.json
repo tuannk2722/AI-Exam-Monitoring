@@ -1,0 +1,23 @@
+{
+  "status": "approved",
+  "owner": "repository-owner",
+  "recorded_at": "2026-10-14",
+  "decision": "tôi đồng ý với phương án bạn đã đề ra, hãy tiến hành thực hiện cho tôi!",
+  "plan": {
+    "path": "configs/experiments/E004-RC1-20261014/plan.yaml",
+    "sha256": "c037e5547748e9df8dce01d78063ccf1f5fcb7b7bb27e793aab94ddebd0a644b"
+  },
+  "scope": "implementation/fixtures/freeze/smoke/recovery/four sequential CPU runs/development analysis per RC1 plan",
+  "main_wall_seconds_each": 7200,
+  "smoke_wall_seconds_total": 1800,
+  "waive_independence": true,
+  "waive_support_shortfalls": true,
+  "waiver_inherited_for_exact_unchanged_cohorts": {
+    "path": "configs/experiments/E004-v9-execution-20261013/protocol.json",
+    "sha256": "bf0c8b5df03797b2190f987fe2c66809d3056be0d5c4f001192f09f7b554285e"
+  },
+  "final_test_inference_authorized": false,
+  "promotion_authorized": false,
+  "upload_authorized": false,
+  "commit_authorized": false
+}

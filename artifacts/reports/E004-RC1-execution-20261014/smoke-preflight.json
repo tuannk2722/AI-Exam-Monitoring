@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "code_sha256": "5268fa4a6f0d45aed5e1e96d89cd1e5e085b2f6073ddb60babb8c9302e7dbd32",
+  "head_provenance": [
+    {
+      "kind": "random_seed",
+      "seed": 42,
+      "parent_checkpoint": null,
+      "parent_epoch": null
+    },
+    {
+      "kind": "parent_fc",
+      "seed": null,
+      "parent_checkpoint": {
+        "path": "outputs/E004-V9-LP/best.pt",
+        "sha256": "2cdb53c00149e71b5127096ee4d323865434bbfbba87c68ecd300e7707ceb2cf"
+      },
+      "parent_epoch": 10
+    },
+    {
+      "kind": "random_seed",
+      "seed": 42,
+      "parent_checkpoint": null,
+      "parent_epoch": null
+    },
+    {
+      "kind": "parent_fc",
+      "seed": null,
+      "parent_checkpoint": {
+        "path": "outputs/E004-V9-LP/best.pt",
+        "sha256": "2cdb53c00149e71b5127096ee4d323865434bbfbba87c68ecd300e7707ceb2cf"
+      },
+      "parent_epoch": 10
+    }
+  ],
+  "cohort_counts": {
+    "train": 716,
+    "selection": 71,
+    "diagnostic49": 49,
+    "comparator48": 48,
+    "added35": 35
+  },
+  "smoke_configs": [
+    {
+      "path": "configs/experiments/E004-RC1-20261014/E004-RC1-R-H-SMOKE.yaml",
+      "sha256": "8be0723e8d9db119fd3b5aa842c805b661da55810239cce5a9bdfbcc2f89f999"
+    },
+    {
+      "path": "configs/experiments/E004-RC1-20261014/E004-RC1-W-H-SMOKE.yaml",
+      "sha256": "497e5763643d53937f89a87c2e9e5cbfc12f7b3e5a98f7decb03a8578cf5a1c3"
+    },
+    {
+      "path": "configs/experiments/E004-RC1-20261014/E004-RC1-R-L-SMOKE.yaml",
+      "sha256": "1a6f90775eb77cf5129b0dd27139abdfd05a69eaa2ea1d1766b3b29bb80431bb"
+    },
+    {
+      "path": "configs/experiments/E004-RC1-20261014/E004-RC1-W-L-SMOKE.yaml",
+      "sha256": "aadcd05b471e52772c9723ff4f977ef67eb337924eb0a5b9beff56c4e8eb189b"
+    }
+  ],
+  "closed_test_and_reserve": true
+}

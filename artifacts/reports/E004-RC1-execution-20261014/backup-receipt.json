@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "archive": "archive/e004-rc1-execution-20261014.zip",
+  "sha256": "ad554ecd5d0ef6662a232ae0643b851fd8d2b6df020b9b1642d986f2c3febf00",
+  "files": 1588,
+  "unique_blobs": 1527,
+  "original_bytes": 2087241776,
+  "archive_bytes": 2070681905,
+  "restored_files": 1588,
+  "byte_exact_restore": "PASS",
+  "source_identity": "5268fa4a6f0d45aed5e1e96d89cd1e5e085b2f6073ddb60babb8c9302e7dbd32",
+  "restored_four_cohort_loader_guards": "PASS",
+  "restored_run_and_eval_artifact_checksums": "PASS",
+  "dvc_local_registered": true,
+  "scope": "local_only",
+  "storage": "Same drive; not off-device backup",
+  "test_access_granted": false,
+  "remote_uploaded": false,
+  "inputs_not_needed_for_reload": "source media in inherited V9 archive; no model inference during restore"
+}

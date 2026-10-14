@@ -1,0 +1,115 @@
+{
+  "status": "draft_pending_owner_review",
+  "selected_crops": 31,
+  "families": 10,
+  "selection_size": 71,
+  "category_counts": {
+    "clear_looking_error": 4,
+    "hard_negative_phone": 2,
+    "hard_negative_looking": 1,
+    "clear_phone_degradation": 1,
+    "clear_looking_degradation": 3,
+    "correct_control": 11,
+    "phone_occlusion_contrast": 1,
+    "source_detail_and_context": 2,
+    "small_desk_phone": 3,
+    "looking_context_error": 2,
+    "corrected_hard_negative": 1
+  },
+  "input_panel_pixel_parity": "PASS_31",
+  "crop_source_pixel_parity": "PASS_31",
+  "test_or_reserve_media_read": false,
+  "inference_executed": false,
+  "labels_changed": false,
+  "runs": {
+    "LP": {
+      "phone": {
+        "TP": 4,
+        "FP": 4,
+        "U": 8,
+        "TN": 11,
+        "FN": 4
+      },
+      "looking": {
+        "FN": 9,
+        "TN": 13,
+        "FP": 2,
+        "TP": 5,
+        "U": 2
+      }
+    },
+    "L4": {
+      "phone": {
+        "TP": 2,
+        "FP": 2,
+        "U": 8,
+        "FN": 6,
+        "TN": 13
+      },
+      "looking": {
+        "FN": 13,
+        "TN": 14,
+        "FP": 1,
+        "U": 2,
+        "TP": 1
+      }
+    }
+  },
+  "media_pins": {
+    "outputs/E004-visual-audit-20261014/index.html": "487fddefbf64638bada044227a887fb5ebac354663431720f6813eaddc305edd",
+    "outputs/E004-visual-audit-20261014/media-checksums.json": "a092fa324f416f251f09841071cb333a1f7902dc9dd19e865a9268742929485b",
+    "outputs/E004-visual-audit-20261014/val-review-01.png": "ae84378e17995aa44370dfda35ad8597d617ff0497643f675dd433c11897ae3a",
+    "outputs/E004-visual-audit-20261014/val-review-02.png": "91a3caa5640c1eda9130ecd978f8adb4f119f9e3fece91c20c0f3feccbeb25cc",
+    "outputs/E004-visual-audit-20261014/val-review-03.png": "fcd972e5a77fb1b20417e3e351da00ec5216d35c43676385bb7ec0dc5115a63c",
+    "outputs/E004-visual-audit-20261014/val-review-04.png": "afb9b07648e714fc642973a4962821f40126b2c332d26dc9ed1acc66b404cea5",
+    "outputs/E004-visual-audit-20261014/val-review-05.png": "90de7fe2b0a75dc1c475334ce387d34f48a3e250003d5d10d7cdbe8a3a9725e2",
+    "outputs/E004-visual-audit-20261014/val-review-06.png": "aa2408d3c2eea906f0df3c5480cb7e26eb1301adfdd12a27d86302ff5c05d656",
+    "outputs/E004-visual-audit-20261014/val-review-07.png": "eec167a30cc3c50382a12c3775b35c76580e320dfaf805448a2b88c428eb7463",
+    "outputs/E004-visual-audit-20261014/val-review-08.png": "93a086aea5032867800b80f8d848dd502e29a2f6ac3e5c3ddd0170443d7d0e9c",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-CF-C021.png": "3592573608e6d77a7574d6ac3e4f60f08d9441fdd651c497ec1656bce93f7451",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-CF-C029.png": "27fcd6153fffbaf6d738f637074c9284cc302a137246967a1c83e3aad73e9bc0",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-CF-C031.png": "9649b2e658c160cca8df4c1982bd9d290bc7ff5ad7d5c612638fc3316b72ee89",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-CN-042.png": "0b9ee4dd8b213a13231392c6a6fe19eceee5e61ca29b49c558e881ad3ac24deb",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-CN-043.png": "576edfa6ae9d18ce6495107966b8873816171845a92554f21af5c5bab16223a7",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-CN-044.png": "ca7f278aa4b04a819274d3fd83d3791cd78d6b314cb899455ffa04b31d0e4a16",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-CN-045.png": "ccb37f9c1b945ddf5dfdb56c3380aebaa70f295c88b774b6a6f11ef821672424",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-CN-046.png": "1d07f1435459473381129bd8bc0fc7bb1d3df37eccab91aadf24b8e09ad144fa",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-CN-047.png": "cc88187e7b83c6769a5d8a50c87c2e2fcfce78d5ee4787952b10df265298d44f",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-CN-048.png": "b5be60cc67ed7d2bacdca7532252dc2873ced22c967e0c11314c2d683c5330ec",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-CN-050.png": "8fcc9f5cddf5c77fed4d5a271eba5d63d1f2faeb2dc263c3160ec39905cd7875",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-CN-052.png": "5ba933c2e2c8c923fe3c36943962660e19e959a71092c96a81ef2cdea6df62f1",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-CN-053.png": "4c283ed95afc0588540b6c0ff9911f9dd0d864c904bb62685d3727fe25b973d7",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-CN-055.png": "00a056fa0aae3495278eae007c408eb2bf615157c95ee3390e86fedcb60c85b7",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-CN-056.png": "7cf678c050a4c0c3c62f8803e76356735526c2f092900b54edf17ac07d65083f",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-EX-C009.png": "f1782860880e071c4a6fd09fb122a2ed1b29c1b07c99d1b59690978bd7134280",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-EX-C027.png": "56b481ce73cc3424f3ccaf67419f831313b7571249d30499bc8f3a1f8ec9f253",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-EX-C029.png": "eee42fe722f19160ed7dda84782b6ad4320cfe424848c711c2e1636824f9213f",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-EX-C042.png": "db25703fe9e01a2833bde25e9af4a2271ddb9f0575b9563b4520b51f836cff0f",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-EX-C044.png": "ee3a94698fc8348bf2246a60f4497196b1f33e3d1b7db54004063f0f3eba6de5",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-EX-C045.png": "e8197ff0f36de2cb634609f158e51daa95a47d6d1ac924866e83e2a7ef29194e",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-EX-C051.png": "ac4efe60c7272079372109e48c9b41b4bfd59c46922af7c1ab72ef684ed33976",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-EX-C054.png": "5e070a646e5d1f6b29afed97e74352563bcbe79ef51196ea9ba54b98f2d59a7a",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-EX-C055.png": "a0644db0ac66cacb0166cbc53d43f1fdf7a24f7c5031b39f23b054454fc478c8",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-EX-C056.png": "d6e97f2f9deb93ddb927f162455cf812f02098ce9563ca07353e630279a267e8",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-EX-C120.png": "00608c933e00fa4ea830b10029445da0c90130aac90b1380fd8209a368bbe302",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-EX-C122.png": "01d60fd43ad3d15570270f4c49b589f063dd5739a612fabb2df1933b4b8caa99",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-EX-C193.png": "52a0936b8ca7d79d94d79e2f541556befaca5faba6e2cf4372399925fb2445e0",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-EX-C194.png": "d329e6985347809c8b0ac4e857def8046b842d7e37b3acee9f4687ddf24ecb82",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-EX-C195.png": "9ef6b37f34bd1ceaa516f3a9b8f3a7048c53374917a1e3de7076c5cfba745ca2",
+    "outputs/E004-visual-audit-20261014/inputs224/E004-EX-C199.png": "b0f7d72e28e5ed9922cde8f4ed941d52f1d4143e141c4309660f7263a8365453"
+  },
+  "delivery_checks": {
+    "parent_and_head_pins": "PASS",
+    "manifest_and_package_inventory_pins": "PASS",
+    "proposal_yaml_and_2x2_budget_consistency": "PASS",
+    "local_links_and_gallery_entries": "PASS",
+    "media_hashes": "PASS",
+    "source_code_unchanged": true,
+    "run_authorized": false
+  },
+  "source_restore_files": 31,
+  "manifest_pin": {
+    "path": "data/processed/e004/E004-v9-development-20261013/manifest.jsonl",
+    "sha256": "66f000e5bf8c1793338a408fad4adc445aeed45aee896cf3ccbca69e1fee0f94"
+  }
+}

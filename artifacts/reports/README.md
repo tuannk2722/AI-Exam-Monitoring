@@ -26,6 +26,12 @@ Card/manifest/coverage ở package mà pointer chỉ tới; có thể không hi�
 
 [E004 V9 execution freeze](E004-v9-execution-20261013/README.md): matched control/layer4 FINISHED; development evaluation và benchmark hoàn tất, khuyến nghị Continue research, test đóng.
 
+[Phân tích nguyên nhân sau E004](E004-root-cause-20261014/README.md): đối chiếu lịch sử, code và cached scores; phân biệt overfitting, giới hạn dữ liệu/cohort và giả thuyết khắc phục; chưa cấp quyền run/test mới.
+
+[Audit thị giác E004](E004-visual-audit-20261014/README.md): 31 crop selection qua 10 family, evidence source/crop/input 224 và nhận xét Draft; dẫn tới proposal ablation E004-RC1, chưa train mới.
+
+[E004-RC1 execution](E004-RC1-execution-20261014/README.md): bốn arms FINISHED, reload parity PASS; warm head/LR cao tốt nhất matrix nhưng chưa đạt quality, Continue research; test đóng.
+
 | Đối tượng | Kết quả / evidence | Config và quyền |
 |---|---|---|
 | E001 | [Run](E001/run.json), [metrics](E001/metrics.json), [test metrics](E001/test-metrics.json) | [Config](../../configs/experiments/E001.yaml), [approval](../../docs/experiments/E001-approval.json), [final protocol](../../docs/experiments/E001-final-test-protocol.json) |

@@ -1,0 +1,6 @@
+{
+  "source_code_changed_after_freeze": false,
+  "smoke_retrained_for_verification": false,
+  "pretrained_BN_counter_compatibility": "IMAGENET1K_V1 omits num_batches_tracked; canonical Torch loader initializes absent counters to zero; verification requires zero for those exact missing keys and exact equality for every stored frozen/buffer tensor",
+  "verification_scope": "task orchestration only; production evaluator/checkpoint/pin guards unchanged"
+}

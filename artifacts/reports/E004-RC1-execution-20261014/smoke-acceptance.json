@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "code_sha256": "5268fa4a6f0d45aed5e1e96d89cd1e5e085b2f6073ddb60babb8c9302e7dbd32",
+  "elapsed_seconds_total": 1482.8245409998344,
+  "frozen_prefix_and_all_bn_buffers": "PASS",
+  "optimizer_groups": "PASS",
+  "initialization_provenance": "PASS",
+  "shared_epoch1_sampler": "PASS",
+  "recovery_full_parity": "PASS_SYNTHETIC_SOFTWARE_FIXTURES",
+  "real_recovery_committed_epoch_preservation_and_second_epoch": "PASS",
+  "runs": {
+    "E004-RC1-R-H-SMOKE": {
+      "path": "outputs/E004-RC1-R-H-SMOKE/run.json",
+      "sha256": "0c37bfb543268a46e23b5649ce6a43ecf7b5f85add31738365f992c8e2f83466"
+    },
+    "E004-RC1-W-H-SMOKE": {
+      "path": "outputs/E004-RC1-W-H-SMOKE/run.json",
+      "sha256": "f5f206b7efe059d98fff926f8d4794b56f5fc05cae533d9c515d3e523ee2e84c"
+    },
+    "E004-RC1-R-L-SMOKE": {
+      "path": "outputs/E004-RC1-R-L-SMOKE/run.json",
+      "sha256": "a02b854af5d45e29ec89c9c478afa5ac476db62b87979d1e9438f93599abad52"
+    },
+    "E004-RC1-W-L-SMOKE-B2": {
+      "path": "outputs/E004-RC1-W-L-SMOKE-B2/run.json",
+      "sha256": "d3cb95f52b1c2d42b426353f5c8129779ec9b9d63e43a30b916639a4e0f696cf"
+    }
+  }
+}

@@ -15,7 +15,12 @@ import torch
 from ai_exam_monitoring.common.errors import DataContractError
 from ai_exam_monitoring.common.provenance import sha256_file
 
-from .adaptation_config import AdaptationConfig, load_adaptation_config, verify_adaptation_approval
+from .adaptation_config import (
+    AdaptationConfig,
+    ResearchAdaptationConfig,
+    load_adaptation_config,
+    verify_adaptation_approval,
+)
 from .adaptation_data import ImageCohort, prepare_cohorts
 from .adaptation_metrics import group_bootstrap, minibatch_loss, report_scores, slice_reports
 from .adaptation_model import AdaptationModel, tensor_digest
@@ -29,7 +34,7 @@ from .artifacts import (
     save_checkpoint,
     write_json,
 )
-from .metrics import masked_loss
+from .metrics import evaluate_scores, masked_loss
 from .train import peak_rss, restore_rng, rng_state, write_curve
 
 
@@ -44,6 +49,30 @@ def infer(model: AdaptationModel, cohort: ImageCohort, config: AdaptationConfig)
     if not torch.isfinite(result).all():
         raise DataContractError("Nonfinite cohort logits")
     return result
+
+
+def early_diagnostic(
+    model: AdaptationModel, cohorts: list[ImageCohort], config: AdaptationConfig
+) -> dict[str, Any]:
+    """Measure without changing RNG, any module mode, weights, optimizer or sampler."""
+    saved_rng = rng_state()
+    modes = [(module, module.training) for module in model.modules()]
+    try:
+        result = {}
+        for cohort in cohorts:
+            logits = infer(model, cohort, config)
+            metrics = evaluate_scores(
+                logits.sigmoid(), cohort.values, cohort.mask, config.threshold
+            )
+            result[cohort.name] = {
+                "macro_masked_bce": float(masked_loss(logits, cohort.values, cohort.mask)),
+                "macro_ap": metrics["macro_ap"],
+            }
+        return result
+    finally:
+        restore_rng(saved_rng)
+        for module, mode in modes:
+            module.training = mode
 
 
 def train_images(
@@ -101,6 +130,10 @@ def train_images(
         generator.set_state(state["sampler_rng"])
         restore_rng(state["rng"])
     else:
+        provenance = (
+            {"head_provenance": config.to_dict()["head_provenance"]}
+            if isinstance(config, ResearchAdaptationConfig) else {}
+        )
         write_json(
             output / "initialization.json",
             {
@@ -109,6 +142,7 @@ def train_images(
                 "initial_head_file_sha256": config.head_initialization.sha256,
                 "parameter_groups": names,
                 "seed": config.seed,
+                **provenance,
             },
         )
 
@@ -126,6 +160,31 @@ def train_images(
     deadline = time.perf_counter() + (
         config.wall_time_seconds if remaining_seconds is None else remaining_seconds
     )
+    research = isinstance(config, ResearchAdaptationConfig)
+    if research:
+        diagnostic_path = output / "early-diagnostics.json"
+        diagnostics = (
+            json.loads(diagnostic_path.read_text(encoding="utf-8"))
+            if resume and diagnostic_path.exists() else []
+        )
+        attempt = max((row["attempt"] for row in diagnostics), default=0) + 1
+
+        def diagnose(epoch: int, step: int) -> None:
+            if time.perf_counter() >= deadline:
+                raise TimeoutError("Approved budget exhausted before diagnostic")
+            diagnostics.append({
+                "attempt": attempt, "epoch": epoch, "step": step,
+                "global_step": state["global_step"],
+                "committed_epoch_before_measurement": state["epoch"],
+                "diagnostic_only": True,
+                "cohorts": early_diagnostic(model, [train, selection], config),
+            })
+            write_json(diagnostic_path, diagnostics)
+            if time.perf_counter() >= deadline:
+                raise TimeoutError("Approved budget exhausted during diagnostic")
+
+        if state["epoch"] == 0:
+            diagnose(0, 0)
     known = train.mask.sum(0)
     for epoch in range(state["epoch"] + 1, config.max_epochs + 1):
         if state["stale"] >= config.patience:
@@ -154,6 +213,9 @@ def train_images(
             if any(not torch.isfinite(p).all() for p in model.parameters()):
                 raise DataContractError("Nonfinite model weights")
             state["global_step"] += 1
+            if (isinstance(config, ResearchAdaptationConfig) and epoch == 1
+                    and start // config.batch_size + 1 in config.diagnostic_steps):
+                diagnose(epoch, start // config.batch_size + 1)
         train_loss = float(masked_loss(infer(model, train, config), train.values, train.mask))
         val_loss = float(
             masked_loss(infer(model, selection, config), selection.values, selection.mask)

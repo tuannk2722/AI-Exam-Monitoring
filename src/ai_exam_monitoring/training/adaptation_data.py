@@ -74,9 +74,9 @@ def validate_readiness(config: AdaptationConfig, workspace: Path) -> dict[str, A
         _waiver(config, workspace, ready)
     gates = ready.get("gates", {})
     required: tuple[str, ...] = (
-        ("G0", "G1", "G2", "G3") if config.run_kind == "promotion" else ("G0",)
+        ("G0", "G1", "G2", "G3") if config.run_kind in {"promotion", "research"} else ("G0",)
     )
-    if revised and config.run_kind == "promotion":
+    if revised and config.run_kind in {"promotion", "research"}:
         required = ("G0", "G1")
         if any(gates.get(gate) != "owner_waived" for gate in ("G2", "G3")):
             raise DataContractError("Waived gates must not claim verified PASS")

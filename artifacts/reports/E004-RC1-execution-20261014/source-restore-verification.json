@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "snapshots": [
+    {
+      "archive": "archive/e004-rc1-preimplementation-20261014.zip",
+      "restored_files": 41,
+      "code_identity": "cdb20fb051b46d3a0a88cf422a004d490c4dc92b8d13a0a7e86bdaae1c842cfb",
+      "byte_exact": "PASS"
+    },
+    {
+      "archive": "archive/e004-rc1-software-20261014.zip",
+      "restored_files": 71,
+      "code_identity": "5268fa4a6f0d45aed5e1e96d89cd1e5e085b2f6073ddb60babb8c9302e7dbd32",
+      "byte_exact": "PASS"
+    }
+  ],
+  "off_device": false
+}

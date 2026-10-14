@@ -1,0 +1,28 @@
+{
+  "status": "approved",
+  "owner": "repository-owner",
+  "scope": "local_classifier_research",
+  "run_kind": "research",
+  "owner_authorization": {
+    "path": "artifacts/reports/E004-RC1-execution-20261014/owner-approval.json",
+    "sha256": "612722348c156c2bc88be4c21331f03575cf49a58d05a9233ad5e96871dbf027"
+  },
+  "configs": {
+    "E004-RC1-R-H": "3aeebd4dce96d00f35053126a4b8a24c0f0df14ee8a456ffcb86be907433f74b",
+    "E004-RC1-W-H": "b24666d4956980ae82ab06bf29051fd6a8559ebccf74cd8edd3337aa2ddc6b7e",
+    "E004-RC1-R-L": "540a68762884462b7f7468d486ddc4f5f1ee7cbbccc17b584e2524c4697e3ba5",
+    "E004-RC1-W-L": "af41c3307bfdc7640b8a73681af7c8c502f6eaefcdc158328af08547c90f56d3"
+  },
+  "config_signatures": {
+    "E004-RC1-R-H": "78e8a9d1f57bbdd031d6a6cca7c671a69a853175d55361a79ac06f878f2f4259",
+    "E004-RC1-W-H": "f900a55f7bba2e09359e611d1971fa2292fdb1b1c3b0415ba23be58c575b7d0c",
+    "E004-RC1-R-L": "9860ceed1a47e50bc034bcb2feabe2dd06a68e6709ee92d29cf5c72deac4a57e",
+    "E004-RC1-W-L": "b0db86728a5f90fe4128561a4033051d2641d26a3e38829d3717ffe657c27bee"
+  },
+  "code_sha256": "5268fa4a6f0d45aed5e1e96d89cd1e5e085b2f6073ddb60babb8c9302e7dbd32",
+  "final_test_inference_authorized": false,
+  "smoke_condition": {
+    "path": "artifacts/reports/E004-RC1-execution-20261014/smoke-acceptance.json",
+    "sha256": "f9f20cc945c709c216e962da02ca1c1ec70e1e7cd0ee560cbb129051fcfcd397"
+  }
+}

@@ -183,7 +183,9 @@ def run(config_path: Path, output: Path, workspace: Path, *, resume: bool = Fals
         interrupt_after: int | None = None) -> RunRecord:
     from ai_exam_monitoring.common.config import load_yaml
 
-    if load_yaml(config_path).get("schema_version") == "matched-adaptation-v1":
+    if load_yaml(config_path).get("schema_version") in {
+        "matched-adaptation-v1", "matched-adaptation-v2"
+    }:
         from .adaptation_train import run_adaptation
 
         return run_adaptation(config_path, output, workspace, resume=resume,

@@ -1,0 +1,79 @@
+schema_version: research-proposal-v1
+status: draft_pending_owner_approval
+study_id: E004-RC1-20261014
+owner: repository-owner
+purpose: Tách tác động khởi tạo head và LR layer4 sau audit E004; research only.
+runnable: false
+parent_config:
+  path: configs/experiments/E004-v9-execution-20261013/E004-V9-L4.yaml
+  sha256: f859fcf08dc94140ce2dee5ea515d59bfa1304f0098a458b83d7ab1badc6cec9
+warm_head_source:
+  path: outputs/E004-V9-LP/best.pt
+  sha256: 2cdb53c00149e71b5127096ee4d323865434bbfbba87c68ecd300e7707ceb2cf
+  epoch: 10
+  policy: Chỉ copy network.fc weight/bias; backbone luôn ImageNet original, optimizer reset.
+random_head_source:
+  path: data/interim/E004-v9-execution-20261013/initial-head.pt
+  sha256: 235907aa41a8c161879e8bebfa4c83ff56128e6bb4f864c8b7474eee9ed33101
+inherited_without_change:
+  - exact train716/selection71/diagnostic49/comparator48/added35 membership và labels/masks
+  - ImageNet weights, license và target order
+  - RGB letterbox bilinear 224, fill, mean/std
+  - global_known_normalized_minibatch_bce_v1
+  - AdamW, head LR 0.001, weight_decay 0.0001
+  - batch16, CPU4 threads, workers0, seed42, uniform permutation no drop
+  - all BN eval, only head/layer4 trainable
+  - max50 epochs, patience10, min_delta0.0001
+  - best raw minimum selection BCE at completed epoch; tie earliest
+  - threshold0.5, no augmentation/scheduler
+arms:
+  - id: E004-RC1-R-H
+    head: random
+    layer4_learning_rate: 0.0001
+  - id: E004-RC1-W-H
+    head: warm_lp_epoch10
+    layer4_learning_rate: 0.0001
+  - id: E004-RC1-R-L
+    head: random
+    layer4_learning_rate: 0.00001
+  - id: E004-RC1-W-L
+    head: warm_lp_epoch10
+    layer4_learning_rate: 0.00001
+instrumentation:
+  diagnostic_only:
+    - epoch0 train/selection BCE and macro AP
+    - epoch1 after optimizer steps15 and30 train/selection BCE and macro AP
+  no_checkpoint_selection_at_diagnostic_steps: true
+  no_sampler_or_rng_changes: true
+  restore_training_mode_after_diagnostics: true
+  diagnostic_scores_not_new_holdout: true
+budget:
+  main_runs: 4
+  per_main_run_wall_seconds: 7200
+  smoke_total_wall_seconds: 1800
+  total_training_wall_seconds_max: 30600
+  execution: sequential_cpu_4_threads
+  no_automatic_extra_runs: true
+  no_silent_budget_or_config_change: true
+analysis:
+  primary: selection macro masked BCE
+  ranking_guard: Report macro AP and each target AP, never call lower BCE alone overall gain.
+  contrasts:
+    - W-H versus R-H isolates initialization at LR0.0001
+    - W-L versus R-L isolates initialization at LR0.00001
+    - R-L versus R-H isolates LR under random head
+    - W-L versus W-H isolates LR under warm head
+  diagnostic: report all arms, train gaps, confusion, each family and outside CF-Q072
+  decision: Descriptive evidence at one seed; no significance claim or automatic candidate.
+  stop: Không có gain selection nhất quán với ranking/families thì quay lại nhánh data/input; không kéo epochs.
+permissions_requested:
+  implementation_and_synthetic_tests: true
+  freeze_mechanically_derived_run_configs_after_checks: true
+  smoke_and_four_runs_within_budget: true
+  local_development_evaluation: true
+  label_or_split_changes: false
+  new_sources_or_weights: false
+  test_or_reserve_access: false
+  promotion: false
+  upload: false
+  commit: false

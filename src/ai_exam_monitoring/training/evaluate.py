@@ -35,7 +35,7 @@ def validate_protocol(protocol: dict[str, Any], config: ExperimentConfig, checkp
 def evaluate(run_dir: Path, output: Path, workspace: Path, split: str,
              protocol_path: Path | None = None, *, benchmark: bool = False) -> dict[str, Any]:
     raw_config = json.loads((run_dir / "resolved-config.json").read_text(encoding="utf-8"))
-    if raw_config.get("schema_version") == "matched-adaptation-v1":
+    if raw_config.get("schema_version") in {"matched-adaptation-v1", "matched-adaptation-v2"}:
         from .adaptation_evaluate import evaluate_adaptation
 
         return evaluate_adaptation(run_dir, output, workspace, split, protocol_path,

@@ -1,0 +1,14 @@
+{
+  "reason": "Measured first smoke 353.09 seconds; combine recovery with W-L instead of duplicate full W-L smoke to remain within total 1800 seconds",
+  "scientific_variables_changed": false,
+  "total_smoke_budget_seconds": 1800,
+  "initial_smoke_configs_preserved": true,
+  "current_W_H_CLI_uninterrupted": true,
+  "initial_orchestrator_snapshot": {
+    "path": "outputs/E004-RC1-execution-20261014/orchestration-initial.py",
+    "sha256": "34d4b3def8867cf0270dd96df981cf3327daff9d62099ded9473901323bf700b"
+  },
+  "owner_approval_scope": "mechanical smoke budget allocation within approved total, same head/LR/data coverage",
+  "new_W_L_smoke_identity": "E004-RC1-W-L-SMOKE-B2",
+  "new_W_L_wall_seconds": "1800 minus actual completed preceding smoke elapsed times"
+}

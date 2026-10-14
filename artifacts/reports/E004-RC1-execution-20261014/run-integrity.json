@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "code_sha256": "5268fa4a6f0d45aed5e1e96d89cd1e5e085b2f6073ddb60babb8c9302e7dbd32",
+  "runs": {
+    "E004-RC1-R-H": {
+      "status": "PASS",
+      "best_epoch": 1,
+      "completed_epochs": 11,
+      "elapsed_seconds": 1104.7281544998987,
+      "steps_per_epoch": 45,
+      "best_matches_minimum_completed_epoch_BCE": true,
+      "shared_sampler": true,
+      "diagnostic_schedule": "epoch0/epoch1_steps15_30",
+      "warm_epoch0_parent_metrics_parity": false,
+      "run_sha256": "c35d6177e4ff7cece87019432a77746425fd9ecd53c20b7a57e955938f60998e",
+      "best_sha256": "3713821e73486bc948ebc9876ff554a13df86985a8f652cd01d1fd5e92250bd8",
+      "best_model_tensor_sha256": "3682be3d02664a1cb5f19ab6b2af70fa8eddec18fcb0e7cca02313877292ed34"
+    },
+    "E004-RC1-W-H": {
+      "status": "PASS",
+      "best_epoch": 1,
+      "completed_epochs": 11,
+      "elapsed_seconds": 1110.6581404000754,
+      "steps_per_epoch": 45,
+      "best_matches_minimum_completed_epoch_BCE": true,
+      "shared_sampler": true,
+      "diagnostic_schedule": "epoch0/epoch1_steps15_30",
+      "warm_epoch0_parent_metrics_parity": true,
+      "run_sha256": "11b5c8b252c6a38eb540542c0819a3395691c9ab1a7f8a95194d8fb71022b398",
+      "best_sha256": "95d06047625bb083e517c026c1811d23a4d7037b52a7af9de08ec75b5056f677",
+      "best_model_tensor_sha256": "a512e4b9c7688ac5dd158ffcfd5b201d4ea56160749cc14f902dcc64498fdafb"
+    },
+    "E004-RC1-R-L": {
+      "status": "PASS",
+      "best_epoch": 1,
+      "completed_epochs": 11,
+      "elapsed_seconds": 1177.9972036000108,
+      "steps_per_epoch": 45,
+      "best_matches_minimum_completed_epoch_BCE": true,
+      "shared_sampler": true,
+      "diagnostic_schedule": "epoch0/epoch1_steps15_30",
+      "warm_epoch0_parent_metrics_parity": false,
+      "run_sha256": "dc262a6be4fb19058eba00337c8894dd24e4eecb47bf210906bb2ac4f66d6ce0",
+      "best_sha256": "0d49b960eaae46a21570864ad8f16c9160ab6dbc070b82884d7f363055bf17ff",
+      "best_model_tensor_sha256": "7a99ee58073d8bcd1c6162ec091d8c3feba0c23a55a9e3b73fc9a93d6f2d768c"
+    },
+    "E004-RC1-W-L": {
+      "status": "PASS",
+      "best_epoch": 1,
+      "completed_epochs": 11,
+      "elapsed_seconds": 1051.8867987999693,
+      "steps_per_epoch": 45,
+      "best_matches_minimum_completed_epoch_BCE": true,
+      "shared_sampler": true,
+      "diagnostic_schedule": "epoch0/epoch1_steps15_30",
+      "warm_epoch0_parent_metrics_parity": true,
+      "run_sha256": "f522b24f9c606ee8adf311284eee449cc35d4ad9c07f0a0f2381d5f46487efb8",
+      "best_sha256": "d1dc241b1a8246a68b673aae9c75e1bec01a04dabcabb9d8953f1d02e9061149",
+      "best_model_tensor_sha256": "fd8b02047b0fe41003abd40801f3ceb0ae8ba79eae655916ebff20ce4aa32461"
+    }
+  },
+  "main_elapsed_seconds_total": 4445.270297299954,
+  "smoke_elapsed_seconds_total": 1482.8245409998344,
+  "total_training_elapsed_seconds": 5928.0948382997885,
+  "budget_seconds_max": 30600,
+  "test_or_reserve_access": false
+}

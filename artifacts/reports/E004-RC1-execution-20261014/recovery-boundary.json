@@ -1,0 +1,19 @@
+{
+  "checkpoint": {
+    "path": "outputs/E004-RC1-W-L-SMOKE-B2/last.pt",
+    "sha256": "066efa0e7566e0c42751f3b81b595c8b0362aaf894669b1c0b8165acfa94192b"
+  },
+  "epoch": 1,
+  "global_step": 45,
+  "model_tensor_sha256": "fd8b02047b0fe41003abd40801f3ceb0ae8ba79eae655916ebff20ce4aa32461",
+  "best_epoch": 1,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.38341498374938965,
+      "val_loss": 0.7229822278022766,
+      "permutation_sha256": "e39e482086430f59c333a12dc6adcd651c416f9d5df9a40123265e2b643e4501"
+    }
+  ],
+  "sampler_cursor": 716
+}

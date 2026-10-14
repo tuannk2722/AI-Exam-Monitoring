@@ -15,6 +15,8 @@
 
 Config mới cần identity/hypothesis/inputs/protocol/owner và approval đúng config trước run. Config được report pin giữ nguyên dù còn Draft; revision mới có identity riêng. Proposal ghi lifecycle/decision và link results; metrics ở hồ sơ run. JSON approvals dưới `docs/experiments` giữ original path do code/config phụ thuộc.
 
+[E004-RC1 — initialization × LR](E004-RC1-20261014/README.md): proposal snapshot sau audit thị giác 14/10; owner đã duyệt implementation/execution, trạng thái và exact configs ở [execution companion](E004-RC1-20261014/EXECUTION.md). Không thay freeze E004 V9 hoặc cấp test access.
+
 Trạng thái E004 sau ngày 13/10: [V9 và waiver support mới](../../artifacts/reports/E004-v9-consolidation-20261013/README.md). Các yêu cầu bù quota trong snapshot trước đã được owner miễn; protocol/cohort và exact run configs đã được duyệt và thực thi trong revision V9.
 
 Bước hiện hành: [E004 V9 execution freeze](../../artifacts/reports/E004-v9-execution-20261013/README.md), [recipe](E004-v9-execution-20261013/recipe-proposal.yaml), [protocol](E004-v9-execution-20261013/protocol-proposal.json). Exact configs E004-V9-LP.yaml và E004-V9-L4.yaml đã thực thi FINISHED; xem report kết quả. Recipe/protocol proposal giữ snapshot gốc.

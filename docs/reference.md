@@ -29,6 +29,8 @@ Adapter hiện yêu cầu source/checkpoint tồn tại, output mới và FPS d�
 
 ## Trainer/evaluator hiện có
 
+Schema matched-adaptation-v2 thêm provenance random/learned head và diagnostic epoch0/first-epoch steps cho research/smoke. Model chỉ nhận learned FC từ parent checkpoint đã pin, reset backbone/optimizer; diagnostic giữ RNG/modes và không đổi best epoch rule. CLI train/evaluate dispatch cả v1/v2, research v2 không có final-test scope. [E004-RC1 execution](../configs/experiments/E004-RC1-20261014/EXECUTION.md) dẫn tới variables/approval/checks, không là default recipe mới.
+
 Recipe E001–E003 ở [baseline report](../artifacts/reports/baseline-review-20261011/README.md), không là default cho model mới. Biến nằm trong `configs/experiments/E001.yaml`/E002/E003 và smoke tương ứng. `ExperimentConfig` hiện từ chối keys thiếu/lạ, values unresolved/nonfinite, model/device/optimizer/loss/transform khác whitelist; chỉ hỗ trợ `resnet18_frozen_linear` CPU. Đổi tên YAML không triển khai fine-tune hoặc GPU.
 
 Backbone chỉ load weights local đúng SHA; không tự download, random fallback hoặc đổi license. Legacy `best.pt` chứa head/config/identity/epoch và cần pretrained gốc. Schema `matched-adaptation-v1` thêm frozen matched control/layer4 CPU, full backbone+head bundle và atomic epoch-boundary resume; reload bundle không cần pretrained/head initialization bên ngoài. Code ở `adaptation_config/data/model/metrics/train/evaluate.py`; synthetic validation và giới hạn ở [E004 software evidence](../artifacts/reports/E004-software-readiness-20261012/README.md).

@@ -14,7 +14,7 @@ from torchvision.models import resnet18
 from ai_exam_monitoring.common.errors import DataContractError
 from ai_exam_monitoring.common.provenance import sha256_file
 
-from .adaptation_config import AdaptationConfig
+from .adaptation_config import AdaptationConfig, FilePin, ResearchAdaptationConfig
 from .artifacts import save_checkpoint
 
 
@@ -46,6 +46,42 @@ def create_initial_head(path: Path, seed: int) -> str:
     return sha256_file(path)
 
 
+def validate_head(state: Any) -> None:
+    if (not isinstance(state, dict) or set(state) != {"weight", "bias"}
+            or any(not isinstance(v, torch.Tensor) for v in state.values())
+            or state["weight"].shape != (2, 512) or state["bias"].shape != (2,)
+            or any(v.dtype != torch.float32 or not torch.isfinite(v).all()
+                   for v in state.values())):
+        raise DataContractError("Head must contain finite float32 weight[2,512] and bias[2]")
+
+
+def create_learned_head(
+    path: Path, parent: FilePin, workspace: Path, parent_epoch: int
+) -> str:
+    """Extract only the approved parent FC, never optimizer or adapted backbone."""
+    if path.exists():
+        raise DataContractError("Learned head requires a new immutable path")
+    payload = torch.load(parent.verify(workspace), map_location="cpu", weights_only=True)
+    if (payload.get("schema_version") != "full-model-bundle-v1"
+            or payload.get("epoch") != parent_epoch
+            or payload.get("config", {}).get("model") != "resnet18_matched_control"
+            or payload.get("config", {}).get("target_order") != ["phone_use", "looking_around"]
+            or tensor_digest(payload["model"]) != payload.get("model_tensor_sha256")):
+        raise DataContractError("Learned head parent bundle/epoch/targets mismatch")
+    head = {name: payload["model"]["network.fc." + name].detach().clone()
+            for name in ("weight", "bias")}
+    validate_head(head)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    save_checkpoint(path, {
+        "schema_version": "learned-head-init-v1",
+        "parent_checkpoint": {"path": parent.path, "sha256": parent.sha256},
+        "parent_epoch": parent_epoch,
+        "head": head,
+        "tensor_sha256": tensor_digest(head),
+    })
+    return sha256_file(path)
+
+
 class AdaptationModel(nn.Module):
     def __init__(
         self,
@@ -69,11 +105,22 @@ class AdaptationModel(nn.Module):
             self.network.load_state_dict(torch.load(weights, map_location="cpu", weights_only=True))
             self.network.fc = nn.Linear(512, 2)
             payload = torch.load(initial_head, map_location="cpu", weights_only=True)
-            if (
-                payload["schema_version"] != "linear-head-init-v1"
-                or payload["seed"] != config.seed
-                or tensor_digest(payload["head"]) != payload["tensor_sha256"]
-            ):
+            validate_head(payload.get("head"))
+            if (isinstance(config, ResearchAdaptationConfig)
+                    and config.head_provenance.kind == "parent_fc"):
+                parent = config.head_provenance.parent_checkpoint
+                if parent is None or (
+                    payload.get("schema_version") != "learned-head-init-v1"
+                    or payload.get("parent_checkpoint") != {
+                        "path": parent.path, "sha256": parent.sha256
+                    }
+                    or payload.get("parent_epoch") != config.head_provenance.parent_epoch
+                ):
+                    raise DataContractError("Learned head provenance mismatch")
+            elif (payload.get("schema_version") != "linear-head-init-v1"
+                  or payload.get("seed") != config.seed):
+                raise DataContractError("Random head initialization identity mismatch")
+            if tensor_digest(payload["head"]) != payload.get("tensor_sha256"):
                 raise DataContractError("Head initialization identity mismatch")
             self.network.fc.load_state_dict(payload["head"])
         else:

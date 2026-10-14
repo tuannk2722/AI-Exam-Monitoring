@@ -1,0 +1,23 @@
+{
+  "status": "approved",
+  "owner": "repository-owner",
+  "scope": "local_classifier_research",
+  "run_kind": "smoke",
+  "owner_authorization": {
+    "path": "artifacts/reports/E004-RC1-execution-20261014/owner-approval.json",
+    "sha256": "612722348c156c2bc88be4c21331f03575cf49a58d05a9233ad5e96871dbf027"
+  },
+  "configs": {
+    "E004-RC1-W-L-SMOKE-B2": "a75f29e643d933c382eefbc6aaa4eb9556da787736771f8815b0d23d1821e3cf"
+  },
+  "config_signatures": {
+    "E004-RC1-W-L-SMOKE-B2": "0e948da4b97c8aa80e53091d69c09c5ec9052830efa9eda658eb056fc3e6c16d"
+  },
+  "code_sha256": "5268fa4a6f0d45aed5e1e96d89cd1e5e085b2f6073ddb60babb8c9302e7dbd32",
+  "final_test_inference_authorized": false,
+  "smoke_condition": null,
+  "budget_revision": {
+    "path": "artifacts/reports/E004-RC1-execution-20261014/smoke-budget-revision.json",
+    "sha256": "660b5ae1451701edb989bdd32c3692eb46e1f1207b0be7be0a9d491180f6aed4"
+  }
+}

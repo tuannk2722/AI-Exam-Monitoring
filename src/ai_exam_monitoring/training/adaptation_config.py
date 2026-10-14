@@ -155,7 +155,10 @@ class AdaptationConfig:
         if re.fullmatch(r"[A-Za-z0-9_-]+", self.experiment_id) is None:
             raise ConfigurationError("Unsafe experiment ID")
         fixed = {
-            "schema_version": "matched-adaptation-v1",
+            "schema_version": (
+                "matched-adaptation-v2" if isinstance(self, ResearchAdaptationConfig)
+                else "matched-adaptation-v1"
+            ),
             "weights_id": "IMAGENET1K_V1",
             "device": "cpu",
             "optimizer": "AdamW",
@@ -171,7 +174,10 @@ class AdaptationConfig:
                 raise ConfigurationError(f"Unsupported {key}")
         if self.model not in {"resnet18_matched_control", "resnet18_layer4"}:
             raise ConfigurationError("Unsupported adaptation model")
-        if self.run_kind not in {"smoke", "promotion"}:
+        scopes = {"smoke", "research"} if isinstance(self, ResearchAdaptationConfig) else {
+            "smoke", "promotion"
+        }
+        if self.run_kind not in scopes:
             raise ConfigurationError("Unsupported run scope")
         for key in ("batch_size", "threads", "image_size", "max_epochs", "patience"):
             if type(getattr(self, key)) is not int or getattr(self, key) <= 0:
@@ -188,8 +194,9 @@ class AdaptationConfig:
             "threshold",
             "wall_time_seconds",
         ):
-            value = getattr(self, key)
-            if type(value) not in (float, int) or not math.isfinite(value) or value < 0:
+            numeric_value: Any = getattr(self, key)
+            if (type(numeric_value) not in (float, int) or not math.isfinite(numeric_value)
+                    or numeric_value < 0):
                 raise ConfigurationError(f"Invalid {key}")
         if (
             min(self.head_learning_rate, self.layer4_learning_rate, self.wall_time_seconds) <= 0
@@ -197,11 +204,11 @@ class AdaptationConfig:
         ):
             raise ConfigurationError("Invalid learning rate, budget or threshold")
         for key in ("mean", "std", "fill"):
-            value = getattr(self, key)
+            rgb_value: Any = getattr(self, key)
             if (
-                not isinstance(value, list)
-                or len(value) != 3
-                or any(type(v) not in (float, int) or not math.isfinite(v) for v in value)
+                not isinstance(rgb_value, list)
+                or len(rgb_value) != 3
+                or any(type(v) not in (float, int) or not math.isfinite(v) for v in rgb_value)
             ):
                 raise ConfigurationError(f"Invalid RGB {key}")
         if any(v <= 0 for v in self.std) or any(
@@ -235,8 +242,53 @@ class AdaptationConfig:
         return digest_json(value)
 
 
+@dataclass(frozen=True)
+class HeadProvenance:
+    kind: str
+    seed: int | None
+    parent_checkpoint: FilePin | None
+    parent_epoch: int | None
+
+    def __post_init__(self) -> None:
+        if self.kind == "random_seed":
+            if (type(self.seed) is not int or not 0 <= self.seed < 2**32
+                    or self.parent_checkpoint is not None or self.parent_epoch is not None):
+                raise ConfigurationError("Invalid random head provenance")
+        elif self.kind == "parent_fc":
+            if (self.seed is not None or not isinstance(self.parent_checkpoint, FilePin)
+                    or type(self.parent_epoch) is not int or self.parent_epoch <= 0):
+                raise ConfigurationError("Invalid learned head provenance")
+        else:
+            raise ConfigurationError("Unsupported head provenance")
+
+
+@dataclass(frozen=True)
+class ResearchAdaptationConfig(AdaptationConfig):
+    head_provenance: HeadProvenance
+    diagnostic_steps: tuple[int, ...]
+
+    def __post_init__(self) -> None:
+        super().__post_init__()
+        if not isinstance(self.head_provenance, HeadProvenance):
+            raise ConfigurationError("Require explicit head provenance")
+        if (self.head_provenance.kind == "random_seed"
+                and self.head_provenance.seed != self.seed):
+            raise ConfigurationError("Random head seed must match run seed")
+        if (not isinstance(self.diagnostic_steps, tuple)
+                or any(type(s) is not int or s <= 0 for s in self.diagnostic_steps)
+                or tuple(sorted(set(self.diagnostic_steps))) != self.diagnostic_steps):
+            raise ConfigurationError("Require sorted unique positive diagnostic steps")
+        train = next(c for c in self.cohorts if c.role == "train")
+        if self.diagnostic_steps and self.diagnostic_steps[-1] >= math.ceil(
+            len(train.sample_ids) / self.batch_size
+        ):
+            raise ConfigurationError("Diagnostics must precede first epoch boundary")
+
+
 def config_from_dict(raw: Any) -> AdaptationConfig:
-    value = dict(strict_fields(raw, AdaptationConfig))
+    model = (ResearchAdaptationConfig if isinstance(raw, dict)
+             and raw.get("schema_version") == "matched-adaptation-v2" else AdaptationConfig)
+    value = dict(strict_fields(raw, model))
     for key in ("protocol", "readiness", "weights", "weights_license", "head_initialization"):
         value[key] = FilePin(**strict_fields(value[key], FilePin))
     if not isinstance(value["cohorts"], list):
@@ -250,7 +302,17 @@ def config_from_dict(raw: Any) -> AdaptationConfig:
         cohort["sample_ids"] = tuple(cohort["sample_ids"])
         cohorts.append(CohortSpec(**cohort))
     value["cohorts"] = tuple(cohorts)
-    return AdaptationConfig(**value)
+    if model is ResearchAdaptationConfig:
+        head = dict(strict_fields(value["head_provenance"], HeadProvenance))
+        if head["parent_checkpoint"] is not None:
+            head["parent_checkpoint"] = FilePin(
+                **strict_fields(head["parent_checkpoint"], FilePin)
+            )
+        value["head_provenance"] = HeadProvenance(**head)
+        if not isinstance(value["diagnostic_steps"], list):
+            raise ConfigurationError("Diagnostic steps must be an array")
+        value["diagnostic_steps"] = tuple(value["diagnostic_steps"])
+    return model(**value)
 
 
 def load_adaptation_config(path: Path) -> AdaptationConfig:
@@ -265,9 +327,26 @@ def verify_adaptation_approval(config: AdaptationConfig, workspace: Path) -> Non
         or approval.get("scope") != "local_classifier_research"
         or approval.get("run_kind") != config.run_kind
         or approval.get("configs", {}).get(config.experiment_id) != digest_json(config.to_dict())
-        or approval.get("matched_signature") != config.match_signature()
+        or (
+            approval.get("config_signatures", {}).get(config.experiment_id)
+            if isinstance(config, ResearchAdaptationConfig)
+            else approval.get("matched_signature")
+        ) != config.match_signature()
     ):
         raise ConfigurationError("Exact matched run/config approval missing")
+    if isinstance(config, ResearchAdaptationConfig):
+        from .artifacts import code_identity
+
+        if (approval.get("code_sha256") != code_identity()["sha256"]
+                or approval.get("final_test_inference_authorized") is not False):
+            raise ConfigurationError("Research approval must bind code and closed test scope")
+        authorization = FilePin(
+            **strict_fields(approval.get("owner_authorization"), FilePin)
+        ).read_json(workspace)
+        if (authorization.get("status") != "approved"
+                or authorization.get("owner") != config.owner
+                or authorization.get("final_test_inference_authorized") is not False):
+            raise ConfigurationError("Research owner authorization missing or wrong scope")
 
 
 def verify_matched_configs(control: AdaptationConfig, candidate: AdaptationConfig) -> None:

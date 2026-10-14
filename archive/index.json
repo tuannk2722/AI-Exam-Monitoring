@@ -82,6 +82,56 @@
         "receipt": "artifacts/reports/E004-v9-execution-20261013/backup-receipt.json",
         "storage": "Same-drive archive; not off-device backup"
       }
+    },
+    {
+      "name": "e004-rc1-preimplementation-20261014",
+      "path": "archive/e004-rc1-preimplementation-20261014.zip",
+      "sha256": "0dafea05cc24d312c8889401e4aa0fe6e73c6d1de6ed9e7c204b521a14dcb674",
+      "files": 41,
+      "unique_blobs": 41,
+      "original_bytes": 274829,
+      "archive_bytes": 96430,
+      "scope": "local_only",
+      "owner_authorization": "Approved RC1 execution lifecycle; preserve old/new source without remote upload",
+      "validation": {
+        "byte_exact_restore": "PASS",
+        "restored_files": 41,
+        "code_identity": "cdb20fb051b46d3a0a88cf422a004d490c4dc92b8d13a0a7e86bdaae1c842cfb",
+        "receipt": "artifacts/reports/E004-RC1-execution-20261014/source-restore-verification.json"
+      }
+    },
+    {
+      "name": "e004-rc1-software-20261014",
+      "path": "archive/e004-rc1-software-20261014.zip",
+      "sha256": "3f8a6a8c5d9bb872a306651bf0ef61575597a8bb47dad0e6ff107af4ae6a9cb2",
+      "files": 71,
+      "unique_blobs": 71,
+      "original_bytes": 464479,
+      "archive_bytes": 156263,
+      "scope": "local_only",
+      "owner_authorization": "Approved RC1 execution lifecycle; preserve old/new source without remote upload",
+      "validation": {
+        "byte_exact_restore": "PASS",
+        "restored_files": 71,
+        "code_identity": "5268fa4a6f0d45aed5e1e96d89cd1e5e085b2f6073ddb60babb8c9302e7dbd32",
+        "receipt": "artifacts/reports/E004-RC1-execution-20261014/source-restore-verification.json"
+      }
+    },
+    {
+      "name": "e004-rc1-execution-20261014",
+      "path": "archive/e004-rc1-execution-20261014.zip",
+      "sha256": "ad554ecd5d0ef6662a232ae0643b851fd8d2b6df020b9b1642d986f2c3febf00",
+      "files": 1588,
+      "unique_blobs": 1527,
+      "original_bytes": 2087241776,
+      "archive_bytes": 2070681905,
+      "scope": "local_only",
+      "owner_authorization": "Approved RC1 execution lifecycle; no remote upload",
+      "validation": {
+        "byte_exact_restore": "PASS",
+        "restored_files": 1588,
+        "receipt": "artifacts/reports/E004-RC1-execution-20261014/backup-receipt.json"
+      }
     }
   ]
 }

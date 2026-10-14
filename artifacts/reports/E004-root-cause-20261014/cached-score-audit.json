@@ -1,0 +1,508 @@
+{
+  "scope": "cached development scores only; post-hoc threshold feasibility, not threshold selection or final evaluation",
+  "inputs": {
+    "outputs/E004-V9-LP/metrics.json": {
+      "sha256": "8f616c4e2783ccd650c51812dfa494d0edaf3d73ecd0006806246932737fb49c",
+      "matches_run_checksums": true
+    },
+    "outputs/E004-V9-LP/history.json": {
+      "sha256": "95e791f4716c47c293e05d2361c4855d0e9ffeb0363f59d94f6a82d87de4d6ff",
+      "matches_run_checksums": true
+    },
+    "outputs/E004-V9-LP/run.json": {
+      "sha256": "78377a98f925e268a567d97d9702291399b3b8391b344330c94482c50c2fb8dc",
+      "matches_run_checksums": true
+    },
+    "outputs/E004-V9-LP/resolved-config.json": {
+      "sha256": "857d39b074f1cee3c25d501878869559e37d8a8a658a127052f5d08c5967d705",
+      "matches_run_checksums": true
+    },
+    "outputs/E004-V9-LP/predictions-train.json": {
+      "sha256": "40423780098c8bb65677997cdb2cd3c07519b71b7a2d66dc09dbd2ccda975e75",
+      "matches_run_checksums": true
+    },
+    "outputs/E004-V9-LP/predictions-selection.json": {
+      "sha256": "ffd71f72735b7eac5d549922ac368d18ad1e34aea0a5782eb721b0fe5671cc2c",
+      "matches_run_checksums": true
+    },
+    "outputs/E004-V9-LP/predictions-diagnostic49.json": {
+      "sha256": "fac61fd86c93256d7c6566bf35c065843a37412fe2a3de387c89c172a0bc2429",
+      "matches_run_checksums": true
+    },
+    "outputs/E004-V9-LP/predictions-comparator48.json": {
+      "sha256": "d6048040cc3f259a1a35551d1e235923c4004bcee0a510c4459015054db7b8c7",
+      "matches_run_checksums": true
+    },
+    "outputs/E004-V9-LP/predictions-added35.json": {
+      "sha256": "53f6f53db4f84ef4050a385fccba199ec1cccf7ba4e2e24c1c7dd2e14dacfae5",
+      "matches_run_checksums": true
+    },
+    "outputs/E004-V9-L4/metrics.json": {
+      "sha256": "9b6dea852655c63a0cbfc50a49c2e57be48297fd64b09866ee3b60a46bac80cb",
+      "matches_run_checksums": true
+    },
+    "outputs/E004-V9-L4/history.json": {
+      "sha256": "325d9c00f014b28ce676dd2e584150dca7af536d3e2aea2d8bb6e5ff213d385d",
+      "matches_run_checksums": true
+    },
+    "outputs/E004-V9-L4/run.json": {
+      "sha256": "c14ee65fdd8f9b6ecc9f3165f0dadc2bb2279cac022ec63d51b9f5d5b7618133",
+      "matches_run_checksums": true
+    },
+    "outputs/E004-V9-L4/resolved-config.json": {
+      "sha256": "01d0bca644da047d353ed8a74ee6d02a9944b8cb2cbfce213a151bbe1c550056",
+      "matches_run_checksums": true
+    },
+    "outputs/E004-V9-L4/predictions-train.json": {
+      "sha256": "8236e15ed852ce42ebe921d1406ef0094b29d0160d2bd3810e005136e30c3142",
+      "matches_run_checksums": true
+    },
+    "outputs/E004-V9-L4/predictions-selection.json": {
+      "sha256": "571245dfba8c27a89b1d4c60063aacb60a8f435d594d5114a451a6bc468f1797",
+      "matches_run_checksums": true
+    },
+    "outputs/E004-V9-L4/predictions-diagnostic49.json": {
+      "sha256": "b45c93cb4d0a96448f8ff1fbeae3df757b96e5af40146297551221b91d393f69",
+      "matches_run_checksums": true
+    },
+    "outputs/E004-V9-L4/predictions-comparator48.json": {
+      "sha256": "603a5f5578268fc373a84c537df1c3f9aba96c8684ea7885c4fe0de37f54f359",
+      "matches_run_checksums": true
+    },
+    "outputs/E004-V9-L4/predictions-added35.json": {
+      "sha256": "4d7126b37ee8d67ea4cc6602d386dd9542bd785ca62969f8f016195a31b8e941",
+      "matches_run_checksums": true
+    }
+  },
+  "code_identity": "cdb20fb051b46d3a0a88cf422a004d490c4dc92b8d13a0a7e86bdaae1c842cfb",
+  "runs": {
+    "E004-V9-LP": {
+      "current_code_matches_run": true,
+      "cohorts": {
+        "train": {
+          "records": 716,
+          "sources": {
+            "pexels-v2-20261013": 8,
+            "unsplash-20261013": 13,
+            "consolidated-frames-20261013": 6,
+            "classroom_monitoring_v2": 24,
+            "roboflow_v1": 57,
+            "scb_hrw": 87,
+            "scb_head": 65,
+            "classroom_attitude": 108,
+            "exam_cheating_keaor": 44,
+            "student_behaviour": 115,
+            "coco_2017_train": 37,
+            "openimages_train_prefix": 104,
+            "commons_classroom_gapfill": 46,
+            "wmf_knowledge_everyone": 2
+          },
+          "groups": 397,
+          "targets": {
+            "phone_use": {
+              "positive": 247,
+              "negative": 193,
+              "tp": 226,
+              "fp": 64,
+              "fn": 21,
+              "tn": 129,
+              "ap": 0.8944694133463278,
+              "bce": 0.4612677294983901
+            },
+            "looking_around": {
+              "positive": 213,
+              "negative": 297,
+              "tp": 158,
+              "fp": 57,
+              "fn": 55,
+              "tn": 240,
+              "ap": 0.8332297640113481,
+              "bce": 0.46457012054271274
+            }
+          },
+          "bce_delta": 1.2185716879997699e-08,
+          "macro_ap_delta": 1.1102230246251565e-16
+        },
+        "selection": {
+          "records": 71,
+          "sources": {
+            "consolidated-frames-20261013": 33,
+            "studentclassroombehavior": 12,
+            "pexels-v2-20261013": 26
+          },
+          "groups": 10,
+          "targets": {
+            "phone_use": {
+              "positive": 27,
+              "negative": 33,
+              "tp": 10,
+              "fp": 7,
+              "fn": 17,
+              "tn": 26,
+              "ap": 0.6127359895843214,
+              "bce": 0.6853162419138278,
+              "threshold_feasibility": {
+                "M1_achievable_at_any_threshold": false,
+                "max_recall_with_precision_ge_085_and_fpr_le_010": 0.037037037037037035,
+                "max_precision_at_recall_ge_080": 0.5238095238095238,
+                "min_fpr_at_recall_ge_080": 0.6060606060606061
+              }
+            },
+            "looking_around": {
+              "positive": 28,
+              "negative": 38,
+              "tp": 9,
+              "fp": 6,
+              "fn": 19,
+              "tn": 32,
+              "ap": 0.5380008058057884,
+              "bce": 0.670387917761306,
+              "threshold_feasibility": {
+                "M1_achievable_at_any_threshold": false,
+                "max_recall_with_precision_ge_085_and_fpr_le_010": 0,
+                "max_precision_at_recall_ge_080": 0.5476190476190477,
+                "min_fpr_at_recall_ge_080": 0.5
+              }
+            }
+          },
+          "bce_delta": 4.526878027988346e-08,
+          "macro_ap_delta": 0.0
+        },
+        "diagnostic49": {
+          "records": 49,
+          "sources": {
+            "roboflow_v1": 13,
+            "scb_hrw": 6,
+            "scb_head": 1,
+            "classroom_attitude": 16,
+            "exam_cheating_keaor": 6,
+            "student_behaviour": 7
+          },
+          "groups": 14,
+          "targets": {
+            "phone_use": {
+              "positive": 16,
+              "negative": 20,
+              "tp": 11,
+              "fp": 5,
+              "fn": 5,
+              "tn": 15,
+              "ap": 0.7244854642483952,
+              "bce": 0.552217580420725
+            },
+            "looking_around": {
+              "positive": 17,
+              "negative": 12,
+              "tp": 11,
+              "fp": 3,
+              "fn": 6,
+              "tn": 9,
+              "ap": 0.7946046897460808,
+              "bce": 0.6931760982075564
+            }
+          },
+          "bce_delta": 3.721173813531209e-08,
+          "macro_ap_delta": 1.1102230246251565e-16
+        },
+        "comparator48": {
+          "records": 48,
+          "sources": {
+            "roboflow_v1": 13,
+            "scb_hrw": 5,
+            "scb_head": 1,
+            "classroom_attitude": 16,
+            "exam_cheating_keaor": 6,
+            "student_behaviour": 7
+          },
+          "groups": 13,
+          "targets": {
+            "phone_use": {
+              "positive": 16,
+              "negative": 19,
+              "tp": 11,
+              "fp": 5,
+              "fn": 5,
+              "tn": 14,
+              "ap": 0.7286376063549976,
+              "bce": 0.5573713857642316
+            },
+            "looking_around": {
+              "positive": 17,
+              "negative": 11,
+              "tp": 11,
+              "fp": 3,
+              "fn": 6,
+              "tn": 8,
+              "ap": 0.7974048442906573,
+              "bce": 0.7120092785843186
+            }
+          },
+          "bce_delta": 1.2159373508069393e-08,
+          "macro_ap_delta": 1.1102230246251565e-16
+        },
+        "added35": {
+          "records": 35,
+          "sources": {
+            "roboflow_v1": 3,
+            "scb_hrw": 2,
+            "scb_head": 1,
+            "classroom_attitude": 16,
+            "exam_cheating_keaor": 6,
+            "student_behaviour": 7
+          },
+          "groups": 12,
+          "targets": {
+            "phone_use": {
+              "positive": 9,
+              "negative": 18,
+              "tp": 5,
+              "fp": 5,
+              "fn": 4,
+              "tn": 13,
+              "ap": 0.6083942836393816,
+              "bce": 0.5827214213232257
+            },
+            "looking_around": {
+              "positive": 14,
+              "negative": 8,
+              "tp": 8,
+              "fp": 3,
+              "fn": 6,
+              "tn": 5,
+              "ap": 0.744778281819414,
+              "bce": 0.8185758815464884
+            }
+          },
+          "bce_delta": 1.399330451512526e-08,
+          "macro_ap_delta": 0.0
+        }
+      },
+      "outside_dominant_family": {
+        "phone_use": {
+          "P": 8,
+          "TP": 2,
+          "recall": 0.25
+        },
+        "looking_around": {
+          "P": 11,
+          "TP": 4,
+          "recall": 0.36363636363636365
+        }
+      }
+    },
+    "E004-V9-L4": {
+      "current_code_matches_run": true,
+      "cohorts": {
+        "train": {
+          "records": 716,
+          "sources": {
+            "pexels-v2-20261013": 8,
+            "unsplash-20261013": 13,
+            "consolidated-frames-20261013": 6,
+            "classroom_monitoring_v2": 24,
+            "roboflow_v1": 57,
+            "scb_hrw": 87,
+            "scb_head": 65,
+            "classroom_attitude": 108,
+            "exam_cheating_keaor": 44,
+            "student_behaviour": 115,
+            "coco_2017_train": 37,
+            "openimages_train_prefix": 104,
+            "commons_classroom_gapfill": 46,
+            "wmf_knowledge_everyone": 2
+          },
+          "groups": 397,
+          "targets": {
+            "phone_use": {
+              "positive": 247,
+              "negative": 193,
+              "tp": 188,
+              "fp": 29,
+              "fn": 59,
+              "tn": 164,
+              "ap": 0.9124221072165466,
+              "bce": 0.482110597071393
+            },
+            "looking_around": {
+              "positive": 213,
+              "negative": 297,
+              "tp": 126,
+              "fp": 23,
+              "fn": 87,
+              "tn": 274,
+              "ap": 0.8435444919265067,
+              "bce": 0.47912860989708256
+            }
+          },
+          "bce_delta": 5.871688746328374e-09,
+          "macro_ap_delta": 1.1102230246251565e-16
+        },
+        "selection": {
+          "records": 71,
+          "sources": {
+            "consolidated-frames-20261013": 33,
+            "studentclassroombehavior": 12,
+            "pexels-v2-20261013": 26
+          },
+          "groups": 10,
+          "targets": {
+            "phone_use": {
+              "positive": 27,
+              "negative": 33,
+              "tp": 5,
+              "fp": 6,
+              "fn": 22,
+              "tn": 27,
+              "ap": 0.5658926414083263,
+              "bce": 0.707069561125407,
+              "threshold_feasibility": {
+                "M1_achievable_at_any_threshold": false,
+                "max_recall_with_precision_ge_085_and_fpr_le_010": 0.1111111111111111,
+                "max_precision_at_recall_ge_080": 0.5416666666666666,
+                "min_fpr_at_recall_ge_080": 0.5757575757575758
+              }
+            },
+            "looking_around": {
+              "positive": 28,
+              "negative": 38,
+              "tp": 2,
+              "fp": 4,
+              "fn": 26,
+              "tn": 34,
+              "ap": 0.5165708441195537,
+              "bce": 0.7115798074407491,
+              "threshold_feasibility": {
+                "M1_achievable_at_any_threshold": false,
+                "max_recall_with_precision_ge_085_and_fpr_le_010": 0,
+                "max_precision_at_recall_ge_080": 0.5,
+                "min_fpr_at_recall_ge_080": 0.6052631578947368
+              }
+            }
+          },
+          "bce_delta": 2.636605533901104e-08,
+          "macro_ap_delta": 1.1102230246251565e-16
+        },
+        "diagnostic49": {
+          "records": 49,
+          "sources": {
+            "roboflow_v1": 13,
+            "scb_hrw": 6,
+            "scb_head": 1,
+            "classroom_attitude": 16,
+            "exam_cheating_keaor": 6,
+            "student_behaviour": 7
+          },
+          "groups": 14,
+          "targets": {
+            "phone_use": {
+              "positive": 16,
+              "negative": 20,
+              "tp": 10,
+              "fp": 1,
+              "fn": 6,
+              "tn": 19,
+              "ap": 0.8016291384128603,
+              "bce": 0.5352611389930726
+            },
+            "looking_around": {
+              "positive": 17,
+              "negative": 12,
+              "tp": 9,
+              "fp": 1,
+              "fn": 8,
+              "tn": 11,
+              "ap": 0.8478071409141816,
+              "bce": 0.6187450513701314
+            }
+          },
+          "bce_delta": 2.6194435620574552e-08,
+          "macro_ap_delta": 0.0
+        },
+        "comparator48": {
+          "records": 48,
+          "sources": {
+            "roboflow_v1": 13,
+            "scb_hrw": 5,
+            "scb_head": 1,
+            "classroom_attitude": 16,
+            "exam_cheating_keaor": 6,
+            "student_behaviour": 7
+          },
+          "groups": 13,
+          "targets": {
+            "phone_use": {
+              "positive": 16,
+              "negative": 19,
+              "tp": 10,
+              "fp": 1,
+              "fn": 6,
+              "tn": 18,
+              "ap": 0.8016291384128603,
+              "bce": 0.5448446393517814
+            },
+            "looking_around": {
+              "positive": 17,
+              "negative": 11,
+              "tp": 9,
+              "fp": 1,
+              "fn": 8,
+              "tn": 10,
+              "ap": 0.8494738075808482,
+              "bce": 0.6327758806538524
+            }
+          },
+          "bce_delta": 5.45432221610298e-08,
+          "macro_ap_delta": 1.1102230246251565e-16
+        },
+        "added35": {
+          "records": 35,
+          "sources": {
+            "roboflow_v1": 3,
+            "scb_hrw": 2,
+            "scb_head": 1,
+            "classroom_attitude": 16,
+            "exam_cheating_keaor": 6,
+            "student_behaviour": 7
+          },
+          "groups": 12,
+          "targets": {
+            "phone_use": {
+              "positive": 9,
+              "negative": 18,
+              "tp": 4,
+              "fp": 1,
+              "fn": 5,
+              "tn": 17,
+              "ap": 0.6330403102229727,
+              "bce": 0.5546341950684095
+            },
+            "looking_around": {
+              "positive": 14,
+              "negative": 8,
+              "tp": 6,
+              "fp": 1,
+              "fn": 8,
+              "tn": 7,
+              "ap": 0.7848800451354632,
+              "bce": 0.7245463054363688
+            }
+          },
+          "bce_delta": 1.3114310082329439e-08,
+          "macro_ap_delta": 1.1102230246251565e-16
+        }
+      },
+      "outside_dominant_family": {
+        "phone_use": {
+          "P": 8,
+          "TP": 1,
+          "recall": 0.125
+        },
+        "looking_around": {
+          "P": 11,
+          "TP": 0,
+          "recall": 0.0
+        }
+      }
+    }
+  }
+}

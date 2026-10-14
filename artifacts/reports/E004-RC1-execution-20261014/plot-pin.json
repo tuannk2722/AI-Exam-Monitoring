@@ -1,0 +1,13 @@
+{
+  "gallery": {
+    "path": "outputs/E004-RC1-execution-20261014/learning-curves.html",
+    "sha256": "a2c50e9ee0512ad1c3b2ff513fd4ad73b18ecb587a95f083e6ab3d8b85094987"
+  },
+  "canonical_svg_inputs": {
+    "outputs/E004-RC1-R-H/learning-curve.svg": "d546943e9ad826f3edddec641c2002876e312cf0a84c4f503213bbbe69d58054",
+    "outputs/E004-RC1-W-H/learning-curve.svg": "e54f7fc153a948fbd45660db24b060c1f43cbe5ae9a939ecaeebcda806e61f74",
+    "outputs/E004-RC1-R-L/learning-curve.svg": "50071873d5457503eb7f86cc095826819bb1b1dd2776e7ac6db459cd7b0bfb9f",
+    "outputs/E004-RC1-W-L/learning-curve.svg": "8762e55c92d0c9b5c9afc0833d143f94ca72c2d81ac33a5a6de8518d0af80060"
+  },
+  "scope": "reuse canonical trainer SVGs; separate labelled y scales; no new plotting dependency"
+}
