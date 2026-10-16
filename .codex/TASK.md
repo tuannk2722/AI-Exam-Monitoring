@@ -1,25 +1,29 @@
-# DOCS-RESTRUCTURE-STORAGE-20261016 — Cấu trúc lại tài liệu hệ thống và chính sách lưu trữ
+# FIX-CI-DERIVED-CROP-TORCH-GUARD-20261016 — Thêm guard ML_AVAILABLE cho test crop_path trong test_derived_crop.py
 
-- Trạng thái: hoàn tất; đã chuẩn hóa vị trí và tên file chính sách lưu trữ từ STORAGE_OPTIMIZATION.md thành tài liệu hệ thống chính thức docs/storage.md và cập nhật toàn bộ liên kết trong repository.
+- Trạng thái: hoàn tất; phạm vi tests/test_derived_crop.py.
 
 ## Yêu cầu và hiện trạng
-- User goal: chuyển STORAGE_OPTIMIZATION.md (vốn sinh ra là bản kế hoạch thực hiện) thành tài liệu hệ thống chính thức docs/storage.md, chuẩn hóa vị trí, tên file và cập nhật toàn bộ incoming links trong repository; đồng thời phân tích sâu nguyên nhân cốt lõi khiến chất lượng model chưa bứt phá sau nhiều vòng lặp dữ liệu/huấn luyện.
-- Đối chiếu Git/files/code: baseline 999c0cc; STORAGE_OPTIMIZATION.md ở root đã được chuyển thành docs/storage.md; toàn bộ links từ AGENTS.md, README.md, docs/00-INDEX.md, docs/decisions.md, docs/development.md, docs/operations.md, docs/reference.md, docs/status.md, docs/system.md, docs/training.md, artifacts/reports/storage-retention-20261016/README.md đã được cập nhật đồng bộ.
-- Nguyên tắc: Giữ nguyên các cam kết kỹ thuật và quyết định owner 16/10/2026; không sửa source code, tests, hay pins lịch sử.
+- User goal: khắc phục lỗi GitHub Actions fail tại bước `python -m unittest discover -s tests -q` trong job `quality` do `ModuleNotFoundError: No module named 'torch'`.
+- Behavior trước: `tests/test_derived_crop.py` gọi trực tiếp `from ai_exam_monitoring.training.data import crop_path` trong `test_import_integrity_and_native_guard`, kéo theo `import torch` ở môi trường base/dev (nơi cố tình không cài PyTorch theo docs/development.md).
+- Behavior sau: Tách kiểm tra consumer `crop_path` sang test method riêng có guard `@unittest.skipUnless(ML_AVAILABLE, ...)`, giúp job `quality` chạy đầy đủ suite mà không bị crash vì thiếu torch.
 
 ## Quyết định và inputs
-- Quyết định: STORAGE-RETENTION-20261016 (Accepted); chính sách lưu trữ trở thành contract hệ thống docs/storage.md.
-- Inputs: docs/storage.md, docs/00-INDEX.md, AGENTS.md, README.md, docs/decisions.md, docs/development.md, docs/operations.md, docs/reference.md, docs/status.md, docs/system.md, docs/training.md, artifacts/reports/storage-retention-20261016/README.md, cùng toàn bộ báo cáo thực nghiệm E001–E004 (V9, RC1, C345) và mã nguồn training.
+- Quyết định: Tuân thủ quy định tại docs/development.md dòng 58-59 ("CI quality dùng base/dev, classifier job dùng Torch CPU/training + preservation fixtures. Base skip đúng tests cần Torch").
+- Inputs: tests/test_derived_crop.py, tests/test_source_review.py, .github/workflows/ci.yml.
 
 ## Outputs và vòng đời
-- Di chuyển và chuẩn hóa: xóa STORAGE_OPTIMIZATION.md ở root → tạo docs/storage.md.
-- Cập nhật references: 11 files tài liệu hệ thống và báo cáo lưu trữ trỏ chính xác về docs/storage.md.
-- Hồ sơ: không tạo report mới; giữ nguyên trạng thái chưa stage/commit theo quy tắc bàn giao.
+- Source/tests: tests/test_derived_crop.py được cập nhật.
+- Không sửa spec hay contracts hệ thống; không tạo scratch dư thừa.
 
 ## Contract impact và checks
-- Contract impact: Chuẩn hóa bộ tài liệu docs/, docs/storage.md trở thành tài liệu lưu trữ chính thức. Không thay đổi scientific gates, data schema hay model contracts.
-- Checks: scripts/check_repo.py PASS (failures=0); tests/test_check_repo.py PASS (13 tests OK); git grep xác nhận không còn reference cũ tới STORAGE_OPTIMIZATION.md ngoài TASK.md.
+- Contract impact: Không thay đổi contract — không sửa spec. Giữ nguyên behavior của training/data.py và data contracts.
+- Checks:
+  - unittest discover trong môi trường có torch (local .venv): tất cả 165 tests PASS.
+  - simulation không có torch: test_derived_crop_path_consumer skipped, test_import_integrity_and_native_guard PASS.
+  - ruff check src tests scripts: PASS.
+  - compileall src tests scripts: PASS.
+  - scripts/check_repo.py --require-git: PASS.
 
 ## Checkpoint và bàn giao
-- Đã hoàn tất cấu trúc lại docs/storage.md và đồng bộ toàn bộ hệ thống tài liệu.
-- Đã hoàn tất phân tích nguyên nhân gốc rễ về giới hạn chất lượng model qua các vòng E001–E004 và đề xuất lộ trình giải quyết dứt điểm.
+- Cập nhật tests/test_derived_crop.py và .codex/TASK.md.
+- Đã hoàn tất các bước kiểm tra, tiến hành commit và push theo yêu cầu của user.

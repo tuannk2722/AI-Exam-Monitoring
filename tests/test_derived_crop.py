@@ -1,4 +1,5 @@
 import hashlib
+import importlib.util
 import tempfile
 import unittest
 from dataclasses import replace
@@ -17,8 +18,33 @@ from ai_exam_monitoring.data.pilot_schema import (
     record_to_dict,
 )
 
+ML_AVAILABLE = all(importlib.util.find_spec(n) for n in ("torch", "torchvision"))
+
 
 class DerivedCropTests(unittest.TestCase):
+    def _create_derived_package(self, root: Path):
+        row, source_root, crop = test_pilot_package.PilotPackageTests().make_record(
+            root, "D001", 1)
+        with Image.open(crop) as image:
+            native_sha = hashlib.sha256(image.convert("RGB").tobytes()).hexdigest()
+            image.resize((6, 6)).save(crop, format="JPEG")
+        digest = sha256_file(crop)
+        review = replace(row.crop.review, crop_sha256=digest)
+        target = replace(row.phone_use, review=review)
+        native = replace(row, crop=replace(row.crop, crop_sha256=digest, review=review),
+                         phone_use=target)
+        derivation = CropDerivation(row.source.image_sha256, native_sha, 6, 6,
+                                    "JPEG", "fixture-import", review)
+        derived = replace(native, schema_version=DERIVED_SCHEMA_VERSION,
+                          crop=replace(native.crop, derivation=derivation,
+                                       crop_relpath="crops/D001.jpg"))
+        for name in ("package-a", "package-b"):
+            build_pilot_package(
+                [derived], root / name, {"rf": source_root}, {row.sample_id: crop}, [],
+                {"status": "prepared_pending_gates", "dataset_version": row.dataset_version,
+                 "git_commit": "fixture"}, [row.sample_id])
+        return derived, derivation, row, source_root, crop
+
     def test_import_integrity_and_native_guard(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
@@ -52,13 +78,6 @@ class DerivedCropTests(unittest.TestCase):
                 self.assertEqual((root / name / "crops/D001.jpg").read_bytes(), crop.read_bytes())
             self.assertEqual((root / "package-a/checksums.sha256").read_bytes(),
                              (root / "package-b/checksums.sha256").read_bytes())
-            from ai_exam_monitoring.training.data import crop_path
-            self.assertEqual(crop_path(root / "package-a", derived),
-                             root / "package-a/crops/D001.jpg")
-            bad_dimensions = replace(derived, crop=replace(derived.crop,
-                                     derivation=replace(derivation, output_width=8)))
-            with self.assertRaisesRegex(DataContractError, "dimensions"):
-                crop_path(root / "package-a", bad_dimensions)
             with self.assertRaisesRegex(DataContractError, "requires exact"):
                 _preflight([derived], {"rf": source_root}, {})
             for change in ({"native_roi_rgb_sha256": "0" * 64}, {"output_width": 8},
@@ -79,6 +98,21 @@ class DerivedCropTests(unittest.TestCase):
             crop.write_bytes(b"tampered")
             with self.assertRaisesRegex(DataContractError, "checksum"):
                 _preflight([derived], {"rf": source_root}, {row.sample_id: crop})
+
+    @unittest.skipUnless(
+        ML_AVAILABLE, "Install classifier dependencies for training crop_path consumer"
+    )
+    def test_derived_crop_path_consumer(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            derived, derivation, _, _, _ = self._create_derived_package(root)
+            from ai_exam_monitoring.training.data import crop_path
+            self.assertEqual(crop_path(root / "package-a", derived),
+                             root / "package-a/crops/D001.jpg")
+            bad_dimensions = replace(derived, crop=replace(derived.crop,
+                                     derivation=replace(derivation, output_width=8)))
+            with self.assertRaisesRegex(DataContractError, "dimensions"):
+                crop_path(root / "package-a", bad_dimensions)
 
 
 if __name__ == "__main__":
