@@ -1,0 +1,132 @@
+[
+  {
+    "id": "NB-0012-R1",
+    "frame_num": 7,
+    "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00007.jpg",
+    "context_xyxy": [
+      0,
+      20,
+      1290,
+      1080
+    ],
+    "crop": "data/interim/E004-new-bundle-audit-20261015/agent-A/NB-0012-R1.png",
+    "input": "outputs/E004-new-bundle-audit-20261015/agent-A/NB-0012-R1-input.png"
+  },
+  {
+    "id": "NB-0018-R1",
+    "frame_num": 10,
+    "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00010.jpg",
+    "context_xyxy": [
+      0,
+      0,
+      1300,
+      1080
+    ],
+    "crop": "data/interim/E004-new-bundle-audit-20261015/agent-A/NB-0018-R1.png",
+    "input": "outputs/E004-new-bundle-audit-20261015/agent-A/NB-0018-R1-input.png"
+  },
+  {
+    "id": "NA-001",
+    "frame_num": 2,
+    "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00002.jpg",
+    "context_xyxy": [
+      825,
+      170,
+      1230,
+      620
+    ],
+    "crop": "data/interim/E004-new-bundle-audit-20261015/agent-A/NA-001.png",
+    "input": "outputs/E004-new-bundle-audit-20261015/agent-A/NA-001-input.png"
+  },
+  {
+    "id": "NA-002",
+    "frame_num": 2,
+    "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00002.jpg",
+    "context_xyxy": [
+      70,
+      350,
+      415,
+      810
+    ],
+    "crop": "data/interim/E004-new-bundle-audit-20261015/agent-A/NA-002.png",
+    "input": "outputs/E004-new-bundle-audit-20261015/agent-A/NA-002-input.png"
+  },
+  {
+    "id": "NA-003",
+    "frame_num": 14,
+    "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00014.jpg",
+    "context_xyxy": [
+      240,
+      220,
+      1780,
+      1080
+    ],
+    "crop": "data/interim/E004-new-bundle-audit-20261015/agent-A/NA-003.png",
+    "input": "outputs/E004-new-bundle-audit-20261015/agent-A/NA-003-input.png"
+  },
+  {
+    "id": "NA-004",
+    "frame_num": 22,
+    "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00022.jpg",
+    "context_xyxy": [
+      810,
+      0,
+      1920,
+      1080
+    ],
+    "crop": "data/interim/E004-new-bundle-audit-20261015/agent-A/NA-004.png",
+    "input": "outputs/E004-new-bundle-audit-20261015/agent-A/NA-004-input.png"
+  },
+  {
+    "id": "NA-005",
+    "frame_num": 24,
+    "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00024.jpg",
+    "context_xyxy": [
+      0,
+      0,
+      1320,
+      1080
+    ],
+    "crop": "data/interim/E004-new-bundle-audit-20261015/agent-A/NA-005.png",
+    "input": "outputs/E004-new-bundle-audit-20261015/agent-A/NA-005-input.png"
+  },
+  {
+    "id": "NA-006",
+    "frame_num": 24,
+    "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00024.jpg",
+    "context_xyxy": [
+      770,
+      0,
+      1920,
+      860
+    ],
+    "crop": "data/interim/E004-new-bundle-audit-20261015/agent-A/NA-006.png",
+    "input": "outputs/E004-new-bundle-audit-20261015/agent-A/NA-006-input.png"
+  },
+  {
+    "id": "NA-007",
+    "frame_num": 9,
+    "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00009.jpg",
+    "context_xyxy": [
+      1350,
+      0,
+      1840,
+      570
+    ],
+    "crop": "data/interim/E004-new-bundle-audit-20261015/agent-A/NA-007.png",
+    "input": "outputs/E004-new-bundle-audit-20261015/agent-A/NA-007-input.png"
+  },
+  {
+    "id": "NA-008",
+    "frame_num": 21,
+    "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00021.jpg",
+    "context_xyxy": [
+      450,
+      0,
+      1920,
+      1080
+    ],
+    "crop": "data/interim/E004-new-bundle-audit-20261015/agent-A/NA-008.png",
+    "input": "outputs/E004-new-bundle-audit-20261015/agent-A/NA-008-input.png"
+  }
+]

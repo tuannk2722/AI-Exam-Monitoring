@@ -1,0 +1,59 @@
+# ID | phone/looking | Nhận xét input 224 và native context. Draft.
+23|U/P|Tay còn lại nằm dưới cánh tay, chưa thấy đủ vùng tay; đầu ngẩng khỏi giấy.
+24|U/N|Một tay cầm bút, tay còn lại khuất dưới cánh tay; đầu hướng bút và giấy riêng.
+25|N/N|Một tay tựa trán, một tay cầm bút trên bàn, không có vật mơ hồ; mặt hướng giấy.
+26|N/N|Tay chống mặt và tay viết thấy rõ; đầu cúi về giấy riêng.
+27|N/P|Hai tay cầm bút nhỏ, không có thiết bị; đầu ngẩng nhìn phía trước ngoài bàn.
+28|N/N|Hai tay chụm trên giấy, không có thiết bị; đầu hướng xuống vùng tay/giấy.
+29|N/N|Hai cẳng tay đặt trên bàn, phần tay không lộ vật mơ hồ; đầu cúi vùng riêng.
+30|N/N|Tay viết và tay giữ giấy; đầu cúi về bài riêng.
+31|N/U|Tay che mặt và tay đặt giấy không thấy vật mơ hồ; mặt che, đích nhìn chưa rõ.
+32|N/U|Hai tay giơ với ngón tay/bút, không có thiết bị; chưa chắc nhìn tay riêng hay phía ngoài.
+33|N/N|Hai bàn tay chụm còn thấy ngón, không có mặt thiết bị; đầu hướng xuống tay riêng.
+34|N/P|Người bên trái có tay ở má và trên bàn, đầu quay sang bên; cần recrop để giảm hai đầu cạnh tranh.
+35|U/P|Người phía trái nhìn sang bên, một tay khuất dưới mép; cần recrop làm rõ anchor.
+36|U/P|Anchor áo xám phía sau ngẩng ngoài giấy; tay bị người trước che, crop có nhiều đầu.
+37|N/N|Anchor áo xanh phía trái đang viết; cần recrop vì hai người chiếm khung tương đương.
+38|N/U|Anchor áo xám đeo kính giữa hình, hai tay trên bàn; hướng nhìn giữa hai vùng giấy chưa rõ, cần recrop.
+39|N/N|Hai tay viết và giữ giấy rõ, đầu cúi giấy riêng.
+40|N/N|Hai tay chụm ở bút, không có thiết bị; đầu cúi giấy.
+41|N/U|Hai tay trên giấy thấy rõ nhưng đỉnh đầu bị cắt; sửa geometry trước khi dùng nhãn looking.
+42|N/N|Một tay tựa đầu, một tay viết; đầu hướng giấy riêng.
+43|N/N|Hai tay trên giấy với bút; mặt cúi bài riêng.
+44|U/P|Tay ở mép trái bị crop/người khác cắt; đầu quay sang bên khỏi giấy.
+45|N/P|Hai tay trên mặt bàn, không có vật mơ hồ; đầu ngẩng sang trái khỏi vùng bài.
+46|N/N|Tay viết và tay sát mặt trên giấy; đầu cúi sát bài.
+47|N/P|Hai tay đặt trên giấy; đầu quay ngang khỏi bài.
+48|N/P|Hai tay nâng gần miệng không lộ thiết bị; đầu ngẩng ngoài vùng bài.
+49|N/N|Một tay viết, một tay tựa trán; mặt hướng giấy.
+50|N/N|Tay trên giấy và tay gần cổ, không có thiết bị; mặt hướng vùng bàn.
+51|N/N|Hai tay trên giấy với bút; đầu cúi vào bài.
+52|N/N|Hai tay cầm chai xanh, cấu trúc chai phân biệt được; mặt hướng chai trong tay riêng.
+53|N/P|Tay viết và tay đặt bàn, hộp bút có độ dày; đầu quay ngang khỏi giấy.
+54|U/N|Hai người áo xanh chiếm khung; anchor sát tường bị lẫn với người đeo kính tiền cảnh, cần recrop.
+55|U/N|Tay cầm bút rõ nhưng tay còn lại không nằm đủ trong crop; mặt hướng giấy.
+56|N/N|Tay chống trán và tay viết rõ; mặt hướng giấy riêng.
+57|N/N|Hai tay quanh bài, không có thiết bị mơ hồ; đầu cúi giấy.
+58|N/N|Hai tay chống má, vùng giấy trống; đầu cúi về bài.
+59|N/N|Hai tay viết/giữ giấy; mặt cúi về bài.
+60|U/N|Tay viết thấy rõ, tay còn lại khuất dưới bàn/thân; hướng đầu cúi bài.
+61|U/N|Vật đen ở bàn chỉ thấy khối tối, không dùng hiểu biết frame khác để gán phone N; đầu cúi giấy.
+62|N/N|Anchor áo xanh phía sau bên phải có tay viết và tay trên giấy; đầu cúi bài, cần chú ý attribution.
+63|U/P|Một bàn tay bị mép trái cắt; đầu ngẩng khỏi giấy.
+64|N/N|Một tay viết, bàn tay kia tựa phía thân thấy được; đầu cúi về giấy.
+65|U/N|Một tay bị đầu/thân che, chưa đủ quan sát; đầu cúi sát vùng giấy rõ.
+66|U/N|Một tay phía dưới bị mép ảnh cắt, tay còn lại trên giấy; đầu cúi bài.
+67|N/N|Một tay tựa má, một tay viết rõ; hướng đầu xuống vùng giấy riêng.
+68|N/P|Tay tựa má và tay giữ bút trên bàn, không có thiết bị; đầu quay trái khỏi giấy.
+69|U/P|Crop cắt bàn tay ở mép phải; đầu quay ra sau khỏi giấy, nên mở context.
+70|U/N|Tay viết rõ, tay còn lại khuất giữa thân và bàn; đầu cúi giấy.
+71|U/N|Tay anchor bị mép bàn/thân che; vật ở bàn không thể tự gán cho anchor; mặt cúi vùng riêng.
+72|N/N|Hai tay chụm ở giấy với bút; đầu cúi bài.
+73|N/N|Hai tay trên giấy, không có vật mơ hồ; đầu cúi bài.
+74|U/N|Cánh tay vươn sang phải bị crop cắt; mặt hướng tờ giấy riêng.
+75|U/P|Tay cầm giấy rõ, tay còn lại chưa đủ; mặt quay ngoài vùng giấy.
+76|U/U|Tay bị người trước che; mặt nghiêng nhưng đích nhìn không chắc ở crop này. Không đưa U/U vào shortlist.
+77|U/N|Anchor áo trắng phía sau bị người áo xám tiền cảnh chiếm khung; đầu cúi giấy, cần recrop.
+78|N/P|Hai tay khoanh trên bàn không lộ vật mơ hồ; đầu ngẩng khỏi giấy.
+79|U/P|Anchor áo xanh phía trái giơ tay sau đầu, tay kia khuất; đầu quay ngang, cần recrop giảm người bên phải.
+80|N/N|Hai tay cầm tờ giấy trắng có mép cong, không phải thiết bị; nhìn giấy trong tay riêng.

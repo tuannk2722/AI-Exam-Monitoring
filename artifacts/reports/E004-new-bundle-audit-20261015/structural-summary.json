@@ -1,0 +1,23 @@
+{
+  "crops": 80,
+  "frames": 132,
+  "crop_groups": {
+    "A": 22,
+    "B": 58
+  },
+  "frame_groups": {
+    "A": 21,
+    "B": 111
+  },
+  "crop_views": {
+    "shot_based": 22,
+    "A": 14,
+    "B": 17,
+    "C": 10,
+    "D": 17
+  },
+  "orphan_frames_metadata": 0,
+  "crop_dimensions": {
+    "(224, 224)": 80
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "completed_date": "2026-10-15",
+  "original_crop_hashes": 765,
+  "source_frame_hashes": 212,
+  "derivative_native_pixel_parity": 197,
+  "derivative_input_224_pixel_parity": 197,
+  "owner_original_unchanged": true,
+  "complete_crop_frame_mapping": true,
+  "reviewed_redundancy_pairs": 79,
+  "shortlist_partition": [
+    710,
+    56,
+    4
+  ],
+  "gallery_cards": 770,
+  "gallery_media_links_exist": 3272,
+  "no_accepted_targets_or_split_created": true,
+  "metadata_pins": {
+    "assemble.py": "7051f402bcb90e1e4bfb85765e8a5250a524958ea1db9d3c19aa9410f608eba6",
+    "crop-review-ledger.json": "6a025761c3fa4355c88cc9f31f12bd5d3bb187ef36669a6dd48f6795e0ff6e65",
+    "decisions.py": "80221f7dd4d4a8497fddab5875834a70a932b5ba40c9f7094c4c5f5da34b5596",
+    "derivative-review.json": "0c84461f0b0e5d249d945ff9aacd49946f36a63a1e50dd13167e8fc0acb824ed",
+    "derivatives.json": "f0553cd1e6d7d6d1b77159e948b3bc588d033fad0e6d1098449c06cfdd14f17f",
+    "frame-review-ledger.json": "4bdf33dd98ce8173aae61e7ea17d7496862e0ca198665e1256378a5124c83e96",
+    "gallery-template.html": "21910f768be10d73423f70819ac5e20a4f4d8774fa6f906bc19744f7181a5e4b",
+    "geometry-proposals.json": "a083154c4178cedd45767c57f933f41727754f879b72108fb3c50e2647ff9461",
+    "manual-observations.json": "f664166e4dc68d34147fb09630f2d53a16500d0b56a503f23ab1303520597640",
+    "prepare.py": "581043d404cbb1b5d5e84fb8be355b1d82d943550af3f41a2bd06f2c92d67a37",
+    "redundancy-visual-review.json": "dfc249d21bfcc241b3301cbd55cd4de490bd8ccc856cd1c34832d594869ab840",
+    "render.py": "11247c376214ca00c98191052220814f79a4b2ff79c324027745f16f5827ea2a",
+    "review-input.json": "adc2dd44b0e9f83bbcdc381b88bb9c739b04a8ea0b633671689719ccd8bc751e",
+    "shortlist-proposal.json": "7e993fd3ce79483d9d82368220f5c12efa1fa845b0e63303f490b649ccce3188",
+    "summary.json": "951b45dfbabfbc501fd3addbad6d6c309d3d5605819394e2844265d1a471f01c",
+    "validate.py": "f8a2c4166a12bb5335cdf154fe69a0cd0fce7d395bab0dab5188673ca09f89b9"
+  },
+  "config_sha256": "c2fbeafab35d7f43e2e5c00fd3252ad7f4a6bd368e11686b1b2611d02bb072cd",
+  "limitations": "Pixel/technical PASS does not establish annotation acceptance or independence."
+}

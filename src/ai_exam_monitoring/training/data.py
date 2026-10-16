@@ -256,4 +256,10 @@ def crop_path(root: Path, row: PilotRecord) -> Path:
     path = (root / row.crop.crop_relpath).resolve()
     if not path.is_relative_to(root.resolve()) or sha256_file(path) != row.crop.crop_sha256:
         raise DataContractError("Crop escaped root or changed bytes")
+    if row.crop.derivation is not None:
+        derived = row.crop.derivation
+        with Image.open(path) as image:
+            if (image.size != (derived.output_width, derived.output_height)
+                    or image.format != derived.output_format):
+                raise DataContractError("Derived crop dimensions/format changed")
     return path

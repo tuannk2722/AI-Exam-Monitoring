@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "candidates": 905,
+  "frames": 212,
+  "selected": 247,
+  "selected_anchors": 84,
+  "dispositions": {
+    "shortlist": 247,
+    "alternative": 645,
+    "withheld": 13
+  },
+  "native_png_source_and_input_parity": 332,
+  "path_checks": 5565,
+  "all_905_source_crop_input_hashes": true,
+  "owner_snapshot_unchanged": true,
+  "canonical_targets_null": true,
+  "split_unassigned": true,
+  "scope": "audit study only; not data/model acceptance",
+  "worksheet_python": "repository .venv; no model inference"
+}

@@ -1,0 +1,45 @@
+sample_id	factors	evidence_224	confidence	observation
+E004-EX-C001	held_phone,outside_workarea	clear	cao	Phone lớn trong tay và hướng mặt sang bên còn rõ ở 224; W-H TP cả hai. Bối cảnh chân dung tại bàn khác cảnh lớp đông.
+E004-EX-C002	held_phone,own_workarea	clear	cao	Mobile trên tay trước laptop còn thấy ở 224 nhưng W-H phone FN; không phải toàn bộ lỗi do vật biến mất sau resize.
+E004-EX-C080	held_phone	clear	cao	Mobile sát tai và head pose rõ; looking P giữ theo accepted, không tự gán quan hệ own-workarea từ riêng pose trong crop.
+E004-EX-C089	multi_person_context	uncertain	vừa	Hai người và laptop cùng crop; quan hệ anchor với trang giấy/laptop cần đọc evidence owner. Không tự xác nhận nhìn ngoài vùng bài chỉ từ mắt trong preview.
+E004-EX-C136	held_phone,own_workarea,multi_person_context	clear	cao	Phone cầm sát bàn, người bên cạnh nằm trong context; phone TP, looking TN của W-H.
+E004-EX-C142	held_phone,own_workarea,multi_person_context	clear	cao	Phone xanh lớn trong tay, hướng mắt về vùng thao tác; context có người phía phải. W-H đúng hai target.
+EXP-CM-003	held_phone,multi_person_context	limited_native	vừa	Phone sát tai, hướng mặt ra trước; crop gốc 111×194, upscale không thêm chi tiết. W-H phone FN dù pose cầm còn thấy.
+EXP-CM-004	held_phone,multi_person_context	limited_native	vừa	Phone sát tai của người áo sọc; crop gốc 88×133, thông tin vật nhỏ ngay ở native. Cùng family với CM-003.
+EXP-CM-005	pen_negative,own_workarea,multi_person_context	limited_native	vừa	Người cúi viết ở own paper; bút/tay nhỏ ở nguồn. W-H looking FP; không đổi nhãn N/N.
+EXP-CM-007	held_phone,multi_person_context	limited_native	vừa	Thiết bị tối cầm trước bàn vẫn thấy; crop nhỏ và vật ít chi tiết. W-H phone FN, looking U.
+EXP-CM-008	held_phone,partial_phone,multi_person_context	limited_native	vừa	Native 113×186 cho thấy thiết bị tối sát tay và mép bàn, một phần bị tay che. Metadata desk-phone nhưng thị giác là held/partial sát bàn, không tự tính desk-only.
+EXP-CM-016	own_workarea,multi_person_context	limited_native	vừa	Người hướng về trang/bàn, mặt/tay nhỏ; W-H looking FP. Giữ phone U; không suy absence.
+EXP-RF-003	pen_negative,outside_workarea	clear	cao	Tay cầm bút trên bài nhưng mặt quay sang bên rõ; W-H phone FP. Chữ overlay có sẵn trong ảnh, không tự kết luận shortcut.
+EXP-RF-019	pen_negative,outside_workarea	clear	cao	Đầu quay xa trang đang viết, bút/tay rõ; W-H sai cả hai target tại best epoch.
+EXP-RF-023	outside_workarea,multi_person_context	clear	vừa	Anchor áo caro quay sang trái, người khác ở foreground/background. Pose còn thấy sau upscale; không chốt thêm phone.
+EXP-SCB-001	pen_negative,own_workarea,multi_person_context	limited_native	vừa	Cúi viết tại bàn, nguồn đã nén/mờ; W-H TN cả hai, làm đối chứng native kém nhưng đúng.
+EXP-SCB-003	outside_workarea,multi_person_context	limited_native	vừa	Người áo đỏ quay ngang, sách/bàn phía trước; native 97×109. W-H looking FN, nguồn hạn chế chi tiết mắt.
+EXP-SCB-037	outside_workarea,multi_person_context	limited_native	vừa	Anchor áo xanh hướng phía trước/khác trang; người foreground che một phần. Native 89×94 không đủ để suy gaze tinh chỉ bằng tăng input.
+V6-CA-005	other_device_negative	clear	cao	Thiết bị lớn kiểu tablet trong hai tay; accepted phone N, W-H FP. Không coi mọi thiết bị chữ nhật là mobile; không sửa nhãn.
+V6-CA-025	pen_negative,outside_workarea,multi_person_context	clear	cao	Người cầm bút nhìn sang bên, một người khác ở mép; phone FP dù bút và tay vẫn rõ ở 224.
+V6-CA-028	outside_workarea	clear	cao	Đầu quay rõ khỏi trang mở, tay còn trên bàn; W-H looking FN dù pose còn rõ.
+V6-EX-017	pen_negative,outside_workarea	clear	vừa	Tay/bút trên bài, mặt hướng sang bên; ảnh xám nhưng cấu trúc vẫn rõ ở 224. Phone FP của W-H.
+V6-EX-020	desk_phone,outside_workarea,multi_person_context	limited_native	vừa	Phone trên mép bàn phía dưới và người nhìn sang bên; native 135×208, vật nhỏ trước resize. W-H FN cả hai.
+V6-EX-039	pen_negative,own_workarea	limited_native	vừa	Tay bút trên giấy, khuôn mặt mờ ở native; phone FP. Looking U giữ nguyên, own-workarea chỉ mô tả bố cục tay/giấy.
+V6-SB-003	desk_phone,partial_phone	limited_native	vừa	Thiết bị tối sát tay trên bàn giữa giấy; nguồn nhỏ 93×155, chi tiết phone mờ. W-H phone FN; cần owner xác nhận factor partial.
+V6R2-MP-010	held_phone	limited_native	vừa	Phone cầm hai tay, crop 88×118 vốn ít chi tiết; phone FN. Không tính desk-phone chỉ vì reason có chữ bàn.
+V7-A-001	desk_phone,own_workarea	clear	cao	Mobile tím trên giấy ngay cạnh tay người viết, thấy cả ở native và 224. Phone FN; đây là train desk-phone tương ứng nhưng không chứng minh đủ coverage mọi góc camera.
+V7-A-004	calculator_negative,pen_negative,own_workarea,multi_person_context	limited_native	vừa	Calculator trên giấy, người viết background và người foreground cùng crop. Native đã nhỏ, accepted xác nhận calculator; W-H TN cả hai.
+V7-A-022	outside_workarea,multi_person_context	clear	vừa	Người quay sang bên tại bàn có trang giấy, không phải lớp thi; W-H phone FP. Context ngoài lớp là khác biệt quan sát, không cấp domain label accepted.
+V7-A-047	own_workarea,other_device_negative	clear	vừa	Người thao tác thiết bị lớn ở ngoài trời, pose tay và screen khác cảnh thi. Phone/looking FP; metadata pen hint không đủ xác nhận bút.
+V7-A-051	other_device_negative	clear	cao	Máy ảnh được cầm sát mặt, thấy body/lens ở 224; phone FP. Hint pen từ metadata không là pen evidence trong ảnh.
+V7-A-065	own_workarea,multi_person_context	uncertain	vừa	Anchor quay lưng/góc nghiêng tại máy tính, nhiều người cùng crop. W-H FP cả hai; khó đọc chính xác quan hệ mắt với screen từ 224.
+V7-B-034	pen_negative,own_workarea,multi_person_context	limited_native	vừa	Trẻ ngồi viết tại bàn; nguồn có artefacts nén rõ cả native. Looking FP, không quy nén hoàn toàn do resize.
+V7-B-040	pen_negative,own_workarea,multi_person_context	clear	cao	Người áo xám nhìn trang đang viết, bút rõ; W-H FP cả hai dù own-workarea vẫn hiện ở 224.
+V7-B-041	held_phone,partial_phone,multi_person_context	reduced_at_224	vừa	Theo accepted holder là người áo tím; native cho thấy mobile nhỏ dưới ngón tay, hai người cùng vùng phone. 224 làm chi tiết nhỏ hơn, W-H vẫn TP. Không kết luận resize gây lỗi.
+V7-B-051	held_phone,partial_phone,multi_person_context	clear	cao	Người hoodie cầm phone gần mặt; tay che một phần nhưng outline còn thấy ở 224. W-H TP; phone foreground của người khác không gán cho anchor.
+V7-B-074	held_phone,partial_phone	clear	cao	Phone tối lớn trong tay người áo nâu, tay che một phần; hình dạng đủ thấy ở 224 và W-H TP.
+V7-C-038	own_workarea,multi_person_context	clear	vừa	Anchor áo đỏ cúi về trang riêng, bàn ghế/người khác cùng context; W-H looking FP. Phone U giữ nguyên.
+V7-OE-S042-A02	pen_negative,own_workarea	clear	vừa	Người viết tại bàn có laptop và các vật khác; pose làm bài rõ nhưng W-H phone FP. Không suy model nhầm vật cụ thể khi chưa có intervention.
+V7-OE-S061-A01	multi_person_context	uncertain	thấp	Nhiều người nhìn lên, person box gần bao toàn crop nên chưa định vị chắc anchor. Accepted reason nói ownpaper và nhìn teacher; giữ looking P, phone U. Cần owner chỉ anchor trước khi chốt factor outside-workarea/attribution.
+V7-OE-S112-A01	pen_negative,own_workarea,multi_person_context	clear	cao	Vật xanh dưới sách là sách theo owner, không calculator; bút/tay và trang rõ ở native/224, W-H phone FP. Loại khỏi observed calculator count, giữ nhãn accepted.
+V7-OE-S114-A01	calculator_negative,pen_negative,own_workarea,multi_person_context	clear	cao	Calculator với phím trên bàn, tay cầm bút và mắt xuống trang; native và 224 đều thấy bố cục. W-H phone FP, looking TN.
+V7-R8-C-007	outside_workarea,multi_person_context	limited_native	vừa	Người nhìn ra trước ngoài trang, ghế/người khác cùng crop; native 130×170, W-H looking TP.
+V7-R8-C-008	own_workarea,multi_person_context	limited_native	vừa	Người cúi viết trên giấy, tay/ghế foreground che một phần; native 175×220, W-H looking TN.

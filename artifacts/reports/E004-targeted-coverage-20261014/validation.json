@@ -1,0 +1,16 @@
+{
+  "status": "PASS_audit_checks",
+  "input_pins": 15,
+  "scoped_crop_hashes": 787,
+  "gallery_entries": 75,
+  "exact_input_parity": 75,
+  "local_links": 375,
+  "syntax": "PASS",
+  "git_diff_check": "PASS",
+  "test_reserve_media_accessed": false,
+  "repo_checker_exit": 1,
+  "repo_checker_output": "Checking Git index (including staged files; ignored/untracked files excluded)\nERROR: required delivery file not in Git index: configs/datasets/E004-targeted-coverage-20261014.yaml\nRepository check complete; failures=1\n",
+  "git_delivery": "not_staged_or_committed",
+  "production_source_modified": false,
+  "media_checksums_sha256": "221fcc0417b1aa9e73b3d6cbbea22b1f852818eaaece8d6bb092069633b0df4e"
+}

@@ -20,9 +20,15 @@ Landline có dây không tạo phone positive. Calculator/book/badge/bút không
 
 Person box bao phần nhìn thấy; context có thể thêm vùng bàn/thiết bị liên quan. Không tự ước lượng cơ thể bị che, thêm padding/gaze/visibility threshold chưa duyệt. Geometry/crop policy thuộc release đã nghiệm thu; không sửa geometry cũ cho khớp detector khác. Crop runtime từ video là gate riêng. Classifier crop review không yêu cầu annotate mọi người trong ảnh; nếu train detector cần completeness contract khác.
 
+### Ngoại lệ absence có phạm vi từ 15/10/2026
+
+[E004-PHONE-OCCLUSION-20261015](../artifacts/reports/E004-device-consistency-20261015/owner-direction.md) được owner duyệt cho revision crop bundle này và revision tiếp theo dẫn quyết định: vật bị giấy/vật khác che **hoàn toàn** có thể phone N khi tay và phần quan sát còn lại đủ review, không có phone rõ hoặc thiết bị mơ hồ còn lộ. N ở đây là absence trong vùng nhìn thấy, không chứng minh không có phone sau vật che. Tay mất khỏi crop/dưới bàn, vật còn lộ không phân biệt được hoặc attribution chưa rõ vẫn U nếu không có phone khác rõ. Không hồi tố release/metrics/pins cũ; package mới phải ghi semantics revision/evidence. Các semantics còn lại của bảng trên giữ nguyên.
+
 ## 3. Contract thực thi và trạng thái record
 
 Codec ở `src/ai_exam_monitoring/data/pilot_schema.py`: `schema_version=pilot-b-manifest-v1`, `target_encoding_version=pilot-b-targets-v1`. Dùng `record_from_dict`, `read_records`, `validate_records`, `write_records`; không tạo parser dict permissive song song. Field lạ, derived mask/value sai, version/evidence không hợp lệ phải bị từ chối.
+
+Mở rộng được owner duyệt [E004 crop dẫn xuất ngày 16/10](../artifacts/reports/E004-train-enrollment-20261016/owner-direction.md): `pilot-b-manifest-v2` thêm `crop.derivation` cho crop import đã resize/nén được review; giữ nguyên serialization V1. Derivation phải pin source SHA, RGB SHA ROI native, kích thước/format output, evidence và review đúng crop SHA. Đây là provenance của derivative đã review, không là bằng chứng recipe upstream tái lập được. Export bắt buộc exact crop bytes và kiểm source/ROI/output pins; loader kiểm bytes/dimensions/format. Crop native không có derivation vẫn phải khớp pixel tuyệt đối ROI. Unknown mask, person/context geometry, rights/group/release gates không đổi. Chỉ package mới dùng V2; không sửa hoặc reseal V1.
 
 | State | Value JSON | Mask | Supervision |
 |---|---|---:|---|

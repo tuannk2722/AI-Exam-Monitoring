@@ -1,0 +1,86 @@
+[
+  {
+    "marked_image": "1frame_00009.jpg",
+    "anchor": "Người áo xanh hàng sau bên trái",
+    "result": "NC-001",
+    "action": "new_crop"
+  },
+  {
+    "marked_image": "1frame_00019.jpg",
+    "anchor": "Người tóc dài tiền cảnh bên trái",
+    "result": "NC-002",
+    "action": "new_crop"
+  },
+  {
+    "marked_image": "1frame_00016.jpg",
+    "anchor": "Người đeo kính bên trái",
+    "result": "NC-003",
+    "action": "new_crop"
+  },
+  {
+    "marked_image": "1frame_00016.jpg",
+    "anchor": "Người áo xanh giữa phía trước",
+    "result": "NC-004",
+    "action": "new_crop"
+  },
+  {
+    "marked_image": "1frame_00014.jpg",
+    "anchor": "Người áo xanh tiền cảnh trái",
+    "result": "NC-005",
+    "action": "new_crop"
+  },
+  {
+    "marked_image": "1frame_00014.jpg",
+    "anchor": "Người đeo kính ở giữa",
+    "result": "NC-006",
+    "action": "new_crop"
+  },
+  {
+    "marked_image": "1frame_00013.jpg",
+    "anchor": "Người tóc dài hàng giữa phía trái",
+    "result": "NC-007",
+    "action": "new_crop"
+  },
+  {
+    "marked_image": "1frame_00013.jpg",
+    "anchor": "Người áo xanh đeo kính giữa phải",
+    "result": "NC-008",
+    "action": "new_crop"
+  },
+  {
+    "marked_image": "1frame_00013.jpg",
+    "anchor": "Người khoác trắng xanh sau bên phải",
+    "result": "NC-009",
+    "action": "new_crop"
+  },
+  {
+    "marked_image": "1frame_00013.jpg",
+    "anchor": "Người áo xanh phía trước bên phải",
+    "result": "NC-010",
+    "action": "new_crop"
+  },
+  {
+    "marked_image": "1frame_00013.jpg",
+    "anchor": "Người đeo kính chống trán phía phải",
+    "result": "NC-011",
+    "action": "new_crop"
+  },
+  {
+    "marked_image": "1frame_00003.jpg",
+    "anchor": "Người đeo kính bên trái",
+    "result": "NC-012",
+    "action": "new_crop"
+  },
+  {
+    "marked_image": "1frame_00002.jpg",
+    "anchor": "Người đeo kính phía phải",
+    "result": "NC-013",
+    "action": "new_crop"
+  },
+  {
+    "marked_image": "1frame_00021.jpg",
+    "anchor": "Người đeo kính phía trước với calculator hồng",
+    "result": "NA-008",
+    "action": "already_in_closed_batch_same_frame_and_anchor"
+  }
+]

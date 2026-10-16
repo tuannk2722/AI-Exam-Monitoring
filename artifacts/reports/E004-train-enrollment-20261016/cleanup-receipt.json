@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "removed": [
+    {
+      "path": "outputs/_scratch/c345-restore",
+      "files": 1616
+    },
+    {
+      "path": "outputs/_scratch/c345-rebuild",
+      "files": 0
+    }
+  ],
+  "preserved": "Accepted media, packages, gallery evidence, run/reload, orphan snapshot and verified archive",
+  "backup": "archive/e004-c345-execution-20261016.zip"
+}

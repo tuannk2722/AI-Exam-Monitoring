@@ -1,0 +1,722 @@
+[
+  {
+    "id": "NB-0001",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 2.3785,
+      "BICUBIC": 1.8396,
+      "LANCZOS": 1.7408
+    },
+    "best_mae": 1.7408
+  },
+  {
+    "id": "NB-0002",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 2.4121,
+      "BICUBIC": 1.8366,
+      "LANCZOS": 1.7155
+    },
+    "best_mae": 1.7155
+  },
+  {
+    "id": "NB-0003",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 2.1006,
+      "BICUBIC": 1.6784,
+      "LANCZOS": 1.6046
+    },
+    "best_mae": 1.6046
+  },
+  {
+    "id": "NB-0004",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.5629,
+      "BICUBIC": 1.2501,
+      "LANCZOS": 1.1982
+    },
+    "best_mae": 1.1982
+  },
+  {
+    "id": "NB-0005",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.5719,
+      "BICUBIC": 1.2385,
+      "LANCZOS": 1.1848
+    },
+    "best_mae": 1.1848
+  },
+  {
+    "id": "NB-0006",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 2.236,
+      "BICUBIC": 1.7743,
+      "LANCZOS": 1.7011
+    },
+    "best_mae": 1.7011
+  },
+  {
+    "id": "NB-0007",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 2.6369,
+      "BICUBIC": 1.9296,
+      "LANCZOS": 1.7796
+    },
+    "best_mae": 1.7796
+  },
+  {
+    "id": "NB-0008",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 2.2265,
+      "BICUBIC": 1.6721,
+      "LANCZOS": 1.5752
+    },
+    "best_mae": 1.5752
+  },
+  {
+    "id": "NB-0009",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.5664,
+      "BICUBIC": 1.2173,
+      "LANCZOS": 1.1585
+    },
+    "best_mae": 1.1585
+  },
+  {
+    "id": "NB-0010",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 2.3847,
+      "BICUBIC": 1.9166,
+      "LANCZOS": 1.8447
+    },
+    "best_mae": 1.8447
+  },
+  {
+    "id": "NB-0011",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.8988,
+      "BICUBIC": 1.5201,
+      "LANCZOS": 1.4575
+    },
+    "best_mae": 1.4575
+  },
+  {
+    "id": "NB-0012",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.8452,
+      "BICUBIC": 1.5075,
+      "LANCZOS": 1.4605
+    },
+    "best_mae": 1.4605
+  },
+  {
+    "id": "NB-0013",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 2.1013,
+      "BICUBIC": 1.668,
+      "LANCZOS": 1.5971
+    },
+    "best_mae": 1.5971
+  },
+  {
+    "id": "NB-0014",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.9231,
+      "BICUBIC": 1.5398,
+      "LANCZOS": 1.4834
+    },
+    "best_mae": 1.4834
+  },
+  {
+    "id": "NB-0015",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 2.2393,
+      "BICUBIC": 1.7257,
+      "LANCZOS": 1.6358
+    },
+    "best_mae": 1.6358
+  },
+  {
+    "id": "NB-0016",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 2.482,
+      "BICUBIC": 1.8722,
+      "LANCZOS": 1.7555
+    },
+    "best_mae": 1.7555
+  },
+  {
+    "id": "NB-0017",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.7715,
+      "BICUBIC": 1.3865,
+      "LANCZOS": 1.3338
+    },
+    "best_mae": 1.3338
+  },
+  {
+    "id": "NB-0018",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.6422,
+      "BICUBIC": 1.4141,
+      "LANCZOS": 1.3986
+    },
+    "best_mae": 1.3986
+  },
+  {
+    "id": "NB-0019",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.5378,
+      "BICUBIC": 1.2812,
+      "LANCZOS": 1.2449
+    },
+    "best_mae": 1.2449
+  },
+  {
+    "id": "NB-0020",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 2.4241,
+      "BICUBIC": 1.7608,
+      "LANCZOS": 1.6182
+    },
+    "best_mae": 1.6182
+  },
+  {
+    "id": "NB-0021",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 3.1075,
+      "BICUBIC": 2.2376,
+      "LANCZOS": 2.0491
+    },
+    "best_mae": 2.0491
+  },
+  {
+    "id": "NB-0022",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 2.3724,
+      "BICUBIC": 1.7373,
+      "LANCZOS": 1.6152
+    },
+    "best_mae": 1.6152
+  },
+  {
+    "id": "NB-0023",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.8865,
+      "BICUBIC": 1.3338,
+      "LANCZOS": 1.2359
+    },
+    "best_mae": 1.2359
+  },
+  {
+    "id": "NB-0024",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.6074,
+      "BICUBIC": 1.1573,
+      "LANCZOS": 1.0966
+    },
+    "best_mae": 1.0966
+  },
+  {
+    "id": "NB-0025",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.8928,
+      "BICUBIC": 1.3462,
+      "LANCZOS": 1.2677
+    },
+    "best_mae": 1.2677
+  },
+  {
+    "id": "NB-0026",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.7366,
+      "BICUBIC": 1.2765,
+      "LANCZOS": 1.2133
+    },
+    "best_mae": 1.2133
+  },
+  {
+    "id": "NB-0027",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.6274,
+      "BICUBIC": 1.2585,
+      "LANCZOS": 1.178
+    },
+    "best_mae": 1.178
+  },
+  {
+    "id": "NB-0028",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.6876,
+      "BICUBIC": 1.2078,
+      "LANCZOS": 1.0856
+    },
+    "best_mae": 1.0856
+  },
+  {
+    "id": "NB-0029",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.6219,
+      "BICUBIC": 1.0367,
+      "LANCZOS": 0.8431
+    },
+    "best_mae": 0.8431
+  },
+  {
+    "id": "NB-0030",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.3503,
+      "BICUBIC": 0.9605,
+      "LANCZOS": 0.8554
+    },
+    "best_mae": 0.8554
+  },
+  {
+    "id": "NB-0031",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.3647,
+      "BICUBIC": 0.9299,
+      "LANCZOS": 0.7885
+    },
+    "best_mae": 0.7885
+  },
+  {
+    "id": "NB-0032",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.4216,
+      "BICUBIC": 0.9602,
+      "LANCZOS": 0.8113
+    },
+    "best_mae": 0.8113
+  },
+  {
+    "id": "NB-0033",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.5084,
+      "BICUBIC": 1.0556,
+      "LANCZOS": 0.917
+    },
+    "best_mae": 0.917
+  },
+  {
+    "id": "NB-0034",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.8552,
+      "BICUBIC": 1.033,
+      "LANCZOS": 0.7205
+    },
+    "best_mae": 0.7205
+  },
+  {
+    "id": "NB-0035",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.4441,
+      "BICUBIC": 0.9006,
+      "LANCZOS": 0.7198
+    },
+    "best_mae": 0.7198
+  },
+  {
+    "id": "NB-0036",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.4466,
+      "BICUBIC": 1.0166,
+      "LANCZOS": 0.9015
+    },
+    "best_mae": 0.9015
+  },
+  {
+    "id": "NB-0037",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.4186,
+      "BICUBIC": 1.0288,
+      "LANCZOS": 0.931
+    },
+    "best_mae": 0.931
+  },
+  {
+    "id": "NB-0038",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.6752,
+      "BICUBIC": 1.2118,
+      "LANCZOS": 1.0987
+    },
+    "best_mae": 1.0987
+  },
+  {
+    "id": "NB-0039",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.7169,
+      "BICUBIC": 1.2125,
+      "LANCZOS": 1.0744
+    },
+    "best_mae": 1.0744
+  },
+  {
+    "id": "NB-0040",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.4023,
+      "BICUBIC": 1.0806,
+      "LANCZOS": 1.0424
+    },
+    "best_mae": 1.0424
+  },
+  {
+    "id": "NB-0041",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.5529,
+      "BICUBIC": 1.1417,
+      "LANCZOS": 1.0919
+    },
+    "best_mae": 1.0919
+  },
+  {
+    "id": "NB-0042",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.5123,
+      "BICUBIC": 1.0599,
+      "LANCZOS": 0.9206
+    },
+    "best_mae": 0.9206
+  },
+  {
+    "id": "NB-0043",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.7829,
+      "BICUBIC": 1.2477,
+      "LANCZOS": 1.0975
+    },
+    "best_mae": 1.0975
+  },
+  {
+    "id": "NB-0044",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.7305,
+      "BICUBIC": 1.2375,
+      "LANCZOS": 1.101
+    },
+    "best_mae": 1.101
+  },
+  {
+    "id": "NB-0045",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.6934,
+      "BICUBIC": 1.2182,
+      "LANCZOS": 1.0805
+    },
+    "best_mae": 1.0805
+  },
+  {
+    "id": "NB-0046",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.6058,
+      "BICUBIC": 1.1286,
+      "LANCZOS": 0.992
+    },
+    "best_mae": 0.992
+  },
+  {
+    "id": "NB-0047",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.7526,
+      "BICUBIC": 1.251,
+      "LANCZOS": 1.1035
+    },
+    "best_mae": 1.1035
+  },
+  {
+    "id": "NB-0048",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.9156,
+      "BICUBIC": 1.3336,
+      "LANCZOS": 1.1747
+    },
+    "best_mae": 1.1747
+  },
+  {
+    "id": "NB-0049",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 2.1089,
+      "BICUBIC": 1.4204,
+      "LANCZOS": 1.2218
+    },
+    "best_mae": 1.2218
+  },
+  {
+    "id": "NB-0050",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 2.0242,
+      "BICUBIC": 1.4033,
+      "LANCZOS": 1.2233
+    },
+    "best_mae": 1.2233
+  },
+  {
+    "id": "NB-0051",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.8508,
+      "BICUBIC": 1.2453,
+      "LANCZOS": 1.07
+    },
+    "best_mae": 1.07
+  },
+  {
+    "id": "NB-0052",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.7072,
+      "BICUBIC": 1.2312,
+      "LANCZOS": 1.1722
+    },
+    "best_mae": 1.1722
+  },
+  {
+    "id": "NB-0053",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.6312,
+      "BICUBIC": 1.2268,
+      "LANCZOS": 1.1318
+    },
+    "best_mae": 1.1318
+  },
+  {
+    "id": "NB-0054",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.4625,
+      "BICUBIC": 1.0065,
+      "LANCZOS": 0.8696
+    },
+    "best_mae": 0.8696
+  },
+  {
+    "id": "NB-0055",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.1875,
+      "BICUBIC": 0.9339,
+      "LANCZOS": 0.8943
+    },
+    "best_mae": 0.8943
+  },
+  {
+    "id": "NB-0056",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.4626,
+      "BICUBIC": 1.1226,
+      "LANCZOS": 1.0783
+    },
+    "best_mae": 1.0783
+  },
+  {
+    "id": "NB-0057",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.6793,
+      "BICUBIC": 1.1459,
+      "LANCZOS": 0.9706
+    },
+    "best_mae": 0.9706
+  },
+  {
+    "id": "NB-0058",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.3377,
+      "BICUBIC": 1.0208,
+      "LANCZOS": 0.94
+    },
+    "best_mae": 0.94
+  },
+  {
+    "id": "NB-0059",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.4397,
+      "BICUBIC": 1.0911,
+      "LANCZOS": 0.9998
+    },
+    "best_mae": 0.9998
+  },
+  {
+    "id": "NB-0060",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.573,
+      "BICUBIC": 1.156,
+      "LANCZOS": 1.0547
+    },
+    "best_mae": 1.0547
+  },
+  {
+    "id": "NB-0061",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.4297,
+      "BICUBIC": 0.9876,
+      "LANCZOS": 0.8457
+    },
+    "best_mae": 0.8457
+  },
+  {
+    "id": "NB-0062",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.8685,
+      "BICUBIC": 1.1407,
+      "LANCZOS": 0.9024
+    },
+    "best_mae": 0.9024
+  },
+  {
+    "id": "NB-0063",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.4698,
+      "BICUBIC": 1.0763,
+      "LANCZOS": 0.9558
+    },
+    "best_mae": 0.9558
+  },
+  {
+    "id": "NB-0064",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.3592,
+      "BICUBIC": 1.0432,
+      "LANCZOS": 1.0008
+    },
+    "best_mae": 1.0008
+  },
+  {
+    "id": "NB-0065",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.4855,
+      "BICUBIC": 1.1076,
+      "LANCZOS": 1.0584
+    },
+    "best_mae": 1.0584
+  },
+  {
+    "id": "NB-0066",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.6303,
+      "BICUBIC": 1.1675,
+      "LANCZOS": 1.0956
+    },
+    "best_mae": 1.0956
+  },
+  {
+    "id": "NB-0067",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.5248,
+      "BICUBIC": 1.1021,
+      "LANCZOS": 1.0311
+    },
+    "best_mae": 1.0311
+  },
+  {
+    "id": "NB-0068",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.9715,
+      "BICUBIC": 1.404,
+      "LANCZOS": 1.3076
+    },
+    "best_mae": 1.3076
+  },
+  {
+    "id": "NB-0069",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.4496,
+      "BICUBIC": 1.0545,
+      "LANCZOS": 0.95
+    },
+    "best_mae": 0.95
+  },
+  {
+    "id": "NB-0070",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.6339,
+      "BICUBIC": 1.2147,
+      "LANCZOS": 1.1119
+    },
+    "best_mae": 1.1119
+  },
+  {
+    "id": "NB-0071",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.5001,
+      "BICUBIC": 1.1197,
+      "LANCZOS": 1.0148
+    },
+    "best_mae": 1.0148
+  },
+  {
+    "id": "NB-0072",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.4926,
+      "BICUBIC": 1.0903,
+      "LANCZOS": 0.9825
+    },
+    "best_mae": 0.9825
+  },
+  {
+    "id": "NB-0073",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.5202,
+      "BICUBIC": 1.0784,
+      "LANCZOS": 0.9522
+    },
+    "best_mae": 0.9522
+  },
+  {
+    "id": "NB-0074",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.274,
+      "BICUBIC": 0.9798,
+      "LANCZOS": 0.9044
+    },
+    "best_mae": 0.9044
+  },
+  {
+    "id": "NB-0075",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.4284,
+      "BICUBIC": 1.0697,
+      "LANCZOS": 0.9805
+    },
+    "best_mae": 0.9805
+  },
+  {
+    "id": "NB-0076",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.281,
+      "BICUBIC": 0.9611,
+      "LANCZOS": 0.8727
+    },
+    "best_mae": 0.8727
+  },
+  {
+    "id": "NB-0077",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.354,
+      "BICUBIC": 0.9726,
+      "LANCZOS": 0.8777
+    },
+    "best_mae": 0.8777
+  },
+  {
+    "id": "NB-0078",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.0959,
+      "BICUBIC": 0.7927,
+      "LANCZOS": 0.7038
+    },
+    "best_mae": 0.7038
+  },
+  {
+    "id": "NB-0079",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.7639,
+      "BICUBIC": 1.0942,
+      "LANCZOS": 0.8809
+    },
+    "best_mae": 0.8809
+  },
+  {
+    "id": "NB-0080",
+    "rgb_mae_by_resampler": {
+      "BILINEAR": 1.7916,
+      "BICUBIC": 1.318,
+      "LANCZOS": 1.2079
+    },
+    "best_mae": 1.2079
+  }
+]

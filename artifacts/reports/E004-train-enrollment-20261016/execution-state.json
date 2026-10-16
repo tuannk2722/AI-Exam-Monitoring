@@ -1,0 +1,12 @@
+{
+  "status": "FINISHED",
+  "run": "outputs/E004-C345-W-H",
+  "completed_epochs": 11,
+  "best_epoch": 1,
+  "reload": "PASS exact scores/metrics",
+  "decision": "continue_research_only",
+  "test_inference": false,
+  "recovery": "orphan-recovery.json",
+  "remaining": "None within approved scope",
+  "delivery": "result-pins.json"
+}

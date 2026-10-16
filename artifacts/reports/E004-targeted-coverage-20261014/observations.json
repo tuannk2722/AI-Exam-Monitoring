@@ -1,0 +1,1105 @@
+{
+  "status": "draft_pending_owner_review",
+  "labels_changed": false,
+  "observations": [
+    {
+      "sample_id": "E004-EX-C001",
+      "factors": [
+        "held_phone",
+        "outside_workarea"
+      ],
+      "evidence_224": "clear",
+      "confidence": "cao",
+      "observation": "Phone lớn trong tay và hướng mặt sang bên còn rõ ở 224; W-H TP cả hai. Bối cảnh chân dung tại bàn khác cảnh lớp đông.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "d1f8c9ebed5724996e6d9149410c3c6779b87de804063514635c775bf5e6c402",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-EX-C002",
+      "factors": [
+        "held_phone",
+        "own_workarea"
+      ],
+      "evidence_224": "clear",
+      "confidence": "cao",
+      "observation": "Mobile trên tay trước laptop còn thấy ở 224 nhưng W-H phone FN; không phải toàn bộ lỗi do vật biến mất sau resize.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "8da897ba3e5dd41a9a69054edd723a2b66017e7527795ef25e8afb8c332b958e",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-EX-C080",
+      "factors": [
+        "held_phone"
+      ],
+      "evidence_224": "clear",
+      "confidence": "cao",
+      "observation": "Mobile sát tai và head pose rõ; looking P giữ theo accepted, không tự gán quan hệ own-workarea từ riêng pose trong crop.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "0d4d57388bfaa3ec1780e0084f7095fbadec2294fb0aedfba05d059bc661efc1",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-EX-C089",
+      "factors": [
+        "multi_person_context"
+      ],
+      "evidence_224": "uncertain",
+      "confidence": "vừa",
+      "observation": "Hai người và laptop cùng crop; quan hệ anchor với trang giấy/laptop cần đọc evidence owner. Không tự xác nhận nhìn ngoài vùng bài chỉ từ mắt trong preview.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "ef7897ead0c6b70a602c345b2e486d6a69337c5664a86ace5774a3283456ae3d",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-EX-C136",
+      "factors": [
+        "held_phone",
+        "own_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "clear",
+      "confidence": "cao",
+      "observation": "Phone cầm sát bàn, người bên cạnh nằm trong context; phone TP, looking TN của W-H.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "a5e28891bdabc46b7b0ba1099f189d32ecaf7a6ac500fdc1ac0adaa2735a6f81",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-EX-C142",
+      "factors": [
+        "held_phone",
+        "own_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "clear",
+      "confidence": "cao",
+      "observation": "Phone xanh lớn trong tay, hướng mắt về vùng thao tác; context có người phía phải. W-H đúng hai target.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "02d44913511da631b2912acf08c23817902e1d069ef93bbd1a1eae146d9da875",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "EXP-CM-003",
+      "factors": [
+        "held_phone",
+        "multi_person_context"
+      ],
+      "evidence_224": "limited_native",
+      "confidence": "vừa",
+      "observation": "Phone sát tai, hướng mặt ra trước; crop gốc 111×194, upscale không thêm chi tiết. W-H phone FN dù pose cầm còn thấy.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "23fd2bf2f934a2500747ab2be3bfb0a013797af1b8c15c2e835c29f8b9dcfa23",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "EXP-CM-004",
+      "factors": [
+        "held_phone",
+        "multi_person_context"
+      ],
+      "evidence_224": "limited_native",
+      "confidence": "vừa",
+      "observation": "Phone sát tai của người áo sọc; crop gốc 88×133, thông tin vật nhỏ ngay ở native. Cùng family với CM-003.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "02e0979c1bc884df252945e2142a0ceebfd9d8966f548c8db0eb2cf295b6392b",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "EXP-CM-005",
+      "factors": [
+        "pen_negative",
+        "own_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "limited_native",
+      "confidence": "vừa",
+      "observation": "Người cúi viết ở own paper; bút/tay nhỏ ở nguồn. W-H looking FP; không đổi nhãn N/N.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "8e2bb61c849b5b19dc30c62f1c050e176d6ea0a84afefbeedac88ace3434f7ef",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "EXP-CM-007",
+      "factors": [
+        "held_phone",
+        "multi_person_context"
+      ],
+      "evidence_224": "limited_native",
+      "confidence": "vừa",
+      "observation": "Thiết bị tối cầm trước bàn vẫn thấy; crop nhỏ và vật ít chi tiết. W-H phone FN, looking U.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "7275b221b24c2bd2b48b4a1a5933f1bd5f1158fe22331d3ce4c765bc0c72114a",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "EXP-CM-008",
+      "factors": [
+        "held_phone",
+        "partial_phone",
+        "multi_person_context"
+      ],
+      "evidence_224": "limited_native",
+      "confidence": "vừa",
+      "observation": "Native 113×186 cho thấy thiết bị tối sát tay và mép bàn, một phần bị tay che. Metadata desk-phone nhưng thị giác là held/partial sát bàn, không tự tính desk-only.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": true,
+      "crop_sha256": "ea342b083aff907fc0b710981df78b2876d33f20c54c724de7c9577a142c07a5",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "EXP-CM-016",
+      "factors": [
+        "own_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "limited_native",
+      "confidence": "vừa",
+      "observation": "Người hướng về trang/bàn, mặt/tay nhỏ; W-H looking FP. Giữ phone U; không suy absence.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "0a422e6fb3a20bcc6946215137a89844973b70280f082d610a65251a2f5346fb",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "EXP-RF-003",
+      "factors": [
+        "pen_negative",
+        "outside_workarea"
+      ],
+      "evidence_224": "clear",
+      "confidence": "cao",
+      "observation": "Tay cầm bút trên bài nhưng mặt quay sang bên rõ; W-H phone FP. Chữ overlay có sẵn trong ảnh, không tự kết luận shortcut.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "c486bbe1489737b3660a10b3d3e1a70595426af98b004db57bbc7402da7723af",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "EXP-RF-019",
+      "factors": [
+        "pen_negative",
+        "outside_workarea"
+      ],
+      "evidence_224": "clear",
+      "confidence": "cao",
+      "observation": "Đầu quay xa trang đang viết, bút/tay rõ; W-H sai cả hai target tại best epoch.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "d2699433e2e0a3d34bc42e34add5d723ea8317d1e8da12f402a2e651179b4c73",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "EXP-RF-023",
+      "factors": [
+        "outside_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "clear",
+      "confidence": "vừa",
+      "observation": "Anchor áo caro quay sang trái, người khác ở foreground/background. Pose còn thấy sau upscale; không chốt thêm phone.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "44bd3acd5e5e7b1386714af208fc2397ea1d8ecc5e8bfb9db0855c39a62c6b05",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "EXP-SCB-001",
+      "factors": [
+        "pen_negative",
+        "own_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "limited_native",
+      "confidence": "vừa",
+      "observation": "Cúi viết tại bàn, nguồn đã nén/mờ; W-H TN cả hai, làm đối chứng native kém nhưng đúng.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "c2879187e7965d964f052ce54c2d21bf40eb7c64bf61e68a0892389203ba3fc2",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "EXP-SCB-003",
+      "factors": [
+        "outside_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "limited_native",
+      "confidence": "vừa",
+      "observation": "Người áo đỏ quay ngang, sách/bàn phía trước; native 97×109. W-H looking FN, nguồn hạn chế chi tiết mắt.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "dc0eadeedcc18108074bced64985833d9c60b14d546d165f3931171827f6e950",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "EXP-SCB-037",
+      "factors": [
+        "outside_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "limited_native",
+      "confidence": "vừa",
+      "observation": "Anchor áo xanh hướng phía trước/khác trang; người foreground che một phần. Native 89×94 không đủ để suy gaze tinh chỉ bằng tăng input.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "04cd83e6e914e1fc711f6536b3a043e51c5d65f98e4e3a070bfd1f2220bf8c95",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "V6-CA-005",
+      "factors": [
+        "other_device_negative"
+      ],
+      "evidence_224": "clear",
+      "confidence": "cao",
+      "observation": "Thiết bị lớn kiểu tablet trong hai tay; accepted phone N, W-H FP. Không coi mọi thiết bị chữ nhật là mobile; không sửa nhãn.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "b2b9e96c937bafcda6e6aa96af86ceedb48713b1aebfd5c8b8e23e53f30cea3a",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "V6-CA-025",
+      "factors": [
+        "pen_negative",
+        "outside_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "clear",
+      "confidence": "cao",
+      "observation": "Người cầm bút nhìn sang bên, một người khác ở mép; phone FP dù bút và tay vẫn rõ ở 224.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "1e7769c26c2c08b93f02c41533c832dccf4697f96e35cd46b2e044a773b453e2",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "V6-CA-028",
+      "factors": [
+        "outside_workarea"
+      ],
+      "evidence_224": "clear",
+      "confidence": "cao",
+      "observation": "Đầu quay rõ khỏi trang mở, tay còn trên bàn; W-H looking FN dù pose còn rõ.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "66eb5c69fe6d0c6bff0214bcce5e25330af8abb5e768f23e3468f7c899b1a328",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "V6-EX-017",
+      "factors": [
+        "pen_negative",
+        "outside_workarea"
+      ],
+      "evidence_224": "clear",
+      "confidence": "vừa",
+      "observation": "Tay/bút trên bài, mặt hướng sang bên; ảnh xám nhưng cấu trúc vẫn rõ ở 224. Phone FP của W-H.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "8aac0741c55d6fa84fe3fb0d7822c9c5140679bdeb731cbfcdaa00f213835aec",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "V6-EX-020",
+      "factors": [
+        "desk_phone",
+        "outside_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "limited_native",
+      "confidence": "vừa",
+      "observation": "Phone trên mép bàn phía dưới và người nhìn sang bên; native 135×208, vật nhỏ trước resize. W-H FN cả hai.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "acb84ab50c3a1c864e60c0985703e790cc405cd74adb3eb785af5a3a0b6b063a",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "V6-EX-039",
+      "factors": [
+        "pen_negative",
+        "own_workarea"
+      ],
+      "evidence_224": "limited_native",
+      "confidence": "vừa",
+      "observation": "Tay bút trên giấy, khuôn mặt mờ ở native; phone FP. Looking U giữ nguyên, own-workarea chỉ mô tả bố cục tay/giấy.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "6edf356baee2e9c1cee45d54ae1b9df459cff214b0741b41bb7d8a7410944252",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "V6-SB-003",
+      "factors": [
+        "desk_phone",
+        "partial_phone"
+      ],
+      "evidence_224": "limited_native",
+      "confidence": "vừa",
+      "observation": "Thiết bị tối sát tay trên bàn giữa giấy; nguồn nhỏ 93×155, chi tiết phone mờ. W-H phone FN; cần owner xác nhận factor partial.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "982fa92661f328f307ce4f279a35b273e19a01bf20a80a39473ff063f44f812d",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "V6R2-MP-010",
+      "factors": [
+        "held_phone"
+      ],
+      "evidence_224": "limited_native",
+      "confidence": "vừa",
+      "observation": "Phone cầm hai tay, crop 88×118 vốn ít chi tiết; phone FN. Không tính desk-phone chỉ vì reason có chữ bàn.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "397ff61d1b961ef26e6a49b77159e3507c13ad39927a742187574d9f02755755",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "V7-A-001",
+      "factors": [
+        "desk_phone",
+        "own_workarea"
+      ],
+      "evidence_224": "clear",
+      "confidence": "cao",
+      "observation": "Mobile tím trên giấy ngay cạnh tay người viết, thấy cả ở native và 224. Phone FN; đây là train desk-phone tương ứng nhưng không chứng minh đủ coverage mọi góc camera.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": true,
+      "crop_sha256": "36acffe79005724d76d5f28ee65ee223a9a29ffe0a205d6755914e1061108ccd",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "V7-A-004",
+      "factors": [
+        "calculator_negative",
+        "pen_negative",
+        "own_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "limited_native",
+      "confidence": "vừa",
+      "observation": "Calculator trên giấy, người viết background và người foreground cùng crop. Native đã nhỏ, accepted xác nhận calculator; W-H TN cả hai.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": true,
+      "crop_sha256": "962fa6d43bab553f4be0bd5561b693ff222a7612676e79c969998adbd129aded",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "V7-A-022",
+      "factors": [
+        "outside_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "clear",
+      "confidence": "vừa",
+      "observation": "Người quay sang bên tại bàn có trang giấy, không phải lớp thi; W-H phone FP. Context ngoài lớp là khác biệt quan sát, không cấp domain label accepted.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "3b383759db2cbb0c0092bc2bda28941793d1601a67748884aca0b52bd7ce598e",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "V7-A-047",
+      "factors": [
+        "own_workarea",
+        "other_device_negative"
+      ],
+      "evidence_224": "clear",
+      "confidence": "vừa",
+      "observation": "Người thao tác thiết bị lớn ở ngoài trời, pose tay và screen khác cảnh thi. Phone/looking FP; metadata pen hint không đủ xác nhận bút.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "393e15a653afa249faaede026dd065a147285b9338102c9ef73766a23b342ee8",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "V7-A-051",
+      "factors": [
+        "other_device_negative"
+      ],
+      "evidence_224": "clear",
+      "confidence": "cao",
+      "observation": "Máy ảnh được cầm sát mặt, thấy body/lens ở 224; phone FP. Hint pen từ metadata không là pen evidence trong ảnh.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "598768833e8a4baa0b0b9ea891cf5abf8363cf7219d875a27a26a7aabfaad4eb",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "V7-A-065",
+      "factors": [
+        "own_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "uncertain",
+      "confidence": "vừa",
+      "observation": "Anchor quay lưng/góc nghiêng tại máy tính, nhiều người cùng crop. W-H FP cả hai; khó đọc chính xác quan hệ mắt với screen từ 224.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "bb373f12e6aeff9407c1cae807d09a073763a19c1d01bf1c1fbea6b4bcf35f79",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "V7-B-034",
+      "factors": [
+        "pen_negative",
+        "own_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "limited_native",
+      "confidence": "vừa",
+      "observation": "Trẻ ngồi viết tại bàn; nguồn có artefacts nén rõ cả native. Looking FP, không quy nén hoàn toàn do resize.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "c5a0c9a30ea4c1eb115624f0febd45b492dada2b1e599dc7a5b05bd7bd7d9bfd",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "V7-B-040",
+      "factors": [
+        "pen_negative",
+        "own_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "clear",
+      "confidence": "cao",
+      "observation": "Người áo xám nhìn trang đang viết, bút rõ; W-H FP cả hai dù own-workarea vẫn hiện ở 224.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "ca5b2fbcf2ffc229c885fb8f44d8eef13544a753504bc5527d4eedca82a117df",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "V7-B-041",
+      "factors": [
+        "held_phone",
+        "partial_phone",
+        "multi_person_context"
+      ],
+      "evidence_224": "reduced_at_224",
+      "confidence": "vừa",
+      "observation": "Theo accepted holder là người áo tím; native cho thấy mobile nhỏ dưới ngón tay, hai người cùng vùng phone. 224 làm chi tiết nhỏ hơn, W-H vẫn TP. Không kết luận resize gây lỗi.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": true,
+      "crop_sha256": "c458c5a120b4b1267498bd01c3eadb969bd8e63917d566b104edc36d3f074572",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "V7-B-051",
+      "factors": [
+        "held_phone",
+        "partial_phone",
+        "multi_person_context"
+      ],
+      "evidence_224": "clear",
+      "confidence": "cao",
+      "observation": "Người hoodie cầm phone gần mặt; tay che một phần nhưng outline còn thấy ở 224. W-H TP; phone foreground của người khác không gán cho anchor.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "19e79f36d83e98cd0eb2ea3fcd1de017ee84b716d050e054ee7b2d8eafebac80",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "V7-B-074",
+      "factors": [
+        "held_phone",
+        "partial_phone"
+      ],
+      "evidence_224": "clear",
+      "confidence": "cao",
+      "observation": "Phone tối lớn trong tay người áo nâu, tay che một phần; hình dạng đủ thấy ở 224 và W-H TP.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "bcada3894de07d1102d8bdee59627c7244f788fe1b1e35ada78a4e8f057bc71e",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "V7-C-038",
+      "factors": [
+        "own_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "clear",
+      "confidence": "vừa",
+      "observation": "Anchor áo đỏ cúi về trang riêng, bàn ghế/người khác cùng context; W-H looking FP. Phone U giữ nguyên.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "e601bcf52992241bdd78057545f17850d48caa389a2475795a52528baa1d98f7",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "V7-OE-S042-A02",
+      "factors": [
+        "pen_negative",
+        "own_workarea"
+      ],
+      "evidence_224": "clear",
+      "confidence": "vừa",
+      "observation": "Người viết tại bàn có laptop và các vật khác; pose làm bài rõ nhưng W-H phone FP. Không suy model nhầm vật cụ thể khi chưa có intervention.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "3759bae2b6349886e4c70240d539c46a7474bd6ba61d21cccc04b8d946f608ce",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "V7-OE-S061-A01",
+      "factors": [
+        "multi_person_context"
+      ],
+      "evidence_224": "uncertain",
+      "confidence": "thấp",
+      "observation": "Nhiều người nhìn lên, person box gần bao toàn crop nên chưa định vị chắc anchor. Accepted reason nói ownpaper và nhìn teacher; giữ looking P, phone U. Cần owner chỉ anchor trước khi chốt factor outside-workarea/attribution.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": true,
+      "crop_sha256": "44fe188fd00869a604b6e0ff35c404c8ace4ef1c12fd501612c19e013cf36e60",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "V7-OE-S112-A01",
+      "factors": [
+        "pen_negative",
+        "own_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "clear",
+      "confidence": "cao",
+      "observation": "Vật xanh dưới sách là sách theo owner, không calculator; bút/tay và trang rõ ở native/224, W-H phone FP. Loại khỏi observed calculator count, giữ nhãn accepted.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": true,
+      "crop_sha256": "42c97d0fc803f6f966a24eff1d84dd2d525b8c008b001a9cb358bffa6571b0c3",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "V7-OE-S114-A01",
+      "factors": [
+        "calculator_negative",
+        "pen_negative",
+        "own_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "clear",
+      "confidence": "cao",
+      "observation": "Calculator với phím trên bàn, tay cầm bút và mắt xuống trang; native và 224 đều thấy bố cục. W-H phone FP, looking TN.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": true,
+      "crop_sha256": "71d244f1ef6e8067349768bad12dd4b86103252481c7b6582f8f00447a1297d2",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "V7-R8-C-007",
+      "factors": [
+        "outside_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "limited_native",
+      "confidence": "vừa",
+      "observation": "Người nhìn ra trước ngoài trang, ghế/người khác cùng crop; native 130×170, W-H looking TP.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "e5fcec59fc7ac524866563c583f7cee010423f8a3238e3b966374bc532986409",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "V7-R8-C-008",
+      "factors": [
+        "own_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "limited_native",
+      "confidence": "vừa",
+      "observation": "Người cúi viết trên giấy, tay/ghế foreground che một phần; native 175×220, W-H looking TN.",
+      "cohort": "train",
+      "basis": "new_visual_review_native_fit_and_input224",
+      "native_full_opened": false,
+      "crop_sha256": "832445f1d53331f00d8a9fb4fbfbfe99718555737483c329e77c5e28c5ba8e95",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-CF-C021",
+      "cohort": "selection",
+      "factors": [
+        "held_phone",
+        "outside_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "vừa",
+      "observation": "Anchor áo caro quay sang người phía trước; điện thoại riêng và điện thoại người khác cùng nằm trong crop. Phone TP cả hai, looking FN cả hai; hướng đầu vẫn thấy ở 224.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "ed1ac1e59652ec25931df039ca13c0834acebfa4e99eec646a564257958395e8",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-CF-C029",
+      "cohort": "selection",
+      "factors": [
+        "calculator_negative",
+        "own_workarea"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "cao",
+      "observation": "Vật dưới tay là calculator theo nhãn accepted; dạng chữ nhật và bị tay che một phần. Cả LP/L4 phone FP, looking TN; input 224 vẫn giữ vật nhưng chi tiết phím nhỏ hơn.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "ba574185deaa589a54e5817412a797c38a0ac33948c3af2f2f1a2b9d87234c60",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-CF-C031",
+      "cohort": "selection",
+      "factors": [
+        "own_workarea"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "cao",
+      "observation": "Anchor cúi về bài, hộp bút che tay; looking FP cả hai. Phone U đúng phạm vi không đủ quan sát. Tư thế làm bài còn thấy ở 224.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "f797645b69c49fb472a09c52b7d0543c472b40f1da350b9d564a522be54739da",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-EX-C009",
+      "cohort": "selection",
+      "factors": [
+        "desk_phone",
+        "own_workarea"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "cao",
+      "observation": "Điện thoại đặt trong/cạnh hộp bút cạnh bài làm, màn hình vẫn thấy ở 224. LP phone TP nhưng L4 FN; looking TN cả hai.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "32adb59282086db1ff8e2b6e3f8cb11e41c0b0274172195f3891222a404597b7",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-EX-C027",
+      "cohort": "selection",
+      "factors": [
+        "outside_workarea"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "vừa",
+      "observation": "Anchor áo caro nghiêng/quay sang bên, cầm tài liệu; hướng đầu còn thấy ở 224. LP looking TP, L4 FN; phone U.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "146c934826957032ee0432dfa6ea7cd0b5be6b52f2122ab9be7954f8aa53b3ee",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-EX-C029",
+      "cohort": "selection",
+      "factors": [
+        "calculator_negative",
+        "outside_workarea"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "cao",
+      "observation": "Anchor áo đỏ nhìn rõ sang bên ngoài tờ bài; calculator trên bàn. Looking FN cả hai dù hướng mặt vẫn rõ ở 224; phone TN.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "75e12ae8823d4da40bf9b1e4b43229851e1a8783a878053aecd718a815b61779",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-EX-C051",
+      "cohort": "selection",
+      "factors": [
+        "own_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "cao",
+      "observation": "Anchor cúi đọc/viết, vùng bài rõ; cả hai model TN cho hai target, context phía phải chứa người khác.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "c081640ae3943bd7bc9bd6a24e0d1bef3697f51aab3de2541fa54152fca78050",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-EX-C120",
+      "cohort": "selection",
+      "factors": [
+        "held_phone",
+        "partial_phone"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "vừa",
+      "observation": "Điện thoại dưới mép bàn trong tay, tối và bị che một phần; hình dạng còn thấy ở 224. Phone FN cả hai; crop không có đầu nên looking U.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "51cd4443b7a9803ca283d8a33dcee808fce7f0a45a9c72e320db859bcb34c832",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-EX-C122",
+      "cohort": "selection",
+      "factors": [
+        "outside_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "vừa",
+      "observation": "Anchor phía sau nghiêng người nhìn về phía người/bàn trước; crop dọc hẹp có vùng bài phía trước, looking TP cả hai. Source/crop vốn ít chi tiết.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "67688d2f4554c1d67dfbf1d97761ada5e6d57893d5b761e304f1b7099712e7db",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-EX-C042",
+      "cohort": "selection",
+      "factors": [
+        "desk_phone",
+        "partial_phone",
+        "outside_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "cao",
+      "observation": "Anchor áo đỏ quay rõ sang người bên trái; phone ở mép bàn, một phần bị tài liệu che. Phone TP cả hai; looking từ LP TP thành L4 FN dù tư thế vẫn thấy ở 224.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "e2aad9b73be63ab3d046591c790f6da48799656d440656ab23152880df37a205",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-EX-C054",
+      "cohort": "selection",
+      "factors": [
+        "outside_workarea"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "vừa",
+      "observation": "Crop gốc 164×161, được upscale ở input 224; anchor nhìn lên ngoài bài. Vật cầm tay đã được owner xác nhận là tài liệu, không phải phone. Looking LP TP/L4 FN.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "4be1e007d8fe7628af397f7162316b3c06518f8b8420cec044e4c080856123fb",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-EX-C055",
+      "cohort": "selection",
+      "factors": [
+        "desk_phone",
+        "outside_workarea"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "vừa",
+      "observation": "Crop gốc 179×170, phone nhỏ sát cạnh bàn phải; anchor tựa đầu, nhìn sang bên. Phone và looking FN cả hai; chi tiết nguồn thấp trước resize.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "7c71022766048eb5154717554dfd51e41d12fa2964e97f3ca4b1a025c2c8c2be",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-EX-C056",
+      "cohort": "selection",
+      "factors": [
+        "desk_phone",
+        "outside_workarea"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "cao",
+      "observation": "Crop gốc 157×166 được upscale; anchor quay rõ sang bên, tay giơ, phone nhỏ trên bàn phía trước. LP TP cả hai; L4 FN cả hai.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "697e74ac59a333106e1a3a5d779b43fdbc799701a015804f42d2ae9e584a1ae6",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-EX-C195",
+      "cohort": "selection",
+      "factors": [
+        "desk_phone",
+        "own_workarea"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "cao",
+      "observation": "Phone mỏng ở cạnh bàn phải, ngoài vùng sách/tay trung tâm; nhìn được ở crop gốc 301×240. Cả hai bỏ sót phone, looking TN; 224 làm vật nhỏ thêm.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "2a17f3095dfe9fcc886b1a43c9435712cbfd928ae9ac3439a978ecbec157553b",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-EX-C199",
+      "cohort": "selection",
+      "factors": [
+        "desk_phone",
+        "outside_workarea"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "vừa",
+      "observation": "Crop gốc 192×170 được upscale; phone nhỏ đen trên mặt bàn, anchor quay về sau, mặt bị khuất. Cả hai FN hai target.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "5ccf60fca1be0ef67e1e9e8667a873c62f7880e9d1f5aca9c5dba63f87ec628f",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-EX-C044",
+      "cohort": "selection",
+      "factors": [
+        "outside_workarea"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "cao",
+      "observation": "Anchor nhìn rõ sang bên khác tờ giấy; mắt/hướng đầu và vùng bài còn thấy ở 224. Looking FN cả hai, phone TN.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "9a3615337eb1cb3132b59061d8365ea56c5f3a0de4a2715a8dad7fb68e725811",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-EX-C045",
+      "cohort": "selection",
+      "factors": [
+        "pen_negative",
+        "own_workarea"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "cao",
+      "observation": "Anchor cúi viết vào giấy, tay cầm bút; hai target TN cả LP/L4.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "d840fd19b1520b866708417896f09970afbb272861613289ddbf73887f463e6a",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-EX-C193",
+      "cohort": "selection",
+      "factors": [
+        "pen_negative",
+        "own_workarea"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "cao",
+      "observation": "Anchor nhìn về tờ giấy, cầm bút; N/N đã owner sửa rõ, cả hai model TN.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "d5870569ce3a2c9248c3be30edbcc4325f81909088c5172ddf0b26b47ec1cae9",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-EX-C194",
+      "cohort": "selection",
+      "factors": [
+        "pen_negative",
+        "outside_workarea"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "cao",
+      "observation": "Anchor nhìn sang bên và giơ hai ngón tay, tay kia cầm bút. Looking FN cả hai; phone FP của LP được L4 sửa thành TN.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "40064e1d8e67fd965312ae8393034d53c99d43ca261d388c435d67198ac01bdf",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-CN-042",
+      "cohort": "selection",
+      "factors": [
+        "outside_workarea"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "vừa",
+      "observation": "Anchor nhìn phía trước ngoài bài, mặt góc nghiêng/sau và source video ít chi tiết. Looking FN cả hai; phone U. 224 chỉ downsample nhẹ từ cạnh dài 240.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "a256d2cfca36058944891b8a54ceaa1616a502d8acfb600a650e2b49fc13d6aa",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-CN-043",
+      "cohort": "selection",
+      "factors": [
+        "own_workarea"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "vừa",
+      "observation": "Anchor cúi về giấy/bút; crop 185×186 được upscale, looking TN cả hai, phone U.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "14a313da8e8a8836fb10d513c224be459998c2202548296c863ed3335ca58126",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-CN-044",
+      "cohort": "selection",
+      "factors": [
+        "outside_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "vừa",
+      "observation": "Anchor chống tay lên mặt, đầu hướng ra ngoài bài; người bên cạnh cùng context, source ít chi tiết. Looking FN cả hai, phone TN.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "5bc75dff94797f221fd14f24df9e8c7a4fd4815d895240013a0ce08b093eb58a",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-CN-045",
+      "cohort": "selection",
+      "factors": [
+        "outside_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "vừa",
+      "observation": "Anchor đeo kính hướng phía trước ngoài tờ bài, cả hai tay trên bàn; người khác sát mép crop. Looking FN cả hai, phone TN.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "d0857a7ca108ed66fce583e81d71b358ded05a6a514e2d6333f397b39cba5111",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-CN-056",
+      "cohort": "selection",
+      "factors": [
+        "own_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "vừa",
+      "observation": "Anchor phía sau cúi về giấy/bút, foreground che một phần thân; cả hai TN hai target.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "91ab15c577f904c11d59d8f6d54788dcd2e5b24ea9ba5d5cadead2828d97d9ef",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-CN-046",
+      "cohort": "selection",
+      "factors": [
+        "own_workarea"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "cao",
+      "observation": "Anchor đọc sách giơ trước mặt; crop rất ngang tạo padding lớn ở 224; looking TN cả hai, phone U.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "3baf2b7583213e97e8a1d4c5c67b1505e472d133e79d5293fc38ec70a4ccd2cb",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-CN-047",
+      "cohort": "selection",
+      "factors": [
+        "own_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "vừa",
+      "observation": "Anchor đọc sách giơ trước mặt, nhiều người cạnh/foreground, looking TN cả hai; phone U.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "cd675f8179384cf4fd4260b49c1870c4fa9f461d5f90f9cb2212a5562babadcb",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-CN-048",
+      "cohort": "selection",
+      "factors": [
+        "own_workarea"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "cao",
+      "observation": "Anchor đứng đọc sách với hai tay giữ sách; LP FP cả hai, L4 TN cả hai. Evidence đọc sách còn rõ ở 224.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "0ed65f6320a155a9310ddb94bc569c5d9003e4813374d78716bc730cad009b95",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-CN-050",
+      "cohort": "selection",
+      "factors": [
+        "own_workarea"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "vừa",
+      "observation": "Anchor cúi viết, tay gần mặt và tóc che; source ít chi tiết, looking TN cả hai; phone U theo accepted.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "fabcc1e0c95196629609d6fa557e2241d9cc9cb28222a55300050c51a368f761",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-CN-052",
+      "cohort": "selection",
+      "factors": [
+        "pen_negative",
+        "multi_person_context"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "vừa",
+      "observation": "Tay cầm bút viết, tóc che mặt, nhiều người cùng crop. Phone FP cả hai; looking U. Không thấy đủ cơ sở đảo N thành P.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "67dfd835bbedd934c3e94011ac9a73dfcad332dce45daf2a5d76e7a78af0b2b5",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-CN-053",
+      "cohort": "selection",
+      "factors": [
+        "pen_negative",
+        "own_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "cao",
+      "observation": "Anchor tóc buộc cúi viết, người kế bên cùng context; TN hai target cả LP/L4.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "a64d8c4d40432b6a7641b7d5370f64a9946817b1bd816fe7a55aa3dfc5aa8f5b",
+      "status": "draft_pending_owner_review"
+    },
+    {
+      "sample_id": "E004-CN-055",
+      "cohort": "selection",
+      "factors": [
+        "pen_negative",
+        "own_workarea",
+        "multi_person_context"
+      ],
+      "evidence_224": "see_prior_observation",
+      "confidence": "vừa",
+      "observation": "Anchor cúi viết trong lớp đông, foreground che một phần; TN cả hai target của LP/L4.",
+      "basis": "mapped_from_prior_draft_not_new_review",
+      "crop_sha256": "95f0d5317eeddad9610188b2ba7c41244a832bbf55da4452e94cb6b753a01ed5",
+      "status": "draft_pending_owner_review"
+    }
+  ]
+}

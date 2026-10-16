@@ -16,6 +16,7 @@ from typing import Any, Literal, TypeVar
 from ai_exam_monitoring.common.errors import DataContractError
 
 SCHEMA_VERSION = "pilot-b-manifest-v1"
+DERIVED_SCHEMA_VERSION = "pilot-b-manifest-v2"
 TARGET_ENCODING_VERSION = "pilot-b-targets-v1"
 TARGET_ORDER = ("phone_use", "looking_around")
 
@@ -182,6 +183,33 @@ class SourceRef:
 
 
 @dataclass(frozen=True, slots=True)
+class CropDerivation:
+    """Reviewed imported derivative; does not claim a reproducible resize recipe."""
+
+    source_sha256: str
+    native_roi_rgb_sha256: str
+    output_width: int
+    output_height: int
+    output_format: str
+    evidence_ref: str
+    review: ReviewEvidence
+    kind: str = "reviewed_import"
+
+    def __post_init__(self) -> None:
+        if self.kind != "reviewed_import":
+            raise DataContractError("Unsupported crop derivation kind")
+        _sha(self.source_sha256, "derivation.source_sha256")
+        _sha(self.native_roi_rgb_sha256, "derivation.native_roi_rgb_sha256")
+        _integer(self.output_width, "derivation.output_width", 1)
+        _integer(self.output_height, "derivation.output_height", 1)
+        if self.output_format not in {"JPEG", "PNG"}:
+            raise DataContractError("Derived crop format must be JPEG or PNG")
+        _text(self.evidence_ref, "derivation.evidence_ref")
+        if not isinstance(self.review, ReviewEvidence) or self.review.crop_sha256 is None:
+            raise DataContractError("Derived crop requires review bound to output SHA")
+
+
+@dataclass(frozen=True, slots=True)
 class CropRef:
     """A context crop with optional joint person/crop owner approval."""
 
@@ -191,6 +219,7 @@ class CropRef:
     crop_relpath: str
     crop_sha256: str
     review: ReviewEvidence | None = None
+    derivation: CropDerivation | None = None
 
     def __post_init__(self) -> None:
         _text(self.person_id, "person_id")
@@ -200,6 +229,11 @@ class CropRef:
             raise DataContractError("Context crop must contain the visible-person box")
         _relative_path(self.crop_relpath, "crop_relpath")
         _sha(self.crop_sha256, "crop_sha256")
+        if self.derivation is not None and (
+            not isinstance(self.derivation, CropDerivation)
+            or self.derivation.review.crop_sha256 != self.crop_sha256
+        ):
+            raise DataContractError("Derivation review must bind to crop SHA")
         if self.review is not None and (
             not isinstance(self.review, ReviewEvidence)
             or self.review.crop_sha256 != self.crop_sha256
@@ -271,7 +305,7 @@ class PilotRecord:
     target_encoding_version: str = TARGET_ENCODING_VERSION
 
     def __post_init__(self) -> None:
-        if self.schema_version != SCHEMA_VERSION:
+        if self.schema_version not in {SCHEMA_VERSION, DERIVED_SCHEMA_VERSION}:
             raise DataContractError(f"Unsupported schema_version: {self.schema_version!r}")
         if self.target_encoding_version != TARGET_ENCODING_VERSION:
             raise DataContractError("Unsupported target encoding version")
@@ -314,6 +348,11 @@ class PilotRecord:
         if self.split is not None and self.split not in {"train", "val", "test"}:
             raise DataContractError("Invalid split")
         if self.crop is not None:
+            if self.crop.derivation is not None and (
+                self.schema_version != DERIVED_SCHEMA_VERSION
+                or self.crop.derivation.source_sha256 != self.source.image_sha256
+            ):
+                raise DataContractError("Derived crop requires V2 and matching source SHA")
             bounds = PixelBox(0, 0, self.source.image_width, self.source.image_height)
             if not bounds.contains(self.crop.context_box):
                 raise DataContractError("Crop must be within source-image dimensions")
@@ -389,6 +428,9 @@ class PilotRecord:
 
 def record_to_dict(record: PilotRecord) -> dict[str, Any]:
     payload = asdict(record)
+    if record.schema_version == SCHEMA_VERSION and payload["crop"] is not None:
+        # Frozen V1 serialization, including historical test hashes, is unchanged.
+        payload["crop"].pop("derivation")
     payload["target_order"] = list(TARGET_ORDER)
     payload["target_values"] = list(record.target_values)
     payload["target_mask"] = list(record.target_mask)
@@ -455,6 +497,12 @@ def record_from_dict(value: Mapping[str, Any]) -> PilotRecord:
     payload["rights"] = _construct(RightsReview, rights)
     if payload.get("crop") is not None:
         crop = _object(payload["crop"], "crop")
+        if "derivation" in crop and payload["schema_version"] == SCHEMA_VERSION:
+            raise DataContractError("V1 crop cannot contain derivation fields")
+        if crop.get("derivation") is not None:
+            derivation = _object(crop["derivation"], "derivation")
+            derivation["review"] = _review(derivation.get("review"))
+            crop["derivation"] = _construct(CropDerivation, derivation)
         for name in ("person_box", "context_box"):
             crop[name] = _construct(PixelBox, _object(crop.get(name), name))
         crop["review"] = _review(crop.get("review"))

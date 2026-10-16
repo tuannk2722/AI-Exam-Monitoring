@@ -1,0 +1,1161 @@
+{
+  "status": "draft_purposive_review_not_population_coverage",
+  "denominator": {
+    "train": 44,
+    "selection": 31
+  },
+  "factors": {
+    "calculator_negative": {
+      "train": {
+        "reviewed_count": 2,
+        "families": 2,
+        "sources": {
+          "classroom_attitude": 1,
+          "roboflow_v1": 1
+        },
+        "sample_ids": [
+          "V7-A-004",
+          "V7-OE-S114-A01"
+        ],
+        "support": {
+          "WH": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 2,
+              "unknown": 0,
+              "TP": 0,
+              "FP": 1,
+              "FN": 0,
+              "TN": 1
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 2,
+              "unknown": 0,
+              "TP": 0,
+              "FP": 0,
+              "FN": 0,
+              "TN": 2
+            }
+          },
+          "LP": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 2,
+              "unknown": 0,
+              "TP": 0,
+              "FP": 1,
+              "FN": 0,
+              "TN": 1
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 2,
+              "unknown": 0,
+              "TP": 0,
+              "FP": 0,
+              "FN": 0,
+              "TN": 2
+            }
+          }
+        }
+      },
+      "selection": {
+        "reviewed_count": 2,
+        "families": 1,
+        "sources": {
+          "consolidated-frames-20261013": 1,
+          "pexels-v2-20261013": 1
+        },
+        "sample_ids": [
+          "E004-CF-C029",
+          "E004-EX-C029"
+        ],
+        "support": {
+          "WH": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 2,
+              "unknown": 0,
+              "TP": 0,
+              "FP": 1,
+              "FN": 0,
+              "TN": 1
+            },
+            "looking_around": {
+              "positive": 1,
+              "negative": 1,
+              "unknown": 0,
+              "TP": 0,
+              "FP": 0,
+              "FN": 1,
+              "TN": 1
+            }
+          },
+          "LP": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 2,
+              "unknown": 0,
+              "TP": 0,
+              "FP": 1,
+              "FN": 0,
+              "TN": 1
+            },
+            "looking_around": {
+              "positive": 1,
+              "negative": 1,
+              "unknown": 0,
+              "TP": 0,
+              "FP": 0,
+              "FN": 1,
+              "TN": 1
+            }
+          }
+        }
+      }
+    },
+    "desk_phone": {
+      "train": {
+        "reviewed_count": 3,
+        "families": 3,
+        "sources": {
+          "exam_cheating_keaor": 1,
+          "student_behaviour": 1,
+          "classroom_attitude": 1
+        },
+        "sample_ids": [
+          "V6-EX-020",
+          "V6-SB-003",
+          "V7-A-001"
+        ],
+        "support": {
+          "WH": {
+            "phone_use": {
+              "positive": 3,
+              "negative": 0,
+              "unknown": 0,
+              "TP": 0,
+              "FP": 0,
+              "FN": 3,
+              "TN": 0
+            },
+            "looking_around": {
+              "positive": 1,
+              "negative": 0,
+              "unknown": 2,
+              "TP": 0,
+              "FP": 0,
+              "FN": 1,
+              "TN": 0
+            }
+          },
+          "LP": {
+            "phone_use": {
+              "positive": 3,
+              "negative": 0,
+              "unknown": 0,
+              "TP": 3,
+              "FP": 0,
+              "FN": 0,
+              "TN": 0
+            },
+            "looking_around": {
+              "positive": 1,
+              "negative": 0,
+              "unknown": 2,
+              "TP": 0,
+              "FP": 0,
+              "FN": 1,
+              "TN": 0
+            }
+          }
+        }
+      },
+      "selection": {
+        "reviewed_count": 6,
+        "families": 2,
+        "sources": {
+          "pexels-v2-20261013": 6
+        },
+        "sample_ids": [
+          "E004-EX-C009",
+          "E004-EX-C042",
+          "E004-EX-C055",
+          "E004-EX-C056",
+          "E004-EX-C195",
+          "E004-EX-C199"
+        ],
+        "support": {
+          "WH": {
+            "phone_use": {
+              "positive": 6,
+              "negative": 0,
+              "unknown": 0,
+              "TP": 2,
+              "FP": 0,
+              "FN": 4,
+              "TN": 0
+            },
+            "looking_around": {
+              "positive": 4,
+              "negative": 2,
+              "unknown": 0,
+              "TP": 2,
+              "FP": 0,
+              "FN": 2,
+              "TN": 2
+            }
+          },
+          "LP": {
+            "phone_use": {
+              "positive": 6,
+              "negative": 0,
+              "unknown": 0,
+              "TP": 3,
+              "FP": 0,
+              "FN": 3,
+              "TN": 0
+            },
+            "looking_around": {
+              "positive": 4,
+              "negative": 2,
+              "unknown": 0,
+              "TP": 2,
+              "FP": 0,
+              "FN": 2,
+              "TN": 2
+            }
+          }
+        }
+      }
+    },
+    "held_phone": {
+      "train": {
+        "reviewed_count": 13,
+        "families": 10,
+        "sources": {
+          "pexels-v2-20261013": 2,
+          "unsplash-20261013": 1,
+          "consolidated-frames-20261013": 2,
+          "classroom_monitoring_v2": 4,
+          "student_behaviour": 1,
+          "classroom_attitude": 2,
+          "openimages_train_prefix": 1
+        },
+        "sample_ids": [
+          "E004-EX-C001",
+          "E004-EX-C002",
+          "E004-EX-C080",
+          "E004-EX-C136",
+          "E004-EX-C142",
+          "EXP-CM-003",
+          "EXP-CM-004",
+          "EXP-CM-007",
+          "EXP-CM-008",
+          "V6R2-MP-010",
+          "V7-B-041",
+          "V7-B-051",
+          "V7-B-074"
+        ],
+        "support": {
+          "WH": {
+            "phone_use": {
+              "positive": 13,
+              "negative": 0,
+              "unknown": 0,
+              "TP": 7,
+              "FP": 0,
+              "FN": 6,
+              "TN": 0
+            },
+            "looking_around": {
+              "positive": 4,
+              "negative": 3,
+              "unknown": 6,
+              "TP": 3,
+              "FP": 0,
+              "FN": 1,
+              "TN": 3
+            }
+          },
+          "LP": {
+            "phone_use": {
+              "positive": 13,
+              "negative": 0,
+              "unknown": 0,
+              "TP": 10,
+              "FP": 0,
+              "FN": 3,
+              "TN": 0
+            },
+            "looking_around": {
+              "positive": 4,
+              "negative": 3,
+              "unknown": 6,
+              "TP": 3,
+              "FP": 1,
+              "FN": 1,
+              "TN": 2
+            }
+          }
+        }
+      },
+      "selection": {
+        "reviewed_count": 2,
+        "families": 1,
+        "sources": {
+          "consolidated-frames-20261013": 2
+        },
+        "sample_ids": [
+          "E004-CF-C021",
+          "E004-EX-C120"
+        ],
+        "support": {
+          "WH": {
+            "phone_use": {
+              "positive": 2,
+              "negative": 0,
+              "unknown": 0,
+              "TP": 1,
+              "FP": 0,
+              "FN": 1,
+              "TN": 0
+            },
+            "looking_around": {
+              "positive": 1,
+              "negative": 0,
+              "unknown": 1,
+              "TP": 0,
+              "FP": 0,
+              "FN": 1,
+              "TN": 0
+            }
+          },
+          "LP": {
+            "phone_use": {
+              "positive": 2,
+              "negative": 0,
+              "unknown": 0,
+              "TP": 1,
+              "FP": 0,
+              "FN": 1,
+              "TN": 0
+            },
+            "looking_around": {
+              "positive": 1,
+              "negative": 0,
+              "unknown": 1,
+              "TP": 0,
+              "FP": 0,
+              "FN": 1,
+              "TN": 0
+            }
+          }
+        }
+      }
+    },
+    "multi_person_context": {
+      "train": {
+        "reviewed_count": 28,
+        "families": 21,
+        "sources": {
+          "unsplash-20261013": 1,
+          "consolidated-frames-20261013": 2,
+          "classroom_monitoring_v2": 6,
+          "roboflow_v1": 3,
+          "scb_hrw": 2,
+          "scb_head": 2,
+          "classroom_attitude": 5,
+          "exam_cheating_keaor": 1,
+          "coco_2017_train": 1,
+          "openimages_train_prefix": 1,
+          "student_behaviour": 1,
+          "commons_classroom_gapfill": 1,
+          "wmf_knowledge_everyone": 2
+        },
+        "sample_ids": [
+          "E004-EX-C089",
+          "E004-EX-C136",
+          "E004-EX-C142",
+          "EXP-CM-003",
+          "EXP-CM-004",
+          "EXP-CM-005",
+          "EXP-CM-007",
+          "EXP-CM-008",
+          "EXP-CM-016",
+          "EXP-RF-023",
+          "EXP-SCB-001",
+          "EXP-SCB-003",
+          "EXP-SCB-037",
+          "V6-CA-025",
+          "V6-EX-020",
+          "V7-A-004",
+          "V7-A-022",
+          "V7-A-065",
+          "V7-B-034",
+          "V7-B-040",
+          "V7-B-041",
+          "V7-B-051",
+          "V7-C-038",
+          "V7-OE-S061-A01",
+          "V7-OE-S112-A01",
+          "V7-OE-S114-A01",
+          "V7-R8-C-007",
+          "V7-R8-C-008"
+        ],
+        "support": {
+          "WH": {
+            "phone_use": {
+              "positive": 9,
+              "negative": 12,
+              "unknown": 7,
+              "TP": 4,
+              "FP": 6,
+              "FN": 5,
+              "TN": 6
+            },
+            "looking_around": {
+              "positive": 11,
+              "negative": 13,
+              "unknown": 4,
+              "TP": 5,
+              "FP": 6,
+              "FN": 6,
+              "TN": 7
+            }
+          },
+          "LP": {
+            "phone_use": {
+              "positive": 9,
+              "negative": 12,
+              "unknown": 7,
+              "TP": 6,
+              "FP": 5,
+              "FN": 3,
+              "TN": 7
+            },
+            "looking_around": {
+              "positive": 11,
+              "negative": 13,
+              "unknown": 4,
+              "TP": 5,
+              "FP": 6,
+              "FN": 6,
+              "TN": 7
+            }
+          }
+        }
+      },
+      "selection": {
+        "reviewed_count": 11,
+        "families": 6,
+        "sources": {
+          "consolidated-frames-20261013": 2,
+          "pexels-v2-20261013": 2,
+          "studentclassroombehavior": 7
+        },
+        "sample_ids": [
+          "E004-CF-C021",
+          "E004-EX-C051",
+          "E004-EX-C122",
+          "E004-EX-C042",
+          "E004-CN-044",
+          "E004-CN-045",
+          "E004-CN-056",
+          "E004-CN-047",
+          "E004-CN-052",
+          "E004-CN-053",
+          "E004-CN-055"
+        ],
+        "support": {
+          "WH": {
+            "phone_use": {
+              "positive": 2,
+              "negative": 7,
+              "unknown": 2,
+              "TP": 2,
+              "FP": 0,
+              "FN": 0,
+              "TN": 7
+            },
+            "looking_around": {
+              "positive": 5,
+              "negative": 5,
+              "unknown": 1,
+              "TP": 2,
+              "FP": 0,
+              "FN": 3,
+              "TN": 5
+            }
+          },
+          "LP": {
+            "phone_use": {
+              "positive": 2,
+              "negative": 7,
+              "unknown": 2,
+              "TP": 2,
+              "FP": 1,
+              "FN": 0,
+              "TN": 6
+            },
+            "looking_around": {
+              "positive": 5,
+              "negative": 5,
+              "unknown": 1,
+              "TP": 2,
+              "FP": 0,
+              "FN": 3,
+              "TN": 5
+            }
+          }
+        }
+      }
+    },
+    "other_device_negative": {
+      "train": {
+        "reviewed_count": 3,
+        "families": 3,
+        "sources": {
+          "classroom_attitude": 1,
+          "coco_2017_train": 1,
+          "openimages_train_prefix": 1
+        },
+        "sample_ids": [
+          "V6-CA-005",
+          "V7-A-047",
+          "V7-A-051"
+        ],
+        "support": {
+          "WH": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 3,
+              "unknown": 0,
+              "TP": 0,
+              "FP": 3,
+              "FN": 0,
+              "TN": 0
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 1,
+              "unknown": 2,
+              "TP": 0,
+              "FP": 1,
+              "FN": 0,
+              "TN": 0
+            }
+          },
+          "LP": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 3,
+              "unknown": 0,
+              "TP": 0,
+              "FP": 3,
+              "FN": 0,
+              "TN": 0
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 1,
+              "unknown": 2,
+              "TP": 0,
+              "FP": 1,
+              "FN": 0,
+              "TN": 0
+            }
+          }
+        }
+      },
+      "selection": {
+        "reviewed_count": 0,
+        "families": 0,
+        "sources": {},
+        "sample_ids": [],
+        "support": {
+          "WH": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 0,
+              "unknown": 0,
+              "TP": 0,
+              "FP": 0,
+              "FN": 0,
+              "TN": 0
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 0,
+              "unknown": 0,
+              "TP": 0,
+              "FP": 0,
+              "FN": 0,
+              "TN": 0
+            }
+          },
+          "LP": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 0,
+              "unknown": 0,
+              "TP": 0,
+              "FP": 0,
+              "FN": 0,
+              "TN": 0
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 0,
+              "unknown": 0,
+              "TP": 0,
+              "FP": 0,
+              "FN": 0,
+              "TN": 0
+            }
+          }
+        }
+      }
+    },
+    "outside_workarea": {
+      "train": {
+        "reviewed_count": 12,
+        "families": 12,
+        "sources": {
+          "pexels-v2-20261013": 1,
+          "roboflow_v1": 3,
+          "scb_head": 2,
+          "classroom_attitude": 2,
+          "exam_cheating_keaor": 2,
+          "coco_2017_train": 1,
+          "wmf_knowledge_everyone": 1
+        },
+        "sample_ids": [
+          "E004-EX-C001",
+          "EXP-RF-003",
+          "EXP-RF-019",
+          "EXP-RF-023",
+          "EXP-SCB-003",
+          "EXP-SCB-037",
+          "V6-CA-025",
+          "V6-CA-028",
+          "V6-EX-017",
+          "V6-EX-020",
+          "V7-A-022",
+          "V7-R8-C-007"
+        ],
+        "support": {
+          "WH": {
+            "phone_use": {
+              "positive": 2,
+              "negative": 7,
+              "unknown": 3,
+              "TP": 1,
+              "FP": 5,
+              "FN": 1,
+              "TN": 2
+            },
+            "looking_around": {
+              "positive": 12,
+              "negative": 0,
+              "unknown": 0,
+              "TP": 6,
+              "FP": 0,
+              "FN": 6,
+              "TN": 0
+            }
+          },
+          "LP": {
+            "phone_use": {
+              "positive": 2,
+              "negative": 7,
+              "unknown": 3,
+              "TP": 2,
+              "FP": 5,
+              "FN": 0,
+              "TN": 2
+            },
+            "looking_around": {
+              "positive": 12,
+              "negative": 0,
+              "unknown": 0,
+              "TP": 9,
+              "FP": 0,
+              "FN": 3,
+              "TN": 0
+            }
+          }
+        }
+      },
+      "selection": {
+        "reviewed_count": 14,
+        "families": 5,
+        "sources": {
+          "consolidated-frames-20261013": 2,
+          "pexels-v2-20261013": 9,
+          "studentclassroombehavior": 3
+        },
+        "sample_ids": [
+          "E004-CF-C021",
+          "E004-EX-C027",
+          "E004-EX-C029",
+          "E004-EX-C122",
+          "E004-EX-C042",
+          "E004-EX-C054",
+          "E004-EX-C055",
+          "E004-EX-C056",
+          "E004-EX-C199",
+          "E004-EX-C044",
+          "E004-EX-C194",
+          "E004-CN-042",
+          "E004-CN-044",
+          "E004-CN-045"
+        ],
+        "support": {
+          "WH": {
+            "phone_use": {
+              "positive": 5,
+              "negative": 6,
+              "unknown": 3,
+              "TP": 2,
+              "FP": 0,
+              "FN": 3,
+              "TN": 6
+            },
+            "looking_around": {
+              "positive": 14,
+              "negative": 0,
+              "unknown": 0,
+              "TP": 3,
+              "FP": 0,
+              "FN": 11,
+              "TN": 0
+            }
+          },
+          "LP": {
+            "phone_use": {
+              "positive": 5,
+              "negative": 6,
+              "unknown": 3,
+              "TP": 3,
+              "FP": 1,
+              "FN": 2,
+              "TN": 5
+            },
+            "looking_around": {
+              "positive": 14,
+              "negative": 0,
+              "unknown": 0,
+              "TP": 5,
+              "FP": 0,
+              "FN": 9,
+              "TN": 0
+            }
+          }
+        }
+      }
+    },
+    "own_workarea": {
+      "train": {
+        "reviewed_count": 18,
+        "families": 17,
+        "sources": {
+          "pexels-v2-20261013": 1,
+          "consolidated-frames-20261013": 2,
+          "classroom_monitoring_v2": 2,
+          "scb_hrw": 2,
+          "exam_cheating_keaor": 1,
+          "classroom_attitude": 3,
+          "coco_2017_train": 1,
+          "openimages_train_prefix": 1,
+          "student_behaviour": 1,
+          "commons_classroom_gapfill": 1,
+          "roboflow_v1": 2,
+          "wmf_knowledge_everyone": 1
+        },
+        "sample_ids": [
+          "E004-EX-C002",
+          "E004-EX-C136",
+          "E004-EX-C142",
+          "EXP-CM-005",
+          "EXP-CM-016",
+          "EXP-SCB-001",
+          "V6-EX-039",
+          "V7-A-001",
+          "V7-A-004",
+          "V7-A-047",
+          "V7-A-065",
+          "V7-B-034",
+          "V7-B-040",
+          "V7-C-038",
+          "V7-OE-S042-A02",
+          "V7-OE-S112-A01",
+          "V7-OE-S114-A01",
+          "V7-R8-C-008"
+        ],
+        "support": {
+          "WH": {
+            "phone_use": {
+              "positive": 4,
+              "negative": 11,
+              "unknown": 3,
+              "TP": 2,
+              "FP": 7,
+              "FN": 2,
+              "TN": 4
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 16,
+              "unknown": 2,
+              "TP": 0,
+              "FP": 7,
+              "FN": 0,
+              "TN": 9
+            }
+          },
+          "LP": {
+            "phone_use": {
+              "positive": 4,
+              "negative": 11,
+              "unknown": 3,
+              "TP": 4,
+              "FP": 5,
+              "FN": 0,
+              "TN": 6
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 16,
+              "unknown": 2,
+              "TP": 0,
+              "FP": 7,
+              "FN": 0,
+              "TN": 9
+            }
+          }
+        }
+      },
+      "selection": {
+        "reviewed_count": 15,
+        "families": 10,
+        "sources": {
+          "consolidated-frames-20261013": 2,
+          "pexels-v2-20261013": 5,
+          "studentclassroombehavior": 8
+        },
+        "sample_ids": [
+          "E004-CF-C029",
+          "E004-CF-C031",
+          "E004-EX-C009",
+          "E004-EX-C051",
+          "E004-EX-C195",
+          "E004-EX-C045",
+          "E004-EX-C193",
+          "E004-CN-043",
+          "E004-CN-056",
+          "E004-CN-046",
+          "E004-CN-047",
+          "E004-CN-048",
+          "E004-CN-050",
+          "E004-CN-053",
+          "E004-CN-055"
+        ],
+        "support": {
+          "WH": {
+            "phone_use": {
+              "positive": 2,
+              "negative": 8,
+              "unknown": 5,
+              "TP": 1,
+              "FP": 2,
+              "FN": 1,
+              "TN": 6
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 15,
+              "unknown": 0,
+              "TP": 0,
+              "FP": 2,
+              "FN": 0,
+              "TN": 13
+            }
+          },
+          "LP": {
+            "phone_use": {
+              "positive": 2,
+              "negative": 8,
+              "unknown": 5,
+              "TP": 1,
+              "FP": 2,
+              "FN": 1,
+              "TN": 6
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 15,
+              "unknown": 0,
+              "TP": 0,
+              "FP": 2,
+              "FN": 0,
+              "TN": 13
+            }
+          }
+        }
+      }
+    },
+    "partial_phone": {
+      "train": {
+        "reviewed_count": 5,
+        "families": 5,
+        "sources": {
+          "classroom_monitoring_v2": 1,
+          "student_behaviour": 1,
+          "classroom_attitude": 2,
+          "openimages_train_prefix": 1
+        },
+        "sample_ids": [
+          "EXP-CM-008",
+          "V6-SB-003",
+          "V7-B-041",
+          "V7-B-051",
+          "V7-B-074"
+        ],
+        "support": {
+          "WH": {
+            "phone_use": {
+              "positive": 5,
+              "negative": 0,
+              "unknown": 0,
+              "TP": 3,
+              "FP": 0,
+              "FN": 2,
+              "TN": 0
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 0,
+              "unknown": 5,
+              "TP": 0,
+              "FP": 0,
+              "FN": 0,
+              "TN": 0
+            }
+          },
+          "LP": {
+            "phone_use": {
+              "positive": 5,
+              "negative": 0,
+              "unknown": 0,
+              "TP": 4,
+              "FP": 0,
+              "FN": 1,
+              "TN": 0
+            },
+            "looking_around": {
+              "positive": 0,
+              "negative": 0,
+              "unknown": 5,
+              "TP": 0,
+              "FP": 0,
+              "FN": 0,
+              "TN": 0
+            }
+          }
+        }
+      },
+      "selection": {
+        "reviewed_count": 2,
+        "families": 2,
+        "sources": {
+          "consolidated-frames-20261013": 1,
+          "pexels-v2-20261013": 1
+        },
+        "sample_ids": [
+          "E004-EX-C120",
+          "E004-EX-C042"
+        ],
+        "support": {
+          "WH": {
+            "phone_use": {
+              "positive": 2,
+              "negative": 0,
+              "unknown": 0,
+              "TP": 1,
+              "FP": 0,
+              "FN": 1,
+              "TN": 0
+            },
+            "looking_around": {
+              "positive": 1,
+              "negative": 0,
+              "unknown": 1,
+              "TP": 1,
+              "FP": 0,
+              "FN": 0,
+              "TN": 0
+            }
+          },
+          "LP": {
+            "phone_use": {
+              "positive": 2,
+              "negative": 0,
+              "unknown": 0,
+              "TP": 1,
+              "FP": 0,
+              "FN": 1,
+              "TN": 0
+            },
+            "looking_around": {
+              "positive": 1,
+              "negative": 0,
+              "unknown": 1,
+              "TP": 1,
+              "FP": 0,
+              "FN": 0,
+              "TN": 0
+            }
+          }
+        }
+      }
+    },
+    "pen_negative": {
+      "train": {
+        "reviewed_count": 13,
+        "families": 13,
+        "sources": {
+          "classroom_monitoring_v2": 1,
+          "roboflow_v1": 4,
+          "scb_hrw": 1,
+          "classroom_attitude": 3,
+          "exam_cheating_keaor": 2,
+          "student_behaviour": 1,
+          "commons_classroom_gapfill": 1
+        },
+        "sample_ids": [
+          "EXP-CM-005",
+          "EXP-RF-003",
+          "EXP-RF-019",
+          "EXP-SCB-001",
+          "V6-CA-025",
+          "V6-EX-017",
+          "V6-EX-039",
+          "V7-A-004",
+          "V7-B-034",
+          "V7-B-040",
+          "V7-OE-S042-A02",
+          "V7-OE-S112-A01",
+          "V7-OE-S114-A01"
+        ],
+        "support": {
+          "WH": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 13,
+              "unknown": 0,
+              "TP": 0,
+              "FP": 9,
+              "FN": 0,
+              "TN": 4
+            },
+            "looking_around": {
+              "positive": 4,
+              "negative": 8,
+              "unknown": 1,
+              "TP": 3,
+              "FP": 3,
+              "FN": 1,
+              "TN": 5
+            }
+          },
+          "LP": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 13,
+              "unknown": 0,
+              "TP": 0,
+              "FP": 7,
+              "FN": 0,
+              "TN": 6
+            },
+            "looking_around": {
+              "positive": 4,
+              "negative": 8,
+              "unknown": 1,
+              "TP": 4,
+              "FP": 3,
+              "FN": 0,
+              "TN": 5
+            }
+          }
+        }
+      },
+      "selection": {
+        "reviewed_count": 6,
+        "families": 3,
+        "sources": {
+          "pexels-v2-20261013": 3,
+          "studentclassroombehavior": 3
+        },
+        "sample_ids": [
+          "E004-EX-C045",
+          "E004-EX-C193",
+          "E004-EX-C194",
+          "E004-CN-052",
+          "E004-CN-053",
+          "E004-CN-055"
+        ],
+        "support": {
+          "WH": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 6,
+              "unknown": 0,
+              "TP": 0,
+              "FP": 0,
+              "FN": 0,
+              "TN": 6
+            },
+            "looking_around": {
+              "positive": 1,
+              "negative": 4,
+              "unknown": 1,
+              "TP": 0,
+              "FP": 0,
+              "FN": 1,
+              "TN": 4
+            }
+          },
+          "LP": {
+            "phone_use": {
+              "positive": 0,
+              "negative": 6,
+              "unknown": 0,
+              "TP": 0,
+              "FP": 2,
+              "FN": 0,
+              "TN": 4
+            },
+            "looking_around": {
+              "positive": 1,
+              "negative": 4,
+              "unknown": 1,
+              "TP": 0,
+              "FP": 0,
+              "FN": 1,
+              "TN": 4
+            }
+          }
+        }
+      }
+    }
+  },
+  "evidence_train": {
+    "clear": 23,
+    "uncertain": 3,
+    "limited_native": 17,
+    "reduced_at_224": 1
+  }
+}

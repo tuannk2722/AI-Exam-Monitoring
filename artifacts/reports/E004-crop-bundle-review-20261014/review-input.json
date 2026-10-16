@@ -1,0 +1,5860 @@
+{
+  "owner_snapshot_sha256": "16a30e0bf2e72248a22970609aeb519c54d896193d2a4e607de017d07ed1451b",
+  "rows": [
+    {
+      "row": 1,
+      "ids": [
+        "CB-0001",
+        "CB-0002",
+        "CB-0003",
+        "CB-0004",
+        "CB-0005",
+        "CB-0006",
+        "CB-0007",
+        "CB-0008",
+        "CB-0009",
+        "CB-0010",
+        "CB-0011",
+        "CB-0012",
+        "CB-0013",
+        "CB-0014",
+        "CB-0015",
+        "CB-0016",
+        "CB-0017"
+      ],
+      "explicit_labels": null,
+      "cells": [
+        "CB-0001 -> CB-0017",
+        "Nhiều vấn đề",
+        "Trong loạt crops này có xuất hiện thêm người đằng sau targeted anchor như vậy có ảnh hưởng gì không? CB-0006 looking_around rất rõ, vật màu trằng anchor cầm là calculator còn vật màu đen là phone"
+      ],
+      "raw": "| CB-0001 -> CB-0017 | Nhiều vấn đề | Trong loạt crops này có xuất hiện thêm người đằng sau targeted anchor như vậy có ảnh hưởng gì không? CB-0006 looking_around rất rõ, vật màu trằng anchor cầm là calculator còn vật màu đen là phone |"
+    },
+    {
+      "row": 2,
+      "ids": [
+        "CB-0018",
+        "CB-0019",
+        "CB-0020",
+        "CB-0021",
+        "CB-0022",
+        "CB-0023",
+        "CB-0024",
+        "CB-0025"
+      ],
+      "explicit_labels": null,
+      "cells": [
+        "CB-0018 -> CB-0025",
+        "Nhiều vấn đề",
+        "Trong loạt crops này có 2 targeted anchors, có vài crops có một anchor looking_around khá rõ",
+        ""
+      ],
+      "raw": "| CB-0018 -> CB-0025 | Nhiều vấn đề | Trong loạt crops này có 2 targeted anchors, có vài crops có một anchor looking_around khá rõ | "
+    },
+    {
+      "row": 3,
+      "ids": [
+        "CB-0027",
+        "CB-0029",
+        "CB-0031",
+        "CB-0032",
+        "CB-0033",
+        "CB-0034",
+        "CB-0035",
+        "CB-0036",
+        "CB-0037",
+        "CB-0038",
+        "CB-0039",
+        "CB-0040",
+        "CB-0041",
+        "CB-0042",
+        "CB-0043",
+        "CB-0044",
+        "CB-0045",
+        "CB-0046",
+        "CB-0047",
+        "CB-0048",
+        "CB-0049",
+        "CB-0050",
+        "CB-0051",
+        "CB-0052",
+        "CB-0053",
+        "CB-0054",
+        "CB-0055",
+        "CB-0056",
+        "CB-0057",
+        "CB-0058",
+        "CB-0059",
+        "CB-0060",
+        "CB-0061",
+        "CB-0062"
+      ],
+      "explicit_labels": "N/N",
+      "cells": [
+        "CB-0027, CB-0029, CB-0031 -> CB-0062",
+        "N/N",
+        "Đang cầm calculator"
+      ],
+      "raw": "| CB-0027, CB-0029, CB-0031 -> CB-0062 | N/N | Đang cầm calculator |"
+    },
+    {
+      "row": 4,
+      "ids": [
+        "CB-0030"
+      ],
+      "explicit_labels": null,
+      "cells": [
+        "CB-0030",
+        "Lỗi crop",
+        "Mất đầu anchor, nếu đủ thì sẽ là N/P"
+      ],
+      "raw": "| CB-0030 | Lỗi crop | Mất đầu anchor, nếu đủ thì sẽ là N/P |"
+    },
+    {
+      "row": 5,
+      "ids": [
+        "CB-0063",
+        "CB-0064",
+        "CB-0065",
+        "CB-0066",
+        "CB-0067",
+        "CB-0068",
+        "CB-0069",
+        "CB-0070",
+        "CB-0071",
+        "CB-0072",
+        "CB-0073",
+        "CB-0074",
+        "CB-0075",
+        "CB-0076",
+        "CB-0077",
+        "CB-0078",
+        "CB-0079",
+        "CB-0080",
+        "CB-0081",
+        "CB-0082",
+        "CB-0083",
+        "CB-0084",
+        "CB-0085",
+        "CB-0086",
+        "CB-0087"
+      ],
+      "explicit_labels": "P/N",
+      "cells": [
+        "CB-0063 -> CB-0087",
+        "P/N",
+        "Màu đen là phone còn màu trắng là calculator. Với tư thế cúi gằm mặt xuống bàn như vậy thì coi looking_around là N có hợp lý không? Vì theo tôi thì không nên chỉ dựa vào hướng mắt mà 80% dựa vào tư thế nữa. Một vài crop có dính thân người của anchor khác thì có ảnh hưởng gì không?"
+      ],
+      "raw": "| CB-0063 -> CB-0087 | P/N | Màu đen là phone còn màu trắng là calculator. Với tư thế cúi gằm mặt xuống bàn như vậy thì coi looking_around là N có hợp lý không? Vì theo tôi thì không nên chỉ dựa vào hướng mắt mà 80% dựa vào tư thế nữa. Một vài crop có dính thân người của anchor khác thì có ảnh hưởng gì không? |"
+    },
+    {
+      "row": 6,
+      "ids": [
+        "CB-0088",
+        "CB-0089",
+        "CB-0090",
+        "CB-0091",
+        "CB-0092",
+        "CB-0093",
+        "CB-0094",
+        "CB-0095",
+        "CB-0096",
+        "CB-0097",
+        "CB-0098",
+        "CB-0099",
+        "CB-0100",
+        "CB-0101",
+        "CB-0102",
+        "CB-0103",
+        "CB-0104",
+        "CB-0105",
+        "CB-0106",
+        "CB-0107",
+        "CB-0108",
+        "CB-0109",
+        "CB-0110",
+        "CB-0111",
+        "CB-0112"
+      ],
+      "explicit_labels": null,
+      "cells": [
+        "CB-0088 -> CB-0112",
+        "Nhiều vấn đề",
+        "Gần như toàn bộ crops đều bị dính người khác vào, đặc biệt là từ 0106 -> 0112 thì chẳng biết ai là targeted anchor. CB-0100 looking_around rõ, CB-0101 tay che đầu nhưng tư thế như vậy thì chắc chắn là looking_around"
+      ],
+      "raw": "| CB-0088 -> CB-0112 | Nhiều vấn đề | Gần như toàn bộ crops đều bị dính người khác vào, đặc biệt là từ 0106 -> 0112 thì chẳng biết ai là targeted anchor. CB-0100 looking_around rõ, CB-0101 tay che đầu nhưng tư thế như vậy thì chắc chắn là looking_around |"
+    },
+    {
+      "row": 7,
+      "ids": [
+        "CB-0113",
+        "CB-0114",
+        "CB-0115",
+        "CB-0116",
+        "CB-0117",
+        "CB-0118",
+        "CB-0119",
+        "CB-0120",
+        "CB-0121",
+        "CB-0122",
+        "CB-0123",
+        "CB-0124",
+        "CB-0125",
+        "CB-0126",
+        "CB-0127",
+        "CB-0128",
+        "CB-0129",
+        "CB-0130",
+        "CB-0131",
+        "CB-0132",
+        "CB-0133",
+        "CB-0134",
+        "CB-0135",
+        "CB-0136",
+        "CB-0137",
+        "CB-0138",
+        "CB-0139",
+        "CB-0140",
+        "CB-0141",
+        "CB-0142",
+        "CB-0143",
+        "CB-0144",
+        "CB-0145",
+        "CB-0146",
+        "CB-0147",
+        "CB-0148",
+        "CB-0149"
+      ],
+      "explicit_labels": "P/N",
+      "cells": [
+        "CB-0113 -> CB-0149",
+        "P/N",
+        "Vật màu trắng cầm trên tay là calculator, vật đặt trên bàn là phone. Càng về những crops sau thì người ngồi bên targeted anchor đang bị xuất hiện nhiều hơn trong crop"
+      ],
+      "raw": "| CB-0113 -> CB-0149 | P/N | Vật màu trắng cầm trên tay là calculator, vật đặt trên bàn là phone. Càng về những crops sau thì người ngồi bên targeted anchor đang bị xuất hiện nhiều hơn trong crop |"
+    },
+    {
+      "row": 8,
+      "ids": [
+        "CB-0150",
+        "CB-0151",
+        "CB-0152",
+        "CB-0153",
+        "CB-0154",
+        "CB-0155",
+        "CB-0156",
+        "CB-0157",
+        "CB-0158",
+        "CB-0159",
+        "CB-0160",
+        "CB-0161",
+        "CB-0162",
+        "CB-0163",
+        "CB-0164",
+        "CB-0165",
+        "CB-0166",
+        "CB-0167",
+        "CB-0168",
+        "CB-0169",
+        "CB-0170",
+        "CB-0171",
+        "CB-0172",
+        "CB-0173",
+        "CB-0174"
+      ],
+      "explicit_labels": "P/N",
+      "cells": [
+        "CB-0150 -> CB-0174",
+        "P/N",
+        "Vật màu đen trắng xuất hiện trong một vài crops là calculator còn vật còn lại đặt trên bàn là phone. Từ 0167 -> 0174 xuất hiện 4 người trong crop"
+      ],
+      "raw": "| CB-0150 -> CB-0174 | P/N | Vật màu đen trắng xuất hiện trong một vài crops là calculator còn vật còn lại đặt trên bàn là phone. Từ 0167 -> 0174 xuất hiện 4 người trong crop |"
+    },
+    {
+      "row": 9,
+      "ids": [
+        "CB-0175",
+        "CB-0176",
+        "CB-0177",
+        "CB-0178",
+        "CB-0179",
+        "CB-0180",
+        "CB-0181",
+        "CB-0182",
+        "CB-0183",
+        "CB-0184",
+        "CB-0185",
+        "CB-0186",
+        "CB-0187",
+        "CB-0188",
+        "CB-0189",
+        "CB-0190",
+        "CB-0191",
+        "CB-0192",
+        "CB-0193",
+        "CB-0194",
+        "CB-0195",
+        "CB-0196",
+        "CB-0197",
+        "CB-0198",
+        "CB-0199"
+      ],
+      "explicit_labels": "P/N",
+      "cells": [
+        "CB-0175 -> CB-0199",
+        "P/N",
+        "Vật màu xanh da trời trắng là calculator còn cái kia là phone"
+      ],
+      "raw": "| CB-0175 -> CB-0199 | P/N | Vật màu xanh da trời trắng là calculator còn cái kia là phone |"
+    },
+    {
+      "row": 10,
+      "ids": [
+        "CB-0200",
+        "CB-0201",
+        "CB-0202",
+        "CB-0203",
+        "CB-0204",
+        "CB-0205",
+        "CB-0206",
+        "CB-0207",
+        "CB-0208",
+        "CB-0209",
+        "CB-0210",
+        "CB-0211",
+        "CB-0212",
+        "CB-0213",
+        "CB-0214",
+        "CB-0215",
+        "CB-0216",
+        "CB-0217",
+        "CB-0218",
+        "CB-0219",
+        "CB-0220",
+        "CB-0221",
+        "CB-0222",
+        "CB-0223"
+      ],
+      "explicit_labels": "P/N",
+      "cells": [
+        "CB-0200 -> CB-0223",
+        "P/N",
+        "Vật màu đen trắng là calculator. Từ 0217 -> 0223 xuất hiện phần đầu của người ngồi phía trước targeted anchor trong crop"
+      ],
+      "raw": "| CB-0200 -> CB-0223 | P/N | Vật màu đen trắng là calculator. Từ 0217 -> 0223 xuất hiện phần đầu của người ngồi phía trước targeted anchor trong crop |"
+    },
+    {
+      "row": 11,
+      "ids": [
+        "CB-0224",
+        "CB-0225",
+        "CB-0226",
+        "CB-0227",
+        "CB-0228",
+        "CB-0229",
+        "CB-0230",
+        "CB-0231",
+        "CB-0232",
+        "CB-0233",
+        "CB-0234",
+        "CB-0235",
+        "CB-0236",
+        "CB-0237",
+        "CB-0238",
+        "CB-0239",
+        "CB-0240",
+        "CB-0241",
+        "CB-0242",
+        "CB-0243",
+        "CB-0244",
+        "CB-0245",
+        "CB-0246",
+        "CB-0247",
+        "CB-0248",
+        "CB-0249",
+        "CB-0250",
+        "CB-0251",
+        "CB-0252"
+      ],
+      "explicit_labels": null,
+      "cells": [
+        "CB-0224 -> CB-0252",
+        "Nhiều vấn đề",
+        "Không biết ai là targeted anchor vì crop có tới 4-5 người. Nếu targeted anrchor là nam áo trắng ở giữa thì vật trong tay rất khó phân biệt nhưng tôi chắc chắn đó là phone, còn bạn xử lý sao thì tùy"
+      ],
+      "raw": "| CB-0224 -> CB-0252 | Nhiều vấn đề | Không biết ai là targeted anchor vì crop có tới 4-5 người. Nếu targeted anrchor là nam áo trắng ở giữa thì vật trong tay rất khó phân biệt nhưng tôi chắc chắn đó là phone, còn bạn xử lý sao thì tùy |"
+    },
+    {
+      "row": 12,
+      "ids": [
+        "CB-0253",
+        "CB-0254",
+        "CB-0255",
+        "CB-0256",
+        "CB-0257",
+        "CB-0258",
+        "CB-0259",
+        "CB-0260",
+        "CB-0261",
+        "CB-0262",
+        "CB-0263",
+        "CB-0264",
+        "CB-0265",
+        "CB-0266",
+        "CB-0267",
+        "CB-0268",
+        "CB-0269",
+        "CB-0270",
+        "CB-0271",
+        "CB-0272",
+        "CB-0273",
+        "CB-0274",
+        "CB-0275",
+        "CB-0276",
+        "CB-0277",
+        "CB-0278",
+        "CB-0279",
+        "CB-0280",
+        "CB-0281"
+      ],
+      "explicit_labels": "P/N",
+      "cells": [
+        "CB-0253-> CB-0281",
+        "P/N",
+        "Phone có màn hình sáng còn calculator màu đen, crop bị dính ít thân người của bạn ngồi cạnh"
+      ],
+      "raw": "| CB-0253-> CB-0281 | P/N | Phone có màn hình sáng còn calculator màu đen, crop bị dính ít thân người của bạn ngồi cạnh |"
+    },
+    {
+      "row": 13,
+      "ids": [
+        "CB-0282",
+        "CB-0283",
+        "CB-0284",
+        "CB-0285",
+        "CB-0286",
+        "CB-0287",
+        "CB-0288",
+        "CB-0289",
+        "CB-0290",
+        "CB-0291",
+        "CB-0292",
+        "CB-0293",
+        "CB-0294",
+        "CB-0295",
+        "CB-0296",
+        "CB-0297",
+        "CB-0298",
+        "CB-0299",
+        "CB-0300",
+        "CB-0301",
+        "CB-0302",
+        "CB-0303",
+        "CB-0304",
+        "CB-0305",
+        "CB-0306",
+        "CB-0307",
+        "CB-0308",
+        "CB-0309",
+        "CB-0310",
+        "CB-0311",
+        "CB-0312",
+        "CB-0313",
+        "CB-0314",
+        "CB-0315",
+        "CB-0316",
+        "CB-0317",
+        "CB-0318",
+        "CB-0319",
+        "CB-0320",
+        "CB-0321",
+        "CB-0322",
+        "CB-0323",
+        "CB-0324",
+        "CB-0325",
+        "CB-0326",
+        "CB-0327",
+        "CB-0328",
+        "CB-0329",
+        "CB-0330",
+        "CB-0331",
+        "CB-0332",
+        "CB-0333",
+        "CB-0334",
+        "CB-0335",
+        "CB-0336",
+        "CB-0337",
+        "CB-0338",
+        "CB-0339",
+        "CB-0340",
+        "CB-0341",
+        "CB-0342",
+        "CB-0343",
+        "CB-0344",
+        "CB-0345",
+        "CB-0346",
+        "CB-0347",
+        "CB-0348",
+        "CB-0349",
+        "CB-0350",
+        "CB-0351",
+        "CB-0352",
+        "CB-0353",
+        "CB-0354",
+        "CB-0355",
+        "CB-0356",
+        "CB-0357",
+        "CB-0358",
+        "CB-0359",
+        "CB-0360",
+        "CB-0361",
+        "CB-0362",
+        "CB-0363",
+        "CB-0364",
+        "CB-0365",
+        "CB-0366",
+        "CB-0367",
+        "CB-0368"
+      ],
+      "explicit_labels": "P/N",
+      "cells": [
+        "CB-0282 -> CB-0368",
+        "P/N",
+        "Phone và calculator trong loạt crops này phân biệt khá rõ"
+      ],
+      "raw": "| CB-0282 -> CB-0368 | P/N | Phone và calculator trong loạt crops này phân biệt khá rõ |"
+    },
+    {
+      "row": 14,
+      "ids": [
+        "CB-0369",
+        "CB-0370",
+        "CB-0371",
+        "CB-0372",
+        "CB-0373",
+        "CB-0374",
+        "CB-0375",
+        "CB-0376",
+        "CB-0377",
+        "CB-0378",
+        "CB-0379",
+        "CB-0380",
+        "CB-0381",
+        "CB-0382",
+        "CB-0383",
+        "CB-0384",
+        "CB-0385",
+        "CB-0386",
+        "CB-0387",
+        "CB-0388",
+        "CB-0389",
+        "CB-0390",
+        "CB-0391",
+        "CB-0392",
+        "CB-0393",
+        "CB-0394",
+        "CB-0395",
+        "CB-0396",
+        "CB-0397"
+      ],
+      "explicit_labels": "P/N",
+      "cells": [
+        "CB-0369 -> CB-0397",
+        "P/N",
+        "Phone và calculator trong loạt crops này phân biệt khá rõ, các crops bị dính đầu bạn nam phía trước"
+      ],
+      "raw": "| CB-0369 -> CB-0397 | P/N | Phone và calculator trong loạt crops này phân biệt khá rõ, các crops bị dính đầu bạn nam phía trước |"
+    },
+    {
+      "row": 15,
+      "ids": [
+        "CB-0398",
+        "CB-0399",
+        "CB-0400",
+        "CB-0401",
+        "CB-0402",
+        "CB-0403",
+        "CB-0404",
+        "CB-0405",
+        "CB-0406",
+        "CB-0407",
+        "CB-0408",
+        "CB-0409",
+        "CB-0410",
+        "CB-0411",
+        "CB-0412",
+        "CB-0413",
+        "CB-0414",
+        "CB-0415",
+        "CB-0416",
+        "CB-0417",
+        "CB-0418",
+        "CB-0419",
+        "CB-0420",
+        "CB-0421",
+        "CB-0422",
+        "CB-0423",
+        "CB-0424",
+        "CB-0425",
+        "CB-0426",
+        "CB-0427",
+        "CB-0428",
+        "CB-0429",
+        "CB-0430",
+        "CB-0431",
+        "CB-0432",
+        "CB-0433",
+        "CB-0434",
+        "CB-0435",
+        "CB-0436",
+        "CB-0437",
+        "CB-0438",
+        "CB-0439",
+        "CB-0440",
+        "CB-0441",
+        "CB-0442",
+        "CB-0443",
+        "CB-0444",
+        "CB-0445",
+        "CB-0446",
+        "CB-0447",
+        "CB-0448",
+        "CB-0449",
+        "CB-0450",
+        "CB-0451",
+        "CB-0452",
+        "CB-0453",
+        "CB-0454",
+        "CB-0455",
+        "CB-0456",
+        "CB-0457",
+        "CB-0458",
+        "CB-0459",
+        "CB-0460",
+        "CB-0461",
+        "CB-0462",
+        "CB-0463",
+        "CB-0464",
+        "CB-0465",
+        "CB-0466",
+        "CB-0467",
+        "CB-0468",
+        "CB-0469",
+        "CB-0470",
+        "CB-0471",
+        "CB-0472",
+        "CB-0473",
+        "CB-0474",
+        "CB-0475",
+        "CB-0476",
+        "CB-0477",
+        "CB-0478",
+        "CB-0479",
+        "CB-0480",
+        "CB-0481",
+        "CB-0482",
+        "CB-0483",
+        "CB-0484"
+      ],
+      "explicit_labels": null,
+      "cells": [
+        "CB-0398 -> CB-0484",
+        "Phone và calculator trong loạt crops này phân biệt khá rõ, crop có bị dình bạn ngồi sau targeted anchor, CB-0451 dính bạn ngồi phía trước"
+      ],
+      "raw": "| CB-0398 -> CB-0484 | Phone và calculator trong loạt crops này phân biệt khá rõ, crop có bị dình bạn ngồi sau targeted anchor, CB-0451 dính bạn ngồi phía trước |"
+    },
+    {
+      "row": 16,
+      "ids": [
+        "CB-0485",
+        "CB-0486",
+        "CB-0487",
+        "CB-0488",
+        "CB-0489",
+        "CB-0490",
+        "CB-0491",
+        "CB-0492",
+        "CB-0493",
+        "CB-0494",
+        "CB-0495",
+        "CB-0496",
+        "CB-0497",
+        "CB-0498",
+        "CB-0499",
+        "CB-0500",
+        "CB-0501",
+        "CB-0502",
+        "CB-0503",
+        "CB-0504",
+        "CB-0505",
+        "CB-0506",
+        "CB-0507",
+        "CB-0508",
+        "CB-0509",
+        "CB-0510",
+        "CB-0511",
+        "CB-0512",
+        "CB-0513"
+      ],
+      "explicit_labels": "P/N",
+      "cells": [
+        "CB-0485 -> CB-0513",
+        "P/N",
+        "Calculator màu xanh da trời nhạt"
+      ],
+      "raw": "| CB-0485 -> CB-0513 | P/N | Calculator màu xanh da trời nhạt |"
+    },
+    {
+      "row": 17,
+      "ids": [
+        "CB-0514",
+        "CB-0515",
+        "CB-0516",
+        "CB-0517",
+        "CB-0518",
+        "CB-0519",
+        "CB-0520",
+        "CB-0521",
+        "CB-0522",
+        "CB-0523",
+        "CB-0524",
+        "CB-0525",
+        "CB-0526",
+        "CB-0527",
+        "CB-0528",
+        "CB-0529",
+        "CB-0530",
+        "CB-0531",
+        "CB-0532",
+        "CB-0533",
+        "CB-0534",
+        "CB-0535",
+        "CB-0536",
+        "CB-0537",
+        "CB-0538",
+        "CB-0539",
+        "CB-0540",
+        "CB-0541",
+        "CB-0542"
+      ],
+      "explicit_labels": null,
+      "cells": [
+        "CB-0514 -> CB-0542",
+        "Nhiều vấn đề",
+        "Loạt crops này không làm rõ được targeted anchor, dính quá nhiều người"
+      ],
+      "raw": "| CB-0514 -> CB-0542 | Nhiều vấn đề | Loạt crops này không làm rõ được targeted anchor, dính quá nhiều người |"
+    },
+    {
+      "row": 18,
+      "ids": [
+        "CB-0543",
+        "CB-0544",
+        "CB-0545",
+        "CB-0546",
+        "CB-0547",
+        "CB-0548",
+        "CB-0549",
+        "CB-0550",
+        "CB-0551",
+        "CB-0552",
+        "CB-0553",
+        "CB-0554",
+        "CB-0555",
+        "CB-0556",
+        "CB-0557",
+        "CB-0558",
+        "CB-0559",
+        "CB-0560",
+        "CB-0561",
+        "CB-0562",
+        "CB-0563",
+        "CB-0564",
+        "CB-0565",
+        "CB-0566",
+        "CB-0567",
+        "CB-0568",
+        "CB-0569",
+        "CB-0570",
+        "CB-0571"
+      ],
+      "explicit_labels": null,
+      "cells": [
+        "CB-0543 -> CB-0571",
+        "Crop lệch",
+        "Targeted anchor bị cắt lệnh khỏi khung hình, nếu như cắt đúng thì sẽ là P/N"
+      ],
+      "raw": "| CB-0543 -> CB-0571 | Crop lệch | Targeted anchor bị cắt lệnh khỏi khung hình, nếu như cắt đúng thì sẽ là P/N |"
+    },
+    {
+      "row": 19,
+      "ids": [
+        "CB-0572",
+        "CB-0573",
+        "CB-0574",
+        "CB-0575",
+        "CB-0576",
+        "CB-0577",
+        "CB-0578",
+        "CB-0579",
+        "CB-0580",
+        "CB-0581",
+        "CB-0582",
+        "CB-0583",
+        "CB-0584",
+        "CB-0585",
+        "CB-0586",
+        "CB-0587",
+        "CB-0588",
+        "CB-0589",
+        "CB-0590",
+        "CB-0591",
+        "CB-0592",
+        "CB-0593",
+        "CB-0594",
+        "CB-0595",
+        "CB-0596",
+        "CB-0597"
+      ],
+      "explicit_labels": null,
+      "cells": [
+        "CB-0572 -> CB-0597",
+        "Crop chưa bao hết anchor",
+        "Tôi chưa biết frames gốc như nào nhưng nếu có thể cắt được tổng quát hơn thì tốt. CB-0582 có looking_around, còn lại thì P/N"
+      ],
+      "raw": "| CB-0572 -> CB-0597 | Crop chưa bao hết anchor | Tôi chưa biết frames gốc như nào nhưng nếu có thể cắt được tổng quát hơn thì tốt. CB-0582 có looking_around, còn lại thì P/N |"
+    },
+    {
+      "row": 20,
+      "ids": [
+        "CB-0598",
+        "CB-0599",
+        "CB-0600",
+        "CB-0601",
+        "CB-0602",
+        "CB-0603"
+      ],
+      "explicit_labels": null,
+      "cells": [
+        "CB-0598 -> CB-0603",
+        "Crop chưa bao hết anchor",
+        "Tôi chưa biết frames gốc như nào nhưng nếu có thể cắt được tổng quát hơn thì tốt. Từ đó phải kiểm tra lại phone và looking_around"
+      ],
+      "raw": "| CB-0598 -> CB-0603 | Crop chưa bao hết anchor | Tôi chưa biết frames gốc như nào nhưng nếu có thể cắt được tổng quát hơn thì tốt. Từ đó phải kiểm tra lại phone và looking_around |"
+    },
+    {
+      "row": 21,
+      "ids": [
+        "CB-0604",
+        "CB-0607",
+        "CB-0608",
+        "CB-0609",
+        "CB-0610"
+      ],
+      "explicit_labels": null,
+      "cells": [
+        "CB-0604, CB-0607 -> CB-0610",
+        "Crop chưa bao hết anchor",
+        "Cần xem lại frame gốc rồi crop lại"
+      ],
+      "raw": "| CB-0604, CB-0607 -> CB-0610 | Crop chưa bao hết anchor | Cần xem lại frame gốc rồi crop lại |"
+    },
+    {
+      "row": 22,
+      "ids": [
+        "CB-0605",
+        "CB-0606"
+      ],
+      "explicit_labels": "N/N",
+      "cells": [
+        "CB-0605, CB-0606",
+        "N/N",
+        "CB-0605 đang cầm calculator"
+      ],
+      "raw": "| CB-0605, CB-0606 | N/N | CB-0605 đang cầm calculator |"
+    },
+    {
+      "row": 23,
+      "ids": [
+        "CB-0611",
+        "CB-0612",
+        "CB-0613",
+        "CB-0614",
+        "CB-0615",
+        "CB-0616",
+        "CB-0617"
+      ],
+      "explicit_labels": null,
+      "cells": [
+        "CB-0611 -> CB-0617",
+        "Nhiều vấn đề",
+        "Crop dính người khác và cắt mất người, trong một vài crops có phone có calculator có looking_around"
+      ],
+      "raw": "| CB-0611 -> CB-0617 | Nhiều vấn đề | Crop dính người khác và cắt mất người, trong một vài crops có phone có calculator có looking_around |"
+    },
+    {
+      "row": 24,
+      "ids": [
+        "CB-0618",
+        "CB-0619",
+        "CB-0620",
+        "CB-0621",
+        "CB-0622",
+        "CB-0623",
+        "CB-0624",
+        "CB-0625",
+        "CB-0626",
+        "CB-0627",
+        "CB-0628",
+        "CB-0629",
+        "CB-0630"
+      ],
+      "explicit_labels": "P/N",
+      "cells": [
+        "CB-0618 -> CB-0630",
+        "P/N",
+        "Calculator màu trằng đen, phone màu đen. CB-0626, CB-0627 looking_around, crops có dình ít cơ thể người khác"
+      ],
+      "raw": "| CB-0618 -> CB-0630 | P/N | Calculator màu trằng đen, phone màu đen. CB-0626, CB-0627 looking_around, crops có dình ít cơ thể người khác |"
+    },
+    {
+      "row": 25,
+      "ids": [
+        "CB-0634",
+        "CB-0635",
+        "CB-0636",
+        "CB-0637",
+        "CB-0638",
+        "CB-0639",
+        "CB-0640",
+        "CB-0641",
+        "CB-0642",
+        "CB-0643"
+      ],
+      "explicit_labels": null,
+      "cells": [
+        "CB-0634 -> CB-0643",
+        "Crop linh tinh",
+        "Kiểm tra kỹ lại"
+      ],
+      "raw": "| CB-0634 -> CB-0643 | Crop linh tinh | Kiểm tra kỹ lại |"
+    },
+    {
+      "row": 26,
+      "ids": [
+        "CB-0644",
+        "CB-0645",
+        "CB-0646"
+      ],
+      "explicit_labels": "P/N",
+      "cells": [
+        "CB-0644 -> CB-0646",
+        "P/N",
+        "Calculator màu xanh là cây, crop có dình ít vai của người bên cạnh"
+      ],
+      "raw": "| CB-0644 -> CB-0646 | P/N | Calculator màu xanh là cây, crop có dình ít vai của người bên cạnh |"
+    },
+    {
+      "row": 27,
+      "ids": [
+        "CB-0648"
+      ],
+      "explicit_labels": "N/N",
+      "cells": [
+        "CB-0648",
+        "N/N",
+        "Nếu targeted là bạn nữ áo trắng thì vật bị tay đè nên là calculator, cần chỉnh lại crop"
+      ],
+      "raw": "| CB-0648 | N/N | Nếu targeted là bạn nữ áo trắng thì vật bị tay đè nên là calculator, cần chỉnh lại crop |"
+    },
+    {
+      "row": 28,
+      "ids": [
+        "CB-0649",
+        "CB-0650",
+        "CB-0651",
+        "CB-0652"
+      ],
+      "explicit_labels": "P/N",
+      "cells": [
+        "CB-0649 -> CB-0652",
+        "P/N",
+        "Crop có nhiều người nhưng vẫn phân biệt được targeted anchor"
+      ],
+      "raw": "| CB-0649 -> CB-0652 | P/N | Crop có nhiều người nhưng vẫn phân biệt được targeted anchor |"
+    },
+    {
+      "row": 29,
+      "ids": [
+        "CB-0653",
+        "CB-0654",
+        "CB-0655",
+        "CB-0656"
+      ],
+      "explicit_labels": "P/N",
+      "cells": [
+        "CB-0653 -> CB-0656",
+        "P/N",
+        "Calculator màu xanh da trời nhạt, phone đặt trên sách trên bàn, crop có nhiều người nhưng vẫn phân biệt được targeted anchor"
+      ],
+      "raw": "| CB-0653 -> CB-0656 | P/N | Calculator màu xanh da trời nhạt, phone đặt trên sách trên bàn, crop có nhiều người nhưng vẫn phân biệt được targeted anchor |"
+    },
+    {
+      "row": 30,
+      "ids": [
+        "CB-0659",
+        "CB-0662",
+        "CB-0666",
+        "CB-0667",
+        "CB-0668",
+        "CB-0669",
+        "CB-0672"
+      ],
+      "explicit_labels": "P/N",
+      "cells": [
+        "CB-0659, 0662, 0666, 0667, 0668, 0669, 0672",
+        "P/N",
+        "Crop dính người ngồi sau nhưng vẫn phân biệt được targeted anchor. Phone màu đen đặt trên sách trên bàn"
+      ],
+      "raw": "| CB-0659, 0662, 0666, 0667, 0668, 0669, 0672 | P/N | Crop dính người ngồi sau nhưng vẫn phân biệt được targeted anchor. Phone màu đen đặt trên sách trên bàn |"
+    },
+    {
+      "row": 31,
+      "ids": [
+        "CB-0657",
+        "CB-0658",
+        "CB-0663",
+        "CB-0670",
+        "CB-0671"
+      ],
+      "explicit_labels": "P/P",
+      "cells": [
+        "CB-0657, 0658, 0663, 0670, 0671",
+        "P/P",
+        "Crop dính người ngồi sau nhưng vẫn phân biệt được targeted anchor. Phone màu đen đặt trên sách trên bàn"
+      ],
+      "raw": "| CB-0657, 0658, 0663, 0670, 0671 | P/P | Crop dính người ngồi sau nhưng vẫn phân biệt được targeted anchor. Phone màu đen đặt trên sách trên bàn |"
+    },
+    {
+      "row": 32,
+      "ids": [
+        "CB-0660",
+        "CB-0664",
+        "CB-0665"
+      ],
+      "explicit_labels": "P/U",
+      "cells": [
+        "CB-0660, 0664, 0665",
+        "P/U",
+        "Crop dính người ngồi sau nhưng vẫn phân biệt được targeted anchor. Phone màu đen đặt trên sách trên bàn"
+      ],
+      "raw": "| CB-0660, 0664, 0665 | P/U | Crop dính người ngồi sau nhưng vẫn phân biệt được targeted anchor. Phone màu đen đặt trên sách trên bàn |"
+    },
+    {
+      "row": 33,
+      "ids": [
+        "CB-0673",
+        "CB-0674",
+        "CB-0675",
+        "CB-0676",
+        "CB-0677",
+        "CB-0678",
+        "CB-0679",
+        "CB-0680",
+        "CB-0681",
+        "CB-0682",
+        "CB-0683",
+        "CB-0694",
+        "CB-0695",
+        "CB-0696",
+        "CB-0697",
+        "CB-0698",
+        "CB-0699",
+        "CB-0700",
+        "CB-0701",
+        "CB-0702"
+      ],
+      "explicit_labels": "P/P",
+      "cells": [
+        "CB-0673 -> CB-0683, CB-0694 -> CB-0702",
+        "P/P",
+        "Crop dính nhiều người nhưng vẫn phân biệt được targeted anchor. Phone màu đen đặt trên sách trên bàn"
+      ],
+      "raw": "| CB-0673 -> CB-0683, CB-0694 -> CB-0702 | P/P | Crop dính nhiều người nhưng vẫn phân biệt được targeted anchor. Phone màu đen đặt trên sách trên bàn |"
+    },
+    {
+      "row": 34,
+      "ids": [
+        "CB-0684",
+        "CB-0685",
+        "CB-0686",
+        "CB-0687",
+        "CB-0688",
+        "CB-0689",
+        "CB-0690",
+        "CB-0691",
+        "CB-0692",
+        "CB-0693"
+      ],
+      "explicit_labels": "P/N",
+      "cells": [
+        "CB-0684 -> CB-0693",
+        "P/N",
+        "Crop dính nhiều người nhưng vẫn phân biệt được targeted anchor. Phone màu đen đặt trên sách trên bàn"
+      ],
+      "raw": "| CB-0684 -> CB-0693 | P/N | Crop dính nhiều người nhưng vẫn phân biệt được targeted anchor. Phone màu đen đặt trên sách trên bàn |"
+    },
+    {
+      "row": 35,
+      "ids": [
+        "CB-0703",
+        "CB-0706",
+        "CB-0708",
+        "CB-0710",
+        "CB-0711",
+        "CB-0712",
+        "CB-0713",
+        "CB-0714"
+      ],
+      "explicit_labels": "N/P",
+      "cells": [
+        "CB-0703, 0706, 0708, CB-0710 -> CB-0714",
+        "N/P",
+        "Có một vài crops anchor để tay dưới bàn thì có thể phone U. Một vài crops bị dình người ngồi bên cạnh"
+      ],
+      "raw": "| CB-0703, 0706, 0708, CB-0710 -> CB-0714 | N/P | Có một vài crops anchor để tay dưới bàn thì có thể phone U. Một vài crops bị dình người ngồi bên cạnh |"
+    },
+    {
+      "row": 36,
+      "ids": [
+        "CB-0704",
+        "CB-0705",
+        "CB-0707",
+        "CB-0709"
+      ],
+      "explicit_labels": "N/N",
+      "cells": [
+        "CB-0704, 0705, 0707, 0709",
+        "N/N",
+        "Có một vài crop tay không rõ có thể để phone U"
+      ],
+      "raw": "| CB-0704, 0705, 0707, 0709 | N/N | Có một vài crop tay không rõ có thể để phone U |"
+    },
+    {
+      "row": 37,
+      "ids": [
+        "CB-0715",
+        "CB-0716",
+        "CB-0717",
+        "CB-0718",
+        "CB-0719",
+        "CB-0720",
+        "CB-0721",
+        "CB-0722",
+        "CB-0723",
+        "CB-0724",
+        "CB-0725",
+        "CB-0726",
+        "CB-0727",
+        "CB-0728",
+        "CB-0729",
+        "CB-0730",
+        "CB-0731",
+        "CB-0732",
+        "CB-0733",
+        "CB-0734",
+        "CB-0735",
+        "CB-0736",
+        "CB-0737",
+        "CB-0738",
+        "CB-0739",
+        "CB-0740",
+        "CB-0741",
+        "CB-0742",
+        "CB-0743",
+        "CB-0744",
+        "CB-0745",
+        "CB-0746",
+        "CB-0747",
+        "CB-0748"
+      ],
+      "explicit_labels": null,
+      "cells": [
+        "CB-0715 -> CB-0748",
+        "Crop linh tinh",
+        "Crop lại toàn bộ, vì không biết ai là targeted anchor"
+      ],
+      "raw": "| CB-0715 -> CB-0748 | Crop linh tinh | Crop lại toàn bộ, vì không biết ai là targeted anchor |"
+    },
+    {
+      "row": 38,
+      "ids": [
+        "CB-0749"
+      ],
+      "explicit_labels": "U/N",
+      "cells": [
+        "CB-0749",
+        "U/N",
+        "Trên bàn có nhiều đồ vật gây nhiễu nhưng đó không phải phone. Khuất 2 bàn tay, bị dính một chút người ngồi cạnh"
+      ],
+      "raw": "| CB-0749 | U/N | Trên bàn có nhiều đồ vật gây nhiễu nhưng đó không phải phone. Khuất 2 bàn tay, bị dính một chút người ngồi cạnh |"
+    },
+    {
+      "row": 39,
+      "ids": [
+        "CB-0750",
+        "CB-0753"
+      ],
+      "explicit_labels": "N/P",
+      "cells": [
+        "CB-0750, 0753",
+        "N/P",
+        "Trên bàn có nhiều đồ vật gây nhiễu nhưng đó không phải phone. Crop bị dình người ngồi cạnh, 0750 tay cầm vật gì đó nhưng chắc chắn không phải phone"
+      ],
+      "raw": "| CB-0750, 0753 | N/P | Trên bàn có nhiều đồ vật gây nhiễu nhưng đó không phải phone. Crop bị dình người ngồi cạnh, 0750 tay cầm vật gì đó nhưng chắc chắn không phải phone |"
+    },
+    {
+      "row": 40,
+      "ids": [
+        "CB-0751",
+        "CB-0752",
+        "CB-0754"
+      ],
+      "explicit_labels": "N/N",
+      "cells": [
+        "CB-0751, 0752, 0754",
+        "N/N",
+        "Trên bàn có nhiều đồ vật gây nhiễu nhưng đó không phải phone. Vật ở tay hơi khó phân biệt nhưng chắc chắn không phải phone"
+      ],
+      "raw": "| CB-0751, 0752, 0754 | N/N | Trên bàn có nhiều đồ vật gây nhiễu nhưng đó không phải phone. Vật ở tay hơi khó phân biệt nhưng chắc chắn không phải phone |"
+    },
+    {
+      "row": 41,
+      "ids": [
+        "CB-0755",
+        "CB-0758",
+        "CB-0759"
+      ],
+      "explicit_labels": "N/N",
+      "cells": [
+        "CB-0755, 0758, 0759",
+        "N/N",
+        "Trên bàn có nhiều đồ vật gây nhiễu nhưng đó không phải phone. Crop bị dính người bên cạnh"
+      ],
+      "raw": "| CB-0755, 0758, 0759 | N/N | Trên bàn có nhiều đồ vật gây nhiễu nhưng đó không phải phone. Crop bị dính người bên cạnh |"
+    },
+    {
+      "row": 42,
+      "ids": [
+        "CB-0756",
+        "CB-0757"
+      ],
+      "explicit_labels": "N/P",
+      "cells": [
+        "CB-0756, 0757",
+        "N/P",
+        "Trên bàn có nhiều đồ vật gây nhiễu nhưng đó không phải phone. Tư thế và hướng đầu không nhìn vào own-paper, crop bị dính bạn bên cạnh"
+      ],
+      "raw": "| CB-0756, 0757 | N/P | Trên bàn có nhiều đồ vật gây nhiễu nhưng đó không phải phone. Tư thế và hướng đầu không nhìn vào own-paper, crop bị dính bạn bên cạnh |"
+    },
+    {
+      "row": 43,
+      "ids": [
+        "CB-0760"
+      ],
+      "explicit_labels": "N/N",
+      "cells": [
+        "CB-0760",
+        "N/N",
+        "Trên bàn có nhiều đồ vật gây nhiễu nhưng đó không phải phone. Tay đang cầm tài liệu, crop bị dính bạn bên cạnh"
+      ],
+      "raw": "| CB-0760 | N/N | Trên bàn có nhiều đồ vật gây nhiễu nhưng đó không phải phone. Tay đang cầm tài liệu, crop bị dính bạn bên cạnh |"
+    },
+    {
+      "row": 44,
+      "ids": [
+        "CB-0761"
+      ],
+      "explicit_labels": "U/N",
+      "cells": [
+        "CB-0761",
+        "U/N",
+        "Trên bàn có nhiều đồ vật gây nhiễu nhưng đó không phải phone. Chất lượng ảnh kém nên không nhìn được tay, crop bị dính bạn bên cạnh"
+      ],
+      "raw": "| CB-0761 | U/N | Trên bàn có nhiều đồ vật gây nhiễu nhưng đó không phải phone. Chất lượng ảnh kém nên không nhìn được tay, crop bị dính bạn bên cạnh |"
+    },
+    {
+      "row": 45,
+      "ids": [
+        "CB-0762"
+      ],
+      "explicit_labels": "N/N",
+      "cells": [
+        "CB-0762",
+        "N/N",
+        "Trên bàn có nhiều đồ vật gây nhiễu nhưng đó không phải phone. Chất lượng ảnh kém nên không nhìn được đang cầm gì nhưng chắc chắn đó không phải phone"
+      ],
+      "raw": "| CB-0762 | N/N | Trên bàn có nhiều đồ vật gây nhiễu nhưng đó không phải phone. Chất lượng ảnh kém nên không nhìn được đang cầm gì nhưng chắc chắn đó không phải phone |"
+    },
+    {
+      "row": 46,
+      "ids": [
+        "CB-0763",
+        "CB-0764",
+        "CB-0765"
+      ],
+      "explicit_labels": "N/N",
+      "cells": [
+        "CB-0763 -> CB-0765",
+        "N/N",
+        "Trên bàn có nhiều đồ vật gây nhiễu nhưng đó không phải phone"
+      ],
+      "raw": "| CB-0763 -> CB-0765 | N/N | Trên bàn có nhiều đồ vật gây nhiễu nhưng đó không phải phone |"
+    }
+  ],
+  "mapping": {
+    "CB-0001": [
+      1
+    ],
+    "CB-0002": [
+      1
+    ],
+    "CB-0003": [
+      1
+    ],
+    "CB-0004": [
+      1
+    ],
+    "CB-0005": [
+      1
+    ],
+    "CB-0006": [
+      1
+    ],
+    "CB-0007": [
+      1
+    ],
+    "CB-0008": [
+      1
+    ],
+    "CB-0009": [
+      1
+    ],
+    "CB-0010": [
+      1
+    ],
+    "CB-0011": [
+      1
+    ],
+    "CB-0012": [
+      1
+    ],
+    "CB-0013": [
+      1
+    ],
+    "CB-0014": [
+      1
+    ],
+    "CB-0015": [
+      1
+    ],
+    "CB-0016": [
+      1
+    ],
+    "CB-0017": [
+      1
+    ],
+    "CB-0018": [
+      2
+    ],
+    "CB-0019": [
+      2
+    ],
+    "CB-0020": [
+      2
+    ],
+    "CB-0021": [
+      2
+    ],
+    "CB-0022": [
+      2
+    ],
+    "CB-0023": [
+      2
+    ],
+    "CB-0024": [
+      2
+    ],
+    "CB-0025": [
+      2
+    ],
+    "CB-0026": [],
+    "CB-0027": [
+      3
+    ],
+    "CB-0028": [],
+    "CB-0029": [
+      3
+    ],
+    "CB-0030": [
+      4
+    ],
+    "CB-0031": [
+      3
+    ],
+    "CB-0032": [
+      3
+    ],
+    "CB-0033": [
+      3
+    ],
+    "CB-0034": [
+      3
+    ],
+    "CB-0035": [
+      3
+    ],
+    "CB-0036": [
+      3
+    ],
+    "CB-0037": [
+      3
+    ],
+    "CB-0038": [
+      3
+    ],
+    "CB-0039": [
+      3
+    ],
+    "CB-0040": [
+      3
+    ],
+    "CB-0041": [
+      3
+    ],
+    "CB-0042": [
+      3
+    ],
+    "CB-0043": [
+      3
+    ],
+    "CB-0044": [
+      3
+    ],
+    "CB-0045": [
+      3
+    ],
+    "CB-0046": [
+      3
+    ],
+    "CB-0047": [
+      3
+    ],
+    "CB-0048": [
+      3
+    ],
+    "CB-0049": [
+      3
+    ],
+    "CB-0050": [
+      3
+    ],
+    "CB-0051": [
+      3
+    ],
+    "CB-0052": [
+      3
+    ],
+    "CB-0053": [
+      3
+    ],
+    "CB-0054": [
+      3
+    ],
+    "CB-0055": [
+      3
+    ],
+    "CB-0056": [
+      3
+    ],
+    "CB-0057": [
+      3
+    ],
+    "CB-0058": [
+      3
+    ],
+    "CB-0059": [
+      3
+    ],
+    "CB-0060": [
+      3
+    ],
+    "CB-0061": [
+      3
+    ],
+    "CB-0062": [
+      3
+    ],
+    "CB-0063": [
+      5
+    ],
+    "CB-0064": [
+      5
+    ],
+    "CB-0065": [
+      5
+    ],
+    "CB-0066": [
+      5
+    ],
+    "CB-0067": [
+      5
+    ],
+    "CB-0068": [
+      5
+    ],
+    "CB-0069": [
+      5
+    ],
+    "CB-0070": [
+      5
+    ],
+    "CB-0071": [
+      5
+    ],
+    "CB-0072": [
+      5
+    ],
+    "CB-0073": [
+      5
+    ],
+    "CB-0074": [
+      5
+    ],
+    "CB-0075": [
+      5
+    ],
+    "CB-0076": [
+      5
+    ],
+    "CB-0077": [
+      5
+    ],
+    "CB-0078": [
+      5
+    ],
+    "CB-0079": [
+      5
+    ],
+    "CB-0080": [
+      5
+    ],
+    "CB-0081": [
+      5
+    ],
+    "CB-0082": [
+      5
+    ],
+    "CB-0083": [
+      5
+    ],
+    "CB-0084": [
+      5
+    ],
+    "CB-0085": [
+      5
+    ],
+    "CB-0086": [
+      5
+    ],
+    "CB-0087": [
+      5
+    ],
+    "CB-0088": [
+      6
+    ],
+    "CB-0089": [
+      6
+    ],
+    "CB-0090": [
+      6
+    ],
+    "CB-0091": [
+      6
+    ],
+    "CB-0092": [
+      6
+    ],
+    "CB-0093": [
+      6
+    ],
+    "CB-0094": [
+      6
+    ],
+    "CB-0095": [
+      6
+    ],
+    "CB-0096": [
+      6
+    ],
+    "CB-0097": [
+      6
+    ],
+    "CB-0098": [
+      6
+    ],
+    "CB-0099": [
+      6
+    ],
+    "CB-0100": [
+      6
+    ],
+    "CB-0101": [
+      6
+    ],
+    "CB-0102": [
+      6
+    ],
+    "CB-0103": [
+      6
+    ],
+    "CB-0104": [
+      6
+    ],
+    "CB-0105": [
+      6
+    ],
+    "CB-0106": [
+      6
+    ],
+    "CB-0107": [
+      6
+    ],
+    "CB-0108": [
+      6
+    ],
+    "CB-0109": [
+      6
+    ],
+    "CB-0110": [
+      6
+    ],
+    "CB-0111": [
+      6
+    ],
+    "CB-0112": [
+      6
+    ],
+    "CB-0113": [
+      7
+    ],
+    "CB-0114": [
+      7
+    ],
+    "CB-0115": [
+      7
+    ],
+    "CB-0116": [
+      7
+    ],
+    "CB-0117": [
+      7
+    ],
+    "CB-0118": [
+      7
+    ],
+    "CB-0119": [
+      7
+    ],
+    "CB-0120": [
+      7
+    ],
+    "CB-0121": [
+      7
+    ],
+    "CB-0122": [
+      7
+    ],
+    "CB-0123": [
+      7
+    ],
+    "CB-0124": [
+      7
+    ],
+    "CB-0125": [
+      7
+    ],
+    "CB-0126": [
+      7
+    ],
+    "CB-0127": [
+      7
+    ],
+    "CB-0128": [
+      7
+    ],
+    "CB-0129": [
+      7
+    ],
+    "CB-0130": [
+      7
+    ],
+    "CB-0131": [
+      7
+    ],
+    "CB-0132": [
+      7
+    ],
+    "CB-0133": [
+      7
+    ],
+    "CB-0134": [
+      7
+    ],
+    "CB-0135": [
+      7
+    ],
+    "CB-0136": [
+      7
+    ],
+    "CB-0137": [
+      7
+    ],
+    "CB-0138": [
+      7
+    ],
+    "CB-0139": [
+      7
+    ],
+    "CB-0140": [
+      7
+    ],
+    "CB-0141": [
+      7
+    ],
+    "CB-0142": [
+      7
+    ],
+    "CB-0143": [
+      7
+    ],
+    "CB-0144": [
+      7
+    ],
+    "CB-0145": [
+      7
+    ],
+    "CB-0146": [
+      7
+    ],
+    "CB-0147": [
+      7
+    ],
+    "CB-0148": [
+      7
+    ],
+    "CB-0149": [
+      7
+    ],
+    "CB-0150": [
+      8
+    ],
+    "CB-0151": [
+      8
+    ],
+    "CB-0152": [
+      8
+    ],
+    "CB-0153": [
+      8
+    ],
+    "CB-0154": [
+      8
+    ],
+    "CB-0155": [
+      8
+    ],
+    "CB-0156": [
+      8
+    ],
+    "CB-0157": [
+      8
+    ],
+    "CB-0158": [
+      8
+    ],
+    "CB-0159": [
+      8
+    ],
+    "CB-0160": [
+      8
+    ],
+    "CB-0161": [
+      8
+    ],
+    "CB-0162": [
+      8
+    ],
+    "CB-0163": [
+      8
+    ],
+    "CB-0164": [
+      8
+    ],
+    "CB-0165": [
+      8
+    ],
+    "CB-0166": [
+      8
+    ],
+    "CB-0167": [
+      8
+    ],
+    "CB-0168": [
+      8
+    ],
+    "CB-0169": [
+      8
+    ],
+    "CB-0170": [
+      8
+    ],
+    "CB-0171": [
+      8
+    ],
+    "CB-0172": [
+      8
+    ],
+    "CB-0173": [
+      8
+    ],
+    "CB-0174": [
+      8
+    ],
+    "CB-0175": [
+      9
+    ],
+    "CB-0176": [
+      9
+    ],
+    "CB-0177": [
+      9
+    ],
+    "CB-0178": [
+      9
+    ],
+    "CB-0179": [
+      9
+    ],
+    "CB-0180": [
+      9
+    ],
+    "CB-0181": [
+      9
+    ],
+    "CB-0182": [
+      9
+    ],
+    "CB-0183": [
+      9
+    ],
+    "CB-0184": [
+      9
+    ],
+    "CB-0185": [
+      9
+    ],
+    "CB-0186": [
+      9
+    ],
+    "CB-0187": [
+      9
+    ],
+    "CB-0188": [
+      9
+    ],
+    "CB-0189": [
+      9
+    ],
+    "CB-0190": [
+      9
+    ],
+    "CB-0191": [
+      9
+    ],
+    "CB-0192": [
+      9
+    ],
+    "CB-0193": [
+      9
+    ],
+    "CB-0194": [
+      9
+    ],
+    "CB-0195": [
+      9
+    ],
+    "CB-0196": [
+      9
+    ],
+    "CB-0197": [
+      9
+    ],
+    "CB-0198": [
+      9
+    ],
+    "CB-0199": [
+      9
+    ],
+    "CB-0200": [
+      10
+    ],
+    "CB-0201": [
+      10
+    ],
+    "CB-0202": [
+      10
+    ],
+    "CB-0203": [
+      10
+    ],
+    "CB-0204": [
+      10
+    ],
+    "CB-0205": [
+      10
+    ],
+    "CB-0206": [
+      10
+    ],
+    "CB-0207": [
+      10
+    ],
+    "CB-0208": [
+      10
+    ],
+    "CB-0209": [
+      10
+    ],
+    "CB-0210": [
+      10
+    ],
+    "CB-0211": [
+      10
+    ],
+    "CB-0212": [
+      10
+    ],
+    "CB-0213": [
+      10
+    ],
+    "CB-0214": [
+      10
+    ],
+    "CB-0215": [
+      10
+    ],
+    "CB-0216": [
+      10
+    ],
+    "CB-0217": [
+      10
+    ],
+    "CB-0218": [
+      10
+    ],
+    "CB-0219": [
+      10
+    ],
+    "CB-0220": [
+      10
+    ],
+    "CB-0221": [
+      10
+    ],
+    "CB-0222": [
+      10
+    ],
+    "CB-0223": [
+      10
+    ],
+    "CB-0224": [
+      11
+    ],
+    "CB-0225": [
+      11
+    ],
+    "CB-0226": [
+      11
+    ],
+    "CB-0227": [
+      11
+    ],
+    "CB-0228": [
+      11
+    ],
+    "CB-0229": [
+      11
+    ],
+    "CB-0230": [
+      11
+    ],
+    "CB-0231": [
+      11
+    ],
+    "CB-0232": [
+      11
+    ],
+    "CB-0233": [
+      11
+    ],
+    "CB-0234": [
+      11
+    ],
+    "CB-0235": [
+      11
+    ],
+    "CB-0236": [
+      11
+    ],
+    "CB-0237": [
+      11
+    ],
+    "CB-0238": [
+      11
+    ],
+    "CB-0239": [
+      11
+    ],
+    "CB-0240": [
+      11
+    ],
+    "CB-0241": [
+      11
+    ],
+    "CB-0242": [
+      11
+    ],
+    "CB-0243": [
+      11
+    ],
+    "CB-0244": [
+      11
+    ],
+    "CB-0245": [
+      11
+    ],
+    "CB-0246": [
+      11
+    ],
+    "CB-0247": [
+      11
+    ],
+    "CB-0248": [
+      11
+    ],
+    "CB-0249": [
+      11
+    ],
+    "CB-0250": [
+      11
+    ],
+    "CB-0251": [
+      11
+    ],
+    "CB-0252": [
+      11
+    ],
+    "CB-0253": [
+      12
+    ],
+    "CB-0254": [
+      12
+    ],
+    "CB-0255": [
+      12
+    ],
+    "CB-0256": [
+      12
+    ],
+    "CB-0257": [
+      12
+    ],
+    "CB-0258": [
+      12
+    ],
+    "CB-0259": [
+      12
+    ],
+    "CB-0260": [
+      12
+    ],
+    "CB-0261": [
+      12
+    ],
+    "CB-0262": [
+      12
+    ],
+    "CB-0263": [
+      12
+    ],
+    "CB-0264": [
+      12
+    ],
+    "CB-0265": [
+      12
+    ],
+    "CB-0266": [
+      12
+    ],
+    "CB-0267": [
+      12
+    ],
+    "CB-0268": [
+      12
+    ],
+    "CB-0269": [
+      12
+    ],
+    "CB-0270": [
+      12
+    ],
+    "CB-0271": [
+      12
+    ],
+    "CB-0272": [
+      12
+    ],
+    "CB-0273": [
+      12
+    ],
+    "CB-0274": [
+      12
+    ],
+    "CB-0275": [
+      12
+    ],
+    "CB-0276": [
+      12
+    ],
+    "CB-0277": [
+      12
+    ],
+    "CB-0278": [
+      12
+    ],
+    "CB-0279": [
+      12
+    ],
+    "CB-0280": [
+      12
+    ],
+    "CB-0281": [
+      12
+    ],
+    "CB-0282": [
+      13
+    ],
+    "CB-0283": [
+      13
+    ],
+    "CB-0284": [
+      13
+    ],
+    "CB-0285": [
+      13
+    ],
+    "CB-0286": [
+      13
+    ],
+    "CB-0287": [
+      13
+    ],
+    "CB-0288": [
+      13
+    ],
+    "CB-0289": [
+      13
+    ],
+    "CB-0290": [
+      13
+    ],
+    "CB-0291": [
+      13
+    ],
+    "CB-0292": [
+      13
+    ],
+    "CB-0293": [
+      13
+    ],
+    "CB-0294": [
+      13
+    ],
+    "CB-0295": [
+      13
+    ],
+    "CB-0296": [
+      13
+    ],
+    "CB-0297": [
+      13
+    ],
+    "CB-0298": [
+      13
+    ],
+    "CB-0299": [
+      13
+    ],
+    "CB-0300": [
+      13
+    ],
+    "CB-0301": [
+      13
+    ],
+    "CB-0302": [
+      13
+    ],
+    "CB-0303": [
+      13
+    ],
+    "CB-0304": [
+      13
+    ],
+    "CB-0305": [
+      13
+    ],
+    "CB-0306": [
+      13
+    ],
+    "CB-0307": [
+      13
+    ],
+    "CB-0308": [
+      13
+    ],
+    "CB-0309": [
+      13
+    ],
+    "CB-0310": [
+      13
+    ],
+    "CB-0311": [
+      13
+    ],
+    "CB-0312": [
+      13
+    ],
+    "CB-0313": [
+      13
+    ],
+    "CB-0314": [
+      13
+    ],
+    "CB-0315": [
+      13
+    ],
+    "CB-0316": [
+      13
+    ],
+    "CB-0317": [
+      13
+    ],
+    "CB-0318": [
+      13
+    ],
+    "CB-0319": [
+      13
+    ],
+    "CB-0320": [
+      13
+    ],
+    "CB-0321": [
+      13
+    ],
+    "CB-0322": [
+      13
+    ],
+    "CB-0323": [
+      13
+    ],
+    "CB-0324": [
+      13
+    ],
+    "CB-0325": [
+      13
+    ],
+    "CB-0326": [
+      13
+    ],
+    "CB-0327": [
+      13
+    ],
+    "CB-0328": [
+      13
+    ],
+    "CB-0329": [
+      13
+    ],
+    "CB-0330": [
+      13
+    ],
+    "CB-0331": [
+      13
+    ],
+    "CB-0332": [
+      13
+    ],
+    "CB-0333": [
+      13
+    ],
+    "CB-0334": [
+      13
+    ],
+    "CB-0335": [
+      13
+    ],
+    "CB-0336": [
+      13
+    ],
+    "CB-0337": [
+      13
+    ],
+    "CB-0338": [
+      13
+    ],
+    "CB-0339": [
+      13
+    ],
+    "CB-0340": [
+      13
+    ],
+    "CB-0341": [
+      13
+    ],
+    "CB-0342": [
+      13
+    ],
+    "CB-0343": [
+      13
+    ],
+    "CB-0344": [
+      13
+    ],
+    "CB-0345": [
+      13
+    ],
+    "CB-0346": [
+      13
+    ],
+    "CB-0347": [
+      13
+    ],
+    "CB-0348": [
+      13
+    ],
+    "CB-0349": [
+      13
+    ],
+    "CB-0350": [
+      13
+    ],
+    "CB-0351": [
+      13
+    ],
+    "CB-0352": [
+      13
+    ],
+    "CB-0353": [
+      13
+    ],
+    "CB-0354": [
+      13
+    ],
+    "CB-0355": [
+      13
+    ],
+    "CB-0356": [
+      13
+    ],
+    "CB-0357": [
+      13
+    ],
+    "CB-0358": [
+      13
+    ],
+    "CB-0359": [
+      13
+    ],
+    "CB-0360": [
+      13
+    ],
+    "CB-0361": [
+      13
+    ],
+    "CB-0362": [
+      13
+    ],
+    "CB-0363": [
+      13
+    ],
+    "CB-0364": [
+      13
+    ],
+    "CB-0365": [
+      13
+    ],
+    "CB-0366": [
+      13
+    ],
+    "CB-0367": [
+      13
+    ],
+    "CB-0368": [
+      13
+    ],
+    "CB-0369": [
+      14
+    ],
+    "CB-0370": [
+      14
+    ],
+    "CB-0371": [
+      14
+    ],
+    "CB-0372": [
+      14
+    ],
+    "CB-0373": [
+      14
+    ],
+    "CB-0374": [
+      14
+    ],
+    "CB-0375": [
+      14
+    ],
+    "CB-0376": [
+      14
+    ],
+    "CB-0377": [
+      14
+    ],
+    "CB-0378": [
+      14
+    ],
+    "CB-0379": [
+      14
+    ],
+    "CB-0380": [
+      14
+    ],
+    "CB-0381": [
+      14
+    ],
+    "CB-0382": [
+      14
+    ],
+    "CB-0383": [
+      14
+    ],
+    "CB-0384": [
+      14
+    ],
+    "CB-0385": [
+      14
+    ],
+    "CB-0386": [
+      14
+    ],
+    "CB-0387": [
+      14
+    ],
+    "CB-0388": [
+      14
+    ],
+    "CB-0389": [
+      14
+    ],
+    "CB-0390": [
+      14
+    ],
+    "CB-0391": [
+      14
+    ],
+    "CB-0392": [
+      14
+    ],
+    "CB-0393": [
+      14
+    ],
+    "CB-0394": [
+      14
+    ],
+    "CB-0395": [
+      14
+    ],
+    "CB-0396": [
+      14
+    ],
+    "CB-0397": [
+      14
+    ],
+    "CB-0398": [
+      15
+    ],
+    "CB-0399": [
+      15
+    ],
+    "CB-0400": [
+      15
+    ],
+    "CB-0401": [
+      15
+    ],
+    "CB-0402": [
+      15
+    ],
+    "CB-0403": [
+      15
+    ],
+    "CB-0404": [
+      15
+    ],
+    "CB-0405": [
+      15
+    ],
+    "CB-0406": [
+      15
+    ],
+    "CB-0407": [
+      15
+    ],
+    "CB-0408": [
+      15
+    ],
+    "CB-0409": [
+      15
+    ],
+    "CB-0410": [
+      15
+    ],
+    "CB-0411": [
+      15
+    ],
+    "CB-0412": [
+      15
+    ],
+    "CB-0413": [
+      15
+    ],
+    "CB-0414": [
+      15
+    ],
+    "CB-0415": [
+      15
+    ],
+    "CB-0416": [
+      15
+    ],
+    "CB-0417": [
+      15
+    ],
+    "CB-0418": [
+      15
+    ],
+    "CB-0419": [
+      15
+    ],
+    "CB-0420": [
+      15
+    ],
+    "CB-0421": [
+      15
+    ],
+    "CB-0422": [
+      15
+    ],
+    "CB-0423": [
+      15
+    ],
+    "CB-0424": [
+      15
+    ],
+    "CB-0425": [
+      15
+    ],
+    "CB-0426": [
+      15
+    ],
+    "CB-0427": [
+      15
+    ],
+    "CB-0428": [
+      15
+    ],
+    "CB-0429": [
+      15
+    ],
+    "CB-0430": [
+      15
+    ],
+    "CB-0431": [
+      15
+    ],
+    "CB-0432": [
+      15
+    ],
+    "CB-0433": [
+      15
+    ],
+    "CB-0434": [
+      15
+    ],
+    "CB-0435": [
+      15
+    ],
+    "CB-0436": [
+      15
+    ],
+    "CB-0437": [
+      15
+    ],
+    "CB-0438": [
+      15
+    ],
+    "CB-0439": [
+      15
+    ],
+    "CB-0440": [
+      15
+    ],
+    "CB-0441": [
+      15
+    ],
+    "CB-0442": [
+      15
+    ],
+    "CB-0443": [
+      15
+    ],
+    "CB-0444": [
+      15
+    ],
+    "CB-0445": [
+      15
+    ],
+    "CB-0446": [
+      15
+    ],
+    "CB-0447": [
+      15
+    ],
+    "CB-0448": [
+      15
+    ],
+    "CB-0449": [
+      15
+    ],
+    "CB-0450": [
+      15
+    ],
+    "CB-0451": [
+      15
+    ],
+    "CB-0452": [
+      15
+    ],
+    "CB-0453": [
+      15
+    ],
+    "CB-0454": [
+      15
+    ],
+    "CB-0455": [
+      15
+    ],
+    "CB-0456": [
+      15
+    ],
+    "CB-0457": [
+      15
+    ],
+    "CB-0458": [
+      15
+    ],
+    "CB-0459": [
+      15
+    ],
+    "CB-0460": [
+      15
+    ],
+    "CB-0461": [
+      15
+    ],
+    "CB-0462": [
+      15
+    ],
+    "CB-0463": [
+      15
+    ],
+    "CB-0464": [
+      15
+    ],
+    "CB-0465": [
+      15
+    ],
+    "CB-0466": [
+      15
+    ],
+    "CB-0467": [
+      15
+    ],
+    "CB-0468": [
+      15
+    ],
+    "CB-0469": [
+      15
+    ],
+    "CB-0470": [
+      15
+    ],
+    "CB-0471": [
+      15
+    ],
+    "CB-0472": [
+      15
+    ],
+    "CB-0473": [
+      15
+    ],
+    "CB-0474": [
+      15
+    ],
+    "CB-0475": [
+      15
+    ],
+    "CB-0476": [
+      15
+    ],
+    "CB-0477": [
+      15
+    ],
+    "CB-0478": [
+      15
+    ],
+    "CB-0479": [
+      15
+    ],
+    "CB-0480": [
+      15
+    ],
+    "CB-0481": [
+      15
+    ],
+    "CB-0482": [
+      15
+    ],
+    "CB-0483": [
+      15
+    ],
+    "CB-0484": [
+      15
+    ],
+    "CB-0485": [
+      16
+    ],
+    "CB-0486": [
+      16
+    ],
+    "CB-0487": [
+      16
+    ],
+    "CB-0488": [
+      16
+    ],
+    "CB-0489": [
+      16
+    ],
+    "CB-0490": [
+      16
+    ],
+    "CB-0491": [
+      16
+    ],
+    "CB-0492": [
+      16
+    ],
+    "CB-0493": [
+      16
+    ],
+    "CB-0494": [
+      16
+    ],
+    "CB-0495": [
+      16
+    ],
+    "CB-0496": [
+      16
+    ],
+    "CB-0497": [
+      16
+    ],
+    "CB-0498": [
+      16
+    ],
+    "CB-0499": [
+      16
+    ],
+    "CB-0500": [
+      16
+    ],
+    "CB-0501": [
+      16
+    ],
+    "CB-0502": [
+      16
+    ],
+    "CB-0503": [
+      16
+    ],
+    "CB-0504": [
+      16
+    ],
+    "CB-0505": [
+      16
+    ],
+    "CB-0506": [
+      16
+    ],
+    "CB-0507": [
+      16
+    ],
+    "CB-0508": [
+      16
+    ],
+    "CB-0509": [
+      16
+    ],
+    "CB-0510": [
+      16
+    ],
+    "CB-0511": [
+      16
+    ],
+    "CB-0512": [
+      16
+    ],
+    "CB-0513": [
+      16
+    ],
+    "CB-0514": [
+      17
+    ],
+    "CB-0515": [
+      17
+    ],
+    "CB-0516": [
+      17
+    ],
+    "CB-0517": [
+      17
+    ],
+    "CB-0518": [
+      17
+    ],
+    "CB-0519": [
+      17
+    ],
+    "CB-0520": [
+      17
+    ],
+    "CB-0521": [
+      17
+    ],
+    "CB-0522": [
+      17
+    ],
+    "CB-0523": [
+      17
+    ],
+    "CB-0524": [
+      17
+    ],
+    "CB-0525": [
+      17
+    ],
+    "CB-0526": [
+      17
+    ],
+    "CB-0527": [
+      17
+    ],
+    "CB-0528": [
+      17
+    ],
+    "CB-0529": [
+      17
+    ],
+    "CB-0530": [
+      17
+    ],
+    "CB-0531": [
+      17
+    ],
+    "CB-0532": [
+      17
+    ],
+    "CB-0533": [
+      17
+    ],
+    "CB-0534": [
+      17
+    ],
+    "CB-0535": [
+      17
+    ],
+    "CB-0536": [
+      17
+    ],
+    "CB-0537": [
+      17
+    ],
+    "CB-0538": [
+      17
+    ],
+    "CB-0539": [
+      17
+    ],
+    "CB-0540": [
+      17
+    ],
+    "CB-0541": [
+      17
+    ],
+    "CB-0542": [
+      17
+    ],
+    "CB-0543": [
+      18
+    ],
+    "CB-0544": [
+      18
+    ],
+    "CB-0545": [
+      18
+    ],
+    "CB-0546": [
+      18
+    ],
+    "CB-0547": [
+      18
+    ],
+    "CB-0548": [
+      18
+    ],
+    "CB-0549": [
+      18
+    ],
+    "CB-0550": [
+      18
+    ],
+    "CB-0551": [
+      18
+    ],
+    "CB-0552": [
+      18
+    ],
+    "CB-0553": [
+      18
+    ],
+    "CB-0554": [
+      18
+    ],
+    "CB-0555": [
+      18
+    ],
+    "CB-0556": [
+      18
+    ],
+    "CB-0557": [
+      18
+    ],
+    "CB-0558": [
+      18
+    ],
+    "CB-0559": [
+      18
+    ],
+    "CB-0560": [
+      18
+    ],
+    "CB-0561": [
+      18
+    ],
+    "CB-0562": [
+      18
+    ],
+    "CB-0563": [
+      18
+    ],
+    "CB-0564": [
+      18
+    ],
+    "CB-0565": [
+      18
+    ],
+    "CB-0566": [
+      18
+    ],
+    "CB-0567": [
+      18
+    ],
+    "CB-0568": [
+      18
+    ],
+    "CB-0569": [
+      18
+    ],
+    "CB-0570": [
+      18
+    ],
+    "CB-0571": [
+      18
+    ],
+    "CB-0572": [
+      19
+    ],
+    "CB-0573": [
+      19
+    ],
+    "CB-0574": [
+      19
+    ],
+    "CB-0575": [
+      19
+    ],
+    "CB-0576": [
+      19
+    ],
+    "CB-0577": [
+      19
+    ],
+    "CB-0578": [
+      19
+    ],
+    "CB-0579": [
+      19
+    ],
+    "CB-0580": [
+      19
+    ],
+    "CB-0581": [
+      19
+    ],
+    "CB-0582": [
+      19
+    ],
+    "CB-0583": [
+      19
+    ],
+    "CB-0584": [
+      19
+    ],
+    "CB-0585": [
+      19
+    ],
+    "CB-0586": [
+      19
+    ],
+    "CB-0587": [
+      19
+    ],
+    "CB-0588": [
+      19
+    ],
+    "CB-0589": [
+      19
+    ],
+    "CB-0590": [
+      19
+    ],
+    "CB-0591": [
+      19
+    ],
+    "CB-0592": [
+      19
+    ],
+    "CB-0593": [
+      19
+    ],
+    "CB-0594": [
+      19
+    ],
+    "CB-0595": [
+      19
+    ],
+    "CB-0596": [
+      19
+    ],
+    "CB-0597": [
+      19
+    ],
+    "CB-0598": [
+      20
+    ],
+    "CB-0599": [
+      20
+    ],
+    "CB-0600": [
+      20
+    ],
+    "CB-0601": [
+      20
+    ],
+    "CB-0602": [
+      20
+    ],
+    "CB-0603": [
+      20
+    ],
+    "CB-0604": [
+      21
+    ],
+    "CB-0605": [
+      22
+    ],
+    "CB-0606": [
+      22
+    ],
+    "CB-0607": [
+      21
+    ],
+    "CB-0608": [
+      21
+    ],
+    "CB-0609": [
+      21
+    ],
+    "CB-0610": [
+      21
+    ],
+    "CB-0611": [
+      23
+    ],
+    "CB-0612": [
+      23
+    ],
+    "CB-0613": [
+      23
+    ],
+    "CB-0614": [
+      23
+    ],
+    "CB-0615": [
+      23
+    ],
+    "CB-0616": [
+      23
+    ],
+    "CB-0617": [
+      23
+    ],
+    "CB-0618": [
+      24
+    ],
+    "CB-0619": [
+      24
+    ],
+    "CB-0620": [
+      24
+    ],
+    "CB-0621": [
+      24
+    ],
+    "CB-0622": [
+      24
+    ],
+    "CB-0623": [
+      24
+    ],
+    "CB-0624": [
+      24
+    ],
+    "CB-0625": [
+      24
+    ],
+    "CB-0626": [
+      24
+    ],
+    "CB-0627": [
+      24
+    ],
+    "CB-0628": [
+      24
+    ],
+    "CB-0629": [
+      24
+    ],
+    "CB-0630": [
+      24
+    ],
+    "CB-0631": [],
+    "CB-0632": [],
+    "CB-0633": [],
+    "CB-0634": [
+      25
+    ],
+    "CB-0635": [
+      25
+    ],
+    "CB-0636": [
+      25
+    ],
+    "CB-0637": [
+      25
+    ],
+    "CB-0638": [
+      25
+    ],
+    "CB-0639": [
+      25
+    ],
+    "CB-0640": [
+      25
+    ],
+    "CB-0641": [
+      25
+    ],
+    "CB-0642": [
+      25
+    ],
+    "CB-0643": [
+      25
+    ],
+    "CB-0644": [
+      26
+    ],
+    "CB-0645": [
+      26
+    ],
+    "CB-0646": [
+      26
+    ],
+    "CB-0647": [],
+    "CB-0648": [
+      27
+    ],
+    "CB-0649": [
+      28
+    ],
+    "CB-0650": [
+      28
+    ],
+    "CB-0651": [
+      28
+    ],
+    "CB-0652": [
+      28
+    ],
+    "CB-0653": [
+      29
+    ],
+    "CB-0654": [
+      29
+    ],
+    "CB-0655": [
+      29
+    ],
+    "CB-0656": [
+      29
+    ],
+    "CB-0657": [
+      31
+    ],
+    "CB-0658": [
+      31
+    ],
+    "CB-0659": [
+      30
+    ],
+    "CB-0660": [
+      32
+    ],
+    "CB-0661": [],
+    "CB-0662": [
+      30
+    ],
+    "CB-0663": [
+      31
+    ],
+    "CB-0664": [
+      32
+    ],
+    "CB-0665": [
+      32
+    ],
+    "CB-0666": [
+      30
+    ],
+    "CB-0667": [
+      30
+    ],
+    "CB-0668": [
+      30
+    ],
+    "CB-0669": [
+      30
+    ],
+    "CB-0670": [
+      31
+    ],
+    "CB-0671": [
+      31
+    ],
+    "CB-0672": [
+      30
+    ],
+    "CB-0673": [
+      33
+    ],
+    "CB-0674": [
+      33
+    ],
+    "CB-0675": [
+      33
+    ],
+    "CB-0676": [
+      33
+    ],
+    "CB-0677": [
+      33
+    ],
+    "CB-0678": [
+      33
+    ],
+    "CB-0679": [
+      33
+    ],
+    "CB-0680": [
+      33
+    ],
+    "CB-0681": [
+      33
+    ],
+    "CB-0682": [
+      33
+    ],
+    "CB-0683": [
+      33
+    ],
+    "CB-0684": [
+      34
+    ],
+    "CB-0685": [
+      34
+    ],
+    "CB-0686": [
+      34
+    ],
+    "CB-0687": [
+      34
+    ],
+    "CB-0688": [
+      34
+    ],
+    "CB-0689": [
+      34
+    ],
+    "CB-0690": [
+      34
+    ],
+    "CB-0691": [
+      34
+    ],
+    "CB-0692": [
+      34
+    ],
+    "CB-0693": [
+      34
+    ],
+    "CB-0694": [
+      33
+    ],
+    "CB-0695": [
+      33
+    ],
+    "CB-0696": [
+      33
+    ],
+    "CB-0697": [
+      33
+    ],
+    "CB-0698": [
+      33
+    ],
+    "CB-0699": [
+      33
+    ],
+    "CB-0700": [
+      33
+    ],
+    "CB-0701": [
+      33
+    ],
+    "CB-0702": [
+      33
+    ],
+    "CB-0703": [
+      35
+    ],
+    "CB-0704": [
+      36
+    ],
+    "CB-0705": [
+      36
+    ],
+    "CB-0706": [
+      35
+    ],
+    "CB-0707": [
+      36
+    ],
+    "CB-0708": [
+      35
+    ],
+    "CB-0709": [
+      36
+    ],
+    "CB-0710": [
+      35
+    ],
+    "CB-0711": [
+      35
+    ],
+    "CB-0712": [
+      35
+    ],
+    "CB-0713": [
+      35
+    ],
+    "CB-0714": [
+      35
+    ],
+    "CB-0715": [
+      37
+    ],
+    "CB-0716": [
+      37
+    ],
+    "CB-0717": [
+      37
+    ],
+    "CB-0718": [
+      37
+    ],
+    "CB-0719": [
+      37
+    ],
+    "CB-0720": [
+      37
+    ],
+    "CB-0721": [
+      37
+    ],
+    "CB-0722": [
+      37
+    ],
+    "CB-0723": [
+      37
+    ],
+    "CB-0724": [
+      37
+    ],
+    "CB-0725": [
+      37
+    ],
+    "CB-0726": [
+      37
+    ],
+    "CB-0727": [
+      37
+    ],
+    "CB-0728": [
+      37
+    ],
+    "CB-0729": [
+      37
+    ],
+    "CB-0730": [
+      37
+    ],
+    "CB-0731": [
+      37
+    ],
+    "CB-0732": [
+      37
+    ],
+    "CB-0733": [
+      37
+    ],
+    "CB-0734": [
+      37
+    ],
+    "CB-0735": [
+      37
+    ],
+    "CB-0736": [
+      37
+    ],
+    "CB-0737": [
+      37
+    ],
+    "CB-0738": [
+      37
+    ],
+    "CB-0739": [
+      37
+    ],
+    "CB-0740": [
+      37
+    ],
+    "CB-0741": [
+      37
+    ],
+    "CB-0742": [
+      37
+    ],
+    "CB-0743": [
+      37
+    ],
+    "CB-0744": [
+      37
+    ],
+    "CB-0745": [
+      37
+    ],
+    "CB-0746": [
+      37
+    ],
+    "CB-0747": [
+      37
+    ],
+    "CB-0748": [
+      37
+    ],
+    "CB-0749": [
+      38
+    ],
+    "CB-0750": [
+      39
+    ],
+    "CB-0751": [
+      40
+    ],
+    "CB-0752": [
+      40
+    ],
+    "CB-0753": [
+      39
+    ],
+    "CB-0754": [
+      40
+    ],
+    "CB-0755": [
+      41
+    ],
+    "CB-0756": [
+      42
+    ],
+    "CB-0757": [
+      42
+    ],
+    "CB-0758": [
+      41
+    ],
+    "CB-0759": [
+      41
+    ],
+    "CB-0760": [
+      43
+    ],
+    "CB-0761": [
+      44
+    ],
+    "CB-0762": [
+      45
+    ],
+    "CB-0763": [
+      46
+    ],
+    "CB-0764": [
+      46
+    ],
+    "CB-0765": [
+      46
+    ]
+  },
+  "missing": [
+    "CB-0026",
+    "CB-0028",
+    "CB-0631",
+    "CB-0632",
+    "CB-0633",
+    "CB-0647",
+    "CB-0661"
+  ],
+  "overlap": {},
+  "user_followup": "No additional decisions for missing IDs or malformed label row; inspect and draft.",
+  "frames": [
+    {
+      "frame_id": "F-001",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00001.jpg",
+      "crop_ids": [
+        "CB-0001",
+        "CB-0026",
+        "CB-0063",
+        "CB-0088",
+        "CB-0113",
+        "CB-0150",
+        "CB-0175"
+      ],
+      "board": "frames/01.jpg"
+    },
+    {
+      "frame_id": "F-002",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00005.jpg",
+      "crop_ids": [
+        "CB-0027",
+        "CB-0064",
+        "CB-0089",
+        "CB-0114",
+        "CB-0176",
+        "CB-0200"
+      ],
+      "board": "frames/01.jpg"
+    },
+    {
+      "frame_id": "F-003",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00006.jpg",
+      "crop_ids": [
+        "CB-0002",
+        "CB-0028",
+        "CB-0115",
+        "CB-0151",
+        "CB-0201"
+      ],
+      "board": "frames/01.jpg"
+    },
+    {
+      "frame_id": "F-004",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00010.jpg",
+      "crop_ids": [
+        "CB-0003",
+        "CB-0029",
+        "CB-0065",
+        "CB-0090",
+        "CB-0116",
+        "CB-0152",
+        "CB-0177"
+      ],
+      "board": "frames/01.jpg"
+    },
+    {
+      "frame_id": "F-005",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00011.jpg",
+      "crop_ids": [
+        "CB-0030",
+        "CB-0066",
+        "CB-0091",
+        "CB-0117",
+        "CB-0178",
+        "CB-0202"
+      ],
+      "board": "frames/02.jpg"
+    },
+    {
+      "frame_id": "F-006",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00012.jpg",
+      "crop_ids": [
+        "CB-0004",
+        "CB-0031",
+        "CB-0118",
+        "CB-0153",
+        "CB-0203"
+      ],
+      "board": "frames/02.jpg"
+    },
+    {
+      "frame_id": "F-007",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00014.jpg",
+      "crop_ids": [
+        "CB-0005",
+        "CB-0032",
+        "CB-0067",
+        "CB-0092",
+        "CB-0119",
+        "CB-0154",
+        "CB-0179"
+      ],
+      "board": "frames/02.jpg"
+    },
+    {
+      "frame_id": "F-008",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00016.jpg",
+      "crop_ids": [
+        "CB-0033",
+        "CB-0068",
+        "CB-0093",
+        "CB-0120",
+        "CB-0180",
+        "CB-0204"
+      ],
+      "board": "frames/02.jpg"
+    },
+    {
+      "frame_id": "F-009",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00018.jpg",
+      "crop_ids": [
+        "CB-0006",
+        "CB-0034",
+        "CB-0121",
+        "CB-0155",
+        "CB-0205"
+      ],
+      "board": "frames/03.jpg"
+    },
+    {
+      "frame_id": "F-010",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00020.jpg",
+      "crop_ids": [
+        "CB-0007",
+        "CB-0035",
+        "CB-0069",
+        "CB-0094",
+        "CB-0122",
+        "CB-0156",
+        "CB-0181"
+      ],
+      "board": "frames/03.jpg"
+    },
+    {
+      "frame_id": "F-011",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00024.jpg",
+      "crop_ids": [
+        "CB-0036",
+        "CB-0070",
+        "CB-0095",
+        "CB-0123",
+        "CB-0182",
+        "CB-0206"
+      ],
+      "board": "frames/03.jpg"
+    },
+    {
+      "frame_id": "F-012",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00026.jpg",
+      "crop_ids": [
+        "CB-0008",
+        "CB-0037",
+        "CB-0124",
+        "CB-0157",
+        "CB-0207"
+      ],
+      "board": "frames/03.jpg"
+    },
+    {
+      "frame_id": "F-013",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00030.jpg",
+      "crop_ids": [
+        "CB-0009",
+        "CB-0038",
+        "CB-0071",
+        "CB-0096",
+        "CB-0125",
+        "CB-0158",
+        "CB-0183"
+      ],
+      "board": "frames/04.jpg"
+    },
+    {
+      "frame_id": "F-014",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00032.jpg",
+      "crop_ids": [
+        "CB-0039",
+        "CB-0072",
+        "CB-0097",
+        "CB-0126",
+        "CB-0184",
+        "CB-0208"
+      ],
+      "board": "frames/04.jpg"
+    },
+    {
+      "frame_id": "F-015",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00034.jpg",
+      "crop_ids": [
+        "CB-0010",
+        "CB-0040",
+        "CB-0127",
+        "CB-0159",
+        "CB-0209"
+      ],
+      "board": "frames/04.jpg"
+    },
+    {
+      "frame_id": "F-016",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00036.jpg",
+      "crop_ids": [
+        "CB-0011",
+        "CB-0041",
+        "CB-0073",
+        "CB-0098",
+        "CB-0128",
+        "CB-0160",
+        "CB-0185"
+      ],
+      "board": "frames/04.jpg"
+    },
+    {
+      "frame_id": "F-017",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00038.jpg",
+      "crop_ids": [
+        "CB-0042",
+        "CB-0074",
+        "CB-0099",
+        "CB-0129",
+        "CB-0186",
+        "CB-0210"
+      ],
+      "board": "frames/05.jpg"
+    },
+    {
+      "frame_id": "F-018",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00040.jpg",
+      "crop_ids": [
+        "CB-0012",
+        "CB-0043",
+        "CB-0130",
+        "CB-0161",
+        "CB-0211"
+      ],
+      "board": "frames/05.jpg"
+    },
+    {
+      "frame_id": "F-019",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00042.jpg",
+      "crop_ids": [
+        "CB-0013",
+        "CB-0044",
+        "CB-0075",
+        "CB-0100",
+        "CB-0131",
+        "CB-0162",
+        "CB-0187"
+      ],
+      "board": "frames/05.jpg"
+    },
+    {
+      "frame_id": "F-020",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00044.jpg",
+      "crop_ids": [
+        "CB-0045",
+        "CB-0076",
+        "CB-0101",
+        "CB-0132",
+        "CB-0188",
+        "CB-0212"
+      ],
+      "board": "frames/05.jpg"
+    },
+    {
+      "frame_id": "F-021",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00046.jpg",
+      "crop_ids": [
+        "CB-0014",
+        "CB-0046",
+        "CB-0133",
+        "CB-0163",
+        "CB-0213"
+      ],
+      "board": "frames/06.jpg"
+    },
+    {
+      "frame_id": "F-022",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00048.jpg",
+      "crop_ids": [
+        "CB-0015",
+        "CB-0047",
+        "CB-0077",
+        "CB-0102",
+        "CB-0134",
+        "CB-0164",
+        "CB-0189"
+      ],
+      "board": "frames/06.jpg"
+    },
+    {
+      "frame_id": "F-023",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00050.jpg",
+      "crop_ids": [
+        "CB-0048",
+        "CB-0078",
+        "CB-0103",
+        "CB-0135",
+        "CB-0190",
+        "CB-0214"
+      ],
+      "board": "frames/06.jpg"
+    },
+    {
+      "frame_id": "F-024",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00052.jpg",
+      "crop_ids": [
+        "CB-0016",
+        "CB-0049",
+        "CB-0136",
+        "CB-0165",
+        "CB-0215"
+      ],
+      "board": "frames/06.jpg"
+    },
+    {
+      "frame_id": "F-025",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00054.jpg",
+      "crop_ids": [
+        "CB-0017",
+        "CB-0050",
+        "CB-0079",
+        "CB-0104",
+        "CB-0137",
+        "CB-0166",
+        "CB-0191"
+      ],
+      "board": "frames/07.jpg"
+    },
+    {
+      "frame_id": "F-026",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00056.jpg",
+      "crop_ids": [
+        "CB-0051",
+        "CB-0080",
+        "CB-0105",
+        "CB-0138",
+        "CB-0192",
+        "CB-0216"
+      ],
+      "board": "frames/07.jpg"
+    },
+    {
+      "frame_id": "F-027",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00059.jpg",
+      "crop_ids": [
+        "CB-0018",
+        "CB-0052",
+        "CB-0139",
+        "CB-0167",
+        "CB-0217"
+      ],
+      "board": "frames/07.jpg"
+    },
+    {
+      "frame_id": "F-028",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00062.jpg",
+      "crop_ids": [
+        "CB-0019",
+        "CB-0053",
+        "CB-0081",
+        "CB-0106",
+        "CB-0140",
+        "CB-0168",
+        "CB-0193"
+      ],
+      "board": "frames/07.jpg"
+    },
+    {
+      "frame_id": "F-029",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00065.jpg",
+      "crop_ids": [
+        "CB-0054",
+        "CB-0082",
+        "CB-0107",
+        "CB-0141",
+        "CB-0194",
+        "CB-0218"
+      ],
+      "board": "frames/08.jpg"
+    },
+    {
+      "frame_id": "F-030",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00068.jpg",
+      "crop_ids": [
+        "CB-0020",
+        "CB-0055",
+        "CB-0142",
+        "CB-0169",
+        "CB-0219"
+      ],
+      "board": "frames/08.jpg"
+    },
+    {
+      "frame_id": "F-031",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00071.jpg",
+      "crop_ids": [
+        "CB-0021",
+        "CB-0056",
+        "CB-0083",
+        "CB-0108",
+        "CB-0143",
+        "CB-0170",
+        "CB-0195"
+      ],
+      "board": "frames/08.jpg"
+    },
+    {
+      "frame_id": "F-032",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00074.jpg",
+      "crop_ids": [
+        "CB-0057",
+        "CB-0084",
+        "CB-0109",
+        "CB-0144",
+        "CB-0196",
+        "CB-0220"
+      ],
+      "board": "frames/08.jpg"
+    },
+    {
+      "frame_id": "F-033",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00077.jpg",
+      "crop_ids": [
+        "CB-0022",
+        "CB-0058",
+        "CB-0145",
+        "CB-0171",
+        "CB-0221"
+      ],
+      "board": "frames/09.jpg"
+    },
+    {
+      "frame_id": "F-034",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00079.jpg",
+      "crop_ids": [
+        "CB-0023",
+        "CB-0059",
+        "CB-0085",
+        "CB-0110",
+        "CB-0146",
+        "CB-0172",
+        "CB-0197"
+      ],
+      "board": "frames/09.jpg"
+    },
+    {
+      "frame_id": "F-035",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00081.jpg",
+      "crop_ids": [
+        "CB-0060",
+        "CB-0086",
+        "CB-0111",
+        "CB-0147",
+        "CB-0198",
+        "CB-0222"
+      ],
+      "board": "frames/09.jpg"
+    },
+    {
+      "frame_id": "F-036",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00083.jpg",
+      "crop_ids": [
+        "CB-0024",
+        "CB-0061",
+        "CB-0148",
+        "CB-0173",
+        "CB-0223"
+      ],
+      "board": "frames/09.jpg"
+    },
+    {
+      "frame_id": "F-037",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00085.jpg",
+      "crop_ids": [
+        "CB-0025",
+        "CB-0062",
+        "CB-0087",
+        "CB-0112",
+        "CB-0149",
+        "CB-0174",
+        "CB-0199"
+      ],
+      "board": "frames/10.jpg"
+    },
+    {
+      "frame_id": "F-038",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00001.jpg",
+      "crop_ids": [
+        "CB-0282",
+        "CB-0398",
+        "CB-0485",
+        "CB-0514"
+      ],
+      "board": "frames/10.jpg"
+    },
+    {
+      "frame_id": "F-039",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00003.jpg",
+      "crop_ids": [
+        "CB-0283",
+        "CB-0399",
+        "CB-0543"
+      ],
+      "board": "frames/10.jpg"
+    },
+    {
+      "frame_id": "F-040",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00005.jpg",
+      "crop_ids": [
+        "CB-0224",
+        "CB-0253",
+        "CB-0284",
+        "CB-0369",
+        "CB-0400"
+      ],
+      "board": "frames/10.jpg"
+    },
+    {
+      "frame_id": "F-041",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00007.jpg",
+      "crop_ids": [
+        "CB-0285",
+        "CB-0401",
+        "CB-0486",
+        "CB-0515"
+      ],
+      "board": "frames/11.jpg"
+    },
+    {
+      "frame_id": "F-042",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00009.jpg",
+      "crop_ids": [
+        "CB-0286",
+        "CB-0402",
+        "CB-0544"
+      ],
+      "board": "frames/11.jpg"
+    },
+    {
+      "frame_id": "F-043",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00011.jpg",
+      "crop_ids": [
+        "CB-0225",
+        "CB-0254",
+        "CB-0287",
+        "CB-0370",
+        "CB-0403"
+      ],
+      "board": "frames/11.jpg"
+    },
+    {
+      "frame_id": "F-044",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00013.jpg",
+      "crop_ids": [
+        "CB-0288",
+        "CB-0404",
+        "CB-0487",
+        "CB-0516"
+      ],
+      "board": "frames/11.jpg"
+    },
+    {
+      "frame_id": "F-045",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00015.jpg",
+      "crop_ids": [
+        "CB-0289",
+        "CB-0405",
+        "CB-0545"
+      ],
+      "board": "frames/12.jpg"
+    },
+    {
+      "frame_id": "F-046",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00017.jpg",
+      "crop_ids": [
+        "CB-0226",
+        "CB-0255",
+        "CB-0290",
+        "CB-0371",
+        "CB-0406"
+      ],
+      "board": "frames/12.jpg"
+    },
+    {
+      "frame_id": "F-047",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00019.jpg",
+      "crop_ids": [
+        "CB-0291",
+        "CB-0407",
+        "CB-0488",
+        "CB-0517"
+      ],
+      "board": "frames/12.jpg"
+    },
+    {
+      "frame_id": "F-048",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00021.jpg",
+      "crop_ids": [
+        "CB-0292",
+        "CB-0408",
+        "CB-0546"
+      ],
+      "board": "frames/12.jpg"
+    },
+    {
+      "frame_id": "F-049",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00023.jpg",
+      "crop_ids": [
+        "CB-0227",
+        "CB-0256",
+        "CB-0293",
+        "CB-0372",
+        "CB-0409"
+      ],
+      "board": "frames/13.jpg"
+    },
+    {
+      "frame_id": "F-050",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00025.jpg",
+      "crop_ids": [
+        "CB-0294",
+        "CB-0410",
+        "CB-0489",
+        "CB-0518"
+      ],
+      "board": "frames/13.jpg"
+    },
+    {
+      "frame_id": "F-051",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00026.jpg",
+      "crop_ids": [
+        "CB-0295",
+        "CB-0411",
+        "CB-0547"
+      ],
+      "board": "frames/13.jpg"
+    },
+    {
+      "frame_id": "F-052",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00028.jpg",
+      "crop_ids": [
+        "CB-0228",
+        "CB-0257",
+        "CB-0296",
+        "CB-0373",
+        "CB-0412"
+      ],
+      "board": "frames/13.jpg"
+    },
+    {
+      "frame_id": "F-053",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00029.jpg",
+      "crop_ids": [
+        "CB-0297",
+        "CB-0413",
+        "CB-0490",
+        "CB-0519"
+      ],
+      "board": "frames/14.jpg"
+    },
+    {
+      "frame_id": "F-054",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00031.jpg",
+      "crop_ids": [
+        "CB-0298",
+        "CB-0414",
+        "CB-0548"
+      ],
+      "board": "frames/14.jpg"
+    },
+    {
+      "frame_id": "F-055",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00033.jpg",
+      "crop_ids": [
+        "CB-0229",
+        "CB-0258",
+        "CB-0299",
+        "CB-0374",
+        "CB-0415"
+      ],
+      "board": "frames/14.jpg"
+    },
+    {
+      "frame_id": "F-056",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00035.jpg",
+      "crop_ids": [
+        "CB-0300",
+        "CB-0416",
+        "CB-0491",
+        "CB-0520"
+      ],
+      "board": "frames/14.jpg"
+    },
+    {
+      "frame_id": "F-057",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00037.jpg",
+      "crop_ids": [
+        "CB-0301",
+        "CB-0417",
+        "CB-0549"
+      ],
+      "board": "frames/15.jpg"
+    },
+    {
+      "frame_id": "F-058",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00039.jpg",
+      "crop_ids": [
+        "CB-0230",
+        "CB-0259",
+        "CB-0302",
+        "CB-0375",
+        "CB-0418"
+      ],
+      "board": "frames/15.jpg"
+    },
+    {
+      "frame_id": "F-059",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00041.jpg",
+      "crop_ids": [
+        "CB-0303",
+        "CB-0419",
+        "CB-0492",
+        "CB-0521"
+      ],
+      "board": "frames/15.jpg"
+    },
+    {
+      "frame_id": "F-060",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00043.jpg",
+      "crop_ids": [
+        "CB-0304",
+        "CB-0420",
+        "CB-0550"
+      ],
+      "board": "frames/15.jpg"
+    },
+    {
+      "frame_id": "F-061",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00045.jpg",
+      "crop_ids": [
+        "CB-0231",
+        "CB-0260",
+        "CB-0305",
+        "CB-0376",
+        "CB-0421"
+      ],
+      "board": "frames/16.jpg"
+    },
+    {
+      "frame_id": "F-062",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00047.jpg",
+      "crop_ids": [
+        "CB-0306",
+        "CB-0422",
+        "CB-0493",
+        "CB-0522"
+      ],
+      "board": "frames/16.jpg"
+    },
+    {
+      "frame_id": "F-063",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00049.jpg",
+      "crop_ids": [
+        "CB-0307",
+        "CB-0423",
+        "CB-0551"
+      ],
+      "board": "frames/16.jpg"
+    },
+    {
+      "frame_id": "F-064",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00051.jpg",
+      "crop_ids": [
+        "CB-0232",
+        "CB-0261",
+        "CB-0308",
+        "CB-0377",
+        "CB-0424"
+      ],
+      "board": "frames/16.jpg"
+    },
+    {
+      "frame_id": "F-065",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00053.jpg",
+      "crop_ids": [
+        "CB-0309",
+        "CB-0425",
+        "CB-0494",
+        "CB-0523"
+      ],
+      "board": "frames/17.jpg"
+    },
+    {
+      "frame_id": "F-066",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00055.jpg",
+      "crop_ids": [
+        "CB-0310",
+        "CB-0426",
+        "CB-0552"
+      ],
+      "board": "frames/17.jpg"
+    },
+    {
+      "frame_id": "F-067",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00057.jpg",
+      "crop_ids": [
+        "CB-0233",
+        "CB-0262",
+        "CB-0311",
+        "CB-0378",
+        "CB-0427"
+      ],
+      "board": "frames/17.jpg"
+    },
+    {
+      "frame_id": "F-068",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00059.jpg",
+      "crop_ids": [
+        "CB-0312",
+        "CB-0428",
+        "CB-0495",
+        "CB-0524"
+      ],
+      "board": "frames/17.jpg"
+    },
+    {
+      "frame_id": "F-069",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00061.jpg",
+      "crop_ids": [
+        "CB-0313",
+        "CB-0429",
+        "CB-0553"
+      ],
+      "board": "frames/18.jpg"
+    },
+    {
+      "frame_id": "F-070",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00063.jpg",
+      "crop_ids": [
+        "CB-0234",
+        "CB-0263",
+        "CB-0314",
+        "CB-0379",
+        "CB-0430"
+      ],
+      "board": "frames/18.jpg"
+    },
+    {
+      "frame_id": "F-071",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00065.jpg",
+      "crop_ids": [
+        "CB-0315",
+        "CB-0431",
+        "CB-0496",
+        "CB-0525"
+      ],
+      "board": "frames/18.jpg"
+    },
+    {
+      "frame_id": "F-072",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00067.jpg",
+      "crop_ids": [
+        "CB-0316",
+        "CB-0432",
+        "CB-0554"
+      ],
+      "board": "frames/18.jpg"
+    },
+    {
+      "frame_id": "F-073",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00069.jpg",
+      "crop_ids": [
+        "CB-0235",
+        "CB-0264",
+        "CB-0317",
+        "CB-0380",
+        "CB-0433"
+      ],
+      "board": "frames/19.jpg"
+    },
+    {
+      "frame_id": "F-074",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00071.jpg",
+      "crop_ids": [
+        "CB-0318",
+        "CB-0434",
+        "CB-0497",
+        "CB-0526"
+      ],
+      "board": "frames/19.jpg"
+    },
+    {
+      "frame_id": "F-075",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00073.jpg",
+      "crop_ids": [
+        "CB-0319",
+        "CB-0435",
+        "CB-0555"
+      ],
+      "board": "frames/19.jpg"
+    },
+    {
+      "frame_id": "F-076",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00079.jpg",
+      "crop_ids": [
+        "CB-0236",
+        "CB-0265",
+        "CB-0320",
+        "CB-0381",
+        "CB-0436"
+      ],
+      "board": "frames/19.jpg"
+    },
+    {
+      "frame_id": "F-077",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00082.jpg",
+      "crop_ids": [
+        "CB-0321",
+        "CB-0437",
+        "CB-0498",
+        "CB-0527"
+      ],
+      "board": "frames/20.jpg"
+    },
+    {
+      "frame_id": "F-078",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00083.jpg",
+      "crop_ids": [
+        "CB-0322",
+        "CB-0438",
+        "CB-0556"
+      ],
+      "board": "frames/20.jpg"
+    },
+    {
+      "frame_id": "F-079",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00089.jpg",
+      "crop_ids": [
+        "CB-0237",
+        "CB-0266",
+        "CB-0323",
+        "CB-0382",
+        "CB-0439"
+      ],
+      "board": "frames/20.jpg"
+    },
+    {
+      "frame_id": "F-080",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00091.jpg",
+      "crop_ids": [
+        "CB-0324",
+        "CB-0440",
+        "CB-0499",
+        "CB-0528"
+      ],
+      "board": "frames/20.jpg"
+    },
+    {
+      "frame_id": "F-081",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00093.jpg",
+      "crop_ids": [
+        "CB-0325",
+        "CB-0441",
+        "CB-0557"
+      ],
+      "board": "frames/21.jpg"
+    },
+    {
+      "frame_id": "F-082",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00095.jpg",
+      "crop_ids": [
+        "CB-0238",
+        "CB-0267",
+        "CB-0326",
+        "CB-0383",
+        "CB-0442"
+      ],
+      "board": "frames/21.jpg"
+    },
+    {
+      "frame_id": "F-083",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00097.jpg",
+      "crop_ids": [
+        "CB-0327",
+        "CB-0443",
+        "CB-0500",
+        "CB-0529"
+      ],
+      "board": "frames/21.jpg"
+    },
+    {
+      "frame_id": "F-084",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00099.jpg",
+      "crop_ids": [
+        "CB-0328",
+        "CB-0444",
+        "CB-0558"
+      ],
+      "board": "frames/21.jpg"
+    },
+    {
+      "frame_id": "F-085",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00104.jpg",
+      "crop_ids": [
+        "CB-0239",
+        "CB-0268",
+        "CB-0329",
+        "CB-0384",
+        "CB-0445"
+      ],
+      "board": "frames/22.jpg"
+    },
+    {
+      "frame_id": "F-086",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00106.jpg",
+      "crop_ids": [
+        "CB-0330",
+        "CB-0446",
+        "CB-0501",
+        "CB-0530"
+      ],
+      "board": "frames/22.jpg"
+    },
+    {
+      "frame_id": "F-087",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00111.jpg",
+      "crop_ids": [
+        "CB-0331",
+        "CB-0447",
+        "CB-0559"
+      ],
+      "board": "frames/22.jpg"
+    },
+    {
+      "frame_id": "F-088",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00112.jpg",
+      "crop_ids": [
+        "CB-0240",
+        "CB-0269",
+        "CB-0332",
+        "CB-0385",
+        "CB-0448"
+      ],
+      "board": "frames/22.jpg"
+    },
+    {
+      "frame_id": "F-089",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00123.jpg",
+      "crop_ids": [
+        "CB-0333",
+        "CB-0449",
+        "CB-0502",
+        "CB-0531"
+      ],
+      "board": "frames/23.jpg"
+    },
+    {
+      "frame_id": "F-090",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00137.jpg",
+      "crop_ids": [
+        "CB-0334",
+        "CB-0450",
+        "CB-0560"
+      ],
+      "board": "frames/23.jpg"
+    },
+    {
+      "frame_id": "F-091",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00140.jpg",
+      "crop_ids": [
+        "CB-0241",
+        "CB-0270",
+        "CB-0335",
+        "CB-0386",
+        "CB-0451"
+      ],
+      "board": "frames/23.jpg"
+    },
+    {
+      "frame_id": "F-092",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00143.jpg",
+      "crop_ids": [
+        "CB-0336",
+        "CB-0452",
+        "CB-0503",
+        "CB-0532"
+      ],
+      "board": "frames/23.jpg"
+    },
+    {
+      "frame_id": "F-093",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00145.jpg",
+      "crop_ids": [
+        "CB-0337",
+        "CB-0453",
+        "CB-0561"
+      ],
+      "board": "frames/24.jpg"
+    },
+    {
+      "frame_id": "F-094",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00146.jpg",
+      "crop_ids": [
+        "CB-0242",
+        "CB-0271",
+        "CB-0338",
+        "CB-0387",
+        "CB-0454"
+      ],
+      "board": "frames/24.jpg"
+    },
+    {
+      "frame_id": "F-095",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00149.jpg",
+      "crop_ids": [
+        "CB-0339",
+        "CB-0455",
+        "CB-0504",
+        "CB-0533"
+      ],
+      "board": "frames/24.jpg"
+    },
+    {
+      "frame_id": "F-096",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00150.jpg",
+      "crop_ids": [
+        "CB-0340",
+        "CB-0456",
+        "CB-0562"
+      ],
+      "board": "frames/24.jpg"
+    },
+    {
+      "frame_id": "F-097",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00157.jpg",
+      "crop_ids": [
+        "CB-0243",
+        "CB-0272",
+        "CB-0341",
+        "CB-0388",
+        "CB-0457"
+      ],
+      "board": "frames/25.jpg"
+    },
+    {
+      "frame_id": "F-098",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00161.jpg",
+      "crop_ids": [
+        "CB-0342",
+        "CB-0458",
+        "CB-0505",
+        "CB-0534"
+      ],
+      "board": "frames/25.jpg"
+    },
+    {
+      "frame_id": "F-099",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00166.jpg",
+      "crop_ids": [
+        "CB-0343",
+        "CB-0459",
+        "CB-0563"
+      ],
+      "board": "frames/25.jpg"
+    },
+    {
+      "frame_id": "F-100",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00167.jpg",
+      "crop_ids": [
+        "CB-0244",
+        "CB-0273",
+        "CB-0344",
+        "CB-0389",
+        "CB-0460"
+      ],
+      "board": "frames/25.jpg"
+    },
+    {
+      "frame_id": "F-101",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00169.jpg",
+      "crop_ids": [
+        "CB-0345",
+        "CB-0461",
+        "CB-0506",
+        "CB-0535"
+      ],
+      "board": "frames/26.jpg"
+    },
+    {
+      "frame_id": "F-102",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00170.jpg",
+      "crop_ids": [
+        "CB-0346",
+        "CB-0462",
+        "CB-0564"
+      ],
+      "board": "frames/26.jpg"
+    },
+    {
+      "frame_id": "F-103",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00184.jpg",
+      "crop_ids": [
+        "CB-0245",
+        "CB-0274",
+        "CB-0347",
+        "CB-0390",
+        "CB-0463"
+      ],
+      "board": "frames/26.jpg"
+    },
+    {
+      "frame_id": "F-104",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00190.jpg",
+      "crop_ids": [
+        "CB-0348",
+        "CB-0464",
+        "CB-0507",
+        "CB-0536"
+      ],
+      "board": "frames/26.jpg"
+    },
+    {
+      "frame_id": "F-105",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00197.jpg",
+      "crop_ids": [
+        "CB-0349",
+        "CB-0465",
+        "CB-0565"
+      ],
+      "board": "frames/27.jpg"
+    },
+    {
+      "frame_id": "F-106",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00198.jpg",
+      "crop_ids": [
+        "CB-0246",
+        "CB-0275",
+        "CB-0350",
+        "CB-0391",
+        "CB-0466"
+      ],
+      "board": "frames/27.jpg"
+    },
+    {
+      "frame_id": "F-107",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00201.jpg",
+      "crop_ids": [
+        "CB-0351",
+        "CB-0467",
+        "CB-0508",
+        "CB-0537"
+      ],
+      "board": "frames/27.jpg"
+    },
+    {
+      "frame_id": "F-108",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00203.jpg",
+      "crop_ids": [
+        "CB-0352",
+        "CB-0468",
+        "CB-0566"
+      ],
+      "board": "frames/27.jpg"
+    },
+    {
+      "frame_id": "F-109",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00204.jpg",
+      "crop_ids": [
+        "CB-0247",
+        "CB-0276",
+        "CB-0353",
+        "CB-0392",
+        "CB-0469"
+      ],
+      "board": "frames/28.jpg"
+    },
+    {
+      "frame_id": "F-110",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00206.jpg",
+      "crop_ids": [
+        "CB-0354",
+        "CB-0470",
+        "CB-0509",
+        "CB-0538"
+      ],
+      "board": "frames/28.jpg"
+    },
+    {
+      "frame_id": "F-111",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00213.jpg",
+      "crop_ids": [
+        "CB-0355",
+        "CB-0471",
+        "CB-0567"
+      ],
+      "board": "frames/28.jpg"
+    },
+    {
+      "frame_id": "F-112",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00214.jpg",
+      "crop_ids": [
+        "CB-0248",
+        "CB-0277",
+        "CB-0356",
+        "CB-0393",
+        "CB-0472"
+      ],
+      "board": "frames/28.jpg"
+    },
+    {
+      "frame_id": "F-113",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00216.jpg",
+      "crop_ids": [
+        "CB-0357",
+        "CB-0473",
+        "CB-0510",
+        "CB-0539"
+      ],
+      "board": "frames/29.jpg"
+    },
+    {
+      "frame_id": "F-114",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00217.jpg",
+      "crop_ids": [
+        "CB-0358",
+        "CB-0474",
+        "CB-0568"
+      ],
+      "board": "frames/29.jpg"
+    },
+    {
+      "frame_id": "F-115",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00227.jpg",
+      "crop_ids": [
+        "CB-0249",
+        "CB-0278",
+        "CB-0359",
+        "CB-0394",
+        "CB-0475"
+      ],
+      "board": "frames/29.jpg"
+    },
+    {
+      "frame_id": "F-116",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00231.jpg",
+      "crop_ids": [
+        "CB-0360",
+        "CB-0476",
+        "CB-0511",
+        "CB-0540"
+      ],
+      "board": "frames/29.jpg"
+    },
+    {
+      "frame_id": "F-117",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00235.jpg",
+      "crop_ids": [
+        "CB-0361",
+        "CB-0477",
+        "CB-0569"
+      ],
+      "board": "frames/30.jpg"
+    },
+    {
+      "frame_id": "F-118",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00237.jpg",
+      "crop_ids": [
+        "CB-0250",
+        "CB-0279",
+        "CB-0362",
+        "CB-0395",
+        "CB-0478"
+      ],
+      "board": "frames/30.jpg"
+    },
+    {
+      "frame_id": "F-119",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00241.jpg",
+      "crop_ids": [
+        "CB-0363",
+        "CB-0479",
+        "CB-0512",
+        "CB-0541"
+      ],
+      "board": "frames/30.jpg"
+    },
+    {
+      "frame_id": "F-120",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00242.jpg",
+      "crop_ids": [
+        "CB-0364",
+        "CB-0480",
+        "CB-0570"
+      ],
+      "board": "frames/30.jpg"
+    },
+    {
+      "frame_id": "F-121",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00249.jpg",
+      "crop_ids": [
+        "CB-0251",
+        "CB-0280",
+        "CB-0365",
+        "CB-0396",
+        "CB-0481"
+      ],
+      "board": "frames/31.jpg"
+    },
+    {
+      "frame_id": "F-122",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00250.jpg",
+      "crop_ids": [
+        "CB-0366",
+        "CB-0482",
+        "CB-0513",
+        "CB-0542"
+      ],
+      "board": "frames/31.jpg"
+    },
+    {
+      "frame_id": "F-123",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00252.jpg",
+      "crop_ids": [
+        "CB-0367",
+        "CB-0483",
+        "CB-0571"
+      ],
+      "board": "frames/31.jpg"
+    },
+    {
+      "frame_id": "F-124",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00256.jpg",
+      "crop_ids": [
+        "CB-0252",
+        "CB-0281",
+        "CB-0368",
+        "CB-0397",
+        "CB-0484"
+      ],
+      "board": "frames/31.jpg"
+    },
+    {
+      "frame_id": "F-125",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00001.jpg",
+      "crop_ids": [
+        "CB-0572",
+        "CB-0618",
+        "CB-0644"
+      ],
+      "board": "frames/32.jpg"
+    },
+    {
+      "frame_id": "F-126",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00003.jpg",
+      "crop_ids": [
+        "CB-0573",
+        "CB-0619"
+      ],
+      "board": "frames/32.jpg"
+    },
+    {
+      "frame_id": "F-127",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00007.jpg",
+      "crop_ids": [
+        "CB-0574",
+        "CB-0604",
+        "CB-0611",
+        "CB-0620"
+      ],
+      "board": "frames/32.jpg"
+    },
+    {
+      "frame_id": "F-128",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00008.jpg",
+      "crop_ids": [
+        "CB-0575",
+        "CB-0598",
+        "CB-0621",
+        "CB-0653"
+      ],
+      "board": "frames/32.jpg"
+    },
+    {
+      "frame_id": "F-129",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00013.jpg",
+      "crop_ids": [
+        "CB-0576",
+        "CB-0622",
+        "CB-0645"
+      ],
+      "board": "frames/33.jpg"
+    },
+    {
+      "frame_id": "F-130",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00021.jpg",
+      "crop_ids": [
+        "CB-0577",
+        "CB-0623"
+      ],
+      "board": "frames/33.jpg"
+    },
+    {
+      "frame_id": "F-131",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00036.jpg",
+      "crop_ids": [
+        "CB-0578",
+        "CB-0605",
+        "CB-0612",
+        "CB-0624"
+      ],
+      "board": "frames/33.jpg"
+    },
+    {
+      "frame_id": "F-132",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00042.jpg",
+      "crop_ids": [
+        "CB-0579",
+        "CB-0599",
+        "CB-0625",
+        "CB-0654"
+      ],
+      "board": "frames/33.jpg"
+    },
+    {
+      "frame_id": "F-133",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00044.jpg",
+      "crop_ids": [
+        "CB-0648"
+      ],
+      "board": "frames/34.jpg"
+    },
+    {
+      "frame_id": "F-134",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00045.jpg",
+      "crop_ids": [
+        "CB-0649"
+      ],
+      "board": "frames/34.jpg"
+    },
+    {
+      "frame_id": "F-135",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00047.jpg",
+      "crop_ids": [
+        "CB-0650"
+      ],
+      "board": "frames/34.jpg"
+    },
+    {
+      "frame_id": "F-136",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00055.jpg",
+      "crop_ids": [
+        "CB-0651"
+      ],
+      "board": "frames/34.jpg"
+    },
+    {
+      "frame_id": "F-137",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00065.jpg",
+      "crop_ids": [
+        "CB-0652"
+      ],
+      "board": "frames/35.jpg"
+    },
+    {
+      "frame_id": "F-138",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00071.jpg",
+      "crop_ids": [
+        "CB-0580",
+        "CB-0626"
+      ],
+      "board": "frames/35.jpg"
+    },
+    {
+      "frame_id": "F-139",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00073.jpg",
+      "crop_ids": [
+        "CB-0581",
+        "CB-0606",
+        "CB-0613",
+        "CB-0627"
+      ],
+      "board": "frames/35.jpg"
+    },
+    {
+      "frame_id": "F-140",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00077.jpg",
+      "crop_ids": [
+        "CB-0582",
+        "CB-0600",
+        "CB-0628",
+        "CB-0655"
+      ],
+      "board": "frames/35.jpg"
+    },
+    {
+      "frame_id": "F-141",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00078.jpg",
+      "crop_ids": [
+        "CB-0583",
+        "CB-0629",
+        "CB-0646"
+      ],
+      "board": "frames/36.jpg"
+    },
+    {
+      "frame_id": "F-142",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00080.jpg",
+      "crop_ids": [
+        "CB-0584",
+        "CB-0630"
+      ],
+      "board": "frames/36.jpg"
+    },
+    {
+      "frame_id": "F-143",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00086.jpg",
+      "crop_ids": [
+        "CB-0585",
+        "CB-0607",
+        "CB-0614",
+        "CB-0631"
+      ],
+      "board": "frames/36.jpg"
+    },
+    {
+      "frame_id": "F-144",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00090.jpg",
+      "crop_ids": [
+        "CB-0586",
+        "CB-0601",
+        "CB-0632",
+        "CB-0656"
+      ],
+      "board": "frames/36.jpg"
+    },
+    {
+      "frame_id": "F-145",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00096.jpg",
+      "crop_ids": [
+        "CB-0587",
+        "CB-0633",
+        "CB-0647"
+      ],
+      "board": "frames/37.jpg"
+    },
+    {
+      "frame_id": "F-146",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00097.jpg",
+      "crop_ids": [
+        "CB-0588",
+        "CB-0634"
+      ],
+      "board": "frames/37.jpg"
+    },
+    {
+      "frame_id": "F-147",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00099.jpg",
+      "crop_ids": [
+        "CB-0589",
+        "CB-0608",
+        "CB-0615",
+        "CB-0635"
+      ],
+      "board": "frames/37.jpg"
+    },
+    {
+      "frame_id": "F-148",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00101.jpg",
+      "crop_ids": [
+        "CB-0590",
+        "CB-0602",
+        "CB-0636"
+      ],
+      "board": "frames/37.jpg"
+    },
+    {
+      "frame_id": "F-149",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00102.jpg",
+      "crop_ids": [
+        "CB-0591",
+        "CB-0637"
+      ],
+      "board": "frames/38.jpg"
+    },
+    {
+      "frame_id": "F-150",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00106.jpg",
+      "crop_ids": [
+        "CB-0592",
+        "CB-0638"
+      ],
+      "board": "frames/38.jpg"
+    },
+    {
+      "frame_id": "F-151",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00107.jpg",
+      "crop_ids": [
+        "CB-0593",
+        "CB-0609",
+        "CB-0616",
+        "CB-0639"
+      ],
+      "board": "frames/38.jpg"
+    },
+    {
+      "frame_id": "F-152",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00108.jpg",
+      "crop_ids": [
+        "CB-0594",
+        "CB-0603",
+        "CB-0640"
+      ],
+      "board": "frames/38.jpg"
+    },
+    {
+      "frame_id": "F-153",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00109.jpg",
+      "crop_ids": [
+        "CB-0595",
+        "CB-0641"
+      ],
+      "board": "frames/39.jpg"
+    },
+    {
+      "frame_id": "F-154",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00112.jpg",
+      "crop_ids": [
+        "CB-0596",
+        "CB-0642"
+      ],
+      "board": "frames/39.jpg"
+    },
+    {
+      "frame_id": "F-155",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00113.jpg",
+      "crop_ids": [
+        "CB-0597",
+        "CB-0610",
+        "CB-0617",
+        "CB-0643"
+      ],
+      "board": "frames/39.jpg"
+    },
+    {
+      "frame_id": "F-156",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00001.jpg",
+      "crop_ids": [
+        "CB-0673",
+        "CB-0703"
+      ],
+      "board": "frames/39.jpg"
+    },
+    {
+      "frame_id": "F-157",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00005.jpg",
+      "crop_ids": [
+        "CB-0657",
+        "CB-0718"
+      ],
+      "board": "frames/40.jpg"
+    },
+    {
+      "frame_id": "F-158",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00009.jpg",
+      "crop_ids": [
+        "CB-0658",
+        "CB-0719",
+        "CB-0734"
+      ],
+      "board": "frames/40.jpg"
+    },
+    {
+      "frame_id": "F-159",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00013.jpg",
+      "crop_ids": [
+        "CB-0674",
+        "CB-0704"
+      ],
+      "board": "frames/40.jpg"
+    },
+    {
+      "frame_id": "F-160",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00016.jpg",
+      "crop_ids": [
+        "CB-0720",
+        "CB-0735"
+      ],
+      "board": "frames/40.jpg"
+    },
+    {
+      "frame_id": "F-161",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00017.jpg",
+      "crop_ids": [
+        "CB-0659",
+        "CB-0675",
+        "CB-0736"
+      ],
+      "board": "frames/41.jpg"
+    },
+    {
+      "frame_id": "F-162",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00020.jpg",
+      "crop_ids": [
+        "CB-0660",
+        "CB-0676",
+        "CB-0705"
+      ],
+      "board": "frames/41.jpg"
+    },
+    {
+      "frame_id": "F-163",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00027.jpg",
+      "crop_ids": [
+        "CB-0721"
+      ],
+      "board": "frames/41.jpg"
+    },
+    {
+      "frame_id": "F-164",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00033.jpg",
+      "crop_ids": [
+        "CB-0661",
+        "CB-0706",
+        "CB-0737"
+      ],
+      "board": "frames/41.jpg"
+    },
+    {
+      "frame_id": "F-165",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00035.jpg",
+      "crop_ids": [
+        "CB-0677",
+        "CB-0707",
+        "CB-0738"
+      ],
+      "board": "frames/42.jpg"
+    },
+    {
+      "frame_id": "F-166",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00040.jpg",
+      "crop_ids": [
+        "CB-0678",
+        "CB-0722"
+      ],
+      "board": "frames/42.jpg"
+    },
+    {
+      "frame_id": "F-167",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00042.jpg",
+      "crop_ids": [
+        "CB-0662",
+        "CB-0739"
+      ],
+      "board": "frames/42.jpg"
+    },
+    {
+      "frame_id": "F-168",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00045.jpg",
+      "crop_ids": [
+        "CB-0679",
+        "CB-0708",
+        "CB-0723"
+      ],
+      "board": "frames/42.jpg"
+    },
+    {
+      "frame_id": "F-169",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00049.jpg",
+      "crop_ids": [
+        "CB-0709",
+        "CB-0724"
+      ],
+      "board": "frames/43.jpg"
+    },
+    {
+      "frame_id": "F-170",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00055.jpg",
+      "crop_ids": [
+        "CB-0663",
+        "CB-0740"
+      ],
+      "board": "frames/43.jpg"
+    },
+    {
+      "frame_id": "F-171",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00056.jpg",
+      "crop_ids": [
+        "CB-0680",
+        "CB-0710"
+      ],
+      "board": "frames/43.jpg"
+    },
+    {
+      "frame_id": "F-172",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00057.jpg",
+      "crop_ids": [
+        "CB-0664",
+        "CB-0725"
+      ],
+      "board": "frames/43.jpg"
+    },
+    {
+      "frame_id": "F-173",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00063.jpg",
+      "crop_ids": [
+        "CB-0665",
+        "CB-0726",
+        "CB-0741"
+      ],
+      "board": "frames/44.jpg"
+    },
+    {
+      "frame_id": "F-174",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00064.jpg",
+      "crop_ids": [
+        "CB-0681",
+        "CB-0711"
+      ],
+      "board": "frames/44.jpg"
+    },
+    {
+      "frame_id": "F-175",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00067.jpg",
+      "crop_ids": [
+        "CB-0727",
+        "CB-0742"
+      ],
+      "board": "frames/44.jpg"
+    },
+    {
+      "frame_id": "F-176",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00073.jpg",
+      "crop_ids": [
+        "CB-0666",
+        "CB-0682",
+        "CB-0743"
+      ],
+      "board": "frames/44.jpg"
+    },
+    {
+      "frame_id": "F-177",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00074.jpg",
+      "crop_ids": [
+        "CB-0667",
+        "CB-0683",
+        "CB-0712"
+      ],
+      "board": "frames/45.jpg"
+    },
+    {
+      "frame_id": "F-178",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00078.jpg",
+      "crop_ids": [
+        "CB-0728"
+      ],
+      "board": "frames/45.jpg"
+    },
+    {
+      "frame_id": "F-179",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00083.jpg",
+      "crop_ids": [
+        "CB-0668",
+        "CB-0713",
+        "CB-0744"
+      ],
+      "board": "frames/45.jpg"
+    },
+    {
+      "frame_id": "F-180",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00097.jpg",
+      "crop_ids": [
+        "CB-0684",
+        "CB-0714",
+        "CB-0745"
+      ],
+      "board": "frames/45.jpg"
+    },
+    {
+      "frame_id": "F-181",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00098.jpg",
+      "crop_ids": [
+        "CB-0685",
+        "CB-0729"
+      ],
+      "board": "frames/46.jpg"
+    },
+    {
+      "frame_id": "F-182",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00099.jpg",
+      "crop_ids": [
+        "CB-0669",
+        "CB-0746"
+      ],
+      "board": "frames/46.jpg"
+    },
+    {
+      "frame_id": "F-183",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00105.jpg",
+      "crop_ids": [
+        "CB-0686",
+        "CB-0715",
+        "CB-0730"
+      ],
+      "board": "frames/46.jpg"
+    },
+    {
+      "frame_id": "F-184",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00106.jpg",
+      "crop_ids": [
+        "CB-0716",
+        "CB-0731"
+      ],
+      "board": "frames/46.jpg"
+    },
+    {
+      "frame_id": "F-185",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00107.jpg",
+      "crop_ids": [
+        "CB-0670",
+        "CB-0747"
+      ],
+      "board": "frames/47.jpg"
+    },
+    {
+      "frame_id": "F-186",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00112.jpg",
+      "crop_ids": [
+        "CB-0687",
+        "CB-0717"
+      ],
+      "board": "frames/47.jpg"
+    },
+    {
+      "frame_id": "F-187",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00115.jpg",
+      "crop_ids": [
+        "CB-0671",
+        "CB-0732"
+      ],
+      "board": "frames/47.jpg"
+    },
+    {
+      "frame_id": "F-188",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00116.jpg",
+      "crop_ids": [
+        "CB-0672",
+        "CB-0733",
+        "CB-0748"
+      ],
+      "board": "frames/47.jpg"
+    },
+    {
+      "frame_id": "F-189",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00121.jpg",
+      "crop_ids": [
+        "CB-0688"
+      ],
+      "board": "frames/48.jpg"
+    },
+    {
+      "frame_id": "F-190",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00122.jpg",
+      "crop_ids": [
+        "CB-0689"
+      ],
+      "board": "frames/48.jpg"
+    },
+    {
+      "frame_id": "F-191",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00123.jpg",
+      "crop_ids": [
+        "CB-0690"
+      ],
+      "board": "frames/48.jpg"
+    },
+    {
+      "frame_id": "F-192",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00124.jpg",
+      "crop_ids": [
+        "CB-0691"
+      ],
+      "board": "frames/48.jpg"
+    },
+    {
+      "frame_id": "F-193",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00125.jpg",
+      "crop_ids": [
+        "CB-0692"
+      ],
+      "board": "frames/49.jpg"
+    },
+    {
+      "frame_id": "F-194",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00126.jpg",
+      "crop_ids": [
+        "CB-0693"
+      ],
+      "board": "frames/49.jpg"
+    },
+    {
+      "frame_id": "F-195",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00145.jpg",
+      "crop_ids": [
+        "CB-0694"
+      ],
+      "board": "frames/49.jpg"
+    },
+    {
+      "frame_id": "F-196",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00146.jpg",
+      "crop_ids": [
+        "CB-0695"
+      ],
+      "board": "frames/49.jpg"
+    },
+    {
+      "frame_id": "F-197",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00153.jpg",
+      "crop_ids": [
+        "CB-0696"
+      ],
+      "board": "frames/50.jpg"
+    },
+    {
+      "frame_id": "F-198",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00158.jpg",
+      "crop_ids": [
+        "CB-0697"
+      ],
+      "board": "frames/50.jpg"
+    },
+    {
+      "frame_id": "F-199",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00167.jpg",
+      "crop_ids": [
+        "CB-0698"
+      ],
+      "board": "frames/50.jpg"
+    },
+    {
+      "frame_id": "F-200",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00168.jpg",
+      "crop_ids": [
+        "CB-0699"
+      ],
+      "board": "frames/50.jpg"
+    },
+    {
+      "frame_id": "F-201",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00184.jpg",
+      "crop_ids": [
+        "CB-0700"
+      ],
+      "board": "frames/51.jpg"
+    },
+    {
+      "frame_id": "F-202",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00188.jpg",
+      "crop_ids": [
+        "CB-0701"
+      ],
+      "board": "frames/51.jpg"
+    },
+    {
+      "frame_id": "F-203",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00196.jpg",
+      "crop_ids": [
+        "CB-0702"
+      ],
+      "board": "frames/51.jpg"
+    },
+    {
+      "frame_id": "F-204",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/c4501991dd89a572c461/frame_00001.jpg",
+      "crop_ids": [
+        "CB-0749",
+        "CB-0760"
+      ],
+      "board": "frames/51.jpg"
+    },
+    {
+      "frame_id": "F-205",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/c4501991dd89a572c461/frame_00002.jpg",
+      "crop_ids": [
+        "CB-0755"
+      ],
+      "board": "frames/52.jpg"
+    },
+    {
+      "frame_id": "F-206",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/c4501991dd89a572c461/frame_00003.jpg",
+      "crop_ids": [
+        "CB-0750",
+        "CB-0761"
+      ],
+      "board": "frames/52.jpg"
+    },
+    {
+      "frame_id": "F-207",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/c4501991dd89a572c461/frame_00007.jpg",
+      "crop_ids": [
+        "CB-0751",
+        "CB-0756"
+      ],
+      "board": "frames/52.jpg"
+    },
+    {
+      "frame_id": "F-208",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/c4501991dd89a572c461/frame_00011.jpg",
+      "crop_ids": [
+        "CB-0752",
+        "CB-0757",
+        "CB-0762"
+      ],
+      "board": "frames/52.jpg"
+    },
+    {
+      "frame_id": "F-209",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/c4501991dd89a572c461/frame_00014.jpg",
+      "crop_ids": [
+        "CB-0758",
+        "CB-0763"
+      ],
+      "board": "frames/53.jpg"
+    },
+    {
+      "frame_id": "F-210",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/c4501991dd89a572c461/frame_00020.jpg",
+      "crop_ids": [
+        "CB-0753",
+        "CB-0764"
+      ],
+      "board": "frames/53.jpg"
+    },
+    {
+      "frame_id": "F-211",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/c4501991dd89a572c461/frame_00021.jpg",
+      "crop_ids": [
+        "CB-0759"
+      ],
+      "board": "frames/53.jpg"
+    },
+    {
+      "frame_id": "F-212",
+      "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/c4501991dd89a572c461/frame_00024.jpg",
+      "crop_ids": [
+        "CB-0754",
+        "CB-0765"
+      ],
+      "board": "frames/53.jpg"
+    }
+  ]
+}

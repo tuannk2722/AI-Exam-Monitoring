@@ -1,0 +1,5364 @@
+{
+  "metadata_ledger_records": 1208,
+  "exact_matches": [],
+  "non_test_reference_crops": 836,
+  "nearest_non_test": [
+    {
+      "sample_id": "CB-0001",
+      "old_id": "V6R2-MP-079",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0002",
+      "old_id": "EXP-CM-012",
+      "old_usage": "train",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0003",
+      "old_id": "EXP-CM-012",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0004",
+      "old_id": "SCB-write-001",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0005",
+      "old_id": "V7-A-029",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0006",
+      "old_id": "SCB-write-001",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0007",
+      "old_id": "EXP-CM-012",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0008",
+      "old_id": "P009-person-01",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0009",
+      "old_id": "V7-A-029",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0010",
+      "old_id": "EXP-CM-012",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0011",
+      "old_id": "SCB-write-001",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0012",
+      "old_id": "SCB-write-020",
+      "old_usage": "val",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0013",
+      "old_id": "P009-person-01",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0014",
+      "old_id": "V6R2-MP-019",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0015",
+      "old_id": "V7-D-056",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0016",
+      "old_id": "E004-CN-053",
+      "old_usage": "val",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0017",
+      "old_id": "V7-C-009",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0018",
+      "old_id": "V6R2-MP-092",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0019",
+      "old_id": "V6R2-CA-002",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0020",
+      "old_id": "V7-A-037",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0021",
+      "old_id": "V7-B-003",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0022",
+      "old_id": "V6-SB-030",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0023",
+      "old_id": "V6-CA-012",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0024",
+      "old_id": "V7-OE-S057-A01",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0025",
+      "old_id": "V6-SB-030",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0026",
+      "old_id": "SCB-read-004",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0027",
+      "old_id": "V6R2-MP-085",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0028",
+      "old_id": "V6-EX-021",
+      "old_usage": "train",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0029",
+      "old_id": "P006-person-01",
+      "old_usage": "val",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0030",
+      "old_id": "V6R2-SB-017",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0031",
+      "old_id": "SCB-read-004",
+      "old_usage": "train",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0032",
+      "old_id": "V6-SB-005",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0033",
+      "old_id": "V7-A-026",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0034",
+      "old_id": "V6R2-MP-085",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0035",
+      "old_id": "V7-A-035",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0036",
+      "old_id": "SCB-turnhead-021",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0037",
+      "old_id": "EXP-SCB-045",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0038",
+      "old_id": "V7-A-026",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0039",
+      "old_id": "V6-EX-021",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0040",
+      "old_id": "V6R2-MP-085",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0041",
+      "old_id": "V7-A-035",
+      "old_usage": "train",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0042",
+      "old_id": "V6-EX-021",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0043",
+      "old_id": "V6-EX-021",
+      "old_usage": "train",
+      "distance": 14,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0044",
+      "old_id": "SCB-read-004",
+      "old_usage": "train",
+      "distance": 13,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0045",
+      "old_id": "V6R2-MP-085",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0046",
+      "old_id": "E004-EX-C002",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0047",
+      "old_id": "V7-A-026",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0048",
+      "old_id": "V7-A-001",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0049",
+      "old_id": "EXP-SCB-014",
+      "old_usage": "val",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0050",
+      "old_id": "E004-CN-056",
+      "old_usage": "val",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0051",
+      "old_id": "EXP-SCB-014",
+      "old_usage": "val",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0052",
+      "old_id": "V7-A-069",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0053",
+      "old_id": "V6-CA-004",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0054",
+      "old_id": "V6-CA-004",
+      "old_usage": "train",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0055",
+      "old_id": "V7-A-069",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0056",
+      "old_id": "EXP-RF-015",
+      "old_usage": "train",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0057",
+      "old_id": "E004-CF-C016",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0058",
+      "old_id": "V7-C-099",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0059",
+      "old_id": "EXP-RF-015",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0060",
+      "old_id": "EXP-RF-015",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0061",
+      "old_id": "E004-EX-C085",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0062",
+      "old_id": "EXP-RF-015",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0063",
+      "old_id": "V6-CA-047",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0064",
+      "old_id": "E004-EX-C027",
+      "old_usage": "val",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0065",
+      "old_id": "E004-EX-C130",
+      "old_usage": "val",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0066",
+      "old_id": "SCB-read-006",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0067",
+      "old_id": "E004-EX-C199",
+      "old_usage": "val",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0068",
+      "old_id": "E004-EX-C199",
+      "old_usage": "val",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0069",
+      "old_id": "V7-B-067",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0070",
+      "old_id": "SCB-write-011",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0071",
+      "old_id": "EXP-CM-016",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0072",
+      "old_id": "SCB-write-011",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0073",
+      "old_id": "EXP-CM-016",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0074",
+      "old_id": "V6R2-MP-068",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0075",
+      "old_id": "V7-B-043",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0076",
+      "old_id": "SCB-write-017",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0077",
+      "old_id": "SCB-write-014",
+      "old_usage": "train",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0078",
+      "old_id": "EXP-CM-016",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0079",
+      "old_id": "V6-EX-034",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0080",
+      "old_id": "EXP-CM-016",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0081",
+      "old_id": "V6R2-EX-007",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0082",
+      "old_id": "E004-EX-C013",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0083",
+      "old_id": "V7-R8-C-008",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0084",
+      "old_id": "V7-D-029",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0085",
+      "old_id": "V6R2-EX-007",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0086",
+      "old_id": "V7-C-002",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0087",
+      "old_id": "E004-EX-C013",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0088",
+      "old_id": "V7-C-042",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0089",
+      "old_id": "E004-EX-C143",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0090",
+      "old_id": "V7-C-129",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0091",
+      "old_id": "V7-D-017",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0092",
+      "old_id": "V6R2-MP-022",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0093",
+      "old_id": "SCB-read-014",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0094",
+      "old_id": "V6R2-MP-022",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0095",
+      "old_id": "V6R2-SB-015",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0096",
+      "old_id": "V6-SB-034",
+      "old_usage": "val",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0097",
+      "old_id": "V6R2-MP-048",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0098",
+      "old_id": "V7-C-063",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0099",
+      "old_id": "SCB-turnhead-018",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0100",
+      "old_id": "E004-EX-C143",
+      "old_usage": "val",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0101",
+      "old_id": "EXP-SCB-043",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0102",
+      "old_id": "V7-OE-S103-A01",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0103",
+      "old_id": "E004-EX-C143",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0104",
+      "old_id": "SCB-turnhead-018",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0105",
+      "old_id": "V6R2-MP-038",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0106",
+      "old_id": "E004-EX-C162",
+      "old_usage": "train",
+      "distance": 23,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0107",
+      "old_id": "V6-SB-044",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0108",
+      "old_id": "V7-A-011",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0109",
+      "old_id": "SCB-turnhead-024",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0110",
+      "old_id": "V7-C-087",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0111",
+      "old_id": "SCB-turnhead-024",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0112",
+      "old_id": "V7-C-035",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0113",
+      "old_id": "EXP-CM-024",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0114",
+      "old_id": "SCB-read-008",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0115",
+      "old_id": "V7-C-010",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0116",
+      "old_id": "V7-OE-S094-A01",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0117",
+      "old_id": "V6R2-MP-091",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0118",
+      "old_id": "V7-A-027",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0119",
+      "old_id": "SCB-turnhead-012",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0120",
+      "old_id": "SCB-write-023",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0121",
+      "old_id": "SCB-write-023",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0122",
+      "old_id": "V7-A-027",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0123",
+      "old_id": "SCB-write-019",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0124",
+      "old_id": "SCB-write-019",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0125",
+      "old_id": "SCB-write-019",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0126",
+      "old_id": "V7-OE-S068-A02",
+      "old_usage": "train",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0127",
+      "old_id": "SCB-write-023",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0128",
+      "old_id": "V7-A-022",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0129",
+      "old_id": "P002-person-01",
+      "old_usage": "val",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0130",
+      "old_id": "P002-person-01",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0131",
+      "old_id": "SCB-read-022",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0132",
+      "old_id": "V7-C-099",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0133",
+      "old_id": "SCB-write-009",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0134",
+      "old_id": "SCB-read-022",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0135",
+      "old_id": "SCB-turnhead-005",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0136",
+      "old_id": "EXP-SCB-043",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0137",
+      "old_id": "V7-B-020",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0138",
+      "old_id": "SCB-read-022",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0139",
+      "old_id": "V7-C-137",
+      "old_usage": "train",
+      "distance": 14,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0140",
+      "old_id": "V7-C-137",
+      "old_usage": "train",
+      "distance": 13,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0141",
+      "old_id": "V7-C-137",
+      "old_usage": "train",
+      "distance": 14,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0142",
+      "old_id": "V7-A-043",
+      "old_usage": "train",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0143",
+      "old_id": "V7-C-137",
+      "old_usage": "train",
+      "distance": 13,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0144",
+      "old_id": "V7-C-137",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0145",
+      "old_id": "V7-C-137",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0146",
+      "old_id": "V7-C-137",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0147",
+      "old_id": "V7-C-137",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0148",
+      "old_id": "V7-C-137",
+      "old_usage": "train",
+      "distance": 14,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0149",
+      "old_id": "V7-C-137",
+      "old_usage": "train",
+      "distance": 14,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0150",
+      "old_id": "V7-OE-S025-A01",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0151",
+      "old_id": "V6R2-MP-085",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0152",
+      "old_id": "SCB-read-001",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0153",
+      "old_id": "EXP-SCB-010",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0154",
+      "old_id": "EXP-SCB-010",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0155",
+      "old_id": "E004-EX-C030",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0156",
+      "old_id": "V6R2-MP-019",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0157",
+      "old_id": "EXP-RF-013",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0158",
+      "old_id": "V7-A-031",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0159",
+      "old_id": "V7-A-031",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0160",
+      "old_id": "E004-CF-C011",
+      "old_usage": "val",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0161",
+      "old_id": "V6-CA-047",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0162",
+      "old_id": "V7-D-015",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0163",
+      "old_id": "E004-EX-C144",
+      "old_usage": "val",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0164",
+      "old_id": "V6R2-MP-019",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0165",
+      "old_id": "SCB-write-020",
+      "old_usage": "val",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0166",
+      "old_id": "SCB-write-020",
+      "old_usage": "val",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0167",
+      "old_id": "SCB-write-006",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0168",
+      "old_id": "SCB-write-004",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0169",
+      "old_id": "V7-B-087",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0170",
+      "old_id": "E004-EX-C007",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0171",
+      "old_id": "V7-B-092",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0172",
+      "old_id": "E004-EX-C007",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0173",
+      "old_id": "EXP-RF-015",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0174",
+      "old_id": "EXP-RF-017",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0175",
+      "old_id": "EXP-RF-001",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0176",
+      "old_id": "V7-C-016",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0177",
+      "old_id": "V6R2-MP-092",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0178",
+      "old_id": "V6R2-MP-013",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0179",
+      "old_id": "V6-EX-020",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0180",
+      "old_id": "E004-CN-044",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0181",
+      "old_id": "V7-B-098",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0182",
+      "old_id": "V7-C-042",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0183",
+      "old_id": "SCB-write-024",
+      "old_usage": "val",
+      "distance": 14,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0184",
+      "old_id": "SCB-write-024",
+      "old_usage": "val",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0185",
+      "old_id": "V7-A-035",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0186",
+      "old_id": "V7-A-007",
+      "old_usage": "train",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0187",
+      "old_id": "E004-EX-C151",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0188",
+      "old_id": "V6R2-MP-079",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0189",
+      "old_id": "SCB-read-004",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0190",
+      "old_id": "V7-C-044",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0191",
+      "old_id": "V7-R8-D-001",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0192",
+      "old_id": "E004-CF-C011",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0193",
+      "old_id": "SCB-write-024",
+      "old_usage": "val",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0194",
+      "old_id": "P029-person-02",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0195",
+      "old_id": "E004-EX-C050",
+      "old_usage": "val",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0196",
+      "old_id": "V6-EX-040",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0197",
+      "old_id": "V7-B-100",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0198",
+      "old_id": "V7-A-004",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0199",
+      "old_id": "E004-EX-C079",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0200",
+      "old_id": "V6-EX-010",
+      "old_usage": "val",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0201",
+      "old_id": "V6R2-MP-019",
+      "old_usage": "train",
+      "distance": 12,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0202",
+      "old_id": "V7-C-143",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0203",
+      "old_id": "EXP-RF-017",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0204",
+      "old_id": "V7-B-062",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0205",
+      "old_id": "EXP-RF-017",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0206",
+      "old_id": "E004-EX-C084",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0207",
+      "old_id": "E004-EX-C170-R2",
+      "old_usage": "val",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0208",
+      "old_id": "V6R2-MP-019",
+      "old_usage": "train",
+      "distance": 12,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0209",
+      "old_id": "V7-C-130",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0210",
+      "old_id": "V7-OE-S066-A02",
+      "old_usage": "train",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0211",
+      "old_id": "V6R2-MP-019",
+      "old_usage": "train",
+      "distance": 14,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0212",
+      "old_id": "E004-EX-C124",
+      "old_usage": "val",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0213",
+      "old_id": "V6R2-MP-019",
+      "old_usage": "train",
+      "distance": 14,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0214",
+      "old_id": "SCB-write-001",
+      "old_usage": "train",
+      "distance": 12,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0215",
+      "old_id": "SCB-write-001",
+      "old_usage": "train",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0216",
+      "old_id": "V6R2-MP-085",
+      "old_usage": "train",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0217",
+      "old_id": "E004-EX-C003",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0218",
+      "old_id": "E004-EX-C003",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0219",
+      "old_id": "E004-EX-C003",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0220",
+      "old_id": "V6-CA-004",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0221",
+      "old_id": "P002-person-01",
+      "old_usage": "val",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0222",
+      "old_id": "V6-CA-004",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0223",
+      "old_id": "V6-CA-004",
+      "old_usage": "train",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0224",
+      "old_id": "V6-EX-010",
+      "old_usage": "val",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0225",
+      "old_id": "E004-EX-C045",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0226",
+      "old_id": "V6-EX-010",
+      "old_usage": "val",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0227",
+      "old_id": "E004-CF-C028",
+      "old_usage": "val",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0228",
+      "old_id": "V6-EX-010",
+      "old_usage": "val",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0229",
+      "old_id": "V6R2-MP-034",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0230",
+      "old_id": "P009-person-01",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0231",
+      "old_id": "V6-EX-010",
+      "old_usage": "val",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0232",
+      "old_id": "V6-EX-036",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0233",
+      "old_id": "E004-EX-C045",
+      "old_usage": "val",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0234",
+      "old_id": "V7-B-067",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0235",
+      "old_id": "V6-EX-036",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0236",
+      "old_id": "V6-EX-036",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0237",
+      "old_id": "E004-CF-C028",
+      "old_usage": "val",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0238",
+      "old_id": "E004-EX-C023",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0239",
+      "old_id": "V6-EX-036",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0240",
+      "old_id": "E004-EX-C045",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0241",
+      "old_id": "V7-B-067",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0242",
+      "old_id": "V7-OE-S111-A01",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0243",
+      "old_id": "E004-EX-C045",
+      "old_usage": "val",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0244",
+      "old_id": "E004-EX-C171",
+      "old_usage": "val",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0245",
+      "old_id": "SCB-write-014",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0246",
+      "old_id": "V7-B-067",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0247",
+      "old_id": "EXP-SCB-017",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0248",
+      "old_id": "E004-EX-C124",
+      "old_usage": "val",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0249",
+      "old_id": "V6-EX-010",
+      "old_usage": "val",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0250",
+      "old_id": "V7-B-003",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0251",
+      "old_id": "SCB-write-014",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0252",
+      "old_id": "V6-EX-010",
+      "old_usage": "val",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0253",
+      "old_id": "V6-SB-045",
+      "old_usage": "train",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0254",
+      "old_id": "V6R2-SB-002",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0255",
+      "old_id": "EXP-CM-006",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0256",
+      "old_id": "V7-C-049",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0257",
+      "old_id": "V6R2-SB-002",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0258",
+      "old_id": "EXP-CM-005",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0259",
+      "old_id": "V6R2-SB-002",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0260",
+      "old_id": "V7-B-001",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0261",
+      "old_id": "V7-C-049",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0262",
+      "old_id": "V6-EX-024",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0263",
+      "old_id": "SCB-write-019",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0264",
+      "old_id": "V6-SB-045",
+      "old_usage": "train",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0265",
+      "old_id": "E004-EX-C171",
+      "old_usage": "val",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0266",
+      "old_id": "V7-C-028",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0267",
+      "old_id": "E004-CN-047",
+      "old_usage": "val",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0268",
+      "old_id": "V6-CA-012",
+      "old_usage": "train",
+      "distance": 14,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0269",
+      "old_id": "E004-CN-052",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0270",
+      "old_id": "V6R2-MP-025",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0271",
+      "old_id": "V7-C-063",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0272",
+      "old_id": "V6R2-MP-001",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0273",
+      "old_id": "V6R2-EX-008",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0274",
+      "old_id": "SCB-turnhead-001",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0275",
+      "old_id": "V7-C-110",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0276",
+      "old_id": "V7-A-058",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0277",
+      "old_id": "V7-C-139",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0278",
+      "old_id": "E004-CN-047",
+      "old_usage": "val",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0279",
+      "old_id": "V7-C-003",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0280",
+      "old_id": "V6-CA-012",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0281",
+      "old_id": "V7-B-096",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0282",
+      "old_id": "V7-A-003",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0283",
+      "old_id": "EXP-SCB-017",
+      "old_usage": "train",
+      "distance": 22,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0284",
+      "old_id": "E004-EX-C199",
+      "old_usage": "val",
+      "distance": 22,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0285",
+      "old_id": "E004-EX-C185",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0286",
+      "old_id": "EXP-SCB-017",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0287",
+      "old_id": "EXP-SCB-010",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0288",
+      "old_id": "V6-SB-032",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0289",
+      "old_id": "EXP-SCB-017",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0290",
+      "old_id": "V7-C-018",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0291",
+      "old_id": "V7-C-018",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0292",
+      "old_id": "V6-SB-009",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0293",
+      "old_id": "V6R2-MP-001",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0294",
+      "old_id": "V7-C-102",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0295",
+      "old_id": "V7-B-074",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0296",
+      "old_id": "V6-SB-032",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0297",
+      "old_id": "V7-A-007",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0298",
+      "old_id": "SCB-turnhead-027",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0299",
+      "old_id": "V7-D-009",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0300",
+      "old_id": "E004-EX-C045",
+      "old_usage": "val",
+      "distance": 22,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0301",
+      "old_id": "V7-B-026",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0302",
+      "old_id": "V7-A-038",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0303",
+      "old_id": "E004-EX-C139",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0304",
+      "old_id": "V6-EX-036",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0305",
+      "old_id": "E004-EX-C199",
+      "old_usage": "val",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0306",
+      "old_id": "E004-EX-C199",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0307",
+      "old_id": "V6R2-SB-018",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0308",
+      "old_id": "V6R2-SB-016",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0309",
+      "old_id": "EXP-RF-013",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0310",
+      "old_id": "EXP-RF-013",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0311",
+      "old_id": "V6R2-SB-016",
+      "old_usage": "val",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0312",
+      "old_id": "V7-A-038",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0313",
+      "old_id": "SCB-read-016",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0314",
+      "old_id": "SCB-read-016",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0315",
+      "old_id": "V7-A-038",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0316",
+      "old_id": "V7-A-007",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0317",
+      "old_id": "V6R2-MP-001",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0318",
+      "old_id": "V7-OE-S012-A01",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0319",
+      "old_id": "V7-OE-S012-A01",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0320",
+      "old_id": "V7-B-097",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0321",
+      "old_id": "V6-SB-005",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0322",
+      "old_id": "V6-SB-005",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0323",
+      "old_id": "V7-B-074",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0324",
+      "old_id": "E004-EX-C170-R2",
+      "old_usage": "val",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0325",
+      "old_id": "P006-extra-01",
+      "old_usage": "val",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0326",
+      "old_id": "V7-B-074",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0327",
+      "old_id": "V6R2-MP-072",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0328",
+      "old_id": "V6R2-MP-072",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0329",
+      "old_id": "V7-C-094",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0330",
+      "old_id": "SCB-read-025",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0331",
+      "old_id": "V7-A-073",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0332",
+      "old_id": "V7-OE-S102-A01",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0333",
+      "old_id": "V7-OE-S106-A01",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0334",
+      "old_id": "V7-A-073",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0335",
+      "old_id": "V7-OE-S006-A01",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0336",
+      "old_id": "P006-extra-01",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0337",
+      "old_id": "V7-OE-S012-A01",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0338",
+      "old_id": "V7-B-103",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0339",
+      "old_id": "V6R2-EX-017",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0340",
+      "old_id": "E004-EX-C199",
+      "old_usage": "val",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0341",
+      "old_id": "V7-A-026",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0342",
+      "old_id": "EXP-SCB-010",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0343",
+      "old_id": "V7-A-026",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0344",
+      "old_id": "V7-A-026",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0345",
+      "old_id": "V7-A-007",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0346",
+      "old_id": "E004-EX-C066",
+      "old_usage": "val",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0347",
+      "old_id": "V7-OE-S106-A01",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0348",
+      "old_id": "V7-B-010",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0349",
+      "old_id": "SCB-write-001",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0350",
+      "old_id": "SCB-write-001",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0351",
+      "old_id": "V7-A-007",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0352",
+      "old_id": "V7-C-102",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0353",
+      "old_id": "V7-B-097",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0354",
+      "old_id": "V7-A-038",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0355",
+      "old_id": "V7-C-119",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0356",
+      "old_id": "V7-OE-S061-A01",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0357",
+      "old_id": "V7-C-119",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0358",
+      "old_id": "V6-SB-009",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0359",
+      "old_id": "V7-C-119",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0360",
+      "old_id": "V6R2-MP-072",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0361",
+      "old_id": "V7-OE-S102-A01",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0362",
+      "old_id": "V6R2-MP-089",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0363",
+      "old_id": "V7-D-026",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0364",
+      "old_id": "V6R2-MP-092",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0365",
+      "old_id": "V7-C-026",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0366",
+      "old_id": "P006-extra-01",
+      "old_usage": "val",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0367",
+      "old_id": "V7-B-010",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0368",
+      "old_id": "V7-B-010",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0369",
+      "old_id": "P035-person-01",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0370",
+      "old_id": "V6-CA-035",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0371",
+      "old_id": "V6-CA-035",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0372",
+      "old_id": "EXP-SCB-026",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0373",
+      "old_id": "V6-CA-010",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0374",
+      "old_id": "V6-SB-019",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0375",
+      "old_id": "V6R2-MP-063",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0376",
+      "old_id": "V6-EX-002",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0377",
+      "old_id": "V6-CA-018",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0378",
+      "old_id": "EXP-SCB-026",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0379",
+      "old_id": "E004-EX-C002",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0380",
+      "old_id": "E004-EX-C199",
+      "old_usage": "val",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0381",
+      "old_id": "V6-EX-002",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0382",
+      "old_id": "V6-CA-035",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0383",
+      "old_id": "V6-EX-026",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0384",
+      "old_id": "V7-D-017",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0385",
+      "old_id": "V7-C-087",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0386",
+      "old_id": "V7-C-132",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0387",
+      "old_id": "V7-OE-S043-A02",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0388",
+      "old_id": "V7-PF-A-005",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0389",
+      "old_id": "V7-B-042",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0390",
+      "old_id": "V7-A-046",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0391",
+      "old_id": "V7-UNAPPROVED-C-006",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0392",
+      "old_id": "E004-CF-C008",
+      "old_usage": "val",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0393",
+      "old_id": "V7-A-034",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0394",
+      "old_id": "V7-C-087",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0395",
+      "old_id": "V7-A-002",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0396",
+      "old_id": "E004-EX-C023",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0397",
+      "old_id": "V7-OE-S024-A01",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0398",
+      "old_id": "E004-EX-C049",
+      "old_usage": "val",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0399",
+      "old_id": "SCB-write-004",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0400",
+      "old_id": "E004-EX-C083",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0401",
+      "old_id": "V7-OE-S116-A02",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0402",
+      "old_id": "V7-A-037",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0403",
+      "old_id": "V6R2-SB-001",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0404",
+      "old_id": "SCB-write-009",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0405",
+      "old_id": "E004-EX-C007",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0406",
+      "old_id": "V7-OE-S116-A02",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0407",
+      "old_id": "E004-EX-C007",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0408",
+      "old_id": "E004-EX-C007",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0409",
+      "old_id": "V7-C-109",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0410",
+      "old_id": "V7-PF-A-001",
+      "old_usage": "train",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0411",
+      "old_id": "V7-OE-S116-A02",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0412",
+      "old_id": "V6R2-SB-001",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0413",
+      "old_id": "EXP-CM-009",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0414",
+      "old_id": "EXP-SCB-015",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0415",
+      "old_id": "EXP-CM-009",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0416",
+      "old_id": "SCB-turnhead-001",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0417",
+      "old_id": "V6-CA-025",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0418",
+      "old_id": "V6-CA-025",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0419",
+      "old_id": "V7-C-004",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0420",
+      "old_id": "EXP-SCB-015",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0421",
+      "old_id": "V7-B-043",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0422",
+      "old_id": "E004-EX-C007",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0423",
+      "old_id": "V7-B-043",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0424",
+      "old_id": "E004-EX-C007",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0425",
+      "old_id": "V6R2-MP-026",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0426",
+      "old_id": "SCB-turnhead-001",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0427",
+      "old_id": "V6R2-MP-008",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0428",
+      "old_id": "EXP-SCB-015",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0429",
+      "old_id": "SCB-turnhead-010",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0430",
+      "old_id": "E004-EX-C007",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0431",
+      "old_id": "V7-A-037",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0432",
+      "old_id": "SCB-turnhead-001",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0433",
+      "old_id": "EXP-SCB-015",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0434",
+      "old_id": "P006-extra-01",
+      "old_usage": "val",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0435",
+      "old_id": "EXP-SCB-015",
+      "old_usage": "train",
+      "distance": 14,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0436",
+      "old_id": "EXP-SCB-015",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0437",
+      "old_id": "V6R2-MP-044",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0438",
+      "old_id": "V6-CA-025",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0439",
+      "old_id": "EXP-SCB-015",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0440",
+      "old_id": "V6R2-MP-044",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0441",
+      "old_id": "SCB-turnhead-001",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0442",
+      "old_id": "V7-OE-S116-A02",
+      "old_usage": "train",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0443",
+      "old_id": "V7-B-043",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0444",
+      "old_id": "V6-CA-025",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0445",
+      "old_id": "V7-OE-S116-A02",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0446",
+      "old_id": "E004-EX-C198",
+      "old_usage": "val",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0447",
+      "old_id": "V7-OE-S116-A02",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0448",
+      "old_id": "SCB-turnhead-001",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0449",
+      "old_id": "SCB-turnhead-001",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0450",
+      "old_id": "E004-EX-C007",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0451",
+      "old_id": "SCB-turnhead-001",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0452",
+      "old_id": "V6-SB-010",
+      "old_usage": "train",
+      "distance": 14,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0453",
+      "old_id": "V6R2-MP-044",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0454",
+      "old_id": "V7-A-037",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0455",
+      "old_id": "V7-OE-S116-A02",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0456",
+      "old_id": "V6R2-MP-044",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0457",
+      "old_id": "E004-EX-C049",
+      "old_usage": "val",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0458",
+      "old_id": "V6-SB-010",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0459",
+      "old_id": "V7-A-042",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0460",
+      "old_id": "V6-SB-010",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0461",
+      "old_id": "V6-SB-010",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0462",
+      "old_id": "V6R2-MP-044",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0463",
+      "old_id": "EXP-SCB-015",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0464",
+      "old_id": "SCB-turnhead-001",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0465",
+      "old_id": "EXP-CM-009",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0466",
+      "old_id": "V7-B-096",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0467",
+      "old_id": "V7-C-007",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0468",
+      "old_id": "V7-C-007",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0469",
+      "old_id": "V6-SB-010",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0470",
+      "old_id": "E004-EX-C007",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0471",
+      "old_id": "SCB-write-028",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0472",
+      "old_id": "V7-C-007",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0473",
+      "old_id": "P006-person-01",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0474",
+      "old_id": "E004-EX-C007",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0475",
+      "old_id": "V7-OE-S044-A02",
+      "old_usage": "train",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0476",
+      "old_id": "V7-OE-S044-A02",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0477",
+      "old_id": "E004-CN-042",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0478",
+      "old_id": "V6R2-MP-044",
+      "old_usage": "train",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0479",
+      "old_id": "V7-OE-S116-A02",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0480",
+      "old_id": "V7-OE-S112-A01",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0481",
+      "old_id": "V7-D-034",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0482",
+      "old_id": "V7-OE-S112-A01",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0483",
+      "old_id": "EXP-CM-015",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0484",
+      "old_id": "V6-SB-010",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0485",
+      "old_id": "V7-UNAPPROVED-C-003",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0486",
+      "old_id": "V7-C-002",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0487",
+      "old_id": "EXP-SCB-002",
+      "old_usage": "val",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0488",
+      "old_id": "EXP-SCB-010",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0489",
+      "old_id": "V7-A-061",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0490",
+      "old_id": "V6-SB-046",
+      "old_usage": "val",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0491",
+      "old_id": "EXP-CM-016",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0492",
+      "old_id": "EXP-SCB-002",
+      "old_usage": "val",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0493",
+      "old_id": "V6-SB-041",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0494",
+      "old_id": "V7-A-004",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0495",
+      "old_id": "EXP-SCB-017",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0496",
+      "old_id": "V7-A-013",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0497",
+      "old_id": "V6-SB-046",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0498",
+      "old_id": "V6-EX-035",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0499",
+      "old_id": "E004-EX-C007",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0500",
+      "old_id": "EXP-SCB-017",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0501",
+      "old_id": "V6-EX-035",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0502",
+      "old_id": "EXP-SCB-017",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0503",
+      "old_id": "EXP-SCB-041",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0504",
+      "old_id": "V6-SB-041",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0505",
+      "old_id": "E004-EX-C013",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0506",
+      "old_id": "V7-B-077",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0507",
+      "old_id": "V6-SB-041",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0508",
+      "old_id": "SCB-read-016",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0509",
+      "old_id": "EXP-SCB-044",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0510",
+      "old_id": "EXP-SCB-044",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0511",
+      "old_id": "V6-EX-035",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0512",
+      "old_id": "EXP-SCB-017",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0513",
+      "old_id": "E004-EX-C183",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0514",
+      "old_id": "EXP-SCB-015",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0515",
+      "old_id": "SCB-read-027",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0516",
+      "old_id": "SCB-read-027",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0517",
+      "old_id": "V7-A-040",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0518",
+      "old_id": "V7-C-047",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0519",
+      "old_id": "V6R2-MP-043",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0520",
+      "old_id": "V6-EX-001",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0521",
+      "old_id": "E004-EX-C002",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0522",
+      "old_id": "SCB-read-027",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0523",
+      "old_id": "V7-A-007",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0524",
+      "old_id": "EXP-SCB-014",
+      "old_usage": "val",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0525",
+      "old_id": "V7-OE-S116-A02",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0526",
+      "old_id": "V7-OE-S070-A01",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0527",
+      "old_id": "V7-A-026",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0528",
+      "old_id": "V7-R8-C-003",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0529",
+      "old_id": "V7-A-026",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0530",
+      "old_id": "V7-R8-B-001",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0531",
+      "old_id": "V7-C-047",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0532",
+      "old_id": "V7-OE-S035-A01",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0533",
+      "old_id": "V7-R8-B-001",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0534",
+      "old_id": "V7-OE-S116-A02",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0535",
+      "old_id": "V7-R8-B-001",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0536",
+      "old_id": "E004-EX-C002",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0537",
+      "old_id": "V7-A-040",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0538",
+      "old_id": "E004-EX-C002",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0539",
+      "old_id": "EXP-SCB-042",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0540",
+      "old_id": "EXP-SCB-048",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0541",
+      "old_id": "E004-CN-056",
+      "old_usage": "val",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0542",
+      "old_id": "SCB-read-012",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0543",
+      "old_id": "E004-EX-C079",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0544",
+      "old_id": "E004-EX-C079",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0545",
+      "old_id": "E004-EX-C142",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0546",
+      "old_id": "E004-EX-C079",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0547",
+      "old_id": "E004-EX-C009",
+      "old_usage": "val",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0548",
+      "old_id": "V7-D-002",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0549",
+      "old_id": "E004-EX-C142",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0550",
+      "old_id": "E004-EX-C009",
+      "old_usage": "val",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0551",
+      "old_id": "V7-D-020",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0552",
+      "old_id": "EXP-RF-017",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0553",
+      "old_id": "SCB-write-016",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0554",
+      "old_id": "V7-A-017",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0555",
+      "old_id": "SCB-write-016",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0556",
+      "old_id": "V7-D-020",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0557",
+      "old_id": "V6R2-EX-010",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0558",
+      "old_id": "V7-A-035",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0559",
+      "old_id": "SCB-read-009",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0560",
+      "old_id": "V7-C-019",
+      "old_usage": "train",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0561",
+      "old_id": "E004-EX-C009",
+      "old_usage": "val",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0562",
+      "old_id": "E004-EX-C009",
+      "old_usage": "val",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0563",
+      "old_id": "E004-EX-C009",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0564",
+      "old_id": "V7-C-038",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0565",
+      "old_id": "V7-C-129",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0566",
+      "old_id": "EXP-SCB-013",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0567",
+      "old_id": "E004-EX-C066",
+      "old_usage": "val",
+      "distance": 22,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0568",
+      "old_id": "V7-A-017",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0569",
+      "old_id": "V7-A-074",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0570",
+      "old_id": "SCB-read-013",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0571",
+      "old_id": "E004-EX-C041",
+      "old_usage": "val",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0572",
+      "old_id": "V7-C-104",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0573",
+      "old_id": "V6-SB-015",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0574",
+      "old_id": "V7-A-022",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0575",
+      "old_id": "V6R2-CA-004",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0576",
+      "old_id": "EXP-RF-007",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0577",
+      "old_id": "E004-EX-C185",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0578",
+      "old_id": "E004-EX-C049",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0579",
+      "old_id": "E004-EX-C049",
+      "old_usage": "val",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0580",
+      "old_id": "V6R2-MP-001",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0581",
+      "old_id": "EXP-SCB-043",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0582",
+      "old_id": "V6R2-SB-003",
+      "old_usage": "train",
+      "distance": 22,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0583",
+      "old_id": "E004-EX-C045",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0584",
+      "old_id": "V6-SB-003",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0585",
+      "old_id": "EXP-CM-023",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0586",
+      "old_id": "V6-SB-003",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0587",
+      "old_id": "V7-C-083",
+      "old_usage": "train",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0588",
+      "old_id": "V7-A-008",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0589",
+      "old_id": "SCB-write-005",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0590",
+      "old_id": "EXP-CM-020",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0591",
+      "old_id": "EXP-SCB-015",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0592",
+      "old_id": "SCB-read-008",
+      "old_usage": "train",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0593",
+      "old_id": "V7-D-005",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0594",
+      "old_id": "V7-C-059",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0595",
+      "old_id": "V6-SB-023",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0596",
+      "old_id": "V7-C-059",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0597",
+      "old_id": "V6-EX-029",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0598",
+      "old_id": "V7-UNAPPROVED-C-006",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0599",
+      "old_id": "V7-R8-C-002",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0600",
+      "old_id": "E004-EX-C079",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0601",
+      "old_id": "V6R2-SB-018",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0602",
+      "old_id": "E004-EX-C003",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0603",
+      "old_id": "V6-CA-006",
+      "old_usage": "val",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0604",
+      "old_id": "V6R2-SB-002",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0605",
+      "old_id": "V6-EX-021",
+      "old_usage": "train",
+      "distance": 14,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0606",
+      "old_id": "V6-CA-047",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0607",
+      "old_id": "EXP-RF-021",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0608",
+      "old_id": "V7-OE-S105-A01",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0609",
+      "old_id": "V7-B-106",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0610",
+      "old_id": "E004-EX-C082",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0611",
+      "old_id": "SCB-write-005",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0612",
+      "old_id": "V6-EX-023",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0613",
+      "old_id": "P030-person-01",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0614",
+      "old_id": "V6R2-MP-004",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0615",
+      "old_id": "V7-B-013",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0616",
+      "old_id": "V6-SB-015",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0617",
+      "old_id": "EXP-RF-007",
+      "old_usage": "val",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0618",
+      "old_id": "SCB-turnhead-016",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0619",
+      "old_id": "EXP-RF-015",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0620",
+      "old_id": "V6R2-MP-026",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0621",
+      "old_id": "EXP-SCB-017",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0622",
+      "old_id": "V7-A-067",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0623",
+      "old_id": "SCB-turnhead-024",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0624",
+      "old_id": "V7-B-043",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0625",
+      "old_id": "E004-EX-C193",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0626",
+      "old_id": "E004-CF-C029",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0627",
+      "old_id": "V7-D-021",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0628",
+      "old_id": "E004-EX-C008",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0629",
+      "old_id": "V6-SB-044",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0630",
+      "old_id": "E004-EX-C124",
+      "old_usage": "val",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0631",
+      "old_id": "E004-CF-C008",
+      "old_usage": "val",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0632",
+      "old_id": "E004-EX-C049",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0633",
+      "old_id": "V7-A-069",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0634",
+      "old_id": "V6R2-MP-008",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0635",
+      "old_id": "E004-CF-C029",
+      "old_usage": "val",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0636",
+      "old_id": "V7-D-021",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0637",
+      "old_id": "V6-SB-044",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0638",
+      "old_id": "V6R2-SB-010",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0639",
+      "old_id": "V6R2-SB-010",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0640",
+      "old_id": "V6R2-SB-010",
+      "old_usage": "train",
+      "distance": 14,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0641",
+      "old_id": "V7-OE-S066-A01",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0642",
+      "old_id": "E004-CF-C007",
+      "old_usage": "val",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0643",
+      "old_id": "E004-CF-C029",
+      "old_usage": "val",
+      "distance": 14,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0644",
+      "old_id": "SCB-write-020",
+      "old_usage": "val",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0645",
+      "old_id": "EXP-CM-009",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0646",
+      "old_id": "EXP-RF-013",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0647",
+      "old_id": "EXP-RF-007",
+      "old_usage": "val",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0648",
+      "old_id": "V6R2-EX-012",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0649",
+      "old_id": "V7-OE-S087-A01",
+      "old_usage": "train",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0650",
+      "old_id": "V7-OE-S087-A01",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0651",
+      "old_id": "V7-R8-D-001",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0652",
+      "old_id": "V7-D-058",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0653",
+      "old_id": "E004-EX-C021-R2",
+      "old_usage": "val",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0654",
+      "old_id": "V7-B-110",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0655",
+      "old_id": "V7-OE-S105-A01",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0656",
+      "old_id": "E004-CN-042",
+      "old_usage": "val",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0657",
+      "old_id": "V7-C-017",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0658",
+      "old_id": "V7-C-017",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0659",
+      "old_id": "V7-C-017",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0660",
+      "old_id": "V6R2-EX-017",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0661",
+      "old_id": "V7-A-061",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0662",
+      "old_id": "V7-C-017",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0663",
+      "old_id": "V7-A-061",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0664",
+      "old_id": "V7-C-017",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0665",
+      "old_id": "V7-OE-S044-A03",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0666",
+      "old_id": "SCB-write-014",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0667",
+      "old_id": "V6-CA-047",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0668",
+      "old_id": "P008-extra-01",
+      "old_usage": "val",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0669",
+      "old_id": "E004-EX-C199",
+      "old_usage": "val",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0670",
+      "old_id": "V7-C-017",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0671",
+      "old_id": "EXP-SCB-027",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0672",
+      "old_id": "EXP-SCB-027",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0673",
+      "old_id": "V7-PF-C-001",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0674",
+      "old_id": "EXP-SCB-021",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0675",
+      "old_id": "V7-D-029",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0676",
+      "old_id": "V7-C-083",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0677",
+      "old_id": "V6R2-CA-009",
+      "old_usage": "val",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0678",
+      "old_id": "E004-EX-C139",
+      "old_usage": "val",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0679",
+      "old_id": "E004-EX-C054",
+      "old_usage": "val",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0680",
+      "old_id": "V7-C-047",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0681",
+      "old_id": "V6R2-MP-048",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0682",
+      "old_id": "V7-A-043",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0683",
+      "old_id": "V7-A-043",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0684",
+      "old_id": "V7-OE-S107-A01",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0685",
+      "old_id": "V7-PF-C-001",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0686",
+      "old_id": "V7-PF-C-001",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0687",
+      "old_id": "V7-PF-C-001",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0688",
+      "old_id": "V7-D-008",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0689",
+      "old_id": "V7-B-074",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0690",
+      "old_id": "V7-B-074",
+      "old_usage": "train",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0691",
+      "old_id": "V7-B-074",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0692",
+      "old_id": "V7-B-074",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0693",
+      "old_id": "V7-B-074",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0694",
+      "old_id": "V7-B-074",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0695",
+      "old_id": "V7-B-074",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0696",
+      "old_id": "V7-D-008",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0697",
+      "old_id": "V7-D-054",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0698",
+      "old_id": "SCB-turnhead-027",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0699",
+      "old_id": "V7-B-030",
+      "old_usage": "train",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0700",
+      "old_id": "V7-OE-S107-A01",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0701",
+      "old_id": "V6R2-CA-009",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0702",
+      "old_id": "V6R2-MP-092",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0703",
+      "old_id": "E004-CF-C008",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0704",
+      "old_id": "E004-CN-053",
+      "old_usage": "val",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0705",
+      "old_id": "V7-B-071",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0706",
+      "old_id": "V7-B-059",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0707",
+      "old_id": "V7-B-071",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0708",
+      "old_id": "EXP-RF-006",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0709",
+      "old_id": "E004-CF-C008",
+      "old_usage": "val",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0710",
+      "old_id": "E004-EX-C085",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0711",
+      "old_id": "V7-OE-S089-A01",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0712",
+      "old_id": "EXP-RF-006",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0713",
+      "old_id": "EXP-RF-009",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0714",
+      "old_id": "EXP-RF-009",
+      "old_usage": "val",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0715",
+      "old_id": "V7-OE-S049-A01",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0716",
+      "old_id": "V7-OE-S049-A01",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0717",
+      "old_id": "V7-D-023",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0718",
+      "old_id": "EXP-CM-013",
+      "old_usage": "train",
+      "distance": 16,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0719",
+      "old_id": "V7-D-053",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0720",
+      "old_id": "EXP-CM-016",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0721",
+      "old_id": "V7-D-049",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0722",
+      "old_id": "V6R2-EX-004",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0723",
+      "old_id": "V7-OE-S023-A01",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0724",
+      "old_id": "EXP-CM-004",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0725",
+      "old_id": "V6R2-EX-012",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0726",
+      "old_id": "V6R2-MP-061",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0727",
+      "old_id": "EXP-CM-005",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0728",
+      "old_id": "V7-OE-S068-A01",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0729",
+      "old_id": "V6R2-EX-012",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0730",
+      "old_id": "V6-SB-010",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0731",
+      "old_id": "V7-B-049",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0732",
+      "old_id": "V7-B-011",
+      "old_usage": "train",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0733",
+      "old_id": "V7-B-011",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0734",
+      "old_id": "E004-EX-C030",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0735",
+      "old_id": "V7-OE-S051-A01",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0736",
+      "old_id": "E004-EX-C030",
+      "old_usage": "val",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0737",
+      "old_id": "E004-EX-C030",
+      "old_usage": "val",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0738",
+      "old_id": "E004-EX-C030",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0739",
+      "old_id": "E004-EX-C030",
+      "old_usage": "val",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0740",
+      "old_id": "V7-PF-A-006",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0741",
+      "old_id": "V7-B-047",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0742",
+      "old_id": "V7-OE-S022-A01",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0743",
+      "old_id": "V7-B-107",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0744",
+      "old_id": "V7-OE-S022-A01",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0745",
+      "old_id": "V7-OE-S057-A01",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0746",
+      "old_id": "V7-D-004",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0747",
+      "old_id": "V7-OE-S039-A01",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0748",
+      "old_id": "V7-OE-S057-A01",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0749",
+      "old_id": "P034-person-01",
+      "old_usage": "train",
+      "distance": 21,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0750",
+      "old_id": "V7-OE-S025-A01",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0751",
+      "old_id": "P036-person-01",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0752",
+      "old_id": "V7-UNAPPROVED-C-006",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0753",
+      "old_id": "EXP-RF-013",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0754",
+      "old_id": "V7-OE-S023-A01",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0755",
+      "old_id": "EXP-RF-010",
+      "old_usage": "train",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0756",
+      "old_id": "V7-A-051",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0757",
+      "old_id": "V7-C-053",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0758",
+      "old_id": "V7-OE-S043-A02",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0759",
+      "old_id": "EXP-CM-001",
+      "old_usage": "train",
+      "distance": 20,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0760",
+      "old_id": "V6-CA-003",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0761",
+      "old_id": "E004-EX-C051",
+      "old_usage": "val",
+      "distance": 19,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0762",
+      "old_id": "V6R2-MP-025",
+      "old_usage": "train",
+      "distance": 18,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0763",
+      "old_id": "V6-CA-003",
+      "old_usage": "train",
+      "distance": 17,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0764",
+      "old_id": "V6R2-MP-025",
+      "old_usage": "train",
+      "distance": 15,
+      "flagged": false
+    },
+    {
+      "sample_id": "CB-0765",
+      "old_id": "V6-CA-003",
+      "old_usage": "train",
+      "distance": 15,
+      "flagged": false
+    }
+  ],
+  "holdout_near_similarity": "not_measured_no_media_access",
+  "independence": "unproven; no absence-of-leakage claim from hash nonmatch"
+}

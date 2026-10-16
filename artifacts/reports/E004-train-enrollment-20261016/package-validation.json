@@ -1,0 +1,19 @@
+{
+  "pilot-b-20261016-v10": {
+    "deterministic_rebuild": "PASS",
+    "accepted_crop_exact_bytes": 345,
+    "payload_sha256": "07c0b73a0622371ee3d649c7e42eefbeebfe979ebfb6be90b4329b7540d34f67"
+  },
+  "E004-c345-development-20261016": {
+    "deterministic_rebuild": "PASS",
+    "accepted_crop_exact_bytes": 345,
+    "payload_sha256": "cdaf0a5340b6af968604a74e63bb48b83f76fe42d2e790e51c37b9a1c3588f62"
+  },
+  "code_changes_since_baseline": [
+    "data/crop_bundle_audit.py",
+    "data/pilot_package.py",
+    "data/pilot_schema.py",
+    "training/data.py"
+  ],
+  "training_math_model_transform_unchanged": true
+}

@@ -1,0 +1,5177 @@
+[
+  {
+    "id": "CB-0001",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-079",
+        "distance": 17,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-CN-044",
+        "distance": 20,
+        "group": "STU-instructional-view-13"
+      }
+    }
+  },
+  {
+    "id": "CB-0006",
+    "nearest": {
+      "train": {
+        "id": "SCB-write-001",
+        "distance": 17,
+        "group": "V7-G-e050c4c8e80fb3505a36"
+      },
+      "val": {
+        "id": "SCB-write-024",
+        "distance": 20,
+        "group": "V7-G-e903106f68879fbe175d"
+      }
+    }
+  },
+  {
+    "id": "CB-0008",
+    "nearest": {
+      "train": {
+        "id": "P009-person-01",
+        "distance": 17,
+        "group": "V7-G-5151ae89edce2c94a72a"
+      },
+      "val": {
+        "id": "SCB-write-020",
+        "distance": 20,
+        "group": "V7-G-e903106f68879fbe175d"
+      }
+    }
+  },
+  {
+    "id": "CB-0017",
+    "nearest": {
+      "train": {
+        "id": "V7-C-009",
+        "distance": 16,
+        "group": "V7-G-35dbebe263ce98a78adf"
+      },
+      "val": {
+        "id": "SCB-write-024",
+        "distance": 19,
+        "group": "V7-G-e903106f68879fbe175d"
+      }
+    }
+  },
+  {
+    "id": "CB-0020-R1",
+    "nearest": {
+      "train": {
+        "id": "EXP-CM-024",
+        "distance": 18,
+        "group": "V7-G-270a79bbb0f58a4e3ee0"
+      },
+      "val": {
+        "id": "E004-EX-C118",
+        "distance": 19,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0024-R1",
+    "nearest": {
+      "train": {
+        "id": "V7-D-044",
+        "distance": 20,
+        "group": "V7-G-1e45ab2ad24b2d9b436d"
+      },
+      "val": {
+        "id": "E004-CN-042",
+        "distance": 18,
+        "group": "STU-instructional-view-12"
+      }
+    }
+  },
+  {
+    "id": "CB-0026",
+    "nearest": {
+      "train": {
+        "id": "SCB-read-004",
+        "distance": 17,
+        "group": "V7-G-db2fffa58b4cd94f0a72"
+      },
+      "val": {
+        "id": "V6-EX-010",
+        "distance": 18,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "CB-0030-R1",
+    "nearest": {
+      "train": {
+        "id": "EXP-SCB-028",
+        "distance": 17,
+        "group": "V7-G-0d1a82fab3fd52ec4163"
+      },
+      "val": {
+        "id": "SCB-write-020",
+        "distance": 20,
+        "group": "V7-G-e903106f68879fbe175d"
+      }
+    }
+  },
+  {
+    "id": "CB-0033",
+    "nearest": {
+      "train": {
+        "id": "V7-A-026",
+        "distance": 17,
+        "group": "V7-G-c47f1b2f8775a6cccc4e"
+      },
+      "val": {
+        "id": "EXP-SCB-002",
+        "distance": 19,
+        "group": "V7-G-2fb2b83caf4ae371408a"
+      }
+    }
+  },
+  {
+    "id": "CB-0043",
+    "nearest": {
+      "train": {
+        "id": "V6-EX-021",
+        "distance": 14,
+        "group": "V7-G-6fa08054492f978c5f30"
+      },
+      "val": {
+        "id": "E004-CN-056",
+        "distance": 19,
+        "group": "STU-instructional-view-13"
+      }
+    }
+  },
+  {
+    "id": "CB-0046",
+    "nearest": {
+      "train": {
+        "id": "E004-EX-C002",
+        "distance": 17,
+        "group": "EX-PX-002"
+      },
+      "val": {
+        "id": "E004-EX-C054",
+        "distance": 21,
+        "group": "EX-LECTURE"
+      }
+    }
+  },
+  {
+    "id": "CB-0055-R1",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-019",
+        "distance": 18,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "EXP-SCB-014",
+        "distance": 21,
+        "group": "V7-G-5c95c56ac7f8af49105c"
+      }
+    }
+  },
+  {
+    "id": "CB-0059",
+    "nearest": {
+      "train": {
+        "id": "EXP-RF-015",
+        "distance": 18,
+        "group": "V7-G-6a5a020c968be6450a39"
+      },
+      "val": {
+        "id": "E004-CF-C016",
+        "distance": 22,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0063",
+    "nearest": {
+      "train": {
+        "id": "V6-CA-047",
+        "distance": 20,
+        "group": "V7-G-53c065f92a59d6f04f72"
+      },
+      "val": {
+        "id": "P022-person-01",
+        "distance": 22,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "CB-0065",
+    "nearest": {
+      "train": {
+        "id": "V6-CA-004",
+        "distance": 21,
+        "group": "V7-G-5334aedf9d3d9767844d"
+      },
+      "val": {
+        "id": "E004-EX-C130",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0069",
+    "nearest": {
+      "train": {
+        "id": "V7-B-067",
+        "distance": 18,
+        "group": "V7-G-ffdd231ff5472658e967"
+      },
+      "val": {
+        "id": "E004-EX-C199",
+        "distance": 19,
+        "group": "EX-LECTURE"
+      }
+    }
+  },
+  {
+    "id": "CB-0074",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-068",
+        "distance": 18,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "P022-person-01",
+        "distance": 20,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "CB-0083",
+    "nearest": {
+      "train": {
+        "id": "V7-R8-C-008",
+        "distance": 19,
+        "group": "V7-G-f4852396359aca18e025"
+      },
+      "val": {
+        "id": "E004-EX-C030",
+        "distance": 22,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0088",
+    "nearest": {
+      "train": {
+        "id": "V7-C-042",
+        "distance": 18,
+        "group": "V7-G-44638056026b77b39e62"
+      },
+      "val": {
+        "id": "E004-EX-C143",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0097",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-048",
+        "distance": 18,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "EXP-SCB-002",
+        "distance": 20,
+        "group": "V7-G-2fb2b83caf4ae371408a"
+      }
+    }
+  },
+  {
+    "id": "CB-0100",
+    "nearest": {
+      "train": {
+        "id": "SCB-read-005",
+        "distance": 20,
+        "group": "V7-G-b46d3c31897c7157f5a6"
+      },
+      "val": {
+        "id": "E004-EX-C143",
+        "distance": 20,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0103",
+    "nearest": {
+      "train": {
+        "id": "V6R2-SB-015",
+        "distance": 20,
+        "group": "V7-G-c83282c8c8290343172e"
+      },
+      "val": {
+        "id": "E004-EX-C143",
+        "distance": 19,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0110-R1",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S044-A04",
+        "distance": 16,
+        "group": "V7-G-6db4e45345530a410365"
+      },
+      "val": {
+        "id": "E004-EX-C194",
+        "distance": 21,
+        "group": "EX-ROUND-DESK"
+      }
+    }
+  },
+  {
+    "id": "CB-0113",
+    "nearest": {
+      "train": {
+        "id": "EXP-CM-024",
+        "distance": 19,
+        "group": "V7-G-270a79bbb0f58a4e3ee0"
+      },
+      "val": {
+        "id": "V6-CA-021",
+        "distance": 20,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "CB-0123",
+    "nearest": {
+      "train": {
+        "id": "SCB-write-019",
+        "distance": 19,
+        "group": "V7-G-e050c4c8e80fb3505a36"
+      },
+      "val": {
+        "id": "P002-person-01",
+        "distance": 24,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "CB-0132",
+    "nearest": {
+      "train": {
+        "id": "V7-C-099",
+        "distance": 18,
+        "group": "V7-G-471163247fe21d17a748"
+      },
+      "val": {
+        "id": "V6-SB-035",
+        "distance": 19,
+        "group": "V7-G-ae0cbae3310d6f5db3df"
+      }
+    }
+  },
+  {
+    "id": "CB-0135",
+    "nearest": {
+      "train": {
+        "id": "SCB-turnhead-005",
+        "distance": 19,
+        "group": "V7-G-adab5098c70c224496bd"
+      },
+      "val": {
+        "id": "P002-person-01",
+        "distance": 21,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "CB-0145",
+    "nearest": {
+      "train": {
+        "id": "V7-C-137",
+        "distance": 16,
+        "group": "V7-G-3812861b17fb655e4171"
+      },
+      "val": {
+        "id": "E004-EX-C124",
+        "distance": 20,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0150",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S025-A01",
+        "distance": 17,
+        "group": "V7-G-8d640c08ecc516c53f87"
+      },
+      "val": {
+        "id": "E004-CF-C011",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0152",
+    "nearest": {
+      "train": {
+        "id": "SCB-read-001",
+        "distance": 19,
+        "group": "V7-G-db2fffa58b4cd94f0a72"
+      },
+      "val": {
+        "id": "V6R2-SB-016",
+        "distance": 19,
+        "group": "V7-G-d44a821e962a24104c63"
+      }
+    }
+  },
+  {
+    "id": "CB-0159",
+    "nearest": {
+      "train": {
+        "id": "V7-A-031",
+        "distance": 20,
+        "group": "V7-G-84e32211636f64479bed"
+      },
+      "val": {
+        "id": "E004-EX-C041",
+        "distance": 22,
+        "group": "EX-LECTURE"
+      }
+    }
+  },
+  {
+    "id": "CB-0168",
+    "nearest": {
+      "train": {
+        "id": "SCB-write-004",
+        "distance": 20,
+        "group": "V7-G-e050c4c8e80fb3505a36"
+      },
+      "val": {
+        "id": "V6-SB-046",
+        "distance": 21,
+        "group": "V7-G-5c95c56ac7f8af49105c"
+      }
+    }
+  },
+  {
+    "id": "CB-0175",
+    "nearest": {
+      "train": {
+        "id": "EXP-RF-001",
+        "distance": 16,
+        "group": "V7-G-40464cf9224fb4dbc235"
+      },
+      "val": {
+        "id": "SCB-write-024",
+        "distance": 18,
+        "group": "V7-G-e903106f68879fbe175d"
+      }
+    }
+  },
+  {
+    "id": "CB-0181",
+    "nearest": {
+      "train": {
+        "id": "V7-B-098",
+        "distance": 18,
+        "group": "V7-G-801c179b68585f5ca63d"
+      },
+      "val": {
+        "id": "E004-CN-046",
+        "distance": 22,
+        "group": "STU-instructional-view-16"
+      }
+    }
+  },
+  {
+    "id": "CB-0189",
+    "nearest": {
+      "train": {
+        "id": "SCB-read-004",
+        "distance": 16,
+        "group": "V7-G-db2fffa58b4cd94f0a72"
+      },
+      "val": {
+        "id": "E004-EX-C066",
+        "distance": 20,
+        "group": "EX-LECTURE"
+      }
+    }
+  },
+  {
+    "id": "CB-0192",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-039",
+        "distance": 20,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-CF-C011",
+        "distance": 19,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0199",
+    "nearest": {
+      "train": {
+        "id": "E004-EX-C079",
+        "distance": 19,
+        "group": "EX-US-009"
+      },
+      "val": {
+        "id": "E004-EX-C166-R2",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0200",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-019",
+        "distance": 19,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "V6-EX-010",
+        "distance": 18,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "CB-0201",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-019",
+        "distance": 12,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "V6-EX-010",
+        "distance": 13,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "CB-0208",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-019",
+        "distance": 12,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-EX-C124",
+        "distance": 19,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0210",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S066-A02",
+        "distance": 15,
+        "group": "V7-G-e1689dabba55fbe53281"
+      },
+      "val": {
+        "id": "E004-EX-C042",
+        "distance": 21,
+        "group": "EX-LECTURE"
+      }
+    }
+  },
+  {
+    "id": "CB-0223",
+    "nearest": {
+      "train": {
+        "id": "V6-CA-004",
+        "distance": 15,
+        "group": "V7-G-5334aedf9d3d9767844d"
+      },
+      "val": {
+        "id": "E004-CF-C011",
+        "distance": 19,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0224-R1",
+    "nearest": {
+      "train": {
+        "id": "SCB-turnhead-009",
+        "distance": 15,
+        "group": "V7-G-e050c4c8e80fb3505a36"
+      },
+      "val": {
+        "id": "E004-EX-C193",
+        "distance": 15,
+        "group": "EX-ROUND-DESK"
+      }
+    }
+  },
+  {
+    "id": "CB-0228-R1",
+    "nearest": {
+      "train": {
+        "id": "E004-EX-C184",
+        "distance": 15,
+        "group": "EX-US-034"
+      },
+      "val": {
+        "id": "E004-EX-C193",
+        "distance": 14,
+        "group": "EX-ROUND-DESK"
+      }
+    }
+  },
+  {
+    "id": "CB-0238-R1",
+    "nearest": {
+      "train": {
+        "id": "V6-CA-047",
+        "distance": 17,
+        "group": "V7-G-53c065f92a59d6f04f72"
+      },
+      "val": {
+        "id": "E004-CF-C008",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0253",
+    "nearest": {
+      "train": {
+        "id": "V6-SB-045",
+        "distance": 15,
+        "group": "V7-G-7929da3839082c8c87fb"
+      },
+      "val": {
+        "id": "E004-EX-C049",
+        "distance": 23,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0254",
+    "nearest": {
+      "train": {
+        "id": "V6R2-SB-002",
+        "distance": 20,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "V6-CA-026",
+        "distance": 23,
+        "group": "V7-G-a6902aad84a5672f4f52"
+      }
+    }
+  },
+  {
+    "id": "CB-0261",
+    "nearest": {
+      "train": {
+        "id": "V7-C-049",
+        "distance": 18,
+        "group": "V7-G-20d6e059d1b24f1cc56a"
+      },
+      "val": {
+        "id": "V6R2-EX-008",
+        "distance": 21,
+        "group": "V7-G-c197fd750c63e3f82b42"
+      }
+    }
+  },
+  {
+    "id": "CB-0266",
+    "nearest": {
+      "train": {
+        "id": "V7-C-028",
+        "distance": 20,
+        "group": "V7-G-06df719cfffafbe8415a"
+      },
+      "val": {
+        "id": "E004-EX-C050",
+        "distance": 22,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0280",
+    "nearest": {
+      "train": {
+        "id": "V6-CA-012",
+        "distance": 17,
+        "group": "V7-G-48596d8567f532b0e83e"
+      },
+      "val": {
+        "id": "E004-CN-053",
+        "distance": 21,
+        "group": "STU-instructional-view-54"
+      }
+    }
+  },
+  {
+    "id": "CB-0282",
+    "nearest": {
+      "train": {
+        "id": "V7-A-003",
+        "distance": 19,
+        "group": "V7-G-0cecc53433969b446600"
+      },
+      "val": {
+        "id": "E004-EX-C045",
+        "distance": 23,
+        "group": "EX-ROUND-DESK"
+      }
+    }
+  },
+  {
+    "id": "CB-0294",
+    "nearest": {
+      "train": {
+        "id": "V7-C-102",
+        "distance": 17,
+        "group": "V7-G-c0600d8b24aadffa4a33"
+      },
+      "val": {
+        "id": "E004-EX-C045",
+        "distance": 21,
+        "group": "EX-ROUND-DESK"
+      }
+    }
+  },
+  {
+    "id": "CB-0297",
+    "nearest": {
+      "train": {
+        "id": "V7-A-007",
+        "distance": 19,
+        "group": "V7-G-c21af826cf8e44563300"
+      },
+      "val": {
+        "id": "E004-EX-C027",
+        "distance": 22,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0303",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S106-A01",
+        "distance": 19,
+        "group": "V7-G-4acb4fa911ae9d9fcc48"
+      },
+      "val": {
+        "id": "E004-EX-C139",
+        "distance": 19,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0308",
+    "nearest": {
+      "train": {
+        "id": "EXP-RF-013",
+        "distance": 20,
+        "group": "V7-G-9134fdad8c79128592a1"
+      },
+      "val": {
+        "id": "V6R2-SB-016",
+        "distance": 19,
+        "group": "V7-G-d44a821e962a24104c63"
+      }
+    }
+  },
+  {
+    "id": "CB-0317",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-001",
+        "distance": 19,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-EX-C027",
+        "distance": 22,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0356",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S061-A01",
+        "distance": 19,
+        "group": "V7-G-504b7f10817cbc13e9d3"
+      },
+      "val": {
+        "id": "SCB-write-024",
+        "distance": 22,
+        "group": "V7-G-e903106f68879fbe175d"
+      }
+    }
+  },
+  {
+    "id": "CB-0363",
+    "nearest": {
+      "train": {
+        "id": "V7-D-026",
+        "distance": 20,
+        "group": "V7-G-8dbdc984929bf3f5422c"
+      },
+      "val": {
+        "id": "E004-EX-C166-R2",
+        "distance": 22,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0369",
+    "nearest": {
+      "train": {
+        "id": "P035-person-01",
+        "distance": 19,
+        "group": "V7-G-ecc68417f2c0f69337ca"
+      },
+      "val": {
+        "id": "E004-CN-052",
+        "distance": 21,
+        "group": "STU-instructional-view-54"
+      }
+    }
+  },
+  {
+    "id": "CB-0373",
+    "nearest": {
+      "train": {
+        "id": "V6-CA-010",
+        "distance": 20,
+        "group": "V7-G-a1deceac8f8f43a238b0"
+      },
+      "val": {
+        "id": "E004-EX-C120",
+        "distance": 22,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0381",
+    "nearest": {
+      "train": {
+        "id": "V6-EX-002",
+        "distance": 19,
+        "group": "V7-G-ecc68417f2c0f69337ca"
+      },
+      "val": {
+        "id": "E004-EX-C117",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0390",
+    "nearest": {
+      "train": {
+        "id": "V7-A-046",
+        "distance": 19,
+        "group": "V7-G-9a5bfbbc1f7bd77fb96e"
+      },
+      "val": {
+        "id": "V6-EX-010",
+        "distance": 21,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "CB-0396",
+    "nearest": {
+      "train": {
+        "id": "E004-EX-C023",
+        "distance": 20,
+        "group": "EX-STUDY-BOOK"
+      },
+      "val": {
+        "id": "V6-EX-042",
+        "distance": 22,
+        "group": "V7-G-73f8ee84e6a5ea4a4049"
+      }
+    }
+  },
+  {
+    "id": "CB-0398",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S116-A02",
+        "distance": 20,
+        "group": "V7-G-ecc68417f2c0f69337ca"
+      },
+      "val": {
+        "id": "E004-EX-C049",
+        "distance": 20,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0405",
+    "nearest": {
+      "train": {
+        "id": "E004-EX-C007",
+        "distance": 18,
+        "group": "EX-PX-005"
+      },
+      "val": {
+        "id": "E004-EX-C056",
+        "distance": 22,
+        "group": "EX-LECTURE"
+      }
+    }
+  },
+  {
+    "id": "CB-0410",
+    "nearest": {
+      "train": {
+        "id": "V7-PF-A-001",
+        "distance": 15,
+        "group": "V7-G-2a8f8aba83583cb88d5a"
+      },
+      "val": {
+        "id": "E004-EX-C042",
+        "distance": 20,
+        "group": "EX-LECTURE"
+      }
+    }
+  },
+  {
+    "id": "CB-0428",
+    "nearest": {
+      "train": {
+        "id": "EXP-SCB-015",
+        "distance": 19,
+        "group": "V7-G-ac8efc033a110165648d"
+      },
+      "val": {
+        "id": "P006-extra-01",
+        "distance": 22,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "CB-0449",
+    "nearest": {
+      "train": {
+        "id": "SCB-turnhead-001",
+        "distance": 19,
+        "group": "V7-G-e050c4c8e80fb3505a36"
+      },
+      "val": {
+        "id": "V6-CA-018",
+        "distance": 21,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "CB-0473",
+    "nearest": {
+      "train": {
+        "id": "V7-C-007",
+        "distance": 20,
+        "group": "V7-G-1f674cc253daf3b2f881"
+      },
+      "val": {
+        "id": "P006-person-01",
+        "distance": 19,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "CB-0479",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S116-A02",
+        "distance": 19,
+        "group": "V7-G-ecc68417f2c0f69337ca"
+      },
+      "val": {
+        "id": "E004-EX-C048",
+        "distance": 21,
+        "group": "EX-LECTURE"
+      }
+    }
+  },
+  {
+    "id": "CB-0485",
+    "nearest": {
+      "train": {
+        "id": "V7-UNAPPROVED-C-003",
+        "distance": 20,
+        "group": "V7-G-9e646f790a356daa5c69"
+      },
+      "val": {
+        "id": "V6-SB-047",
+        "distance": 21,
+        "group": "V7-G-bfee2347d4708b9a0168"
+      }
+    }
+  },
+  {
+    "id": "CB-0487",
+    "nearest": {
+      "train": {
+        "id": "V6-SB-041",
+        "distance": 20,
+        "group": "V7-G-29934f907d1e2baa5072"
+      },
+      "val": {
+        "id": "EXP-SCB-002",
+        "distance": 20,
+        "group": "V7-G-2fb2b83caf4ae371408a"
+      }
+    }
+  },
+  {
+    "id": "CB-0492",
+    "nearest": {
+      "train": {
+        "id": "SCB-write-017",
+        "distance": 22,
+        "group": "V7-G-06df719cfffafbe8415a"
+      },
+      "val": {
+        "id": "EXP-SCB-002",
+        "distance": 21,
+        "group": "V7-G-2fb2b83caf4ae371408a"
+      }
+    }
+  },
+  {
+    "id": "CB-0496",
+    "nearest": {
+      "train": {
+        "id": "V7-A-013",
+        "distance": 21,
+        "group": "V7-G-33e1da8c976614315125"
+      },
+      "val": {
+        "id": "V6-SB-046",
+        "distance": 24,
+        "group": "V7-G-5c95c56ac7f8af49105c"
+      }
+    }
+  },
+  {
+    "id": "CB-0506",
+    "nearest": {
+      "train": {
+        "id": "V7-B-077",
+        "distance": 19,
+        "group": "V7-G-0f5c72752d704d2a7125"
+      },
+      "val": {
+        "id": "EXP-SCB-002",
+        "distance": 23,
+        "group": "V7-G-2fb2b83caf4ae371408a"
+      }
+    }
+  },
+  {
+    "id": "CB-0514-R1",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-085",
+        "distance": 16,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "V6-SB-046",
+        "distance": 20,
+        "group": "V7-G-5c95c56ac7f8af49105c"
+      }
+    }
+  },
+  {
+    "id": "CB-0518-R1",
+    "nearest": {
+      "train": {
+        "id": "V6-EX-024",
+        "distance": 19,
+        "group": "V7-G-ecc68417f2c0f69337ca"
+      },
+      "val": {
+        "id": "P006-person-02",
+        "distance": 21,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "CB-0523-R1",
+    "nearest": {
+      "train": {
+        "id": "V7-B-062",
+        "distance": 18,
+        "group": "V7-G-729d71fec3117a78b878"
+      },
+      "val": {
+        "id": "E004-EX-C144",
+        "distance": 20,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0527-R1",
+    "nearest": {
+      "train": {
+        "id": "V7-D-020",
+        "distance": 16,
+        "group": "V7-G-cd517632ba4dba2b723f"
+      },
+      "val": {
+        "id": "E004-CF-C016",
+        "distance": 17,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0540-R1",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-037",
+        "distance": 19,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-CF-C016",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0543-R1",
+    "nearest": {
+      "train": {
+        "id": "P030-person-01",
+        "distance": 21,
+        "group": "V7-G-ecc68417f2c0f69337ca"
+      },
+      "val": {
+        "id": "E004-EX-C166-R2",
+        "distance": 22,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0546-R1",
+    "nearest": {
+      "train": {
+        "id": "SCB-turnhead-018",
+        "distance": 20,
+        "group": "V7-G-06df719cfffafbe8415a"
+      },
+      "val": {
+        "id": "E004-CN-056",
+        "distance": 20,
+        "group": "STU-instructional-view-13"
+      }
+    }
+  },
+  {
+    "id": "CB-0555-R1",
+    "nearest": {
+      "train": {
+        "id": "V7-B-039",
+        "distance": 21,
+        "group": "V7-G-5802f243b9f016753538"
+      },
+      "val": {
+        "id": "V6R2-EX-008",
+        "distance": 21,
+        "group": "V7-G-c197fd750c63e3f82b42"
+      }
+    }
+  },
+  {
+    "id": "CB-0560-R1",
+    "nearest": {
+      "train": {
+        "id": "SCB-turnhead-018",
+        "distance": 15,
+        "group": "V7-G-06df719cfffafbe8415a"
+      },
+      "val": {
+        "id": "E004-CF-C016",
+        "distance": 20,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0567-R1",
+    "nearest": {
+      "train": {
+        "id": "V7-C-116",
+        "distance": 19,
+        "group": "V7-G-1d2eec0cc175259dc2bd"
+      },
+      "val": {
+        "id": "E004-EX-C021-R2",
+        "distance": 23,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0571-R1",
+    "nearest": {
+      "train": {
+        "id": "EXP-SCB-016",
+        "distance": 19,
+        "group": "V7-G-53e230031dbf88c8f8ec"
+      },
+      "val": {
+        "id": "E004-CF-C008",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0572-R1",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S066-A01",
+        "distance": 18,
+        "group": "V7-G-e1689dabba55fbe53281"
+      },
+      "val": {
+        "id": "V6-EX-042",
+        "distance": 21,
+        "group": "V7-G-73f8ee84e6a5ea4a4049"
+      }
+    }
+  },
+  {
+    "id": "CB-0574-R1",
+    "nearest": {
+      "train": {
+        "id": "V6-CA-031",
+        "distance": 19,
+        "group": "V7-G-1d4c83f734515165c4df"
+      },
+      "val": {
+        "id": "E004-CN-048",
+        "distance": 21,
+        "group": "STU-instructional-view-44"
+      }
+    }
+  },
+  {
+    "id": "CB-0578-R1",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-067",
+        "distance": 19,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-EX-C049",
+        "distance": 18,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0582-R1",
+    "nearest": {
+      "train": {
+        "id": "SCB-turnhead-018",
+        "distance": 21,
+        "group": "V7-G-06df719cfffafbe8415a"
+      },
+      "val": {
+        "id": "E004-CF-C021",
+        "distance": 22,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0593-R1",
+    "nearest": {
+      "train": {
+        "id": "SCB-turnhead-001",
+        "distance": 22,
+        "group": "V7-G-e050c4c8e80fb3505a36"
+      },
+      "val": {
+        "id": "E004-EX-C030",
+        "distance": 23,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0597-R1",
+    "nearest": {
+      "train": {
+        "id": "V7-D-026",
+        "distance": 18,
+        "group": "V7-G-8dbdc984929bf3f5422c"
+      },
+      "val": {
+        "id": "E004-EX-C041",
+        "distance": 22,
+        "group": "EX-LECTURE"
+      }
+    }
+  },
+  {
+    "id": "CB-0598-R1",
+    "nearest": {
+      "train": {
+        "id": "V6-EX-044",
+        "distance": 19,
+        "group": "V7-G-5574ea116b6880b71974"
+      },
+      "val": {
+        "id": "E004-EX-C009",
+        "distance": 23,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0604-R1",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S043-A02",
+        "distance": 20,
+        "group": "V7-G-6db4e45345530a410365"
+      },
+      "val": {
+        "id": "V6-SB-046",
+        "distance": 20,
+        "group": "V7-G-5c95c56ac7f8af49105c"
+      }
+    }
+  },
+  {
+    "id": "CB-0605",
+    "nearest": {
+      "train": {
+        "id": "V6-EX-021",
+        "distance": 14,
+        "group": "V7-G-6fa08054492f978c5f30"
+      },
+      "val": {
+        "id": "SCB-write-024",
+        "distance": 15,
+        "group": "V7-G-e903106f68879fbe175d"
+      }
+    }
+  },
+  {
+    "id": "CB-0607-R1",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-079",
+        "distance": 19,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "SCB-write-024",
+        "distance": 19,
+        "group": "V7-G-e903106f68879fbe175d"
+      }
+    }
+  },
+  {
+    "id": "CB-0609-R1",
+    "nearest": {
+      "train": {
+        "id": "V7-C-009",
+        "distance": 20,
+        "group": "V7-G-35dbebe263ce98a78adf"
+      },
+      "val": {
+        "id": "E004-CF-C010",
+        "distance": 22,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0611-R1",
+    "nearest": {
+      "train": {
+        "id": "V6-CA-001",
+        "distance": 19,
+        "group": "V7-G-354474e49b70ebd09240"
+      },
+      "val": {
+        "id": "V6-CA-046",
+        "distance": 22,
+        "group": "V7-G-a6902aad84a5672f4f52"
+      }
+    }
+  },
+  {
+    "id": "CB-0613-R1",
+    "nearest": {
+      "train": {
+        "id": "V7-C-087",
+        "distance": 16,
+        "group": "V7-G-2323c851551229cab936"
+      },
+      "val": {
+        "id": "E004-CF-C016",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0614-R1",
+    "nearest": {
+      "train": {
+        "id": "V7-B-055",
+        "distance": 19,
+        "group": "V7-G-58d3e383af4815f4c266"
+      },
+      "val": {
+        "id": "E004-EX-C030",
+        "distance": 22,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0617-R1",
+    "nearest": {
+      "train": {
+        "id": "V6-EX-007",
+        "distance": 15,
+        "group": "V7-G-d1e886e94302585b15ba"
+      },
+      "val": {
+        "id": "E004-EX-C030",
+        "distance": 20,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0618",
+    "nearest": {
+      "train": {
+        "id": "SCB-turnhead-016",
+        "distance": 21,
+        "group": "V7-G-1f674cc253daf3b2f881"
+      },
+      "val": {
+        "id": "E004-CF-C028",
+        "distance": 22,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0620",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-026",
+        "distance": 17,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-EX-C048",
+        "distance": 19,
+        "group": "EX-LECTURE"
+      }
+    }
+  },
+  {
+    "id": "CB-0624",
+    "nearest": {
+      "train": {
+        "id": "V7-B-043",
+        "distance": 18,
+        "group": "V7-G-c804760924c12ccf0783"
+      },
+      "val": {
+        "id": "E004-EX-C193",
+        "distance": 19,
+        "group": "EX-ROUND-DESK"
+      }
+    }
+  },
+  {
+    "id": "CB-0626",
+    "nearest": {
+      "train": {
+        "id": "V7-D-021",
+        "distance": 19,
+        "group": "V7-G-01a70bf660e857cd33cc"
+      },
+      "val": {
+        "id": "E004-CF-C029",
+        "distance": 19,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0631",
+    "nearest": {
+      "train": {
+        "id": "EXP-SCB-017",
+        "distance": 21,
+        "group": "V7-G-3d72119803ac0e10001b"
+      },
+      "val": {
+        "id": "E004-CF-C008",
+        "distance": 20,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0639-R1",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-034",
+        "distance": 18,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-EX-C021-R2",
+        "distance": 19,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0644",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-079",
+        "distance": 18,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "SCB-write-020",
+        "distance": 17,
+        "group": "V7-G-e903106f68879fbe175d"
+      }
+    }
+  },
+  {
+    "id": "CB-0646",
+    "nearest": {
+      "train": {
+        "id": "EXP-RF-013",
+        "distance": 16,
+        "group": "V7-G-9134fdad8c79128592a1"
+      },
+      "val": {
+        "id": "SCB-write-020",
+        "distance": 21,
+        "group": "V7-G-e903106f68879fbe175d"
+      }
+    }
+  },
+  {
+    "id": "CB-0647",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S084-A01",
+        "distance": 17,
+        "group": "V7-G-ee5e887f0ea89fec26bd"
+      },
+      "val": {
+        "id": "EXP-RF-007",
+        "distance": 17,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "CB-0649",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S087-A01",
+        "distance": 15,
+        "group": "V7-G-fe2f2b9cb34b7c02e424"
+      },
+      "val": {
+        "id": "E004-CF-C030",
+        "distance": 20,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0651",
+    "nearest": {
+      "train": {
+        "id": "V7-R8-D-001",
+        "distance": 17,
+        "group": "V7-G-8dbdc984929bf3f5422c"
+      },
+      "val": {
+        "id": "E004-CN-053",
+        "distance": 21,
+        "group": "STU-instructional-view-54"
+      }
+    }
+  },
+  {
+    "id": "CB-0653",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-034",
+        "distance": 20,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-EX-C021-R2",
+        "distance": 17,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0655",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S105-A01",
+        "distance": 16,
+        "group": "V7-G-a7dbb06144cdcaaebbd3"
+      },
+      "val": {
+        "id": "E004-EX-C021-R2",
+        "distance": 20,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0657",
+    "nearest": {
+      "train": {
+        "id": "V7-C-017",
+        "distance": 20,
+        "group": "V7-G-dcf2183cdec285cdadc1"
+      },
+      "val": {
+        "id": "E004-CN-056",
+        "distance": 22,
+        "group": "STU-instructional-view-13"
+      }
+    }
+  },
+  {
+    "id": "CB-0660",
+    "nearest": {
+      "train": {
+        "id": "V6R2-EX-017",
+        "distance": 21,
+        "group": "V7-G-5574ea116b6880b71974"
+      },
+      "val": {
+        "id": "V6-CA-036",
+        "distance": 23,
+        "group": "V7-G-a6902aad84a5672f4f52"
+      }
+    }
+  },
+  {
+    "id": "CB-0666",
+    "nearest": {
+      "train": {
+        "id": "SCB-write-014",
+        "distance": 19,
+        "group": "V7-G-e050c4c8e80fb3505a36"
+      },
+      "val": {
+        "id": "E004-CN-046",
+        "distance": 22,
+        "group": "STU-instructional-view-16"
+      }
+    }
+  },
+  {
+    "id": "CB-0670",
+    "nearest": {
+      "train": {
+        "id": "V7-C-017",
+        "distance": 21,
+        "group": "V7-G-dcf2183cdec285cdadc1"
+      },
+      "val": {
+        "id": "V6R2-SB-016",
+        "distance": 22,
+        "group": "V7-G-d44a821e962a24104c63"
+      }
+    }
+  },
+  {
+    "id": "CB-0675",
+    "nearest": {
+      "train": {
+        "id": "V7-D-029",
+        "distance": 20,
+        "group": "V7-G-77e9c100cecd88acf2a2"
+      },
+      "val": {
+        "id": "V6-SB-034",
+        "distance": 21,
+        "group": "V7-G-5c95c56ac7f8af49105c"
+      }
+    }
+  },
+  {
+    "id": "CB-0684",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S107-A01",
+        "distance": 19,
+        "group": "V7-G-1a93ce34b0c352314d19"
+      },
+      "val": {
+        "id": "E004-EX-C119",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0688",
+    "nearest": {
+      "train": {
+        "id": "V7-D-008",
+        "distance": 17,
+        "group": "V7-G-061932b6ba704b82b237"
+      },
+      "val": {
+        "id": "E004-EX-C028",
+        "distance": 22,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0694",
+    "nearest": {
+      "train": {
+        "id": "V7-B-074",
+        "distance": 19,
+        "group": "V7-G-2a60c69fb2edd100f336"
+      },
+      "val": {
+        "id": "E004-EX-C045",
+        "distance": 22,
+        "group": "EX-ROUND-DESK"
+      }
+    }
+  },
+  {
+    "id": "CB-0700",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S107-A01",
+        "distance": 19,
+        "group": "V7-G-1a93ce34b0c352314d19"
+      },
+      "val": {
+        "id": "V6R2-CA-009",
+        "distance": 21,
+        "group": "V7-G-a6902aad84a5672f4f52"
+      }
+    }
+  },
+  {
+    "id": "CB-0703",
+    "nearest": {
+      "train": {
+        "id": "V7-UNAPPROVED-C-007",
+        "distance": 20,
+        "group": "V7-G-e88d2156a2cc0e341ae4"
+      },
+      "val": {
+        "id": "E004-CF-C008",
+        "distance": 19,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0704",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-025",
+        "distance": 21,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-CN-053",
+        "distance": 21,
+        "group": "STU-instructional-view-54"
+      }
+    }
+  },
+  {
+    "id": "CB-0710",
+    "nearest": {
+      "train": {
+        "id": "E004-EX-C085",
+        "distance": 20,
+        "group": "EX-US-016"
+      },
+      "val": {
+        "id": "E004-CF-C008",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0715-R1",
+    "nearest": {
+      "train": {
+        "id": "SCB-write-011",
+        "distance": 17,
+        "group": "V7-G-f9e52e249f517c212bf6"
+      },
+      "val": {
+        "id": "V6-CA-033",
+        "distance": 18,
+        "group": "V7-G-a6902aad84a5672f4f52"
+      }
+    }
+  },
+  {
+    "id": "CB-0719-R1",
+    "nearest": {
+      "train": {
+        "id": "V7-C-016",
+        "distance": 18,
+        "group": "V7-G-35dbebe263ce98a78adf"
+      },
+      "val": {
+        "id": "E004-CF-C010",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0724-R1",
+    "nearest": {
+      "train": {
+        "id": "V7-A-071",
+        "distance": 16,
+        "group": "V7-G-7d8b0431a013a94eb048"
+      },
+      "val": {
+        "id": "E004-EX-C022",
+        "distance": 17,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0726-R1",
+    "nearest": {
+      "train": {
+        "id": "V7-A-071",
+        "distance": 18,
+        "group": "V7-G-7d8b0431a013a94eb048"
+      },
+      "val": {
+        "id": "V6-CA-036",
+        "distance": 21,
+        "group": "V7-G-a6902aad84a5672f4f52"
+      }
+    }
+  },
+  {
+    "id": "CB-0733-R1",
+    "nearest": {
+      "train": {
+        "id": "V6-EX-039",
+        "distance": 17,
+        "group": "V7-G-5574ea116b6880b71974"
+      },
+      "val": {
+        "id": "E004-CN-042",
+        "distance": 17,
+        "group": "STU-instructional-view-12"
+      }
+    }
+  },
+  {
+    "id": "CB-0735-R1",
+    "nearest": {
+      "train": {
+        "id": "E004-EX-C013",
+        "distance": 18,
+        "group": "EX-PX-010"
+      },
+      "val": {
+        "id": "E004-EX-C139",
+        "distance": 18,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0737-R1",
+    "nearest": {
+      "train": {
+        "id": "V6-EX-026",
+        "distance": 22,
+        "group": "V7-G-5574ea116b6880b71974"
+      },
+      "val": {
+        "id": "E004-EX-C119",
+        "distance": 24,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0742-R1",
+    "nearest": {
+      "train": {
+        "id": "SCB-read-026",
+        "distance": 20,
+        "group": "V7-G-e050c4c8e80fb3505a36"
+      },
+      "val": {
+        "id": "E004-CN-042",
+        "distance": 22,
+        "group": "STU-instructional-view-12"
+      }
+    }
+  },
+  {
+    "id": "CB-0745-R1",
+    "nearest": {
+      "train": {
+        "id": "E004-EX-C164",
+        "distance": 19,
+        "group": "CF-Q174"
+      },
+      "val": {
+        "id": "V6-EX-010",
+        "distance": 21,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "CB-0748-R1",
+    "nearest": {
+      "train": {
+        "id": "V7-B-026",
+        "distance": 20,
+        "group": "V7-G-09a4e2e298fb27b5f8ab"
+      },
+      "val": {
+        "id": "V6-CA-030",
+        "distance": 21,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "CB-0749",
+    "nearest": {
+      "train": {
+        "id": "P034-person-01",
+        "distance": 21,
+        "group": "V7-G-ecc68417f2c0f69337ca"
+      },
+      "val": {
+        "id": "E004-CF-C011",
+        "distance": 22,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0750",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S025-A01",
+        "distance": 20,
+        "group": "V7-G-8d640c08ecc516c53f87"
+      },
+      "val": {
+        "id": "E004-CN-047",
+        "distance": 22,
+        "group": "STU-instructional-view-16"
+      }
+    }
+  },
+  {
+    "id": "CB-0752",
+    "nearest": {
+      "train": {
+        "id": "V7-UNAPPROVED-C-006",
+        "distance": 19,
+        "group": "V7-G-e88d2156a2cc0e341ae4"
+      },
+      "val": {
+        "id": "V6-SB-046",
+        "distance": 22,
+        "group": "V7-G-5c95c56ac7f8af49105c"
+      }
+    }
+  },
+  {
+    "id": "CB-0753",
+    "nearest": {
+      "train": {
+        "id": "EXP-RF-013",
+        "distance": 20,
+        "group": "V7-G-9134fdad8c79128592a1"
+      },
+      "val": {
+        "id": "V6-EX-010",
+        "distance": 23,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "CB-0755",
+    "nearest": {
+      "train": {
+        "id": "EXP-RF-010",
+        "distance": 19,
+        "group": "V7-G-29f905f08f7b6e07c3b4"
+      },
+      "val": {
+        "id": "E004-CF-C021",
+        "distance": 23,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0756",
+    "nearest": {
+      "train": {
+        "id": "V7-A-051",
+        "distance": 18,
+        "group": "V7-G-b57f7c09951ea29f9f32"
+      },
+      "val": {
+        "id": "V6R2-CA-009",
+        "distance": 24,
+        "group": "V7-G-a6902aad84a5672f4f52"
+      }
+    }
+  },
+  {
+    "id": "CB-0759",
+    "nearest": {
+      "train": {
+        "id": "EXP-CM-001",
+        "distance": 20,
+        "group": "V7-G-270a79bbb0f58a4e3ee0"
+      },
+      "val": {
+        "id": "E004-EX-C051",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0760",
+    "nearest": {
+      "train": {
+        "id": "V6-CA-003",
+        "distance": 17,
+        "group": "V7-G-26bbcec10e0c3134802d"
+      },
+      "val": {
+        "id": "E004-EX-C051",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-0762",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-025",
+        "distance": 18,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "V6-EX-009",
+        "distance": 21,
+        "group": "V7-G-18caa4237925ae9749e3"
+      }
+    }
+  },
+  {
+    "id": "CB-0764",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-025",
+        "distance": 15,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "V6-EX-009",
+        "distance": 20,
+        "group": "V7-G-18caa4237925ae9749e3"
+      }
+    }
+  },
+  {
+    "id": "CB-0765",
+    "nearest": {
+      "train": {
+        "id": "V6-CA-003",
+        "distance": 15,
+        "group": "V7-G-26bbcec10e0c3134802d"
+      },
+      "val": {
+        "id": "P022-person-01",
+        "distance": 22,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "G1-A01-F001",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-014",
+        "distance": 21,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-EX-C194",
+        "distance": 21,
+        "group": "EX-ROUND-DESK"
+      }
+    }
+  },
+  {
+    "id": "G1-A01-F010",
+    "nearest": {
+      "train": {
+        "id": "EXP-SCB-017",
+        "distance": 19,
+        "group": "V7-G-3d72119803ac0e10001b"
+      },
+      "val": {
+        "id": "E004-EX-C123",
+        "distance": 23,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G1-A01-F040",
+    "nearest": {
+      "train": {
+        "id": "V7-C-054",
+        "distance": 18,
+        "group": "V7-G-f319e41248f8938a6ada"
+      },
+      "val": {
+        "id": "E004-EX-C022",
+        "distance": 18,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G1-A02-F012",
+    "nearest": {
+      "train": {
+        "id": "V7-C-010",
+        "distance": 22,
+        "group": "V7-G-e4f3bbca03a71e31c588"
+      },
+      "val": {
+        "id": "V6-CA-018",
+        "distance": 19,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "G1-A02-F044",
+    "nearest": {
+      "train": {
+        "id": "V7-D-038",
+        "distance": 19,
+        "group": "V7-G-b6fc3a3a73ff583ac199"
+      },
+      "val": {
+        "id": "E004-CF-C030",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G1-A03-F001",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-021",
+        "distance": 19,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-CF-C007",
+        "distance": 22,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G1-A03-F046",
+    "nearest": {
+      "train": {
+        "id": "V6-SB-032",
+        "distance": 15,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-EX-C048",
+        "distance": 21,
+        "group": "EX-LECTURE"
+      }
+    }
+  },
+  {
+    "id": "G1-A04-F001",
+    "nearest": {
+      "train": {
+        "id": "V7-A-009",
+        "distance": 18,
+        "group": "V7-G-b5e6490c7ff57112dc2c"
+      },
+      "val": {
+        "id": "E004-EX-C022",
+        "distance": 23,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G1-A04-F042",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-001",
+        "distance": 17,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-EX-C169",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G1-A05-F001",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S104-A01",
+        "distance": 14,
+        "group": "V7-G-a7dbb06144cdcaaebbd3"
+      },
+      "val": {
+        "id": "E004-EX-C193",
+        "distance": 16,
+        "group": "EX-ROUND-DESK"
+      }
+    }
+  },
+  {
+    "id": "G1-A05-F016",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-019",
+        "distance": 15,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-EX-C121",
+        "distance": 17,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G1-A06-F001",
+    "nearest": {
+      "train": {
+        "id": "V6-CA-028",
+        "distance": 17,
+        "group": "V7-G-95395448599640b29d76"
+      },
+      "val": {
+        "id": "E004-EX-C121",
+        "distance": 19,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G1-A06-F014",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-026",
+        "distance": 18,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-CF-C029",
+        "distance": 20,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G1-A07-F016",
+    "nearest": {
+      "train": {
+        "id": "SCB-turnhead-011",
+        "distance": 18,
+        "group": "V7-G-adab5098c70c224496bd"
+      },
+      "val": {
+        "id": "E004-CF-C008",
+        "distance": 20,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G1-A07-F040",
+    "nearest": {
+      "train": {
+        "id": "V6-EX-032",
+        "distance": 15,
+        "group": "V7-G-5574ea116b6880b71974"
+      },
+      "val": {
+        "id": "E004-EX-C050",
+        "distance": 19,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G2-A01-F001",
+    "nearest": {
+      "train": {
+        "id": "V7-A-053",
+        "distance": 20,
+        "group": "V7-G-f686d78e76038d21cf22"
+      },
+      "val": {
+        "id": "E004-EX-C165",
+        "distance": 25,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G2-A01-F214",
+    "nearest": {
+      "train": {
+        "id": "V7-R8-B-001",
+        "distance": 19,
+        "group": "V7-G-672d3cc9657d831d420a"
+      },
+      "val": {
+        "id": "E004-EX-C026",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G2-A02-F001",
+    "nearest": {
+      "train": {
+        "id": "V7-UNAPPROVED-C-007",
+        "distance": 18,
+        "group": "V7-G-e88d2156a2cc0e341ae4"
+      },
+      "val": {
+        "id": "E004-CF-C008",
+        "distance": 23,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G2-A02-F005",
+    "nearest": {
+      "train": {
+        "id": "V7-UNAPPROVED-C-007",
+        "distance": 16,
+        "group": "V7-G-e88d2156a2cc0e341ae4"
+      },
+      "val": {
+        "id": "E004-CN-042",
+        "distance": 23,
+        "group": "STU-instructional-view-12"
+      }
+    }
+  },
+  {
+    "id": "G2-A03-F001",
+    "nearest": {
+      "train": {
+        "id": "V7-A-037",
+        "distance": 16,
+        "group": "V7-G-894415499082dd0c42d1"
+      },
+      "val": {
+        "id": "E004-EX-C027",
+        "distance": 22,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G2-A03-F099",
+    "nearest": {
+      "train": {
+        "id": "V7-C-061",
+        "distance": 18,
+        "group": "V7-G-29a8896777454aa484dd"
+      },
+      "val": {
+        "id": "E004-CF-C021",
+        "distance": 22,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G2-A04-F017",
+    "nearest": {
+      "train": {
+        "id": "V7-C-079",
+        "distance": 19,
+        "group": "V7-G-d39bffd423ff6462bca1"
+      },
+      "val": {
+        "id": "E004-CF-C018",
+        "distance": 20,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G2-A04-F143",
+    "nearest": {
+      "train": {
+        "id": "E004-EX-C013",
+        "distance": 19,
+        "group": "EX-PX-010"
+      },
+      "val": {
+        "id": "P006-extra-01",
+        "distance": 22,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "G2-A06-F001",
+    "nearest": {
+      "train": {
+        "id": "V7-C-123",
+        "distance": 20,
+        "group": "V7-G-c4f1df6344cafe305011"
+      },
+      "val": {
+        "id": "E004-CN-055",
+        "distance": 19,
+        "group": "STU-instructional-view-59"
+      }
+    }
+  },
+  {
+    "id": "G2-A06-F149",
+    "nearest": {
+      "train": {
+        "id": "SCB-write-010",
+        "distance": 17,
+        "group": "V7-G-4d00939d46ac83a2cf21"
+      },
+      "val": {
+        "id": "V6-EX-010",
+        "distance": 20,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "G2-A07-F001",
+    "nearest": {
+      "train": {
+        "id": "SCB-write-014",
+        "distance": 13,
+        "group": "V7-G-e050c4c8e80fb3505a36"
+      },
+      "val": {
+        "id": "V6-SB-040",
+        "distance": 18,
+        "group": "V7-G-cfcc8e4c59a1eff1e7c2"
+      }
+    }
+  },
+  {
+    "id": "G2-A07-F204",
+    "nearest": {
+      "train": {
+        "id": "V7-UNAPPROVED-C-004",
+        "distance": 15,
+        "group": "V7-G-9e646f790a356daa5c69"
+      },
+      "val": {
+        "id": "E004-EX-C121",
+        "distance": 19,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G2-A08-F001",
+    "nearest": {
+      "train": {
+        "id": "V7-C-079",
+        "distance": 18,
+        "group": "V7-G-d39bffd423ff6462bca1"
+      },
+      "val": {
+        "id": "V6-SB-040",
+        "distance": 19,
+        "group": "V7-G-cfcc8e4c59a1eff1e7c2"
+      }
+    }
+  },
+  {
+    "id": "G2-A08-F023",
+    "nearest": {
+      "train": {
+        "id": "V7-UNAPPROVED-C-004",
+        "distance": 17,
+        "group": "V7-G-9e646f790a356daa5c69"
+      },
+      "val": {
+        "id": "E004-EX-C193",
+        "distance": 19,
+        "group": "EX-ROUND-DESK"
+      }
+    }
+  },
+  {
+    "id": "G2-A09-F001",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S102-A01",
+        "distance": 15,
+        "group": "V7-G-ecc68417f2c0f69337ca"
+      },
+      "val": {
+        "id": "E004-EX-C199",
+        "distance": 22,
+        "group": "EX-LECTURE"
+      }
+    }
+  },
+  {
+    "id": "G2-A09-F041",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S102-A01",
+        "distance": 18,
+        "group": "V7-G-ecc68417f2c0f69337ca"
+      },
+      "val": {
+        "id": "E004-EX-C119",
+        "distance": 20,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G2-A10-F001",
+    "nearest": {
+      "train": {
+        "id": "V6-EX-034",
+        "distance": 19,
+        "group": "V7-G-5574ea116b6880b71974"
+      },
+      "val": {
+        "id": "V6R2-EX-008",
+        "distance": 20,
+        "group": "V7-G-c197fd750c63e3f82b42"
+      }
+    }
+  },
+  {
+    "id": "G2-A10-F029",
+    "nearest": {
+      "train": {
+        "id": "E004-EX-C002",
+        "distance": 17,
+        "group": "EX-PX-002"
+      },
+      "val": {
+        "id": "V6-EX-010",
+        "distance": 16,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "G2-A11-F001",
+    "nearest": {
+      "train": {
+        "id": "V6-EX-031",
+        "distance": 16,
+        "group": "V7-G-f0c1e42222081e3320ca"
+      },
+      "val": {
+        "id": "V6-CA-038",
+        "distance": 20,
+        "group": "V7-G-a6902aad84a5672f4f52"
+      }
+    }
+  },
+  {
+    "id": "G2-A11-F029",
+    "nearest": {
+      "train": {
+        "id": "V6R2-SB-008",
+        "distance": 18,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "P008-person-01",
+        "distance": 20,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "G2-A12-F005",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-010",
+        "distance": 16,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "P007-person-02",
+        "distance": 18,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "G2-A12-F061",
+    "nearest": {
+      "train": {
+        "id": "V7-B-005",
+        "distance": 15,
+        "group": "V7-G-b531a56b5ea84f638fbe"
+      },
+      "val": {
+        "id": "SCB-write-024",
+        "distance": 19,
+        "group": "V7-G-e903106f68879fbe175d"
+      }
+    }
+  },
+  {
+    "id": "G2-A13-F001",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-006",
+        "distance": 17,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-EX-C193",
+        "distance": 19,
+        "group": "EX-ROUND-DESK"
+      }
+    }
+  },
+  {
+    "id": "G2-A13-F003",
+    "nearest": {
+      "train": {
+        "id": "V7-A-070",
+        "distance": 17,
+        "group": "V7-G-f750c70b1de54473b241"
+      },
+      "val": {
+        "id": "E004-EX-C193",
+        "distance": 20,
+        "group": "EX-ROUND-DESK"
+      }
+    }
+  },
+  {
+    "id": "G2-A13-F112",
+    "nearest": {
+      "train": {
+        "id": "V7-A-070",
+        "distance": 19,
+        "group": "V7-G-f750c70b1de54473b241"
+      },
+      "val": {
+        "id": "E004-CF-C009",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G5-A01-F001",
+    "nearest": {
+      "train": {
+        "id": "V6R2-EX-001",
+        "distance": 20,
+        "group": "V7-G-055c23a1da5c1a973000"
+      },
+      "val": {
+        "id": "E004-CF-C011",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G5-A01-F109",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S043-A03",
+        "distance": 15,
+        "group": "V7-G-6db4e45345530a410365"
+      },
+      "val": {
+        "id": "V6-CA-040",
+        "distance": 17,
+        "group": "V7-G-a6902aad84a5672f4f52"
+      }
+    }
+  },
+  {
+    "id": "G5-A02-F001",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S103-A01",
+        "distance": 17,
+        "group": "V7-G-36a2559e31c307841563"
+      },
+      "val": {
+        "id": "EXP-SCB-024",
+        "distance": 20,
+        "group": "V7-G-85045be9db4b54bf8935"
+      }
+    }
+  },
+  {
+    "id": "G5-A02-F109",
+    "nearest": {
+      "train": {
+        "id": "SCB-read-010",
+        "distance": 19,
+        "group": "V7-G-0839744493643e02220f"
+      },
+      "val": {
+        "id": "V6R2-CA-009",
+        "distance": 21,
+        "group": "V7-G-a6902aad84a5672f4f52"
+      }
+    }
+  },
+  {
+    "id": "G5-A03-F099",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-039",
+        "distance": 16,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-EX-C120",
+        "distance": 23,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G5-A04-F001",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S082-A01",
+        "distance": 16,
+        "group": "V7-G-ee5e887f0ea89fec26bd"
+      },
+      "val": {
+        "id": "E004-CN-046",
+        "distance": 17,
+        "group": "STU-instructional-view-16"
+      }
+    }
+  },
+  {
+    "id": "G5-A04-F097",
+    "nearest": {
+      "train": {
+        "id": "V6-SB-016",
+        "distance": 17,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-EX-C055",
+        "distance": 18,
+        "group": "EX-LECTURE"
+      }
+    }
+  },
+  {
+    "id": "G5-A05-F001",
+    "nearest": {
+      "train": {
+        "id": "V7-A-052",
+        "distance": 18,
+        "group": "V7-G-7a0f9b58365ca564b9b3"
+      },
+      "val": {
+        "id": "EXP-RF-007",
+        "distance": 22,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "G5-A07-F001",
+    "nearest": {
+      "train": {
+        "id": "P019-person-01",
+        "distance": 19,
+        "group": "V7-G-055c23a1da5c1a973000"
+      },
+      "val": {
+        "id": "E004-EX-C171",
+        "distance": 15,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G5-A07-F112",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S022-A01",
+        "distance": 18,
+        "group": "V7-G-1fd5be7aa27233feab59"
+      },
+      "val": {
+        "id": "E004-EX-C009",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G5-A08-F099",
+    "nearest": {
+      "train": {
+        "id": "V7-B-039",
+        "distance": 20,
+        "group": "V7-G-5802f243b9f016753538"
+      },
+      "val": {
+        "id": "SCB-write-024",
+        "distance": 18,
+        "group": "V7-G-e903106f68879fbe175d"
+      }
+    }
+  },
+  {
+    "id": "G5-A09-F047",
+    "nearest": {
+      "train": {
+        "id": "E004-EX-C151",
+        "distance": 16,
+        "group": "CF-Q155"
+      },
+      "val": {
+        "id": "E004-CF-C011",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G5-A09-F065",
+    "nearest": {
+      "train": {
+        "id": "V7-A-072",
+        "distance": 14,
+        "group": "V7-G-50fc6587a96fa8eb69e3"
+      },
+      "val": {
+        "id": "E004-EX-C144",
+        "distance": 20,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G5-A10-F065",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-049",
+        "distance": 20,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-EX-C125",
+        "distance": 23,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G5-A11-F047",
+    "nearest": {
+      "train": {
+        "id": "V7-C-047",
+        "distance": 18,
+        "group": "V7-G-e050c4c8e80fb3505a36"
+      },
+      "val": {
+        "id": "E004-EX-C198",
+        "distance": 17,
+        "group": "EX-LECTURE"
+      }
+    }
+  },
+  {
+    "id": "G5-A12-F047",
+    "nearest": {
+      "train": {
+        "id": "V6-EX-026",
+        "distance": 18,
+        "group": "V7-G-5574ea116b6880b71974"
+      },
+      "val": {
+        "id": "SCB-write-020",
+        "distance": 19,
+        "group": "V7-G-e903106f68879fbe175d"
+      }
+    }
+  },
+  {
+    "id": "G5-A12-F065",
+    "nearest": {
+      "train": {
+        "id": "V7-A-002",
+        "distance": 16,
+        "group": "V7-G-595519798017af2ed939"
+      },
+      "val": {
+        "id": "E004-EX-C130",
+        "distance": 22,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G5-A13-F047",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S114-A01",
+        "distance": 17,
+        "group": "V7-G-c61721ec118a14c6fbe5"
+      },
+      "val": {
+        "id": "V6-CA-040",
+        "distance": 22,
+        "group": "V7-G-a6902aad84a5672f4f52"
+      }
+    }
+  },
+  {
+    "id": "G4-A01-F001",
+    "nearest": {
+      "train": {
+        "id": "SCB-read-003",
+        "distance": 18,
+        "group": "V7-G-3f43f752ed65e8d64568"
+      },
+      "val": {
+        "id": "E004-EX-C027",
+        "distance": 22,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G4-A01-F125",
+    "nearest": {
+      "train": {
+        "id": "V7-C-104",
+        "distance": 18,
+        "group": "V7-G-df90e763b497a2bcfdd4"
+      },
+      "val": {
+        "id": "E004-CF-C009",
+        "distance": 18,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G4-A02-F001",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-085",
+        "distance": 19,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-EX-C117",
+        "distance": 20,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G4-A02-F105",
+    "nearest": {
+      "train": {
+        "id": "E004-EX-C136",
+        "distance": 22,
+        "group": "CF-Q136"
+      },
+      "val": {
+        "id": "E004-CF-C009",
+        "distance": 23,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G4-A02-F125",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S087-A01",
+        "distance": 15,
+        "group": "V7-G-fe2f2b9cb34b7c02e424"
+      },
+      "val": {
+        "id": "V6-CA-033",
+        "distance": 23,
+        "group": "V7-G-a6902aad84a5672f4f52"
+      }
+    }
+  },
+  {
+    "id": "G4-A03-F105",
+    "nearest": {
+      "train": {
+        "id": "EXP-CM-019",
+        "distance": 17,
+        "group": "V7-G-270a79bbb0f58a4e3ee0"
+      },
+      "val": {
+        "id": "SCB-write-024",
+        "distance": 20,
+        "group": "V7-G-e903106f68879fbe175d"
+      }
+    }
+  },
+  {
+    "id": "G4-A03-F125",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-057",
+        "distance": 19,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-EX-C117",
+        "distance": 16,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G4-A04-F001",
+    "nearest": {
+      "train": {
+        "id": "V7-B-023",
+        "distance": 17,
+        "group": "V7-G-9c4a67151b5d41f671b2"
+      },
+      "val": {
+        "id": "E004-EX-C021-R2",
+        "distance": 22,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G4-A04-F125",
+    "nearest": {
+      "train": {
+        "id": "EXP-CM-022",
+        "distance": 19,
+        "group": "V7-G-270a79bbb0f58a4e3ee0"
+      },
+      "val": {
+        "id": "E004-EX-C165",
+        "distance": 20,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G4-A05-F001",
+    "nearest": {
+      "train": {
+        "id": "V6-SB-014",
+        "distance": 17,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "V6-CA-018",
+        "distance": 18,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "G4-A05-F125",
+    "nearest": {
+      "train": {
+        "id": "V7-PF-A-006",
+        "distance": 18,
+        "group": "V7-G-86dd32e42090441980f6"
+      },
+      "val": {
+        "id": "E004-CF-C018",
+        "distance": 20,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G4-A06-F001",
+    "nearest": {
+      "train": {
+        "id": "V7-PF-A-006",
+        "distance": 18,
+        "group": "V7-G-86dd32e42090441980f6"
+      },
+      "val": {
+        "id": "V6R2-SB-016",
+        "distance": 20,
+        "group": "V7-G-d44a821e962a24104c63"
+      }
+    }
+  },
+  {
+    "id": "G4-A06-F105",
+    "nearest": {
+      "train": {
+        "id": "E004-EX-C179",
+        "distance": 20,
+        "group": "EX-US-012"
+      },
+      "val": {
+        "id": "V6R2-SB-016",
+        "distance": 19,
+        "group": "V7-G-d44a821e962a24104c63"
+      }
+    }
+  },
+  {
+    "id": "G4-A06-F125",
+    "nearest": {
+      "train": {
+        "id": "E004-EX-C179",
+        "distance": 18,
+        "group": "EX-US-012"
+      },
+      "val": {
+        "id": "V6-CA-006",
+        "distance": 20,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "G4-A07-F001",
+    "nearest": {
+      "train": {
+        "id": "EXP-SCB-007",
+        "distance": 20,
+        "group": "V7-G-d222c036957f4423a637"
+      },
+      "val": {
+        "id": "V6-CA-036",
+        "distance": 19,
+        "group": "V7-G-a6902aad84a5672f4f52"
+      }
+    }
+  },
+  {
+    "id": "G4-A07-F125",
+    "nearest": {
+      "train": {
+        "id": "EXP-CM-016",
+        "distance": 18,
+        "group": "V7-G-270a79bbb0f58a4e3ee0"
+      },
+      "val": {
+        "id": "E004-EX-C193",
+        "distance": 14,
+        "group": "EX-ROUND-DESK"
+      }
+    }
+  },
+  {
+    "id": "G4-A08-F105",
+    "nearest": {
+      "train": {
+        "id": "V6R2-EX-007",
+        "distance": 19,
+        "group": "V7-G-d39bffd423ff6462bca1"
+      },
+      "val": {
+        "id": "E004-EX-C118",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G4-A08-F125",
+    "nearest": {
+      "train": {
+        "id": "V7-B-106",
+        "distance": 20,
+        "group": "V7-G-4dacfe40e96533b2b427"
+      },
+      "val": {
+        "id": "E004-EX-C152",
+        "distance": 20,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G3-A01-F001",
+    "nearest": {
+      "train": {
+        "id": "V7-B-016",
+        "distance": 19,
+        "group": "V7-G-729d71fec3117a78b878"
+      },
+      "val": {
+        "id": "E004-EX-C029",
+        "distance": 23,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G3-A01-F014",
+    "nearest": {
+      "train": {
+        "id": "V7-A-076",
+        "distance": 18,
+        "group": "V7-G-0aecffd1e0ce9a209def"
+      },
+      "val": {
+        "id": "V6-CA-026",
+        "distance": 24,
+        "group": "V7-G-a6902aad84a5672f4f52"
+      }
+    }
+  },
+  {
+    "id": "G3-A02-F001",
+    "nearest": {
+      "train": {
+        "id": "V7-A-022",
+        "distance": 18,
+        "group": "V7-G-04e1a311f09a1c31a5cf"
+      },
+      "val": {
+        "id": "E004-CN-048",
+        "distance": 16,
+        "group": "STU-instructional-view-44"
+      }
+    }
+  },
+  {
+    "id": "G3-A03-F001",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-053",
+        "distance": 16,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-EX-C125",
+        "distance": 23,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G3-A04-F014",
+    "nearest": {
+      "train": {
+        "id": "SCB-write-012",
+        "distance": 19,
+        "group": "V7-G-e050c4c8e80fb3505a36"
+      },
+      "val": {
+        "id": "E004-EX-C006",
+        "distance": 22,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G3-A06-F001",
+    "nearest": {
+      "train": {
+        "id": "V7-R8-C-007",
+        "distance": 18,
+        "group": "V7-G-f4852396359aca18e025"
+      },
+      "val": {
+        "id": "E004-EX-C027",
+        "distance": 19,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G3-A06-F003",
+    "nearest": {
+      "train": {
+        "id": "V7-A-022",
+        "distance": 19,
+        "group": "V7-G-04e1a311f09a1c31a5cf"
+      },
+      "val": {
+        "id": "E004-CN-048",
+        "distance": 15,
+        "group": "STU-instructional-view-44"
+      }
+    }
+  },
+  {
+    "id": "G3-A07-F001",
+    "nearest": {
+      "train": {
+        "id": "V7-B-005",
+        "distance": 17,
+        "group": "V7-G-b531a56b5ea84f638fbe"
+      },
+      "val": {
+        "id": "E004-CF-C007",
+        "distance": 17,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G3-A07-F014",
+    "nearest": {
+      "train": {
+        "id": "V7-B-094",
+        "distance": 15,
+        "group": "V7-G-cb5ebe0a210dc12f32e9"
+      },
+      "val": {
+        "id": "V6-CA-038",
+        "distance": 21,
+        "group": "V7-G-a6902aad84a5672f4f52"
+      }
+    }
+  },
+  {
+    "id": "G3-A08-F001",
+    "nearest": {
+      "train": {
+        "id": "V6R2-CA-001",
+        "distance": 20,
+        "group": "V7-G-a7dbb06144cdcaaebbd3"
+      },
+      "val": {
+        "id": "V6-EX-019",
+        "distance": 22,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "G3-A08-F021",
+    "nearest": {
+      "train": {
+        "id": "EXP-CM-012",
+        "distance": 17,
+        "group": "V7-G-270a79bbb0f58a4e3ee0"
+      },
+      "val": {
+        "id": "E004-EX-C124",
+        "distance": 15,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G3-A09-F001",
+    "nearest": {
+      "train": {
+        "id": "V7-PF-A-001",
+        "distance": 17,
+        "group": "V7-G-2a8f8aba83583cb88d5a"
+      },
+      "val": {
+        "id": "E004-EX-C049",
+        "distance": 22,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "G3-A10-F001",
+    "nearest": {
+      "train": {
+        "id": "V6-CA-004",
+        "distance": 17,
+        "group": "V7-G-5334aedf9d3d9767844d"
+      },
+      "val": {
+        "id": "E004-EX-C139",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-NEW-01",
+    "nearest": {
+      "train": {
+        "id": "V6-CA-037",
+        "distance": 19,
+        "group": "V7-G-4fdb254b283cdf74438d"
+      },
+      "val": {
+        "id": "E004-CF-C030",
+        "distance": 23,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "CB-NEW-02",
+    "nearest": {
+      "train": {
+        "id": "V6-EX-041",
+        "distance": 20,
+        "group": "V7-G-5574ea116b6880b71974"
+      },
+      "val": {
+        "id": "P006-extra-01",
+        "distance": 18,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "CB-NEW-04",
+    "nearest": {
+      "train": {
+        "id": "SCB-read-012",
+        "distance": 19,
+        "group": "V7-G-e050c4c8e80fb3505a36"
+      },
+      "val": {
+        "id": "E004-CN-044",
+        "distance": 21,
+        "group": "STU-instructional-view-13"
+      }
+    }
+  },
+  {
+    "id": "CB-NEW-05",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S066-A01",
+        "distance": 19,
+        "group": "V7-G-e1689dabba55fbe53281"
+      },
+      "val": {
+        "id": "V6-CA-036",
+        "distance": 19,
+        "group": "V7-G-a6902aad84a5672f4f52"
+      }
+    }
+  },
+  {
+    "id": "NB-0001",
+    "nearest": {
+      "train": {
+        "id": "V6-SB-019",
+        "distance": 17,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "V6-CA-033",
+        "distance": 22,
+        "group": "V7-G-a6902aad84a5672f4f52"
+      }
+    }
+  },
+  {
+    "id": "NB-0002",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S082-A01",
+        "distance": 18,
+        "group": "V7-G-ee5e887f0ea89fec26bd"
+      },
+      "val": {
+        "id": "E004-CF-C031",
+        "distance": 17,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NB-0003",
+    "nearest": {
+      "train": {
+        "id": "SCB-turnhead-026",
+        "distance": 19,
+        "group": "V7-G-ac8efc033a110165648d"
+      },
+      "val": {
+        "id": "V6-SB-040",
+        "distance": 23,
+        "group": "V7-G-cfcc8e4c59a1eff1e7c2"
+      }
+    }
+  },
+  {
+    "id": "NB-0004",
+    "nearest": {
+      "train": {
+        "id": "SCB-write-018",
+        "distance": 20,
+        "group": "V7-G-b07dee3886e3ee03bbae"
+      },
+      "val": {
+        "id": "E004-CF-C010",
+        "distance": 23,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NB-0005",
+    "nearest": {
+      "train": {
+        "id": "V6R2-SB-011",
+        "distance": 17,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-EX-C144",
+        "distance": 22,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NB-0006",
+    "nearest": {
+      "train": {
+        "id": "SCB-read-010",
+        "distance": 17,
+        "group": "V7-G-0839744493643e02220f"
+      },
+      "val": {
+        "id": "E004-EX-C029",
+        "distance": 20,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NB-0007",
+    "nearest": {
+      "train": {
+        "id": "EXP-CM-006",
+        "distance": 18,
+        "group": "V7-G-270a79bbb0f58a4e3ee0"
+      },
+      "val": {
+        "id": "E004-CN-052",
+        "distance": 20,
+        "group": "STU-instructional-view-54"
+      }
+    }
+  },
+  {
+    "id": "NB-0008",
+    "nearest": {
+      "train": {
+        "id": "SCB-turnhead-009",
+        "distance": 18,
+        "group": "V7-G-e050c4c8e80fb3505a36"
+      },
+      "val": {
+        "id": "E004-EX-C130",
+        "distance": 20,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NB-0009",
+    "nearest": {
+      "train": {
+        "id": "V7-PF-C-003",
+        "distance": 16,
+        "group": "V7-G-9d5454f7f032a5686fd4"
+      },
+      "val": {
+        "id": "E004-CN-055",
+        "distance": 21,
+        "group": "STU-instructional-view-59"
+      }
+    }
+  },
+  {
+    "id": "NB-0010",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-009",
+        "distance": 17,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-CF-C029",
+        "distance": 24,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NB-0011",
+    "nearest": {
+      "train": {
+        "id": "E004-EX-C162",
+        "distance": 20,
+        "group": "CF-Q170"
+      },
+      "val": {
+        "id": "V6R2-CA-009",
+        "distance": 20,
+        "group": "V7-G-a6902aad84a5672f4f52"
+      }
+    }
+  },
+  {
+    "id": "NB-0013",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S072-A01",
+        "distance": 20,
+        "group": "V7-G-055c23a1da5c1a973000"
+      },
+      "val": {
+        "id": "EXP-SCB-024",
+        "distance": 19,
+        "group": "V7-G-85045be9db4b54bf8935"
+      }
+    }
+  },
+  {
+    "id": "NB-0015",
+    "nearest": {
+      "train": {
+        "id": "V7-B-026",
+        "distance": 19,
+        "group": "V7-G-09a4e2e298fb27b5f8ab"
+      },
+      "val": {
+        "id": "V6-SB-034",
+        "distance": 21,
+        "group": "V7-G-5c95c56ac7f8af49105c"
+      }
+    }
+  },
+  {
+    "id": "NB-0016",
+    "nearest": {
+      "train": {
+        "id": "V6-EX-032",
+        "distance": 18,
+        "group": "V7-G-5574ea116b6880b71974"
+      },
+      "val": {
+        "id": "E004-EX-C195",
+        "distance": 20,
+        "group": "EX-LECTURE"
+      }
+    }
+  },
+  {
+    "id": "NB-0017",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S003-A01",
+        "distance": 16,
+        "group": "V7-G-c0e822dab5cfe1869ef1"
+      },
+      "val": {
+        "id": "V6-CA-030",
+        "distance": 17,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "NB-0019",
+    "nearest": {
+      "train": {
+        "id": "V7-A-043",
+        "distance": 19,
+        "group": "V7-G-4f41a6c58fb0e98fded9"
+      },
+      "val": {
+        "id": "E004-EX-C129",
+        "distance": 23,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NB-0020",
+    "nearest": {
+      "train": {
+        "id": "V6R2-SB-018",
+        "distance": 19,
+        "group": "V7-G-95ce8169c7444e6caa6f"
+      },
+      "val": {
+        "id": "V6-CA-046",
+        "distance": 15,
+        "group": "V7-G-a6902aad84a5672f4f52"
+      }
+    }
+  },
+  {
+    "id": "NB-0021",
+    "nearest": {
+      "train": {
+        "id": "V7-C-134",
+        "distance": 19,
+        "group": "V7-G-1f487dd5b9493c527330"
+      },
+      "val": {
+        "id": "E004-EX-C026",
+        "distance": 23,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NB-0022",
+    "nearest": {
+      "train": {
+        "id": "V6-CA-035",
+        "distance": 19,
+        "group": "V7-G-53c065f92a59d6f04f72"
+      },
+      "val": {
+        "id": "E004-EX-C120",
+        "distance": 22,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NB-0012-R1",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-080",
+        "distance": 15,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "V6-CA-033",
+        "distance": 20,
+        "group": "V7-G-a6902aad84a5672f4f52"
+      }
+    }
+  },
+  {
+    "id": "NB-0018-R1",
+    "nearest": {
+      "train": {
+        "id": "EXP-CM-008",
+        "distance": 19,
+        "group": "V7-G-270a79bbb0f58a4e3ee0"
+      },
+      "val": {
+        "id": "V6-SB-033",
+        "distance": 22,
+        "group": "V7-G-d44a821e962a24104c63"
+      }
+    }
+  },
+  {
+    "id": "NA-001",
+    "nearest": {
+      "train": {
+        "id": "EXP-SCB-048",
+        "distance": 16,
+        "group": "V7-G-06df719cfffafbe8415a"
+      },
+      "val": {
+        "id": "E004-EX-C165",
+        "distance": 23,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NA-002",
+    "nearest": {
+      "train": {
+        "id": "E004-EX-C184",
+        "distance": 15,
+        "group": "EX-US-034"
+      },
+      "val": {
+        "id": "E004-EX-C193",
+        "distance": 18,
+        "group": "EX-ROUND-DESK"
+      }
+    }
+  },
+  {
+    "id": "NA-003",
+    "nearest": {
+      "train": {
+        "id": "EXP-SCB-006",
+        "distance": 19,
+        "group": "V7-G-cb14a0a0b8f000817730"
+      },
+      "val": {
+        "id": "E004-EX-C171",
+        "distance": 22,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NA-004",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-009",
+        "distance": 18,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-EX-C066",
+        "distance": 17,
+        "group": "EX-LECTURE"
+      }
+    }
+  },
+  {
+    "id": "NA-005",
+    "nearest": {
+      "train": {
+        "id": "V7-B-031",
+        "distance": 17,
+        "group": "V7-G-f06fe4ace203b10fff3d"
+      },
+      "val": {
+        "id": "E004-CF-C030",
+        "distance": 17,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NA-006",
+    "nearest": {
+      "train": {
+        "id": "SCB-write-014",
+        "distance": 16,
+        "group": "V7-G-e050c4c8e80fb3505a36"
+      },
+      "val": {
+        "id": "P022-person-01",
+        "distance": 18,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "NA-007",
+    "nearest": {
+      "train": {
+        "id": "V7-D-057",
+        "distance": 17,
+        "group": "V7-G-5d14a6a43e22b7dd82ff"
+      },
+      "val": {
+        "id": "EXP-RF-007",
+        "distance": 21,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "NA-008",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S112-A01",
+        "distance": 19,
+        "group": "V7-G-370c705f046a57038d1c"
+      },
+      "val": {
+        "id": "EXP-SCB-005",
+        "distance": 22,
+        "group": "V7-G-85045be9db4b54bf8935"
+      }
+    }
+  },
+  {
+    "id": "NB-0023",
+    "nearest": {
+      "train": {
+        "id": "V6R2-SB-010",
+        "distance": 17,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-EX-C028",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NB-0024",
+    "nearest": {
+      "train": {
+        "id": "EXP-RF-015",
+        "distance": 19,
+        "group": "V7-G-6a5a020c968be6450a39"
+      },
+      "val": {
+        "id": "EXP-RF-008",
+        "distance": 22,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "NB-0025",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-040",
+        "distance": 15,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-CN-052",
+        "distance": 19,
+        "group": "STU-instructional-view-54"
+      }
+    }
+  },
+  {
+    "id": "NB-0026",
+    "nearest": {
+      "train": {
+        "id": "V6R2-SB-009",
+        "distance": 20,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "V6-EX-042",
+        "distance": 20,
+        "group": "V7-G-73f8ee84e6a5ea4a4049"
+      }
+    }
+  },
+  {
+    "id": "NB-0027",
+    "nearest": {
+      "train": {
+        "id": "E004-EX-C080",
+        "distance": 22,
+        "group": "EX-US-OFFICE"
+      },
+      "val": {
+        "id": "V6R2-SB-016",
+        "distance": 21,
+        "group": "V7-G-d44a821e962a24104c63"
+      }
+    }
+  },
+  {
+    "id": "NB-0028",
+    "nearest": {
+      "train": {
+        "id": "EXP-CM-020",
+        "distance": 19,
+        "group": "V7-G-270a79bbb0f58a4e3ee0"
+      },
+      "val": {
+        "id": "V6R2-SB-016",
+        "distance": 23,
+        "group": "V7-G-d44a821e962a24104c63"
+      }
+    }
+  },
+  {
+    "id": "NB-0029",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-006",
+        "distance": 14,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-EX-C121",
+        "distance": 16,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NB-0030",
+    "nearest": {
+      "train": {
+        "id": "EXP-SCB-007",
+        "distance": 16,
+        "group": "V7-G-d222c036957f4423a637"
+      },
+      "val": {
+        "id": "V6R2-CA-007",
+        "distance": 19,
+        "group": "V7-G-a6902aad84a5672f4f52"
+      }
+    }
+  },
+  {
+    "id": "NB-0031",
+    "nearest": {
+      "train": {
+        "id": "V7-C-015",
+        "distance": 17,
+        "group": "V7-G-d222c036957f4423a637"
+      },
+      "val": {
+        "id": "V6-SB-040",
+        "distance": 20,
+        "group": "V7-G-cfcc8e4c59a1eff1e7c2"
+      }
+    }
+  },
+  {
+    "id": "NB-0032",
+    "nearest": {
+      "train": {
+        "id": "V7-B-007",
+        "distance": 21,
+        "group": "V7-G-9a4bf0ee0de94018ea54"
+      },
+      "val": {
+        "id": "V6-CA-043",
+        "distance": 21,
+        "group": "V7-G-a6902aad84a5672f4f52"
+      }
+    }
+  },
+  {
+    "id": "NB-0033",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-019",
+        "distance": 16,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "P006-person-01",
+        "distance": 20,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "NB-0039",
+    "nearest": {
+      "train": {
+        "id": "V6R2-SB-013",
+        "distance": 17,
+        "group": "V7-G-6b504962f650ee221bd0"
+      },
+      "val": {
+        "id": "E004-EX-C042",
+        "distance": 20,
+        "group": "EX-LECTURE"
+      }
+    }
+  },
+  {
+    "id": "NB-0040",
+    "nearest": {
+      "train": {
+        "id": "V6-SB-011",
+        "distance": 19,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "V6-SB-034",
+        "distance": 21,
+        "group": "V7-G-5c95c56ac7f8af49105c"
+      }
+    }
+  },
+  {
+    "id": "NB-0042",
+    "nearest": {
+      "train": {
+        "id": "EXP-CM-006",
+        "distance": 20,
+        "group": "V7-G-270a79bbb0f58a4e3ee0"
+      },
+      "val": {
+        "id": "E004-EX-C027",
+        "distance": 18,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NB-0043",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S003-A01",
+        "distance": 15,
+        "group": "V7-G-c0e822dab5cfe1869ef1"
+      },
+      "val": {
+        "id": "V6-EX-015",
+        "distance": 24,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "NB-0044",
+    "nearest": {
+      "train": {
+        "id": "V7-R8-C-006",
+        "distance": 19,
+        "group": "V7-G-947962fb61180083de68"
+      },
+      "val": {
+        "id": "E004-CN-050",
+        "distance": 22,
+        "group": "STU-instructional-view-53"
+      }
+    }
+  },
+  {
+    "id": "NB-0045",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S039-A01",
+        "distance": 20,
+        "group": "V7-G-f40b89a2b3216812b5fb"
+      },
+      "val": {
+        "id": "P006-extra-01",
+        "distance": 20,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "NB-0046",
+    "nearest": {
+      "train": {
+        "id": "V6R2-SB-011",
+        "distance": 20,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-CN-043",
+        "distance": 21,
+        "group": "STU-instructional-view-12"
+      }
+    }
+  },
+  {
+    "id": "NB-0047",
+    "nearest": {
+      "train": {
+        "id": "EXP-RF-023",
+        "distance": 18,
+        "group": "V7-G-a5f1a4b44b130dc97967"
+      },
+      "val": {
+        "id": "E004-CF-C030",
+        "distance": 20,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NB-0048",
+    "nearest": {
+      "train": {
+        "id": "EXP-CM-012",
+        "distance": 20,
+        "group": "V7-G-270a79bbb0f58a4e3ee0"
+      },
+      "val": {
+        "id": "P008-extra-01",
+        "distance": 20,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "NB-0049",
+    "nearest": {
+      "train": {
+        "id": "V7-PF-A-001",
+        "distance": 19,
+        "group": "V7-G-2a8f8aba83583cb88d5a"
+      },
+      "val": {
+        "id": "E004-EX-C050",
+        "distance": 17,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NB-0050",
+    "nearest": {
+      "train": {
+        "id": "EXP-CM-002",
+        "distance": 20,
+        "group": "V7-G-270a79bbb0f58a4e3ee0"
+      },
+      "val": {
+        "id": "E004-EX-C056",
+        "distance": 23,
+        "group": "EX-LECTURE"
+      }
+    }
+  },
+  {
+    "id": "NB-0051",
+    "nearest": {
+      "train": {
+        "id": "V7-C-003",
+        "distance": 17,
+        "group": "V7-G-20d6e059d1b24f1cc56a"
+      },
+      "val": {
+        "id": "EXP-RF-008",
+        "distance": 21,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "NB-0052",
+    "nearest": {
+      "train": {
+        "id": "SCB-turnhead-004",
+        "distance": 17,
+        "group": "V7-G-e050c4c8e80fb3505a36"
+      },
+      "val": {
+        "id": "E004-CF-C031",
+        "distance": 25,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NB-0053",
+    "nearest": {
+      "train": {
+        "id": "EXP-SCB-009",
+        "distance": 19,
+        "group": "V7-G-2ea4283ddb2be0587afc"
+      },
+      "val": {
+        "id": "E004-CN-044",
+        "distance": 22,
+        "group": "STU-instructional-view-13"
+      }
+    }
+  },
+  {
+    "id": "NB-0055",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S113-A02",
+        "distance": 20,
+        "group": "V7-G-ecc68417f2c0f69337ca"
+      },
+      "val": {
+        "id": "E004-EX-C050",
+        "distance": 20,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NB-0056",
+    "nearest": {
+      "train": {
+        "id": "SCB-turnhead-005",
+        "distance": 17,
+        "group": "V7-G-adab5098c70c224496bd"
+      },
+      "val": {
+        "id": "E004-EX-C123",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NB-0057",
+    "nearest": {
+      "train": {
+        "id": "EXP-SCB-025",
+        "distance": 18,
+        "group": "V7-G-20d6e059d1b24f1cc56a"
+      },
+      "val": {
+        "id": "V6-CA-033",
+        "distance": 20,
+        "group": "V7-G-a6902aad84a5672f4f52"
+      }
+    }
+  },
+  {
+    "id": "NB-0058",
+    "nearest": {
+      "train": {
+        "id": "E004-EX-C003",
+        "distance": 15,
+        "group": "EX-PX-002"
+      },
+      "val": {
+        "id": "E004-EX-C051",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NB-0059",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S043-A04",
+        "distance": 15,
+        "group": "V7-G-6db4e45345530a410365"
+      },
+      "val": {
+        "id": "E004-EX-C055",
+        "distance": 21,
+        "group": "EX-LECTURE"
+      }
+    }
+  },
+  {
+    "id": "NB-0060",
+    "nearest": {
+      "train": {
+        "id": "V7-C-013",
+        "distance": 20,
+        "group": "V7-G-0158465d17cf6b61f89e"
+      },
+      "val": {
+        "id": "V6-CA-036",
+        "distance": 21,
+        "group": "V7-G-a6902aad84a5672f4f52"
+      }
+    }
+  },
+  {
+    "id": "NB-0061",
+    "nearest": {
+      "train": {
+        "id": "EXP-CM-002",
+        "distance": 15,
+        "group": "V7-G-270a79bbb0f58a4e3ee0"
+      },
+      "val": {
+        "id": "E004-EX-C195",
+        "distance": 18,
+        "group": "EX-LECTURE"
+      }
+    }
+  },
+  {
+    "id": "NB-0063",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S052-A01",
+        "distance": 18,
+        "group": "V7-G-3b4852e860837d7e63db"
+      },
+      "val": {
+        "id": "E004-CF-C030",
+        "distance": 22,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NB-0064",
+    "nearest": {
+      "train": {
+        "id": "V7-A-069",
+        "distance": 17,
+        "group": "V7-G-af0dec113e509f7b09b4"
+      },
+      "val": {
+        "id": "P008-person-01",
+        "distance": 22,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "NB-0065",
+    "nearest": {
+      "train": {
+        "id": "V7-UNAPPROVED-C-001",
+        "distance": 17,
+        "group": "V7-G-63674edd544fbcd183f6"
+      },
+      "val": {
+        "id": "E004-CF-C011",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NB-0066",
+    "nearest": {
+      "train": {
+        "id": "EXP-CM-014",
+        "distance": 15,
+        "group": "V7-G-270a79bbb0f58a4e3ee0"
+      },
+      "val": {
+        "id": "E004-EX-C130",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NB-0067",
+    "nearest": {
+      "train": {
+        "id": "P030-person-01",
+        "distance": 21,
+        "group": "V7-G-ecc68417f2c0f69337ca"
+      },
+      "val": {
+        "id": "V6-EX-042",
+        "distance": 20,
+        "group": "V7-G-73f8ee84e6a5ea4a4049"
+      }
+    }
+  },
+  {
+    "id": "NB-0068",
+    "nearest": {
+      "train": {
+        "id": "V6R2-CA-003",
+        "distance": 19,
+        "group": "V7-G-03d36877e9eb99db8eb3"
+      },
+      "val": {
+        "id": "E004-CF-C029",
+        "distance": 19,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NB-0070",
+    "nearest": {
+      "train": {
+        "id": "V7-B-015",
+        "distance": 17,
+        "group": "V7-G-09f475230835970a2c63"
+      },
+      "val": {
+        "id": "P006-person-02",
+        "distance": 17,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "NB-0071",
+    "nearest": {
+      "train": {
+        "id": "SCB-read-023",
+        "distance": 14,
+        "group": "V7-G-e050c4c8e80fb3505a36"
+      },
+      "val": {
+        "id": "E004-EX-C118",
+        "distance": 20,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NB-0072",
+    "nearest": {
+      "train": {
+        "id": "V7-C-087",
+        "distance": 16,
+        "group": "V7-G-2323c851551229cab936"
+      },
+      "val": {
+        "id": "E004-EX-C056",
+        "distance": 19,
+        "group": "EX-LECTURE"
+      }
+    }
+  },
+  {
+    "id": "NB-0073",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-019",
+        "distance": 19,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "EXP-SCB-002",
+        "distance": 19,
+        "group": "V7-G-2fb2b83caf4ae371408a"
+      }
+    }
+  },
+  {
+    "id": "NB-0074",
+    "nearest": {
+      "train": {
+        "id": "SCB-write-017",
+        "distance": 17,
+        "group": "V7-G-06df719cfffafbe8415a"
+      },
+      "val": {
+        "id": "E004-CF-C010",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NB-0075",
+    "nearest": {
+      "train": {
+        "id": "EXP-CM-024",
+        "distance": 19,
+        "group": "V7-G-270a79bbb0f58a4e3ee0"
+      },
+      "val": {
+        "id": "V6R2-CA-006",
+        "distance": 20,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "NB-0078",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S044-A02",
+        "distance": 17,
+        "group": "V7-G-6db4e45345530a410365"
+      },
+      "val": {
+        "id": "E004-EX-C028",
+        "distance": 20,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NB-0080",
+    "nearest": {
+      "train": {
+        "id": "V7-D-014",
+        "distance": 17,
+        "group": "V7-G-f203be2e883677df1089"
+      },
+      "val": {
+        "id": "P007-person-02",
+        "distance": 20,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "NB-0034-R1",
+    "nearest": {
+      "train": {
+        "id": "V7-B-031",
+        "distance": 17,
+        "group": "V7-G-f06fe4ace203b10fff3d"
+      },
+      "val": {
+        "id": "V6-CA-026",
+        "distance": 17,
+        "group": "V7-G-a6902aad84a5672f4f52"
+      }
+    }
+  },
+  {
+    "id": "NB-0035-R1",
+    "nearest": {
+      "train": {
+        "id": "SCB-write-007",
+        "distance": 18,
+        "group": "V7-G-1c4153317c3d724ea46e"
+      },
+      "val": {
+        "id": "P007-person-01",
+        "distance": 21,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "NB-0036-R1",
+    "nearest": {
+      "train": {
+        "id": "SCB-read-021",
+        "distance": 20,
+        "group": "V7-G-80d9db7b71f788e893a0"
+      },
+      "val": {
+        "id": "E004-EX-C022",
+        "distance": 20,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NB-0037-R1",
+    "nearest": {
+      "train": {
+        "id": "V7-OE-S002-A01",
+        "distance": 15,
+        "group": "V7-G-afe057d7bcfa0b2e143a"
+      },
+      "val": {
+        "id": "E004-CN-055",
+        "distance": 20,
+        "group": "STU-instructional-view-59"
+      }
+    }
+  },
+  {
+    "id": "NB-0038-R1",
+    "nearest": {
+      "train": {
+        "id": "SCB-write-009",
+        "distance": 20,
+        "group": "V7-G-e050c4c8e80fb3505a36"
+      },
+      "val": {
+        "id": "E004-CF-C011",
+        "distance": 20,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NB-0041-R1",
+    "nearest": {
+      "train": {
+        "id": "V6-EX-023",
+        "distance": 18,
+        "group": "V7-G-5574ea116b6880b71974"
+      },
+      "val": {
+        "id": "E004-CF-C030",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NB-0054-R1",
+    "nearest": {
+      "train": {
+        "id": "V7-A-070",
+        "distance": 19,
+        "group": "V7-G-f750c70b1de54473b241"
+      },
+      "val": {
+        "id": "E004-CN-055",
+        "distance": 22,
+        "group": "STU-instructional-view-59"
+      }
+    }
+  },
+  {
+    "id": "NB-0062-R1",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-016",
+        "distance": 21,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "V6R2-EX-008",
+        "distance": 20,
+        "group": "V7-G-c197fd750c63e3f82b42"
+      }
+    }
+  },
+  {
+    "id": "NB-0069-R1",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-044",
+        "distance": 17,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "P006-person-02",
+        "distance": 16,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "NB-0077-R1",
+    "nearest": {
+      "train": {
+        "id": "EXP-CM-024",
+        "distance": 16,
+        "group": "V7-G-270a79bbb0f58a4e3ee0"
+      },
+      "val": {
+        "id": "P002-person-01",
+        "distance": 20,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "NB-0079-R1",
+    "nearest": {
+      "train": {
+        "id": "SCB-turnhead-005",
+        "distance": 19,
+        "group": "V7-G-adab5098c70c224496bd"
+      },
+      "val": {
+        "id": "P002-person-01",
+        "distance": 21,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "NBX-001",
+    "nearest": {
+      "train": {
+        "id": "V6-CA-047",
+        "distance": 20,
+        "group": "V7-G-53c065f92a59d6f04f72"
+      },
+      "val": {
+        "id": "E004-EX-C117",
+        "distance": 23,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NBX-003",
+    "nearest": {
+      "train": {
+        "id": "P033-person-01",
+        "distance": 18,
+        "group": "V7-G-ecc68417f2c0f69337ca"
+      },
+      "val": {
+        "id": "P008-person-01",
+        "distance": 21,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "NBX-004",
+    "nearest": {
+      "train": {
+        "id": "SCB-write-016",
+        "distance": 21,
+        "group": "V7-G-e050c4c8e80fb3505a36"
+      },
+      "val": {
+        "id": "V6R2-CA-007",
+        "distance": 15,
+        "group": "V7-G-a6902aad84a5672f4f52"
+      }
+    }
+  },
+  {
+    "id": "NBX-005",
+    "nearest": {
+      "train": {
+        "id": "EXP-SCB-001",
+        "distance": 15,
+        "group": "V7-G-0d1a82fab3fd52ec4163"
+      },
+      "val": {
+        "id": "E004-EX-C041",
+        "distance": 20,
+        "group": "EX-LECTURE"
+      }
+    }
+  },
+  {
+    "id": "NBX-006",
+    "nearest": {
+      "train": {
+        "id": "SCB-write-028",
+        "distance": 15,
+        "group": "V7-G-e050c4c8e80fb3505a36"
+      },
+      "val": {
+        "id": "E004-EX-C130",
+        "distance": 22,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NBX-008",
+    "nearest": {
+      "train": {
+        "id": "V6-EX-044",
+        "distance": 16,
+        "group": "V7-G-5574ea116b6880b71974"
+      },
+      "val": {
+        "id": "E004-CF-C011",
+        "distance": 18,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NC-001",
+    "nearest": {
+      "train": {
+        "id": "EXP-CM-018",
+        "distance": 19,
+        "group": "V7-G-270a79bbb0f58a4e3ee0"
+      },
+      "val": {
+        "id": "V6-CA-021",
+        "distance": 20,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "NC-002",
+    "nearest": {
+      "train": {
+        "id": "SCB-write-007",
+        "distance": 18,
+        "group": "V7-G-1c4153317c3d724ea46e"
+      },
+      "val": {
+        "id": "E004-EX-C130",
+        "distance": 18,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NC-003",
+    "nearest": {
+      "train": {
+        "id": "V7-UNAPPROVED-C-004",
+        "distance": 15,
+        "group": "V7-G-9e646f790a356daa5c69"
+      },
+      "val": {
+        "id": "E004-EX-C042",
+        "distance": 21,
+        "group": "EX-LECTURE"
+      }
+    }
+  },
+  {
+    "id": "NC-004",
+    "nearest": {
+      "train": {
+        "id": "EXP-CM-005",
+        "distance": 18,
+        "group": "V7-G-270a79bbb0f58a4e3ee0"
+      },
+      "val": {
+        "id": "E004-CF-C030",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NC-005",
+    "nearest": {
+      "train": {
+        "id": "EXP-SCB-048",
+        "distance": 19,
+        "group": "V7-G-06df719cfffafbe8415a"
+      },
+      "val": {
+        "id": "E004-EX-C130",
+        "distance": 20,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NC-006",
+    "nearest": {
+      "train": {
+        "id": "SCB-write-023",
+        "distance": 16,
+        "group": "V7-G-06df719cfffafbe8415a"
+      },
+      "val": {
+        "id": "E004-EX-C029",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NC-007",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-009",
+        "distance": 17,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-EX-C198",
+        "distance": 21,
+        "group": "EX-LECTURE"
+      }
+    }
+  },
+  {
+    "id": "NC-008",
+    "nearest": {
+      "train": {
+        "id": "V7-D-028",
+        "distance": 12,
+        "group": "V7-G-19e542de968a46417fa9"
+      },
+      "val": {
+        "id": "E004-EX-C171",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NC-009",
+    "nearest": {
+      "train": {
+        "id": "EXP-CM-005",
+        "distance": 17,
+        "group": "V7-G-270a79bbb0f58a4e3ee0"
+      },
+      "val": {
+        "id": "P007-person-02",
+        "distance": 21,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "NC-010",
+    "nearest": {
+      "train": {
+        "id": "V6R2-MP-030",
+        "distance": 17,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "E004-CF-C018",
+        "distance": 21,
+        "group": "CF-Q072"
+      }
+    }
+  },
+  {
+    "id": "NC-011",
+    "nearest": {
+      "train": {
+        "id": "V6-SB-028",
+        "distance": 14,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "P008-person-01",
+        "distance": 20,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  },
+  {
+    "id": "NC-012",
+    "nearest": {
+      "train": {
+        "id": "V7-A-072",
+        "distance": 17,
+        "group": "V7-G-50fc6587a96fa8eb69e3"
+      },
+      "val": {
+        "id": "E004-CN-055",
+        "distance": 20,
+        "group": "STU-instructional-view-59"
+      }
+    }
+  },
+  {
+    "id": "NC-013",
+    "nearest": {
+      "train": {
+        "id": "V6-SB-012",
+        "distance": 19,
+        "group": "V7-G-2a44130a4d5f7ba39107"
+      },
+      "val": {
+        "id": "EXP-RF-007",
+        "distance": 21,
+        "group": "V7-G-fcd93acef79fe0e4e815"
+      }
+    }
+  }
+]

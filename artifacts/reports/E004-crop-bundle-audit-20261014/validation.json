@@ -1,0 +1,25 @@
+{
+  "status": "audit_complete_not_data_acceptance",
+  "unit_tests": {"passed": 5, "scope": "test_crop_bundle_audit.py"},
+  "ruff_source_tests": "PASS",
+  "mypy_changed_helper": "PASS",
+  "worksheet_lint": "PASS with E501 excluded for embedded prose and HTML; source/test lint has no exclusion",
+  "git_diff_check": "PASS",
+  "dependency_pins": "PASS",
+  "records_screening_join": 765,
+  "boards": 48,
+  "source_and_crop_links": "PASS",
+  "git_checker": {
+    "status": "FAIL_UNSTAGED_DELIVERY_FILES",
+    "failures": 4,
+    "paths": [
+      "configs/datasets/E004-crop-bundle-audit-20261014.yaml",
+      "configs/datasets/E004-targeted-coverage-20261014.yaml",
+      "src/ai_exam_monitoring/data/crop_bundle_audit.py",
+      "tests/test_crop_bundle_audit.py"
+    ],
+    "staged_to_bypass": false
+  },
+  "training_or_inference_run": false,
+  "accepted_labels_or_splits_changed": false
+}

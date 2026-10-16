@@ -1,0 +1,25 @@
+{
+  "scope": "Derived crop contract implementation; checks executed during this task before research run",
+  "status": "PASS",
+  "unittest": {
+    "test_derived_crop.py": 1,
+    "test_pilot_schema.py": 22,
+    "test_pilot_package.py": 8,
+    "test_review_acceptance.py": 6,
+    "test_source_review.py": 6,
+    "test_training_adaptation.py": 16
+  },
+  "strict_mypy": [
+    "src/ai_exam_monitoring/data/pilot_schema.py",
+    "src/ai_exam_monitoring/data/pilot_package.py",
+    "src/ai_exam_monitoring/training/data.py"
+  ],
+  "ruff": "PASS for three modified core modules and test_derived_crop.py",
+  "diff_check": "PASS; TASK line-ending normalization warning only",
+  "real_v1_roundtrip_records": 776,
+  "real_v1_development_loader_records": 847,
+  "new_package_checks": "package-validation.json",
+  "smoke": "outputs/E004-C345-W-H-SMOKE/run.json: FINISHED, one epoch",
+  "smoke_bundle_reload": "smoke-reload.json: PASS",
+  "limitations": "Software PASS does not imply model acceptance; no final-test inference"
+}

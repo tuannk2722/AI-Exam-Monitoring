@@ -1,0 +1,297 @@
+{
+  "status": "accepted_crop_inventory_and_conditional_train_projection",
+  "batches": {
+    "old240": {
+      "count": 240,
+      "pairs": {
+        "N/N": 22,
+        "N/P": 9,
+        "P/N": 69,
+        "P/P": 9,
+        "U/N": 92,
+        "U/P": 39
+      },
+      "phone": {
+        "U": 131,
+        "N": 31,
+        "P": 78
+      },
+      "looking": {
+        "N": 183,
+        "P": 57
+      },
+      "both_known": 109
+    },
+    "new92": {
+      "count": 92,
+      "pairs": {
+        "N/N": 48,
+        "N/P": 12,
+        "N/U": 2,
+        "U/N": 23,
+        "U/P": 7
+      },
+      "phone": {
+        "U": 30,
+        "N": 62
+      },
+      "looking": {
+        "N": 71,
+        "P": 19,
+        "U": 2
+      },
+      "both_known": 60
+    },
+    "additions13": {
+      "count": 13,
+      "pairs": {
+        "N/N": 9,
+        "U/N": 4
+      },
+      "phone": {
+        "U": 4,
+        "N": 9
+      },
+      "looking": {
+        "N": 13
+      },
+      "both_known": 9
+    }
+  },
+  "accepted_new": {
+    "count": 345,
+    "pairs": {
+      "N/N": 79,
+      "N/P": 21,
+      "N/U": 2,
+      "P/N": 69,
+      "P/P": 9,
+      "U/N": 119,
+      "U/P": 46
+    },
+    "phone": {
+      "U": 165,
+      "N": 102,
+      "P": 78
+    },
+    "looking": {
+      "N": 267,
+      "P": 76,
+      "U": 2
+    },
+    "both_known": 178
+  },
+  "existing_train": {
+    "count": 716,
+    "pairs": {
+      "N/N": 137,
+      "N/P": 33,
+      "N/U": 23,
+      "P/N": 26,
+      "P/P": 38,
+      "P/U": 183,
+      "U/N": 134,
+      "U/P": 142
+    },
+    "phone": {
+      "P": 247,
+      "U": 276,
+      "N": 193
+    },
+    "looking": {
+      "P": 213,
+      "N": 297,
+      "U": 206
+    },
+    "both_known": 234
+  },
+  "conditional_train_if_all_eligible": {
+    "count": 1061,
+    "pairs": {
+      "N/N": 216,
+      "N/P": 54,
+      "N/U": 25,
+      "P/N": 95,
+      "P/P": 47,
+      "P/U": 183,
+      "U/N": 253,
+      "U/P": 188
+    },
+    "phone": {
+      "P": 325,
+      "U": 441,
+      "N": 295
+    },
+    "looking": {
+      "P": 289,
+      "N": 564,
+      "U": 208
+    },
+    "both_known": 412
+  },
+  "existing_selection_unchanged": 71,
+  "parents": {
+    "131978f1c922c72a1be6": {
+      "count": 57,
+      "pairs": {
+        "N/N": 4,
+        "N/P": 2,
+        "P/N": 25,
+        "P/P": 2,
+        "U/N": 19,
+        "U/P": 5
+      },
+      "phone": {
+        "U": 24,
+        "N": 6,
+        "P": 27
+      },
+      "looking": {
+        "N": 48,
+        "P": 9
+      },
+      "both_known": 33,
+      "source_frames": 30,
+      "recorded_anchor_keys": 15,
+      "missing_anchor_key": 0
+    },
+    "17e642e8e71392e7c926": {
+      "count": 42,
+      "pairs": {
+        "N/N": 27,
+        "N/P": 1,
+        "U/N": 13,
+        "U/P": 1
+      },
+      "phone": {
+        "U": 14,
+        "N": 28
+      },
+      "looking": {
+        "N": 40,
+        "P": 2
+      },
+      "both_known": 28,
+      "source_frames": 16,
+      "recorded_anchor_keys": 29,
+      "missing_anchor_key": 13
+    },
+    "286f4f8992d4ad931647": {
+      "count": 71,
+      "pairs": {
+        "N/N": 2,
+        "N/P": 2,
+        "P/N": 32,
+        "P/P": 3,
+        "U/N": 27,
+        "U/P": 5
+      },
+      "phone": {
+        "U": 32,
+        "P": 35,
+        "N": 4
+      },
+      "looking": {
+        "N": 61,
+        "P": 10
+      },
+      "both_known": 39,
+      "source_frames": 40,
+      "recorded_anchor_keys": 21,
+      "missing_anchor_key": 0
+    },
+    "2b68c2a8bc91941576a8": {
+      "count": 47,
+      "pairs": {
+        "N/N": 4,
+        "P/N": 12,
+        "P/P": 4,
+        "U/N": 19,
+        "U/P": 8
+      },
+      "phone": {
+        "P": 16,
+        "U": 27,
+        "N": 4
+      },
+      "looking": {
+        "N": 35,
+        "P": 12
+      },
+      "both_known": 20,
+      "source_frames": 21,
+      "recorded_anchor_keys": 21,
+      "missing_anchor_key": 0
+    },
+    "9284c725e608c9241824": {
+      "count": 41,
+      "pairs": {
+        "N/N": 5,
+        "N/P": 2,
+        "U/N": 18,
+        "U/P": 16
+      },
+      "phone": {
+        "U": 34,
+        "N": 7
+      },
+      "looking": {
+        "P": 18,
+        "N": 23
+      },
+      "both_known": 7,
+      "source_frames": 21,
+      "recorded_anchor_keys": 13,
+      "missing_anchor_key": 0
+    },
+    "bb408b342822941f3212": {
+      "count": 63,
+      "pairs": {
+        "N/N": 30,
+        "N/P": 11,
+        "N/U": 2,
+        "U/N": 14,
+        "U/P": 6
+      },
+      "phone": {
+        "U": 20,
+        "N": 43
+      },
+      "looking": {
+        "P": 17,
+        "N": 44,
+        "U": 2
+      },
+      "both_known": 41,
+      "source_frames": 14,
+      "recorded_anchor_keys": 51,
+      "missing_anchor_key": 0
+    },
+    "c4501991dd89a572c461": {
+      "count": 24,
+      "pairs": {
+        "N/N": 7,
+        "N/P": 3,
+        "U/N": 9,
+        "U/P": 5
+      },
+      "phone": {
+        "U": 14,
+        "N": 10
+      },
+      "looking": {
+        "N": 16,
+        "P": 8
+      },
+      "both_known": 10,
+      "source_frames": 9,
+      "recorded_anchor_keys": 12,
+      "missing_anchor_key": 0
+    }
+  },
+  "exact_crop_duplicates_new": [],
+  "exact_input_rgb_duplicates_new": [],
+  "exact_metadata_overlap": [],
+  "lineage_limit": "Distinct parent video IDs are not proof of independent rooms, people or source lineage. No perceptual cross-baseline or protected-media audit performed.",
+  "upstream_pin_files_verified": 49
+}

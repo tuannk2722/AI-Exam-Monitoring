@@ -1,0 +1,37 @@
+{
+  "schema_version": "adaptation-readiness-v2",
+  "status": "approved",
+  "owner": "repository-owner",
+  "scope": "research",
+  "protocol_sha256": "c431b6ead9c1f7bc3a9891e9ae0a9152a0b1167aa1a46a0f510eea95a322297c",
+  "cohorts_sha256": "2d9b2c64b0f7db470e9d7c0a23a3243cc4b1716894d848b3d90eaee167ef2981",
+  "decision_ref": "artifacts/reports/E004-train-enrollment-20261016/owner-enrollment-approval.json",
+  "waiver_approval": {
+    "path": "artifacts/reports/E004-train-enrollment-20261016/owner-enrollment-approval.json",
+    "sha256": "b121b2cff84459ae303e0ec4aa99523cf6f7669f36b9ec806488dea91cd13396"
+  },
+  "gates": {
+    "G0": true,
+    "G1": true,
+    "G2": "owner_waived",
+    "G3": "owner_waived"
+  },
+  "evidence_pins": [
+    {
+      "path": "artifacts/reports/E004-train-enrollment-20261016/owner-enrollment-approval.json",
+      "sha256": "b121b2cff84459ae303e0ec4aa99523cf6f7669f36b9ec806488dea91cd13396"
+    },
+    {
+      "path": "artifacts/reports/E004-train-enrollment-20261016/package-pointers.json",
+      "sha256": "b631709e5db870d2ce6fd665a0d56d4d3fc2dda559c982c152adfce979ca37ec"
+    },
+    {
+      "path": "outputs/E004-C345-W-H-SMOKE/run.json",
+      "sha256": "1a1191356e64673060a5874cfdfe3f4b4819097f0a7a7f01da70dd9a54f41fe3"
+    },
+    {
+      "path": "outputs/E004-C345-W-H-SMOKE/checksums.json",
+      "sha256": "9a2ca6558580bd51e18fdd23c59d461040fb6e9db05b3b2b59f644fbfe0a5d16"
+    }
+  ]
+}

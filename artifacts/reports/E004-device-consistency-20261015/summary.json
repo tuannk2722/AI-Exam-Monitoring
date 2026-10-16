@@ -1,0 +1,57 @@
+{
+  "status": "draft_not_dataset_acceptance",
+  "audited": 247,
+  "labels_before": {
+    "U/N": 56,
+    "U/P": 34,
+    "P/N": 105,
+    "P/P": 19,
+    "N/N": 20,
+    "N/P": 7,
+    "P/U": 6
+  },
+  "labels_after": {
+    "U/N": 92,
+    "U/P": 42,
+    "N/N": 22,
+    "N/P": 8,
+    "P/N": 69,
+    "P/P": 9,
+    "U/U": 5
+  },
+  "label_changed": 77,
+  "phone_changed": 70,
+  "looking_changed": 12,
+  "phone_transitions": {
+    "U->U": 80,
+    "P->U": 52,
+    "N->N": 20,
+    "P->P": 77,
+    "P->N": 1,
+    "U->N": 9,
+    "N->U": 7,
+    "U->P": 1
+  },
+  "evidence_categories": {
+    "BACK": 33,
+    "CALC": 11,
+    "PART": 35,
+    "SCREEN": 78,
+    "OCC": 50,
+    "COVER": 2,
+    "BLUR": 21,
+    "CLEAR": 17
+  },
+  "dispositions": {
+    "shortlist": 242,
+    "withheld": 5
+  },
+  "source_detail_count": 145,
+  "unique_frames_in_audited_crops": 123,
+  "owner_comments": 35,
+  "geometry_attention": [
+    "G5-A05-F109",
+    "G5-A06-F099"
+  ],
+  "not_reaudited_non_shortlist": 658
+}

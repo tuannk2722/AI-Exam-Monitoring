@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "old_pins": "unchanged",
+  "closure": 92,
+  "label_changes": 9,
+  "new_crop_native_and_input_pixel_parity": 13,
+  "marked_positions": 14,
+  "marked_frames": 8,
+  "existing_reuse": "NA-008",
+  "gallery_local_links": 317,
+  "gallery_filters": "PASS via validate-gallery.cjs",
+  "chrome_render": "1440x1200 inspected",
+  "ruff": "PASS ignoring E501 narrative strings",
+  "scope": "research labels/crops only; no training/model/test run"
+}

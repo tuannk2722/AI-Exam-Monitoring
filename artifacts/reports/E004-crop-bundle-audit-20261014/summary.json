@@ -1,0 +1,68 @@
+{
+  "status": "audit_not_release",
+  "archives": 7,
+  "crops": 765,
+  "frames": 212,
+  "parents": 5,
+  "anchor_tracks": 32,
+  "crc_all_members": "PASS",
+  "manifest_csv_section_join": "PASS",
+  "frame_inventory_join": "PASS",
+  "frame_sha_and_acceptance_join": "PASS",
+  "all_decode": "PASS",
+  "labels_provisional": {
+    "U/U": 154,
+    "N/N": 49,
+    "N/P": 10,
+    "N/U": 26,
+    "P/U": 176,
+    "P/P": 193,
+    "U/P": 8,
+    "P/N": 133,
+    "U/N": 16
+  },
+  "scenarios_provisional": {
+    "back_row_mixed_devices": 25,
+    "calculator_hard_negative": 37,
+    "desk_phone_with_calculator": 112,
+    "possibly_handheld_phone": 25,
+    "handheld_or_desk_phone": 37,
+    "desk_phone": 142,
+    "desk_phone_calculator_hard_negative_pair": 25,
+    "distant_handheld_device": 29,
+    "desk_or_handheld_phone": 55,
+    "multi_phones_desk": 87,
+    "phone_desk_calculator_pair": 29,
+    "handheld_phone": 35,
+    "adjacent_phone_attribution_uncertain": 29,
+    "own_work_no_phone": 38,
+    "mid_black_phone_not_consistently_visible": 7,
+    "identity_changed_mid_video": 5,
+    "possibly_desk_phone": 16,
+    "distant_gaze_candidate": 15,
+    "high_angle_ambiguous": 17
+  },
+  "review_only_supplied": 380,
+  "training_ready": false,
+  "geometry_issues": [],
+  "source_crop_reproduction": {
+    "exact": 765
+  },
+  "jpeg_bytes_equal": 0,
+  "nonsquare_boxes": 0,
+  "upscale_boxes": 0,
+  "exact_duplicate_groups": {
+    "sha256": 0,
+    "rgb_sha256": 0
+  },
+  "dhash_pairs": 138,
+  "cross_parent_dhash_pairs": 0,
+  "parent_exact_matches": 0,
+  "parent_non_test_near_flags": 0,
+  "supplied_temporal_flags_consistent": 32,
+  "source_metadata_caveats": [
+    "manifest review_status unreviewed; accepted decisions joined by asset_id",
+    "frame mime_detected inherited video/mp4; actual files decode JPEG",
+    "rights user-confirmed; upstream fair-use text is not independent license proof"
+  ]
+}

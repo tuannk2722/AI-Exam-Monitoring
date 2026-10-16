@@ -1,0 +1,22 @@
+{
+  "schema": "research-crop-batch-closure-v1",
+  "date": "2026-10-16",
+  "scope": "92 shortlist crops: labels and existing crop only; not canonical release/train acceptance",
+  "retained": 92,
+  "label_changes": 9,
+  "explicit_review_rows": 10,
+  "unmentioned_approved": 82,
+  "label_counts": {
+    "U/N": 23,
+    "N/N": 48,
+    "N/P": 12,
+    "U/P": 7,
+    "N/U": 2
+  },
+  "files": {
+    "artifacts/reports/E004-new-bundle-closure-20261016/closed-ledger.json": "54675abf366ed91ebc51494438547977191b750cef4011bf2535f2324daac073",
+    "artifacts/reports/E004-new-bundle-closure-20261016/owner-review-input.md": "33279917e4fa45f391634aa71b248f48f5096c4eb1fbe0ddc72694c5e6dda921",
+    "artifacts/reports/E004-new-bundle-closure-20261016/label-deltas.json": "bbdce9a12ef613a08d0c11e5ba25bac12605ae8e9a05d643bcb946de6a5123cd",
+    "artifacts/reports/E004-new-bundle-audit-20261015/result-pins.json": "40ac8f15f8e0bdc08314a4c1cf3304bd407869f728c49d5390cfa8bddf2143a2"
+  }
+}

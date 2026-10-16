@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "ruff": "PASS",
+  "python_ast": "PASS: 6 worksheet files",
+  "gallery_functional": "PASS: shortlist, pagination, filters, changed labels, withheld ID, label filter, empty search",
+  "git_diff_check": "PASS",
+  "layout": "PASS: Chrome headless, first page at 1440x1100 visually inspected; gallery-preview.png",
+  "integrity": "PASS: validation.json; 905 candidates, 332 native PNG pixel comparisons, 5565 path checks",
+  "result_pins": "PASS: all files in result-pins.json verified",
+  "repo_checker": "PASS: scripts/check_repo.py, failures=0; without --require-git",
+  "git_delivery": "Not staged or committed; pre-existing untracked changes preserved",
+  "cleanup": "Removed only outputs/_scratch/crop-refinement-browser after checking resolved absolute path; evidence preserved",
+  "limitations": "No ML training/inference/test access. DOM tests do not substitute for label acceptance; visual layout checked only on first desktop page."
+}

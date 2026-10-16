@@ -23,3 +23,6 @@ artifacts/reports/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
 *.dvc text eol=lf
 # Historical v5 approval pins CRLF bytes; never normalize this restored input.
 configs/datasets/pilot_b_v5_release_proposal_20261007.yaml -text whitespace=trailing-space,space-before-tab,cr-at-eol
+
+# Preserve exact approved C345 config/protocol bytes in the pre-cleanup commit.
+configs/experiments/E004-C345-20261016/** -text

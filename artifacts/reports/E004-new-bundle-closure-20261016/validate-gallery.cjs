@@ -1,0 +1,15 @@
+const fs=require('fs'),vm=require('vm'),path=require('path'),assert=require('assert/strict');
+const root=path.resolve(__dirname,'../../..');
+const page=fs.readFileSync(path.join(root,'outputs',path.basename(__dirname),'index.html'),'utf8');
+const cards=[...page.matchAll(/<article data-state="([^"]+)" data-id="([^"]+)"/g)].map(m=>({dataset:{state:m[1],id:m[2]},hidden:false}));
+const elements={};
+for(const id of ['mode','query','count'])elements[id]={value:id==='mode'?'draft':'',textContent:'',addEventListener(type,fn){this['on'+type]=fn;}};
+vm.runInNewContext(page.match(/<script>([\s\S]*?)<\/script>/)[1],{document:{getElementById:id=>elements[id],querySelectorAll:()=>cards}});
+const visible=()=>cards.filter(c=>!c.hidden).length;
+assert.equal(cards.length,105);assert.equal(visible(),13);
+elements.mode.value='closed';elements.mode.onchange();assert.equal(visible(),92);
+elements.mode.value='all';elements.mode.onchange();assert.equal(visible(),105);
+elements.query.value='NA-008';elements.query.oninput();assert.equal(visible(),1);
+elements.query.value='NC-009';elements.query.oninput();assert.equal(visible(),1);
+elements.query.value='no-match';elements.query.oninput();assert.equal(visible(),0);
+console.log(JSON.stringify({status:'PASS',checks:['13 default','92 closed','105 all','NA-008 reused once','NC ID search','empty search'],limitation:'DOM stub; Chrome screenshot verified separately'}));

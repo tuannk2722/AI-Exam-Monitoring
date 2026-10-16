@@ -1,0 +1,36 @@
+{
+  "status": "draft_not_owner_accepted",
+  "supplied_crops": 80,
+  "source_frames": 132,
+  "review_rows": 109,
+  "derivatives": 29,
+  "selected": 92,
+  "selected_by_kind": {
+    "supplied": 65,
+    "recrop": 13,
+    "additional": 14
+  },
+  "selected_label_counts": {
+    "U/N": 22,
+    "N/N": 47,
+    "N/P": 12,
+    "U/P": 8,
+    "N/U": 3
+  },
+  "dispositions": {
+    "keep": 92,
+    "recrop": 13,
+    "superseded_better_context": 1,
+    "withheld_uu": 2,
+    "withheld_geometry": 1
+  },
+  "native_derivatives_and_preprocessing_exact": 29,
+  "source_exact_duplicates": [],
+  "crop_exact_duplicates": [],
+  "same_source_bytes_as_old247": [],
+  "same_crop_bytes_as_old247": [],
+  "near_duplicate_pairs": [],
+  "supplied_crop_reconstruction": "MAE diagnostic only; JPEG encoder/resampler unknown; no exact pixel parity claim",
+  "supplied_reconstruction_max_best_mae": 2.0491,
+  "training_ready": false
+}

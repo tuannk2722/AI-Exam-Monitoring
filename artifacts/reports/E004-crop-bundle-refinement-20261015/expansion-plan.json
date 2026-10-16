@@ -1,0 +1,882 @@
+{
+  "status": "visual_qa_complete_draft_pending_owner",
+  "anchors": [
+    {
+      "id": "G1-A01",
+      "parent": "131978f1c922c72a1be6",
+      "description": "Nam áo trắng sát tường trái",
+      "box": [
+        70,
+        250,
+        335,
+        580
+      ],
+      "frames": [
+        1,
+        10,
+        40
+      ]
+    },
+    {
+      "id": "G1-A02",
+      "parent": "131978f1c922c72a1be6",
+      "description": "Nam áo olive cạnh người sát tường",
+      "box": [
+        235,
+        280,
+        500,
+        585
+      ],
+      "frames": [
+        1,
+        12,
+        44
+      ]
+    },
+    {
+      "id": "G1-A03",
+      "parent": "131978f1c922c72a1be6",
+      "description": "Nam áo navy hàng giữa trái",
+      "box": [
+        420,
+        185,
+        650,
+        465
+      ],
+      "frames": [
+        1,
+        38,
+        46
+      ]
+    },
+    {
+      "id": "G1-A04",
+      "parent": "131978f1c922c72a1be6",
+      "description": "Nữ áo olive 1977",
+      "box": [
+        710,
+        195,
+        925,
+        450
+      ],
+      "frames": [
+        1,
+        42,
+        54
+      ]
+    },
+    {
+      "id": "G1-A05",
+      "parent": "131978f1c922c72a1be6",
+      "description": "Nam áo trắng hàng sau bên chai vàng",
+      "box": [
+        550,
+        160,
+        790,
+        360
+      ],
+      "frames": [
+        1,
+        16,
+        46
+      ]
+    },
+    {
+      "id": "G1-A06",
+      "parent": "131978f1c922c72a1be6",
+      "description": "Nữ áo trắng bên trái nữ kính hàng sau",
+      "box": [
+        800,
+        120,
+        1030,
+        375
+      ],
+      "frames": [
+        1,
+        14,
+        50
+      ]
+    },
+    {
+      "id": "G1-A07",
+      "parent": "131978f1c922c72a1be6",
+      "description": "Nữ áo trắng hàng giữa mép phải",
+      "box": [
+        1570,
+        250,
+        1915,
+        610
+      ],
+      "frames": [
+        1,
+        16,
+        40
+      ]
+    },
+    {
+      "id": "G1-A08",
+      "parent": "131978f1c922c72a1be6",
+      "description": "Nữ áo trắng bàn trước mép trái",
+      "box": [
+        0,
+        640,
+        270,
+        1080
+      ],
+      "frames": [
+        1,
+        44
+      ]
+    },
+    {
+      "id": "G2-A01",
+      "parent": "286f4f8992d4ad931647",
+      "description": "Nam áo sọc trắng trái giữa",
+      "box": [
+        0,
+        240,
+        350,
+        525
+      ],
+      "frames": [
+        1,
+        63,
+        214
+      ]
+    },
+    {
+      "id": "G2-A02",
+      "parent": "286f4f8992d4ad931647",
+      "description": "Nam áo thể thao trắng viền đen sát trái",
+      "box": [
+        0,
+        85,
+        260,
+        365
+      ],
+      "frames": [
+        1,
+        5,
+        97
+      ]
+    },
+    {
+      "id": "G2-A03",
+      "parent": "286f4f8992d4ad931647",
+      "description": "Nữ áo đen cạnh chai nước",
+      "box": [
+        280,
+        180,
+        510,
+        440
+      ],
+      "frames": [
+        1,
+        17,
+        99
+      ]
+    },
+    {
+      "id": "G2-A04",
+      "parent": "286f4f8992d4ad931647",
+      "description": "Nam áo trắng sau hàng sát trái",
+      "box": [
+        220,
+        65,
+        430,
+        300
+      ],
+      "frames": [
+        1,
+        17,
+        143
+      ]
+    },
+    {
+      "id": "G2-A05",
+      "parent": "286f4f8992d4ad931647",
+      "description": "Nam polo đen giữa hàng sau",
+      "box": [
+        490,
+        120,
+        700,
+        340
+      ],
+      "frames": [
+        1,
+        23,
+        123
+      ]
+    },
+    {
+      "id": "G2-A06",
+      "parent": "286f4f8992d4ad931647",
+      "description": "Nam áo xám đen ở giữa",
+      "box": [
+        640,
+        110,
+        850,
+        390
+      ],
+      "frames": [
+        1,
+        149
+      ]
+    },
+    {
+      "id": "G2-A07",
+      "parent": "286f4f8992d4ad931647",
+      "description": "Nữ áo sáng sau áo khoác sọc",
+      "box": [
+        740,
+        290,
+        980,
+        510
+      ],
+      "frames": [
+        1,
+        7,
+        204
+      ]
+    },
+    {
+      "id": "G2-A08",
+      "parent": "286f4f8992d4ad931647",
+      "description": "Nam polo trắng sau nữ kính",
+      "box": [
+        880,
+        160,
+        1080,
+        430
+      ],
+      "frames": [
+        1,
+        23,
+        57
+      ]
+    },
+    {
+      "id": "G2-A09",
+      "parent": "286f4f8992d4ad931647",
+      "description": "Nam áo xanh đậm giữa phải",
+      "box": [
+        1000,
+        170,
+        1240,
+        455
+      ],
+      "frames": [
+        1,
+        41,
+        204
+      ]
+    },
+    {
+      "id": "G2-A10",
+      "parent": "286f4f8992d4ad931647",
+      "description": "Nam áo đen kính hàng cuối bên tường",
+      "box": [
+        1210,
+        85,
+        1410,
+        325
+      ],
+      "frames": [
+        1,
+        29,
+        161
+      ]
+    },
+    {
+      "id": "G2-A11",
+      "parent": "286f4f8992d4ad931647",
+      "description": "Nam áo navy kính mép phải",
+      "box": [
+        1680,
+        300,
+        1920,
+        585
+      ],
+      "frames": [
+        1,
+        29,
+        190
+      ]
+    },
+    {
+      "id": "G2-A12",
+      "parent": "286f4f8992d4ad931647",
+      "description": "Nam polo be kính bàn đầu",
+      "box": [
+        960,
+        570,
+        1400,
+        1080
+      ],
+      "frames": [
+        1,
+        5,
+        61
+      ]
+    },
+    {
+      "id": "G2-A13",
+      "parent": "286f4f8992d4ad931647",
+      "description": "Nam polo trắng kính cạnh lối đi phải",
+      "box": [
+        1430,
+        280,
+        1750,
+        710
+      ],
+      "frames": [
+        1,
+        3,
+        112
+      ]
+    },
+    {
+      "id": "G5-A01",
+      "parent": "2b68c2a8bc91941576a8",
+      "description": "Nữ áo đen sát tường",
+      "box": [
+        80,
+        160,
+        330,
+        410
+      ],
+      "frames": [
+        1,
+        97,
+        109
+      ],
+      "frame_boxes": {
+        "97": [
+          120,
+          30,
+          385,
+          290
+        ],
+        "109": [
+          120,
+          20,
+          385,
+          290
+        ]
+      }
+    },
+    {
+      "id": "G5-A02",
+      "parent": "2b68c2a8bc91941576a8",
+      "description": "Nữ áo navy đeo kính sát tường",
+      "box": [
+        320,
+        100,
+        570,
+        350
+      ],
+      "frames": [
+        1,
+        97,
+        109
+      ],
+      "frame_boxes": {
+        "97": [
+          370,
+          65,
+          580,
+          340
+        ],
+        "109": [
+          370,
+          65,
+          580,
+          340
+        ]
+      }
+    },
+    {
+      "id": "G5-A03",
+      "parent": "2b68c2a8bc91941576a8",
+      "description": "Nữ áo kem hàng sau sát tường",
+      "box": [
+        300,
+        15,
+        550,
+        250
+      ],
+      "frames": [
+        1,
+        99
+      ],
+      "frame_boxes": {
+        "99": [
+          420,
+          0,
+          610,
+          225
+        ]
+      }
+    },
+    {
+      "id": "G5-A04",
+      "parent": "2b68c2a8bc91941576a8",
+      "description": "Nữ áo vàng hàng sau",
+      "box": [
+        520,
+        70,
+        740,
+        290
+      ],
+      "frames": [
+        1,
+        97
+      ],
+      "frame_boxes": {
+        "97": [
+          550,
+          0,
+          740,
+          255
+        ]
+      }
+    },
+    {
+      "id": "G5-A05",
+      "parent": "2b68c2a8bc91941576a8",
+      "description": "Nữ áo hồng hàng sau",
+      "box": [
+        620,
+        0,
+        850,
+        210
+      ],
+      "frames": [
+        1,
+        109
+      ],
+      "frame_boxes": {
+        "109": [
+          640,
+          0,
+          860,
+          210
+        ]
+      }
+    },
+    {
+      "id": "G5-A06",
+      "parent": "2b68c2a8bc91941576a8",
+      "description": "Nữ áo trắng sau người áo jersey",
+      "box": [
+        760,
+        85,
+        1020,
+        320
+      ],
+      "frames": [
+        1,
+        99,
+        112
+      ],
+      "frame_boxes": {
+        "99": [
+          920,
+          0,
+          1140,
+          270
+        ],
+        "112": [
+          920,
+          0,
+          1140,
+          270
+        ]
+      }
+    },
+    {
+      "id": "G5-A07",
+      "parent": "2b68c2a8bc91941576a8",
+      "description": "Nữ áo đen hàng sau giữa",
+      "box": [
+        1160,
+        30,
+        1440,
+        300
+      ],
+      "frames": [
+        1,
+        99,
+        112
+      ]
+    },
+    {
+      "id": "G5-A08",
+      "parent": "2b68c2a8bc91941576a8",
+      "description": "Nam áo xanh lá bên phải",
+      "box": [
+        1420,
+        75,
+        1680,
+        390
+      ],
+      "frames": [
+        1,
+        99,
+        109
+      ]
+    },
+    {
+      "id": "G5-A09",
+      "parent": "2b68c2a8bc91941576a8",
+      "description": "Nam áo đen bàn trước khi camera pan trái",
+      "box": [
+        300,
+        310,
+        960,
+        800
+      ],
+      "frames": [
+        47,
+        65
+      ]
+    },
+    {
+      "id": "G5-A10",
+      "parent": "2b68c2a8bc91941576a8",
+      "description": "Nam polo trắng mép trái khi camera pan trái",
+      "box": [
+        0,
+        245,
+        350,
+        745
+      ],
+      "frames": [
+        47,
+        65
+      ]
+    },
+    {
+      "id": "G5-A11",
+      "parent": "2b68c2a8bc91941576a8",
+      "description": "Nữ áo xám sau người áo đỏ",
+      "box": [
+        620,
+        65,
+        880,
+        340
+      ],
+      "frames": [
+        47,
+        65
+      ]
+    },
+    {
+      "id": "G5-A12",
+      "parent": "2b68c2a8bc91941576a8",
+      "description": "Nam áo đen sau người áo đỏ",
+      "box": [
+        290,
+        80,
+        550,
+        390
+      ],
+      "frames": [
+        47,
+        65
+      ]
+    },
+    {
+      "id": "G5-A13",
+      "parent": "2b68c2a8bc91941576a8",
+      "description": "Nữ áo đỏ hàng cuối khi camera pan trái",
+      "box": [
+        1510,
+        0,
+        1720,
+        170
+      ],
+      "frames": [
+        47
+      ]
+    },
+    {
+      "id": "G4-A01",
+      "parent": "9284c725e608c9241824",
+      "description": "Nữ áo xanh nhạt bên trái",
+      "box": [
+        280,
+        355,
+        450,
+        550
+      ],
+      "frames": [
+        1,
+        105,
+        125
+      ]
+    },
+    {
+      "id": "G4-A02",
+      "parent": "9284c725e608c9241824",
+      "description": "Nam áo xám bên trái",
+      "box": [
+        220,
+        275,
+        375,
+        475
+      ],
+      "frames": [
+        1,
+        105,
+        125
+      ]
+    },
+    {
+      "id": "G4-A03",
+      "parent": "9284c725e608c9241824",
+      "description": "Nữ áo tím giữa bên trái",
+      "box": [
+        480,
+        215,
+        685,
+        400
+      ],
+      "frames": [
+        1,
+        105,
+        125
+      ]
+    },
+    {
+      "id": "G4-A04",
+      "parent": "9284c725e608c9241824",
+      "description": "Nam áo navy phía sau giữa",
+      "box": [
+        645,
+        175,
+        825,
+        365
+      ],
+      "frames": [
+        1,
+        105,
+        125
+      ]
+    },
+    {
+      "id": "G4-A05",
+      "parent": "9284c725e608c9241824",
+      "description": "Nữ áo tối màu trước nam navy",
+      "box": [
+        620,
+        265,
+        820,
+        490
+      ],
+      "frames": [
+        1,
+        105,
+        125
+      ]
+    },
+    {
+      "id": "G4-A06",
+      "parent": "9284c725e608c9241824",
+      "description": "Nữ áo đen đỏ cạnh cửa sổ",
+      "box": [
+        1140,
+        145,
+        1350,
+        350
+      ],
+      "frames": [
+        1,
+        105,
+        125
+      ]
+    },
+    {
+      "id": "G4-A07",
+      "parent": "9284c725e608c9241824",
+      "description": "Nam vest bàn đầu bên phải",
+      "box": [
+        1350,
+        200,
+        1535,
+        410
+      ],
+      "frames": [
+        1,
+        105,
+        125
+      ]
+    },
+    {
+      "id": "G4-A08",
+      "parent": "9284c725e608c9241824",
+      "description": "Nữ áo nâu bên phải",
+      "box": [
+        1500,
+        200,
+        1690,
+        375
+      ],
+      "frames": [
+        1,
+        105,
+        125
+      ]
+    },
+    {
+      "id": "G3-A01",
+      "parent": "c4501991dd89a572c461",
+      "description": "Người áo vàng bên trái",
+      "box": [
+        140,
+        145,
+        280,
+        295
+      ],
+      "frames": [
+        1,
+        14
+      ]
+    },
+    {
+      "id": "G3-A02",
+      "parent": "c4501991dd89a572c461",
+      "description": "Người áo vàng đỏ phía sau",
+      "box": [
+        280,
+        140,
+        390,
+        260
+      ],
+      "frames": [
+        1,
+        14
+      ]
+    },
+    {
+      "id": "G3-A03",
+      "parent": "c4501991dd89a572c461",
+      "description": "Người áo be phía sau giữa",
+      "box": [
+        380,
+        125,
+        480,
+        260
+      ],
+      "frames": [
+        1,
+        14
+      ]
+    },
+    {
+      "id": "G3-A04",
+      "parent": "c4501991dd89a572c461",
+      "description": "Người áo xám chữ xanh",
+      "box": [
+        475,
+        110,
+        570,
+        245
+      ],
+      "frames": [
+        1,
+        14
+      ]
+    },
+    {
+      "id": "G3-A05",
+      "parent": "c4501991dd89a572c461",
+      "description": "Người áo đen sọc trắng giữa trái",
+      "box": [
+        310,
+        190,
+        440,
+        340
+      ],
+      "frames": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "G3-A06",
+      "parent": "c4501991dd89a572c461",
+      "description": "Người áo xanh xám giữa",
+      "box": [
+        440,
+        195,
+        560,
+        330
+      ],
+      "frames": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "G3-A07",
+      "parent": "c4501991dd89a572c461",
+      "description": "Người áo đen đỏ giữa",
+      "box": [
+        550,
+        190,
+        660,
+        325
+      ],
+      "frames": [
+        1,
+        14
+      ]
+    },
+    {
+      "id": "G3-A08",
+      "parent": "c4501991dd89a572c461",
+      "description": "Người áo đen sát lối đi trái",
+      "box": [
+        155,
+        215,
+        315,
+        390
+      ],
+      "frames": [
+        1,
+        21
+      ]
+    },
+    {
+      "id": "G3-A09",
+      "parent": "c4501991dd89a572c461",
+      "description": "Người áo hồng cạnh cửa sổ",
+      "box": [
+        625,
+        125,
+        730,
+        240
+      ],
+      "frames": [
+        1,
+        14
+      ]
+    },
+    {
+      "id": "G3-A10",
+      "parent": "c4501991dd89a572c461",
+      "description": "Người áo nâu giữa phải",
+      "box": [
+        735,
+        175,
+        845,
+        310
+      ],
+      "frames": [
+        1,
+        14
+      ]
+    }
+  ]
+}

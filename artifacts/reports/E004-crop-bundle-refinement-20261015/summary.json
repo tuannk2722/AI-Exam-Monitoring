@@ -1,0 +1,31 @@
+{
+  "total": 905,
+  "supplied": 765,
+  "new_crops": 135,
+  "prior_additions": 5,
+  "dispositions": {
+    "shortlist": 247,
+    "alternative": 645,
+    "withheld": 13
+  },
+  "selected_cohorts": {
+    "supplied": 151,
+    "new": 92,
+    "prior_addition": 4
+  },
+  "selected_labels": {
+    "U/N": 56,
+    "U/P": 34,
+    "P/N": 105,
+    "P/P": 19,
+    "N/N": 20,
+    "N/P": 7,
+    "P/U": 6
+  },
+  "selected_anchors": 84,
+  "original_anchors": 32,
+  "parents": 5,
+  "changed_labels": 87,
+  "frames": 212,
+  "max_selected_per_anchor": 8
+}

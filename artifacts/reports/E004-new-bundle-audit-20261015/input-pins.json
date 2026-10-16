@@ -1,0 +1,62 @@
+{
+  "archives": [
+    {
+      "name": "crop_metadata_review.zip",
+      "path": "data/raw/E004-new-bundle-audit-20261015/crop_metadata_review.zip",
+      "sha256": "8a2d4ac7d40c87f20a6481f0f1b173a8be1f3f3ed78b755db079ebf9e72ebed0",
+      "members": 9,
+      "crc": "PASS"
+    },
+    {
+      "name": "crop_review_candidates.zip",
+      "path": "data/raw/E004-new-bundle-audit-20261015/crop_review_candidates.zip",
+      "sha256": "d7fc38f4d8cc37e05859ab96121016cfc69aca6753dc7c734a43b4037b6f216a",
+      "members": 22,
+      "crc": "PASS"
+    },
+    {
+      "name": "crop_main_part_01_A_source.zip",
+      "path": "data/raw/E004-new-bundle-audit-20261015/crop_main_part_01_A_source.zip",
+      "sha256": "cd3b6d176d06fdda711d565f6ff67a45976b53aa74812fd8371230cadbdfc303",
+      "members": 23,
+      "crc": "PASS"
+    },
+    {
+      "name": "crop_main_part_02_B_view_A.zip",
+      "path": "data/raw/E004-new-bundle-audit-20261015/crop_main_part_02_B_view_A.zip",
+      "sha256": "9f2ea34fbf14622003022fb211602c0f118a8ab9cbce88d579728262923bbdf6",
+      "members": 11,
+      "crc": "PASS"
+    },
+    {
+      "name": "crop_main_part_03_B_view_B.zip",
+      "path": "data/raw/E004-new-bundle-audit-20261015/crop_main_part_03_B_view_B.zip",
+      "sha256": "cfb8eb08cd7a7c03dcb3f25669f13bfefc66889cf3407bd753fda84cf842eaa3",
+      "members": 13,
+      "crc": "PASS"
+    },
+    {
+      "name": "crop_main_part_04_B_view_C.zip",
+      "path": "data/raw/E004-new-bundle-audit-20261015/crop_main_part_04_B_view_C.zip",
+      "sha256": "c0de70a6f9f832b04c6dd3cce842db89c73cf859bc95cf085e4f2cd46619ceb4",
+      "members": 8,
+      "crc": "PASS"
+    },
+    {
+      "name": "crop_main_part_05_B_view_D.zip",
+      "path": "data/raw/E004-new-bundle-audit-20261015/crop_main_part_05_B_view_D.zip",
+      "sha256": "f6bc5d5bfceadbd9b5bd6b1aa5424c19b97b8104a1abd2d457a1d4c85459a944",
+      "members": 15,
+      "crc": "PASS"
+    },
+    {
+      "name": "new-yt-videos-run-001-accepted-frames.zip",
+      "path": "data/raw/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames.zip",
+      "sha256": "24433cc1e61fae2c3bd295a42c2308818b9b12779abd2cc56cef2d5aeb825150",
+      "members": 132,
+      "crc": "PASS"
+    }
+  ],
+  "rights": "owner confirmed full rights in task request; no re-query",
+  "labels": "all supplied annotations unreviewed"
+}

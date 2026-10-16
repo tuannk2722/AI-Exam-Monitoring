@@ -132,6 +132,22 @@
         "restored_files": 1588,
         "receipt": "artifacts/reports/E004-RC1-execution-20261014/backup-receipt.json"
       }
+    },
+    {
+      "name": "e004-c345-execution-20261016",
+      "path": "archive/e004-c345-execution-20261016.zip",
+      "sha256": "079d7c30d86593ce0bcf5887be8d9051cda6756e4f21fd889f930cc62a772615",
+      "files": 4121,
+      "unique_blobs": 2230,
+      "original_bytes": 1358067577,
+      "archive_bytes": 1004260013,
+      "scope": "local_only",
+      "owner_authorization": "Approved C345 enrollment/research lifecycle; local preservation only",
+      "validation": {
+        "byte_exact_restore": "PASS",
+        "restored_files": 4121,
+        "receipt": "artifacts/reports/E004-train-enrollment-20261016/backup-receipt.json"
+      }
     }
   ]
 }

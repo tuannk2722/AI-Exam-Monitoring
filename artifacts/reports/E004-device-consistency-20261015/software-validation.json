@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "ruff": "PASS",
+  "python_ast": "PASS",
+  "gallery_javascript": "PASS: scopes, labels, rules, search, reset, first and last pages",
+  "chrome_render": "PASS: 1440x1200 first page; input and source canvas visually checked",
+  "markdown_local_links_checked": 15,
+  "repository_checker": "PASS without --require-git; new report not staged",
+  "diff_check": "PASS",
+  "visual_scope": "247 inputs, 145 source contexts; manual observations are Draft",
+  "scope_limits": "No production/model/train/test changes; software checks are not label acceptance."
+}

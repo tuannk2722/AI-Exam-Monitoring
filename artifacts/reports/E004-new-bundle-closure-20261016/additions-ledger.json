@@ -1,0 +1,392 @@
+[
+  {
+    "id": "NC-001",
+    "frame_num": 9,
+    "anchor_description": "Người áo xanh hàng sau bên trái",
+    "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00009.jpg",
+    "source_sha256": "996bbd55b24843b8faaf62ba547b47a242fa86d8e065197c43c0b9f90ffdf03c",
+    "crop": "data/interim/E004-new-bundle-closure-20261016/NC-001.png",
+    "crop_sha256": "569688c6302ba6fd19732d6658bd9b3621da69303ccbe5fcb3d4d5e6dd4b38fb",
+    "input": "outputs/E004-new-bundle-closure-20261016/NC-001-input.png",
+    "input_sha256": "479b14731ff453febfd66b49d084098ae12a909281750cef35956923e9d73950",
+    "context_xyxy": [
+      590,
+      10,
+      1060,
+      420
+    ],
+    "draft_labels": "U/N",
+    "reason": "Vật trắng trong tay chỉ lộ cạnh/lưng, chưa phân biệt thiết bị; đầu hướng vật/giấy riêng.",
+    "status": "draft_owner_review_required",
+    "training_ready": false,
+    "assigned_split": null,
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "NC-002",
+    "frame_num": 19,
+    "anchor_description": "Người tóc dài tiền cảnh bên trái",
+    "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00019.jpg",
+    "source_sha256": "016f438cdbb11a163e4dd045dc0fbd2b58aba3a25545ff24257fed51b26686f8",
+    "crop": "data/interim/E004-new-bundle-closure-20261016/NC-002.png",
+    "crop_sha256": "6d4d3738eac64c22a7a0f2df5a81544d856c310b21f4dc7f3c700b08109f1122",
+    "input": "outputs/E004-new-bundle-closure-20261016/NC-002-input.png",
+    "input_sha256": "ee9e5fbecc9a987605da7466cab71f4e86d7e015a609232dbe6a8db8b06ca911",
+    "context_xyxy": [
+      0,
+      175,
+      810,
+      1080
+    ],
+    "draft_labels": "N/N",
+    "reason": "Calculator hồng có phím và màn nhỏ rõ; tay còn lại cầm bút, đầu nhìn bài riêng.",
+    "status": "draft_owner_review_required",
+    "training_ready": false,
+    "assigned_split": null,
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "NC-003",
+    "frame_num": 16,
+    "anchor_description": "Người đeo kính bên trái",
+    "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00016.jpg",
+    "source_sha256": "813701ee1750c463034d58a362bbea4e8d03997482d835d7de8342502c5f6666",
+    "crop": "data/interim/E004-new-bundle-closure-20261016/NC-003.png",
+    "crop_sha256": "0ba469ffb70c4fd87d4dd22369028983d97012ed11dec2ee45b40bb80bd998cd",
+    "input": "outputs/E004-new-bundle-closure-20261016/NC-003-input.png",
+    "input_sha256": "059ec6575053130fe7bff70d9307b7f3d6d11cc6302413edd5229454308dbc0a",
+    "context_xyxy": [
+      335,
+      60,
+      735,
+      520
+    ],
+    "draft_labels": "U/N",
+    "reason": "Thiết bị trong tay lộ cạnh/lưng, không lấy thông tin frame 3 để phân loại; nhìn vùng riêng.",
+    "status": "draft_owner_review_required",
+    "training_ready": false,
+    "assigned_split": null,
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "NC-004",
+    "frame_num": 16,
+    "anchor_description": "Người áo xanh giữa phía trước",
+    "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00016.jpg",
+    "source_sha256": "813701ee1750c463034d58a362bbea4e8d03997482d835d7de8342502c5f6666",
+    "crop": "data/interim/E004-new-bundle-closure-20261016/NC-004.png",
+    "crop_sha256": "a6101382cce6b86f53e8141f30670a5e4635adf1eadd83a4bb9c026a1b5ceaff",
+    "input": "outputs/E004-new-bundle-closure-20261016/NC-004-input.png",
+    "input_sha256": "8b1050adb017c6b15b46c59ee1f3dc29df52382a3c98637dac15f115f03eeaeb",
+    "context_xyxy": [
+      620,
+      0,
+      1240,
+      700
+    ],
+    "draft_labels": "N/N",
+    "reason": "Hai tay viết/giữ giấy, không có vật mơ hồ của anchor; đầu cúi bài.",
+    "status": "draft_owner_review_required",
+    "training_ready": false,
+    "assigned_split": null,
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "NC-005",
+    "frame_num": 14,
+    "anchor_description": "Người áo xanh tiền cảnh trái",
+    "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00014.jpg",
+    "source_sha256": "281ccad34ddaf7c68433ccc5d0ebd21a2e02fbcad301deb39c6ad321b4fe283f",
+    "crop": "data/interim/E004-new-bundle-closure-20261016/NC-005.png",
+    "crop_sha256": "ececf6969564247d45ce36739db288be5b6aa7cec73e5a06bbd87bc18a3778a4",
+    "input": "outputs/E004-new-bundle-closure-20261016/NC-005-input.png",
+    "input_sha256": "e6497d96e905f62d981426568906a2727c25f48881c7369c765d57979664987d",
+    "context_xyxy": [
+      0,
+      100,
+      650,
+      870
+    ],
+    "draft_labels": "N/N",
+    "reason": "Tay viết và tay nâng gần mặt không có thiết bị; đầu cúi giấy riêng. Không lấy vật trên bàn người tiền cảnh phải làm phone của anchor.",
+    "status": "draft_owner_review_required",
+    "training_ready": false,
+    "assigned_split": null,
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "NC-006",
+    "frame_num": 14,
+    "anchor_description": "Người đeo kính ở giữa",
+    "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00014.jpg",
+    "source_sha256": "281ccad34ddaf7c68433ccc5d0ebd21a2e02fbcad301deb39c6ad321b4fe283f",
+    "crop": "data/interim/E004-new-bundle-closure-20261016/NC-006.png",
+    "crop_sha256": "3ea4957527dba0971c06973667ebbbddb97594cdf241828e8b8d66bf907a57f8",
+    "input": "outputs/E004-new-bundle-closure-20261016/NC-006-input.png",
+    "input_sha256": "93d908bf1b7ec84f3fb7697a140b4f2dcf68e952ad4d0545830a091300f5d0d7",
+    "context_xyxy": [
+      620,
+      0,
+      1150,
+      560
+    ],
+    "draft_labels": "N/N",
+    "reason": "Hai tay quanh giấy và calculator có keypad; mặt hướng bài riêng.",
+    "status": "draft_owner_review_required",
+    "training_ready": false,
+    "assigned_split": null,
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "NC-007",
+    "frame_num": 13,
+    "anchor_description": "Người tóc dài hàng giữa phía trái",
+    "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00013.jpg",
+    "source_sha256": "228401ae0d8aa0cd78d66651ccb28953b42b9ce57d71670aecad8c640a7d7672",
+    "crop": "data/interim/E004-new-bundle-closure-20261016/NC-007.png",
+    "crop_sha256": "8a12192f5a20e90143f9d75090760bc44742ed0d562983702bd696baa827b158",
+    "input": "outputs/E004-new-bundle-closure-20261016/NC-007-input.png",
+    "input_sha256": "8deed9fe9bfcba52c4301ef68b2289e4b40f365541626fee1435dd507651aeb3",
+    "context_xyxy": [
+      305,
+      190,
+      600,
+      440
+    ],
+    "draft_labels": "N/N",
+    "reason": "Tay viết và tay giữ giấy rõ; đầu cúi vào bài.",
+    "status": "draft_owner_review_required",
+    "training_ready": false,
+    "assigned_split": null,
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "NC-008",
+    "frame_num": 13,
+    "anchor_description": "Người áo xanh đeo kính giữa phải",
+    "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00013.jpg",
+    "source_sha256": "228401ae0d8aa0cd78d66651ccb28953b42b9ce57d71670aecad8c640a7d7672",
+    "crop": "data/interim/E004-new-bundle-closure-20261016/NC-008.png",
+    "crop_sha256": "fff52e1e7a42f2766a2759531eff92206af1733a2df3fa19a41b7fc7ce6128c9",
+    "input": "outputs/E004-new-bundle-closure-20261016/NC-008-input.png",
+    "input_sha256": "f3a830c2126af28796a37933d2cf874d3abdba4dc07d7577821bdccf031ac495",
+    "context_xyxy": [
+      975,
+      205,
+      1225,
+      438
+    ],
+    "draft_labels": "N/N",
+    "reason": "Hai tay quanh giấy, không có thiết bị mơ hồ; mặt hướng bài riêng.",
+    "status": "draft_owner_review_required",
+    "training_ready": false,
+    "assigned_split": null,
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "NC-009",
+    "frame_num": 13,
+    "anchor_description": "Người khoác trắng xanh sau bên phải",
+    "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00013.jpg",
+    "source_sha256": "228401ae0d8aa0cd78d66651ccb28953b42b9ce57d71670aecad8c640a7d7672",
+    "crop": "data/interim/E004-new-bundle-closure-20261016/NC-009.png",
+    "crop_sha256": "b47a32f00abcbf486b4ae9f9399d97ed24bff6460862655084c98afff15b4838",
+    "input": "outputs/E004-new-bundle-closure-20261016/NC-009-input.png",
+    "input_sha256": "e441848b97011458c8a98b4cb546d3ead744b92e24b57d297b4a87e3731b5064",
+    "context_xyxy": [
+      1175,
+      160,
+      1425,
+      400
+    ],
+    "draft_labels": "N/N",
+    "reason": "Kiểm native và input: tay cầm bút ở trước, tay còn lại đặt trên bài đều thấy, không có thiết bị mơ hồ; đầu hướng bài riêng.",
+    "status": "draft_owner_review_required",
+    "training_ready": false,
+    "assigned_split": null,
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "NC-010",
+    "frame_num": 13,
+    "anchor_description": "Người áo xanh phía trước bên phải",
+    "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00013.jpg",
+    "source_sha256": "228401ae0d8aa0cd78d66651ccb28953b42b9ce57d71670aecad8c640a7d7672",
+    "crop": "data/interim/E004-new-bundle-closure-20261016/NC-010.png",
+    "crop_sha256": "093aa539f125809a0db430862d648743723b16905de085bf16a550bdb9ddacc7",
+    "input": "outputs/E004-new-bundle-closure-20261016/NC-010-input.png",
+    "input_sha256": "c2ff05ac8c552fe07f2e0ee7ff9f7d0924186ccf1c5f3ffa065f466c2324e991",
+    "context_xyxy": [
+      1385,
+      235,
+      1655,
+      590
+    ],
+    "draft_labels": "U/N",
+    "reason": "Tay bị người nam tiền cảnh che một phần; đầu hướng giấy riêng.",
+    "status": "draft_owner_review_required",
+    "training_ready": false,
+    "assigned_split": null,
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "NC-011",
+    "frame_num": 13,
+    "anchor_description": "Người đeo kính chống trán phía phải",
+    "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00013.jpg",
+    "source_sha256": "228401ae0d8aa0cd78d66651ccb28953b42b9ce57d71670aecad8c640a7d7672",
+    "crop": "data/interim/E004-new-bundle-closure-20261016/NC-011.png",
+    "crop_sha256": "8476d6afe8897edff8651c8daa82092f45309af611d20f52183f21341dacb243",
+    "input": "outputs/E004-new-bundle-closure-20261016/NC-011-input.png",
+    "input_sha256": "e35b68bfd089b0a9ffaaf835fc03fd64fda5ddb7380a1d4fb708fdd646734c93",
+    "context_xyxy": [
+      1560,
+      215,
+      1755,
+      480
+    ],
+    "draft_labels": "N/N",
+    "reason": "Tay tựa trán và tay trên bài; không thấy thiết bị mơ hồ, hướng đầu vào bài.",
+    "status": "draft_owner_review_required",
+    "training_ready": false,
+    "assigned_split": null,
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "NC-012",
+    "frame_num": 3,
+    "anchor_description": "Người đeo kính bên trái",
+    "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00003.jpg",
+    "source_sha256": "7afbbd830ee30b33ef0acc54f20e78bd6cbef01bf64935bedf7df474e207a332",
+    "crop": "data/interim/E004-new-bundle-closure-20261016/NC-012.png",
+    "crop_sha256": "e25db4b95f695643ead29f9ed5ff0817e44942ab54e5aec5c9f4a0f27fa1b1a2",
+    "input": "outputs/E004-new-bundle-closure-20261016/NC-012-input.png",
+    "input_sha256": "7f409c16480ee654474fcd2d963ea8a335802699531f7b0f9b15f1ce2920f076",
+    "context_xyxy": [
+      350,
+      65,
+      755,
+      530
+    ],
+    "draft_labels": "N/N",
+    "reason": "Mặt calculator có hàng phím còn thấy trong crop, hai tay quanh máy; nhìn thiết bị riêng.",
+    "status": "draft_owner_review_required",
+    "training_ready": false,
+    "assigned_split": null,
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "NC-013",
+    "frame_num": 2,
+    "anchor_description": "Người đeo kính phía phải",
+    "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00002.jpg",
+    "source_sha256": "79e265d8c7d7a9dcaab516e9ae39985d23de4d754769e85a02e238f461439f6a",
+    "crop": "data/interim/E004-new-bundle-closure-20261016/NC-013.png",
+    "crop_sha256": "5582f4300519397878495129de464f4bf34ada00e9679d44478a06cb88712965",
+    "input": "outputs/E004-new-bundle-closure-20261016/NC-013-input.png",
+    "input_sha256": "c88860ec09ca85e94ba409fb140545fd1cb4ffc86813d19aeb6d0fc849ed5aa9",
+    "context_xyxy": [
+      1360,
+      470,
+      1920,
+      985
+    ],
+    "draft_labels": "U/N",
+    "reason": "Vật trong tay chỉ thấy lưng/cạnh, thiếu đặc trưng loại thiết bị; đầu hướng vật/bài riêng.",
+    "status": "draft_owner_review_required",
+    "training_ready": false,
+    "assigned_split": null,
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ]
+  }
+]

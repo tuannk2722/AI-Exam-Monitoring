@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checked_prediction_files": 4,
+  "membership": [
+    716,
+    71
+  ],
+  "checked_manifest_and_payload_pins": true,
+  "checked_labels_masks_groups_sources": true,
+  "cropped_media_decoded": 44,
+  "exact_input_pixel_parity": 44,
+  "test_reserve_media_accessed": false,
+  "new_inference": false,
+  "label_changes": false,
+  "scope_note": "Manifest metadata includes other splits; only exact train/selection membership used."
+}

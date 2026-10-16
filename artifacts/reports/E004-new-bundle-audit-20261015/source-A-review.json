@@ -1,0 +1,1096 @@
+{
+  "status": "draft_visual_audit_not_acceptance",
+  "scope": {
+    "supplied_crops": 22,
+    "source_frames_screened": 21,
+    "native_contexts_viewed": 22,
+    "native_full_frames_viewed": [
+      2,
+      14,
+      15,
+      24
+    ],
+    "derivative_inputs_viewed": 10
+  },
+  "rubric": "artifacts/reports/E004-device-consistency-20261015/rubric.md",
+  "supplied_reviews": [
+    {
+      "id": "NB-0001",
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00003.jpg",
+      "source_sha256": "7afbbd830ee30b33ef0acc54f20e78bd6cbef01bf64935bedf7df474e207a332",
+      "crop": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A02_front_blue_phone/A02_front_blue_phone_f00003_holding_visible_phone.jpg",
+      "crop_sha256": "f5c5a330f2d5c03d89217865951d0334ec2abdb98734d23c397a24863a0c37d2",
+      "input": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A02_front_blue_phone/A02_front_blue_phone_f00003_holding_visible_phone.jpg",
+      "context_xyxy": [
+        1085,
+        240,
+        1920,
+        1075
+      ],
+      "frame_num": 3,
+      "anchor_id": "A02_front_blue_phone",
+      "draft_labels": "U/N",
+      "anchor_description": "Người áo xanh tóc mái phía trước, cầm vật đen",
+      "phone_reason": "Vật cầm chỉ lộ cạnh và mặt lưng, không thấy mặt kính lớn hoặc camera; động tác bấm không đủ phân biệt calculator.",
+      "looking_reason": "Mặt hướng trực tiếp vào vật trên vùng sách riêng.",
+      "disposition": "keep",
+      "visual_evidence": [
+        "supplied_224",
+        "same_frame_native_context",
+        "frame_overview"
+      ],
+      "training_ready": false,
+      "assigned_split": null
+    },
+    {
+      "id": "NB-0002",
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00003.jpg",
+      "source_sha256": "7afbbd830ee30b33ef0acc54f20e78bd6cbef01bf64935bedf7df474e207a332",
+      "crop": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A03_center_blue_reading/A03_center_blue_reading_f00003_reading_paper.jpg",
+      "crop_sha256": "07f54e74d897a1fd925a25e3c80ed5884887ee25e836674f3e10ef278e526aa7",
+      "input": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A03_center_blue_reading/A03_center_blue_reading_f00003_reading_paper.jpg",
+      "context_xyxy": [
+        616,
+        21,
+        1334,
+        739
+      ],
+      "frame_num": 3,
+      "anchor_id": "A03_center_blue_reading",
+      "draft_labels": "N/N",
+      "anchor_description": "Người áo xanh giữa hình, tay gần miệng",
+      "phone_reason": "Hai bàn tay thấy rõ: một tay cầm bút gần miệng, một tay đặt trên giấy; vùng bàn không có thiết bị chưa phân loại của anchor.",
+      "looking_reason": "Đầu và mặt hướng xuống tờ giấy riêng.",
+      "disposition": "keep",
+      "visual_evidence": [
+        "supplied_224",
+        "same_frame_native_context",
+        "frame_overview"
+      ],
+      "training_ready": false,
+      "assigned_split": null
+    },
+    {
+      "id": "NB-0003",
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00004.jpg",
+      "source_sha256": "b217d840bede51a96d476a409688de6b16ca027d0e74a81e164437afe4d7d10b",
+      "crop": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A05_front_white_phone/A05_front_white_phone_f00004_holding_visible_phone.jpg",
+      "crop_sha256": "8798a163f035971250ff221ae9eade1ca034533a2e3d760f9407a7cfd16d3f1c",
+      "input": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A05_front_white_phone/A05_front_white_phone_f00004_holding_visible_phone.jpg",
+      "context_xyxy": [
+        624,
+        32,
+        1672,
+        1080
+      ],
+      "frame_num": 4,
+      "anchor_id": "A05_front_white_phone",
+      "draft_labels": "U/N",
+      "anchor_description": "Người tóc dài tết hai bên, cầm vật trắng trước mặt",
+      "phone_reason": "Mặt trắng trơn hướng máy ảnh, không có đặc trưng phân biệt phone/calculator.",
+      "looking_reason": "Đầu hướng vào vật cầm sát vùng bài riêng; không phải nhìn người bên trái.",
+      "disposition": "keep",
+      "visual_evidence": [
+        "supplied_224",
+        "same_frame_native_context",
+        "frame_overview"
+      ],
+      "training_ready": false,
+      "assigned_split": null
+    },
+    {
+      "id": "NB-0004",
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00004.jpg",
+      "source_sha256": "b217d840bede51a96d476a409688de6b16ca027d0e74a81e164437afe4d7d10b",
+      "crop": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A06_left_bob_calculator/A06_left_bob_calculator_f00004_turning_paper_with_calculator_on_desk.jpg",
+      "crop_sha256": "5036a396c4c09e415c50436cc365683572b3ebacd37539451c27d7d6f2bd4ae7",
+      "input": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A06_left_bob_calculator/A06_left_bob_calculator_f00004_turning_paper_with_calculator_on_desk.jpg",
+      "context_xyxy": [
+        128,
+        0,
+        1035,
+        907
+      ],
+      "frame_num": 4,
+      "anchor_id": "A06_left_bob_calculator",
+      "draft_labels": "N/P",
+      "anchor_description": "Người tóc bob đeo kính bên trái",
+      "phone_reason": "Calculator có màn hình nhỏ và nhiều hàng phím rõ trên bàn; hai tay đang cầm bút và giấy, không có phone riêng rõ hoặc vật mơ hồ khác.",
+      "looking_reason": "Mặt và mắt hướng lên bên trái, ra khỏi giấy/bàn riêng.",
+      "disposition": "keep",
+      "visual_evidence": [
+        "supplied_224",
+        "same_frame_native_context",
+        "frame_overview"
+      ],
+      "training_ready": false,
+      "assigned_split": null
+    },
+    {
+      "id": "NB-0005",
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00004.jpg",
+      "source_sha256": "b217d840bede51a96d476a409688de6b16ca027d0e74a81e164437afe4d7d10b",
+      "crop": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A07_back_blue_calculator/A07_back_blue_calculator_f00004_using_calculator.jpg",
+      "crop_sha256": "4dede529f62e0e0939ae019490fa9fb523035c6ed1d15807dc4d592e7bb85675",
+      "input": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A07_back_blue_calculator/A07_back_blue_calculator_f00004_using_calculator.jpg",
+      "context_xyxy": [
+        1329,
+        0,
+        1903,
+        574
+      ],
+      "frame_num": 4,
+      "anchor_id": "A07_back_blue_calculator",
+      "draft_labels": "N/N",
+      "anchor_description": "Người tóc dài buộc sau đang bấm calculator",
+      "phone_reason": "Cụm phím calculator rõ dưới hai bàn tay; vùng giấy còn lại không có vật chưa phân loại.",
+      "looking_reason": "Mặt hướng xuống calculator và giấy riêng.",
+      "disposition": "keep",
+      "visual_evidence": [
+        "supplied_224",
+        "same_frame_native_context",
+        "frame_overview"
+      ],
+      "training_ready": false,
+      "assigned_split": null
+    },
+    {
+      "id": "NB-0006",
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00005.jpg",
+      "source_sha256": "c1a5d47dc6e04b1c47a76a891536cc6059fed2ad67089204ce3dfbc44f0351cb",
+      "crop": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A08_front_pigtail_calculator/A08_front_pigtail_calculator_f00005_holding_calculator_while_writing.jpg",
+      "crop_sha256": "5b205873b9de78c08f2fc7faceefbea70f43606a849617ce610de548c8f9f014",
+      "input": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A08_front_pigtail_calculator/A08_front_pigtail_calculator_f00005_holding_calculator_while_writing.jpg",
+      "context_xyxy": [
+        1043,
+        207,
+        1915,
+        1079
+      ],
+      "frame_num": 5,
+      "anchor_id": "A08_front_pigtail_calculator",
+      "draft_labels": "N/N",
+      "anchor_description": "Người tóc buộc hai bên phía trước, cầm calculator đen",
+      "phone_reason": "Vật cầm có màn hình nhỏ và hàng phím rõ ngay trong input; tay kia cầm bút viết, không lấy vật hồng của người bên trái làm phone của anchor.",
+      "looking_reason": "Mặt hướng xuống vùng giấy/calculator riêng.",
+      "disposition": "keep",
+      "visual_evidence": [
+        "supplied_224",
+        "same_frame_native_context",
+        "frame_overview"
+      ],
+      "training_ready": false,
+      "assigned_split": null
+    },
+    {
+      "id": "NB-0007",
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00005.jpg",
+      "source_sha256": "c1a5d47dc6e04b1c47a76a891536cc6059fed2ad67089204ce3dfbc44f0351cb",
+      "crop": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A09_middle_glasses_pinkphone/A09_middle_glasses_pinkphone_f00005_holding_visible_phone.jpg",
+      "crop_sha256": "766ff662602b3078ecc5cad0366a2bd76d5d4d798ada3e3c57e1e1d9809abee1",
+      "input": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A09_middle_glasses_pinkphone/A09_middle_glasses_pinkphone_f00005_holding_visible_phone.jpg",
+      "context_xyxy": [
+        693,
+        99,
+        1375,
+        781
+      ],
+      "frame_num": 5,
+      "anchor_id": "A09_middle_glasses_pinkphone",
+      "draft_labels": "U/N",
+      "anchor_description": "Người kính trong, dây đeo xanh nhạt, cầm vật hồng",
+      "phone_reason": "Chỉ thấy lưng/cạnh vỏ hồng trơn; không xác định mobile từ màu và dáng cầm.",
+      "looking_reason": "Mặt hướng trực tiếp vào vật trên giấy riêng.",
+      "disposition": "keep",
+      "visual_evidence": [
+        "supplied_224",
+        "same_frame_native_context",
+        "frame_overview"
+      ],
+      "training_ready": false,
+      "assigned_split": null
+    },
+    {
+      "id": "NB-0008",
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00005.jpg",
+      "source_sha256": "c1a5d47dc6e04b1c47a76a891536cc6059fed2ad67089204ce3dfbc44f0351cb",
+      "crop": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A10_middle_blue_writing/A10_middle_blue_writing_f00005_writing_paper.jpg",
+      "crop_sha256": "ccc5b10f13124bff5c8351bdc33dd1d4803f1b3219e8576ab9aebf2786730102",
+      "input": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A10_middle_blue_writing/A10_middle_blue_writing_f00005_writing_paper.jpg",
+      "context_xyxy": [
+        348,
+        109,
+        881,
+        642
+      ],
+      "frame_num": 5,
+      "anchor_id": "A10_middle_blue_writing",
+      "draft_labels": "N/N",
+      "anchor_description": "Người áo xanh tóc mái cúi viết ở giữa",
+      "phone_reason": "Tay viết và tay đặt giấy đều thấy; túi bút che một phần bàn nhưng không có thiết bị mơ hồ còn lộ của anchor. Vật hồng bên phải thuộc người khác.",
+      "looking_reason": "Mặt hướng xuống chỗ bút viết trên giấy riêng.",
+      "disposition": "keep",
+      "visual_evidence": [
+        "supplied_224",
+        "same_frame_native_context",
+        "frame_overview"
+      ],
+      "training_ready": false,
+      "assigned_split": null
+    },
+    {
+      "id": "NB-0009",
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00005.jpg",
+      "source_sha256": "c1a5d47dc6e04b1c47a76a891536cc6059fed2ad67089204ce3dfbc44f0351cb",
+      "crop": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A11_left_blue_writing/A11_left_blue_writing_f00005_writing_paper.jpg",
+      "crop_sha256": "4ecf735a41bb5c950e1627047730b45f453bef15c7a21cd2744bb949bbbe1988",
+      "input": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A11_left_blue_writing/A11_left_blue_writing_f00005_writing_paper.jpg",
+      "context_xyxy": [
+        86,
+        117,
+        529,
+        560
+      ],
+      "frame_num": 5,
+      "anchor_id": "A11_left_blue_writing",
+      "draft_labels": "N/N",
+      "anchor_description": "Người áo xanh tóc buộc sát tường trái",
+      "phone_reason": "Hai tay trên giấy, calculator có phím rõ ở bàn; không thấy vật chưa phân loại trong phần làm việc của anchor.",
+      "looking_reason": "Mặt hướng xuống tờ giấy riêng.",
+      "disposition": "keep",
+      "visual_evidence": [
+        "supplied_224",
+        "same_frame_native_context",
+        "frame_overview"
+      ],
+      "training_ready": false,
+      "assigned_split": null
+    },
+    {
+      "id": "NB-0010",
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00006.jpg",
+      "source_sha256": "cf578114c85cf0070f848ee606f2c9620b47eb0a5fe689db2667f44f9978e461",
+      "crop": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A12_front_longhair_writing/A12_front_longhair_writing_f00006_writing_paper.jpg",
+      "crop_sha256": "df3a68679f620bc6d4759b4192cb704ab1f127e47b5a1288b5a0ea483f6ec59e",
+      "input": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A12_front_longhair_writing/A12_front_longhair_writing_f00006_writing_paper.jpg",
+      "context_xyxy": [
+        0,
+        126,
+        954,
+        1080
+      ],
+      "frame_num": 6,
+      "anchor_id": "A12_front_longhair_writing",
+      "draft_labels": "N/N",
+      "anchor_description": "Người tóc dài phía trước, đồng hồ trắng",
+      "phone_reason": "Calculator hồng ép vào ngực vẫn lộ bàn phím; vật hồng trên bàn có cấu trúc nắp rỗng, không lấy thiết bị người phía sau làm của anchor.",
+      "looking_reason": "Mắt/mặt hướng xuống trang đang viết.",
+      "disposition": "keep",
+      "visual_evidence": [
+        "supplied_224",
+        "same_frame_native_context",
+        "frame_overview"
+      ],
+      "training_ready": false,
+      "assigned_split": null
+    },
+    {
+      "id": "NB-0011",
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00006.jpg",
+      "source_sha256": "cf578114c85cf0070f848ee606f2c9620b47eb0a5fe689db2667f44f9978e461",
+      "crop": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A13_right_front_blue_writing/A13_right_front_blue_writing_f00006_writing_paper.jpg",
+      "crop_sha256": "b6f67769cbb3de4b3fe8a9e9f503cc05fba2894a41ab1404d4f26c08a34259f7",
+      "input": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A13_right_front_blue_writing/A13_right_front_blue_writing_f00006_writing_paper.jpg",
+      "context_xyxy": [
+        796,
+        152,
+        1353,
+        709
+      ],
+      "frame_num": 6,
+      "anchor_id": "A13_right_front_blue_writing",
+      "draft_labels": "N/N",
+      "anchor_description": "Người áo xanh bên phải, hai tay khoanh trước ngực",
+      "phone_reason": "Hai bàn tay khoanh thấy rõ, một tay cầm bút; không có phone hoặc vật mơ hồ trong vùng bài crop.",
+      "looking_reason": "Mặt cúi về tờ giấy ngay trước hai tay.",
+      "disposition": "keep",
+      "visual_evidence": [
+        "supplied_224",
+        "same_frame_native_context",
+        "frame_overview"
+      ],
+      "training_ready": false,
+      "assigned_split": null
+    },
+    {
+      "id": "NB-0012",
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00007.jpg",
+      "source_sha256": "483f0e80ebd53441b9df179ff4ef893ace91a62baa986ad1d51ee6aa24367510",
+      "crop": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A14_front_blue_writing/A14_front_blue_writing_f00007_writing_paper.jpg",
+      "crop_sha256": "cb03ce0b4d1b8301d2769b81d765ad5fbde0d5b25773e5b986f1259ff3ea0b20",
+      "input": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A14_front_blue_writing/A14_front_blue_writing_f00007_writing_paper.jpg",
+      "context_xyxy": [
+        0,
+        54,
+        1021,
+        1075
+      ],
+      "frame_num": 7,
+      "anchor_id": "A14_front_blue_writing",
+      "draft_labels": "U/N",
+      "anchor_description": "Người áo xanh dây hồng ở trước",
+      "phone_reason": "Crop cũ cắt hẳn bàn tay phía phải; không kết luận absence từ crop cũ. Bản R1 mở sang phải để phục hồi tay.",
+      "looking_reason": "Hướng mặt rõ về trang đang đọc.",
+      "disposition": "recrop",
+      "visual_evidence": [
+        "supplied_224",
+        "same_frame_native_context",
+        "frame_overview"
+      ],
+      "training_ready": false,
+      "assigned_split": null,
+      "replacement_id": "NB-0012-R1",
+      "proposedbox": [
+        0,
+        20,
+        1290,
+        1080
+      ]
+    },
+    {
+      "id": "NB-0013",
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00007.jpg",
+      "source_sha256": "483f0e80ebd53441b9df179ff4ef893ace91a62baa986ad1d51ee6aa24367510",
+      "crop": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A15_back_whiteblue_writing/A15_back_whiteblue_writing_f00007_writing_paper.jpg",
+      "crop_sha256": "f4cea9b9c02e2c8de6d56a2cc85a5221c4f127e719b416462d35a31f07c1b69f",
+      "input": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A15_back_whiteblue_writing/A15_back_whiteblue_writing_f00007_writing_paper.jpg",
+      "context_xyxy": [
+        746,
+        0,
+        1667,
+        921
+      ],
+      "frame_num": 7,
+      "anchor_id": "A15_back_whiteblue_writing",
+      "draft_labels": "U/N",
+      "anchor_description": "Người áo khoác trắng xanh phía sau",
+      "phone_reason": "Tay cầm bút rõ và calculator có phím rõ, nhưng bàn tay còn lại bị tay áo/đầu che; calculator không đủ tự kết luận absence.",
+      "looking_reason": "Đầu và bút cùng hướng vào giấy riêng.",
+      "disposition": "keep",
+      "visual_evidence": [
+        "supplied_224",
+        "same_frame_native_context",
+        "frame_overview"
+      ],
+      "training_ready": false,
+      "assigned_split": null
+    },
+    {
+      "id": "NB-0014",
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00008.jpg",
+      "source_sha256": "e1b9803689e05128019465c335c1e03d242ddb3736c5201efd1007b5bfe4f31b",
+      "crop": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A16_right_glasses_pink_calculator/A16_right_glasses_pink_calculator_f00008_writing_with_calculator_on_desk.jpg",
+      "crop_sha256": "612a25c1a65f5a245dc6f15f154c69486ac2a49a08a7702c799b2e2fa6b0cbda",
+      "input": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A16_right_glasses_pink_calculator/A16_right_glasses_pink_calculator_f00008_writing_with_calculator_on_desk.jpg",
+      "context_xyxy": [
+        802,
+        0,
+        1882,
+        1080
+      ],
+      "frame_num": 8,
+      "anchor_id": "A16_right_glasses_pink_calculator",
+      "draft_labels": "N/N",
+      "anchor_description": "Người kính lớn, áo xanh, dây đeo trắng",
+      "phone_reason": "Hai bàn tay viết/giữ giấy thấy rõ; calculator hồng nằm ngoài crop này nên không viện dẫn calculator làm evidence cho crop cũ.",
+      "looking_reason": "Mặt hướng xuống giấy đang viết.",
+      "disposition": "keep",
+      "visual_evidence": [
+        "supplied_224",
+        "same_frame_native_context",
+        "frame_overview"
+      ],
+      "training_ready": false,
+      "assigned_split": null
+    },
+    {
+      "id": "NB-0015",
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00008.jpg",
+      "source_sha256": "e1b9803689e05128019465c335c1e03d242ddb3736c5201efd1007b5bfe4f31b",
+      "crop": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A17_left_whiteblue_writing/A17_left_whiteblue_writing_f00008_writing_paper.jpg",
+      "crop_sha256": "e226163e2c9310a66f3e701a355c653c2dfd34b0e0ef7bacbb21acb1b2ca6fe3",
+      "input": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A17_left_whiteblue_writing/A17_left_whiteblue_writing_f00008_writing_paper.jpg",
+      "context_xyxy": [
+        0,
+        0,
+        1019,
+        1019
+      ],
+      "frame_num": 8,
+      "anchor_id": "A17_left_whiteblue_writing",
+      "draft_labels": "U/N",
+      "anchor_description": "Người áo khoác trắng xanh cúi sát giấy",
+      "phone_reason": "Calculator có phím rõ nhưng một bàn tay hoàn toàn khuất dưới phần tay áo/đầu; phone vẫn U.",
+      "looking_reason": "Hướng đầu xuống giấy và tay bút đủ rõ dù không thấy mắt.",
+      "disposition": "keep",
+      "visual_evidence": [
+        "supplied_224",
+        "same_frame_native_context",
+        "frame_overview"
+      ],
+      "training_ready": false,
+      "assigned_split": null
+    },
+    {
+      "id": "NB-0016",
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00009.jpg",
+      "source_sha256": "996bbd55b24843b8faaf62ba547b47a242fa86d8e065197c43c0b9f90ffdf03c",
+      "crop": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A18_front_whiteblue_reading/A18_front_whiteblue_reading_f00009_reading_own_paper.jpg",
+      "crop_sha256": "95a2d665183f13e53376f1db1ad34ce2fc8c561cc9752158e96b7a9c06005f0a",
+      "input": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A18_front_whiteblue_reading/A18_front_whiteblue_reading_f00009_reading_own_paper.jpg",
+      "context_xyxy": [
+        574,
+        171,
+        1483,
+        1080
+      ],
+      "frame_num": 9,
+      "anchor_id": "A18_front_whiteblue_reading",
+      "draft_labels": "N/N",
+      "anchor_description": "Người áo khoác trắng xanh, tay chống má",
+      "phone_reason": "Một tay đặt/di trên giấy, tay kia chống má đều rõ; các calculator trên bàn có phím, vật xanh mỏng là bút/thước, không có mobile rõ.",
+      "looking_reason": "Mặt và tay chỉ cùng hướng vào trang giấy riêng.",
+      "disposition": "keep",
+      "visual_evidence": [
+        "supplied_224",
+        "same_frame_native_context",
+        "frame_overview"
+      ],
+      "training_ready": false,
+      "assigned_split": null
+    },
+    {
+      "id": "NB-0017",
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00009.jpg",
+      "source_sha256": "996bbd55b24843b8faaf62ba547b47a242fa86d8e065197c43c0b9f90ffdf03c",
+      "crop": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A19_left_blue_writing/A19_left_blue_writing_f00009_writing_paper.jpg",
+      "crop_sha256": "fd54a40a449eb38d6ffbece2036d0a1ee91ed0422ba5b1ea81d591dde5096578",
+      "input": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A19_left_blue_writing/A19_left_blue_writing_f00009_writing_paper.jpg",
+      "context_xyxy": [
+        0,
+        34,
+        654,
+        688
+      ],
+      "frame_num": 9,
+      "anchor_id": "A19_left_blue_writing",
+      "draft_labels": "U/N",
+      "anchor_description": "Người áo xanh tóc búi với dây buộc trắng",
+      "phone_reason": "Tay bút rõ nhưng bàn tay còn lại đi khỏi mép trái và bị đồ/vùng crop che; chưa xác nhận absence.",
+      "looking_reason": "Mặt hướng xuống giấy nơi đang viết.",
+      "disposition": "keep",
+      "visual_evidence": [
+        "supplied_224",
+        "same_frame_native_context",
+        "frame_overview"
+      ],
+      "training_ready": false,
+      "assigned_split": null
+    },
+    {
+      "id": "NB-0018",
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00010.jpg",
+      "source_sha256": "a35dab238ee20904f16fb909d54af6d93bf84fe71a3c44f34d8957c984dff559",
+      "crop": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A20_front_blue_writing/A20_front_blue_writing_f00010_writing_paper.jpg",
+      "crop_sha256": "d93fa76d7e47a10e2e18bb0a56caf8e3415c22a5116da49145c2d0207dc016a7",
+      "input": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A20_front_blue_writing/A20_front_blue_writing_f00010_writing_paper.jpg",
+      "context_xyxy": [
+        21,
+        0,
+        1101,
+        1080
+      ],
+      "frame_num": 10,
+      "anchor_id": "A20_front_blue_writing",
+      "draft_labels": "U/N",
+      "anchor_description": "Người áo xanh tóc ngắn phía trước",
+      "phone_reason": "Crop cũ cắt bàn tay ở mép phải; đề xuất mở crop R1 để thấy đầy đủ hai tay.",
+      "looking_reason": "Mặt hướng xuống trang giấy riêng.",
+      "disposition": "recrop",
+      "visual_evidence": [
+        "supplied_224",
+        "same_frame_native_context",
+        "frame_overview"
+      ],
+      "training_ready": false,
+      "assigned_split": null,
+      "replacement_id": "NB-0018-R1",
+      "proposedbox": [
+        0,
+        0,
+        1300,
+        1080
+      ]
+    },
+    {
+      "id": "NB-0019",
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00010.jpg",
+      "source_sha256": "a35dab238ee20904f16fb909d54af6d93bf84fe71a3c44f34d8957c984dff559",
+      "crop": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A21_back_blue_glasses_calc/A21_back_blue_glasses_calc_f00010_writing_with_calculator_on_desk.jpg",
+      "crop_sha256": "52c99752ae3e6d30ce18e658103cc9df1e6e71b35fd1bcfde5efc3509ff9f10e",
+      "input": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A21_back_blue_glasses_calc/A21_back_blue_glasses_calc_f00010_writing_with_calculator_on_desk.jpg",
+      "context_xyxy": [
+        794,
+        0,
+        1653,
+        859
+      ],
+      "frame_num": 10,
+      "anchor_id": "A21_back_blue_glasses_calc",
+      "draft_labels": "N/N",
+      "anchor_description": "Người áo xanh đeo kính phía sau bên phải",
+      "phone_reason": "Hai bàn tay viết/giữ giấy rõ; calculator bàn phím rõ ở mép phải, không có vật mơ hồ của anchor.",
+      "looking_reason": "Mặt hướng vào điểm đang viết trên giấy riêng.",
+      "disposition": "keep",
+      "visual_evidence": [
+        "supplied_224",
+        "same_frame_native_context",
+        "frame_overview"
+      ],
+      "training_ready": false,
+      "assigned_split": null
+    },
+    {
+      "id": "NB-0020",
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00013.jpg",
+      "source_sha256": "228401ae0d8aa0cd78d66651ccb28953b42b9ce57d71670aecad8c640a7d7672",
+      "crop": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A22_midright_blue_writing/A22_midright_blue_writing_f00013_writing_paper.jpg",
+      "crop_sha256": "adc0af37df2f913bc8717730af09d5608d1656c80a61f763202ad530200b4006",
+      "input": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A22_midright_blue_writing/A22_midright_blue_writing_f00013_writing_paper.jpg",
+      "context_xyxy": [
+        964,
+        358,
+        1648,
+        1042
+      ],
+      "frame_num": 13,
+      "anchor_id": "A22_midright_blue_writing",
+      "draft_labels": "N/N",
+      "anchor_description": "Người áo xanh nghiêng người viết ở dãy phải",
+      "phone_reason": "Hai tay viết/giữ giấy nhìn rõ; phần calculator còn lộ dưới giấy vẫn có hàng phím, không chỉ một cạnh đen.",
+      "looking_reason": "Đầu nghiêng nhưng hướng vào giấy riêng, không tự gán looking P từ dáng nghiêng.",
+      "disposition": "keep",
+      "visual_evidence": [
+        "supplied_224",
+        "same_frame_native_context",
+        "frame_overview"
+      ],
+      "training_ready": false,
+      "assigned_split": null
+    },
+    {
+      "id": "NB-0021",
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00013.jpg",
+      "source_sha256": "228401ae0d8aa0cd78d66651ccb28953b42b9ce57d71670aecad8c640a7d7672",
+      "crop": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A23_front_blue_writing_calc/A23_front_blue_writing_calc_f00013_writing_with_calculator_on_desk.jpg",
+      "crop_sha256": "5fea7e0d8f7a77660804ae239fe0fdcea99ea805d0323dd43f69b98e0ac61535",
+      "input": "data/interim/E004-new-bundle-audit-20261015/crop_main_part_01_A_source/crops/source_A/A23_front_blue_writing_calc/A23_front_blue_writing_calc_f00013_writing_with_calculator_on_desk.jpg",
+      "context_xyxy": [
+        341,
+        250,
+        1171,
+        1080
+      ],
+      "frame_num": 13,
+      "anchor_id": "A23_front_blue_writing_calc",
+      "draft_labels": "N/N",
+      "anchor_description": "Người áo xanh tóc mái đeo dây chuyền phía trước",
+      "phone_reason": "Hai tay và calculator bàn phím rõ trên bàn riêng; vật trắng do người phía sau cầm không thuộc anchor.",
+      "looking_reason": "Đầu/mặt hướng vào điểm bút đang viết.",
+      "disposition": "keep",
+      "visual_evidence": [
+        "supplied_224",
+        "same_frame_native_context",
+        "frame_overview"
+      ],
+      "training_ready": false,
+      "assigned_split": null
+    },
+    {
+      "id": "NB-0022",
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00013.jpg",
+      "source_sha256": "228401ae0d8aa0cd78d66651ccb28953b42b9ce57d71670aecad8c640a7d7672",
+      "crop": "data/interim/E004-new-bundle-audit-20261015/crop_review_candidates/crops/source_A/A24_center_blue_writing/A24_center_blue_writing_f00013_writing_paper.jpg",
+      "crop_sha256": "d661f825e1d60a8b6604a6b913a93ef1e6f158a0d437af3b335cb9398c48e074",
+      "input": "data/interim/E004-new-bundle-audit-20261015/crop_review_candidates/crops/source_A/A24_center_blue_writing/A24_center_blue_writing_f00013_writing_paper.jpg",
+      "context_xyxy": [
+        557,
+        137,
+        1016,
+        596
+      ],
+      "frame_num": 13,
+      "anchor_id": "A24_center_blue_writing",
+      "draft_labels": "U/N",
+      "anchor_description": "Người áo xanh kính trong ở giữa, cầm vật trắng",
+      "phone_reason": "Vật trắng chỉ lộ lưng/cạnh trong tay trái; không dùng chữ metadata writing để bỏ qua vật.",
+      "looking_reason": "Mặt hướng vào vật/giấy trong vùng bài riêng.",
+      "disposition": "keep",
+      "visual_evidence": [
+        "supplied_224",
+        "same_frame_native_context",
+        "frame_overview"
+      ],
+      "training_ready": false,
+      "assigned_split": null
+    }
+  ],
+  "derivative_reviews": [
+    {
+      "id": "NB-0012-R1",
+      "frame_num": 7,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00007.jpg",
+      "context_xyxy": [
+        0,
+        20,
+        1290,
+        1080
+      ],
+      "crop": "data/interim/E004-new-bundle-audit-20261015/agent-A/NB-0012-R1.png",
+      "input": "outputs/E004-new-bundle-audit-20261015/agent-A/NB-0012-R1-input.png",
+      "draft_labels": "N/N",
+      "anchor_description": "Người áo xanh dây hồng ở trước",
+      "phone_reason": "Crop rộng hơn thấy hai bàn tay trên giấy, không có thiết bị mơ hồ riêng; calculator phía sau thuộc người áo trắng xanh.",
+      "looking_reason": "Mặt hướng vào sách/giấy riêng.",
+      "disposition": "keep",
+      "training_ready": false,
+      "assigned_split": null,
+      "visual_evidence": [
+        "source_frame",
+        "native_derivative",
+        "final_224"
+      ],
+      "anchor_id": "A14_front_blue_writing",
+      "source_sha256": "483f0e80ebd53441b9df179ff4ef893ace91a62baa986ad1d51ee6aa24367510",
+      "crop_sha256": "037d4505cb444be5a0bc49f963c5b4ac6c8dd6cb1f9cfb49b6d68de553ce42c6",
+      "input_sha256": "825a70748863c0c73c935c17db71d7ef8330ecb17dcf0c158ca60f1a86c0c464"
+    },
+    {
+      "id": "NB-0018-R1",
+      "frame_num": 10,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00010.jpg",
+      "context_xyxy": [
+        0,
+        0,
+        1300,
+        1080
+      ],
+      "crop": "data/interim/E004-new-bundle-audit-20261015/agent-A/NB-0018-R1.png",
+      "input": "outputs/E004-new-bundle-audit-20261015/agent-A/NB-0018-R1-input.png",
+      "draft_labels": "N/N",
+      "anchor_description": "Người áo xanh tóc ngắn phía trước",
+      "phone_reason": "Hai tay nay nằm trong crop; một tay viết một tay giữ giấy, không có vật chưa phân loại của anchor.",
+      "looking_reason": "Mặt hướng vào giấy đang viết.",
+      "disposition": "keep",
+      "training_ready": false,
+      "assigned_split": null,
+      "visual_evidence": [
+        "source_frame",
+        "native_derivative",
+        "final_224"
+      ],
+      "anchor_id": "A20_front_blue_writing",
+      "source_sha256": "a35dab238ee20904f16fb909d54af6d93bf84fe71a3c44f34d8957c984dff559",
+      "crop_sha256": "f2a884b861f7840e046b351bcbf447170049cac564abcf14a65d5426a9a90ac0",
+      "input_sha256": "d91c86159e4717f42bd5db92a2e86b0c5961aee2b67be9d3687f5ee06c39f8a2"
+    },
+    {
+      "id": "NA-001",
+      "frame_num": 2,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00002.jpg",
+      "context_xyxy": [
+        825,
+        170,
+        1230,
+        620
+      ],
+      "crop": "data/interim/E004-new-bundle-audit-20261015/agent-A/NA-001.png",
+      "input": "outputs/E004-new-bundle-audit-20261015/agent-A/NA-001-input.png",
+      "draft_labels": "U/P",
+      "anchor_description": "Người áo khoác trắng xanh ở hàng sau, nhìn về máy ảnh",
+      "phone_reason": "Một bàn tay/vùng bàn bị đầu người trước che; vật xanh trên bàn chỉ lộ mặt trơn không phân loại.",
+      "looking_reason": "Mặt và mắt nhìn thẳng ra phía máy ảnh, ngoài vùng giấy riêng.",
+      "disposition": "keep",
+      "training_ready": false,
+      "assigned_split": null,
+      "visual_evidence": [
+        "source_frame",
+        "native_derivative",
+        "final_224"
+      ],
+      "anchor_id": "draft_local_NA-001",
+      "source_sha256": "79e265d8c7d7a9dcaab516e9ae39985d23de4d754769e85a02e238f461439f6a",
+      "crop_sha256": "e4484cb1f8044805734afa6b4ff2b537afcac0d08afb2c1aec68d617b6acc314",
+      "input_sha256": "1d0219e94ee0c6a7d431efb3a63ef4e036e2aa3cdbe24b4eaa1431f0d2d0df8e"
+    },
+    {
+      "id": "NA-002",
+      "frame_num": 2,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00002.jpg",
+      "context_xyxy": [
+        70,
+        350,
+        415,
+        810
+      ],
+      "crop": "data/interim/E004-new-bundle-audit-20261015/agent-A/NA-002.png",
+      "input": "outputs/E004-new-bundle-audit-20261015/agent-A/NA-002-input.png",
+      "draft_labels": "U/N",
+      "anchor_description": "Người áo sơ mi trắng phía trái, cầm vật trắng",
+      "phone_reason": "Vật trắng chỉ lộ lưng trơn, không đủ phân biệt phone và calculator.",
+      "looking_reason": "Đầu/mặt hướng xuống vật trong hai tay trên bàn riêng.",
+      "disposition": "keep",
+      "training_ready": false,
+      "assigned_split": null,
+      "visual_evidence": [
+        "source_frame",
+        "native_derivative",
+        "final_224"
+      ],
+      "anchor_id": "draft_local_NA-002",
+      "source_sha256": "79e265d8c7d7a9dcaab516e9ae39985d23de4d754769e85a02e238f461439f6a",
+      "crop_sha256": "11312dd84fd3a6748b044eec4c1c90d6c1ac2c82b3ccf1c4ba93bd1eadcb0a03",
+      "input_sha256": "269edaf701b8f7890478bbff7392af15c4508512a2b50c7c1fdb192020226589"
+    },
+    {
+      "id": "NA-003",
+      "frame_num": 14,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00014.jpg",
+      "context_xyxy": [
+        240,
+        220,
+        1780,
+        1080
+      ],
+      "crop": "data/interim/E004-new-bundle-audit-20261015/agent-A/NA-003.png",
+      "input": "outputs/E004-new-bundle-audit-20261015/agent-A/NA-003-input.png",
+      "draft_labels": "U/N",
+      "anchor_description": "Người áo xanh kẹp tóc bạc phía trước bên phải",
+      "phone_reason": "Vật đen dưới mép giấy bên trái chỉ lộ một phần bề mặt; không đủ nhận dạng hoặc attribution chắc giữa hai chỗ ngồi.",
+      "looking_reason": "Mặt hướng xuống vùng đang viết của mình; người bên trái không là anchor.",
+      "disposition": "keep",
+      "training_ready": false,
+      "assigned_split": null,
+      "visual_evidence": [
+        "source_frame",
+        "native_derivative",
+        "final_224"
+      ],
+      "anchor_id": "draft_local_NA-003",
+      "source_sha256": "281ccad34ddaf7c68433ccc5d0ebd21a2e02fbcad301deb39c6ad321b4fe283f",
+      "crop_sha256": "44b889d9c475c7fb4619743147869e92076737ecf150d769d81c20c493a50312",
+      "input_sha256": "1414b4bdf94e34b00929d2adac3959bcb4037854b5a6037f44fd68a4e943e640",
+      "geometry_note": "Khung rộng để giữ vật che một phần trên giấy; anchor phải rõ nhưng còn người bên trái, owner cần xem riêng geometry."
+    },
+    {
+      "id": "NA-004",
+      "frame_num": 22,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00022.jpg",
+      "context_xyxy": [
+        810,
+        0,
+        1920,
+        1080
+      ],
+      "crop": "data/interim/E004-new-bundle-audit-20261015/agent-A/NA-004.png",
+      "input": "outputs/E004-new-bundle-audit-20261015/agent-A/NA-004-input.png",
+      "draft_labels": "N/N",
+      "anchor_description": "Người áo xanh phía trước bên phải, tóc rẽ giữa",
+      "phone_reason": "Hai tay viết và giữ giấy rõ, calculator có phím trên bàn bên trái; không có vật chưa phân loại trong phần làm việc riêng.",
+      "looking_reason": "Đầu/mặt hướng xuống trang đang viết.",
+      "disposition": "keep",
+      "training_ready": false,
+      "assigned_split": null,
+      "visual_evidence": [
+        "source_frame",
+        "native_derivative",
+        "final_224"
+      ],
+      "anchor_id": "draft_local_NA-004",
+      "source_sha256": "12aeb31a0c4d18846e34ac3ec3be7ef17d8ab2429aeb41672d32b49ed2e65a5b",
+      "crop_sha256": "01c375f9a6492cbbf3e8248d2c194907fed71daddeb4c32325a833f1deae8347",
+      "input_sha256": "a0694c2cea39394c51963f30a29ac1e45df46749430ef37bae5a7ade85e13e6c"
+    },
+    {
+      "id": "NA-005",
+      "frame_num": 24,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00024.jpg",
+      "context_xyxy": [
+        0,
+        0,
+        1320,
+        1080
+      ],
+      "crop": "data/interim/E004-new-bundle-audit-20261015/agent-A/NA-005.png",
+      "input": "outputs/E004-new-bundle-audit-20261015/agent-A/NA-005-input.png",
+      "draft_labels": "U/N",
+      "anchor_description": "Người áo xanh kính trong phía trước bên trái",
+      "phone_reason": "Vật trắng trong tay chỉ lộ vỏ lưng/cạnh; không kết luận phone hoặc calculator chỉ từ dáng cầm.",
+      "looking_reason": "Mặt hướng vào vật và giấy riêng.",
+      "disposition": "keep",
+      "training_ready": false,
+      "assigned_split": null,
+      "visual_evidence": [
+        "source_frame",
+        "native_derivative",
+        "final_224"
+      ],
+      "anchor_id": "draft_local_NA-005",
+      "source_sha256": "3d8a22e416fe589b29aeeb431fb50b0e3b0bebbb1884764a070ddfbc1292d8b1",
+      "crop_sha256": "201c323aadcd04249ab8f1f61fe09fac45477a40f2085416988cccc63c01cd64",
+      "input_sha256": "cf414b139921a4946ab0a44ecc2bd8051fa8ff82e4629a3506d6a32b30726b42"
+    },
+    {
+      "id": "NA-006",
+      "frame_num": 24,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00024.jpg",
+      "context_xyxy": [
+        770,
+        0,
+        1920,
+        860
+      ],
+      "crop": "data/interim/E004-new-bundle-audit-20261015/agent-A/NA-006.png",
+      "input": "outputs/E004-new-bundle-audit-20261015/agent-A/NA-006-input.png",
+      "draft_labels": "N/N",
+      "anchor_description": "Người áo xanh tóc búi gần cửa sổ bên phải",
+      "phone_reason": "Tay bút và tay chống cằm rõ; calculator trên bàn lộ hàng phím, không có thiết bị chưa phân loại của anchor.",
+      "looking_reason": "Mặt hướng xuống giấy riêng, không gán P từ góc nhìn nghiêng.",
+      "disposition": "keep",
+      "training_ready": false,
+      "assigned_split": null,
+      "visual_evidence": [
+        "source_frame",
+        "native_derivative",
+        "final_224"
+      ],
+      "anchor_id": "draft_local_NA-006",
+      "source_sha256": "3d8a22e416fe589b29aeeb431fb50b0e3b0bebbb1884764a070ddfbc1292d8b1",
+      "crop_sha256": "71d82ff6643e4df8010170f37a78c159b5f51e3446f24a7e3ff3298b6b7cbca2",
+      "input_sha256": "74f317dc8aaf758c27a36a22c42261bb9f7e7c722be19d834508c1ba7213cb5c"
+    },
+    {
+      "id": "NA-007",
+      "frame_num": 9,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00009.jpg",
+      "context_xyxy": [
+        1350,
+        0,
+        1840,
+        570
+      ],
+      "crop": "data/interim/E004-new-bundle-audit-20261015/agent-A/NA-007.png",
+      "input": "outputs/E004-new-bundle-audit-20261015/agent-A/NA-007-input.png",
+      "draft_labels": "U/N",
+      "anchor_description": "Người áo khoác trắng xanh phía sau, cầm vật xanh nhạt",
+      "phone_reason": "Chỉ thấy cạnh/lưng xanh nhạt và một phần tay, không có mặt trước hay camera phân biệt.",
+      "looking_reason": "Đầu/mặt hướng vào vật trên bàn riêng.",
+      "disposition": "keep",
+      "training_ready": false,
+      "assigned_split": null,
+      "visual_evidence": [
+        "source_frame",
+        "native_derivative",
+        "final_224"
+      ],
+      "anchor_id": "draft_local_NA-007",
+      "source_sha256": "996bbd55b24843b8faaf62ba547b47a242fa86d8e065197c43c0b9f90ffdf03c",
+      "crop_sha256": "0b4002357f64484022231ba5501c2bbb31e5897ffcea206e5f86bf37f41c172a",
+      "input_sha256": "1504d82662436ebac77e0dc7afba1c707462d38fc1d4e7b7f585fa3ac9e3f235"
+    },
+    {
+      "id": "NA-008",
+      "frame_num": 21,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00021.jpg",
+      "context_xyxy": [
+        450,
+        0,
+        1920,
+        1080
+      ],
+      "crop": "data/interim/E004-new-bundle-audit-20261015/agent-A/NA-008.png",
+      "input": "outputs/E004-new-bundle-audit-20261015/agent-A/NA-008-input.png",
+      "draft_labels": "N/N",
+      "anchor_description": "Người áo xanh kính lớn, dây đeo trắng trong cảnh calculator hồng",
+      "phone_reason": "Calculator hồng trên bàn hiện đủ phím và màn hình nhỏ trong input; hai tay viết/giữ giấy rõ.",
+      "looking_reason": "Mặt hướng xuống điểm bút trên giấy riêng.",
+      "disposition": "keep",
+      "training_ready": false,
+      "assigned_split": null,
+      "visual_evidence": [
+        "source_frame",
+        "native_derivative",
+        "final_224"
+      ],
+      "anchor_id": "A16_right_glasses_pink_calculator",
+      "source_sha256": "5879945e3a533243b172e42defc6b983129fd8b37a7fec1ab60564ed46316b7f",
+      "crop_sha256": "594032d64d3d8901b5c541bf10b9c1d59f8ccbe0da113d1377159d08a2e1ccce",
+      "input_sha256": "e71ae2b383a5b0e22c6237082935a5690ce0b3c893bf2f42b93412997bfbd49c",
+      "selection_note": "Cùng anchor NB-0014, góc này giữ calculator hồng để bổ sung hard negative; không tính là người mới."
+    }
+  ],
+  "frame_coverage": [
+    {
+      "id": "NF-001",
+      "frame_num": 2,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00002.jpg",
+      "visual_status": "screened_overview",
+      "observations": "Cảnh rộng phía trước: thêm NA-001 nhìn ra ngoài và NA-002 cầm vật lưng trắng; các người còn lại trùng trạng thái/góc cận trong frame 3–10 hoặc đầu/tay bị người trước che."
+    },
+    {
+      "id": "NF-002",
+      "frame_num": 3,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00003.jpg",
+      "visual_status": "screened_overview",
+      "observations": "Hai crop supplied; xem người kính bên trái cầm thiết bị nhưng đồng dạng lưng/cạnh và khung dễ dính người giữa, không thêm gần lặp."
+    },
+    {
+      "id": "NF-003",
+      "frame_num": 4,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00004.jpg",
+      "visual_status": "screened_overview",
+      "observations": "Ba crop supplied bao phủ foreground cầm vật lưng trắng, bob nhìn trái, và calculator sau; không truyền nhãn metadata phone."
+    },
+    {
+      "id": "NF-004",
+      "frame_num": 5,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00005.jpg",
+      "visual_status": "screened_overview",
+      "observations": "Bốn crop supplied bao phủ dãy gần; rear white-blue cầm vật được chọn ở frame 9 với crop rõ hơn."
+    },
+    {
+      "id": "NF-005",
+      "frame_num": 6,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00006.jpg",
+      "visual_status": "screened_overview",
+      "observations": "Hai crop supplied; người trước cầm calculator hồng nhìn rõ phím; người bên phải khoanh tay. Các đầu phía sau đã có góc cận khác."
+    },
+    {
+      "id": "NF-006",
+      "frame_num": 7,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00007.jpg",
+      "visual_status": "screened_overview",
+      "observations": "Hai crop supplied; sửa NB-0012 để lấy lại bàn tay bị cắt. Người phía sau một tay khuất giữ U."
+    },
+    {
+      "id": "NF-007",
+      "frame_num": 8,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00008.jpg",
+      "visual_status": "screened_overview",
+      "observations": "Hai crop supplied; NB-0014 mất calculator khỏi crop, chọn thêm NA-008 ở frame 21; NB-0015 tay khuất giữ U."
+    },
+    {
+      "id": "NF-008",
+      "frame_num": 9,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00009.jpg",
+      "visual_status": "screened_overview",
+      "observations": "Hai crop supplied; thêm NA-007 rear trắng xanh cầm vật lưng xanh. Không gọi phone bằng màu vỏ."
+    },
+    {
+      "id": "NF-009",
+      "frame_num": 10,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00010.jpg",
+      "visual_status": "screened_overview",
+      "observations": "Hai crop supplied; mở NB-0018 để phục hồi bàn tay phải. Người kính sau có calculator và hai tay rõ."
+    },
+    {
+      "id": "NF-010",
+      "frame_num": 13,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00013.jpg",
+      "visual_status": "screened_overview",
+      "observations": "Ba crop supplied; NB-0022 có vật trắng cầm tay không phân loại. Người xa góc trái nhìn ngang quá nhỏ và tay bị bàn/người che, không thêm chỉ để tăng số lượng."
+    },
+    {
+      "id": "NF-011",
+      "frame_num": 14,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00014.jpg",
+      "visual_status": "screened_overview",
+      "observations": "Thêm NA-003 với vật che một phần cạnh sách; khung rộng có cờ geometry. Các học sinh sau còn nhỏ/che hoặc lặp state viết."
+    },
+    {
+      "id": "NF-012",
+      "frame_num": 15,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00015.jpg",
+      "visual_status": "screened_overview",
+      "observations": "Cảnh rộng nhiều đầu tiền cảnh và thiết bị chỉ lộ cạnh. Người nhìn trước ở hàng xa bị cắt đỉnh đầu và vùng tay, không lấy crop yếu này; NA-001 frame 2 có evidence looking tốt hơn."
+    },
+    {
+      "id": "NF-013",
+      "frame_num": 16,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00016.jpg",
+      "visual_status": "screened_overview",
+      "observations": "Lặp cảnh frame 3; người giữa chuyển sang viết nhưng looking vẫn N, người cầm vật vẫn chỉ lưng/cạnh; không nhân bản."
+    },
+    {
+      "id": "NF-014",
+      "frame_num": 17,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00017.jpg",
+      "visual_status": "screened_overview",
+      "observations": "Lặp cảnh frame 4; bob đã cúi xuống giấy nhưng có crop NN khác trong bộ, không cần tăng mẫu gần lặp. Vật trắng vẫn lưng trơn."
+    },
+    {
+      "id": "NF-015",
+      "frame_num": 18,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00018.jpg",
+      "visual_status": "screened_overview",
+      "observations": "Lặp frame 5; vật hồng vẫn mặt lưng, calculator đen vẫn phím rõ; không thêm."
+    },
+    {
+      "id": "NF-016",
+      "frame_num": 19,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00019.jpg",
+      "visual_status": "screened_overview",
+      "observations": "Lặp frame 6; calculator hồng lộ nhiều phím hơn nhưng cùng trạng thái N/N, không thêm."
+    },
+    {
+      "id": "NF-017",
+      "frame_num": 20,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00020.jpg",
+      "visual_status": "screened_overview",
+      "observations": "Lặp frame 7; hai người vẫn nhìn giấy và geometry tương tự, dùng hai crop/recrop đã chọn."
+    },
+    {
+      "id": "NF-018",
+      "frame_num": 21,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00021.jpg",
+      "visual_status": "screened_overview",
+      "observations": "Chọn NA-008 cho cùng anchor NB-0014 để có calculator hồng + hai tay trong input; không tính người mới."
+    },
+    {
+      "id": "NF-019",
+      "frame_num": 22,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00022.jpg",
+      "visual_status": "screened_overview",
+      "observations": "Thêm NA-004 người áo xanh phía phải có calculator và hai tay rõ; người khoác trắng trái đã có NB-0016, trạng thái vẫn N/N."
+    },
+    {
+      "id": "NF-020",
+      "frame_num": 23,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00023.jpg",
+      "visual_status": "screened_overview",
+      "observations": "Lặp frame 10, hai người viết và calculator phím rõ; không thêm."
+    },
+    {
+      "id": "NF-021",
+      "frame_num": 24,
+      "source": "data/interim/E004-new-bundle-audit-20261015/new-yt-videos-run-001-accepted-frames/derived/17e642e8e71392e7c926/frame_00024.jpg",
+      "visual_status": "screened_overview",
+      "observations": "Thêm NA-005 lưng thiết bị trắng và NA-006 calculator bên cửa sổ. Cả hai hướng vào vùng riêng; không dùng tên metadata để đoán thiết bị."
+    }
+  ],
+  "limitations": [
+    "Nguồn A có shot cận lặp và có thể cùng người qua nhiều góc; ID mới chỉ là anchor local, không là danh tính hay số người duy nhất.",
+    "Nguồn overview sàng lọc đủ 21 frame, không tuyên bố đã mở native toàn bộ 21 frame.",
+    "Nhãn chưa được owner review; source/split/training acceptance chưa được thiết lập."
+  ]
+}

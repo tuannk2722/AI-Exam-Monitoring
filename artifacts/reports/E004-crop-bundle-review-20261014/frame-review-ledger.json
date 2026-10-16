@@ -1,0 +1,4638 @@
+[
+  {
+    "frame_id": "F-001",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00001.jpg",
+    "crop_ids": [
+      "CB-0001",
+      "CB-0026",
+      "CB-0063",
+      "CB-0088",
+      "CB-0113",
+      "CB-0150",
+      "CB-0175"
+    ],
+    "board": "frames/01.jpg",
+    "sha256": "309e7b997c15529987313ae7fb16b7547e275cb04bb5e9f103150d40847930d4",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0001",
+      "CB-0026",
+      "CB-0063",
+      "CB-0088",
+      "CB-0113",
+      "CB-0150",
+      "CB-0175"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-002",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00005.jpg",
+    "crop_ids": [
+      "CB-0027",
+      "CB-0064",
+      "CB-0089",
+      "CB-0114",
+      "CB-0176",
+      "CB-0200"
+    ],
+    "board": "frames/01.jpg",
+    "sha256": "5bb5052ac031d406c42ac97f10ab8698e5d356ae91acf0db94505dcad769b2b0",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0027",
+      "CB-0064",
+      "CB-0089",
+      "CB-0114",
+      "CB-0176",
+      "CB-0200"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-003",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00006.jpg",
+    "crop_ids": [
+      "CB-0002",
+      "CB-0028",
+      "CB-0115",
+      "CB-0151",
+      "CB-0201"
+    ],
+    "board": "frames/01.jpg",
+    "sha256": "261178327ddda315d02197f86584d5ea752c532d3f8e965c634394aee7a43d7e",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0002",
+      "CB-0028",
+      "CB-0115",
+      "CB-0151",
+      "CB-0201"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-004",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00010.jpg",
+    "crop_ids": [
+      "CB-0003",
+      "CB-0029",
+      "CB-0065",
+      "CB-0090",
+      "CB-0116",
+      "CB-0152",
+      "CB-0177"
+    ],
+    "board": "frames/01.jpg",
+    "sha256": "92b1d67075d48f662459cb54e395045c9cc3e7fe0cb2addbe702ac9967fa8b2f",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0003",
+      "CB-0029",
+      "CB-0065",
+      "CB-0090",
+      "CB-0116",
+      "CB-0152",
+      "CB-0177"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-005",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00011.jpg",
+    "crop_ids": [
+      "CB-0030",
+      "CB-0066",
+      "CB-0091",
+      "CB-0117",
+      "CB-0178",
+      "CB-0202"
+    ],
+    "board": "frames/02.jpg",
+    "sha256": "21c32a22876db9f2bdbc8e1f73661a5c26bfb07dd1b107f845b43980ff0817a7",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0030",
+      "CB-0066",
+      "CB-0091",
+      "CB-0117",
+      "CB-0178",
+      "CB-0202"
+    ],
+    "derivative_ids": [
+      "CB-0030-R1",
+      "CB-NEW-03"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-006",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00012.jpg",
+    "crop_ids": [
+      "CB-0004",
+      "CB-0031",
+      "CB-0118",
+      "CB-0153",
+      "CB-0203"
+    ],
+    "board": "frames/02.jpg",
+    "sha256": "1f9a5a6e54954418c5507ba56db94687d7ce66c3b964d954bbb17602dfb8da0b",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0004",
+      "CB-0031",
+      "CB-0118",
+      "CB-0153",
+      "CB-0203"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-007",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00014.jpg",
+    "crop_ids": [
+      "CB-0005",
+      "CB-0032",
+      "CB-0067",
+      "CB-0092",
+      "CB-0119",
+      "CB-0154",
+      "CB-0179"
+    ],
+    "board": "frames/02.jpg",
+    "sha256": "4b55a9319dd1fa97b46e64c46de84718b4559e143923f534d147bee7db64c29b",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0005",
+      "CB-0032",
+      "CB-0067",
+      "CB-0092",
+      "CB-0119",
+      "CB-0154",
+      "CB-0179"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-008",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00016.jpg",
+    "crop_ids": [
+      "CB-0033",
+      "CB-0068",
+      "CB-0093",
+      "CB-0120",
+      "CB-0180",
+      "CB-0204"
+    ],
+    "board": "frames/02.jpg",
+    "sha256": "ea9e22f89f60d765f99681f8d4d01888f32036fe8e7f6b157505f299c470331a",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0033",
+      "CB-0068",
+      "CB-0093",
+      "CB-0120",
+      "CB-0180",
+      "CB-0204"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-009",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00018.jpg",
+    "crop_ids": [
+      "CB-0006",
+      "CB-0034",
+      "CB-0121",
+      "CB-0155",
+      "CB-0205"
+    ],
+    "board": "frames/03.jpg",
+    "sha256": "df44940522ea9e52f834cd73d5bba31f556e1433ce9dfaf2cd6d9ec39710fddd",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0006",
+      "CB-0034",
+      "CB-0121",
+      "CB-0155",
+      "CB-0205"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-010",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00020.jpg",
+    "crop_ids": [
+      "CB-0007",
+      "CB-0035",
+      "CB-0069",
+      "CB-0094",
+      "CB-0122",
+      "CB-0156",
+      "CB-0181"
+    ],
+    "board": "frames/03.jpg",
+    "sha256": "a8db8f948d2f37f7481e91d25e28e6d5954519703f93d8d001373dcfa8135b03",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0007",
+      "CB-0035",
+      "CB-0069",
+      "CB-0094",
+      "CB-0122",
+      "CB-0156",
+      "CB-0181"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-011",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00024.jpg",
+    "crop_ids": [
+      "CB-0036",
+      "CB-0070",
+      "CB-0095",
+      "CB-0123",
+      "CB-0182",
+      "CB-0206"
+    ],
+    "board": "frames/03.jpg",
+    "sha256": "ccabd3ba71b756a4afdb701984c198bf6a46aca84c380a676b495021184630ea",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0036",
+      "CB-0070",
+      "CB-0095",
+      "CB-0123",
+      "CB-0182",
+      "CB-0206"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-012",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00026.jpg",
+    "crop_ids": [
+      "CB-0008",
+      "CB-0037",
+      "CB-0124",
+      "CB-0157",
+      "CB-0207"
+    ],
+    "board": "frames/03.jpg",
+    "sha256": "69e78e0525b8b2446b44174d4797c3910d0429450597fa524914886c60ecfc4d",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0008",
+      "CB-0037",
+      "CB-0124",
+      "CB-0157",
+      "CB-0207"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-013",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00030.jpg",
+    "crop_ids": [
+      "CB-0009",
+      "CB-0038",
+      "CB-0071",
+      "CB-0096",
+      "CB-0125",
+      "CB-0158",
+      "CB-0183"
+    ],
+    "board": "frames/04.jpg",
+    "sha256": "b30f1405809a16b5e94587d606f9e2b6420b67525911cc19e220e33405e519db",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0009",
+      "CB-0038",
+      "CB-0071",
+      "CB-0096",
+      "CB-0125",
+      "CB-0158",
+      "CB-0183"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-014",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00032.jpg",
+    "crop_ids": [
+      "CB-0039",
+      "CB-0072",
+      "CB-0097",
+      "CB-0126",
+      "CB-0184",
+      "CB-0208"
+    ],
+    "board": "frames/04.jpg",
+    "sha256": "d438553f4866278d490453fdcdcac649fdad1333e7da89c319b9d63d89ca7e8f",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0039",
+      "CB-0072",
+      "CB-0097",
+      "CB-0126",
+      "CB-0184",
+      "CB-0208"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-015",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00034.jpg",
+    "crop_ids": [
+      "CB-0010",
+      "CB-0040",
+      "CB-0127",
+      "CB-0159",
+      "CB-0209"
+    ],
+    "board": "frames/04.jpg",
+    "sha256": "194e0d405ab2652ea94eca126be34c5d8856acc5bbbdfab40ed4c5d54180195d",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0010",
+      "CB-0040",
+      "CB-0127",
+      "CB-0159",
+      "CB-0209"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-016",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00036.jpg",
+    "crop_ids": [
+      "CB-0011",
+      "CB-0041",
+      "CB-0073",
+      "CB-0098",
+      "CB-0128",
+      "CB-0160",
+      "CB-0185"
+    ],
+    "board": "frames/04.jpg",
+    "sha256": "240b1d92117487e4be6decb0f424a3630ad2176cd1ed01a200a491cd9a6464fe",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0011",
+      "CB-0041",
+      "CB-0073",
+      "CB-0098",
+      "CB-0128",
+      "CB-0160",
+      "CB-0185"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-017",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00038.jpg",
+    "crop_ids": [
+      "CB-0042",
+      "CB-0074",
+      "CB-0099",
+      "CB-0129",
+      "CB-0186",
+      "CB-0210"
+    ],
+    "board": "frames/05.jpg",
+    "sha256": "320c460349e0c2d856ae124a2138b209a751101dd5b1401d19d0eccb0949bf19",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0042",
+      "CB-0074",
+      "CB-0099",
+      "CB-0129",
+      "CB-0186",
+      "CB-0210"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-018",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00040.jpg",
+    "crop_ids": [
+      "CB-0012",
+      "CB-0043",
+      "CB-0130",
+      "CB-0161",
+      "CB-0211"
+    ],
+    "board": "frames/05.jpg",
+    "sha256": "5810523f2f15aadc3f9ae1cf3b76460c5905c708b845f1c3725b66f705cf2073",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0012",
+      "CB-0043",
+      "CB-0130",
+      "CB-0161",
+      "CB-0211"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-019",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00042.jpg",
+    "crop_ids": [
+      "CB-0013",
+      "CB-0044",
+      "CB-0075",
+      "CB-0100",
+      "CB-0131",
+      "CB-0162",
+      "CB-0187"
+    ],
+    "board": "frames/05.jpg",
+    "sha256": "4dd30e858a51751b48afcc0d0a09a24481fb14b5b94dc3c592d62663de6f7158",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0013",
+      "CB-0044",
+      "CB-0075",
+      "CB-0100",
+      "CB-0131",
+      "CB-0162",
+      "CB-0187"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-020",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00044.jpg",
+    "crop_ids": [
+      "CB-0045",
+      "CB-0076",
+      "CB-0101",
+      "CB-0132",
+      "CB-0188",
+      "CB-0212"
+    ],
+    "board": "frames/05.jpg",
+    "sha256": "92f044909e1268d4caaf6c5d695c69d9b64b57f7bc26f9a1e2d1fd5e6f912f88",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0045",
+      "CB-0076",
+      "CB-0101",
+      "CB-0132",
+      "CB-0188",
+      "CB-0212"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-021",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00046.jpg",
+    "crop_ids": [
+      "CB-0014",
+      "CB-0046",
+      "CB-0133",
+      "CB-0163",
+      "CB-0213"
+    ],
+    "board": "frames/06.jpg",
+    "sha256": "3eb30e94dec1cd6bfdfa2b6f486a41930eec3be2d4b963c51fd350f1419bef2d",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0014",
+      "CB-0046",
+      "CB-0133",
+      "CB-0163",
+      "CB-0213"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-022",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00048.jpg",
+    "crop_ids": [
+      "CB-0015",
+      "CB-0047",
+      "CB-0077",
+      "CB-0102",
+      "CB-0134",
+      "CB-0164",
+      "CB-0189"
+    ],
+    "board": "frames/06.jpg",
+    "sha256": "ff9e1da7d9e0cd6f88063805d606b79035473acf56840eb6079c98592063d49d",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0015",
+      "CB-0047",
+      "CB-0077",
+      "CB-0102",
+      "CB-0134",
+      "CB-0164",
+      "CB-0189"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-023",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00050.jpg",
+    "crop_ids": [
+      "CB-0048",
+      "CB-0078",
+      "CB-0103",
+      "CB-0135",
+      "CB-0190",
+      "CB-0214"
+    ],
+    "board": "frames/06.jpg",
+    "sha256": "9142634449ea604385b2fbab846e612c58c1784df8b5e5810cffb0e243e8063f",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0048",
+      "CB-0078",
+      "CB-0103",
+      "CB-0135",
+      "CB-0190",
+      "CB-0214"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-024",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00052.jpg",
+    "crop_ids": [
+      "CB-0016",
+      "CB-0049",
+      "CB-0136",
+      "CB-0165",
+      "CB-0215"
+    ],
+    "board": "frames/06.jpg",
+    "sha256": "93044cc83d31374de05164a652fe21f9b64dc58c754f3a50d919f07bd8ace636",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0016",
+      "CB-0049",
+      "CB-0136",
+      "CB-0165",
+      "CB-0215"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-025",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00054.jpg",
+    "crop_ids": [
+      "CB-0017",
+      "CB-0050",
+      "CB-0079",
+      "CB-0104",
+      "CB-0137",
+      "CB-0166",
+      "CB-0191"
+    ],
+    "board": "frames/07.jpg",
+    "sha256": "fe9c2b85e673cf8410d2b533caffd2e2b8423ca172595e66572672475cce4a49",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0017",
+      "CB-0050",
+      "CB-0079",
+      "CB-0104",
+      "CB-0137",
+      "CB-0166",
+      "CB-0191"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-026",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00056.jpg",
+    "crop_ids": [
+      "CB-0051",
+      "CB-0080",
+      "CB-0105",
+      "CB-0138",
+      "CB-0192",
+      "CB-0216"
+    ],
+    "board": "frames/07.jpg",
+    "sha256": "732fdcb32532908c4002c904bdeaf40dea0cbd1032e0fb0e38040b510166f3d5",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0051",
+      "CB-0080",
+      "CB-0105",
+      "CB-0138",
+      "CB-0192",
+      "CB-0216"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-027",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00059.jpg",
+    "crop_ids": [
+      "CB-0018",
+      "CB-0052",
+      "CB-0139",
+      "CB-0167",
+      "CB-0217"
+    ],
+    "board": "frames/07.jpg",
+    "sha256": "6179731f1b4f9568082d34e82ed8fab62d2efa5bd55241d9bc0096f4222d4220",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0018",
+      "CB-0052",
+      "CB-0139",
+      "CB-0167",
+      "CB-0217"
+    ],
+    "derivative_ids": [
+      "CB-0018-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-028",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00062.jpg",
+    "crop_ids": [
+      "CB-0019",
+      "CB-0053",
+      "CB-0081",
+      "CB-0106",
+      "CB-0140",
+      "CB-0168",
+      "CB-0193"
+    ],
+    "board": "frames/07.jpg",
+    "sha256": "24bf0b93135c9ee6e1fe6a31dfdef4e226ebd9b7643c6bc0163feb65abe7e57d",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0019",
+      "CB-0053",
+      "CB-0081",
+      "CB-0106",
+      "CB-0140",
+      "CB-0168",
+      "CB-0193"
+    ],
+    "derivative_ids": [
+      "CB-0019-R1",
+      "CB-0106-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-029",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00065.jpg",
+    "crop_ids": [
+      "CB-0054",
+      "CB-0082",
+      "CB-0107",
+      "CB-0141",
+      "CB-0194",
+      "CB-0218"
+    ],
+    "board": "frames/08.jpg",
+    "sha256": "485111c67d4974af2ec8447b2406cd4f6e72044b24138bd56de52770061f9a59",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0054",
+      "CB-0082",
+      "CB-0107",
+      "CB-0141",
+      "CB-0194",
+      "CB-0218"
+    ],
+    "derivative_ids": [
+      "CB-0107-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-030",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00068.jpg",
+    "crop_ids": [
+      "CB-0020",
+      "CB-0055",
+      "CB-0142",
+      "CB-0169",
+      "CB-0219"
+    ],
+    "board": "frames/08.jpg",
+    "sha256": "f1083b8c796105eb6c8f131d70df6ce016ad176291844862d84122af90963a88",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0020",
+      "CB-0055",
+      "CB-0142",
+      "CB-0169",
+      "CB-0219"
+    ],
+    "derivative_ids": [
+      "CB-0020-R1",
+      "CB-0055-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-031",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00071.jpg",
+    "crop_ids": [
+      "CB-0021",
+      "CB-0056",
+      "CB-0083",
+      "CB-0108",
+      "CB-0143",
+      "CB-0170",
+      "CB-0195"
+    ],
+    "board": "frames/08.jpg",
+    "sha256": "d79c69212d9a5fbebde62aaf3c32ad6a877368b7968fb11f9efe2f3971fe60ca",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0021",
+      "CB-0056",
+      "CB-0083",
+      "CB-0108",
+      "CB-0143",
+      "CB-0170",
+      "CB-0195"
+    ],
+    "derivative_ids": [
+      "CB-0021-R1",
+      "CB-0108-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-032",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00074.jpg",
+    "crop_ids": [
+      "CB-0057",
+      "CB-0084",
+      "CB-0109",
+      "CB-0144",
+      "CB-0196",
+      "CB-0220"
+    ],
+    "board": "frames/08.jpg",
+    "sha256": "354f0d62287804184bde03b44031e695504b4c48a11ce40a98b1e1db73168c73",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0057",
+      "CB-0084",
+      "CB-0109",
+      "CB-0144",
+      "CB-0196",
+      "CB-0220"
+    ],
+    "derivative_ids": [
+      "CB-0109-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-033",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00077.jpg",
+    "crop_ids": [
+      "CB-0022",
+      "CB-0058",
+      "CB-0145",
+      "CB-0171",
+      "CB-0221"
+    ],
+    "board": "frames/09.jpg",
+    "sha256": "b389d09357c11afe537f7da7aab95c0671ba066e25cf3965ff76f992919ef5ba",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0022",
+      "CB-0058",
+      "CB-0145",
+      "CB-0171",
+      "CB-0221"
+    ],
+    "derivative_ids": [
+      "CB-0022-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-034",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00079.jpg",
+    "crop_ids": [
+      "CB-0023",
+      "CB-0059",
+      "CB-0085",
+      "CB-0110",
+      "CB-0146",
+      "CB-0172",
+      "CB-0197"
+    ],
+    "board": "frames/09.jpg",
+    "sha256": "bf63fbba159476d933d8bf255df471578845b1456b0d8b2d9f518f34b13c252a",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0023",
+      "CB-0059",
+      "CB-0085",
+      "CB-0110",
+      "CB-0146",
+      "CB-0172",
+      "CB-0197"
+    ],
+    "derivative_ids": [
+      "CB-0023-R1",
+      "CB-0110-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-035",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00081.jpg",
+    "crop_ids": [
+      "CB-0060",
+      "CB-0086",
+      "CB-0111",
+      "CB-0147",
+      "CB-0198",
+      "CB-0222"
+    ],
+    "board": "frames/09.jpg",
+    "sha256": "d9c45afe74aaa7c558edeae9381ced6f5ca1d02a686e94658230f25fa15b2c69",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0060",
+      "CB-0086",
+      "CB-0111",
+      "CB-0147",
+      "CB-0198",
+      "CB-0222"
+    ],
+    "derivative_ids": [
+      "CB-0111-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-036",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00083.jpg",
+    "crop_ids": [
+      "CB-0024",
+      "CB-0061",
+      "CB-0148",
+      "CB-0173",
+      "CB-0223"
+    ],
+    "board": "frames/09.jpg",
+    "sha256": "ae5263fb07adc386b76148d80be42fe57fa061a851eb44b5867df1f25971e24a",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0024",
+      "CB-0061",
+      "CB-0148",
+      "CB-0173",
+      "CB-0223"
+    ],
+    "derivative_ids": [
+      "CB-0024-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-037",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/131978f1c922c72a1be6/frame_00085.jpg",
+    "crop_ids": [
+      "CB-0025",
+      "CB-0062",
+      "CB-0087",
+      "CB-0112",
+      "CB-0149",
+      "CB-0174",
+      "CB-0199"
+    ],
+    "board": "frames/10.jpg",
+    "sha256": "3d7f18d08953958a16031c31b1b93fedcc65c1ec19f41b5f0d71018f4b79c6a4",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0025",
+      "CB-0062",
+      "CB-0087",
+      "CB-0112",
+      "CB-0149",
+      "CB-0174",
+      "CB-0199"
+    ],
+    "derivative_ids": [
+      "CB-0025-R1",
+      "CB-0112-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-038",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00001.jpg",
+    "crop_ids": [
+      "CB-0282",
+      "CB-0398",
+      "CB-0485",
+      "CB-0514"
+    ],
+    "board": "frames/10.jpg",
+    "sha256": "13fda9c360f02e2b41c3cbf257a1179699a10790f3e6c848f7071ca565dd1f73",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0282",
+      "CB-0398",
+      "CB-0485",
+      "CB-0514"
+    ],
+    "derivative_ids": [
+      "CB-0514-R1",
+      "CB-NEW-02"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-039",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00003.jpg",
+    "crop_ids": [
+      "CB-0283",
+      "CB-0399",
+      "CB-0543"
+    ],
+    "board": "frames/10.jpg",
+    "sha256": "5c85180f29fc44e3f7e9b51838b886167cbab1a29ebe0568a46ec6eee559638c",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0283",
+      "CB-0399",
+      "CB-0543"
+    ],
+    "derivative_ids": [
+      "CB-0543-R1",
+      "CB-NEW-01"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-040",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00005.jpg",
+    "crop_ids": [
+      "CB-0224",
+      "CB-0253",
+      "CB-0284",
+      "CB-0369",
+      "CB-0400"
+    ],
+    "board": "frames/10.jpg",
+    "sha256": "e33f62c9fea112bc33bec0e2394e2d80142a9f93b05e84c9e6a48c494cc94a75",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0224",
+      "CB-0253",
+      "CB-0284",
+      "CB-0369",
+      "CB-0400"
+    ],
+    "derivative_ids": [
+      "CB-0224-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-041",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00007.jpg",
+    "crop_ids": [
+      "CB-0285",
+      "CB-0401",
+      "CB-0486",
+      "CB-0515"
+    ],
+    "board": "frames/11.jpg",
+    "sha256": "f08b833cfc455ce6f91fb5e8e1cb47dbe25ab29654ee162c5fdef08f99a587a6",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0285",
+      "CB-0401",
+      "CB-0486",
+      "CB-0515"
+    ],
+    "derivative_ids": [
+      "CB-0515-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-042",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00009.jpg",
+    "crop_ids": [
+      "CB-0286",
+      "CB-0402",
+      "CB-0544"
+    ],
+    "board": "frames/11.jpg",
+    "sha256": "33847123df9829b5ad9cc5af0376cd6a18e1b43bccc9f55e290c8c95182d587d",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0286",
+      "CB-0402",
+      "CB-0544"
+    ],
+    "derivative_ids": [
+      "CB-0544-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-043",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00011.jpg",
+    "crop_ids": [
+      "CB-0225",
+      "CB-0254",
+      "CB-0287",
+      "CB-0370",
+      "CB-0403"
+    ],
+    "board": "frames/11.jpg",
+    "sha256": "cf75e9eb60bda62c71fb8ba77264b3714a027d6e39c14aaed5148912aeaea0a3",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0225",
+      "CB-0254",
+      "CB-0287",
+      "CB-0370",
+      "CB-0403"
+    ],
+    "derivative_ids": [
+      "CB-0225-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-044",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00013.jpg",
+    "crop_ids": [
+      "CB-0288",
+      "CB-0404",
+      "CB-0487",
+      "CB-0516"
+    ],
+    "board": "frames/11.jpg",
+    "sha256": "8fabff858767d0925de5af0855185ab1322cb173812b0ca38ecabf18500b83b4",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0288",
+      "CB-0404",
+      "CB-0487",
+      "CB-0516"
+    ],
+    "derivative_ids": [
+      "CB-0516-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-045",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00015.jpg",
+    "crop_ids": [
+      "CB-0289",
+      "CB-0405",
+      "CB-0545"
+    ],
+    "board": "frames/12.jpg",
+    "sha256": "36086d479cc2465d541b2d22a468f5038b498f1661aecda74970054a42e7dbf1",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0289",
+      "CB-0405",
+      "CB-0545"
+    ],
+    "derivative_ids": [
+      "CB-0545-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-046",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00017.jpg",
+    "crop_ids": [
+      "CB-0226",
+      "CB-0255",
+      "CB-0290",
+      "CB-0371",
+      "CB-0406"
+    ],
+    "board": "frames/12.jpg",
+    "sha256": "f93eb31fb0279c543a79b4975a82dfe7c6ccd525b2ee858044c2caf60fe99730",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0226",
+      "CB-0255",
+      "CB-0290",
+      "CB-0371",
+      "CB-0406"
+    ],
+    "derivative_ids": [
+      "CB-0226-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-047",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00019.jpg",
+    "crop_ids": [
+      "CB-0291",
+      "CB-0407",
+      "CB-0488",
+      "CB-0517"
+    ],
+    "board": "frames/12.jpg",
+    "sha256": "e8ca6282a7e6b3ce85e5a944f87b8ddf8eecf23f8906e2edd58b58bc3bd59a74",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0291",
+      "CB-0407",
+      "CB-0488",
+      "CB-0517"
+    ],
+    "derivative_ids": [
+      "CB-0517-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-048",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00021.jpg",
+    "crop_ids": [
+      "CB-0292",
+      "CB-0408",
+      "CB-0546"
+    ],
+    "board": "frames/12.jpg",
+    "sha256": "a625a51336a4e91ebf3e81f1fbed38a44dd9a9d0ed0233388f5c1e40ae771a82",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0292",
+      "CB-0408",
+      "CB-0546"
+    ],
+    "derivative_ids": [
+      "CB-0546-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-049",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00023.jpg",
+    "crop_ids": [
+      "CB-0227",
+      "CB-0256",
+      "CB-0293",
+      "CB-0372",
+      "CB-0409"
+    ],
+    "board": "frames/13.jpg",
+    "sha256": "5eb96d19f3379d681cfbe213c5579b0c00c5826a42c81ecdfa4896b0539ff5d4",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0227",
+      "CB-0256",
+      "CB-0293",
+      "CB-0372",
+      "CB-0409"
+    ],
+    "derivative_ids": [
+      "CB-0227-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-050",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00025.jpg",
+    "crop_ids": [
+      "CB-0294",
+      "CB-0410",
+      "CB-0489",
+      "CB-0518"
+    ],
+    "board": "frames/13.jpg",
+    "sha256": "fca65211fcb27f3a30611751102d483cba483e7e105a9cf5a580ba974dabdafd",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0294",
+      "CB-0410",
+      "CB-0489",
+      "CB-0518"
+    ],
+    "derivative_ids": [
+      "CB-0518-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-051",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00026.jpg",
+    "crop_ids": [
+      "CB-0295",
+      "CB-0411",
+      "CB-0547"
+    ],
+    "board": "frames/13.jpg",
+    "sha256": "7ba3fffc69169e5fded6371c0b369113ed50ff984ba974bfa136e73ee3e6ba63",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0295",
+      "CB-0411",
+      "CB-0547"
+    ],
+    "derivative_ids": [
+      "CB-0547-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-052",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00028.jpg",
+    "crop_ids": [
+      "CB-0228",
+      "CB-0257",
+      "CB-0296",
+      "CB-0373",
+      "CB-0412"
+    ],
+    "board": "frames/13.jpg",
+    "sha256": "3d3aee8ecb3c80fef62743c25b0be6c25b2dd6bf48df97d04388bf1e0855bfcb",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0228",
+      "CB-0257",
+      "CB-0296",
+      "CB-0373",
+      "CB-0412"
+    ],
+    "derivative_ids": [
+      "CB-0228-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-053",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00029.jpg",
+    "crop_ids": [
+      "CB-0297",
+      "CB-0413",
+      "CB-0490",
+      "CB-0519"
+    ],
+    "board": "frames/14.jpg",
+    "sha256": "c6e3c39931f8b9cba968e004a230744c8eaf5c57ca36cf4b92d7b5b45a7bc2e5",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0297",
+      "CB-0413",
+      "CB-0490",
+      "CB-0519"
+    ],
+    "derivative_ids": [
+      "CB-0519-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-054",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00031.jpg",
+    "crop_ids": [
+      "CB-0298",
+      "CB-0414",
+      "CB-0548"
+    ],
+    "board": "frames/14.jpg",
+    "sha256": "98974b34fdff1678153e9d8f41545ee6d865bcd2ab2a2c5e906347c8d666816e",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0298",
+      "CB-0414",
+      "CB-0548"
+    ],
+    "derivative_ids": [
+      "CB-0548-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-055",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00033.jpg",
+    "crop_ids": [
+      "CB-0229",
+      "CB-0258",
+      "CB-0299",
+      "CB-0374",
+      "CB-0415"
+    ],
+    "board": "frames/14.jpg",
+    "sha256": "c627d84a7e1915abdc4013364863607540f8b28190fcc286171ae5eb837d8cea",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0229",
+      "CB-0258",
+      "CB-0299",
+      "CB-0374",
+      "CB-0415"
+    ],
+    "derivative_ids": [
+      "CB-0229-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-056",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00035.jpg",
+    "crop_ids": [
+      "CB-0300",
+      "CB-0416",
+      "CB-0491",
+      "CB-0520"
+    ],
+    "board": "frames/14.jpg",
+    "sha256": "9632f3a19b7eecec99c1c6fa126f27778e7e3e088c5293edcd99c7df9a3e17a8",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0300",
+      "CB-0416",
+      "CB-0491",
+      "CB-0520"
+    ],
+    "derivative_ids": [
+      "CB-0520-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-057",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00037.jpg",
+    "crop_ids": [
+      "CB-0301",
+      "CB-0417",
+      "CB-0549"
+    ],
+    "board": "frames/15.jpg",
+    "sha256": "fca39bc44621be28e542d403ef199f4b1468629a07582987d625dceb1b553cb6",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0301",
+      "CB-0417",
+      "CB-0549"
+    ],
+    "derivative_ids": [
+      "CB-0549-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-058",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00039.jpg",
+    "crop_ids": [
+      "CB-0230",
+      "CB-0259",
+      "CB-0302",
+      "CB-0375",
+      "CB-0418"
+    ],
+    "board": "frames/15.jpg",
+    "sha256": "bd29bddd1fe993ade5228d786149edbdaf252095dd5374cc06b1f8b7d5ebe267",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0230",
+      "CB-0259",
+      "CB-0302",
+      "CB-0375",
+      "CB-0418"
+    ],
+    "derivative_ids": [
+      "CB-0230-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-059",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00041.jpg",
+    "crop_ids": [
+      "CB-0303",
+      "CB-0419",
+      "CB-0492",
+      "CB-0521"
+    ],
+    "board": "frames/15.jpg",
+    "sha256": "7ef740b01f6a1580ea0108cea6534a7d9ab407e9b8901c69ee6b8a7162c16509",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0303",
+      "CB-0419",
+      "CB-0492",
+      "CB-0521"
+    ],
+    "derivative_ids": [
+      "CB-0521-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-060",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00043.jpg",
+    "crop_ids": [
+      "CB-0304",
+      "CB-0420",
+      "CB-0550"
+    ],
+    "board": "frames/15.jpg",
+    "sha256": "33260eb83267f80300ee57211712ffe6ea341f250a20e25416a216d65d4d7bfa",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0304",
+      "CB-0420",
+      "CB-0550"
+    ],
+    "derivative_ids": [
+      "CB-0550-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-061",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00045.jpg",
+    "crop_ids": [
+      "CB-0231",
+      "CB-0260",
+      "CB-0305",
+      "CB-0376",
+      "CB-0421"
+    ],
+    "board": "frames/16.jpg",
+    "sha256": "c64a469fd7f1f4c79f90ae3d1c620137f0017dc57138428e5f92c812be9fd857",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0231",
+      "CB-0260",
+      "CB-0305",
+      "CB-0376",
+      "CB-0421"
+    ],
+    "derivative_ids": [
+      "CB-0231-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-062",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00047.jpg",
+    "crop_ids": [
+      "CB-0306",
+      "CB-0422",
+      "CB-0493",
+      "CB-0522"
+    ],
+    "board": "frames/16.jpg",
+    "sha256": "b15a5a943f88a5b1a79702a62d6c790b487cbea1ec8ce74149ca38c8ad4ec5ee",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0306",
+      "CB-0422",
+      "CB-0493",
+      "CB-0522"
+    ],
+    "derivative_ids": [
+      "CB-0522-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-063",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00049.jpg",
+    "crop_ids": [
+      "CB-0307",
+      "CB-0423",
+      "CB-0551"
+    ],
+    "board": "frames/16.jpg",
+    "sha256": "00bca34057eeeaffe80d0a1520d63ef169c52cac29939b04814d21e5a2996014",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0307",
+      "CB-0423",
+      "CB-0551"
+    ],
+    "derivative_ids": [
+      "CB-0551-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-064",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00051.jpg",
+    "crop_ids": [
+      "CB-0232",
+      "CB-0261",
+      "CB-0308",
+      "CB-0377",
+      "CB-0424"
+    ],
+    "board": "frames/16.jpg",
+    "sha256": "6c5e84a01a098db1abd62aa9fead603de13834df6a73fde0e7d2eac491625c1e",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0232",
+      "CB-0261",
+      "CB-0308",
+      "CB-0377",
+      "CB-0424"
+    ],
+    "derivative_ids": [
+      "CB-0232-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-065",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00053.jpg",
+    "crop_ids": [
+      "CB-0309",
+      "CB-0425",
+      "CB-0494",
+      "CB-0523"
+    ],
+    "board": "frames/17.jpg",
+    "sha256": "4c0043ee072ffe5a2786958bfe2352e007b93e83f047ed296621891a558c3cae",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0309",
+      "CB-0425",
+      "CB-0494",
+      "CB-0523"
+    ],
+    "derivative_ids": [
+      "CB-0523-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-066",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00055.jpg",
+    "crop_ids": [
+      "CB-0310",
+      "CB-0426",
+      "CB-0552"
+    ],
+    "board": "frames/17.jpg",
+    "sha256": "436c767b00221bc7c44693375294925c4544dc8542092f9786ded81097470513",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0310",
+      "CB-0426",
+      "CB-0552"
+    ],
+    "derivative_ids": [
+      "CB-0552-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-067",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00057.jpg",
+    "crop_ids": [
+      "CB-0233",
+      "CB-0262",
+      "CB-0311",
+      "CB-0378",
+      "CB-0427"
+    ],
+    "board": "frames/17.jpg",
+    "sha256": "cde347f31fd36d7c506372f57319d3bd73a17f78068c8a4e09e7f3b7caba297f",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0233",
+      "CB-0262",
+      "CB-0311",
+      "CB-0378",
+      "CB-0427"
+    ],
+    "derivative_ids": [
+      "CB-0233-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-068",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00059.jpg",
+    "crop_ids": [
+      "CB-0312",
+      "CB-0428",
+      "CB-0495",
+      "CB-0524"
+    ],
+    "board": "frames/17.jpg",
+    "sha256": "d6e8693403b5e0a6db5de7b823ed931739978f9b348133d5265fbbcb80aa84f9",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0312",
+      "CB-0428",
+      "CB-0495",
+      "CB-0524"
+    ],
+    "derivative_ids": [
+      "CB-0524-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-069",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00061.jpg",
+    "crop_ids": [
+      "CB-0313",
+      "CB-0429",
+      "CB-0553"
+    ],
+    "board": "frames/18.jpg",
+    "sha256": "b1d14a5c43093287142d37356f46756f588f82ed6e057f148e03e2842c3d95f4",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0313",
+      "CB-0429",
+      "CB-0553"
+    ],
+    "derivative_ids": [
+      "CB-0553-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-070",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00063.jpg",
+    "crop_ids": [
+      "CB-0234",
+      "CB-0263",
+      "CB-0314",
+      "CB-0379",
+      "CB-0430"
+    ],
+    "board": "frames/18.jpg",
+    "sha256": "7148b4922169a8387e026e3a9f3ace182f9ef3ba6dff26e20ac96686eac3cc20",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0234",
+      "CB-0263",
+      "CB-0314",
+      "CB-0379",
+      "CB-0430"
+    ],
+    "derivative_ids": [
+      "CB-0234-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-071",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00065.jpg",
+    "crop_ids": [
+      "CB-0315",
+      "CB-0431",
+      "CB-0496",
+      "CB-0525"
+    ],
+    "board": "frames/18.jpg",
+    "sha256": "a4878fc800fb72339c3350e4ea1d74fe46a693837a125d1fe3acc16b0d22dd3a",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0315",
+      "CB-0431",
+      "CB-0496",
+      "CB-0525"
+    ],
+    "derivative_ids": [
+      "CB-0525-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-072",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00067.jpg",
+    "crop_ids": [
+      "CB-0316",
+      "CB-0432",
+      "CB-0554"
+    ],
+    "board": "frames/18.jpg",
+    "sha256": "2ea3c87ae43a575bdf0aaf0028c3632eaf85b86b3508da7c5ec8d97f3418e776",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0316",
+      "CB-0432",
+      "CB-0554"
+    ],
+    "derivative_ids": [
+      "CB-0554-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-073",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00069.jpg",
+    "crop_ids": [
+      "CB-0235",
+      "CB-0264",
+      "CB-0317",
+      "CB-0380",
+      "CB-0433"
+    ],
+    "board": "frames/19.jpg",
+    "sha256": "0e5e693d8661fe411870fdcc79202c7f77cd7878ee735619a178a2a2a534ab6a",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0235",
+      "CB-0264",
+      "CB-0317",
+      "CB-0380",
+      "CB-0433"
+    ],
+    "derivative_ids": [
+      "CB-0235-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-074",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00071.jpg",
+    "crop_ids": [
+      "CB-0318",
+      "CB-0434",
+      "CB-0497",
+      "CB-0526"
+    ],
+    "board": "frames/19.jpg",
+    "sha256": "ad8eef0ff000f0be957d01367842329dd2ad75a554e5a82dd2f6bdb1f92e1998",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0318",
+      "CB-0434",
+      "CB-0497",
+      "CB-0526"
+    ],
+    "derivative_ids": [
+      "CB-0526-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-075",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00073.jpg",
+    "crop_ids": [
+      "CB-0319",
+      "CB-0435",
+      "CB-0555"
+    ],
+    "board": "frames/19.jpg",
+    "sha256": "f1efb6b20fc3eb58bc333e94d99b7879d1138eef2af78da2217329fb07ff6ac5",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0319",
+      "CB-0435",
+      "CB-0555"
+    ],
+    "derivative_ids": [
+      "CB-0555-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-076",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00079.jpg",
+    "crop_ids": [
+      "CB-0236",
+      "CB-0265",
+      "CB-0320",
+      "CB-0381",
+      "CB-0436"
+    ],
+    "board": "frames/19.jpg",
+    "sha256": "0aab67a8690feef012398094dddb55cfd6f047eca67945bf85fa9cd015946c56",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0236",
+      "CB-0265",
+      "CB-0320",
+      "CB-0381",
+      "CB-0436"
+    ],
+    "derivative_ids": [
+      "CB-0236-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-077",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00082.jpg",
+    "crop_ids": [
+      "CB-0321",
+      "CB-0437",
+      "CB-0498",
+      "CB-0527"
+    ],
+    "board": "frames/20.jpg",
+    "sha256": "1d2077c7cab979e269300f7bc4d9c824b37c55a3be06998440d680ff23a93988",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0321",
+      "CB-0437",
+      "CB-0498",
+      "CB-0527"
+    ],
+    "derivative_ids": [
+      "CB-0527-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-078",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00083.jpg",
+    "crop_ids": [
+      "CB-0322",
+      "CB-0438",
+      "CB-0556"
+    ],
+    "board": "frames/20.jpg",
+    "sha256": "87f9c7d40eaebbd3aa48cdc07acf2abc5eea7b21cf082daee85c69affcba4742",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0322",
+      "CB-0438",
+      "CB-0556"
+    ],
+    "derivative_ids": [
+      "CB-0556-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-079",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00089.jpg",
+    "crop_ids": [
+      "CB-0237",
+      "CB-0266",
+      "CB-0323",
+      "CB-0382",
+      "CB-0439"
+    ],
+    "board": "frames/20.jpg",
+    "sha256": "0d9a217fa2cd299915376f69fd71b66940969f8028ab41333d991704522734b4",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0237",
+      "CB-0266",
+      "CB-0323",
+      "CB-0382",
+      "CB-0439"
+    ],
+    "derivative_ids": [
+      "CB-0237-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-080",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00091.jpg",
+    "crop_ids": [
+      "CB-0324",
+      "CB-0440",
+      "CB-0499",
+      "CB-0528"
+    ],
+    "board": "frames/20.jpg",
+    "sha256": "7a36044086542c62df8e39a270ad1ef50d0f308ed8bed77d1ebbf51e90af0267",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0324",
+      "CB-0440",
+      "CB-0499",
+      "CB-0528"
+    ],
+    "derivative_ids": [
+      "CB-0528-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-081",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00093.jpg",
+    "crop_ids": [
+      "CB-0325",
+      "CB-0441",
+      "CB-0557"
+    ],
+    "board": "frames/21.jpg",
+    "sha256": "33dd9f54fcad05825cb0a86f089446dcec3bcaef03c95c1b332aa01945c1c71f",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0325",
+      "CB-0441",
+      "CB-0557"
+    ],
+    "derivative_ids": [
+      "CB-0557-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-082",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00095.jpg",
+    "crop_ids": [
+      "CB-0238",
+      "CB-0267",
+      "CB-0326",
+      "CB-0383",
+      "CB-0442"
+    ],
+    "board": "frames/21.jpg",
+    "sha256": "443d32342fce4878ccb4de630001af717112f68e1854cda3baf154e9af364c54",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0238",
+      "CB-0267",
+      "CB-0326",
+      "CB-0383",
+      "CB-0442"
+    ],
+    "derivative_ids": [
+      "CB-0238-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-083",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00097.jpg",
+    "crop_ids": [
+      "CB-0327",
+      "CB-0443",
+      "CB-0500",
+      "CB-0529"
+    ],
+    "board": "frames/21.jpg",
+    "sha256": "4907770d8ad783f54dc4661009406b3fd45f040a54b4ee6937641bf1282ff9e0",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0327",
+      "CB-0443",
+      "CB-0500",
+      "CB-0529"
+    ],
+    "derivative_ids": [
+      "CB-0529-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-084",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00099.jpg",
+    "crop_ids": [
+      "CB-0328",
+      "CB-0444",
+      "CB-0558"
+    ],
+    "board": "frames/21.jpg",
+    "sha256": "402472473beb69d97675db3c4400ce1e649d1f70a4e20aa6201ef5300c5ada13",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0328",
+      "CB-0444",
+      "CB-0558"
+    ],
+    "derivative_ids": [
+      "CB-0558-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-085",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00104.jpg",
+    "crop_ids": [
+      "CB-0239",
+      "CB-0268",
+      "CB-0329",
+      "CB-0384",
+      "CB-0445"
+    ],
+    "board": "frames/22.jpg",
+    "sha256": "e40d1adf5db3867249560cdf0bb989a395724a3e6b2460bb908fa432107104fe",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0239",
+      "CB-0268",
+      "CB-0329",
+      "CB-0384",
+      "CB-0445"
+    ],
+    "derivative_ids": [
+      "CB-0239-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-086",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00106.jpg",
+    "crop_ids": [
+      "CB-0330",
+      "CB-0446",
+      "CB-0501",
+      "CB-0530"
+    ],
+    "board": "frames/22.jpg",
+    "sha256": "29bec963c7c796233e1db3b9d13a11bcc02fce9d30847a8f340a3a8f0a375f85",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0330",
+      "CB-0446",
+      "CB-0501",
+      "CB-0530"
+    ],
+    "derivative_ids": [
+      "CB-0530-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-087",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00111.jpg",
+    "crop_ids": [
+      "CB-0331",
+      "CB-0447",
+      "CB-0559"
+    ],
+    "board": "frames/22.jpg",
+    "sha256": "31b21d1a017a7a3b4c8c793142c5396d0a4dbb849ec7ef085ae4a586031371fd",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0331",
+      "CB-0447",
+      "CB-0559"
+    ],
+    "derivative_ids": [
+      "CB-0559-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-088",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00112.jpg",
+    "crop_ids": [
+      "CB-0240",
+      "CB-0269",
+      "CB-0332",
+      "CB-0385",
+      "CB-0448"
+    ],
+    "board": "frames/22.jpg",
+    "sha256": "45cf2d4b1cf39d7fce5afc0115355832055674c98832ce025d2eb351c5589af5",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0240",
+      "CB-0269",
+      "CB-0332",
+      "CB-0385",
+      "CB-0448"
+    ],
+    "derivative_ids": [
+      "CB-0240-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-089",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00123.jpg",
+    "crop_ids": [
+      "CB-0333",
+      "CB-0449",
+      "CB-0502",
+      "CB-0531"
+    ],
+    "board": "frames/23.jpg",
+    "sha256": "f9f99df6dacbfcf039cbbc466f10a250226a8b7c05bbd42c60d7dcf4eb09e683",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0333",
+      "CB-0449",
+      "CB-0502",
+      "CB-0531"
+    ],
+    "derivative_ids": [
+      "CB-0531-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-090",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00137.jpg",
+    "crop_ids": [
+      "CB-0334",
+      "CB-0450",
+      "CB-0560"
+    ],
+    "board": "frames/23.jpg",
+    "sha256": "12d6a13b7fe41d46841bb88f35ef2cb3bc8c54445d4eade9e72e1d9a14a38143",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0334",
+      "CB-0450",
+      "CB-0560"
+    ],
+    "derivative_ids": [
+      "CB-0560-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-091",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00140.jpg",
+    "crop_ids": [
+      "CB-0241",
+      "CB-0270",
+      "CB-0335",
+      "CB-0386",
+      "CB-0451"
+    ],
+    "board": "frames/23.jpg",
+    "sha256": "0ecebe125ba5ce55cdd0cad13801201434f928b7976c5ab8e588ce53371a0b28",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0241",
+      "CB-0270",
+      "CB-0335",
+      "CB-0386",
+      "CB-0451"
+    ],
+    "derivative_ids": [
+      "CB-0241-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-092",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00143.jpg",
+    "crop_ids": [
+      "CB-0336",
+      "CB-0452",
+      "CB-0503",
+      "CB-0532"
+    ],
+    "board": "frames/23.jpg",
+    "sha256": "a2363bd89b0510c621a546315f3486a1ec635af3f4d57a06ce1dc62498493d44",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0336",
+      "CB-0452",
+      "CB-0503",
+      "CB-0532"
+    ],
+    "derivative_ids": [
+      "CB-0532-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-093",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00145.jpg",
+    "crop_ids": [
+      "CB-0337",
+      "CB-0453",
+      "CB-0561"
+    ],
+    "board": "frames/24.jpg",
+    "sha256": "1da4fe1472d49f9f4cfe354c17ef678b43cb9649e1dfd5de35fec47131801f03",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0337",
+      "CB-0453",
+      "CB-0561"
+    ],
+    "derivative_ids": [
+      "CB-0561-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-094",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00146.jpg",
+    "crop_ids": [
+      "CB-0242",
+      "CB-0271",
+      "CB-0338",
+      "CB-0387",
+      "CB-0454"
+    ],
+    "board": "frames/24.jpg",
+    "sha256": "fa9e32e43d1a8515f2d69305f7766c87ecdecc4ac5b265c9bf8f651e33a8058a",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0242",
+      "CB-0271",
+      "CB-0338",
+      "CB-0387",
+      "CB-0454"
+    ],
+    "derivative_ids": [
+      "CB-0242-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-095",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00149.jpg",
+    "crop_ids": [
+      "CB-0339",
+      "CB-0455",
+      "CB-0504",
+      "CB-0533"
+    ],
+    "board": "frames/24.jpg",
+    "sha256": "627e4fa528a76412faad520d01b06150cf07f09070a49ab95f31ff5824bfcff6",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0339",
+      "CB-0455",
+      "CB-0504",
+      "CB-0533"
+    ],
+    "derivative_ids": [
+      "CB-0533-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-096",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00150.jpg",
+    "crop_ids": [
+      "CB-0340",
+      "CB-0456",
+      "CB-0562"
+    ],
+    "board": "frames/24.jpg",
+    "sha256": "2249f8f097a715b484e76461874e997141e793f3ffb5db49eeafc4e76d9802a9",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0340",
+      "CB-0456",
+      "CB-0562"
+    ],
+    "derivative_ids": [
+      "CB-0562-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-097",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00157.jpg",
+    "crop_ids": [
+      "CB-0243",
+      "CB-0272",
+      "CB-0341",
+      "CB-0388",
+      "CB-0457"
+    ],
+    "board": "frames/25.jpg",
+    "sha256": "4c67569a8dea8dffd54f336d0c6ff89dc389e587354b58d5bbc795460e168f51",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0243",
+      "CB-0272",
+      "CB-0341",
+      "CB-0388",
+      "CB-0457"
+    ],
+    "derivative_ids": [
+      "CB-0243-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-098",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00161.jpg",
+    "crop_ids": [
+      "CB-0342",
+      "CB-0458",
+      "CB-0505",
+      "CB-0534"
+    ],
+    "board": "frames/25.jpg",
+    "sha256": "2cae86e3a111613f3b1512b152f637c5d9ced8645e7cb94ed65e503ed8c047b4",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0342",
+      "CB-0458",
+      "CB-0505",
+      "CB-0534"
+    ],
+    "derivative_ids": [
+      "CB-0534-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-099",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00166.jpg",
+    "crop_ids": [
+      "CB-0343",
+      "CB-0459",
+      "CB-0563"
+    ],
+    "board": "frames/25.jpg",
+    "sha256": "d21e8ba065e32d081af2b57cc382a078200e56524fbc33b8bf41de3c43789205",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0343",
+      "CB-0459",
+      "CB-0563"
+    ],
+    "derivative_ids": [
+      "CB-0563-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-100",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00167.jpg",
+    "crop_ids": [
+      "CB-0244",
+      "CB-0273",
+      "CB-0344",
+      "CB-0389",
+      "CB-0460"
+    ],
+    "board": "frames/25.jpg",
+    "sha256": "8e9b223c9880b40cec4b856bfada98cd80a259ebe36c2ddb3d62f82859109678",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0244",
+      "CB-0273",
+      "CB-0344",
+      "CB-0389",
+      "CB-0460"
+    ],
+    "derivative_ids": [
+      "CB-0244-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-101",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00169.jpg",
+    "crop_ids": [
+      "CB-0345",
+      "CB-0461",
+      "CB-0506",
+      "CB-0535"
+    ],
+    "board": "frames/26.jpg",
+    "sha256": "cd449836775fb231e5bdde1bbf362cec7d3c65a77e30ad0b1d16b6a3de09c31b",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0345",
+      "CB-0461",
+      "CB-0506",
+      "CB-0535"
+    ],
+    "derivative_ids": [
+      "CB-0535-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-102",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00170.jpg",
+    "crop_ids": [
+      "CB-0346",
+      "CB-0462",
+      "CB-0564"
+    ],
+    "board": "frames/26.jpg",
+    "sha256": "2928ad13597789f12b5ec86646fcc98c3720369e961e9e9b889ee5b1ae6de9e6",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0346",
+      "CB-0462",
+      "CB-0564"
+    ],
+    "derivative_ids": [
+      "CB-0564-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-103",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00184.jpg",
+    "crop_ids": [
+      "CB-0245",
+      "CB-0274",
+      "CB-0347",
+      "CB-0390",
+      "CB-0463"
+    ],
+    "board": "frames/26.jpg",
+    "sha256": "eb235f4855bb59d8706d9fda533dc7db009b69017f19b874f634cb6492ec9260",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0245",
+      "CB-0274",
+      "CB-0347",
+      "CB-0390",
+      "CB-0463"
+    ],
+    "derivative_ids": [
+      "CB-0245-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-104",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00190.jpg",
+    "crop_ids": [
+      "CB-0348",
+      "CB-0464",
+      "CB-0507",
+      "CB-0536"
+    ],
+    "board": "frames/26.jpg",
+    "sha256": "c6a40ee8de39563cc11fa6eb8825e19d06e78450f84cb867fd86f55eedb3d4c3",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0348",
+      "CB-0464",
+      "CB-0507",
+      "CB-0536"
+    ],
+    "derivative_ids": [
+      "CB-0536-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-105",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00197.jpg",
+    "crop_ids": [
+      "CB-0349",
+      "CB-0465",
+      "CB-0565"
+    ],
+    "board": "frames/27.jpg",
+    "sha256": "0c22f4fb741751edd4264940363977bdcfa66c4739ee49080ea9d64b3c03cb5a",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0349",
+      "CB-0465",
+      "CB-0565"
+    ],
+    "derivative_ids": [
+      "CB-0565-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-106",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00198.jpg",
+    "crop_ids": [
+      "CB-0246",
+      "CB-0275",
+      "CB-0350",
+      "CB-0391",
+      "CB-0466"
+    ],
+    "board": "frames/27.jpg",
+    "sha256": "6da7f1a5bab779bac6ec148d473bad13b89872abdb0dd8ed9cc9cfe3cd440bf1",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0246",
+      "CB-0275",
+      "CB-0350",
+      "CB-0391",
+      "CB-0466"
+    ],
+    "derivative_ids": [
+      "CB-0246-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-107",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00201.jpg",
+    "crop_ids": [
+      "CB-0351",
+      "CB-0467",
+      "CB-0508",
+      "CB-0537"
+    ],
+    "board": "frames/27.jpg",
+    "sha256": "fb42817079a0923ac9803528e321387c9553601d19e8c36f9590316d7fbacb27",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0351",
+      "CB-0467",
+      "CB-0508",
+      "CB-0537"
+    ],
+    "derivative_ids": [
+      "CB-0537-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-108",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00203.jpg",
+    "crop_ids": [
+      "CB-0352",
+      "CB-0468",
+      "CB-0566"
+    ],
+    "board": "frames/27.jpg",
+    "sha256": "073eda4d2e4397b664a99d20eb68a5aedf3481d7661bc6df08027a34ca97a1b2",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0352",
+      "CB-0468",
+      "CB-0566"
+    ],
+    "derivative_ids": [
+      "CB-0566-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-109",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00204.jpg",
+    "crop_ids": [
+      "CB-0247",
+      "CB-0276",
+      "CB-0353",
+      "CB-0392",
+      "CB-0469"
+    ],
+    "board": "frames/28.jpg",
+    "sha256": "ddcccb7927d3640ee87934d85ca4d49953e7c59af9e264717c5f3134b3b08fd3",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0247",
+      "CB-0276",
+      "CB-0353",
+      "CB-0392",
+      "CB-0469"
+    ],
+    "derivative_ids": [
+      "CB-0247-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-110",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00206.jpg",
+    "crop_ids": [
+      "CB-0354",
+      "CB-0470",
+      "CB-0509",
+      "CB-0538"
+    ],
+    "board": "frames/28.jpg",
+    "sha256": "c1cfcbbb21195d02f8bef884a5b099c0758afa76d7f45c81e3aa5597bfeb3475",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0354",
+      "CB-0470",
+      "CB-0509",
+      "CB-0538"
+    ],
+    "derivative_ids": [
+      "CB-0538-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-111",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00213.jpg",
+    "crop_ids": [
+      "CB-0355",
+      "CB-0471",
+      "CB-0567"
+    ],
+    "board": "frames/28.jpg",
+    "sha256": "7d1531ff438bdc6b25722975c221db2163b48da96c5372f5f9c73711257286f7",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0355",
+      "CB-0471",
+      "CB-0567"
+    ],
+    "derivative_ids": [
+      "CB-0567-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-112",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00214.jpg",
+    "crop_ids": [
+      "CB-0248",
+      "CB-0277",
+      "CB-0356",
+      "CB-0393",
+      "CB-0472"
+    ],
+    "board": "frames/28.jpg",
+    "sha256": "a95c158516e3e1cdd8f416d5504700b603d80ae34ab1d46da0eff4b623f77086",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0248",
+      "CB-0277",
+      "CB-0356",
+      "CB-0393",
+      "CB-0472"
+    ],
+    "derivative_ids": [
+      "CB-0248-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-113",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00216.jpg",
+    "crop_ids": [
+      "CB-0357",
+      "CB-0473",
+      "CB-0510",
+      "CB-0539"
+    ],
+    "board": "frames/29.jpg",
+    "sha256": "c6c0b8676a9df0158c9dc7fe0178ac512c7183c061f58308917bb6456b3066c2",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0357",
+      "CB-0473",
+      "CB-0510",
+      "CB-0539"
+    ],
+    "derivative_ids": [
+      "CB-0539-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-114",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00217.jpg",
+    "crop_ids": [
+      "CB-0358",
+      "CB-0474",
+      "CB-0568"
+    ],
+    "board": "frames/29.jpg",
+    "sha256": "5138eeaa9e05916a163c7c6d91b78d704b323e3ce80670161bcb18cb28c72ded",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0358",
+      "CB-0474",
+      "CB-0568"
+    ],
+    "derivative_ids": [
+      "CB-0568-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-115",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00227.jpg",
+    "crop_ids": [
+      "CB-0249",
+      "CB-0278",
+      "CB-0359",
+      "CB-0394",
+      "CB-0475"
+    ],
+    "board": "frames/29.jpg",
+    "sha256": "8cfe5e34f6a37863eb2c3dcc5441b53fecdea8fb2f6e6885c22203eac792e957",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0249",
+      "CB-0278",
+      "CB-0359",
+      "CB-0394",
+      "CB-0475"
+    ],
+    "derivative_ids": [
+      "CB-0249-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-116",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00231.jpg",
+    "crop_ids": [
+      "CB-0360",
+      "CB-0476",
+      "CB-0511",
+      "CB-0540"
+    ],
+    "board": "frames/29.jpg",
+    "sha256": "f5487b74a115687fb87c234ecc6baa7d0c0e1e87dd845ea91c721ab88d68777a",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0360",
+      "CB-0476",
+      "CB-0511",
+      "CB-0540"
+    ],
+    "derivative_ids": [
+      "CB-0540-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-117",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00235.jpg",
+    "crop_ids": [
+      "CB-0361",
+      "CB-0477",
+      "CB-0569"
+    ],
+    "board": "frames/30.jpg",
+    "sha256": "e1228a60aa798f993803e8bf13e492a7a003e4a60c7b305933771cd3f9de254e",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0361",
+      "CB-0477",
+      "CB-0569"
+    ],
+    "derivative_ids": [
+      "CB-0569-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-118",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00237.jpg",
+    "crop_ids": [
+      "CB-0250",
+      "CB-0279",
+      "CB-0362",
+      "CB-0395",
+      "CB-0478"
+    ],
+    "board": "frames/30.jpg",
+    "sha256": "fd2d41c051ba36dd9d6619763be7f521b07e20cc857643a366ec03a8369e95dd",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0250",
+      "CB-0279",
+      "CB-0362",
+      "CB-0395",
+      "CB-0478"
+    ],
+    "derivative_ids": [
+      "CB-0250-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-119",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00241.jpg",
+    "crop_ids": [
+      "CB-0363",
+      "CB-0479",
+      "CB-0512",
+      "CB-0541"
+    ],
+    "board": "frames/30.jpg",
+    "sha256": "439c65189ca0053c165b1c60137fe2cdfd7f435a356e4beff0aaa64a402b607b",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0363",
+      "CB-0479",
+      "CB-0512",
+      "CB-0541"
+    ],
+    "derivative_ids": [
+      "CB-0541-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-120",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00242.jpg",
+    "crop_ids": [
+      "CB-0364",
+      "CB-0480",
+      "CB-0570"
+    ],
+    "board": "frames/30.jpg",
+    "sha256": "117f49750f3e960f7bde20dd967307a02c21a97698aa8bf76fcfbedd94b84227",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0364",
+      "CB-0480",
+      "CB-0570"
+    ],
+    "derivative_ids": [
+      "CB-0570-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-121",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00249.jpg",
+    "crop_ids": [
+      "CB-0251",
+      "CB-0280",
+      "CB-0365",
+      "CB-0396",
+      "CB-0481"
+    ],
+    "board": "frames/31.jpg",
+    "sha256": "47f612814c2d2e0fb1b9d8ee6a152175b9bce9c8e49b5b392da0177368fdd2fb",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0251",
+      "CB-0280",
+      "CB-0365",
+      "CB-0396",
+      "CB-0481"
+    ],
+    "derivative_ids": [
+      "CB-0251-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-122",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00250.jpg",
+    "crop_ids": [
+      "CB-0366",
+      "CB-0482",
+      "CB-0513",
+      "CB-0542"
+    ],
+    "board": "frames/31.jpg",
+    "sha256": "c70a02297c0658ef56f4a670f683c08a63b83f1438490c0cfbe10a304a54d5a1",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0366",
+      "CB-0482",
+      "CB-0513",
+      "CB-0542"
+    ],
+    "derivative_ids": [
+      "CB-0542-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-123",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00252.jpg",
+    "crop_ids": [
+      "CB-0367",
+      "CB-0483",
+      "CB-0571"
+    ],
+    "board": "frames/31.jpg",
+    "sha256": "c4306242036e13e980aa4154a1e846b334f3b2cc8f2b409b117c0d112e658453",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0367",
+      "CB-0483",
+      "CB-0571"
+    ],
+    "derivative_ids": [
+      "CB-0571-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-124",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/286f4f8992d4ad931647/frame_00256.jpg",
+    "crop_ids": [
+      "CB-0252",
+      "CB-0281",
+      "CB-0368",
+      "CB-0397",
+      "CB-0484"
+    ],
+    "board": "frames/31.jpg",
+    "sha256": "d9663fd12ead570883cd4ea79817331e68773fb2dc286bf747925aa3ebd98c21",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0252",
+      "CB-0281",
+      "CB-0368",
+      "CB-0397",
+      "CB-0484"
+    ],
+    "derivative_ids": [
+      "CB-0252-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-125",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00001.jpg",
+    "crop_ids": [
+      "CB-0572",
+      "CB-0618",
+      "CB-0644"
+    ],
+    "board": "frames/32.jpg",
+    "sha256": "01c2e62969f999adc3e03a44f79e050ce07688d5d26c8c0a21711dad1e8a7623",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0572",
+      "CB-0618",
+      "CB-0644"
+    ],
+    "derivative_ids": [
+      "CB-0572-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-126",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00003.jpg",
+    "crop_ids": [
+      "CB-0573",
+      "CB-0619"
+    ],
+    "board": "frames/32.jpg",
+    "sha256": "6aadae9c9b7f60f50fc77edf37a628310aace260a1ad456bf8db27ea8465e9f0",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0573",
+      "CB-0619"
+    ],
+    "derivative_ids": [
+      "CB-0573-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-127",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00007.jpg",
+    "crop_ids": [
+      "CB-0574",
+      "CB-0604",
+      "CB-0611",
+      "CB-0620"
+    ],
+    "board": "frames/32.jpg",
+    "sha256": "6dd119b8c2891ea9301313a74bc7e69a4f4ebee558d461750412e6b93d337d73",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0574",
+      "CB-0604",
+      "CB-0611",
+      "CB-0620"
+    ],
+    "derivative_ids": [
+      "CB-0574-R1",
+      "CB-0604-R1",
+      "CB-0611-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-128",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00008.jpg",
+    "crop_ids": [
+      "CB-0575",
+      "CB-0598",
+      "CB-0621",
+      "CB-0653"
+    ],
+    "board": "frames/32.jpg",
+    "sha256": "7ee65d18b0ffbfe12e10fff7c3237158facd0f868e12aaa6b04c239bc7957de2",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0575",
+      "CB-0598",
+      "CB-0621",
+      "CB-0653"
+    ],
+    "derivative_ids": [
+      "CB-0575-R1",
+      "CB-0598-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-129",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00013.jpg",
+    "crop_ids": [
+      "CB-0576",
+      "CB-0622",
+      "CB-0645"
+    ],
+    "board": "frames/33.jpg",
+    "sha256": "e8430e759f323f26552154b1a3fbcc92ff12be1de7ebb762825e799c89da98ea",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0576",
+      "CB-0622",
+      "CB-0645"
+    ],
+    "derivative_ids": [
+      "CB-0576-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-130",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00021.jpg",
+    "crop_ids": [
+      "CB-0577",
+      "CB-0623"
+    ],
+    "board": "frames/33.jpg",
+    "sha256": "12306906300e1d728816859914297b7f76eaf894becc8ef35439a8a0f6ce8d06",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0577",
+      "CB-0623"
+    ],
+    "derivative_ids": [
+      "CB-0577-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-131",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00036.jpg",
+    "crop_ids": [
+      "CB-0578",
+      "CB-0605",
+      "CB-0612",
+      "CB-0624"
+    ],
+    "board": "frames/33.jpg",
+    "sha256": "1ba92f2668d9e6e9b42b479300abcddd10442f8828cd3c3a0da5e21ed2907569",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0578",
+      "CB-0605",
+      "CB-0612",
+      "CB-0624"
+    ],
+    "derivative_ids": [
+      "CB-0578-R1",
+      "CB-0612-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-132",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00042.jpg",
+    "crop_ids": [
+      "CB-0579",
+      "CB-0599",
+      "CB-0625",
+      "CB-0654"
+    ],
+    "board": "frames/33.jpg",
+    "sha256": "103accf09373ffffbd9652c39867e90ada69a0069b50441ff28c72b875ee84e3",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0579",
+      "CB-0599",
+      "CB-0625",
+      "CB-0654"
+    ],
+    "derivative_ids": [
+      "CB-0579-R1",
+      "CB-0599-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-133",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00044.jpg",
+    "crop_ids": [
+      "CB-0648"
+    ],
+    "board": "frames/34.jpg",
+    "sha256": "f4d6d811bf85dc964f16dfcbbf3bd2d711b93565aa90ba602dc21acfaa231879",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0648"
+    ],
+    "derivative_ids": [
+      "CB-0648-R1",
+      "CB-NEW-04"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-134",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00045.jpg",
+    "crop_ids": [
+      "CB-0649"
+    ],
+    "board": "frames/34.jpg",
+    "sha256": "2b939530e4a3436b5f654d370646ec30a085106fd902544b8b0cc01162726b38",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0649"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-135",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00047.jpg",
+    "crop_ids": [
+      "CB-0650"
+    ],
+    "board": "frames/34.jpg",
+    "sha256": "08bff4e45c619da1177c77aee9c76e1e3c7405ee27d78da945eb816e042f5a14",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0650"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-136",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00055.jpg",
+    "crop_ids": [
+      "CB-0651"
+    ],
+    "board": "frames/34.jpg",
+    "sha256": "50c7395ce3dcff52984e53ac0e562fca69ced55896f26bf37d12ddfe4652aeb5",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0651"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-137",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00065.jpg",
+    "crop_ids": [
+      "CB-0652"
+    ],
+    "board": "frames/35.jpg",
+    "sha256": "3e198ff907ae6d75ddcabda04b48d9ff75425e26e2734609a84e652ec3a49035",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0652"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-138",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00071.jpg",
+    "crop_ids": [
+      "CB-0580",
+      "CB-0626"
+    ],
+    "board": "frames/35.jpg",
+    "sha256": "952fc995fc781c18ab9c300156a2a3ee7352120afbed4e38c4a94fdcc9658237",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0580",
+      "CB-0626"
+    ],
+    "derivative_ids": [
+      "CB-0580-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-139",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00073.jpg",
+    "crop_ids": [
+      "CB-0581",
+      "CB-0606",
+      "CB-0613",
+      "CB-0627"
+    ],
+    "board": "frames/35.jpg",
+    "sha256": "8796f1737904c18bf0dc32adcee705b622d0aa1a67ebe56540ccb34e91d15dc8",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0581",
+      "CB-0606",
+      "CB-0613",
+      "CB-0627"
+    ],
+    "derivative_ids": [
+      "CB-0581-R1",
+      "CB-0613-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-140",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00077.jpg",
+    "crop_ids": [
+      "CB-0582",
+      "CB-0600",
+      "CB-0628",
+      "CB-0655"
+    ],
+    "board": "frames/35.jpg",
+    "sha256": "04ec235be5117be3e849cdf90a11f414222928f3326064f5068b6e7048c654df",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0582",
+      "CB-0600",
+      "CB-0628",
+      "CB-0655"
+    ],
+    "derivative_ids": [
+      "CB-0582-R1",
+      "CB-0600-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-141",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00078.jpg",
+    "crop_ids": [
+      "CB-0583",
+      "CB-0629",
+      "CB-0646"
+    ],
+    "board": "frames/36.jpg",
+    "sha256": "be3c8084f5eedd91f562ecb664ac739c669650e300e37c89120413f81db07e77",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0583",
+      "CB-0629",
+      "CB-0646"
+    ],
+    "derivative_ids": [
+      "CB-0583-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-142",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00080.jpg",
+    "crop_ids": [
+      "CB-0584",
+      "CB-0630"
+    ],
+    "board": "frames/36.jpg",
+    "sha256": "38608d96fea2ae938f09e3399307e783caab5a4a90e1b4198ec25b80fa3d26a5",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0584",
+      "CB-0630"
+    ],
+    "derivative_ids": [
+      "CB-0584-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-143",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00086.jpg",
+    "crop_ids": [
+      "CB-0585",
+      "CB-0607",
+      "CB-0614",
+      "CB-0631"
+    ],
+    "board": "frames/36.jpg",
+    "sha256": "cdd529a285c216a4a04b72b6dae16b73cf3dd237d6495d8a7fc5b619ef8d428f",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0585",
+      "CB-0607",
+      "CB-0614",
+      "CB-0631"
+    ],
+    "derivative_ids": [
+      "CB-0585-R1",
+      "CB-0607-R1",
+      "CB-0614-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-144",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00090.jpg",
+    "crop_ids": [
+      "CB-0586",
+      "CB-0601",
+      "CB-0632",
+      "CB-0656"
+    ],
+    "board": "frames/36.jpg",
+    "sha256": "8c99a18daaa8e27e925b9070747322fd9fec5b0a9833e68e6a9cacc8240ea136",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0586",
+      "CB-0601",
+      "CB-0632",
+      "CB-0656"
+    ],
+    "derivative_ids": [
+      "CB-0586-R1",
+      "CB-0601-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-145",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00096.jpg",
+    "crop_ids": [
+      "CB-0587",
+      "CB-0633",
+      "CB-0647"
+    ],
+    "board": "frames/37.jpg",
+    "sha256": "480e0ff8b4eebe6245d1b4a732c21c13231e5d3e5a80420c586ef25e3eee4aa8",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0587",
+      "CB-0633",
+      "CB-0647"
+    ],
+    "derivative_ids": [
+      "CB-0587-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-146",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00097.jpg",
+    "crop_ids": [
+      "CB-0588",
+      "CB-0634"
+    ],
+    "board": "frames/37.jpg",
+    "sha256": "ff6cd23cbf56178086b0a9dc034b2a93118edbf659d4669317c2e1b34ab65950",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0588",
+      "CB-0634"
+    ],
+    "derivative_ids": [
+      "CB-0588-R1",
+      "CB-0634-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-147",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00099.jpg",
+    "crop_ids": [
+      "CB-0589",
+      "CB-0608",
+      "CB-0615",
+      "CB-0635"
+    ],
+    "board": "frames/37.jpg",
+    "sha256": "f4418c22ff635e63f0e18d62db62fbe785854224fd6dca2de9a6a9ff903aab13",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0589",
+      "CB-0608",
+      "CB-0615",
+      "CB-0635"
+    ],
+    "derivative_ids": [
+      "CB-0589-R1",
+      "CB-0608-R1",
+      "CB-0615-R1",
+      "CB-0635-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-148",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00101.jpg",
+    "crop_ids": [
+      "CB-0590",
+      "CB-0602",
+      "CB-0636"
+    ],
+    "board": "frames/37.jpg",
+    "sha256": "10bf2385eef41eedd64b0b127048d754fc83710ee2869b9a9ad04958beaba6d6",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0590",
+      "CB-0602",
+      "CB-0636"
+    ],
+    "derivative_ids": [
+      "CB-0590-R1",
+      "CB-0602-R1",
+      "CB-0636-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-149",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00102.jpg",
+    "crop_ids": [
+      "CB-0591",
+      "CB-0637"
+    ],
+    "board": "frames/38.jpg",
+    "sha256": "7df85796d268b848f476f0ec0f3958aae00ebcd3487d2370d82f20be281de0f3",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0591",
+      "CB-0637"
+    ],
+    "derivative_ids": [
+      "CB-0591-R1",
+      "CB-0637-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-150",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00106.jpg",
+    "crop_ids": [
+      "CB-0592",
+      "CB-0638"
+    ],
+    "board": "frames/38.jpg",
+    "sha256": "79d67402705b90f0721c981047f0f755bc0c2e85abeb5b0dccf00fc329504ef2",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0592",
+      "CB-0638"
+    ],
+    "derivative_ids": [
+      "CB-0592-R1",
+      "CB-0638-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-151",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00107.jpg",
+    "crop_ids": [
+      "CB-0593",
+      "CB-0609",
+      "CB-0616",
+      "CB-0639"
+    ],
+    "board": "frames/38.jpg",
+    "sha256": "a3edbae74dd2f042b1338cca26be7226b72f94cc13f86854686781853f2a35a6",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0593",
+      "CB-0609",
+      "CB-0616",
+      "CB-0639"
+    ],
+    "derivative_ids": [
+      "CB-0593-R1",
+      "CB-0609-R1",
+      "CB-0616-R1",
+      "CB-0639-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-152",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00108.jpg",
+    "crop_ids": [
+      "CB-0594",
+      "CB-0603",
+      "CB-0640"
+    ],
+    "board": "frames/38.jpg",
+    "sha256": "0080879d7b75197ee824fa970a08c757ff408fec1f0e0ec0994676ee5bee1c06",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0594",
+      "CB-0603",
+      "CB-0640"
+    ],
+    "derivative_ids": [
+      "CB-0594-R1",
+      "CB-0603-R1",
+      "CB-0640-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-153",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00109.jpg",
+    "crop_ids": [
+      "CB-0595",
+      "CB-0641"
+    ],
+    "board": "frames/39.jpg",
+    "sha256": "f30206a9894c93d9e31d3ef6ef6c613d45e5e42c23e1904de0cc8b59824dfa19",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0595",
+      "CB-0641"
+    ],
+    "derivative_ids": [
+      "CB-0595-R1",
+      "CB-0641-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-154",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00112.jpg",
+    "crop_ids": [
+      "CB-0596",
+      "CB-0642"
+    ],
+    "board": "frames/39.jpg",
+    "sha256": "a41be1ea0437279bf64437f205b40773c93f8193d7a97bc63afb510d281d3510",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0596",
+      "CB-0642"
+    ],
+    "derivative_ids": [
+      "CB-0596-R1",
+      "CB-0642-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-155",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/2b68c2a8bc91941576a8/frame_00113.jpg",
+    "crop_ids": [
+      "CB-0597",
+      "CB-0610",
+      "CB-0617",
+      "CB-0643"
+    ],
+    "board": "frames/39.jpg",
+    "sha256": "154a9e531698fd845460636b1c0bf9adda025aa87d403fceb5dd4a6dd83aeeb5",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0597",
+      "CB-0610",
+      "CB-0617",
+      "CB-0643"
+    ],
+    "derivative_ids": [
+      "CB-0597-R1",
+      "CB-0610-R1",
+      "CB-0617-R1",
+      "CB-0643-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-156",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00001.jpg",
+    "crop_ids": [
+      "CB-0673",
+      "CB-0703"
+    ],
+    "board": "frames/39.jpg",
+    "sha256": "5f2771eb249160d00533f007082a0b0addcdc6388334ad5b962d21e8c524542e",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0673",
+      "CB-0703"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-157",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00005.jpg",
+    "crop_ids": [
+      "CB-0657",
+      "CB-0718"
+    ],
+    "board": "frames/40.jpg",
+    "sha256": "29253bf90ed144c176255196da710677c76f1386a4a48b1f84799d8760028377",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0657",
+      "CB-0718"
+    ],
+    "derivative_ids": [
+      "CB-0718-R1",
+      "CB-NEW-05"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-158",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00009.jpg",
+    "crop_ids": [
+      "CB-0658",
+      "CB-0719",
+      "CB-0734"
+    ],
+    "board": "frames/40.jpg",
+    "sha256": "f490606c0fde9896f3776ee2b92263281617f2d4f7efa61fd512a9869297e8b2",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0658",
+      "CB-0719",
+      "CB-0734"
+    ],
+    "derivative_ids": [
+      "CB-0719-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-159",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00013.jpg",
+    "crop_ids": [
+      "CB-0674",
+      "CB-0704"
+    ],
+    "board": "frames/40.jpg",
+    "sha256": "3a78cac3d49ea7026f6bf9ecbaf882d8a7dd0f2dd29d999132b8117711d6af31",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0674",
+      "CB-0704"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-160",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00016.jpg",
+    "crop_ids": [
+      "CB-0720",
+      "CB-0735"
+    ],
+    "board": "frames/40.jpg",
+    "sha256": "5412829cff3000a18702092ecb4c79280890720eae69a70f1b66b154c2f29c86",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0720",
+      "CB-0735"
+    ],
+    "derivative_ids": [
+      "CB-0720-R1",
+      "CB-0735-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-161",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00017.jpg",
+    "crop_ids": [
+      "CB-0659",
+      "CB-0675",
+      "CB-0736"
+    ],
+    "board": "frames/41.jpg",
+    "sha256": "29cb3599015c6985dfb18df41c36824f3dcf9e052e76b8afbbd2234fa36ad2f0",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0659",
+      "CB-0675",
+      "CB-0736"
+    ],
+    "derivative_ids": [
+      "CB-0736-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-162",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00020.jpg",
+    "crop_ids": [
+      "CB-0660",
+      "CB-0676",
+      "CB-0705"
+    ],
+    "board": "frames/41.jpg",
+    "sha256": "f5b999b31af2677e7f07d2d4e98f5157ffb4270ac5dcc49cc0b74e7ebe659db7",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0660",
+      "CB-0676",
+      "CB-0705"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-163",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00027.jpg",
+    "crop_ids": [
+      "CB-0721"
+    ],
+    "board": "frames/41.jpg",
+    "sha256": "d4a0fd2624ef1a53c50ed333583eb851a9dc980f54751dbe7e2e142055557ab8",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0721"
+    ],
+    "derivative_ids": [
+      "CB-0721-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-164",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00033.jpg",
+    "crop_ids": [
+      "CB-0661",
+      "CB-0706",
+      "CB-0737"
+    ],
+    "board": "frames/41.jpg",
+    "sha256": "b44c1e2d1b7c617c11f9db6de9873a7922b4cf6339e586d3ea7c415f4a475eaa",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0661",
+      "CB-0706",
+      "CB-0737"
+    ],
+    "derivative_ids": [
+      "CB-0737-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-165",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00035.jpg",
+    "crop_ids": [
+      "CB-0677",
+      "CB-0707",
+      "CB-0738"
+    ],
+    "board": "frames/42.jpg",
+    "sha256": "be0e731a1047546c5bacfd52d19f2e277c5ba4f2412c25628ac9c43ecde60f52",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0677",
+      "CB-0707",
+      "CB-0738"
+    ],
+    "derivative_ids": [
+      "CB-0738-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-166",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00040.jpg",
+    "crop_ids": [
+      "CB-0678",
+      "CB-0722"
+    ],
+    "board": "frames/42.jpg",
+    "sha256": "4a1b656a1dd29994bada51a3756266529ec6fe2341a4ea1e21f48ea99fac4d3a",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0678",
+      "CB-0722"
+    ],
+    "derivative_ids": [
+      "CB-0722-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-167",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00042.jpg",
+    "crop_ids": [
+      "CB-0662",
+      "CB-0739"
+    ],
+    "board": "frames/42.jpg",
+    "sha256": "97d556f7f5edaeb831de57240ce3f7c84e8485d069a9ba39a06595600a78e829",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0662",
+      "CB-0739"
+    ],
+    "derivative_ids": [
+      "CB-0739-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-168",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00045.jpg",
+    "crop_ids": [
+      "CB-0679",
+      "CB-0708",
+      "CB-0723"
+    ],
+    "board": "frames/42.jpg",
+    "sha256": "5e5debde991ca2323fa7b627e59f49ae7838de905870b97c7c342861cbcbf548",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0679",
+      "CB-0708",
+      "CB-0723"
+    ],
+    "derivative_ids": [
+      "CB-0723-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-169",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00049.jpg",
+    "crop_ids": [
+      "CB-0709",
+      "CB-0724"
+    ],
+    "board": "frames/43.jpg",
+    "sha256": "c4516a6cf38e71132f3c0bc19bf5e02554c9f37d1ecc5525d4e9448d8c581863",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0709",
+      "CB-0724"
+    ],
+    "derivative_ids": [
+      "CB-0724-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-170",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00055.jpg",
+    "crop_ids": [
+      "CB-0663",
+      "CB-0740"
+    ],
+    "board": "frames/43.jpg",
+    "sha256": "051caae81801d37088b5ece3cd89661048e5a90653b86da174f14dbd47ff9f84",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0663",
+      "CB-0740"
+    ],
+    "derivative_ids": [
+      "CB-0740-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-171",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00056.jpg",
+    "crop_ids": [
+      "CB-0680",
+      "CB-0710"
+    ],
+    "board": "frames/43.jpg",
+    "sha256": "edc3cab95040b79595633d6bc7c17252e23c6a913adfa0bd1dd8dd910e1c77af",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0680",
+      "CB-0710"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-172",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00057.jpg",
+    "crop_ids": [
+      "CB-0664",
+      "CB-0725"
+    ],
+    "board": "frames/43.jpg",
+    "sha256": "54568806ec79e9ae40b26d37237a38a09af63a5de3371b6bfce992679676b6b9",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0664",
+      "CB-0725"
+    ],
+    "derivative_ids": [
+      "CB-0725-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-173",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00063.jpg",
+    "crop_ids": [
+      "CB-0665",
+      "CB-0726",
+      "CB-0741"
+    ],
+    "board": "frames/44.jpg",
+    "sha256": "81e874a295685e1314248d60f3e7cfdb8108a4afaf77b77011eafccd0ab644fe",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0665",
+      "CB-0726",
+      "CB-0741"
+    ],
+    "derivative_ids": [
+      "CB-0726-R1",
+      "CB-0741-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-174",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00064.jpg",
+    "crop_ids": [
+      "CB-0681",
+      "CB-0711"
+    ],
+    "board": "frames/44.jpg",
+    "sha256": "d1caa191778f9d8e68e5e5b304567336f8bdc8ccdb8202a36bc70bd933b97b28",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0681",
+      "CB-0711"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-175",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00067.jpg",
+    "crop_ids": [
+      "CB-0727",
+      "CB-0742"
+    ],
+    "board": "frames/44.jpg",
+    "sha256": "2f1514235528dee93a22deacdb5d73e56e59260ac759676a34d17af0125561af",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0727",
+      "CB-0742"
+    ],
+    "derivative_ids": [
+      "CB-0727-R1",
+      "CB-0742-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-176",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00073.jpg",
+    "crop_ids": [
+      "CB-0666",
+      "CB-0682",
+      "CB-0743"
+    ],
+    "board": "frames/44.jpg",
+    "sha256": "22b2bb82f0623dad3aa6a484ca2bbb6dbfbe5ac84e3d87d9c85dc9f841f17a24",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0666",
+      "CB-0682",
+      "CB-0743"
+    ],
+    "derivative_ids": [
+      "CB-0743-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-177",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00074.jpg",
+    "crop_ids": [
+      "CB-0667",
+      "CB-0683",
+      "CB-0712"
+    ],
+    "board": "frames/45.jpg",
+    "sha256": "47806bd928c48789b79f1900aee73655e232878dacc6ce3f6b78cadea76faf34",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0667",
+      "CB-0683",
+      "CB-0712"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-178",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00078.jpg",
+    "crop_ids": [
+      "CB-0728"
+    ],
+    "board": "frames/45.jpg",
+    "sha256": "598f8325b53959c2837d480c719774b5ca6267854e43c9422bce97d7c1cce2de",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0728"
+    ],
+    "derivative_ids": [
+      "CB-0728-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-179",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00083.jpg",
+    "crop_ids": [
+      "CB-0668",
+      "CB-0713",
+      "CB-0744"
+    ],
+    "board": "frames/45.jpg",
+    "sha256": "799693d1c189e9cd2eb2247a9cb64ffbccd19a103c7c24f2e86ce97a035e8266",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0668",
+      "CB-0713",
+      "CB-0744"
+    ],
+    "derivative_ids": [
+      "CB-0744-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-180",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00097.jpg",
+    "crop_ids": [
+      "CB-0684",
+      "CB-0714",
+      "CB-0745"
+    ],
+    "board": "frames/45.jpg",
+    "sha256": "a0c452da10965ab64724c64ea916fad0275507d25a08299521c669037bcf4a26",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0684",
+      "CB-0714",
+      "CB-0745"
+    ],
+    "derivative_ids": [
+      "CB-0745-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-181",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00098.jpg",
+    "crop_ids": [
+      "CB-0685",
+      "CB-0729"
+    ],
+    "board": "frames/46.jpg",
+    "sha256": "478f667e7c773009ca80cad57746f3c826eb7b4a1f82bedfc1f506fe4b7fb328",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0685",
+      "CB-0729"
+    ],
+    "derivative_ids": [
+      "CB-0729-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-182",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00099.jpg",
+    "crop_ids": [
+      "CB-0669",
+      "CB-0746"
+    ],
+    "board": "frames/46.jpg",
+    "sha256": "fc8e0bddc0b14e07ad5b0153443b5a732de6d535c43ba37378dac946b3a0e407",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0669",
+      "CB-0746"
+    ],
+    "derivative_ids": [
+      "CB-0746-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-183",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00105.jpg",
+    "crop_ids": [
+      "CB-0686",
+      "CB-0715",
+      "CB-0730"
+    ],
+    "board": "frames/46.jpg",
+    "sha256": "3b0007228993b2765fc83142d3eb0d824ccdca6bc7181bd824af6e59eb9c906b",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0686",
+      "CB-0715",
+      "CB-0730"
+    ],
+    "derivative_ids": [
+      "CB-0715-R1",
+      "CB-0730-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-184",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00106.jpg",
+    "crop_ids": [
+      "CB-0716",
+      "CB-0731"
+    ],
+    "board": "frames/46.jpg",
+    "sha256": "c2f3259ff192af81274fef38f4ebb437704bb16d29beb8cc8d7c955d40b2dcc5",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0716",
+      "CB-0731"
+    ],
+    "derivative_ids": [
+      "CB-0716-R1",
+      "CB-0731-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-185",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00107.jpg",
+    "crop_ids": [
+      "CB-0670",
+      "CB-0747"
+    ],
+    "board": "frames/47.jpg",
+    "sha256": "a8cafa50abed33d9326bba6bec8bd32c8af2f3dc7de192435b05a90d985c040e",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0670",
+      "CB-0747"
+    ],
+    "derivative_ids": [
+      "CB-0747-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-186",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00112.jpg",
+    "crop_ids": [
+      "CB-0687",
+      "CB-0717"
+    ],
+    "board": "frames/47.jpg",
+    "sha256": "f6784aa779dae343477a3e7f6895637f6c72d56277582f25867f4f43ac97221b",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0687",
+      "CB-0717"
+    ],
+    "derivative_ids": [
+      "CB-0717-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-187",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00115.jpg",
+    "crop_ids": [
+      "CB-0671",
+      "CB-0732"
+    ],
+    "board": "frames/47.jpg",
+    "sha256": "d5fefd6dbe7cb9d00997859aebbaafd5e7ca49eb375ee125db1f1cb88d5d2a85",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0671",
+      "CB-0732"
+    ],
+    "derivative_ids": [
+      "CB-0732-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-188",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00116.jpg",
+    "crop_ids": [
+      "CB-0672",
+      "CB-0733",
+      "CB-0748"
+    ],
+    "board": "frames/47.jpg",
+    "sha256": "15bbced65a18d418ef0caeb8fa5af97bf263f862d38ec31b5f994eed2dacd404",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0672",
+      "CB-0733",
+      "CB-0748"
+    ],
+    "derivative_ids": [
+      "CB-0733-R1",
+      "CB-0748-R1"
+    ],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-189",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00121.jpg",
+    "crop_ids": [
+      "CB-0688"
+    ],
+    "board": "frames/48.jpg",
+    "sha256": "fbcbd26e99220ab94060bce4f7c7283a9bce54a2efc21e5f59155ae862e1633d",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0688"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-190",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00122.jpg",
+    "crop_ids": [
+      "CB-0689"
+    ],
+    "board": "frames/48.jpg",
+    "sha256": "9264480977bec9659515d4c5b1eddaf1c19be7ef35f338f984c295a03ea057fd",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0689"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-191",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00123.jpg",
+    "crop_ids": [
+      "CB-0690"
+    ],
+    "board": "frames/48.jpg",
+    "sha256": "52353855f7be3f433368f390b7474a0c9b94c46a2a30c6e957f7f5256be26346",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0690"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-192",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00124.jpg",
+    "crop_ids": [
+      "CB-0691"
+    ],
+    "board": "frames/48.jpg",
+    "sha256": "220d3af4782db36ea639fbb4eedd8c20dfc0b4f11efd5e1d8b5f81c9b6978aeb",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0691"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-193",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00125.jpg",
+    "crop_ids": [
+      "CB-0692"
+    ],
+    "board": "frames/49.jpg",
+    "sha256": "ff0a0d32f79ade21586a153f40558e0687c3833c62fb79daa17d404eaa686f64",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0692"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-194",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00126.jpg",
+    "crop_ids": [
+      "CB-0693"
+    ],
+    "board": "frames/49.jpg",
+    "sha256": "241db63092b41157685dd0a6191e136f2ddc41f2811b0dfb538a13daa16035f7",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0693"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-195",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00145.jpg",
+    "crop_ids": [
+      "CB-0694"
+    ],
+    "board": "frames/49.jpg",
+    "sha256": "9eabe832c7ae34c82f8502c4c7f630aa10a630cf170bc67ff8c1a404fba7cf90",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0694"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-196",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00146.jpg",
+    "crop_ids": [
+      "CB-0695"
+    ],
+    "board": "frames/49.jpg",
+    "sha256": "b413eb959252fd9a82a815090242c7c5761c911648af77727a43fd9d76cd049f",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0695"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-197",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00153.jpg",
+    "crop_ids": [
+      "CB-0696"
+    ],
+    "board": "frames/50.jpg",
+    "sha256": "d96ba05321255760dc2aa5fb2c311e597f46335159db0019f35e18968b724b1e",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0696"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-198",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00158.jpg",
+    "crop_ids": [
+      "CB-0697"
+    ],
+    "board": "frames/50.jpg",
+    "sha256": "1b067195c851b2653f714b0e5af4a54dd2996ac78d131b990c1bdae69f1f9683",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0697"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-199",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00167.jpg",
+    "crop_ids": [
+      "CB-0698"
+    ],
+    "board": "frames/50.jpg",
+    "sha256": "63672d5212da482b8368024a2bc4d6517cce741a728df361f9e723ee7a818f23",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0698"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-200",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00168.jpg",
+    "crop_ids": [
+      "CB-0699"
+    ],
+    "board": "frames/50.jpg",
+    "sha256": "ea650bfe51ea578cc1465382fa5002672df959fcf66f76c17e9c701265b04ce1",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0699"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-201",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00184.jpg",
+    "crop_ids": [
+      "CB-0700"
+    ],
+    "board": "frames/51.jpg",
+    "sha256": "72325e074c21393c461a5b8f54726d972407cfe2a102f581f9e700f122819c09",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0700"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-202",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00188.jpg",
+    "crop_ids": [
+      "CB-0701"
+    ],
+    "board": "frames/51.jpg",
+    "sha256": "c75f74734604f111abab374e9b492320c5778baa0e78d3bcd1f7da3b9c716344",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0701"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-203",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/9284c725e608c9241824/frame_00196.jpg",
+    "crop_ids": [
+      "CB-0702"
+    ],
+    "board": "frames/51.jpg",
+    "sha256": "1864ca0be7b5984f6d071601de46ca06b748f90c2efc39962b99073df062e1b8",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0702"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-204",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/c4501991dd89a572c461/frame_00001.jpg",
+    "crop_ids": [
+      "CB-0749",
+      "CB-0760"
+    ],
+    "board": "frames/51.jpg",
+    "sha256": "fa4802d75501cd18bd4197db93d06e8919a11c451196c4ac59e83bcab46837fd",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0749",
+      "CB-0760"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-205",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/c4501991dd89a572c461/frame_00002.jpg",
+    "crop_ids": [
+      "CB-0755"
+    ],
+    "board": "frames/52.jpg",
+    "sha256": "3622bafad22cccd82fb1dd56edb346603423e6902dc4026462964c7cade0c931",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0755"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-206",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/c4501991dd89a572c461/frame_00003.jpg",
+    "crop_ids": [
+      "CB-0750",
+      "CB-0761"
+    ],
+    "board": "frames/52.jpg",
+    "sha256": "c9bbe250dd6c1e5ab9ccc810c48be51f503b7daf5dd89beed29c818473af9cdb",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0750",
+      "CB-0761"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-207",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/c4501991dd89a572c461/frame_00007.jpg",
+    "crop_ids": [
+      "CB-0751",
+      "CB-0756"
+    ],
+    "board": "frames/52.jpg",
+    "sha256": "49337fc9e62c6e80f7573b6ff3821d6a9745018d6bc049ab58c3991b62aee4cb",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0751",
+      "CB-0756"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-208",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/c4501991dd89a572c461/frame_00011.jpg",
+    "crop_ids": [
+      "CB-0752",
+      "CB-0757",
+      "CB-0762"
+    ],
+    "board": "frames/52.jpg",
+    "sha256": "6dd4508e9ee690578842e4b6749b2431c87b1306d37a9c196f7daa7f69b5a493",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0752",
+      "CB-0757",
+      "CB-0762"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-209",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/c4501991dd89a572c461/frame_00014.jpg",
+    "crop_ids": [
+      "CB-0758",
+      "CB-0763"
+    ],
+    "board": "frames/53.jpg",
+    "sha256": "e10d642b899a417d7b688ee1ea8919d841fd6c10df9b355aee1e84b633882350",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0758",
+      "CB-0763"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-210",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/c4501991dd89a572c461/frame_00020.jpg",
+    "crop_ids": [
+      "CB-0753",
+      "CB-0764"
+    ],
+    "board": "frames/53.jpg",
+    "sha256": "eb29e69c35ea3ef2ed9a00ffe316fa13c06c15b2237666d47c1fa6707dc0eeb1",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0753",
+      "CB-0764"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-211",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/c4501991dd89a572c461/frame_00021.jpg",
+    "crop_ids": [
+      "CB-0759"
+    ],
+    "board": "frames/53.jpg",
+    "sha256": "84433474e43e7589cc7a402c424a74eb9d2317915a2908616a5e16f82dd3efb7",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0759"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  },
+  {
+    "frame_id": "F-212",
+    "path": "data/interim/E004-crop-bundle-audit-20261014/source/derived/c4501991dd89a572c461/frame_00024.jpg",
+    "crop_ids": [
+      "CB-0754",
+      "CB-0765"
+    ],
+    "board": "frames/53.jpg",
+    "sha256": "a2c5a6c5af2c0bbb0ed5992e0865ec2f3d2e06bc36f203ea792fe33d5b246891",
+    "overview_reviewed": true,
+    "crop_ids_reviewed": [
+      "CB-0754",
+      "CB-0765"
+    ],
+    "derivative_ids": [],
+    "scope": "All listed anchors reviewed; not exhaustive detector annotation of every person"
+  }
+]

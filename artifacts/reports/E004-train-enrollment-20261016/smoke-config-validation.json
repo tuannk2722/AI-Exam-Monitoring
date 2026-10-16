@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "baseline": {
+    "path": "outputs/E004-RC1-W-H/resolved-config.json",
+    "sha256": "d153109b5b95bb0edd5cb70fc2eacaa3eefb6d515faed8d4a975f9a614e69c9a"
+  },
+  "config": {
+    "path": "configs/experiments/E004-C345-20261016/E004-C345-W-H-SMOKE.yaml",
+    "sha256": "cb03a155c9c614c604389adf604e54d0fa4f740c6a9d8eea03b42d564433bffd"
+  },
+  "code_sha256": "ce1e8f5f66260d4a5e361ca6d8c2c546214627a2a69d0e56bafbe6a19cf6bdf8",
+  "changed_fields": [
+    "experiment_id",
+    "hypothesis",
+    "approval_ref",
+    "run_kind",
+    "cohorts",
+    "protocol",
+    "readiness",
+    "max_epochs"
+  ],
+  "cohorts": {
+    "train": 1061,
+    "selection": 71,
+    "diagnostic49": 49,
+    "comparator48": 48,
+    "added35": 35
+  },
+  "test_inference": false,
+  "recipe_preserved": false
+}

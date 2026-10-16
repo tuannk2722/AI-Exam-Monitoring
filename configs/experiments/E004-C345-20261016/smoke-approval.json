@@ -1,0 +1,18 @@
+{
+  "status": "approved",
+  "owner": "repository-owner",
+  "scope": "local_classifier_research",
+  "run_kind": "smoke",
+  "configs": {
+    "E004-C345-W-H-SMOKE": "20939e59e9f62b724e4e4e51dd64250cd4d79ded2cdec083977e683aba357b06"
+  },
+  "config_signatures": {
+    "E004-C345-W-H-SMOKE": "4bd6deeedb35e286b5a8df00a5f47e0b06ab9ef01b034d07873c1874a9c49fd5"
+  },
+  "code_sha256": "ce1e8f5f66260d4a5e361ca6d8c2c546214627a2a69d0e56bafbe6a19cf6bdf8",
+  "owner_authorization": {
+    "path": "artifacts/reports/E004-train-enrollment-20261016/owner-enrollment-approval.json",
+    "sha256": "b121b2cff84459ae303e0ec4aa99523cf6f7669f36b9ec806488dea91cd13396"
+  },
+  "final_test_inference_authorized": false
+}

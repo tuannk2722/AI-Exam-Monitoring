@@ -1,0 +1,50 @@
+status: draft_diagnostic_audit
+scope: train_selection_only
+run: outputs/E004-RC1-W-H
+reference: outputs/E004-V9-LP
+output: outputs/E004-targeted-coverage-20261014
+report: artifacts/reports/E004-targeted-coverage-20261014
+prior_audit: artifacts/reports/E004-visual-audit-20261014
+image_size: 224
+# Screening hints only: a match is not a visual finding or accepted factor.
+# Factors may overlap; no match means unassessed, never absent.
+factors:
+  desk_phone:
+    target: 0
+    state: 1
+    terms: ['trên bàn', 'trên mặt bàn', 'trên vùng bàn', 'ownbàn', 'own bàn', 'desk', 'trên giấy/bàn']
+  held_phone:
+    target: 0
+    state: 1
+    terms: ['cầm', 'trong tay', 'hai tay', 'haitay', 'held', 'giữ phone', 'giữ mobile']
+  partial_phone:
+    target: 0
+    state: 1
+    terms: ['partial', 'che khuất', 'che một phần', 'che một', 'tối', 'low-light', 'occlud']
+  calculator_negative:
+    target: 0
+    state: 0
+    terms: ['calculator', 'máy tính cầm']
+  pen_negative:
+    target: 0
+    state: 0
+    terms: ['bút', 'pen']
+  outside_workarea:
+    target: 1
+    state: 1
+    terms: ['ngoài', 'khỏi', 'sang', 'ngang', 'trước', 'forward']
+  own_workarea:
+    target: 1
+    state: 0
+    terms: ['bài', 'giấy', 'sách', 'viết', 'đọc', 'own', 'paper', 'book', 'screen']
+  multi_person_context:
+    target: null
+    state: null
+    terms: ['foreground', 'background', 'người khác', 'người bên', 'người cạnh', 'nhiều người', 'hai unit', 'đông']
+shortlist:
+  per_source: 2
+  per_factor: 4
+  per_target_state: 3
+  include_all_calculator_negative_hints: true
+  ranking: family_diversity_then_WH_error_then_id
+  note: Diagnostic review budget only; not dataset support quotas or acquisition targets.

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "report_links": "PASS; result-pins created and checked in this operation",
+  "run_integrity": "run-integrity.json",
+  "reload_parity": "EXACT",
+  "backup_restore_files": 4121,
+  "cleanup": "PASS",
+  "ruff": "PASS modified core/test and new worksheets",
+  "repository_checker": "PASS without require-git; no staging requested",
+  "diff_check": "PASS; TASK line-ending warning only",
+  "git_stage_commit": "not requested; not performed",
+  "test_inference": false
+}

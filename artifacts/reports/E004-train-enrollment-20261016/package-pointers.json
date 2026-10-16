@@ -1,0 +1,30 @@
+{
+  "pilot-b-20261016-v10": {
+    "package": "data/processed/pilot-b/pilot-b-20261016-v10",
+    "payload_sha256": "07c0b73a0622371ee3d649c7e42eefbeebfe979ebfb6be90b4329b7540d34f67",
+    "ledger_counts": {
+      "review_only": 403,
+      "train": 1061,
+      "excluded": 29,
+      "val": 49,
+      "test": 11
+    },
+    "manifest_records": 1121,
+    "parent_record_content_preserved": 1208,
+    "loader": "PASS"
+  },
+  "E004-c345-development-20261016": {
+    "package": "data/processed/e004/E004-c345-development-20261016",
+    "payload_sha256": "cdaf0a5340b6af968604a74e63bb48b83f76fe42d2e790e51c37b9a1c3588f62",
+    "ledger_counts": {
+      "review_only": 332,
+      "val": 120,
+      "train": 1061,
+      "excluded": 29,
+      "test": 11
+    },
+    "manifest_records": 1192,
+    "parent_record_content_preserved": 1208,
+    "loader": "PASS"
+  }
+}

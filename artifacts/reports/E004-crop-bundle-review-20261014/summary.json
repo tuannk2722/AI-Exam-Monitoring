@@ -1,0 +1,37 @@
+{
+  "original_crops": 765,
+  "source_frames": 212,
+  "source_parents": 5,
+  "recrops": 192,
+  "new_crops": 5,
+  "draft_derivatives": 197,
+  "owner_comparison": {
+    "no_explicit_owner_label": 320,
+    "label_agreement": 405,
+    "draft_disagreement": 39,
+    "conditional_owner_anchor_mismatch": 1
+  },
+  "shortlist": 710,
+  "redundant_alternatives": 56,
+  "withheld": 4,
+  "shortlist_labels": {
+    "U/N": 40,
+    "P/N": 508,
+    "U/P": 21,
+    "N/N": 60,
+    "N/P": 10,
+    "N/U": 1,
+    "P/U": 34,
+    "P/P": 36
+  },
+  "shortlist_by_parent": {
+    "131978f1c922c72a1be6": 211,
+    "286f4f8992d4ad931647": 323,
+    "2b68c2a8bc91941576a8": 81,
+    "9284c725e608c9241824": 78,
+    "c4501991dd89a572c461": 17
+  },
+  "all_originals_preserved": true,
+  "accepted_new_records": 0,
+  "assigned_splits": 0
+}

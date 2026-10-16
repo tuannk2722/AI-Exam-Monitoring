@@ -1,0 +1,6902 @@
+[
+  {
+    "id": "CB-0001",
+    "source_sha256": "309e7b997c15529987313ae7fb16b7547e275cb04bb5e9f103150d40847930d4",
+    "crop_sha256": "5bf3b5199843e22f1ff7cea1088f6536345e8ffe873e3d2d6ba76ce58f012bfd",
+    "person_xyxy": [
+      1014,
+      134,
+      1198,
+      303
+    ],
+    "context_xyxy": [
+      945,
+      105,
+      1235,
+      395
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-01.jpg"
+  },
+  {
+    "id": "CB-0006",
+    "source_sha256": "df44940522ea9e52f834cd73d5bba31f556e1433ce9dfaf2cd6d9ec39710fddd",
+    "crop_sha256": "4cc02a8a2b825fdf4d1bed6f4267771a2217e17ca185fe1ff3a350cca5d1a7de",
+    "person_xyxy": [
+      1017,
+      157,
+      1206,
+      303
+    ],
+    "context_xyxy": [
+      945,
+      105,
+      1235,
+      395
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-01.jpg"
+  },
+  {
+    "id": "CB-0008",
+    "source_sha256": "69e78e0525b8b2446b44174d4797c3910d0429450597fa524914886c60ecfc4d",
+    "crop_sha256": "ee61b3ccce05a2075e6f063e5de5372915bc5e3aea7a2f233941dab01ae18a1e",
+    "person_xyxy": [
+      1008,
+      151,
+      1212,
+      314
+    ],
+    "context_xyxy": [
+      945,
+      105,
+      1235,
+      395
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-01.jpg"
+  },
+  {
+    "id": "CB-0017",
+    "source_sha256": "fe9c2b85e673cf8410d2b533caffd2e2b8423ca172595e66572672475cce4a49",
+    "crop_sha256": "ba399273c4f989ff118ae1bda18b6eb294b29999208263ea97ab016882d41c75",
+    "person_xyxy": [
+      1020,
+      128,
+      1212,
+      320
+    ],
+    "context_xyxy": [
+      945,
+      105,
+      1235,
+      395
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-01.jpg"
+  },
+  {
+    "id": "CB-0020-R1",
+    "source_sha256": "f1083b8c796105eb6c8f131d70df6ce016ad176291844862d84122af90963a88",
+    "crop_sha256": "aa85923f16c1929d5043da87964e419c2247a70d1fcde7f226eefbe578c6020a",
+    "person_xyxy": [
+      1096,
+      137,
+      1300,
+      300
+    ],
+    "context_xyxy": [
+      1090,
+      100,
+      1320,
+      335
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-01.jpg"
+  },
+  {
+    "id": "CB-0024-R1",
+    "source_sha256": "ae5263fb07adc386b76148d80be42fe57fa061a851eb44b5867df1f25971e24a",
+    "crop_sha256": "c1e3685a3b9f9cdd9206ae43e2dcaba068262e3c44c15369f2cb19f4104a430e",
+    "person_xyxy": [
+      1122,
+      149,
+      1295,
+      312
+    ],
+    "context_xyxy": [
+      1090,
+      100,
+      1320,
+      335
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-01.jpg"
+  },
+  {
+    "id": "CB-0026",
+    "source_sha256": "309e7b997c15529987313ae7fb16b7547e275cb04bb5e9f103150d40847930d4",
+    "crop_sha256": "edf96bea449b0165d8798407149c77dfc18f4e6c28ce3de39600ba52319d4bf4",
+    "person_xyxy": [
+      1039,
+      435,
+      1392,
+      858
+    ],
+    "context_xyxy": [
+      950,
+      435,
+      1420,
+      905
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-01.jpg"
+  },
+  {
+    "id": "CB-0030-R1",
+    "source_sha256": "21c32a22876db9f2bdbc8e1f73661a5c26bfb07dd1b107f845b43980ff0817a7",
+    "crop_sha256": "20308108234418122f6f278c63bf9a4a92bee6b7cdc2621c2582f5feb15e63d1",
+    "person_xyxy": [
+      1036,
+      290,
+      1390,
+      797
+    ],
+    "context_xyxy": [
+      1000,
+      290,
+      1410,
+      900
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-01.jpg"
+  },
+  {
+    "id": "CB-0033",
+    "source_sha256": "ea9e22f89f60d765f99681f8d4d01888f32036fe8e7f6b157505f299c470331a",
+    "crop_sha256": "505f227701fcbfeeaa88be2fcac4fff877a8d7646d19c459d5882f7f1a4e000c",
+    "person_xyxy": [
+      1029,
+      435,
+      1378,
+      840
+    ],
+    "context_xyxy": [
+      950,
+      435,
+      1420,
+      905
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-01.jpg"
+  },
+  {
+    "id": "CB-0043",
+    "source_sha256": "5810523f2f15aadc3f9ae1cf3b76460c5905c708b845f1c3725b66f705cf2073",
+    "crop_sha256": "ebb7c1c2e4c40f13b016a6389400c5bfbc77bdcb8a1d86e9f7e82f6cb010cd2a",
+    "person_xyxy": [
+      1025,
+      435,
+      1402,
+      849
+    ],
+    "context_xyxy": [
+      950,
+      435,
+      1420,
+      905
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-01.jpg"
+  },
+  {
+    "id": "CB-0046",
+    "source_sha256": "3eb30e94dec1cd6bfdfa2b6f486a41930eec3be2d4b963c51fd350f1419bef2d",
+    "crop_sha256": "445f5bd752e7776a0ce72b21e85d8a77a34284fc3d80182c786604a573b340a0",
+    "person_xyxy": [
+      1062,
+      435,
+      1392,
+      849
+    ],
+    "context_xyxy": [
+      950,
+      435,
+      1420,
+      905
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-01.jpg"
+  },
+  {
+    "id": "CB-0055-R1",
+    "source_sha256": "f1083b8c796105eb6c8f131d70df6ce016ad176291844862d84122af90963a88",
+    "crop_sha256": "5cfb24f76119138e4e870e21215c9c2a697126c78a35bbc8fd46398ae06906aa",
+    "person_xyxy": [
+      1114,
+      310,
+      1485,
+      747
+    ],
+    "context_xyxy": [
+      1080,
+      310,
+      1510,
+      900
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-01.jpg"
+  },
+  {
+    "id": "CB-0059",
+    "source_sha256": "bf63fbba159476d933d8bf255df471578845b1456b0d8b2d9f518f34b13c252a",
+    "crop_sha256": "e22323cccf8653917d9368c88dfa5cd9e59c7ca5b7faafeccd97ca7161203673",
+    "person_xyxy": [
+      1133,
+      435,
+      1420,
+      830
+    ],
+    "context_xyxy": [
+      950,
+      435,
+      1420,
+      905
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-01.jpg"
+  },
+  {
+    "id": "CB-0063",
+    "source_sha256": "309e7b997c15529987313ae7fb16b7547e275cb04bb5e9f103150d40847930d4",
+    "crop_sha256": "ec313eabf014282e5fc2ad44b08b0b981707b2463bbee011d8a81cc4565f2de9",
+    "person_xyxy": [
+      247,
+      542,
+      540,
+      766
+    ],
+    "context_xyxy": [
+      170,
+      465,
+      600,
+      895
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-01.jpg"
+  },
+  {
+    "id": "CB-0065",
+    "source_sha256": "92b1d67075d48f662459cb54e395045c9cc3e7fe0cb2addbe702ac9967fa8b2f",
+    "crop_sha256": "ddec5c5cf8c772a9522ec7b38f201d0c55bfaa0fdfee3a1be75d15b1e93ea224",
+    "person_xyxy": [
+      294,
+      465,
+      592,
+      779
+    ],
+    "context_xyxy": [
+      170,
+      465,
+      600,
+      895
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-01.jpg"
+  },
+  {
+    "id": "CB-0069",
+    "source_sha256": "a8db8f948d2f37f7481e91d25e28e6d5954519703f93d8d001373dcfa8135b03",
+    "crop_sha256": "9f97dce67ecc71a0be3310760700e99a3c5a4f49160d5a700bcf73c4ad405a33",
+    "person_xyxy": [
+      264,
+      516,
+      549,
+      766
+    ],
+    "context_xyxy": [
+      170,
+      465,
+      600,
+      895
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-01.jpg"
+  },
+  {
+    "id": "CB-0074",
+    "source_sha256": "320c460349e0c2d856ae124a2138b209a751101dd5b1401d19d0eccb0949bf19",
+    "crop_sha256": "5597547c864940dbf672dfc0bd706ecc5ca6282f8b6f4839fb58f7b70c4fffae",
+    "person_xyxy": [
+      273,
+      473,
+      557,
+      775
+    ],
+    "context_xyxy": [
+      170,
+      465,
+      600,
+      895
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-01.jpg"
+  },
+  {
+    "id": "CB-0083",
+    "source_sha256": "d79c69212d9a5fbebde62aaf3c32ad6a877368b7968fb11f9efe2f3971fe60ca",
+    "crop_sha256": "edf963c6c5aea1a75821eadf771fc51ce8188db3d113eddadc819db6362808cd",
+    "person_xyxy": [
+      380,
+      529,
+      600,
+      741
+    ],
+    "context_xyxy": [
+      170,
+      465,
+      600,
+      895
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-01.jpg"
+  },
+  {
+    "id": "CB-0088",
+    "source_sha256": "309e7b997c15529987313ae7fb16b7547e275cb04bb5e9f103150d40847930d4",
+    "crop_sha256": "89a1f8139c46fc2ce7f57c7b87b746c0f0b0c0c0dab72f7636dc0bb8d0359c4b",
+    "person_xyxy": [
+      544,
+      314,
+      765,
+      532
+    ],
+    "context_xyxy": [
+      425,
+      270,
+      765,
+      610
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-01.jpg"
+  },
+  {
+    "id": "CB-0097",
+    "source_sha256": "d438553f4866278d490453fdcdcac649fdad1333e7da89c319b9d63d89ca7e8f",
+    "crop_sha256": "da94468d615a7a05ade2dddfe9ce513e117a5db472db41d325454f33a1b382a9",
+    "person_xyxy": [
+      533,
+      331,
+      765,
+      576
+    ],
+    "context_xyxy": [
+      425,
+      270,
+      765,
+      610
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-01.jpg"
+  },
+  {
+    "id": "CB-0100",
+    "source_sha256": "4dd30e858a51751b48afcc0d0a09a24481fb14b5b94dc3c592d62663de6f7158",
+    "crop_sha256": "11cba49b6a10dd39f970d6f01869221c59fc590dccdef2c3aed1d0fb71557450",
+    "person_xyxy": [
+      547,
+      283,
+      765,
+      563
+    ],
+    "context_xyxy": [
+      425,
+      270,
+      765,
+      610
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-02.jpg"
+  },
+  {
+    "id": "CB-0103",
+    "source_sha256": "9142634449ea604385b2fbab846e612c58c1784df8b5e5810cffb0e243e8063f",
+    "crop_sha256": "409a1788f398bf7b6919dc5c5f61d067b5935c16f1f39747e1ef2630fec72976",
+    "person_xyxy": [
+      635,
+      310,
+      765,
+      491
+    ],
+    "context_xyxy": [
+      425,
+      270,
+      765,
+      610
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-02.jpg"
+  },
+  {
+    "id": "CB-0110-R1",
+    "source_sha256": "bf63fbba159476d933d8bf255df471578845b1456b0d8b2d9f518f34b13c252a",
+    "crop_sha256": "4eb9b1e45723cd7083248f0ca3a0bfa6fa165c4bcb918fca18856a2834539f16",
+    "person_xyxy": [
+      620,
+      319,
+      898,
+      513
+    ],
+    "context_xyxy": [
+      620,
+      285,
+      915,
+      570
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-02.jpg"
+  },
+  {
+    "id": "CB-0113",
+    "source_sha256": "309e7b997c15529987313ae7fb16b7547e275cb04bb5e9f103150d40847930d4",
+    "crop_sha256": "c83af1e5a5f0d0ea854b8cbc3f537b86b22e447890e287eb28b743710b6fb960",
+    "person_xyxy": [
+      509,
+      468,
+      878,
+      900
+    ],
+    "context_xyxy": [
+      455,
+      450,
+      905,
+      900
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-02.jpg"
+  },
+  {
+    "id": "CB-0123",
+    "source_sha256": "ccabd3ba71b756a4afdb701984c198bf6a46aca84c380a676b495021184630ea",
+    "crop_sha256": "212cdc2bc40a4a41cc8a40276749a8941cc338d9741e5d76bd521d88c35d5420",
+    "person_xyxy": [
+      518,
+      468,
+      878,
+      900
+    ],
+    "context_xyxy": [
+      455,
+      450,
+      905,
+      900
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-02.jpg"
+  },
+  {
+    "id": "CB-0132",
+    "source_sha256": "92f044909e1268d4caaf6c5d695c69d9b64b57f7bc26f9a1e2d1fd5e6f912f88",
+    "crop_sha256": "31d726b7edc28b1a6ebb083b3fb4572ab75dd0f4edeaf2d949b3c3fa201c92df",
+    "person_xyxy": [
+      513,
+      468,
+      878,
+      900
+    ],
+    "context_xyxy": [
+      455,
+      450,
+      905,
+      900
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-02.jpg"
+  },
+  {
+    "id": "CB-0135",
+    "source_sha256": "9142634449ea604385b2fbab846e612c58c1784df8b5e5810cffb0e243e8063f",
+    "crop_sha256": "14b33f499657d35dd6f3d06f74641f0798d54010f75d34777807237595f435d5",
+    "person_xyxy": [
+      513,
+      450,
+      878,
+      900
+    ],
+    "context_xyxy": [
+      455,
+      450,
+      905,
+      900
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-02.jpg"
+  },
+  {
+    "id": "CB-0145",
+    "source_sha256": "b389d09357c11afe537f7da7aab95c0671ba066e25cf3965ff76f992919ef5ba",
+    "crop_sha256": "5dd222fb6587671957e2c9194d361b26a016a52c6eb7ac83b3fa5c9213bc115a",
+    "person_xyxy": [
+      608,
+      450,
+      905,
+      900
+    ],
+    "context_xyxy": [
+      455,
+      450,
+      905,
+      900
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-02.jpg"
+  },
+  {
+    "id": "CB-0150",
+    "source_sha256": "309e7b997c15529987313ae7fb16b7547e275cb04bb5e9f103150d40847930d4",
+    "crop_sha256": "df698efae384b3faf40f0134dfa033ae9419e43501d46009715482cd933bd1d7",
+    "person_xyxy": [
+      815,
+      342,
+      1047,
+      587
+    ],
+    "context_xyxy": [
+      702,
+      242,
+      1047,
+      587
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-02.jpg"
+  },
+  {
+    "id": "CB-0152",
+    "source_sha256": "92b1d67075d48f662459cb54e395045c9cc3e7fe0cb2addbe702ac9967fa8b2f",
+    "crop_sha256": "3ab799066909b3843841c5e4e3b4426b025eda8b6398ad49feadb21b31a07a04",
+    "person_xyxy": [
+      743,
+      283,
+      1020,
+      587
+    ],
+    "context_xyxy": [
+      702,
+      242,
+      1047,
+      587
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-02.jpg"
+  },
+  {
+    "id": "CB-0159",
+    "source_sha256": "194e0d405ab2652ea94eca126be34c5d8856acc5bbbdfab40ed4c5d54180195d",
+    "crop_sha256": "ca7b6b129bec5c8e54f7866ac8e50b169382cea4dd668ebba96da6bd520abe9d",
+    "person_xyxy": [
+      777,
+      269,
+      1010,
+      587
+    ],
+    "context_xyxy": [
+      702,
+      242,
+      1047,
+      587
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-02.jpg"
+  },
+  {
+    "id": "CB-0168",
+    "source_sha256": "24bf0b93135c9ee6e1fe6a31dfdef4e226ebd9b7643c6bc0163feb65abe7e57d",
+    "crop_sha256": "2490fc82b6eba16b5dc8c82246e1f50bf955e66cb4804cc878663bf910bdf3db",
+    "person_xyxy": [
+      905,
+      335,
+      1047,
+      518
+    ],
+    "context_xyxy": [
+      702,
+      242,
+      1047,
+      587
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-02.jpg"
+  },
+  {
+    "id": "CB-0175",
+    "source_sha256": "309e7b997c15529987313ae7fb16b7547e275cb04bb5e9f103150d40847930d4",
+    "crop_sha256": "f8e571e1a001cb1488d5f494439e2dd8544ac62409d5e36613fe062b2aea088f",
+    "person_xyxy": [
+      1512,
+      492,
+      1901,
+      825
+    ],
+    "context_xyxy": [
+      1512,
+      492,
+      1917,
+      897
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-02.jpg"
+  },
+  {
+    "id": "CB-0181",
+    "source_sha256": "a8db8f948d2f37f7481e91d25e28e6d5954519703f93d8d001373dcfa8135b03",
+    "crop_sha256": "74a45707cf8fa558783f935b6756ea608db186b8e7d5eaf2e16590dae8c70b80",
+    "person_xyxy": [
+      1512,
+      492,
+      1832,
+      861
+    ],
+    "context_xyxy": [
+      1512,
+      492,
+      1917,
+      897
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-02.jpg"
+  },
+  {
+    "id": "CB-0189",
+    "source_sha256": "ff9e1da7d9e0cd6f88063805d606b79035473acf56840eb6079c98592063d49d",
+    "crop_sha256": "227eb6e758e8159bb293dd93ed71265386ddd08f7c6cb9e2f52ec33771badd10",
+    "person_xyxy": [
+      1524,
+      492,
+      1909,
+      877
+    ],
+    "context_xyxy": [
+      1512,
+      492,
+      1917,
+      897
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-02.jpg"
+  },
+  {
+    "id": "CB-0192",
+    "source_sha256": "732fdcb32532908c4002c904bdeaf40dea0cbd1032e0fb0e38040b510166f3d5",
+    "crop_sha256": "1593f4963a9ce48931d4140ee39770e0cc2ad897a95a642152ddb0992640e58c",
+    "person_xyxy": [
+      1512,
+      508,
+      1832,
+      841
+    ],
+    "context_xyxy": [
+      1512,
+      492,
+      1917,
+      897
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-02.jpg"
+  },
+  {
+    "id": "CB-0199",
+    "source_sha256": "3d7f18d08953958a16031c31b1b93fedcc65c1ec19f41b5f0d71018f4b79c6a4",
+    "crop_sha256": "d6a94f4d28f3cb5610094f38d789b406fdfb7518ae0ea67b72317d8a0bf76239",
+    "person_xyxy": [
+      1572,
+      492,
+      1917,
+      800
+    ],
+    "context_xyxy": [
+      1512,
+      492,
+      1917,
+      897
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-02.jpg"
+  },
+  {
+    "id": "CB-0200",
+    "source_sha256": "5bb5052ac031d406c42ac97f10ab8698e5d356ae91acf0db94505dcad769b2b0",
+    "crop_sha256": "fa1994a8f810986c2487975c75e601a1cf611ab3e3741c625915d8f0533b24fe",
+    "person_xyxy": [
+      1250,
+      306,
+      1578,
+      570
+    ],
+    "context_xyxy": [
+      1225,
+      260,
+      1585,
+      620
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-02.jpg"
+  },
+  {
+    "id": "CB-0201",
+    "source_sha256": "261178327ddda315d02197f86584d5ea752c532d3f8e965c634394aee7a43d7e",
+    "crop_sha256": "1971bec8e2f6e9cce92011a69645578f2f9110555b9f2691354582627723ac7d",
+    "person_xyxy": [
+      1282,
+      306,
+      1564,
+      538
+    ],
+    "context_xyxy": [
+      1225,
+      260,
+      1585,
+      620
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-02.jpg"
+  },
+  {
+    "id": "CB-0208",
+    "source_sha256": "d438553f4866278d490453fdcdcac649fdad1333e7da89c319b9d63d89ca7e8f",
+    "crop_sha256": "bfcb5f03b37c1511dd572ef5ebbae26ebb8293401b786dd4efaae2aed6ae175b",
+    "person_xyxy": [
+      1253,
+      310,
+      1557,
+      530
+    ],
+    "context_xyxy": [
+      1225,
+      260,
+      1585,
+      620
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-02.jpg"
+  },
+  {
+    "id": "CB-0210",
+    "source_sha256": "320c460349e0c2d856ae124a2138b209a751101dd5b1401d19d0eccb0949bf19",
+    "crop_sha256": "59c7001f57380a871673226f3468a8d5df22dee94c54608a89b1b77c9919bb47",
+    "person_xyxy": [
+      1261,
+      260,
+      1560,
+      556
+    ],
+    "context_xyxy": [
+      1225,
+      260,
+      1585,
+      620
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-03.jpg"
+  },
+  {
+    "id": "CB-0223",
+    "source_sha256": "ae5263fb07adc386b76148d80be42fe57fa061a851eb44b5867df1f25971e24a",
+    "crop_sha256": "6424f9890fa252e5174490dbab6dbd740fc289b5437310e205a6bba42644e59f",
+    "person_xyxy": [
+      1329,
+      260,
+      1585,
+      512
+    ],
+    "context_xyxy": [
+      1225,
+      260,
+      1585,
+      620
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-03.jpg"
+  },
+  {
+    "id": "CB-0224-R1",
+    "source_sha256": "e33f62c9fea112bc33bec0e2394e2d80142a9f93b05e84c9e6a48c494cc94a75",
+    "crop_sha256": "c0f8cac2391f3e2beb711e5c6ae739c475fc839362a3e6ae8f1d3a9266474868",
+    "person_xyxy": [
+      802,
+      143,
+      963,
+      303
+    ],
+    "context_xyxy": [
+      795,
+      135,
+      970,
+      310
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-03.jpg"
+  },
+  {
+    "id": "CB-0228-R1",
+    "source_sha256": "3d3aee8ecb3c80fef62743c25b0be6c25b2dd6bf48df97d04388bf1e0855bfcb",
+    "crop_sha256": "9f4c911fc90a511ef5edce63da91846f215314d103b31efb5c9795d0e2dba970",
+    "person_xyxy": [
+      817,
+      143,
+      963,
+      303
+    ],
+    "context_xyxy": [
+      795,
+      135,
+      970,
+      310
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-03.jpg"
+  },
+  {
+    "id": "CB-0238-R1",
+    "source_sha256": "443d32342fce4878ccb4de630001af717112f68e1854cda3baf154e9af364c54",
+    "crop_sha256": "520186339e62a404950cf9b3d9706c1ba11f1c038019a8f6cd46a819878bd292",
+    "person_xyxy": [
+      807,
+      147,
+      948,
+      295
+    ],
+    "context_xyxy": [
+      795,
+      135,
+      970,
+      310
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-03.jpg"
+  },
+  {
+    "id": "CB-0253",
+    "source_sha256": "e33f62c9fea112bc33bec0e2394e2d80142a9f93b05e84c9e6a48c494cc94a75",
+    "crop_sha256": "403017222d8fe6bb0804a4a4ecfef91d8207cd208f0282fa36d54254b2a5da45",
+    "person_xyxy": [
+      123,
+      452,
+      385,
+      799
+    ],
+    "context_xyxy": [
+      0,
+      452,
+      385,
+      837
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-03.jpg"
+  },
+  {
+    "id": "CB-0254",
+    "source_sha256": "cf75e9eb60bda62c71fb8ba77264b3714a027d6e39c14aaed5148912aeaea0a3",
+    "crop_sha256": "5a9c7a992270c530255794c5dd471de0c54d679aca0a8064d1faf949387c0b69",
+    "person_xyxy": [
+      53,
+      452,
+      385,
+      799
+    ],
+    "context_xyxy": [
+      0,
+      452,
+      385,
+      837
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-03.jpg"
+  },
+  {
+    "id": "CB-0261",
+    "source_sha256": "6c5e84a01a098db1abd62aa9fead603de13834df6a73fde0e7d2eac491625c1e",
+    "crop_sha256": "77f51d003fd7b7c0816960f982b0aeeec22aa8552ecbbc439240e40f458b9d78",
+    "person_xyxy": [
+      3,
+      452,
+      385,
+      787
+    ],
+    "context_xyxy": [
+      0,
+      452,
+      385,
+      837
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-03.jpg"
+  },
+  {
+    "id": "CB-0266",
+    "source_sha256": "0d9a217fa2cd299915376f69fd71b66940969f8028ab41333d991704522734b4",
+    "crop_sha256": "4825d978203e31c20287437ee61e7acfff069d44d27780b806367e3a291bd954",
+    "person_xyxy": [
+      88,
+      467,
+      385,
+      776
+    ],
+    "context_xyxy": [
+      0,
+      452,
+      385,
+      837
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-03.jpg"
+  },
+  {
+    "id": "CB-0280",
+    "source_sha256": "47f612814c2d2e0fb1b9d8ee6a152175b9bce9c8e49b5b392da0177368fdd2fb",
+    "crop_sha256": "b2ee4a770e483a87b37f9e7401eb061a0882181f2f702c543fe6031c4de706ac",
+    "person_xyxy": [
+      57,
+      452,
+      385,
+      787
+    ],
+    "context_xyxy": [
+      0,
+      452,
+      385,
+      837
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-03.jpg"
+  },
+  {
+    "id": "CB-0282",
+    "source_sha256": "13fda9c360f02e2b41c3cbf257a1179699a10790f3e6c848f7071ca565dd1f73",
+    "crop_sha256": "e843883690965ac09a4e507085fbc05290bb72f2e9eacee5f7b3bd02ca4bb757",
+    "person_xyxy": [
+      346,
+      596,
+      714,
+      1025
+    ],
+    "context_xyxy": [
+      260,
+      515,
+      770,
+      1025
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-03.jpg"
+  },
+  {
+    "id": "CB-0294",
+    "source_sha256": "fca65211fcb27f3a30611751102d483cba483e7e105a9cf5a580ba974dabdafd",
+    "crop_sha256": "e75cf679bceed54b7f6485b66a4f3f0ce962307d5a6fbbb20be3522b5f52afc7",
+    "person_xyxy": [
+      377,
+      560,
+      725,
+      1025
+    ],
+    "context_xyxy": [
+      260,
+      515,
+      770,
+      1025
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-03.jpg"
+  },
+  {
+    "id": "CB-0297",
+    "source_sha256": "c6e3c39931f8b9cba968e004a230744c8eaf5c57ca36cf4b92d7b5b45a7bc2e5",
+    "crop_sha256": "28a89cfa2856b786875872e34a654e65bfbb9b2eeb320b63fdc70effbd4f39a4",
+    "person_xyxy": [
+      387,
+      622,
+      730,
+      1025
+    ],
+    "context_xyxy": [
+      260,
+      515,
+      770,
+      1025
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-03.jpg"
+  },
+  {
+    "id": "CB-0303",
+    "source_sha256": "7ef740b01f6a1580ea0108cea6534a7d9ab407e9b8901c69ee6b8a7162c16509",
+    "crop_sha256": "dadeb864ed9981546aa9e206fe8f320b7043825a477eda736b45986bb96b11eb",
+    "person_xyxy": [
+      402,
+      515,
+      760,
+      1025
+    ],
+    "context_xyxy": [
+      260,
+      515,
+      770,
+      1025
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-03.jpg"
+  },
+  {
+    "id": "CB-0308",
+    "source_sha256": "6c5e84a01a098db1abd62aa9fead603de13834df6a73fde0e7d2eac491625c1e",
+    "crop_sha256": "354a667b6a6198c903814708f30b1528a1d9f80b12022be1a48700496a8adf71",
+    "person_xyxy": [
+      443,
+      515,
+      765,
+      1025
+    ],
+    "context_xyxy": [
+      260,
+      515,
+      770,
+      1025
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-03.jpg"
+  },
+  {
+    "id": "CB-0317",
+    "source_sha256": "0e5e693d8661fe411870fdcc79202c7f77cd7878ee735619a178a2a2a534ab6a",
+    "crop_sha256": "34b08a142cf1762375aee8e25425731dd69a26691a4ed49f796adf23845beff3",
+    "person_xyxy": [
+      351,
+      606,
+      730,
+      1025
+    ],
+    "context_xyxy": [
+      260,
+      515,
+      770,
+      1025
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-03.jpg"
+  },
+  {
+    "id": "CB-0356",
+    "source_sha256": "a95c158516e3e1cdd8f416d5504700b603d80ae34ab1d46da0eff4b623f77086",
+    "crop_sha256": "bb9986a3b008e8e9cf398dede1bafa885c5d9f654c4291b3106be47d1a729f8d",
+    "person_xyxy": [
+      382,
+      586,
+      730,
+      1025
+    ],
+    "context_xyxy": [
+      260,
+      515,
+      770,
+      1025
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-03.jpg"
+  },
+  {
+    "id": "CB-0363",
+    "source_sha256": "439c65189ca0053c165b1c60137fe2cdfd7f435a356e4beff0aaa64a402b607b",
+    "crop_sha256": "14d213f1774d5a5cad0fcc3bdef244010d1cb04fa7be5ee7c7c69c5df8eee69b",
+    "person_xyxy": [
+      418,
+      515,
+      765,
+      1025
+    ],
+    "context_xyxy": [
+      260,
+      515,
+      770,
+      1025
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-03.jpg"
+  },
+  {
+    "id": "CB-0369",
+    "source_sha256": "e33f62c9fea112bc33bec0e2394e2d80142a9f93b05e84c9e6a48c494cc94a75",
+    "crop_sha256": "c0d96c992263d141467dd7448de1f44bc377f607fb317e39513d664a10fe022b",
+    "person_xyxy": [
+      1275,
+      489,
+      1594,
+      864
+    ],
+    "context_xyxy": [
+      1185,
+      455,
+      1615,
+      885
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-03.jpg"
+  },
+  {
+    "id": "CB-0373",
+    "source_sha256": "3d3aee8ecb3c80fef62743c25b0be6c25b2dd6bf48df97d04388bf1e0855bfcb",
+    "crop_sha256": "c1bc0cc6ba3b3258148fa90adac7d7ec52e7589273468f037eaaad33b736b6ea",
+    "person_xyxy": [
+      1296,
+      493,
+      1603,
+      834
+    ],
+    "context_xyxy": [
+      1185,
+      455,
+      1615,
+      885
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-03.jpg"
+  },
+  {
+    "id": "CB-0381",
+    "source_sha256": "0aab67a8690feef012398094dddb55cfd6f047eca67945bf85fa9cd015946c56",
+    "crop_sha256": "532bb6b28d226dee9a7b64d0a7a6cce04b4a6c19ec2645d462f6dc12d23d2a8a",
+    "person_xyxy": [
+      1240,
+      571,
+      1577,
+      825
+    ],
+    "context_xyxy": [
+      1185,
+      455,
+      1615,
+      885
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-04.jpg"
+  },
+  {
+    "id": "CB-0390",
+    "source_sha256": "eb235f4855bb59d8706d9fda533dc7db009b69017f19b874f634cb6492ec9260",
+    "crop_sha256": "0d5b33f683912320d34e07f0a116b3bef06f4aff609a837059bc7cf7aba5a7a7",
+    "person_xyxy": [
+      1258,
+      489,
+      1564,
+      851
+    ],
+    "context_xyxy": [
+      1185,
+      455,
+      1615,
+      885
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-04.jpg"
+  },
+  {
+    "id": "CB-0396",
+    "source_sha256": "47f612814c2d2e0fb1b9d8ee6a152175b9bce9c8e49b5b392da0177368fdd2fb",
+    "crop_sha256": "b2aad3dfa029d1ff0552c7aae4be7e8affb8b7c8c9f06cfe38554fbb3df0440d",
+    "person_xyxy": [
+      1305,
+      506,
+      1560,
+      860
+    ],
+    "context_xyxy": [
+      1185,
+      455,
+      1615,
+      885
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-04.jpg"
+  },
+  {
+    "id": "CB-0398",
+    "source_sha256": "13fda9c360f02e2b41c3cbf257a1179699a10790f3e6c848f7071ca565dd1f73",
+    "crop_sha256": "4582898ad0296cc90bde54c09b20f0dab4a0fbe2f464d6152f45e14c25d46c70",
+    "person_xyxy": [
+      647,
+      415,
+      992,
+      785
+    ],
+    "context_xyxy": [
+      630,
+      355,
+      1060,
+      785
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-04.jpg"
+  },
+  {
+    "id": "CB-0405",
+    "source_sha256": "36086d479cc2465d541b2d22a468f5038b498f1661aecda74970054a42e7dbf1",
+    "crop_sha256": "a88ec7569b71bbeb4650dd7b8d300b2ba1b37098b4445bcc00debd88c909ce18",
+    "person_xyxy": [
+      711,
+      410,
+      1022,
+      785
+    ],
+    "context_xyxy": [
+      630,
+      355,
+      1060,
+      785
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-04.jpg"
+  },
+  {
+    "id": "CB-0410",
+    "source_sha256": "fca65211fcb27f3a30611751102d483cba483e7e105a9cf5a580ba974dabdafd",
+    "crop_sha256": "b7e4bae5e3e787a5e7e4c3e62e53cf9f86f74d2f31fdf2c013d501b3edf110c5",
+    "person_xyxy": [
+      690,
+      406,
+      1026,
+      785
+    ],
+    "context_xyxy": [
+      630,
+      355,
+      1060,
+      785
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-04.jpg"
+  },
+  {
+    "id": "CB-0428",
+    "source_sha256": "d6e8693403b5e0a6db5de7b823ed931739978f9b348133d5265fbbcb80aa84f9",
+    "crop_sha256": "fc3c939f692e0e88d58d30daef08cea13bc5544d2b633e682dfec0d96c7134b6",
+    "person_xyxy": [
+      746,
+      453,
+      1005,
+      785
+    ],
+    "context_xyxy": [
+      630,
+      355,
+      1060,
+      785
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-04.jpg"
+  },
+  {
+    "id": "CB-0449",
+    "source_sha256": "f9f99df6dacbfcf039cbbc466f10a250226a8b7c05bbd42c60d7dcf4eb09e683",
+    "crop_sha256": "d8f8a66c5693f6bf79ded5448ad3387666701bb5c14dc52808efb1a2907b690a",
+    "person_xyxy": [
+      703,
+      423,
+      996,
+      785
+    ],
+    "context_xyxy": [
+      630,
+      355,
+      1060,
+      785
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-04.jpg"
+  },
+  {
+    "id": "CB-0473",
+    "source_sha256": "c6c0b8676a9df0158c9dc7fe0178ac512c7183c061f58308917bb6456b3066c2",
+    "crop_sha256": "f945d88d56dccb3616c43942b66b8945ba1fb9ee6276d4928d5b955597f26708",
+    "person_xyxy": [
+      664,
+      428,
+      996,
+      785
+    ],
+    "context_xyxy": [
+      630,
+      355,
+      1060,
+      785
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-04.jpg"
+  },
+  {
+    "id": "CB-0479",
+    "source_sha256": "439c65189ca0053c165b1c60137fe2cdfd7f435a356e4beff0aaa64a402b607b",
+    "crop_sha256": "47bfb01755659c4ab207c9e29b77b62a7a742a052746675c740b0a02618f4e44",
+    "person_xyxy": [
+      716,
+      406,
+      987,
+      785
+    ],
+    "context_xyxy": [
+      630,
+      355,
+      1060,
+      785
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-04.jpg"
+  },
+  {
+    "id": "CB-0485",
+    "source_sha256": "13fda9c360f02e2b41c3cbf257a1179699a10790f3e6c848f7071ca565dd1f73",
+    "crop_sha256": "d275671c7d2fdc134937706a9957f625c709af93d027aa7ec80daca58de62ebf",
+    "person_xyxy": [
+      954,
+      356,
+      1163,
+      645
+    ],
+    "context_xyxy": [
+      900,
+      310,
+      1260,
+      670
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-04.jpg"
+  },
+  {
+    "id": "CB-0487",
+    "source_sha256": "8fabff858767d0925de5af0855185ab1322cb173812b0ca38ecabf18500b83b4",
+    "crop_sha256": "408c42a0e38ed9df536a69a345392a74472b31ae6b06f68a56191c3c525ef44d",
+    "person_xyxy": [
+      943,
+      335,
+      1174,
+      670
+    ],
+    "context_xyxy": [
+      900,
+      310,
+      1260,
+      670
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-04.jpg"
+  },
+  {
+    "id": "CB-0492",
+    "source_sha256": "7ef740b01f6a1580ea0108cea6534a7d9ab407e9b8901c69ee6b8a7162c16509",
+    "crop_sha256": "352b6d65e500be2fd64f57f9a12f4cfe90fef112b90a0cf96a7b65b97c3e9b1b",
+    "person_xyxy": [
+      986,
+      374,
+      1196,
+      660
+    ],
+    "context_xyxy": [
+      900,
+      310,
+      1260,
+      670
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-04.jpg"
+  },
+  {
+    "id": "CB-0496",
+    "source_sha256": "a4878fc800fb72339c3350e4ea1d74fe46a693837a125d1fe3acc16b0d22dd3a",
+    "crop_sha256": "8a21dd58627638b8a4b3eaefec6c09d01dc5317eca9423c13e67f212fbee0700",
+    "person_xyxy": [
+      1000,
+      310,
+      1192,
+      656
+    ],
+    "context_xyxy": [
+      900,
+      310,
+      1260,
+      670
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-04.jpg"
+  },
+  {
+    "id": "CB-0506",
+    "source_sha256": "cd449836775fb231e5bdde1bbf362cec7d3c65a77e30ad0b1d16b6a3de09c31b",
+    "crop_sha256": "229b044a4ca8e818a634c976917c7f1cc3a4ea0310facd3eea5e9856110f05f4",
+    "person_xyxy": [
+      961,
+      378,
+      1170,
+      645
+    ],
+    "context_xyxy": [
+      900,
+      310,
+      1260,
+      670
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-04.jpg"
+  },
+  {
+    "id": "CB-0514-R1",
+    "source_sha256": "13fda9c360f02e2b41c3cbf257a1179699a10790f3e6c848f7071ca565dd1f73",
+    "crop_sha256": "639c0747b0d0bb17ecd3dc0e95131c37b89f45bd42230c0122543bea16b2c408",
+    "person_xyxy": [
+      440,
+      244,
+      690,
+      441
+    ],
+    "context_xyxy": [
+      440,
+      225,
+      705,
+      470
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-04.jpg"
+  },
+  {
+    "id": "CB-0518-R1",
+    "source_sha256": "fca65211fcb27f3a30611751102d483cba483e7e105a9cf5a580ba974dabdafd",
+    "crop_sha256": "5a8370927af28c4cb8c6adcbfe0be4c252668b2f18bb140159ab08cb8358554b",
+    "person_xyxy": [
+      450,
+      237,
+      684,
+      439
+    ],
+    "context_xyxy": [
+      440,
+      225,
+      705,
+      470
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-04.jpg"
+  },
+  {
+    "id": "CB-0523-R1",
+    "source_sha256": "4c0043ee072ffe5a2786958bfe2352e007b93e83f047ed296621891a558c3cae",
+    "crop_sha256": "9c24657d61b9d5aa8268d5ff9b1dcb6aea6d3dbee69526b86d42e9f72a283f6b",
+    "person_xyxy": [
+      487,
+      244,
+      700,
+      458
+    ],
+    "context_xyxy": [
+      440,
+      225,
+      705,
+      470
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-04.jpg"
+  },
+  {
+    "id": "CB-0527-R1",
+    "source_sha256": "1d2077c7cab979e269300f7bc4d9c824b37c55a3be06998440d680ff23a93988",
+    "crop_sha256": "452ecee1418e65672724627781253ee76237f4fa964ed7a089611c5155f684fa",
+    "person_xyxy": [
+      493,
+      227,
+      705,
+      424
+    ],
+    "context_xyxy": [
+      440,
+      225,
+      705,
+      470
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-04.jpg"
+  },
+  {
+    "id": "CB-0540-R1",
+    "source_sha256": "f5487b74a115687fb87c234ecc6baa7d0c0e1e87dd845ea91c721ab88d68777a",
+    "crop_sha256": "1abb52ae77033942fc3897b3b62602a222e6ca6768c2afa2aa39205fb2381bb6",
+    "person_xyxy": [
+      508,
+      225,
+      705,
+      417
+    ],
+    "context_xyxy": [
+      440,
+      225,
+      705,
+      470
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-04.jpg"
+  },
+  {
+    "id": "CB-0543-R1",
+    "source_sha256": "5c85180f29fc44e3f7e9b51838b886167cbab1a29ebe0568a46ec6eee559638c",
+    "crop_sha256": "00e6199ac5a1b622f8bbf671ab45255fddadcbf032d34210779159b2b3e3ce0c",
+    "person_xyxy": [
+      1600,
+      674,
+      1920,
+      973
+    ],
+    "context_xyxy": [
+      1600,
+      590,
+      1920,
+      1010
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-05.jpg"
+  },
+  {
+    "id": "CB-0546-R1",
+    "source_sha256": "a625a51336a4e91ebf3e81f1fbed38a44dd9a9d0ed0233388f5c1e40ae771a82",
+    "crop_sha256": "bbfb225c7636b8691fee3a041021127233230c7c3c251b36a5e47ac3c9b0577a",
+    "person_xyxy": [
+      1600,
+      627,
+      1920,
+      977
+    ],
+    "context_xyxy": [
+      1600,
+      590,
+      1920,
+      1010
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-05.jpg"
+  },
+  {
+    "id": "CB-0555-R1",
+    "source_sha256": "f1efb6b20fc3eb58bc333e94d99b7879d1138eef2af78da2217329fb07ff6ac5",
+    "crop_sha256": "a78d167ef8233018ef3c87eea57b66e4c0257fcaca9ec4d5d3a33ea3f44fdfe7",
+    "person_xyxy": [
+      1600,
+      674,
+      1920,
+      952
+    ],
+    "context_xyxy": [
+      1600,
+      590,
+      1920,
+      1010
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-05.jpg"
+  },
+  {
+    "id": "CB-0560-R1",
+    "source_sha256": "12d6a13b7fe41d46841bb88f35ef2cb3bc8c54445d4eade9e72e1d9a14a38143",
+    "crop_sha256": "2f301a23c93917fb0844742d007c17153966363623327661f0b425fa659f6fe7",
+    "person_xyxy": [
+      1600,
+      590,
+      1920,
+      985
+    ],
+    "context_xyxy": [
+      1600,
+      590,
+      1920,
+      1010
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-05.jpg"
+  },
+  {
+    "id": "CB-0567-R1",
+    "source_sha256": "7d1531ff438bdc6b25722975c221db2163b48da96c5372f5f9c73711257286f7",
+    "crop_sha256": "df166ea8ad6a0db73b77343fab07c5a9cd8f1bf2e5fdc0716aa664cfc23ca30c",
+    "person_xyxy": [
+      1600,
+      653,
+      1920,
+      935
+    ],
+    "context_xyxy": [
+      1600,
+      590,
+      1920,
+      1010
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-05.jpg"
+  },
+  {
+    "id": "CB-0571-R1",
+    "source_sha256": "c4306242036e13e980aa4154a1e846b334f3b2cc8f2b409b117c0d112e658453",
+    "crop_sha256": "4969d305a753bb64a2f852b2abc3a541b71d75ac1ab9ed2f3b6ee79de6e0f4f2",
+    "person_xyxy": [
+      1616,
+      590,
+      1920,
+      943
+    ],
+    "context_xyxy": [
+      1600,
+      590,
+      1920,
+      1010
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-05.jpg"
+  },
+  {
+    "id": "CB-0572-R1",
+    "source_sha256": "01c2e62969f999adc3e03a44f79e050ce07688d5d26c8c0a21711dad1e8a7623",
+    "crop_sha256": "055a15bbc73a697c698956cdb00372455bef9dd66cdbcfab2acc6821a99916e8",
+    "person_xyxy": [
+      0,
+      549,
+      537,
+      1080
+    ],
+    "context_xyxy": [
+      0,
+      470,
+      610,
+      1080
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-05.jpg"
+  },
+  {
+    "id": "CB-0574-R1",
+    "source_sha256": "6dd119b8c2891ea9301313a74bc7e69a4f4ebee558d461750412e6b93d337d73",
+    "crop_sha256": "0ba112767b5830149e6126611e2d7e7be91f0cdd34df3e19aa135d08dbe8845d",
+    "person_xyxy": [
+      0,
+      579,
+      556,
+      1080
+    ],
+    "context_xyxy": [
+      0,
+      470,
+      610,
+      1080
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-05.jpg"
+  },
+  {
+    "id": "CB-0578-R1",
+    "source_sha256": "1ba92f2668d9e6e9b42b479300abcddd10442f8828cd3c3a0da5e21ed2907569",
+    "crop_sha256": "9478303909ad4c124fe371b481c755a5adee78356bd1f35e9bf45c1216503099",
+    "person_xyxy": [
+      0,
+      616,
+      525,
+      1080
+    ],
+    "context_xyxy": [
+      0,
+      470,
+      610,
+      1080
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-05.jpg"
+  },
+  {
+    "id": "CB-0582-R1",
+    "source_sha256": "04ec235be5117be3e849cdf90a11f414222928f3326064f5068b6e7048c654df",
+    "crop_sha256": "a6583b31846698387c2c15a77f96cc2a857efa5bc496dbd7c6436543027042a7",
+    "person_xyxy": [
+      155,
+      350,
+      617,
+      1080
+    ],
+    "context_xyxy": [
+      100,
+      350,
+      650,
+      1080
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-05.jpg"
+  },
+  {
+    "id": "CB-0593-R1",
+    "source_sha256": "a3edbae74dd2f042b1338cca26be7226b72f94cc13f86854686781853f2a35a6",
+    "crop_sha256": "a31c30fa82a01ba30121a901bdfa1ad1303f001476b67a024b2e95939501b5db",
+    "person_xyxy": [
+      50,
+      373,
+      555,
+      1080
+    ],
+    "context_xyxy": [
+      50,
+      320,
+      630,
+      1080
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-05.jpg"
+  },
+  {
+    "id": "CB-0597-R1",
+    "source_sha256": "154a9e531698fd845460636b1c0bf9adda025aa87d403fceb5dd4a6dd83aeeb5",
+    "crop_sha256": "b0b5d1c274be151f830331b4def7aaa5e6fcbefce5e547f8f98a13f426e162f0",
+    "person_xyxy": [
+      50,
+      426,
+      572,
+      1080
+    ],
+    "context_xyxy": [
+      50,
+      320,
+      630,
+      1080
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-05.jpg"
+  },
+  {
+    "id": "CB-0598-R1",
+    "source_sha256": "7ee65d18b0ffbfe12e10fff7c3237158facd0f868e12aaa6b04c239bc7957de2",
+    "crop_sha256": "84475e2bdbc439c1ab07bf1c54e9a09c15dfca34219c803dc87a43772b0e5c66",
+    "person_xyxy": [
+      1641,
+      450,
+      1920,
+      960
+    ],
+    "context_xyxy": [
+      1580,
+      450,
+      1920,
+      1010
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-05.jpg"
+  },
+  {
+    "id": "CB-0604-R1",
+    "source_sha256": "6dd119b8c2891ea9301313a74bc7e69a4f4ebee558d461750412e6b93d337d73",
+    "crop_sha256": "439493b564124bae5b962c183c1a860f6e47c9ba3705031a738e3a8c9ba8b678",
+    "person_xyxy": [
+      1053,
+      250,
+      1451,
+      813
+    ],
+    "context_xyxy": [
+      1000,
+      250,
+      1490,
+      920
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-05.jpg"
+  },
+  {
+    "id": "CB-0605",
+    "source_sha256": "1ba92f2668d9e6e9b42b479300abcddd10442f8828cd3c3a0da5e21ed2907569",
+    "crop_sha256": "0acaeab07dedb90c5ce414dd2242d4c0b45ee0c0e169bf924b7efc91ee1edbda",
+    "person_xyxy": [
+      1063,
+      465,
+      1433,
+      849
+    ],
+    "context_xyxy": [
+      1032,
+      448,
+      1477,
+      893
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-05.jpg"
+  },
+  {
+    "id": "CB-0607-R1",
+    "source_sha256": "cdd529a285c216a4a04b72b6dae16b73cf3dd237d6495d8a7fc5b619ef8d428f",
+    "crop_sha256": "305e9185d9b7257c81eefcde045141d6fd8905ee0afae834d73385e315fc4c6c",
+    "person_xyxy": [
+      1101,
+      290,
+      1549,
+      786
+    ],
+    "context_xyxy": [
+      980,
+      250,
+      1560,
+      920
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-05.jpg"
+  },
+  {
+    "id": "CB-0609-R1",
+    "source_sha256": "a3edbae74dd2f042b1338cca26be7226b72f94cc13f86854686781853f2a35a6",
+    "crop_sha256": "9d287691a7a3fbbf6d77162f41781d4194f77336a6fbe2f142eaac5b658f4d86",
+    "person_xyxy": [
+      980,
+      250,
+      1560,
+      813
+    ],
+    "context_xyxy": [
+      980,
+      250,
+      1560,
+      920
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-05.jpg"
+  },
+  {
+    "id": "CB-0611-R1",
+    "source_sha256": "6dd119b8c2891ea9301313a74bc7e69a4f4ebee558d461750412e6b93d337d73",
+    "crop_sha256": "0a4e23fe50d046246602b5ed8c631cb588e9c2c6c7183d1d935e18ea9b3a9b14",
+    "person_xyxy": [
+      1393,
+      216,
+      1645,
+      546
+    ],
+    "context_xyxy": [
+      1330,
+      100,
+      1680,
+      630
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-05.jpg"
+  },
+  {
+    "id": "CB-0613-R1",
+    "source_sha256": "8796f1737904c18bf0dc32adcee705b622d0aa1a67ebe56540ccb34e91d15dc8",
+    "crop_sha256": "88fb4891495d2e293fa08248dfccbdd45b4b0548d1bbe4ae53085c4ad28c41da",
+    "person_xyxy": [
+      1375,
+      168,
+      1659,
+      562
+    ],
+    "context_xyxy": [
+      1330,
+      100,
+      1680,
+      630
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-05.jpg"
+  },
+  {
+    "id": "CB-0614-R1",
+    "source_sha256": "cdd529a285c216a4a04b72b6dae16b73cf3dd237d6495d8a7fc5b619ef8d428f",
+    "crop_sha256": "9394c9581db6dc2f3aee342aa5b5c6a6f9808f70e667736c5c0d41a54dd77e15",
+    "person_xyxy": [
+      1442,
+      121,
+      1673,
+      540
+    ],
+    "context_xyxy": [
+      1330,
+      100,
+      1680,
+      630
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-05.jpg"
+  },
+  {
+    "id": "CB-0617-R1",
+    "source_sha256": "154a9e531698fd845460636b1c0bf9adda025aa87d403fceb5dd4a6dd83aeeb5",
+    "crop_sha256": "aca1b06b8f0836fae8f62a7efaf62247230abd15d96a496b4c53f8019dc61ad0",
+    "person_xyxy": [
+      1323,
+      0,
+      1644,
+      519
+    ],
+    "context_xyxy": [
+      1300,
+      0,
+      1690,
+      640
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-06.jpg"
+  },
+  {
+    "id": "CB-0618",
+    "source_sha256": "01c2e62969f999adc3e03a44f79e050ce07688d5d26c8c0a21711dad1e8a7623",
+    "crop_sha256": "009466202418f21ca3e67cdff7ee951e0bc81b8ceaffa081bb320cb84354d42f",
+    "person_xyxy": [
+      590,
+      187,
+      790,
+      422
+    ],
+    "context_xyxy": [
+      440,
+      170,
+      790,
+      520
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-06.jpg"
+  },
+  {
+    "id": "CB-0620",
+    "source_sha256": "6dd119b8c2891ea9301313a74bc7e69a4f4ebee558d461750412e6b93d337d73",
+    "crop_sha256": "ad06c7c460d7b55c00ced973a2c6d22f35fd70c60bfb6bdbd26662eb73c17cce",
+    "person_xyxy": [
+      527,
+      170,
+      790,
+      405
+    ],
+    "context_xyxy": [
+      440,
+      170,
+      790,
+      520
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-06.jpg"
+  },
+  {
+    "id": "CB-0624",
+    "source_sha256": "1ba92f2668d9e6e9b42b479300abcddd10442f8828cd3c3a0da5e21ed2907569",
+    "crop_sha256": "502ab09301f5ac6ab54770172c594a915e314b5b95217ebef7744e91454ac079",
+    "person_xyxy": [
+      552,
+      201,
+      790,
+      405
+    ],
+    "context_xyxy": [
+      440,
+      170,
+      790,
+      520
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-06.jpg"
+  },
+  {
+    "id": "CB-0626",
+    "source_sha256": "952fc995fc781c18ab9c300156a2a3ee7352120afbed4e38c4a94fdcc9658237",
+    "crop_sha256": "d01776303199f6078e85f41d3e688dd95da318acd60ef36f9d70ad564a1214ba",
+    "person_xyxy": [
+      552,
+      170,
+      790,
+      398
+    ],
+    "context_xyxy": [
+      440,
+      170,
+      790,
+      520
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-06.jpg"
+  },
+  {
+    "id": "CB-0631",
+    "source_sha256": "cdd529a285c216a4a04b72b6dae16b73cf3dd237d6495d8a7fc5b619ef8d428f",
+    "crop_sha256": "459a35f8afb8bae958c8945d1463bbc3bccefb11e4bf73df5249e2188af5f779",
+    "person_xyxy": [
+      566,
+      170,
+      790,
+      401
+    ],
+    "context_xyxy": [
+      440,
+      170,
+      790,
+      520
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-06.jpg"
+  },
+  {
+    "id": "CB-0639-R1",
+    "source_sha256": "a3edbae74dd2f042b1338cca26be7226b72f94cc13f86854686781853f2a35a6",
+    "crop_sha256": "722ae32d13d7c77ec3511258b294069b49e2a4e7ad693582b903693a12f54222",
+    "person_xyxy": [
+      579,
+      70,
+      828,
+      415
+    ],
+    "context_xyxy": [
+      540,
+      70,
+      840,
+      480
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-06.jpg"
+  },
+  {
+    "id": "CB-0644",
+    "source_sha256": "01c2e62969f999adc3e03a44f79e050ce07688d5d26c8c0a21711dad1e8a7623",
+    "crop_sha256": "3cf5c3d7380fdc9ac568d922ebb2f823a707a7ad1cefd86d4f12f0e319061431",
+    "person_xyxy": [
+      720,
+      160,
+      1061,
+      530
+    ],
+    "context_xyxy": [
+      720,
+      160,
+      1090,
+      530
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-06.jpg"
+  },
+  {
+    "id": "CB-0646",
+    "source_sha256": "be3c8084f5eedd91f562ecb664ac739c669650e300e37c89120413f81db07e77",
+    "crop_sha256": "0a5b01bc47ea4d0cb5b4eceed8f6bfdb5c7409e88c1d38035c5db677862a3a5e",
+    "person_xyxy": [
+      827,
+      160,
+      1079,
+      530
+    ],
+    "context_xyxy": [
+      720,
+      160,
+      1090,
+      530
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-06.jpg"
+  },
+  {
+    "id": "CB-0647",
+    "source_sha256": "480e0ff8b4eebe6245d1b4a732c21c13231e5d3e5a80420c586ef25e3eee4aa8",
+    "crop_sha256": "fec08bcd4731caabdfee64a8d8a906b2ecea72194f36a925ee4f5b95e8d4b454",
+    "person_xyxy": [
+      790,
+      160,
+      1087,
+      530
+    ],
+    "context_xyxy": [
+      720,
+      160,
+      1090,
+      530
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-06.jpg"
+  },
+  {
+    "id": "CB-0649",
+    "source_sha256": "2b939530e4a3436b5f654d370646ec30a085106fd902544b8b0cc01162726b38",
+    "crop_sha256": "c419cc60385777a2afb6031712b621ede692fe810b5b7f14fc5d86edffcadd2a",
+    "person_xyxy": [
+      440,
+      184,
+      734,
+      520
+    ],
+    "context_xyxy": [
+      440,
+      170,
+      790,
+      520
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-06.jpg"
+  },
+  {
+    "id": "CB-0651",
+    "source_sha256": "50c7395ce3dcff52984e53ac0e562fca69ced55896f26bf37d12ddfe4652aeb5",
+    "crop_sha256": "d5c7cf9ed6439528c1069e43851f68f1b16bceb0e5fdcda0a910fce59d6c0540",
+    "person_xyxy": [
+      440,
+      170,
+      724,
+      436
+    ],
+    "context_xyxy": [
+      440,
+      170,
+      790,
+      520
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-06.jpg"
+  },
+  {
+    "id": "CB-0653",
+    "source_sha256": "7ee65d18b0ffbfe12e10fff7c3237158facd0f868e12aaa6b04c239bc7957de2",
+    "crop_sha256": "51185b2a0f481450fd80422d4adff24a7d54c48a001f2d93f46cbc6b4c17f1fc",
+    "person_xyxy": [
+      1015,
+      148,
+      1234,
+      483
+    ],
+    "context_xyxy": [
+      972,
+      148,
+      1307,
+      483
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-06.jpg"
+  },
+  {
+    "id": "CB-0655",
+    "source_sha256": "04ec235be5117be3e849cdf90a11f414222928f3326064f5068b6e7048c654df",
+    "crop_sha256": "3c946b365e28efd3c3f16be9a113882dadfb253b5aff2234164b84f558535875",
+    "person_xyxy": [
+      1028,
+      148,
+      1264,
+      483
+    ],
+    "context_xyxy": [
+      972,
+      148,
+      1307,
+      483
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-06.jpg"
+  },
+  {
+    "id": "CB-0657",
+    "source_sha256": "29253bf90ed144c176255196da710677c76f1386a4a48b1f84799d8760028377",
+    "crop_sha256": "432b2cf2b27f2ff3c983d25a0b346e9a30d5c098998421bed97cafaf05c94dd1",
+    "person_xyxy": [
+      385,
+      410,
+      566,
+      620
+    ],
+    "context_xyxy": [
+      310,
+      310,
+      670,
+      670
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-06.jpg"
+  },
+  {
+    "id": "CB-0660",
+    "source_sha256": "f5b999b31af2677e7f07d2d4e98f5157ffb4270ac5dcc49cc0b74e7ebe659db7",
+    "crop_sha256": "41aaabd867bbfef5f165943cf45b4ba7aa5244d407ea8226f49770ad32ce5958",
+    "person_xyxy": [
+      367,
+      450,
+      559,
+      624
+    ],
+    "context_xyxy": [
+      310,
+      310,
+      670,
+      670
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-06.jpg"
+  },
+  {
+    "id": "CB-0666",
+    "source_sha256": "22b2bb82f0623dad3aa6a484ca2bbb6dbfbe5ac84e3d87d9c85dc9f841f17a24",
+    "crop_sha256": "15e5aae88f7eafd5e6534f6e5265361e610c2ba1ecdf3b83e43d8714a8f7527a",
+    "person_xyxy": [
+      400,
+      439,
+      580,
+      634
+    ],
+    "context_xyxy": [
+      310,
+      310,
+      670,
+      670
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-06.jpg"
+  },
+  {
+    "id": "CB-0670",
+    "source_sha256": "a8cafa50abed33d9326bba6bec8bd32c8af2f3dc7de192435b05a90d985c040e",
+    "crop_sha256": "5a800827321cc68a6a874c7aed19d04a70fa32025f47250482ea84c537590168",
+    "person_xyxy": [
+      392,
+      421,
+      544,
+      634
+    ],
+    "context_xyxy": [
+      310,
+      310,
+      670,
+      670
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-06.jpg"
+  },
+  {
+    "id": "CB-0675",
+    "source_sha256": "29cb3599015c6985dfb18df41c36824f3dcf9e052e76b8afbbd2234fa36ad2f0",
+    "crop_sha256": "75c138050628447177499bc5cb5ee14b5a1f5f4a626864ad4aee63039bc1ea6d",
+    "person_xyxy": [
+      184,
+      478,
+      329,
+      673
+    ],
+    "context_xyxy": [
+      105,
+      385,
+      465,
+      745
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-06.jpg"
+  },
+  {
+    "id": "CB-0684",
+    "source_sha256": "a0c452da10965ab64724c64ea916fad0275507d25a08299521c669037bcf4a26",
+    "crop_sha256": "4c22895b8f0c461822baf75aa325974f88592a9ed3ee542e41e5623598894ced",
+    "person_xyxy": [
+      198,
+      529,
+      379,
+      706
+    ],
+    "context_xyxy": [
+      105,
+      385,
+      465,
+      745
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-06.jpg"
+  },
+  {
+    "id": "CB-0688",
+    "source_sha256": "fbcbd26e99220ab94060bce4f7c7283a9bce54a2efc21e5f59155ae862e1633d",
+    "crop_sha256": "209e8148ab6dfc7889c3ae119b93cc3d569a2cdc7608902b89c85487f38259f7",
+    "person_xyxy": [
+      202,
+      539,
+      350,
+      702
+    ],
+    "context_xyxy": [
+      105,
+      385,
+      465,
+      745
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-07.jpg"
+  },
+  {
+    "id": "CB-0694",
+    "source_sha256": "9eabe832c7ae34c82f8502c4c7f630aa10a630cf170bc67ff8c1a404fba7cf90",
+    "crop_sha256": "be0838ca357b1a5c5996c10ca51208052c4304c5e2d76e3e55d76a5ab9a1df4d",
+    "person_xyxy": [
+      151,
+      507,
+      303,
+      691
+    ],
+    "context_xyxy": [
+      105,
+      385,
+      465,
+      745
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-07.jpg"
+  },
+  {
+    "id": "CB-0700",
+    "source_sha256": "72325e074c21393c461a5b8f54726d972407cfe2a102f581f9e700f122819c09",
+    "crop_sha256": "2990087efb43d6a086ad6968231c0443f6d075bbf7a1af58fd2c14d7c24259d1",
+    "person_xyxy": [
+      209,
+      543,
+      354,
+      681
+    ],
+    "context_xyxy": [
+      105,
+      385,
+      465,
+      745
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-07.jpg"
+  },
+  {
+    "id": "CB-0703",
+    "source_sha256": "5f2771eb249160d00533f007082a0b0addcdc6388334ad5b962d21e8c524542e",
+    "crop_sha256": "e71fe3c1cce29897695a0e35c357d0ee09ed0ae563e138725a4e7990d0267b1d",
+    "person_xyxy": [
+      963,
+      297,
+      1136,
+      499
+    ],
+    "context_xyxy": [
+      920,
+      225,
+      1280,
+      585
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-07.jpg"
+  },
+  {
+    "id": "CB-0704",
+    "source_sha256": "3a78cac3d49ea7026f6bf9ecbaf882d8a7dd0f2dd29d999132b8117711d6af31",
+    "crop_sha256": "401d302e12a92e9c28d77e7c7e1de6b7fc4b14a02d53f6bfe0d7345c19d60e86",
+    "person_xyxy": [
+      963,
+      304,
+      1162,
+      495
+    ],
+    "context_xyxy": [
+      920,
+      225,
+      1280,
+      585
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-07.jpg"
+  },
+  {
+    "id": "CB-0710",
+    "source_sha256": "edc3cab95040b79595633d6bc7c17252e23c6a913adfa0bd1dd8dd910e1c77af",
+    "crop_sha256": "02710ecaf1d18b09f62af4b0c3066e353ff10718ae9334141ce97de2cd523064",
+    "person_xyxy": [
+      992,
+      307,
+      1144,
+      481
+    ],
+    "context_xyxy": [
+      920,
+      225,
+      1280,
+      585
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-07.jpg"
+  },
+  {
+    "id": "CB-0715-R1",
+    "source_sha256": "3b0007228993b2765fc83142d3eb0d824ccdca6bc7181bd824af6e59eb9c906b",
+    "crop_sha256": "3ac74ff897195cdefc99e731ddfab48bbff7278ef9bd60e53b5c9d2091c39303",
+    "person_xyxy": [
+      1011,
+      321,
+      1180,
+      527
+    ],
+    "context_xyxy": [
+      990,
+      300,
+      1230,
+      570
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-07.jpg"
+  },
+  {
+    "id": "CB-0719-R1",
+    "source_sha256": "f490606c0fde9896f3776ee2b92263281617f2d4f7efa61fd512a9869297e8b2",
+    "crop_sha256": "e1a0f704abf36d07beab755f8e7408b4a2feff7cdb6efef4b4d9dc7c9ab11e0c",
+    "person_xyxy": [
+      792,
+      345,
+      978,
+      555
+    ],
+    "context_xyxy": [
+      790,
+      300,
+      1040,
+      600
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-07.jpg"
+  },
+  {
+    "id": "CB-0724-R1",
+    "source_sha256": "c4516a6cf38e71132f3c0bc19bf5e02554c9f37d1ecc5525d4e9448d8c581863",
+    "crop_sha256": "e86a7cb7a7f3e0c829b3b9da0c27ae77af34f5dc463e9219f3102a0c0d9057ed",
+    "person_xyxy": [
+      822,
+      375,
+      1030,
+      549
+    ],
+    "context_xyxy": [
+      790,
+      300,
+      1040,
+      600
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-07.jpg"
+  },
+  {
+    "id": "CB-0726-R1",
+    "source_sha256": "81e874a295685e1314248d60f3e7cfdb8108a4afaf77b77011eafccd0ab644fe",
+    "crop_sha256": "201d8691c1dbd0a3d9a86c24795595b2c23497eb316217e58ede391cc2748028",
+    "person_xyxy": [
+      832,
+      333,
+      1025,
+      552
+    ],
+    "context_xyxy": [
+      790,
+      300,
+      1040,
+      600
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-07.jpg"
+  },
+  {
+    "id": "CB-0733-R1",
+    "source_sha256": "15bbced65a18d418ef0caeb8fa5af97bf263f862d38ec31b5f994eed2dacd404",
+    "crop_sha256": "8d63c94cc8f254ca1248de3d97d8af7c176d2d3a009250065bedd5d01f2e2d60",
+    "person_xyxy": [
+      807,
+      360,
+      983,
+      543
+    ],
+    "context_xyxy": [
+      790,
+      300,
+      1040,
+      600
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-07.jpg"
+  },
+  {
+    "id": "CB-0735-R1",
+    "source_sha256": "5412829cff3000a18702092ecb4c79280890720eae69a70f1b66b154c2f29c86",
+    "crop_sha256": "930381d54cf362feec323b6e09fafb78e6519490bcb4f41573451ed21e06a453",
+    "person_xyxy": [
+      883,
+      140,
+      1009,
+      355
+    ],
+    "context_xyxy": [
+      875,
+      140,
+      1010,
+      390
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-07.jpg"
+  },
+  {
+    "id": "CB-0737-R1",
+    "source_sha256": "b44c1e2d1b7c617c11f9db6de9873a7922b4cf6339e586d3ea7c415f4a475eaa",
+    "crop_sha256": "81aae26469494a58a4426ff25124991559d8d78af6585634f84d75a54b386054",
+    "person_xyxy": [
+      763,
+      245,
+      876,
+      424
+    ],
+    "context_xyxy": [
+      750,
+      245,
+      940,
+      425
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-07.jpg"
+  },
+  {
+    "id": "CB-0742-R1",
+    "source_sha256": "2f1514235528dee93a22deacdb5d73e56e59260ac759676a34d17af0125561af",
+    "crop_sha256": "08c615691e9e5b55ece0c33ed3c5412104c1048971f8f3fc4334b502427519c0",
+    "person_xyxy": [
+      767,
+      264,
+      893,
+      416
+    ],
+    "context_xyxy": [
+      750,
+      245,
+      940,
+      425
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-07.jpg"
+  },
+  {
+    "id": "CB-0745-R1",
+    "source_sha256": "a0c452da10965ab64724c64ea916fad0275507d25a08299521c669037bcf4a26",
+    "crop_sha256": "21016b35fc996e53aed8e434f443220008ddb7f130cc9756ce51e2641384faed",
+    "person_xyxy": [
+      755,
+      250,
+      931,
+      416
+    ],
+    "context_xyxy": [
+      750,
+      245,
+      940,
+      425
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-07.jpg"
+  },
+  {
+    "id": "CB-0748-R1",
+    "source_sha256": "15bbced65a18d418ef0caeb8fa5af97bf263f862d38ec31b5f994eed2dacd404",
+    "crop_sha256": "3c694e200fbd692781e76ceb659e41bb4421e8485852a595210eee8eb1f07985",
+    "person_xyxy": [
+      750,
+      245,
+      883,
+      398
+    ],
+    "context_xyxy": [
+      750,
+      245,
+      940,
+      425
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-07.jpg"
+  },
+  {
+    "id": "CB-0749",
+    "source_sha256": "fa4802d75501cd18bd4197db93d06e8919a11c451196c4ac59e83bcab46837fd",
+    "crop_sha256": "6a179a5b05861e8f6d9265420db941cad85afb7e6c9169a97efdb1b45ce8bc8a",
+    "person_xyxy": [
+      208,
+      318,
+      391,
+      595
+    ],
+    "context_xyxy": [
+      208,
+      318,
+      493,
+      603
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-07.jpg"
+  },
+  {
+    "id": "CB-0750",
+    "source_sha256": "c9bbe250dd6c1e5ab9ccc810c48be51f503b7daf5dd89beed29c818473af9cdb",
+    "crop_sha256": "d35c02a4a4a6358168e6377fb3925a3b72afb362d15f90671264b7e294a553a2",
+    "person_xyxy": [
+      219,
+      318,
+      368,
+      504
+    ],
+    "context_xyxy": [
+      208,
+      318,
+      493,
+      603
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-07.jpg"
+  },
+  {
+    "id": "CB-0752",
+    "source_sha256": "6dd4508e9ee690578842e4b6749b2431c87b1306d37a9c196f7daa7f69b5a493",
+    "crop_sha256": "bb7918319f612fb04ad09675e097325c1eaf00d8a5ac816946acaf1d723731cf",
+    "person_xyxy": [
+      230,
+      375,
+      419,
+      595
+    ],
+    "context_xyxy": [
+      208,
+      318,
+      493,
+      603
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-07.jpg"
+  },
+  {
+    "id": "CB-0753",
+    "source_sha256": "eb29e69c35ea3ef2ed9a00ffe316fa13c06c15b2237666d47c1fa6707dc0eeb1",
+    "crop_sha256": "b116331e01b5657d7900ffa827a28a0d526da2a46c2149df2ea7d17f2abc9e48",
+    "person_xyxy": [
+      222,
+      377,
+      428,
+      603
+    ],
+    "context_xyxy": [
+      208,
+      318,
+      493,
+      603
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-07.jpg"
+  },
+  {
+    "id": "CB-0755",
+    "source_sha256": "3622bafad22cccd82fb1dd56edb346603423e6902dc4026462964c7cade0c931",
+    "crop_sha256": "9a1372d17edd76e97c1ca2035aaa19537c2aec8d4b0a4d3d682a54e36ef167a2",
+    "person_xyxy": [
+      388,
+      301,
+      542,
+      465
+    ],
+    "context_xyxy": [
+      370,
+      270,
+      630,
+      530
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-08.jpg"
+  },
+  {
+    "id": "CB-0756",
+    "source_sha256": "49337fc9e62c6e80f7573b6ff3821d6a9745018d6bc049ab58c3991b62aee4cb",
+    "crop_sha256": "1aa3baadadc72081a2b13eb772896a3e1781bf471ec5b388011c057bf6a528d7",
+    "person_xyxy": [
+      375,
+      329,
+      552,
+      468
+    ],
+    "context_xyxy": [
+      370,
+      270,
+      630,
+      530
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-08.jpg"
+  },
+  {
+    "id": "CB-0759",
+    "source_sha256": "84433474e43e7589cc7a402c424a74eb9d2317915a2908616a5e16f82dd3efb7",
+    "crop_sha256": "205c2fbbc0f436b08e90233e48a0b4a7974bf146a6a90388c8fe89586258b61e",
+    "person_xyxy": [
+      406,
+      309,
+      558,
+      489
+    ],
+    "context_xyxy": [
+      370,
+      270,
+      630,
+      530
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-08.jpg"
+  },
+  {
+    "id": "CB-0760",
+    "source_sha256": "fa4802d75501cd18bd4197db93d06e8919a11c451196c4ac59e83bcab46837fd",
+    "crop_sha256": "adcfb8967b65cf9d47872a51745d664d28cb8df68013621a46acc22fe5ecbdb9",
+    "person_xyxy": [
+      673,
+      272,
+      777,
+      402
+    ],
+    "context_xyxy": [
+      598,
+      272,
+      843,
+      517
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-08.jpg"
+  },
+  {
+    "id": "CB-0762",
+    "source_sha256": "6dd4508e9ee690578842e4b6749b2431c87b1306d37a9c196f7daa7f69b5a493",
+    "crop_sha256": "c5c4e2d88bf72c4ce1b8212e2c282c3014eae6f85d0ac8904e3a96318243f66e",
+    "person_xyxy": [
+      642,
+      272,
+      760,
+      407
+    ],
+    "context_xyxy": [
+      598,
+      272,
+      843,
+      517
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-08.jpg"
+  },
+  {
+    "id": "CB-0764",
+    "source_sha256": "eb29e69c35ea3ef2ed9a00ffe316fa13c06c15b2237666d47c1fa6707dc0eeb1",
+    "crop_sha256": "a099fcf0efa17936d3c824a0d05ea6f119dbe371a10dea9608d29fd4f603c3fd",
+    "person_xyxy": [
+      664,
+      298,
+      807,
+      422
+    ],
+    "context_xyxy": [
+      598,
+      272,
+      843,
+      517
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-08.jpg"
+  },
+  {
+    "id": "CB-0765",
+    "source_sha256": "a2c5a6c5af2c0bbb0ed5992e0865ec2f3d2e06bc36f203ea792fe33d5b246891",
+    "crop_sha256": "84d73d16cfbcae62c474fd9ad10a36a12dd56da9aaf4d54be1bf6059ad200960",
+    "person_xyxy": [
+      659,
+      296,
+      802,
+      427
+    ],
+    "context_xyxy": [
+      598,
+      272,
+      843,
+      517
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-08.jpg"
+  },
+  {
+    "id": "G1-A01-F001",
+    "source_sha256": "309e7b997c15529987313ae7fb16b7547e275cb04bb5e9f103150d40847930d4",
+    "crop_sha256": "2987832504e9de4c84d142cdb8c14c96a764ad42683b019aa0eafd14809ae588",
+    "person_xyxy": [
+      136,
+      322,
+      314,
+      528
+    ],
+    "context_xyxy": [
+      70,
+      250,
+      335,
+      580
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-08.jpg"
+  },
+  {
+    "id": "G1-A01-F010",
+    "source_sha256": "92b1d67075d48f662459cb54e395045c9cc3e7fe0cb2addbe702ac9967fa8b2f",
+    "crop_sha256": "f7fca60329ec0a9ca4793093111ecbea8c7e56a80bf631fdd555e91e06fe448e",
+    "person_xyxy": [
+      115,
+      276,
+      322,
+      501
+    ],
+    "context_xyxy": [
+      70,
+      250,
+      335,
+      580
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-08.jpg"
+  },
+  {
+    "id": "G1-A01-F040",
+    "source_sha256": "5810523f2f15aadc3f9ae1cf3b76460c5905c708b845f1c3725b66f705cf2073",
+    "crop_sha256": "1ba23782c686d2f51711a8c0e843f8ed8ad3eb358a4fc68ff931948d403e723e",
+    "person_xyxy": [
+      123,
+      276,
+      333,
+      498
+    ],
+    "context_xyxy": [
+      70,
+      250,
+      335,
+      580
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-08.jpg"
+  },
+  {
+    "id": "G1-A02-F012",
+    "source_sha256": "1f9a5a6e54954418c5507ba56db94687d7ce66c3b964d954bbb17602dfb8da0b",
+    "crop_sha256": "5c501cdfc7b81a81668cedcafac9fd42265fe2f910c105da143d0dd66829fc97",
+    "person_xyxy": [
+      235,
+      280,
+      493,
+      585
+    ],
+    "context_xyxy": [
+      235,
+      280,
+      500,
+      585
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-08.jpg"
+  },
+  {
+    "id": "G1-A02-F044",
+    "source_sha256": "92f044909e1268d4caaf6c5d695c69d9b64b57f7bc26f9a1e2d1fd5e6f912f88",
+    "crop_sha256": "292f18d76b256960909848c6e55b14cf16a5fb66426d3a03bfe1a339372c3d0a",
+    "person_xyxy": [
+      306,
+      280,
+      495,
+      585
+    ],
+    "context_xyxy": [
+      235,
+      280,
+      500,
+      585
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-08.jpg"
+  },
+  {
+    "id": "G1-A03-F001",
+    "source_sha256": "309e7b997c15529987313ae7fb16b7547e275cb04bb5e9f103150d40847930d4",
+    "crop_sha256": "d4360dc25966d5a0757b5fbf009f5956c5a56fcd80e837f1aafe64142489618f",
+    "person_xyxy": [
+      436,
+      249,
+      625,
+      415
+    ],
+    "context_xyxy": [
+      420,
+      185,
+      650,
+      465
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-08.jpg"
+  },
+  {
+    "id": "G1-A03-F046",
+    "source_sha256": "3eb30e94dec1cd6bfdfa2b6f486a41930eec3be2d4b963c51fd350f1419bef2d",
+    "crop_sha256": "93294a042f066e78356ff84c60b08728c9a6a3b791e5068f5f60a7d2184d7b12",
+    "person_xyxy": [
+      475,
+      185,
+      639,
+      465
+    ],
+    "context_xyxy": [
+      420,
+      185,
+      650,
+      465
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-08.jpg"
+  },
+  {
+    "id": "G1-A04-F001",
+    "source_sha256": "309e7b997c15529987313ae7fb16b7547e275cb04bb5e9f103150d40847930d4",
+    "crop_sha256": "4be67d2fd986d4ffacb4400f39bb71034678c7e3b2f39d87741122ca2e0d77c8",
+    "person_xyxy": [
+      725,
+      233,
+      885,
+      412
+    ],
+    "context_xyxy": [
+      710,
+      195,
+      925,
+      450
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-08.jpg"
+  },
+  {
+    "id": "G1-A04-F042",
+    "source_sha256": "4dd30e858a51751b48afcc0d0a09a24481fb14b5b94dc3c592d62663de6f7158",
+    "crop_sha256": "1711ddcc5fd8430b74d82b9a5b3192f543d3428abe959cbb572c92f768e24e6f",
+    "person_xyxy": [
+      742,
+      207,
+      895,
+      450
+    ],
+    "context_xyxy": [
+      710,
+      195,
+      925,
+      450
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-08.jpg"
+  },
+  {
+    "id": "G1-A05-F001",
+    "source_sha256": "309e7b997c15529987313ae7fb16b7547e275cb04bb5e9f103150d40847930d4",
+    "crop_sha256": "514ce9852eeb4121f1a05b076c9541b58414e3cc5ecfd55696bca40e609203c6",
+    "person_xyxy": [
+      605,
+      178,
+      776,
+      360
+    ],
+    "context_xyxy": [
+      550,
+      160,
+      790,
+      360
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-08.jpg"
+  },
+  {
+    "id": "G1-A05-F016",
+    "source_sha256": "ea9e22f89f60d765f99681f8d4d01888f32036fe8e7f6b157505f299c470331a",
+    "crop_sha256": "34e774e23c3e68033c2e1d4a1d4b8008c17a7e31e4851d1d20d6c73b9ee01cec",
+    "person_xyxy": [
+      610,
+      160,
+      783,
+      360
+    ],
+    "context_xyxy": [
+      550,
+      160,
+      790,
+      360
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-08.jpg"
+  },
+  {
+    "id": "G1-A06-F001",
+    "source_sha256": "309e7b997c15529987313ae7fb16b7547e275cb04bb5e9f103150d40847930d4",
+    "crop_sha256": "0caaf58d4180a76002af172b22cef46ea704174fd6fe1476da736d709b01c8ec",
+    "person_xyxy": [
+      859,
+      160,
+      1017,
+      330
+    ],
+    "context_xyxy": [
+      800,
+      120,
+      1030,
+      375
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-08.jpg"
+  },
+  {
+    "id": "G1-A06-F014",
+    "source_sha256": "4b55a9319dd1fa97b46e64c46de84718b4559e143923f534d147bee7db64c29b",
+    "crop_sha256": "fdc36314572511117b74d1f6b89df162e9ba235795ac34aa6f501aa6af9ca7af",
+    "person_xyxy": [
+      862,
+      160,
+      1026,
+      330
+    ],
+    "context_xyxy": [
+      800,
+      120,
+      1030,
+      375
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-08.jpg"
+  },
+  {
+    "id": "G1-A07-F016",
+    "source_sha256": "ea9e22f89f60d765f99681f8d4d01888f32036fe8e7f6b157505f299c470331a",
+    "crop_sha256": "d8b41dc51505b7803565a7ad9bf482608bae8cd829bc7beb0fea818a5805c9d0",
+    "person_xyxy": [
+      1570,
+      250,
+      1874,
+      528
+    ],
+    "context_xyxy": [
+      1570,
+      250,
+      1915,
+      610
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-09.jpg"
+  },
+  {
+    "id": "G1-A07-F040",
+    "source_sha256": "5810523f2f15aadc3f9ae1cf3b76460c5905c708b845f1c3725b66f705cf2073",
+    "crop_sha256": "8c12347fa7f5fc109a74e0c6ffc17f50f0608f14a2db44e41da6ee1cc9be36ea",
+    "person_xyxy": [
+      1570,
+      278,
+      1871,
+      556
+    ],
+    "context_xyxy": [
+      1570,
+      250,
+      1915,
+      610
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-09.jpg"
+  },
+  {
+    "id": "G2-A01-F001",
+    "source_sha256": "13fda9c360f02e2b41c3cbf257a1179699a10790f3e6c848f7071ca565dd1f73",
+    "crop_sha256": "a354653bf1ad16a65d2f5f975689b37e4797c64ae46234f15d51afbbcc28c066",
+    "person_xyxy": [
+      70,
+      311,
+      319,
+      511
+    ],
+    "context_xyxy": [
+      0,
+      240,
+      350,
+      525
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-09.jpg"
+  },
+  {
+    "id": "G2-A01-F214",
+    "source_sha256": "a95c158516e3e1cdd8f416d5504700b603d80ae34ab1d46da0eff4b623f77086",
+    "crop_sha256": "78506de798feb1f4e553d09b02414ab54f2eb4690060e5ab5c1e37b4af63e271",
+    "person_xyxy": [
+      3,
+      248,
+      319,
+      514
+    ],
+    "context_xyxy": [
+      0,
+      240,
+      350,
+      525
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-09.jpg"
+  },
+  {
+    "id": "G2-A02-F001",
+    "source_sha256": "13fda9c360f02e2b41c3cbf257a1179699a10790f3e6c848f7071ca565dd1f73",
+    "crop_sha256": "3737e543c431e62b64004faf6ee887255de20f9fc60951b5d64abecf0aadcaf3",
+    "person_xyxy": [
+      0,
+      124,
+      227,
+      354
+    ],
+    "context_xyxy": [
+      0,
+      85,
+      260,
+      365
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-09.jpg"
+  },
+  {
+    "id": "G2-A02-F005",
+    "source_sha256": "e33f62c9fea112bc33bec0e2394e2d80142a9f93b05e84c9e6a48c494cc94a75",
+    "crop_sha256": "a53ca6301ce03fd53de3f87e3dfb2a40593c5ce6e26d7ddc740144af3d8a11d2",
+    "person_xyxy": [
+      13,
+      124,
+      234,
+      349
+    ],
+    "context_xyxy": [
+      0,
+      85,
+      260,
+      365
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-09.jpg"
+  },
+  {
+    "id": "G2-A03-F001",
+    "source_sha256": "13fda9c360f02e2b41c3cbf257a1179699a10790f3e6c848f7071ca565dd1f73",
+    "crop_sha256": "8d95e825899a2dcb0b1b488f7b63d30506715a49bd03a0be53e87d1b0375d0c5",
+    "person_xyxy": [
+      296,
+      219,
+      506,
+      396
+    ],
+    "context_xyxy": [
+      280,
+      180,
+      510,
+      440
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-09.jpg"
+  },
+  {
+    "id": "G2-A03-F099",
+    "source_sha256": "402472473beb69d97675db3c4400ce1e649d1f70a4e20aa6201ef5300c5ada13",
+    "crop_sha256": "ea7193b32dd372c6d2762f038d022f31d4be22bb252490496657e4f63db1d165",
+    "person_xyxy": [
+      307,
+      224,
+      506,
+      412
+    ],
+    "context_xyxy": [
+      280,
+      180,
+      510,
+      440
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-09.jpg"
+  },
+  {
+    "id": "G2-A04-F017",
+    "source_sha256": "f93eb31fb0279c543a79b4975a82dfe7c6ccd525b2ee858044c2caf60fe99730",
+    "crop_sha256": "a1ffe802a4aa780e09c2eb777e8b0eb5b5f4591904f09b584c87031516e92dd6",
+    "person_xyxy": [
+      249,
+      102,
+      416,
+      300
+    ],
+    "context_xyxy": [
+      220,
+      65,
+      430,
+      300
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-09.jpg"
+  },
+  {
+    "id": "G2-A04-F143",
+    "source_sha256": "a2363bd89b0510c621a546315f3486a1ec635af3f4d57a06ce1dc62498493d44",
+    "crop_sha256": "40279f47b3867e70120289bb29a1ddb1ef0a4c7cf48de6d116b328c5299c63bd",
+    "person_xyxy": [
+      220,
+      93,
+      422,
+      296
+    ],
+    "context_xyxy": [
+      220,
+      65,
+      430,
+      300
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-09.jpg"
+  },
+  {
+    "id": "G2-A06-F001",
+    "source_sha256": "13fda9c360f02e2b41c3cbf257a1179699a10790f3e6c848f7071ca565dd1f73",
+    "crop_sha256": "b8f04fd582378951c9b0ed962ddb3fde08649102ea6e41e4aeba15230d1a8d8a",
+    "person_xyxy": [
+      652,
+      171,
+      819,
+      365
+    ],
+    "context_xyxy": [
+      640,
+      110,
+      850,
+      390
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-09.jpg"
+  },
+  {
+    "id": "G2-A06-F149",
+    "source_sha256": "627e4fa528a76412faad520d01b06150cf07f09070a49ab95f31ff5824bfcff6",
+    "crop_sha256": "6fb8112edabc5538ed50cc32879a455e27da06668174031f0ef6a322d9ae2b34",
+    "person_xyxy": [
+      661,
+      129,
+      840,
+      379
+    ],
+    "context_xyxy": [
+      640,
+      110,
+      850,
+      390
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-09.jpg"
+  },
+  {
+    "id": "G2-A07-F001",
+    "source_sha256": "13fda9c360f02e2b41c3cbf257a1179699a10790f3e6c848f7071ca565dd1f73",
+    "crop_sha256": "433c7b99235afd4b49c509c01f64244bd6f6d22645bad3a03eee196ead27d2b0",
+    "person_xyxy": [
+      740,
+      290,
+      949,
+      486
+    ],
+    "context_xyxy": [
+      740,
+      290,
+      980,
+      510
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-09.jpg"
+  },
+  {
+    "id": "G2-A07-F204",
+    "source_sha256": "ddcccb7927d3640ee87934d85ca4d49953e7c59af9e264717c5f3134b3b08fd3",
+    "crop_sha256": "4f3ef72fb98b40790d8008ac95b486aa81fae384930a59d04d1d49b98219a8eb",
+    "person_xyxy": [
+      759,
+      290,
+      971,
+      504
+    ],
+    "context_xyxy": [
+      740,
+      290,
+      980,
+      510
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-09.jpg"
+  },
+  {
+    "id": "G2-A08-F001",
+    "source_sha256": "13fda9c360f02e2b41c3cbf257a1179699a10790f3e6c848f7071ca565dd1f73",
+    "crop_sha256": "278f1b2f3127995f367878cf5d1a9cb4089b11eb102cab92d8688bbf07484952",
+    "person_xyxy": [
+      880,
+      270,
+      1046,
+      403
+    ],
+    "context_xyxy": [
+      880,
+      160,
+      1080,
+      430
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-09.jpg"
+  },
+  {
+    "id": "G2-A08-F023",
+    "source_sha256": "5eb96d19f3379d681cfbe213c5579b0c00c5826a42c81ecdfa4896b0539ff5d4",
+    "crop_sha256": "7cc41e088e6db3b130e306cf5d961d0825f6cfe093b428aa7dc3947d789cac26",
+    "person_xyxy": [
+      896,
+      208,
+      1058,
+      409
+    ],
+    "context_xyxy": [
+      880,
+      160,
+      1080,
+      430
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-09.jpg"
+  },
+  {
+    "id": "G2-A09-F001",
+    "source_sha256": "13fda9c360f02e2b41c3cbf257a1179699a10790f3e6c848f7071ca565dd1f73",
+    "crop_sha256": "e544c3bebccfacec0cc5921c20d6840c50a7731a6fc03dad48abd84cc01ec3ca",
+    "person_xyxy": [
+      1045,
+      235,
+      1226,
+      433
+    ],
+    "context_xyxy": [
+      1000,
+      170,
+      1240,
+      455
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-09.jpg"
+  },
+  {
+    "id": "G2-A09-F041",
+    "source_sha256": "7ef740b01f6a1580ea0108cea6534a7d9ab407e9b8901c69ee6b8a7162c16509",
+    "crop_sha256": "2299b765d100e3fb7d0a8b666960d7104756c86a9c94d23b9244cc51fc1adb17",
+    "person_xyxy": [
+      1028,
+      201,
+      1214,
+      433
+    ],
+    "context_xyxy": [
+      1000,
+      170,
+      1240,
+      455
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-09.jpg"
+  },
+  {
+    "id": "G2-A10-F001",
+    "source_sha256": "13fda9c360f02e2b41c3cbf257a1179699a10790f3e6c848f7071ca565dd1f73",
+    "crop_sha256": "6cdb16fbd0a2ab4b663acf9dd374993fac32e2455dbb1b7dec6a6a3ce08b4f8b",
+    "person_xyxy": [
+      1236,
+      145,
+      1376,
+      294
+    ],
+    "context_xyxy": [
+      1210,
+      85,
+      1410,
+      325
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-09.jpg"
+  },
+  {
+    "id": "G2-A10-F029",
+    "source_sha256": "c6e3c39931f8b9cba968e004a230744c8eaf5c57ca36cf4b92d7b5b45a7bc2e5",
+    "crop_sha256": "52e4ab74654710713ba1e1b94bd55df6212bde68dcc425e2c5ca487c41eab9b1",
+    "person_xyxy": [
+      1240,
+      101,
+      1390,
+      299
+    ],
+    "context_xyxy": [
+      1210,
+      85,
+      1410,
+      325
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-09.jpg"
+  },
+  {
+    "id": "G2-A11-F001",
+    "source_sha256": "13fda9c360f02e2b41c3cbf257a1179699a10790f3e6c848f7071ca565dd1f73",
+    "crop_sha256": "10310c027710289b2023fbca4ec5e2c2dc5d59ccef7dea8c3c12c4f7833a17d2",
+    "person_xyxy": [
+      1680,
+      300,
+      1920,
+      551
+    ],
+    "context_xyxy": [
+      1680,
+      300,
+      1920,
+      585
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-10.jpg"
+  },
+  {
+    "id": "G2-A11-F029",
+    "source_sha256": "c6e3c39931f8b9cba968e004a230744c8eaf5c57ca36cf4b92d7b5b45a7bc2e5",
+    "crop_sha256": "adf67ea6b5518f153b3a29d737039b3bd8fba47b23f0620a970fdfc4f1dee1de",
+    "person_xyxy": [
+      1680,
+      300,
+      1901,
+      543
+    ],
+    "context_xyxy": [
+      1680,
+      300,
+      1920,
+      585
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-10.jpg"
+  },
+  {
+    "id": "G2-A12-F005",
+    "source_sha256": "e33f62c9fea112bc33bec0e2394e2d80142a9f93b05e84c9e6a48c494cc94a75",
+    "crop_sha256": "db82bad965e41a610e2c73aae591a935cd29c5e1ad03b2b6f32fcda1b62f6622",
+    "person_xyxy": [
+      960,
+      570,
+      1356,
+      1080
+    ],
+    "context_xyxy": [
+      960,
+      570,
+      1400,
+      1080
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-10.jpg"
+  },
+  {
+    "id": "G2-A12-F061",
+    "source_sha256": "b1d14a5c43093287142d37356f46756f588f82ed6e057f148e03e2842c3d95f4",
+    "crop_sha256": "6c001a4ecea2ecf82fecb6461d628d38b4fa771f5d1becef451bafee07cd5618",
+    "person_xyxy": [
+      977,
+      621,
+      1374,
+      1080
+    ],
+    "context_xyxy": [
+      960,
+      570,
+      1400,
+      1080
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-10.jpg"
+  },
+  {
+    "id": "G2-A13-F001",
+    "source_sha256": "13fda9c360f02e2b41c3cbf257a1179699a10790f3e6c848f7071ca565dd1f73",
+    "crop_sha256": "1faad9c52874905e23757935cdb6c74bd2c88b9241694acaab4114b897c30239",
+    "person_xyxy": [
+      1455,
+      331,
+      1712,
+      706
+    ],
+    "context_xyxy": [
+      1430,
+      280,
+      1750,
+      710
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-10.jpg"
+  },
+  {
+    "id": "G2-A13-F003",
+    "source_sha256": "5c85180f29fc44e3f7e9b51838b886167cbab1a29ebe0568a46ec6eee559638c",
+    "crop_sha256": "93e8d297a3a4eccd850fb02ae3170bfdcd37349c0c28e3a971ace14d70837084",
+    "person_xyxy": [
+      1468,
+      301,
+      1712,
+      710
+    ],
+    "context_xyxy": [
+      1430,
+      280,
+      1750,
+      710
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-10.jpg"
+  },
+  {
+    "id": "G2-A13-F112",
+    "source_sha256": "45cf2d4b1cf39d7fce5afc0115355832055674c98832ce025d2eb351c5589af5",
+    "crop_sha256": "e7b9120f66463b05fbdaa454931382a1ca140bafdd578ef23c119b91d67f7181",
+    "person_xyxy": [
+      1430,
+      280,
+      1638,
+      655
+    ],
+    "context_xyxy": [
+      1430,
+      280,
+      1750,
+      710
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-10.jpg"
+  },
+  {
+    "id": "G5-A01-F001",
+    "source_sha256": "01c2e62969f999adc3e03a44f79e050ce07688d5d26c8c0a21711dad1e8a7623",
+    "crop_sha256": "a36b5816fe3197f29798696ebb2876709c8073fac7b8d73c9e239a42d71ae942",
+    "person_xyxy": [
+      90,
+      160,
+      330,
+      305
+    ],
+    "context_xyxy": [
+      80,
+      160,
+      330,
+      410
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-10.jpg"
+  },
+  {
+    "id": "G5-A01-F109",
+    "source_sha256": "f30206a9894c93d9e31d3ef6ef6c613d45e5e42c23e1904de0cc8b59824dfa19",
+    "crop_sha256": "9d6e1acc1d1fb74f5a1df28ec8ebaa5de6b003a6cfb7c0d781fbc2861e2fdde3",
+    "person_xyxy": [
+      146,
+      30,
+      385,
+      290
+    ],
+    "context_xyxy": [
+      120,
+      20,
+      385,
+      290
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-10.jpg"
+  },
+  {
+    "id": "G5-A02-F001",
+    "source_sha256": "01c2e62969f999adc3e03a44f79e050ce07688d5d26c8c0a21711dad1e8a7623",
+    "crop_sha256": "24022794af601dd28ad13fc78a7d195d3745480f4ef8a1e3c083781d5d72579b",
+    "person_xyxy": [
+      320,
+      110,
+      525,
+      350
+    ],
+    "context_xyxy": [
+      320,
+      100,
+      570,
+      350
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-10.jpg"
+  },
+  {
+    "id": "G5-A02-F109",
+    "source_sha256": "f30206a9894c93d9e31d3ef6ef6c613d45e5e42c23e1904de0cc8b59824dfa19",
+    "crop_sha256": "57102c89cb9051ae993d449e262bb0d9ba4fa588d2bfc4f0961ee352c52e3102",
+    "person_xyxy": [
+      395,
+      65,
+      580,
+      340
+    ],
+    "context_xyxy": [
+      370,
+      65,
+      580,
+      340
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-10.jpg"
+  },
+  {
+    "id": "G5-A03-F099",
+    "source_sha256": "f4418c22ff635e63f0e18d62db62fbe785854224fd6dca2de9a6a9ff903aab13",
+    "crop_sha256": "3c3db84f49a50fed4a4725bd5fd77b3eda83db5561c9e608059adddbc0001ca3",
+    "person_xyxy": [
+      475,
+      0,
+      595,
+      201
+    ],
+    "context_xyxy": [
+      420,
+      0,
+      610,
+      225
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-10.jpg"
+  },
+  {
+    "id": "G5-A04-F001",
+    "source_sha256": "01c2e62969f999adc3e03a44f79e050ce07688d5d26c8c0a21711dad1e8a7623",
+    "crop_sha256": "b8cee992d50d6523cbaf0f297224d399907fb3345b7f3a6727009e09aeb16684",
+    "person_xyxy": [
+      561,
+      70,
+      710,
+      227
+    ],
+    "context_xyxy": [
+      520,
+      70,
+      740,
+      290
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-10.jpg"
+  },
+  {
+    "id": "G5-A04-F097",
+    "source_sha256": "ff6cd23cbf56178086b0a9dc034b2a93118edbf659d4669317c2e1b34ab65950",
+    "crop_sha256": "b366cb6a360333c4e8a265d05b7366a5dd172520dfadc63f1bd78c597f08fb31",
+    "person_xyxy": [
+      569,
+      12,
+      720,
+      212
+    ],
+    "context_xyxy": [
+      550,
+      0,
+      740,
+      255
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-10.jpg"
+  },
+  {
+    "id": "G5-A05-F001",
+    "source_sha256": "01c2e62969f999adc3e03a44f79e050ce07688d5d26c8c0a21711dad1e8a7623",
+    "crop_sha256": "214f86323bcab55e0932b4191728e55fbd818a0d4850980abeb40159cc16820f",
+    "person_xyxy": [
+      626,
+      21,
+      777,
+      179
+    ],
+    "context_xyxy": [
+      620,
+      0,
+      850,
+      210
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-10.jpg"
+  },
+  {
+    "id": "G5-A07-F001",
+    "source_sha256": "01c2e62969f999adc3e03a44f79e050ce07688d5d26c8c0a21711dad1e8a7623",
+    "crop_sha256": "2527bd7cd7fc212f391ab1c185052ef966d5dfa95ca0e2fd0bd9ff7f64756007",
+    "person_xyxy": [
+      1188,
+      43,
+      1368,
+      300
+    ],
+    "context_xyxy": [
+      1160,
+      30,
+      1440,
+      300
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-10.jpg"
+  },
+  {
+    "id": "G5-A07-F112",
+    "source_sha256": "a41be1ea0437279bf64437f205b40773c93f8193d7a97bc63afb510d281d3510",
+    "crop_sha256": "676a9edb244db06a9208b94f40c68a9b8166bc1af233b41c02b364a357d413ff",
+    "person_xyxy": [
+      1213,
+      35,
+      1410,
+      300
+    ],
+    "context_xyxy": [
+      1160,
+      30,
+      1440,
+      300
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-10.jpg"
+  },
+  {
+    "id": "G5-A08-F099",
+    "source_sha256": "f4418c22ff635e63f0e18d62db62fbe785854224fd6dca2de9a6a9ff903aab13",
+    "crop_sha256": "08be15d9bdb182ff03ac8dea97a137f6434e8e09ed06771e467f8979214c76df",
+    "person_xyxy": [
+      1430,
+      75,
+      1680,
+      346
+    ],
+    "context_xyxy": [
+      1420,
+      75,
+      1680,
+      390
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-10.jpg"
+  },
+  {
+    "id": "G5-A09-F047",
+    "source_sha256": "08bff4e45c619da1177c77aee9c76e1e3c7405ee27d78da945eb816e042f5a14",
+    "crop_sha256": "9a598273052b14c85745d7d50f84bd709ccaa8fff20ac4f8704e0599212ab219",
+    "person_xyxy": [
+      557,
+      329,
+      960,
+      771
+    ],
+    "context_xyxy": [
+      300,
+      310,
+      960,
+      800
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-10.jpg"
+  },
+  {
+    "id": "G5-A09-F065",
+    "source_sha256": "3e198ff907ae6d75ddcabda04b48d9ff75425e26e2734609a84e652ec3a49035",
+    "crop_sha256": "63c42256d6d3c7332c18f76f5a061ee90afd2d14b17a65e2fd62e690a3ff6549",
+    "person_xyxy": [
+      537,
+      334,
+      960,
+      800
+    ],
+    "context_xyxy": [
+      300,
+      310,
+      960,
+      800
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-10.jpg"
+  },
+  {
+    "id": "G5-A10-F065",
+    "source_sha256": "3e198ff907ae6d75ddcabda04b48d9ff75425e26e2734609a84e652ec3a49035",
+    "crop_sha256": "c4183c9fc4e1995743a443a7723132df0f4b96caba9a23bf8353ecd0e7f816a0",
+    "person_xyxy": [
+      0,
+      265,
+      333,
+      745
+    ],
+    "context_xyxy": [
+      0,
+      245,
+      350,
+      745
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-11.jpg"
+  },
+  {
+    "id": "G5-A11-F047",
+    "source_sha256": "08bff4e45c619da1177c77aee9c76e1e3c7405ee27d78da945eb816e042f5a14",
+    "crop_sha256": "2fa0bb109886c166fdf93486728ac8ca991b378ea28eb8e6a443f1d32a6c2d99",
+    "person_xyxy": [
+      687,
+      103,
+      860,
+      305
+    ],
+    "context_xyxy": [
+      620,
+      65,
+      880,
+      340
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-11.jpg"
+  },
+  {
+    "id": "G5-A12-F047",
+    "source_sha256": "08bff4e45c619da1177c77aee9c76e1e3c7405ee27d78da945eb816e042f5a14",
+    "crop_sha256": "c058c7eca9f5843e4c9503077801aba3697138785369498d253469546f8ae487",
+    "person_xyxy": [
+      305,
+      111,
+      550,
+      387
+    ],
+    "context_xyxy": [
+      290,
+      80,
+      550,
+      390
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-11.jpg"
+  },
+  {
+    "id": "G5-A12-F065",
+    "source_sha256": "3e198ff907ae6d75ddcabda04b48d9ff75425e26e2734609a84e652ec3a49035",
+    "crop_sha256": "91a8aeb60951965aae6ac52ff171344f2356abf28ad47acc6d057afa4a3d00d6",
+    "person_xyxy": [
+      331,
+      111,
+      543,
+      353
+    ],
+    "context_xyxy": [
+      290,
+      80,
+      550,
+      390
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-11.jpg"
+  },
+  {
+    "id": "G5-A13-F047",
+    "source_sha256": "08bff4e45c619da1177c77aee9c76e1e3c7405ee27d78da945eb816e042f5a14",
+    "crop_sha256": "6d985d1078a9fe01e45c152d86efb8d0b7e60a7de85bdad4cba7b5bdaf625b8c",
+    "person_xyxy": [
+      1528,
+      0,
+      1697,
+      142
+    ],
+    "context_xyxy": [
+      1510,
+      0,
+      1720,
+      170
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-11.jpg"
+  },
+  {
+    "id": "G4-A01-F001",
+    "source_sha256": "5f2771eb249160d00533f007082a0b0addcdc6388334ad5b962d21e8c524542e",
+    "crop_sha256": "3dbbd211775e02f42a47d8281571ffb5a488099c4d937a0761cf08fd0096ca5b",
+    "person_xyxy": [
+      295,
+      374,
+      423,
+      519
+    ],
+    "context_xyxy": [
+      280,
+      355,
+      450,
+      550
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-11.jpg"
+  },
+  {
+    "id": "G4-A01-F125",
+    "source_sha256": "ff0a0d32f79ade21586a153f40558e0687c3833c62fb79daa17d404eaa686f64",
+    "crop_sha256": "60b615fc09827ba29fd7ee2c3d346d747811b775dc4baef2e86354a4bb5a0352",
+    "person_xyxy": [
+      280,
+      364,
+      398,
+      521
+    ],
+    "context_xyxy": [
+      280,
+      355,
+      450,
+      550
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-11.jpg"
+  },
+  {
+    "id": "G4-A02-F001",
+    "source_sha256": "5f2771eb249160d00533f007082a0b0addcdc6388334ad5b962d21e8c524542e",
+    "crop_sha256": "e16164534cc289065adf090acdbade67a8f651710f0fabf0d29e1a76fb37f422",
+    "person_xyxy": [
+      238,
+      275,
+      362,
+      443
+    ],
+    "context_xyxy": [
+      220,
+      275,
+      375,
+      475
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-11.jpg"
+  },
+  {
+    "id": "G4-A02-F105",
+    "source_sha256": "3b0007228993b2765fc83142d3eb0d824ccdca6bc7181bd824af6e59eb9c906b",
+    "crop_sha256": "302858b220d8b6773198ac91b5e60bcc4403454579cab99538c4bd43bca811e8",
+    "person_xyxy": [
+      240,
+      287,
+      355,
+      425
+    ],
+    "context_xyxy": [
+      220,
+      275,
+      375,
+      475
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-11.jpg"
+  },
+  {
+    "id": "G4-A02-F125",
+    "source_sha256": "ff0a0d32f79ade21586a153f40558e0687c3833c62fb79daa17d404eaa686f64",
+    "crop_sha256": "1764e4757e82114d0199ffe08782c06c294186bf784e186f22e7491ba1715342",
+    "person_xyxy": [
+      221,
+      275,
+      348,
+      427
+    ],
+    "context_xyxy": [
+      220,
+      275,
+      375,
+      475
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-11.jpg"
+  },
+  {
+    "id": "G4-A03-F105",
+    "source_sha256": "3b0007228993b2765fc83142d3eb0d824ccdca6bc7181bd824af6e59eb9c906b",
+    "crop_sha256": "33072df50cdfc46b799ee22adb014d5f941c5e8215104256783518ef744fddf4",
+    "person_xyxy": [
+      543,
+      227,
+      653,
+      400
+    ],
+    "context_xyxy": [
+      480,
+      215,
+      685,
+      400
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-11.jpg"
+  },
+  {
+    "id": "G4-A03-F125",
+    "source_sha256": "ff0a0d32f79ade21586a153f40558e0687c3833c62fb79daa17d404eaa686f64",
+    "crop_sha256": "3ac20a988c6c96f95b50cb08cad4f6de0bd28fcf2eccb03ae4d0c3068db287eb",
+    "person_xyxy": [
+      545,
+      224,
+      673,
+      400
+    ],
+    "context_xyxy": [
+      480,
+      215,
+      685,
+      400
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-11.jpg"
+  },
+  {
+    "id": "G4-A04-F001",
+    "source_sha256": "5f2771eb249160d00533f007082a0b0addcdc6388334ad5b962d21e8c524542e",
+    "crop_sha256": "d5057ea27e454f36ab5bb467aeb6f6436f1241ee719178704bfb43e3b7636da2",
+    "person_xyxy": [
+      695,
+      218,
+      820,
+      343
+    ],
+    "context_xyxy": [
+      645,
+      175,
+      825,
+      365
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-11.jpg"
+  },
+  {
+    "id": "G4-A04-F125",
+    "source_sha256": "ff0a0d32f79ade21586a153f40558e0687c3833c62fb79daa17d404eaa686f64",
+    "crop_sha256": "584d3a36eb683c10db2fdbe9aaac03b3ec733aa934b12d2c9ee6d4d2809ba25f",
+    "person_xyxy": [
+      673,
+      201,
+      800,
+      365
+    ],
+    "context_xyxy": [
+      645,
+      175,
+      825,
+      365
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-11.jpg"
+  },
+  {
+    "id": "G4-A05-F001",
+    "source_sha256": "5f2771eb249160d00533f007082a0b0addcdc6388334ad5b962d21e8c524542e",
+    "crop_sha256": "57fd73c4eede6e069bcce557e4e2c0d48a17f2bef6d8807a06d787dbddb88a7e",
+    "person_xyxy": [
+      662,
+      305,
+      806,
+      470
+    ],
+    "context_xyxy": [
+      620,
+      265,
+      820,
+      490
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-11.jpg"
+  },
+  {
+    "id": "G4-A05-F125",
+    "source_sha256": "ff0a0d32f79ade21586a153f40558e0687c3833c62fb79daa17d404eaa686f64",
+    "crop_sha256": "0881bf4724a91c5a21fe76ce0c7a250e6ff22afc251dd6b9af45f3bf0d6d7938",
+    "person_xyxy": [
+      620,
+      312,
+      758,
+      488
+    ],
+    "context_xyxy": [
+      620,
+      265,
+      820,
+      490
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-11.jpg"
+  },
+  {
+    "id": "G4-A06-F001",
+    "source_sha256": "5f2771eb249160d00533f007082a0b0addcdc6388334ad5b962d21e8c524542e",
+    "crop_sha256": "34b8fc5b0dc06a7f92d5abcb152fe3db6d0e3b784e5a31f5f931f06b66e61807",
+    "person_xyxy": [
+      1171,
+      173,
+      1285,
+      348
+    ],
+    "context_xyxy": [
+      1140,
+      145,
+      1350,
+      350
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-11.jpg"
+  },
+  {
+    "id": "G4-A06-F105",
+    "source_sha256": "3b0007228993b2765fc83142d3eb0d824ccdca6bc7181bd824af6e59eb9c906b",
+    "crop_sha256": "69e0a90bfaaa52b70a118bb29e85858a8211c5603baf6c54cd357931446b10c1",
+    "person_xyxy": [
+      1167,
+      171,
+      1290,
+      350
+    ],
+    "context_xyxy": [
+      1140,
+      145,
+      1350,
+      350
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-11.jpg"
+  },
+  {
+    "id": "G4-A06-F125",
+    "source_sha256": "ff0a0d32f79ade21586a153f40558e0687c3833c62fb79daa17d404eaa686f64",
+    "crop_sha256": "9a858e95d2f5b367bb28b7e6d643b9739613456077a9b3aa613cda701e4918e1",
+    "person_xyxy": [
+      1169,
+      175,
+      1315,
+      350
+    ],
+    "context_xyxy": [
+      1140,
+      145,
+      1350,
+      350
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-11.jpg"
+  },
+  {
+    "id": "G4-A07-F001",
+    "source_sha256": "5f2771eb249160d00533f007082a0b0addcdc6388334ad5b962d21e8c524542e",
+    "crop_sha256": "487d40bb12dc861c8e410c3136e59cb52aad7e68381ad0d67d022b1ac77fecff",
+    "person_xyxy": [
+      1377,
+      231,
+      1500,
+      410
+    ],
+    "context_xyxy": [
+      1350,
+      200,
+      1535,
+      410
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-11.jpg"
+  },
+  {
+    "id": "G4-A07-F125",
+    "source_sha256": "ff0a0d32f79ade21586a153f40558e0687c3833c62fb79daa17d404eaa686f64",
+    "crop_sha256": "3c5884d51bbc95df4cab6f097c18d8ceed054b13d35bb1b7ea08b439a63cc817",
+    "person_xyxy": [
+      1350,
+      227,
+      1473,
+      410
+    ],
+    "context_xyxy": [
+      1350,
+      200,
+      1535,
+      410
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-12.jpg"
+  },
+  {
+    "id": "G4-A08-F105",
+    "source_sha256": "3b0007228993b2765fc83142d3eb0d824ccdca6bc7181bd824af6e59eb9c906b",
+    "crop_sha256": "3e162a855c0106e654669726861be773586bc8546c2247607bbf6610ed02ab45",
+    "person_xyxy": [
+      1505,
+      200,
+      1614,
+      328
+    ],
+    "context_xyxy": [
+      1500,
+      200,
+      1690,
+      375
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-12.jpg"
+  },
+  {
+    "id": "G4-A08-F125",
+    "source_sha256": "ff0a0d32f79ade21586a153f40558e0687c3833c62fb79daa17d404eaa686f64",
+    "crop_sha256": "9f6b750928550fae4a51a02942d6ab1fd372ff7bbc653e57ae2037037abbb2be",
+    "person_xyxy": [
+      1500,
+      200,
+      1611,
+      330
+    ],
+    "context_xyxy": [
+      1500,
+      200,
+      1690,
+      375
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-12.jpg"
+  },
+  {
+    "id": "G3-A01-F001",
+    "source_sha256": "fa4802d75501cd18bd4197db93d06e8919a11c451196c4ac59e83bcab46837fd",
+    "crop_sha256": "8498cb35ace1e584d2dafbf454d74962a7dcbf7387008a1115341b67577ad9c1",
+    "person_xyxy": [
+      147,
+      160,
+      258,
+      286
+    ],
+    "context_xyxy": [
+      140,
+      145,
+      280,
+      295
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-12.jpg"
+  },
+  {
+    "id": "G3-A01-F014",
+    "source_sha256": "e10d642b899a417d7b688ee1ea8919d841fd6c10df9b355aee1e84b633882350",
+    "crop_sha256": "5fda9884ac4bccad1a9285ccdb0191a9cd9070f21f4cb84161cded95ff75d22e",
+    "person_xyxy": [
+      159,
+      151,
+      251,
+      295
+    ],
+    "context_xyxy": [
+      140,
+      145,
+      280,
+      295
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-12.jpg"
+  },
+  {
+    "id": "G3-A02-F001",
+    "source_sha256": "fa4802d75501cd18bd4197db93d06e8919a11c451196c4ac59e83bcab46837fd",
+    "crop_sha256": "4a76695652870f54461e785cbcb38f15309e50eb1e930252f68fbfbbb7740dd8",
+    "person_xyxy": [
+      288,
+      149,
+      362,
+      245
+    ],
+    "context_xyxy": [
+      280,
+      140,
+      390,
+      260
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-12.jpg"
+  },
+  {
+    "id": "G3-A03-F001",
+    "source_sha256": "fa4802d75501cd18bd4197db93d06e8919a11c451196c4ac59e83bcab46837fd",
+    "crop_sha256": "b8d3c2a42127e9a7b0627f1a50c6da0e3da5c8d731d44d5430845dc75ca1b901",
+    "person_xyxy": [
+      382,
+      135,
+      476,
+      242
+    ],
+    "context_xyxy": [
+      380,
+      125,
+      480,
+      260
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-12.jpg"
+  },
+  {
+    "id": "G3-A04-F014",
+    "source_sha256": "e10d642b899a417d7b688ee1ea8919d841fd6c10df9b355aee1e84b633882350",
+    "crop_sha256": "36487a9ead98d857672cd11cfd3a64e6e0f9e13065471fb75bf897faa6270ed4",
+    "person_xyxy": [
+      475,
+      122,
+      544,
+      221
+    ],
+    "context_xyxy": [
+      475,
+      110,
+      570,
+      245
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-12.jpg"
+  },
+  {
+    "id": "G3-A06-F001",
+    "source_sha256": "fa4802d75501cd18bd4197db93d06e8919a11c451196c4ac59e83bcab46837fd",
+    "crop_sha256": "d8c6869af94cd52336fd391b0a72150a5e605ff3b4e3006fa72ad5c4c9126f24",
+    "person_xyxy": [
+      446,
+      200,
+      548,
+      325
+    ],
+    "context_xyxy": [
+      440,
+      195,
+      560,
+      330
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-12.jpg"
+  },
+  {
+    "id": "G3-A06-F003",
+    "source_sha256": "c9bbe250dd6c1e5ab9ccc810c48be51f503b7daf5dd89beed29c818473af9cdb",
+    "crop_sha256": "ce8d13860f073ef3843465d4b14160f6f063b968855a8cc7929a1f132355375f",
+    "person_xyxy": [
+      443,
+      196,
+      547,
+      330
+    ],
+    "context_xyxy": [
+      440,
+      195,
+      560,
+      330
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-12.jpg"
+  },
+  {
+    "id": "G3-A07-F001",
+    "source_sha256": "fa4802d75501cd18bd4197db93d06e8919a11c451196c4ac59e83bcab46837fd",
+    "crop_sha256": "2e8e1934561d09dcf9b9f566705319c1f0e00bc2e134c96e5fd983370b2edad0",
+    "person_xyxy": [
+      550,
+      190,
+      636,
+      293
+    ],
+    "context_xyxy": [
+      550,
+      190,
+      660,
+      325
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-12.jpg"
+  },
+  {
+    "id": "G3-A07-F014",
+    "source_sha256": "e10d642b899a417d7b688ee1ea8919d841fd6c10df9b355aee1e84b633882350",
+    "crop_sha256": "06d7ce36dfde2e691d8c6e77bf68a3d0d33d299a4df60196440e2fcdefbd74f6",
+    "person_xyxy": [
+      552,
+      190,
+      631,
+      307
+    ],
+    "context_xyxy": [
+      550,
+      190,
+      660,
+      325
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-12.jpg"
+  },
+  {
+    "id": "G3-A08-F001",
+    "source_sha256": "fa4802d75501cd18bd4197db93d06e8919a11c451196c4ac59e83bcab46837fd",
+    "crop_sha256": "06ed27445d840c0cef9a183371a9d5b596e972c699043793c5046caab74c6ab9",
+    "person_xyxy": [
+      155,
+      265,
+      306,
+      389
+    ],
+    "context_xyxy": [
+      155,
+      215,
+      315,
+      390
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-12.jpg"
+  },
+  {
+    "id": "G3-A08-F021",
+    "source_sha256": "84433474e43e7589cc7a402c424a74eb9d2317915a2908616a5e16f82dd3efb7",
+    "crop_sha256": "feaa72fe237578692dc3faaefe361d7b69d0407d570fdd881a66ac775b14b340",
+    "person_xyxy": [
+      198,
+      232,
+      315,
+      375
+    ],
+    "context_xyxy": [
+      155,
+      215,
+      315,
+      390
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-12.jpg"
+  },
+  {
+    "id": "G3-A09-F001",
+    "source_sha256": "fa4802d75501cd18bd4197db93d06e8919a11c451196c4ac59e83bcab46837fd",
+    "crop_sha256": "09767b44ad82b6613fd6672233e3c4b20a09dc96b16759898a9e0b1c939b3dc8",
+    "person_xyxy": [
+      627,
+      130,
+      701,
+      240
+    ],
+    "context_xyxy": [
+      625,
+      125,
+      730,
+      240
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-12.jpg"
+  },
+  {
+    "id": "G3-A10-F001",
+    "source_sha256": "fa4802d75501cd18bd4197db93d06e8919a11c451196c4ac59e83bcab46837fd",
+    "crop_sha256": "ad95a9eeecf77c05b863c614ea45b7c83df37a73c3e80e4bb3b5fb1c3811223f",
+    "person_xyxy": [
+      749,
+      207,
+      823,
+      309
+    ],
+    "context_xyxy": [
+      735,
+      175,
+      845,
+      310
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-12.jpg"
+  },
+  {
+    "id": "CB-NEW-01",
+    "source_sha256": "5c85180f29fc44e3f7e9b51838b886167cbab1a29ebe0568a46ec6eee559638c",
+    "crop_sha256": "5004b23aee1ca539e8e48b56949014d7aad0447fa12b5a1b83a9cd258621ef04",
+    "person_xyxy": [
+      418,
+      351,
+      732,
+      630
+    ],
+    "context_xyxy": [
+      390,
+      330,
+      750,
+      630
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-12.jpg"
+  },
+  {
+    "id": "CB-NEW-02",
+    "source_sha256": "13fda9c360f02e2b41c3cbf257a1179699a10790f3e6c848f7071ca565dd1f73",
+    "crop_sha256": "58b22a3e2afdbe4958ef1c5501f5bd3521502f3ba10f036c8be334cd91649101",
+    "person_xyxy": [
+      408,
+      366,
+      750,
+      630
+    ],
+    "context_xyxy": [
+      390,
+      330,
+      750,
+      630
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-12.jpg"
+  },
+  {
+    "id": "CB-NEW-04",
+    "source_sha256": "f4d6d811bf85dc964f16dfcbbf3bd2d711b93565aa90ba602dc21acfaa231879",
+    "crop_sha256": "13ac80c39b6757dedf2a67e71169bef196885437474cc1607c41d0c173e285de",
+    "person_xyxy": [
+      457,
+      128,
+      695,
+      460
+    ],
+    "context_xyxy": [
+      430,
+      100,
+      700,
+      460
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-12.jpg"
+  },
+  {
+    "id": "CB-NEW-05",
+    "source_sha256": "29253bf90ed144c176255196da710677c76f1386a4a48b1f84799d8760028377",
+    "crop_sha256": "1e1d46984f6dd04648a6cfd1966226a88de184fdfcc45ddfa4a2e9e6b83d37e0",
+    "person_xyxy": [
+      287,
+      356,
+      428,
+      548
+    ],
+    "context_xyxy": [
+      280,
+      350,
+      435,
+      550
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-12.jpg"
+  },
+  {
+    "id": "NB-0001",
+    "source_sha256": "7afbbd830ee30b33ef0acc54f20e78bd6cbef01bf64935bedf7df474e207a332",
+    "crop_sha256": "f5c5a330f2d5c03d89217865951d0334ec2abdb98734d23c397a24863a0c37d2",
+    "person_xyxy": [
+      1160,
+      240,
+      1920,
+      959
+    ],
+    "context_xyxy": [
+      1085,
+      240,
+      1920,
+      1075
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-13.jpg"
+  },
+  {
+    "id": "NB-0002",
+    "source_sha256": "7afbbd830ee30b33ef0acc54f20e78bd6cbef01bf64935bedf7df474e207a332",
+    "crop_sha256": "07f54e74d897a1fd925a25e3c80ed5884887ee25e836674f3e10ef278e526aa7",
+    "person_xyxy": [
+      680,
+      28,
+      1277,
+      682
+    ],
+    "context_xyxy": [
+      616,
+      21,
+      1334,
+      739
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-13.jpg"
+  },
+  {
+    "id": "NB-0003",
+    "source_sha256": "b217d840bede51a96d476a409688de6b16ca027d0e74a81e164437afe4d7d10b",
+    "crop_sha256": "8798a163f035971250ff221ae9eade1ca034533a2e3d760f9407a7cfd16d3f1c",
+    "person_xyxy": [
+      624,
+      210,
+      1672,
+      1039
+    ],
+    "context_xyxy": [
+      624,
+      32,
+      1672,
+      1080
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-13.jpg"
+  },
+  {
+    "id": "NB-0004",
+    "source_sha256": "b217d840bede51a96d476a409688de6b16ca027d0e74a81e164437afe4d7d10b",
+    "crop_sha256": "5036a396c4c09e415c50436cc365683572b3ebacd37539451c27d7d6f2bd4ae7",
+    "person_xyxy": [
+      164,
+      0,
+      1035,
+      907
+    ],
+    "context_xyxy": [
+      128,
+      0,
+      1035,
+      907
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-13.jpg"
+  },
+  {
+    "id": "NB-0005",
+    "source_sha256": "b217d840bede51a96d476a409688de6b16ca027d0e74a81e164437afe4d7d10b",
+    "crop_sha256": "4dede529f62e0e0939ae019490fa9fb523035c6ed1d15807dc4d592e7bb85675",
+    "person_xyxy": [
+      1329,
+      0,
+      1869,
+      517
+    ],
+    "context_xyxy": [
+      1329,
+      0,
+      1903,
+      574
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-13.jpg"
+  },
+  {
+    "id": "NB-0006",
+    "source_sha256": "c1a5d47dc6e04b1c47a76a891536cc6059fed2ad67089204ce3dfbc44f0351cb",
+    "crop_sha256": "5b205873b9de78c08f2fc7faceefbea70f43606a849617ce610de548c8f9f014",
+    "person_xyxy": [
+      1043,
+      268,
+      1915,
+      1079
+    ],
+    "context_xyxy": [
+      1043,
+      207,
+      1915,
+      1079
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-13.jpg"
+  },
+  {
+    "id": "NB-0007",
+    "source_sha256": "c1a5d47dc6e04b1c47a76a891536cc6059fed2ad67089204ce3dfbc44f0351cb",
+    "crop_sha256": "766ff662602b3078ecc5cad0366a2bd76d5d4d798ada3e3c57e1e1d9809abee1",
+    "person_xyxy": [
+      740,
+      105,
+      1328,
+      747
+    ],
+    "context_xyxy": [
+      693,
+      99,
+      1375,
+      781
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-13.jpg"
+  },
+  {
+    "id": "NB-0008",
+    "source_sha256": "c1a5d47dc6e04b1c47a76a891536cc6059fed2ad67089204ce3dfbc44f0351cb",
+    "crop_sha256": "ccc5b10f13124bff5c8351bdc33dd1d4803f1b3219e8576ab9aebf2786730102",
+    "person_xyxy": [
+      363,
+      109,
+      828,
+      642
+    ],
+    "context_xyxy": [
+      348,
+      109,
+      881,
+      642
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-13.jpg"
+  },
+  {
+    "id": "NB-0009",
+    "source_sha256": "c1a5d47dc6e04b1c47a76a891536cc6059fed2ad67089204ce3dfbc44f0351cb",
+    "crop_sha256": "4ecf735a41bb5c950e1627047730b45f453bef15c7a21cd2744bb949bbbe1988",
+    "person_xyxy": [
+      108,
+      143,
+      490,
+      476
+    ],
+    "context_xyxy": [
+      86,
+      117,
+      529,
+      560
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-13.jpg"
+  },
+  {
+    "id": "NB-0010",
+    "source_sha256": "cf578114c85cf0070f848ee606f2c9620b47eb0a5fe689db2667f44f9978e461",
+    "crop_sha256": "df3a68679f620bc6d4759b4192cb704ab1f127e47b5a1288b5a0ea483f6ec59e",
+    "person_xyxy": [
+      0,
+      164,
+      821,
+      1071
+    ],
+    "context_xyxy": [
+      0,
+      126,
+      954,
+      1080
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-13.jpg"
+  },
+  {
+    "id": "NB-0011",
+    "source_sha256": "cf578114c85cf0070f848ee606f2c9620b47eb0a5fe689db2667f44f9978e461",
+    "crop_sha256": "b6f67769cbb3de4b3fe8a9e9f503cc05fba2894a41ab1404d4f26c08a34259f7",
+    "person_xyxy": [
+      796,
+      152,
+      1353,
+      709
+    ],
+    "context_xyxy": [
+      796,
+      152,
+      1353,
+      709
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-13.jpg"
+  },
+  {
+    "id": "NB-0013",
+    "source_sha256": "483f0e80ebd53441b9df179ff4ef893ace91a62baa986ad1d51ee6aa24367510",
+    "crop_sha256": "f4cea9b9c02e2c8de6d56a2cc85a5221c4f127e719b416462d35a31f07c1b69f",
+    "person_xyxy": [
+      810,
+      0,
+      1511,
+      783
+    ],
+    "context_xyxy": [
+      746,
+      0,
+      1667,
+      921
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-13.jpg"
+  },
+  {
+    "id": "NB-0015",
+    "source_sha256": "e1b9803689e05128019465c335c1e03d242ddb3736c5201efd1007b5bfe4f31b",
+    "crop_sha256": "e226163e2c9310a66f3e701a355c653c2dfd34b0e0ef7bacbb21acb1b2ca6fe3",
+    "person_xyxy": [
+      0,
+      0,
+      1019,
+      877
+    ],
+    "context_xyxy": [
+      0,
+      0,
+      1019,
+      1019
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-13.jpg"
+  },
+  {
+    "id": "NB-0016",
+    "source_sha256": "996bbd55b24843b8faaf62ba547b47a242fa86d8e065197c43c0b9f90ffdf03c",
+    "crop_sha256": "95a2d665183f13e53376f1db1ad34ce2fc8c561cc9752158e96b7a9c06005f0a",
+    "person_xyxy": [
+      637,
+      216,
+      1438,
+      1044
+    ],
+    "context_xyxy": [
+      574,
+      171,
+      1483,
+      1080
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-13.jpg"
+  },
+  {
+    "id": "NB-0017",
+    "source_sha256": "996bbd55b24843b8faaf62ba547b47a242fa86d8e065197c43c0b9f90ffdf03c",
+    "crop_sha256": "fd54a40a449eb38d6ffbece2036d0a1ee91ed0422ba5b1ea81d591dde5096578",
+    "person_xyxy": [
+      26,
+      66,
+      654,
+      675
+    ],
+    "context_xyxy": [
+      0,
+      34,
+      654,
+      688
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-13.jpg"
+  },
+  {
+    "id": "NB-0019",
+    "source_sha256": "a35dab238ee20904f16fb909d54af6d93bf84fe71a3c44f34d8957c984dff559",
+    "crop_sha256": "52c99752ae3e6d30ce18e658103cc9df1e6e71b35fd1bcfde5efc3509ff9f10e",
+    "person_xyxy": [
+      845,
+      0,
+      1499,
+      851
+    ],
+    "context_xyxy": [
+      794,
+      0,
+      1653,
+      859
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-13.jpg"
+  },
+  {
+    "id": "NB-0020",
+    "source_sha256": "228401ae0d8aa0cd78d66651ccb28953b42b9ce57d71670aecad8c640a7d7672",
+    "crop_sha256": "adc0af37df2f913bc8717730af09d5608d1656c80a61f763202ad530200b4006",
+    "person_xyxy": [
+      964,
+      358,
+      1519,
+      1042
+    ],
+    "context_xyxy": [
+      964,
+      358,
+      1648,
+      1042
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-13.jpg"
+  },
+  {
+    "id": "NB-0021",
+    "source_sha256": "228401ae0d8aa0cd78d66651ccb28953b42b9ce57d71670aecad8c640a7d7672",
+    "crop_sha256": "5fea7e0d8f7a77660804ae239fe0fdcea99ea805d0323dd43f69b98e0ac61535",
+    "person_xyxy": [
+      349,
+      490,
+      864,
+      1014
+    ],
+    "context_xyxy": [
+      341,
+      250,
+      1171,
+      1080
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-13.jpg"
+  },
+  {
+    "id": "NB-0022",
+    "source_sha256": "228401ae0d8aa0cd78d66651ccb28953b42b9ce57d71670aecad8c640a7d7672",
+    "crop_sha256": "d661f825e1d60a8b6604a6b913a93ef1e6f158a0d437af3b335cb9398c48e074",
+    "person_xyxy": [
+      561,
+      205,
+      961,
+      596
+    ],
+    "context_xyxy": [
+      557,
+      137,
+      1016,
+      596
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-13.jpg"
+  },
+  {
+    "id": "NB-0012-R1",
+    "source_sha256": "483f0e80ebd53441b9df179ff4ef893ace91a62baa986ad1d51ee6aa24367510",
+    "crop_sha256": "037d4505cb444be5a0bc49f963c5b4ac6c8dd6cb1f9cfb49b6d68de553ce42c6",
+    "person_xyxy": [
+      0,
+      20,
+      1290,
+      1080
+    ],
+    "context_xyxy": [
+      0,
+      20,
+      1290,
+      1080
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-13.jpg"
+  },
+  {
+    "id": "NB-0018-R1",
+    "source_sha256": "a35dab238ee20904f16fb909d54af6d93bf84fe71a3c44f34d8957c984dff559",
+    "crop_sha256": "f2a884b861f7840e046b351bcbf447170049cac564abcf14a65d5426a9a90ac0",
+    "person_xyxy": [
+      0,
+      0,
+      1300,
+      1080
+    ],
+    "context_xyxy": [
+      0,
+      0,
+      1300,
+      1080
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-14.jpg"
+  },
+  {
+    "id": "NA-001",
+    "source_sha256": "79e265d8c7d7a9dcaab516e9ae39985d23de4d754769e85a02e238f461439f6a",
+    "crop_sha256": "e4484cb1f8044805734afa6b4ff2b537afcac0d08afb2c1aec68d617b6acc314",
+    "person_xyxy": [
+      853,
+      201,
+      1210,
+      580
+    ],
+    "context_xyxy": [
+      825,
+      170,
+      1230,
+      620
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-14.jpg"
+  },
+  {
+    "id": "NA-002",
+    "source_sha256": "79e265d8c7d7a9dcaab516e9ae39985d23de4d754769e85a02e238f461439f6a",
+    "crop_sha256": "11312dd84fd3a6748b044eec4c1c90d6c1ac2c82b3ccf1c4ba93bd1eadcb0a03",
+    "person_xyxy": [
+      70,
+      373,
+      409,
+      751
+    ],
+    "context_xyxy": [
+      70,
+      350,
+      415,
+      810
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-14.jpg"
+  },
+  {
+    "id": "NA-003",
+    "source_sha256": "281ccad34ddaf7c68433ccc5d0ebd21a2e02fbcad301deb39c6ad321b4fe283f",
+    "crop_sha256": "44b889d9c475c7fb4619743147869e92076737ecf150d769d81c20c493a50312",
+    "person_xyxy": [
+      486,
+      254,
+      1765,
+      1080
+    ],
+    "context_xyxy": [
+      240,
+      220,
+      1780,
+      1080
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-14.jpg"
+  },
+  {
+    "id": "NA-004",
+    "source_sha256": "12aeb31a0c4d18846e34ac3ec3be7ef17d8ab2429aeb41672d32b49ed2e65a5b",
+    "crop_sha256": "01c375f9a6492cbbf3e8248d2c194907fed71daddeb4c32325a833f1deae8347",
+    "person_xyxy": [
+      898,
+      43,
+      1865,
+      929
+    ],
+    "context_xyxy": [
+      810,
+      0,
+      1920,
+      1080
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-14.jpg"
+  },
+  {
+    "id": "NA-005",
+    "source_sha256": "3d8a22e416fe589b29aeeb431fb50b0e3b0bebbb1884764a070ddfbc1292d8b1",
+    "crop_sha256": "201c323aadcd04249ab8f1f61fe09fac45477a40f2085416988cccc63c01cd64",
+    "person_xyxy": [
+      0,
+      32,
+      1162,
+      1080
+    ],
+    "context_xyxy": [
+      0,
+      0,
+      1320,
+      1080
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-14.jpg"
+  },
+  {
+    "id": "NA-006",
+    "source_sha256": "3d8a22e416fe589b29aeeb431fb50b0e3b0bebbb1884764a070ddfbc1292d8b1",
+    "crop_sha256": "71d82ff6643e4df8010170f37a78c159b5f51e3446f24a7e3ff3298b6b7cbca2",
+    "person_xyxy": [
+      816,
+      17,
+      1702,
+      860
+    ],
+    "context_xyxy": [
+      770,
+      0,
+      1920,
+      860
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-14.jpg"
+  },
+  {
+    "id": "NA-007",
+    "source_sha256": "996bbd55b24843b8faaf62ba547b47a242fa86d8e065197c43c0b9f90ffdf03c",
+    "crop_sha256": "0b4002357f64484022231ba5501c2bbb31e5897ffcea206e5f86bf37f41c172a",
+    "person_xyxy": [
+      1350,
+      0,
+      1826,
+      485
+    ],
+    "context_xyxy": [
+      1350,
+      0,
+      1840,
+      570
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-14.jpg"
+  },
+  {
+    "id": "NA-008",
+    "source_sha256": "5879945e3a533243b172e42defc6b983129fd8b37a7fec1ab60564ed46316b7f",
+    "crop_sha256": "594032d64d3d8901b5c541bf10b9c1d59f8ccbe0da113d1377159d08a2e1ccce",
+    "person_xyxy": [
+      508,
+      0,
+      1832,
+      1070
+    ],
+    "context_xyxy": [
+      450,
+      0,
+      1920,
+      1080
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-14.jpg"
+  },
+  {
+    "id": "NB-0023",
+    "source_sha256": "22509ff592152e14eddf5f89e4deb236d210297f4dfcf7b7b2b417217991b61f",
+    "crop_sha256": "433bf0ceacb379fa5a4b8e89e30c836bc922858a77626a2045a7b963f2c87784",
+    "person_xyxy": [
+      186,
+      460,
+      443,
+      720
+    ],
+    "context_xyxy": [
+      174,
+      418,
+      476,
+      720
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-14.jpg"
+  },
+  {
+    "id": "NB-0024",
+    "source_sha256": "e3c14a74648cf8c815cf5d6e01f156310c677d598202ad4d365a3eb36f3bdb67",
+    "crop_sha256": "0ec13a90caa37c062a1914c5599fa461129d6cf0ef5bbe90655cfe4433dee2c6",
+    "person_xyxy": [
+      94,
+      462,
+      359,
+      720
+    ],
+    "context_xyxy": [
+      92,
+      437,
+      375,
+      720
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-14.jpg"
+  },
+  {
+    "id": "NB-0025",
+    "source_sha256": "22509ff592152e14eddf5f89e4deb236d210297f4dfcf7b7b2b417217991b61f",
+    "crop_sha256": "392f39cb6bb86822006a1bbf3fe0f6cdb49551836dca87fc8b5781cde65d0478",
+    "person_xyxy": [
+      732,
+      412,
+      996,
+      691
+    ],
+    "context_xyxy": [
+      719,
+      412,
+      998,
+      691
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-14.jpg"
+  },
+  {
+    "id": "NB-0026",
+    "source_sha256": "22509ff592152e14eddf5f89e4deb236d210297f4dfcf7b7b2b417217991b61f",
+    "crop_sha256": "423a531ff644b470b1ddb6ca0bae2e705cad808b853ca611de420bdeb4d20b7f",
+    "person_xyxy": [
+      474,
+      391,
+      699,
+      631
+    ],
+    "context_xyxy": [
+      472,
+      374,
+      729,
+      631
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-14.jpg"
+  },
+  {
+    "id": "NB-0027",
+    "source_sha256": "e3c14a74648cf8c815cf5d6e01f156310c677d598202ad4d365a3eb36f3bdb67",
+    "crop_sha256": "843f3f5df4eace6e4794c004d738f4e4052b5bbee376edb64de528b9bf652f94",
+    "person_xyxy": [
+      407,
+      379,
+      568,
+      600
+    ],
+    "context_xyxy": [
+      388,
+      379,
+      609,
+      600
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-14.jpg"
+  },
+  {
+    "id": "NB-0028",
+    "source_sha256": "22509ff592152e14eddf5f89e4deb236d210297f4dfcf7b7b2b417217991b61f",
+    "crop_sha256": "fb1862720c988f2b878004382ac0ade218da6a22cb129f2bae921ffd36be3837",
+    "person_xyxy": [
+      602,
+      340,
+      762,
+      532
+    ],
+    "context_xyxy": [
+      590,
+      332,
+      790,
+      532
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-14.jpg"
+  },
+  {
+    "id": "NB-0029",
+    "source_sha256": "22509ff592152e14eddf5f89e4deb236d210297f4dfcf7b7b2b417217991b61f",
+    "crop_sha256": "8f6014c7f925dd93797a7e690a437aacebd1a89d027dfa7a33908c13082b3d6b",
+    "person_xyxy": [
+      391,
+      334,
+      518,
+      478
+    ],
+    "context_xyxy": [
+      391,
+      334,
+      535,
+      478
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-14.jpg"
+  },
+  {
+    "id": "NB-0030",
+    "source_sha256": "22509ff592152e14eddf5f89e4deb236d210297f4dfcf7b7b2b417217991b61f",
+    "crop_sha256": "c15597534d415fcc22d8fbc975f74de12e39fd031041f63c779a49cd85231715",
+    "person_xyxy": [
+      73,
+      333,
+      218,
+      520
+    ],
+    "context_xyxy": [
+      50,
+      328,
+      242,
+      520
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-14.jpg"
+  },
+  {
+    "id": "NB-0031",
+    "source_sha256": "22509ff592152e14eddf5f89e4deb236d210297f4dfcf7b7b2b417217991b61f",
+    "crop_sha256": "cc1a67d8ea7afb20d90248019473d0bdb7209dfce55cb026ce851ab52212da1f",
+    "person_xyxy": [
+      194,
+      314,
+      313,
+      463
+    ],
+    "context_xyxy": [
+      162,
+      294,
+      331,
+      463
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-14.jpg"
+  },
+  {
+    "id": "NB-0032",
+    "source_sha256": "e3c14a74648cf8c815cf5d6e01f156310c677d598202ad4d365a3eb36f3bdb67",
+    "crop_sha256": "eab9592997c2675d7858004274359cdc4412816a985b1d7c7ebcde085928643c",
+    "person_xyxy": [
+      173,
+      296,
+      294,
+      423
+    ],
+    "context_xyxy": [
+      160,
+      295,
+      315,
+      450
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-14.jpg"
+  },
+  {
+    "id": "NB-0033",
+    "source_sha256": "e3c14a74648cf8c815cf5d6e01f156310c677d598202ad4d365a3eb36f3bdb67",
+    "crop_sha256": "323ddd25a142a07a6e51f8f910129f0585fb850a18c8718b13b23d8ab031afc5",
+    "person_xyxy": [
+      280,
+      352,
+      431,
+      513
+    ],
+    "context_xyxy": [
+      280,
+      348,
+      445,
+      513
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-14.jpg"
+  },
+  {
+    "id": "NB-0039",
+    "source_sha256": "8d575a4349569f07689535eb4013a647229098be58e092734307de982ddef13e",
+    "crop_sha256": "6be03a4945a6b725b55c0803b1952cdcd3c0609680ee16ea3415ff0f4d34e02b",
+    "person_xyxy": [
+      263,
+      286,
+      443,
+      474
+    ],
+    "context_xyxy": [
+      252,
+      283,
+      443,
+      474
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-15.jpg"
+  },
+  {
+    "id": "NB-0040",
+    "source_sha256": "a6eb03a71376aa387382eac795016ebc1d5de0670e1fe66ffc2a4a53ff597bf1",
+    "crop_sha256": "283953a8fafe2ff0e71ea3cb1f17def88d35f549e367c519f338b6b38e92f5ce",
+    "person_xyxy": [
+      339,
+      380,
+      568,
+      636
+    ],
+    "context_xyxy": [
+      314,
+      380,
+      570,
+      636
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-15.jpg"
+  },
+  {
+    "id": "NB-0042",
+    "source_sha256": "8d575a4349569f07689535eb4013a647229098be58e092734307de982ddef13e",
+    "crop_sha256": "91a2048bd98ebf57f5d94eaf9606dd39f53434d122465d9e18a73eb860a88986",
+    "person_xyxy": [
+      338,
+      183,
+      435,
+      271
+    ],
+    "context_xyxy": [
+      306,
+      183,
+      475,
+      352
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-15.jpg"
+  },
+  {
+    "id": "NB-0043",
+    "source_sha256": "8d575a4349569f07689535eb4013a647229098be58e092734307de982ddef13e",
+    "crop_sha256": "547347dd05bba33f2956863b312aff03079edde58c8a79720ccea798a6ab46b7",
+    "person_xyxy": [
+      420,
+      191,
+      519,
+      362
+    ],
+    "context_xyxy": [
+      376,
+      177,
+      561,
+      362
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-15.jpg"
+  },
+  {
+    "id": "NB-0044",
+    "source_sha256": "8d575a4349569f07689535eb4013a647229098be58e092734307de982ddef13e",
+    "crop_sha256": "bbda4aecda356d657c918fa1961f193b32df28655506e4d5fd3647e6ae86b729",
+    "person_xyxy": [
+      495,
+      222,
+      653,
+      368
+    ],
+    "context_xyxy": [
+      466,
+      222,
+      653,
+      409
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-15.jpg"
+  },
+  {
+    "id": "NB-0045",
+    "source_sha256": "a6eb03a71376aa387382eac795016ebc1d5de0670e1fe66ffc2a4a53ff597bf1",
+    "crop_sha256": "c3a873d313e7a1393ed35a22c2313d17d6a35741a177d299528be2eae1edcb85",
+    "person_xyxy": [
+      500,
+      246,
+      629,
+      368
+    ],
+    "context_xyxy": [
+      482,
+      234,
+      667,
+      419
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-15.jpg"
+  },
+  {
+    "id": "NB-0046",
+    "source_sha256": "8d575a4349569f07689535eb4013a647229098be58e092734307de982ddef13e",
+    "crop_sha256": "cde6c71615909e3ef72b43aca8ad7a72fde712735154d67ea7bb534c73bd7829",
+    "person_xyxy": [
+      600,
+      300,
+      771,
+      473
+    ],
+    "context_xyxy": [
+      590,
+      291,
+      772,
+      473
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-15.jpg"
+  },
+  {
+    "id": "NB-0047",
+    "source_sha256": "a6eb03a71376aa387382eac795016ebc1d5de0670e1fe66ffc2a4a53ff597bf1",
+    "crop_sha256": "44da3fc7f718b3b753e139e894dd12706dd89b4bbe5e83d6818a5eb17fb369a9",
+    "person_xyxy": [
+      605,
+      241,
+      768,
+      425
+    ],
+    "context_xyxy": [
+      584,
+      234,
+      775,
+      425
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-15.jpg"
+  },
+  {
+    "id": "NB-0048",
+    "source_sha256": "8d575a4349569f07689535eb4013a647229098be58e092734307de982ddef13e",
+    "crop_sha256": "77ef378b19b746494740a634e5f922e30d3eee86c5a055ae297cdd8d134fd80f",
+    "person_xyxy": [
+      777,
+      207,
+      895,
+      402
+    ],
+    "context_xyxy": [
+      754,
+      207,
+      949,
+      402
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-15.jpg"
+  },
+  {
+    "id": "NB-0049",
+    "source_sha256": "8d575a4349569f07689535eb4013a647229098be58e092734307de982ddef13e",
+    "crop_sha256": "c23114f9cfedb3acc52a021a982e0ab8ce3be0d223fdfc0bb679ea81f478ff2e",
+    "person_xyxy": [
+      907,
+      174,
+      1020,
+      366
+    ],
+    "context_xyxy": [
+      869,
+      173,
+      1062,
+      366
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-15.jpg"
+  },
+  {
+    "id": "NB-0050",
+    "source_sha256": "a6eb03a71376aa387382eac795016ebc1d5de0670e1fe66ffc2a4a53ff597bf1",
+    "crop_sha256": "65b7c9335d0902e1dc77bc989bd425d8d3ed958ed6faede284827bde3831b510",
+    "person_xyxy": [
+      924,
+      172,
+      1043,
+      366
+    ],
+    "context_xyxy": [
+      881,
+      169,
+      1078,
+      366
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-15.jpg"
+  },
+  {
+    "id": "NB-0051",
+    "source_sha256": "8d575a4349569f07689535eb4013a647229098be58e092734307de982ddef13e",
+    "crop_sha256": "14d50e7535780f32b0002066d56e47197e046f15e84a36bf73b1afd1f42cdc1f",
+    "person_xyxy": [
+      1015,
+      154,
+      1131,
+      335
+    ],
+    "context_xyxy": [
+      985,
+      153,
+      1167,
+      335
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-15.jpg"
+  },
+  {
+    "id": "NB-0052",
+    "source_sha256": "ff6e2220b608c11cec5dde4bd59dc4889b561729d452eaefb53747ebad72a761",
+    "crop_sha256": "7b5ea4eaa25375236124b488855c6fde936edc9ffd59b145de1d71d5a0522701",
+    "person_xyxy": [
+      344,
+      354,
+      558,
+      624
+    ],
+    "context_xyxy": [
+      276,
+      340,
+      560,
+      624
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-15.jpg"
+  },
+  {
+    "id": "NB-0053",
+    "source_sha256": "6a727ebe5f6aeced9e8ad22344afd1b72d8e05401721b92456b23a6c75de0178",
+    "crop_sha256": "b72ef85211513bf7328cad9e4aaf79e64e6a512343628b14c1db4f73850295eb",
+    "person_xyxy": [
+      470,
+      237,
+      628,
+      426
+    ],
+    "context_xyxy": [
+      466,
+      233,
+      671,
+      438
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-15.jpg"
+  },
+  {
+    "id": "NB-0055",
+    "source_sha256": "428d18a04cb6ae7efe22b6b039345c5e78e7797e2989754430cf7d1297c26c3f",
+    "crop_sha256": "86a25c15615aeedbcf9c919390f30b19ae7f4a2ca326ac9c200da9386968d0af",
+    "person_xyxy": [
+      562,
+      488,
+      708,
+      648
+    ],
+    "context_xyxy": [
+      497,
+      484,
+      731,
+      718
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-15.jpg"
+  },
+  {
+    "id": "NB-0056",
+    "source_sha256": "07b14cbcabb78b02c25658ae3cea362a72bd8f3cea7bf9e216304378c12ac056",
+    "crop_sha256": "1d1596fbefbcc6d16367dbf656ab2ce1bc85a71582bd1c985ddc53facdee8950",
+    "person_xyxy": [
+      482,
+      484,
+      716,
+      718
+    ],
+    "context_xyxy": [
+      482,
+      484,
+      716,
+      718
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-15.jpg"
+  },
+  {
+    "id": "NB-0057",
+    "source_sha256": "428d18a04cb6ae7efe22b6b039345c5e78e7797e2989754430cf7d1297c26c3f",
+    "crop_sha256": "c87024a0813449a9008e006ee35c1deb933f7696a8490ecffe92637c053a2fc6",
+    "person_xyxy": [
+      614,
+      304,
+      725,
+      477
+    ],
+    "context_xyxy": [
+      578,
+      294,
+      761,
+      477
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-15.jpg"
+  },
+  {
+    "id": "NB-0058",
+    "source_sha256": "428d18a04cb6ae7efe22b6b039345c5e78e7797e2989754430cf7d1297c26c3f",
+    "crop_sha256": "37adc2e5ae0a7a71fbe703d1656b498ed97f5d4db4bd6d739a3ec2fb49cae7bd",
+    "person_xyxy": [
+      946,
+      410,
+      1083,
+      583
+    ],
+    "context_xyxy": [
+      935,
+      398,
+      1120,
+      583
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-15.jpg"
+  },
+  {
+    "id": "NB-0059",
+    "source_sha256": "6c9b8a0a7818e96462b1dda989d5f6a6484c67b3010840a596fa1cf4aa10021a",
+    "crop_sha256": "b712f01cffc574733b72642e7b163b61ca28ad53630d4de7b69ceae7acb39a93",
+    "person_xyxy": [
+      937,
+      434,
+      1099,
+      604
+    ],
+    "context_xyxy": [
+      937,
+      402,
+      1139,
+      604
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-15.jpg"
+  },
+  {
+    "id": "NB-0060",
+    "source_sha256": "428d18a04cb6ae7efe22b6b039345c5e78e7797e2989754430cf7d1297c26c3f",
+    "crop_sha256": "d609b7f5da848b729adce60104b4ba6744a05f69e534d76dea34317b13eb3fc8",
+    "person_xyxy": [
+      746,
+      402,
+      951,
+      584
+    ],
+    "context_xyxy": [
+      742,
+      371,
+      955,
+      584
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-15.jpg"
+  },
+  {
+    "id": "NB-0061",
+    "source_sha256": "428d18a04cb6ae7efe22b6b039345c5e78e7797e2989754430cf7d1297c26c3f",
+    "crop_sha256": "7b1a811813bcda1adb57ca69bf9888bc95e3f00f407283308a8ed1868aff44f6",
+    "person_xyxy": [
+      450,
+      301,
+      553,
+      443
+    ],
+    "context_xyxy": [
+      399,
+      294,
+      576,
+      471
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-16.jpg"
+  },
+  {
+    "id": "NB-0063",
+    "source_sha256": "937cd051b9889fb25a61c94b4d86d100ebcbd3a90d1cbc6ea38c3a32ca667824",
+    "crop_sha256": "a81e960b2de59593957e452a1aafb383accbe9f9ad7c69d9176f7540530b3f59",
+    "person_xyxy": [
+      974,
+      430,
+      1096,
+      606
+    ],
+    "context_xyxy": [
+      974,
+      430,
+      1150,
+      606
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-16.jpg"
+  },
+  {
+    "id": "NB-0064",
+    "source_sha256": "d3be2886a2d26bd5291e4c84578fc91a7c55287e289e4c6120f8146ada0e5a8c",
+    "crop_sha256": "176a14d1dd0b664350872ef34b08730699b82556413f66ae0b7512819d438cfb",
+    "person_xyxy": [
+      9,
+      488,
+      247,
+      715
+    ],
+    "context_xyxy": [
+      0,
+      466,
+      249,
+      715
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-16.jpg"
+  },
+  {
+    "id": "NB-0065",
+    "source_sha256": "d3be2886a2d26bd5291e4c84578fc91a7c55287e289e4c6120f8146ada0e5a8c",
+    "crop_sha256": "67e03c89a00fa6fb9a36892209e6b6414292a18b787a9fffd6d2c64e70a570bd",
+    "person_xyxy": [
+      164,
+      435,
+      442,
+      670
+    ],
+    "context_xyxy": [
+      162,
+      390,
+      444,
+      672
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-16.jpg"
+  },
+  {
+    "id": "NB-0066",
+    "source_sha256": "d3be2886a2d26bd5291e4c84578fc91a7c55287e289e4c6120f8146ada0e5a8c",
+    "crop_sha256": "2ccabe8e9c605588924181d9db8e84eecd55e2a9848c43b68325e093d4533125",
+    "person_xyxy": [
+      442,
+      494,
+      773,
+      720
+    ],
+    "context_xyxy": [
+      432,
+      379,
+      773,
+      720
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-16.jpg"
+  },
+  {
+    "id": "NB-0067",
+    "source_sha256": "d3be2886a2d26bd5291e4c84578fc91a7c55287e289e4c6120f8146ada0e5a8c",
+    "crop_sha256": "59909b9f001c87b82ce510398cbc15456602dee957dba90d2663e14e287261f8",
+    "person_xyxy": [
+      846,
+      342,
+      1155,
+      626
+    ],
+    "context_xyxy": [
+      846,
+      311,
+      1161,
+      626
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-16.jpg"
+  },
+  {
+    "id": "NB-0068",
+    "source_sha256": "4918fb292aafc40050bbffd9f46883c0a6c158ec3946613c1b0613a9eef8887d",
+    "crop_sha256": "9d08db5ebbb98face6967545a6797119b350b2b0ffa18ce1b649381871de68cd",
+    "person_xyxy": [
+      848,
+      340,
+      1134,
+      632
+    ],
+    "context_xyxy": [
+      842,
+      308,
+      1166,
+      632
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-16.jpg"
+  },
+  {
+    "id": "NB-0070",
+    "source_sha256": "4918fb292aafc40050bbffd9f46883c0a6c158ec3946613c1b0613a9eef8887d",
+    "crop_sha256": "13e916d38c1527e4eace3f5a5538e2da7023431cc0c598dd2676d8c4ef3881be",
+    "person_xyxy": [
+      609,
+      313,
+      777,
+      471
+    ],
+    "context_xyxy": [
+      583,
+      307,
+      785,
+      509
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-16.jpg"
+  },
+  {
+    "id": "NB-0071",
+    "source_sha256": "d3be2886a2d26bd5291e4c84578fc91a7c55287e289e4c6120f8146ada0e5a8c",
+    "crop_sha256": "8f4aaee8a75d6287f5b81c56f6ed2ffee77f10d9a1b4a30f7c31a81275c53c5c",
+    "person_xyxy": [
+      687,
+      280,
+      825,
+      446
+    ],
+    "context_xyxy": [
+      687,
+      280,
+      886,
+      479
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-16.jpg"
+  },
+  {
+    "id": "NB-0072",
+    "source_sha256": "d3be2886a2d26bd5291e4c84578fc91a7c55287e289e4c6120f8146ada0e5a8c",
+    "crop_sha256": "1ec3e0f3b6b827a7406170a83a1abebf91504741316d845add8163ebb6935514",
+    "person_xyxy": [
+      341,
+      269,
+      499,
+      443
+    ],
+    "context_xyxy": [
+      334,
+      252,
+      525,
+      443
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-16.jpg"
+  },
+  {
+    "id": "NB-0073",
+    "source_sha256": "d3be2886a2d26bd5291e4c84578fc91a7c55287e289e4c6120f8146ada0e5a8c",
+    "crop_sha256": "932eee998bc033c871fd35c114be1f9566f267061e88327f11245558d04b1d22",
+    "person_xyxy": [
+      477,
+      226,
+      599,
+      358
+    ],
+    "context_xyxy": [
+      454,
+      223,
+      620,
+      389
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-16.jpg"
+  },
+  {
+    "id": "NB-0074",
+    "source_sha256": "d3be2886a2d26bd5291e4c84578fc91a7c55287e289e4c6120f8146ada0e5a8c",
+    "crop_sha256": "58ae0b33e20a291c307e5153694e071fcc123f5840ef81a9c371a1a4d86a81cd",
+    "person_xyxy": [
+      131,
+      205,
+      315,
+      401
+    ],
+    "context_xyxy": [
+      113,
+      199,
+      315,
+      401
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-16.jpg"
+  },
+  {
+    "id": "NB-0075",
+    "source_sha256": "d3be2886a2d26bd5291e4c84578fc91a7c55287e289e4c6120f8146ada0e5a8c",
+    "crop_sha256": "9e873ae97ccba9fc19e68c324655b1170decb8fd1c22c9e2f4994bffab9157f6",
+    "person_xyxy": [
+      779,
+      179,
+      881,
+      371
+    ],
+    "context_xyxy": [
+      748,
+      169,
+      958,
+      379
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-16.jpg"
+  },
+  {
+    "id": "NB-0078",
+    "source_sha256": "4918fb292aafc40050bbffd9f46883c0a6c158ec3946613c1b0613a9eef8887d",
+    "crop_sha256": "de16d2415a17a7bdab48aacd2ab531a3217db23ff6e3709878c543ba88c45e90",
+    "person_xyxy": [
+      282,
+      192,
+      403,
+      327
+    ],
+    "context_xyxy": [
+      270,
+      189,
+      426,
+      345
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-16.jpg"
+  },
+  {
+    "id": "NB-0080",
+    "source_sha256": "fdb3c8dca52e564d5c5f2c248994723da794874fa2f2bd1ff6fcc092b04d4a85",
+    "crop_sha256": "7c0afb8a60f62936e98326ac2fa22885129aad7bb633f1b12be483922ed00a4a",
+    "person_xyxy": [
+      548,
+      277,
+      721,
+      493
+    ],
+    "context_xyxy": [
+      548,
+      277,
+      764,
+      493
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-16.jpg"
+  },
+  {
+    "id": "NB-0034-R1",
+    "source_sha256": "e3c14a74648cf8c815cf5d6e01f156310c677d598202ad4d365a3eb36f3bdb67",
+    "crop_sha256": "208393c07cf36fbd32e656f2e943f47f28b9a43889f486a5acc3083dc16d6b24",
+    "person_xyxy": [
+      475,
+      280,
+      539,
+      380
+    ],
+    "context_xyxy": [
+      475,
+      275,
+      540,
+      383
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-16.jpg"
+  },
+  {
+    "id": "NB-0035-R1",
+    "source_sha256": "e3c14a74648cf8c815cf5d6e01f156310c677d598202ad4d365a3eb36f3bdb67",
+    "crop_sha256": "7e769efd8f30b2e0503378b9ab9f95978f1b7305049a0d9f041b828a10e51bd6",
+    "person_xyxy": [
+      585,
+      284,
+      681,
+      372
+    ],
+    "context_xyxy": [
+      585,
+      275,
+      681,
+      372
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-16.jpg"
+  },
+  {
+    "id": "NB-0036-R1",
+    "source_sha256": "e3c14a74648cf8c815cf5d6e01f156310c677d598202ad4d365a3eb36f3bdb67",
+    "crop_sha256": "f4585baaacb3deb57ed2587278664b52cd08adea74af7575e2639e2d156926c6",
+    "person_xyxy": [
+      770,
+      312,
+      857,
+      436
+    ],
+    "context_xyxy": [
+      770,
+      312,
+      857,
+      436
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-16.jpg"
+  },
+  {
+    "id": "NB-0037-R1",
+    "source_sha256": "a6eb03a71376aa387382eac795016ebc1d5de0670e1fe66ffc2a4a53ff597bf1",
+    "crop_sha256": "0d085722b0db33207fe9f17875b777b6bd992b6d41ad8a3b495df5bcb078b95c",
+    "person_xyxy": [
+      159,
+      225,
+      252,
+      327
+    ],
+    "context_xyxy": [
+      120,
+      215,
+      252,
+      345
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-16.jpg"
+  },
+  {
+    "id": "NB-0038-R1",
+    "source_sha256": "a6eb03a71376aa387382eac795016ebc1d5de0670e1fe66ffc2a4a53ff597bf1",
+    "crop_sha256": "ec0a35b0e60deca6b1caf57276ea94c98f265d39c49cf8009691df4879274225",
+    "person_xyxy": [
+      212,
+      218,
+      336,
+      351
+    ],
+    "context_xyxy": [
+      210,
+      210,
+      338,
+      352
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-16.jpg"
+  },
+  {
+    "id": "NB-0041-R1",
+    "source_sha256": "d5d67c78a8c00cac4ac556934ecfbdf01b120252b73194749402b99e959d196e",
+    "crop_sha256": "fe321de4134419860c9b634068700b123c9256cf0ff0b106dfd9191aeaee7929",
+    "person_xyxy": [
+      338,
+      312,
+      539,
+      520
+    ],
+    "context_xyxy": [
+      325,
+      310,
+      555,
+      520
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-17.jpg"
+  },
+  {
+    "id": "NB-0054-R1",
+    "source_sha256": "428d18a04cb6ae7efe22b6b039345c5e78e7797e2989754430cf7d1297c26c3f",
+    "crop_sha256": "6503ed0350a33172c20641272cd19ba10a72e0d4ded7ca3e3070a6885b0f537c",
+    "person_xyxy": [
+      305,
+      302,
+      389,
+      405
+    ],
+    "context_xyxy": [
+      300,
+      300,
+      389,
+      405
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-17.jpg"
+  },
+  {
+    "id": "NB-0062-R1",
+    "source_sha256": "6c9b8a0a7818e96462b1dda989d5f6a6484c67b3010840a596fa1cf4aa10021a",
+    "crop_sha256": "c13e094b211b1eafc791c6d3043c2436b179c8fd6e95eb73829f8f93e4707afe",
+    "person_xyxy": [
+      850,
+      277,
+      939,
+      406
+    ],
+    "context_xyxy": [
+      850,
+      277,
+      944,
+      406
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-17.jpg"
+  },
+  {
+    "id": "NB-0069-R1",
+    "source_sha256": "d3be2886a2d26bd5291e4c84578fc91a7c55287e289e4c6120f8146ada0e5a8c",
+    "crop_sha256": "2badcb2e4b3099268dee3c3c11c5c185f37e773eda83207007f77c5f09b65ceb",
+    "person_xyxy": [
+      549,
+      250,
+      760,
+      489
+    ],
+    "context_xyxy": [
+      540,
+      250,
+      787,
+      489
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-17.jpg"
+  },
+  {
+    "id": "NB-0077-R1",
+    "source_sha256": "d3be2886a2d26bd5291e4c84578fc91a7c55287e289e4c6120f8146ada0e5a8c",
+    "crop_sha256": "1fcd289205c62b7873ba49a59616b54bd51d39408b43cb1217eceeb3d056b5de",
+    "person_xyxy": [
+      1087,
+      198,
+      1171,
+      279
+    ],
+    "context_xyxy": [
+      1080,
+      185,
+      1210,
+      306
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-17.jpg"
+  },
+  {
+    "id": "NB-0079-R1",
+    "source_sha256": "4918fb292aafc40050bbffd9f46883c0a6c158ec3946613c1b0613a9eef8887d",
+    "crop_sha256": "058f5bb81f6615516c5b3f8ef5907c755862264680cc8822a90ae3b4ea0949a7",
+    "person_xyxy": [
+      574,
+      162,
+      650,
+      305
+    ],
+    "context_xyxy": [
+      565,
+      150,
+      650,
+      305
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-17.jpg"
+  },
+  {
+    "id": "NBX-001",
+    "source_sha256": "22509ff592152e14eddf5f89e4deb236d210297f4dfcf7b7b2b417217991b61f",
+    "crop_sha256": "cbf43d31694414b0370447ab6d43ef4d1be7729fddeff36f6188dd8a75f79864",
+    "person_xyxy": [
+      870,
+      375,
+      957,
+      546
+    ],
+    "context_xyxy": [
+      870,
+      375,
+      975,
+      555
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-17.jpg"
+  },
+  {
+    "id": "NBX-003",
+    "source_sha256": "8d575a4349569f07689535eb4013a647229098be58e092734307de982ddef13e",
+    "crop_sha256": "f0c0edbc0eaab150b5b29f08ddd19b25ed67c77f2d3e3a84f1b6ed721fef551b",
+    "person_xyxy": [
+      503,
+      153,
+      575,
+      257
+    ],
+    "context_xyxy": [
+      487,
+      148,
+      585,
+      277
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-17.jpg"
+  },
+  {
+    "id": "NBX-004",
+    "source_sha256": "a6eb03a71376aa387382eac795016ebc1d5de0670e1fe66ffc2a4a53ff597bf1",
+    "crop_sha256": "347d6d643d1aa0e90f6fa10e8e9486ee24e9518fb003b486ef66ea2bb478b5db",
+    "person_xyxy": [
+      710,
+      200,
+      802,
+      313
+    ],
+    "context_xyxy": [
+      680,
+      195,
+      802,
+      324
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-17.jpg"
+  },
+  {
+    "id": "NBX-005",
+    "source_sha256": "428d18a04cb6ae7efe22b6b039345c5e78e7797e2989754430cf7d1297c26c3f",
+    "crop_sha256": "c562a168ea1174a4b813e9287a8129a52a3bbfce166ca007ba19f80cbf8bab0a",
+    "person_xyxy": [
+      813,
+      269,
+      858,
+      331
+    ],
+    "context_xyxy": [
+      794,
+      264,
+      878,
+      366
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-17.jpg"
+  },
+  {
+    "id": "NBX-006",
+    "source_sha256": "d3be2886a2d26bd5291e4c84578fc91a7c55287e289e4c6120f8146ada0e5a8c",
+    "crop_sha256": "7fff5e90605cf12680fa6fdabdebca60a893479da352106752cad78359867e93",
+    "person_xyxy": [
+      452,
+      160,
+      531,
+      272
+    ],
+    "context_xyxy": [
+      449,
+      157,
+      549,
+      272
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-17.jpg"
+  },
+  {
+    "id": "NBX-008",
+    "source_sha256": "a6eb03a71376aa387382eac795016ebc1d5de0670e1fe66ffc2a4a53ff597bf1",
+    "crop_sha256": "d0aeabbc51c52c4aad89c6ea224850b17558b6d057e52abfe515384eb212ed17",
+    "person_xyxy": [
+      620,
+      132,
+      698,
+      212
+    ],
+    "context_xyxy": [
+      613,
+      127,
+      705,
+      223
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-17.jpg"
+  },
+  {
+    "id": "NC-001",
+    "source_sha256": "996bbd55b24843b8faaf62ba547b47a242fa86d8e065197c43c0b9f90ffdf03c",
+    "crop_sha256": "569688c6302ba6fd19732d6658bd9b3621da69303ccbe5fcb3d4d5e6dd4b38fb",
+    "person_xyxy": [
+      613,
+      26,
+      1042,
+      396
+    ],
+    "context_xyxy": [
+      590,
+      10,
+      1060,
+      420
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-17.jpg"
+  },
+  {
+    "id": "NC-002",
+    "source_sha256": "016f438cdbb11a163e4dd045dc0fbd2b58aba3a25545ff24257fed51b26686f8",
+    "crop_sha256": "6d4d3738eac64c22a7a0f2df5a81544d856c310b21f4dc7f3c700b08109f1122",
+    "person_xyxy": [
+      0,
+      202,
+      794,
+      1071
+    ],
+    "context_xyxy": [
+      0,
+      175,
+      810,
+      1080
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-17.jpg"
+  },
+  {
+    "id": "NC-003",
+    "source_sha256": "813701ee1750c463034d58a362bbea4e8d03997482d835d7de8342502c5f6666",
+    "crop_sha256": "0ba469ffb70c4fd87d4dd22369028983d97012ed11dec2ee45b40bb80bd998cd",
+    "person_xyxy": [
+      347,
+      69,
+      735,
+      502
+    ],
+    "context_xyxy": [
+      335,
+      60,
+      735,
+      520
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-17.jpg"
+  },
+  {
+    "id": "NC-004",
+    "source_sha256": "813701ee1750c463034d58a362bbea4e8d03997482d835d7de8342502c5f6666",
+    "crop_sha256": "a6101382cce6b86f53e8141f30670a5e4635adf1eadd83a4bb9c026a1b5ceaff",
+    "person_xyxy": [
+      620,
+      35,
+      1234,
+      693
+    ],
+    "context_xyxy": [
+      620,
+      0,
+      1240,
+      700
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-17.jpg"
+  },
+  {
+    "id": "NC-005",
+    "source_sha256": "281ccad34ddaf7c68433ccc5d0ebd21a2e02fbcad301deb39c6ad321b4fe283f",
+    "crop_sha256": "ececf6969564247d45ce36739db288be5b6aa7cec73e5a06bbd87bc18a3778a4",
+    "person_xyxy": [
+      0,
+      100,
+      650,
+      870
+    ],
+    "context_xyxy": [
+      0,
+      100,
+      650,
+      870
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-17.jpg"
+  },
+  {
+    "id": "NC-006",
+    "source_sha256": "281ccad34ddaf7c68433ccc5d0ebd21a2e02fbcad301deb39c6ad321b4fe283f",
+    "crop_sha256": "3ea4957527dba0971c06973667ebbbddb97594cdf241828e8b8d66bf907a57f8",
+    "person_xyxy": [
+      620,
+      0,
+      1145,
+      532
+    ],
+    "context_xyxy": [
+      620,
+      0,
+      1150,
+      560
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-17.jpg"
+  },
+  {
+    "id": "NC-007",
+    "source_sha256": "228401ae0d8aa0cd78d66651ccb28953b42b9ce57d71670aecad8c640a7d7672",
+    "crop_sha256": "8a12192f5a20e90143f9d75090760bc44742ed0d562983702bd696baa827b158",
+    "person_xyxy": [
+      316,
+      200,
+      589,
+      440
+    ],
+    "context_xyxy": [
+      305,
+      190,
+      600,
+      440
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-17.jpg"
+  },
+  {
+    "id": "NC-008",
+    "source_sha256": "228401ae0d8aa0cd78d66651ccb28953b42b9ce57d71670aecad8c640a7d7672",
+    "crop_sha256": "fff52e1e7a42f2766a2759531eff92206af1733a2df3fa19a41b7fc7ce6128c9",
+    "person_xyxy": [
+      980,
+      209,
+      1215,
+      418
+    ],
+    "context_xyxy": [
+      975,
+      205,
+      1225,
+      438
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-17.jpg"
+  },
+  {
+    "id": "NC-009",
+    "source_sha256": "228401ae0d8aa0cd78d66651ccb28953b42b9ce57d71670aecad8c640a7d7672",
+    "crop_sha256": "b47a32f00abcbf486b4ae9f9399d97ed24bff6460862655084c98afff15b4838",
+    "person_xyxy": [
+      1175,
+      174,
+      1340,
+      381
+    ],
+    "context_xyxy": [
+      1175,
+      160,
+      1425,
+      400
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-18.jpg"
+  },
+  {
+    "id": "NC-010",
+    "source_sha256": "228401ae0d8aa0cd78d66651ccb28953b42b9ce57d71670aecad8c640a7d7672",
+    "crop_sha256": "093aa539f125809a0db430862d648743723b16905de085bf16a550bdb9ddacc7",
+    "person_xyxy": [
+      1385,
+      235,
+      1634,
+      559
+    ],
+    "context_xyxy": [
+      1385,
+      235,
+      1655,
+      590
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-18.jpg"
+  },
+  {
+    "id": "NC-011",
+    "source_sha256": "228401ae0d8aa0cd78d66651ccb28953b42b9ce57d71670aecad8c640a7d7672",
+    "crop_sha256": "8476d6afe8897edff8651c8daa82092f45309af611d20f52183f21341dacb243",
+    "person_xyxy": [
+      1560,
+      225,
+      1722,
+      465
+    ],
+    "context_xyxy": [
+      1560,
+      215,
+      1755,
+      480
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-18.jpg"
+  },
+  {
+    "id": "NC-012",
+    "source_sha256": "7afbbd830ee30b33ef0acc54f20e78bd6cbef01bf64935bedf7df474e207a332",
+    "crop_sha256": "e25db4b95f695643ead29f9ed5ff0817e44942ab54e5aec5c9f4a0f27fa1b1a2",
+    "person_xyxy": [
+      350,
+      78,
+      755,
+      526
+    ],
+    "context_xyxy": [
+      350,
+      65,
+      755,
+      530
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-18.jpg"
+  },
+  {
+    "id": "NC-013",
+    "source_sha256": "79e265d8c7d7a9dcaab516e9ae39985d23de4d754769e85a02e238f461439f6a",
+    "crop_sha256": "5582f4300519397878495129de464f4bf34ada00e9679d44478a06cb88712965",
+    "person_xyxy": [
+      1382,
+      485,
+      1920,
+      944
+    ],
+    "context_xyxy": [
+      1360,
+      470,
+      1920,
+      985
+    ],
+    "status": "draft_owner_review_required",
+    "method": "manual_visual_estimate_source_ROI_board",
+    "board": "outputs/E004-train-enrollment-20261016/geometry-18.jpg"
+  }
+]

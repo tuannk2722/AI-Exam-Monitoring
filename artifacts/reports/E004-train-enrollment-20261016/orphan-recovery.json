@@ -1,0 +1,12 @@
+{
+  "status": "validated_for_same_identity_resume",
+  "checkpoint_epoch": 8,
+  "process_inventory": "Get-CimInstance python.exe returned no processes before recovery",
+  "cause": "Unknown abrupt process termination; usage-limit causality not established",
+  "snapshot": "outputs/E004-C345-W-H-orphan-snapshot",
+  "charged_seconds": 2683.991343,
+  "remaining_budget_seconds": 4516.008657,
+  "checkpoint_unchanged": true,
+  "config_unchanged": true,
+  "checksum_note": "Recovery checksum inventory newly created; not a pre-crash integrity claim. Checkpoint identity/config/history/sampler validated."
+}

@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-16",
+  "scope": "92 closed; 13 additions Draft; no release/train approval",
+  "mutable_excluded": [
+    "owner-review.md"
+  ],
+  "files": {
+    "artifacts/reports/E004-new-bundle-closure-20261016/additions-ledger.json": "544871bd7a124400d3679d2fa42f57f401a7b062c4290dcc8a4cc29e467606ea",
+    "artifacts/reports/E004-new-bundle-closure-20261016/build.py": "74dcad1e2181e683a68d3c2e5cabf193917667e3e32e85a6da8aaa01efc9d5a1",
+    "artifacts/reports/E004-new-bundle-closure-20261016/closed-ledger.json": "54675abf366ed91ebc51494438547977191b750cef4011bf2535f2324daac073",
+    "artifacts/reports/E004-new-bundle-closure-20261016/closure-receipt.json": "5a56e1f000e31f6a7157bd9b7170ba37235a1f7042d0e2e7d598cd3773e985c8",
+    "artifacts/reports/E004-new-bundle-closure-20261016/gallery-template.html": "94999a38bffe390b4115cfbbb2b634bf4e7845ee9ab84de921db0fd120427e23",
+    "artifacts/reports/E004-new-bundle-closure-20261016/label-deltas.json": "bbdce9a12ef613a08d0c11e5ba25bac12605ae8e9a05d643bcb946de6a5123cd",
+    "artifacts/reports/E004-new-bundle-closure-20261016/marked-anchor-map.json": "bde155fc24b4f371f9d9edfc3f22986f0724da58af1401f4423a5e8c641e1139",
+    "artifacts/reports/E004-new-bundle-closure-20261016/marked-input-pins.json": "c80a3ef86906dd467be75949068cff9a4bbeaeba7858bdbaf4a3d4898e2a8435",
+    "artifacts/reports/E004-new-bundle-closure-20261016/owner-review-input.md": "33279917e4fa45f391634aa71b248f48f5096c4eb1fbe0ddc72694c5e6dda921",
+    "artifacts/reports/E004-new-bundle-closure-20261016/README.md": "2492d3c832cb1ecb8d43e6dc9f4130fdec39bb092b6b0bfa9bc22177735d46ed",
+    "artifacts/reports/E004-new-bundle-closure-20261016/validate-gallery.cjs": "659800d8a80ba5275be1cb40c9b2d343b598337cde1925a1aeb91e9a82d05009",
+    "artifacts/reports/E004-new-bundle-closure-20261016/validation.json": "aef0e88c4c069c3c2d059cfe03374131b6b22ab3428f1703d650117cb32bb2d2",
+    "outputs/E004-new-bundle-closure-20261016/accepted-comparison.jpg": "564dcf7411f20ae13d7645ad63a9b4ab1e88af401a89fe9401e20bac6210cd11",
+    "outputs/E004-new-bundle-closure-20261016/additions-board.jpg": "47d8d494f4b91039623262f67a454c410b2f082f99bfffb161ceaf404de79838",
+    "outputs/E004-new-bundle-closure-20261016/exceptions-1.jpg": "df28866201574894e636d85576154a990688b74564d0f11c945566de5050593e",
+    "outputs/E004-new-bundle-closure-20261016/exceptions-2.jpg": "cab149d964c660ed1a34746799f1f1484a284da4910337b40cf67af06944190e",
+    "outputs/E004-new-bundle-closure-20261016/gallery-preview.png": "066606a3ccda5ed3723141267023e5b274c2a6edc2a9ac9dccff2aa218dc5354",
+    "outputs/E004-new-bundle-closure-20261016/index.html": "9ee29023318dc576e244c6e292319b8a30a87a6c408fda40661db2882ee045e1",
+    "outputs/E004-new-bundle-closure-20261016/NC-001-input.png": "479b14731ff453febfd66b49d084098ae12a909281750cef35956923e9d73950",
+    "outputs/E004-new-bundle-closure-20261016/NC-002-input.png": "ee9e5fbecc9a987605da7466cab71f4e86d7e015a609232dbe6a8db8b06ca911",
+    "outputs/E004-new-bundle-closure-20261016/NC-003-input.png": "059ec6575053130fe7bff70d9307b7f3d6d11cc6302413edd5229454308dbc0a",
+    "outputs/E004-new-bundle-closure-20261016/NC-004-input.png": "8b1050adb017c6b15b46c59ee1f3dc29df52382a3c98637dac15f115f03eeaeb",
+    "outputs/E004-new-bundle-closure-20261016/NC-005-input.png": "e6497d96e905f62d981426568906a2727c25f48881c7369c765d57979664987d",
+    "outputs/E004-new-bundle-closure-20261016/NC-006-input.png": "93d908bf1b7ec84f3fb7697a140b4f2dcf68e952ad4d0545830a091300f5d0d7",
+    "outputs/E004-new-bundle-closure-20261016/NC-007-input.png": "8deed9fe9bfcba52c4301ef68b2289e4b40f365541626fee1435dd507651aeb3",
+    "outputs/E004-new-bundle-closure-20261016/NC-008-input.png": "f3a830c2126af28796a37933d2cf874d3abdba4dc07d7577821bdccf031ac495",
+    "outputs/E004-new-bundle-closure-20261016/NC-009-input.png": "e441848b97011458c8a98b4cb546d3ead744b92e24b57d297b4a87e3731b5064",
+    "outputs/E004-new-bundle-closure-20261016/NC-010-input.png": "c2ff05ac8c552fe07f2e0ee7ff9f7d0924186ccf1c5f3ffa065f466c2324e991",
+    "outputs/E004-new-bundle-closure-20261016/NC-011-input.png": "e35b68bfd089b0a9ffaaf835fc03fd64fda5ddb7380a1d4fb708fdd646734c93",
+    "outputs/E004-new-bundle-closure-20261016/NC-012-input.png": "7f409c16480ee654474fcd2d963ea8a335802699531f7b0f9b15f1ce2920f076",
+    "outputs/E004-new-bundle-closure-20261016/NC-013-input.png": "c88860ec09ca85e94ba409fb140545fd1cb4ffc86813d19aeb6d0fc849ed5aa9"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "date": "2026-10-16",
+  "checks": {
+    "owner_receipt_and_input_zip_pins": "PASS",
+    "python_ast": 6,
+    "gallery_local_links": 471,
+    "review_ids_exact": 92,
+    "all_original_crop_ids_present": 80,
+    "derivative_pixel_and_preprocessing_parity": 29,
+    "gallery_dom_filters": "PASS: validate-gallery.cjs",
+    "gallery_render": "Chrome headless 1440x1200, root viewed screenshot",
+    "ruff": "PASS --ignore E501; long narrative/HTML strings only",
+    "repository_checker": "PASS failures=0"
+  },
+  "limits": [
+    "No training/model/test execution",
+    "No canonical release acceptance",
+    "Source B per-frame notes not persisted by agent; overview completion reported in agent message"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema": "research-crop-batch-closure-v1",
+  "date": "2026-10-16",
+  "scope": "Nhãn và crop hiện có của batch 247; không phải canonical release hoặc training acceptance.",
+  "owner_direction": "Các crop không đề cập đều approve; kiểm kỹ và giải quyết ngoại lệ, bỏ U/U; có thể loại hai crop G5 nếu QA không phù hợp.",
+  "exception_authority": "Kết luận audit theo yêu cầu owner; không giả là owner trực tiếp ghi nhãn mới cho từng ngoại lệ.",
+  "retained": 240,
+  "excluded": 7,
+  "label_counts_retained": {
+    "U/N": 92,
+    "U/P": 39,
+    "N/N": 22,
+    "N/P": 9,
+    "P/N": 69,
+    "P/P": 9
+  },
+  "excluded_ids": [
+    "CB-0601-R1",
+    "CB-0673",
+    "CB-0702",
+    "CB-0718-R1",
+    "G5-A05-F109",
+    "G5-A06-F099",
+    "G3-A05-F003"
+  ],
+  "changed_labels": [
+    {
+      "id": "CB-0487",
+      "before": "P/N",
+      "after": "U/N",
+      "reason": "Thiết bị đang cầm chỉ lộ lưng xanh. Thiết bị đặt sau bàn tay chỉ còn một mảnh tối ngắn trên giấy, không đủ mặt/viền để loại calculator/vật khác ở input 224; prior P quá mạnh. Đầu nhìn vùng riêng."
+    },
+    {
+      "id": "CB-0514-R1",
+      "before": "U/N",
+      "after": "P/N",
+      "reason": "Vật cầm dọc chỉ lộ lưng đen, nhưng trên bàn ngay sau bàn tay có thiết bị thứ hai lộ mặt kính xanh lớn và viền mỏng; đủ evidence phone riêng của anchor. Đầu hướng vùng bàn riêng."
+    },
+    {
+      "id": "G2-A12-F005",
+      "before": "U/P",
+      "after": "N/P",
+      "reason": "Một tay cầm bút ở mép bàn, tay kia gần miệng với các ngón nhìn thấy; không có device mơ hồ của anchor còn lộ. Calculator ở bàn người áo xanh phía sau không thuộc anchor. Hướng đầu sang phải ngoài giấy riêng rõ."
+    }
+  ],
+  "remaining_release_gates": [
+    "person geometry không được suy từ context box",
+    "lineage/group membership",
+    "split và training config approval"
+  ],
+  "training_ready": false,
+  "files": {
+    "artifacts/reports/E004-crop-closure-20261015/owner-review-input.md": "7cc8d8224db22a243367bd3386169ec81d13565279250d9125bf107a6ee15791",
+    "artifacts/reports/E004-crop-closure-20261015/exception-findings.json": "3dbc7ec7e64f336711ed60beb4ded65f7a1aa121be52c34ec5872b36f990c043",
+    "artifacts/reports/E004-crop-closure-20261015/candidate-ledger.json": "0cdff9831bb99f677000b748d5d028a8c340c1ede682d040a89d8b220dcc257f",
+    "artifacts/reports/E004-crop-closure-20261015/label-deltas.json": "1df648196fc7df0e9142a03e0c46663fa1e6ef497d1ded7fc739e1e907d12190",
+    "artifacts/reports/E004-device-consistency-20261015/candidate-ledger.json": "613095e15012e61f1c3f1d17f12638d07996e3a739e4c7716e9cacf9ab07d08f",
+    "artifacts/reports/E004-device-consistency-20261015/result-pins.json": "81fcb93424496e102e5de8366ab27322da848c2a7e25146c265f537f7654b8f8",
+    "artifacts/reports/E004-device-consistency-20261015/handoff-pins.json": "c292f4173a677708e5984d71135974bbe8fb955d03db7cc1956df98d25d02e77"
+  }
+}

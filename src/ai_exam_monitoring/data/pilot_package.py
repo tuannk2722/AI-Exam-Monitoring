@@ -101,10 +101,23 @@ def _preflight(
             with Image.open(input_crop) as image, Image.open(file) as original:
                 expected = original.convert("RGB").crop(crop.context_box.xyxy)
                 actual = image.convert("RGB")
-                if actual.size != expected.size or actual.tobytes() != expected.tobytes():
+                if crop.derivation is not None:
+                    derived = crop.derivation
+                    if (
+                        hashlib.sha256(expected.tobytes()).hexdigest()
+                        != derived.native_roi_rgb_sha256
+                        or actual.size != (derived.output_width, derived.output_height)
+                        or image.format != derived.output_format
+                    ):
+                        raise DataContractError(
+                            f"Derived crop provenance mismatch: {record.sample_id}"
+                        )
+                elif actual.size != expected.size or actual.tobytes() != expected.tobytes():
                     raise DataContractError(
                         f"Crop pixels do not match source coordinates: {record.sample_id}"
                     )
+        elif crop.derivation is not None:
+            raise DataContractError("Reviewed imported derivative requires exact crop input bytes")
         elif crop.review is not None:
             # A new reviewed crop is reproduced from its rectangle; its checksum
             # must have been recorded by the reviewer/producer, never filled here.
@@ -333,8 +346,12 @@ def build_pilot_package(
         if any(selected.get(field) != value for field, value in fields.items()):
             raise DataContractError("Selection provenance differs from the decision ledger")
     for row in rows:
-        if row.crop and row.crop.crop_relpath != f"crops/{row.sample_id}.png":
-            raise DataContractError("Package crop path must be crops/<sample_id>.png")
+        if row.crop:
+            suffix = ".png"
+            if row.crop.derivation and row.crop.derivation.output_format == "JPEG":
+                suffix = ".jpg"
+            if row.crop.crop_relpath != f"crops/{row.sample_id}{suffix}":
+                raise DataContractError("Package crop path must match sample ID and format")
     _release_gates(rows, metadata)
     output = Path(output_dir).resolve()
     raw = Path(__file__).resolve().parents[3] / "data" / "raw"

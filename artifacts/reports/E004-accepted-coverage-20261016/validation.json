@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "accepted_count": 345,
+  "NC_approved": 13,
+  "verified_upstream_pins": 49,
+  "source_crop_input_hashes": "PASS all 345",
+  "input_224_dimensions": "PASS all 345",
+  "exact_duplicates": 0,
+  "exact_baseline_metadata_overlaps": 0,
+  "README_local_links": 12,
+  "AST": "PASS",
+  "ruff": "PASS --ignore E501 narrative lines",
+  "repository_check": "PASS failures=0",
+  "git_diff_check": "PASS",
+  "training_executed": false,
+  "protected_media_accessed": false,
+  "canonical_release_created": false,
+  "limitation": "No near-duplicate cross-baseline visual lineage audit; no new model quality measurement."
+}

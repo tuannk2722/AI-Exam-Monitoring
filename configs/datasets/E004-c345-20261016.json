@@ -1,0 +1,21 @@
+{
+  "status": "owner_authorized_assembly",
+  "parent": {
+    "path": "data/processed/pilot-b/pilot-b-20261013-v9/checksums.sha256",
+    "sha256": "ad0959205c24bbbde8cd009335429dab4df4762dac97818608e46cab82b75c73"
+  },
+  "parent_development": {
+    "path": "data/processed/e004/E004-v9-development-20261013/checksums.sha256",
+    "sha256": "df505bf90d85815455ad4fce3d76e5834d55beae1d6bcb89c3f63754a79b4ec9"
+  },
+  "approval": {
+    "path": "artifacts/reports/E004-train-enrollment-20261016/owner-enrollment-approval.json",
+    "sha256": "b121b2cff84459ae303e0ec4aa99523cf6f7669f36b9ec806488dea91cd13396"
+  },
+  "canonical_output": "data/processed/pilot-b/pilot-b-20261016-v10",
+  "development_output": "data/processed/e004/E004-c345-development-20261016",
+  "expected_new_train": 345,
+  "expected_train": 1061,
+  "preserve_labels_crops_groups_evaluation": true,
+  "semantics_revision": "E004-PHONE-OCCLUSION-20261015 for new rows only; parent unchanged"
+}

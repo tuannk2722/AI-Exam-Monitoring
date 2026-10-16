@@ -1,0 +1,29 @@
+study_id: E004-crop-bundle-review-20261014
+status: Draft_review_only
+scope: owner_review_reconciliation_and_source_recrops
+inputs:
+  records: data/interim/E004-crop-bundle-audit-20261014/records.json
+  owner_snapshot: artifacts/reports/E004-crop-bundle-review-20261014/owner-review-original.md
+  owner_mapping: artifacts/reports/E004-crop-bundle-review-20261014/review-input.json
+  manual_observations: artifacts/reports/E004-crop-bundle-review-20261014/manual-observations.json
+  geometry: artifacts/reports/E004-crop-bundle-review-20261014/geometry-proposals.json
+preview:
+  size: 224
+  fill: [124, 116, 104]
+  transform: rgb_letterbox_bilinear_v1
+redundancy:
+  dhash_max_distance: 5
+  require_same_parent: true
+  require_same_anchor: true
+  require_same_draft_labels: true
+  require_same_review_class: true
+  require_visual_pair_review: true
+  review: artifacts/reports/E004-crop-bundle-review-20261014/redundancy-visual-review.json
+  delete_originals: false
+outputs:
+  media: data/interim/E004-crop-bundle-review-20261014
+  gallery: outputs/E004-crop-bundle-review-20261014/index.html
+  report: artifacts/reports/E004-crop-bundle-review-20261014/README.md
+release_authorized: false
+training_authorized: false
+split: null
