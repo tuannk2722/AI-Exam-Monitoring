@@ -92,7 +92,7 @@ Git giữ source/spec/guide/config/metadata nhỏ; không media/model/checkpoint
 | TASK | Một task hiện hành; thay khi task mới, không làm WORKLOG hoặc authority khoa học |
 | Archive/backup | Registry/pointer/manifest có verification; snapshot mới có identity mới, không reseal bản cũ |
 
-Khi có release/run mới, cập nhật backup theo quyền và kiểm restore phù hợp. Backup cùng ổ chỉ bảo vệ sửa/xóa nhầm; off-device/remote cần scope riêng. [Operations](operations.md) có exact historical inputs/commands; [handoff](../artifacts/reports/repository-handoff-20261011/README.md) là snapshot availability, không cam kết chứa output tương lai. Missing inputs: active → Git/archive inventory → backup xác minh → reacquire đúng version theo quyền; không bỏ integrity guards.
+[Chính sách retention](storage.md) là nơi quy định giữ/nghỉ lưu, backup và xử lý thiếu input. [Operations](operations.md) chỉ dẫn thao tác restore khi task cần. Không tự chạy lại script cleanup/backup trong report lịch sử; chúng gắn với inventory và identity của đợt đó.
 
 ## 7. Trạng thái, traceability và kiểm tài liệu
 

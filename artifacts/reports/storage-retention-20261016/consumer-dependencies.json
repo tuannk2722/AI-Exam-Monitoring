@@ -1,0 +1,34 @@
+{
+  "evidence": [
+    "src/ai_exam_monitoring/training/error_audit.py:130",
+    "src/ai_exam_monitoring/training/evaluate.py:53",
+    "src/ai_exam_monitoring/training/adaptation_evaluate.py:54"
+  ],
+  "additional_protected": [
+    {
+      "path": "outputs/E001/last.pt",
+      "sha256": "ab92eecae5482b831213d61c14c6b4ccb96ad656329f3b35072fd23037bfc7fd",
+      "bytes": 34447,
+      "reason": "retained_primary_audit_dependency; full-run checksum consumer"
+    },
+    {
+      "path": "outputs/E002/last.pt",
+      "sha256": "18e3f08c84af54e9fa964305eac65a2e5ff2ca69156b6b68d35a57968aa1ca72",
+      "bytes": 34255,
+      "reason": "retained_primary_audit_dependency; full-run checksum consumer"
+    },
+    {
+      "path": "outputs/E003/last.pt",
+      "sha256": "2f139b4948dc3869d6d2bfefa61f79fcc64a83583476fe6e65894ec3743db3a8",
+      "bytes": 35407,
+      "reason": "retained_primary_audit_dependency; full-run checksum consumer"
+    },
+    {
+      "path": "outputs/E004-C345-W-H/last.pt",
+      "sha256": "f60f9cfb91a75788def9400da40d2f222f6274a6b33d71d9b7dc5ed26d0b755c",
+      "bytes": 156792480,
+      "reason": "retained_primary_audit_dependency; full-run checksum consumer"
+    }
+  ],
+  "supplement_backup": "archive/current-run-dependencies-20261016.zip"
+}

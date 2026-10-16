@@ -17,10 +17,12 @@
 
 ## Bảo toàn
 
-- Raw bất biến; derivative/version mới ở interim/processed. Không mutate/reseal accepted releases, config/receipt hoặc artifact đã pin (kể cả Draft đã được audit pin). Missing input: truy/restore đúng version, không bỏ integrity guards.
+- Retention hiện hành theo [chính sách lưu trữ](docs/storage.md), owner duyệt 16/10/2026: bảo vệ dataset/model/metadata hiện hành, không bắt buộc giữ mọi payload lịch sử. Tra availability trước restore; receipt/pins cũ không chứng minh bytes còn tồn tại. Không tạo lại dữ liệu hoặc sửa pins để lấp payload đã retire.
+
+- Raw bất biến; derivative/version mới ở interim/processed. Không mutate/reseal accepted releases, config/receipt hoặc artifact đã pin (kể cả Draft đã được audit pin). Bất biến nghĩa là không sửa bytes/pins, không bắt buộc giữ payload vĩnh viễn. Nghỉ lưu chỉ theo scope/manifest đã duyệt; thiếu input xử lý theo chính sách retention, không bỏ integrity guards.
 - Git không media/model/checkpoint/env/cache/credentials. Không real identity trong filenames/manifests; không upload người thật/W&B/API thiếu consent/use scope. DVC pointer không là remote backup; push chỉ scope được duyệt.
 - Run có ID/hypothesis/owner/code/config/data/split/encoding/seed/environment/status/metrics/checksums/decision. Đổi variables tạo identity mới; OOM/interruption không silent đổi config. Unknown masked; test không tuning hoặc mở lại thiếu protocol/approval.
-- Tái lập run/model cũ bằng original code/pins/environment; không sửa hash cũ hoặc nới evaluator sau refactor. Restore workspace tạm dọn sau dùng.
+- Chỉ tái lập run/model cũ khi task cần và đủ input, bằng original code/pins/environment; không sửa hash cũ hoặc nới evaluator sau refactor. Restore workspace tạm dọn sau dùng.
 
 ## Bàn giao
 

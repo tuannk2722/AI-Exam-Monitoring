@@ -10,7 +10,7 @@
       "original_bytes": 4237000147,
       "archive_bytes": 2472305147,
       "scope": "local_only",
-      "owner_authorization": "User yêu cầu thực hiện tối ưu active/archive, giữ path/pins.",
+      "owner_authorization": "User yÃªu cáº§u thá»±c hiá»‡n tá»‘i Æ°u active/archive, giá»¯ path/pins.",
       "validation": {
         "snapshot_paths": 12820,
         "restore_verified_files": 10617,
@@ -28,7 +28,7 @@
         "base_simulation_skipped_classifier": 24,
         "new_helpers_strict_mypy": "PASS",
         "full_mypy_existing_errors": 41,
-        "storage": "DVC local cache; workspace ZIP readonly hardlink; chưa remote backup"
+        "storage": "DVC local cache; workspace ZIP readonly hardlink; chÆ°a remote backup"
       }
     },
     {
@@ -147,6 +147,36 @@
         "byte_exact_restore": "PASS",
         "restored_files": 4121,
         "receipt": "artifacts/reports/E004-train-enrollment-20261016/backup-receipt.json"
+      }
+    },
+    {
+      "name": "current-assets-20261016",
+      "path": "archive/current-assets-20261016.zip",
+      "sha256": "2746ae38f5adde111d31bb2dd874f4b63439343592c0413b92e0622b1e5a3601",
+      "files": 10880,
+      "archive_bytes": 1851781136,
+      "scope": "local_only",
+      "owner_authorization": "Owner approved current-asset retention in conversation on 2026-10-16; no remote upload",
+      "validation": {
+        "byte_exact_restore": "PASS",
+        "restored_files": 10880,
+        "receipt": "artifacts/reports/storage-retention-20261016/backup-verification.json",
+        "storage": "Standalone ZIP; no duplicate DVC cache copy; same drive, not off-device"
+      }
+    },
+    {
+      "name": "current-run-dependencies-20261016",
+      "path": "archive/current-run-dependencies-20261016.zip",
+      "sha256": "b70175983379dd1e4acd7c87453218acfa0ae54e5ec8cea357f10a8ecc9e0705",
+      "files": 4,
+      "archive_bytes": 156897977,
+      "scope": "local_only",
+      "owner_authorization": "Owner approved current-asset retention in conversation on 2026-10-16; no remote upload",
+      "validation": {
+        "byte_exact_restore": "PASS",
+        "restored_files": 4,
+        "receipt": "artifacts/reports/storage-retention-20261016/dependency-backup-verification.json",
+        "storage": "Standalone ZIP; no duplicate DVC cache copy; same drive, not off-device"
       }
     }
   ]

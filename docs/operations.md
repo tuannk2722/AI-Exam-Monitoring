@@ -2,13 +2,19 @@
 
 Chỉ đọc khi task cần restore/reproduction/backup. Đây là hướng dẫn thao tác, không phải yêu cầu sản phẩm hoặc quyền mở lại test. [Reports index](../artifacts/reports/README.md) tìm evidence; [development](development.md) quy định lifecycle. Các lệnh theo version dưới đây chỉ áp dụng đúng historical identity; kiểm availability/pins trước chạy.
 
+## Trước khi restore
+
+Đọc [retention](storage.md#thiếu-input) và [availability](../artifacts/reports/storage-retention-20261016/availability.json). Registry/DVC pointer định danh, không chứng minh binary còn tồn tại. Recipes bên dưới chỉ dùng khi task cần và đủ inputs; không phải lệnh chạy lại lịch sử.
+
+Hai backup hiện hành và receipt nằm trong availability. Chúng dùng `common.history`, đã kiểm restore, cùng ổ D; remote chưa xác minh. Không tự push/pull hoặc phục hồi để lấp payload đã chủ động nghỉ lưu.
+
 ### Inputs tối thiểu để dùng lại kết quả
 
 | Nhu cầu | Inputs cần có | Cách kiểm / giới hạn |
 |---|---|---|
 | Đọc kết quả E001–E003 | `artifacts/reports/E00N/metrics.json`, hồ sơ baseline-review-20261011 | Không cần restore source hoặc chạy inference |
 | Verify package v4/v6/v7 | Package đầy đủ + `checksums.sha256`, manifest/ledger/release/split/freeze | `integrity.verify_payload` + codec; không tự cấp test access |
-| Verify loader v5 | Package v5 và v4; v5 release approval/preservation; ba pins membership/groups/proposal | Ba metadata dependencies đã khôi phục exact bytes vào paths trong owner approval; không cần bung archive để verify loader |
+| Verify loader v5 | Package v5 và v4; v5 release approval/preservation; ba pins membership/groups/proposal | Ba metadata dependencies còn trong Git; crops active V4/V5 đã nghỉ lưu. Chỉ verify loader khi đã có đủ package đúng pins |
 | Evaluate/reproduce E001–E003 | Exact Git commits `45240ea` / `0825239` / `4e206a6`; configs/approvals; package v4/v5/v6; pretrained đúng weights SHA; run artifacts và environment của `run.json` | Original package-wide code identity; evaluator đòi output mới. Scope final test giữ nguyên, restore không là approval mở lại test |
 | Rebuild v7 | Snapshot source trước cleanup, exact config v7, parent v6/source inputs, ledger/assignment/whole-family/rights/provenance/review pointer và dependencies chúng trỏ tới | Dùng restore recipe bên dưới trong workspace riêng; current builder đã đổi self-SHA nên không chạy để reseal |
 | Tái dùng shortlist/review | docs/reference.md#data-tools mapping → Git module gốc/import closure → exact source/config pins | Read-only `git show` trước; chỉ thích nghi phần cần dùng cho task mới, có tests |

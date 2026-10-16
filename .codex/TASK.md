@@ -1,11 +1,25 @@
-﻿# E004-TRAIN-ENROLLMENT-20261016
+# DOCS-RESTRUCTURE-STORAGE-20261016 — Cấu trúc lại tài liệu hệ thống và chính sách lưu trữ
 
-- Trạng thái: hoàn tất phạm vi được owner approve ngày 16/10/2026; Continue research, chưa Selected.
-- Scope: chuẩn hóa geometry/lineage/provenance cho 345 accepted crop; giữ crop bytes/nhãn; kiểm leakage; chuẩn bị package train và proposal experiment chỉ thay dữ liệu, giữ selection 71. Owner yêu cầu thực hiện tới hoàn thành, không cần review lại nhãn/crop đã duyệt.
-- Inputs: E004-accepted-coverage-20261016/result-pins.json và ledgers upstream; V9 release/development/pins; docs data/training/reference; code schema/exporter/loader hiện hành.
-- Outputs dự kiến: artifacts/reports/E004-train-enrollment-20261016; data/interim và outputs cùng ID; config/package mới khi đủ điều kiện. Không sửa snapshots cũ.
-- Hiện trạng: owner đã duyệt contract crop dẫn xuất, 345 geometry, quarantine group và thiết kế E004-C345-W-H (CPU tối đa 7.200 giây, smoke trước run). V10 và development package đã đóng, loader PASS, 1.061 train; giữ nội dung 1.208 records parent. Evidence tại E004-train-enrollment-20261016/package-pointers.json.
-- Constraints: không invent person boxes/independence, không dùng context làm person; giữ test/reserve đóng, chỉ metadata integrity; không tự đổi schema/labels/split/recipe. Approval mới bao phủ implementation các bước báo cáo, không thay quyết định khoa học còn chưa định nghĩa.
-- Checks: upstream pins; ROI/input parity; lineage/overlap; schema/export/loader khi khả thi; focused tests/diff. Không claim 100% nếu còn gate/clarification.
-- Kết quả: smoke FINISHED; research FINISHED 11 epochs/best epoch 1 sau recovery orphan process tại epoch 8. Config/checkpoint giữ nguyên; downtime tính bảo thủ vào budget. Run integrity và reload scores/metrics exact parity PASS. Báo cáo/comparison tại E004-train-enrollment-20261016: looking cải thiện nhưng phone FP tăng; M1/M2/M3 chưa đạt trên development, M4 INCONCLUSIVE. Backup local 4.121 files restore byte-exact PASS; cache restore/rebuild đã dọn.
-- Bước tiếp: bàn giao kết quả; không tự chạy thêm experiment, đổi recipe/nhãn/threshold hoặc mở test/reserve. Nghiên cứu tiếp cần thiết kế riêng. Git chưa stage/commit.
+- Trạng thái: hoàn tất; đã chuẩn hóa vị trí và tên file chính sách lưu trữ từ STORAGE_OPTIMIZATION.md thành tài liệu hệ thống chính thức docs/storage.md và cập nhật toàn bộ liên kết trong repository.
+
+## Yêu cầu và hiện trạng
+- User goal: chuyển STORAGE_OPTIMIZATION.md (vốn sinh ra là bản kế hoạch thực hiện) thành tài liệu hệ thống chính thức docs/storage.md, chuẩn hóa vị trí, tên file và cập nhật toàn bộ incoming links trong repository; đồng thời phân tích sâu nguyên nhân cốt lõi khiến chất lượng model chưa bứt phá sau nhiều vòng lặp dữ liệu/huấn luyện.
+- Đối chiếu Git/files/code: baseline 999c0cc; STORAGE_OPTIMIZATION.md ở root đã được chuyển thành docs/storage.md; toàn bộ links từ AGENTS.md, README.md, docs/00-INDEX.md, docs/decisions.md, docs/development.md, docs/operations.md, docs/reference.md, docs/status.md, docs/system.md, docs/training.md, artifacts/reports/storage-retention-20261016/README.md đã được cập nhật đồng bộ.
+- Nguyên tắc: Giữ nguyên các cam kết kỹ thuật và quyết định owner 16/10/2026; không sửa source code, tests, hay pins lịch sử.
+
+## Quyết định và inputs
+- Quyết định: STORAGE-RETENTION-20261016 (Accepted); chính sách lưu trữ trở thành contract hệ thống docs/storage.md.
+- Inputs: docs/storage.md, docs/00-INDEX.md, AGENTS.md, README.md, docs/decisions.md, docs/development.md, docs/operations.md, docs/reference.md, docs/status.md, docs/system.md, docs/training.md, artifacts/reports/storage-retention-20261016/README.md, cùng toàn bộ báo cáo thực nghiệm E001–E004 (V9, RC1, C345) và mã nguồn training.
+
+## Outputs và vòng đời
+- Di chuyển và chuẩn hóa: xóa STORAGE_OPTIMIZATION.md ở root → tạo docs/storage.md.
+- Cập nhật references: 11 files tài liệu hệ thống và báo cáo lưu trữ trỏ chính xác về docs/storage.md.
+- Hồ sơ: không tạo report mới; giữ nguyên trạng thái chưa stage/commit theo quy tắc bàn giao.
+
+## Contract impact và checks
+- Contract impact: Chuẩn hóa bộ tài liệu docs/, docs/storage.md trở thành tài liệu lưu trữ chính thức. Không thay đổi scientific gates, data schema hay model contracts.
+- Checks: scripts/check_repo.py PASS (failures=0); tests/test_check_repo.py PASS (13 tests OK); git grep xác nhận không còn reference cũ tới STORAGE_OPTIMIZATION.md ngoài TASK.md.
+
+## Checkpoint và bàn giao
+- Đã hoàn tất cấu trúc lại docs/storage.md và đồng bộ toàn bộ hệ thống tài liệu.
+- Đã hoàn tất phân tích nguyên nhân gốc rễ về giới hạn chất lượng model qua các vòng E001–E004 và đề xuất lộ trình giải quyết dứt điểm.

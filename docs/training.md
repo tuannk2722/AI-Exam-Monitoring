@@ -6,7 +6,7 @@ Contract experiment, loss/metrics, provenance, test access và promotion. Recipe
 
 ## 2. Dữ liệu, loss và metrics
 
-Loader phải kiểm payload/inventory, schema/encoding, membership/usage/rights/split/freeze và approval đúng scope trước sử dụng. Unknown không thành negative; không glob crops hoặc đưa review-only/U-U vào supervision. Guard implementation cụ thể xem reference; thiếu input phải restore đúng pin, không bỏ kiểm tra.
+Loader phải kiểm payload/inventory, schema/encoding, membership/usage/rights/split/freeze và approval đúng scope trước sử dụng. Unknown không thành negative; không glob crops hoặc đưa review-only/U-U vào supervision. Guard implementation cụ thể xem reference; thiếu input xử lý theo [retention](storage.md#thiếu-input), không bỏ kiểm tra.
 
 JSON unknown là null/mask 0; tensor có placeholder để tính nhưng loss/metric chỉ lấy known positions. Objective full-batch cần known support cho mỗi target. Với mini-batch phải chốt aggregation/empty-target handling; không biến U thành N hoặc sửa loss ngầm để tránh batch lỗi.
 
@@ -39,4 +39,4 @@ Proposal cụ thể có thể yêu cầu điều kiện chặt hơn. Điều ki�
 6. Chỉ freeze candidate/protocol và mở final test khi có approval riêng, đủ support/rights/independence. Không đổi model/threshold/slice rồi thử lại cùng test sau thấy kết quả.
 7. Ghi decision Continue/Rejected/Candidate/Selected có evidence và limitations. FINISHED là trạng thái kỹ thuật, không Selected; promotion cần owner nghiệm thu.
 
-Output chính `outputs/<ID>/` có `run.json`, `resolved-config.json`, `best.pt`, `last.pt`, `history.json`, `metrics.json`, `predictions-train.json`, `predictions-val.json`, features/cache và `checksums.json`; reports nhỏ giữ trong Git khi cần bàn giao. Checkpoint last giữ head/optimizer/RNG/epoch/best/early-stop/history; writes atomic. Resume từ chối code/config/data/features khác. OOM/FAILED/INTERRUPTED phải ghi đúng status và lỗi; không giảm batch hoặc đổi config trong cùng identity.
+Output chính `outputs/<ID>/` có `run.json`, `resolved-config.json`, `best.pt`, `last.pt`, `history.json`, `metrics.json`, `predictions-train.json`, `predictions-val.json`, features/cache và `checksums.json`; reports nhỏ giữ trong Git khi cần bàn giao. Retention sau khi đóng run theo [chính sách tài sản hiện hành](storage.md): chỉ nghỉ lưu checkpoint khi không còn consumer cần file; không sửa checksum gốc hoặc nới evaluator. Checkpoint last giữ head/optimizer/RNG/epoch/best/early-stop/history; writes atomic. Resume từ chối code/config/data/features khác. OOM/FAILED/INTERRUPTED phải ghi đúng status và lỗi; không giảm batch hoặc đổi config trong cùng identity.

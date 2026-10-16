@@ -63,3 +63,5 @@ Experiment đang thiết kế: [configs index](../../configs/experiments/README.
 [E004 enrollment và run C345](E004-train-enrollment-20261016/README.md): V10/development có 1.061 train; research FINISHED, reload exact parity; looking cải thiện nhưng phone false positives tăng, Continue research.
 
 [Handoff 2026-10-11](repository-handoff-20261011/README.md) giữ snapshot checks/backup và original locator. Các tổng hợp mới trên không thay receipt gốc hoặc là data/model acceptance mới.
+
+[Retention tài sản hiện hành 16/10/2026](storage-retention-20261016/README.md): chính sách owner duyệt, availability mới và evidence cleanup; report cũ không chứng minh payload còn tồn tại.

@@ -1,0 +1,73 @@
+{
+  "status": "complete",
+  "baseline_commit": "999c0cce08a6f9a4002693d29be578fcba803dc8",
+  "policy": "STORAGE_OPTIMIZATION.md",
+  "archives": [
+    {
+      "path": "archive/history-20261010.zip",
+      "sha256": "dac8a3ca91e9992906227741eb07af25199e9def15fd7cddd97b197c0a13878f",
+      "availability": "local_retained"
+    },
+    {
+      "path": "archive/e004-source-expansion-20261013.zip",
+      "sha256": "0c67e1eebd2655e7e02b774c363772ae9ef1a8f67e386627afb20eddad74f595",
+      "availability": "local_retained"
+    },
+    {
+      "path": "archive/e004-v9-consolidation-20261013.zip",
+      "sha256": "8883c176060c82b31c7436dea341867448204e157a20f111c3560eae389342b3",
+      "availability": "local_retained"
+    },
+    {
+      "path": "archive/e004-v9-execution-20261013.zip",
+      "sha256": "a16dde889f8582fff05d814833eccc1157f30dc74cb8f180c796bf1a08de589f",
+      "availability": "retired"
+    },
+    {
+      "path": "archive/e004-rc1-preimplementation-20261014.zip",
+      "sha256": "0dafea05cc24d312c8889401e4aa0fe6e73c6d1de6ed9e7c204b521a14dcb674",
+      "availability": "local_retained"
+    },
+    {
+      "path": "archive/e004-rc1-software-20261014.zip",
+      "sha256": "3f8a6a8c5d9bb872a306651bf0ef61575597a8bb47dad0e6ff107af4ae6a9cb2",
+      "availability": "local_retained"
+    },
+    {
+      "path": "archive/e004-rc1-execution-20261014.zip",
+      "sha256": "ad554ecd5d0ef6662a232ae0643b851fd8d2b6df020b9b1642d986f2c3febf00",
+      "availability": "retired"
+    },
+    {
+      "path": "archive/e004-c345-execution-20261016.zip",
+      "sha256": "079d7c30d86593ce0bcf5887be8d9051cda6756e4f21fd889f930cc62a772615",
+      "availability": "retired"
+    },
+    {
+      "path": "archive/current-assets-20261016.zip",
+      "sha256": "2746ae38f5adde111d31bb2dd874f4b63439343592c0413b92e0622b1e5a3601",
+      "availability": "local_retained",
+      "purpose": "current_assets_backup",
+      "receipt": "artifacts/reports/storage-retention-20261016/backup-verification.json"
+    },
+    {
+      "path": "archive/current-run-dependencies-20261016.zip",
+      "sha256": "b70175983379dd1e4acd7c87453218acfa0ae54e5ec8cea357f10a8ecc9e0705",
+      "availability": "local_retained",
+      "purpose": "current_assets_backup",
+      "receipt": "artifacts/reports/storage-retention-20261016/dependency-backup-verification.json"
+    }
+  ],
+  "current_packages": [
+    "data/processed/pilot-b/pilot-b-20261016-v10",
+    "data/processed/e004/E004-c345-development-20261016"
+  ],
+  "historical_packages": "V4-V9 and V9 development: metadata retained; active crops retired; no reproduction guarantee",
+  "models": "All primary best.pt and pretrained retained; C345/E001-E003 last.pt retained for checksum consumers; historical E004 resume retired",
+  "sources": "raw/interim, cohort/reserve, galleries and source archives retained",
+  "remote": "not verified; no upload",
+  "deleted_inventory": "plan.json#delete",
+  "protected_inventory": "plan.json#protected",
+  "receipt": "receipt.json",
+  "authority": "Current storage availability; historical registry/receipts retain original identity, not a presence guarantee"
+}

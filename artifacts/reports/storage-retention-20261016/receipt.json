@@ -1,0 +1,39 @@
+{
+  "status": "complete",
+  "deleted_files": 4950,
+  "deleted_logical_bytes": 12307860097,
+  "reasons": {
+    "archive_cache_copy; retained ZIP or explicitly retired execution": 7,
+    "retired_execution_archive; current assets backed up separately": 3,
+    "historical_crop_payload; metadata retained; reproduction not guaranteed": 4907,
+    "retired_resume_or_smoke_weights; metadata retained": 33
+  },
+  "protected_files_verified": 10260,
+  "current_packages_integrity": "PASS",
+  "backup": {
+    "path": "archive/current-assets-20261016.zip",
+    "sha256": "2746ae38f5adde111d31bb2dd874f4b63439343592c0413b92e0622b1e5a3601",
+    "files": 10880,
+    "archive_bytes": 1851781136,
+    "restore_verified": true,
+    "same_drive": true,
+    "off_device": false,
+    "restore_scratch": "outputs/_scratch/storage-retention-restore"
+  },
+  "dependency_backup": {
+    "path": "archive/current-run-dependencies-20261016.zip",
+    "sha256": "b70175983379dd1e4acd7c87453218acfa0ae54e5ec8cea357f10a8ecc9e0705",
+    "files": 4,
+    "archive_bytes": 156897977,
+    "restore_verified": true,
+    "same_drive": true,
+    "off_device": false,
+    "restore_scratch": "outputs/_scratch/storage-dependency-restore"
+  },
+  "historical_reproduction": "not guaranteed for retired payloads; no hash resealing",
+  "after_before_scratch_cleanup": {
+    "logical_bytes": 14208052494,
+    "unique_file_bytes": 11735747347,
+    "scope": "cache/archive/venv/outputs/data/artifacts; not allocated disk clusters"
+  }
+}

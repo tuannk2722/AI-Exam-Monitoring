@@ -1,0 +1,7 @@
+{
+  "initial_check": "All 4950 deletion paths were present; receipt absent",
+  "resumed_preflight": "Stopped at first missing deletion path before unlink",
+  "subsequent_check": "Receipt complete; all 4950 paths absent; 10260 protected hashes and current packages verified by completing apply",
+  "limitation": "Initial process listing did not establish reliable absence of earlier apply; do not infer process termination from tool interruption",
+  "followup": "Independent validation; added exclusive apply lock for future invocation; no further apply"
+}

@@ -69,7 +69,7 @@ Nghiệm thu end-to-end phải dùng video được phép, model đã chọn, cr
 
 Ngân sách 0 đồng. Local cho development/audit/inference; Colab Free là hướng GPU đã chốt. Mỗi benchmark/run phải pin hardware/environment; ngoại lệ compute của run lịch sử không cấp quyền mặc định cho run mới. Cloud/realtime/auth chỉ thêm khi requirement/gate và user yêu cầu thực sự cần.
 
-Media người thật cần policy văn bản cho consent, access, third-party processing, retention/deletion và incident handling trước thu nhận/ghi/upload. Retention cụ thể chưa chốt. Không real identity trong tên file/manifest, không credential trong Git/TASK/log; không upload media vào API/W&B khi thiếu quyền. Nguồn đã có approval giữ đúng scope, không hỏi lại phần không đổi.
+Media người thật cần policy văn bản cho consent, access, third-party processing, retention/deletion và incident handling trước thu nhận/ghi/upload. Retention media runtime/video chưa chốt; [retention workspace nghiên cứu](storage.md) không thay policy này hoặc cấp quyền thu nhận/upload media. Không real identity trong tên file/manifest, không credential trong Git/TASK/log; không upload media vào API/W&B khi thiếu quyền. Nguồn đã có approval giữ đúng scope, không hỏi lại phần không đổi.
 
 ## 6. Điều kiện chuyển bước
 

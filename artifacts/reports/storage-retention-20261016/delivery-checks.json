@@ -1,0 +1,10 @@
+{
+  "ruff": "PASS",
+  "diff_check": "PASS",
+  "repo_checker": "PASS",
+  "require_git_temporary_index": "PASS",
+  "real_index": "unchanged; post-cleanup changes not staged",
+  "exclusive_apply_lock_stub": "PASS",
+  "scratch_restore_and_checkout": "removed",
+  "baseline_commit": "999c0cce08a6f9a4002693d29be578fcba803dc8"
+}

@@ -6,6 +6,7 @@ Original ADR ở Git `ab34b32:docs/decisions/<filename>`; tra tên bằng `git l
 
 | ID | Trạng thái / nội dung và phạm vi áp dụng | Nơi giữ nội dung |
 |---|---|---|
+| STORAGE-RETENTION-20261016 | Accepted trong hội thoại: ưu tiên dataset/model hiện hành, giữ metadata/nguồn cần cải thiện, chấp nhận bỏ khả năng tái lập payload lịch sử được liệt kê; commit trước cleanup. Không đổi scientific gates | [Chính sách](storage.md), [thực hiện](../artifacts/reports/storage-retention-20261016/README.md) |
 | ADR-001 | Accepted: research/demo recorded, một camera, human review; ngoài scope identity/production | System §1, §5 |
 | ADR-002 | Superseded phần formulation/normal bởi 011/012; không là lựa chọn A/B đang mở | System §1; Data semantics |
 | ADR-003 | Accepted cho candidate SCB/RF; Discuss loại, nhãn nguồn không tự accepted | [Nghiên cứu nguồn](../artifacts/reports/data-research-20261011/README.md) |

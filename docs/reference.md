@@ -35,7 +35,7 @@ Recipe E001–E003 ở [baseline report](../artifacts/reports/baseline-review-20
 
 Backbone chỉ load weights local đúng SHA; không tự download, random fallback hoặc đổi license. Legacy `best.pt` chứa head/config/identity/epoch và cần pretrained gốc. Schema `matched-adaptation-v1` thêm frozen matched control/layer4 CPU, full backbone+head bundle và atomic epoch-boundary resume; reload bundle không cần pretrained/head initialization bên ngoài. Code ở `adaptation_config/data/model/metrics/train/evaluate.py`; synthetic validation và giới hạn ở [E004 software evidence](../artifacts/reports/E004-software-readiness-20261012/README.md).
 
-`training/data.py::verify_dataset` kiểm payload checksum/inventory, manifest versions/scope/usage, manifest–ledger membership, inline freeze hoặc preservation pointer. V5 cần thêm approval/membership/group/proposal/parent evidence ở original paths; ba metadata dependencies đã khôi phục exact SHA trong task handoff 2026-10-11 và giữ trong Git. Loader v4/v5/v6 đã verify trực tiếp; thiếu file về sau vẫn phải restore đúng pin, không bỏ guard. `select_records` chỉ train/val, test cần explicit final-test access. Không glob toàn crops hoặc đưa review-only/U-U vào supervision.
+`training/data.py::verify_dataset` kiểm payload checksum/inventory, manifest versions/scope/usage, manifest–ledger membership, inline freeze hoặc preservation pointer. V5 cần thêm approval/membership/group/proposal/parent evidence ở original paths; ba metadata dependencies đã khôi phục exact SHA trong task handoff 2026-10-11 và giữ trong Git. Loader v4/v5/v6 từng được verify; availability hiện tại theo [retention](storage.md#thiếu-input), không suy package còn đầy đủ từ kết quả cũ hoặc bỏ guard. `select_records` chỉ train/val, test cần explicit final-test access. Không glob toàn crops hoặc đưa review-only/U-U vào supervision.
 
 Evaluator yêu cầu run FINISHED, **code identity giống run**, resolved config và artifact hashes đúng; validation output mới dưới workspace outputs. Test cần protocol riêng pin candidate/checkpoint/config/code/payload/threshold. Legacy guard không có use-once xuyên output. Adaptation evaluator thêm separate holdout package, exact pre-training reservation và `holdout_access.py` keyed payload; reserve trước model/crops, pending/failed/consumed chặn repeat trong cùng workspace. Guard không tự cấp quyền test.
 
@@ -50,7 +50,7 @@ Adaptation evaluator nhận thêm `--benchmark` trên `--split val`: B1/4 thread
 .venv/Scripts/python.exe -X utf8 -m ai_exam_monitoring.training.evaluate --run outputs/<new-id> --output outputs/<new-id>-val-evaluation --split val --workspace .
 ```
 
-Giới hạn evaluator hiện hành: `code_identity` hash toàn Python package (UTF-8 LF), nên retire modules/đổi imports cũng đổi identity. Model run lịch sử cần exact source/commit và environment theo [operations](operations.md), không nới evaluator hoặc sửa hash cũ. Cải tiến cơ chế identity trong tương lai cần contract/version riêng và bảo toàn tái lập lịch sử.
+Giới hạn evaluator hiện hành: `code_identity` hash toàn Python package (UTF-8 LF), nên retire modules/đổi imports cũng đổi identity. Model run lịch sử cần exact source/commit và environment theo [operations](operations.md), không nới evaluator hoặc sửa hash cũ. Cải tiến identity cần contract/version riêng; không sửa pins lịch sử, không hứa tái lập payload đã nghỉ lưu.
 
 <a id="data-tools"></a>
 
