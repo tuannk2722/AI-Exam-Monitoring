@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "phase": "proposal_only",
+  "pool_count": 1451,
+  "train": 1185,
+  "val": 266,
+  "deterministic_reallocation_digest_equal": true,
+  "labels_and_crop_hashes_preserved": true,
+  "all_parent_groups_source_crop_rgb_keys_single_role": true,
+  "parent_input_pins_preserved": true,
+  "protected_pixels_read": false,
+  "gallery_links": 266,
+  "allocation_sha256": "8d8eaf076c25f10b4d74e37ac5d7416217441b101c7cbec484480e64d969e24e",
+  "evaluation_proposal_sha256": "6b6e4c2af4a0b2ee6edd2bd57c8fec3222a9a10641dfce7af5970dfea2fb5fc2",
+  "pool_inventory_sha256": "770dc1a5559846c7c887b22cca1c571ed37913f2bef0b6bd793a740203ce86e6",
+  "training_started": false,
+  "canonical_split_mutated": false
+}

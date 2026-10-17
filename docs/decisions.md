@@ -6,6 +6,8 @@ Original ADR ở Git `ab34b32:docs/decisions/<filename>`; tra tên bằng `git l
 
 | ID | Trạng thái / nội dung và phạm vi áp dụng | Nơi giữ nội dung |
 |---|---|---|
+| DATASET-RELEASE-20261017 | Accepted: owner yêu cầu release V11 từ exact allocation và 270 crop đã duyệt, cleanup và commit; không train hoặc test inference | [Release và kiểm](../artifacts/reports/dataset-release-20261017/README.md), [approval](../artifacts/reports/dataset-release-20261017/owner-release-approval.json) |
+| TRAIN-VAL-ACCEPTANCE-20261017 | Accepted riêng allocation/grouping 1.185 train / 266 val và mức đạt từng target (precision/recall ≥ 80%, FPR ≤ 20%, support trong receipt). Owner yêu cầu gỡ proposal cách train vừa tạo; không cấp quyền recipe/run hoặc test/holdout; materialize theo DATASET-RELEASE-20261017 | [Report và ranh giới cho agent](../artifacts/reports/train-val-plan-20261017/README.md), [receipt](../artifacts/reports/train-val-plan-20261017/owner-acceptance.json) |
 | STORAGE-RETENTION-20261016 | Accepted trong hội thoại: ưu tiên dataset/model hiện hành, giữ metadata/nguồn cần cải thiện, chấp nhận bỏ khả năng tái lập payload lịch sử được liệt kê; commit trước cleanup. Không đổi scientific gates | [Chính sách](storage.md), [thực hiện](../artifacts/reports/storage-retention-20261016/README.md) |
 | ADR-001 | Accepted: research/demo recorded, một camera, human review; ngoài scope identity/production | System §1, §5 |
 | ADR-002 | Superseded phần formulation/normal bởi 011/012; không là lựa chọn A/B đang mở | System §1; Data semantics |

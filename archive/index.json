@@ -178,6 +178,22 @@
         "receipt": "artifacts/reports/storage-retention-20261016/dependency-backup-verification.json",
         "storage": "Standalone ZIP; no duplicate DVC cache copy; same drive, not off-device"
       }
+    },
+    {
+      "name": "dataset-release-20261017-v11",
+      "sha256": "37df2d1d1a7ca297e446f08c82859578a655cfb99e37f6cc87bff70106d329eb",
+      "files": 2906,
+      "unique_blobs": 2635,
+      "original_bytes": 428174395,
+      "archive_bytes": 387263004,
+      "path": "archive/dataset-release-20261017-v11.zip",
+      "scope": "local_only",
+      "owner_authorization": "Owner requested V11 release and project lifecycle; local preservation only.",
+      "validation": {
+        "byte_exact_restore": "PASS",
+        "restored_files": 2906,
+        "receipt": "artifacts/reports/dataset-release-20261017/backup-receipt.json"
+      }
     }
   ]
 }

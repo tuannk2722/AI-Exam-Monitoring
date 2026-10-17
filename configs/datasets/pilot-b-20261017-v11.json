@@ -1,0 +1,34 @@
+{
+  "status": "owner_authorized_dataset_release",
+  "dataset_version": "pilot-b-20261017-v11",
+  "split_version": "owner-train-val-20261017",
+  "parent": {
+    "path": "data/processed/e004/E004-c345-development-20261016/checksums.sha256",
+    "sha256": "cdaf0a5340b6af968604a74e63bb48b83f76fe42d2e790e51c37b9a1c3588f62"
+  },
+  "allocation": {
+    "path": "artifacts/reports/train-val-plan-20261017/allocation.json",
+    "sha256": "8d8eaf076c25f10b4d74e37ac5d7416217441b101c7cbec484480e64d969e24e"
+  },
+  "approval": {
+    "path": "artifacts/reports/dataset-release-20261017/owner-release-approval.json",
+    "sha256": "ef486a8f462eb1717a62f26ee773fa891d3390738e5240841399fad265ec4bb3"
+  },
+  "output": "data/processed/pilot-b/pilot-b-20261017-v11",
+  "expected_ledger_records": 1823,
+  "expected_manifest_records": 1462,
+  "expected_usage_counts": {
+    "train": 1185,
+    "review_only": 332,
+    "val": 266,
+    "excluded": 29,
+    "test": 11
+  },
+  "quality_gates_ref": {
+    "path": "artifacts/reports/train-val-plan-20261017/owner-acceptance.json",
+    "sha256": "18545e2f6eef97c0967f40f5d56ee867eacd70662185620a243562988a103eb5"
+  },
+  "semantics_revision": "Existing accepted labels preserved; new270 reference owner crop acceptances and scoped visible-absence semantics.",
+  "training_authorized": false,
+  "test_inference_authorized": false
+}

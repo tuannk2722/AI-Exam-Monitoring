@@ -1,0 +1,14 @@
+{
+  "dataset_version": "pilot-b-20261017-v11",
+  "package": "data/processed/pilot-b/pilot-b-20261017-v11",
+  "payload_sha256": "e851ce51ae8bc027c50370468ee15ee99b4d93ae73c0d270f2055489fcbccd3a",
+  "split_version": "owner-train-val-20261017",
+  "ledger_counts": {
+    "train": 1185,
+    "review_only": 332,
+    "val": 266,
+    "excluded": 29,
+    "test": 11
+  },
+  "manifest_records": 1462
+}

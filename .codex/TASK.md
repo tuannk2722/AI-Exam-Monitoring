@@ -1,24 +1,24 @@
-﻿# FRAME-CROP-ADDITIONAL-CLOSURE-20261017 — Chốt review owner
+﻿# DATASET-RELEASE-20261017 — Release dataset đã nghiệm thu
 
-- Trạng thái: hoàn tất. Owner đã duyệt mặc định và giao quyền giải quyết các ngoại lệ ít; không còn mục cần hỏi lại.
+- Trạng thái: hoàn tất release, kiểm và cleanup; bàn giao bằng commit Git của task này. Owner đã yêu cầu release, cleanup và commit; không train hoặc test inference.
 
 ## Inputs và phạm vi
 
-- README có bảng 34 ID owner nêu; 146 crop còn lại approved. Snapshot: artifacts/reports/frame-crop-additional-20261017/owner-review-input.md.
-- Parent review-index.json gồm 180 crop; frame gốc và bộ 98 đã nghiệm thu giữ nguyên. Đã đọc AGENTS/index/status/data, kiểm Git/files và semantics.
-- Không đổi contract/spec, V10, assignment/split, train hoặc test.
+- Parent E004-c345-development-20261016 và đúng 270 crop đã nghiệm thu (98 + 172).
+- Exact allocation được TRAIN-VAL-ACCEPTANCE-20261017 duyệt; không đổi nhãn, crop/geometry hoặc spec. Cách train còn chờ thiết kế mới từ owner.
 
-## Kết quả và bảo toàn
+## Outputs và vòng đời
 
-- Chốt 172 crop: loại 7 dấu * do looking chưa đủ bằng chứng và 2 crop G06 dính chữ; thay 3 crop bằng 4 khung cắt, giữ 168 khung gốc.
-- Receipt và validation: artifacts/reports/frame-crop-additional-20261017/owner-accepted.json, owner-accepted-validation.json. Kết luận/từng ID trong README cùng thư mục; worksheet close_review.py tái dùng source_review API.
-- Gallery/gói trong thư mục data hiện có: data/interim/frame-crop-additional-20261017/accepted.html, accepted-172.zip. Chỉ thêm 4 candidate geometry; dùng lại crop/input cũ cho phần giữ.
-- Không mutate ledger, gallery, ZIP Draft hoặc bộ 98 đã pin. Đã dọn owner-qa và bytecode của worksheet sau bảo toàn source, crop/input và receipt cuối.
+- Dataset hiện hành: data/processed/pilot-b/pilot-b-20261017-v11; 1.185 train / 266 val / 11 test đóng; 332 review-only và 29 excluded giữ nguyên.
+- Pointer, approval, checks và backup/cleanup receipts: artifacts/reports/dataset-release-20261017/README.md.
+- Config release: configs/datasets/pilot-b-20261017-v11.json; không có training recipe.
+- Backup local có DVC pointer và registry; đã restore đối chiếu đủ 2.906 file. Không upload.
+- Đã dọn scratch restore/rebuild và cache theo exact inventory: 6.444 file, 947.564.014 bytes; accepted sources và parent giữ lại.
 
-## Kiểm tra và bàn giao
+## Checks và bàn giao
 
-- 172 crop/source/input parity, hash/CRC/membership ZIP, 344 local links: PASS.
-- 146 approval mặc định và các nhãn owner ghi rõ khớp receipt; ID loại/thay không còn trong accepted: PASS.
-- Bộ 98 giữ hashes; không trùng exact crop hash giữa 172 và 98: PASS. Tổng hai batch là 270 crop đã nghiệm thu, chưa canonical release.
-- unittest source_review 6/6, derived_crop 2/2: PASS. Ruff worksheet PASS với E501 bỏ qua cho chuỗi văn bản dài; syntax và git diff --check PASS.
-- Không cần vòng review mới; bước enrollment/downstream chỉ thực hiện khi có yêu cầu và đủ gate tương ứng.
+- Codec/exporter, exact allocation, source/crop parity, loader, deterministic rebuild: PASS.
+- Bảo toàn 1.553 records parent về nhãn/geometry/rights/source; test 11 giữ nội dung/nhóm, version metadata mới được attest riêng. Parent bytes không đổi.
+- Không có group/source SHA/crop SHA cắt qua split; 36 unit tests đúng scope PASS, worksheet Ruff PASS.
+- Stage đúng metadata/docs/config/pointer; checker với Git index và diff trước commit, checkout sạch sau commit. Kết quả thao tác Git tra lịch sử commit và bàn giao hội thoại.
+- Bước tiếp theo chỉ theo thiết kế train mới của owner; không tự khởi chạy train, smoke hoặc test/holdout.

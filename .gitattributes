@@ -26,3 +26,6 @@ configs/datasets/pilot_b_v5_release_proposal_20261007.yaml -text whitespace=trai
 
 # Preserve exact approved C345 config/protocol bytes in the pre-cleanup commit.
 configs/experiments/E004-C345-20261016/** -text
+
+# Preserve V11 release config SHA across platforms.
+configs/datasets/pilot-b-20261017-v11.json -text whitespace=trailing-space,space-before-tab,cr-at-eol

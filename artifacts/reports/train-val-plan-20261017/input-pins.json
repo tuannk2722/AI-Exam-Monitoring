@@ -1,0 +1,18 @@
+{
+  "commit_before_planning": "c00b159",
+  "package_ledger_sha256": "9365f8b9078d64364bc1d6875562f084a106ebe7c066aa115ef93e37e2aff658",
+  "accepted_receipts": {
+    "artifacts/reports/frame-crop-audit-20261016/owner-accepted-20261017.json": "97c878fc5778f470b63acce9bcd3a7c7920a49108946ae866df35cd578054589",
+    "artifacts/reports/frame-crop-additional-20261017/owner-accepted.json": "40674035ea7efb9729f30cc696424d739764a8157609db9ae5d93a1e7a220306"
+  },
+  "allowed_image_reads": {
+    "existing_train_val": 1181,
+    "new_accepted": 270
+  },
+  "excluded_from_pixel_access": {
+    "review_only": 332,
+    "excluded": 29,
+    "test": 11
+  },
+  "scope": "No protected images, features, predictions or model comparison"
+}

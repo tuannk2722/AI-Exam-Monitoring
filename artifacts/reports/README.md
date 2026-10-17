@@ -4,6 +4,10 @@ Index theo đối tượng; không là bảng metrics hoặc backlog. Hồ sơ �
 
 ## Releases và nghiên cứu dữ liệu
 
+[Release V11 ngày 17/10](dataset-release-20261017/README.md): dataset hiện hành đã đóng gói từ allocation và 270 crop nghiệm thu; có pointer, kiểm rebuild, backup local và cleanup; không chạy train.
+
+[Nghiệm thu phân bổ và mức đạt ngày 17/10](train-val-plan-20261017/README.md): 1.185 train / 266 validation đã duyệt; mỗi target precision/recall ≥ 80%, FPR ≤ 20%. Cách train chưa được chốt, proposal train mới đã gỡ theo owner; chưa chạy train.
+
 [Audit và crop 5 ZIP frames ngày 16–17/10](frame-crop-audit-20261016/README.md): xem 536 frame/27 video, bàn giao 100 crop Draft theo video/anchor; gallery, pixel QA và provenance, chưa enrollment.
 
 [Chốt 98 crop ngày 17/10](frame-crop-audit-20261016/OWNER-ACCEPTED-20261017.md): owner đã nghiệm thu crop/nhãn và membership, gồm G06 R02 và ba quyết định nhãn cuối; chưa enrollment. [Đối chiếu trước nghiệm thu](frame-crop-audit-20261016/OWNER-REVIEW-20261017.md) giữ làm lịch sử.
@@ -24,7 +28,7 @@ Index theo đối tượng; không là bảng metrics hoặc backlog. Hồ sơ �
 
 [Audit bộ 765 crop và 212 frame gốc](E004-crop-bundle-audit-20261014/README.md): kiểm kỹ thuật toàn bộ và screening đủ crop; 5 batch Draft, giữ contract hiện tại, chưa nghiệm thu nhãn/split hoặc train.
 
-E004 hiện hành: [V9 hợp nhất và review mới đã nghiệm thu](E004-v9-consolidation-20261013/README.md), [release pointer](E004-v9-consolidation-20261013/v9-release-pointer.json). V9 local Accepted, không tự cấp quyền run/test.
+Snapshot E004 lịch sử: [V9 hợp nhất và review mới đã nghiệm thu](E004-v9-consolidation-20261013/README.md), [release pointer](E004-v9-consolidation-20261013/v9-release-pointer.json). V9 local Accepted, không tự cấp quyền run/test.
 
 Snapshot trước: [mở rộng hai ZIP và rà lại nguồn cũ](E004-source-expansion-20261013/README.md), [batch 199 crop đã nghiệm thu](E004-source-expansion-20261013/REVIEW.md). Tổng 308 anchors đã nghiệm thu; [V8 local Accepted](E004-source-expansion-20261013/v8-release-pointer.json) thêm 27 train. [Package prepared trước](E004-consolidated-frames-20261013/package-pointers-r2.json) và các snapshot cũ giữ nguyên.
 

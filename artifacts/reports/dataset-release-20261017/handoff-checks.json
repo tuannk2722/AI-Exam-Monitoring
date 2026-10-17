@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "completed_at": "2026-10-18",
+  "cross_split_conflicts": {
+    "group": 0,
+    "source_sha": 0,
+    "crop_sha": 0
+  },
+  "support": {
+    "train": {
+      "records": 1185,
+      "groups": 274,
+      "phone_use": {
+        "states": {
+          "unknown": 451,
+          "negative": 411,
+          "positive": 323
+        },
+        "positive_groups": 104,
+        "negative_groups": 111
+      },
+      "looking_around": {
+        "states": {
+          "negative": 678,
+          "positive": 318,
+          "unknown": 189
+        },
+        "positive_groups": 88,
+        "negative_groups": 135
+      }
+    },
+    "val": {
+      "records": 266,
+      "groups": 155,
+      "phone_use": {
+        "states": {
+          "negative": 96,
+          "unknown": 98,
+          "positive": 72
+        },
+        "positive_groups": 56,
+        "negative_groups": 48
+      },
+      "looking_around": {
+        "states": {
+          "negative": 146,
+          "positive": 74,
+          "unknown": 46
+        },
+        "positive_groups": 46,
+        "negative_groups": 87
+      }
+    }
+  },
+  "unit_tests": {
+    "test_pilot_schema.py": 22,
+    "test_pilot_package.py": 8,
+    "test_integrity.py": 4,
+    "test_derived_crop.py": 2
+  },
+  "unit_test_total": 36,
+  "unit_test_result": "PASS",
+  "worksheet_ruff": "PASS",
+  "repository_checker": "PASS",
+  "allocation_sha256": "8d8eaf076c25f10b4d74e37ac5d7416217441b101c7cbec484480e64d969e24e",
+  "core_src_modified": false,
+  "training_inference_executed": false,
+  "repository_checker_require_git": "PASS",
+  "staged_diff_check": "PASS",
+  "staged_pinned_bytes_exact": [
+    "configs/datasets/pilot-b-20261017-v11.json",
+    "artifacts/reports/train-val-plan-20261017/allocation.json",
+    "artifacts/reports/train-val-plan-20261017/owner-acceptance.json",
+    "artifacts/reports/dataset-release-20261017/owner-release-approval.json"
+  ],
+  "release_config_git_pin": "PASS"
+}

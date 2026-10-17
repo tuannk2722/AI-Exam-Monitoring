@@ -1,0 +1,64 @@
+{
+  "decision_id": "TRAIN-VAL-ACCEPTANCE-20261017",
+  "date": "2026-10-17",
+  "status": "accepted_allocation_and_quality_gates_only",
+  "owner_message": "tôi chỉ nghiệm thu cách phân bổ dataset và quy định mức đạt cho model sau train,... thôi chứ còn riêng việc tiến hành train như nào thì sẽ có một sự thay đổi cực lớn. nên hãy bỏ hết những gì mà bạn đã chuẩn bị cho quá trình train đi, từ mấy cái như mô tả/file/folder,... mà bạn mới lập ra đến các thứ liên quan rồi viết lại thành report,... những gì chuẩn quy tắc codebase và cần thiết để AI agent có thể follow chính xác nhất được quá trình thôi.",
+  "allocation": {
+    "path": "artifacts/reports/train-val-plan-20261017/allocation.json",
+    "sha256": "8d8eaf076c25f10b4d74e37ac5d7416217441b101c7cbec484480e64d969e24e",
+    "original_path": "configs/datasets/train-val-20261017/allocation.json",
+    "snapshot_status_note": "Original DRAFT status is preserved for byte integrity; this receipt establishes acceptance of its assignments/grouping.",
+    "pool": 1451,
+    "train": 1185,
+    "val": 266,
+    "new270_train": 196,
+    "new270_val": 74
+  },
+  "quality_gates": {
+    "precision_min": 0.8,
+    "recall_min": 0.8,
+    "false_positive_rate_max": 0.2,
+    "positive_support_min": 30,
+    "negative_support_min": 30,
+    "positive_group_support_min": 5,
+    "negative_group_support_min": 5
+  },
+  "target_order": [
+    "phone_use",
+    "looking_around"
+  ],
+  "required_reports": [
+    "target_confusion_support_PNU",
+    "precision_recall_F1_FPR_AP",
+    "macro_masked_BCE_AP",
+    "source_and_new270_slices",
+    "FP_FN_gallery",
+    "uncertainty_and_group_support"
+  ],
+  "gate_scope": "Development validation per target; both targets must pass. Not independent holdout or promotion acceptance.",
+  "owner_priority": "balance_false_positives_and_false_negatives",
+  "holdout": "deferred",
+  "test_reserve_access": false,
+  "training_design": "withdrawn_pending_new_owner_direction",
+  "prediction_thresholds": null,
+  "checkpoint_selection": null,
+  "initialization": null,
+  "dataset_package_materialized": false,
+  "training_authorized": false,
+  "smoke_authorized": false,
+  "retired_proposals": [
+    {
+      "path": "configs/datasets/train-val-20261017/README.md",
+      "sha256": "22a056ac1eec1ee7942b3d3e183db6a2deed56e17e735f538bdb4c37d4bea477",
+      "reason": "Owner yêu cầu bỏ proposal cách train vừa tạo; không dùng làm chỉ dẫn active."
+    },
+    {
+      "path": "configs/datasets/train-val-20261017/evaluation-proposal.json",
+      "sha256": "6b6e4c2af4a0b2ee6edd2bd57c8fec3222a9a10641dfce7af5970dfea2fb5fc2",
+      "reason": "Owner yêu cầu bỏ proposal cách train vừa tạo; không dùng làm chỉ dẫn active."
+    }
+  ],
+  "preserved_validation": "artifacts/reports/train-val-plan-20261017/validation.json",
+  "historical_validation_note": "evaluation_proposal_sha256 refers to an intentionally retired file. Do not restore this proposal or alter the historical pin to treat it as current.",
+  "scope_boundary": "Approval remains valid for exact allocation/grouping, labels already accepted and post-train quality gates. It does not approve architecture, pretrained/head, optimization, checkpoint selection, threshold implementation, compute, budget or execution."
+}

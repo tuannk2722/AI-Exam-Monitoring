@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "schema_and_loader": "PASS",
+  "deterministic_rebuild": "PASS",
+  "accepted_allocation_exact_records": 1451,
+  "new_accepted_crop_bytes_preserved": 270,
+  "parent_label_geometry_rights_source_preserved": 1553,
+  "protected_records_preserved": 372,
+  "test_identity_labels_crop_group_preserved": 11,
+  "test_record_serialization_note": "Dataset/selection/crop-policy/split version fields change; original parent bytes untouched.",
+  "parent_payload_preserved": "PASS",
+  "payload": {
+    "path": "data/processed/pilot-b/pilot-b-20261017-v11/checksums.sha256",
+    "sha256": "e851ce51ae8bc027c50370468ee15ee99b4d93ae73c0d270f2055489fcbccd3a"
+  },
+  "training_or_inference_executed": false
+}

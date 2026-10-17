@@ -1,0 +1,19 @@
+{
+  "archive": "archive/dataset-release-20261017-v11.zip",
+  "sha256": "37df2d1d1a7ca297e446f08c82859578a655cfb99e37f6cc87bff70106d329eb",
+  "files": 2906,
+  "unique_blobs": 2635,
+  "original_bytes": 428174395,
+  "archive_bytes": 387263004,
+  "byte_exact_restore": "PASS",
+  "restored_files": 2906,
+  "scope": "local_only; same drive; no upload",
+  "source_dependency": {
+    "archive": "archive/e004-v9-consolidation-20261013.zip",
+    "sha256": "8883c176060c82b31c7436dea341867448204e157a20f111c3560eae389342b3",
+    "prefix": "outputs/_scratch/e004-v9-consolidation-20261013/sources",
+    "files": 1616,
+    "purpose": "Source integrity/export only; no protected visual review/inference"
+  },
+  "note": "New release/crops/frames and 345 parent frame sources included. Historical source cache remains in retained pinned dependency archive. Git supplies documentation and receipts created after snapshot."
+}

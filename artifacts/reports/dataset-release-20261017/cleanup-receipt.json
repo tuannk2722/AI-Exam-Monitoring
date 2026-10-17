@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "exact_inventory": "artifacts/reports/dataset-release-20261017/cleanup-manifest.json",
+  "inventory_sha256": "dd5586a10296507f7f4caabf31a6712e6e9db22237888fbc050fac2ecf2d1124",
+  "removed_roots": [
+    ".mypy_cache",
+    ".ruff_cache",
+    "outputs/_scratch/dataset-release-20261017",
+    "scripts/__pycache__",
+    "src/ai_exam_monitoring/__pycache__",
+    "src/ai_exam_monitoring/common/__pycache__",
+    "src/ai_exam_monitoring/contracts/__pycache__",
+    "src/ai_exam_monitoring/data/__pycache__",
+    "src/ai_exam_monitoring/inference/__pycache__",
+    "src/ai_exam_monitoring/training/__pycache__",
+    "tests/__pycache__",
+    "tests/fixtures/__pycache__"
+  ],
+  "files": 6444,
+  "bytes": 947564014,
+  "protected_parent_and_release_payload_before_after": "PASS",
+  "accepted_inputs_retired": false,
+  "backup_retained": "archive/dataset-release-20261017-v11.zip"
+}
