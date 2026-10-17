@@ -1,0 +1,4864 @@
+{
+  "reason_scope": "Rejected trial candidates; not a count of all marked people. Original bytes and final accepted batch untouched.",
+  "rejected": {
+    "G01-B06-F00009": "Đầu/vật quá nhỏ; chưa tách chắc hướng nhìn và phone trong input.",
+    "G01-B07-F00009": "Vùng tay/vật nhỏ không rõ, hướng đầu cũng chưa chắc; không giữ mẫu thiếu evidence.",
+    "G01-B08-F00009": "Người áo đỏ cạnh tranh trong crop, đầu anchor nhỏ và hướng nhìn không đủ chắc.",
+    "G03-B07-F00012": "Tóc đã mất ở mép source; có khả năng cùng vị trí B02, không thêm ảnh cận bị mất đầu.",
+    "G03-B09-F00014": "Source cắt phần tóc trên đầu, không sửa được bằng context.",
+    "G03-B11-F00022": "Source cắt phần trên đầu; tay/người trước còn che cạnh, không thêm.",
+    "G03-B12-F00024": "Source cắt tóc trên đầu; không dùng ảnh mất đầu chỉ vì mặt rõ.",
+    "G03-B13-F00030": "Hai tay không còn trong source/crop, nhiều mặt cạnh tranh; không đạt yêu cầu crop hành vi.",
+    "G05-B05-F00001": "Anchor hàng sau quá nhỏ, tay bị che và không có hành vi đủ khác biệt/rõ.",
+    "G06-B04-F00003": "Tay trái bị người trước che, mặt người trước chiếm crop; không có khung tốt trong chuỗi không hiệu ứng.",
+    "G07-B03-F00025": "Búi tóc sát/mất ở mép source; tay người trước cạnh tranh mạnh, các cận khác cũng mất đầu.",
+    "G11-B08-F00008": "Crop nhỏ còn dính thiết bị của người cạnh; thu hẹp sẽ cắt tay, không dùng negative dễ gây nhầm.",
+    "G11-B15-F00066": "Người áo hồng phía trước chiếm phần lớn crop và che tay/vùng bài của anchor sau.",
+    "G04-B02-F00014": "Cùng vị trí/áo khoác xanh và thao tác viết của A03 đã duyệt; không thêm crop lặp.",
+    "G04-B12-F00001": "Anchor nhỏ phía sau, tay bị người trước che; input không đủ rõ.",
+    "G11-B12-F00066": "Người phía trước chiếm nhiều diện tích và che phần tay; crop không thể tách sạch.",
+    "G14-B02-F00010": "Đỉnh tóc đã bị cắt trong nguồn; không giữ cận này.",
+    "G14-B03-F00007": "Nguồn cắt tóc của anchor; crop còn cạnh tranh với người trước.",
+    "G14-B07-F00017": "Đỉnh tóc bị cắt trong nguồn, các góc rộng chưa đủ evidence riêng.",
+    "G22-B09-F00026": "Đỉnh búi tóc cắt trong nguồn; góc khác vẫn không giữ trọn.",
+    "G22-B15-F00040": "Tay bị người trước che, hướng đầu chưa đủ rõ tại input.",
+    "G23-B25-F00028": "Tóc/búi cắt ngay ở mép nguồn; không thêm khung thiếu đầu.",
+    "G26-B12-F00008": "Giấy và tay đọc bị cắt ở mép nguồn; góc rộng không thấy đủ hành vi này.",
+    "G26-B14-F00029": "Tay còn lại ở ngoài mép nguồn; cận khác cũng mất tóc.",
+    "G26-B17-F00029": "Bàn tay ngoài mép phải nguồn; không giữ crop thiếu thao tác.",
+    "G26-B20-F00026": "Cùng anchor băng tóc A01 đã có; viết/chống tóc không thêm thay đổi hữu ích.",
+    "G26-B22-F00015": "Tay bấm calculator bị cắt ở đáy nguồn; không giữ.",
+    "G26-B25-F00027": "Anchor quá nhỏ và tay bị che; không thay được cận F44 bị mất đầu.",
+    "G26-B15-F00010": "Thu khung vẫn còn bàn tay và thiết bị người bên cạnh cạnh tranh; thu thêm sẽ cắt tay lật giấy.",
+    "G22-B08-F00025": "Tay viết còn sát/cắt đáy nguồn; không giữ chỉ vì đầu rõ.",
+    "G05-B04-F00055": "Phần đáy vẫn mang thiết bị bàn trước; thu thêm thiếu tay/vùng bài, không giữ negative gây nhiễu."
+  },
+  "trials": [
+    {
+      "group": "G01",
+      "anchor": "B01",
+      "frame": 9,
+      "person_xyxy": [
+        50,
+        191,
+        104,
+        251
+      ],
+      "context_xyxy": [
+        42,
+        183,
+        121,
+        274
+      ],
+      "states": "NP",
+      "reason": "Áo xanh hàng trái: đầu quay sang phải khỏi trang, tay chống mặt; giữ vùng bài."
+    },
+    {
+      "group": "G01",
+      "anchor": "B02",
+      "frame": 9,
+      "person_xyxy": [
+        100,
+        202,
+        171,
+        281
+      ],
+      "context_xyxy": [
+        91,
+        194,
+        183,
+        293
+      ],
+      "states": "UP",
+      "reason": "Áo xanh hàng trái phía trước: quay và đưa tay sang bên; vật nhỏ/vùng tay chưa đủ cho phone known."
+    },
+    {
+      "group": "G01",
+      "anchor": "B03",
+      "frame": 9,
+      "person_xyxy": [
+        162,
+        145,
+        210,
+        218
+      ],
+      "context_xyxy": [
+        154,
+        137,
+        226,
+        240
+      ],
+      "states": "NN",
+      "reason": "Áo đỏ giữa trái: cúi vào trang, hai tay ở vùng bài."
+    },
+    {
+      "group": "G01",
+      "anchor": "B04",
+      "frame": 9,
+      "person_xyxy": [
+        207,
+        127,
+        255,
+        200
+      ],
+      "context_xyxy": [
+        198,
+        118,
+        272,
+        216
+      ],
+      "states": "UN",
+      "reason": "Mũ xám: đầu cúi vào trang; bàn tay và vật nhỏ chưa đủ phân biệt."
+    },
+    {
+      "group": "G01",
+      "anchor": "B05",
+      "frame": 9,
+      "person_xyxy": [
+        313,
+        112,
+        368,
+        181
+      ],
+      "context_xyxy": [
+        304,
+        103,
+        382,
+        200
+      ],
+      "states": "NN",
+      "reason": "Áo xanh giữa phải: chống cằm, tay còn lại trên bài; không thấy vật mơ hồ."
+    },
+    {
+      "group": "G01",
+      "anchor": "B06",
+      "frame": 9,
+      "person_xyxy": [
+        377,
+        73,
+        421,
+        138
+      ],
+      "context_xyxy": [
+        369,
+        65,
+        436,
+        150
+      ],
+      "states": "NN",
+      "reason": "Áo xanh cạnh rèm: cúi nhìn trang, giữ tay và vùng bàn."
+    },
+    {
+      "group": "G01",
+      "anchor": "B07",
+      "frame": 9,
+      "person_xyxy": [
+        443,
+        90,
+        489,
+        151
+      ],
+      "context_xyxy": [
+        434,
+        82,
+        505,
+        169
+      ],
+      "states": "NN",
+      "reason": "Áo trắng sát rèm: viết trên bàn của mình, giữ đầu và hai tay."
+    },
+    {
+      "group": "G01",
+      "anchor": "B08",
+      "frame": 9,
+      "person_xyxy": [
+        128,
+        121,
+        177,
+        199
+      ],
+      "context_xyxy": [
+        119,
+        112,
+        194,
+        216
+      ],
+      "states": "UP",
+      "reason": "Áo tối sau người áo đỏ: đầu quay ngang khỏi vùng bài, tay/bàn bị che một phần."
+    },
+    {
+      "group": "G02",
+      "anchor": "B01",
+      "frame": 15,
+      "person_xyxy": [
+        0,
+        109,
+        222,
+        360
+      ],
+      "context_xyxy": [
+        0,
+        100,
+        235,
+        360
+      ],
+      "states": "NN",
+      "reason": "Bàn trước trái: chống đầu và viết; calculator trên trang có phím rõ. Chọn frame tay viết còn trọn."
+    },
+    {
+      "group": "G02",
+      "anchor": "B01",
+      "frame": 16,
+      "person_xyxy": [
+        1,
+        102,
+        221,
+        360
+      ],
+      "context_xyxy": [
+        0,
+        94,
+        235,
+        360
+      ],
+      "states": "NN",
+      "reason": "Cùng anchor chuyển từ viết/chống đầu sang cầm calculator lộ phím; khác thao tác, không lấy các mặt lưng lặp."
+    },
+    {
+      "group": "G02",
+      "anchor": "B02",
+      "frame": 9,
+      "person_xyxy": [
+        317,
+        125,
+        401,
+        280
+      ],
+      "context_xyxy": [
+        305,
+        116,
+        414,
+        297
+      ],
+      "states": "NP",
+      "reason": "Sau người tóc ngắn: đầu quay sang người bên cạnh, tay trên bàn; cần QA vì anchor nhỏ."
+    },
+    {
+      "group": "G03",
+      "anchor": "B01",
+      "frame": 5,
+      "person_xyxy": [
+        56,
+        88,
+        225,
+        284
+      ],
+      "context_xyxy": [
+        43,
+        76,
+        239,
+        309
+      ],
+      "states": "NN",
+      "reason": "Bàn trái: nhìn xuống và cầm bao/que kem, không phải thiết bị."
+    },
+    {
+      "group": "G03",
+      "anchor": "B02",
+      "frame": 5,
+      "person_xyxy": [
+        268,
+        34,
+        405,
+        198
+      ],
+      "context_xyxy": [
+        257,
+        23,
+        416,
+        220
+      ],
+      "states": "NP",
+      "reason": "Giữa phía sau: cầm que kem, đầu nhìn ra camera ngoài vùng bài."
+    },
+    {
+      "group": "G03",
+      "anchor": "B03",
+      "frame": 6,
+      "person_xyxy": [
+        60,
+        36,
+        191,
+        199
+      ],
+      "context_xyxy": [
+        48,
+        26,
+        205,
+        225
+      ],
+      "states": "NP",
+      "reason": "Phía sau trái: cầm que kem có hình dạng rõ, đầu quay ra camera."
+    },
+    {
+      "group": "G03",
+      "anchor": "B04",
+      "frame": 8,
+      "person_xyxy": [
+        304,
+        17,
+        545,
+        276
+      ],
+      "context_xyxy": [
+        292,
+        7,
+        561,
+        305
+      ],
+      "states": "NP",
+      "reason": "Bàn phải: quay đầu sang bên; hai tay trên bàn và không có vật mơ hồ."
+    },
+    {
+      "group": "G03",
+      "anchor": "B05",
+      "frame": 10,
+      "person_xyxy": [
+        312,
+        26,
+        506,
+        289
+      ],
+      "context_xyxy": [
+        300,
+        14,
+        523,
+        325
+      ],
+      "states": "NP",
+      "reason": "Bàn giữa: cầm que kem, đầu nhìn sang bên ngoài trang."
+    },
+    {
+      "group": "G03",
+      "anchor": "B06",
+      "frame": 11,
+      "person_xyxy": [
+        91,
+        0,
+        453,
+        322
+      ],
+      "context_xyxy": [
+        76,
+        0,
+        479,
+        354
+      ],
+      "states": "NP",
+      "reason": "Khẩu trang đen: tay giơ mở, đầu hướng sang bên/camera; bàn còn thấy không có thiết bị."
+    },
+    {
+      "group": "G03",
+      "anchor": "B07",
+      "frame": 12,
+      "person_xyxy": [
+        264,
+        6,
+        426,
+        258
+      ],
+      "context_xyxy": [
+        251,
+        0,
+        441,
+        284
+      ],
+      "states": "NP",
+      "reason": "Phía sau giữa: quay đầu sang trái, tay cầm que kem trên vùng bàn."
+    },
+    {
+      "group": "G03",
+      "anchor": "B08",
+      "frame": 12,
+      "person_xyxy": [
+        397,
+        37,
+        575,
+        243
+      ],
+      "context_xyxy": [
+        384,
+        24,
+        591,
+        271
+      ],
+      "states": "NP",
+      "reason": "Khẩu trang trắng bên phải: cầm que kem, đầu quay sang người cạnh."
+    },
+    {
+      "group": "G03",
+      "anchor": "B09",
+      "frame": 14,
+      "person_xyxy": [
+        226,
+        0,
+        616,
+        360
+      ],
+      "context_xyxy": [
+        214,
+        0,
+        632,
+        360
+      ],
+      "states": "NP",
+      "reason": "Cạnh cửa: mặt hướng camera, hai tay/que kem gần bàn, tránh lấy người che mặt bên trái làm anchor."
+    },
+    {
+      "group": "G03",
+      "anchor": "B10",
+      "frame": 17,
+      "person_xyxy": [
+        306,
+        34,
+        514,
+        284
+      ],
+      "context_xyxy": [
+        293,
+        21,
+        534,
+        310
+      ],
+      "states": "NN",
+      "reason": "Cạnh cửa sau: đầu cúi về trang đang chỉ, hai tay rõ."
+    },
+    {
+      "group": "G03",
+      "anchor": "B11",
+      "frame": 22,
+      "person_xyxy": [
+        17,
+        0,
+        245,
+        253
+      ],
+      "context_xyxy": [
+        4,
+        0,
+        261,
+        288
+      ],
+      "states": "NP",
+      "reason": "Bàn sát cửa: cầm bao/que kem và nhìn sang người đối diện; không gộp với anchor khác khi chưa chắc continuity."
+    },
+    {
+      "group": "G03",
+      "anchor": "B12",
+      "frame": 24,
+      "person_xyxy": [
+        222,
+        0,
+        598,
+        360
+      ],
+      "context_xyxy": [
+        209,
+        0,
+        615,
+        360
+      ],
+      "states": "NP",
+      "reason": "Khẩu trang trắng bàn trước: cầm que kem, đầu nhìn ngoài vùng bài; nét rõ hơn các frame chuyển động."
+    },
+    {
+      "group": "G03",
+      "anchor": "B13",
+      "frame": 30,
+      "person_xyxy": [
+        4,
+        65,
+        320,
+        360
+      ],
+      "context_xyxy": [
+        0,
+        53,
+        335,
+        360
+      ],
+      "states": "NP",
+      "reason": "Áo cổ xám phía trước: quay đầu trái, tay không có thiết bị; tránh crop mặt/tay bị cắt ở mép ảnh."
+    },
+    {
+      "group": "G03",
+      "anchor": "B14",
+      "frame": 33,
+      "person_xyxy": [
+        309,
+        119,
+        502,
+        360
+      ],
+      "context_xyxy": [
+        295,
+        105,
+        519,
+        360
+      ],
+      "states": "NP",
+      "reason": "Kính ở bàn sau: que kem ngang miệng, nhìn ra ngoài trang; giữ tay và bàn."
+    },
+    {
+      "group": "G04",
+      "anchor": "B01",
+      "frame": 14,
+      "person_xyxy": [
+        141,
+        162,
+        345,
+        337
+      ],
+      "context_xyxy": [
+        128,
+        150,
+        360,
+        360
+      ],
+      "states": "NN",
+      "reason": "Áo đen bàn trước: viết, hai bàn tay rõ; không chọn frame sau bị cắt tay."
+    },
+    {
+      "group": "G04",
+      "anchor": "B02",
+      "frame": 14,
+      "person_xyxy": [
+        333,
+        174,
+        624,
+        330
+      ],
+      "context_xyxy": [
+        320,
+        161,
+        640,
+        360
+      ],
+      "states": "NN",
+      "reason": "Áo xanh đậm bàn trước phải: viết, calculator có phím rõ nằm vùng bàn."
+    },
+    {
+      "group": "G04",
+      "anchor": "B03",
+      "frame": 33,
+      "person_xyxy": [
+        192,
+        76,
+        306,
+        207
+      ],
+      "context_xyxy": [
+        181,
+        64,
+        317,
+        224
+      ],
+      "states": "UN",
+      "reason": "Hàng cuối giữa: vật mặt lưng cầm hai tay chưa phân biệt phone/calculator; đầu hướng vào vật."
+    },
+    {
+      "group": "G04",
+      "anchor": "B04",
+      "frame": 33,
+      "person_xyxy": [
+        320,
+        113,
+        454,
+        224
+      ],
+      "context_xyxy": [
+        309,
+        102,
+        465,
+        242
+      ],
+      "states": "NN",
+      "reason": "Áo nâu hàng cuối: một tay chống miệng, tay giữ giấy; không có vật mơ hồ."
+    },
+    {
+      "group": "G04",
+      "anchor": "B05",
+      "frame": 33,
+      "person_xyxy": [
+        491,
+        102,
+        624,
+        229
+      ],
+      "context_xyxy": [
+        479,
+        90,
+        639,
+        250
+      ],
+      "states": "NN",
+      "reason": "Hàng cuối phải: chống đầu và đọc/viết, tay còn lại trên bài."
+    },
+    {
+      "group": "G04",
+      "anchor": "B06",
+      "frame": 35,
+      "person_xyxy": [
+        18,
+        17,
+        178,
+        184
+      ],
+      "context_xyxy": [
+        7,
+        5,
+        190,
+        213
+      ],
+      "states": "NN",
+      "reason": "Hàng cuối trái sát cửa: viết, bàn và tay đủ rõ."
+    },
+    {
+      "group": "G04",
+      "anchor": "B07",
+      "frame": 37,
+      "person_xyxy": [
+        156,
+        67,
+        278,
+        224
+      ],
+      "context_xyxy": [
+        145,
+        55,
+        290,
+        253
+      ],
+      "states": "NN",
+      "reason": "Sau người áo tím: cúi vào trang, tay và calculator vùng bàn đủ quan sát."
+    },
+    {
+      "group": "G04",
+      "anchor": "B08",
+      "frame": 2,
+      "person_xyxy": [
+        128,
+        74,
+        247,
+        331
+      ],
+      "context_xyxy": [
+        116,
+        62,
+        260,
+        355
+      ],
+      "states": "NN",
+      "reason": "Hàng trước trái áo đồng phục: viết, giữ tay và bàn; không chọn frame quay ngắn khó rõ."
+    },
+    {
+      "group": "G04",
+      "anchor": "B09",
+      "frame": 2,
+      "person_xyxy": [
+        207,
+        105,
+        355,
+        324
+      ],
+      "context_xyxy": [
+        194,
+        93,
+        369,
+        351
+      ],
+      "states": "NN",
+      "reason": "Cạnh B08: viết với calculator trên bàn; giữ đầu và cả tay viết."
+    },
+    {
+      "group": "G04",
+      "anchor": "B10",
+      "frame": 1,
+      "person_xyxy": [
+        19,
+        132,
+        115,
+        220
+      ],
+      "context_xyxy": [
+        8,
+        120,
+        129,
+        245
+      ],
+      "states": "NN",
+      "reason": "Nữ phía trái sau hàng đầu: viết, tay không có thiết bị mơ hồ."
+    },
+    {
+      "group": "G04",
+      "anchor": "B11",
+      "frame": 1,
+      "person_xyxy": [
+        131,
+        119,
+        247,
+        239
+      ],
+      "context_xyxy": [
+        120,
+        107,
+        260,
+        263
+      ],
+      "states": "NN",
+      "reason": "Nữ giữa trái: đầu nhìn trang, cánh tay và tay viết trong crop."
+    },
+    {
+      "group": "G04",
+      "anchor": "B12",
+      "frame": 1,
+      "person_xyxy": [
+        124,
+        74,
+        204,
+        166
+      ],
+      "context_xyxy": [
+        113,
+        62,
+        216,
+        185
+      ],
+      "states": "UN",
+      "reason": "Áo đỏ trong khoác sáng: cúi về trang, vật trong tay nhỏ chưa phân biệt."
+    },
+    {
+      "group": "G04",
+      "anchor": "B13",
+      "frame": 1,
+      "person_xyxy": [
+        198,
+        68,
+        315,
+        182
+      ],
+      "context_xyxy": [
+        187,
+        56,
+        329,
+        203
+      ],
+      "states": "UN",
+      "reason": "Áo khoác sọc và khăn sáng: cầm mặt lưng thiết bị chưa rõ, looking N."
+    },
+    {
+      "group": "G04",
+      "anchor": "B14",
+      "frame": 1,
+      "person_xyxy": [
+        290,
+        54,
+        372,
+        167
+      ],
+      "context_xyxy": [
+        279,
+        43,
+        384,
+        188
+      ],
+      "states": "NN",
+      "reason": "Sau B13: viết trên bàn, tay/vùng bài quan sát được."
+    },
+    {
+      "group": "G05",
+      "anchor": "B01",
+      "frame": 1,
+      "person_xyxy": [
+        133,
+        162,
+        190,
+        229
+      ],
+      "context_xyxy": [
+        122,
+        152,
+        202,
+        245
+      ],
+      "states": "NN",
+      "reason": "Kính áo trắng bên trái: cúi nhìn trang, tay trên bàn; ưu tiên frame không chống che mặt."
+    },
+    {
+      "group": "G05",
+      "anchor": "B02",
+      "frame": 15,
+      "person_xyxy": [
+        147,
+        174,
+        235,
+        245
+      ],
+      "context_xyxy": [
+        137,
+        163,
+        247,
+        261
+      ],
+      "states": "NN",
+      "reason": "Áo sáng bàn giữa trái: cầm giấy/viết, hai tay ở vùng bài."
+    },
+    {
+      "group": "G05",
+      "anchor": "B03",
+      "frame": 39,
+      "person_xyxy": [
+        231,
+        195,
+        340,
+        254
+      ],
+      "context_xyxy": [
+        220,
+        183,
+        354,
+        273
+      ],
+      "states": "NN",
+      "reason": "Áo tối giữa lớp: viết trên giấy, điện thoại dạng thanh ở mép bàn cần QA phân biệt với vật khác."
+    },
+    {
+      "group": "G05",
+      "anchor": "B04",
+      "frame": 55,
+      "person_xyxy": [
+        331,
+        177,
+        402,
+        251
+      ],
+      "context_xyxy": [
+        320,
+        166,
+        415,
+        269
+      ],
+      "states": "NN",
+      "reason": "Áo nâu giữa lớp: giơ tờ giấy để đọc, bàn tay giữ giấy rõ."
+    },
+    {
+      "group": "G05",
+      "anchor": "B05",
+      "frame": 1,
+      "person_xyxy": [
+        374,
+        177,
+        416,
+        240
+      ],
+      "context_xyxy": [
+        365,
+        166,
+        431,
+        258
+      ],
+      "states": "UN",
+      "reason": "Sau áo nâu: tay sát mặt, vùng tay/bàn còn bị che; looking vào vùng bài, phone chưa đủ evidence."
+    },
+    {
+      "group": "G06",
+      "anchor": "B01",
+      "frame": 3,
+      "person_xyxy": [
+        69,
+        118,
+        242,
+        305
+      ],
+      "context_xyxy": [
+        57,
+        106,
+        254,
+        324
+      ],
+      "states": "NN",
+      "reason": "Áo vàng xanh/khăn mặt: viết, giữ đủ tay và trang; frame này không có hiệu ứng trang trí."
+    },
+    {
+      "group": "G06",
+      "anchor": "B02",
+      "frame": 3,
+      "person_xyxy": [
+        276,
+        25,
+        403,
+        151
+      ],
+      "context_xyxy": [
+        264,
+        13,
+        415,
+        173
+      ],
+      "states": "NN",
+      "reason": "Áo xám hàng sau: viết rõ, tránh frame có hiệu ứng che hình."
+    },
+    {
+      "group": "G06",
+      "anchor": "B03",
+      "frame": 3,
+      "person_xyxy": [
+        163,
+        22,
+        284,
+        151
+      ],
+      "context_xyxy": [
+        151,
+        10,
+        296,
+        174
+      ],
+      "states": "NN",
+      "reason": "Áo đen khoác sáng hàng sau: nhìn trang, vùng tay và giấy rõ."
+    },
+    {
+      "group": "G06",
+      "anchor": "B04",
+      "frame": 3,
+      "person_xyxy": [
+        275,
+        120,
+        454,
+        300
+      ],
+      "context_xyxy": [
+        263,
+        108,
+        466,
+        321
+      ],
+      "states": "NN",
+      "reason": "Áo nâu phối đen giữa: cúi viết, giữ bàn tay và trang."
+    },
+    {
+      "group": "G06",
+      "anchor": "B05",
+      "frame": 4,
+      "person_xyxy": [
+        445,
+        68,
+        618,
+        267
+      ],
+      "context_xyxy": [
+        434,
+        56,
+        632,
+        288
+      ],
+      "states": "NP",
+      "reason": "Áo hoa trắng bên phải: nhìn ra trước ngoài trang, tay và vùng giấy nhìn được."
+    },
+    {
+      "group": "G06",
+      "anchor": "B06",
+      "frame": 5,
+      "person_xyxy": [
+        251,
+        136,
+        418,
+        357
+      ],
+      "context_xyxy": [
+        239,
+        124,
+        433,
+        360
+      ],
+      "states": "NN",
+      "reason": "Áo đen viền sáng bàn phải trước: viết, giữ toàn bộ vùng tay và bàn."
+    },
+    {
+      "group": "G06",
+      "anchor": "B07",
+      "frame": 5,
+      "person_xyxy": [
+        388,
+        103,
+        486,
+        302
+      ],
+      "context_xyxy": [
+        376,
+        91,
+        501,
+        320
+      ],
+      "states": "NN",
+      "reason": "Áo xanh đậm sát cửa sổ: viết, phần tay/vùng bài rõ."
+    },
+    {
+      "group": "G06",
+      "anchor": "B08",
+      "frame": 5,
+      "person_xyxy": [
+        11,
+        111,
+        117,
+        299
+      ],
+      "context_xyxy": [
+        0,
+        99,
+        129,
+        320
+      ],
+      "states": "NN",
+      "reason": "Mũ sáng áo đen: viết trên bàn riêng; đầu và tay không cắt."
+    },
+    {
+      "group": "G06",
+      "anchor": "B09",
+      "frame": 5,
+      "person_xyxy": [
+        106,
+        104,
+        186,
+        267
+      ],
+      "context_xyxy": [
+        95,
+        92,
+        198,
+        286
+      ],
+      "states": "NN",
+      "reason": "Áo caro sau người đội mũ: nhìn trang, tay trên bàn."
+    },
+    {
+      "group": "G06",
+      "anchor": "B10",
+      "frame": 5,
+      "person_xyxy": [
+        159,
+        130,
+        249,
+        319
+      ],
+      "context_xyxy": [
+        147,
+        118,
+        261,
+        340
+      ],
+      "states": "NN",
+      "reason": "Áo đen giữa: cúi viết; giữ hai tay, tờ giấy và ghế."
+    },
+    {
+      "group": "G06",
+      "anchor": "B11",
+      "frame": 5,
+      "person_xyxy": [
+        227,
+        110,
+        312,
+        248
+      ],
+      "context_xyxy": [
+        216,
+        98,
+        324,
+        269
+      ],
+      "states": "NN",
+      "reason": "Áo be sau B10: viết, không thấy vật mơ hồ ở vùng tay/bàn."
+    },
+    {
+      "group": "G01",
+      "anchor": "B04",
+      "frame": 9,
+      "person_xyxy": [
+        207,
+        127,
+        246,
+        198
+      ],
+      "context_xyxy": [
+        198,
+        118,
+        253,
+        206
+      ],
+      "states": "UN",
+      "reason": "Mũ xám cúi vào trang; thu context để giảm người A01 phía trước, vật nhỏ trong tay chưa rõ."
+    },
+    {
+      "group": "G02",
+      "anchor": "B02",
+      "frame": 9,
+      "person_xyxy": [
+        317,
+        108,
+        401,
+        280
+      ],
+      "context_xyxy": [
+        305,
+        95,
+        414,
+        297
+      ],
+      "states": "NP",
+      "reason": "Sau người tóc ngắn: quay sang người cạnh, giữ trọn tóc và tay trên bàn."
+    },
+    {
+      "group": "G03",
+      "anchor": "B04",
+      "frame": 8,
+      "person_xyxy": [
+        304,
+        17,
+        545,
+        276
+      ],
+      "context_xyxy": [
+        292,
+        7,
+        561,
+        305
+      ],
+      "states": "NN",
+      "reason": "Đầu hướng vào cuốn sách được giơ trước mặt, không phải nhìn ngoài vùng công việc; tay/sách rõ."
+    },
+    {
+      "group": "G03",
+      "anchor": "B06",
+      "frame": 16,
+      "person_xyxy": [
+        5,
+        44,
+        320,
+        360
+      ],
+      "context_xyxy": [
+        0,
+        30,
+        337,
+        360
+      ],
+      "states": "NU",
+      "reason": "Cùng vị trí khẩu trang đen: chọn F16 có đủ đầu, hai tay che mặt. Phone N; looking chưa rõ nên U."
+    },
+    {
+      "group": "G03",
+      "anchor": "B14",
+      "frame": 33,
+      "person_xyxy": [
+        309,
+        119,
+        502,
+        360
+      ],
+      "context_xyxy": [
+        295,
+        105,
+        519,
+        360
+      ],
+      "states": "UP",
+      "reason": "Đầu nhìn ngoài vùng bài; một tay cầm que kem, phần tay/bàn còn lại bị người trước che nên phone U."
+    },
+    {
+      "group": "G04",
+      "anchor": "B10",
+      "frame": 1,
+      "person_xyxy": [
+        19,
+        119,
+        115,
+        220
+      ],
+      "context_xyxy": [
+        8,
+        108,
+        129,
+        245
+      ],
+      "states": "NN",
+      "reason": "Nữ phía trái sau hàng đầu: viết, tay không có thiết bị mơ hồ."
+    },
+    {
+      "group": "G04",
+      "anchor": "B12",
+      "frame": 1,
+      "person_xyxy": [
+        124,
+        74,
+        204,
+        166
+      ],
+      "context_xyxy": [
+        113,
+        62,
+        216,
+        185
+      ],
+      "states": "NN",
+      "reason": "Viết và giữ trang, không có vật mơ hồ: phone N sau QA input."
+    },
+    {
+      "group": "G04",
+      "anchor": "B14",
+      "frame": 1,
+      "person_xyxy": [
+        290,
+        40,
+        372,
+        167
+      ],
+      "context_xyxy": [
+        278,
+        30,
+        386,
+        188
+      ],
+      "states": "NN",
+      "reason": "Sau B13: viết trên bàn, tay/vùng bài quan sát được."
+    },
+    {
+      "group": "G05",
+      "anchor": "B03",
+      "frame": 39,
+      "person_xyxy": [
+        231,
+        195,
+        340,
+        254
+      ],
+      "context_xyxy": [
+        220,
+        183,
+        354,
+        273
+      ],
+      "states": "PN",
+      "reason": "Phone mặt màn hình viền đen nằm trên bàn sát trang của anchor, đầu cúi viết: P/N."
+    },
+    {
+      "group": "G05",
+      "anchor": "B04",
+      "frame": 55,
+      "person_xyxy": [
+        331,
+        177,
+        402,
+        251
+      ],
+      "context_xyxy": [
+        320,
+        166,
+        415,
+        255
+      ],
+      "states": "NN",
+      "reason": "Đọc tờ giấy cầm hai tay; context kết thúc trước thiết bị thuộc bàn hàng trước."
+    },
+    {
+      "group": "G06",
+      "anchor": "B03",
+      "frame": 3,
+      "person_xyxy": [
+        163,
+        22,
+        284,
+        151
+      ],
+      "context_xyxy": [
+        151,
+        10,
+        296,
+        174
+      ],
+      "states": "NP",
+      "reason": "Đầu nhìn ra trước ngoài trang; tay và vùng bàn không có vật mơ hồ."
+    },
+    {
+      "group": "G06",
+      "anchor": "B05",
+      "frame": 4,
+      "person_xyxy": [
+        445,
+        68,
+        618,
+        267
+      ],
+      "context_xyxy": [
+        434,
+        56,
+        632,
+        288
+      ],
+      "states": "UP",
+      "reason": "Đầu hướng ra camera ngoài trang; một phần tay/bàn bị người áo caro phía trước che nên phone U."
+    },
+    {
+      "group": "G06",
+      "anchor": "B08",
+      "frame": 5,
+      "person_xyxy": [
+        11,
+        111,
+        117,
+        299
+      ],
+      "context_xyxy": [
+        0,
+        99,
+        129,
+        320
+      ],
+      "states": "NP",
+      "reason": "Người đội mũ quay đầu sang phải ngoài trang, tay và bàn đủ rõ."
+    },
+    {
+      "group": "G06",
+      "anchor": "B09",
+      "frame": 5,
+      "person_xyxy": [
+        106,
+        104,
+        186,
+        267
+      ],
+      "context_xyxy": [
+        95,
+        92,
+        198,
+        286
+      ],
+      "states": "NP",
+      "reason": "Người áo caro nhìn ra trước ngoài trang, vùng tay/bàn đủ rõ."
+    },
+    {
+      "group": "G07",
+      "anchor": "B01",
+      "frame": 45,
+      "person_xyxy": [
+        133,
+        43,
+        415,
+        360
+      ],
+      "context_xyxy": [
+        120,
+        30,
+        432,
+        360
+      ],
+      "states": "NN",
+      "reason": "Áo trắng: thao tác với hộp bìa, đầu nhìn vật đang làm; bàn tay và vật đầy đủ."
+    },
+    {
+      "group": "G07",
+      "anchor": "B02",
+      "frame": 25,
+      "person_xyxy": [
+        102,
+        39,
+        351,
+        283
+      ],
+      "context_xyxy": [
+        89,
+        26,
+        367,
+        306
+      ],
+      "states": "NN",
+      "reason": "Áo xanh ngọc, kính: dựng bìa bằng hai tay, đầu nhìn vùng thao tác."
+    },
+    {
+      "group": "G07",
+      "anchor": "B03",
+      "frame": 25,
+      "person_xyxy": [
+        22,
+        22,
+        205,
+        230
+      ],
+      "context_xyxy": [
+        8,
+        9,
+        220,
+        252
+      ],
+      "states": "NN",
+      "reason": "Áo xanh ngọc bên trái: thao tác hộp, không dùng frame cận bị mất tóc."
+    },
+    {
+      "group": "G07",
+      "anchor": "B04",
+      "frame": 12,
+      "person_xyxy": [
+        270,
+        9,
+        475,
+        233
+      ],
+      "context_xyxy": [
+        257,
+        0,
+        490,
+        260
+      ],
+      "states": "NN",
+      "reason": "Giữa bàn: giữ tấm bìa in chữ và nhìn vào vật, không nhầm bìa thành thiết bị."
+    },
+    {
+      "group": "G07",
+      "anchor": "B05",
+      "frame": 18,
+      "person_xyxy": [
+        13,
+        25,
+        339,
+        360
+      ],
+      "context_xyxy": [
+        0,
+        12,
+        354,
+        360
+      ],
+      "states": "NN",
+      "reason": "Áo trắng khẩu trang đen: cắt bìa, hai tay và kéo rõ."
+    },
+    {
+      "group": "G07",
+      "anchor": "B06",
+      "frame": 18,
+      "person_xyxy": [
+        254,
+        34,
+        396,
+        244
+      ],
+      "context_xyxy": [
+        242,
+        21,
+        411,
+        271
+      ],
+      "states": "NN",
+      "reason": "Kẹp tóc cạnh cửa: thao tác bìa và dụng cụ trên bàn, giữ đầu và hai tay."
+    },
+    {
+      "group": "G07",
+      "anchor": "B07",
+      "frame": 18,
+      "person_xyxy": [
+        360,
+        57,
+        491,
+        247
+      ],
+      "context_xyxy": [
+        347,
+        44,
+        508,
+        274
+      ],
+      "states": "NN",
+      "reason": "Kính bên phải: cúi thao tác bìa, tay và vật rõ."
+    },
+    {
+      "group": "G07",
+      "anchor": "B08",
+      "frame": 23,
+      "person_xyxy": [
+        39,
+        42,
+        351,
+        360
+      ],
+      "context_xyxy": [
+        25,
+        29,
+        368,
+        360
+      ],
+      "states": "NN",
+      "reason": "Bàn trước: ghép hộp bằng hai tay, không lấy thêm các frame cùng thao tác."
+    },
+    {
+      "group": "G07",
+      "anchor": "B09",
+      "frame": 23,
+      "person_xyxy": [
+        285,
+        38,
+        503,
+        269
+      ],
+      "context_xyxy": [
+        272,
+        25,
+        521,
+        295
+      ],
+      "states": "NN",
+      "reason": "Giữa bàn: ép/cắt bìa, đầu và tay hướng vùng thao tác."
+    },
+    {
+      "group": "G07",
+      "anchor": "B10",
+      "frame": 27,
+      "person_xyxy": [
+        88,
+        32,
+        285,
+        246
+      ],
+      "context_xyxy": [
+        75,
+        19,
+        303,
+        274
+      ],
+      "states": "NP",
+      "reason": "Bàn trái: giữ tấm bìa nhưng nhìn ra camera; khác với cúi làm."
+    },
+    {
+      "group": "G07",
+      "anchor": "B11",
+      "frame": 27,
+      "person_xyxy": [
+        373,
+        18,
+        603,
+        323
+      ],
+      "context_xyxy": [
+        360,
+        5,
+        620,
+        345
+      ],
+      "states": "NN",
+      "reason": "Bàn phải: nhìn xuống hộp đang dựng, hai tay rõ."
+    },
+    {
+      "group": "G07",
+      "anchor": "B12",
+      "frame": 29,
+      "person_xyxy": [
+        205,
+        17,
+        405,
+        259
+      ],
+      "context_xyxy": [
+        192,
+        4,
+        424,
+        283
+      ],
+      "states": "NN",
+      "reason": "Khẩu trang đen phía sau: cắt bìa, chọn frame có đủ tóc và tay thay góc cận bị cắt."
+    },
+    {
+      "group": "G08",
+      "anchor": "B01",
+      "frame": 1,
+      "person_xyxy": [
+        62,
+        266,
+        138,
+        345
+      ],
+      "context_xyxy": [
+        51,
+        255,
+        151,
+        359
+      ],
+      "states": "NN",
+      "reason": "Bàn đầu trái: cầm giấy và nhìn trang, đủ tay trong nguồn."
+    },
+    {
+      "group": "G08",
+      "anchor": "B02",
+      "frame": 1,
+      "person_xyxy": [
+        142,
+        216,
+        211,
+        315
+      ],
+      "context_xyxy": [
+        131,
+        205,
+        224,
+        338
+      ],
+      "states": "NP",
+      "reason": "Áo tối bàn đầu: quay đầu sang phải ngoài vùng bài; tay không có vật mơ hồ."
+    },
+    {
+      "group": "G08",
+      "anchor": "B02",
+      "frame": 9,
+      "person_xyxy": [
+        134,
+        224,
+        208,
+        319
+      ],
+      "context_xyxy": [
+        123,
+        213,
+        222,
+        343
+      ],
+      "states": "NN",
+      "reason": "Cùng chỗ ngồi chuyển sang viết trên trang; không lấy các frame cúi viết lặp."
+    },
+    {
+      "group": "G08",
+      "anchor": "B03",
+      "frame": 1,
+      "person_xyxy": [
+        79,
+        201,
+        149,
+        274
+      ],
+      "context_xyxy": [
+        68,
+        190,
+        160,
+        293
+      ],
+      "states": "NN",
+      "reason": "Áo đen hàng trái: nhìn giấy trên bàn, giữ cả tay và vùng bài."
+    },
+    {
+      "group": "G08",
+      "anchor": "B04",
+      "frame": 1,
+      "person_xyxy": [
+        201,
+        155,
+        256,
+        224
+      ],
+      "context_xyxy": [
+        192,
+        145,
+        271,
+        242
+      ],
+      "states": "NN",
+      "reason": "Áo đen giữa lớp: viết, tay và trang quan sát được ở input."
+    },
+    {
+      "group": "G08",
+      "anchor": "B05",
+      "frame": 1,
+      "person_xyxy": [
+        306,
+        160,
+        369,
+        247
+      ],
+      "context_xyxy": [
+        296,
+        150,
+        384,
+        266
+      ],
+      "states": "NN",
+      "reason": "Áo xanh cạnh A01: cúi viết, giữ đầu/tay và bàn."
+    },
+    {
+      "group": "G08",
+      "anchor": "B06",
+      "frame": 1,
+      "person_xyxy": [
+        366,
+        132,
+        436,
+        217
+      ],
+      "context_xyxy": [
+        356,
+        122,
+        449,
+        239
+      ],
+      "states": "NN",
+      "reason": "Áo xanh trắng phía phải: đầu cúi trang, tay nằm trên vùng bài."
+    },
+    {
+      "group": "G09",
+      "anchor": "B01",
+      "frame": 7,
+      "person_xyxy": [
+        128,
+        110,
+        302,
+        345
+      ],
+      "context_xyxy": [
+        115,
+        97,
+        317,
+        360
+      ],
+      "states": "NP",
+      "reason": "Nữ cạnh cửa sổ: nhìn về người đang nói ngoài trang; tay/bàn rõ."
+    },
+    {
+      "group": "G09",
+      "anchor": "B01",
+      "frame": 71,
+      "person_xyxy": [
+        92,
+        76,
+        239,
+        330
+      ],
+      "context_xyxy": [
+        80,
+        64,
+        254,
+        352
+      ],
+      "states": "NN",
+      "reason": "Cùng anchor chuyển sang viết; khác trạng thái hướng đầu."
+    },
+    {
+      "group": "G09",
+      "anchor": "B02",
+      "frame": 7,
+      "person_xyxy": [
+        449,
+        123,
+        599,
+        325
+      ],
+      "context_xyxy": [
+        437,
+        111,
+        614,
+        348
+      ],
+      "states": "NP",
+      "reason": "Nam hàng sau bàn giữa: hướng đầu ra người nói, hai tay trên bàn."
+    },
+    {
+      "group": "G09",
+      "anchor": "B02",
+      "frame": 74,
+      "person_xyxy": [
+        73,
+        112,
+        325,
+        360
+      ],
+      "context_xyxy": [
+        60,
+        99,
+        342,
+        360
+      ],
+      "states": "NN",
+      "reason": "Cùng anchor chống đầu và viết trên trang; không lấy close-up F84 bị mất đầu."
+    },
+    {
+      "group": "G09",
+      "anchor": "B03",
+      "frame": 74,
+      "person_xyxy": [
+        274,
+        62,
+        430,
+        238
+      ],
+      "context_xyxy": [
+        262,
+        50,
+        445,
+        261
+      ],
+      "states": "NN",
+      "reason": "Áo trắng sát cửa: cúi vào sách, hai tay trên vùng bài."
+    },
+    {
+      "group": "G09",
+      "anchor": "B04",
+      "frame": 74,
+      "person_xyxy": [
+        389,
+        75,
+        529,
+        229
+      ],
+      "context_xyxy": [
+        377,
+        63,
+        545,
+        251
+      ],
+      "states": "NN",
+      "reason": "Áo trắng phía phải: đọc/viết, tay và trang rõ."
+    },
+    {
+      "group": "G09",
+      "anchor": "B05",
+      "frame": 43,
+      "person_xyxy": [
+        16,
+        109,
+        318,
+        347
+      ],
+      "context_xyxy": [
+        3,
+        96,
+        334,
+        360
+      ],
+      "states": "NP",
+      "reason": "Nữ bàn trước trái: nhìn sang ngoài bài, hai tay trên bàn; khác anchor băng bó A02."
+    },
+    {
+      "group": "G09",
+      "anchor": "B05",
+      "frame": 105,
+      "person_xyxy": [
+        65,
+        69,
+        284,
+        287
+      ],
+      "context_xyxy": [
+        52,
+        56,
+        301,
+        313
+      ],
+      "states": "NN",
+      "reason": "Cùng vị trí bàn trước: cúi đọc, tay trên trang; đủ đầu, khác F82 tay sát mép nguồn."
+    },
+    {
+      "group": "G09",
+      "anchor": "B06",
+      "frame": 85,
+      "person_xyxy": [
+        25,
+        51,
+        221,
+        237
+      ],
+      "context_xyxy": [
+        12,
+        38,
+        238,
+        264
+      ],
+      "states": "NN",
+      "reason": "Nữ hàng sau trái: đầu cúi, tay/giấy đủ rõ; không chọn frame bị người trước che nhiều."
+    },
+    {
+      "group": "G10",
+      "anchor": "B01",
+      "frame": 13,
+      "person_xyxy": [
+        104,
+        282,
+        166,
+        346
+      ],
+      "context_xyxy": [
+        94,
+        272,
+        181,
+        360
+      ],
+      "states": "NN",
+      "reason": "Nữ khẩu trang bàn đầu trái: cúi viết, tay trên trang."
+    },
+    {
+      "group": "G10",
+      "anchor": "B02",
+      "frame": 1,
+      "person_xyxy": [
+        110,
+        211,
+        171,
+        282
+      ],
+      "context_xyxy": [
+        100,
+        201,
+        186,
+        301
+      ],
+      "states": "NN",
+      "reason": "Áo đen hàng trái: viết, giữ hai tay và vùng bài."
+    },
+    {
+      "group": "G10",
+      "anchor": "B03",
+      "frame": 1,
+      "person_xyxy": [
+        220,
+        166,
+        272,
+        226
+      ],
+      "context_xyxy": [
+        210,
+        156,
+        285,
+        245
+      ],
+      "states": "NN",
+      "reason": "Áo xanh giữa trái: cúi viết, đủ tay/bài."
+    },
+    {
+      "group": "G10",
+      "anchor": "B04",
+      "frame": 1,
+      "person_xyxy": [
+        272,
+        197,
+        333,
+        287
+      ],
+      "context_xyxy": [
+        262,
+        187,
+        348,
+        309
+      ],
+      "states": "UN",
+      "reason": "Áo xanh bàn giữa trước: thanh tối cạnh trang chưa đủ phân biệt phone/vật khác ở native; nhìn vào bài."
+    },
+    {
+      "group": "G10",
+      "anchor": "B05",
+      "frame": 1,
+      "person_xyxy": [
+        318,
+        175,
+        371,
+        234
+      ],
+      "context_xyxy": [
+        310,
+        165,
+        385,
+        246
+      ],
+      "states": "NN",
+      "reason": "Áo trắng cạnh B04: giữ phần đầu, tay và trang riêng; không đưa vùng bàn B04 phía dưới vào crop."
+    },
+    {
+      "group": "G10",
+      "anchor": "B06",
+      "frame": 1,
+      "person_xyxy": [
+        385,
+        133,
+        445,
+        228
+      ],
+      "context_xyxy": [
+        375,
+        123,
+        461,
+        246
+      ],
+      "states": "NN",
+      "reason": "Áo xanh bàn phải trước: viết, tay và trang rõ hơn hàng xa."
+    },
+    {
+      "group": "G11",
+      "anchor": "B01",
+      "frame": 8,
+      "person_xyxy": [
+        40,
+        58,
+        153,
+        214
+      ],
+      "context_xyxy": [
+        27,
+        45,
+        167,
+        239
+      ],
+      "states": "NN",
+      "reason": "Bàn trái: viết, đủ đầu và tay; bỏ người sát mép nguồn bị cắt."
+    },
+    {
+      "group": "G11",
+      "anchor": "B02",
+      "frame": 8,
+      "person_xyxy": [
+        94,
+        130,
+        226,
+        242
+      ],
+      "context_xyxy": [
+        81,
+        117,
+        241,
+        264
+      ],
+      "states": "UN",
+      "reason": "Nam bàn trái phía trước: cầm vật dạng thiết bị nhỏ, mặt chưa đủ phân biệt."
+    },
+    {
+      "group": "G11",
+      "anchor": "B03",
+      "frame": 8,
+      "person_xyxy": [
+        205,
+        140,
+        346,
+        273
+      ],
+      "context_xyxy": [
+        192,
+        127,
+        362,
+        296
+      ],
+      "states": "NN",
+      "reason": "Nam giữa bàn trước: viết, calculator trên sách có phím rõ."
+    },
+    {
+      "group": "G11",
+      "anchor": "B04",
+      "frame": 8,
+      "person_xyxy": [
+        309,
+        183,
+        516,
+        337
+      ],
+      "context_xyxy": [
+        248,
+        170,
+        534,
+        359
+      ],
+      "states": "PN",
+      "reason": "Nam bàn trước gần camera: giữ phone mặt màn hình trên bàn bên trái trang cùng anchor."
+    },
+    {
+      "group": "G11",
+      "anchor": "B05",
+      "frame": 8,
+      "person_xyxy": [
+        415,
+        95,
+        542,
+        243
+      ],
+      "context_xyxy": [
+        402,
+        82,
+        556,
+        262
+      ],
+      "states": "UN",
+      "reason": "Kính hàng giữa: vật sát tay chưa đủ phân biệt, đầu nhìn vùng bài."
+    },
+    {
+      "group": "G11",
+      "anchor": "B06",
+      "frame": 14,
+      "person_xyxy": [
+        186,
+        130,
+        339,
+        278
+      ],
+      "context_xyxy": [
+        173,
+        117,
+        353,
+        297
+      ],
+      "states": "NN",
+      "reason": "Áo vàng trong khoác đồng phục: viết rõ; không lấy frame sát mép phải."
+    },
+    {
+      "group": "G11",
+      "anchor": "B07",
+      "frame": 8,
+      "person_xyxy": [
+        124,
+        29,
+        224,
+        141
+      ],
+      "context_xyxy": [
+        113,
+        18,
+        238,
+        159
+      ],
+      "states": "NP",
+      "reason": "Áo nâu phía sau: nhìn ra trước ngoài trang, tay trên bàn."
+    },
+    {
+      "group": "G11",
+      "anchor": "B08",
+      "frame": 8,
+      "person_xyxy": [
+        245,
+        34,
+        333,
+        139
+      ],
+      "context_xyxy": [
+        234,
+        23,
+        347,
+        158
+      ],
+      "states": "UN",
+      "reason": "Áo đỏ phía sau: tay cầm vật chưa rõ, nhìn vùng thao tác."
+    },
+    {
+      "group": "G11",
+      "anchor": "B09",
+      "frame": 8,
+      "person_xyxy": [
+        315,
+        39,
+        411,
+        184
+      ],
+      "context_xyxy": [
+        303,
+        27,
+        425,
+        205
+      ],
+      "states": "UN",
+      "reason": "Tóc dài sau giữa: cầm thiết bị mặt lưng/viền nhỏ; không suy phone P từ tư thế."
+    },
+    {
+      "group": "G11",
+      "anchor": "B10",
+      "frame": 66,
+      "person_xyxy": [
+        47,
+        84,
+        166,
+        206
+      ],
+      "context_xyxy": [
+        36,
+        73,
+        179,
+        225
+      ],
+      "states": "NN",
+      "reason": "Giữa trái sau hàng đầu: viết và đọc giấy, tay đủ rõ."
+    },
+    {
+      "group": "G11",
+      "anchor": "B11",
+      "frame": 66,
+      "person_xyxy": [
+        151,
+        59,
+        251,
+        161
+      ],
+      "context_xyxy": [
+        139,
+        47,
+        265,
+        180
+      ],
+      "states": "NN",
+      "reason": "Kính hàng sau trái: cúi vào bài, không thấy vật mơ hồ."
+    },
+    {
+      "group": "G11",
+      "anchor": "B12",
+      "frame": 66,
+      "person_xyxy": [
+        267,
+        79,
+        364,
+        166
+      ],
+      "context_xyxy": [
+        255,
+        67,
+        379,
+        186
+      ],
+      "states": "UN",
+      "reason": "Tóc dài hàng sau giữa: bàn/tay bị che một phần, nhìn bài; phone giữ U."
+    },
+    {
+      "group": "G11",
+      "anchor": "B13",
+      "frame": 66,
+      "person_xyxy": [
+        228,
+        117,
+        331,
+        241
+      ],
+      "context_xyxy": [
+        216,
+        105,
+        345,
+        259
+      ],
+      "states": "UN",
+      "reason": "Áo hồng sau A01: mặt lưng thiết bị trong tay chưa đủ phân biệt; looking N."
+    },
+    {
+      "group": "G11",
+      "anchor": "B14",
+      "frame": 66,
+      "person_xyxy": [
+        331,
+        55,
+        419,
+        142
+      ],
+      "context_xyxy": [
+        319,
+        43,
+        433,
+        161
+      ],
+      "states": "NN",
+      "reason": "Hàng sau phải: viết, giữ đủ đầu/tay/trang."
+    },
+    {
+      "group": "G11",
+      "anchor": "B15",
+      "frame": 66,
+      "person_xyxy": [
+        461,
+        90,
+        588,
+        191
+      ],
+      "context_xyxy": [
+        449,
+        78,
+        603,
+        211
+      ],
+      "states": "NN",
+      "reason": "Áo hồng phía sau phải: viết; cần QA vì người hàng trước che một phần bàn."
+    },
+    {
+      "group": "G12",
+      "anchor": "B01",
+      "frame": 1,
+      "person_xyxy": [
+        98,
+        75,
+        183,
+        175
+      ],
+      "context_xyxy": [
+        86,
+        63,
+        197,
+        195
+      ],
+      "states": "UN",
+      "reason": "Áo hồng sau trái: tay/vật trên bàn nhỏ chưa đủ phân biệt, đầu hướng vào trang."
+    },
+    {
+      "group": "G12",
+      "anchor": "B02",
+      "frame": 1,
+      "person_xyxy": [
+        168,
+        62,
+        221,
+        143
+      ],
+      "context_xyxy": [
+        157,
+        51,
+        235,
+        161
+      ],
+      "states": "NN",
+      "reason": "Áo nâu phía sau: cúi viết, giữ tay và bài."
+    },
+    {
+      "group": "G12",
+      "anchor": "B03",
+      "frame": 1,
+      "person_xyxy": [
+        166,
+        111,
+        282,
+        213
+      ],
+      "context_xyxy": [
+        155,
+        99,
+        296,
+        233
+      ],
+      "states": "NN",
+      "reason": "Đồng phục giữa trái: viết, tay và vùng bài rõ."
+    },
+    {
+      "group": "G12",
+      "anchor": "B04",
+      "frame": 1,
+      "person_xyxy": [
+        297,
+        87,
+        380,
+        176
+      ],
+      "context_xyxy": [
+        286,
+        75,
+        395,
+        198
+      ],
+      "states": "UN",
+      "reason": "Sau giữa: cầm thiết bị mặt lưng tối, chưa chắc loại; không dùng frame khác suy nhãn."
+    },
+    {
+      "group": "G12",
+      "anchor": "B05",
+      "frame": 1,
+      "person_xyxy": [
+        417,
+        84,
+        516,
+        192
+      ],
+      "context_xyxy": [
+        405,
+        72,
+        530,
+        213
+      ],
+      "states": "UN",
+      "reason": "Hàng sau phải: cầm thiết bị nhỏ bằng hai tay, chưa phân biệt mobile/calculator."
+    },
+    {
+      "group": "G12",
+      "anchor": "B06",
+      "frame": 1,
+      "person_xyxy": [
+        369,
+        139,
+        506,
+        244
+      ],
+      "context_xyxy": [
+        357,
+        127,
+        521,
+        265
+      ],
+      "states": "UN",
+      "reason": "Giữa phải áo đen: vật cầm chưa rõ; đầu nhìn xuống vùng thao tác."
+    },
+    {
+      "group": "G07",
+      "anchor": "B01",
+      "frame": 45,
+      "person_xyxy": [
+        133,
+        17,
+        415,
+        360
+      ],
+      "context_xyxy": [
+        120,
+        5,
+        432,
+        360
+      ],
+      "states": "NN",
+      "reason": "Áo trắng: thao tác với hộp bìa, đầu nhìn vật đang làm; bàn tay và vật đầy đủ."
+    },
+    {
+      "group": "G07",
+      "anchor": "B08",
+      "frame": 23,
+      "person_xyxy": [
+        39,
+        42,
+        390,
+        360
+      ],
+      "context_xyxy": [
+        25,
+        29,
+        405,
+        360
+      ],
+      "states": "NN",
+      "reason": "Bàn trước: ghép hộp bằng hai tay, không lấy thêm các frame cùng thao tác."
+    },
+    {
+      "group": "G07",
+      "anchor": "B10",
+      "frame": 27,
+      "person_xyxy": [
+        61,
+        32,
+        285,
+        246
+      ],
+      "context_xyxy": [
+        45,
+        19,
+        303,
+        274
+      ],
+      "states": "NP",
+      "reason": "Bàn trái: giữ tấm bìa nhưng nhìn ra camera; khác với cúi làm."
+    },
+    {
+      "group": "G08",
+      "anchor": "B02",
+      "frame": 1,
+      "person_xyxy": [
+        142,
+        216,
+        211,
+        315
+      ],
+      "context_xyxy": [
+        131,
+        205,
+        224,
+        338
+      ],
+      "states": "UP",
+      "reason": "Quay đầu ra phải ngoài bài; hai tay ở dưới bàn/chưa đủ quan sát nên phone U."
+    },
+    {
+      "group": "G08",
+      "anchor": "B04",
+      "frame": 1,
+      "person_xyxy": [
+        201,
+        155,
+        256,
+        224
+      ],
+      "context_xyxy": [
+        192,
+        145,
+        271,
+        242
+      ],
+      "states": "NP",
+      "reason": "Đầu ngẩng nhìn ra trước ngoài trang; tay trên bài, không thấy thiết bị mơ hồ."
+    },
+    {
+      "group": "G08",
+      "anchor": "B05",
+      "frame": 1,
+      "person_xyxy": [
+        306,
+        160,
+        369,
+        247
+      ],
+      "context_xyxy": [
+        296,
+        150,
+        384,
+        252
+      ],
+      "states": "NN",
+      "reason": "Viết trên trang; context bỏ phần thiết bị/bàn của A01 ở góc dưới."
+    },
+    {
+      "group": "G09",
+      "anchor": "B01",
+      "frame": 71,
+      "person_xyxy": [
+        72,
+        76,
+        239,
+        330
+      ],
+      "context_xyxy": [
+        60,
+        64,
+        254,
+        352
+      ],
+      "states": "NN",
+      "reason": "Cùng anchor chuyển sang viết; khác trạng thái hướng đầu."
+    },
+    {
+      "group": "G09",
+      "anchor": "B02",
+      "frame": 62,
+      "person_xyxy": [
+        267,
+        95,
+        474,
+        328
+      ],
+      "context_xyxy": [
+        255,
+        83,
+        491,
+        351
+      ],
+      "states": "NN",
+      "reason": "Cùng anchor cúi đọc với hai tay khoanh trên bàn; thay F74 có tay sát mép nguồn."
+    },
+    {
+      "group": "G09",
+      "anchor": "B04",
+      "frame": 74,
+      "person_xyxy": [
+        389,
+        60,
+        529,
+        229
+      ],
+      "context_xyxy": [
+        377,
+        48,
+        545,
+        251
+      ],
+      "states": "NN",
+      "reason": "Áo trắng phía phải: đọc/viết, tay và trang rõ."
+    },
+    {
+      "group": "G10",
+      "anchor": "B05",
+      "frame": 1,
+      "person_xyxy": [
+        318,
+        175,
+        371,
+        228
+      ],
+      "context_xyxy": [
+        310,
+        165,
+        385,
+        232
+      ],
+      "states": "NN",
+      "reason": "Giữ đầu, hai tay và trang riêng; crop kết thúc trước thiết bị của B04 ở bàn phía dưới."
+    },
+    {
+      "group": "G11",
+      "anchor": "B06",
+      "frame": 14,
+      "person_xyxy": [
+        186,
+        130,
+        339,
+        278
+      ],
+      "context_xyxy": [
+        173,
+        117,
+        353,
+        297
+      ],
+      "states": "UN",
+      "reason": "Viết trên trang nhưng tay còn lại bị đầu người trước che; phone U, looking N."
+    },
+    {
+      "group": "G11",
+      "anchor": "B07",
+      "frame": 8,
+      "person_xyxy": [
+        124,
+        29,
+        224,
+        141
+      ],
+      "context_xyxy": [
+        113,
+        18,
+        238,
+        159
+      ],
+      "states": "NU",
+      "reason": "Tay khoanh trên bàn đủ rõ absence; hướng đầu gần ngang chưa phân biệt chắc nhìn bài hay ra ngoài nên looking U."
+    },
+    {
+      "group": "G12",
+      "anchor": "B02",
+      "frame": 1,
+      "person_xyxy": [
+        168,
+        62,
+        221,
+        143
+      ],
+      "context_xyxy": [
+        157,
+        51,
+        235,
+        161
+      ],
+      "states": "UN",
+      "reason": "Vật nhỏ ở tay có bề mặt sáng, chưa đủ phân biệt giấy/thiết bị; looking vào vùng thao tác."
+    },
+    {
+      "group": "G12",
+      "anchor": "B03",
+      "frame": 1,
+      "person_xyxy": [
+        166,
+        111,
+        282,
+        213
+      ],
+      "context_xyxy": [
+        155,
+        99,
+        296,
+        233
+      ],
+      "states": "UN",
+      "reason": "Vật chữ nhật tối trên trang chưa đủ phân biệt phone/calculator ở native; không gán N chỉ vì đang viết."
+    },
+    {
+      "group": "G13",
+      "anchor": "B01",
+      "frame": 9,
+      "person_xyxy": [
+        105,
+        30,
+        315,
+        309
+      ],
+      "context_xyxy": [
+        90,
+        16,
+        332,
+        335
+      ],
+      "states": "UN",
+      "reason": "Bàn trước: cầm vật mặt lưng xanh; chưa phân biệt mobile/calculator trong crop."
+    },
+    {
+      "group": "G13",
+      "anchor": "B02",
+      "frame": 9,
+      "person_xyxy": [
+        309,
+        27,
+        526,
+        246
+      ],
+      "context_xyxy": [
+        300,
+        16,
+        548,
+        280
+      ],
+      "states": "UN",
+      "reason": "Áo đỏ khẩu trang: cầm thiết bị mặt lưng; không suy loại từ frame khác."
+    },
+    {
+      "group": "G13",
+      "anchor": "B02",
+      "frame": 14,
+      "person_xyxy": [
+        0,
+        67,
+        278,
+        350
+      ],
+      "context_xyxy": [
+        0,
+        55,
+        294,
+        360
+      ],
+      "states": "NN",
+      "reason": "Cùng vị trí áo đỏ khẩu trang: chuyển sang viết, calculator có phím rõ trên bàn."
+    },
+    {
+      "group": "G13",
+      "anchor": "B03",
+      "frame": 10,
+      "person_xyxy": [
+        318,
+        27,
+        639,
+        354
+      ],
+      "context_xyxy": [
+        304,
+        14,
+        640,
+        360
+      ],
+      "states": "UN",
+      "reason": "Áo khoác xanh bên phải: cầm mặt lưng thiết bị tối, đủ đầu và hai tay."
+    },
+    {
+      "group": "G13",
+      "anchor": "B04",
+      "frame": 11,
+      "person_xyxy": [
+        81,
+        31,
+        356,
+        240
+      ],
+      "context_xyxy": [
+        64,
+        20,
+        365,
+        278
+      ],
+      "states": "NN",
+      "reason": "Áo đỏ phía trái: viết và cầm calculator mặt phím rõ; khác A02 bên phải."
+    },
+    {
+      "group": "G13",
+      "anchor": "B05",
+      "frame": 13,
+      "person_xyxy": [
+        112,
+        27,
+        354,
+        259
+      ],
+      "context_xyxy": [
+        98,
+        15,
+        366,
+        285
+      ],
+      "states": "NN",
+      "reason": "Giơ bút, tay còn lại đặt trên tóc, đầu hướng xuống trang; giữ cả bàn tay giơ lên."
+    },
+    {
+      "group": "G13",
+      "anchor": "B06",
+      "frame": 13,
+      "person_xyxy": [
+        194,
+        62,
+        538,
+        354
+      ],
+      "context_xyxy": [
+        182,
+        50,
+        553,
+        360
+      ],
+      "states": "NN",
+      "reason": "Áo đỏ tóc mái dài: viết, hai tay và calculator rõ; tránh cận F32 mất tóc."
+    },
+    {
+      "group": "G13",
+      "anchor": "B07",
+      "frame": 18,
+      "person_xyxy": [
+        38,
+        39,
+        308,
+        349
+      ],
+      "context_xyxy": [
+        25,
+        27,
+        320,
+        360
+      ],
+      "states": "NN",
+      "reason": "Áo khoác xanh kính/khẩu trang trắng: cầm calculator mặt phím, tay kia trên bài."
+    },
+    {
+      "group": "G13",
+      "anchor": "B08",
+      "frame": 22,
+      "person_xyxy": [
+        0,
+        18,
+        355,
+        316
+      ],
+      "context_xyxy": [
+        0,
+        8,
+        365,
+        350
+      ],
+      "states": "NN",
+      "reason": "Áo đỏ kính phía trái: tay bấm calculator rõ, toàn bộ tóc còn trong nguồn."
+    },
+    {
+      "group": "G13",
+      "anchor": "B09",
+      "frame": 25,
+      "person_xyxy": [
+        34,
+        17,
+        295,
+        323
+      ],
+      "context_xyxy": [
+        20,
+        7,
+        309,
+        345
+      ],
+      "states": "NP",
+      "reason": "Áo đỏ bên trái nhìn về camera; hai tay trên bàn và gần cổ, không vật mơ hồ."
+    },
+    {
+      "group": "G13",
+      "anchor": "B10",
+      "frame": 34,
+      "person_xyxy": [
+        213,
+        144,
+        426,
+        295
+      ],
+      "context_xyxy": [
+        203,
+        133,
+        440,
+        320
+      ],
+      "states": "NN",
+      "reason": "Kính hàng trước giữa: viết trên giấy, giữ calculator/trang và đủ tóc."
+    },
+    {
+      "group": "G13",
+      "anchor": "B11",
+      "frame": 34,
+      "person_xyxy": [
+        405,
+        118,
+        628,
+        339
+      ],
+      "context_xyxy": [
+        393,
+        106,
+        640,
+        360
+      ],
+      "states": "NN",
+      "reason": "Áo xanh hàng trước phải: đọc/lật trang, hai tay rõ; dùng góc rộng thay các cận mất đầu."
+    },
+    {
+      "group": "G13",
+      "anchor": "B12",
+      "frame": 29,
+      "person_xyxy": [
+        50,
+        33,
+        335,
+        358
+      ],
+      "context_xyxy": [
+        38,
+        21,
+        348,
+        360
+      ],
+      "states": "UN",
+      "reason": "Áo đỏ trước trái: cầm mặt lưng thiết bị đen, chưa đủ xác định loại."
+    },
+    {
+      "group": "G14",
+      "anchor": "B01",
+      "frame": 10,
+      "person_xyxy": [
+        280,
+        32,
+        609,
+        352
+      ],
+      "context_xyxy": [
+        266,
+        18,
+        624,
+        360
+      ],
+      "states": "PN",
+      "reason": "Áo polo phía trước: viết; điện thoại hiện trên trang ngay vùng tay của anchor."
+    },
+    {
+      "group": "G14",
+      "anchor": "B02",
+      "frame": 10,
+      "person_xyxy": [
+        34,
+        0,
+        335,
+        294
+      ],
+      "context_xyxy": [
+        20,
+        0,
+        350,
+        325
+      ],
+      "states": "PN",
+      "reason": "Áo polo bên trái: calculator và phone trên bàn; cần QA mép tóc nguồn."
+    },
+    {
+      "group": "G14",
+      "anchor": "B03",
+      "frame": 7,
+      "person_xyxy": [
+        267,
+        0,
+        566,
+        255
+      ],
+      "context_xyxy": [
+        254,
+        0,
+        583,
+        283
+      ],
+      "states": "PN",
+      "reason": "Áo đen cài hoa trắng: thao tác laptop, phone ngay trước tay trên bàn; QA tóc mép trên."
+    },
+    {
+      "group": "G14",
+      "anchor": "B04",
+      "frame": 8,
+      "person_xyxy": [
+        160,
+        40,
+        462,
+        297
+      ],
+      "context_xyxy": [
+        144,
+        27,
+        479,
+        330
+      ],
+      "states": "UN",
+      "reason": "Áo hồng cài băng tóc: viết và cầm vật sáng mặt lưng; đủ đầu và tay."
+    },
+    {
+      "group": "G14",
+      "anchor": "B05",
+      "frame": 11,
+      "person_xyxy": [
+        16,
+        31,
+        310,
+        310
+      ],
+      "context_xyxy": [
+        4,
+        20,
+        322,
+        344
+      ],
+      "states": "PN",
+      "reason": "Áo trắng kính bên trái: phone trên trang đang được tay tương tác."
+    },
+    {
+      "group": "G14",
+      "anchor": "B06",
+      "frame": 46,
+      "person_xyxy": [
+        158,
+        35,
+        285,
+        180
+      ],
+      "context_xyxy": [
+        146,
+        23,
+        299,
+        209
+      ],
+      "states": "UN",
+      "reason": "Áo xanh tóc dài hàng giữa: cầm thiết bị trắng mặt lưng; dùng góc rộng giữ tóc."
+    },
+    {
+      "group": "G14",
+      "anchor": "B06",
+      "frame": 51,
+      "person_xyxy": [
+        150,
+        31,
+        477,
+        338
+      ],
+      "context_xyxy": [
+        139,
+        19,
+        489,
+        356
+      ],
+      "states": "PN",
+      "reason": "Cùng hàng áo xanh tóc dài: viết, điện thoại có màn hình trên vùng bài trước tay."
+    },
+    {
+      "group": "G14",
+      "anchor": "B07",
+      "frame": 17,
+      "person_xyxy": [
+        159,
+        0,
+        524,
+        353
+      ],
+      "context_xyxy": [
+        145,
+        0,
+        539,
+        360
+      ],
+      "states": "PN",
+      "reason": "Áo polo xanh: điện thoại trên trang cạnh tay cầm calculator; QA đầu sát mép."
+    },
+    {
+      "group": "G14",
+      "anchor": "B08",
+      "frame": 21,
+      "person_xyxy": [
+        148,
+        71,
+        387,
+        306
+      ],
+      "context_xyxy": [
+        137,
+        59,
+        400,
+        335
+      ],
+      "states": "UN",
+      "reason": "Áo khoác xanh kính: cầm mặt lưng thiết bị; giữ toàn bộ đầu và hai tay."
+    },
+    {
+      "group": "G14",
+      "anchor": "B09",
+      "frame": 21,
+      "person_xyxy": [
+        341,
+        122,
+        579,
+        360
+      ],
+      "context_xyxy": [
+        329,
+        110,
+        595,
+        360
+      ],
+      "states": "PN",
+      "reason": "Áo trắng kính bên phải: viết, phone cạnh calculator trên trang thuộc vùng thao tác."
+    },
+    {
+      "group": "G14",
+      "anchor": "B10",
+      "frame": 23,
+      "person_xyxy": [
+        39,
+        92,
+        293,
+        347
+      ],
+      "context_xyxy": [
+        27,
+        80,
+        307,
+        360
+      ],
+      "states": "UN",
+      "reason": "Áo cardigan nơ trắng: cầm mặt lưng thiết bị; đủ tóc và tay."
+    },
+    {
+      "group": "G14",
+      "anchor": "B11",
+      "frame": 25,
+      "person_xyxy": [
+        137,
+        76,
+        348,
+        269
+      ],
+      "context_xyxy": [
+        125,
+        64,
+        360,
+        293
+      ],
+      "states": "PN",
+      "reason": "Áo polo giữa: chống trán và viết; phone trên trang, dùng F25 thay F26 mất tóc."
+    },
+    {
+      "group": "G14",
+      "anchor": "B12",
+      "frame": 28,
+      "person_xyxy": [
+        12,
+        54,
+        285,
+        292
+      ],
+      "context_xyxy": [
+        0,
+        42,
+        298,
+        319
+      ],
+      "states": "PN",
+      "reason": "Áo polo trắng bên trái: calculator và phone trên bàn; F60 mất tóc nên chọn F28."
+    },
+    {
+      "group": "G14",
+      "anchor": "B13",
+      "frame": 29,
+      "person_xyxy": [
+        222,
+        10,
+        600,
+        359
+      ],
+      "context_xyxy": [
+        210,
+        0,
+        617,
+        360
+      ],
+      "states": "UN",
+      "reason": "Áo trắng bên phải: cầm mặt lưng thiết bị, đầu và tay rõ; không lấy cận F34 mất tóc."
+    },
+    {
+      "group": "G14",
+      "anchor": "B14",
+      "frame": 33,
+      "person_xyxy": [
+        295,
+        13,
+        599,
+        344
+      ],
+      "context_xyxy": [
+        284,
+        2,
+        615,
+        360
+      ],
+      "states": "PN",
+      "reason": "Áo trắng búi tóc: bút và phone trên trang ngay dưới tay, bên cạnh laptop."
+    },
+    {
+      "group": "G14",
+      "anchor": "B15",
+      "frame": 59,
+      "person_xyxy": [
+        262,
+        76,
+        524,
+        359
+      ],
+      "context_xyxy": [
+        250,
+        64,
+        538,
+        360
+      ],
+      "states": "UN",
+      "reason": "Áo sọc từng bị loại ở F18: F59 rõ anchor và hai tay hơn, thiết bị hồng còn là mặt lưng. Đề xuất mới, không hồi sinh crop cũ."
+    },
+    {
+      "group": "G22",
+      "anchor": "B01",
+      "frame": 4,
+      "person_xyxy": [
+        22,
+        132,
+        199,
+        315
+      ],
+      "context_xyxy": [
+        8,
+        120,
+        218,
+        343
+      ],
+      "states": "NN",
+      "reason": "Mũ hồng khẩu trang trắng: viết trên bài; chọn góc đủ đầu và tay thay F13 cạnh phải."
+    },
+    {
+      "group": "G22",
+      "anchor": "B02",
+      "frame": 13,
+      "person_xyxy": [
+        46,
+        13,
+        252,
+        248
+      ],
+      "context_xyxy": [
+        34,
+        3,
+        266,
+        277
+      ],
+      "states": "NN",
+      "reason": "Khẩu trang đen hàng trước trái: viết với calculator rõ trên bàn."
+    },
+    {
+      "group": "G22",
+      "anchor": "B03",
+      "frame": 11,
+      "person_xyxy": [
+        0,
+        10,
+        291,
+        355
+      ],
+      "context_xyxy": [
+        0,
+        0,
+        309,
+        360
+      ],
+      "states": "NN",
+      "reason": "Nam bàn đầu: viết và calculator mặt phím; không lấy thêm tư thế cầm lưng thiết bị cùng bàn khi chưa cần."
+    },
+    {
+      "group": "G22",
+      "anchor": "B04",
+      "frame": 31,
+      "person_xyxy": [
+        220,
+        21,
+        590,
+        350
+      ],
+      "context_xyxy": [
+        208,
+        9,
+        610,
+        360
+      ],
+      "states": "NN",
+      "reason": "Khẩu trang trắng bên phải: chống đầu và viết, calculator rõ."
+    },
+    {
+      "group": "G22",
+      "anchor": "B05",
+      "frame": 15,
+      "person_xyxy": [
+        266,
+        29,
+        601,
+        309
+      ],
+      "context_xyxy": [
+        252,
+        16,
+        618,
+        341
+      ],
+      "states": "NN",
+      "reason": "Khẩu trang đen tóc buộc: viết, đủ bàn tay và calculator xanh."
+    },
+    {
+      "group": "G22",
+      "anchor": "B06",
+      "frame": 16,
+      "person_xyxy": [
+        214,
+        3,
+        424,
+        298
+      ],
+      "context_xyxy": [
+        203,
+        0,
+        442,
+        329
+      ],
+      "states": "NN",
+      "reason": "Khẩu trang đen nam: viết cạnh calculator có phím, cần QA tóc sát mép nguồn."
+    },
+    {
+      "group": "G22",
+      "anchor": "B07",
+      "frame": 18,
+      "person_xyxy": [
+        204,
+        18,
+        639,
+        355
+      ],
+      "context_xyxy": [
+        193,
+        6,
+        640,
+        360
+      ],
+      "states": "NN",
+      "reason": "Nam dây đỏ trước phải: tay mở trên bài, calculator rõ; A02 bên cạnh đã có nên không lặp."
+    },
+    {
+      "group": "G22",
+      "anchor": "B08",
+      "frame": 25,
+      "person_xyxy": [
+        0,
+        50,
+        276,
+        358
+      ],
+      "context_xyxy": [
+        0,
+        36,
+        291,
+        360
+      ],
+      "states": "NN",
+      "reason": "Nữ nơ hồng: viết cạnh calculator hồng, giữ cả búi tóc."
+    },
+    {
+      "group": "G22",
+      "anchor": "B09",
+      "frame": 26,
+      "person_xyxy": [
+        199,
+        4,
+        461,
+        303
+      ],
+      "context_xyxy": [
+        185,
+        0,
+        478,
+        332
+      ],
+      "states": "UN",
+      "reason": "Nữ sau nơ hồng: cầm vật chữ nhật mặt lưng trắng; nhìn xuống vùng thao tác."
+    },
+    {
+      "group": "G22",
+      "anchor": "B10",
+      "frame": 28,
+      "person_xyxy": [
+        283,
+        47,
+        629,
+        359
+      ],
+      "context_xyxy": [
+        269,
+        34,
+        640,
+        360
+      ],
+      "states": "UN",
+      "reason": "Nam trước phải: cầm thiết bị trắng mặt lưng chưa xác định."
+    },
+    {
+      "group": "G22",
+      "anchor": "B11",
+      "frame": 28,
+      "person_xyxy": [
+        111,
+        65,
+        328,
+        283
+      ],
+      "context_xyxy": [
+        99,
+        53,
+        341,
+        310
+      ],
+      "states": "NN",
+      "reason": "Nam phía sau trái: chống tóc và viết, calculator mặt phím trong vùng bàn."
+    },
+    {
+      "group": "G22",
+      "anchor": "B12",
+      "frame": 29,
+      "person_xyxy": [
+        57,
+        27,
+        261,
+        327
+      ],
+      "context_xyxy": [
+        44,
+        15,
+        275,
+        352
+      ],
+      "states": "NN",
+      "reason": "Nữ kính phía trái: viết, đủ đầu và hai tay; không dùng F36 mất đầu."
+    },
+    {
+      "group": "G22",
+      "anchor": "B13",
+      "frame": 32,
+      "person_xyxy": [
+        0,
+        65,
+        230,
+        262
+      ],
+      "context_xyxy": [
+        0,
+        52,
+        243,
+        291
+      ],
+      "states": "NN",
+      "reason": "Nữ phía trái: tay che phần mặt, tay kia bấm calculator rõ; hướng đầu vào trang."
+    },
+    {
+      "group": "G22",
+      "anchor": "B14",
+      "frame": 32,
+      "person_xyxy": [
+        153,
+        55,
+        432,
+        311
+      ],
+      "context_xyxy": [
+        140,
+        42,
+        446,
+        342
+      ],
+      "states": "NN",
+      "reason": "Nữ giữa cột tóc: chống trán và dùng calculator; giữ đầu/tay/vùng bài."
+    },
+    {
+      "group": "G22",
+      "anchor": "B15",
+      "frame": 40,
+      "person_xyxy": [
+        207,
+        3,
+        420,
+        274
+      ],
+      "context_xyxy": [
+        194,
+        0,
+        434,
+        295
+      ],
+      "states": "UP",
+      "reason": "Nữ sau giữa: đầu hướng sang bên, tay sửa tóc; tay còn lại bị hàng trước che nên phone U."
+    },
+    {
+      "group": "G22",
+      "anchor": "B16",
+      "frame": 34,
+      "person_xyxy": [
+        419,
+        53,
+        617,
+        246
+      ],
+      "context_xyxy": [
+        407,
+        41,
+        634,
+        279
+      ],
+      "states": "UN",
+      "reason": "Nữ hàng sau phải: cầm thiết bị mặt lưng cạnh sách, dùng frame rộng đủ đầu."
+    },
+    {
+      "group": "G23",
+      "anchor": "B01",
+      "frame": 3,
+      "person_xyxy": [
+        341,
+        66,
+        569,
+        251
+      ],
+      "context_xyxy": [
+        329,
+        54,
+        583,
+        279
+      ],
+      "states": "NN",
+      "reason": "Nam tóc phủ trán phía phải: viết, calculator rõ; không chọn F30 mất tóc."
+    },
+    {
+      "group": "G23",
+      "anchor": "B02",
+      "frame": 5,
+      "person_xyxy": [
+        0,
+        89,
+        235,
+        344
+      ],
+      "context_xyxy": [
+        0,
+        77,
+        250,
+        360
+      ],
+      "states": "NN",
+      "reason": "Nữ kính trước trái: viết với calculator rõ; giữ cả đầu và tay."
+    },
+    {
+      "group": "G23",
+      "anchor": "B03",
+      "frame": 5,
+      "person_xyxy": [
+        213,
+        40,
+        336,
+        168
+      ],
+      "context_xyxy": [
+        202,
+        29,
+        347,
+        193
+      ],
+      "states": "UP",
+      "reason": "Nam hàng sau giữa nhìn về camera, tay dưới mép người trước chưa đủ cho phone known."
+    },
+    {
+      "group": "G23",
+      "anchor": "B04",
+      "frame": 7,
+      "person_xyxy": [
+        359,
+        89,
+        557,
+        319
+      ],
+      "context_xyxy": [
+        347,
+        77,
+        572,
+        344
+      ],
+      "states": "UP",
+      "reason": "Nam hàng giữa quay sang bạn bên cạnh; vùng vật cầm chồng lấn nên phone U."
+    },
+    {
+      "group": "G23",
+      "anchor": "B05",
+      "frame": 8,
+      "person_xyxy": [
+        72,
+        65,
+        307,
+        276
+      ],
+      "context_xyxy": [
+        60,
+        53,
+        319,
+        305
+      ],
+      "states": "UN",
+      "reason": "Nữ khẩu trang giữa: cầm thiết bị mặt lưng, tránh lấy nữ búi tóc sát mép nguồn."
+    },
+    {
+      "group": "G23",
+      "anchor": "B06",
+      "frame": 8,
+      "person_xyxy": [
+        10,
+        57,
+        170,
+        217
+      ],
+      "context_xyxy": [
+        0,
+        45,
+        184,
+        243
+      ],
+      "states": "NP",
+      "reason": "Nữ khẩu trang sau trái nhìn về camera, hai tay khoanh trên bàn."
+    },
+    {
+      "group": "G23",
+      "anchor": "B07",
+      "frame": 9,
+      "person_xyxy": [
+        300,
+        57,
+        466,
+        261
+      ],
+      "context_xyxy": [
+        288,
+        45,
+        480,
+        285
+      ],
+      "states": "UP",
+      "reason": "Nữ giữa quay ra ngoài vùng bài; vật trắng gần tay chưa chắc loại."
+    },
+    {
+      "group": "G23",
+      "anchor": "B08",
+      "frame": 11,
+      "person_xyxy": [
+        0,
+        31,
+        227,
+        347
+      ],
+      "context_xyxy": [
+        0,
+        19,
+        241,
+        360
+      ],
+      "states": "UP",
+      "reason": "Áo xanh ngọc trước trái nhìn camera, một phần vùng tay còn lại ngoài khung nên phone U."
+    },
+    {
+      "group": "G23",
+      "anchor": "B09",
+      "frame": 11,
+      "person_xyxy": [
+        162,
+        30,
+        363,
+        270
+      ],
+      "context_xyxy": [
+        150,
+        18,
+        377,
+        301
+      ],
+      "states": "NN",
+      "reason": "Nữ giữa chống cằm, tay cầm bút trên bài; không thấy vật thiết bị mơ hồ."
+    },
+    {
+      "group": "G23",
+      "anchor": "B10",
+      "frame": 11,
+      "person_xyxy": [
+        363,
+        73,
+        522,
+        241
+      ],
+      "context_xyxy": [
+        351,
+        61,
+        537,
+        269
+      ],
+      "states": "NN",
+      "reason": "Nữ sau phải cúi viết, giữ đầu và vùng tay/bài."
+    },
+    {
+      "group": "G23",
+      "anchor": "B11",
+      "frame": 12,
+      "person_xyxy": [
+        52,
+        17,
+        294,
+        267
+      ],
+      "context_xyxy": [
+        40,
+        5,
+        309,
+        295
+      ],
+      "states": "NN",
+      "reason": "Nam bên trái đọc/lật giấy, đủ tay và vùng trang; khác nam cầm lưng thiết bị trước phải."
+    },
+    {
+      "group": "G23",
+      "anchor": "B12",
+      "frame": 12,
+      "person_xyxy": [
+        208,
+        48,
+        591,
+        355
+      ],
+      "context_xyxy": [
+        196,
+        36,
+        608,
+        360
+      ],
+      "states": "UN",
+      "reason": "Nam trước phải cầm mặt lưng xanh của thiết bị; chưa xác nhận mobile."
+    },
+    {
+      "group": "G23",
+      "anchor": "B13",
+      "frame": 13,
+      "person_xyxy": [
+        0,
+        62,
+        186,
+        236
+      ],
+      "context_xyxy": [
+        0,
+        50,
+        200,
+        261
+      ],
+      "states": "UN",
+      "reason": "Nam trước trái: một tay đặt tóc, một tay cầm thiết bị mặt lưng trắng."
+    },
+    {
+      "group": "G23",
+      "anchor": "B14",
+      "frame": 13,
+      "person_xyxy": [
+        157,
+        54,
+        310,
+        199
+      ],
+      "context_xyxy": [
+        145,
+        42,
+        325,
+        224
+      ],
+      "states": "UN",
+      "reason": "Nam phía sau: viết và giữ thiết bị nhỏ, chưa phân biệt loại tại native/input."
+    },
+    {
+      "group": "G23",
+      "anchor": "B15",
+      "frame": 13,
+      "person_xyxy": [
+        329,
+        64,
+        588,
+        261
+      ],
+      "context_xyxy": [
+        317,
+        52,
+        606,
+        292
+      ],
+      "states": "UN",
+      "reason": "Nữ khẩu trang phải: viết, vật tối cạnh vùng tay chưa đủ phân biệt."
+    },
+    {
+      "group": "G23",
+      "anchor": "B16",
+      "frame": 14,
+      "person_xyxy": [
+        363,
+        95,
+        610,
+        304
+      ],
+      "context_xyxy": [
+        351,
+        83,
+        625,
+        333
+      ],
+      "states": "UN",
+      "reason": "Nam phải cầm mặt lưng thiết bị; không trùng A04 giữa đã có."
+    },
+    {
+      "group": "G23",
+      "anchor": "B17",
+      "frame": 15,
+      "person_xyxy": [
+        16,
+        68,
+        214,
+        276
+      ],
+      "context_xyxy": [
+        4,
+        56,
+        229,
+        306
+      ],
+      "states": "NN",
+      "reason": "Nữ bên trái: viết, hai tay và vùng bài rõ."
+    },
+    {
+      "group": "G23",
+      "anchor": "B18",
+      "frame": 15,
+      "person_xyxy": [
+        174,
+        82,
+        394,
+        302
+      ],
+      "context_xyxy": [
+        162,
+        70,
+        408,
+        330
+      ],
+      "states": "NN",
+      "reason": "Nữ giữa cầm giấy đọc, giữ cả tay đang nâng giấy."
+    },
+    {
+      "group": "G23",
+      "anchor": "B19",
+      "frame": 15,
+      "person_xyxy": [
+        299,
+        47,
+        635,
+        357
+      ],
+      "context_xyxy": [
+        286,
+        35,
+        640,
+        360
+      ],
+      "states": "NN",
+      "reason": "Nữ dây hồng trước phải: bấm calculator mặt phím rõ, tay còn lại trên bài."
+    },
+    {
+      "group": "G23",
+      "anchor": "B20",
+      "frame": 17,
+      "person_xyxy": [
+        39,
+        139,
+        240,
+        277
+      ],
+      "context_xyxy": [
+        27,
+        127,
+        254,
+        303
+      ],
+      "states": "NN",
+      "reason": "Nữ khẩu trang bàn giữa trước: viết, đầu và hai tay rõ, không dùng cận F29 mất tóc."
+    },
+    {
+      "group": "G23",
+      "anchor": "B21",
+      "frame": 18,
+      "person_xyxy": [
+        86,
+        161,
+        269,
+        307
+      ],
+      "context_xyxy": [
+        74,
+        149,
+        283,
+        332
+      ],
+      "states": "NN",
+      "reason": "Nam trước thứ hai: tay che mặt và tay viết; calculator có phím rõ trên bàn."
+    },
+    {
+      "group": "G23",
+      "anchor": "B22",
+      "frame": 18,
+      "person_xyxy": [
+        267,
+        190,
+        420,
+        314
+      ],
+      "context_xyxy": [
+        255,
+        178,
+        434,
+        340
+      ],
+      "states": "NN",
+      "reason": "Nam trước thứ ba: chống cằm, tay cầm bút và calculator rõ."
+    },
+    {
+      "group": "G23",
+      "anchor": "B23",
+      "frame": 18,
+      "person_xyxy": [
+        398,
+        166,
+        596,
+        315
+      ],
+      "context_xyxy": [
+        386,
+        154,
+        611,
+        344
+      ],
+      "states": "NN",
+      "reason": "Nam trước phải: đọc giấy, hai tay giữ trang; giữ calculator phía dưới."
+    },
+    {
+      "group": "G23",
+      "anchor": "B24",
+      "frame": 27,
+      "person_xyxy": [
+        267,
+        11,
+        600,
+        314
+      ],
+      "context_xyxy": [
+        254,
+        0,
+        619,
+        341
+      ],
+      "states": "NN",
+      "reason": "Nữ áo xanh ngọc bên phải: viết, hai tay trên bài. Không lặp A01 bên trái."
+    },
+    {
+      "group": "G23",
+      "anchor": "B25",
+      "frame": 28,
+      "person_xyxy": [
+        266,
+        0,
+        548,
+        309
+      ],
+      "context_xyxy": [
+        253,
+        0,
+        568,
+        337
+      ],
+      "states": "NN",
+      "reason": "Nữ buộc tóc hồng phía sau phải: đọc giấy, QA tóc sát mép trên."
+    },
+    {
+      "group": "G26",
+      "anchor": "B01",
+      "frame": 33,
+      "person_xyxy": [
+        209,
+        103,
+        380,
+        224
+      ],
+      "context_xyxy": [
+        197,
+        91,
+        393,
+        250
+      ],
+      "states": "NN",
+      "reason": "Nữ kính trước trái: viết trên tập xanh; thay cận F1 mất tóc."
+    },
+    {
+      "group": "G26",
+      "anchor": "B02",
+      "frame": 33,
+      "person_xyxy": [
+        366,
+        70,
+        533,
+        229
+      ],
+      "context_xyxy": [
+        354,
+        58,
+        546,
+        254
+      ],
+      "states": "NN",
+      "reason": "Nữ áo khoác xanh trước giữa: dùng calculator rõ mặt phím, thay cận F1/F2 mất tóc."
+    },
+    {
+      "group": "G26",
+      "anchor": "B03",
+      "frame": 2,
+      "person_xyxy": [
+        281,
+        16,
+        526,
+        266
+      ],
+      "context_xyxy": [
+        269,
+        4,
+        539,
+        293
+      ],
+      "states": "UN",
+      "reason": "Nữ áo trắng trước phải: tay cầm mặt lưng đen; hướng nhìn gần vùng thao tác."
+    },
+    {
+      "group": "G26",
+      "anchor": "B04",
+      "frame": 2,
+      "person_xyxy": [
+        194,
+        6,
+        340,
+        149
+      ],
+      "context_xyxy": [
+        184,
+        0,
+        350,
+        164
+      ],
+      "states": "UN",
+      "reason": "Nữ khẩu trang dây xanh hàng sau: cầm vật mặt lưng trắng, đủ đầu và tay nhưng cần QA occlusion."
+    },
+    {
+      "group": "G26",
+      "anchor": "B05",
+      "frame": 3,
+      "person_xyxy": [
+        8,
+        89,
+        144,
+        229
+      ],
+      "context_xyxy": [
+        0,
+        77,
+        157,
+        253
+      ],
+      "states": "NN",
+      "reason": "Nữ trước trái: viết, giữ đầu và vùng tay/bài."
+    },
+    {
+      "group": "G26",
+      "anchor": "B06",
+      "frame": 3,
+      "person_xyxy": [
+        131,
+        51,
+        281,
+        239
+      ],
+      "context_xyxy": [
+        119,
+        39,
+        294,
+        264
+      ],
+      "states": "NN",
+      "reason": "Nữ kính hàng trước thứ hai: calculator trên bàn, đủ tóc và tay."
+    },
+    {
+      "group": "G26",
+      "anchor": "B07",
+      "frame": 3,
+      "person_xyxy": [
+        447,
+        64,
+        639,
+        300
+      ],
+      "context_xyxy": [
+        435,
+        52,
+        640,
+        329
+      ],
+      "states": "NN",
+      "reason": "Nữ trước phải: lật trang, calculator mặt phím rõ; hai tay đủ trong nguồn."
+    },
+    {
+      "group": "G26",
+      "anchor": "B08",
+      "frame": 3,
+      "person_xyxy": [
+        397,
+        46,
+        512,
+        201
+      ],
+      "context_xyxy": [
+        385,
+        34,
+        525,
+        225
+      ],
+      "states": "UP",
+      "reason": "Nữ phía sau phải quay đầu sang bên, tay còn lại bị hàng trước che."
+    },
+    {
+      "group": "G26",
+      "anchor": "B09",
+      "frame": 4,
+      "person_xyxy": [
+        0,
+        21,
+        287,
+        354
+      ],
+      "context_xyxy": [
+        0,
+        9,
+        305,
+        360
+      ],
+      "states": "NN",
+      "reason": "Nữ trước trái: lật trang, giữ cả búi tóc và tay, không lấy thêm góc tương tự."
+    },
+    {
+      "group": "G26",
+      "anchor": "B10",
+      "frame": 28,
+      "person_xyxy": [
+        95,
+        88,
+        220,
+        183
+      ],
+      "context_xyxy": [
+        84,
+        76,
+        233,
+        207
+      ],
+      "states": "UN",
+      "reason": "Nữ hàng giữa cầm vật hồng: dùng góc rộng đủ tóc thay F4 cắt tóc khi giơ tay."
+    },
+    {
+      "group": "G26",
+      "anchor": "B11",
+      "frame": 27,
+      "person_xyxy": [
+        201,
+        222,
+        390,
+        350
+      ],
+      "context_xyxy": [
+        189,
+        210,
+        403,
+        360
+      ],
+      "states": "NN",
+      "reason": "Nữ trước thứ ba: viết, đủ đầu và hai tay; dùng góc rộng thay F5/F9 cận mất búi tóc."
+    },
+    {
+      "group": "G26",
+      "anchor": "B12",
+      "frame": 8,
+      "person_xyxy": [
+        221,
+        10,
+        639,
+        359
+      ],
+      "context_xyxy": [
+        207,
+        0,
+        640,
+        360
+      ],
+      "states": "NN",
+      "reason": "Nam tóc ngắn bàn trước: giữ giấy đọc, tay cầm bút rõ, calculator trên bàn."
+    },
+    {
+      "group": "G26",
+      "anchor": "B13",
+      "frame": 9,
+      "person_xyxy": [
+        322,
+        27,
+        596,
+        273
+      ],
+      "context_xyxy": [
+        310,
+        15,
+        611,
+        306
+      ],
+      "states": "NN",
+      "reason": "Nữ trước phải: viết, đủ đầu và tay, calculator có phím."
+    },
+    {
+      "group": "G26",
+      "anchor": "B14",
+      "frame": 29,
+      "person_xyxy": [
+        0,
+        190,
+        277,
+        360
+      ],
+      "context_xyxy": [
+        0,
+        178,
+        291,
+        360
+      ],
+      "states": "NN",
+      "reason": "Nữ áo xanh ngọc: đọc/chống đầu và calculator rõ; cận F10/F42 mất tóc nên chọn rộng."
+    },
+    {
+      "group": "G26",
+      "anchor": "B15",
+      "frame": 10,
+      "person_xyxy": [
+        280,
+        22,
+        539,
+        307
+      ],
+      "context_xyxy": [
+        268,
+        10,
+        554,
+        334
+      ],
+      "states": "NN",
+      "reason": "Nữ áo trắng bên phải: lật giấy, giữ đầu và tay; khác nữ xanh ngọc bên trái."
+    },
+    {
+      "group": "G26",
+      "anchor": "B16",
+      "frame": 29,
+      "person_xyxy": [
+        332,
+        125,
+        557,
+        334
+      ],
+      "context_xyxy": [
+        320,
+        113,
+        571,
+        357
+      ],
+      "states": "NN",
+      "reason": "Nam khẩu trang dây đỏ: viết, dùng frame rộng thay F11 cắt tóc."
+    },
+    {
+      "group": "G26",
+      "anchor": "B17",
+      "frame": 29,
+      "person_xyxy": [
+        512,
+        116,
+        639,
+        325
+      ],
+      "context_xyxy": [
+        500,
+        104,
+        640,
+        352
+      ],
+      "states": "NN",
+      "reason": "Nam áo khoác xanh bên phải: viết, dùng góc rộng thay F11 mất tóc; QA bàn tay mép phải."
+    },
+    {
+      "group": "G26",
+      "anchor": "B18",
+      "frame": 12,
+      "person_xyxy": [
+        0,
+        18,
+        328,
+        287
+      ],
+      "context_xyxy": [
+        0,
+        6,
+        342,
+        317
+      ],
+      "states": "UN",
+      "reason": "Nữ áo trắng bên trái: cầm mặt lưng thiết bị dưới giấy, không dùng giấy che để gán N khi vật còn lộ."
+    },
+    {
+      "group": "G26",
+      "anchor": "B19",
+      "frame": 12,
+      "person_xyxy": [
+        294,
+        2,
+        639,
+        359
+      ],
+      "context_xyxy": [
+        282,
+        0,
+        640,
+        360
+      ],
+      "states": "NN",
+      "reason": "Nữ khẩu trang áo khoác xanh: viết, đủ vùng tay và trang; QA tóc mép nguồn."
+    },
+    {
+      "group": "G26",
+      "anchor": "B20",
+      "frame": 26,
+      "person_xyxy": [
+        277,
+        140,
+        465,
+        301
+      ],
+      "context_xyxy": [
+        265,
+        128,
+        479,
+        326
+      ],
+      "states": "NN",
+      "reason": "Nữ tóc buộc bàn trước giữa phải: viết và chống tóc; thay cận F14 mất tóc."
+    },
+    {
+      "group": "G26",
+      "anchor": "B21",
+      "frame": 15,
+      "person_xyxy": [
+        0,
+        5,
+        241,
+        265
+      ],
+      "context_xyxy": [
+        0,
+        0,
+        256,
+        296
+      ],
+      "states": "NN",
+      "reason": "Nữ búi tóc hàng trái: viết, đủ đầu và hai tay; A03 ngồi cạnh giữ nguyên."
+    },
+    {
+      "group": "G26",
+      "anchor": "B22",
+      "frame": 15,
+      "person_xyxy": [
+        358,
+        49,
+        639,
+        359
+      ],
+      "context_xyxy": [
+        346,
+        37,
+        640,
+        360
+      ],
+      "states": "NN",
+      "reason": "Nam áo khoác xanh trước phải: bấm calculator, giữ đủ tóc và tay."
+    },
+    {
+      "group": "G26",
+      "anchor": "B23",
+      "frame": 18,
+      "person_xyxy": [
+        39,
+        17,
+        302,
+        265
+      ],
+      "context_xyxy": [
+        26,
+        5,
+        316,
+        295
+      ],
+      "states": "UN",
+      "reason": "Nữ sau trái: cầm vật mặt lưng tối, chưa đủ phân biệt; nhìn xuống."
+    },
+    {
+      "group": "G26",
+      "anchor": "B24",
+      "frame": 18,
+      "person_xyxy": [
+        212,
+        77,
+        527,
+        339
+      ],
+      "context_xyxy": [
+        200,
+        65,
+        540,
+        360
+      ],
+      "states": "NN",
+      "reason": "Nữ trước phải: một tay đặt đầu, tay kia chỉ/viết trên giấy; tránh cận F31 mất tóc."
+    },
+    {
+      "group": "G26",
+      "anchor": "B25",
+      "frame": 27,
+      "person_xyxy": [
+        513,
+        9,
+        598,
+        108
+      ],
+      "context_xyxy": [
+        503,
+        0,
+        610,
+        130
+      ],
+      "states": "UN",
+      "reason": "Nữ ngồi riêng phía sau phải: dùng thiết bị, góc rộng đủ đầu thay F44 mất đầu; QA độ nhỏ."
+    },
+    {
+      "group": "G24",
+      "anchor": "B01",
+      "frame": 10,
+      "person_xyxy": [
+        278,
+        136,
+        360,
+        267
+      ],
+      "context_xyxy": [
+        267,
+        125,
+        375,
+        292
+      ],
+      "states": "NP",
+      "reason": "Áo xanh lá phía sau A01: đầu ngẩng ra ngoài trang, tay chống mặt và tay trên bàn."
+    },
+    {
+      "group": "G24",
+      "anchor": "B01",
+      "frame": 16,
+      "person_xyxy": [
+        296,
+        149,
+        398,
+        273
+      ],
+      "context_xyxy": [
+        285,
+        137,
+        412,
+        299
+      ],
+      "states": "NN",
+      "reason": "Cùng áo xanh lá: cúi nhìn trang, tay đặt trán và tay trên bài; khác trạng thái ngẩng F10."
+    },
+    {
+      "group": "G24",
+      "anchor": "B02",
+      "frame": 45,
+      "person_xyxy": [
+        0,
+        129,
+        147,
+        288
+      ],
+      "context_xyxy": [
+        0,
+        117,
+        161,
+        310
+      ],
+      "states": "UP",
+      "reason": "Nam áo khoác trái: quay đầu sang người cạnh, tay ở dưới bàn nên phone U. Không dùng back view F47 để gán hướng nhìn."
+    },
+    {
+      "group": "G27",
+      "anchor": "B01",
+      "frame": 16,
+      "person_xyxy": [
+        151,
+        309,
+        318,
+        483
+      ],
+      "context_xyxy": [
+        143,
+        298,
+        329,
+        502
+      ],
+      "states": "NP",
+      "reason": "Nam bên phải A01: đầu hướng ra trước ngoài bàn, hai tay khoanh rõ."
+    },
+    {
+      "group": "G27",
+      "anchor": "B02",
+      "frame": 16,
+      "person_xyxy": [
+        5,
+        272,
+        75,
+        360
+      ],
+      "context_xyxy": [
+        0,
+        261,
+        85,
+        377
+      ],
+      "states": "NP",
+      "reason": "Nam hàng sau trái: nhìn ra trước ngoài bàn, hai tay trên bàn; giữ toàn bộ đầu."
+    },
+    {
+      "group": "G27",
+      "anchor": "B03",
+      "frame": 16,
+      "person_xyxy": [
+        76,
+        276,
+        141,
+        355
+      ],
+      "context_xyxy": [
+        69,
+        265,
+        153,
+        373
+      ],
+      "states": "NP",
+      "reason": "Nam hàng sau giữa: nhìn ra trước, hai tay đặt trên bàn, không thấy vật mơ hồ."
+    },
+    {
+      "group": "G04",
+      "anchor": "B09",
+      "frame": 2,
+      "person_xyxy": [
+        211,
+        103,
+        326,
+        222
+      ],
+      "context_xyxy": [
+        198,
+        91,
+        330,
+        243
+      ],
+      "states": "NN",
+      "reason": "Thu hẹp quanh đầu/tay/bài riêng, bỏ thiết bị do A04 bên phải cầm."
+    },
+    {
+      "group": "G11",
+      "anchor": "B01",
+      "frame": 8,
+      "person_xyxy": [
+        40,
+        58,
+        143,
+        181
+      ],
+      "context_xyxy": [
+        27,
+        45,
+        151,
+        193
+      ],
+      "states": "NN",
+      "reason": "Giữ đầu và tay viết riêng; cắt trước vùng thiết bị người bàn dưới."
+    },
+    {
+      "group": "G13",
+      "anchor": "B10",
+      "frame": 34,
+      "person_xyxy": [
+        213,
+        144,
+        426,
+        295
+      ],
+      "context_xyxy": [
+        203,
+        133,
+        440,
+        320
+      ],
+      "states": "UN",
+      "reason": "Tay còn lại đang cầm vật mặt lưng trắng chưa phân biệt; nhìn xuống bài."
+    },
+    {
+      "group": "G14",
+      "anchor": "B01",
+      "frame": 10,
+      "person_xyxy": [
+        280,
+        32,
+        609,
+        352
+      ],
+      "context_xyxy": [
+        266,
+        18,
+        624,
+        360
+      ],
+      "states": "NN",
+      "reason": "Hai tay viết trên trang, không có phone trong crop này; vật trên bàn bên trái nằm ngoài vùng riêng."
+    },
+    {
+      "group": "G14",
+      "anchor": "B04",
+      "frame": 8,
+      "person_xyxy": [
+        160,
+        22,
+        462,
+        297
+      ],
+      "context_xyxy": [
+        144,
+        10,
+        479,
+        330
+      ],
+      "states": "UN",
+      "reason": "Mở lên để giữ đủ băng tóc; vật sáng mặt lưng trong tay giữ U."
+    },
+    {
+      "group": "G14",
+      "anchor": "B06",
+      "frame": 46,
+      "person_xyxy": [
+        158,
+        35,
+        285,
+        180
+      ],
+      "context_xyxy": [
+        146,
+        23,
+        299,
+        209
+      ],
+      "states": "PN",
+      "reason": "Phone hiện trên bàn ngay trước anchor ngoài vật trắng đang cầm; attribution theo vùng bàn/tay."
+    },
+    {
+      "group": "G14",
+      "anchor": "B08",
+      "frame": 21,
+      "person_xyxy": [
+        148,
+        71,
+        387,
+        276
+      ],
+      "context_xyxy": [
+        137,
+        59,
+        400,
+        289
+      ],
+      "states": "UN",
+      "reason": "Thu đáy để tránh phone/calculator của người bên phải, giữ tay và vật cầm riêng."
+    },
+    {
+      "group": "G22",
+      "anchor": "B08",
+      "frame": 25,
+      "person_xyxy": [
+        0,
+        20,
+        276,
+        358
+      ],
+      "context_xyxy": [
+        0,
+        8,
+        291,
+        360
+      ],
+      "states": "NN",
+      "reason": "Mở lên giữ trọn tóc và nơ; calculator hồng và tay viết rõ."
+    },
+    {
+      "group": "G23",
+      "anchor": "B06",
+      "frame": 8,
+      "person_xyxy": [
+        10,
+        57,
+        150,
+        192
+      ],
+      "context_xyxy": [
+        0,
+        45,
+        160,
+        204
+      ],
+      "states": "NP",
+      "reason": "Giữ tay khoanh của anchor, bỏ vật cầm của người bên cạnh ở đáy."
+    },
+    {
+      "group": "G23",
+      "anchor": "B09",
+      "frame": 11,
+      "person_xyxy": [
+        162,
+        30,
+        363,
+        270
+      ],
+      "context_xyxy": [
+        150,
+        18,
+        377,
+        301
+      ],
+      "states": "NP",
+      "reason": "Đầu và mắt hướng ra bên phải ngoài trang, tay chống cằm và cầm bút rõ."
+    },
+    {
+      "group": "G23",
+      "anchor": "B11",
+      "frame": 12,
+      "person_xyxy": [
+        52,
+        17,
+        294,
+        267
+      ],
+      "context_xyxy": [
+        40,
+        5,
+        309,
+        276
+      ],
+      "states": "NN",
+      "reason": "Thu đáy để giảm thiết bị xanh của người trước; giữ tay và giấy anchor."
+    },
+    {
+      "group": "G23",
+      "anchor": "B15",
+      "frame": 13,
+      "person_xyxy": [
+        329,
+        64,
+        588,
+        261
+      ],
+      "context_xyxy": [
+        317,
+        52,
+        606,
+        292
+      ],
+      "states": "NN",
+      "reason": "Vật dưới tay là trang/sách và calculator có phím; tay viết và tay lật giấy rõ."
+    },
+    {
+      "group": "G26",
+      "anchor": "B03",
+      "frame": 2,
+      "person_xyxy": [
+        281,
+        16,
+        526,
+        266
+      ],
+      "context_xyxy": [
+        269,
+        4,
+        539,
+        293
+      ],
+      "states": "UP",
+      "reason": "Đầu quay rõ sang bên khỏi vật đang cầm; loại thiết bị chưa chắc nên phone U."
+    },
+    {
+      "group": "G26",
+      "anchor": "B15",
+      "frame": 10,
+      "person_xyxy": [
+        280,
+        22,
+        539,
+        252
+      ],
+      "context_xyxy": [
+        268,
+        10,
+        554,
+        269
+      ],
+      "states": "NN",
+      "reason": "Thu đáy để bỏ thiết bị cầm của người áo xanh ngọc; giữ tay lật giấy anchor."
+    },
+    {
+      "group": "G24",
+      "anchor": "B01",
+      "frame": 16,
+      "person_xyxy": [
+        277,
+        149,
+        398,
+        273
+      ],
+      "context_xyxy": [
+        264,
+        137,
+        412,
+        299
+      ],
+      "states": "NN",
+      "reason": "Mở trái để giữ trọn mặt và bàn tay đặt trán."
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+[
+  {
+    "sample_id": "CB-0571-R1",
+    "labels": [
+      "negative",
+      "negative"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/CB-0571-R1.png",
+    "sha256": "4969d305a753bb64a2f852b2abc3a541b71d75ac1ab9ed2f3b6ee79de6e0f4f2",
+    "phone_reason": "Accepted labels; exact upstream evidence: artifacts/reports/E004-crop-closure-20261015/candidate-ledger.json#CB-0571-R1"
+  },
+  {
+    "sample_id": "CB-0604-R1",
+    "labels": [
+      "negative",
+      "negative"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/CB-0604-R1.png",
+    "sha256": "439493b564124bae5b962c183c1a860f6e47c9ba3705031a738e3a8c9ba8b678",
+    "phone_reason": "Accepted labels; exact upstream evidence: artifacts/reports/E004-crop-closure-20261015/candidate-ledger.json#CB-0604-R1"
+  },
+  {
+    "sample_id": "CB-0609-R1",
+    "labels": [
+      "unknown",
+      "positive"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/CB-0609-R1.png",
+    "sha256": "9d287691a7a3fbbf6d77162f41781d4194f77336a6fbe2f142eaac5b658f4d86",
+    "phone_reason": "Accepted labels; exact upstream evidence: artifacts/reports/E004-crop-closure-20261015/candidate-ledger.json#CB-0609-R1"
+  },
+  {
+    "sample_id": "G1-A02-F044",
+    "labels": [
+      "negative",
+      "positive"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/G1-A02-F044.png",
+    "sha256": "292f18d76b256960909848c6e55b14cf16a5fb66426d3a03bfe1a339372c3d0a",
+    "phone_reason": "Accepted labels; exact upstream evidence: artifacts/reports/E004-crop-closure-20261015/candidate-ledger.json#G1-A02-F044"
+  },
+  {
+    "sample_id": "NC-003",
+    "labels": [
+      "unknown",
+      "negative"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/NC-003.png",
+    "sha256": "0ba469ffb70c4fd87d4dd22369028983d97012ed11dec2ee45b40bb80bd998cd",
+    "phone_reason": "Accepted labels; exact upstream evidence: artifacts/reports/E004-accepted-coverage-20261016/approval-13.json#NC-003"
+  },
+  {
+    "sample_id": "NC-012",
+    "labels": [
+      "negative",
+      "negative"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/NC-012.png",
+    "sha256": "e25db4b95f695643ead29f9ed5ff0817e44942ab54e5aec5c9f4a0f27fa1b1a2",
+    "phone_reason": "Accepted labels; exact upstream evidence: artifacts/reports/E004-accepted-coverage-20261016/approval-13.json#NC-012"
+  },
+  {
+    "sample_id": "NC-009",
+    "labels": [
+      "negative",
+      "negative"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/NC-009.png",
+    "sha256": "b47a32f00abcbf486b4ae9f9399d97ed24bff6460862655084c98afff15b4838",
+    "phone_reason": "Accepted labels; exact upstream evidence: artifacts/reports/E004-accepted-coverage-20261016/approval-13.json#NC-009"
+  },
+  {
+    "sample_id": "NC-010",
+    "labels": [
+      "unknown",
+      "negative"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/NC-010.png",
+    "sha256": "093aa539f125809a0db430862d648743723b16905de085bf16a550bdb9ddacc7",
+    "phone_reason": "Accepted labels; exact upstream evidence: artifacts/reports/E004-accepted-coverage-20261016/approval-13.json#NC-010"
+  },
+  {
+    "sample_id": "NB-0013",
+    "labels": [
+      "negative",
+      "negative"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/NB-0013.jpg",
+    "sha256": "f4cea9b9c02e2c8de6d56a2cc85a5221c4f127e719b416462d35a31f07c1b69f",
+    "phone_reason": "Accepted labels; exact upstream evidence: artifacts/reports/E004-new-bundle-closure-20261016/closed-ledger.json#NB-0013"
+  },
+  {
+    "sample_id": "NB-0015",
+    "labels": [
+      "negative",
+      "negative"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/NB-0015.jpg",
+    "sha256": "e226163e2c9310a66f3e701a355c653c2dfd34b0e0ef7bacbb21acb1b2ca6fe3",
+    "phone_reason": "Accepted labels; exact upstream evidence: artifacts/reports/E004-new-bundle-closure-20261016/closed-ledger.json#NB-0015"
+  },
+  {
+    "sample_id": "NBX-004",
+    "labels": [
+      "unknown",
+      "negative"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/NBX-004.png",
+    "sha256": "347d6d643d1aa0e90f6fa10e8e9486ee24e9518fb003b486ef66ea2bb478b5db",
+    "phone_reason": "Accepted labels; exact upstream evidence: artifacts/reports/E004-new-bundle-closure-20261016/closed-ledger.json#NBX-004"
+  },
+  {
+    "sample_id": "NBX-005",
+    "labels": [
+      "unknown",
+      "negative"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/NBX-005.png",
+    "sha256": "c562a168ea1174a4b813e9287a8129a52a3bbfce166ca007ba19f80cbf8bab0a",
+    "phone_reason": "Accepted labels; exact upstream evidence: artifacts/reports/E004-new-bundle-closure-20261016/closed-ledger.json#NBX-005"
+  },
+  {
+    "sample_id": "CB-0026",
+    "labels": [
+      "negative",
+      "negative"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/CB-0026.jpg",
+    "sha256": "edf96bea449b0165d8798407149c77dfc18f4e6c28ce3de39600ba52319d4bf4",
+    "phone_reason": "Accepted labels; exact upstream evidence: artifacts/reports/E004-crop-closure-20261015/candidate-ledger.json#CB-0026"
+  },
+  {
+    "sample_id": "CB-0055-R1",
+    "labels": [
+      "negative",
+      "negative"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/CB-0055-R1.png",
+    "sha256": "5cfb24f76119138e4e870e21215c9c2a697126c78a35bbc8fd46398ae06906aa",
+    "phone_reason": "Accepted labels; exact upstream evidence: artifacts/reports/E004-crop-closure-20261015/candidate-ledger.json#CB-0055-R1"
+  },
+  {
+    "sample_id": "G2-A12-F005",
+    "labels": [
+      "negative",
+      "positive"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/G2-A12-F005.png",
+    "sha256": "db82bad965e41a610e2c73aae591a935cd29c5e1ad03b2b6f32fcda1b62f6622",
+    "phone_reason": "Accepted labels; exact upstream evidence: artifacts/reports/E004-crop-closure-20261015/candidate-ledger.json#G2-A12-F005"
+  },
+  {
+    "sample_id": "CB-0024-R1",
+    "labels": [
+      "unknown",
+      "negative"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/CB-0024-R1.png",
+    "sha256": "c1e3685a3b9f9cdd9206ae43e2dcaba068262e3c44c15369f2cb19f4104a430e",
+    "phone_reason": "Accepted labels; exact upstream evidence: artifacts/reports/E004-crop-closure-20261015/candidate-ledger.json#CB-0024-R1"
+  },
+  {
+    "sample_id": "CB-0390",
+    "labels": [
+      "unknown",
+      "negative"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/CB-0390.jpg",
+    "sha256": "0d5b33f683912320d34e07f0a116b3bef06f4aff609a837059bc7cf7aba5a7a7",
+    "phone_reason": "Accepted labels; exact upstream evidence: artifacts/reports/E004-crop-closure-20261015/candidate-ledger.json#CB-0390"
+  },
+  {
+    "sample_id": "CB-0742-R1",
+    "labels": [
+      "negative",
+      "negative"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/CB-0742-R1.png",
+    "sha256": "08c615691e9e5b55ece0c33ed3c5412104c1048971f8f3fc4334b502427519c0",
+    "phone_reason": "Accepted labels; exact upstream evidence: artifacts/reports/E004-crop-closure-20261015/candidate-ledger.json#CB-0742-R1"
+  },
+  {
+    "sample_id": "CB-0745-R1",
+    "labels": [
+      "negative",
+      "positive"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/CB-0745-R1.png",
+    "sha256": "21016b35fc996e53aed8e434f443220008ddb7f130cc9756ce51e2641384faed",
+    "phone_reason": "Accepted labels; exact upstream evidence: artifacts/reports/E004-crop-closure-20261015/candidate-ledger.json#CB-0745-R1"
+  },
+  {
+    "sample_id": "G4-A03-F105",
+    "labels": [
+      "unknown",
+      "negative"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/G4-A03-F105.png",
+    "sha256": "33072df50cdfc46b799ee22adb014d5f941c5e8215104256783518ef744fddf4",
+    "phone_reason": "Accepted labels; exact upstream evidence: artifacts/reports/E004-crop-closure-20261015/candidate-ledger.json#G4-A03-F105"
+  },
+  {
+    "sample_id": "G4-A03-F125",
+    "labels": [
+      "unknown",
+      "positive"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/G4-A03-F125.png",
+    "sha256": "3ac20a988c6c96f95b50cb08cad4f6de0bd28fcf2eccb03ae4d0c3068db287eb",
+    "phone_reason": "Accepted labels; exact upstream evidence: artifacts/reports/E004-crop-closure-20261015/candidate-ledger.json#G4-A03-F125"
+  },
+  {
+    "sample_id": "CB-0063",
+    "labels": [
+      "positive",
+      "negative"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/CB-0063.jpg",
+    "sha256": "ec313eabf014282e5fc2ad44b08b0b981707b2463bbee011d8a81cc4565f2de9",
+    "phone_reason": "Mặt màn hình lớn viền máy trên vở cạnh calculator trắng; thuộc bàn anchor."
+  },
+  {
+    "sample_id": "CB-0065",
+    "labels": [
+      "positive",
+      "negative"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/CB-0065.jpg",
+    "sha256": "ddec5c5cf8c772a9522ec7b38f201d0c55bfaa0fdfee3a1be75d15b1e93ea224",
+    "phone_reason": "Phone mặt kính lớn trên vở bên calculator; hai vật phân biệt được."
+  },
+  {
+    "sample_id": "CB-0069",
+    "labels": [
+      "positive",
+      "negative"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/CB-0069.jpg",
+    "sha256": "9f97dce67ecc71a0be3310760700e99a3c5a4f49160d5a700bcf73c4ad405a33",
+    "phone_reason": "Phone nằm bên phải calculator trắng, mặt kính và viền còn thấy dù tay ở mặt."
+  },
+  {
+    "sample_id": "CB-0113",
+    "labels": [
+      "positive",
+      "negative"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/CB-0113.jpg",
+    "sha256": "c83af1e5a5f0d0ea854b8cbc3f537b86b22e447890e287eb28b743710b6fb960",
+    "phone_reason": "Phone mặt kính xám trên vở cạnh cẳng tay; vật trắng đang cầm không phải căn cứ P."
+  },
+  {
+    "sample_id": "CB-0123",
+    "labels": [
+      "positive",
+      "negative"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/CB-0123.jpg",
+    "sha256": "212cdc2bc40a4a41cc8a40276749a8941cc338d9741e5d76bd521d88c35d5420",
+    "phone_reason": "Phone nằm trên vở sau vật trắng đang cầm, còn thấy mặt màn hình và viền."
+  },
+  {
+    "sample_id": "CB-0145",
+    "labels": [
+      "positive",
+      "negative"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/CB-0145.jpg",
+    "sha256": "5dd222fb6587671957e2c9194d361b26a016a52c6eb7ac83b3fa5c9213bc115a",
+    "phone_reason": "Phone trên vở lộ phần màn hình rộng và viền; không gán theo lưng trắng trong tay."
+  },
+  {
+    "sample_id": "CB-0150",
+    "labels": [
+      "positive",
+      "negative"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/CB-0150.jpg",
+    "sha256": "df698efae384b3faf40f0134dfa033ae9419e43501d46009715482cd933bd1d7",
+    "phone_reason": "Phone viền sáng màn hình tối đặt sát calculator đen trên giấy riêng."
+  },
+  {
+    "sample_id": "CB-0168",
+    "labels": [
+      "positive",
+      "negative"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/CB-0168.jpg",
+    "sha256": "2490fc82b6eba16b5dc8c82246e1f50bf955e66cb4804cc878663bf910bdf3db",
+    "phone_reason": "Phone mặt kính/viền rõ trên trang giấy bên phải ảnh; tay che mặt không làm mất phone evidence."
+  },
+  {
+    "sample_id": "CB-0181",
+    "labels": [
+      "positive",
+      "negative"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/CB-0181.jpg",
+    "sha256": "74a45707cf8fa558783f935b6756ea608db186b8e7d5eaf2e16590dae8c70b80",
+    "phone_reason": "Phone màn hình sáng nằm trên vở; calculator xanh ở mép trái là vật khác."
+  },
+  {
+    "sample_id": "CB-0199",
+    "labels": [
+      "positive",
+      "negative"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/CB-0199.jpg",
+    "sha256": "d6a94f4d28f3cb5610094f38d789b406fdfb7518ae0ea67b72317d8a0bf76239",
+    "phone_reason": "Phone mặt kính lớn trên giấy bên phải calculator xanh."
+  },
+  {
+    "sample_id": "CB-0208",
+    "labels": [
+      "positive",
+      "negative"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/CB-0208.jpg",
+    "sha256": "bfcb5f03b37c1511dd572ef5ebbae26ebb8293401b786dd4efaae2aed6ae175b",
+    "phone_reason": "Phone mặt kính trên vở rõ; vật cầm sát mặt không được dùng để xác nhận P."
+  },
+  {
+    "sample_id": "CB-0210",
+    "labels": [
+      "positive",
+      "negative"
+    ],
+    "path": "data/processed/pilot-b/pilot-b-20261016-v10/crops/CB-0210.jpg",
+    "sha256": "59c7001f57380a871673226f3468a8d5df22dee94c54608a89b1b77c9919bb47",
+    "phone_reason": "Phone viền máy và mặt kính trên giấy sát tay, không có lưới phím calculator trên mặt đó."
+  }
+]

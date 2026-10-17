@@ -1,0 +1,2542 @@
+{
+  "count": 187,
+  "records": [
+    {
+      "marked_member": "temp/1frame_00009.jpg",
+      "marked_sha256": "2651e27e7cbdc726eb719228e6a5c395864237293a85096c8296a08e8c2db2ab",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G01/frame_00009.jpg",
+      "source_sha256": "20acd311f10deb4e44bee9b01af577e32be5e74a1ee028df54f6192a60acefba",
+      "group": "G01",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G01-B01-F00009",
+        "G01-B02-F00009",
+        "G01-B03-F00009",
+        "G01-B04-F00009",
+        "G01-B05-F00009"
+      ],
+      "already_accepted_from_this_frame": [
+        "G01-A01-F00009-R02"
+      ],
+      "group_review_note": "Đã xem 7 frame trong chuỗi. Các dấu ở hàng xa và người sát mép trái/dưới bị chồng người hoặc mất tay: không cố thêm crop. Chọn các vị trí còn thấy đủ đầu/vùng hành vi; A01/A02 đã có giữ nguyên.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/2frame_00009.jpg",
+      "marked_sha256": "7990d5c1d0dff44b4ca6475dc63e9cf4c08c8267c432f630e6c5d2401a8b9f2f",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G02/frame_00009.jpg",
+      "source_sha256": "c78f295ef69e09bab95abc76419854b9063d8fb04974a4a5d630f00b2400bd37",
+      "group": "G02",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G02-B02-F00009"
+      ],
+      "already_accepted_from_this_frame": [
+        "G02-A02-F00009-R02"
+      ],
+      "group_review_note": "Đã xem 13 frame. B01 lấy hai thao tác viết/chống đầu và cầm calculator lộ phím; bỏ các frame cầm mặt lưng lặp. B02 thử một hướng quay khác A02; cần QA vì hàng sau nhỏ.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/3frame_00005.jpg",
+      "marked_sha256": "46a1e5b7500b737a79c51865c7c657239b4e70cf19f3bcfa1b4548e8d7a627fb",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G03/frame_00005.jpg",
+      "source_sha256": "45738e70d53e7ba782947f3dfe375cea5f19e94e61e13551f5d46bcea1df6f67",
+      "group": "G03",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G03-B01-F00005",
+        "G03-B02-F00005"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ ảnh đánh dấu và chuỗi tương ứng. Que kem/bao mềm không tự thành phone U; các frame che kín mặt không đủ looking P. Bỏ mặt sau, ảnh chuyển động, người sau bị che tay; A01/A02 đã có không lặp. Mỗi vị trí ưu tiên một ảnh rõ, không lấy mọi ảnh có mặt.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/3frame_00006.jpg",
+      "marked_sha256": "9a6be364047e2e9a4c097f72c9ac5b5afe058a7741740b8c5723ab74a8daa98b",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G03/frame_00006.jpg",
+      "source_sha256": "7edd47e11d5e7af9418e5c110220431682ac2cc645de46cd57c058fd31d7b650",
+      "group": "G03",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G03-B03-F00006"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ ảnh đánh dấu và chuỗi tương ứng. Que kem/bao mềm không tự thành phone U; các frame che kín mặt không đủ looking P. Bỏ mặt sau, ảnh chuyển động, người sau bị che tay; A01/A02 đã có không lặp. Mỗi vị trí ưu tiên một ảnh rõ, không lấy mọi ảnh có mặt.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/3frame_00008.jpg",
+      "marked_sha256": "e52ac2a5472d144d36bb1922c42b4182c7e67ed8f5b726f02e41ac4ec47baa21",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G03/frame_00008.jpg",
+      "source_sha256": "c6a84dde28ea69abd86709d8c467d2abfc974c43199891927026cbc3aad00386",
+      "group": "G03",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G03-B04-F00008"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ ảnh đánh dấu và chuỗi tương ứng. Que kem/bao mềm không tự thành phone U; các frame che kín mặt không đủ looking P. Bỏ mặt sau, ảnh chuyển động, người sau bị che tay; A01/A02 đã có không lặp. Mỗi vị trí ưu tiên một ảnh rõ, không lấy mọi ảnh có mặt.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/3frame_00010.jpg",
+      "marked_sha256": "d944e2a529d8bd9e5be7a336b7f76e00f6b8780577d16f95261fd6d2b2d3b400",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G03/frame_00010.jpg",
+      "source_sha256": "45a61c5655098070c841118246e922633728989151304cc8716e0b43f18858a4",
+      "group": "G03",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G03-B05-F00010"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ ảnh đánh dấu và chuỗi tương ứng. Que kem/bao mềm không tự thành phone U; các frame che kín mặt không đủ looking P. Bỏ mặt sau, ảnh chuyển động, người sau bị che tay; A01/A02 đã có không lặp. Mỗi vị trí ưu tiên một ảnh rõ, không lấy mọi ảnh có mặt.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/3frame_00011.jpg",
+      "marked_sha256": "2c40dca6e73acb707c70a9d856b3dccefd2a730d56c418bc7e43279071306ba7",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G03/frame_00011.jpg",
+      "source_sha256": "88dfac0e8ad9e9845aca3641df4bea6cda9a7de0af0eeab103cfcc68ad4f260b",
+      "group": "G03",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ ảnh đánh dấu và chuỗi tương ứng. Que kem/bao mềm không tự thành phone U; các frame che kín mặt không đủ looking P. Bỏ mặt sau, ảnh chuyển động, người sau bị che tay; A01/A02 đã có không lặp. Mỗi vị trí ưu tiên một ảnh rõ, không lấy mọi ảnh có mặt.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/3frame_00012.jpg",
+      "marked_sha256": "aac8f47ddb10b29bb4909ee5b506e0c8c1d481a628206f38152d615024ca00e8",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G03/frame_00012.jpg",
+      "source_sha256": "7dfc8ffe9e4991ef63f9895ed751f0aa92198d9cb2be23e0ca2efb83571d438c",
+      "group": "G03",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G03-B08-F00012"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ ảnh đánh dấu và chuỗi tương ứng. Que kem/bao mềm không tự thành phone U; các frame che kín mặt không đủ looking P. Bỏ mặt sau, ảnh chuyển động, người sau bị che tay; A01/A02 đã có không lặp. Mỗi vị trí ưu tiên một ảnh rõ, không lấy mọi ảnh có mặt.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/3frame_00014.jpg",
+      "marked_sha256": "ff87fabf80c19ea46ed94765dc924fdd682353f488066ab749bd4934818720ce",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G03/frame_00014.jpg",
+      "source_sha256": "75a7082875a21671cbb717bec2ff6d7a45cb2987a2ec8e7f9c1f82bf48467f3f",
+      "group": "G03",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ ảnh đánh dấu và chuỗi tương ứng. Que kem/bao mềm không tự thành phone U; các frame che kín mặt không đủ looking P. Bỏ mặt sau, ảnh chuyển động, người sau bị che tay; A01/A02 đã có không lặp. Mỗi vị trí ưu tiên một ảnh rõ, không lấy mọi ảnh có mặt.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/3frame_00016.jpg",
+      "marked_sha256": "4ff89838e2cc151226cc609163d732e585fca7677d42b8a543bd2fbc0214d8ad",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G03/frame_00016.jpg",
+      "source_sha256": "47cfe04743c88130fb2a9c85b2b6754d852f395cc62923abdf7df0682b131bb6",
+      "group": "G03",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G03-B06-F00016"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ ảnh đánh dấu và chuỗi tương ứng. Que kem/bao mềm không tự thành phone U; các frame che kín mặt không đủ looking P. Bỏ mặt sau, ảnh chuyển động, người sau bị che tay; A01/A02 đã có không lặp. Mỗi vị trí ưu tiên một ảnh rõ, không lấy mọi ảnh có mặt.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/3frame_00017.jpg",
+      "marked_sha256": "31462560852c3e29baf327dc47d03b0d4bd0222cc398f9d25051f575b1d44edd",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G03/frame_00017.jpg",
+      "source_sha256": "dcb78d2d4343886e0d0e06c68c35b165d268bb99b732d3a1e9fe672ba1daf43e",
+      "group": "G03",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G03-B10-F00017"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ ảnh đánh dấu và chuỗi tương ứng. Que kem/bao mềm không tự thành phone U; các frame che kín mặt không đủ looking P. Bỏ mặt sau, ảnh chuyển động, người sau bị che tay; A01/A02 đã có không lặp. Mỗi vị trí ưu tiên một ảnh rõ, không lấy mọi ảnh có mặt.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/3frame_00022.jpg",
+      "marked_sha256": "1bb9769ad6d3894862182fcc58d99a971b4787f29d94e055bf21c1db27fc2d50",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G03/frame_00022.jpg",
+      "source_sha256": "b005a62e45454d2f8733ef5d6301f290ae8710c199b183cf519d07678fbcb6aa",
+      "group": "G03",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ ảnh đánh dấu và chuỗi tương ứng. Que kem/bao mềm không tự thành phone U; các frame che kín mặt không đủ looking P. Bỏ mặt sau, ảnh chuyển động, người sau bị che tay; A01/A02 đã có không lặp. Mỗi vị trí ưu tiên một ảnh rõ, không lấy mọi ảnh có mặt.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/3frame_00024.jpg",
+      "marked_sha256": "a7fa26708f7b4cf40741cd86830288d4e736a4ed928759147dc423c27f0cc264",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G03/frame_00024.jpg",
+      "source_sha256": "a0253e1980840bb9795b2b5147fd15551603dfc7f354f56a757207208d7b2ee0",
+      "group": "G03",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ ảnh đánh dấu và chuỗi tương ứng. Que kem/bao mềm không tự thành phone U; các frame che kín mặt không đủ looking P. Bỏ mặt sau, ảnh chuyển động, người sau bị che tay; A01/A02 đã có không lặp. Mỗi vị trí ưu tiên một ảnh rõ, không lấy mọi ảnh có mặt.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/3frame_00027.jpg",
+      "marked_sha256": "ca1ba07a3d0f512d7d06ba35fb125755bef8946f6829c96e38eaa3f7e080426a",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G03/frame_00027.jpg",
+      "source_sha256": "1512eb0a8e7126eb3372c1c116a71b8bfb883a8a5f0a465cae16a92cf9413ff4",
+      "group": "G03",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ ảnh đánh dấu và chuỗi tương ứng. Que kem/bao mềm không tự thành phone U; các frame che kín mặt không đủ looking P. Bỏ mặt sau, ảnh chuyển động, người sau bị che tay; A01/A02 đã có không lặp. Mỗi vị trí ưu tiên một ảnh rõ, không lấy mọi ảnh có mặt.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/3frame_00030.jpg",
+      "marked_sha256": "0759d7bf8b820171b2178cdcaf0f3b4db672ae533aa5e42b5f98c5f8e64feaa3",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G03/frame_00030.jpg",
+      "source_sha256": "8c4444c636119540947d7aa7d7c2865f3ebb4123ff906977e99bc660fdeb1def",
+      "group": "G03",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ ảnh đánh dấu và chuỗi tương ứng. Que kem/bao mềm không tự thành phone U; các frame che kín mặt không đủ looking P. Bỏ mặt sau, ảnh chuyển động, người sau bị che tay; A01/A02 đã có không lặp. Mỗi vị trí ưu tiên một ảnh rõ, không lấy mọi ảnh có mặt.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/3frame_00033.jpg",
+      "marked_sha256": "9e42133836fdad1ce796349b2d053197e23f1f11b05b4bfeb40986e07344f1d1",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G03/frame_00033.jpg",
+      "source_sha256": "58c26de9411c39d1c652477ea91cbdc818754b3c4bf37e8b131828513937cabf",
+      "group": "G03",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G03-B14-F00033"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ ảnh đánh dấu và chuỗi tương ứng. Que kem/bao mềm không tự thành phone U; các frame che kín mặt không đủ looking P. Bỏ mặt sau, ảnh chuyển động, người sau bị che tay; A01/A02 đã có không lặp. Mỗi vị trí ưu tiên một ảnh rõ, không lấy mọi ảnh có mặt.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/4frame_00001.jpg",
+      "marked_sha256": "9a1ec9fd7be7e64dd788b8cbccf8cef98e2c893e1da972d24f889392f0df91e1",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G04/frame_00001.jpg",
+      "source_sha256": "774e1d4becff28106a65fbece9bea9dcf3e2d5abbf7365f5d5ab6d6a1acac796",
+      "group": "G04",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G04-B10-F00001",
+        "G04-B11-F00001",
+        "G04-B13-F00001",
+        "G04-B14-F00001"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem 34 frame trong 4 board nguồn và đủ 6 ảnh đánh dấu. A02/A04/A05 đã có; bổ sung các hàng viết/calculator, không lấy mọi frame cúi viết giống nhau. Người kính áo tối vàng hàng cuối bị người trước che tay: không thêm từ F33.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/4frame_00002.jpg",
+      "marked_sha256": "ec1e23580391c17a113bed76d2d7c4cf0293027f7a5b647f5aa60c774106a6f1",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G04/frame_00002.jpg",
+      "source_sha256": "b425dcd557db0464cc286073eef432ae9d5b28a81db911ff5846821b776b92a7",
+      "group": "G04",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G04-B08-F00002",
+        "G04-B09-F00002"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem 34 frame trong 4 board nguồn và đủ 6 ảnh đánh dấu. A02/A04/A05 đã có; bổ sung các hàng viết/calculator, không lấy mọi frame cúi viết giống nhau. Người kính áo tối vàng hàng cuối bị người trước che tay: không thêm từ F33.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/4frame_00014.jpg",
+      "marked_sha256": "9cf7cf1c6fe6937eaee1946a4daea3e528a14b9af23f58e08287a49cbb7525d2",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G04/frame_00014.jpg",
+      "source_sha256": "f9436b18f019b447b55d333e7049ab4c8a06061991c0f8f9c706c1fe190bb486",
+      "group": "G04",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G04-B01-F00014"
+      ],
+      "already_accepted_from_this_frame": [
+        "G04-A02-F00014-R03"
+      ],
+      "group_review_note": "Đã xem 34 frame trong 4 board nguồn và đủ 6 ảnh đánh dấu. A02/A04/A05 đã có; bổ sung các hàng viết/calculator, không lấy mọi frame cúi viết giống nhau. Người kính áo tối vàng hàng cuối bị người trước che tay: không thêm từ F33.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/4frame_00033.jpg",
+      "marked_sha256": "682cf6acde80e93d7554ce5b8a9265beb8d47843b04456cdc29270874736b10f",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G04/frame_00033.jpg",
+      "source_sha256": "7df7f3287668617a5c82897c6c6d72f903646431a1e73866545ae9cacca67e8b",
+      "group": "G04",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G04-B03-F00033",
+        "G04-B04-F00033",
+        "G04-B05-F00033"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem 34 frame trong 4 board nguồn và đủ 6 ảnh đánh dấu. A02/A04/A05 đã có; bổ sung các hàng viết/calculator, không lấy mọi frame cúi viết giống nhau. Người kính áo tối vàng hàng cuối bị người trước che tay: không thêm từ F33.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/4frame_00035.jpg",
+      "marked_sha256": "710b32086f993e2b6ac266837ed8d3df8aeeb074180829efc006b8e5867546e5",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G04/frame_00035.jpg",
+      "source_sha256": "8087e0204a4f017aae29907a0e4ef5fe5ed5c9c2f7f87c426d83a6a43086c441",
+      "group": "G04",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G04-B06-F00035"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem 34 frame trong 4 board nguồn và đủ 6 ảnh đánh dấu. A02/A04/A05 đã có; bổ sung các hàng viết/calculator, không lấy mọi frame cúi viết giống nhau. Người kính áo tối vàng hàng cuối bị người trước che tay: không thêm từ F33.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/4frame_00037.jpg",
+      "marked_sha256": "f413eed2790a6f43208cbed8c85745ae098024c06c746f8da11d1e03fda7f545",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G04/frame_00037.jpg",
+      "source_sha256": "7a20061b7b940828d7cb09ab5d2d95d01a20f8b41d97d8a49201593b68c9646e",
+      "group": "G04",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G04-B07-F00037"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem 34 frame trong 4 board nguồn và đủ 6 ảnh đánh dấu. A02/A04/A05 đã có; bổ sung các hàng viết/calculator, không lấy mọi frame cúi viết giống nhau. Người kính áo tối vàng hàng cuối bị người trước che tay: không thêm từ F33.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/5frame_00001.jpg",
+      "marked_sha256": "2c7822b7a2ac5292dba79f35df2c8b35f288533c2d749cb05a80623a3199819d",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G05/frame_00001.jpg",
+      "source_sha256": "a32e9941ba2ffc0a06432c5a6daff42ce007dd64fc765a274fc2897b3c98cfe9",
+      "group": "G05",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G05-B01-F00001"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem 26 frame. Các anchor được đánh dấu chủ yếu lặp viết/chống đầu; chọn một thời điểm rõ mỗi vị trí. B05 ở hàng sau chỉ thử crop vì nhỏ; không suy phone từ frame khác. A01/A02 giữ nguyên.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/6frame_00002.jpg",
+      "marked_sha256": "f3eb2c47a4b963764d18883cb46fa3371a17691a05b21e26f2550a7516eb13aa",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G06/frame_00002.jpg",
+      "source_sha256": "c5f60f470ab4f52566f2aea99b19f20b51df1fc58a9d0d44fa9e9d55655527ee",
+      "group": "G06",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem 9 frame. Ưu tiên F3/F4/F5 vì cận hơn và không có hiệu ứng hình nổi; các frame 9/16/17/19 bị hiệu ứng không dùng. A01/A02/A03 đã có, không lấy thêm cùng tư thế. Người rất xa sau cùng bị che bàn/tay không chọn.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/6frame_00005.jpg",
+      "marked_sha256": "5300e875813dec148ee6f355775055f3b3ff4cdb7448bc3db8ee95761f469ec1",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G06/frame_00005.jpg",
+      "source_sha256": "8cf5e50f188da5311dfdb3d61726d97a6d80ec1aab8e0d79eed6f7da612d7a7b",
+      "group": "G06",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G06-B06-F00005",
+        "G06-B07-F00005",
+        "G06-B08-F00005",
+        "G06-B09-F00005",
+        "G06-B10-F00005",
+        "G06-B11-F00005"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem 9 frame. Ưu tiên F3/F4/F5 vì cận hơn và không có hiệu ứng hình nổi; các frame 9/16/17/19 bị hiệu ứng không dùng. A01/A02/A03 đã có, không lấy thêm cùng tư thế. Người rất xa sau cùng bị che bàn/tay không chọn.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/7frame_00001.jpg",
+      "marked_sha256": "2f3b10f6aa2c31ce6389b403e030c3620b8d1ecfb2242099ecddff84311b521e",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G08/frame_00001.jpg",
+      "source_sha256": "122fd10c1a2968eca265513596693a4fbe4901ae08432bc34132f55c305e76b5",
+      "group": "G08",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G08-B01-F00001",
+        "G08-B02-F00001",
+        "G08-B03-F00001",
+        "G08-B04-F00001",
+        "G08-B05-F00001",
+        "G08-B06-F00001"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 11 frame nguồn. Bổ sung hàng gần; A01 giữ nguyên. Hàng rất xa, sát mép trái và sau người trước bị che tay không thêm. B02 có hai trạng thái quay ra ngoài/viết rõ; các người còn lại chỉ một tư thế đại diện.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00003.jpg",
+      "marked_sha256": "89b50449f5fd7645bda63c71c8ee77f63581edfdd575134cbbdec413da9a0e46",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00003.jpg",
+      "source_sha256": "b51e66d78f7abdb6b4f63bcf4159f7826bae60e0493d12dc0d53b23ba300292c",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00007.jpg",
+      "marked_sha256": "f63ec918cb30602cc11ebe0058c1c3ac7f6bd354edb392f2b50618825100e13c",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00007.jpg",
+      "source_sha256": "05de466e8b9e56ee1f129ddc5511d9bf74ba8249da9e74e0a769886e2a089c4e",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00008.jpg",
+      "marked_sha256": "ceabb958d4ba0bf1408bf81554848b9eb26f6826606c0d2328ba3c394cda965c",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00008.jpg",
+      "source_sha256": "6628025e58eb2180fb8a7db84a887c42e76a6c873bbb2dfb685ab7d889bfd6aa",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00009.jpg",
+      "marked_sha256": "7f36ea8bd34ed54006121683f68325cd24afcfe8a33e64c8fc2a0abd07e0833e",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00009.jpg",
+      "source_sha256": "002b1e8093539bed4ff2a573d790dec3c16f389382fdf6a01789d6b3bfaac1ee",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00010.jpg",
+      "marked_sha256": "cacb3012040c6afba2279fef5144a22fac776c1673f00e58e82e03864ce25bd9",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00010.jpg",
+      "source_sha256": "aaa4c5f00cdd53f271ca7c4ecdb41867a80235cfbdb1623c64817899b654fe27",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00011.jpg",
+      "marked_sha256": "f180dd4e642854b2b7f46cb8a333330a856884a95ed6534cd14582d8770d8680",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00011.jpg",
+      "source_sha256": "948224a55b74e4caecfbda37de02db4c754d7ae979d6cd9f901c3ba5e942ed13",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00012.jpg",
+      "marked_sha256": "86bca93c2dde664f6395954af8e10c35b2ea4a4a1884f87837c27eb62a89d654",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00012.jpg",
+      "source_sha256": "5d2cfdecae1a7326aa2190bf0be6c5ff11bb0f9c8afd751046c96700bb8db967",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G07-B04-F00012"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00014.jpg",
+      "marked_sha256": "5f38b8dfa4d66105bac880a2a63cf56aa7c5e919cdc2cf7baa433d2903cebea4",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00014.jpg",
+      "source_sha256": "ab87ce04dd2439213a0fa4fbbbc615f297a6a3fcf65e4a54139a150c8c646f85",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00018.jpg",
+      "marked_sha256": "0444a0e5f850e772717139db19a38c090de0fe57e3580868a4a4f6ec9c711f9a",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00018.jpg",
+      "source_sha256": "af06177fe63930796e6c10d28de421b96dfb415382c79fae9ee23835ec2e287c",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G07-B05-F00018",
+        "G07-B06-F00018",
+        "G07-B07-F00018"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00019.jpg",
+      "marked_sha256": "549a542f46e4d642cc85504da16ce1e21732d27ce8891690c247b2e468b41b40",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00019.jpg",
+      "source_sha256": "db4744934a64f5be5440e2692cbedad38a5a145d4af387f06b8fe5ccc98b115b",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00020.jpg",
+      "marked_sha256": "dca625cd7acaf5fad898b6a2fce5279b8ff705233aaa845a46bba1454b565523",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00020.jpg",
+      "source_sha256": "4ffab25c109a278a443cbf17b2591bf1bde78e557771b6ff5aa2ca405cd21458",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [
+        "G07-A03-F00020"
+      ],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00021.jpg",
+      "marked_sha256": "79d4f27143db2e44c5117bd4ed8364cca823e81ba9350f68f3a40f8419df727d",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00021.jpg",
+      "source_sha256": "a0a49cc5a2678dd99cc426ef88a6de2bab38392cc8ad97b0f307a41062795c2a",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00022.jpg",
+      "marked_sha256": "5cd6c5f877bf55a3c620e6b0ab5610274c6e87825f8a67a4d8b04ab9efde20cd",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00022.jpg",
+      "source_sha256": "94226ad8985f2b711e2ac528c311f33ee28c3c4519d973f0b6aea5de5dae6d68",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00023.jpg",
+      "marked_sha256": "76b180d07c794038abcd2b24a888fb2b4039582c9e1929dc8d18dfc64e298a03",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00023.jpg",
+      "source_sha256": "9a28781fe6ce93cfd749a2d4329af2274a9907cf94ecd3c4dbecea16f14c8147",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G07-B08-F00023",
+        "G07-B09-F00023"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00025.jpg",
+      "marked_sha256": "4752a982ff449d9c05565c81ea2c6a78378b26fd778b360266882f057ec7aee5",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00025.jpg",
+      "source_sha256": "9e92b57f008b87089a3c488a3dae0cb86cd4e46ce1ffc2b7979f6e682916aee7",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G07-B02-F00025"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00026.jpg",
+      "marked_sha256": "066b4e7f45ff54a35b0c807b5545185734d8c448489339a2af3d29d1cd2469ea",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00026.jpg",
+      "source_sha256": "285c8a7fd9477abc90b1aef9ad40afe6a9f5e4ece6ef59442b6321cbb367a4e7",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00027.jpg",
+      "marked_sha256": "fefe445050b9920cd21c3c9092d454012440aa195d79a1b0d10d02920c4d6c79",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00027.jpg",
+      "source_sha256": "2a05efb001dc3c6b77fb38287f52d45cb609df3b6f9b6cbe2fce89a043f9d901",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G07-B10-F00027",
+        "G07-B11-F00027"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00028.jpg",
+      "marked_sha256": "367702a357580f87f9d6b143645a015a7343ea278939baa445802dda1edec243",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00028.jpg",
+      "source_sha256": "01942f37f89ebc6eacd7a04e00fbde29a09373ff7a2651c83a89508916eb064b",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00029.jpg",
+      "marked_sha256": "12502a64701c7813b9ecbf753f1e4fc2b131dd93209ee122dfe55e0b62f73319",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00029.jpg",
+      "source_sha256": "3b6245b4d762cd65e251898919443640227d90677c28c4aea48e80650e1630a2",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G07-B12-F00029"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00031.jpg",
+      "marked_sha256": "0cd93fc28dfd467fa8b2f898e6ce85948410f45d413aa6a85dbd5a6e3eaf2c05",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00031.jpg",
+      "source_sha256": "782907cbdafb60b98998de5d58998673752d4e9723889ad3217ce107bb99c02a",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00034.jpg",
+      "marked_sha256": "2efdbfdeaee59c950e4131ab5db4af313390ab596a167ca2f0d8e5e56484df46",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00034.jpg",
+      "source_sha256": "4d04ad554af6e8878b31016915d91acbddca99a28f9d3f650525fcf54d402a7a",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00035.jpg",
+      "marked_sha256": "dfe791812842828aa1a1753fa75079c0bc16323cee4fda7b41f6cdd3bdb81a29",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00035.jpg",
+      "source_sha256": "c272f75eb22a464f09b805a7cf902cd75e336a553f32b9741a355eccacdbd621",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00036.jpg",
+      "marked_sha256": "e18ea1324663f33086886d692d0d8dd8b1d9711582dc7556bea59258648d6f25",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00036.jpg",
+      "source_sha256": "f9246d32ff53b03b8701687e90528b6cf1590001e4be17cdf687c014d3c8ff50",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00037.jpg",
+      "marked_sha256": "b28437c7e3df5929277edac0a50c05ef76172c5c25bce5ddfb4114db73a4faa2",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00037.jpg",
+      "source_sha256": "efc737dd9ff07dc37011eaf25d0966743afc32985563ab781eb71f61bea25dc3",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00038.jpg",
+      "marked_sha256": "b02dd364eb732ef0cec54985bcd20e629b7b286baf4e123fbcab3e4144a38dd5",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00038.jpg",
+      "source_sha256": "6f578a72ca6f134de8507b37e17d35085e6646d7a250eac752f005db4516bd58",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00039.jpg",
+      "marked_sha256": "05aafaa70dfba818d68e388d2f6e8abb4065f79674afda9720f9e3ae1a430d43",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00039.jpg",
+      "source_sha256": "c366659132baf0f923df1f602ebfa678b82692de716b6245f215899132e27222",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00040.jpg",
+      "marked_sha256": "041a55452791282c0010eac0617449f617cbd90de375e023e44760a4273d6f47",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00040.jpg",
+      "source_sha256": "cb13ba3d975a5e212586ddef603d1becb086edeaaf449df845429acbc87aa7e7",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00043.jpg",
+      "marked_sha256": "64e037937186abcd2d5af52ca9214022f9bb83e7dd872cf8bdce4ae6aef5faa5",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00043.jpg",
+      "source_sha256": "43149f2ce09effcbf28eb88af1d1b02529b7cf69cf649abd05f0acd770a60c2a",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00045.jpg",
+      "marked_sha256": "028a4e082d25279c2ea6e8478321363764c276f85a7386b5c4f153c5c3ade566",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00045.jpg",
+      "source_sha256": "691530e2b44cbf0ef96eee9c59f778aaf1252852c6b8e0acf2aef3687c78efcd",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G07-B01-F00045"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/8frame_00047.jpg",
+      "marked_sha256": "3170707110cbfef471fa87d57534709dc8d5f97a8debfe501dd7ae98706c3296",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00047.jpg",
+      "source_sha256": "2187c5267f1e5624d873392cdf3ca92451133f408106d90a97d07e532a770554",
+      "group": "G07",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 30 ảnh đánh dấu, ưu tiên cảnh thao tác bìa rõ và có đủ đầu/tay. Các cận F7/F9/F10/F21/F22/F31/F38/F39/F40/F43 bị cắt tóc hoặc tay nên chọn góc rộng khác khi có. F20 và F24 có A03/A01 đã duyệt không thêm cùng thao tác; không mặc định ảnh chế tác bìa là nhìn quanh. Những dấu ở F34/F35/F36/F37/F47 thuộc các dãy đã thấy hoặc hàng xa/occlusion, không cắt mọi ảnh của người đó.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/9frame_00002.jpg",
+      "marked_sha256": "836fa375108b0897662ca33b5a785164464c8d5555058f0e31714c948c678137",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G09/frame_00002.jpg",
+      "source_sha256": "72bcbb94a7dac2866745f98f6fc774225030012a8c0189d65937105e361e67e3",
+      "group": "G09",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 24 frame nguồn và hai ảnh đánh dấu. A01/A02/A03 đã có; thêm nữ/nam ở các bàn còn lại, lấy đọc/viết hoặc hướng đầu khác biệt. F84 mất đầu không chọn. Nữ áo trắng ở F82 là A03 đã có.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/9frame_00082.jpg",
+      "marked_sha256": "6841bdbae419a8372c04e07803380c7951f161f30b91e8453d73ca4ed6388fc7",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G09/frame_00082.jpg",
+      "source_sha256": "697a1f23c9011c02fce47dfbc3c7e91920ecff8385bb87c4e291168f26854ab2",
+      "group": "G09",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 24 frame nguồn và hai ảnh đánh dấu. A01/A02/A03 đã có; thêm nữ/nam ở các bàn còn lại, lấy đọc/viết hoặc hướng đầu khác biệt. F84 mất đầu không chọn. Nữ áo trắng ở F82 là A03 đã có.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/10frame_00001.jpg",
+      "marked_sha256": "845982d6f0375cf9ae3ba11f36b5415f5015fa64a7500c045aa6b2ed08b72fad",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G10/frame_00001.jpg",
+      "source_sha256": "3d9dd0bdd1baa170c6cb155f9bab86a1e003fca930c1e08b38c8d96f4ea95ec2",
+      "group": "G10",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G10-B02-F00001",
+        "G10-B03-F00001",
+        "G10-B04-F00001",
+        "G10-B05-F00001",
+        "G10-B06-F00001"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 16 frame nguồn. Các dấu ở hàng xa quá nhỏ hoặc chồng người không thêm. Bàn đầu A01 đã có; bổ sung các bàn nhìn rõ tay/bài. Các scene có vẻ cùng lớp G01/G08 vẫn giữ nhóm video riêng và flag family chưa xác minh.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/11frame_00008.jpg",
+      "marked_sha256": "2736b70ca394d1e989c13a35c1a0acae298af3f47afe274faa5ec18348762837",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G11/frame_00008.jpg",
+      "source_sha256": "c9d2239c4a5dc7c78012fd78eea44d4b764477d558f4f629f9c116fafa4411e6",
+      "group": "G11",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G11-B01-F00008",
+        "G11-B02-F00008",
+        "G11-B03-F00008",
+        "G11-B04-F00008",
+        "G11-B05-F00008",
+        "G11-B07-F00008",
+        "G11-B09-F00008"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem đủ 10 frame nguồn và hai ảnh đánh dấu. A01 áo đỏ/be và A02 hồng kính đã có. Thêm các anchor còn lại; dùng F14 cho áo vàng để không cắt mép phải. Các người ngoài dấu hoặc sau cùng quá nhỏ không tự mở rộng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/11frame_00066.jpg",
+      "marked_sha256": "37ab27fe1b4011b30d7961ebc486bc0c5c32de7a43ddc69e604077b48c99464b",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G11/frame_00066.jpg",
+      "source_sha256": "f60313d492490210be35c6525ebc7c8b9da55c9daf2ae84c68115025406a3273",
+      "group": "G11",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G11-B10-F00066",
+        "G11-B11-F00066",
+        "G11-B13-F00066",
+        "G11-B14-F00066"
+      ],
+      "already_accepted_from_this_frame": [
+        "G11-A01-F00066",
+        "G11-A02-F00066"
+      ],
+      "group_review_note": "Đã xem đủ 10 frame nguồn và hai ảnh đánh dấu. A01 áo đỏ/be và A02 hồng kính đã có. Thêm các anchor còn lại; dùng F14 cho áo vàng để không cắt mép phải. Các người ngoài dấu hoặc sau cùng quá nhỏ không tự mở rộng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/12frame_00001.jpg",
+      "marked_sha256": "e67d32f94f9e46064ed7aa851a3575792109dac88a526da24c70e33c0bd0dcc5",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G12/frame_00001.jpg",
+      "source_sha256": "7e472fc22531c0f1642c8dc51baa519e6f125247d0a9422a73c37f613843d685",
+      "group": "G12",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G12-B01-F00001",
+        "G12-B02-F00001",
+        "G12-B03-F00001",
+        "G12-B04-F00001",
+        "G12-B05-F00001",
+        "G12-B06-F00001"
+      ],
+      "already_accepted_from_this_frame": [
+        "G12-A03-F00001"
+      ],
+      "group_review_note": "Đã xem đủ 11 frame nguồn. A01/A02/A03 đã có. Người sát mép trái/phải mất tay/đầu trong source không thêm; ưu tiên các hàng giữa đủ anatomy. Thiết bị nhỏ thiếu mặt rõ giữ U, không gán phone P hàng loạt.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/13frame_00005.jpg",
+      "marked_sha256": "699f50ac4a69502fabc9cf4d42fb5df5979afcde3cfd351c7a689d7a564ae71a",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00005.jpg",
+      "source_sha256": "ce69cafaa23731ee39052111e1f45d6f3dd96e7157cb2129ccb536028c674827",
+      "group": "G13",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 4 bảng nguồn và 24 ảnh đánh dấu. A01/A02/A03/A04/A05/A06 đã duyệt được đối chiếu; không lặp thao tác. F15/F24 trái/F26/F28/F32 và nhiều cận mất đầu, ưu tiên F34 rộng; F25 phải mất tay. Các vị trí hàng xa che tay không thêm. B02 giữ hai thay đổi cầm thiết bị/viết; không suy nhãn mặt lưng từ frame calculator.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/13frame_00009.jpg",
+      "marked_sha256": "03b52865653dde7728a9b898202a102090fe75863853a857669de4ec9cd61238",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00009.jpg",
+      "source_sha256": "1b8917cc35f93cb01bb94943508524f27189839c2ef1f05a572e7587d437a8dd",
+      "group": "G13",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G13-B01-F00009",
+        "G13-B02-F00009"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 4 bảng nguồn và 24 ảnh đánh dấu. A01/A02/A03/A04/A05/A06 đã duyệt được đối chiếu; không lặp thao tác. F15/F24 trái/F26/F28/F32 và nhiều cận mất đầu, ưu tiên F34 rộng; F25 phải mất tay. Các vị trí hàng xa che tay không thêm. B02 giữ hai thay đổi cầm thiết bị/viết; không suy nhãn mặt lưng từ frame calculator.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/13frame_00010.jpg",
+      "marked_sha256": "1cdeee60b9e72225f2f106abf2a1b231f3d7b91d000b62da9338e4de99437072",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00010.jpg",
+      "source_sha256": "d1300a83feeda0ffe8f1370bf7c15bb7ca00bbedd77aa5e5f2094db0f2e1db4a",
+      "group": "G13",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G13-B03-F00010"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 4 bảng nguồn và 24 ảnh đánh dấu. A01/A02/A03/A04/A05/A06 đã duyệt được đối chiếu; không lặp thao tác. F15/F24 trái/F26/F28/F32 và nhiều cận mất đầu, ưu tiên F34 rộng; F25 phải mất tay. Các vị trí hàng xa che tay không thêm. B02 giữ hai thay đổi cầm thiết bị/viết; không suy nhãn mặt lưng từ frame calculator.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/13frame_00011.jpg",
+      "marked_sha256": "164d6a6fb61b48b8c49d4e3f7f2963276360aff303c45291de6e7e5942e689b0",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00011.jpg",
+      "source_sha256": "b5b4dfa5a82001dde9d8c8c8dd795fa6fe8f741c99bb1c71f6eb50f089ae56ff",
+      "group": "G13",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G13-B04-F00011"
+      ],
+      "already_accepted_from_this_frame": [
+        "G13-A02-F00011"
+      ],
+      "group_review_note": "Đã xem toàn bộ 4 bảng nguồn và 24 ảnh đánh dấu. A01/A02/A03/A04/A05/A06 đã duyệt được đối chiếu; không lặp thao tác. F15/F24 trái/F26/F28/F32 và nhiều cận mất đầu, ưu tiên F34 rộng; F25 phải mất tay. Các vị trí hàng xa che tay không thêm. B02 giữ hai thay đổi cầm thiết bị/viết; không suy nhãn mặt lưng từ frame calculator.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/13frame_00012.jpg",
+      "marked_sha256": "b74f23b06662b76fc568cf63294989e6186e8589e08c7f4fdad0f68b55b12925",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00012.jpg",
+      "source_sha256": "c00c86fe41ca99b9574285e00dd772ad80b9610c6c3354aab3150e42642d9252",
+      "group": "G13",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 4 bảng nguồn và 24 ảnh đánh dấu. A01/A02/A03/A04/A05/A06 đã duyệt được đối chiếu; không lặp thao tác. F15/F24 trái/F26/F28/F32 và nhiều cận mất đầu, ưu tiên F34 rộng; F25 phải mất tay. Các vị trí hàng xa che tay không thêm. B02 giữ hai thay đổi cầm thiết bị/viết; không suy nhãn mặt lưng từ frame calculator.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/13frame_00013.jpg",
+      "marked_sha256": "fbf65710adea97e239cc98044638a5bbe0dee6ff463e47654a5d0c2f5d6f6a0b",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00013.jpg",
+      "source_sha256": "614180b78be25b811d030d9effed82d78dd53d9ff38b57fe35b3c3dfbd62598f",
+      "group": "G13",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G13-B05-F00013",
+        "G13-B06-F00013"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 4 bảng nguồn và 24 ảnh đánh dấu. A01/A02/A03/A04/A05/A06 đã duyệt được đối chiếu; không lặp thao tác. F15/F24 trái/F26/F28/F32 và nhiều cận mất đầu, ưu tiên F34 rộng; F25 phải mất tay. Các vị trí hàng xa che tay không thêm. B02 giữ hai thay đổi cầm thiết bị/viết; không suy nhãn mặt lưng từ frame calculator.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/13frame_00014.jpg",
+      "marked_sha256": "f88c0f50908fb9b095f471455a63e49a2b586e78cf90aa6b8321cd680e7233e2",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00014.jpg",
+      "source_sha256": "18419ffc2924db8113a62b19f332e55a66cc9dcd3d51f8f5b9e9595fcaebbe71",
+      "group": "G13",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G13-B02-F00014"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 4 bảng nguồn và 24 ảnh đánh dấu. A01/A02/A03/A04/A05/A06 đã duyệt được đối chiếu; không lặp thao tác. F15/F24 trái/F26/F28/F32 và nhiều cận mất đầu, ưu tiên F34 rộng; F25 phải mất tay. Các vị trí hàng xa che tay không thêm. B02 giữ hai thay đổi cầm thiết bị/viết; không suy nhãn mặt lưng từ frame calculator.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/13frame_00015.jpg",
+      "marked_sha256": "beed3252bfd2d2fbe97ef367208b280c94c5ce0aab8078413c6f7c9e4107d1e8",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00015.jpg",
+      "source_sha256": "505b2a6e205864da29ee35b0834b49224bf2dcbca8012b1fce1cbd4ea9b85ade",
+      "group": "G13",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 4 bảng nguồn và 24 ảnh đánh dấu. A01/A02/A03/A04/A05/A06 đã duyệt được đối chiếu; không lặp thao tác. F15/F24 trái/F26/F28/F32 và nhiều cận mất đầu, ưu tiên F34 rộng; F25 phải mất tay. Các vị trí hàng xa che tay không thêm. B02 giữ hai thay đổi cầm thiết bị/viết; không suy nhãn mặt lưng từ frame calculator.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/13frame_00016.jpg",
+      "marked_sha256": "564cf817851efb86e8b58190170d286408a51e20a38f5e991adbb50c09afcd00",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00016.jpg",
+      "source_sha256": "aea0dc33cc7460fa29fbbc1e37ba3d423c1296c9eec2e41c2ce7c7aa1537f81f",
+      "group": "G13",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 4 bảng nguồn và 24 ảnh đánh dấu. A01/A02/A03/A04/A05/A06 đã duyệt được đối chiếu; không lặp thao tác. F15/F24 trái/F26/F28/F32 và nhiều cận mất đầu, ưu tiên F34 rộng; F25 phải mất tay. Các vị trí hàng xa che tay không thêm. B02 giữ hai thay đổi cầm thiết bị/viết; không suy nhãn mặt lưng từ frame calculator.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/13frame_00018.jpg",
+      "marked_sha256": "de726483bc9bdd50effef3d100a9dea783586bff3d96dadf58dba767597645c5",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00018.jpg",
+      "source_sha256": "01a9282ef9a6a699bb149f4f8bf9bad4d86622f231428f56c5c0292876c31f3a",
+      "group": "G13",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G13-B07-F00018"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 4 bảng nguồn và 24 ảnh đánh dấu. A01/A02/A03/A04/A05/A06 đã duyệt được đối chiếu; không lặp thao tác. F15/F24 trái/F26/F28/F32 và nhiều cận mất đầu, ưu tiên F34 rộng; F25 phải mất tay. Các vị trí hàng xa che tay không thêm. B02 giữ hai thay đổi cầm thiết bị/viết; không suy nhãn mặt lưng từ frame calculator.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/13frame_00022.jpg",
+      "marked_sha256": "038c2a4845f7412a58b77071cae59ad09509b59b4dd3cc5c25178e2af84a5e1a",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00022.jpg",
+      "source_sha256": "a08ebc36f975cc57242df5ef2661eaa345b266583543ac289969f2147562e29b",
+      "group": "G13",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G13-B08-F00022"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 4 bảng nguồn và 24 ảnh đánh dấu. A01/A02/A03/A04/A05/A06 đã duyệt được đối chiếu; không lặp thao tác. F15/F24 trái/F26/F28/F32 và nhiều cận mất đầu, ưu tiên F34 rộng; F25 phải mất tay. Các vị trí hàng xa che tay không thêm. B02 giữ hai thay đổi cầm thiết bị/viết; không suy nhãn mặt lưng từ frame calculator.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/13frame_00023.jpg",
+      "marked_sha256": "cf9a9779d4c9a6be23b3e01056eb73867827a467da9ef05076bc71f9d31c4dba",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00023.jpg",
+      "source_sha256": "671637d48d10af0bbcee2ad7487f3162be241a004a5ad2741ea99c8a8962e1f5",
+      "group": "G13",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [
+        "G13-A05-F00023"
+      ],
+      "group_review_note": "Đã xem toàn bộ 4 bảng nguồn và 24 ảnh đánh dấu. A01/A02/A03/A04/A05/A06 đã duyệt được đối chiếu; không lặp thao tác. F15/F24 trái/F26/F28/F32 và nhiều cận mất đầu, ưu tiên F34 rộng; F25 phải mất tay. Các vị trí hàng xa che tay không thêm. B02 giữ hai thay đổi cầm thiết bị/viết; không suy nhãn mặt lưng từ frame calculator.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/13frame_00024.jpg",
+      "marked_sha256": "17674aff2b83d199dc0e45d5cc9afbca12dead91b381f3074c94aa888b08bb03",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00024.jpg",
+      "source_sha256": "372099c72d00b9a1d2c7b0c0aa170ca92c0ef8ebdc0c4c42297d316d13825700",
+      "group": "G13",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [
+        "G13-A03-F00024"
+      ],
+      "group_review_note": "Đã xem toàn bộ 4 bảng nguồn và 24 ảnh đánh dấu. A01/A02/A03/A04/A05/A06 đã duyệt được đối chiếu; không lặp thao tác. F15/F24 trái/F26/F28/F32 và nhiều cận mất đầu, ưu tiên F34 rộng; F25 phải mất tay. Các vị trí hàng xa che tay không thêm. B02 giữ hai thay đổi cầm thiết bị/viết; không suy nhãn mặt lưng từ frame calculator.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/13frame_00025.jpg",
+      "marked_sha256": "8f52f89e10cdfa891cb18b9a7fa06b7ba2597a1a5607c5b261189f91b5df973a",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00025.jpg",
+      "source_sha256": "4f3b201f246cb7d306af9fd32860449cc9cedede718a21a1e34376f1404aa281",
+      "group": "G13",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G13-B09-F00025"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 4 bảng nguồn và 24 ảnh đánh dấu. A01/A02/A03/A04/A05/A06 đã duyệt được đối chiếu; không lặp thao tác. F15/F24 trái/F26/F28/F32 và nhiều cận mất đầu, ưu tiên F34 rộng; F25 phải mất tay. Các vị trí hàng xa che tay không thêm. B02 giữ hai thay đổi cầm thiết bị/viết; không suy nhãn mặt lưng từ frame calculator.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/13frame_00026.jpg",
+      "marked_sha256": "0c028b2a8f8d97c5d3b2aa0c3254a5c2e4b356eabd11bc5d996e54eb3eaa8264",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00026.jpg",
+      "source_sha256": "0d7d6e438bb20eda0d086b9a0b0f3e9d926ac258809dd9f515557881844c2d88",
+      "group": "G13",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 4 bảng nguồn và 24 ảnh đánh dấu. A01/A02/A03/A04/A05/A06 đã duyệt được đối chiếu; không lặp thao tác. F15/F24 trái/F26/F28/F32 và nhiều cận mất đầu, ưu tiên F34 rộng; F25 phải mất tay. Các vị trí hàng xa che tay không thêm. B02 giữ hai thay đổi cầm thiết bị/viết; không suy nhãn mặt lưng từ frame calculator.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/13frame_00028.jpg",
+      "marked_sha256": "4697d191afbc9d6a8b228d516fed0183979b6440b711c37c8aeb9cbe58ba12f9",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00028.jpg",
+      "source_sha256": "9e833cecd0c0d8e54bb5048893e99630a2c8da03611509e41b3bbc61e79d741b",
+      "group": "G13",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 4 bảng nguồn và 24 ảnh đánh dấu. A01/A02/A03/A04/A05/A06 đã duyệt được đối chiếu; không lặp thao tác. F15/F24 trái/F26/F28/F32 và nhiều cận mất đầu, ưu tiên F34 rộng; F25 phải mất tay. Các vị trí hàng xa che tay không thêm. B02 giữ hai thay đổi cầm thiết bị/viết; không suy nhãn mặt lưng từ frame calculator.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/13frame_00029.jpg",
+      "marked_sha256": "e223277b5630b8c4eecb7d3701a4497a9b4b5e82c21517b6aba0b7d434a32357",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00029.jpg",
+      "source_sha256": "5264331992890bd3bc8391b14fb26c5143de09167050b0bc1bdd36d3ddd0dab4",
+      "group": "G13",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G13-B12-F00029"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 4 bảng nguồn và 24 ảnh đánh dấu. A01/A02/A03/A04/A05/A06 đã duyệt được đối chiếu; không lặp thao tác. F15/F24 trái/F26/F28/F32 và nhiều cận mất đầu, ưu tiên F34 rộng; F25 phải mất tay. Các vị trí hàng xa che tay không thêm. B02 giữ hai thay đổi cầm thiết bị/viết; không suy nhãn mặt lưng từ frame calculator.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/13frame_00031.jpg",
+      "marked_sha256": "1dfb08cd274a0aa0523aeba5aa06561b429d16068e95d12cd85cb0ba61eab76b",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00031.jpg",
+      "source_sha256": "be852f3356f7848daa0d37db055abff2c85d5049ca046ff1d34601f6bd0b5c36",
+      "group": "G13",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 4 bảng nguồn và 24 ảnh đánh dấu. A01/A02/A03/A04/A05/A06 đã duyệt được đối chiếu; không lặp thao tác. F15/F24 trái/F26/F28/F32 và nhiều cận mất đầu, ưu tiên F34 rộng; F25 phải mất tay. Các vị trí hàng xa che tay không thêm. B02 giữ hai thay đổi cầm thiết bị/viết; không suy nhãn mặt lưng từ frame calculator.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/13frame_00032.jpg",
+      "marked_sha256": "1251d623949fa3885086525bd6fe1f0e795e64fdbfc3af47ac44e5065a2fd90f",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00032.jpg",
+      "source_sha256": "e352a7b1b56c2d4af50892530b6695ed3bb87dd34cfc02003cce18197818eaa1",
+      "group": "G13",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 4 bảng nguồn và 24 ảnh đánh dấu. A01/A02/A03/A04/A05/A06 đã duyệt được đối chiếu; không lặp thao tác. F15/F24 trái/F26/F28/F32 và nhiều cận mất đầu, ưu tiên F34 rộng; F25 phải mất tay. Các vị trí hàng xa che tay không thêm. B02 giữ hai thay đổi cầm thiết bị/viết; không suy nhãn mặt lưng từ frame calculator.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/13frame_00034.jpg",
+      "marked_sha256": "d22693d1a43a7fb986af2f01e95bb4ccf78b7f5096f60d9020a5ebb5d88ae9aa",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00034.jpg",
+      "source_sha256": "514c389fc3cb12a34bbdc6dda0f8ca0e69c20a4d7e28dd0c3b2b1f8e3be0c62b",
+      "group": "G13",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G13-B10-F00034",
+        "G13-B11-F00034"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 4 bảng nguồn và 24 ảnh đánh dấu. A01/A02/A03/A04/A05/A06 đã duyệt được đối chiếu; không lặp thao tác. F15/F24 trái/F26/F28/F32 và nhiều cận mất đầu, ưu tiên F34 rộng; F25 phải mất tay. Các vị trí hàng xa che tay không thêm. B02 giữ hai thay đổi cầm thiết bị/viết; không suy nhãn mặt lưng từ frame calculator.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/13frame_00035.jpg",
+      "marked_sha256": "64d2f963307ba48ae5e9997f00d497cd941642d7d491bb7333d887e96a981f20",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00035.jpg",
+      "source_sha256": "a939ac146900c38f7c76105275024ced8b64ef9354f8d9a7e45677610f41ecba",
+      "group": "G13",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 4 bảng nguồn và 24 ảnh đánh dấu. A01/A02/A03/A04/A05/A06 đã duyệt được đối chiếu; không lặp thao tác. F15/F24 trái/F26/F28/F32 và nhiều cận mất đầu, ưu tiên F34 rộng; F25 phải mất tay. Các vị trí hàng xa che tay không thêm. B02 giữ hai thay đổi cầm thiết bị/viết; không suy nhãn mặt lưng từ frame calculator.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/13frame_00036.jpg",
+      "marked_sha256": "8002eb870ddea7425e8f7a42b1688a9b0e23816bb09814bded811eebd3c6f3ba",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00036.jpg",
+      "source_sha256": "7596c81d70e0d04900523814cb0ca6b6e9a613e6059ae930cb56d3f9c8e821f6",
+      "group": "G13",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 4 bảng nguồn và 24 ảnh đánh dấu. A01/A02/A03/A04/A05/A06 đã duyệt được đối chiếu; không lặp thao tác. F15/F24 trái/F26/F28/F32 và nhiều cận mất đầu, ưu tiên F34 rộng; F25 phải mất tay. Các vị trí hàng xa che tay không thêm. B02 giữ hai thay đổi cầm thiết bị/viết; không suy nhãn mặt lưng từ frame calculator.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/13frame_00038.jpg",
+      "marked_sha256": "d973bba8e6c451642235e8887521933ad7d7ef576ab1bc05a9a1b8a692a70adb",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00038.jpg",
+      "source_sha256": "ce1b2e4aef1bdd0f4aa68bcf831c65ec0022c4467a057f003dffc0947f80968c",
+      "group": "G13",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 4 bảng nguồn và 24 ảnh đánh dấu. A01/A02/A03/A04/A05/A06 đã duyệt được đối chiếu; không lặp thao tác. F15/F24 trái/F26/F28/F32 và nhiều cận mất đầu, ưu tiên F34 rộng; F25 phải mất tay. Các vị trí hàng xa che tay không thêm. B02 giữ hai thay đổi cầm thiết bị/viết; không suy nhãn mặt lưng từ frame calculator.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/13frame_00039.jpg",
+      "marked_sha256": "36b7f67c83aab06ecb824d0afa60639242132a8f89bdfb9f6b87b8de2797fffe",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00039.jpg",
+      "source_sha256": "1ae64b38001ed158bcf84d203601040237f8b708ffc7e40cdf76bde628832f35",
+      "group": "G13",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 4 bảng nguồn và 24 ảnh đánh dấu. A01/A02/A03/A04/A05/A06 đã duyệt được đối chiếu; không lặp thao tác. F15/F24 trái/F26/F28/F32 và nhiều cận mất đầu, ưu tiên F34 rộng; F25 phải mất tay. Các vị trí hàng xa che tay không thêm. B02 giữ hai thay đổi cầm thiết bị/viết; không suy nhãn mặt lưng từ frame calculator.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/14frame_00003.jpg",
+      "marked_sha256": "2b87bfd2cfcde81d0f51231ace8585050b075f47af1aa724e009e3798df96ed0",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00003.jpg",
+      "source_sha256": "1678026621d6c463a225944222e5f39724ccfd801bafb79309f8a66347c4db63",
+      "group": "G14",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 29 ảnh đánh dấu. Giữ A01/A02/A03/A04/A05/A07/A08/A09 đã duyệt. B15 là khung khác của vị trí A10 từng loại, cần owner review mới. F19/F22/F26/F32/F34/F38/F48/F52/F56/F60 cận thiếu đầu hoặc tay nên đối chiếu góc rộng; không ép mọi dấu thành crop. Các proposal sát mép phải qua QA trước xuất.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/14frame_00005.jpg",
+      "marked_sha256": "924c921d0dd4e69cdcaf459d47728ecc2724d73d1b442bdb4347908848d1dd0d",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00005.jpg",
+      "source_sha256": "c93ca23c73e7d6325ca02497aa10f3f3fbb52b080f2ebcf182dee5572f5f4eb2",
+      "group": "G14",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [
+        "G14-A01-F00005",
+        "G14-A03-F00005"
+      ],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 29 ảnh đánh dấu. Giữ A01/A02/A03/A04/A05/A07/A08/A09 đã duyệt. B15 là khung khác của vị trí A10 từng loại, cần owner review mới. F19/F22/F26/F32/F34/F38/F48/F52/F56/F60 cận thiếu đầu hoặc tay nên đối chiếu góc rộng; không ép mọi dấu thành crop. Các proposal sát mép phải qua QA trước xuất.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/14frame_00007.jpg",
+      "marked_sha256": "0809df33f745dc5861f914475c7325a5db6e70383093457b9139864495162222",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00007.jpg",
+      "source_sha256": "b8c46ef4b4ea6fccfeeb7d25eabe9b9ee7a3865a3928573ceef86cb4b32c43c3",
+      "group": "G14",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 29 ảnh đánh dấu. Giữ A01/A02/A03/A04/A05/A07/A08/A09 đã duyệt. B15 là khung khác của vị trí A10 từng loại, cần owner review mới. F19/F22/F26/F32/F34/F38/F48/F52/F56/F60 cận thiếu đầu hoặc tay nên đối chiếu góc rộng; không ép mọi dấu thành crop. Các proposal sát mép phải qua QA trước xuất.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/14frame_00008.jpg",
+      "marked_sha256": "0399ffdef47e1b09105a9950c5f43daa92b09ed725e93f39b7ef76da6b136529",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00008.jpg",
+      "source_sha256": "d940f102e916173896727b13047b8d0e71484bc2ee9861c36d9f079bdf85ab2d",
+      "group": "G14",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G14-B04-F00008"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 29 ảnh đánh dấu. Giữ A01/A02/A03/A04/A05/A07/A08/A09 đã duyệt. B15 là khung khác của vị trí A10 từng loại, cần owner review mới. F19/F22/F26/F32/F34/F38/F48/F52/F56/F60 cận thiếu đầu hoặc tay nên đối chiếu góc rộng; không ép mọi dấu thành crop. Các proposal sát mép phải qua QA trước xuất.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/14frame_00009.jpg",
+      "marked_sha256": "5cdc9dc748348d207b09f87868b689b7f427a55fd00c0748f12a09c9371934ab",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00009.jpg",
+      "source_sha256": "085c5354bdda21b38e94d6e25a5ba73ff5f2e8ca67da60e82c29d7fa893513ee",
+      "group": "G14",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 29 ảnh đánh dấu. Giữ A01/A02/A03/A04/A05/A07/A08/A09 đã duyệt. B15 là khung khác của vị trí A10 từng loại, cần owner review mới. F19/F22/F26/F32/F34/F38/F48/F52/F56/F60 cận thiếu đầu hoặc tay nên đối chiếu góc rộng; không ép mọi dấu thành crop. Các proposal sát mép phải qua QA trước xuất.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/14frame_00010.jpg",
+      "marked_sha256": "294b520497bfe73f8511be421183febc68dc1165675d1189f0d21735a5733cb0",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00010.jpg",
+      "source_sha256": "1b903915648866eff4100588374a7fc31d0ee60156bcab80084adb358a90cade",
+      "group": "G14",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G14-B01-F00010"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 29 ảnh đánh dấu. Giữ A01/A02/A03/A04/A05/A07/A08/A09 đã duyệt. B15 là khung khác của vị trí A10 từng loại, cần owner review mới. F19/F22/F26/F32/F34/F38/F48/F52/F56/F60 cận thiếu đầu hoặc tay nên đối chiếu góc rộng; không ép mọi dấu thành crop. Các proposal sát mép phải qua QA trước xuất.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/14frame_00011.jpg",
+      "marked_sha256": "ddc2a650300001e3de2caa8ee5df01878680cdd59fdad40e45291e4e80f1d857",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00011.jpg",
+      "source_sha256": "bc5ca11a3f6c31f6afd98250d1366cddb93cad1ec7b81edba51c326befb778d6",
+      "group": "G14",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G14-B05-F00011"
+      ],
+      "already_accepted_from_this_frame": [
+        "G14-A04-F00011"
+      ],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 29 ảnh đánh dấu. Giữ A01/A02/A03/A04/A05/A07/A08/A09 đã duyệt. B15 là khung khác của vị trí A10 từng loại, cần owner review mới. F19/F22/F26/F32/F34/F38/F48/F52/F56/F60 cận thiếu đầu hoặc tay nên đối chiếu góc rộng; không ép mọi dấu thành crop. Các proposal sát mép phải qua QA trước xuất.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/14frame_00012.jpg",
+      "marked_sha256": "480376d1bc5453510ec7d00741b04e5046654f9dd5d7bbc599f9f1c321c6a608",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00012.jpg",
+      "source_sha256": "fab898b8496ce037c156bccee80c729a90589a9e5d23c69d6b63861bd253d61a",
+      "group": "G14",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [
+        "G14-A05-F00012"
+      ],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 29 ảnh đánh dấu. Giữ A01/A02/A03/A04/A05/A07/A08/A09 đã duyệt. B15 là khung khác của vị trí A10 từng loại, cần owner review mới. F19/F22/F26/F32/F34/F38/F48/F52/F56/F60 cận thiếu đầu hoặc tay nên đối chiếu góc rộng; không ép mọi dấu thành crop. Các proposal sát mép phải qua QA trước xuất.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/14frame_00013.jpg",
+      "marked_sha256": "2738ba77ccb00b7af2a6f3ded101ed8a6521a5e081eae205cc045373c526b85f",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00013.jpg",
+      "source_sha256": "1b9911d8309379925bfbedc24782d74f97950132724053e59bd70eb4c91a8f6c",
+      "group": "G14",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 29 ảnh đánh dấu. Giữ A01/A02/A03/A04/A05/A07/A08/A09 đã duyệt. B15 là khung khác của vị trí A10 từng loại, cần owner review mới. F19/F22/F26/F32/F34/F38/F48/F52/F56/F60 cận thiếu đầu hoặc tay nên đối chiếu góc rộng; không ép mọi dấu thành crop. Các proposal sát mép phải qua QA trước xuất.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/14frame_00015.jpg",
+      "marked_sha256": "8c26669b93010a76d157ff4bab2f474a7f382efdefb6e937e1fe333b4770b06d",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00015.jpg",
+      "source_sha256": "7a8542eba874af97c5753f93bde6e181b1b9e14275b3ad5261354ea274f0ed9c",
+      "group": "G14",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 29 ảnh đánh dấu. Giữ A01/A02/A03/A04/A05/A07/A08/A09 đã duyệt. B15 là khung khác của vị trí A10 từng loại, cần owner review mới. F19/F22/F26/F32/F34/F38/F48/F52/F56/F60 cận thiếu đầu hoặc tay nên đối chiếu góc rộng; không ép mọi dấu thành crop. Các proposal sát mép phải qua QA trước xuất.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/14frame_00016.jpg",
+      "marked_sha256": "fec2b8832b05501f4a1a8805cd87208621c019d5429e6011a4879028dabac608",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00016.jpg",
+      "source_sha256": "dee2a10abd6a263278769acbb70b45ae6974c734eebfd75bab41b88fa63d5410",
+      "group": "G14",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 29 ảnh đánh dấu. Giữ A01/A02/A03/A04/A05/A07/A08/A09 đã duyệt. B15 là khung khác của vị trí A10 từng loại, cần owner review mới. F19/F22/F26/F32/F34/F38/F48/F52/F56/F60 cận thiếu đầu hoặc tay nên đối chiếu góc rộng; không ép mọi dấu thành crop. Các proposal sát mép phải qua QA trước xuất.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/14frame_00017.jpg",
+      "marked_sha256": "d1d6938d5f7cc14a6de14ad90430d078a0757a04540aa6d2239ee882731be0a2",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00017.jpg",
+      "source_sha256": "df446225f0d740db200c9f4f36a4ddde0d43b5a3ddd103c6facd2d4c27a980b7",
+      "group": "G14",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 29 ảnh đánh dấu. Giữ A01/A02/A03/A04/A05/A07/A08/A09 đã duyệt. B15 là khung khác của vị trí A10 từng loại, cần owner review mới. F19/F22/F26/F32/F34/F38/F48/F52/F56/F60 cận thiếu đầu hoặc tay nên đối chiếu góc rộng; không ép mọi dấu thành crop. Các proposal sát mép phải qua QA trước xuất.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/14frame_00019.jpg",
+      "marked_sha256": "914e87e0fadacd60835606e34ce36e3cb90c31de63d95292b8774ff34dc71b3e",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00019.jpg",
+      "source_sha256": "5a6e76bbd410d1c54abcee2208a2b41578afa69f4709837a16d33354622bad25",
+      "group": "G14",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 29 ảnh đánh dấu. Giữ A01/A02/A03/A04/A05/A07/A08/A09 đã duyệt. B15 là khung khác của vị trí A10 từng loại, cần owner review mới. F19/F22/F26/F32/F34/F38/F48/F52/F56/F60 cận thiếu đầu hoặc tay nên đối chiếu góc rộng; không ép mọi dấu thành crop. Các proposal sát mép phải qua QA trước xuất.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/14frame_00021.jpg",
+      "marked_sha256": "f18102aa15e0abf789fecf85be68e1f2c24fd1c4864c9409755869835d764b97",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00021.jpg",
+      "source_sha256": "104f0acb854e21c0e6b2bafd20804f2ecd5a49b218a73e2d920a4ec15319ab1f",
+      "group": "G14",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G14-B08-F00021",
+        "G14-B09-F00021"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 29 ảnh đánh dấu. Giữ A01/A02/A03/A04/A05/A07/A08/A09 đã duyệt. B15 là khung khác của vị trí A10 từng loại, cần owner review mới. F19/F22/F26/F32/F34/F38/F48/F52/F56/F60 cận thiếu đầu hoặc tay nên đối chiếu góc rộng; không ép mọi dấu thành crop. Các proposal sát mép phải qua QA trước xuất.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/14frame_00022.jpg",
+      "marked_sha256": "bdc37afd5c31de25cd1f43ec75ffdbda5a9d3d70337d8bd380106b29ee9be4b4",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00022.jpg",
+      "source_sha256": "39944cacd250cc21ad480b2c3708dace77b5a30414835d02112c1255e23527c5",
+      "group": "G14",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 29 ảnh đánh dấu. Giữ A01/A02/A03/A04/A05/A07/A08/A09 đã duyệt. B15 là khung khác của vị trí A10 từng loại, cần owner review mới. F19/F22/F26/F32/F34/F38/F48/F52/F56/F60 cận thiếu đầu hoặc tay nên đối chiếu góc rộng; không ép mọi dấu thành crop. Các proposal sát mép phải qua QA trước xuất.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/14frame_00023.jpg",
+      "marked_sha256": "2f712690076ad16f7727833f83419f99558c63f61e13d702a4695c08b1137696",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00023.jpg",
+      "source_sha256": "152466f1cf3f806acaa4b7d7904d7ed208799dffdae9d49f6c5d0087da86568d",
+      "group": "G14",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G14-B10-F00023"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 29 ảnh đánh dấu. Giữ A01/A02/A03/A04/A05/A07/A08/A09 đã duyệt. B15 là khung khác của vị trí A10 từng loại, cần owner review mới. F19/F22/F26/F32/F34/F38/F48/F52/F56/F60 cận thiếu đầu hoặc tay nên đối chiếu góc rộng; không ép mọi dấu thành crop. Các proposal sát mép phải qua QA trước xuất.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/14frame_00025.jpg",
+      "marked_sha256": "78d8581167187a9b6f59fe31dc40a0b0d9568fdaefad3bc161ac1743d6622e25",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00025.jpg",
+      "source_sha256": "a89244409a8c576942958f77e067b39130ddc7cff7e5b533d234fe7afbf6649d",
+      "group": "G14",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G14-B11-F00025"
+      ],
+      "already_accepted_from_this_frame": [
+        "G14-A08-F00025"
+      ],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 29 ảnh đánh dấu. Giữ A01/A02/A03/A04/A05/A07/A08/A09 đã duyệt. B15 là khung khác của vị trí A10 từng loại, cần owner review mới. F19/F22/F26/F32/F34/F38/F48/F52/F56/F60 cận thiếu đầu hoặc tay nên đối chiếu góc rộng; không ép mọi dấu thành crop. Các proposal sát mép phải qua QA trước xuất.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/14frame_00026.jpg",
+      "marked_sha256": "24a63f025fbad496c9b70a984bbe6556941a32e5d88a0462261e6220c6f70fe6",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00026.jpg",
+      "source_sha256": "1f86d5b52e64530bf0fa63aa51caa3503c45778b768b8b3090bc9a148030cfaf",
+      "group": "G14",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 29 ảnh đánh dấu. Giữ A01/A02/A03/A04/A05/A07/A08/A09 đã duyệt. B15 là khung khác của vị trí A10 từng loại, cần owner review mới. F19/F22/F26/F32/F34/F38/F48/F52/F56/F60 cận thiếu đầu hoặc tay nên đối chiếu góc rộng; không ép mọi dấu thành crop. Các proposal sát mép phải qua QA trước xuất.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/14frame_00028.jpg",
+      "marked_sha256": "20fea2750542e8e944f50f5db75ff64420ba148552cdc6f6be5cffbea5e07e06",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00028.jpg",
+      "source_sha256": "8210faa063a78258bed24370814bfc7a2d39378baa370580ec13e1fa6bca6a11",
+      "group": "G14",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G14-B12-F00028"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 29 ảnh đánh dấu. Giữ A01/A02/A03/A04/A05/A07/A08/A09 đã duyệt. B15 là khung khác của vị trí A10 từng loại, cần owner review mới. F19/F22/F26/F32/F34/F38/F48/F52/F56/F60 cận thiếu đầu hoặc tay nên đối chiếu góc rộng; không ép mọi dấu thành crop. Các proposal sát mép phải qua QA trước xuất.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/14frame_00029.jpg",
+      "marked_sha256": "3e3683bc6ac746f76aef3ee62a056010ca7d3b026d64c6cb8f80726f8083b162",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00029.jpg",
+      "source_sha256": "1ee06a6d4eb037f381085c1cc4cf732a19ea9a48b99e68d4c56be8a4bbe23a3c",
+      "group": "G14",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G14-B13-F00029"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 29 ảnh đánh dấu. Giữ A01/A02/A03/A04/A05/A07/A08/A09 đã duyệt. B15 là khung khác của vị trí A10 từng loại, cần owner review mới. F19/F22/F26/F32/F34/F38/F48/F52/F56/F60 cận thiếu đầu hoặc tay nên đối chiếu góc rộng; không ép mọi dấu thành crop. Các proposal sát mép phải qua QA trước xuất.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/14frame_00032.jpg",
+      "marked_sha256": "39490b2c462abff1ad7e703ba499264324a3c518b501c300d146e4dffcd1f37d",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00032.jpg",
+      "source_sha256": "fbf987c55d3f92c94d14227df351c3ee61fb6f90fbddd725d9a3a8feda4935d0",
+      "group": "G14",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 29 ảnh đánh dấu. Giữ A01/A02/A03/A04/A05/A07/A08/A09 đã duyệt. B15 là khung khác của vị trí A10 từng loại, cần owner review mới. F19/F22/F26/F32/F34/F38/F48/F52/F56/F60 cận thiếu đầu hoặc tay nên đối chiếu góc rộng; không ép mọi dấu thành crop. Các proposal sát mép phải qua QA trước xuất.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/14frame_00033.jpg",
+      "marked_sha256": "30741c3185da45b00078b229edc7a3f45f049baf4e9f74cb98e7aa84f8153749",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00033.jpg",
+      "source_sha256": "22e645c5761424c3a1b321d647d8cc55bf5195bb5bee3ea79cbf9be25fba01d4",
+      "group": "G14",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G14-B14-F00033"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 29 ảnh đánh dấu. Giữ A01/A02/A03/A04/A05/A07/A08/A09 đã duyệt. B15 là khung khác của vị trí A10 từng loại, cần owner review mới. F19/F22/F26/F32/F34/F38/F48/F52/F56/F60 cận thiếu đầu hoặc tay nên đối chiếu góc rộng; không ép mọi dấu thành crop. Các proposal sát mép phải qua QA trước xuất.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/14frame_00034.jpg",
+      "marked_sha256": "3564a614d20540841b3688c04af2d03ebc6762d2857bd9c2e5c3cf5f6c10a787",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00034.jpg",
+      "source_sha256": "952c91c0c837042dd426d2730bff2ab70a7dac4d6ea12a0260968a1c17e87db4",
+      "group": "G14",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 29 ảnh đánh dấu. Giữ A01/A02/A03/A04/A05/A07/A08/A09 đã duyệt. B15 là khung khác của vị trí A10 từng loại, cần owner review mới. F19/F22/F26/F32/F34/F38/F48/F52/F56/F60 cận thiếu đầu hoặc tay nên đối chiếu góc rộng; không ép mọi dấu thành crop. Các proposal sát mép phải qua QA trước xuất.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/14frame_00038.jpg",
+      "marked_sha256": "91973d9afa16b8cffcf5f9d1314e900708efe1dfa86fefed51dbb305aff90957",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00038.jpg",
+      "source_sha256": "5ac768b68f7ffc6692bfc4dedc1b9716e125b8394d237d6a726e8dd06acaa3d9",
+      "group": "G14",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 29 ảnh đánh dấu. Giữ A01/A02/A03/A04/A05/A07/A08/A09 đã duyệt. B15 là khung khác của vị trí A10 từng loại, cần owner review mới. F19/F22/F26/F32/F34/F38/F48/F52/F56/F60 cận thiếu đầu hoặc tay nên đối chiếu góc rộng; không ép mọi dấu thành crop. Các proposal sát mép phải qua QA trước xuất.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/14frame_00046.jpg",
+      "marked_sha256": "1caa22b26641cea6b3a8e72f14e2fc152586fcaa5d12ccd026e23e68f5c35ffe",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00046.jpg",
+      "source_sha256": "998a93799a6d6b749baa03c6dd4d1af72cec2c3e3f354ad1230eaa0cb04050dc",
+      "group": "G14",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G14-B06-F00046"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 29 ảnh đánh dấu. Giữ A01/A02/A03/A04/A05/A07/A08/A09 đã duyệt. B15 là khung khác của vị trí A10 từng loại, cần owner review mới. F19/F22/F26/F32/F34/F38/F48/F52/F56/F60 cận thiếu đầu hoặc tay nên đối chiếu góc rộng; không ép mọi dấu thành crop. Các proposal sát mép phải qua QA trước xuất.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/14frame_00048.jpg",
+      "marked_sha256": "9a493990f35ad72b39851c5073577ad7f4abeb2859506ec5acb7661e64407bc9",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00048.jpg",
+      "source_sha256": "776052c18f84d1db4aba9b5507464f894d16ffd52495e196ffdf6855f75ad878",
+      "group": "G14",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 29 ảnh đánh dấu. Giữ A01/A02/A03/A04/A05/A07/A08/A09 đã duyệt. B15 là khung khác của vị trí A10 từng loại, cần owner review mới. F19/F22/F26/F32/F34/F38/F48/F52/F56/F60 cận thiếu đầu hoặc tay nên đối chiếu góc rộng; không ép mọi dấu thành crop. Các proposal sát mép phải qua QA trước xuất.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/14frame_00051.jpg",
+      "marked_sha256": "271185159d2c2ffd4cf77fc94d6d2011658ef9af98c5292588f342c27c99488b",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00051.jpg",
+      "source_sha256": "de7021d254ccf6ac03338e1002a6e05c6a5a6fa9ba1595b1cf6d414bcd1b3c10",
+      "group": "G14",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G14-B06-F00051"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 29 ảnh đánh dấu. Giữ A01/A02/A03/A04/A05/A07/A08/A09 đã duyệt. B15 là khung khác của vị trí A10 từng loại, cần owner review mới. F19/F22/F26/F32/F34/F38/F48/F52/F56/F60 cận thiếu đầu hoặc tay nên đối chiếu góc rộng; không ép mọi dấu thành crop. Các proposal sát mép phải qua QA trước xuất.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/14frame_00056.jpg",
+      "marked_sha256": "cfdbee053cf6d4092aa9a64fadad5359d10c008358d582829b2ffad579497627",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00056.jpg",
+      "source_sha256": "5058f3ee2490e9db3518fd4f885f1ff50de2c445f40a2dc9a8e682cf40c5bbe0",
+      "group": "G14",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 29 ảnh đánh dấu. Giữ A01/A02/A03/A04/A05/A07/A08/A09 đã duyệt. B15 là khung khác của vị trí A10 từng loại, cần owner review mới. F19/F22/F26/F32/F34/F38/F48/F52/F56/F60 cận thiếu đầu hoặc tay nên đối chiếu góc rộng; không ép mọi dấu thành crop. Các proposal sát mép phải qua QA trước xuất.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/14frame_00060.jpg",
+      "marked_sha256": "f53f6186f7e7cf04b8749c048e57f38f4c38f86afb2c3f3593b203e58b20ca6d",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00060.jpg",
+      "source_sha256": "7cb8036ef4dd402270fb1340e8c72bc6602d799efd12bc932a8f10b00e6fb3bb",
+      "group": "G14",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 29 ảnh đánh dấu. Giữ A01/A02/A03/A04/A05/A07/A08/A09 đã duyệt. B15 là khung khác của vị trí A10 từng loại, cần owner review mới. F19/F22/F26/F32/F34/F38/F48/F52/F56/F60 cận thiếu đầu hoặc tay nên đối chiếu góc rộng; không ép mọi dấu thành crop. Các proposal sát mép phải qua QA trước xuất.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/15frame_00004.jpg",
+      "marked_sha256": "0223ec8170a8607d87e7463ab336aab214ef29a005b3a30930adc7a84e48240c",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G22/frame_00004.jpg",
+      "source_sha256": "7eb9559bd098f236ed0ea9d0191312208d5f527ad5fa33976e682df8c1bf926b",
+      "group": "G22",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G22-B01-F00004"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 16 ảnh đánh dấu. A01 nữ khẩu trang trắng và A02 nam quay ngang giữ nguyên. Gom tư thế viết/calculator lặp lại theo vị trí; F33/F36 mất tóc hoặc đầu, các người hàng xa F7 không đủ tay. Dùng góc rộng F18/F34 cho các vị trí phía sau khi thấy đủ evidence.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/15frame_00007.jpg",
+      "marked_sha256": "ece1751929409739691e74a1b67e233b32aff0423b90b0ad0dd03d460cf9574b",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G22/frame_00007.jpg",
+      "source_sha256": "ee25608f87c38d93db1cf189d2df5ad9a87cee2d2380dfd37ba0c491dcff111b",
+      "group": "G22",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 16 ảnh đánh dấu. A01 nữ khẩu trang trắng và A02 nam quay ngang giữ nguyên. Gom tư thế viết/calculator lặp lại theo vị trí; F33/F36 mất tóc hoặc đầu, các người hàng xa F7 không đủ tay. Dùng góc rộng F18/F34 cho các vị trí phía sau khi thấy đủ evidence.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/15frame_00008.jpg",
+      "marked_sha256": "6815b9f9c166ac9b8cb7e2683bad2b7875bdaf8f2da1e08d2df73b3bd7b723e8",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G22/frame_00008.jpg",
+      "source_sha256": "873a681ba7a41fa97b2f5491ea91cc163f4590d72436440bcc42aa1b0b59a643",
+      "group": "G22",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 16 ảnh đánh dấu. A01 nữ khẩu trang trắng và A02 nam quay ngang giữ nguyên. Gom tư thế viết/calculator lặp lại theo vị trí; F33/F36 mất tóc hoặc đầu, các người hàng xa F7 không đủ tay. Dùng góc rộng F18/F34 cho các vị trí phía sau khi thấy đủ evidence.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/15frame_00011.jpg",
+      "marked_sha256": "adcbd0681155660ae5b705125daa665dcf4e0a4f6effb13dbad0d47f5c472642",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G22/frame_00011.jpg",
+      "source_sha256": "c488653e782a9b76517e7fdd87f409b37b4e874c7f6856adc7dd3c20bc69ace7",
+      "group": "G22",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G22-B03-F00011"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 16 ảnh đánh dấu. A01 nữ khẩu trang trắng và A02 nam quay ngang giữ nguyên. Gom tư thế viết/calculator lặp lại theo vị trí; F33/F36 mất tóc hoặc đầu, các người hàng xa F7 không đủ tay. Dùng góc rộng F18/F34 cho các vị trí phía sau khi thấy đủ evidence.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/15frame_00013.jpg",
+      "marked_sha256": "855235d855e10eb60605160d59398567ea65da029da44223b82b721926de413d",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G22/frame_00013.jpg",
+      "source_sha256": "1d4f4d65c01edf16dd1e31b617ab8ed46ad5824026099b86b5cfdb828da0a9c7",
+      "group": "G22",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G22-B02-F00013"
+      ],
+      "already_accepted_from_this_frame": [
+        "G22-A01-F00013-R02"
+      ],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 16 ảnh đánh dấu. A01 nữ khẩu trang trắng và A02 nam quay ngang giữ nguyên. Gom tư thế viết/calculator lặp lại theo vị trí; F33/F36 mất tóc hoặc đầu, các người hàng xa F7 không đủ tay. Dùng góc rộng F18/F34 cho các vị trí phía sau khi thấy đủ evidence.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/15frame_00015.jpg",
+      "marked_sha256": "866ca57bbab3ac4add2854ec602cf8dbb7c749f6e5a357237c9bb798dc7069a4",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G22/frame_00015.jpg",
+      "source_sha256": "fe8d2e03f08fae898d7a3a06bbcc1e26c4d06013c2a205e87dcc90867c458989",
+      "group": "G22",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G22-B05-F00015"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 16 ảnh đánh dấu. A01 nữ khẩu trang trắng và A02 nam quay ngang giữ nguyên. Gom tư thế viết/calculator lặp lại theo vị trí; F33/F36 mất tóc hoặc đầu, các người hàng xa F7 không đủ tay. Dùng góc rộng F18/F34 cho các vị trí phía sau khi thấy đủ evidence.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/15frame_00016.jpg",
+      "marked_sha256": "0ffe3fe68e35555396186313b7e59121e2510ab81a21bbc253d3e42dfd19f17b",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G22/frame_00016.jpg",
+      "source_sha256": "136b22d4f36ff1e74c8c5a590848a2a2df55880f8179f263537776413b6c3b17",
+      "group": "G22",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G22-B06-F00016"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 16 ảnh đánh dấu. A01 nữ khẩu trang trắng và A02 nam quay ngang giữ nguyên. Gom tư thế viết/calculator lặp lại theo vị trí; F33/F36 mất tóc hoặc đầu, các người hàng xa F7 không đủ tay. Dùng góc rộng F18/F34 cho các vị trí phía sau khi thấy đủ evidence.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/15frame_00018.jpg",
+      "marked_sha256": "df631f01d35a212b381de6f0625dc3dd6cdea349b5772485a9881676c163cdf7",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G22/frame_00018.jpg",
+      "source_sha256": "6796901aadc80450ce058aafe68b1b7a183840aeec19f5c217f9e0ad1b098475",
+      "group": "G22",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G22-B07-F00018"
+      ],
+      "already_accepted_from_this_frame": [
+        "G22-A02-F00018"
+      ],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 16 ảnh đánh dấu. A01 nữ khẩu trang trắng và A02 nam quay ngang giữ nguyên. Gom tư thế viết/calculator lặp lại theo vị trí; F33/F36 mất tóc hoặc đầu, các người hàng xa F7 không đủ tay. Dùng góc rộng F18/F34 cho các vị trí phía sau khi thấy đủ evidence.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/15frame_00026.jpg",
+      "marked_sha256": "3085e8c3fcc4562684873a90e7e2ae81e729528055c88d4b30835e343b9af7ec",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G22/frame_00026.jpg",
+      "source_sha256": "bf7dd0f52a0cfd1371012ed134fcac601b1a6144dd69c5a0d4504b9ed1321791",
+      "group": "G22",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 16 ảnh đánh dấu. A01 nữ khẩu trang trắng và A02 nam quay ngang giữ nguyên. Gom tư thế viết/calculator lặp lại theo vị trí; F33/F36 mất tóc hoặc đầu, các người hàng xa F7 không đủ tay. Dùng góc rộng F18/F34 cho các vị trí phía sau khi thấy đủ evidence.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/15frame_00028.jpg",
+      "marked_sha256": "62ab90fd77e46aec8472742712ccb5a5c9fcbfd38aacd3a98c5a8fb2fb083397",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G22/frame_00028.jpg",
+      "source_sha256": "bafea3e001d515056cd27f2ee25d980a5417c4513a0018d8ce9c248a5a7e8b30",
+      "group": "G22",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G22-B10-F00028",
+        "G22-B11-F00028"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 16 ảnh đánh dấu. A01 nữ khẩu trang trắng và A02 nam quay ngang giữ nguyên. Gom tư thế viết/calculator lặp lại theo vị trí; F33/F36 mất tóc hoặc đầu, các người hàng xa F7 không đủ tay. Dùng góc rộng F18/F34 cho các vị trí phía sau khi thấy đủ evidence.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/15frame_00029.jpg",
+      "marked_sha256": "eaba670a2b8fb5fe9575dada2aaf3e7d748da9063507502b429fcd6f34282654",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G22/frame_00029.jpg",
+      "source_sha256": "43bb42c23326e60ff9bdc5b1bfb3ab75e36bbde719b8dbe6822da9175c1adb49",
+      "group": "G22",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G22-B12-F00029"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 16 ảnh đánh dấu. A01 nữ khẩu trang trắng và A02 nam quay ngang giữ nguyên. Gom tư thế viết/calculator lặp lại theo vị trí; F33/F36 mất tóc hoặc đầu, các người hàng xa F7 không đủ tay. Dùng góc rộng F18/F34 cho các vị trí phía sau khi thấy đủ evidence.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/15frame_00031.jpg",
+      "marked_sha256": "0d1b0b5279276b86b5bb77293e5a01d11c23b6e74e2582f54160d431458ec789",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G22/frame_00031.jpg",
+      "source_sha256": "dd8f3dc6c57934b97f0622973893b55499848c231c9bbb8e0c977dabcb9ddb76",
+      "group": "G22",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G22-B04-F00031"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 16 ảnh đánh dấu. A01 nữ khẩu trang trắng và A02 nam quay ngang giữ nguyên. Gom tư thế viết/calculator lặp lại theo vị trí; F33/F36 mất tóc hoặc đầu, các người hàng xa F7 không đủ tay. Dùng góc rộng F18/F34 cho các vị trí phía sau khi thấy đủ evidence.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/15frame_00032.jpg",
+      "marked_sha256": "26211b6295b6bc2632ff41c09860b9a347817467450b3f19442d3fe0816d1366",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G22/frame_00032.jpg",
+      "source_sha256": "a6c4d9aa433c0db6952c2ff8451a6aafba1a30e7796d0a97bbd68929b1368c7b",
+      "group": "G22",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G22-B13-F00032",
+        "G22-B14-F00032"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 16 ảnh đánh dấu. A01 nữ khẩu trang trắng và A02 nam quay ngang giữ nguyên. Gom tư thế viết/calculator lặp lại theo vị trí; F33/F36 mất tóc hoặc đầu, các người hàng xa F7 không đủ tay. Dùng góc rộng F18/F34 cho các vị trí phía sau khi thấy đủ evidence.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/15frame_00033.jpg",
+      "marked_sha256": "f2fd8c172ed1449fd4872ff1c2a097fb2f6a08f64878431713ac14d40b7eea9a",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G22/frame_00033.jpg",
+      "source_sha256": "13ad0ec6919c699dbae6aa707713d92970192a603bf6241d0e79826bfd5db67f",
+      "group": "G22",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 16 ảnh đánh dấu. A01 nữ khẩu trang trắng và A02 nam quay ngang giữ nguyên. Gom tư thế viết/calculator lặp lại theo vị trí; F33/F36 mất tóc hoặc đầu, các người hàng xa F7 không đủ tay. Dùng góc rộng F18/F34 cho các vị trí phía sau khi thấy đủ evidence.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/15frame_00034.jpg",
+      "marked_sha256": "d2227df83122064e4f8910fb0f6763c86adb9f6492557c5456e7d155f14fcd83",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G22/frame_00034.jpg",
+      "source_sha256": "7ce44f00e97b412e59788b926340c2faa7f9a1d6a9a515b2842b763d4463b55a",
+      "group": "G22",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G22-B16-F00034"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 16 ảnh đánh dấu. A01 nữ khẩu trang trắng và A02 nam quay ngang giữ nguyên. Gom tư thế viết/calculator lặp lại theo vị trí; F33/F36 mất tóc hoặc đầu, các người hàng xa F7 không đủ tay. Dùng góc rộng F18/F34 cho các vị trí phía sau khi thấy đủ evidence.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/15frame_00036.jpg",
+      "marked_sha256": "68a810af37cf5b04d1946a86771ce7982f672370f9c2fbe7eb36cd2fc29c6d1a",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G22/frame_00036.jpg",
+      "source_sha256": "e386a88dd9f7d19c84f899b7348fdce2e5f8b872cf60c67255e9c1dbe3facc4d",
+      "group": "G22",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 16 ảnh đánh dấu. A01 nữ khẩu trang trắng và A02 nam quay ngang giữ nguyên. Gom tư thế viết/calculator lặp lại theo vị trí; F33/F36 mất tóc hoặc đầu, các người hàng xa F7 không đủ tay. Dùng góc rộng F18/F34 cho các vị trí phía sau khi thấy đủ evidence.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/16frame_00003.jpg",
+      "marked_sha256": "1ba25eb419780c77f3a45c2917b7e72fc698ff3a406313f14e16187009bd7a99",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G23/frame_00003.jpg",
+      "source_sha256": "f1d616a94c98a2a83b5f3b4436faeb5ccaa7c594d3c71e2bf2558b6fc189c952",
+      "group": "G23",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G23-B01-F00003"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 20 ảnh đánh dấu. A01/A02/A03/A04 giữ nguyên, đặc biệt A03 U/N theo owner. F29/F30 mất tóc; các dấu ở F20/F21 phần lớn cùng dãy/vị trí F5/F17/F18, không cắt lặp. F27 chỉ thêm áo xanh ngọc, người bên trái là A01. Các mặt lưng chưa chắc loại giữ U.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/16frame_00005.jpg",
+      "marked_sha256": "220d576a6257d4ec9b0ae07c6c19b5aa865e70e92d6bf449b04d5af3eabaa871",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G23/frame_00005.jpg",
+      "source_sha256": "b3711b54abaa8af9a7900bc7489f056b51d07485c499c1061916a34b6f28f062",
+      "group": "G23",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G23-B02-F00005",
+        "G23-B03-F00005"
+      ],
+      "already_accepted_from_this_frame": [
+        "G23-A01-F00005"
+      ],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 20 ảnh đánh dấu. A01/A02/A03/A04 giữ nguyên, đặc biệt A03 U/N theo owner. F29/F30 mất tóc; các dấu ở F20/F21 phần lớn cùng dãy/vị trí F5/F17/F18, không cắt lặp. F27 chỉ thêm áo xanh ngọc, người bên trái là A01. Các mặt lưng chưa chắc loại giữ U.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/16frame_00007.jpg",
+      "marked_sha256": "1e73f4773166b6e14e66619f8951de2ea0d024a07e794b54d85639b721122853",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G23/frame_00007.jpg",
+      "source_sha256": "0c2bbde6ccc04c8617c373943c98df2c3722934dd2afe7f8a8aa5979858401ea",
+      "group": "G23",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G23-B04-F00007"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 20 ảnh đánh dấu. A01/A02/A03/A04 giữ nguyên, đặc biệt A03 U/N theo owner. F29/F30 mất tóc; các dấu ở F20/F21 phần lớn cùng dãy/vị trí F5/F17/F18, không cắt lặp. F27 chỉ thêm áo xanh ngọc, người bên trái là A01. Các mặt lưng chưa chắc loại giữ U.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/16frame_00008.jpg",
+      "marked_sha256": "42bf066420a7afc513399b1fa1bd066420e1da49c9e1e017c55848b35c931a64",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G23/frame_00008.jpg",
+      "source_sha256": "55efceacfce026fcabfb195845178ba70b80af237c9cb33add842d8304498f37",
+      "group": "G23",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G23-B05-F00008",
+        "G23-B06-F00008"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 20 ảnh đánh dấu. A01/A02/A03/A04 giữ nguyên, đặc biệt A03 U/N theo owner. F29/F30 mất tóc; các dấu ở F20/F21 phần lớn cùng dãy/vị trí F5/F17/F18, không cắt lặp. F27 chỉ thêm áo xanh ngọc, người bên trái là A01. Các mặt lưng chưa chắc loại giữ U.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/16frame_00009.jpg",
+      "marked_sha256": "86aba65f7187b983776309acffcb20c270c49c56d8aadb6d283465b463214dc0",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G23/frame_00009.jpg",
+      "source_sha256": "2b4014063f5fc2a86fb01e17fe39f60ad2ac9ad8026e62ad1f07d1885e531a35",
+      "group": "G23",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G23-B07-F00009"
+      ],
+      "already_accepted_from_this_frame": [
+        "G23-A03-F00009"
+      ],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 20 ảnh đánh dấu. A01/A02/A03/A04 giữ nguyên, đặc biệt A03 U/N theo owner. F29/F30 mất tóc; các dấu ở F20/F21 phần lớn cùng dãy/vị trí F5/F17/F18, không cắt lặp. F27 chỉ thêm áo xanh ngọc, người bên trái là A01. Các mặt lưng chưa chắc loại giữ U.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/16frame_00010.jpg",
+      "marked_sha256": "76e8c298df8a4807f8271685411eda1a0e525789cbd81f3dda508362989a957f",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G23/frame_00010.jpg",
+      "source_sha256": "bd5bc0418e6d5df8d1ad3735337d30ac633de40caaf2c70204c594d9a186d8fe",
+      "group": "G23",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 20 ảnh đánh dấu. A01/A02/A03/A04 giữ nguyên, đặc biệt A03 U/N theo owner. F29/F30 mất tóc; các dấu ở F20/F21 phần lớn cùng dãy/vị trí F5/F17/F18, không cắt lặp. F27 chỉ thêm áo xanh ngọc, người bên trái là A01. Các mặt lưng chưa chắc loại giữ U.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/16frame_00011.jpg",
+      "marked_sha256": "6e9254e912ba93611ce70de4b4f8146eb3a46942bef8aa36e040d019b8aa28c9",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G23/frame_00011.jpg",
+      "source_sha256": "295173d27fc75f132ddd0a3e601a0ec6fd8abce3bd6abcad4947e6770198c23a",
+      "group": "G23",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G23-B08-F00011",
+        "G23-B09-F00011",
+        "G23-B10-F00011"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 20 ảnh đánh dấu. A01/A02/A03/A04 giữ nguyên, đặc biệt A03 U/N theo owner. F29/F30 mất tóc; các dấu ở F20/F21 phần lớn cùng dãy/vị trí F5/F17/F18, không cắt lặp. F27 chỉ thêm áo xanh ngọc, người bên trái là A01. Các mặt lưng chưa chắc loại giữ U.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/16frame_00012.jpg",
+      "marked_sha256": "4acedd25d6ea39bc097af11228abec88d9204ae88eddd3e522f5b6e86f9ffac2",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G23/frame_00012.jpg",
+      "source_sha256": "ba14721b2dc53f77161097dc8df32bde97a55b1db8496dc43d7af7a31f633bdd",
+      "group": "G23",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G23-B11-F00012",
+        "G23-B12-F00012"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 20 ảnh đánh dấu. A01/A02/A03/A04 giữ nguyên, đặc biệt A03 U/N theo owner. F29/F30 mất tóc; các dấu ở F20/F21 phần lớn cùng dãy/vị trí F5/F17/F18, không cắt lặp. F27 chỉ thêm áo xanh ngọc, người bên trái là A01. Các mặt lưng chưa chắc loại giữ U.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/16frame_00013.jpg",
+      "marked_sha256": "6392b2548d80a592900a054285219fb32615fa35930126eb65e2830dfc983748",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G23/frame_00013.jpg",
+      "source_sha256": "e84ed17f9ac68a27b56d5b9cad6b5d660f6fc66548c04f6dacd64c4e0b079981",
+      "group": "G23",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G23-B13-F00013",
+        "G23-B14-F00013",
+        "G23-B15-F00013"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 20 ảnh đánh dấu. A01/A02/A03/A04 giữ nguyên, đặc biệt A03 U/N theo owner. F29/F30 mất tóc; các dấu ở F20/F21 phần lớn cùng dãy/vị trí F5/F17/F18, không cắt lặp. F27 chỉ thêm áo xanh ngọc, người bên trái là A01. Các mặt lưng chưa chắc loại giữ U.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/16frame_00014.jpg",
+      "marked_sha256": "d354acf2caec428012d05de8357521b3b0974c7166a5d3ee26d9c4cc46837200",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G23/frame_00014.jpg",
+      "source_sha256": "9419f5b4db3abf9e086a96f2835da6a5261d469d2ba6ecfb6c5bce09ed4c4fa4",
+      "group": "G23",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G23-B16-F00014"
+      ],
+      "already_accepted_from_this_frame": [
+        "G23-A04-F00014"
+      ],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 20 ảnh đánh dấu. A01/A02/A03/A04 giữ nguyên, đặc biệt A03 U/N theo owner. F29/F30 mất tóc; các dấu ở F20/F21 phần lớn cùng dãy/vị trí F5/F17/F18, không cắt lặp. F27 chỉ thêm áo xanh ngọc, người bên trái là A01. Các mặt lưng chưa chắc loại giữ U.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/16frame_00015.jpg",
+      "marked_sha256": "84982fe50184c9591e0c66b4e630e4fcb0df391705d554cfea5f3bbbc93ea005",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G23/frame_00015.jpg",
+      "source_sha256": "597a00a1b4f09e26c2ed4d7825a82fcc1da2089a8bd37ad07ba9c64e973e1065",
+      "group": "G23",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G23-B17-F00015",
+        "G23-B18-F00015",
+        "G23-B19-F00015"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 20 ảnh đánh dấu. A01/A02/A03/A04 giữ nguyên, đặc biệt A03 U/N theo owner. F29/F30 mất tóc; các dấu ở F20/F21 phần lớn cùng dãy/vị trí F5/F17/F18, không cắt lặp. F27 chỉ thêm áo xanh ngọc, người bên trái là A01. Các mặt lưng chưa chắc loại giữ U.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/16frame_00017.jpg",
+      "marked_sha256": "8bdbc275ac1282c9cfdbf54e749acd3ef727a0866e3a0c5ecd06bfd6bfb2e02f",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G23/frame_00017.jpg",
+      "source_sha256": "fd3cac64de35079066fb1d40ae6bda063b4e63453a840b9ad1dc1f8693a7946d",
+      "group": "G23",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G23-B20-F00017"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 20 ảnh đánh dấu. A01/A02/A03/A04 giữ nguyên, đặc biệt A03 U/N theo owner. F29/F30 mất tóc; các dấu ở F20/F21 phần lớn cùng dãy/vị trí F5/F17/F18, không cắt lặp. F27 chỉ thêm áo xanh ngọc, người bên trái là A01. Các mặt lưng chưa chắc loại giữ U.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/16frame_00018.jpg",
+      "marked_sha256": "a16b360b4978efed1614dfa229858bd52447404b94da79c955be59d6ea9e74f9",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G23/frame_00018.jpg",
+      "source_sha256": "991fa6c127894b928146605ef1fe57b0ded0eecf39fe41f74774f574eabafbfa",
+      "group": "G23",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G23-B21-F00018",
+        "G23-B22-F00018",
+        "G23-B23-F00018"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 20 ảnh đánh dấu. A01/A02/A03/A04 giữ nguyên, đặc biệt A03 U/N theo owner. F29/F30 mất tóc; các dấu ở F20/F21 phần lớn cùng dãy/vị trí F5/F17/F18, không cắt lặp. F27 chỉ thêm áo xanh ngọc, người bên trái là A01. Các mặt lưng chưa chắc loại giữ U.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/16frame_00020.jpg",
+      "marked_sha256": "51e6239e5092802f533839ca3ff8e29ae8ecd1c86e492420eaa1a0b847a7bcce",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G23/frame_00020.jpg",
+      "source_sha256": "74e4d8ba60006174107f6ac35f3350f98bd0a335f654701384ffa41680833be4",
+      "group": "G23",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 20 ảnh đánh dấu. A01/A02/A03/A04 giữ nguyên, đặc biệt A03 U/N theo owner. F29/F30 mất tóc; các dấu ở F20/F21 phần lớn cùng dãy/vị trí F5/F17/F18, không cắt lặp. F27 chỉ thêm áo xanh ngọc, người bên trái là A01. Các mặt lưng chưa chắc loại giữ U.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/16frame_00021.jpg",
+      "marked_sha256": "2e815ed1f04553d66284b68a305ff94c8df8460b199b1d10075ebf3972a34076",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G23/frame_00021.jpg",
+      "source_sha256": "d23f9800591a19ef434cfb29976ffff32d1c57c365e77f6cdc4a0afca28351a4",
+      "group": "G23",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 20 ảnh đánh dấu. A01/A02/A03/A04 giữ nguyên, đặc biệt A03 U/N theo owner. F29/F30 mất tóc; các dấu ở F20/F21 phần lớn cùng dãy/vị trí F5/F17/F18, không cắt lặp. F27 chỉ thêm áo xanh ngọc, người bên trái là A01. Các mặt lưng chưa chắc loại giữ U.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/16frame_00027.jpg",
+      "marked_sha256": "1ec95e1b19d019f7b81f73d3509e7e258b30f1c7cfc0e6ce45a7222a8db85c93",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G23/frame_00027.jpg",
+      "source_sha256": "75c2289d4bc42d6e6a45b946e9ea057e7c188e25087c10d25fcfde851b9ff7af",
+      "group": "G23",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G23-B24-F00027"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 20 ảnh đánh dấu. A01/A02/A03/A04 giữ nguyên, đặc biệt A03 U/N theo owner. F29/F30 mất tóc; các dấu ở F20/F21 phần lớn cùng dãy/vị trí F5/F17/F18, không cắt lặp. F27 chỉ thêm áo xanh ngọc, người bên trái là A01. Các mặt lưng chưa chắc loại giữ U.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/16frame_00028.jpg",
+      "marked_sha256": "6b2f0cfeab394d026ea42658b017ded69a9cc0e8ab5a067a9a71654c91ff23bc",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G23/frame_00028.jpg",
+      "source_sha256": "cf71f56db8fa9e07bbd4cbcfc75658fedc84845b720c147c2e7adfc1f526dad3",
+      "group": "G23",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 20 ảnh đánh dấu. A01/A02/A03/A04 giữ nguyên, đặc biệt A03 U/N theo owner. F29/F30 mất tóc; các dấu ở F20/F21 phần lớn cùng dãy/vị trí F5/F17/F18, không cắt lặp. F27 chỉ thêm áo xanh ngọc, người bên trái là A01. Các mặt lưng chưa chắc loại giữ U.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/16frame_00029.jpg",
+      "marked_sha256": "1f8a7814353f27f5ef68e9a66ade54afbb7f536b00ea92b8d4dfa1fde9f05c91",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G23/frame_00029.jpg",
+      "source_sha256": "22ec2274b36035e627e3ff81760bd320f7af2ef7d6a07577ffbc8c02531498d9",
+      "group": "G23",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 20 ảnh đánh dấu. A01/A02/A03/A04 giữ nguyên, đặc biệt A03 U/N theo owner. F29/F30 mất tóc; các dấu ở F20/F21 phần lớn cùng dãy/vị trí F5/F17/F18, không cắt lặp. F27 chỉ thêm áo xanh ngọc, người bên trái là A01. Các mặt lưng chưa chắc loại giữ U.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/16frame_00030.jpg",
+      "marked_sha256": "44dbbbc3b11275e1228d7615e7e634ea77ff632e0846398f7632d4777cce85b0",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G23/frame_00030.jpg",
+      "source_sha256": "53bc2e547de58843cfd97361de4e806bed149ba7e6eb37927ba02d1e931620bc",
+      "group": "G23",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 20 ảnh đánh dấu. A01/A02/A03/A04 giữ nguyên, đặc biệt A03 U/N theo owner. F29/F30 mất tóc; các dấu ở F20/F21 phần lớn cùng dãy/vị trí F5/F17/F18, không cắt lặp. F27 chỉ thêm áo xanh ngọc, người bên trái là A01. Các mặt lưng chưa chắc loại giữ U.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/16frame_00031.jpg",
+      "marked_sha256": "c9e0a40234f326720646e9c0a2b54e14bda78529c65aa4bb89f52298fdfffac7",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G23/frame_00031.jpg",
+      "source_sha256": "c60244df74c5160fa366d4846f0c3be9c7aa7d5f21bc9970bedc72a1c6c0324a",
+      "group": "G23",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 3 bảng nguồn và 20 ảnh đánh dấu. A01/A02/A03/A04 giữ nguyên, đặc biệt A03 U/N theo owner. F29/F30 mất tóc; các dấu ở F20/F21 phần lớn cùng dãy/vị trí F5/F17/F18, không cắt lặp. F27 chỉ thêm áo xanh ngọc, người bên trái là A01. Các mặt lưng chưa chắc loại giữ U.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00001.jpg",
+      "marked_sha256": "df7463cf3d6b8ce391d07cb06b9164a5429dc076a6c53ec2a15ab974ac2933fd",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00001.jpg",
+      "source_sha256": "e370a2c94633c9c2cccea9353037298e3bf130da567c6215912ed0d259dd3eec",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00002.jpg",
+      "marked_sha256": "842205aa0894626d1976e4ccd8c50c609a1c6a0e86dc916e98305dde154e968b",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00002.jpg",
+      "source_sha256": "bce436eb2b05d11011c2298aa517095d99d9b6b0d8e7e9c3a2d96c63b02a10df",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G26-B03-F00002",
+        "G26-B04-F00002"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00003.jpg",
+      "marked_sha256": "b154eebcc24673c84b8ba3ca6a25cc5440a89a2956cdeb35a4a064c3a6f58e91",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00003.jpg",
+      "source_sha256": "546cc21110135d09e07d6854eb3a844aa59f3915d4b92039ef66c126831b8441",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G26-B05-F00003",
+        "G26-B06-F00003",
+        "G26-B07-F00003",
+        "G26-B08-F00003"
+      ],
+      "already_accepted_from_this_frame": [
+        "G26-A01-F00003"
+      ],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00004.jpg",
+      "marked_sha256": "c271233ce42817210d78017996e2084ace5a69d1bcbbcaffa3daafe8d6910d0f",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00004.jpg",
+      "source_sha256": "ee7dd64c58b5c2e7c53803adafa5accf55000d358c313eac0e74fb7153f27613",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G26-B09-F00004"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00005.jpg",
+      "marked_sha256": "6d2b73dda38eb83afef3fe1241e86eaff2ab397f42adc265634eb4d54872b029",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00005.jpg",
+      "source_sha256": "db809c2b53df0135b22f64effecefcc9834134f1dc9bfbd41d9d5f91f11cfe28",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00006.jpg",
+      "marked_sha256": "ad2a3cb6b43975cb05dcc78b9d3141e91e61e53aef63bfbfa525a8b7ea265349",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00006.jpg",
+      "source_sha256": "20276984721dd78709d67e0c619fdf2fe8da52a5e2b8a87b9d8ce0d26c32d084",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00008.jpg",
+      "marked_sha256": "b00f959948b56c9db6dcf25362689ceaf092c05bcfb332feca68e3f591d0794f",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00008.jpg",
+      "source_sha256": "a9e25d3ff1200284a26bb668fb9afebb827bbd6a0b92d36e412e07532365e73e",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00009.jpg",
+      "marked_sha256": "76801ae452ae1efa997d161033ddd879bcffe62f34811898b7daac5e2cf154fd",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00009.jpg",
+      "source_sha256": "88089c15e8d20e22b02d90e7bee6e91534a5c3235db86d6edafdacd27ffd15e2",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G26-B13-F00009"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00010.jpg",
+      "marked_sha256": "1a9d01daf6fbb3e3addebccc4bb3c979ac80e3c86287a05ab9e022f4d0b979d4",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00010.jpg",
+      "source_sha256": "844e5d841e1cf515b2e802dafe0eab1f9829f9b41721fb49925cd90aafb24e01",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00011.jpg",
+      "marked_sha256": "4c6d5a1e59d9e52012ab5fae12126f82e23f625a8ad887f1de3b19693a0c51f0",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00011.jpg",
+      "source_sha256": "ede4a6d91829ae94a3df95d3a49f97884fa6773e81d4ea90eb9e2e8c238a26ef",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00012.jpg",
+      "marked_sha256": "d6ec789c7c4352c8efa689cf0771121ecd5f97efbd59a92f28bf814bfff55f6a",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00012.jpg",
+      "source_sha256": "1c46d6b5f3ea2ac33b4e0a01e98b6b46b27d08f4116aa7240327502ba29e09ac",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G26-B18-F00012",
+        "G26-B19-F00012"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00013.jpg",
+      "marked_sha256": "f330b9df1f74d1ddaf98cf965b7e5ea474f00645eebb0acd6f8c42a7da43bef4",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00013.jpg",
+      "source_sha256": "a889c76fe1d8fa53f3350023009701b7696076df7e2eb52257cac7251050d96d",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00014.jpg",
+      "marked_sha256": "e6d8965843f6f4cfe4f18c3c4616b7664497686bd71e80297a0c4291a0166e15",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00014.jpg",
+      "source_sha256": "d30a98d96204cceb9b1488102d747f4be51bc591a08b43944cdfe3162662bdf3",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00015.jpg",
+      "marked_sha256": "a7a2ace890efebdb1326a41963059d77bb40e26c94717ebdc0cbc667ae20dad7",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00015.jpg",
+      "source_sha256": "f0d993c52db78b393c974577fa702ddd14ed2332320a21c6ee80b869c29238bb",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G26-B21-F00015"
+      ],
+      "already_accepted_from_this_frame": [
+        "G26-A03-F00015"
+      ],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00016.jpg",
+      "marked_sha256": "1d8dcbb4b7f7ac6a67950ed6a1ff74f4c0182a43c85f7e39c0902b034ed14e52",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00016.jpg",
+      "source_sha256": "20111ef845e76b7943583baf2a4fcf7d0b76e59cb34d97486bc3142981832b3b",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00017.jpg",
+      "marked_sha256": "8acb83dc7b344578423afb10bb0f8cb5ac992ff41a57da9589914fe5e83e8fd6",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00017.jpg",
+      "source_sha256": "5b6038bdb4c642a664bf6a070b97e4270c0562800e88a7e08ab0dac37d205ec1",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00018.jpg",
+      "marked_sha256": "fd1eadcdedc80e3c8eadeec9258964c9f240e5ef2cd93767a1c8693e896959e0",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00018.jpg",
+      "source_sha256": "e478679191e405f8cfcd53e11d1f7bb415e33312ef754def082657edfe8e189a",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G26-B23-F00018",
+        "G26-B24-F00018"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00019.jpg",
+      "marked_sha256": "e66214b59113f672b1e43c3e751f6fd67ce2dcce51dbb4329ba04198853565dc",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00019.jpg",
+      "source_sha256": "09ec5f7ab77e2c723b6996b1d4cdd8ce0baa1d5bdf0d50c0febb9b5ba47af79f",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00020.jpg",
+      "marked_sha256": "c250db568101b3a3794374ca58f5d003574f9409dc300dc97c24cf36027e8867",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00020.jpg",
+      "source_sha256": "eb57ddea767c61ad83d25980c2e0f3489050cf469ca88f62bf9578ddf3dd42bc",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00025.jpg",
+      "marked_sha256": "88b88191e082171f0c836db9587718290dbbb90ba48002d5cf743040a248776f",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00025.jpg",
+      "source_sha256": "8b78d173bc7794cdc061f1425bb8653911a7e733e5fae3ce00dceafb86d77905",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00027.jpg",
+      "marked_sha256": "081c99bca4be433260aa1a4efcf1e829089936d6482ec87b0286eeeec2096ab0",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00027.jpg",
+      "source_sha256": "ab9fd1c8bdec0ad1f2507a5be9096581d80801e803bee8a819a1daf7a6890178",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G26-B11-F00027"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00028.jpg",
+      "marked_sha256": "2dae388e929760feef721ab55302d0d1148599cff1299e038b8b330147a1dc35",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00028.jpg",
+      "source_sha256": "1e0af5cf7a5d3a83d6f1ccde51aa5216bed5dfc267007dd2e40cc7c0ce92fd7a",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G26-B10-F00028"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00029.jpg",
+      "marked_sha256": "b6183f94f61cd9a499096e655474cb632c8fd809f62c885f60fb932f75c5f3b1",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00029.jpg",
+      "source_sha256": "9e5ea301672d95ae11e79483ec84bfc1b74dcf81a0a9ede60a14a241d8f44689",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G26-B16-F00029"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00031.jpg",
+      "marked_sha256": "d5b23bffb94a5642b0ce0f5ee74070ce1c13a7d4e1dd0ae0ce499358974481d8",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00031.jpg",
+      "source_sha256": "02ffddeecab627f2ab035f75b5f74a3ebf26acc3fc442b9b9daffc24f39d6860",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00033.jpg",
+      "marked_sha256": "ac5ef96f2bf9a2c904cf55541500f17514df44677c196b3a8e4cf392740bfa26",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00033.jpg",
+      "source_sha256": "e28beced08e3d04dae03fe658e53299450620be11a05209f56c6016fc2a6a5a2",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G26-B01-F00033",
+        "G26-B02-F00033"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00034.jpg",
+      "marked_sha256": "59c836d18f416505bdd266126811bd7d30b8f503c7920618d0e6652ea8ec9860",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00034.jpg",
+      "source_sha256": "30b96caccad590963e84bd0d021ab546e53bec191479f4fb0266c39d920f1463",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00037.jpg",
+      "marked_sha256": "bfd8236f6c9710f8a79460a818e82b9f4cc32dac725736758d2a156e6011ecb5",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00037.jpg",
+      "source_sha256": "372351551c613a8381deb5b22cea3c8f4e49653ca76b0ed4c3cfc6ee5e910fab",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00040.jpg",
+      "marked_sha256": "3122445d8ccb099d5ce06fec7b229b7e27fbbf4c17d7c2dd27b39b2cbcf7ace2",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00040.jpg",
+      "source_sha256": "57aacd1077e1a0fcf4dfe36f03f5f2d2a70bb9375a1467778564979019f071f9",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00042.jpg",
+      "marked_sha256": "987f9c63c4c20638bd19593d7fba1092da5c817ee2f3da521a5dff392e98d810",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00042.jpg",
+      "source_sha256": "50c5be62a5db7aeaa44cefa8f88e87257e7818eb4bf469aab82f5a3176e20aa7",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00044.jpg",
+      "marked_sha256": "41d722c9cdd541c1a8fe7926d6e177ecd543cbcaf1f8263b98cc7f8664b280e4",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00044.jpg",
+      "source_sha256": "dddb9cc0d6557e62210444ebd4f2bff6f929111acab55a3148e04c3bf8928c4e",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/17frame_00047.jpg",
+      "marked_sha256": "10e8e089395d393706708e547d9fad96f5d80337ca7fff883922904d99f85a9d",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00047.jpg",
+      "source_sha256": "0060ca35620213e6b124396ef8b1644e48b2fd0a001b88a7f493eb5397535c2d",
+      "group": "G26",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 5 bảng nguồn và 31 ảnh đánh dấu. A01/A02/A03 đã có. Nhiều cận F1/F2/F5/F6/F9/F11/F13/F14/F17/F19/F20/F31/F37/F40/F42/F44/F47 cắt tóc/đầu hoặc tay; dùng F26/F27/F28/F29/F33 rộng khi đủ evidence. F25 đầu sát mép và trùng hành vi hàng trước nên không thêm. Không dùng mặt calculator ở frame khác gán nhãn thiết bị mặt lưng.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/18frame_00010.jpg",
+      "marked_sha256": "d42ad409c32ca195088bb46a94fb9d61275bb0e5a5196ebede562317926f9648",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G24/frame_00010.jpg",
+      "source_sha256": "adbf7c586f9b88abddb108f540e3ff909554190618279e951f1d56f5b0092753",
+      "group": "G24",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G24-B01-F00010"
+      ],
+      "already_accepted_from_this_frame": [
+        "G24-A01-F00010"
+      ],
+      "group_review_note": "Đã xem toàn bộ 2 bảng nguồn và cả 3 ảnh đánh dấu. Nữ xanh lá giữ hai hướng đầu thay đổi rõ. Nam áo khoác giữ F45 quay sang người cạnh; F47 back view không có evidence hướng nhìn tốt hơn. A01 không lặp.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/18frame_00045.jpg",
+      "marked_sha256": "d38c4f9dbc492892b6e0da6039e05405c523b0242c340ae1fa7d69826365e795",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G24/frame_00045.jpg",
+      "source_sha256": "350e7237d04d980315bd9937fb9afa6af553395160c2075749ef44bfcd06feb7",
+      "group": "G24",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G24-B02-F00045"
+      ],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 2 bảng nguồn và cả 3 ảnh đánh dấu. Nữ xanh lá giữ hai hướng đầu thay đổi rõ. Nam áo khoác giữ F45 quay sang người cạnh; F47 back view không có evidence hướng nhìn tốt hơn. A01 không lặp.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/18frame_00047.jpg",
+      "marked_sha256": "9b79373102049ec8d0493055062c4440eea0763ed35b69485a2cbe6b705bb5e6",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G24/frame_00047.jpg",
+      "source_sha256": "bc263a62e5510a95b77708092272a7677cd12f826705a4dc365a4748fd7fdeb6",
+      "group": "G24",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 2 bảng nguồn và cả 3 ảnh đánh dấu. Nữ xanh lá giữ hai hướng đầu thay đổi rõ. Nam áo khoác giữ F45 quay sang người cạnh; F47 back view không có evidence hướng nhìn tốt hơn. A01 không lặp.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/19frame_00016.jpg",
+      "marked_sha256": "260d7acc1021011e4e6af37839c8eca42c639617bd952b86cfb2ce7c4824c29e",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G27/frame_00016.jpg",
+      "source_sha256": "5310e5e9b3e40d07de1f233298fb6d0061a449a183548eb17477c6c44e43eb09",
+      "group": "G27",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [
+        "G27-B01-F00016",
+        "G27-B02-F00016",
+        "G27-B03-F00016"
+      ],
+      "already_accepted_from_this_frame": [
+        "G27-A01-F00016-R02"
+      ],
+      "group_review_note": "Đã xem toàn bộ 2 bảng nguồn và cả 2 ảnh đánh dấu ở native dọc 360x640. Ba nam F16 thêm crop riêng. Nữ đánh dấu F23 là vị trí A03 đã có F31 P/P; không cắt thêm cùng hướng nhìn. A02/A03 giữ nguyên P/P owner đã chốt.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    },
+    {
+      "marked_member": "temp/19frame_00023.jpg",
+      "marked_sha256": "1fc32a79c16aea36ddffe1718001260d52f36d60b47acf7d328a766d5328967b",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G27/frame_00023.jpg",
+      "source_sha256": "75a7a4c05591ff207f4df598ef70c2899eba11e429089c8adb29b724aa1b27be",
+      "group": "G27",
+      "mapping_review": "visually checked against original source sequence",
+      "selected_from_this_frame": [],
+      "already_accepted_from_this_frame": [],
+      "group_review_note": "Đã xem toàn bộ 2 bảng nguồn và cả 2 ảnh đánh dấu ở native dọc 360x640. Ba nam F16 thêm crop riêng. Nữ đánh dấu F23 là vị trí A03 đã có F31 P/P; không cắt thêm cùng hướng nhìn. A02/A03 giữ nguyên P/P owner đã chốt.",
+      "review_scope": "Frame and marked leads inspected; nearby-frame choices grouped in gallery. This is frame coverage, not exhaustive person annotation."
+    }
+  ]
+}

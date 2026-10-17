@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "accepted_count": 172,
+  "default_approved_count": 146,
+  "owner_review_ids": 34,
+  "excluded": 9,
+  "replaced_originals": 3,
+  "new_geometry_outputs": 4,
+  "states": {
+    "U/P": 12,
+    "U/N": 47,
+    "N/N": 89,
+    "N/P": 16,
+    "N/U": 1,
+    "P/N": 7
+  },
+  "owner_receipt_sha256": "40674035ea7efb9729f30cc696424d739764a8157609db9ae5d93a1e7a220306",
+  "accepted_html_sha256": "707c10deda28b6dc6d5d5fdbd6d7d4bc77877a5d8aab8c42e5fd50b7725a1db4",
+  "accepted_zip_sha256": "d0496a75dcfe1bdaa63ff92fb19900db965d6ae2242e5f648083d337a974fb1c",
+  "exact_source_crop_input_parity": true,
+  "all_parent_crop_hashes_preserved": true,
+  "parent_ledger_and_zip_preserved": true,
+  "zip_crc_and_membership": true,
+  "gallery_links": 344,
+  "enrollment_performed": false
+}

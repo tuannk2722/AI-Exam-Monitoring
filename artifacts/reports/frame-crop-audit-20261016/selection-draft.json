@@ -1,0 +1,2205 @@
+{
+  "G01": {
+    "note": "Camera cao, người hàng sau nhỏ và chồng lấn. Chọn cặp làm bài/quay ngang của hai chỗ ngồi rõ; bỏ người sát mép dưới và người đi lại che bàn. F17–19 nhiều chuyển động, không lấy mọi người chỉ vì xuất hiện.",
+    "candidates": [
+      [
+        "A01",
+        1,
+        [
+          242,
+          148,
+          302,
+          254
+        ],
+        [
+          229,
+          138,
+          329,
+          276
+        ],
+        "UN",
+        "Áo xanh giữa lớp: cúi vào vở, tay/bàn một phần bị che; đối chứng vùng bài.",
+        2
+      ],
+      [
+        "A01",
+        9,
+        [
+          232,
+          143,
+          292,
+          256
+        ],
+        [
+          221,
+          133,
+          321,
+          276
+        ],
+        "UP",
+        "Cùng chỗ áo xanh quay rõ sang trái khỏi vở; giữ bàn làm context.",
+        2
+      ],
+      [
+        "A02",
+        1,
+        [
+          365,
+          133,
+          434,
+          241
+        ],
+        [
+          353,
+          123,
+          464,
+          253
+        ],
+        "UN",
+        "Áo đen bàn bên phải cúi viết; vùng tay nhỏ nên phone U.",
+        2
+      ],
+      [
+        "A02",
+        18,
+        [
+          363,
+          122,
+          420,
+          233
+        ],
+        [
+          351,
+          112,
+          464,
+          250
+        ],
+        "UP",
+        "Áo đen bàn phải quay đầu sang trái, thay đổi so tư thế làm bài.",
+        2
+      ]
+    ]
+  },
+  "G02": {
+    "note": "Máy tính cầm tay là hard negative quan trọng. Mặt lưng thiết bị ở F9–16/26 không đủ tự khẳng định mobile. Giữ góc thấy phím và viết với máy tính; người phía sau bị chồng lấn. F62/63/66 gần lặp F69.",
+    "candidates": [
+      [
+        "A01",
+        28,
+        [
+          389,
+          136,
+          611,
+          292
+        ],
+        [
+          369,
+          125,
+          627,
+          360
+        ],
+        "NN",
+        "Người bàn trước phải đưa mặt phím máy tính về camera, nhìn xuống thiết bị."
+      ],
+      [
+        "A01",
+        69,
+        [
+          395,
+          146,
+          621,
+          302
+        ],
+        [
+          372,
+          136,
+          638,
+          360
+        ],
+        "NN",
+        "Cùng chỗ viết bằng bút vàng, máy tính đặt cạnh vở, khác tư thế cầm."
+      ],
+      [
+        "A02",
+        15,
+        [
+          228,
+          93,
+          362,
+          332
+        ],
+        [
+          214,
+          85,
+          370,
+          351
+        ],
+        "UP",
+        "Tóc ngắn bàn giữa quay rõ sang phải; cần giữ bàn, phone chưa đủ evidence."
+      ],
+      [
+        "A02",
+        9,
+        [
+          177,
+          107,
+          350,
+          327
+        ],
+        [
+          166,
+          97,
+          359,
+          349
+        ],
+        "UN",
+        "Cùng chỗ cúi viết, đối chứng quay ngang; thiết bị nhỏ chưa phân biệt.",
+        2
+      ]
+    ]
+  },
+  "G03": {
+    "note": "Camera di chuyển, cảnh cầm kem và tương tác ngoài hoạt động làm bài. Không gọi confirmed_working. Nhiều mặt/tay bị che hoặc người bị cắt mép; chỉ giữ ít ví dụ vật không phải phone và hướng nhìn rõ. Không ghép người giữa các góc nếu continuity chưa chắc.",
+    "candidates": [
+      [
+        "A01",
+        7,
+        [
+          0,
+          39,
+          400,
+          360
+        ],
+        [
+          0,
+          29,
+          410,
+          360
+        ],
+        "NP",
+        "Kính đen, hai tay cầm kem, nhìn camera ngoài vở; kem không phải điện thoại."
+      ],
+      [
+        "A02",
+        18,
+        [
+          220,
+          70,
+          430,
+          350
+        ],
+        [
+          88,
+          60,
+          445,
+          360
+        ],
+        "NP",
+        "Người đeo khẩu trang sát tường cầm kem, nhìn ngang ra ngoài vở; bàn và hai tay còn thấy."
+      ]
+    ],
+    "rejected_after_crop_qa": [
+      {
+        "proposal": [
+          "A03",
+          24,
+          [
+            218,
+            0,
+            592,
+            337
+          ],
+          [
+            208,
+            0,
+            612,
+            360
+          ],
+          "NP",
+          "Áo xanh trắng bàn trước: kem và khẩu trang trong tay, nhìn ra camera; context ngoài làm bài."
+        ],
+        "reason": "Đỉnh đầu sát/cắt mép nguồn; bỏ để giữ tiêu chí đầu đầy đủ."
+      }
+    ]
+  },
+  "G04": {
+    "note": "Camera đổi góc trong cùng lớp; nhiều thiết bị mặt lưng giống phone nhưng là candidate calculator, không tự gán P. Chọn thao tác máy tính/viết/quay ngang; bỏ đa số frame tư thế lặp, người xa và foreground che tay.",
+    "candidates": [
+      [
+        "A01",
+        29,
+        [
+          337,
+          106,
+          630,
+          310
+        ],
+        [
+          322,
+          95,
+          640,
+          360
+        ],
+        "NN",
+        "Áo xám sát cửa sổ viết, máy tính thấy phím cạnh giấy; giữ cả khuỷu tay."
+      ],
+      [
+        "A02",
+        88,
+        [
+          160,
+          99,
+          278,
+          252
+        ],
+        [
+          145,
+          89,
+          300,
+          290
+        ],
+        "UP",
+        "Áo khoác tím giữa dãy quay sang trái rõ; tay và thiết bị chưa đủ phone negative.",
+        2
+      ],
+      [
+        "A02",
+        14,
+        [
+          154,
+          25,
+          284,
+          175
+        ],
+        [
+          146,
+          16,
+          329,
+          200
+        ],
+        "UN",
+        "Áo khoác tím đang viết; một tay khuất dưới bàn/người trước nên phone U, giữ đối chứng gaze vào giấy.",
+        3
+      ],
+      [
+        "A03",
+        74,
+        [
+          312,
+          157,
+          469,
+          342
+        ],
+        [
+          301,
+          146,
+          480,
+          360
+        ],
+        "NN",
+        "Hoodie xanh cúi theo tay viết trên trang giấy của mình, máy tính trên bàn; không đủ evidence nhìn ngoài vùng bài.",
+        2
+      ],
+      [
+        "A03",
+        10,
+        [
+          449,
+          217,
+          640,
+          353
+        ],
+        [
+          431,
+          201,
+          640,
+          360
+        ],
+        "NN",
+        "Hoodie xanh dùng máy tính trên giấy, đầu cúi về vùng thao tác."
+      ],
+      [
+        "A04",
+        62,
+        [
+          20,
+          109,
+          145,
+          229
+        ],
+        [
+          8,
+          99,
+          159,
+          276
+        ],
+        "NU",
+        "Áo đen chữ màu đưa máy tính thấy phím lên bàn; hướng mắt chưa đủ kết luận.",
+        2
+      ],
+      [
+        "A04",
+        18,
+        [
+          264,
+          143,
+          393,
+          278
+        ],
+        [
+          251,
+          133,
+          418,
+          322
+        ],
+        "NN",
+        "Áo đen chữ màu viết trên giấy, calculator nằm cạnh vở.",
+        2
+      ],
+      [
+        "A05",
+        39,
+        [
+          113,
+          15,
+          355,
+          190
+        ],
+        [
+          82,
+          7,
+          367,
+          249
+        ],
+        "NN",
+        "Áo tím gần cửa sổ lật giấy, bàn có máy tính; tay và giấy rõ."
+      ]
+    ]
+  },
+  "G05": {
+    "note": "Camera gần cố định, ưu tiên người áo kem bàn trước phải có phone và máy tính cùng vùng bàn, thay đổi cầm/đặt và quay đầu. Người hàng sau nhỏ; lặp viết/nhìn xuống ở phần lớn frame không thêm crop.",
+    "candidates": [
+      [
+        "A01",
+        39,
+        [
+          473,
+          169,
+          639,
+          335
+        ],
+        [
+          450,
+          156,
+          640,
+          360
+        ],
+        "PN",
+        "Áo kem cầm mobile có cụm camera, tay còn lại viết; máy tính khác nằm trên bàn."
+      ],
+      [
+        "A01",
+        65,
+        [
+          465,
+          149,
+          627,
+          335
+        ],
+        [
+          448,
+          139,
+          640,
+          360
+        ],
+        "UP",
+        "Cùng chỗ quay đầu về người phía sau; đồ trên bàn cần review phone riêng.",
+        2
+      ],
+      [
+        "A02",
+        92,
+        [
+          14,
+          154,
+          154,
+          296
+        ],
+        [
+          3,
+          143,
+          180,
+          331
+        ],
+        "NN",
+        "Áo đen bàn trái cầm bút, tay chống cằm; vùng bài đủ, không coi bút là phone.",
+        2
+      ]
+    ],
+    "rejected_after_crop_qa": [
+      {
+        "proposal": [
+          "A01",
+          100,
+          [
+            476,
+            164,
+            640,
+            336
+          ],
+          [
+            448,
+            151,
+            640,
+            360
+          ],
+          "PP",
+          "Ngẩng khỏi vùng bài, mobile đặt trên bàn trước anchor; giữ đầu và tay đến mép nguồn."
+        ],
+        "reason": "Vòng QA cuối: bàn tay phải bị cắt tại mép phải source, không thể phục hồi bằng recrop."
+      }
+    ]
+  },
+  "G06": {
+    "note": "Bối cảnh họp trong lớp có người lớn viết/đọc và điện thoại trên bàn. Text/hiệu ứng ở F9/16/17/19 là domain caveat; ưu tiên F12 sạch hiệu ứng, không suy là cảnh thi. F3/4 cận cảnh cắt mất tay/bàn nên bỏ.",
+    "candidates": [
+      [
+        "A01",
+        12,
+        [
+          177,
+          142,
+          318,
+          287
+        ],
+        [
+          165,
+          131,
+          338,
+          344
+        ],
+        "PN",
+        "Áo đen cổ kem đang đọc giấy, mobile màu đen đặt ngay bên phải trên bàn."
+      ],
+      [
+        "A02",
+        12,
+        [
+          7,
+          139,
+          148,
+          283
+        ],
+        [
+          0,
+          129,
+          164,
+          345
+        ],
+        "PN",
+        "Áo đen bàn trái viết, mobile viền sáng cạnh tay trên bàn."
+      ],
+      [
+        "A03",
+        12,
+        [
+          310,
+          131,
+          445,
+          279
+        ],
+        [
+          301,
+          120,
+          467,
+          344
+        ],
+        "NN",
+        "Áo kẻ đọc giấy, hai tay và vùng bàn thấy rõ, không gán phone của người bên trái."
+      ]
+    ],
+    "rejected_after_crop_qa": [
+      {
+        "proposal": [
+          "A02",
+          16,
+          [
+            0,
+            107,
+            162,
+            291
+          ],
+          [
+            0,
+            98,
+            178,
+            354
+          ],
+          "PP",
+          "Cùng chỗ nhìn ngang khỏi giấy, mobile vẫn trên bàn; hiệu ứng nguồn cần review."
+        ],
+        "reason": "Vòng QA cuối: cánh tay vươn ra ngoài mép trái source, bàn tay mất; bỏ dù phone trên bàn rõ."
+      }
+    ]
+  },
+  "G07": {
+    "note": "Hoạt động làm đồ thủ công, có kéo/bút/thước/bìa; không phải cảnh thi. Camera đổi góc, nhiều đầu/tay sát mép nguồn. Chọn vài đối chứng công cụ rõ; không gán mọi vật hình chữ nhật là phone. F7/21/22/38/40 có phần đầu bị nguồn cắt, không ưu tiên.",
+    "candidates": [
+      [
+        "A01",
+        24,
+        [
+          155,
+          18,
+          538,
+          307
+        ],
+        [
+          134,
+          7,
+          552,
+          354
+        ],
+        "NN",
+        "Tóc buộc, cúi cắt/đánh dấu bìa đỏ; hai tay và công cụ thấy rõ, context thủ công."
+      ],
+      [
+        "A03",
+        20,
+        [
+          234,
+          9,
+          556,
+          360
+        ],
+        [
+          220,
+          0,
+          571,
+          360
+        ],
+        "NP",
+        "Đứng cầm hộp carton, đầu quay trái khỏi vùng thao tác; hai tay gắn rõ với hộp."
+      ]
+    ],
+    "rejected_after_crop_qa": [
+      {
+        "proposal": [
+          "A02",
+          31,
+          [
+            125,
+            0,
+            510,
+            345
+          ],
+          [
+            108,
+            0,
+            530,
+            360
+          ],
+          "NN",
+          "Kính, áo có cổ xanh, vẽ bằng bút trên bìa; giữ bàn và cả hai tay."
+        ],
+        "reason": "Nguồn cắt đỉnh đầu; không ưu tiên dù thao tác bút rõ."
+      }
+    ]
+  },
+  "G08": {
+    "note": "Camera cao, bố trí bàn/cửa/rèm gần G01; nghi cùng phòng, chưa xác nhận session. Chọn chỗ áo xanh phía trước có quay ngang rõ so viết. F16 người đi ngang che anchor; các frame cuối lặp cúi viết, người xa thiếu chi tiết.",
+    "candidates": [
+      [
+        "A01",
+        9,
+        [
+          245,
+          185,
+          321,
+          291
+        ],
+        [
+          233,
+          174,
+          342,
+          317
+        ],
+        "UP",
+        "Áo xanh trắng bàn trước giữa quay trái khỏi giấy; phone U do kích thước tay nhỏ.",
+        2
+      ],
+      [
+        "A01",
+        14,
+        [
+          247,
+          184,
+          323,
+          295
+        ],
+        [
+          235,
+          173,
+          344,
+          319
+        ],
+        "UN",
+        "Cùng chỗ cúi vào trang trước mặt, đối chứng quay trái.",
+        2
+      ]
+    ]
+  },
+  "G09": {
+    "note": "Lớp học nghe giảng, đọc, viết. Nhìn giáo viên là hướng ra ngoài trang theo semantics hình ảnh, không là kết luận gian lận. Nhiều đoạn nghe giảng lặp, F84 cắt đầu nên bỏ. Tay băng bó giữ phone unknown khi chưa đủ vùng tay.",
+    "candidates": [
+      [
+        "A01",
+        56,
+        [
+          234,
+          130,
+          433,
+          360
+        ],
+        [
+          219,
+          119,
+          454,
+          360
+        ],
+        "NP",
+        "Bàn trước, áo sọc vai, hai tay trên bàn và nhìn giáo viên ngoài trang."
+      ],
+      [
+        "A01",
+        71,
+        [
+          255,
+          112,
+          540,
+          334
+        ],
+        [
+          244,
+          100,
+          553,
+          360
+        ],
+        "NN",
+        "Cùng chỗ cầm bút viết, giữ tay trái trên sách và bàn."
+      ],
+      [
+        "A01",
+        110,
+        [
+          227,
+          95,
+          448,
+          326
+        ],
+        [
+          214,
+          84,
+          463,
+          355
+        ],
+        "NN",
+        "Cùng chỗ đọc, ngón tay dò trang; khác thao tác viết, không lấy các frame đọc lặp."
+      ],
+      [
+        "A02",
+        43,
+        [
+          301,
+          75,
+          475,
+          268
+        ],
+        [
+          289,
+          64,
+          488,
+          355
+        ],
+        "UP",
+        "Người tay băng trắng nhìn ra ngoài sách; phone U vì tay băng bó/che."
+      ],
+      [
+        "A02",
+        105,
+        [
+          268,
+          62,
+          521,
+          338
+        ],
+        [
+          253,
+          51,
+          535,
+          360
+        ],
+        "UN",
+        "Cùng người tay băng đọc sách, tay còn lại dò dòng; giữ unknown phone."
+      ],
+      [
+        "A03",
+        30,
+        [
+          239,
+          85,
+          404,
+          249
+        ],
+        [
+          227,
+          74,
+          416,
+          286
+        ],
+        "NP",
+        "Áo trắng hàng sau chống cằm nhìn ngoài trang, vùng bàn và tay đủ quan sát."
+      ],
+      [
+        "A03",
+        85,
+        [
+          220,
+          49,
+          411,
+          196
+        ],
+        [
+          208,
+          38,
+          426,
+          235
+        ],
+        "NN",
+        "Cùng chỗ áo trắng viết vào vở; người phía trước chỉ ở rìa dưới."
+      ]
+    ]
+  },
+  "G10": {
+    "note": "Camera cao, nghi cùng scene-family với G01/G08. Chọn người bàn trước có góc đầu rõ, tránh dozens ảnh tương tự. Frame 30–46 người đứng giữa lớp gây chồng lấn; không lấy người xa thiếu tay/mặt.",
+    "candidates": [
+      [
+        "A01",
+        8,
+        [
+          167,
+          246,
+          236,
+          327
+        ],
+        [
+          155,
+          234,
+          270,
+          360
+        ],
+        "UN",
+        "Áo xanh bàn đầu cúi xuống bài, tay chống đầu; không suy phone absence."
+      ],
+      [
+        "A01",
+        13,
+        [
+          178,
+          237,
+          246,
+          331
+        ],
+        [
+          166,
+          225,
+          276,
+          360
+        ],
+        "UP",
+        "Cùng chỗ quay đầu rõ sang phải khỏi bài."
+      ]
+    ],
+    "rejected_after_crop_qa": [
+      {
+        "proposal": [
+          "A02",
+          46,
+          [
+            268,
+            209,
+            324,
+            293
+          ],
+          [
+            256,
+            197,
+            350,
+            333
+          ],
+          "UP",
+          "Áo xanh bàn giữa ngẩng và đưa tay, hướng ra ngoài trang; phone chưa rõ."
+        ],
+        "reason": "QA crop không xác nhận nhìn ngoài vùng bài, phone cũng chưa rõ; không chọn U/U."
+      }
+    ]
+  },
+  "G11": {
+    "note": "Lớp đồng phục xanh trắng, camera di chuyển; có máy tính mặt lưng dễ nhầm phone. Chọn đọc/viết và một lần ngẩng khỏi bài; F11/14/41/63 cùng tư thế viết phần lớn lặp. Nghi liên hệ phòng G04 cần owner xác minh.",
+    "candidates": [
+      [
+        "A01",
+        15,
+        [
+          326,
+          111,
+          506,
+          298
+        ],
+        [
+          314,
+          99,
+          519,
+          350
+        ],
+        "NP",
+        "Áo khoác đỏ bên trong, đầu ngẩng ra ngoài trang; hai tay và giấy đủ thấy."
+      ],
+      [
+        "A01",
+        66,
+        [
+          99,
+          150,
+          309,
+          291
+        ],
+        [
+          87,
+          138,
+          322,
+          340
+        ],
+        "NN",
+        "Cùng áo khoác đỏ cúi viết, hai tay trên giấy; đối chứng ngẩng."
+      ],
+      [
+        "A02",
+        66,
+        [
+          455,
+          146,
+          614,
+          260
+        ],
+        [
+          443,
+          134,
+          630,
+          297
+        ],
+        "NN",
+        "Áo hồng kính cạnh lối đi viết và chống đầu; tay/bàn rõ, không có mobile rõ."
+      ]
+    ],
+    "rejected_after_crop_qa": [
+      {
+        "proposal": [
+          "A03",
+          63,
+          [
+            0,
+            179,
+            236,
+            360
+          ],
+          [
+            0,
+            167,
+            249,
+            360
+          ],
+          "NN",
+          "Áo xanh trắng bàn trước cầm máy tính thấy phím, nhìn thiết bị trên vùng bài."
+        ],
+        "reason": "Nguồn cắt bàn tay bên trái và thiết bị chưa đủ phân biệt; bỏ thay vì gán calculator chắc chắn."
+      }
+    ]
+  },
+  "G12": {
+    "note": "Có mobile và máy tính cùng bàn, cần giữ đúng ownership. Ưu tiên điện thoại trên bàn khi viết và đối chứng cầm calculator cùng phone vẫn tồn tại; không biến thành phone N vì tay đang cầm calculator. Phần lớn người hàng sau nhỏ/lặp.",
+    "candidates": [
+      [
+        "A01",
+        2,
+        [
+          271,
+          171,
+          470,
+          309
+        ],
+        [
+          258,
+          159,
+          479,
+          354
+        ],
+        "PN",
+        "Áo đen bàn trước viết, mobile màn sáng ngay cạnh tay, calculator riêng trên sách."
+      ],
+      [
+        "A01",
+        53,
+        [
+          291,
+          154,
+          469,
+          317
+        ],
+        [
+          279,
+          143,
+          481,
+          358
+        ],
+        "PN",
+        "Cùng anchor cầm calculator thấy phím nhưng mobile vẫn trên trang; phân biệt hành vi và presence theo contract.",
+        2
+      ],
+      [
+        "A02",
+        7,
+        [
+          440,
+          103,
+          640,
+          306
+        ],
+        [
+          426,
+          91,
+          640,
+          360
+        ],
+        "PP",
+        "Kính bàn trước phải quay sang người bên trái; mobile nằm trên trang của anchor, calculator riêng sát mép."
+      ],
+      [
+        "A02",
+        67,
+        [
+          455,
+          154,
+          640,
+          360
+        ],
+        [
+          441,
+          142,
+          640,
+          360
+        ],
+        "PN",
+        "Cùng chỗ cúi về thiết bị/tờ giấy, mobile trên bàn vẫn thấy; giữ hai bàn tay."
+      ],
+      [
+        "A03",
+        1,
+        [
+          85,
+          177,
+          203,
+          322
+        ],
+        [
+          73,
+          165,
+          219,
+          355
+        ],
+        "PN",
+        "Áo xám bên trái viết, mobile cạnh giấy và calculator thấy phím; không gán thiết bị bàn kế."
+      ]
+    ]
+  },
+  "G13": {
+    "note": "Máy tính cầm tay xuất hiện rất nhiều, không tự gọi mặt lưng thiết bị là phone. Camera cận di chuyển; nhiều frame cắt đỉnh đầu/tay (15/16/18/26/28/32/36/37) nên ưu tiên góc đầy đủ. Giữ khác biệt cầm máy tính/viết/nhìn người khác; không lấy mọi góc camera lặp của cùng thao tác.",
+    "candidates": [
+      [
+        "A01",
+        3,
+        [
+          106,
+          70,
+          340,
+          217
+        ],
+        [
+          95,
+          58,
+          363,
+          290
+        ],
+        "NN",
+        "Áo đỏ kính phía trước viết, máy tính xanh thấy phím trên bàn."
+      ],
+      [
+        "A01",
+        42,
+        [
+          33,
+          33,
+          449,
+          320
+        ],
+        [
+          21,
+          21,
+          465,
+          352
+        ],
+        "UN",
+        "Cùng chỗ áo đỏ kính cầm thiết bị xanh; mặt lưng chưa đủ phân biệt nên phone U, nhìn xuống vùng thao tác."
+      ],
+      [
+        "A02",
+        11,
+        [
+          344,
+          63,
+          579,
+          320
+        ],
+        [
+          326,
+          51,
+          591,
+          356
+        ],
+        "NN",
+        "Áo đỏ tóc buộc trước phải bấm calculator thấy phím trên giấy."
+      ],
+      [
+        "A03",
+        24,
+        [
+          207,
+          32,
+          634,
+          351
+        ],
+        [
+          192,
+          20,
+          640,
+          360
+        ],
+        "NN",
+        "Khẩu trang đen viết, một tay chống cằm và bút rõ; không lấy biến thể sát đầu mép nguồn."
+      ],
+      [
+        "A04",
+        8,
+        [
+          7,
+          5,
+          399,
+          360
+        ],
+        [
+          0,
+          0,
+          416,
+          360
+        ],
+        "NN",
+        "Áo khoác xanh trắng có kẹp tóc cúi viết, calculator thấy phím cạnh tay.",
+        2
+      ],
+      [
+        "A05",
+        23,
+        [
+          0,
+          10,
+          348,
+          360
+        ],
+        [
+          0,
+          0,
+          369,
+          360
+        ],
+        "NN",
+        "Áo đỏ tóc dài bấm calculator trên giấy, bút trong tay; tránh gán calculator là phone."
+      ],
+      [
+        "A06",
+        21,
+        [
+          288,
+          28,
+          512,
+          360
+        ],
+        [
+          271,
+          16,
+          527,
+          360
+        ],
+        "UP",
+        "Người áo khoác xanh phía sau quay sang bạn ngồi trước; tay/thiết bị bị chồng nên phone U."
+      ]
+    ]
+  },
+  "G14": {
+    "note": "Học nhóm với laptop, nhiều mobile rõ cùng calculator. Lấy ownership theo tay/bàn, không gán phone người ngồi sau cho anchor. Các cận cảnh 6/13/15/16/19/22/26/32/34/38/48/52/56/60/61 cắt đầu/tay hoặc bàn, ưu tiên góc rộng hơn đầy đủ. Không gọi laptop là phone, nhìn màn laptop có thể vẫn là vùng học tập.",
+    "candidates": [
+      [
+        "A01",
+        5,
+        [
+          25,
+          171,
+          278,
+          355
+        ],
+        [
+          12,
+          159,
+          289,
+          360
+        ],
+        "PN",
+        "Áo xanh trắng bàn trước trái cầm calculator và viết, mobile riêng đặt sát tay trên giấy."
+      ],
+      [
+        "A02",
+        47,
+        [
+          187,
+          91,
+          385,
+          305
+        ],
+        [
+          173,
+          79,
+          398,
+          347
+        ],
+        "PU",
+        "Áo thể thao cổ xanh trắng, kính, cầm mobile bên laptop; hướng nhìn sát màn hình chưa chốt looking."
+      ],
+      [
+        "A03",
+        5,
+        [
+          385,
+          144,
+          565,
+          306
+        ],
+        [
+          374,
+          132,
+          585,
+          359
+        ],
+        "PN",
+        "Áo trắng bàn trước phải viết, mobile đặt cạnh vở và calculator riêng."
+      ],
+      [
+        "A04",
+        11,
+        [
+          282,
+          35,
+          611,
+          331
+        ],
+        [
+          270,
+          23,
+          628,
+          360
+        ],
+        "PN",
+        "Áo vàng nhạt giữ mobile hồng bằng hai tay phía trước laptop, mắt hướng vào thiết bị."
+      ],
+      [
+        "A05",
+        12,
+        [
+          4,
+          56,
+          299,
+          329
+        ],
+        [
+          0,
+          44,
+          317,
+          360
+        ],
+        "PN",
+        "Áo trắng kính cầm mobile màu vàng khi ghi chép, calculator riêng trên bàn."
+      ],
+      [
+        "A07",
+        18,
+        [
+          47,
+          65,
+          284,
+          331
+        ],
+        [
+          33,
+          53,
+          303,
+          360
+        ],
+        "PN",
+        "Áo trắng không kính bàn trái cầm mobile có cụm camera bằng hai tay, nhìn thiết bị."
+      ],
+      [
+        "A08",
+        25,
+        [
+          287,
+          39,
+          559,
+          337
+        ],
+        [
+          274,
+          27,
+          578,
+          360
+        ],
+        "PN",
+        "Áo trắng kính bàn gần cửa cầm calculator xanh, mobile riêng nằm trên giấy trước ngực."
+      ],
+      [
+        "A09",
+        27,
+        [
+          176,
+          34,
+          575,
+          360
+        ],
+        [
+          163,
+          22,
+          590,
+          360
+        ],
+        "PN",
+        "Áo đen bàn có laptop cầm mobile màu xám; tránh gán chiếc phone trắng của người phía sau."
+      ],
+      [
+        "A10",
+        18,
+        [
+          225,
+          72,
+          431,
+          296
+        ],
+        [
+          211,
+          60,
+          448,
+          341
+        ],
+        "PN",
+        "Áo sọc đen trắng cầm mobile và nhìn xuống, bên cạnh người áo trắng; target ở giữa crop."
+      ]
+    ],
+    "rejected_after_crop_qa": [
+      {
+        "proposal": [
+          "A11",
+          28,
+          [
+            197,
+            31,
+            555,
+            360
+          ],
+          [
+            183,
+            19,
+            573,
+            360
+          ],
+          "PN",
+          "Áo trắng tóc buộc gần tường viết khi cầm mobile, calculator hồng tách biệt trên bàn."
+        ],
+        "reason": "Thiết bị và bàn tay sát/cắt mép dưới của nguồn; không có ROI sửa được phần mất."
+      },
+      {
+        "proposal": [
+          "A06",
+          14,
+          [
+            26,
+            44,
+            323,
+            360
+          ],
+          [
+            14,
+            32,
+            482,
+            360
+          ],
+          "NN",
+          "Áo thể thao tóc buộc nhìn laptop trong vùng làm việc, calculator trước tay; phone phía sau thuộc người khác."
+        ],
+        "reason": "Vòng QA cuối: một bàn tay nằm ngoài mép dưới source; không đạt yêu cầu giữ hai tay, không gán N."
+      }
+    ]
+  },
+  "G15": {
+    "note": "Nguồn 534 × 360, nén/mờ và người hàng sau rất nhỏ. Chỉ đề xuất cặp tư thế rõ của bàn đầu; không suy absence phone. F44 trở đi blur tăng; QA native/224 quyết định có giữ cặp này không, không upscale để tạo chi tiết.",
+    "candidates": [],
+    "rejected_after_crop_qa": [
+      {
+        "proposal": [
+          "A01",
+          1,
+          [
+            295,
+            239,
+            375,
+            324
+          ],
+          [
+            281,
+            227,
+            410,
+            353
+          ],
+          "UN",
+          "Bàn đầu áo xanh trắng cúi viết; hành vi đầu/tay đủ nhận ra nhưng phone không rõ."
+        ],
+        "reason": "Crop native quá mờ để đạt yêu cầu rõ người/hành vi; không dùng upscale thay evidence."
+      },
+      {
+        "proposal": [
+          "A01",
+          71,
+          [
+            291,
+            228,
+            359,
+            309
+          ],
+          [
+            277,
+            216,
+            401,
+            346
+          ],
+          "UP",
+          "Cùng chỗ quay đầu sang trái ra khỏi trang; native hạn chế, giữ cờ review chất lượng."
+        ],
+        "reason": "Crop native blur mạnh, không đủ rõ hướng nhìn/tay; loại dù khác tư thế."
+      }
+    ]
+  },
+  "G16": {
+    "note": "Camera trước lớp, áo trắng dài tay cùng bàn áo cổ sọc. Mobile đặt trên giấy và calculator nằm riêng có evidence rõ hơn mặt lưng vật cầm. Chọn viết/quay ngang thay đổi; không giữ F1 bị mất tay, F79/80/82 gần lặp cầm thiết bị.",
+    "candidates": [
+      [
+        "A01",
+        27,
+        [
+          260,
+          72,
+          413,
+          350
+        ],
+        [
+          248,
+          60,
+          431,
+          360
+        ],
+        "PN",
+        "Áo trắng dài tay viết, mobile màn sáng và calculator khác cùng trên bàn."
+      ],
+      [
+        "A01",
+        58,
+        [
+          303,
+          37,
+          445,
+          360
+        ],
+        [
+          290,
+          25,
+          459,
+          360
+        ],
+        "PP",
+        "Cùng chỗ quay hẳn sang trái/phía sau, mobile trên bàn vẫn có context."
+      ],
+      [
+        "A02",
+        27,
+        [
+          113,
+          85,
+          271,
+          360
+        ],
+        [
+          101,
+          73,
+          285,
+          360
+        ],
+        "UP",
+        "Áo cổ sọc cạnh áo trắng quay sang trái, một tay lên mặt; thiết bị nhỏ chưa đủ phân biệt."
+      ],
+      [
+        "A02",
+        43,
+        [
+          124,
+          109,
+          294,
+          360
+        ],
+        [
+          111,
+          97,
+          306,
+          360
+        ],
+        "UN",
+        "Cùng chỗ cúi viết trên giấy, không lấy absence annotation làm phone N."
+      ]
+    ]
+  },
+  "G17": {
+    "note": "Camera cao bốn frame; người hàng sau quá nhỏ, frame25 có người đứng che và nhiều chuyển động. Chọn một chỗ đầu bàn trái có đọc/viết và quay ngang rõ, phone U vì vật nhỏ trên bàn.",
+    "candidates": [
+      [
+        "A01",
+        12,
+        [
+          60,
+          195,
+          133,
+          284
+        ],
+        [
+          49,
+          183,
+          153,
+          324
+        ],
+        "UP",
+        "Cùng chỗ quay rõ sang người ngồi cạnh; không gán vật trên bàn là mobile khi thiếu chi tiết."
+      ]
+    ],
+    "rejected_after_crop_qa": [
+      {
+        "proposal": [
+          "A01",
+          2,
+          [
+            65,
+            202,
+            132,
+            286
+          ],
+          [
+            54,
+            190,
+            151,
+            326
+          ],
+          "UN",
+          "Bàn gần camera bên trái cúi vào giấy, giữ tay và vùng bàn."
+        ],
+        "reason": "Góc đầu gần trùng F12 và không đủ evidence looking N sau crop QA; chỉ giữ F12."
+      }
+    ]
+  },
+  "G18": {
+    "note": "Phòng tường vàng bong, cửa xanh; có khả năng cùng cảnh G20. Hàng đầu có phone và calculator cùng bàn. Giữ thay đổi cúi nhìn/quay ngang; bỏ người hàng sau nhỏ, bị che và người sát mép trái.",
+    "candidates": [
+      [
+        "A01",
+        1,
+        [
+          453,
+          83,
+          640,
+          360
+        ],
+        [
+          437,
+          72,
+          640,
+          360
+        ],
+        "PN",
+        "Áo khoác đen bên phải cầm điện thoại rõ cụm camera, cúi nhìn thiết bị."
+      ],
+      [
+        "A01",
+        15,
+        [
+          453,
+          70,
+          640,
+          360
+        ],
+        [
+          438,
+          59,
+          640,
+          360
+        ],
+        "PP",
+        "Cùng vị trí chống cằm nhìn ra trước; điện thoại vẫn hiện trên bàn, cạnh máy tính."
+      ],
+      [
+        "A02",
+        7,
+        [
+          138,
+          88,
+          270,
+          360
+        ],
+        [
+          127,
+          77,
+          283,
+          360
+        ],
+        "PN",
+        "Áo trắng giữa lớp cầm điện thoại và bút; hướng nhìn xuống bàn."
+      ],
+      [
+        "A02",
+        10,
+        [
+          136,
+          63,
+          261,
+          360
+        ],
+        [
+          124,
+          52,
+          276,
+          360
+        ],
+        "PP",
+        "Cùng chỗ áo trắng quay rõ sang trái, điện thoại trên tay; giữ bàn và phần thân nhìn thấy."
+      ],
+      [
+        "A03",
+        1,
+        [
+          256,
+          76,
+          389,
+          360
+        ],
+        [
+          244,
+          65,
+          401,
+          360
+        ],
+        "PN",
+        "Áo thể thao bên phải áo trắng: điện thoại cầm ngang trên vở, nhìn xuống."
+      ],
+      [
+        "A03",
+        10,
+        [
+          234,
+          76,
+          381,
+          360
+        ],
+        [
+          224,
+          65,
+          395,
+          360
+        ],
+        "PP",
+        "Cùng chỗ quay đầu sang trái, điện thoại vẫn trên tay; khác tư thế cúi làm việc."
+      ]
+    ]
+  },
+  "G19": {
+    "note": "Góc camera cao giống nhóm G01/G08/G10; chưa xác nhận phòng/session. Chỉ chọn người hàng trước đủ tư thế và bàn. Nhiều frame lặp chống cằm; hàng sau quá nhỏ để phân loại vật.",
+    "candidates": [
+      [
+        "A01",
+        39,
+        [
+          147,
+          255,
+          219,
+          332
+        ],
+        [
+          137,
+          245,
+          251,
+          360
+        ],
+        "UN",
+        "Áo trắng bàn trước bên trái cúi viết, giữ hai tay và vở; vật nhỏ nên phone U."
+      ],
+      [
+        "A01",
+        52,
+        [
+          143,
+          253,
+          204,
+          329
+        ],
+        [
+          132,
+          243,
+          246,
+          360
+        ],
+        "UP",
+        "Cùng chỗ áo trắng quay đầu rõ sang trái, khác tư thế viết."
+      ],
+      [
+        "A02",
+        56,
+        [
+          288,
+          163,
+          380,
+          312
+        ],
+        [
+          277,
+          152,
+          405,
+          330
+        ],
+        "UP",
+        "Áo xanh bàn giữa hàng trước ngẩng đầu nhìn ra ngoài vở; giữ hai tay và bàn."
+      ]
+    ]
+  },
+  "G20": {
+    "note": "Cảnh tường vàng/cửa xanh tương đồng G18. Điện thoại phổ biến, chọn hành vi chuyển hướng và một người phía sau khi camera đã tiến gần. Không lấy mọi frame lặp nhìn phone.",
+    "candidates": [
+      [
+        "A01",
+        8,
+        [
+          384,
+          160,
+          632,
+          352
+        ],
+        [
+          371,
+          148,
+          640,
+          360
+        ],
+        "PN",
+        "Áo xanh lá hàng đầu cúi nhìn điện thoại cầm hai tay.",
+        2
+      ],
+      [
+        "A01",
+        7,
+        [
+          382,
+          160,
+          632,
+          349
+        ],
+        [
+          370,
+          148,
+          640,
+          360
+        ],
+        "PP",
+        "Cùng chỗ áo xanh lá quay rõ về phía sau trong khi vẫn giữ điện thoại.",
+        2
+      ],
+      [
+        "A02",
+        1,
+        [
+          130,
+          176,
+          248,
+          314
+        ],
+        [
+          117,
+          163,
+          263,
+          348
+        ],
+        "PP",
+        "Áo trắng giữa bàn trước nhìn sang trái trong khi cầm điện thoại; máy tính nằm riêng."
+      ],
+      [
+        "A02",
+        20,
+        [
+          123,
+          185,
+          258,
+          318
+        ],
+        [
+          111,
+          173,
+          272,
+          347
+        ],
+        "PN",
+        "Cùng chỗ cúi nhìn điện thoại trên tay, đối chiếu với frame quay ngang."
+      ],
+      [
+        "A03",
+        73,
+        [
+          421,
+          185,
+          582,
+          298
+        ],
+        [
+          408,
+          174,
+          592,
+          326
+        ],
+        "PN",
+        "Áo sáng bàn phải phía sau: điện thoại có cụm camera rõ, hai tay và hướng nhìn đều thấy."
+      ]
+    ]
+  },
+  "G21": {
+    "note": "Hoạt động thủ công nhóm; nhìn bạn không mang ý nghĩa gian lận. Giữ thao tác với thước/bút/dao và góc nhìn ngang rõ. Nhiều cận cảnh mất tóc hoặc đầu ngón tay ngay từ source, không tạo lại phần thiếu. F14/F45 không chọn vì source cắt tay/đầu.",
+    "candidates": [
+      [
+        "A01",
+        7,
+        [
+          124,
+          50,
+          465,
+          308
+        ],
+        [
+          113,
+          39,
+          480,
+          360
+        ],
+        "UP",
+        "Bạn đeo kính giữa ảnh quay sang bạn bên trái; tay trên bìa và vật dạng ví/thiết bị chưa đủ rõ nên phone U."
+      ],
+      [
+        "A02",
+        22,
+        [
+          260,
+          26,
+          604,
+          360
+        ],
+        [
+          249,
+          15,
+          616,
+          360
+        ],
+        "NN",
+        "Bạn buộc tóc dùng bút và thước xanh trên bìa; giữ toàn bộ hai tay và vật thao tác."
+      ],
+      [
+        "A03",
+        23,
+        [
+          190,
+          18,
+          602,
+          360
+        ],
+        [
+          177,
+          7,
+          619,
+          360
+        ],
+        "NN",
+        "Bạn bên phải rạch/kẻ bìa bằng dụng cụ nhỏ; hai tay rõ, gaze vào bìa, không nhầm dụng cụ thành phone."
+      ]
+    ]
+  },
+  "G22": {
+    "note": "Lớp có nhiều máy tính cầm tay; không gọi mặt lưng thiết bị là phone khi thiếu dấu hiệu. Các ảnh gần bị cắt tóc hoặc tay ở mép source không chọn. Giữ đối chứng làm bài và quay ngang; một số vùng tay bị che nên giữ U.",
+    "candidates": [
+      [
+        "A01",
+        13,
+        [
+          213,
+          53,
+          446,
+          293
+        ],
+        [
+          133,
+          42,
+          457,
+          332
+        ],
+        "UN",
+        "Bạn khẩu trang trắng cúi viết, calculator trên vở bên trái; một tay bị khuất nên phone U.",
+        2
+      ],
+      [
+        "A02",
+        18,
+        [
+          178,
+          51,
+          389,
+          265
+        ],
+        [
+          164,
+          39,
+          402,
+          337
+        ],
+        "NP",
+        "Bạn giữa ảnh chống đầu bằng tay trái, tay phải giữ bút, quay hẳn sang trái; bàn có máy tính cầm tay."
+      ]
+    ]
+  },
+  "G23": {
+    "note": "Đồng phục/cửa sổ và kiểu lớp tương đồng G22; cần mapping nguồn trước enrollment. Đa số máy tính cầm tay, mặt lưng đơn sắc không đủ gán phone. Bỏ các cận cảnh F25/F29/F30 cắt tóc/tay; không lấy lặp từng góc lia camera.",
+    "candidates": [
+      [
+        "A01",
+        5,
+        [
+          227,
+          74,
+          492,
+          306
+        ],
+        [
+          214,
+          62,
+          504,
+          360
+        ],
+        "NN",
+        "Bạn giữa ảnh cầm bút viết; hai tay và máy tính trên tờ bài rõ."
+      ],
+      [
+        "A02",
+        6,
+        [
+          329,
+          14,
+          633,
+          360
+        ],
+        [
+          313,
+          3,
+          640,
+          360
+        ],
+        "NN",
+        "Bạn tóc ngắn bên phải bấm máy tính có phím rõ, giữ bút và vùng vở."
+      ],
+      [
+        "A03",
+        9,
+        [
+          78,
+          53,
+          379,
+          334
+        ],
+        [
+          65,
+          41,
+          482,
+          360
+        ],
+        "NN",
+        "Bạn hàng đầu ghi bài, tay còn lại giữ sách mở; giữ vùng thao tác để không nhầm nhìn sách với nhìn ngoài."
+      ],
+      [
+        "A04",
+        14,
+        [
+          150,
+          118,
+          423,
+          360
+        ],
+        [
+          136,
+          106,
+          436,
+          360
+        ],
+        "UN",
+        "Bạn giữa cầm thiết bị bằng hai tay, nhìn xuống; chỉ thấy cạnh/mặt lưng nên chưa đủ phân biệt phone và calculator."
+      ]
+    ]
+  },
+  "G24": {
+    "note": "Lớp tường vàng, bàn gỗ; nhiều góc và vị trí tương đồng các video lớp trước, chưa xác nhận room. Chọn cặp viết/quay ngang ở cùng chỗ ngồi. Người áo trắng sát phải thường mất tay từ source; bỏ. Các frame che mặt/giấy che đầu không cải thiện evidence.",
+    "candidates": [
+      [
+        "A01",
+        10,
+        [
+          101,
+          159,
+          274,
+          360
+        ],
+        [
+          63,
+          148,
+          288,
+          360
+        ],
+        "NN",
+        "Bạn đeo bờm ở bàn trước viết, tay kia chạm cằm; máy tính nằm riêng trên bàn."
+      ],
+      [
+        "A01",
+        11,
+        [
+          97,
+          148,
+          283,
+          360
+        ],
+        [
+          61,
+          136,
+          296,
+          360
+        ],
+        "NP",
+        "Cùng chỗ quay rõ sang trái, hai tay và calculator còn trong crop; không lấy thêm các lần quay tương tự."
+      ]
+    ]
+  },
+  "G25": {
+    "note": "Người áo đen gần camera có nhiều chuyển động nhưng thường bị source cắt bàn tay/giấy, không ưu tiên. Giữ bạn áo thể thao hàng trước đọc và quay ngang; hàng sau thiết bị nhỏ/che nên không gán phone chắc chắn.",
+    "candidates": [
+      [
+        "A01",
+        2,
+        [
+          123,
+          148,
+          297,
+          360
+        ],
+        [
+          74,
+          136,
+          308,
+          360
+        ],
+        "NN",
+        "Áo thể thao bàn trái đọc bài, hai tay trên giấy và calculator ở mép bàn rõ."
+      ],
+      [
+        "A01",
+        4,
+        [
+          109,
+          120,
+          280,
+          360
+        ],
+        [
+          69,
+          108,
+          296,
+          360
+        ],
+        "NP",
+        "Cùng vị trí nâng tờ giấy và quay rõ sang trái; giữ toàn bộ bàn tay và giấy."
+      ]
+    ]
+  },
+  "G26": {
+    "note": "Lớp bàn đỏ, chủ yếu máy tính cầm tay. Nhiều close-up cắt tóc/tay từ source: F10/F11/F14/F17/F19/F20/F22/F23/F25/F31/F37/F38/F40/F42/F44/F47 không lấy anchor bị cắt. Mặt lưng thiết bị chưa rõ không tự chuyển thành phone. Giữ đối chứng calculator và viết; không cần hàng chục góc của một hành vi.",
+    "candidates": [
+      [
+        "A01",
+        3,
+        [
+          220,
+          74,
+          421,
+          253
+        ],
+        [
+          207,
+          62,
+          434,
+          294
+        ],
+        "NN",
+        "Bạn giữa phía phải chạm tóc bằng một tay, tay kia cầm calculator thấy bàn phím, mắt nhìn bài/thiết bị."
+      ],
+      [
+        "A02",
+        7,
+        [
+          85,
+          2,
+          448,
+          343
+        ],
+        [
+          73,
+          0,
+          459,
+          360
+        ],
+        "UN",
+        "Bạn kính trong chống cằm và viết; vật dưới khuỷu tay bị che nên phone U, không ép negative."
+      ],
+      [
+        "A03",
+        15,
+        [
+          180,
+          28,
+          414,
+          306
+        ],
+        [
+          150,
+          15,
+          431,
+          346
+        ],
+        "NN",
+        "Bạn giữa chống cằm, tay kia cạnh calculator trên trang bài; giữ cả đầu, hai tay và vùng nhìn."
+      ]
+    ]
+  },
+  "G27": {
+    "note": "12 frame dọc 360 x 640; lớp hoạt động nhóm/thuyết trình, khác bối cảnh thi. Không coi nhìn người trình bày là gian lận. Không ép crop vuông; giữ nguyên geometry rồi letterbox. F22/F31 điện thoại ở gần bàn nhưng attribution chưa chắc, để U. Các frame xa/hội nhóm đông không thêm anchor tương đương.",
+    "candidates": [
+      [
+        "A01",
+        16,
+        [
+          16,
+          337,
+          187,
+          534
+        ],
+        [
+          5,
+          325,
+          202,
+          567
+        ],
+        "UP",
+        "Bạn ngồi trước bên trái khoanh tay nhìn ra trước; một bàn tay khuất dưới cánh tay còn lại nên phone U.",
+        2
+      ],
+      [
+        "A02",
+        22,
+        [
+          119,
+          275,
+          308,
+          640
+        ],
+        [
+          107,
+          263,
+          322,
+          640
+        ],
+        "UP",
+        "Bạn áo gile kính ngồi quay sang trái; giữ tay, thân và phần chân nhìn thấy. Thiết bị trên bàn phía sau không đủ gán cho anchor."
+      ],
+      [
+        "A03",
+        31,
+        [
+          151,
+          134,
+          312,
+          442
+        ],
+        [
+          53,
+          121,
+          325,
+          497
+        ],
+        "UP",
+        "Bạn áo gile đứng nhìn ra trước; hai tay nắm trước thân. Có phone trên bàn gần đó nhưng chưa chắc thuộc vùng của anchor."
+      ],
+      [
+        "A04",
+        43,
+        [
+          122,
+          310,
+          360,
+          640
+        ],
+        [
+          110,
+          297,
+          360,
+          640
+        ],
+        "NN",
+        "Bạn áo trắng viết bằng bút đỏ trên giấy lớn, tay còn lại giữ giấy; giữ toàn bộ hai bàn tay."
+      ]
+    ]
+  }
+}

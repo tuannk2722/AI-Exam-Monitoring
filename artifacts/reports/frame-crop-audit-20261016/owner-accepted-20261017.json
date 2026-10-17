@@ -1,0 +1,3287 @@
+{
+  "date": "2026-10-17",
+  "owner_message": "Tôi đã review và đưa ra quyết định cho các crop mới thay đổi, những crop mà tôi không nhắc đến bên dưới thì approved. G23-A03-F00009: U/N. G27-A02-F00022, G27-A03-F00031: P/P. Hãy chốt 98 crop mới này.",
+  "parent_decisions_sha256": "a3de4a4c7666372ade1dc50f63908b834b10e7cd8ea050d38e00ef97f0bcca91",
+  "explicit_label_corrections": {
+    "G23-A03-F00009": [
+      "U",
+      "N"
+    ],
+    "G27-A02-F00022": [
+      "P",
+      "P"
+    ],
+    "G27-A03-F00031": [
+      "P",
+      "P"
+    ]
+  },
+  "scope": "Accept 98 crop geometry/labels/membership; exclude two; no enrollment, split or training. G27 attribution accepted for these two crops; no blanket nearest-phone assignment.",
+  "records": [
+    {
+      "candidate_id": "G01-A01-F00001-R02",
+      "part": 1,
+      "group": "G01",
+      "anchor": "A01",
+      "original_states": [
+        "U",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Tay chống cằm và tay còn lại ở vùng viết; không thấy vật cầm mơ hồ. Không tự động U chỉ vì bàn tay bị đầu che một phần.",
+      "v10_comparators": [
+        "CB-0055-R1",
+        "CB-0742-R1"
+      ],
+      "original_crop_sha256": "39e086c7e02002f02d83607617dde846d44a135d4ddfa9c7774ef27fe7cb59a3",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G01/frame_00001.jpg",
+      "source_sha256": "d1c9034f00c861af3ef5f483b9b411e119cafe9ad405b9dd641888f4d367d331",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_01/G01/A01/G01-A01-F00001-R02.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G01-A01-F00001-R02/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G01-A01-F00001-R02",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_01/G01/A01/G01-A01-F00001-R02.png",
+      "crop_sha256": "39e086c7e02002f02d83607617dde846d44a135d4ddfa9c7774ef27fe7cb59a3"
+    },
+    {
+      "candidate_id": "G01-A01-F00009-R02",
+      "part": 1,
+      "group": "G01",
+      "anchor": "A01",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "review_states": [
+        "U",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "bb83a36b9fc50418d2ac3e55bc3f3952dfb16a7c6f817ca43b31023ba3274149",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G01/frame_00009.jpg",
+      "source_sha256": "20acd311f10deb4e44bee9b01af577e32be5e74a1ee028df54f6192a60acefba",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_01/G01/A01/G01-A01-F00009-R02.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G01-A01-F00009-R02/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G01-A01-F00009-R02",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_01/G01/A01/G01-A01-F00009-R02.png",
+      "crop_sha256": "bb83a36b9fc50418d2ac3e55bc3f3952dfb16a7c6f817ca43b31023ba3274149"
+    },
+    {
+      "candidate_id": "G01-A02-F00001-R02",
+      "part": 1,
+      "group": "G01",
+      "anchor": "A02",
+      "original_states": [
+        "U",
+        "N"
+      ],
+      "review_states": [
+        "U",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "9c1b0be55af24c8e0fbddbcf828e236f1cad1d9236c727a309f361f20676488e",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G01/frame_00001.jpg",
+      "source_sha256": "d1c9034f00c861af3ef5f483b9b411e119cafe9ad405b9dd641888f4d367d331",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_01/G01/A02/G01-A02-F00001-R02.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G01-A02-F00001-R02/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G01-A02-F00001-R02",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_01/G01/A02/G01-A02-F00001-R02.png",
+      "crop_sha256": "9c1b0be55af24c8e0fbddbcf828e236f1cad1d9236c727a309f361f20676488e"
+    },
+    {
+      "candidate_id": "G01-A02-F00018-R02",
+      "part": 1,
+      "group": "G01",
+      "anchor": "A02",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "review_states": [
+        "U",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "7263c7e0e961efe977ab84195da23dbc39d331a8b77be4d09ebd4e987a1221b9",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G01/frame_00018.jpg",
+      "source_sha256": "8c57ccd2110f3aad853a066af9df8f1d1e252ac1228719bea3813009fc2dadca",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_01/G01/A02/G01-A02-F00018-R02.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G01-A02-F00018-R02/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G01-A02-F00018-R02",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_01/G01/A02/G01-A02-F00018-R02.png",
+      "crop_sha256": "7263c7e0e961efe977ab84195da23dbc39d331a8b77be4d09ebd4e987a1221b9"
+    },
+    {
+      "candidate_id": "G02-A01-F00028",
+      "part": 1,
+      "group": "G02",
+      "anchor": "A01",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "db02c7dcbeee97d80c5cf4094de2e4f50341929a893727b84dbd8e20263661fa",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G02/frame_00028.jpg",
+      "source_sha256": "c083cf6ba2ab36ca87303d678694fd3016edbcaeca9097dba7e15b5a67d90809",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_01/G02/A01/G02-A01-F00028.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G02-A01-F00028/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G02-A01-F00028",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_01/G02/A01/G02-A01-F00028.png",
+      "crop_sha256": "db02c7dcbeee97d80c5cf4094de2e4f50341929a893727b84dbd8e20263661fa"
+    },
+    {
+      "candidate_id": "G02-A01-F00069",
+      "part": 1,
+      "group": "G02",
+      "anchor": "A01",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "fb0b8bbd868d01a1bd67c9cf904a442caa3dfa4defd1586efd37697756061967",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G02/frame_00069.jpg",
+      "source_sha256": "cd1b5c1d90f6ebbbda48440dec74bdfde9bb4d0153c4ceeda3e78300c6b5bc4e",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_01/G02/A01/G02-A01-F00069.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G02-A01-F00069/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G02-A01-F00069",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_01/G02/A01/G02-A01-F00069.png",
+      "crop_sha256": "fb0b8bbd868d01a1bd67c9cf904a442caa3dfa4defd1586efd37697756061967"
+    },
+    {
+      "candidate_id": "G02-A02-F00009-R02",
+      "part": 1,
+      "group": "G02",
+      "anchor": "A02",
+      "original_states": [
+        "U",
+        "N"
+      ],
+      "review_states": [
+        "U",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "1e09a0334019c7d16a5eda8afb8984d7754ad6b540f7863933bd1805a4ecf20e",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G02/frame_00009.jpg",
+      "source_sha256": "c78f295ef69e09bab95abc76419854b9063d8fb04974a4a5d630f00b2400bd37",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_01/G02/A02/G02-A02-F00009-R02.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G02-A02-F00009-R02/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G02-A02-F00009-R02",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_01/G02/A02/G02-A02-F00009-R02.png",
+      "crop_sha256": "1e09a0334019c7d16a5eda8afb8984d7754ad6b540f7863933bd1805a4ecf20e"
+    },
+    {
+      "candidate_id": "G02-A02-F00015",
+      "part": 1,
+      "group": "G02",
+      "anchor": "A02",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "review_states": [
+        "N",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Vật trên trang có bố cục màn hình nhỏ và vùng phím; tay còn lại không có vật mơ hồ. Đề xuất calculator → phone N; hướng đầu lệch khỏi vùng bài giữ P.",
+      "v10_comparators": [
+        "CB-0604-R1",
+        "CB-0026"
+      ],
+      "original_crop_sha256": "19326fdd17437d6f995f0fc969d2a679cd05c8b9d203f8e0dc5ebbd044881192",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G02/frame_00015.jpg",
+      "source_sha256": "b7c55ba2fcc5217a8304fd672a03a90e55128c6f8e57cac7400455f991c85fa3",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_01/G02/A02/G02-A02-F00015.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G02-A02-F00015/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G02-A02-F00015",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_01/G02/A02/G02-A02-F00015.png",
+      "crop_sha256": "19326fdd17437d6f995f0fc969d2a679cd05c8b9d203f8e0dc5ebbd044881192"
+    },
+    {
+      "candidate_id": "G03-A01-F00007",
+      "part": 1,
+      "group": "G03",
+      "anchor": "A01",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "review_states": [
+        "N",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "7bbfef8984d7d03c5c52e558a701c7760f09752a62ade5a8d35c93dc91bbdf61",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G03/frame_00007.jpg",
+      "source_sha256": "313dcac0ed7602212ea02cca02827e60d17e4c901cee89f130107a07c79a4bcc",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_01/G03/A01/G03-A01-F00007.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G03-A01-F00007/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G03-A01-F00007",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_01/G03/A01/G03-A01-F00007.png",
+      "crop_sha256": "7bbfef8984d7d03c5c52e558a701c7760f09752a62ade5a8d35c93dc91bbdf61"
+    },
+    {
+      "candidate_id": "G03-A02-F00018",
+      "part": 1,
+      "group": "G03",
+      "anchor": "A02",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "review_states": [
+        "N",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Vật cầm có nếp gấp và mép bao mềm, không chỉ là một mặt lưng thiết bị hình chữ nhật. Giữ N/P từ chính crop; không dùng tên hoạt động ở frame khác để suy ra vật.",
+      "v10_comparators": [
+        "NC-009"
+      ],
+      "original_crop_sha256": "198e221d896f2d97ab30cdeeed61cc43febbbba76d045df507b4e36d53890755",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G03/frame_00018.jpg",
+      "source_sha256": "7bdbaf69f3fb8e41a251df98f3eee1dbd3bfcd0f562a6f5ada5bc63af412d06c",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_01/G03/A02/G03-A02-F00018.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G03-A02-F00018/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G03-A02-F00018",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_01/G03/A02/G03-A02-F00018.png",
+      "crop_sha256": "198e221d896f2d97ab30cdeeed61cc43febbbba76d045df507b4e36d53890755"
+    },
+    {
+      "candidate_id": "G04-A01-F00029",
+      "part": 1,
+      "group": "G04",
+      "anchor": "A01",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "9e2135c37a8286582a9978d11735f5d139ca67dae676861d1287d3ff71ac2dee",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G04/frame_00029.jpg",
+      "source_sha256": "903037f7d3eadae4151dd8bd7534983ca6bfb684718e726687761f5b069c355b",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_01/G04/A01/G04-A01-F00029.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G04-A01-F00029/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G04-A01-F00029",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_01/G04/A01/G04-A01-F00029.png",
+      "crop_sha256": "9e2135c37a8286582a9978d11735f5d139ca67dae676861d1287d3ff71ac2dee"
+    },
+    {
+      "candidate_id": "G04-A02-F00014-R03",
+      "part": 1,
+      "group": "G04",
+      "anchor": "A02",
+      "original_states": [
+        "U",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Cánh tay gập/khoanh trên bàn, phần bị che nằm trong tư thế tay rõ; không có vật mơ hồ. Đủ evidence còn lại để N theo hướng owner đã duyệt cho occlusion, không phải mọi tay khuất đều N.",
+      "v10_comparators": [
+        "NB-0013",
+        "NB-0015"
+      ],
+      "original_crop_sha256": "9d9c8aa31284d3f2c5e45b94487c2666d77a7a5b7ecef843ebbde04b39a6b10b",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G04/frame_00014.jpg",
+      "source_sha256": "f9436b18f019b447b55d333e7049ab4c8a06061991c0f8f9c706c1fe190bb486",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_01/G04/A02/G04-A02-F00014-R03.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G04-A02-F00014-R03/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G04-A02-F00014-R03",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_01/G04/A02/G04-A02-F00014-R03.png",
+      "crop_sha256": "9d9c8aa31284d3f2c5e45b94487c2666d77a7a5b7ecef843ebbde04b39a6b10b"
+    },
+    {
+      "candidate_id": "G04-A02-F00088-R02",
+      "part": 1,
+      "group": "G04",
+      "anchor": "A02",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "review_states": [
+        "U",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "4e6c1bd780aea4760eab2d3d9988b3f9503ec5c0d6a574bbc35080b985110567",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G04/frame_00088.jpg",
+      "source_sha256": "68c490e87434115655d19df102b5b2d23a7e3bb90db5f8d4793796a653fc1acd",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_01/G04/A02/G04-A02-F00088-R02.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G04-A02-F00088-R02/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G04-A02-F00088-R02",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_01/G04/A02/G04-A02-F00088-R02.png",
+      "crop_sha256": "4e6c1bd780aea4760eab2d3d9988b3f9503ec5c0d6a574bbc35080b985110567"
+    },
+    {
+      "candidate_id": "G04-A03-F00010",
+      "part": 1,
+      "group": "G04",
+      "anchor": "A03",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "2d65a527e795b967a8949742a8410dbd5260adf37d967bc14613e46cee7f6486",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G04/frame_00010.jpg",
+      "source_sha256": "a42d0a0b4262c6e5573b5dd2bbff2b4dfc6f77c805a1c6fe79da0aaa3ae96a90",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_01/G04/A03/G04-A03-F00010.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G04-A03-F00010/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G04-A03-F00010",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_01/G04/A03/G04-A03-F00010.png",
+      "crop_sha256": "2d65a527e795b967a8949742a8410dbd5260adf37d967bc14613e46cee7f6486"
+    },
+    {
+      "candidate_id": "G04-A03-F00074-R02",
+      "part": 1,
+      "group": "G04",
+      "anchor": "A03",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "U",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Theo owner: chỉ thấy mặt lưng/cạnh vật đang cầm; không truyền nhận diện calculator từ frame khác.",
+      "v10_comparators": [
+        "NC-003",
+        "NC-012"
+      ],
+      "original_crop_sha256": "dc4b0a758df041a738ca24dab0f0bb2dc8e99cd2daf164f5412ebf2f49741621",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G04/frame_00074.jpg",
+      "source_sha256": "64b9df4985fddd424ff926dd92702451beb781d70e8fc6d4addade0a7f81089b",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_01/G04/A03/G04-A03-F00074-R02.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G04-A03-F00074-R02/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G04-A03-F00074-R02",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_01/G04/A03/G04-A03-F00074-R02.png",
+      "crop_sha256": "dc4b0a758df041a738ca24dab0f0bb2dc8e99cd2daf164f5412ebf2f49741621"
+    },
+    {
+      "candidate_id": "G04-A04-F00018-R02",
+      "part": 1,
+      "group": "G04",
+      "anchor": "A04",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "1d725e41bae12079774af659ae126c2cdc5427bcf9424616417ccd09b755c7ff",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G04/frame_00018.jpg",
+      "source_sha256": "44798360ff105da3d3ebcbcb5a8536ff89c542c206edb12ba1dffbe3b5c38f35",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_01/G04/A04/G04-A04-F00018-R02.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G04-A04-F00018-R02/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G04-A04-F00018-R02",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_01/G04/A04/G04-A04-F00018-R02.png",
+      "crop_sha256": "1d725e41bae12079774af659ae126c2cdc5427bcf9424616417ccd09b755c7ff"
+    },
+    {
+      "candidate_id": "G04-A04-F00062-R02",
+      "part": 1,
+      "group": "G04",
+      "anchor": "A04",
+      "original_states": [
+        "N",
+        "U"
+      ],
+      "review_states": [
+        "N",
+        "U"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "5017e60adc983f5d3d8e002f4281612ac2276ed2daa4e0bd46ae5e01a4c8cb0d",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G04/frame_00062.jpg",
+      "source_sha256": "4d7ed586881d93e54b2bf315e6fdf8318713e176afef42e326808e414f339b24",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_01/G04/A04/G04-A04-F00062-R02.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G04-A04-F00062-R02/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G04-A04-F00062-R02",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_01/G04/A04/G04-A04-F00062-R02.png",
+      "crop_sha256": "5017e60adc983f5d3d8e002f4281612ac2276ed2daa4e0bd46ae5e01a4c8cb0d"
+    },
+    {
+      "candidate_id": "G04-A05-F00039",
+      "part": 1,
+      "group": "G04",
+      "anchor": "A05",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "38f2f6cf057027b76e53192e7231c01625f778621b8de0f8a8c808b0e6e02fdc",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G04/frame_00039.jpg",
+      "source_sha256": "6abe388812cdfeeba0d641d2b723b85de2877c6905094af42419564b9a784b3b",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_01/G04/A05/G04-A05-F00039.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G04-A05-F00039/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G04-A05-F00039",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_01/G04/A05/G04-A05-F00039.png",
+      "crop_sha256": "38f2f6cf057027b76e53192e7231c01625f778621b8de0f8a8c808b0e6e02fdc"
+    },
+    {
+      "candidate_id": "G05-A01-F00039",
+      "part": 1,
+      "group": "G05",
+      "anchor": "A01",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "review_states": [
+        "P",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Mặt lưng có các vòng ống kính tách biệt trong cụm camera và vòng trên ốp; đặc điểm nhận diện mạnh hơn một chấm tối hoặc cạnh đen. Giữ phone P, nhìn vào vùng thao tác N.",
+      "v10_comparators": [
+        "CB-0024-R1"
+      ],
+      "original_crop_sha256": "4b6e869ce71bd81529b01ed5e55602b410745abdd6ceff78c37ab695cfb0237b",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G05/frame_00039.jpg",
+      "source_sha256": "724cc308dafd7ab047abe1b78dd8a23cd738e98a25c0ed8e4d62188cf2c6363f",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_01/G05/A01/G05-A01-F00039.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G05-A01-F00039/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G05-A01-F00039",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_01/G05/A01/G05-A01-F00039.png",
+      "crop_sha256": "4b6e869ce71bd81529b01ed5e55602b410745abdd6ceff78c37ab695cfb0237b"
+    },
+    {
+      "candidate_id": "G05-A01-F00065-R02",
+      "part": 1,
+      "group": "G05",
+      "anchor": "A01",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "review_states": [
+        "U",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "c9cd81c6977761381c05b2ae6f0b38be22b891ed750a80b7d5688f297ff99fa7",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G05/frame_00065.jpg",
+      "source_sha256": "6b73206ce9d301ff792115b1c692482241c9454b1937f946e9d7c4557b2fd48c",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_01/G05/A01/G05-A01-F00065-R02.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G05-A01-F00065-R02/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G05-A01-F00065-R02",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_01/G05/A01/G05-A01-F00065-R02.png",
+      "crop_sha256": "c9cd81c6977761381c05b2ae6f0b38be22b891ed750a80b7d5688f297ff99fa7"
+    },
+    {
+      "candidate_id": "G05-A02-F00092-R02",
+      "part": 1,
+      "group": "G05",
+      "anchor": "A02",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "a9f25acf3e1c8131fb26063885086d44fefd2b48e01b0dc8c4ebacb7b379b201",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G05/frame_00092.jpg",
+      "source_sha256": "b062397688885a8dee1f21a5d17cce16bd70bc917d20e4cddaf21efb25e989f7",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_01/G05/A02/G05-A02-F00092-R02.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G05-A02-F00092-R02/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G05-A02-F00092-R02",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_01/G05/A02/G05-A02-F00092-R02.png",
+      "crop_sha256": "a9f25acf3e1c8131fb26063885086d44fefd2b48e01b0dc8c4ebacb7b379b201"
+    },
+    {
+      "candidate_id": "G06-A01-F00012",
+      "part": 1,
+      "group": "G06",
+      "anchor": "A01",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "review_states": [
+        "P",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "b4a787028b3a7a51cd62f8be5184659c84d2f1651fe5170c45a60412e7f17855",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G06/frame_00012.jpg",
+      "source_sha256": "23961da248c2cd68a199f2eb1fcc2cabfee3587ebd4f62ec5143a9d8b5bbb9bf",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_01/G06/A01/G06-A01-F00012.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G06-A01-F00012/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G06-A01-F00012",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_01/G06/A01/G06-A01-F00012.png",
+      "crop_sha256": "b4a787028b3a7a51cd62f8be5184659c84d2f1651fe5170c45a60412e7f17855"
+    },
+    {
+      "candidate_id": "G06-A02-F00012",
+      "part": 1,
+      "group": "G06",
+      "anchor": "A02",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "review_states": [
+        "P",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "970a3ce53ee7c9ee569ad61e398382eefeecd61a618b9616a3df0333b31cb240",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G06/frame_00012.jpg",
+      "source_sha256": "23961da248c2cd68a199f2eb1fcc2cabfee3587ebd4f62ec5143a9d8b5bbb9bf",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_01/G06/A02/G06-A02-F00012.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G06-A02-F00012/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G06-A02-F00012",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_01/G06/A02/G06-A02-F00012.png",
+      "crop_sha256": "970a3ce53ee7c9ee569ad61e398382eefeecd61a618b9616a3df0333b31cb240"
+    },
+    {
+      "candidate_id": "G06-A03-F00012-R02",
+      "part": 1,
+      "group": "G06",
+      "anchor": "A03",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "recrop",
+      "decision_status": "owner_approved",
+      "reason": "Khung cũ giữ phone ở bàn người bên cạnh nhưng cắt gần hết người đó, khiến RGB input dễ gán nhầm anchor. Đề xuất R02 bỏ vùng bàn bên cạnh, giữ đầu, hai tay và tờ giấy; không chỉ sửa lời giải thích.",
+      "v10_comparators": [],
+      "original_crop_sha256": "a6329d7fca4743e651d6db745990e2b7b38ea5783adc395cfd596c4d8d904815",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G06/frame_00012.jpg",
+      "source_sha256": "23961da248c2cd68a199f2eb1fcc2cabfee3587ebd4f62ec5143a9d8b5bbb9bf",
+      "review_crop_path": "data/interim/frame-crop-owner-review-20261017/candidates/G06-A03-F00012-R02/crop.png",
+      "review_input_path": "data/interim/frame-crop-owner-review-20261017/candidates/G06-A03-F00012-R02/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "replacement_candidate_id": "G06-A03-F00012-R02",
+      "replacement_proposal_path": "data/interim/frame-crop-owner-review-20261017/candidates/G06-A03-F00012-R02/proposal.json",
+      "replacement_crop_sha256": "1e6a2254d198c42335e121959f8a9c07e64675eacf794baa3dd6fb56cc48c91e",
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G06-A03-F00012",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_01/G06/A03/G06-A03-F00012-R02.png",
+      "crop_sha256": "1e6a2254d198c42335e121959f8a9c07e64675eacf794baa3dd6fb56cc48c91e"
+    },
+    {
+      "candidate_id": "G07-A01-F00024",
+      "part": 2,
+      "group": "G07",
+      "anchor": "A01",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "8819ff098e905c6c5df5c86025b3d115f266da4bf2e29a89241527460e9c68da",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00024.jpg",
+      "source_sha256": "4d59b3e029931eee5002c82540e344e77064f902e828949d45477ac424fd436d",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_02/G07/A01/G07-A01-F00024.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G07-A01-F00024/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G07-A01-F00024",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_02/G07/A01/G07-A01-F00024.png",
+      "crop_sha256": "8819ff098e905c6c5df5c86025b3d115f266da4bf2e29a89241527460e9c68da"
+    },
+    {
+      "candidate_id": "G07-A03-F00020",
+      "part": 2,
+      "group": "G07",
+      "anchor": "A03",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "review_states": [
+        "N",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "810c9d618fa52031e9c6560c673b4b6d354a3a2d7f5aa00c1123362925bd25cb",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G07/frame_00020.jpg",
+      "source_sha256": "4ffab25c109a278a443cbf17b2591bf1bde78e557771b6ff5aa2ca405cd21458",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_02/G07/A03/G07-A03-F00020.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G07-A03-F00020/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G07-A03-F00020",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_02/G07/A03/G07-A03-F00020.png",
+      "crop_sha256": "810c9d618fa52031e9c6560c673b4b6d354a3a2d7f5aa00c1123362925bd25cb"
+    },
+    {
+      "candidate_id": "G08-A01-F00009-R02",
+      "part": 2,
+      "group": "G08",
+      "anchor": "A01",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Theo owner: tay cầm bút, không có vật gây nhiễu; chốt N/N.",
+      "v10_comparators": [],
+      "original_crop_sha256": "db8c51a75cbf22e55f7fecb9d378255348ea732fbc8320d6b55a62914a2146da",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G08/frame_00009.jpg",
+      "source_sha256": "f3d8bb7d0e52cff0d9d6f1517a9c3ae2315f539d12ee56108854840771188b26",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_02/G08/A01/G08-A01-F00009-R02.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G08-A01-F00009-R02/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G08-A01-F00009-R02",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_02/G08/A01/G08-A01-F00009-R02.png",
+      "crop_sha256": "db8c51a75cbf22e55f7fecb9d378255348ea732fbc8320d6b55a62914a2146da"
+    },
+    {
+      "candidate_id": "G08-A01-F00014-R02",
+      "part": 2,
+      "group": "G08",
+      "anchor": "A01",
+      "original_states": [
+        "U",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Một tay khoanh, tay kia cầm bút; phần tay và bàn còn lại đủ rõ, không có thiết bị mơ hồ. Đề xuất phone N.",
+      "v10_comparators": [
+        "NB-0013",
+        "NC-009"
+      ],
+      "original_crop_sha256": "b670d963843af455ee100e074dc55e2dfcdf0efe0af278f32b8f1c731192fdbe",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G08/frame_00014.jpg",
+      "source_sha256": "922da099eb34e3cfd528b213bd9f4e98116024701dcc7aacd895c5bdadc8a695",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_02/G08/A01/G08-A01-F00014-R02.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G08-A01-F00014-R02/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G08-A01-F00014-R02",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_02/G08/A01/G08-A01-F00014-R02.png",
+      "crop_sha256": "b670d963843af455ee100e074dc55e2dfcdf0efe0af278f32b8f1c731192fdbe"
+    },
+    {
+      "candidate_id": "G09-A01-F00056",
+      "part": 2,
+      "group": "G09",
+      "anchor": "A01",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "review_states": [
+        "N",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "4a773f8b0ea9f7416d78ce459cf4620982989427e3c5d23731c1bab490852df8",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G09/frame_00056.jpg",
+      "source_sha256": "a58d91a232c0876322b092f9ce731cab5ba9cd52f8162e546fcc9c1d1a95db86",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_02/G09/A01/G09-A01-F00056.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G09-A01-F00056/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G09-A01-F00056",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_02/G09/A01/G09-A01-F00056.png",
+      "crop_sha256": "4a773f8b0ea9f7416d78ce459cf4620982989427e3c5d23731c1bab490852df8"
+    },
+    {
+      "candidate_id": "G09-A01-F00071",
+      "part": 2,
+      "group": "G09",
+      "anchor": "A01",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "eee05cc6e1fed242e75ed2c6e6475e998fa4df6221aea2cbcda2cb7a42f0844b",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G09/frame_00071.jpg",
+      "source_sha256": "962c66129e24c31ebb6a1a7dbd239ae1e4c12d3c824d8bbe3cf668328d1267a2",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_02/G09/A01/G09-A01-F00071.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G09-A01-F00071/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G09-A01-F00071",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_02/G09/A01/G09-A01-F00071.png",
+      "crop_sha256": "eee05cc6e1fed242e75ed2c6e6475e998fa4df6221aea2cbcda2cb7a42f0844b"
+    },
+    {
+      "candidate_id": "G09-A01-F00110",
+      "part": 2,
+      "group": "G09",
+      "anchor": "A01",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "175ec411cd0ae7a71fb3de7f853803312befc9f0d446a399300abd2aca04669e",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G09/frame_00110.jpg",
+      "source_sha256": "5493021a83d36a2fa4a4575868d31a2f1dc44b34d46f98a8358aff746079a4f4",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_02/G09/A01/G09-A01-F00110.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G09-A01-F00110/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G09-A01-F00110",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_02/G09/A01/G09-A01-F00110.png",
+      "crop_sha256": "175ec411cd0ae7a71fb3de7f853803312befc9f0d446a399300abd2aca04669e"
+    },
+    {
+      "candidate_id": "G09-A02-F00043",
+      "part": 2,
+      "group": "G09",
+      "anchor": "A02",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "review_states": [
+        "N",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Băng bó tự nó không phải evidence cho thiết bị hoặc unknown. Tư thế tay và vùng hoạt động còn lại đủ quan sát, không thấy vật mơ hồ; đề xuất phone N, giữ looking P. Không suy luận tác động model khi chưa đo.",
+      "v10_comparators": [
+        "NB-0015"
+      ],
+      "original_crop_sha256": "00ec03789acbffeb918627d03533258aa7dafaefa04cb0c1ee0bf01ebddbd597",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G09/frame_00043.jpg",
+      "source_sha256": "5de13386bc53257fe97f4b5381195beabaae63a737e4633f1b903735bf0495c8",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_02/G09/A02/G09-A02-F00043.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G09-A02-F00043/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G09-A02-F00043",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_02/G09/A02/G09-A02-F00043.png",
+      "crop_sha256": "00ec03789acbffeb918627d03533258aa7dafaefa04cb0c1ee0bf01ebddbd597"
+    },
+    {
+      "candidate_id": "G09-A02-F00105",
+      "part": 2,
+      "group": "G09",
+      "anchor": "A02",
+      "original_states": [
+        "U",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Tương tự F00043 nhưng đánh giá ảnh này độc lập: băng bó không tạo một vật cầm chưa rõ, vùng bài đủ quan sát; đề xuất N/N.",
+      "v10_comparators": [
+        "NB-0015"
+      ],
+      "original_crop_sha256": "dcbe632f6d12a27a7c1f3f290c8045d4f34d5509d2c4951f67c7edcf3660ec06",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G09/frame_00105.jpg",
+      "source_sha256": "e590f7473fa1ee24df69fc5734468cf4db4fdf8f24d9a125d5f284ee3193cf8e",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_02/G09/A02/G09-A02-F00105.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G09-A02-F00105/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G09-A02-F00105",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_02/G09/A02/G09-A02-F00105.png",
+      "crop_sha256": "dcbe632f6d12a27a7c1f3f290c8045d4f34d5509d2c4951f67c7edcf3660ec06"
+    },
+    {
+      "candidate_id": "G09-A03-F00030",
+      "part": 2,
+      "group": "G09",
+      "anchor": "A03",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "review_states": [
+        "N",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "509dcd51d852dc2f491a96cb08ffb4cf1822a07d298248d3f02539a24732b972",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G09/frame_00030.jpg",
+      "source_sha256": "d3f2e3efe4997c7a39f0fb63d8f23d0e2cbd3f89b6f6edcfd02dd211ee61ce0b",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_02/G09/A03/G09-A03-F00030.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G09-A03-F00030/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G09-A03-F00030",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_02/G09/A03/G09-A03-F00030.png",
+      "crop_sha256": "509dcd51d852dc2f491a96cb08ffb4cf1822a07d298248d3f02539a24732b972"
+    },
+    {
+      "candidate_id": "G09-A03-F00085",
+      "part": 2,
+      "group": "G09",
+      "anchor": "A03",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "e0aeb69328325f9d741c4e5f634b7ab3edc1505c55c05f9dfeffc5d4611899f2",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G09/frame_00085.jpg",
+      "source_sha256": "d92efc9f21d5518ea4564a3b633f5c833d89371c97b9dd1ab80246c51f6a8a97",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_02/G09/A03/G09-A03-F00085.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G09-A03-F00085/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G09-A03-F00085",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_02/G09/A03/G09-A03-F00085.png",
+      "crop_sha256": "e0aeb69328325f9d741c4e5f634b7ab3edc1505c55c05f9dfeffc5d4611899f2"
+    },
+    {
+      "candidate_id": "G10-A01-F00008",
+      "part": 2,
+      "group": "G10",
+      "anchor": "A01",
+      "original_states": [
+        "U",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Theo owner: chống đầu, tay/bàn rõ; chốt N/N.",
+      "v10_comparators": [],
+      "original_crop_sha256": "187c608becc1fa2bcc63dd90320595f0ef237748212dc0f27c65a459f7a65182",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G10/frame_00008.jpg",
+      "source_sha256": "28f6f1f6d9b3640fe5795d7a2516abf0016a0797f4e4eece1bde151c38ab72fa",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_02/G10/A01/G10-A01-F00008.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G10-A01-F00008/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G10-A01-F00008",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_02/G10/A01/G10-A01-F00008.png",
+      "crop_sha256": "187c608becc1fa2bcc63dd90320595f0ef237748212dc0f27c65a459f7a65182"
+    },
+    {
+      "candidate_id": "G10-A01-F00013",
+      "part": 2,
+      "group": "G10",
+      "anchor": "A01",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "review_states": [
+        "N",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Theo owner: tay/bàn rõ, hướng đầu ra ngoài vùng bài; chốt N/P.",
+      "v10_comparators": [],
+      "original_crop_sha256": "c8472642d2603d39b21d94fde65f71974fa2a142b9820fc7357f1c0292fc3a4e",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G10/frame_00013.jpg",
+      "source_sha256": "5b92a31294056ebba16d75c3ef32c1492af5a25acc156f7a28e2a5b8e5c49b28",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_02/G10/A01/G10-A01-F00013.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G10-A01-F00013/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G10-A01-F00013",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_02/G10/A01/G10-A01-F00013.png",
+      "crop_sha256": "c8472642d2603d39b21d94fde65f71974fa2a142b9820fc7357f1c0292fc3a4e"
+    },
+    {
+      "candidate_id": "G11-A01-F00015",
+      "part": 2,
+      "group": "G11",
+      "anchor": "A01",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "review_states": [
+        "N",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "5ffb45697dd3988235dc26f704ad107f64c7498ceddc7afd5440423890a530ea",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G11/frame_00015.jpg",
+      "source_sha256": "d1dcc3abeaa038706c1e9f5158c745fb9f01ace39f77b0f24fa029b912f9109a",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_02/G11/A01/G11-A01-F00015.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G11-A01-F00015/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G11-A01-F00015",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_02/G11/A01/G11-A01-F00015.png",
+      "crop_sha256": "5ffb45697dd3988235dc26f704ad107f64c7498ceddc7afd5440423890a530ea"
+    },
+    {
+      "candidate_id": "G11-A01-F00066",
+      "part": 2,
+      "group": "G11",
+      "anchor": "A01",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "7d21f04d4c600a6e819cd6282bef5c71df8a032dc8f77c4e891f65661e4328e6",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G11/frame_00066.jpg",
+      "source_sha256": "f60313d492490210be35c6525ebc7c8b9da55c9daf2ae84c68115025406a3273",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_02/G11/A01/G11-A01-F00066.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G11-A01-F00066/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G11-A01-F00066",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_02/G11/A01/G11-A01-F00066.png",
+      "crop_sha256": "7d21f04d4c600a6e819cd6282bef5c71df8a032dc8f77c4e891f65661e4328e6"
+    },
+    {
+      "candidate_id": "G11-A02-F00066",
+      "part": 2,
+      "group": "G11",
+      "anchor": "A02",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "9aaf495cc05801a695d1c96f946534d2ec770e5dedfa6ffab51b0ec7900dd16a",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G11/frame_00066.jpg",
+      "source_sha256": "f60313d492490210be35c6525ebc7c8b9da55c9daf2ae84c68115025406a3273",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_02/G11/A02/G11-A02-F00066.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G11-A02-F00066/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G11-A02-F00066",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_02/G11/A02/G11-A02-F00066.png",
+      "crop_sha256": "9aaf495cc05801a695d1c96f946534d2ec770e5dedfa6ffab51b0ec7900dd16a"
+    },
+    {
+      "candidate_id": "G12-A01-F00002",
+      "part": 2,
+      "group": "G12",
+      "anchor": "A01",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "review_states": [
+        "P",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "ab9f12e7b77641849c78c8bcb59721155cd558e3459460f649bc13e4460eb223",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G12/frame_00002.jpg",
+      "source_sha256": "2906778c8fb14e31714de248a5e694deb47c90e112fb02a1bce92739466d571f",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_02/G12/A01/G12-A01-F00002.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G12-A01-F00002/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G12-A01-F00002",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_02/G12/A01/G12-A01-F00002.png",
+      "crop_sha256": "ab9f12e7b77641849c78c8bcb59721155cd558e3459460f649bc13e4460eb223"
+    },
+    {
+      "candidate_id": "G12-A01-F00053-R02",
+      "part": 2,
+      "group": "G12",
+      "anchor": "A01",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "review_states": [
+        "P",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "8e91498909fbfe8935c5477599913b595ce5c8a05c591706f5602b4f9b3ddb24",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G12/frame_00053.jpg",
+      "source_sha256": "ee23a654a195cdd74929f18ee1f6581a088a62ef2612e6aa4e537a17f249deaf",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_02/G12/A01/G12-A01-F00053-R02.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G12-A01-F00053-R02/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G12-A01-F00053-R02",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_02/G12/A01/G12-A01-F00053-R02.png",
+      "crop_sha256": "8e91498909fbfe8935c5477599913b595ce5c8a05c591706f5602b4f9b3ddb24"
+    },
+    {
+      "candidate_id": "G12-A02-F00007",
+      "part": 2,
+      "group": "G12",
+      "anchor": "A02",
+      "original_states": [
+        "P",
+        "P"
+      ],
+      "review_states": [
+        "P",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "84c5ee946b816103af3e6d92d143db680763910a37ef92a85b051a33a7e29360",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G12/frame_00007.jpg",
+      "source_sha256": "6d01543ce3c14c8baf97fc9f1cef30a5b6d500af3cdc44edb9d5996db48ee6af",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_02/G12/A02/G12-A02-F00007.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G12-A02-F00007/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G12-A02-F00007",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_02/G12/A02/G12-A02-F00007.png",
+      "crop_sha256": "84c5ee946b816103af3e6d92d143db680763910a37ef92a85b051a33a7e29360"
+    },
+    {
+      "candidate_id": "G12-A02-F00067",
+      "part": 2,
+      "group": "G12",
+      "anchor": "A02",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "review_states": [
+        "P",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "e3c87c5e29478e32b1e5d2efd601b96c7e3ed0f1104c7dfd24a5390ce1220f08",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G12/frame_00067.jpg",
+      "source_sha256": "85a52d5e667abb31d4923f06e66d9e1d0448c9a93e075f9b54a75ca415749357",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_02/G12/A02/G12-A02-F00067.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G12-A02-F00067/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G12-A02-F00067",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_02/G12/A02/G12-A02-F00067.png",
+      "crop_sha256": "e3c87c5e29478e32b1e5d2efd601b96c7e3ed0f1104c7dfd24a5390ce1220f08"
+    },
+    {
+      "candidate_id": "G12-A03-F00001",
+      "part": 2,
+      "group": "G12",
+      "anchor": "A03",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "review_states": [
+        "P",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "5fe796b3638230993d95270edd6130cb8ba36d9b779705cce139347b9befcdcc",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G12/frame_00001.jpg",
+      "source_sha256": "7e472fc22531c0f1642c8dc51baa519e6f125247d0a9422a73c37f613843d685",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_02/G12/A03/G12-A03-F00001.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G12-A03-F00001/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G12-A03-F00001",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_02/G12/A03/G12-A03-F00001.png",
+      "crop_sha256": "5fe796b3638230993d95270edd6130cb8ba36d9b779705cce139347b9befcdcc"
+    },
+    {
+      "candidate_id": "G13-A01-F00003",
+      "part": 3,
+      "group": "G13",
+      "anchor": "A01",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "45733e02e6fe4fa15ff3ed5b1279976e20b448ecd3f0f598880096642dd5ffa4",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00003.jpg",
+      "source_sha256": "c73cb263cde1d29f6b490f2a0b6bf05b1a4ed9d9d57d06eb78a33283ba03160f",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_03/G13/A01/G13-A01-F00003.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G13-A01-F00003/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G13-A01-F00003",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_03/G13/A01/G13-A01-F00003.png",
+      "crop_sha256": "45733e02e6fe4fa15ff3ed5b1279976e20b448ecd3f0f598880096642dd5ffa4"
+    },
+    {
+      "candidate_id": "G13-A01-F00042",
+      "part": 3,
+      "group": "G13",
+      "anchor": "A01",
+      "original_states": [
+        "U",
+        "N"
+      ],
+      "review_states": [
+        "U",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "bba0d6c3f51365513b4b59e46b1230376283d34d8911764a00148e64c2a47533",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00042.jpg",
+      "source_sha256": "f0cc3d99302c37a7adcf8d169545c45a1f1bd4d10995f2d318c6f36de7b21f18",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_03/G13/A01/G13-A01-F00042.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G13-A01-F00042/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G13-A01-F00042",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_03/G13/A01/G13-A01-F00042.png",
+      "crop_sha256": "bba0d6c3f51365513b4b59e46b1230376283d34d8911764a00148e64c2a47533"
+    },
+    {
+      "candidate_id": "G13-A02-F00011",
+      "part": 3,
+      "group": "G13",
+      "anchor": "A02",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "016d2e1c39efb16a64f57ba420995a3a7edf06e6a4be908abfab80e750588a75",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00011.jpg",
+      "source_sha256": "b5b4dfa5a82001dde9d8c8c8dd795fa6fe8f741c99bb1c71f6eb50f089ae56ff",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_03/G13/A02/G13-A02-F00011.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G13-A02-F00011/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G13-A02-F00011",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_03/G13/A02/G13-A02-F00011.png",
+      "crop_sha256": "016d2e1c39efb16a64f57ba420995a3a7edf06e6a4be908abfab80e750588a75"
+    },
+    {
+      "candidate_id": "G13-A03-F00024",
+      "part": 3,
+      "group": "G13",
+      "anchor": "A03",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "7dbbd41aa1aaf404fce5a3b1be314f65b7a3d03ae1a09e1c70044fac680e2fd2",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00024.jpg",
+      "source_sha256": "372099c72d00b9a1d2c7b0c0aa170ca92c0ef8ebdc0c4c42297d316d13825700",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_03/G13/A03/G13-A03-F00024.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G13-A03-F00024/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G13-A03-F00024",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_03/G13/A03/G13-A03-F00024.png",
+      "crop_sha256": "7dbbd41aa1aaf404fce5a3b1be314f65b7a3d03ae1a09e1c70044fac680e2fd2"
+    },
+    {
+      "candidate_id": "G13-A04-F00008-R02",
+      "part": 3,
+      "group": "G13",
+      "anchor": "A04",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "958e1d459882f20dd1977a0e6ee0dd43785780e1a2c8a6dfb32661c3ffd36c07",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00008.jpg",
+      "source_sha256": "6a52436743ad4b91edf33287494cd0c44516af8a0a80d71ec4634dd0fc18b201",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_03/G13/A04/G13-A04-F00008-R02.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G13-A04-F00008-R02/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G13-A04-F00008-R02",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_03/G13/A04/G13-A04-F00008-R02.png",
+      "crop_sha256": "958e1d459882f20dd1977a0e6ee0dd43785780e1a2c8a6dfb32661c3ffd36c07"
+    },
+    {
+      "candidate_id": "G13-A05-F00023",
+      "part": 3,
+      "group": "G13",
+      "anchor": "A05",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "461938a980856f95db188115a58486887e7562f1c33c3bcb9f5456a91f9fefb0",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00023.jpg",
+      "source_sha256": "671637d48d10af0bbcee2ad7487f3162be241a004a5ad2741ea99c8a8962e1f5",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_03/G13/A05/G13-A05-F00023.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G13-A05-F00023/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G13-A05-F00023",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_03/G13/A05/G13-A05-F00023.png",
+      "crop_sha256": "461938a980856f95db188115a58486887e7562f1c33c3bcb9f5456a91f9fefb0"
+    },
+    {
+      "candidate_id": "G13-A06-F00021",
+      "part": 3,
+      "group": "G13",
+      "anchor": "A06",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "review_states": [
+        "N",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Tay chống mặt và phần tay/vùng bàn còn thấy không có vật mơ hồ. Người phía trước che một phần không tự động làm phone U khi evidence còn lại đủ; đề xuất N/P.",
+      "v10_comparators": [
+        "CB-0745-R1",
+        "G2-A12-F005"
+      ],
+      "original_crop_sha256": "f2833a49b63b579c761788d8eda3f8565a897df4d44e0349c60da5caf5915121",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G13/frame_00021.jpg",
+      "source_sha256": "de03a2a145a16fd91e25fe4550d9fee4c20e08e05e4578e61a020a8229d25856",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_03/G13/A06/G13-A06-F00021.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G13-A06-F00021/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G13-A06-F00021",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_03/G13/A06/G13-A06-F00021.png",
+      "crop_sha256": "f2833a49b63b579c761788d8eda3f8565a897df4d44e0349c60da5caf5915121"
+    },
+    {
+      "candidate_id": "G14-A01-F00005",
+      "part": 3,
+      "group": "G14",
+      "anchor": "A01",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "review_states": [
+        "P",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "09eda10dac4fabd29225dd298cc4ac085e5966b3df4b65868d2f9e2f0e67703f",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00005.jpg",
+      "source_sha256": "c93ca23c73e7d6325ca02497aa10f3f3fbb52b080f2ebcf182dee5572f5f4eb2",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_03/G14/A01/G14-A01-F00005.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G14-A01-F00005/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G14-A01-F00005",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_03/G14/A01/G14-A01-F00005.png",
+      "crop_sha256": "09eda10dac4fabd29225dd298cc4ac085e5966b3df4b65868d2f9e2f0e67703f"
+    },
+    {
+      "candidate_id": "G14-A02-F00047",
+      "part": 3,
+      "group": "G14",
+      "anchor": "A02",
+      "original_states": [
+        "P",
+        "U"
+      ],
+      "review_states": [
+        "U",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Thiết bị cầm chỉ lộ mặt/cạnh chưa đủ nhận diện. Laptop không thuộc phone_use và không nâng phone lên P. Đầu vẫn hướng vào vùng thao tác/bài của anchor; đề xuất U/N.",
+      "v10_comparators": [
+        "NC-003",
+        "CB-0390"
+      ],
+      "original_crop_sha256": "039dede9e76c028c7145e340df2eebec4fbac610c14e189d3a858bacb656287a",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00047.jpg",
+      "source_sha256": "690703993b105c1e11a88cc95a37a6a5441e2d553cce1a901fd915d34e0a20f5",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_03/G14/A02/G14-A02-F00047.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G14-A02-F00047/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G14-A02-F00047",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_03/G14/A02/G14-A02-F00047.png",
+      "crop_sha256": "039dede9e76c028c7145e340df2eebec4fbac610c14e189d3a858bacb656287a"
+    },
+    {
+      "candidate_id": "G14-A03-F00005",
+      "part": 3,
+      "group": "G14",
+      "anchor": "A03",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "review_states": [
+        "P",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "15375c461347f81ccfc86c90f1e84848308e843486b8348a6618b008e33cdcac",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00005.jpg",
+      "source_sha256": "c93ca23c73e7d6325ca02497aa10f3f3fbb52b080f2ebcf182dee5572f5f4eb2",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_03/G14/A03/G14-A03-F00005.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G14-A03-F00005/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G14-A03-F00005",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_03/G14/A03/G14-A03-F00005.png",
+      "crop_sha256": "15375c461347f81ccfc86c90f1e84848308e843486b8348a6618b008e33cdcac"
+    },
+    {
+      "candidate_id": "G14-A04-F00011",
+      "part": 3,
+      "group": "G14",
+      "anchor": "A04",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "review_states": [
+        "U",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Vật cầm có mặt lưng/viền nhưng thiếu camera, màn hình hay phím đủ phân biệt; laptop cạnh đó không giải quyết vật đang cầm. Đề xuất U/N.",
+      "v10_comparators": [
+        "NC-003",
+        "CB-0390"
+      ],
+      "original_crop_sha256": "5958d3b5e71cd6f2cd0b01835e33b5319808da6bd722bae1d913e4d7f568fc5e",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00011.jpg",
+      "source_sha256": "bc5ca11a3f6c31f6afd98250d1366cddb93cad1ec7b81edba51c326befb778d6",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_03/G14/A04/G14-A04-F00011.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G14-A04-F00011/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G14-A04-F00011",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_03/G14/A04/G14-A04-F00011.png",
+      "crop_sha256": "5958d3b5e71cd6f2cd0b01835e33b5319808da6bd722bae1d913e4d7f568fc5e"
+    },
+    {
+      "candidate_id": "G14-A05-F00012",
+      "part": 3,
+      "group": "G14",
+      "anchor": "A05",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "review_states": [
+        "U",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Vật cầm chỉ lộ mặt lưng/cạnh; calculator trên bàn không chứng minh vật cầm cũng là calculator hoặc phone. Đề xuất U/N.",
+      "v10_comparators": [
+        "CB-0390"
+      ],
+      "original_crop_sha256": "0f457e9ba0e6f2e21789801e10ee7bb0ab3c419261310d1fe1ba76952dc3f5a8",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00012.jpg",
+      "source_sha256": "fab898b8496ce037c156bccee80c729a90589a9e5d23c69d6b63861bd253d61a",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_03/G14/A05/G14-A05-F00012.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G14-A05-F00012/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G14-A05-F00012",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_03/G14/A05/G14-A05-F00012.png",
+      "crop_sha256": "0f457e9ba0e6f2e21789801e10ee7bb0ab3c419261310d1fe1ba76952dc3f5a8"
+    },
+    {
+      "candidate_id": "G14-A07-F00018",
+      "part": 3,
+      "group": "G14",
+      "anchor": "A07",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "review_states": [
+        "U",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Các chấm tối ở góc thiết bị nhỏ và nhòe trong input 224; chưa tách được đặc điểm camera đủ chắc so với mặt lưng/ốp khác. Đề xuất U/N, không gọi camera chỉ từ vài chấm.",
+      "v10_comparators": [
+        "CB-0024-R1"
+      ],
+      "original_crop_sha256": "f3e08533e2c8e336fba9baee27298fe84acdd01996d9ca24df318e691c7c13b5",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00018.jpg",
+      "source_sha256": "08b4779b4c8795b6a438b510178de250af3c65c3eea348c67b20dc2c8a515a1b",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_03/G14/A07/G14-A07-F00018.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G14-A07-F00018/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G14-A07-F00018",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_03/G14/A07/G14-A07-F00018.png",
+      "crop_sha256": "f3e08533e2c8e336fba9baee27298fe84acdd01996d9ca24df318e691c7c13b5"
+    },
+    {
+      "candidate_id": "G14-A08-F00025",
+      "part": 3,
+      "group": "G14",
+      "anchor": "A08",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "review_states": [
+        "P",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "74d67ca809a9ea9c5d8e1ec9088bd7cff4c7bc7185cb8470754bc7e1d3c1f56b",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00025.jpg",
+      "source_sha256": "a89244409a8c576942958f77e067b39130ddc7cff7e5b533d234fe7afbf6649d",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_03/G14/A08/G14-A08-F00025.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G14-A08-F00025/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G14-A08-F00025",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_03/G14/A08/G14-A08-F00025.png",
+      "crop_sha256": "74d67ca809a9ea9c5d8e1ec9088bd7cff4c7bc7185cb8470754bc7e1d3c1f56b"
+    },
+    {
+      "candidate_id": "G14-A09-F00027",
+      "part": 3,
+      "group": "G14",
+      "anchor": "A09",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "review_states": [
+        "U",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Mặt lưng vật cầm chưa phân biệt được; phần vật sát mép crop cũng không đủ để khẳng định laptop. Bỏ lý do suy ra laptop từ frame rộng; đề xuất U/N.",
+      "v10_comparators": [
+        "NC-003",
+        "CB-0390"
+      ],
+      "original_crop_sha256": "0e584c1152faf6f8b85353d03583258b85abee510b16a6c95f63938df59446dd",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00027.jpg",
+      "source_sha256": "0f3b0d83d4b67eccc0021474397f30c5792365473cb2af008f42c186be316e42",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_03/G14/A09/G14-A09-F00027.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G14-A09-F00027/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G14-A09-F00027",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_03/G14/A09/G14-A09-F00027.png",
+      "crop_sha256": "0e584c1152faf6f8b85353d03583258b85abee510b16a6c95f63938df59446dd"
+    },
+    {
+      "candidate_id": "G16-A01-F00027",
+      "part": 3,
+      "group": "G16",
+      "anchor": "A01",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "review_states": [
+        "P",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "66eaf6a935469c4463adc771c4cdc71b2d2b69aec48d1e6f2724247076ce454c",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G16/frame_00027.jpg",
+      "source_sha256": "8554e67d647b66554846c3f2bf7836a64f3b3b87a0e3b1f5b3334f34332bdd39",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_03/G16/A01/G16-A01-F00027.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G16-A01-F00027/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G16-A01-F00027",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_03/G16/A01/G16-A01-F00027.png",
+      "crop_sha256": "66eaf6a935469c4463adc771c4cdc71b2d2b69aec48d1e6f2724247076ce454c"
+    },
+    {
+      "candidate_id": "G16-A01-F00058",
+      "part": 3,
+      "group": "G16",
+      "anchor": "A01",
+      "original_states": [
+        "P",
+        "P"
+      ],
+      "review_states": [
+        "P",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "c24b3d9262f8417963f9439a49aa141d4d32f3f59bb28e39078c542322f4e43a",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G16/frame_00058.jpg",
+      "source_sha256": "b45d645e1ff9ed4c1db21c40407a6dc72df9cd8621861c6baf6e75586955fc6f",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_03/G16/A01/G16-A01-F00058.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G16-A01-F00058/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G16-A01-F00058",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_03/G16/A01/G16-A01-F00058.png",
+      "crop_sha256": "c24b3d9262f8417963f9439a49aa141d4d32f3f59bb28e39078c542322f4e43a"
+    },
+    {
+      "candidate_id": "G16-A02-F00027",
+      "part": 3,
+      "group": "G16",
+      "anchor": "A02",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "review_states": [
+        "U",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Đầu cúi trong vùng bài, tay che mặt không phải looking_around P; đề xuất looking N. Phone giữ U vì vật trên bàn chưa đủ rõ để phân biệt.",
+      "v10_comparators": [
+        "CB-0168"
+      ],
+      "original_crop_sha256": "85bd6bd7349d773fc1a50b94bceca470b08df752612ff69ff0acad17b82544e8",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G16/frame_00027.jpg",
+      "source_sha256": "8554e67d647b66554846c3f2bf7836a64f3b3b87a0e3b1f5b3334f34332bdd39",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_03/G16/A02/G16-A02-F00027.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G16-A02-F00027/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G16-A02-F00027",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_03/G16/A02/G16-A02-F00027.png",
+      "crop_sha256": "85bd6bd7349d773fc1a50b94bceca470b08df752612ff69ff0acad17b82544e8"
+    },
+    {
+      "candidate_id": "G16-A02-F00043",
+      "part": 3,
+      "group": "G16",
+      "anchor": "A02",
+      "original_states": [
+        "U",
+        "N"
+      ],
+      "review_states": [
+        "U",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "6902331b5a9568ab1df46e24bd11a13e83ea35e5ac6177c04cb9343f168536c1",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G16/frame_00043.jpg",
+      "source_sha256": "1c193175de0d647d65b0f5687b842e0e50181f8551a706bf0ed965cfab3f95a4",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_03/G16/A02/G16-A02-F00043.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G16-A02-F00043/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G16-A02-F00043",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_03/G16/A02/G16-A02-F00043.png",
+      "crop_sha256": "6902331b5a9568ab1df46e24bd11a13e83ea35e5ac6177c04cb9343f168536c1"
+    },
+    {
+      "candidate_id": "G18-A01-F00001",
+      "part": 4,
+      "group": "G18",
+      "anchor": "A01",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "review_states": [
+        "P",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Mặt lưng có cụm camera lớn với các thành phần tách được, không chỉ bóng đen trên một mặt phẳng. Giữ P/N từ ảnh này, không truyền sang người hoặc frame khác.",
+      "v10_comparators": [
+        "CB-0024-R1"
+      ],
+      "original_crop_sha256": "d18a2706b03699a1312abd071a914261944632070b9c98830029560d6f6b15ba",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G18/frame_00001.jpg",
+      "source_sha256": "16a2a6f00cd7bafb2b8ab277874eec78e72a807dd1cb48abd2f43a8f42c4c2d4",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_04/G18/A01/G18-A01-F00001.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G18-A01-F00001/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G18-A01-F00001",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_04/G18/A01/G18-A01-F00001.png",
+      "crop_sha256": "d18a2706b03699a1312abd071a914261944632070b9c98830029560d6f6b15ba"
+    },
+    {
+      "candidate_id": "G18-A01-F00015",
+      "part": 4,
+      "group": "G18",
+      "anchor": "A01",
+      "original_states": [
+        "P",
+        "P"
+      ],
+      "review_states": [
+        "P",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "165bc3b22914d6513ad2c0d8e0b17cfa687a26bbefcf8b83c88cef7795c347bb",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G18/frame_00015.jpg",
+      "source_sha256": "7b77ad3c10ab0eaff7494096d6d6d8da14fe6e9ca47fbadcad13435fb14e4837",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_04/G18/A01/G18-A01-F00015.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G18-A01-F00015/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G18-A01-F00015",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_04/G18/A01/G18-A01-F00015.png",
+      "crop_sha256": "165bc3b22914d6513ad2c0d8e0b17cfa687a26bbefcf8b83c88cef7795c347bb"
+    },
+    {
+      "candidate_id": "G18-A02-F00007",
+      "part": 4,
+      "group": "G18",
+      "anchor": "A02",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "review_states": [
+        "U",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Vật cầm nhỏ chỉ rõ dạng khối/cạnh, chưa có đặc trưng phân biệt phone với thiết bị khác. Đề xuất U/N.",
+      "v10_comparators": [
+        "NC-003"
+      ],
+      "original_crop_sha256": "2d5ec565d1baed43a5c6259161f04f1a9d7530ded1e1f2dbf606a855454c4372",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G18/frame_00007.jpg",
+      "source_sha256": "680f5d28731e719c11e123cf3b5e80de0ddaf3adedca181528dcf60f94836be9",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_04/G18/A02/G18-A02-F00007.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G18-A02-F00007/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G18-A02-F00007",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_04/G18/A02/G18-A02-F00007.png",
+      "crop_sha256": "2d5ec565d1baed43a5c6259161f04f1a9d7530ded1e1f2dbf606a855454c4372"
+    },
+    {
+      "candidate_id": "G18-A02-F00010",
+      "part": 4,
+      "group": "G18",
+      "anchor": "A02",
+      "original_states": [
+        "P",
+        "P"
+      ],
+      "review_states": [
+        "U",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Ảnh này cũng chưa nhận diện được vật cầm; đề xuất phone U. Đầu quay ra ngoài vùng bài rõ hơn F00007, giữ looking P.",
+      "v10_comparators": [
+        "NC-003"
+      ],
+      "original_crop_sha256": "352cb41a486e670a47234210c9fce9a65690caf27b5a4cec6353c0df4197f004",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G18/frame_00010.jpg",
+      "source_sha256": "68068aecb8afb5e5efacd6858dae784108b0918e3717a4d77be2b9e14697fcd7",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_04/G18/A02/G18-A02-F00010.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G18-A02-F00010/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G18-A02-F00010",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_04/G18/A02/G18-A02-F00010.png",
+      "crop_sha256": "352cb41a486e670a47234210c9fce9a65690caf27b5a4cec6353c0df4197f004"
+    },
+    {
+      "candidate_id": "G18-A03-F00001",
+      "part": 4,
+      "group": "G18",
+      "anchor": "A03",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "review_states": [
+        "U",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner chốt trong hội thoại ngày 17/10: F00001 là U/N; không lan nhãn looking từ F00010.",
+      "v10_comparators": [
+        "NC-003"
+      ],
+      "original_crop_sha256": "a64a36f0ead29aca05a2fe002f6a208112929fea2230edc8c3bf31210123fa09",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G18/frame_00001.jpg",
+      "source_sha256": "16a2a6f00cd7bafb2b8ab277874eec78e72a807dd1cb48abd2f43a8f42c4c2d4",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_04/G18/A03/G18-A03-F00001.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G18-A03-F00001/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G18-A03-F00001",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_04/G18/A03/G18-A03-F00001.png",
+      "crop_sha256": "a64a36f0ead29aca05a2fe002f6a208112929fea2230edc8c3bf31210123fa09"
+    },
+    {
+      "candidate_id": "G18-A03-F00010",
+      "part": 4,
+      "group": "G18",
+      "anchor": "A03",
+      "original_states": [
+        "P",
+        "P"
+      ],
+      "review_states": [
+        "U",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner xác nhận ngày 17/10: F00010 là U/P. Thiết bị chưa rõ nhưng đầu quay sang trái, ra khỏi vùng bài/thao tác. Quyết định này làm rõ dòng U/N chung trong README.",
+      "v10_comparators": [
+        "NC-003"
+      ],
+      "original_crop_sha256": "9bc6af0fd22d971db1809bb51e4ebf5a13295eb030630f69a02c88708a9bd9ca",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G18/frame_00010.jpg",
+      "source_sha256": "68068aecb8afb5e5efacd6858dae784108b0918e3717a4d77be2b9e14697fcd7",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_04/G18/A03/G18-A03-F00010.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G18-A03-F00010/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G18-A03-F00010",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_04/G18/A03/G18-A03-F00010.png",
+      "crop_sha256": "9bc6af0fd22d971db1809bb51e4ebf5a13295eb030630f69a02c88708a9bd9ca"
+    },
+    {
+      "candidate_id": "G19-A01-F00039",
+      "part": 4,
+      "group": "G19",
+      "anchor": "A01",
+      "original_states": [
+        "U",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner chốt phone N vì tay/bàn rõ; looking N không bị nêu sửa nên giữ như bản gốc.",
+      "v10_comparators": [],
+      "original_crop_sha256": "20f57b5a44949c2dde450cf6daec221fb6fdbc2f653efcf9df9f9d1d10a45d28",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G19/frame_00039.jpg",
+      "source_sha256": "3ece1599125eb31d2b92f30983378bc889694ef619b5d24be96698254df5c93c",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_04/G19/A01/G19-A01-F00039.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G19-A01-F00039/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G19-A01-F00039",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_04/G19/A01/G19-A01-F00039.png",
+      "crop_sha256": "20f57b5a44949c2dde450cf6daec221fb6fdbc2f653efcf9df9f9d1d10a45d28"
+    },
+    {
+      "candidate_id": "G19-A01-F00052",
+      "part": 4,
+      "group": "G19",
+      "anchor": "A01",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "review_states": [
+        "N",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner chốt phone N vì tay/bàn rõ; looking P không bị nêu sửa nên giữ như bản gốc.",
+      "v10_comparators": [],
+      "original_crop_sha256": "b2d95a9f90f870a43e03ae2f72e7fe35abe76036a963a5056a27c35a8af7401f",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G19/frame_00052.jpg",
+      "source_sha256": "5227b0e8e2bc62517afb61fc3f0e682cd1b647abad2b359018b11f9bb14444f5",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_04/G19/A01/G19-A01-F00052.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G19-A01-F00052/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G19-A01-F00052",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_04/G19/A01/G19-A01-F00052.png",
+      "crop_sha256": "b2d95a9f90f870a43e03ae2f72e7fe35abe76036a963a5056a27c35a8af7401f"
+    },
+    {
+      "candidate_id": "G19-A02-F00056",
+      "part": 4,
+      "group": "G19",
+      "anchor": "A02",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "review_states": [
+        "U",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "2a9d254148e6e0baaabe2b7a5ad86ff01f3902761fd450a9ff53e1d2679097e4",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G19/frame_00056.jpg",
+      "source_sha256": "b086289db22045a7fa02fd8890bda1cc42b6074965126281884d4e3aa11636b4",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_04/G19/A02/G19-A02-F00056.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G19-A02-F00056/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G19-A02-F00056",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_04/G19/A02/G19-A02-F00056.png",
+      "crop_sha256": "2a9d254148e6e0baaabe2b7a5ad86ff01f3902761fd450a9ff53e1d2679097e4"
+    },
+    {
+      "candidate_id": "G20-A01-F00007-R02",
+      "part": 4,
+      "group": "G20",
+      "anchor": "A01",
+      "original_states": [
+        "P",
+        "P"
+      ],
+      "review_states": [
+        "P",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "450e2cc2beeea402f4427b3d2d5d5e5bb971045641bf4beb44b6aea5aee1a25c",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G20/frame_00007.jpg",
+      "source_sha256": "ab40b7db66fa31e27e7a15ce53b6844be58081075ab6e6de28ae17ec37acf808",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_04/G20/A01/G20-A01-F00007-R02.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G20-A01-F00007-R02/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G20-A01-F00007-R02",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_04/G20/A01/G20-A01-F00007-R02.png",
+      "crop_sha256": "450e2cc2beeea402f4427b3d2d5d5e5bb971045641bf4beb44b6aea5aee1a25c"
+    },
+    {
+      "candidate_id": "G20-A01-F00008-R02",
+      "part": 4,
+      "group": "G20",
+      "anchor": "A01",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "review_states": [
+        "P",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "b5d6a991485416f5a4cbf0eec65d018d5e6f0b2e2af71bfb1bc818c7fc7006a7",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G20/frame_00008.jpg",
+      "source_sha256": "45ebc23e4ac9e5b3947ca6b074537a11345996d9acfc6a19e4a4fa5107731d8a",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_04/G20/A01/G20-A01-F00008-R02.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G20-A01-F00008-R02/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G20-A01-F00008-R02",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_04/G20/A01/G20-A01-F00008-R02.png",
+      "crop_sha256": "b5d6a991485416f5a4cbf0eec65d018d5e6f0b2e2af71bfb1bc818c7fc7006a7"
+    },
+    {
+      "candidate_id": "G20-A02-F00001",
+      "part": 4,
+      "group": "G20",
+      "anchor": "A02",
+      "original_states": [
+        "P",
+        "P"
+      ],
+      "review_states": [
+        "U",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Vật cầm ngang tối màu, chi tiết góc nhỏ chưa phân biệt chắc camera hay dấu trên vỏ. Đề xuất phone U; giữ looking P theo đầu quay ra ngoài vùng thao tác.",
+      "v10_comparators": [
+        "CB-0024-R1",
+        "NC-003"
+      ],
+      "original_crop_sha256": "8db8f7620d47cca90b79d084961e2548078a4d119101a1afd27d74c1fd42ebd3",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G20/frame_00001.jpg",
+      "source_sha256": "7c1f15470f76018d316d3761a47dbd5d0054cb678e01d96455cff42cf0434bdb",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_04/G20/A02/G20-A02-F00001.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G20-A02-F00001/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G20-A02-F00001",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_04/G20/A02/G20-A02-F00001.png",
+      "crop_sha256": "8db8f7620d47cca90b79d084961e2548078a4d119101a1afd27d74c1fd42ebd3"
+    },
+    {
+      "candidate_id": "G20-A02-F00020",
+      "part": 4,
+      "group": "G20",
+      "anchor": "A02",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "review_states": [
+        "U",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Mặt lưng tối và chi tiết sáng nhỏ chưa đủ nhận diện độc lập ở input; không lấy kết luận vật từ F00001. Đề xuất U/N.",
+      "v10_comparators": [
+        "CB-0024-R1",
+        "NC-003"
+      ],
+      "original_crop_sha256": "e6557ec5ec7d1be5e63457b4b17f121a6ec0683c247af4cb4d2e7503999df26d",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G20/frame_00020.jpg",
+      "source_sha256": "ecf789d1d1c395b019eaae2b08e74376121a39e7e6f75d59fa806202b487ab2d",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_04/G20/A02/G20-A02-F00020.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G20-A02-F00020/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G20-A02-F00020",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_04/G20/A02/G20-A02-F00020.png",
+      "crop_sha256": "e6557ec5ec7d1be5e63457b4b17f121a6ec0683c247af4cb4d2e7503999df26d"
+    },
+    {
+      "candidate_id": "G20-A03-F00073",
+      "part": 4,
+      "group": "G20",
+      "anchor": "A03",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "review_states": [
+        "P",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Các vòng ống kính lớn tách biệt trên mặt lưng sáng vẫn thấy ở input; đủ hơn một mặt lưng trơn hoặc chấm nhòe. Giữ P/N.",
+      "v10_comparators": [
+        "CB-0024-R1"
+      ],
+      "original_crop_sha256": "b60286120f73c6df46ed2da995c5a6e4df28460bce5bd8a2b61f5145222ab19f",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G20/frame_00073.jpg",
+      "source_sha256": "6b58b35c3f28b91671bfa27e6f7f685ff6d17a31f77c16a83f2e13db66c6390c",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_04/G20/A03/G20-A03-F00073.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G20-A03-F00073/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G20-A03-F00073",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_04/G20/A03/G20-A03-F00073.png",
+      "crop_sha256": "b60286120f73c6df46ed2da995c5a6e4df28460bce5bd8a2b61f5145222ab19f"
+    },
+    {
+      "candidate_id": "G21-A01-F00007",
+      "part": 4,
+      "group": "G21",
+      "anchor": "A01",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "review_states": [
+        "N",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Theo owner chốt N/P. Vật nâu có dạng gấp/mềm, không cần khẳng định chính xác là bìa hay ví để ghi nhận không phải thiết bị gây nhiễu trong crop này.",
+      "v10_comparators": [],
+      "original_crop_sha256": "36013f9635a2fe516bfa93b82fbb045e45ef298912e18bcfb35c846bb832725f",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G21/frame_00007.jpg",
+      "source_sha256": "88f14f3252d4f8b12af5470bc784ed7faa1b456f74f157315518c271bb87eb93",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_04/G21/A01/G21-A01-F00007.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G21-A01-F00007/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G21-A01-F00007",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_04/G21/A01/G21-A01-F00007.png",
+      "crop_sha256": "36013f9635a2fe516bfa93b82fbb045e45ef298912e18bcfb35c846bb832725f"
+    },
+    {
+      "candidate_id": "G21-A02-F00022",
+      "part": 4,
+      "group": "G21",
+      "anchor": "A02",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "475b2014f12d363da6f43c2ef46a6832593be901ff3d237dda4490c6a246b94b",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G21/frame_00022.jpg",
+      "source_sha256": "d8a2e0569737e51777979938a490d1e0815b87f48f44f4124405dff8dba27328",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_04/G21/A02/G21-A02-F00022.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G21-A02-F00022/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G21-A02-F00022",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_04/G21/A02/G21-A02-F00022.png",
+      "crop_sha256": "475b2014f12d363da6f43c2ef46a6832593be901ff3d237dda4490c6a246b94b"
+    },
+    {
+      "candidate_id": "G21-A03-F00023",
+      "part": 4,
+      "group": "G21",
+      "anchor": "A03",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "1713b05a5d0feee57d8e48b2927138dc28f154462970742c55d59c60129c940d",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G21/frame_00023.jpg",
+      "source_sha256": "33565c6763738dcb8dd80914be287f3106c196de27aa505aa1bffbbe69a6329a",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_04/G21/A03/G21-A03-F00023.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G21-A03-F00023/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G21-A03-F00023",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_04/G21/A03/G21-A03-F00023.png",
+      "crop_sha256": "1713b05a5d0feee57d8e48b2927138dc28f154462970742c55d59c60129c940d"
+    },
+    {
+      "candidate_id": "G22-A01-F00013-R02",
+      "part": 4,
+      "group": "G22",
+      "anchor": "A01",
+      "original_states": [
+        "U",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Theo owner: khoanh một tay, phần tay/bàn rõ và không có vật mơ hồ; chốt N/N.",
+      "v10_comparators": [],
+      "original_crop_sha256": "c4fd9e91809e476a0e2cfd9566137c43d029967b2eddb9a2b90c91860d2050cd",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G22/frame_00013.jpg",
+      "source_sha256": "1d4f4d65c01edf16dd1e31b617ab8ed46ad5824026099b86b5cfdb828da0a9c7",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_04/G22/A01/G22-A01-F00013-R02.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G22-A01-F00013-R02/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G22-A01-F00013-R02",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_04/G22/A01/G22-A01-F00013-R02.png",
+      "crop_sha256": "c4fd9e91809e476a0e2cfd9566137c43d029967b2eddb9a2b90c91860d2050cd"
+    },
+    {
+      "candidate_id": "G22-A02-F00018",
+      "part": 4,
+      "group": "G22",
+      "anchor": "A02",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "review_states": [
+        "N",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "6d1612d81f610954d72b7660ca735b00a45f3f41dc65a15ca44e8ebe6ddc929f",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G22/frame_00018.jpg",
+      "source_sha256": "6796901aadc80450ce058aafe68b1b7a183840aeec19f5c217f9e0ad1b098475",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_04/G22/A02/G22-A02-F00018.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G22-A02-F00018/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G22-A02-F00018",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_04/G22/A02/G22-A02-F00018.png",
+      "crop_sha256": "6d1612d81f610954d72b7660ca735b00a45f3f41dc65a15ca44e8ebe6ddc929f"
+    },
+    {
+      "candidate_id": "G23-A01-F00005",
+      "part": 5,
+      "group": "G23",
+      "anchor": "A01",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "44c6f01ce91d21cc49a6d9ce3ebc52b5557aae4a50945aa8c225fea0f0055066",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G23/frame_00005.jpg",
+      "source_sha256": "b3711b54abaa8af9a7900bc7489f056b51d07485c499c1061916a34b6f28f062",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_05/G23/A01/G23-A01-F00005.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G23-A01-F00005/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G23-A01-F00005",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_05/G23/A01/G23-A01-F00005.png",
+      "crop_sha256": "44c6f01ce91d21cc49a6d9ce3ebc52b5557aae4a50945aa8c225fea0f0055066"
+    },
+    {
+      "candidate_id": "G23-A02-F00006",
+      "part": 5,
+      "group": "G23",
+      "anchor": "A02",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "8bb9841051419727a3dadad57a4ea78dc738cec8bb04a2f857fed87e2623e92c",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G23/frame_00006.jpg",
+      "source_sha256": "fde3330098561f08e15a0a82bfc993e549acf9787fa370a7169a23018e5eab18",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_05/G23/A02/G23-A02-F00006.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G23-A02-F00006/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G23-A02-F00006",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_05/G23/A02/G23-A02-F00006.png",
+      "crop_sha256": "8bb9841051419727a3dadad57a4ea78dc738cec8bb04a2f857fed87e2623e92c"
+    },
+    {
+      "candidate_id": "G23-A03-F00009",
+      "part": 5,
+      "group": "G23",
+      "anchor": "A03",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "U",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner quyết định ngày 17/10: vật màu trắng trong tay chưa phân biệt được, U/N.",
+      "v10_comparators": [
+        "NC-009"
+      ],
+      "original_crop_sha256": "359814cd44b0ce20f028afc5aa4778623977519a98db115ee8a4c9773f29b730",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G23/frame_00009.jpg",
+      "source_sha256": "2b4014063f5fc2a86fb01e17fe39f60ad2ac9ad8026e62ad1f07d1885e531a35",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_05/G23/A03/G23-A03-F00009.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G23-A03-F00009/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G23-A03-F00009",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_05/G23/A03/G23-A03-F00009.png",
+      "crop_sha256": "359814cd44b0ce20f028afc5aa4778623977519a98db115ee8a4c9773f29b730"
+    },
+    {
+      "candidate_id": "G23-A04-F00014",
+      "part": 5,
+      "group": "G23",
+      "anchor": "A04",
+      "original_states": [
+        "U",
+        "N"
+      ],
+      "review_states": [
+        "U",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "3bc2e68ee0a707d8452b7992175540925cc09766859288bb14e4733bda36540e",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G23/frame_00014.jpg",
+      "source_sha256": "9419f5b4db3abf9e086a96f2835da6a5261d469d2ba6ecfb6c5bce09ed4c4fa4",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_05/G23/A04/G23-A04-F00014.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G23-A04-F00014/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G23-A04-F00014",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_05/G23/A04/G23-A04-F00014.png",
+      "crop_sha256": "3bc2e68ee0a707d8452b7992175540925cc09766859288bb14e4733bda36540e"
+    },
+    {
+      "candidate_id": "G24-A01-F00010",
+      "part": 5,
+      "group": "G24",
+      "anchor": "A01",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "d8edf7b35ecc1ff99c990fc846d97df6015bd3d4b56eac17f88f8b581e03d17d",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G24/frame_00010.jpg",
+      "source_sha256": "adbf7c586f9b88abddb108f540e3ff909554190618279e951f1d56f5b0092753",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_05/G24/A01/G24-A01-F00010.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G24-A01-F00010/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G24-A01-F00010",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_05/G24/A01/G24-A01-F00010.png",
+      "crop_sha256": "d8edf7b35ecc1ff99c990fc846d97df6015bd3d4b56eac17f88f8b581e03d17d"
+    },
+    {
+      "candidate_id": "G24-A01-F00011",
+      "part": 5,
+      "group": "G24",
+      "anchor": "A01",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "review_states": [
+        "N",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "aa5e5e800cfc4df076570d223702dfeb04a848f6bd79faeb27e711a0eaed8b98",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G24/frame_00011.jpg",
+      "source_sha256": "4f0b73876a432ccf7c0c7b39d1f7e92ac960e8245443cd136096dd5dcda194dc",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_05/G24/A01/G24-A01-F00011.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G24-A01-F00011/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G24-A01-F00011",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_05/G24/A01/G24-A01-F00011.png",
+      "crop_sha256": "aa5e5e800cfc4df076570d223702dfeb04a848f6bd79faeb27e711a0eaed8b98"
+    },
+    {
+      "candidate_id": "G25-A01-F00002",
+      "part": 5,
+      "group": "G25",
+      "anchor": "A01",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "0d568e01ea7b048981b7107d71d9270a9329fdd52a55b31f1142fc667f43c747",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G25/frame_00002.jpg",
+      "source_sha256": "55a712036630b696d584d7f1bad2394a8cd70aa03e4ab887abeaf634d9298aa2",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_05/G25/A01/G25-A01-F00002.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G25-A01-F00002/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G25-A01-F00002",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_05/G25/A01/G25-A01-F00002.png",
+      "crop_sha256": "0d568e01ea7b048981b7107d71d9270a9329fdd52a55b31f1142fc667f43c747"
+    },
+    {
+      "candidate_id": "G25-A01-F00004",
+      "part": 5,
+      "group": "G25",
+      "anchor": "A01",
+      "original_states": [
+        "N",
+        "P"
+      ],
+      "review_states": [
+        "N",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "230500e17c2883ae1927a043962cb4a01d5f2f406ae6fd12a35d0d89da094b32",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G25/frame_00004.jpg",
+      "source_sha256": "6402bc55ce9fcee7cedc245a0fcfbf7a7d5646ff169e30456838c661e75f0ad4",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_05/G25/A01/G25-A01-F00004.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G25-A01-F00004/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G25-A01-F00004",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_05/G25/A01/G25-A01-F00004.png",
+      "crop_sha256": "230500e17c2883ae1927a043962cb4a01d5f2f406ae6fd12a35d0d89da094b32"
+    },
+    {
+      "candidate_id": "G26-A01-F00003",
+      "part": 5,
+      "group": "G26",
+      "anchor": "A01",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "4c7e895e310696c11c66284ab6bafff48449565230b9d50bfbf291ecb610fd13",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00003.jpg",
+      "source_sha256": "546cc21110135d09e07d6854eb3a844aa59f3915d4b92039ef66c126831b8441",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_05/G26/A01/G26-A01-F00003.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G26-A01-F00003/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G26-A01-F00003",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_05/G26/A01/G26-A01-F00003.png",
+      "crop_sha256": "4c7e895e310696c11c66284ab6bafff48449565230b9d50bfbf291ecb610fd13"
+    },
+    {
+      "candidate_id": "G26-A02-F00007",
+      "part": 5,
+      "group": "G26",
+      "anchor": "A02",
+      "original_states": [
+        "U",
+        "N"
+      ],
+      "review_states": [
+        "U",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "5c779f220c0e324b4a0907bb0209e98c8770765fa7c89303663c101434aa55bb",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00007.jpg",
+      "source_sha256": "b55203f778779bf10fd93ac9abfd43735e198705e2b60487dbcab84f429248ad",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_05/G26/A02/G26-A02-F00007.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G26-A02-F00007/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G26-A02-F00007",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_05/G26/A02/G26-A02-F00007.png",
+      "crop_sha256": "5c779f220c0e324b4a0907bb0209e98c8770765fa7c89303663c101434aa55bb"
+    },
+    {
+      "candidate_id": "G26-A03-F00015",
+      "part": 5,
+      "group": "G26",
+      "anchor": "A03",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "b38d60a3ca7a1973299199c0eb7240fdc596bed9967b4da61be567d4fcf7dee6",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G26/frame_00015.jpg",
+      "source_sha256": "f0d993c52db78b393c974577fa702ddd14ed2332320a21c6ee80b869c29238bb",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_05/G26/A03/G26-A03-F00015.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G26-A03-F00015/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G26-A03-F00015",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_05/G26/A03/G26-A03-F00015.png",
+      "crop_sha256": "b38d60a3ca7a1973299199c0eb7240fdc596bed9967b4da61be567d4fcf7dee6"
+    },
+    {
+      "candidate_id": "G27-A01-F00016-R02",
+      "part": 5,
+      "group": "G27",
+      "anchor": "A01",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "review_states": [
+        "N",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Tay khoanh có hình học rõ, phần bàn/tay còn lại không có vật mơ hồ. Đề xuất phone N; giữ looking P. Không mở rộng thành mọi crop khoanh tay đều N.",
+      "v10_comparators": [
+        "NB-0013",
+        "NB-0015"
+      ],
+      "original_crop_sha256": "cab9d96c49545faa7e85204490602c9f4b39ff7bc41f2f4b80641f21300e7b32",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G27/frame_00016.jpg",
+      "source_sha256": "5310e5e9b3e40d07de1f233298fb6d0061a449a183548eb17477c6c44e43eb09",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_05/G27/A01/G27-A01-F00016-R02.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G27-A01-F00016-R02/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G27-A01-F00016-R02",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_05/G27/A01/G27-A01-F00016-R02.png",
+      "crop_sha256": "cab9d96c49545faa7e85204490602c9f4b39ff7bc41f2f4b80641f21300e7b32"
+    },
+    {
+      "candidate_id": "G27-A02-F00022",
+      "part": 5,
+      "group": "G27",
+      "anchor": "A02",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "review_states": [
+        "P",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner quyết định ngày 17/10: phone trong crop được owner gán cho anchor; P/P.",
+      "v10_comparators": [],
+      "original_crop_sha256": "0b8841b158eaaec70b2eda0f2c2f73dbca5f8d205b41b39a673c50f54759c996",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G27/frame_00022.jpg",
+      "source_sha256": "bca503b57f2813996188d8659e09fb2fa44f1319147c2dd4c1e39ae636c0fff3",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_05/G27/A02/G27-A02-F00022.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G27-A02-F00022/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G27-A02-F00022",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_05/G27/A02/G27-A02-F00022.png",
+      "crop_sha256": "0b8841b158eaaec70b2eda0f2c2f73dbca5f8d205b41b39a673c50f54759c996"
+    },
+    {
+      "candidate_id": "G27-A03-F00031",
+      "part": 5,
+      "group": "G27",
+      "anchor": "A03",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "review_states": [
+        "P",
+        "P"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner quyết định ngày 17/10: phone trong crop được owner gán cho anchor; P/P.",
+      "v10_comparators": [],
+      "original_crop_sha256": "49c6c57fbe138999e619cdaa49db9e26e58daa8ff0e45f11c9689859a1bf55ce",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G27/frame_00031.jpg",
+      "source_sha256": "1a5050fe48c1aa0a708f3c4bf9416aba3c46477bab0261542cee96a43d3414c2",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_05/G27/A03/G27-A03-F00031.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G27-A03-F00031/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G27-A03-F00031",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_05/G27/A03/G27-A03-F00031.png",
+      "crop_sha256": "49c6c57fbe138999e619cdaa49db9e26e58daa8ff0e45f11c9689859a1bf55ce"
+    },
+    {
+      "candidate_id": "G27-A04-F00043",
+      "part": 5,
+      "group": "G27",
+      "anchor": "A04",
+      "original_states": [
+        "N",
+        "N"
+      ],
+      "review_states": [
+        "N",
+        "N"
+      ],
+      "action": "keep",
+      "decision_status": "owner_approved",
+      "reason": "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "v10_comparators": [],
+      "original_crop_sha256": "aebb8b5976d5267f73de93ae5a56e82fe06f3d7d3d45435b38b1ea5b25f59257",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G27/frame_00043.jpg",
+      "source_sha256": "c102469691aac7d04f1c1efaa62daee0b0c955155d66f31dbdb7f4bde78d6e36",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_05/G27/A04/G27-A04-F00043.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G27-A04-F00043/input.png",
+      "included_in_proposed_batch": true,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split",
+      "original_candidate_id": "G27-A04-F00043",
+      "accepted_crop_path": "data/interim/frame-crop-accepted-20261017/crops/part_05/G27/A04/G27-A04-F00043.png",
+      "crop_sha256": "aebb8b5976d5267f73de93ae5a56e82fe06f3d7d3d45435b38b1ea5b25f59257"
+    }
+  ],
+  "excluded": [
+    {
+      "candidate_id": "G14-A10-F00018",
+      "part": 3,
+      "group": "G14",
+      "anchor": "A10",
+      "original_states": [
+        "P",
+        "N"
+      ],
+      "review_states": [
+        "U",
+        "N"
+      ],
+      "action": "withhold",
+      "decision_status": "owner_excluded",
+      "reason": "Vật anchor cầm là U, đồng thời crop giữ thiết bị/người bên cạnh khá nổi bật. Khung thử hẹp hơn vẫn dính thiết bị và cắt sát tay. Đề xuất tạm loại khỏi đợt nhập này; U/N là nhận xét nếu giữ, không phải crop đã đạt QA.",
+      "v10_comparators": [
+        "NC-003"
+      ],
+      "original_crop_sha256": "61a92b79c90565ff9a6aa7cafcce9dacb9cc8f50ddc805dcca8fcfb8afe1712e",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G14/frame_00018.jpg",
+      "source_sha256": "08b4779b4c8795b6a438b510178de250af3c65c3eea348c67b20dc2c8a515a1b",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_03/G14/A10/G14-A10-F00018.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G14-A10-F00018/input.png",
+      "included_in_proposed_batch": false,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split"
+    },
+    {
+      "candidate_id": "G17-A01-F00012",
+      "part": 3,
+      "group": "G17",
+      "anchor": "A01",
+      "original_states": [
+        "U",
+        "P"
+      ],
+      "review_states": [
+        "U",
+        "U"
+      ],
+      "action": "withhold",
+      "decision_status": "owner_excluded",
+      "reason": "Ngồi nghiêng không đủ chứng minh nhìn ngoài vùng bài; ảnh xa/mờ chưa tách chắc hướng đầu. Đề xuất tạm loại vì evidence yếu, không khẳng định ảnh làm giảm kết quả model. U/U chỉ lưu bất định, không phải nhãn để nhập.",
+      "v10_comparators": [],
+      "original_crop_sha256": "4dc88292db41aec2c729378e9cc7af67f38b486e78a92a0d16c3a11996f1a1d5",
+      "source_path": "data/interim/frame-crop-audit-20261016/frames/G17/frame_00012.jpg",
+      "source_sha256": "16f2e027fe9e4ee27e5cd541dafa0789ee5a6737c2677be2958888b37d6fa997",
+      "review_crop_path": "data/interim/frame-crop-audit-20261016/crops/part_03/G17/A01/G17-A01-F00012.png",
+      "review_input_path": "data/interim/frame-crop-audit-20261016/candidates/G17-A01-F00012/input.png",
+      "included_in_proposed_batch": false,
+      "usage": "review_only",
+      "split": null,
+      "enrollment_approved": false,
+      "owner_approved": true,
+      "approval_scope": "crop geometry, labels and batch membership; no enrollment/split"
+    }
+  ]
+}

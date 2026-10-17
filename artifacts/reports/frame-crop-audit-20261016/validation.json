@@ -1,0 +1,55 @@
+{
+  "status": "PASS technical checks; Draft visual batch, owner acceptance pending",
+  "source_frames": 536,
+  "source_groups": 27,
+  "source_boards_reviewed": 72,
+  "selected_crops": 100,
+  "selected_frames": 91,
+  "local_anchors": 72,
+  "crops_per_part": {
+    "1": 24,
+    "2": 21,
+    "3": 21,
+    "4": 19,
+    "5": 15
+  },
+  "draft_states_phone_looking": {
+    "UN": 13,
+    "UP": 17,
+    "NN": 30,
+    "NP": 9,
+    "NU": 1,
+    "PN": 22,
+    "PP": 7,
+    "PU": 1
+  },
+  "max_crops_per_local_anchor": 3,
+  "rejected_after_crop_qa": 11,
+  "inactive_candidate_revisions": 32,
+  "checks": {
+    "source_file_and_rgb_sha": true,
+    "source_geometry_bounds_and_containment": true,
+    "native_crop_exact_pixels_and_sha": true,
+    "input224_exact_preview_and_sha": true,
+    "review_only_no_canonical_labels_or_splits": true,
+    "all_frames_in_audit": true,
+    "exact_crop_rgb_duplicates": []
+  },
+  "parent_metadata_sha256": {
+    "checksums.sha256": "07c0b73a0622371ee3d649c7e42eefbeebfe979ebfb6be90b4329b7540d34f67",
+    "crop-policy.json": "28bc0e87ca7c5912c77a44acd038cc290732c0aff6c5dca83af61f9e3d161173",
+    "dataset-card.md": "e674d79e3f0b6e716948432a078ba6b0fb8a4005b801500fd55ce9f8490a7e41",
+    "manifest.jsonl": "6d8f47bb6fffc9b79336f3834e1d8fec6088311fb099079e65814b8b55c58bfc",
+    "release.json": "d66fdcbc2b3d075d2bf089dd990f235cb9e12b01ee4e66af79b283b8c4e6d27f",
+    "review-ledger.jsonl": "36e384f0f18360fc9fc33fd48976e4b74938f89223f513a0881d8a7e99bb5821",
+    "selection.jsonl": "3037bb86f7d44c77b0b08195af4fcaec0439e3a41077d2f7a68db106264bcf47",
+    "split-assignment.jsonl": "fb96a3770f7207220116888958e29dd884ec2f600813939a2bf49cd0de41ca80",
+    "target-encoding.json": "b2b46fcea7c66206e3ee757bdadaaaf13dc6f1463a683a6d8fc5f879d145f190"
+  },
+  "no_media_from_existing_test_or_reserve_opened": true,
+  "limitations": [
+    "Không kiểm near-duplicate toàn bộ V10; mapping lớp/session chưa có.",
+    "Nhãn P/N/U là đề xuất, không phải ground truth hoặc kết luận gian lận.",
+    "Không chứng minh không còn anchor hữu ích trong các frame không chọn."
+  ]
+}

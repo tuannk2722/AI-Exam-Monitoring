@@ -4,6 +4,12 @@ Index theo đối tượng; không là bảng metrics hoặc backlog. Hồ sơ �
 
 ## Releases và nghiên cứu dữ liệu
 
+[Audit và crop 5 ZIP frames ngày 16–17/10](frame-crop-audit-20261016/README.md): xem 536 frame/27 video, bàn giao 100 crop Draft theo video/anchor; gallery, pixel QA và provenance, chưa enrollment.
+
+[Chốt 98 crop ngày 17/10](frame-crop-audit-20261016/OWNER-ACCEPTED-20261017.md): owner đã nghiệm thu crop/nhãn và membership, gồm G06 R02 và ba quyết định nhãn cuối; chưa enrollment. [Đối chiếu trước nghiệm thu](frame-crop-audit-20261016/OWNER-REVIEW-20261017.md) giữ làm lịch sử.
+
+[Chốt crop additional.zip ngày 17/10](frame-crop-additional-20261017/README.md): sau review owner giữ 172 crop, loại 9 và thay 3 bằng 4 geometry; đã nghiệm thu crop/nhãn/membership, chưa enrollment. Cùng bộ 98 trước đó là 270 crop đã chốt.
+
 [Tổng hợp accepted và coverage ngày 16/10](E004-accepted-coverage-20261016/README.md): owner approve đủ 13 NC; hợp nhất 345 crop mới (240 + 92 + 13), ưu tiên toàn bộ cho train. Dự kiến 1.061 train nếu đủ gate; 78 phone P mới tập trung ở 3 parent videos, chưa chứng minh giải quyết lỗi RC1. Có ledger, receipt và kiểm overlap; chưa canonical release/train.
 
 [Chốt bộ mới và bổ sung theo vòng đỏ ngày 16/10](E004-new-bundle-closure-20261016/README.md): chốt 92 crop theo owner, sửa 9 cặp nhãn; 14 vị trí khoanh đỏ bao phủ bằng 13 crop Draft mới và NA-008 đã có. Gallery hiện hành phân biệt phần đã chốt và phần bổ sung.

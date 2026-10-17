@@ -1,0 +1,166 @@
+{
+  "parent": "data/processed/pilot-b/pilot-b-20261016-v10",
+  "parent_records": 1553,
+  "scope": "Metadata-only đối chiếu exact source SHA và tên thư mục; chưa near-duplicate đối với toàn bộ V10.",
+  "matches": [
+    {
+      "group": "G01",
+      "folder_matches": 0,
+      "exact_source_sha_frames": []
+    },
+    {
+      "group": "G02",
+      "folder_matches": 0,
+      "exact_source_sha_frames": []
+    },
+    {
+      "group": "G03",
+      "folder_matches": 0,
+      "exact_source_sha_frames": []
+    },
+    {
+      "group": "G04",
+      "folder_matches": 0,
+      "exact_source_sha_frames": []
+    },
+    {
+      "group": "G05",
+      "folder_matches": 0,
+      "exact_source_sha_frames": []
+    },
+    {
+      "group": "G06",
+      "folder_matches": 0,
+      "exact_source_sha_frames": []
+    },
+    {
+      "group": "G07",
+      "folder_matches": 0,
+      "exact_source_sha_frames": []
+    },
+    {
+      "group": "G08",
+      "folder_matches": 0,
+      "exact_source_sha_frames": []
+    },
+    {
+      "group": "G09",
+      "folder_matches": 0,
+      "exact_source_sha_frames": []
+    },
+    {
+      "group": "G10",
+      "folder_matches": 0,
+      "exact_source_sha_frames": []
+    },
+    {
+      "group": "G11",
+      "folder_matches": 0,
+      "exact_source_sha_frames": []
+    },
+    {
+      "group": "G12",
+      "folder_matches": 0,
+      "exact_source_sha_frames": []
+    },
+    {
+      "group": "G13",
+      "folder_matches": 0,
+      "exact_source_sha_frames": []
+    },
+    {
+      "group": "G14",
+      "folder_matches": 0,
+      "exact_source_sha_frames": []
+    },
+    {
+      "group": "G15",
+      "folder_matches": 0,
+      "exact_source_sha_frames": []
+    },
+    {
+      "group": "G16",
+      "folder_matches": 0,
+      "exact_source_sha_frames": []
+    },
+    {
+      "group": "G17",
+      "folder_matches": 0,
+      "exact_source_sha_frames": []
+    },
+    {
+      "group": "G18",
+      "folder_matches": 0,
+      "exact_source_sha_frames": []
+    },
+    {
+      "group": "G19",
+      "folder_matches": 0,
+      "exact_source_sha_frames": []
+    },
+    {
+      "group": "G20",
+      "folder_matches": 0,
+      "exact_source_sha_frames": []
+    },
+    {
+      "group": "G21",
+      "folder_matches": 0,
+      "exact_source_sha_frames": []
+    },
+    {
+      "group": "G22",
+      "folder_matches": 0,
+      "exact_source_sha_frames": []
+    },
+    {
+      "group": "G23",
+      "folder_matches": 0,
+      "exact_source_sha_frames": []
+    },
+    {
+      "group": "G24",
+      "folder_matches": 0,
+      "exact_source_sha_frames": []
+    },
+    {
+      "group": "G25",
+      "folder_matches": 0,
+      "exact_source_sha_frames": []
+    },
+    {
+      "group": "G26",
+      "folder_matches": 0,
+      "exact_source_sha_frames": []
+    },
+    {
+      "group": "G27",
+      "folder_matches": 0,
+      "exact_source_sha_frames": []
+    }
+  ],
+  "visual_scene_hints_not_confirmed": [
+    [
+      "G01",
+      "G08",
+      "G10",
+      "G19"
+    ],
+    [
+      "G04",
+      "G11"
+    ],
+    [
+      "G18",
+      "G20"
+    ],
+    [
+      "G22",
+      "G23"
+    ]
+  ],
+  "owner_direction": "Owner trả lời 17/10/2026: chưa có mapping lớp/buổi; giữ nhóm theo video trước.",
+  "independence_proven": false,
+  "cross_video_person_identity_inferred": false,
+  "limitation": "Không trùng exact SHA hoặc folder không chứng minh mới/độc lập; nguồn có thể resize, đổi tên hoặc cùng phòng."
+}

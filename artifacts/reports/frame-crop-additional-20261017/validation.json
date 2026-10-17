@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "crop_count": 180,
+  "videos": 19,
+  "local_anchors": 172,
+  "marked_frames": 187,
+  "states": {
+    "NP": 22,
+    "UP": 11,
+    "NN": 99,
+    "UN": 37,
+    "NU": 2,
+    "PN": 9
+  },
+  "exact_source_crop_and_input_parity": true,
+  "duplicate_crop_hashes": 0,
+  "exact_duplicates_with_accepted_98": 0,
+  "review_index_sha256": "99d24a4518985da6c20df1ede900b8bc08067311634b08942e649a3c26209f61",
+  "zip_sha256": "4cf26662d366c33127c1c851fd01ed4e9dbd7e0b12f72b0dfba52c88e5c1e713",
+  "owner_acceptance": false,
+  "enrollment_performed": false
+}

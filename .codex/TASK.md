@@ -1,29 +1,24 @@
-# FIX-CI-DERIVED-CROP-TORCH-GUARD-20261016 — Thêm guard ML_AVAILABLE cho test crop_path trong test_derived_crop.py
+﻿# FRAME-CROP-ADDITIONAL-CLOSURE-20261017 — Chốt review owner
 
-- Trạng thái: hoàn tất; phạm vi tests/test_derived_crop.py.
+- Trạng thái: hoàn tất. Owner đã duyệt mặc định và giao quyền giải quyết các ngoại lệ ít; không còn mục cần hỏi lại.
 
-## Yêu cầu và hiện trạng
-- User goal: khắc phục lỗi GitHub Actions fail tại bước `python -m unittest discover -s tests -q` trong job `quality` do `ModuleNotFoundError: No module named 'torch'`.
-- Behavior trước: `tests/test_derived_crop.py` gọi trực tiếp `from ai_exam_monitoring.training.data import crop_path` trong `test_import_integrity_and_native_guard`, kéo theo `import torch` ở môi trường base/dev (nơi cố tình không cài PyTorch theo docs/development.md).
-- Behavior sau: Tách kiểm tra consumer `crop_path` sang test method riêng có guard `@unittest.skipUnless(ML_AVAILABLE, ...)`, giúp job `quality` chạy đầy đủ suite mà không bị crash vì thiếu torch.
+## Inputs và phạm vi
 
-## Quyết định và inputs
-- Quyết định: Tuân thủ quy định tại docs/development.md dòng 58-59 ("CI quality dùng base/dev, classifier job dùng Torch CPU/training + preservation fixtures. Base skip đúng tests cần Torch").
-- Inputs: tests/test_derived_crop.py, tests/test_source_review.py, .github/workflows/ci.yml.
+- README có bảng 34 ID owner nêu; 146 crop còn lại approved. Snapshot: artifacts/reports/frame-crop-additional-20261017/owner-review-input.md.
+- Parent review-index.json gồm 180 crop; frame gốc và bộ 98 đã nghiệm thu giữ nguyên. Đã đọc AGENTS/index/status/data, kiểm Git/files và semantics.
+- Không đổi contract/spec, V10, assignment/split, train hoặc test.
 
-## Outputs và vòng đời
-- Source/tests: tests/test_derived_crop.py được cập nhật.
-- Không sửa spec hay contracts hệ thống; không tạo scratch dư thừa.
+## Kết quả và bảo toàn
 
-## Contract impact và checks
-- Contract impact: Không thay đổi contract — không sửa spec. Giữ nguyên behavior của training/data.py và data contracts.
-- Checks:
-  - unittest discover trong môi trường có torch (local .venv): tất cả 165 tests PASS.
-  - simulation không có torch: test_derived_crop_path_consumer skipped, test_import_integrity_and_native_guard PASS.
-  - ruff check src tests scripts: PASS.
-  - compileall src tests scripts: PASS.
-  - scripts/check_repo.py --require-git: PASS.
+- Chốt 172 crop: loại 7 dấu * do looking chưa đủ bằng chứng và 2 crop G06 dính chữ; thay 3 crop bằng 4 khung cắt, giữ 168 khung gốc.
+- Receipt và validation: artifacts/reports/frame-crop-additional-20261017/owner-accepted.json, owner-accepted-validation.json. Kết luận/từng ID trong README cùng thư mục; worksheet close_review.py tái dùng source_review API.
+- Gallery/gói trong thư mục data hiện có: data/interim/frame-crop-additional-20261017/accepted.html, accepted-172.zip. Chỉ thêm 4 candidate geometry; dùng lại crop/input cũ cho phần giữ.
+- Không mutate ledger, gallery, ZIP Draft hoặc bộ 98 đã pin. Đã dọn owner-qa và bytecode của worksheet sau bảo toàn source, crop/input và receipt cuối.
 
-## Checkpoint và bàn giao
-- Cập nhật tests/test_derived_crop.py và .codex/TASK.md.
-- Đã hoàn tất các bước kiểm tra, tiến hành commit và push theo yêu cầu của user.
+## Kiểm tra và bàn giao
+
+- 172 crop/source/input parity, hash/CRC/membership ZIP, 344 local links: PASS.
+- 146 approval mặc định và các nhãn owner ghi rõ khớp receipt; ID loại/thay không còn trong accepted: PASS.
+- Bộ 98 giữ hashes; không trùng exact crop hash giữa 172 và 98: PASS. Tổng hai batch là 270 crop đã nghiệm thu, chưa canonical release.
+- unittest source_review 6/6, derived_crop 2/2: PASS. Ruff worksheet PASS với E501 bỏ qua cho chuỗi văn bản dài; syntax và git diff --check PASS.
+- Không cần vòng review mới; bước enrollment/downstream chỉ thực hiện khi có yêu cầu và đủ gate tương ứng.

@@ -1,0 +1,1474 @@
+[
+  {
+    "candidate_id": "G01-A01-F00001",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      231,
+      147,
+      329,
+      283
+    ],
+    "crop_sha256": "f0e5c0785385331f74280aa52cb93e78ec759713532f4f20248e11e0ee10990e",
+    "draft_reason": "Áo xanh giữa lớp: cúi vào vở, tay/bàn một phần bị che; đối chứng vùng bài.",
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "a7d35c4d47dbd870376773fda03bd7c5a0b72c65bb1f1a06ff877701999dc0bd",
+    "input_sha256": "44b80c683e5ecdcd02569aff1293b6299a64890dce38199609ac7498d24b40df",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      242,
+      155,
+      302,
+      254
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "311e417ead28a9f30a28caed49699d42de4f8a1990ffcd2a67cb40fb90f49cd1",
+    "source_sha256": "d1c9034f00c861af3ef5f483b9b411e119cafe9ad405b9dd641888f4d367d331",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G01-A01-F00009",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      228,
+      145,
+      330,
+      284
+    ],
+    "crop_sha256": "a7a99932d3befca64b2ea935d75a4f7a9eb11a7d440e0f2ddb9112758fde7b02",
+    "draft_reason": "Cùng chỗ áo xanh quay rõ sang trái khỏi vở; giữ bàn làm context.",
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "7ce0610ea9ed39cf97020292bb8df826471b3abca3e23e283000a24bbede9b8e",
+    "input_sha256": "b80be0311607eb1bda0ff1dbca1b04432a0784f1859235dae7fd37809a6fdac7",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      239,
+      153,
+      304,
+      256
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "6c6b4fba4935572d37c6e199145a79d55478605191723ec97cf1f566f39f72b3",
+    "source_sha256": "20acd311f10deb4e44bee9b01af577e32be5e74a1ee028df54f6192a60acefba",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G01-A02-F00001",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      353,
+      144,
+      464,
+      257
+    ],
+    "crop_sha256": "2bdf3465830d89ba4aa194ea23ce542cc4a475ee19a393c89a804d792f67267d",
+    "draft_reason": "Áo đen bàn bên phải cúi viết; vùng tay nhỏ nên phone U.",
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "d63d925fa7eb38616994d7fc0a0c8e738b43f9e5f755aa87ab74a2a9f9d42103",
+    "input_sha256": "733ebcdd04d43d31a7a2a2b89ecbfa74673eeb4ea22026badff6f6c38cf8bbad",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      365,
+      150,
+      434,
+      241
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "311e417ead28a9f30a28caed49699d42de4f8a1990ffcd2a67cb40fb90f49cd1",
+    "source_sha256": "d1c9034f00c861af3ef5f483b9b411e119cafe9ad405b9dd641888f4d367d331",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G01-A02-F00018",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      352,
+      137,
+      464,
+      259
+    ],
+    "crop_sha256": "1f904b607ed507f9366984a46967164cdc4819553590af34224791ea02fe5656",
+    "draft_reason": "Áo đen bàn phải quay đầu sang trái, thay đổi so tư thế làm bài.",
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "fc62e7509df6e97791029c1b1b1943016a51409d522300adfa8ace7075525ef3",
+    "input_sha256": "41714e1cf1f2572c8f0b630b7347367ae591408e54b4ec1b6251175c7d864cfc",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      365,
+      145,
+      437,
+      242
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "339f45e7252d6386a3cbd9a8573a514ed8a0060362cf74f2be71197c469fc853",
+    "source_sha256": "8c57ccd2110f3aad853a066af9df8f1d1e252ac1228719bea3813009fc2dadca",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G02-A02-F00009",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      190,
+      97,
+      359,
+      349
+    ],
+    "crop_sha256": "13b2f1ba133f704e8d3071b8e3588df73744b6cf5f38e967677e3c7bef8ba7d6",
+    "draft_reason": "Cùng chỗ cúi viết, đối chứng quay ngang; thiết bị nhỏ chưa phân biệt.",
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "30d5344ea582426574b26fe9312dad3667315d3794bb16597ec3e748ee553975",
+    "input_sha256": "fcf56ee6a597d372b8bdbdbcdc4939c03a30a922f24d5c08b35dbb014ec4c7c9",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      200,
+      107,
+      350,
+      327
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "7df14c03c7e952fb10bed0200fc51ec9510559431c2c11da209c5c28cff63ba4",
+    "source_sha256": "c78f295ef69e09bab95abc76419854b9063d8fb04974a4a5d630f00b2400bd37",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G03-A03-F00024",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      208,
+      0,
+      612,
+      360
+    ],
+    "crop_sha256": "32cc1d41bb2abafc9ffe6fc31c3037e30d9f26b86e3504ec32d60d6fa731f717",
+    "draft_reason": "Áo xanh trắng bàn trước: kem và khẩu trang trong tay, nhìn ra camera; context ngoài làm bài.",
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "307d9f8a31588adee8b129b36da47260e432a22e1b84687c9c737cb5d30e9815",
+    "input_sha256": "1b5b0d5afad7ae4cef4c73b8356aca26fb661cb274493e8e9acfcf9277694a7d",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      218,
+      0,
+      592,
+      337
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "1881db32084186b77969d31a9ee06d1e9c08cd9cd6fc6f4376ea1b09b403b745",
+    "source_sha256": "a0253e1980840bb9795b2b5147fd15551603dfc7f354f56a757207208d7b2ee0",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G04-A02-F00014",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      76,
+      8,
+      353,
+      252
+    ],
+    "crop_sha256": "2ed39d85c9e80c2e3414d06e4b75371a67bf92049b2a7c8d139fc53a4bb76b0c",
+    "draft_reason": "Cùng áo khoác tím cúi viết, calculator trên bàn; đối chứng nhìn ngang.",
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "be655f248a85f49e56d2d5d7aa81575279de54cf3266a223abaf089103564af4",
+    "input_sha256": "4c75f47f91c0aed8d9a37fb041f1a713bc108001c3969a019daf0cc6dae597e5",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      90,
+      17,
+      340,
+      206
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "9bfbfd3b1eafca4c6aab6a0878879c6f273ce571cba8e7f86ef676f0716ba44c",
+    "source_sha256": "f9436b18f019b447b55d333e7049ab4c8a06061991c0f8f9c706c1fe190bb486",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G04-A02-F00014-R02",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      146,
+      16,
+      329,
+      200
+    ],
+    "crop_sha256": "9d9c8aa31284d3f2c5e45b94487c2666d77a7a5b7ecef843ebbde04b39a6b10b",
+    "draft_reason": "Cùng áo khoác tím cúi viết, calculator trên bàn; đối chứng nhìn ngang.",
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "688dc970fd2df1f4b5649895f3641a601b2e1bc8ddc0b8f53b0301579b761774",
+    "input_sha256": "e86a69708fc0c652e373f274aa73ee184a3f234f5dd8869e929abff0a51cd445",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      154,
+      25,
+      284,
+      175
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "9bfbfd3b1eafca4c6aab6a0878879c6f273ce571cba8e7f86ef676f0716ba44c",
+    "source_sha256": "f9436b18f019b447b55d333e7049ab4c8a06061991c0f8f9c706c1fe190bb486",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G04-A02-F00088",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      139,
+      108,
+      298,
+      319
+    ],
+    "crop_sha256": "3fd89dd0f55a36704bd5d5af0a4f4e030847444933c97d2962221d66d6605e37",
+    "draft_reason": "Áo khoác tím giữa dãy quay sang trái rõ; tay và thiết bị chưa đủ phone negative.",
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "ff62bd3ba03c5f426b4328e97f6c593e52b76e2d38154c8816312374dae3e5a5",
+    "input_sha256": "3b5efa3022ce10054b4fafca8a4fc7b538f8651918fde4e2a4532c66d5981d3c",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      151,
+      120,
+      287,
+      286
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "1f1191888558bf154658269dbab1f8cb9bc1579951507f530eaa5b25a828de09",
+    "source_sha256": "68c490e87434115655d19df102b5b2d23a7e3bb90db5f8d4793796a653fc1acd",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G04-A03-F00074",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      301,
+      146,
+      480,
+      360
+    ],
+    "crop_sha256": "dc4b0a758df041a738ca24dab0f0bb2dc8e99cd2daf164f5412ebf2f49741621",
+    "draft_reason": "Áo hoodie xanh hàng trước nhìn sang trái khỏi giấy, máy tính trên bàn.",
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "25976d66c478f0199051a65981ef1d00d0e75f7919caf9363701dbee056e574d",
+    "input_sha256": "0ca4b5eebc3d6d9d755ea980040b27ef565bcf12bd957b44d75f57972dd040c3",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      312,
+      157,
+      469,
+      342
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "edeaca88046fc74fc714592a0ceda16e8772e0b96bac0f5efa78fef53a036444",
+    "source_sha256": "64b9df4985fddd424ff926dd92702451beb781d70e8fc6d4addade0a7f81089b",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G04-A04-F00018",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      251,
+      146,
+      418,
+      322
+    ],
+    "crop_sha256": "3aa8f703e7a57b5ba99caaa36e25ba6bcc8f689f82d39fbd6814934a0cab2dc3",
+    "draft_reason": "Áo đen chữ màu viết trên giấy, calculator nằm cạnh vở.",
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "a7f5222ffc672d2b20ca1806ee061487f3cb4e89d16ceb976ddbd37acfdbb76c",
+    "input_sha256": "dbe2a2b274babb97494ea4643e281bdaf5b3ee58ca690bbe2fafba9349787fc3",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      264,
+      157,
+      393,
+      278
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "6d8f428bacff545a05ab424dd1e28ff1a37951e4f2b972f294aa7b617f5f4b4a",
+    "source_sha256": "44798360ff105da3d3ebcbcb5a8536ff89c542c206edb12ba1dffbe3b5c38f35",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G04-A04-F00062",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      42,
+      162,
+      207,
+      318
+    ],
+    "crop_sha256": "f424899c86c9157aaf4c64aa1c48d2cc9e8e19a6abf99825923a5212a00bb854",
+    "draft_reason": "Áo đen chữ màu đưa máy tính thấy phím lên bàn; hướng mắt chưa đủ kết luận.",
+    "draft_states": [
+      "N",
+      "U"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "28a3a28073f6cbc8ff2d007886dd5e0665b73033457a76ad0845752ec8966de5",
+    "input_sha256": "6b7fda78093a110e069bcdbbb98ab9c5f634ff6ee43979d5c499441184b43345",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      55,
+      173,
+      183,
+      283
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "c5bc029cc855eba1e4da80af11ef5d3951e85a26121a1c11ed05b884c180bdba",
+    "source_sha256": "4d7ed586881d93e54b2bf315e6fdf8318713e176afef42e326808e414f339b24",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G05-A01-F00065",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      448,
+      156,
+      640,
+      360
+    ],
+    "crop_sha256": "733ed265ef61b77db2e9edd98e8f399e3d293c1e27be40377a57fc316a760c3d",
+    "draft_reason": "Cùng chỗ quay đầu về người phía sau; đồ trên bàn cần review phone riêng.",
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "93d32542241957ff083b02733ea12a7a241a975cc92ed2ae927f846ee74a63a1",
+    "input_sha256": "d99f6dcc9373e451aac0aaa4ec3382181c37d0c9783b78a2e641ad65e9953926",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      465,
+      169,
+      627,
+      335
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "f5c4efe84da481475db211ce6cec0e8c060bfe804bee898582b81e5d01bbc8da",
+    "source_sha256": "6b73206ce9d301ff792115b1c692482241c9454b1937f946e9d7c4557b2fd48c",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G05-A01-F00100",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      448,
+      151,
+      640,
+      360
+    ],
+    "crop_sha256": "5ae3fc1a1011e8f0126919b3f99f9147c93dbcfb59e8812a34476974919be570",
+    "draft_reason": "Ngẩng khỏi vùng bài, mobile đặt trên bàn trước anchor; giữ đầu và tay đến mép nguồn.",
+    "draft_states": [
+      "P",
+      "P"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "fb918aa4ad28f41fdd2e3f143c7c3545bc5d0d4a7f01937d2c3f907e10397e02",
+    "input_sha256": "7f45a272887a3ff5a41d2a7c5e956687abd82a50dbcb8fd9c6e9d5eb7f2d3baa",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      476,
+      164,
+      640,
+      336
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "1c7f0e4e0172c39db29a696028f9baf1359a45e719b86a68d5b3b8c805f71360",
+    "source_sha256": "c76faedb50e18ec23ebd5deb522c6223d874fc7a6d9d7a747f35d80c9608fc0a",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G05-A02-F00092",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      11,
+      169,
+      180,
+      331
+    ],
+    "crop_sha256": "93c40e6dbf9846d3e62e45d15d411aaa8aff6bd2b1dd7c2b7a997627bd9c8cba",
+    "draft_reason": "Áo đen bàn trái cầm bút, tay chống cằm; vùng bài đủ, không coi bút là phone.",
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "91d9cfe21abfbbb5187bfcc169ea4ec28b0f201fc575ab89630afc9810037661",
+    "input_sha256": "64de132dd7651fc28aed339cc47247f3c0ae1e46a3594d89b83ecdbe2a052cc3",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      23,
+      179,
+      154,
+      296
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "5842dc11b497499b7b4c4b8839ec8e9e69db36f2354cddefbf1fa6582f97f548",
+    "source_sha256": "b062397688885a8dee1f21a5d17cce16bd70bc917d20e4cddaf21efb25e989f7",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G06-A02-F00016",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      0,
+      98,
+      178,
+      354
+    ],
+    "crop_sha256": "3defd6b28bf145eaffe63bc5532f2a89ced34105e5d2e06bf0ea540e36af3df6",
+    "draft_reason": "Cùng chỗ nhìn ngang khỏi giấy, mobile vẫn trên bàn; hiệu ứng nguồn cần review.",
+    "draft_states": [
+      "P",
+      "P"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "40ac328124cdb1163786262e5b10a0a2cb8e768f89dd160b2f25a48ec8d9cba6",
+    "input_sha256": "4d1ea85411c7379f1410f78aafeb5695591e9d202da898738be4da335081c73b",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      0,
+      107,
+      162,
+      291
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "3dd0e88679d95a8de232609a7f6aa131468633ead79f017c3eb51a0a8832f632",
+    "source_sha256": "4b674dd1d504d077d5dc7e03b522e2225dbd7f7562aa194ce32f5e266e2107cb",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G07-A02-F00031",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      108,
+      0,
+      530,
+      360
+    ],
+    "crop_sha256": "0f3744672ce0f7070fede92153d85f017dc79f4c89cb381d5898e59651878f48",
+    "draft_reason": "Kính, áo có cổ xanh, vẽ bằng bút trên bìa; giữ bàn và cả hai tay.",
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "8a1bde0401bbabdb074aec8b5d40ce4b3a7301abdf393155c698622243bb05ec",
+    "input_sha256": "17e6b511de5a37eabc6097ef744ff402b0cfd2729a4dadad48ef47eb668bc17e",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      125,
+      0,
+      510,
+      345
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "7da5ae803acdb9a806ceddc406bf5f3026845205c01f6c0f00c6da064d3da6a5",
+    "source_sha256": "782907cbdafb60b98998de5d58998673752d4e9723889ad3217ce107bb99c02a",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G08-A01-F00009",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      233,
+      194,
+      342,
+      317
+    ],
+    "crop_sha256": "55c604330442fb6d368aa655093275be72e84a54d93d6156af42c5ecf4ddbfc2",
+    "draft_reason": "Áo xanh trắng bàn trước giữa quay trái khỏi giấy; phone U do kích thước tay nhỏ.",
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "6914a26e9d404109262620c0d312591debeaedce78737b3b0733727935e8fd8b",
+    "input_sha256": "e22e763289272d0d60c0370e4b7290f9ce6de98cf7564c2a5e214c29a526764c",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      245,
+      205,
+      321,
+      291
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "e7df2653f4ae6f20356e2efa1f228d28fd60a2803994c1b5f28436d76ba2ce98",
+    "source_sha256": "f3d8bb7d0e52cff0d9d6f1517a9c3ae2315f539d12ee56108854840771188b26",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G08-A01-F00014",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      235,
+      193,
+      344,
+      319
+    ],
+    "crop_sha256": "ebdff27049b614381b6bd0c4d364695122caf7b29b6ea6be0889a1a369ee4514",
+    "draft_reason": "Cùng chỗ cúi vào trang trước mặt, đối chứng quay trái.",
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "7b2d4c3154b6f0ca2247512df956ecaf0c2ae0093607bd73915cc291cc92ed9a",
+    "input_sha256": "0a32ffceeb413cd18eae72ee92f13994c0228c0079da4157b59cdf6ae3cea1fc",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      247,
+      204,
+      323,
+      295
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "4ab4ae65ad133ee0b1d67052a6e5e08402e305ae1b6dfafca567368974680d43",
+    "source_sha256": "922da099eb34e3cfd528b213bd9f4e98116024701dcc7aacd895c5bdadc8a695",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G10-A02-F00046",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      256,
+      197,
+      350,
+      333
+    ],
+    "crop_sha256": "6492707120dbeee98f447f94048fc1c0628cfb66cb84c7ea53efeed95f60316b",
+    "draft_reason": "Áo xanh bàn giữa ngẩng và đưa tay, hướng ra ngoài trang; phone chưa rõ.",
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "ce68a61c7710ae025895ea6980bea23102f8d76c763d07eed93de0a4bf15325e",
+    "input_sha256": "2fa6e209bd31be2c75fd0733426b59301f2415233f59d8dcfe1b3800efe77ef9",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      268,
+      209,
+      324,
+      293
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "db441e6882712c0a25b21b2e38e584d31e0db6ac6287e171849c1bf5c2aa8449",
+    "source_sha256": "c01e31b54aedeeebee0e12bbe0eb174f5551eb842a064b1f989f173d60341674",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G11-A03-F00063",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      0,
+      167,
+      249,
+      360
+    ],
+    "crop_sha256": "e9a48bcc232c08e14172c6f1370b38819c9167b7748d84e9670d8c2e762191c2",
+    "draft_reason": "Áo xanh trắng bàn trước cầm máy tính thấy phím, nhìn thiết bị trên vùng bài.",
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "ad9c1f27da8870c7a6fa2435f7bca659963548c99bc384a5382d018674a145aa",
+    "input_sha256": "3e731679bcc629acc01ea2101343489e45db25c1d2bc528ceac60a61c3143d67",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      0,
+      179,
+      236,
+      360
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "162c7e98820d5c1e01b63e7bc0e027e2607cc868e0d8803d29d22cf9ccbf5e59",
+    "source_sha256": "739747f5958dd85e7f20bbac84ff5f55a0606f2dee9d9f619ba2f05f991904ec",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G12-A01-F00053",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      279,
+      158,
+      481,
+      358
+    ],
+    "crop_sha256": "6b526b5ee04ac2257ef0f1382ee74d4160e861778bfbd92e90a762f49efaaa08",
+    "draft_reason": "Cùng anchor cầm calculator thấy phím nhưng mobile vẫn trên trang; phân biệt hành vi và presence theo contract.",
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "b6766bc7f2aca89cce5c2048c4e3062e086da78173209c1a23b2d1ca9ff9e698",
+    "input_sha256": "7a4a8c82198f14cc47a6200da86cbf86388e5fa0a0976b38f477272e0db6c656",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      291,
+      170,
+      469,
+      317
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "3ecfc2ffb55a79fff68c32ed77dd2213df1f0989f71b6474e5cf274ac7d6e4f4",
+    "source_sha256": "ee23a654a195cdd74929f18ee1f6581a088a62ef2612e6aa4e537a17f249deaf",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G13-A04-F00008",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      0,
+      9,
+      416,
+      360
+    ],
+    "crop_sha256": "0428736ce55605a9cec17bfb1c5ce1cd2a958cf21c818aa34f624a67fbfef2e8",
+    "draft_reason": "Áo khoác xanh trắng có kẹp tóc cúi viết, calculator thấy phím cạnh tay.",
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "502ae727c83cb49b199558d256e27a60e9ca1199b7432ab805fcc111607f0ca7",
+    "input_sha256": "04a3f71ea79cae3f67a0af80762d83ee9eaba5bd1c6295031e2edc9607a33de2",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      7,
+      20,
+      399,
+      360
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "27f7fb94c291638657c68da239a761f248289ab2a57ec1e34859170d2ad48681",
+    "source_sha256": "6a52436743ad4b91edf33287494cd0c44516af8a0a80d71ec4634dd0fc18b201",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G14-A06-F00014",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      14,
+      32,
+      482,
+      360
+    ],
+    "crop_sha256": "5658c00333ff94e44a80669f987edb4998ba73458f6ad77d1d6bac65ec9bce70",
+    "draft_reason": "Áo thể thao tóc buộc nhìn laptop trong vùng làm việc, calculator trước tay; phone phía sau thuộc người khác.",
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "925b56976081732b1cc2376c812fb05755d19c2163a6151e521ce6abaa0a5725",
+    "input_sha256": "77afa6141d333a370ef4b19865ca8b9178db17c0efb816585a419020ff231b10",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      26,
+      44,
+      323,
+      360
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "978dd5954041cd4fcded13e15959d61875b7aa4364c573c311467a7f60a16beb",
+    "source_sha256": "71e829f913e094c8d3a04e36dcad7ad8c2b917d2a58b211799e0e3a042f18ca4",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G14-A11-F00028",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      183,
+      19,
+      573,
+      360
+    ],
+    "crop_sha256": "f45c2258a027ac3350c222b70e5f8b538150fb6f5a0bac063e150c780882305f",
+    "draft_reason": "Áo trắng tóc buộc gần tường viết khi cầm mobile, calculator hồng tách biệt trên bàn.",
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "532fcab0552135b7de48729077b6b6ca8151317793278a16168c52b753d065c9",
+    "input_sha256": "a5dbdb7c405b4db06de6d3d0e77f658021caece12060469c3e996d3c7579ad33",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      197,
+      31,
+      555,
+      360
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "0b02647a2b3627e911b36cc216eaa316a91fd0df7ee59f3aaafc75ec42122542",
+    "source_sha256": "8210faa063a78258bed24370814bfc7a2d39378baa370580ec13e1fa6bca6a11",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G15-A01-F00001",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      281,
+      227,
+      410,
+      353
+    ],
+    "crop_sha256": "335c5ebdfed2dca46a9eccf4b2e75765c1b79a213d5d98dd7018a90a842c0729",
+    "draft_reason": "Bàn đầu áo xanh trắng cúi viết; hành vi đầu/tay đủ nhận ra nhưng phone không rõ.",
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "9097e63beeabf8c90453d3043818dd1bfed1d59990dedcc1a51a65d295363354",
+    "input_sha256": "fbb45c1b09003a0e8ce085850cca7c7235f82a7c8cd57760fc4f00ee5290f568",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      295,
+      239,
+      375,
+      324
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "b145336a04ebb717f05cca0879aae29edd4b305b45cde201ce58d2c75af942b4",
+    "source_sha256": "c923cc4417e7f1e2bd46903ed78599d86ac12795f7267589c12d2aa20d4b3c66",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G15-A01-F00071",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      277,
+      216,
+      401,
+      346
+    ],
+    "crop_sha256": "5eb74efc35decea880c83638c9329635c832c797d5524a1fdcf30d6572fce8ef",
+    "draft_reason": "Cùng chỗ quay đầu sang trái ra khỏi trang; native hạn chế, giữ cờ review chất lượng.",
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "3c926b423e790d032050421929e1f44790b88e84cb6b8f98bd9672d8510f82e1",
+    "input_sha256": "6bd8dc8e262d733aa2225d31bd955c9e5d5c669f618e61ce3813299115f5b5b4",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      291,
+      228,
+      359,
+      309
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "816ffab100d77955f970de95ca7de7c07571dd18318d5d9de0c432bfdb9d5dfa",
+    "source_sha256": "31e3a5f2f1061a52b3ac8e20aa3e421e9905ad4198f588bc38312b8eb93f7dfb",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G17-A01-F00002",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      54,
+      190,
+      151,
+      326
+    ],
+    "crop_sha256": "cb4b650cc6abf8bb249537e132075bf3cad3ee0c3f4f8bb368cc5641dc6ef6ad",
+    "draft_reason": "Bàn gần camera bên trái cúi vào giấy, giữ tay và vùng bàn.",
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "7b88bd856940d50d37d458f8aca1bb5826cd0d4f6f3a7213ffa68835ecc9c83a",
+    "input_sha256": "8e4beca49f25f0ab424b4a4b69bc9bce3847c8341887d11b46cc55c176aaf8e4",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      65,
+      202,
+      132,
+      286
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "b560ba110828b6d17228202879601ce352de4cc28ed6fd583694636100e0a88a",
+    "source_sha256": "d6fb74465c6471d6ec1805d576663875304bdff5049b70b8d2c5adf6f9355b15",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G20-A01-F00007",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      370,
+      183,
+      640,
+      360
+    ],
+    "crop_sha256": "d81bc6909d1b1f4b5729922479253ee7b76ef9baf0f2309a8cb1f794975cfb2e",
+    "draft_reason": "Cùng chỗ áo xanh lá quay rõ về phía sau trong khi vẫn giữ điện thoại.",
+    "draft_states": [
+      "P",
+      "P"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "02dc8d709ac319f5f128afe2f2a4628c05ddbadc1e51071a438d0b9a2e3ff4bf",
+    "input_sha256": "57a7e13e9b1240ced1b4efbe0c3328ec502f91e91eca3f30ac2b597dfc06f3ec",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      382,
+      196,
+      632,
+      349
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "deab20788b0260b42fe12e1246b7bd48e294a5751a4b70ed6d8afc7080044db7",
+    "source_sha256": "ab40b7db66fa31e27e7a15ce53b6844be58081075ab6e6de28ae17ec37acf808",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G20-A01-F00008",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      371,
+      183,
+      640,
+      360
+    ],
+    "crop_sha256": "bae217878f01ac82e0ea81e03061dc6746f351d4f5c284fc5e0a1fab0aa9fa32",
+    "draft_reason": "Áo xanh lá hàng đầu cúi nhìn điện thoại cầm hai tay.",
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "366d5a321ff5354869ac730987e742a43602ed16dda4ca7d278869681f3db39f",
+    "input_sha256": "a0c08b364138f91f53e6c1068ec73d2137455573831b4477821f8c156b530d80",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      384,
+      195,
+      632,
+      352
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "3aad030e9a1731f29a51ff656e93392db642874c000e31ecd4a1fb37a7ff0ac0",
+    "source_sha256": "45ebc23e4ac9e5b3947ca6b074537a11345996d9acfc6a19e4a4fa5107731d8a",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G22-A01-F00013",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      201,
+      60,
+      457,
+      332
+    ],
+    "crop_sha256": "8fa233c285a6f4ea65e33e43135a85d0e6645b814df6ab877be8b8c073142028",
+    "draft_reason": "Bạn khẩu trang trắng cúi viết, calculator trên vở bên trái; một tay bị khuất nên phone U.",
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "fd3169ee9639b9c09dd7c0d94eabbc80703d7a1d4b2069677926c13d2437cfcb",
+    "input_sha256": "3b5df9ce6ad5287689c8bea760815f4cf94eff5b9fd4c49b1a4e72990c8da4d3",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      213,
+      72,
+      446,
+      293
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "22e603f0ddfa49c6d0ae962cfd61b4356fe76076f6865e22cf0c8646e0fe2eea",
+    "source_sha256": "1d4f4d65c01edf16dd1e31b617ab8ed46ad5824026099b86b5cfdb828da0a9c7",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  },
+  {
+    "candidate_id": "G27-A01-F00016",
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "context_xyxy": [
+      5,
+      325,
+      202,
+      567
+    ],
+    "crop_sha256": "cab9d96c49545faa7e85204490602c9f4b39ff7bc41f2f4b80641f21300e7b32",
+    "draft_reason": "Bạn ngồi trước bên trái khoanh tay nhìn ra trước; giữ cả hai tay và mặt bàn, không có bài đang đọc.",
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "independence_proven": false,
+    "input_pixel_sha256": "4cabb13919ad64b583920abfd64b75ba192d47147b1ad64c2f33923fe3bfe574",
+    "input_sha256": "b957555716fd4594856730dfcd9bbc7662a2f479d12f89b2bac2714d69059276",
+    "input_size": 224,
+    "label_sha256": "",
+    "owner_approved": false,
+    "person_xyxy": [
+      16,
+      337,
+      187,
+      534
+    ],
+    "proposed_role": "unassigned_pending_family_review",
+    "source_member_sha256": "b8eb3471a5af20423073acab03da89d6e063c8fa27f55c77bc81c7153a5e22c6",
+    "source_sha256": "5310e5e9b3e40d07de1f233298fb6d0061a449a183548eb17477c6c44e43eb09",
+    "split": null,
+    "usage": "review_only",
+    "status": "not_in_final_review_batch"
+  }
+]

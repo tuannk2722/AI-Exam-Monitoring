@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "summary": {
+    "total_original": 100,
+    "decision_counts": {
+      "proposed_after_review": 28,
+      "approved_default": 62,
+      "approved_explicit": 10
+    },
+    "proposed_active_count": 98,
+    "actions": {
+      "keep": 97,
+      "recrop": 1,
+      "withhold": 2
+    },
+    "label_changes_including_withheld": 30,
+    "scope": "Review only; no enrollment, split, training, or broader rubric change."
+  },
+  "original_crop_source_input_sha_checked": 100,
+  "owner_snapshot_sha256": "530bd915d601242ecc56eca284c1e414056390892d9e65f81b5c3c30f01a6f86",
+  "original_review_index_sha256": "67bea2de8deac90e00cea191dc5eb880a38d75922818b52a227855c16dd2989e",
+  "v10_ledger_sha256": "36e384f0f18360fc9fc33fd48976e4b74938f89223f513a0881d8a7e99bb5821",
+  "train_only_comparators_checked": 33,
+  "g06_native_roi_input_parity": "PASS",
+  "html_local_references": 374,
+  "html_unique_ids": 134,
+  "gallery_sha256": "7ba33707b28f1c0bbce8467f882f03a4bfa0a5a099ad8719fb13f8c9219c386d",
+  "decision_ledger_sha256": "a3de4a4c7666372ade1dc50f63908b834b10e7cd8ea050d38e00ef97f0bcca91",
+  "enrollment_performed": false
+}
