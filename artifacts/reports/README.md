@@ -48,6 +48,8 @@ Card/manifest/coverage ở package mà pointer chỉ tới; có thể không hi�
 
 ## Experiments
 
+[Thực nghiệm E005 trên Dataset V11 ngày 18/10](e005-v11-adaptation-20261018/README.md): 1 smoke và 4 run đối chứng (`E005-V11-LP`, `E005-V11-S1-AUG`, `E005-V11-AC-L4B1`, `E005-V11-AC-L4`) FINISHED, reload exact parity PASS; `E005-V11-S1-AUG` đạt cao nhất, chưa đồng thời vượt cổng 80/80/20 cho cả hai target; Continue research, test 11 giữ đóng.
+
 [E004 V9 execution freeze](E004-v9-execution-20261013/README.md): matched control/layer4 FINISHED; development evaluation và benchmark hoàn tất, khuyến nghị Continue research, test đóng.
 
 [Phân tích nguyên nhân sau E004](E004-root-cause-20261014/README.md): đối chiếu lịch sử, code và cached scores; phân biệt overfitting, giới hạn dữ liệu/cohort và giả thuyết khắc phục; chưa cấp quyền run/test mới.

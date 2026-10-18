@@ -154,29 +154,67 @@ class AdaptationConfig:
             text(getattr(self, key), key)
         if re.fullmatch(r"[A-Za-z0-9_-]+", self.experiment_id) is None:
             raise ConfigurationError("Unsafe experiment ID")
+        is_v3 = isinstance(self, E005AdaptationConfig)
         fixed = {
             "schema_version": (
-                "matched-adaptation-v2" if isinstance(self, ResearchAdaptationConfig)
-                else "matched-adaptation-v1"
+                ADAPTATION_CONFIG_SCHEMA_V3
+                if is_v3
+                else (
+                    ADAPTATION_CONFIG_SCHEMA_V2
+                    if isinstance(self, ResearchAdaptationConfig)
+                    else ADAPTATION_CONFIG_SCHEMA_V1
+                )
             ),
             "weights_id": "IMAGENET1K_V1",
-            "device": "cpu",
             "optimizer": "AdamW",
-            "transform": "rgb_letterbox_bilinear_v1",
             "target_order": ["phone_use", "looking_around"],
-            "objective": "global_known_normalized_minibatch_bce_v1",
             "bn_policy": "all_eval_affine_follows_model_policy",
             "sampling": "uniform_permutation_no_drop_v1",
-            "checkpoint_policy": "atomic_epoch_boundary_v1",
         }
         for key, value in fixed.items():
             if getattr(self, key) != value:
                 raise ConfigurationError(f"Unsupported {key}")
-        if self.model not in {"resnet18_matched_control", "resnet18_layer4"}:
-            raise ConfigurationError("Unsupported adaptation model")
-        scopes = {"smoke", "research"} if isinstance(self, ResearchAdaptationConfig) else {
-            "smoke", "promotion"
-        }
+        if is_v3:
+            if self.device not in {"cpu", "auto", "cuda"}:
+                raise ConfigurationError("Unsupported device")
+            if self.transform not in {
+                "rgb_letterbox_bilinear_v1",
+                "dual_roi_anchor_context_letterbox_v3",
+            }:
+                raise ConfigurationError("Unsupported transform")
+            if self.objective not in {
+                "global_known_normalized_minibatch_bce_v1",
+                "balanced_smoothed_minibatch_bce_v3",
+            }:
+                raise ConfigurationError("Unsupported objective")
+            if self.checkpoint_policy not in {
+                "atomic_epoch_boundary_v1",
+                "atomic_epoch_boundary_v3",
+            }:
+                raise ConfigurationError("Unsupported checkpoint_policy")
+            if self.model not in {
+                "resnet18_matched_control",
+                "resnet18_layer4",
+                "resnet18_single_crop_v3",
+                "resnet18_anchor_context",
+            }:
+                raise ConfigurationError("Unsupported adaptation model")
+        else:
+            for key, value in (
+                ("device", "cpu"),
+                ("transform", "rgb_letterbox_bilinear_v1"),
+                ("objective", "global_known_normalized_minibatch_bce_v1"),
+                ("checkpoint_policy", "atomic_epoch_boundary_v1"),
+            ):
+                if getattr(self, key) != value:
+                    raise ConfigurationError(f"Unsupported {key}")
+            if self.model not in {"resnet18_matched_control", "resnet18_layer4"}:
+                raise ConfigurationError("Unsupported adaptation model")
+        scopes = (
+            {"smoke", "research"}
+            if isinstance(self, (ResearchAdaptationConfig, E005AdaptationConfig))
+            else {"smoke", "promotion"}
+        )
         if self.run_kind not in scopes:
             raise ConfigurationError("Unsupported run scope")
         for key in ("batch_size", "threads", "image_size", "max_epochs", "patience"):
@@ -242,6 +280,11 @@ class AdaptationConfig:
         return digest_json(value)
 
 
+ADAPTATION_CONFIG_SCHEMA_V1 = "matched-adaptation-v1"
+ADAPTATION_CONFIG_SCHEMA_V2 = "matched-adaptation-v2"
+ADAPTATION_CONFIG_SCHEMA_V3 = "matched-adaptation-v3"
+
+
 @dataclass(frozen=True)
 class HeadProvenance:
     kind: str
@@ -285,9 +328,121 @@ class ResearchAdaptationConfig(AdaptationConfig):
             raise ConfigurationError("Diagnostics must precede first epoch boundary")
 
 
+@dataclass(frozen=True)
+class AdaptationAugmentationConfig:
+    enabled: bool
+    horizontal_flip_prob: float
+    box_jitter_ratio: float
+    brightness_jitter: float
+    contrast_jitter: float
+    saturation_jitter: float
+    random_erasing_prob: float
+
+    def __post_init__(self) -> None:
+        if not isinstance(self.enabled, bool):
+            raise ConfigurationError("augmentation.enabled must be boolean")
+        for key in (
+            "horizontal_flip_prob",
+            "box_jitter_ratio",
+            "brightness_jitter",
+            "contrast_jitter",
+            "saturation_jitter",
+            "random_erasing_prob",
+        ):
+            val: Any = getattr(self, key)
+            if type(val) not in (int, float) or not math.isfinite(val) or not 0.0 <= val <= 0.5:
+                raise ConfigurationError(f"Invalid augmentation {key}")
+
+
+@dataclass(frozen=True)
+class E005AdaptationConfig(AdaptationConfig):
+    trainable_scope: str
+    head_hidden_dim: int
+    head_dropout: float
+    use_geometry_features: bool
+    anchor_padding_ratio: float
+    warmup_epochs: int
+    lr_scheduler: str
+    min_lr_ratio: float
+    pos_weight: tuple[float, float]
+    label_smoothing: float
+    selection_metric: str
+    calibrate_thresholds_on_val: bool
+    augmentation: AdaptationAugmentationConfig
+
+    def __post_init__(self) -> None:
+        super().__post_init__()
+        if self.trainable_scope not in {
+            "head_only",
+            "head_and_layer4_block1",
+            "head_and_layer4",
+        }:
+            raise ConfigurationError("Unsupported trainable_scope")
+        if type(self.head_hidden_dim) is not int or self.head_hidden_dim < 0:
+            raise ConfigurationError("Invalid head_hidden_dim")
+        if (
+            type(self.head_dropout) not in (int, float)
+            or not math.isfinite(self.head_dropout)
+            or not 0.0 <= self.head_dropout < 1.0
+        ):
+            raise ConfigurationError("Invalid head_dropout")
+        if not isinstance(self.use_geometry_features, bool):
+            raise ConfigurationError("use_geometry_features must be boolean")
+        if (
+            type(self.anchor_padding_ratio) not in (int, float)
+            or not math.isfinite(self.anchor_padding_ratio)
+            or not 0.0 <= self.anchor_padding_ratio <= 0.5
+        ):
+            raise ConfigurationError("Invalid anchor_padding_ratio")
+        if type(self.warmup_epochs) is not int or not 0 <= self.warmup_epochs < self.max_epochs:
+            raise ConfigurationError("Invalid warmup_epochs")
+        if self.lr_scheduler not in {"none", "cosine"}:
+            raise ConfigurationError("Unsupported lr_scheduler")
+        if (
+            type(self.min_lr_ratio) not in (int, float)
+            or not math.isfinite(self.min_lr_ratio)
+            or not 0.0 < self.min_lr_ratio <= 1.0
+        ):
+            raise ConfigurationError("Invalid min_lr_ratio")
+        if (
+            not isinstance(self.pos_weight, tuple)
+            or len(self.pos_weight) != 2
+            or any(
+                type(w) not in (int, float) or not math.isfinite(w) or w <= 0
+                for w in self.pos_weight
+            )
+        ):
+            raise ConfigurationError("Invalid pos_weight")
+        if (
+            type(self.label_smoothing) not in (int, float)
+            or not math.isfinite(self.label_smoothing)
+            or not 0.0 <= self.label_smoothing < 0.5
+        ):
+            raise ConfigurationError("Invalid label_smoothing")
+        if self.selection_metric not in {"val_loss", "val_macro_ap"}:
+            raise ConfigurationError("Unsupported selection_metric")
+        if not isinstance(self.calibrate_thresholds_on_val, bool):
+            raise ConfigurationError("calibrate_thresholds_on_val must be boolean")
+        if not isinstance(self.augmentation, AdaptationAugmentationConfig):
+            raise ConfigurationError("Expected AdaptationAugmentationConfig")
+        if self.model == "resnet18_anchor_context":
+            if self.transform != "dual_roi_anchor_context_letterbox_v3":
+                raise ConfigurationError("Anchor-context model requires dual-ROI transform")
+        elif self.use_geometry_features:
+            raise ConfigurationError("Single-crop model cannot enable use_geometry_features")
+
+
 def config_from_dict(raw: Any) -> AdaptationConfig:
-    model = (ResearchAdaptationConfig if isinstance(raw, dict)
-             and raw.get("schema_version") == "matched-adaptation-v2" else AdaptationConfig)
+    schema = raw.get("schema_version") if isinstance(raw, dict) else None
+    model: type[AdaptationConfig] = (
+        E005AdaptationConfig
+        if schema == ADAPTATION_CONFIG_SCHEMA_V3
+        else (
+            ResearchAdaptationConfig
+            if schema == ADAPTATION_CONFIG_SCHEMA_V2
+            else AdaptationConfig
+        )
+    )
     value = dict(strict_fields(raw, model))
     for key in ("protocol", "readiness", "weights", "weights_license", "head_initialization"):
         value[key] = FilePin(**strict_fields(value[key], FilePin))
@@ -312,6 +467,13 @@ def config_from_dict(raw: Any) -> AdaptationConfig:
         if not isinstance(value["diagnostic_steps"], list):
             raise ConfigurationError("Diagnostic steps must be an array")
         value["diagnostic_steps"] = tuple(value["diagnostic_steps"])
+    elif model is E005AdaptationConfig:
+        if not isinstance(value["pos_weight"], list):
+            raise ConfigurationError("pos_weight must be an array")
+        value["pos_weight"] = tuple(float(w) for w in value["pos_weight"])
+        value["augmentation"] = AdaptationAugmentationConfig(
+            **strict_fields(value["augmentation"], AdaptationAugmentationConfig)
+        )
     return model(**value)
 
 
@@ -329,12 +491,12 @@ def verify_adaptation_approval(config: AdaptationConfig, workspace: Path) -> Non
         or approval.get("configs", {}).get(config.experiment_id) != digest_json(config.to_dict())
         or (
             approval.get("config_signatures", {}).get(config.experiment_id)
-            if isinstance(config, ResearchAdaptationConfig)
+            if isinstance(config, (ResearchAdaptationConfig, E005AdaptationConfig))
             else approval.get("matched_signature")
         ) != config.match_signature()
     ):
         raise ConfigurationError("Exact matched run/config approval missing")
-    if isinstance(config, ResearchAdaptationConfig):
+    if isinstance(config, (ResearchAdaptationConfig, E005AdaptationConfig)):
         from .artifacts import code_identity
 
         if (approval.get("code_sha256") != code_identity()["sha256"]
@@ -357,3 +519,4 @@ def verify_matched_configs(control: AdaptationConfig, candidate: AdaptationConfi
         or control.match_signature() != candidate.match_signature()
     ):
         raise ConfigurationError("Control/candidate variables or initialization are not matched")
+

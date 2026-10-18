@@ -184,12 +184,15 @@ def run(config_path: Path, output: Path, workspace: Path, *, resume: bool = Fals
     from ai_exam_monitoring.common.config import load_yaml
 
     if load_yaml(config_path).get("schema_version") in {
-        "matched-adaptation-v1", "matched-adaptation-v2"
+        "matched-adaptation-v1",
+        "matched-adaptation-v2",
+        "matched-adaptation-v3",
     }:
         from .adaptation_train import run_adaptation
 
         return run_adaptation(config_path, output, workspace, resume=resume,
                               interrupt_after=interrupt_after)
+
     config = load_config(config_path)
     output, workspace = output.resolve(), workspace.resolve()
     verify_approval(config, workspace)

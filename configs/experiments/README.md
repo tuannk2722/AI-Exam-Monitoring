@@ -15,10 +15,12 @@
 
 Config mới cần identity/hypothesis/inputs/protocol/owner và approval đúng config trước run. Config được report pin giữ nguyên dù còn Draft; revision mới có identity riêng. Proposal ghi lifecycle/decision và link results; metrics ở hồ sơ run. JSON approvals dưới `docs/experiments` giữ original path do code/config phụ thuộc.
 
+[E005-V11 — Dual-ROI Anchor-Context & 4-Run Ablation trên V11](E005-V11-20261018/README.md): owner đã duyệt thiết kế `matched-adaptation-v3`, ma trận 4 run đối chứng (`E005-V11-LP`, `E005-V11-S1-AUG`, `E005-V11-AC-L4B1`, `E005-V11-AC-L4`) và thực thi local CPU trên dataset V11 (1.185 train / 266 val). Smoke và cả 4 run đã FINISHED, reload parity PASS; kết quả chi tiết tại [báo cáo E005 V11](../../artifacts/reports/e005-v11-adaptation-20261018/README.md).
+
 [E004-C345 — bổ sung 345 train](E004-C345-20261016/README.md): geometry/group/thiết kế đã được owner duyệt; cùng recipe RC1-W-H và selection 71, research với independence chưa chứng minh. [Kết quả và package](../../artifacts/reports/E004-train-enrollment-20261016/README.md).
 
 [E004-RC1 — initialization × LR](E004-RC1-20261014/README.md): proposal snapshot sau audit thị giác 14/10; owner đã duyệt implementation/execution, trạng thái và exact configs ở [execution companion](E004-RC1-20261014/EXECUTION.md). Không thay freeze E004 V9 hoặc cấp test access.
 
 Trạng thái E004 sau ngày 13/10: [V9 và waiver support mới](../../artifacts/reports/E004-v9-consolidation-20261013/README.md). Các yêu cầu bù quota trong snapshot trước đã được owner miễn; protocol/cohort và exact run configs đã được duyệt và thực thi trong revision V9.
 
-Bước hiện hành: [E004 V9 execution freeze](../../artifacts/reports/E004-v9-execution-20261013/README.md), [recipe](E004-v9-execution-20261013/recipe-proposal.yaml), [protocol](E004-v9-execution-20261013/protocol-proposal.json). Exact configs E004-V9-LP.yaml và E004-V9-L4.yaml đã thực thi FINISHED; xem report kết quả. Recipe/protocol proposal giữ snapshot gốc.
+Bước lịch sử: [E004 V9 execution freeze](../../artifacts/reports/E004-v9-execution-20261013/README.md), [recipe](E004-v9-execution-20261013/recipe-proposal.yaml), [protocol](E004-v9-execution-20261013/protocol-proposal.json). Exact configs E004-V9-LP.yaml và E004-V9-L4.yaml đã thực thi FINISHED; xem report kết quả. Recipe/protocol proposal giữ snapshot gốc.

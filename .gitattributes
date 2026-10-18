@@ -29,3 +29,6 @@ configs/experiments/E004-C345-20261016/** -text
 
 # Preserve V11 release config SHA across platforms.
 configs/datasets/pilot-b-20261017-v11.json -text whitespace=trailing-space,space-before-tab,cr-at-eol
+
+# Preserve exact approved E005 V11 config/protocol bytes across checkouts.
+configs/experiments/E005-V11-20261018/** -text whitespace=trailing-space,space-before-tab,cr-at-eol

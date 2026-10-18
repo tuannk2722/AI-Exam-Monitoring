@@ -1,0 +1,53 @@
+{
+  "decision_id": "E005-V11-EXECUTION-APPROVAL-20261018",
+  "status": "approved",
+  "owner": "repository-owner",
+  "reviewer": "repository-owner",
+  "recorded_at": "2026-10-18",
+  "decision": "approve_e005_v11_dual_roi_anchor_context_4run_ablation_local_cpu",
+  "authority": "Owner approvals on implementation_plan.md: approve; chọn phương án được khuyến nghị; approve hướng chạy đủ cả 4 run đối chứng; approve hướng chạy local",
+  "dataset_release": {
+    "path": "artifacts/reports/dataset-release-20261017/package-pointers.json",
+    "sha256": "8aec8ae1e361f6bc74073a91bd5d77808888c81f842195661300223b84abdca2"
+  },
+  "allocation_acceptance": {
+    "path": "artifacts/reports/train-val-plan-20261017/owner-acceptance.json",
+    "sha256": "18545e2f6eef97c0967f40f5d56ee867eacd70662185620a243562988a103eb5"
+  },
+  "allocation_manifest": {
+    "path": "artifacts/reports/train-val-plan-20261017/allocation.json",
+    "sha256": "8d8eaf076c25f10b4d74e37ac5d7416217441b101c7cbec484480e64d969e24e"
+  },
+  "approved_runs": [
+    "E005-V11-AC-L4B1-SMOKE",
+    "E005-V11-LP",
+    "E005-V11-S1-AUG",
+    "E005-V11-AC-L4B1",
+    "E005-V11-AC-L4"
+  ],
+  "initialization_policy": {
+    "weights_id": "IMAGENET1K_V1",
+    "warm_start_from_v9_v10": false,
+    "seed": 20261018,
+    "reason": "Prevent historical train->val split reassignment leakage on 178 val records"
+  },
+  "checkpoint_and_threshold_policy": {
+    "selection_metric": "val_macro_ap",
+    "default_threshold": 0.5,
+    "calibrate_thresholds_on_val": true,
+    "objective_pos_weight": [
+      1.13,
+      1.46
+    ],
+    "label_smoothing": 0.05
+  },
+  "waive_independence": true,
+  "waive_support_shortfalls": true,
+  "waiver_scope": "Development research on V11 train/val split; M4 remains INCONCLUSIVE; not independent holdout or promotion acceptance",
+  "final_test_inference_authorized": false,
+  "compute": {
+    "device": "cpu",
+    "threads": 4,
+    "run_wall_time_seconds": 7200
+  }
+}

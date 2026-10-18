@@ -1,6 +1,6 @@
 # Reference implementation và công cụ
 
-Đối chiếu code/handoff đến 2026-10-11; cập nhật khi API, module hoặc giới hạn thực tế thay đổi, không thêm lịch sử task. Contract có thẩm quyền ở [system](system.md), [data](data.md), [training](training.md). Có module/schema không chứng minh pipeline đã nghiệm thu; tiến độ ở [status](status.md).
+Đối chiếu code/handoff đến 2026-10-18; cập nhật khi API, module hoặc giới hạn thực tế thay đổi, không thêm lịch sử task. Contract có thẩm quyền ở [system](system.md), [data](data.md), [training](training.md). Có module/schema không chứng minh pipeline đã nghiệm thu; tiến độ ở [status](status.md).
 
 Hardware tham chiếu lịch sử: local i7-1255U, RAM 8/16 GB, Intel UHD; không bảo đảm hiệu năng, không thay environment của run/benchmark cụ thể. Chưa có benchmark chứng minh B tốt hơn A; lựa chọn B là decision kiến trúc, không là kết quả so sánh thực nghiệm.
 
@@ -30,6 +30,8 @@ Adapter hiện yêu cầu source/checkpoint tồn tại, output mới và FPS d�
 ## Trainer/evaluator hiện có
 
 Schema matched-adaptation-v2 thêm provenance random/learned head và diagnostic epoch0/first-epoch steps cho research/smoke. Model chỉ nhận learned FC từ parent checkpoint đã pin, reset backbone/optimizer; diagnostic giữ RNG/modes và không đổi best epoch rule. CLI train/evaluate dispatch cả v1/v2, research v2 không có final-test scope. [E004-RC1 execution](../configs/experiments/E004-RC1-20261014/EXECUTION.md) dẫn tới variables/approval/checks, không là default recipe mới.
+
+Schema `matched-adaptation-v3` thêm `E005AdaptationConfig`, single-crop hoặc dual-ROI anchor/context, MLP head, mở khóa hai giai đoạn, augmentation, Balanced Smoothed BCE, chọn checkpoint theo `val_macro_ap` và hiệu chỉnh ngưỡng trên validation. CLI train nhận v1/v2/v3; evaluator reload full bundle với code/config/runtime pins, không cấp quyền final test cho E005. Phạm vi đã thực thi là local CPU; các literal `auto`/`cuda` được parser nhận nhưng trainer chưa chuyển model/batch sang GPU, nên không xem đó là hỗ trợ GPU. Variables/approval ở [configs E005](../configs/experiments/E005-V11-20261018/README.md), kết quả và giới hạn ở [report E005](../artifacts/reports/e005-v11-adaptation-20261018/README.md).
 
 Recipe E001–E003 ở [baseline report](../artifacts/reports/baseline-review-20261011/README.md), không là default cho model mới. Biến nằm trong `configs/experiments/E001.yaml`/E002/E003 và smoke tương ứng. `ExperimentConfig` hiện từ chối keys thiếu/lạ, values unresolved/nonfinite, model/device/optimizer/loss/transform khác whitelist; chỉ hỗ trợ `resnet18_frozen_linear` CPU. Đổi tên YAML không triển khai fine-tune hoặc GPU.
 

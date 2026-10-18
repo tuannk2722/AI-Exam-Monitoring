@@ -2,18 +2,53 @@
 
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
 import torch
+from PIL import Image
+from torch.nn import functional as F
+from torchvision.transforms import functional as TF
 
 from ai_exam_monitoring.common.errors import DataContractError
 from ai_exam_monitoring.data.pilot_schema import PilotRecord, record_to_dict
 
-from .adaptation_config import AdaptationConfig, FilePin, local_path
+from .adaptation_config import AdaptationConfig, E005AdaptationConfig, FilePin, local_path
 from .artifacts import digest_json
-from .data import crop_path, image_tensor, labels, verify_dataset
+from .data import (
+    compute_relative_anchor_geometry,
+    crop_path,
+    extract_anchor_subcrop,
+    image_tensor,
+    labels,
+    letterbox,
+    verify_dataset,
+)
+
+
+def _uint8_letterbox(image: Image.Image, config: AdaptationConfig) -> torch.Tensor:
+    return TF.pil_to_tensor(letterbox(image, config))
+
+
+
+def _normalize_float_chw(
+    tensor_chw: torch.Tensor, mean: list[float], std: list[float]
+) -> torch.Tensor:
+    m = torch.tensor(mean, dtype=torch.float32).view(3, 1, 1)
+    s = torch.tensor(std, dtype=torch.float32).view(3, 1, 1)
+    return (tensor_chw - m) / s
+
+
+def _apply_photometric_jitter(
+    img_float: torch.Tensor, b_factor: float, c_factor: float, s_factor: float
+) -> torch.Tensor:
+    out = (img_float * b_factor).clamp(0.0, 1.0)
+    mean_spatial = out.mean(dim=(1, 2), keepdim=True)
+    out = ((out - mean_spatial) * c_factor + mean_spatial).clamp(0.0, 1.0)
+    gray = (0.2989 * out[0:1] + 0.5870 * out[1:2] + 0.1140 * out[2:3])
+    out = ((out - gray) * s_factor + gray).clamp(0.0, 1.0)
+    return out
 
 
 @dataclass
@@ -25,6 +60,9 @@ class ImageCohort:
     values: torch.Tensor
     mask: torch.Tensor
     groups: list[str]
+    _context_cache: dict[int, torch.Tensor] = field(default_factory=dict, init=False, repr=False)
+    _anchor_cache: dict[int, torch.Tensor] = field(default_factory=dict, init=False, repr=False)
+    _geometry_cache: dict[int, torch.Tensor] = field(default_factory=dict, init=False, repr=False)
 
     @property
     def ids(self) -> list[str]:
@@ -32,6 +70,138 @@ class ImageCohort:
 
     def batch(self, indices: list[int], config: AdaptationConfig) -> torch.Tensor:
         return torch.stack([image_tensor(self.paths[i], config) for i in indices])
+
+    def _ensure_cached(self, idx: int, config: E005AdaptationConfig) -> None:
+        if idx in self._context_cache:
+            return
+        record = self.records[idx]
+        if record.crop is None:
+            raise DataContractError("Missing crop metadata in cohort record")
+        with Image.open(self.paths[idx]) as raw_image:
+            rgb_image = raw_image.convert("RGB")
+            self._context_cache[idx] = _uint8_letterbox(rgb_image, config)
+            if config.model == "resnet18_anchor_context":
+                geom = compute_relative_anchor_geometry(
+                    record.crop.person_box, record.crop.context_box
+                )
+                self._geometry_cache[idx] = torch.tensor(geom, dtype=torch.float32)
+                anchor_pil = extract_anchor_subcrop(
+                    rgb_image,
+                    record.crop.person_box,
+                    record.crop.context_box,
+                    padding_ratio=config.anchor_padding_ratio,
+                )
+                self._anchor_cache[idx] = _uint8_letterbox(anchor_pil, config)
+
+    def model_batch(
+        self,
+        indices: list[int],
+        config: AdaptationConfig,
+        *,
+        epoch: int | None = None,
+        train_mode: bool = False,
+    ) -> torch.Tensor | dict[str, torch.Tensor]:
+        if not isinstance(config, E005AdaptationConfig):
+            return self.batch(indices, config)
+        is_dual = config.model == "resnet18_anchor_context"
+        aug = config.augmentation
+        do_aug = bool(train_mode and aug.enabled)
+        ctx_list: list[torch.Tensor] = []
+        anc_list: list[torch.Tensor] = []
+        geo_list: list[torch.Tensor] = []
+        size = config.image_size
+        for i in indices:
+            self._ensure_cached(i, config)
+            ctx_f = self._context_cache[i].to(dtype=torch.float32) / 255.0
+            anc_f = (
+                self._anchor_cache[i].to(dtype=torch.float32) / 255.0
+                if is_dual
+                else ctx_f
+            )
+            geo = (
+                self._geometry_cache[i].clone()
+                if is_dual
+                else torch.zeros(6, dtype=torch.float32)
+            )
+            if do_aug:
+                gen = torch.Generator()
+                sample_seed = (
+                    int(config.seed)
+                    + int(epoch if epoch is not None else 1) * 100003
+                    + int(i) * 97
+                ) % (2**31 - 1)
+                gen.manual_seed(sample_seed)
+                # 1. Horizontal flip (synchronous across anchor, context, and geometry)
+                if (
+                    aug.horizontal_flip_prob > 0.0
+                    and float(torch.rand(1, generator=gen)) < aug.horizontal_flip_prob
+                ):
+                    ctx_f = torch.flip(ctx_f, dims=[2])
+                    if is_dual:
+                        anc_f = torch.flip(anc_f, dims=[2])
+                        old_rx1, old_rx2 = float(geo[0]), float(geo[2])
+                        geo[0] = 1.0 - old_rx2
+                        geo[2] = 1.0 - old_rx1
+                # 2. Anchor box jitter (zoom/shift on anchor tensor + geometry perturbation)
+                if is_dual and aug.box_jitter_ratio > 0.0:
+                    j = aug.box_jitter_ratio
+                    deltas = (torch.rand(4, generator=gen) * 2.0 - 1.0) * j
+                    max_crop = int(round(size * j))
+                    if max_crop >= 1:
+                        top = int(torch.randint(0, max_crop + 1, (1,), generator=gen))
+                        left = int(torch.randint(0, max_crop + 1, (1,), generator=gen))
+                        bottom = size - int(torch.randint(0, max_crop + 1, (1,), generator=gen))
+                        right = size - int(torch.randint(0, max_crop + 1, (1,), generator=gen))
+                        if bottom - top >= size // 2 and right - left >= size // 2:
+                            cropped = anc_f[:, top:bottom, left:right].unsqueeze(0)
+                            anc_f = F.interpolate(
+                                cropped, size=(size, size), mode="bilinear", align_corners=False
+                            ).squeeze(0)
+                    gw, gh = float(geo[4]), float(geo[5])
+                    rx1 = max(0.0, min(1.0, float(geo[0]) + float(deltas[0]) * gw))
+                    ry1 = max(0.0, min(1.0, float(geo[1]) + float(deltas[1]) * gh))
+                    rx2 = max(rx1 + 1e-4, min(1.0, float(geo[2]) + float(deltas[2]) * gw))
+                    ry2 = max(ry1 + 1e-4, min(1.0, float(geo[3]) + float(deltas[3]) * gh))
+                    geo = torch.tensor(
+                        [rx1, ry1, rx2, ry2, rx2 - rx1, ry2 - ry1], dtype=torch.float32
+                    )
+                # 3. Synchronous Photometric Jitter
+                b_jit = (torch.rand(1, generator=gen) * 2.0 - 1.0) * aug.brightness_jitter
+                c_jit = (torch.rand(1, generator=gen) * 2.0 - 1.0) * aug.contrast_jitter
+                s_jit = (torch.rand(1, generator=gen) * 2.0 - 1.0) * aug.saturation_jitter
+                b_fac = 1.0 + float(b_jit)
+                c_fac = 1.0 + float(c_jit)
+                s_fac = 1.0 + float(s_jit)
+                ctx_f = _apply_photometric_jitter(ctx_f, b_fac, c_fac, s_fac)
+                if is_dual:
+                    anc_f = _apply_photometric_jitter(anc_f, b_fac, c_fac, s_fac)
+                # 4. Random Erasing on context
+                if (
+                    aug.random_erasing_prob > 0.0
+                    and float(torch.rand(1, generator=gen)) < aug.random_erasing_prob
+                ):
+                    min_e, max_e = max(1, size // 12), max(2, size // 4)
+                    eh = int(torch.randint(min_e, max_e, (1,), generator=gen))
+                    ew = int(torch.randint(min_e, max_e, (1,), generator=gen))
+                    ey = int(torch.randint(0, max(1, size - eh), (1,), generator=gen))
+                    ex = int(torch.randint(0, max(1, size - ew), (1,), generator=gen))
+                    fill_val = torch.tensor(config.mean, dtype=torch.float32).view(3, 1, 1)
+                    ctx_f = ctx_f.clone()
+                    ctx_f[:, ey : ey + eh, ex : ex + ew] = fill_val
+
+            ctx_list.append(_normalize_float_chw(ctx_f, config.mean, config.std))
+            if is_dual:
+                anc_list.append(_normalize_float_chw(anc_f, config.mean, config.std))
+                geo_list.append(geo)
+        ctx_batch = torch.stack(ctx_list)
+        if not is_dual:
+            return ctx_batch
+        return {
+            "anchor": torch.stack(anc_list),
+            "context": ctx_batch,
+            "geometry": torch.stack(geo_list),
+        }
+
 
 
 def _waiver(config: AdaptationConfig, workspace: Path, ready: dict[str, Any]) -> None:
