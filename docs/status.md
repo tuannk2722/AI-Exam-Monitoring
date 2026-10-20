@@ -1,6 +1,6 @@
 # Trạng thái dự án
 
-Đối chiếu code và hồ sơ bàn giao đến **2026-10-20**. Chỉ giữ trạng thái hiện hành, thay nội dung khi tiến độ đổi; không append nhật ký/metrics/mọi task. Không là approval. [Index](00-INDEX.md) định tuyến contracts; [reports](../artifacts/reports/README.md) giữ lịch sử/evidence.
+Đối chiếu code và hồ sơ bàn giao đến **2026-10-21**. Chỉ giữ trạng thái hiện hành, thay nội dung khi tiến độ đổi; không append nhật ký/metrics/mọi task. Không là approval. [Index](00-INDEX.md) định tuyến contracts; [reports](../artifacts/reports/README.md) giữ lịch sử/evidence.
 
 ## Capability
 
@@ -8,12 +8,14 @@
 |---|---|---|
 | Data engineering | V12 local accepted: 2.057 ledger records, 1.092 train / 204 val / 11 test; review legacy và YouTube đã chốt | [V12 release/pointers](../artifacts/reports/dataset-release-20261020-v12/README.md) |
 | Baseline | E001–E003 FINISHED, Continue research; chưa model Selected | Reports → runs/baseline |
-| Model improvement | E005 V11 (1 smoke + 4 runs) FINISHED, reload parity PASS; `E005-V11-S1-AUG` tốt nhất (`Val Macro AP = 0.7378`, `Val BCE = 0.5260`, `phone AP = 0.8161`, `looking AP = 0.6595`), tăng `+0.0365` Macro AP so với LP nhưng chưa đồng thời đạt cổng 80/80/20 cả hai target; Continue research, chưa Selected | [E005 V11 results](../artifacts/reports/e005-v11-adaptation-20261018/README.md), [C345 lịch sử](../artifacts/reports/E004-train-enrollment-20261016/README.md) |
+| Model improvement | E006 V12: smoke + 9 research FINISHED, reload parity PASS; chưa run nào đạt đồng thời 80/80/20 trên cả hai target; chưa Selected | [E006 đã review](../artifacts/reports/e006-v12-20261020/README.md) |
 | Runtime | Generic detector/JSONL guards và dataclass có; chưa person → context crop → classifier B | [Reference](reference.md), [system](system.md) |
 | Tracking/events/risk/web | Chưa end-to-end; tracker/rules/risk còn quyết định mở | [Decisions](decisions.md), system acceptance |
 | Tooling/storage | Giữ V12, V11, parent V10/development, model chính và nguồn; backup V12 local kiểm restore, cùng ổ D | [Release](../artifacts/reports/dataset-release-20261020-v12/README.md), [chính sách](storage.md), [availability lịch sử](../artifacts/reports/storage-retention-20261016/README.md) |
 
 ## Phạm vi hiện hành
+
+- [E006 V12](../configs/experiments/E006-V12-20261020/README.md) đã hoàn tất và được review trực tiếp từ artifacts. SQRT là recipe tham chiếu development; SQRT/RATIO chưa đạt cổng chất lượng. Test giữ đóng; kết quả, giới hạn và hướng nghiên cứu tiếp nằm trong [report](../artifacts/reports/e006-v12-20261020/README.md).
 
 - [V12 đã release](../artifacts/reports/dataset-release-20261020-v12/README.md) theo review cuối và allocation owner duyệt. 681 crop audit accepted; 90 YouTube vào train; Y03/Y05 cùng nhóm bảo thủ. Dataset dùng tiếp là V12; V11 và E005 giữ nguyên, không train lại. Số liệu E005 bên dưới vẫn thuộc V11.
 - [Thực nghiệm E005 trên V11 đã hoàn tất](../artifacts/reports/e005-v11-adaptation-20261018/README.md) theo đúng [phê duyệt E005](../artifacts/reports/e005-v11-adaptation-20261018/owner-e005-approval.json) và [mức đạt V11](../artifacts/reports/train-val-plan-20261017/owner-acceptance.json): 1 smoke (`E005-V11-AC-L4B1-SMOKE`) và 4 run đối chứng (`E005-V11-LP`, `E005-V11-S1-AUG`, `E005-V11-AC-L4B1`, `E005-V11-AC-L4`) đều `FINISHED` và `PASS` standalone reload parity. Cấu hình Single-Crop + Regularized MLP + 2-Stage `layer4.1` + Augmentation + Balanced Smoothed BCE (`E005-V11-S1-AUG`) đạt cao nhất (`Val Macro AP = 0.7378`, `Val BCE = 0.5260`, `phone_use Precision = 80.0% / FPR = 12.5%` ở ngưỡng `0.50` và `Recall = 79.2% / F1 = 0.7651` ở ngưỡng hiệu chỉnh `0.41`), nhưng chưa đồng thời vượt cổng `80 / 80 / 20` trên cả hai target. Quyết định hiện hành: `continue_research_only`, chưa có model `Selected`.

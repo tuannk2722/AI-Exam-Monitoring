@@ -1,0 +1,211 @@
+{
+  "config_dir": "configs/experiments/E006-V12-20261020/r4",
+  "report_dir": "artifacts/reports/e006-v12-20261020",
+  "owner_authorization": "artifacts/reports/e006-v12-20261020/owner-authorization.json",
+  "dataset_pointer": "artifacts/reports/dataset-release-20261020-v12/package-pointers.json",
+  "allocation": "artifacts/reports/dataset-release-20261020-v12/allocation-proposal.json",
+  "release_approval": "artifacts/reports/dataset-release-20261020-v12/owner-release-approval.json",
+  "parent_protocol": "configs/experiments/E005-V11-20261018/protocol.json",
+  "initialization_dir": "data/interim/E006-V12-20261020/r4",
+  "smoke_result": "artifacts/reports/e006-v12-20261020/smoke-pass.json",
+  "common": {
+    "device": "cpu",
+    "threads": 4,
+    "workers": 0,
+    "wall_time_seconds": 7200
+  },
+  "smoke": {
+    "id": "E006-V12-SMOKE",
+    "recipe": "SMOKE",
+    "seed": 20261020,
+    "template": "configs/experiments/E005-V11-20261018/E005-V11-S1-AUG.yaml",
+    "overrides": {
+      "max_epochs": 4,
+      "patience": 6,
+      "pos_weight": [
+        1.13,
+        1.46
+      ]
+    },
+    "hypothesis": "Validate V12 loader, resume, warmup to layer4.1 transition and reload parity"
+  },
+  "screening": [
+    {
+      "id": "E006-V12-LP-S20261020-R4",
+      "recipe": "LP",
+      "seed": 20261020,
+      "template": "configs/experiments/E005-V11-20261018/E005-V11-LP.yaml",
+      "overrides": {},
+      "hypothesis": "V12 local research: LP; clean initialization; seed 20261020"
+    },
+    {
+      "id": "E006-V12-S1-REF-S20261020-R4",
+      "recipe": "S1-REF",
+      "seed": 20261020,
+      "template": "configs/experiments/E005-V11-20261018/E005-V11-S1-AUG.yaml",
+      "overrides": {
+        "pos_weight": [
+          1.13,
+          1.46
+        ]
+      },
+      "hypothesis": "V12 local research: S1-REF; clean initialization; seed 20261020"
+    },
+    {
+      "id": "E006-V12-S1-SQRT-S20261020-R4",
+      "recipe": "S1-SQRT",
+      "seed": 20261020,
+      "template": "configs/experiments/E005-V11-20261018/E005-V11-S1-AUG.yaml",
+      "overrides": {
+        "pos_weight": [
+          1.56,
+          1.48
+        ]
+      },
+      "hypothesis": "V12 local research: S1-SQRT; clean initialization; seed 20261020"
+    },
+    {
+      "id": "E006-V12-S1-RATIO-S20261020-R4",
+      "recipe": "S1-RATIO",
+      "seed": 20261020,
+      "template": "configs/experiments/E005-V11-20261018/E005-V11-S1-AUG.yaml",
+      "overrides": {
+        "pos_weight": [
+          2.44,
+          2.19
+        ]
+      },
+      "hypothesis": "V12 local research: S1-RATIO; clean initialization; seed 20261020"
+    },
+    {
+      "id": "E006-V12-S1-FROZEN-S20261020-R4",
+      "recipe": "S1-FROZEN",
+      "seed": 20261020,
+      "template": "configs/experiments/E005-V11-20261018/E005-V11-S1-AUG.yaml",
+      "overrides": {
+        "pos_weight": [
+          1.13,
+          1.46
+        ],
+        "trainable_scope": "head_only"
+      },
+      "hypothesis": "V12 local research: S1-FROZEN; clean initialization; seed 20261020"
+    }
+  ],
+  "confirmation": [
+    {
+      "id": "E006-V12-S1-REF-S20261021-R4",
+      "recipe": "S1-REF",
+      "seed": 20261021,
+      "template": "configs/experiments/E005-V11-20261018/E005-V11-S1-AUG.yaml",
+      "overrides": {
+        "pos_weight": [
+          1.13,
+          1.46
+        ]
+      },
+      "hypothesis": "V12 local research: S1-REF; clean initialization; seed 20261021"
+    },
+    {
+      "id": "E006-V12-S1-REF-S20261022-R4",
+      "recipe": "S1-REF",
+      "seed": 20261022,
+      "template": "configs/experiments/E005-V11-20261018/E005-V11-S1-AUG.yaml",
+      "overrides": {
+        "pos_weight": [
+          1.13,
+          1.46
+        ]
+      },
+      "hypothesis": "V12 local research: S1-REF; clean initialization; seed 20261022"
+    },
+    {
+      "id": "E006-V12-S1-SQRT-S20261021-R4",
+      "recipe": "S1-SQRT",
+      "seed": 20261021,
+      "template": "configs/experiments/E005-V11-20261018/E005-V11-S1-AUG.yaml",
+      "overrides": {
+        "pos_weight": [
+          1.56,
+          1.48
+        ]
+      },
+      "hypothesis": "V12 local research: S1-SQRT; clean initialization; seed 20261021"
+    },
+    {
+      "id": "E006-V12-S1-SQRT-S20261022-R4",
+      "recipe": "S1-SQRT",
+      "seed": 20261022,
+      "template": "configs/experiments/E005-V11-20261018/E005-V11-S1-AUG.yaml",
+      "overrides": {
+        "pos_weight": [
+          1.56,
+          1.48
+        ]
+      },
+      "hypothesis": "V12 local research: S1-SQRT; clean initialization; seed 20261022"
+    },
+    {
+      "id": "E006-V12-S1-RATIO-S20261021-R4",
+      "recipe": "S1-RATIO",
+      "seed": 20261021,
+      "template": "configs/experiments/E005-V11-20261018/E005-V11-S1-AUG.yaml",
+      "overrides": {
+        "pos_weight": [
+          2.44,
+          2.19
+        ]
+      },
+      "hypothesis": "V12 local research: S1-RATIO; clean initialization; seed 20261021"
+    },
+    {
+      "id": "E006-V12-S1-RATIO-S20261022-R4",
+      "recipe": "S1-RATIO",
+      "seed": 20261022,
+      "template": "configs/experiments/E005-V11-20261018/E005-V11-S1-AUG.yaml",
+      "overrides": {
+        "pos_weight": [
+          2.44,
+          2.19
+        ]
+      },
+      "hypothesis": "V12 local research: S1-RATIO; clean initialization; seed 20261022"
+    },
+    {
+      "id": "E006-V12-S1-FROZEN-S20261021-R4",
+      "recipe": "S1-FROZEN",
+      "seed": 20261021,
+      "template": "configs/experiments/E005-V11-20261018/E005-V11-S1-AUG.yaml",
+      "overrides": {
+        "pos_weight": [
+          1.13,
+          1.46
+        ],
+        "trainable_scope": "head_only"
+      },
+      "hypothesis": "V12 local research: S1-FROZEN; clean initialization; seed 20261021"
+    },
+    {
+      "id": "E006-V12-S1-FROZEN-S20261022-R4",
+      "recipe": "S1-FROZEN",
+      "seed": 20261022,
+      "template": "configs/experiments/E005-V11-20261018/E005-V11-S1-AUG.yaml",
+      "overrides": {
+        "pos_weight": [
+          1.13,
+          1.46
+        ],
+        "trainable_scope": "head_only"
+      },
+      "hypothesis": "V12 local research: S1-FROZEN; clean initialization; seed 20261022"
+    }
+  ],
+  "repeat_recipes": [
+    "S1-REF",
+    "S1-SQRT",
+    "S1-RATIO",
+    "S1-FROZEN"
+  ],
+  "title": "E006 ? K?t qu? training t? ??ng tr?n V12",
+  "verified_smoke": "artifacts/reports/e006-v12-20261020/verified-smoke.json"
+}

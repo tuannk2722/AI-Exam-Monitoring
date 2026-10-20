@@ -24,7 +24,7 @@ if ML_AVAILABLE:
         verify_adaptation_approval,
     )
     from ai_exam_monitoring.training.adaptation_data import prepare_cohorts
-    from ai_exam_monitoring.training.adaptation_evaluate import evaluate_adaptation, load_bundle
+    from ai_exam_monitoring.training.adaptation_evaluate import load_bundle
     from ai_exam_monitoring.training.adaptation_metrics import (
         build_fp_fn_gallery,
         calibrate_optimal_thresholds,
@@ -42,6 +42,7 @@ if ML_AVAILABLE:
         compute_relative_anchor_geometry,
         extract_anchor_subcrop,
     )
+    from ai_exam_monitoring.training.evaluate import evaluate
     from ai_exam_monitoring.training.train import run
 
 
@@ -241,7 +242,7 @@ class E005AnchorContextTests(unittest.TestCase):
         scores = infer(model, cohorts[1], cfg).sigmoid().tolist()
         preds = json.loads((out_full / "predictions-development.json").read_text(encoding="utf-8"))
         self.assertEqual(scores, [r["scores"] for r in preds])
-        metrics = evaluate_adaptation(out_full, self.root / "outputs/v3-eval", self.root, "val")
+        metrics = evaluate(out_full, self.root / "outputs/v3-eval", self.root, "val")
         saved_metrics = json.loads((out_full / "metrics.json").read_text(encoding="utf-8"))
         self.assertEqual(metrics["development"], saved_metrics["development"])
         self.assertIn("calibrated_evaluation", metrics["development"])

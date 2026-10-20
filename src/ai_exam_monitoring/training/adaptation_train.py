@@ -95,7 +95,7 @@ def early_diagnostic(
 def _compute_epoch_lrs(
     config: E005AdaptationConfig, epoch: int
 ) -> tuple[float, float]:
-    if config.trainable_scope == "head_only":
+    if config.trainable_scope == "head_only" and config.warmup_epochs == 0:
         if config.lr_scheduler == "cosine" and config.max_epochs > 1:
             progress = (epoch - 1) / max(1, config.max_epochs - 1)
             factor = config.min_lr_ratio + 0.5 * (1.0 - config.min_lr_ratio) * (
@@ -115,8 +115,14 @@ def _compute_epoch_lrs(
             if ft_epochs > 1
             else 1.0
         )
-        return (config.head_learning_rate * factor, config.layer4_learning_rate * factor)
-    return (config.head_learning_rate, config.layer4_learning_rate)
+        return (
+            config.head_learning_rate * factor,
+            0.0 if config.trainable_scope == "head_only" else config.layer4_learning_rate * factor,
+        )
+    return (
+        config.head_learning_rate,
+        0.0 if config.trainable_scope == "head_only" else config.layer4_learning_rate,
+    )
 
 
 def train_images(

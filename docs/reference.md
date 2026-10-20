@@ -33,6 +33,16 @@ Schema matched-adaptation-v2 thêm provenance random/learned head và diagnostic
 
 Schema `matched-adaptation-v3` thêm `E005AdaptationConfig`, single-crop hoặc dual-ROI anchor/context, MLP head, mở khóa hai giai đoạn, augmentation, Balanced Smoothed BCE, chọn checkpoint theo `val_macro_ap` và hiệu chỉnh ngưỡng trên validation. CLI train nhận v1/v2/v3; evaluator reload full bundle với code/config/runtime pins, không cấp quyền final test cho E005. Phạm vi đã thực thi là local CPU; các literal `auto`/`cuda` được parser nhận nhưng trainer chưa chuyển model/batch sang GPU, nên không xem đó là hỗ trợ GPU. Variables/approval ở [configs E005](../configs/experiments/E005-V11-20261018/README.md), kết quả và giới hạn ở [report E005](../artifacts/reports/e005-v11-adaptation-20261018/README.md).
 
+`training.campaign_prepare --design <JSON> --workspace .` materialize một campaign
+được owner duyệt; từ chối ghi đè protocol/config đã tạo.
+`training.campaign --plan <JSON> --workspace .` điều phối smoke interruption/resume,
+chuyển stage, reload parity, screening, chọn hai recipe rồi xác nhận seed và sinh
+machine summary/JSON. README phân tích cuối do agent kiểm và viết.
+Research bị chặn bằng pin receipt smoke; lỗi dừng toàn queue, không tự đổi config.
+V3 `head_only` với `warmup_epochs > 0` giữ lịch LR head warmup/cosine giống fine-tune
+để đối chứng frozen; `warmup_epochs = 0` giữ behavior cũ.
+Phạm vi/variables hiện hành ở [E006](../configs/experiments/E006-V12-20261020/README.md).
+
 Recipe E001–E003 ở [baseline report](../artifacts/reports/baseline-review-20261011/README.md), không là default cho model mới. Biến nằm trong `configs/experiments/E001.yaml`/E002/E003 và smoke tương ứng. `ExperimentConfig` hiện từ chối keys thiếu/lạ, values unresolved/nonfinite, model/device/optimizer/loss/transform khác whitelist; chỉ hỗ trợ `resnet18_frozen_linear` CPU. Đổi tên YAML không triển khai fine-tune hoặc GPU.
 
 Backbone chỉ load weights local đúng SHA; không tự download, random fallback hoặc đổi license. Legacy `best.pt` chứa head/config/identity/epoch và cần pretrained gốc. Schema `matched-adaptation-v1` thêm frozen matched control/layer4 CPU, full backbone+head bundle và atomic epoch-boundary resume; reload bundle không cần pretrained/head initialization bên ngoài. Code ở `adaptation_config/data/model/metrics/train/evaluate.py`; synthetic validation và giới hạn ở [E004 software evidence](../artifacts/reports/E004-software-readiness-20261012/README.md).

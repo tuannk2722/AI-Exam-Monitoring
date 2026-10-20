@@ -1,0 +1,18 @@
+{
+  "status": "approved",
+  "owner": "repository-owner",
+  "scope": "local_classifier_research",
+  "run_kind": "smoke",
+  "configs": {
+    "E006-V12-SMOKE": "91dfd4426b126f1173c7e75a57b6be5a62570256652f646b9e4a10e456241ab6"
+  },
+  "config_signatures": {
+    "E006-V12-SMOKE": "9ca2bd3683dfcb2abb9fbcc8be92b18b7fc31952687c4040829b8a0f61cef76a"
+  },
+  "code_sha256": "afcc8e23af47ac32603cd1ac07f0549c2960f08dd0e97908f1f21ed5b3332301",
+  "owner_authorization": {
+    "path": "artifacts/reports/e006-v12-20261020/owner-authorization.json",
+    "sha256": "70f3bb029099bb6f7d52c32d0385b7f75d8bf2de400d34e3132a6857592041aa"
+  },
+  "final_test_inference_authorized": false
+}

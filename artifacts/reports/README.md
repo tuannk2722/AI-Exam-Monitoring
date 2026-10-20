@@ -2,6 +2,10 @@
 
 Index theo đối tượng; không là bảng metrics hoặc backlog. Hồ sơ đã pin là snapshot, kể cả chữ “next”, “pending” hoặc lệnh CLI cũ. [Status](../../docs/status.md) chỉ công việc hiện hành; [operations](../../docs/operations.md) xử lý historical paths/restore. Không sửa report/card/receipt đã seal để cập nhật tiến độ.
 
+[E006 V12 — training tự động](e006-v12-20261020/README.md): smoke, screening và
+xác nhận qua seed theo phạm vi owner duyệt; runner tổng hợp số liệu, agent kiểm và
+viết report cuối, test đóng.
+
 ## Releases và nghiên cứu dữ liệu
 
 [Release V12 ngày 20/10](dataset-release-20261020-v12/README.md): chốt review legacy/YouTube và allocation owner; package local accepted, kiểm loader/rebuild/test preservation. Không train.
