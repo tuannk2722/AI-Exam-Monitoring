@@ -1,0 +1,34 @@
+{
+  "status":"partial",
+  "note":"Vị trí trong frame dùng định vị vùng marked; không suy danh tính. covered_existing là đề xuất tránh lặp hành vi, cần kiểm chéo quyết định owner trước hợp nhất cuối.",
+  "frames":[
+    {"frame":"Y01-F00004","slots":[
+      {"position":"gile đen tiền cảnh","candidate":"ADD-Y01-F00004-M01"},
+      {"position":"áo trắng viết giữa","action":"covered_existing","existing":"Y01-A11-F00099"},
+      {"position":"gile nâu bàn sau","action":"covered_existing","existing":"Y01-A14-F00098"},
+      {"position":"áo trắng kính sau phải","action":"covered_existing","existing":"Y01-A15-F00039"}]},
+    {"frame":"Y01-F00007","slots":[
+      {"position":"áo sáng viết trái sau","action":"covered_existing","existing":"Y01-A06-F00102"},
+      {"position":"polo trước giữa","candidate":"ADD-Y01-F00007-M01"},
+      {"position":"áo trắng kính sau phải","action":"withhold_geometry","reason":"Mặt và tay sát/chồng với polo trước; chưa tách đủ vùng tay."}]},
+    {"frame":"Y01-F00038","slots":[
+      {"position":"áo kem trái","action":"covered_existing","existing":"Y01-A10-F00038"},
+      {"position":"áo trắng trước giữa","action":"covered_existing","existing":"Y01-A11-F00099"},
+      {"position":"nam viết sau phải","candidate":"ADD-Y01-F00038-M03"}]},
+    {"frame":"Y01-F00039","slots":[{"position":"gile nâu trái","action":"covered_existing","existing":"Y01-A14-F00039"}]},
+    {"frame":"Y01-F00040","slots":[{"position":"áo trắng phối đen sau","action":"covered_existing","existing":"Y01-A07-F00060"}]},
+    {"frame":"Y01-F00041","slots":[
+      {"position":"áo trắng kính trái sau","action":"withhold_source_boundary","reason":"Đầu thiếu tại biên trên nguồn, tay bị polo trước che."},
+      {"position":"tóc sáng trước","action":"covered_existing","existing":"Y01-A04-F00008"}]},
+    {"frame":"Y01-F00045","slots":[{"position":"áo trắng trước trái","action":"pending_trial","reason":"Đầu quay trái khác hướng viết; cần xét tay còn lại khuất."}]},
+    {"frame":"Y01-F00050","slots":[
+      {"position":"tóc ngắn sau trái người đứng","candidate":"ADD-Y01-F00050-M01"},
+      {"position":"áo trắng kính sau phải","action":"pending_trial","reason":"Ngẩng trước, cần lấy đủ bàn/vật để xét phone."}]},
+    {"frame":"Y01-F00051","slots":[{"position":"áo kem mép trái","candidate":"ADD-Y01-F00051-M01"}]},
+    {"frame":"Y01-F00094","slots":[{"position":"nữ chống cằm giữa","candidate":"ADD-Y01-F00094-M01"}]},
+    {"frame":"Y01-F00096","slots":[
+      {"position":"polo trái sau","action":"withhold_geometry","reason":"Mặt cạnh sát, tay bị người trước che; chưa hơn đại diện cũ."},
+      {"position":"tóc sáng giữa cửa sổ","candidate":"ADD-Y01-F00096-M02"}]},
+    {"frame":"Y01-F00099","slots":[{"position":"áo kem ngẩng giữa","candidate":"ADD-Y01-F00099-M01"}]}
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "frame_count": 115,
+  "frame_notes_count": 115,
+  "trial_count": 116,
+  "proposed_count": 71,
+  "withheld_trial_count": 45,
+  "by_group": {
+    "Y01": 26,
+    "Y02": 6,
+    "Y03": 15,
+    "Y04": 9,
+    "Y05": 8,
+    "Y06": 7
+  },
+  "draft_states": {
+    "U/N": 18,
+    "P/N": 7,
+    "N/N": 11,
+    "N/P": 9,
+    "P/U": 1,
+    "P/P": 1,
+    "U/P": 24
+  },
+  "source_crop_pixel_parity": "PASS",
+  "input_pixel_parity": "PASS",
+  "geometry_bounds_containment": "PASS",
+  "crop_input_sha256": "PASS",
+  "no_uu_proposals": "PASS",
+  "canonical_targets_null_mask_zero": "PASS",
+  "unique_crop_sha256": "PASS",
+  "gallery_links": 768,
+  "gallery_links_status": "PASS",
+  "zip_crc_membership": "PASS",
+  "zip_sha256": "10f756d7b80e47fe70e3db28e3ba9dec3ccb3f6f7fa362f138d1cf494a1d27d2",
+  "visual_review": "Source boards 115 frame; native/input của 116 geometry thử đã xem. Draft, không thay owner acceptance.",
+  "browser_render": "Chưa kiểm bằng browser; HTML tĩnh và links đã kiểm.",
+  "independence_proven": false,
+  "test_access": false,
+  "owner_approved": false
+}

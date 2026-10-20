@@ -1,0 +1,15 @@
+{
+  "geometry_qa": [
+    {"id":"V6-CA-011-R04","result":"pass_draft","states":["P","N"],"note":"Đã giữ toàn bộ mặt anchor; mặt nền chỉ còn phần hẹp phía phải. Cụm camera mặt lưng vàng và tay cầm còn rõ ở input; đầu hướng vùng bàn."},
+    {"id":"V7-D-018-R04","result":"pass_draft","states":["U","N"],"note":"Mặt cạnh chỉ còn lát mép, nam nhìn sách là người chính. Tay người cạnh/vật chồng đáy nên phone U; không suy N từ phần sách."},
+    {"id":"V7-D-022-R04","result":"pass_draft","states":["U","P"],"note":"Giữ đủ tóc và tay chỉ sang vật người phải; bỏ mặt nam phải. Vùng tay còn chồng nên phone U."},
+    {"id":"V7-OE-S066-A02-R04","result":"pass_draft","states":["P","N"],"note":"Phone mặt trước đã nằm trọn trong khung và gắn với bàn/tay anchor. Mặt nền nhỏ hơn, tay viết và hướng bài rõ."},
+    {"id":"V7-C-116-R04","result":"pass_draft","states":["N","P"],"note":"Mặt/hai tay rõ hơn input bản dài; không còn mặt người cạnh, hai tay không cầm mobile và đầu quay phải."},
+    {"id":"V7-D-038-R04","result":"pass_draft","states":["P","N"],"note":"Giữ phone screen, tay cầm và tay chỉ đầy đủ. Nữ là mặt chính; phần cằm/ngực hai nam không cạnh tranh nhãn."},
+    {"id":"V6-EX-029-R04","result":"pass_draft","states":["U","P"],"note":"Giữ đủ mặt nam, nữ chính chỉ còn tay/thân ở mép; mặt nền nhỏ mờ. Tay trái thiếu từ source nên U, đầu nhìn vật người cạnh nên P."},
+    {"id":"V6-EX-031-R04","result":"pass_draft","states":["N","P"],"note":"Đầu nam đầy đủ, hai tay và bút trên trang rõ. Nữ cạnh còn phần mặt/thân ở mép nhưng nam là anchor trội; đầu hướng vùng người/bài bên cạnh."},
+    {"id":"V6-EX-035-R04","result":"needs_revision","states":["N","P"],"note":"Tóc đủ nhưng mặt nam đỏ phía sau quay lại rõ, vẫn cần lựa chọn geometry/đại diện khác cho trạng thái ngẩng."},
+    {"id":"V6-EX-040-R04","result":"pass_draft","states":["N","N"],"note":"Đầu/tay viết đầy đủ, mặt nam sau chỉ còn lát ở mép phải. Không có đường ghép montage trong crop; giữ làm đại diện tư thế viết."},
+    {"id":"V7-D-050-R04","result":"pass_draft","states":["P","N"],"note":"Giữ đầu nam giữa, hai tay và screen phone trên đùi; người trước chỉ còn phần đầu quay lưng ở mép. Anchor hướng bài/vùng riêng."}
+  ]
+}

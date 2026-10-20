@@ -1,0 +1,9 @@
+[
+  {"parent":"V7-C-116","id":"V7-C-116-R03","person":[0,40,212,620],"context":[0,32,218,640],"states":["N","P"],"reason":"Tách nam trái quay sang laptop/người cạnh; giữ tay trên túi và tay cạnh thân, giảm mặt nam phải."},
+  {"parent":"V7-D-038","id":"V7-D-038-R03","person":[36,142,257,446],"context":[28,134,265,446],"states":["P","N"],"reason":"Tách nữ cầm phone, bỏ phần lớn đầu hai nam phía trên, giữ screen và tay cầm."},
+  {"parent":"V7-OE-S042-A01","id":"V7-OE-S042-A01-R03","person":[1515,400,1920,962],"context":[1490,380,1920,995],"states":["U","N"],"reason":"Tách nam ngoài cùng phải cầm vật sau laptop, giảm nam bên trái."},
+  {"parent":"V7-OE-S054-A01","id":"V7-OE-S054-A01-R03","person":[120,295,594,780],"context":[100,278,606,805],"states":["N","N"],"reason":"Chọn nam trái làm anchor đơn đang thao tác tablet/bài; không gán looking P cho box nhóm."},
+  {"parent":"V7-PF-A-006","id":"V7-PF-A-006-R03","person":[110,640,585,1145],"context":[95,625,606,1175],"states":["N","N"],"reason":"Cô lập nam trái và tay trên vùng tablet, giảm nữ phía sau."},
+  {"parent":"V7-PF-C-003","id":"V7-PF-C-003-R03","person":[420,115,1280,1280],"context":[400,95,1300,1280],"states":["N","P"],"reason":"Tập trung người giơ tay, giữ trọn bàn tay trên đầu và tay còn lại tựa ghế."},
+  {"parent":"E004-CF-C021","id":"E004-CF-C021-R03","person":[420,93,916,750],"context":[407,78,930,750],"states":["P","P"],"reason":"Loại mặt người tiền cảnh; giữ mặt anchor và phone do anchor cầm, kiểm tay/thiết bị tiền cảnh còn lại."}
+]

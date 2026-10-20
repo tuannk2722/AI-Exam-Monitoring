@@ -1,0 +1,8 @@
+{
+  "geometry_qa":[
+    {"id":"E004-CN-044-R04","result":"pass_draft","states":["N","P"],"note":"Đầu và hai tay được giữ, quay phải khỏi giấy riêng rõ. Các mặt nền chỉ còn phần nhỏ tại mép, người chính trội; không vật nghi mobile trong vùng tay/bàn."},
+    {"id":"E004-CN-056-R04","result":"needs_revision","states":["U","N"],"note":"Nới đầu đưa gần trọn mặt người sau trái vào crop cùng kích thước; chưa đạt một anchor trội."},
+    {"id":"E004-CN-053-R04","result":"pass_draft","states":["N","N"],"note":"Tay bút, tay giữ trang và giấy nay trọn; phần mặt nam sau chỉ ở biên trái, nhỏ hơn rõ so với đầu nữ chính. Input giữ hướng viết và absence mobile."},
+    {"id":"E004-EX-C183-R04","result":"needs_revision","states":["N","N"],"note":"Mặt người sau vẫn gần trọn theo profile và cỡ đáng kể; thu trên nữa sẽ mất khăn/đầu người chính. Cần chốt giới hạn source, không tiếp tục nới ngẫu nhiên."}
+  ]
+}

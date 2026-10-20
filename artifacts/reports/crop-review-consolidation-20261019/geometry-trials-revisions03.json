@@ -1,0 +1,6 @@
+[
+  {"parent":"V6R2-SB-013","id":"V6R2-SB-013-R05","person":[128,216,295,565],"context":[120,209,300,620],"states":["N","N"],"reason":"Xem nguồn riêng 640 px: tóc bắt đầu khoảng y216, không phải y263; giữ cả đầu, hai tay và giấy, giảm mặt trái bằng biên x120."},
+  {"parent":"V6R2-SB-015","id":"V6R2-SB-015-R04","person":[178,204,342,586],"context":[171,197,356,621],"states":["N","N"],"reason":"Xem nguồn riêng để phân biệt tay người phía sau với tay anchor; giữ đầu và hai tay trên sách của người trước, giảm mặt sau trái."},
+  {"parent":"V7-B-024","id":"V7-B-024-R04","person":[211,218,305,430],"context":[205,209,310,448],"states":["N","P"],"reason":"Đặt lại đầu đúng nguồn y218, giữ hai tay khoanh và giảm mặt người cạnh phải; đầu tiền cảnh chỉ có tóc."},
+  {"parent":"V6R2-MP-092","id":"V6R2-MP-092-R04","person":[210,342,280,500],"context":[190,334,283,519],"states":["P","P"],"reason":"Thu phải bỏ mặt nam sau, giữ nam áo xám ngẩng phải và vật trên bàn theo owner; kiểm lại hai tay và vật tại input."}
+]

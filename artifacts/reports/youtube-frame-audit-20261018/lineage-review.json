@@ -1,0 +1,163 @@
+{
+  "comparison_scope": "115 frame mới so với inventory 536 frame audit ngày 16/10; chưa kiểm toàn bộ lịch sử V11, không mở test media.",
+  "exact_sha_matches": [],
+  "exact_rgb_matches": [],
+  "nearest_dhash": [
+    {
+      "group": "Y01",
+      "nearest_advisory": [
+        [
+          15,
+          "Y01-F00094",
+          "P01-G04-F00004",
+          "data/interim/frame-crop-audit-20261016/frames/G04/frame_00004.jpg"
+        ],
+        [
+          15,
+          "Y01-F00188",
+          "P01-G03-F00012",
+          "data/interim/frame-crop-audit-20261016/frames/G03/frame_00012.jpg"
+        ],
+        [
+          16,
+          "Y01-F00004",
+          "P03-G14-F00038",
+          "data/interim/frame-crop-audit-20261016/frames/G14/frame_00038.jpg"
+        ]
+      ]
+    },
+    {
+      "group": "Y02",
+      "nearest_advisory": [
+        [
+          17,
+          "Y02-F00018",
+          "P01-G04-F00050",
+          "data/interim/frame-crop-audit-20261016/frames/G04/frame_00050.jpg"
+        ],
+        [
+          17,
+          "Y02-F00058",
+          "P01-G04-F00046",
+          "data/interim/frame-crop-audit-20261016/frames/G04/frame_00046.jpg"
+        ],
+        [
+          18,
+          "Y02-F00018",
+          "P01-G04-F00046",
+          "data/interim/frame-crop-audit-20261016/frames/G04/frame_00046.jpg"
+        ]
+      ]
+    },
+    {
+      "group": "Y03",
+      "nearest_advisory": [
+        [
+          18,
+          "Y03-F00001",
+          "P03-G17-F00025",
+          "data/interim/frame-crop-audit-20261016/frames/G17/frame_00025.jpg"
+        ],
+        [
+          20,
+          "Y03-F00001",
+          "P03-G17-F00012",
+          "data/interim/frame-crop-audit-20261016/frames/G17/frame_00012.jpg"
+        ],
+        [
+          20,
+          "Y03-F00004",
+          "P05-G27-F00031",
+          "data/interim/frame-crop-audit-20261016/frames/G27/frame_00031.jpg"
+        ]
+      ]
+    },
+    {
+      "group": "Y04",
+      "nearest_advisory": [
+        [
+          18,
+          "Y04-F00001",
+          "P04-G22-F00021",
+          "data/interim/frame-crop-audit-20261016/frames/G22/frame_00021.jpg"
+        ],
+        [
+          18,
+          "Y04-F00008",
+          "P04-G22-F00021",
+          "data/interim/frame-crop-audit-20261016/frames/G22/frame_00021.jpg"
+        ],
+        [
+          19,
+          "Y04-F00022",
+          "P04-G22-F00021",
+          "data/interim/frame-crop-audit-20261016/frames/G22/frame_00021.jpg"
+        ]
+      ]
+    },
+    {
+      "group": "Y05",
+      "nearest_advisory": [
+        [
+          5,
+          "Y05-F00048",
+          "P03-G17-F00012",
+          "data/interim/frame-crop-audit-20261016/frames/G17/frame_00012.jpg"
+        ],
+        [
+          6,
+          "Y05-F00029",
+          "P03-G17-F00012",
+          "data/interim/frame-crop-audit-20261016/frames/G17/frame_00012.jpg"
+        ],
+        [
+          6,
+          "Y05-F00030",
+          "P03-G17-F00012",
+          "data/interim/frame-crop-audit-20261016/frames/G17/frame_00012.jpg"
+        ]
+      ]
+    },
+    {
+      "group": "Y06",
+      "nearest_advisory": [
+        [
+          16,
+          "Y06-F00029",
+          "P01-G03-F00030",
+          "data/interim/frame-crop-audit-20261016/frames/G03/frame_00030.jpg"
+        ],
+        [
+          17,
+          "Y06-F00036",
+          "P02-G10-F00048",
+          "data/interim/frame-crop-audit-20261016/frames/G10/frame_00048.jpg"
+        ],
+        [
+          18,
+          "Y06-F00001",
+          "P03-G14-F00005",
+          "data/interim/frame-crop-audit-20261016/frames/G14/frame_00005.jpg"
+        ]
+      ]
+    }
+  ],
+  "independence_proven": false,
+  "assignment": "Chưa gán split; cần review lineage trước release.",
+  "visual_findings": [
+    {
+      "group": "Y05",
+      "prior_group": "G17",
+      "evidence": "P03-G17-F00012 và Y05-F00048 đã xem; phòng/góc máy, cửa sổ, rèm, bàn giáo viên và bố cục rất gần; khác người/tư thế không chứng minh độc lập.",
+      "decision": "Quarantine cùng scene-family tiềm năng trước split; chưa nghiệm thu group."
+    },
+    {
+      "groups": [
+        "Y03",
+        "Y05"
+      ],
+      "evidence": "Bố cục lớp/góc máy có điểm tương đồng; chưa xác minh là cùng room/session.",
+      "decision": "Cờ kiểm thêm, không tự gán independence hoặc group accepted."
+    }
+  ]
+}

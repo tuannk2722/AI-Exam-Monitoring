@@ -1,0 +1,8 @@
+{
+  "geometry_qa":[
+    {"id":"V6R2-MP-046-R03","result":"pass_draft","states":["P","N"],"note":"Đã giữ trọn phone trên bàn và đầu cúi theo vùng riêng. Không mặt người cạnh; phone còn nhận được ở input. P/N theo owner, geometry mới cần review."},
+    {"id":"V6R2-SB-015-R05","result":"pass_draft","states":["U","N"],"note":"Đầu người trước đủ trong nguồn và crop, người sau chỉ còn mảnh mặt trái. Hướng cúi sách rõ; tay gần miệng là người sau, tay còn lại của anchor chưa quan sát đủ nên U, không lấy tay người khác làm absence evidence."},
+    {"id":"ADD-Y06-F00012-M03","result":"pass_draft","states":["N","P"],"note":"Hai tay đan trên bàn rõ, đầu quay trái khỏi vùng bàn. Mặt người sau chỉ còn phần nhỏ ở mép phải, anchor lớn và trội ở input."},
+    {"id":"ADD-Y06-F00095-M03","result":"needs_revision","states":["N","P"],"note":"Biên trên cắt đỉnh đầu; chưa phát hành. F29 hiện đã có đại diện tốt, cân nhắc không thêm gần trùng thay vì cố cứu bản này."}
+  ]
+}

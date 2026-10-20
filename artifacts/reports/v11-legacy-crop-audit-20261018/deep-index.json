@@ -1,0 +1,2592 @@
+[
+  {
+    "sample_id": "V6-CA-001",
+    "board": "deep-001.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "P/U",
+      "action": "recrop",
+      "reason": "Mobile cầm rõ; đầu anchor bị cắt ở biên trên nên looking thiếu evidence."
+    }
+  },
+  {
+    "sample_id": "V6-CA-003",
+    "board": "deep-001.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "P/N",
+      "action": "recrop",
+      "reason": "Anchor tiền cảnh nhìn vào thiết bị; hai người có mặt/tay nổi bật cạnh tranh, cần cô lập anchor."
+    }
+  },
+  {
+    "sample_id": "V6-CA-004",
+    "board": "deep-001.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật màu đỏ lớn có thể tablet/sách; nhìn xuống vật, cần xem native để phân biệt mobile."
+    }
+  },
+  {
+    "sample_id": "V6-CA-010",
+    "board": "deep-001.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật nhỏ màu xanh trong tay chưa phân biệt chắc mobile; đầu hướng vùng thao tác riêng."
+    }
+  },
+  {
+    "sample_id": "V6-CA-011",
+    "board": "deep-001.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Người kính tiền cảnh viết, thiết bị thuộc người sau; khung hẹp thiếu tay/bàn và nhiều người cạnh tranh."
+    }
+  },
+  {
+    "sample_id": "V6-CA-015",
+    "board": "deep-001.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/P",
+      "action": "inspect",
+      "reason": "Quay đầu ra ngoài sách, tay cầm vật đen cạnh sách; cần kiểm nhận dạng thiết bị."
+    }
+  },
+  {
+    "sample_id": "V6-CA-016",
+    "board": "deep-002.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật trắng mặt sau trong hai tay, đầu nhìn vật trên bài; cần kiểm cụm camera."
+    }
+  },
+  {
+    "sample_id": "V6-CA-026",
+    "board": "deep-002.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật xanh hình chữ nhật cầm thấp có thể thiết bị/sách; đầu hướng vùng riêng."
+    }
+  },
+  {
+    "sample_id": "V6-CA-038",
+    "board": "deep-002.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Đầu úp gần tay, có vật đen trên bài nhưng chi tiết thiết bị và hướng nhìn chưa rõ."
+    }
+  },
+  {
+    "sample_id": "V6-CA-046",
+    "board": "deep-002.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Mắt nhắm/đầu nghiêng trên tay, vật đen trước bàn có thể mobile; cần kiểm native."
+    }
+  },
+  {
+    "sample_id": "V6R2-CA-002",
+    "board": "deep-002.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Người áo sọc nhìn vật nhỏ trên bàn; cần phân biệt phone/calculator và attribution."
+    }
+  },
+  {
+    "sample_id": "V6R2-CA-004",
+    "board": "deep-002.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật cầm mặt sau vàng chưa thấy đặc trưng phone ở 224; nhìn vật trong tay, người sau cầm phone khác."
+    }
+  },
+  {
+    "sample_id": "V6R2-CA-009",
+    "board": "deep-003.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "U/P",
+      "action": "inspect",
+      "reason": "Đầu quay trái ngoài bàn; vật đen trên giấy cần kiểm mobile ở native/input."
+    }
+  },
+  {
+    "sample_id": "V7-A-003",
+    "board": "deep-003.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Thiết bị trắng trên giấy chưa rõ keypad hay mobile ở input; đầu và hai tay hướng bài riêng."
+    }
+  },
+  {
+    "sample_id": "V7-A-004",
+    "board": "deep-003.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật đen nhỏ trên giấy của anchor cần kiểm nhận dạng sau resize; người khác lấn khung."
+    }
+  },
+  {
+    "sample_id": "V7-A-035",
+    "board": "deep-003.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật đen trong tay trên hộp xanh có thể phone/calculator; đầu nhìn vùng tay riêng."
+    }
+  },
+  {
+    "sample_id": "V7-B-001",
+    "board": "deep-003.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật nhỏ trong hai tay chưa rõ phone; đầu hướng vật trên bàn riêng."
+    }
+  },
+  {
+    "sample_id": "V7-B-005",
+    "board": "deep-003.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Thiết bị mặt lưng trắng thiếu đặc trưng ở 224; đầu nhìn vùng tay."
+    }
+  },
+  {
+    "sample_id": "V7-B-013",
+    "board": "deep-004.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Lưng vàng của vật cầm chưa thấy đặc trưng phân biệt mobile; đầu nhìn xuống máy."
+    }
+  },
+  {
+    "sample_id": "V7-B-015",
+    "board": "deep-004.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "P/N",
+      "action": "recrop",
+      "reason": "Người nữ cầm mobile rõ nhưng người nam và người nữ nổi bật tương đương; cần khung tách anchor."
+    }
+  },
+  {
+    "sample_id": "V7-B-019",
+    "board": "deep-004.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "P/N",
+      "action": "recrop",
+      "reason": "Mobile trong tay rõ nhưng nhiều mặt và bàn tay cạnh tranh, cần xác minh/cô lập anchor."
+    }
+  },
+  {
+    "sample_id": "V7-B-021",
+    "board": "deep-004.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Người áo nâu cầm vật đen lên trước mặt, chưa rõ đặc trưng mobile ở input."
+    }
+  },
+  {
+    "sample_id": "V7-B-023",
+    "board": "deep-004.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/P",
+      "action": "inspect",
+      "reason": "Mặt quay ra ngoài vùng bài; vật đen giơ lên và vật trên bàn cần kiểm mobile/attribution."
+    }
+  },
+  {
+    "sample_id": "V7-B-025",
+    "board": "deep-004.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Hood che đầu, màn hình cầm ngang có thể mobile/tablet; cần kiểm kích thước/cấu trúc, không suy looking từ tư thế."
+    }
+  },
+  {
+    "sample_id": "V7-B-029",
+    "board": "deep-005.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "U/P",
+      "action": "inspect",
+      "reason": "Đầu nhìn ra trước khỏi vật cầm; lưng thiết bị nhỏ chưa rõ loại tại input."
+    }
+  },
+  {
+    "sample_id": "V7-B-031",
+    "board": "deep-005.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật trắng cầm hai tay có thể phone nhưng chi tiết mờ; đầu hướng vùng tay."
+    }
+  },
+  {
+    "sample_id": "V7-B-039",
+    "board": "deep-005.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Mặt sau xám trong tay cần kiểm camera/đặc trưng mobile; hướng nhìn vào vật rõ."
+    }
+  },
+  {
+    "sample_id": "V7-B-041",
+    "board": "deep-005.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "P/N",
+      "action": "recrop",
+      "reason": "Mobile rõ nhưng hai người nữ nổi bật cùng hướng bàn; cần xác minh anchor và tránh attribution cạnh tranh."
+    }
+  },
+  {
+    "sample_id": "V7-B-047",
+    "board": "deep-005.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật đen cầm ngang cần kiểm phone so với controller/thiết bị khác; đầu hướng vật."
+    }
+  },
+  {
+    "sample_id": "V7-B-049",
+    "board": "deep-005.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật nhỏ trắng cầm hai tay thiếu đặc trưng ở 224, hướng nhìn xuống tay rõ."
+    }
+  },
+  {
+    "sample_id": "V7-B-051",
+    "board": "deep-006.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "P/U",
+      "action": "recrop",
+      "reason": "Mobile màn hình sáng tại tay người tiền cảnh; đầu quay lưng/bị cắt và hai người phía sau cạnh tranh."
+    }
+  },
+  {
+    "sample_id": "V7-B-055",
+    "board": "deep-006.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "P/N",
+      "action": "recrop",
+      "reason": "Thiết bị mặt kính ở tay anchor rõ, đầu nhìn máy; hai người sát nhau nổi bật cạnh tranh."
+    }
+  },
+  {
+    "sample_id": "V7-B-059",
+    "board": "deep-006.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Lưng vàng nhỏ chưa thấy đặc trưng nhận mobile; đầu nhìn vật trong tay."
+    }
+  },
+  {
+    "sample_id": "V7-D-002",
+    "board": "deep-006.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Hai người nữ cùng nổi bật, vật đen trong tay cần phân biệt mobile và cô lập người cầm."
+    }
+  },
+  {
+    "sample_id": "V7-D-004",
+    "board": "deep-006.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật tối trong tay người áo trắng còn thiếu đặc trưng ở input; hướng đầu xuống vùng riêng."
+    }
+  },
+  {
+    "sample_id": "V7-D-005",
+    "board": "deep-006.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "P/N",
+      "action": "recrop",
+      "reason": "Mobile cầm hai tay rõ, nhìn máy; người nam và người nữ cạnh tranh trong crop."
+    }
+  },
+  {
+    "sample_id": "V7-D-010",
+    "board": "deep-007.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "P/N",
+      "action": "recrop",
+      "reason": "Mobile trong tay người tiền cảnh, đầu hướng máy; người sau cầm máy khác nổi bật nên cần cô lập anchor."
+    }
+  },
+  {
+    "sample_id": "V7-D-011",
+    "board": "deep-007.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Lưng vật trắng nhỏ trong tay chưa rõ mobile; đầu hướng vùng thao tác riêng."
+    }
+  },
+  {
+    "sample_id": "V7-D-012",
+    "board": "deep-007.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "P/N",
+      "action": "recrop",
+      "reason": "Mobile trong tay người tiền cảnh rõ, nhiều mặt/tay phía sau cùng nổi bật cần QA anchor."
+    }
+  },
+  {
+    "sample_id": "V7-D-014",
+    "board": "deep-007.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật đen mặt lưng trước mặt thiếu camera rõ tại input; nhìn vật trong tay."
+    }
+  },
+  {
+    "sample_id": "V7-D-018",
+    "board": "deep-007.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "P/N",
+      "action": "recrop",
+      "reason": "Phone trong tay và phone trên bàn, người nam trước và người nam sau nổi bật cạnh tranh."
+    }
+  },
+  {
+    "sample_id": "V7-D-020",
+    "board": "deep-007.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Mặt lưng bạc trơn chưa đủ phân biệt mobile tại 224, đầu nhìn xuống tay."
+    }
+  },
+  {
+    "sample_id": "V7-D-022",
+    "board": "deep-008.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Tay và vật hướng ra khỏi crop, đích nhìn ngoài khung chưa rõ; cần source/geometry."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S068-A01",
+    "board": "deep-008.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/P",
+      "action": "recrop",
+      "reason": "Anchor hàng sau quay sang cạnh, tay/bàn bị người tiền cảnh che; đầu người trước cạnh tranh trong khung."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S069-A01",
+    "board": "deep-008.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật đen trước mặt chỉ thấy lưng, chưa rõ đặc trưng mobile; đầu nhìn vật."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S070-A01",
+    "board": "deep-008.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật trắng trong hai tay cần kiểm camera/đặc trưng mobile; đầu hướng vùng riêng."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S071-A01",
+    "board": "deep-008.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "P/N",
+      "action": "recrop",
+      "reason": "Mobile thao tác rõ, hai người có mặt/tay sát nhau nổi bật cần tách anchor."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S074-A01",
+    "board": "deep-008.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Mặt lưng vàng dưới bàn thiếu đặc trưng camera tại 224; đầu nhìn vật."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S103-A01",
+    "board": "deep-009.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Thiết bị hồng cạnh thân bị che một phần, cần kiểm mobile; đầu hướng giấy đang viết."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S104-A01",
+    "board": "deep-009.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật mỏng cầm ngang chỉ lộ cạnh/lưng, đầu hướng vùng tay; không suy mobile từ cử chỉ."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S107-A01",
+    "board": "deep-009.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Vật đen và bàn tay phải bị cắt ở mép phải; đầu nhìn vùng tay, cần mở geometry nếu source đủ."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S109-A01",
+    "board": "deep-009.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "P/U",
+      "action": "inspect",
+      "reason": "Vật đen mặt kính trên bàn nhận mobile; đầu hơi nghiêng nhưng đích nhìn chưa rõ tại input."
+    }
+  },
+  {
+    "sample_id": "V7-R8-D-001",
+    "board": "deep-009.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Tablet trên bàn không tự phone P; một tay người đứng bị cắt, hai người nổi bật cạnh tranh."
+    }
+  },
+  {
+    "sample_id": "V7-UNAPPROVED-C-001",
+    "board": "deep-009.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/P",
+      "action": "recrop",
+      "reason": "Đầu quay phải ngoài bài; cánh tay kéo ra ngoài biên crop nên thiếu absence."
+    }
+  },
+  {
+    "sample_id": "V7-UNAPPROVED-C-003",
+    "board": "deep-010.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Mặt lưng xanh của vật trong tay chưa rõ cụm camera tại 224; calculator trên bàn không xác nhận phone."
+    }
+  },
+  {
+    "sample_id": "EXP-CM-001",
+    "board": "deep-010.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật đen nhỏ trong hai tay thiếu chi tiết mobile ở input; đầu nhìn xuống tay."
+    }
+  },
+  {
+    "sample_id": "EXP-CM-007",
+    "board": "deep-010.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/P",
+      "action": "inspect",
+      "reason": "Vật đen nhỏ giơ trước thân chỉ lộ mặt lưng; đầu hướng ra trước khỏi vùng bàn."
+    }
+  },
+  {
+    "sample_id": "EXP-CM-015",
+    "board": "deep-010.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Tay nâng sát ngực và tay dưới biên chưa thấy trọn, đầu hướng thấp; cần source xác định vùng bài."
+    }
+  },
+  {
+    "sample_id": "EXP-CM-022",
+    "board": "deep-010.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật đen trong tay mờ mất đặc trưng mobile, đầu hướng vùng tay riêng."
+    }
+  },
+  {
+    "sample_id": "EXP-CM-023",
+    "board": "deep-010.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật đen dựng trong hai tay chỉ còn khối mờ, đầu nhìn vùng thao tác."
+    }
+  },
+  {
+    "sample_id": "EXP-CM-024",
+    "board": "deep-011.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "U/P",
+      "action": "inspect",
+      "reason": "Đầu ngẩng hướng ngoài bàn, vật nhỏ ở tay chưa rõ loại tại input."
+    }
+  },
+  {
+    "sample_id": "V7-A-007",
+    "board": "deep-011.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "P/U",
+      "action": "recrop",
+      "reason": "Mobile kiểu gập trên bàn nhận được; phần đầu/mắt bị cắt khỏi crop, cần nới từ source."
+    }
+  },
+  {
+    "sample_id": "V7-A-013",
+    "board": "deep-011.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "P/P",
+      "action": "inspect",
+      "reason": "Vật dạng phone gập trên bàn cần kiểm native; đầu quay khỏi laptop về camera."
+    }
+  },
+  {
+    "sample_id": "V7-A-015",
+    "board": "deep-011.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/P",
+      "action": "inspect",
+      "reason": "Đầu hướng trước ngoài laptop; vật đen nhỏ trên bàn cần phân biệt phone/vật khác."
+    }
+  },
+  {
+    "sample_id": "V7-A-023",
+    "board": "deep-011.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "P/N",
+      "action": "inspect",
+      "reason": "Thiết bị trên bàn có cấu trúc mobile, cần xác minh input; đầu hướng laptop."
+    }
+  },
+  {
+    "sample_id": "V7-A-027",
+    "board": "deep-011.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Hai tay làm đồ thủ công, vật chữ nhật đen trên bàn cần kiểm mobile/remote; đầu hướng vùng làm riêng."
+    }
+  },
+  {
+    "sample_id": "V7-A-029",
+    "board": "deep-012.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "P/N",
+      "action": "inspect",
+      "reason": "Vật đen trên bàn cạnh máy tính có mặt kính/viền cần kiểm native; đầu hướng khu vực làm riêng."
+    }
+  },
+  {
+    "sample_id": "V7-A-031",
+    "board": "deep-012.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "P/P",
+      "action": "inspect",
+      "reason": "Vật dạng phone gập trên bàn cần kiểm nhận dạng; mặt hướng camera ngoài laptop."
+    }
+  },
+  {
+    "sample_id": "V7-A-049",
+    "board": "deep-012.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Đầu nhìn laptop nhưng hai tay bị cắt sát biên phải, cần mở khung nếu source cho phép."
+    }
+  },
+  {
+    "sample_id": "V7-B-067",
+    "board": "deep-012.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật đen nhỏ có dây trong tay có thể máy nghe nhạc/mobile; đầu hướng tay/máy riêng."
+    }
+  },
+  {
+    "sample_id": "V7-B-069",
+    "board": "deep-012.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "P/N",
+      "action": "recrop",
+      "reason": "Mobile có màn hình/keypad trong tay anchor; đầu nhìn máy, đầu người cạnh nổi bật gây cạnh tranh."
+    }
+  },
+  {
+    "sample_id": "V7-C-097",
+    "board": "deep-012.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "P/N",
+      "action": "recrop",
+      "reason": "Mobile trong tay có mặt máy, hai người cùng nổi bật; cần tách người cầm."
+    }
+  },
+  {
+    "sample_id": "V7-C-100",
+    "board": "deep-013.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật màn hình đen lớn trên giấy có thể tablet/mobile; tay và hướng nhìn ở laptop riêng."
+    }
+  },
+  {
+    "sample_id": "V7-C-116",
+    "board": "deep-013.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Một tay trên ghế, tay kia/vùng laptop bị cắt bên phải; đầu hướng vùng riêng nhưng absence thiếu."
+    }
+  },
+  {
+    "sample_id": "V7-D-029",
+    "board": "deep-013.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/P",
+      "action": "inspect",
+      "reason": "Mặt ngẩng hướng người xem, vật nhỏ trắng ở tay thấp chưa phân biệt mobile."
+    }
+  },
+  {
+    "sample_id": "V7-D-031",
+    "board": "deep-013.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật đen cầm trong tay có thể mobile/thiết bị khác, cần kiểm native; đầu hướng vật riêng."
+    }
+  },
+  {
+    "sample_id": "V7-D-034",
+    "board": "deep-013.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/P",
+      "action": "inspect",
+      "reason": "Thiết bị bạc dựng trên bàn có thể camera/phone; mặt ngẩng khỏi vật, cần phân biệt loại."
+    }
+  },
+  {
+    "sample_id": "V7-D-038",
+    "board": "deep-013.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "P/N",
+      "action": "recrop",
+      "reason": "Mobile màn hình ảnh trong tay người nữ, nhìn máy; ba người nổi bật cạnh tranh anchor."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S041-A01",
+    "board": "deep-014.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Người tiền cảnh nhìn xuống giấy, tay/vùng dưới bàn bị che; nhiều người cạnh tranh trong khung rộng."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S042-A01",
+    "board": "deep-014.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật đen trong hai tay mờ sau resize, cần phân biệt mobile; đầu nhìn vùng tay."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S042-A02",
+    "board": "deep-014.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật đen trong tay trên bàn cần kiểm mobile/calculator, đầu hướng vùng riêng."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S043-A02",
+    "board": "deep-014.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Mắt nhắm/hướng chưa rõ, tay khuất; vật có phím trên bàn cần phân biệt calculator với mobile."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S043-A03",
+    "board": "deep-014.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Tay trái bị cắt ở biên crop, đầu nhìn xuống bài riêng; cần nới khung từ source."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S044-A01",
+    "board": "deep-014.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "P/N",
+      "action": "inspect",
+      "reason": "Thiết bị màn hình trong tay có dạng mobile, cần xác minh input; đầu hướng máy riêng."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S044-A02",
+    "board": "deep-015.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "U/P",
+      "action": "inspect",
+      "reason": "Đầu ngẩng sang phải khỏi giấy, hai tay không thấy đủ; vật trên giấy cần kiểm calculator/mobile."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S044-A03",
+    "board": "deep-015.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/P",
+      "action": "recrop",
+      "reason": "Đầu nhìn khỏi trang bài, tay bị cắt bên trái; cần giữ vùng tay và giảm người cạnh."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S051-A01",
+    "board": "deep-015.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "P/N",
+      "action": "recrop",
+      "reason": "Mobile trong tay có mặt kính rõ; hai người nam cùng nổi bật, cần cô lập người cầm."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S053-A01",
+    "board": "deep-015.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Tablet không là mobile; nhóm nhiều người tương đương, tay/vật bị che nên cần xác định và cô lập anchor."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S054-A01",
+    "board": "deep-015.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Nhiều tablet/người trong khung, tay anchor bị che; đầu hướng vùng làm nhưng cần geometry rõ chủ thể."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S055-A01",
+    "board": "deep-015.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Tay khuất và hướng đầu chưa đủ gắn vùng bài/laptop, cần source đối chiếu đích nhìn."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S057-A02",
+    "board": "deep-016.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Người đứng cùng người ngồi cạnh tranh chủ thể, tay bị che/cắt; cần xác định anchor và vùng thao tác."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S061-A01",
+    "board": "deep-016.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/P",
+      "action": "recrop",
+      "reason": "Nhóm đông người và tay giáo viên phủ khung, các mặt hướng lên ngoài bài nhưng chưa cô lập anchor."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S063-A01",
+    "board": "deep-016.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/P",
+      "action": "recrop",
+      "reason": "Nhiều người nổi bật tương đương, tay dưới bàn không thấy; hướng đầu ngoài vùng làm cần gắn đúng anchor."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S064-A01",
+    "board": "deep-016.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "N/P",
+      "action": "recrop",
+      "reason": "Các tay đặt trên đùi đủ thấy không vật lạ, đầu hướng người khác; nhiều anchor tương đương cần tách."
+    }
+  },
+  {
+    "sample_id": "V7-PF-A-004",
+    "board": "deep-016.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/P",
+      "action": "recrop",
+      "reason": "Mặt ngẩng khỏi bàn, thiết bị cạnh laptop gần người sau có attribution chưa rõ; khung nhiều người cần tách."
+    }
+  },
+  {
+    "sample_id": "V7-PF-A-005",
+    "board": "deep-016.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật đen dạng ví/case cạnh giấy cần phân biệt mobile, hai tay viết và đầu hướng giấy."
+    }
+  },
+  {
+    "sample_id": "V7-PF-A-006",
+    "board": "deep-017.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "N/N",
+      "action": "recrop",
+      "reason": "Tablet lớn, tay thao tác/giấy không vật mơ hồ; người nam và nữ nổi bật cần cô lập anchor."
+    }
+  },
+  {
+    "sample_id": "V7-PF-A-007",
+    "board": "deep-017.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "N/N",
+      "action": "recrop",
+      "reason": "Các tay viết quan sát được, đầu hướng bài; nhiều người cùng nổi bật cần tách anchor."
+    }
+  },
+  {
+    "sample_id": "V7-PF-C-001",
+    "board": "deep-017.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Người trước keyboard và người sau chống má cạnh tranh, tay bị cắt; cần đối chiếu person box/attribution."
+    }
+  },
+  {
+    "sample_id": "V7-PF-C-004",
+    "board": "deep-017.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "N/N",
+      "action": "recrop",
+      "reason": "Hai tay viết/giữ giấy rõ, đầu xuống bài; người tiền cảnh lấn vùng tay cần tách anchor."
+    }
+  },
+  {
+    "sample_id": "V7-PF-D-001",
+    "board": "deep-017.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "N/N",
+      "action": "recrop",
+      "reason": "Thiết bị lớn dạng tablet, hai tay người giữa thấy rõ; nhiều mặt sát nhau cần cô lập anchor."
+    }
+  },
+  {
+    "sample_id": "V7-UNAPPROVED-C-005",
+    "board": "deep-017.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/P",
+      "action": "inspect",
+      "reason": "Đầu quay trái khỏi bàn, vật mỏng trên bàn cần kiểm mobile; hai tay giữ giấy quan sát được."
+    }
+  },
+  {
+    "sample_id": "V7-UNAPPROVED-C-006",
+    "board": "deep-018.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật nằm sát tay trên mặt bàn chưa rõ loại ở input, đầu nhìn vùng đọc riêng."
+    }
+  },
+  {
+    "sample_id": "E004-EX-C120",
+    "board": "deep-018.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "N/U",
+      "action": "recrop",
+      "reason": "Calculator keypad rõ, hai tay có bút và calculator, nhưng đầu hoàn toàn ngoài khung."
+    }
+  },
+  {
+    "sample_id": "E004-EX-C121",
+    "board": "deep-018.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "P/U",
+      "action": "recrop",
+      "reason": "Mobile màn hình rõ, đầu chỉ còn mảnh tóc ở mép crop nên đích nhìn thiếu evidence."
+    }
+  },
+  {
+    "sample_id": "E004-EX-C123",
+    "board": "deep-018.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "P/N",
+      "action": "recrop",
+      "reason": "Mobile màn hình trên bàn rõ, đầu hướng vùng giấy nhưng mặt bị cắt bên trái; đề xuất nới đầu."
+    }
+  },
+  {
+    "sample_id": "E004-EX-C152",
+    "board": "deep-018.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật trắng mặt lưng trong tay cần kiểm cụm camera, đầu hướng vùng viết/thiết bị riêng."
+    }
+  },
+  {
+    "sample_id": "E004-EX-C172",
+    "board": "deep-018.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "P/N",
+      "action": "inspect",
+      "reason": "Vật nhỏ sáng trong tay trên giấy cần kiểm mobile ở input, calculator keypad riêng trên bàn; đầu hướng bài."
+    }
+  },
+  {
+    "sample_id": "V6-EX-003",
+    "board": "deep-019.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "P/U",
+      "action": "inspect",
+      "reason": "Mobile rõ trước mặt, tóc che mặt và đích nhìn cần kiểm source; không tự looking N vì đang cầm phone."
+    }
+  },
+  {
+    "sample_id": "V6-EX-009",
+    "board": "deep-019.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Mặt sau bạc trong tay thiếu đặc trưng camera ở input, đầu nhìn xuống vật."
+    }
+  },
+  {
+    "sample_id": "V6-EX-015",
+    "board": "deep-019.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/P",
+      "action": "recrop",
+      "reason": "Người hàng giữa nhìn ngoài bàn, tay bị người trước che; đầu người trước chiếm khung gây attribution cạnh tranh."
+    }
+  },
+  {
+    "sample_id": "V6R2-EX-004",
+    "board": "deep-019.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Thiết bị sát mặt chỉ lộ cạnh/lưng, cần kiểm mobile; đầu hướng vật trong tay."
+    }
+  },
+  {
+    "sample_id": "V7-A-036",
+    "board": "deep-019.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/P",
+      "action": "inspect",
+      "reason": "Mặt ngẩng ngoài bàn, tay trên đùi và vật đen trên laptop chưa rõ attribution/loại vật."
+    }
+  },
+  {
+    "sample_id": "V7-A-056",
+    "board": "deep-019.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Thiết bị nhỏ trắng có dây trên bàn cần phân biệt mobile/player; đầu hướng laptop."
+    }
+  },
+  {
+    "sample_id": "V7-A-058",
+    "board": "deep-020.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "U/P",
+      "action": "inspect",
+      "reason": "Hai vật đen xếp trên bàn chưa rõ ví/phone, mặt hướng người xem ngoài keyboard."
+    }
+  },
+  {
+    "sample_id": "V7-A-061",
+    "board": "deep-020.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật đen/bạc trên bàn dưới giấy cần phân biệt mobile/calculator; đầu nhìn giấy."
+    }
+  },
+  {
+    "sample_id": "V7-A-065",
+    "board": "deep-020.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Tay thao tác ngoài biên phải, nhiều người và đầu hướng vùng làm; cần source nới geometry."
+    }
+  },
+  {
+    "sample_id": "V7-A-066",
+    "board": "deep-020.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Một tay thao tác keyboard nhưng tay kia cắt ngoài khung, đầu sát biên; cần nới."
+    }
+  },
+  {
+    "sample_id": "V7-A-069",
+    "board": "deep-020.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "P/N",
+      "action": "inspect",
+      "reason": "Thiết bị màn hình sáng viền cam cần kiểm mobile/player, đầu hướng bàn/thức ăn riêng."
+    }
+  },
+  {
+    "sample_id": "V7-A-075",
+    "board": "deep-020.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "N/N",
+      "action": "recrop",
+      "reason": "Hai tay keyboard rõ, nhưng hai người nam nổi bật tương đương cần tách anchor."
+    }
+  },
+  {
+    "sample_id": "V7-B-074",
+    "board": "deep-021.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật đen nhỏ trong tay chỉ lộ cạnh/mặt mờ, cần phân biệt mobile/player; đầu hướng tay."
+    }
+  },
+  {
+    "sample_id": "V7-B-076",
+    "board": "deep-021.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Thiết bị trắng có lỗ tròn lớn có thể camera, cần kiểm native; đầu nhìn vật."
+    }
+  },
+  {
+    "sample_id": "V7-B-078",
+    "board": "deep-021.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Thiết bị vuông màn hình chưa rõ mobile/camera, hai mặt nổi bật cạnh tranh; cần xác minh anchor."
+    }
+  },
+  {
+    "sample_id": "V7-B-086",
+    "board": "deep-021.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Handset trắng áp tai có thể landline thay mobile, cần kiểm dây/cấu trúc; đầu hướng bàn DJ."
+    }
+  },
+  {
+    "sample_id": "V7-B-099",
+    "board": "deep-021.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Hai tay laptop rõ nhưng vật đen trên bàn cần phân biệt mobile/calculator; đầu hướng màn hình."
+    }
+  },
+  {
+    "sample_id": "V7-B-107",
+    "board": "deep-021.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "N/N",
+      "action": "recrop",
+      "reason": "Hai tay người nam keyboard rõ, đầu nhìn laptop; hai người có mặt nổi bật cần tách anchor."
+    }
+  },
+  {
+    "sample_id": "V7-C-105",
+    "board": "deep-022.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật cầm ở biên trái chỉ lộ một phần, đầu nhìn vật/laptop; cần nhận dạng và nới tay."
+    }
+  },
+  {
+    "sample_id": "V7-C-106",
+    "board": "deep-022.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Mắt nhắm/tay chống mặt, tay kia ngoài đáy crop; cần kiểm source đích nhìn, không suy N từ ngồi laptop."
+    }
+  },
+  {
+    "sample_id": "V7-C-107",
+    "board": "deep-022.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/P",
+      "action": "recrop",
+      "reason": "Mặt hướng người xem ngoài keyboard, tay bị cắt bên trái cần nới khung."
+    }
+  },
+  {
+    "sample_id": "V7-C-125",
+    "board": "deep-022.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Đầu hướng bàn nhưng bàn tay/thiết bị bị cắt ở mép phải, cần nới từ source."
+    }
+  },
+  {
+    "sample_id": "V7-C-128",
+    "board": "deep-022.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Đầu hướng laptop, tay bị cắt ở mép trái và sau máy; cần nới khung."
+    }
+  },
+  {
+    "sample_id": "V7-C-130",
+    "board": "deep-022.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Tay keyboard và tay mouse bị cắt biên trái/bottom, đầu hướng laptop."
+    }
+  },
+  {
+    "sample_id": "V7-C-136",
+    "board": "deep-023.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "N/N",
+      "action": "recrop",
+      "reason": "Hai tay keyboard thấy đủ, đầu hướng laptop nhưng crop rộng chứa nhiều người/cảnh phụ nên đề xuất cô lập."
+    }
+  },
+  {
+    "sample_id": "V7-C-143",
+    "board": "deep-023.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Tay khuất sau laptop, đầu hướng màn hình; crop rộng kèm người/cảnh phụ nên nên cô lập."
+    }
+  },
+  {
+    "sample_id": "V7-C-144",
+    "board": "deep-023.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Nhiều người và monitor che tay, cần xác định/cô lập anchor; đầu về máy tính."
+    }
+  },
+  {
+    "sample_id": "V7-D-044",
+    "board": "deep-023.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật bạc nhỏ trong tay cần phân biệt mobile/camera, nhiều người cạnh tranh; đầu hướng vật."
+    }
+  },
+  {
+    "sample_id": "V7-D-049",
+    "board": "deep-023.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Hai người nổi bật, tay bị laptop che; đầu về màn hình nhưng geometry chưa cô lập."
+    }
+  },
+  {
+    "sample_id": "V7-D-050",
+    "board": "deep-023.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/U",
+      "action": "recrop",
+      "reason": "Nhiều người và phone trên đùi một người; chưa xác định chắc anchor/attribution từ RGB, cần person box/source."
+    }
+  },
+  {
+    "sample_id": "V7-D-054",
+    "board": "deep-024.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "N/N",
+      "action": "recrop",
+      "reason": "Người đứng chỉ trang và tay tựa ghế thấy được, đầu về giấy; nhiều người tương đương cần tách."
+    }
+  },
+  {
+    "sample_id": "V7-D-056",
+    "board": "deep-024.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật nhỏ đen trong hai tay cần phân biệt mobile, đầu nhìn vật/bàn."
+    }
+  },
+  {
+    "sample_id": "V7-D-057",
+    "board": "deep-024.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Monitor che tay, nhiều người nổi bật trong khung; đầu hướng máy tính cần cô lập anchor."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S009-A01",
+    "board": "deep-024.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/P",
+      "action": "recrop",
+      "reason": "Nhóm nhiều người, tay/vùng lap của anchor không đủ thấy; đầu hướng người nói ngoài giấy."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S030-A01",
+    "board": "deep-024.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Đầu hướng laptop nhưng tay cắt sát biên phải, cần nới từ source."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S033-A01",
+    "board": "deep-024.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/P",
+      "action": "recrop",
+      "reason": "Nhiều người tương đương, đầu hướng phía phải ngoài bàn; tay/vùng riêng chưa cô lập."
+    }
+  },
+  {
+    "sample_id": "E004-EX-C006",
+    "board": "deep-025.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật tím trên túi đỏ chỉ lộ một phần, cần nhận dạng mobile; đầu nhìn vùng thao tác riêng."
+    }
+  },
+  {
+    "sample_id": "E004-EX-C007",
+    "board": "deep-025.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "P/N",
+      "action": "inspect",
+      "reason": "Vật trắng mặt sau trong hai tay có dấu camera nhỏ cần kiểm ở 224, đầu nhìn máy."
+    }
+  },
+  {
+    "sample_id": "E004-EX-C021-R2",
+    "board": "deep-025.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Thiết bị cầm chỉ lộ mặt/cạnh tối, cần kiểm mobile; đầu nhìn vật."
+    }
+  },
+  {
+    "sample_id": "E004-EX-C027",
+    "board": "deep-025.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Đầu nghiêng về giấy đang giơ có thể vẫn nhìn bài riêng; cần source kiểm hướng/đích và tay thấp."
+    }
+  },
+  {
+    "sample_id": "E004-EX-C030",
+    "board": "deep-025.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "P/N",
+      "action": "inspect",
+      "reason": "Vật đen trên bàn trái cạnh tay có dạng mobile cần kiểm input, đầu hướng bài."
+    }
+  },
+  {
+    "sample_id": "E004-EX-C041",
+    "board": "deep-025.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Thiết bị trên bàn dưới tay cần phân biệt calculator/mobile, đầu hướng thiết bị riêng."
+    }
+  },
+  {
+    "sample_id": "E004-EX-C042",
+    "board": "deep-026.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "P/P",
+      "action": "inspect",
+      "reason": "Vật đen trên bàn cạnh trang cần kiểm mobile; đầu quay sang người bên trái."
+    }
+  },
+  {
+    "sample_id": "E004-EX-C054",
+    "board": "deep-026.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/P",
+      "action": "inspect",
+      "reason": "Vật mỏng trắng trong tay có thể giấy/thiết bị, đầu ngẩng khỏi bàn; cần kiểm native."
+    }
+  },
+  {
+    "sample_id": "E004-EX-C055",
+    "board": "deep-026.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "P/P",
+      "action": "inspect",
+      "reason": "Vật màn hình trên bàn có dạng mobile cần xác minh ở input; đầu quay trái ngoài bài."
+    }
+  },
+  {
+    "sample_id": "E004-EX-C198",
+    "board": "deep-026.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/P",
+      "action": "inspect",
+      "reason": "Vật mỏng trong tay chưa rõ giấy hay device, mặt ngẩng khỏi trang."
+    }
+  },
+  {
+    "sample_id": "P006-person-01",
+    "board": "deep-026.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật nhỏ đen trong tay quá mờ, cần kiểm mobile ở native/input; đầu hướng tay."
+    }
+  },
+  {
+    "sample_id": "P006-person-02",
+    "board": "deep-026.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật đen trong hai tay chỉ thấy khối/mặt mờ, đầu hướng vật."
+    }
+  },
+  {
+    "sample_id": "P007-person-01",
+    "board": "deep-027.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật đen nhỏ ở tay thiếu chi tiết mobile, đầu hướng thiết bị/vùng tay."
+    }
+  },
+  {
+    "sample_id": "P007-person-02",
+    "board": "deep-027.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Mặt/cạnh đen trong hai tay chưa đủ nhận mobile sau resize, đầu nhìn vật."
+    }
+  },
+  {
+    "sample_id": "P008-person-01",
+    "board": "deep-027.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Thiết bị đen cầm hai tay cần kiểm mặt máy ở input, đầu nhìn vùng tay."
+    }
+  },
+  {
+    "sample_id": "P022-person-01",
+    "board": "deep-027.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật xanh/đen nhỏ trong hai tay bị mờ/méo, đầu hướng tay; cần kiểm mobile."
+    }
+  },
+  {
+    "sample_id": "P029-person-01",
+    "board": "deep-027.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "P/U",
+      "action": "inspect",
+      "reason": "Mobile đen trên bàn rõ, đầu nghiêng nhưng đích nhìn chưa chắc, cần source."
+    }
+  },
+  {
+    "sample_id": "P047-person-01",
+    "board": "deep-027.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật nhỏ trong tay mờ, watermark lớn ngang bàn; cần kiểm mobile và không suy từ taxonomy nguồn."
+    }
+  },
+  {
+    "sample_id": "V7-C-061",
+    "board": "deep-028.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "U/P",
+      "action": "recrop",
+      "reason": "Nhiều người nổi bật, người tiền cảnh quay sang người khác; tay/bàn chưa cô lập đúng anchor."
+    }
+  },
+  {
+    "sample_id": "V7-C-063",
+    "board": "deep-028.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Tay bị cắt, đầu hướng thấp nhưng đích/vùng bài ngoài crop; cần source, không tự N từ cúi."
+    }
+  },
+  {
+    "sample_id": "V7-C-085",
+    "board": "deep-028.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Hai người chồng, đầu nghiêng nhưng thiếu vùng bài/đích rõ; tay bị cắt nên cần source."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S111-A01",
+    "board": "deep-028.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Tay viết cắt đáy crop và tay sát mặt, đầu hướng trang; cần nới khung tay."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S113-A01",
+    "board": "deep-028.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/P",
+      "action": "inspect",
+      "reason": "Vật đen trên giấy cần kiểm mobile, một tay dưới bàn; mặt ngẩng khỏi trang."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S113-A02",
+    "board": "deep-028.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật đen trên giấy cần kiểm mobile, một tay/vùng lap khuất; đầu hướng trang."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S116-A01",
+    "board": "deep-029.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "P/P",
+      "action": "inspect",
+      "reason": "Vật đen dưới tay trên bàn có thể mobile, cần kiểm input; mặt ngẩng khỏi bài."
+    }
+  },
+  {
+    "sample_id": "EXP-SCB-004",
+    "board": "deep-029.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Góc sau đầu và vùng bàn thiếu context, một tay che mặt; cần source xác định đích nhìn."
+    }
+  },
+  {
+    "sample_id": "EXP-SCB-041",
+    "board": "deep-029.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Góc sau đầu, tay và bài không đủ thấy; cần source, không suy P từ quay đầu đơn lẻ."
+    }
+  },
+  {
+    "sample_id": "EXP-SCB-045",
+    "board": "deep-029.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Back view và bàn/đích ngoài crop, tay thiếu evidence; cần source xét geometry."
+    }
+  },
+  {
+    "sample_id": "EXP-SCB-047",
+    "board": "deep-029.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Đầu nhìn cạnh ở góc sau, tay che mặt và thiếu vùng bài; cần source trước kết luận looking."
+    }
+  },
+  {
+    "sample_id": "SCB-turnhead-002",
+    "board": "deep-029.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Mặt/tay mờ, đầu nghiêng nhưng đích/vùng bài chưa rõ; cần source và không dựa tên turnhead."
+    }
+  },
+  {
+    "sample_id": "SCB-turnhead-005",
+    "board": "deep-030.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Back view, tay/vùng bài ngoài crop; không đủ diễn giải hướng nhìn từ crop này."
+    }
+  },
+  {
+    "sample_id": "SCB-turnhead-006",
+    "board": "deep-030.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Góc sau đầu và tay/bài cắt khuất, cần source xác định đích nhìn."
+    }
+  },
+  {
+    "sample_id": "SCB-turnhead-010",
+    "board": "deep-030.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Back view và vùng bài thiếu, tay không đủ thấy; cần source trước kết luận."
+    }
+  },
+  {
+    "sample_id": "SCB-turnhead-011",
+    "board": "deep-030.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Góc sau đầu rất nhỏ, thiếu tay/vùng bài; cần source xét geometry."
+    }
+  },
+  {
+    "sample_id": "SCB-turnhead-016",
+    "board": "deep-030.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/P",
+      "action": "inspect",
+      "reason": "Đầu quay trái ngoài bài, vật đen dạng case trên bàn cần kiểm phone và tay gần vật."
+    }
+  },
+  {
+    "sample_id": "SCB-turnhead-020",
+    "board": "deep-030.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Đầu hướng bài nhưng tay bị đầu người trước che, người tiền cảnh cạnh tranh; cần source nới/tách."
+    }
+  },
+  {
+    "sample_id": "SCB-turnhead-024",
+    "board": "deep-031.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Back view, tay và bài không thấy đủ; không tự P từ tên turnhead."
+    }
+  },
+  {
+    "sample_id": "SCB-turnhead-026",
+    "board": "deep-031.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/P",
+      "action": "recrop",
+      "reason": "Đầu quay trái khỏi bài, một tay ra ngoài mép trái và người trước cạnh tranh."
+    }
+  },
+  {
+    "sample_id": "SCB-turnhead-028",
+    "board": "deep-031.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Back view, thiếu vùng bài và tay; cần source cho quan hệ hướng đầu/đích."
+    }
+  },
+  {
+    "sample_id": "V7-C-016",
+    "board": "deep-031.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Góc sau đầu và bàn thiếu, chưa phân biệt nhìn trang riêng hay người bên cạnh; cần source."
+    }
+  },
+  {
+    "sample_id": "V7-C-019",
+    "board": "deep-031.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Back view nghiêng trái, đích trang/người chưa rõ và tay che; cần source."
+    }
+  },
+  {
+    "sample_id": "V7-C-021",
+    "board": "deep-031.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Đầu sát tay che mặt, chưa rõ gục hay hướng ra ngoài; cần source, không tự P."
+    }
+  },
+  {
+    "sample_id": "V7-C-023",
+    "board": "deep-032.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Đầu nghiêng/cúi và vùng bài bị người trước che, hướng mắt mờ; cần source."
+    }
+  },
+  {
+    "sample_id": "V7-C-035",
+    "board": "deep-032.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/P",
+      "action": "recrop",
+      "reason": "Nhiều người cạnh tranh, đầu anchor hàng sau hướng ngoài bài; tay bị người trước che cần source/person box."
+    }
+  },
+  {
+    "sample_id": "V7-C-043",
+    "board": "deep-032.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/P",
+      "action": "recrop",
+      "reason": "Đầu ngẩng trái khỏi bài, tay bị đầu người trước che; cần cô lập anchor."
+    }
+  },
+  {
+    "sample_id": "V7-C-047",
+    "board": "deep-032.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/P",
+      "action": "recrop",
+      "reason": "Người trước quay trái, tay bị crop/che; người sau mất đầu, cần kiểm person box và geometry."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S086-A01",
+    "board": "deep-032.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/P",
+      "action": "recrop",
+      "reason": "Tay giơ ra ngoài crop, nhiều đầu nổi bật cạnh tranh; cần cô lập anchor và vùng bài."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S087-A01",
+    "board": "deep-032.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "N/N",
+      "action": "recrop",
+      "reason": "Hai người viết cùng nổi bật, tay/giấy rõ nhưng cần tách anchor để RGB không cạnh tranh."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S089-A01",
+    "board": "deep-033.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "U/U",
+      "action": "recrop",
+      "reason": "Khung nhóm đông người tương đương, không xác định chắc anchor từ RGB; cần source/person box."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S090-A01",
+    "board": "deep-033.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Hai người cùng thao tác vật nhỏ mờ, không đủ mobile và anchor cạnh tranh; đầu hướng vùng tay."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S091-A01",
+    "board": "deep-033.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "N/P",
+      "action": "recrop",
+      "reason": "Người tiền cảnh nhìn sang người đứng, hai tay trên bàn thấy được; cần cô lập chủ thể giữa nhóm."
+    }
+  },
+  {
+    "sample_id": "EXP-SCB-017",
+    "board": "deep-033.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Đầu cúi khuất trong hood, hai tay/bài bị chồng sách che; cần source trước kết luận."
+    }
+  },
+  {
+    "sample_id": "EXP-SCB-048",
+    "board": "deep-033.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Back view với tay/vùng bài khuất, chưa đủ diễn giải hướng nhìn; cần source."
+    }
+  },
+  {
+    "sample_id": "SCB-read-006",
+    "board": "deep-033.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Mặt mờ và tay/bài bị đầu người trước che, chưa đủ đích nhìn; cần source."
+    }
+  },
+  {
+    "sample_id": "SCB-read-008",
+    "board": "deep-034.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "U/U",
+      "action": "recrop",
+      "reason": "Hai đầu nổi bật chồng nhau, tay/bài anchor bị người trước che; cần source/person box."
+    }
+  },
+  {
+    "sample_id": "SCB-read-009",
+    "board": "deep-034.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Đầu hướng vùng sách nhưng tay bị người trước che, cần cô lập anchor từ source."
+    }
+  },
+  {
+    "sample_id": "SCB-read-014",
+    "board": "deep-034.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Tay che mặt và tay kia bị khuất, chưa biết hướng nhìn; cần source."
+    }
+  },
+  {
+    "sample_id": "SCB-read-022",
+    "board": "deep-034.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Đầu người trước che tay và vùng sách, hướng/đích chưa rõ; cần source."
+    }
+  },
+  {
+    "sample_id": "V7-C-002",
+    "board": "deep-034.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Nhiều người đọc giấy trong cùng khung, tay chồng/che cần source xác định và cô lập anchor."
+    }
+  },
+  {
+    "sample_id": "V7-C-004",
+    "board": "deep-034.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Nhiều đầu nổi bật, tay dưới crop bị cắt; cần source/person box để cô lập anchor."
+    }
+  },
+  {
+    "sample_id": "V7-C-006",
+    "board": "deep-035.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "N/N",
+      "action": "recrop",
+      "reason": "Các tay viết/giữ trang rõ, ba người cùng nổi bật; cần cô lập anchor để giảm cạnh tranh RGB."
+    }
+  },
+  {
+    "sample_id": "V7-C-010",
+    "board": "deep-035.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "N/N",
+      "action": "recrop",
+      "reason": "Hai người cạnh nhau cùng nổi bật, tay đọc/viết đủ thấy; cần tách đúng anchor."
+    }
+  },
+  {
+    "sample_id": "V7-C-026",
+    "board": "deep-035.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Đầu hướng bài nhưng vật/tay sát mặt mờ, chưa đủ absence/loại vật; cần source."
+    }
+  },
+  {
+    "sample_id": "V7-C-028",
+    "board": "deep-035.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Nhiều người chồng nhau, tay/vùng giấy anchor thiếu rõ; cần source/person box."
+    }
+  },
+  {
+    "sample_id": "V7-C-046",
+    "board": "deep-035.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "N/N",
+      "action": "recrop",
+      "reason": "Nhiều người cạnh tranh nhưng tay/trang nhìn được, đầu hướng bài; cần cô lập anchor."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S093-A01",
+    "board": "deep-035.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/U",
+      "action": "recrop",
+      "reason": "Khung nhiều người tương đương và nhiều đích nhìn, cần source/person box trước đề xuất target cho anchor."
+    }
+  },
+  {
+    "sample_id": "V7-OE-S099-A01",
+    "board": "deep-036.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "U/U",
+      "action": "recrop",
+      "reason": "Hai người cùng nổi bật có hướng nhìn khác nhau, cần source/person box xác định anchor và khung."
+    }
+  },
+  {
+    "sample_id": "V6-SB-003",
+    "board": "deep-036.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật đen trên giấy ngay tay chưa rõ mobile/thiết bị khác, đầu hướng vùng thao tác."
+    }
+  },
+  {
+    "sample_id": "V6-SB-004",
+    "board": "deep-036.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Lưng thiết bị bạc trong hai tay thiếu đặc trưng ở input, đầu nhìn vật."
+    }
+  },
+  {
+    "sample_id": "V6-SB-005",
+    "board": "deep-036.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Thiết bị tối trong tay chỉ lộ một mặt/cạnh, đầu hướng máy, cần kiểm mobile."
+    }
+  },
+  {
+    "sample_id": "V6-SB-008",
+    "board": "deep-036.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật trắng trong hai tay nhỏ/mờ, chưa phân biệt mobile; đầu hướng vật."
+    }
+  },
+  {
+    "sample_id": "V6-SB-009",
+    "board": "deep-036.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật nhỏ đen dưới tay trên bàn cần phân biệt mobile/calculator, đầu hướng vùng riêng."
+    }
+  },
+  {
+    "sample_id": "V6-SB-010",
+    "board": "deep-037.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "P/N",
+      "action": "inspect",
+      "reason": "Vật đen viền tím dưới tay có dạng mobile, cần kiểm nhận dạng tại input; đầu hướng bàn."
+    }
+  },
+  {
+    "sample_id": "V6-SB-011",
+    "board": "deep-037.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "P/N",
+      "action": "inspect",
+      "reason": "Vật màn hình nhỏ trong tay cạnh sách cần kiểm mobile; đầu hướng vùng bài riêng."
+    }
+  },
+  {
+    "sample_id": "V6-SB-014",
+    "board": "deep-037.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Thiết bị đen trong hai tay thiếu đặc trưng mobile tại input, đầu hướng vật."
+    }
+  },
+  {
+    "sample_id": "V6-SB-015",
+    "board": "deep-037.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật đen trên bàn đang chạm thiếu chi tiết loại vật, đầu hướng vùng thao tác."
+    }
+  },
+  {
+    "sample_id": "V6-SB-016",
+    "board": "deep-037.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/P",
+      "action": "inspect",
+      "reason": "Mặt ngẩng ngoài máy, mặt lưng bạc trong hai tay cần kiểm camera/loại vật."
+    }
+  },
+  {
+    "sample_id": "V6-SB-032",
+    "board": "deep-037.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/P",
+      "action": "inspect",
+      "reason": "Đầu quay trái ngoài bài rõ, vật đen dưới sách cần kiểm mobile; tay một phần khuất."
+    }
+  },
+  {
+    "sample_id": "V6-SB-042",
+    "board": "deep-038.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "N/N",
+      "action": "inspect",
+      "reason": "Hai tay cầm bút/giữ trang đủ thấy, cần kiểm đích nhìn ở input do mặt hơi ngẩng."
+    }
+  },
+  {
+    "sample_id": "V6-SB-044",
+    "board": "deep-038.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/U",
+      "action": "recrop",
+      "reason": "Back view và nhiều người chồng nhau, tay/bài thiếu; cần source/person box trước chốt nhãn."
+    }
+  },
+  {
+    "sample_id": "V6R2-MP-006",
+    "board": "deep-038.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "P/P",
+      "action": "inspect",
+      "reason": "Vật đen mặt kính trên sách có dạng mobile cần kiểm input, mặt ngẩng khỏi bài."
+    }
+  },
+  {
+    "sample_id": "V6R2-MP-008",
+    "board": "deep-038.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/U",
+      "action": "recrop",
+      "reason": "Mặt cắt mất bên trái, tay và đích nhìn thiếu; cần source nới/cô lập anchor."
+    }
+  },
+  {
+    "sample_id": "V6R2-MP-009",
+    "board": "deep-038.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật đen trong hai tay chỉ lộ lưng/cạnh mờ, đầu hướng vật; cần kiểm mobile."
+    }
+  },
+  {
+    "sample_id": "V6R2-MP-010",
+    "board": "deep-038.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật đen nhỏ trong hai tay thiếu đặc trưng, đầu hướng vật."
+    }
+  },
+  {
+    "sample_id": "V6R2-MP-011",
+    "board": "deep-039.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "P/N",
+      "action": "inspect",
+      "reason": "Thiết bị đỏ cầm trước thân có dạng mobile, cần kiểm mặt kính/viền ở input; đầu hướng máy."
+    }
+  },
+  {
+    "sample_id": "V6R2-MP-014",
+    "board": "deep-039.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/U",
+      "action": "inspect",
+      "reason": "Đầu cúi nhưng tay/vùng đích dưới bàn khuất, chưa biết vào bài hay ra ngoài; cần source."
+    }
+  },
+  {
+    "sample_id": "V6R2-MP-030",
+    "board": "deep-039.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật nhỏ trong hai tay thiếu đặc trưng mobile, đầu hướng vùng tay."
+    }
+  },
+  {
+    "sample_id": "V6R2-MP-031",
+    "board": "deep-039.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "P/N",
+      "action": "inspect",
+      "reason": "Vật mặt kính ngay tay trên bàn có dạng mobile, cần kiểm input; đầu hướng vùng thao tác."
+    }
+  },
+  {
+    "sample_id": "V6R2-MP-034",
+    "board": "deep-039.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Lưng/cạnh vật nhỏ trong hai tay không đủ nhận mobile, đầu hướng tay."
+    }
+  },
+  {
+    "sample_id": "V6R2-MP-035",
+    "board": "deep-039.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Lưng vật cầm nhỏ/mờ thiếu đặc trưng mobile, đầu hướng vùng tay riêng."
+    }
+  },
+  {
+    "sample_id": "V6R2-MP-040",
+    "board": "deep-040.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật nhỏ trong tay thiếu đặc trưng phone sau resize, đầu hướng vật."
+    }
+  },
+  {
+    "sample_id": "V6R2-MP-041",
+    "board": "deep-040.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Đầu hướng trang, tay bị cắt ở mép trái và sau trang; cần source nới geometry."
+    }
+  },
+  {
+    "sample_id": "V6R2-MP-046",
+    "board": "deep-040.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "P/U",
+      "action": "inspect",
+      "reason": "Mobile mặt kính trên bàn rõ, đầu tựa tay che mặt nên cần kiểm đích nhìn, không tự looking N."
+    }
+  },
+  {
+    "sample_id": "V6R2-MP-053",
+    "board": "deep-040.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/P",
+      "action": "inspect",
+      "reason": "Thiết bị đen cầm hai tay còn mờ, đầu ngẩng khỏi máy; cần kiểm mobile."
+    }
+  },
+  {
+    "sample_id": "V6R2-MP-066",
+    "board": "deep-040.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/P",
+      "action": "inspect",
+      "reason": "Vật đen trong tay chỉ lộ cạnh/mặt mờ, đầu quay trái ngoài vùng làm; cần nhận dạng mobile."
+    }
+  },
+  {
+    "sample_id": "V6R2-MP-068",
+    "board": "deep-040.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Thiết bị đen trong hai tay thiếu đặc trưng nhận mobile, đầu hướng vật."
+    }
+  },
+  {
+    "sample_id": "V6R2-MP-079",
+    "board": "deep-041.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật xanh/đen nâng sát mặt thiếu đặc trưng mobile, mắt hướng vật trong tay."
+    }
+  },
+  {
+    "sample_id": "V6R2-MP-084",
+    "board": "deep-041.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Mặt lưng đen trong hai tay thiếu đặc trưng camera, đầu hướng tay."
+    }
+  },
+  {
+    "sample_id": "V6R2-MP-085",
+    "board": "deep-041.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật đen cầm hai tay thiếu đặc trưng mobile ở input, đầu hướng vật."
+    }
+  },
+  {
+    "sample_id": "V6R2-MP-089",
+    "board": "deep-041.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật xanh/trắng trong hai tay quá mờ để phân biệt mobile, đầu hướng tay."
+    }
+  },
+  {
+    "sample_id": "V6R2-MP-093",
+    "board": "deep-041.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật đen trong tay chỉ còn mặt/lưng mờ, mắt hướng vùng tay, cần kiểm mobile."
+    }
+  },
+  {
+    "sample_id": "V6R2-SB-001",
+    "board": "deep-041.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật trắng trong hai tay thiếu đặc trưng mobile, đầu hướng vật."
+    }
+  },
+  {
+    "sample_id": "V6R2-SB-002",
+    "board": "deep-042.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "U/N",
+      "action": "inspect",
+      "reason": "Vật trắng cầm nhỏ/mờ, đầu hướng tay; cần phân biệt mobile ở input."
+    }
+  },
+  {
+    "sample_id": "V6R2-SB-003",
+    "board": "deep-042.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "P/P",
+      "action": "inspect",
+      "reason": "Vật mặt kính trên sách dạng mobile cần kiểm nhận dạng, mặt ngẩng ngoài trang."
+    }
+  },
+  {
+    "sample_id": "V6R2-SB-006",
+    "board": "deep-042.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "P/N",
+      "action": "inspect",
+      "reason": "Mặt lưng vàng trong tay có dấu camera cần kiểm input, đầu hướng thiết bị riêng."
+    }
+  },
+  {
+    "sample_id": "V6R2-SB-010",
+    "board": "deep-042.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/P",
+      "action": "inspect",
+      "reason": "Thiết bị vàng chỉ lộ lưng/cạnh trong tay, đầu quay trái khỏi vùng riêng, cần kiểm mobile."
+    }
+  },
+  {
+    "sample_id": "V6R2-SB-016",
+    "board": "deep-042.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Đầu hướng sách nhưng tay bị người trước che, cần source cô lập/nới khung."
+    }
+  },
+  {
+    "sample_id": "V7-B-016",
+    "board": "deep-042.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Người giữa hướng bài nhưng tay/người trước chồng che, cần cô lập anchor."
+    }
+  },
+  {
+    "sample_id": "V7-B-062",
+    "board": "deep-043.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "N/N",
+      "action": "recrop",
+      "reason": "Hai tay trên trang/bút thấy được, đầu hướng bài; nhiều người và đầu tiền cảnh cạnh tranh cần cô lập."
+    }
+  },
+  {
+    "sample_id": "E004-CN-042",
+    "board": "deep-043.jpg",
+    "cell": 2,
+    "first_pass": {
+      "states": "U/P",
+      "action": "inspect",
+      "reason": "Đầu ngẩng và tay giơ ngoài vùng bài, tay còn lại bị khuất; cần source xác định hướng/đích từ góc sau."
+    }
+  },
+  {
+    "sample_id": "E004-CN-052",
+    "board": "deep-043.jpg",
+    "cell": 3,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Hai người nổi bật chồng nhau, tay người tiền cảnh cắt/che; cần source/person box."
+    }
+  },
+  {
+    "sample_id": "E004-CN-053",
+    "board": "deep-043.jpg",
+    "cell": 4,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Hai người viết cạnh tranh chủ thể, tay sát đáy crop bị cắt; cần cô lập anchor."
+    }
+  },
+  {
+    "sample_id": "E004-CN-055",
+    "board": "deep-043.jpg",
+    "cell": 5,
+    "first_pass": {
+      "states": "U/N",
+      "action": "recrop",
+      "reason": "Đầu hướng giấy nhưng tay bị người trước che, cần source nới/cô lập anchor."
+    }
+  },
+  {
+    "sample_id": "E004-EX-C089",
+    "board": "deep-043.jpg",
+    "cell": 6,
+    "first_pass": {
+      "states": "U/U",
+      "action": "recrop",
+      "reason": "Hai người nổi bật và vật trong tay người cạnh, chưa gắn chắc target/đích cho anchor; cần source/person box."
+    }
+  },
+  {
+    "sample_id": "E004-EX-C102",
+    "board": "deep-044.jpg",
+    "cell": 1,
+    "first_pass": {
+      "states": "N/N",
+      "action": "recrop",
+      "reason": "Hai tay viết/giữ giấy rõ, đầu hướng trang; ghế tiền cảnh chiếm khung lớn nên đề xuất khung rõ anchor hơn."
+    }
+  }
+]

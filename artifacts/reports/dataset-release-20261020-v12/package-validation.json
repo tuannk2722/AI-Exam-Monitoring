@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "codec_exporter_loader": "PASS",
+  "deterministic_rebuild": "PASS",
+  "parent_payload_preserved": "e851ce51ae8bc027c50370468ee15ee99b4d93ae73c0d270f2055489fcbccd3a",
+  "outside_audit_preserved_records": 987,
+  "test_content_evidence_preserved": 11,
+  "test_visual_or_inference_access": false,
+  "records": 2057,
+  "manifest": 1307,
+  "config": {
+    "path": "configs/datasets/pilot-b-20261020-v12.json",
+    "sha256": "4a66bb0c5797474ef9f409631feb6d2038f9243fe571f35cbce46c68d9b62797"
+  }
+}

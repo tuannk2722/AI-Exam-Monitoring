@@ -1,0 +1,16 @@
+[
+ {"parent":"V7-D-010","id":"V7-D-010-R04","person":[158,78,363,397],"context":[151,71,370,403],"states":["U","N"],"reason":"Chọn nữ áo xanh giữa làm một anchor; kiểm mặt nền và bàn tay người trước, không tự xác nhận mobile từ lưng vật."},
+ {"parent":"V7-OE-S071-A01","id":"V7-OE-S071-A01-R04","person":[199,0,512,512],"context":[190,0,512,512],"states":["U","N"],"reason":"Nới trái 14 px để giữ mép vật và ngón tay nữ; kiểm phần mặt nam còn ở mép."},
+ {"parent":"V7-R8-D-001","id":"V7-R8-D-001-R04","person":[119,28,242,490],"context":[108,18,250,506],"states":["N","N"],"reason":"Giữ nam đứng và hai tay/tablet, bỏ đầu nữ phải; kiểm đủ ngón tay dưới."},
+ {"parent":"V7-B-107","id":"V7-B-107-R04","person":[425,51,1024,683],"context":[405,40,1024,683],"states":["N","N"],"reason":"Tách nam bên phải cùng bàn tay/laptop; phần người nữ chỉ ở mép trái."},
+ {"parent":"EXP-RF-006","id":"EXP-RF-006-R04","person":[87,0,346,416],"context":[78,0,357,416],"states":["N","N"],"reason":"Thu phần nền trái có chữ, giữ toàn hai tay và bài; phần chữ còn trên nền phải xét riêng, không xóa overlay."},
+ {"parent":"EXP-RF-023","id":"EXP-RF-023-R04","person":[184,76,398,280],"context":[173,65,409,286],"states":["U","P"],"reason":"Nới về tay trao giấy phía trái, giảm phần mặt tiền cảnh ở đáy; kiểm overlay và tay bị che."},
+ {"parent":"V7-OE-S087-A01","id":"V7-OE-S087-A01-R04","person":[159,201,322,333],"context":[149,196,334,350],"states":["N","N"],"reason":"Giảm dải trên chứa mặt sau, giữ tóc nữ viết và đủ hai tay/bài."},
+ {"parent":"V7-OE-S088-A01","id":"V7-OE-S088-A01-R04","person":[395,244,558,409],"context":[385,237,566,435],"states":["U","N"],"reason":"Thu mép trên/phải để chỉ còn phần nhỏ người sau, giữ sách và tay thả cạnh bàn."},
+ {"parent":"V6-SB-029","id":"V6-SB-029-R04","person":[461,310,539,454],"context":[454,304,550,472],"states":["N","P"],"reason":"Khôi phục chỏm tóc, kiểm phần mặt nền quay lại; giữ hai tay đan và trang riêng."},
+ {"parent":"V6-SB-032","id":"V6-SB-032-R04","person":[459,322,540,455],"context":[451,315,551,480],"states":["U","P"],"reason":"Khôi phục tóc, giữ vùng sách và bàn; tay còn lại bị che theo nguồn."},
+ {"parent":"V6-SB-034","id":"V6-SB-034-R04","person":[125,359,260,563],"context":[117,349,272,590],"states":["N","N"],"reason":"Nới phải giữ trọn bàn tay và sách, kiểm mặt nam cạnh quay lại."},
+ {"parent":"V6R2-MP-080","id":"V6R2-MP-080-R04","person":[341,368,421,504],"context":[335,359,430,524],"states":["P","N"],"reason":"Nới trên để đủ tóc, kiểm phần miệng người sau có còn cạnh tranh; giữ phone và hai tay."},
+ {"parent":"V6R2-SB-009","id":"V6R2-SB-009-R04","person":[585,350,623,437],"context":[577,342,633,451],"states":["U","N"],"reason":"Khôi phục đầu của nữ áo xanh và giảm người trái; giữ bàn/bài trong source hẹp, không sửa méo ảnh."},
+ {"parent":"E004-CN-052","id":"E004-CN-052-R04","person":[780,65,1363,1074],"context":[750,45,1363,1074],"states":["N","U"],"reason":"Giữ người sọc tiền cảnh cùng hai tay, bỏ mặt người trái; tóc che mặt/đích nên đề xuất looking U thay owner N, cần review."}
+]

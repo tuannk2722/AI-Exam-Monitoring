@@ -1,0 +1,17 @@
+{
+  "geometry_qa": [
+    {"id":"E004-EX-C124-R03","result":"pass_draft","states":["N","P"],"note":"Nguồn/native/input: một mặt chính nhìn sang phải, hai tay ở bài rõ, không vật nghi vấn."},
+    {"id":"E004-EX-C164-R03","result":"pass_draft","states":["N","N"],"note":"Giữ hai tay viết/giữ giấy và đầu hướng trang; chỉ còn dải tóc rất nhỏ ở mép đáy, không mặt cạnh tranh."},
+    {"id":"E004-EX-C165-R03","result":"pass_draft","states":["N","P"],"note":"Nữ sau rõ hai tay trên bàn, đầu ngẩng khỏi bài; đã bỏ nữ tiền cảnh. Nguồn nhỏ nhưng hành vi còn đọc được ở input."},
+    {"id":"E004-EX-C166-R03","result":"pass_draft","states":["N","N"],"note":"Giữ hai tay cầm giấy và đầu hướng giấy, không mặt nữ sau; thân nền không cạnh tranh."},
+    {"id":"E004-EX-C169-R03","result":"pass_draft","states":["N","N"],"note":"Nam ngồi viết rõ tay/bài; người đứng chỉ còn thân ở nền, không thiết bị cạnh tranh."},
+    {"id":"E004-EX-C171-R03","result":"pass_draft","states":["N","N"],"note":"Hai tay trên trang, mặt hướng trang rõ; bỏ toàn bộ tay tiền cảnh ngoài anchor."},
+    {"id":"V6-EX-002-R03","result":"needs_revision","states":["U","P"],"note":"Mặt người sau vẫn còn một phần lớn cạnh mặt anchor và hai vùng tay chồng. Chưa đạt crop đơn; cân nhắc loại nếu không thể giữ trọn đầu/tay."},
+    {"id":"V6-EX-015-R03","result":"pass_draft","states":["U","P"],"note":"Mặt nam áo trắng trội, hướng ngoài bài; tóc tiền cảnh che tay nhưng không có mặt cạnh tranh. Phone U vì che khuất."},
+    {"id":"V6-EX-026-R03","result":"pass_draft","states":["U","P"],"note":"Chỉ lấy panel trên phải, không còn đường ghép sang cảnh khác. Đầu quay phải rõ; tay bị biên panel cắt nên U."},
+    {"id":"V6-EX-029-R03","result":"needs_revision","states":["U","P"],"note":"Métt phải quá sát tóc/mặt nam. Cần nới nhẹ phải trước khi chốt; không tăng đến mặt nữ bên cạnh."},
+    {"id":"V6-EX-031-R03","result":"needs_revision","states":["N","P"],"note":"Khung cắt phần trái mặt nam. Cần nới trái và kiểm lại mức cạnh tranh của mặt nữ, không duyệt bản này."}
+  ],
+  "recrop_source_boards_viewed": [10,11,12],
+  "followup": ["V6-EX-032: đối chiếu family EX032/034/035/040/041 trước tạo thêm crop từ montage"]
+}

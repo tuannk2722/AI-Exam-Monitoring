@@ -1,0 +1,2454 @@
+[
+  {
+    "a": "EXP-CM-002",
+    "b": "EXP-CM-003",
+    "reasons": [
+      "crop_fingerprint",
+      "source_pair_225"
+    ],
+    "pair_id": "FD-001"
+  },
+  {
+    "a": "EXP-CM-005",
+    "b": "EXP-CM-006",
+    "reasons": [
+      "crop_fingerprint",
+      "source_pair_60"
+    ],
+    "pair_id": "FD-002"
+  },
+  {
+    "a": "EXP-CM-005",
+    "b": "EXP-CM-009",
+    "reasons": [
+      "crop_fingerprint"
+    ],
+    "pair_id": "FD-003"
+  },
+  {
+    "a": "EXP-CM-018",
+    "b": "EXP-CM-019",
+    "reasons": [
+      "crop_fingerprint",
+      "source_pair_186"
+    ],
+    "pair_id": "FD-004"
+  },
+  {
+    "a": "EXP-CM-019",
+    "b": "EXP-CM-020",
+    "reasons": [
+      "crop_fingerprint"
+    ],
+    "pair_id": "FD-005"
+  },
+  {
+    "a": "EXP-CM-023",
+    "b": "EXP-CM-024",
+    "reasons": [
+      "crop_fingerprint"
+    ],
+    "pair_id": "FD-006"
+  },
+  {
+    "a": "V7-OE-S043-A03",
+    "b": "V7-OE-S043-A04",
+    "reasons": [
+      "same_source_overlapping_region"
+    ],
+    "pair_id": "FD-007"
+  },
+  {
+    "a": "V7-OE-S043-A04",
+    "b": "V7-OE-S044-A04",
+    "reasons": [
+      "crop_fingerprint"
+    ],
+    "pair_id": "FD-008"
+  },
+  {
+    "a": "V7-OE-S044-A01",
+    "b": "V7-OE-S044-A02",
+    "reasons": [
+      "same_source_overlapping_region"
+    ],
+    "pair_id": "FD-009"
+  },
+  {
+    "a": "V7-OE-S044-A03",
+    "b": "V7-OE-S044-A04",
+    "reasons": [
+      "same_source_overlapping_region"
+    ],
+    "pair_id": "FD-010"
+  },
+  {
+    "a": "E004-EX-C152",
+    "b": "Y01-A16-F00039",
+    "reasons": [
+      "crop_fingerprint"
+    ],
+    "pair_id": "FD-011"
+  },
+  {
+    "a": "V6-EX-043",
+    "b": "V6R2-CA-008-ADD02",
+    "reasons": [
+      "crop_fingerprint"
+    ],
+    "pair_id": "FD-012"
+  },
+  {
+    "a": "SCB-write-014",
+    "b": "V7-C-108",
+    "reasons": [
+      "crop_fingerprint"
+    ],
+    "pair_id": "FD-013"
+  },
+  {
+    "a": "V7-D-051",
+    "b": "V7-D-058-R03",
+    "reasons": [
+      "same_source_overlapping_region"
+    ],
+    "pair_id": "FD-014"
+  },
+  {
+    "a": "E004-EX-C026",
+    "b": "E004-EX-C027",
+    "reasons": [
+      "same_source_overlapping_region"
+    ],
+    "pair_id": "FD-015"
+  },
+  {
+    "a": "E004-EX-C193",
+    "b": "E004-EX-C194",
+    "reasons": [
+      "crop_fingerprint"
+    ],
+    "pair_id": "FD-016"
+  },
+  {
+    "a": "P029-person-01",
+    "b": "P029-person-02",
+    "reasons": [
+      "same_source_overlapping_region"
+    ],
+    "pair_id": "FD-017"
+  },
+  {
+    "a": "P034-person-01",
+    "b": "P036-person-01",
+    "reasons": [
+      "crop_fingerprint",
+      "source_pair_37"
+    ],
+    "pair_id": "FD-018"
+  },
+  {
+    "a": "V7-C-069",
+    "b": "V7-C-090",
+    "reasons": [
+      "same_source_overlapping_region"
+    ],
+    "pair_id": "FD-019"
+  },
+  {
+    "a": "V7-OE-S114-A01",
+    "b": "V7-OE-S114-A02",
+    "reasons": [
+      "same_source_overlapping_region"
+    ],
+    "pair_id": "FD-020"
+  },
+  {
+    "a": "SCB-read-020",
+    "b": "SCB-write-018-R05",
+    "reasons": [
+      "crop_fingerprint"
+    ],
+    "pair_id": "FD-021"
+  },
+  {
+    "a": "V6-SB-011",
+    "b": "V6R2-MP-031",
+    "reasons": [
+      "same_source_overlapping_region"
+    ],
+    "pair_id": "FD-022"
+  },
+  {
+    "a": "V6-SB-012",
+    "b": "V6R2-MP-034",
+    "reasons": [
+      "same_source_overlapping_region"
+    ],
+    "pair_id": "FD-023"
+  },
+  {
+    "a": "V6-SB-014",
+    "b": "V6R2-MP-009",
+    "reasons": [
+      "crop_fingerprint"
+    ],
+    "pair_id": "FD-024"
+  },
+  {
+    "a": "V6R2-MP-009",
+    "b": "V6R2-MP-093",
+    "reasons": [
+      "crop_fingerprint"
+    ],
+    "pair_id": "FD-025"
+  },
+  {
+    "a": "V6R2-MP-013",
+    "b": "V6R2-MP-085",
+    "reasons": [
+      "crop_fingerprint"
+    ],
+    "pair_id": "FD-026"
+  },
+  {
+    "a": "V6R2-MP-014",
+    "b": "V6R2-MP-044",
+    "reasons": [
+      "crop_fingerprint"
+    ],
+    "pair_id": "FD-027"
+  },
+  {
+    "a": "V6R2-MP-072",
+    "b": "V6R2-MP-073",
+    "reasons": [
+      "same_source_overlapping_region"
+    ],
+    "pair_id": "FD-028"
+  },
+  {
+    "a": "E004-CN-044-R04",
+    "b": "E004-CN-045",
+    "reasons": [
+      "same_source_overlapping_region"
+    ],
+    "pair_id": "FD-029"
+  },
+  {
+    "a": "Y01-A06-F00060",
+    "b": "Y01-A17-F00060",
+    "reasons": [
+      "same_source_overlapping_region"
+    ],
+    "pair_id": "FD-030"
+  },
+  {
+    "a": "Y01-A07-F00060",
+    "b": "Y01-A17-F00060",
+    "reasons": [
+      "same_source_overlapping_region"
+    ],
+    "pair_id": "FD-031"
+  },
+  {
+    "a": "ADD-Y01-F00099-M01-R02",
+    "b": "Y01-A11-F00099",
+    "reasons": [
+      "same_source_overlapping_region"
+    ],
+    "pair_id": "FD-032"
+  },
+  {
+    "a": "Y03-A01-F00001",
+    "b": "Y03-A02-F00001",
+    "reasons": [
+      "same_source_overlapping_region"
+    ],
+    "pair_id": "FD-033"
+  },
+  {
+    "a": "Y03-A06-F00001",
+    "b": "Y03-A07-F00001",
+    "reasons": [
+      "same_source_overlapping_region"
+    ],
+    "pair_id": "FD-034"
+  },
+  {
+    "a": "Y03-A08-F00001",
+    "b": "Y03-A09-F00001",
+    "reasons": [
+      "same_source_overlapping_region"
+    ],
+    "pair_id": "FD-035"
+  },
+  {
+    "a": "ADD-Y04-F00030-M02",
+    "b": "Y04-A10-F00001",
+    "reasons": [
+      "crop_fingerprint"
+    ],
+    "pair_id": "FD-036"
+  },
+  {
+    "a": "V7-A-072-R03",
+    "b": "V7-D-050-R04",
+    "reasons": [
+      "same_source_overlapping_region"
+    ],
+    "pair_id": "FD-037"
+  },
+  {
+    "a": "V7-OE-S093-A01-ADD01-R02",
+    "b": "V7-OE-S093-A01-ADD02-R02",
+    "reasons": [
+      "same_source_overlapping_region"
+    ],
+    "pair_id": "FD-038"
+  },
+  {
+    "a": "V7-B-003-R03",
+    "b": "V7-D-022-R04",
+    "reasons": [
+      "same_source_overlapping_region"
+    ],
+    "pair_id": "FD-039"
+  },
+  {
+    "a": "P033-person-01",
+    "b": "V7-OE-S102-A01",
+    "reasons": [
+      "source_pair_2"
+    ],
+    "pair_id": "FD-040"
+  },
+  {
+    "a": "EXP-CM-008",
+    "b": "EXP-CM-012",
+    "reasons": [
+      "source_pair_4"
+    ],
+    "pair_id": "FD-041"
+  },
+  {
+    "a": "V6-EX-007",
+    "b": "V6-EX-029-R04",
+    "reasons": [
+      "source_pair_5"
+    ],
+    "pair_id": "FD-042"
+  },
+  {
+    "a": "SCB-write-001",
+    "b": "SCB-write-019",
+    "reasons": [
+      "source_pair_6"
+    ],
+    "pair_id": "FD-043"
+  },
+  {
+    "a": "V6-CA-014",
+    "b": "V6-EX-003",
+    "reasons": [
+      "source_pair_8"
+    ],
+    "pair_id": "FD-044"
+  },
+  {
+    "a": "V6-CA-014-ADD02",
+    "b": "V6-EX-003",
+    "reasons": [
+      "source_pair_8"
+    ],
+    "pair_id": "FD-045"
+  },
+  {
+    "a": "SCB-write-009",
+    "b": "SCB-write-027-R06",
+    "reasons": [
+      "source_pair_12"
+    ],
+    "pair_id": "FD-046"
+  },
+  {
+    "a": "Y03-A06-F00041",
+    "b": "Y03-A12-F00020",
+    "reasons": [
+      "source_pair_16"
+    ],
+    "pair_id": "FD-047"
+  },
+  {
+    "a": "Y04-A02-F00022",
+    "b": "Y04-A10-F00075",
+    "reasons": [
+      "source_pair_17"
+    ],
+    "pair_id": "FD-048"
+  },
+  {
+    "a": "P029-person-01",
+    "b": "P030-person-01",
+    "reasons": [
+      "source_pair_21"
+    ],
+    "pair_id": "FD-049"
+  },
+  {
+    "a": "P029-person-02",
+    "b": "P030-person-01",
+    "reasons": [
+      "source_pair_21"
+    ],
+    "pair_id": "FD-050"
+  },
+  {
+    "a": "SCB-write-014",
+    "b": "SCB-write-016",
+    "reasons": [
+      "source_pair_25"
+    ],
+    "pair_id": "FD-051"
+  },
+  {
+    "a": "V6-SB-028",
+    "b": "V6R2-SB-010",
+    "reasons": [
+      "source_pair_27"
+    ],
+    "pair_id": "FD-052"
+  },
+  {
+    "a": "V6R2-MP-079",
+    "b": "V6R2-SB-010",
+    "reasons": [
+      "source_pair_27"
+    ],
+    "pair_id": "FD-053"
+  },
+  {
+    "a": "V6R2-MP-081",
+    "b": "V6R2-SB-010",
+    "reasons": [
+      "source_pair_27"
+    ],
+    "pair_id": "FD-054"
+  },
+  {
+    "a": "Y03-A05-F00045",
+    "b": "Y03-A06-F00041",
+    "reasons": [
+      "source_pair_28"
+    ],
+    "pair_id": "FD-055"
+  },
+  {
+    "a": "Y03-A06-F00041",
+    "b": "Y03-A08-F00042",
+    "reasons": [
+      "source_pair_29"
+    ],
+    "pair_id": "FD-056"
+  },
+  {
+    "a": "Y03-A09-F00024",
+    "b": "Y03-A12-F00020",
+    "reasons": [
+      "source_pair_30"
+    ],
+    "pair_id": "FD-057"
+  },
+  {
+    "a": "Y04-A01-F00001",
+    "b": "Y04-A01-F00009",
+    "reasons": [
+      "source_pair_31"
+    ],
+    "pair_id": "FD-058"
+  },
+  {
+    "a": "Y04-A01-F00009",
+    "b": "Y04-A02-F00001",
+    "reasons": [
+      "source_pair_31"
+    ],
+    "pair_id": "FD-059"
+  },
+  {
+    "a": "Y04-A01-F00009",
+    "b": "Y04-A03-F00001",
+    "reasons": [
+      "source_pair_31"
+    ],
+    "pair_id": "FD-060"
+  },
+  {
+    "a": "Y04-A01-F00009",
+    "b": "Y04-A08-F00001",
+    "reasons": [
+      "source_pair_31"
+    ],
+    "pair_id": "FD-061"
+  },
+  {
+    "a": "Y04-A01-F00009",
+    "b": "Y04-A10-F00001",
+    "reasons": [
+      "source_pair_31"
+    ],
+    "pair_id": "FD-062"
+  },
+  {
+    "a": "Y04-A01-F00009",
+    "b": "Y04-A14-F00001",
+    "reasons": [
+      "source_pair_31"
+    ],
+    "pair_id": "FD-063"
+  },
+  {
+    "a": "Y04-A01-F00001",
+    "b": "Y04-A10-F00075",
+    "reasons": [
+      "source_pair_32"
+    ],
+    "pair_id": "FD-064"
+  },
+  {
+    "a": "Y04-A02-F00001",
+    "b": "Y04-A10-F00075",
+    "reasons": [
+      "source_pair_32"
+    ],
+    "pair_id": "FD-065"
+  },
+  {
+    "a": "Y04-A03-F00001",
+    "b": "Y04-A10-F00075",
+    "reasons": [
+      "source_pair_32"
+    ],
+    "pair_id": "FD-066"
+  },
+  {
+    "a": "Y04-A08-F00001",
+    "b": "Y04-A10-F00075",
+    "reasons": [
+      "source_pair_32"
+    ],
+    "pair_id": "FD-067"
+  },
+  {
+    "a": "Y04-A10-F00001",
+    "b": "Y04-A10-F00075",
+    "reasons": [
+      "source_pair_32"
+    ],
+    "pair_id": "FD-068"
+  },
+  {
+    "a": "Y04-A10-F00075",
+    "b": "Y04-A14-F00001",
+    "reasons": [
+      "source_pair_32"
+    ],
+    "pair_id": "FD-069"
+  },
+  {
+    "a": "Y04-A01-F00009",
+    "b": "Y04-A10-F00075",
+    "reasons": [
+      "source_pair_33"
+    ],
+    "pair_id": "FD-070"
+  },
+  {
+    "a": "Y05-A01-F00001",
+    "b": "Y05-A07-F00033",
+    "reasons": [
+      "source_pair_34"
+    ],
+    "pair_id": "FD-071"
+  },
+  {
+    "a": "Y05-A02-F00001",
+    "b": "Y05-A07-F00033",
+    "reasons": [
+      "source_pair_34"
+    ],
+    "pair_id": "FD-072"
+  },
+  {
+    "a": "Y05-A03-F00001",
+    "b": "Y05-A07-F00033",
+    "reasons": [
+      "source_pair_34"
+    ],
+    "pair_id": "FD-073"
+  },
+  {
+    "a": "Y05-A04-F00001",
+    "b": "Y05-A07-F00033",
+    "reasons": [
+      "source_pair_34"
+    ],
+    "pair_id": "FD-074"
+  },
+  {
+    "a": "Y05-A07-F00001",
+    "b": "Y05-A07-F00033",
+    "reasons": [
+      "source_pair_34"
+    ],
+    "pair_id": "FD-075"
+  },
+  {
+    "a": "Y05-A07-F00033",
+    "b": "Y05-A11-F00001",
+    "reasons": [
+      "source_pair_34"
+    ],
+    "pair_id": "FD-076"
+  },
+  {
+    "a": "EXP-CM-007",
+    "b": "EXP-CM-013",
+    "reasons": [
+      "source_pair_35"
+    ],
+    "pair_id": "FD-077"
+  },
+  {
+    "a": "EXP-SCB-003",
+    "b": "SCB-turnhead-027",
+    "reasons": [
+      "source_pair_39"
+    ],
+    "pair_id": "FD-078"
+  },
+  {
+    "a": "SCB-turnhead-001",
+    "b": "SCB-turnhead-007",
+    "reasons": [
+      "source_pair_40"
+    ],
+    "pair_id": "FD-079"
+  },
+  {
+    "a": "SCB-write-014",
+    "b": "SCB-write-021",
+    "reasons": [
+      "source_pair_46"
+    ],
+    "pair_id": "FD-080"
+  },
+  {
+    "a": "V6R2-MP-021",
+    "b": "V6R2-MP-048-R03",
+    "reasons": [
+      "source_pair_47"
+    ],
+    "pair_id": "FD-081"
+  },
+  {
+    "a": "V6R2-MP-021",
+    "b": "V6R2-MP-049",
+    "reasons": [
+      "source_pair_47"
+    ],
+    "pair_id": "FD-082"
+  },
+  {
+    "a": "V6R2-MP-021",
+    "b": "V6R2-MP-050",
+    "reasons": [
+      "source_pair_47"
+    ],
+    "pair_id": "FD-083"
+  },
+  {
+    "a": "V6R2-MP-023",
+    "b": "V6R2-MP-048-R03",
+    "reasons": [
+      "source_pair_47"
+    ],
+    "pair_id": "FD-084"
+  },
+  {
+    "a": "V6R2-MP-023",
+    "b": "V6R2-MP-049",
+    "reasons": [
+      "source_pair_47"
+    ],
+    "pair_id": "FD-085"
+  },
+  {
+    "a": "V6R2-MP-023",
+    "b": "V6R2-MP-050",
+    "reasons": [
+      "source_pair_47"
+    ],
+    "pair_id": "FD-086"
+  },
+  {
+    "a": "V6-SB-016",
+    "b": "V6R2-SB-006",
+    "reasons": [
+      "source_pair_48"
+    ],
+    "pair_id": "FD-087"
+  },
+  {
+    "a": "V6R2-MP-046-R03",
+    "b": "V6R2-SB-006",
+    "reasons": [
+      "source_pair_48"
+    ],
+    "pair_id": "FD-088"
+  },
+  {
+    "a": "V6R2-MP-047",
+    "b": "V6R2-SB-006",
+    "reasons": [
+      "source_pair_48"
+    ],
+    "pair_id": "FD-089"
+  },
+  {
+    "a": "V6-SB-019",
+    "b": "V6R2-SB-003",
+    "reasons": [
+      "source_pair_50"
+    ],
+    "pair_id": "FD-090"
+  },
+  {
+    "a": "V6R2-MP-004-R03",
+    "b": "V6R2-MP-072",
+    "reasons": [
+      "source_pair_51"
+    ],
+    "pair_id": "FD-091"
+  },
+  {
+    "a": "V6R2-MP-004-R03",
+    "b": "V6R2-MP-073",
+    "reasons": [
+      "source_pair_51"
+    ],
+    "pair_id": "FD-092"
+  },
+  {
+    "a": "V6R2-MP-019",
+    "b": "V6R2-SB-009-R04",
+    "reasons": [
+      "source_pair_52"
+    ],
+    "pair_id": "FD-093"
+  },
+  {
+    "a": "V6R2-MP-020",
+    "b": "V6R2-SB-009-R04",
+    "reasons": [
+      "source_pair_52"
+    ],
+    "pair_id": "FD-094"
+  },
+  {
+    "a": "Y03-A01-F00001",
+    "b": "Y03-A12-F00020",
+    "reasons": [
+      "source_pair_53"
+    ],
+    "pair_id": "FD-095"
+  },
+  {
+    "a": "Y03-A02-F00001",
+    "b": "Y03-A12-F00020",
+    "reasons": [
+      "source_pair_53"
+    ],
+    "pair_id": "FD-096"
+  },
+  {
+    "a": "Y03-A03-F00001",
+    "b": "Y03-A12-F00020",
+    "reasons": [
+      "source_pair_53"
+    ],
+    "pair_id": "FD-097"
+  },
+  {
+    "a": "Y03-A05-F00001",
+    "b": "Y03-A12-F00020",
+    "reasons": [
+      "source_pair_53"
+    ],
+    "pair_id": "FD-098"
+  },
+  {
+    "a": "Y03-A06-F00001",
+    "b": "Y03-A12-F00020",
+    "reasons": [
+      "source_pair_53"
+    ],
+    "pair_id": "FD-099"
+  },
+  {
+    "a": "Y03-A07-F00001",
+    "b": "Y03-A12-F00020",
+    "reasons": [
+      "source_pair_53"
+    ],
+    "pair_id": "FD-100"
+  },
+  {
+    "a": "Y03-A08-F00001",
+    "b": "Y03-A12-F00020",
+    "reasons": [
+      "source_pair_53"
+    ],
+    "pair_id": "FD-101"
+  },
+  {
+    "a": "Y03-A09-F00001",
+    "b": "Y03-A12-F00020",
+    "reasons": [
+      "source_pair_53"
+    ],
+    "pair_id": "FD-102"
+  },
+  {
+    "a": "Y03-A12-F00020",
+    "b": "Y03-A13-F00001",
+    "reasons": [
+      "source_pair_53"
+    ],
+    "pair_id": "FD-103"
+  },
+  {
+    "a": "Y03-A12-F00020",
+    "b": "Y03-A15-F00001",
+    "reasons": [
+      "source_pair_53"
+    ],
+    "pair_id": "FD-104"
+  },
+  {
+    "a": "Y03-A05-F00045",
+    "b": "Y03-A09-F00024",
+    "reasons": [
+      "source_pair_54"
+    ],
+    "pair_id": "FD-105"
+  },
+  {
+    "a": "Y03-A05-F00045",
+    "b": "Y03-A12-F00020",
+    "reasons": [
+      "source_pair_55"
+    ],
+    "pair_id": "FD-106"
+  },
+  {
+    "a": "Y03-A06-F00041",
+    "b": "Y03-A09-F00024",
+    "reasons": [
+      "source_pair_56"
+    ],
+    "pair_id": "FD-107"
+  },
+  {
+    "a": "Y03-A08-F00042",
+    "b": "Y03-A12-F00020",
+    "reasons": [
+      "source_pair_57"
+    ],
+    "pair_id": "FD-108"
+  },
+  {
+    "a": "Y04-A01-F00001",
+    "b": "Y04-A02-F00022",
+    "reasons": [
+      "source_pair_58"
+    ],
+    "pair_id": "FD-109"
+  },
+  {
+    "a": "Y04-A02-F00001",
+    "b": "Y04-A02-F00022",
+    "reasons": [
+      "source_pair_58"
+    ],
+    "pair_id": "FD-110"
+  },
+  {
+    "a": "Y04-A02-F00022",
+    "b": "Y04-A03-F00001",
+    "reasons": [
+      "source_pair_58"
+    ],
+    "pair_id": "FD-111"
+  },
+  {
+    "a": "Y04-A02-F00022",
+    "b": "Y04-A08-F00001",
+    "reasons": [
+      "source_pair_58"
+    ],
+    "pair_id": "FD-112"
+  },
+  {
+    "a": "Y04-A02-F00022",
+    "b": "Y04-A10-F00001",
+    "reasons": [
+      "source_pair_58"
+    ],
+    "pair_id": "FD-113"
+  },
+  {
+    "a": "Y04-A02-F00022",
+    "b": "Y04-A14-F00001",
+    "reasons": [
+      "source_pair_58"
+    ],
+    "pair_id": "FD-114"
+  },
+  {
+    "a": "Y04-A01-F00009",
+    "b": "Y04-A02-F00022",
+    "reasons": [
+      "source_pair_59"
+    ],
+    "pair_id": "FD-115"
+  },
+  {
+    "a": "EXP-CM-008",
+    "b": "EXP-CM-013",
+    "reasons": [
+      "source_pair_61"
+    ],
+    "pair_id": "FD-116"
+  },
+  {
+    "a": "EXP-CM-012",
+    "b": "EXP-CM-013",
+    "reasons": [
+      "source_pair_62"
+    ],
+    "pair_id": "FD-117"
+  },
+  {
+    "a": "E004-EX-C044",
+    "b": "E004-EX-C193",
+    "reasons": [
+      "source_pair_63"
+    ],
+    "pair_id": "FD-118"
+  },
+  {
+    "a": "SCB-turnhead-003",
+    "b": "SCB-turnhead-012",
+    "reasons": [
+      "source_pair_64"
+    ],
+    "pair_id": "FD-119"
+  },
+  {
+    "a": "SCB-read-012-R04",
+    "b": "SCB-turnhead-003",
+    "reasons": [
+      "source_pair_65"
+    ],
+    "pair_id": "FD-120"
+  },
+  {
+    "a": "SCB-read-012-R04",
+    "b": "SCB-turnhead-012",
+    "reasons": [
+      "source_pair_67"
+    ],
+    "pair_id": "FD-121"
+  },
+  {
+    "a": "EXP-SCB-020",
+    "b": "SCB-write-016",
+    "reasons": [
+      "source_pair_73"
+    ],
+    "pair_id": "FD-122"
+  },
+  {
+    "a": "EXP-SCB-020",
+    "b": "SCB-write-028",
+    "reasons": [
+      "source_pair_74"
+    ],
+    "pair_id": "FD-123"
+  },
+  {
+    "a": "SCB-read-023",
+    "b": "SCB-write-027-R06",
+    "reasons": [
+      "source_pair_76"
+    ],
+    "pair_id": "FD-124"
+  },
+  {
+    "a": "SCB-write-016",
+    "b": "SCB-write-028",
+    "reasons": [
+      "source_pair_83"
+    ],
+    "pair_id": "FD-125"
+  },
+  {
+    "a": "V6R2-MP-053-R04",
+    "b": "V6R2-SB-002-R04",
+    "reasons": [
+      "source_pair_85"
+    ],
+    "pair_id": "FD-126"
+  },
+  {
+    "a": "Y03-A01-F00001",
+    "b": "Y03-A06-F00041",
+    "reasons": [
+      "source_pair_86"
+    ],
+    "pair_id": "FD-127"
+  },
+  {
+    "a": "Y03-A02-F00001",
+    "b": "Y03-A06-F00041",
+    "reasons": [
+      "source_pair_86"
+    ],
+    "pair_id": "FD-128"
+  },
+  {
+    "a": "Y03-A03-F00001",
+    "b": "Y03-A06-F00041",
+    "reasons": [
+      "source_pair_86"
+    ],
+    "pair_id": "FD-129"
+  },
+  {
+    "a": "Y03-A05-F00001",
+    "b": "Y03-A06-F00041",
+    "reasons": [
+      "source_pair_86"
+    ],
+    "pair_id": "FD-130"
+  },
+  {
+    "a": "Y03-A06-F00001",
+    "b": "Y03-A06-F00041",
+    "reasons": [
+      "source_pair_86"
+    ],
+    "pair_id": "FD-131"
+  },
+  {
+    "a": "Y03-A06-F00041",
+    "b": "Y03-A07-F00001",
+    "reasons": [
+      "source_pair_86"
+    ],
+    "pair_id": "FD-132"
+  },
+  {
+    "a": "Y03-A06-F00041",
+    "b": "Y03-A08-F00001",
+    "reasons": [
+      "source_pair_86"
+    ],
+    "pair_id": "FD-133"
+  },
+  {
+    "a": "Y03-A06-F00041",
+    "b": "Y03-A09-F00001",
+    "reasons": [
+      "source_pair_86"
+    ],
+    "pair_id": "FD-134"
+  },
+  {
+    "a": "Y03-A06-F00041",
+    "b": "Y03-A13-F00001",
+    "reasons": [
+      "source_pair_86"
+    ],
+    "pair_id": "FD-135"
+  },
+  {
+    "a": "Y03-A06-F00041",
+    "b": "Y03-A15-F00001",
+    "reasons": [
+      "source_pair_86"
+    ],
+    "pair_id": "FD-136"
+  },
+  {
+    "a": "Y03-A05-F00045",
+    "b": "Y03-A08-F00042",
+    "reasons": [
+      "source_pair_87"
+    ],
+    "pair_id": "FD-137"
+  },
+  {
+    "a": "Y05-A02-F00048",
+    "b": "Y05-A07-F00033",
+    "reasons": [
+      "source_pair_88"
+    ],
+    "pair_id": "FD-138"
+  },
+  {
+    "a": "EXP-CM-007",
+    "b": "EXP-CM-008",
+    "reasons": [
+      "source_pair_89"
+    ],
+    "pair_id": "FD-139"
+  },
+  {
+    "a": "EXP-CM-007",
+    "b": "EXP-CM-012",
+    "reasons": [
+      "source_pair_90"
+    ],
+    "pair_id": "FD-140"
+  },
+  {
+    "a": "EXP-RF-023-R04",
+    "b": "V7-C-083-R03",
+    "reasons": [
+      "source_pair_91"
+    ],
+    "pair_id": "FD-141"
+  },
+  {
+    "a": "P035-person-01",
+    "b": "P036-person-01",
+    "reasons": [
+      "source_pair_93"
+    ],
+    "pair_id": "FD-142"
+  },
+  {
+    "a": "SCB-read-023",
+    "b": "SCB-turnhead-004",
+    "reasons": [
+      "source_pair_96"
+    ],
+    "pair_id": "FD-143"
+  },
+  {
+    "a": "SCB-turnhead-004",
+    "b": "SCB-write-027-R06",
+    "reasons": [
+      "source_pair_97"
+    ],
+    "pair_id": "FD-144"
+  },
+  {
+    "a": "EXP-SCB-020",
+    "b": "SCB-write-021",
+    "reasons": [
+      "source_pair_105"
+    ],
+    "pair_id": "FD-145"
+  },
+  {
+    "a": "SCB-read-023",
+    "b": "SCB-write-009",
+    "reasons": [
+      "source_pair_107"
+    ],
+    "pair_id": "FD-146"
+  },
+  {
+    "a": "SCB-write-016",
+    "b": "SCB-write-021",
+    "reasons": [
+      "source_pair_110"
+    ],
+    "pair_id": "FD-147"
+  },
+  {
+    "a": "V6-SB-003",
+    "b": "V6-SB-019",
+    "reasons": [
+      "source_pair_114"
+    ],
+    "pair_id": "FD-148"
+  },
+  {
+    "a": "V6-SB-019",
+    "b": "V6R2-MP-006",
+    "reasons": [
+      "source_pair_114"
+    ],
+    "pair_id": "FD-149"
+  },
+  {
+    "a": "V6-SB-009",
+    "b": "V6R2-SB-002-R04",
+    "reasons": [
+      "source_pair_115"
+    ],
+    "pair_id": "FD-150"
+  },
+  {
+    "a": "V6R2-MP-024-R04",
+    "b": "V6R2-SB-002-R04",
+    "reasons": [
+      "source_pair_115"
+    ],
+    "pair_id": "FD-151"
+  },
+  {
+    "a": "V6R2-MP-026",
+    "b": "V6R2-SB-002-R04",
+    "reasons": [
+      "source_pair_115"
+    ],
+    "pair_id": "FD-152"
+  },
+  {
+    "a": "V6-SB-013",
+    "b": "V6-SB-028",
+    "reasons": [
+      "source_pair_116"
+    ],
+    "pair_id": "FD-153"
+  },
+  {
+    "a": "V6-SB-013",
+    "b": "V6R2-MP-079",
+    "reasons": [
+      "source_pair_116"
+    ],
+    "pair_id": "FD-154"
+  },
+  {
+    "a": "V6-SB-013",
+    "b": "V6R2-MP-081",
+    "reasons": [
+      "source_pair_116"
+    ],
+    "pair_id": "FD-155"
+  },
+  {
+    "a": "V6-SB-028",
+    "b": "V6R2-MP-038",
+    "reasons": [
+      "source_pair_116"
+    ],
+    "pair_id": "FD-156"
+  },
+  {
+    "a": "V6R2-MP-038",
+    "b": "V6R2-MP-079",
+    "reasons": [
+      "source_pair_116"
+    ],
+    "pair_id": "FD-157"
+  },
+  {
+    "a": "V6R2-MP-038",
+    "b": "V6R2-MP-081",
+    "reasons": [
+      "source_pair_116"
+    ],
+    "pair_id": "FD-158"
+  },
+  {
+    "a": "V6-SB-022-R04",
+    "b": "V6R2-SB-011",
+    "reasons": [
+      "source_pair_117"
+    ],
+    "pair_id": "FD-159"
+  },
+  {
+    "a": "Y03-A01-F00001",
+    "b": "Y03-A09-F00024",
+    "reasons": [
+      "source_pair_118"
+    ],
+    "pair_id": "FD-160"
+  },
+  {
+    "a": "Y03-A02-F00001",
+    "b": "Y03-A09-F00024",
+    "reasons": [
+      "source_pair_118"
+    ],
+    "pair_id": "FD-161"
+  },
+  {
+    "a": "Y03-A03-F00001",
+    "b": "Y03-A09-F00024",
+    "reasons": [
+      "source_pair_118"
+    ],
+    "pair_id": "FD-162"
+  },
+  {
+    "a": "Y03-A05-F00001",
+    "b": "Y03-A09-F00024",
+    "reasons": [
+      "source_pair_118"
+    ],
+    "pair_id": "FD-163"
+  },
+  {
+    "a": "Y03-A06-F00001",
+    "b": "Y03-A09-F00024",
+    "reasons": [
+      "source_pair_118"
+    ],
+    "pair_id": "FD-164"
+  },
+  {
+    "a": "Y03-A07-F00001",
+    "b": "Y03-A09-F00024",
+    "reasons": [
+      "source_pair_118"
+    ],
+    "pair_id": "FD-165"
+  },
+  {
+    "a": "Y03-A08-F00001",
+    "b": "Y03-A09-F00024",
+    "reasons": [
+      "source_pair_118"
+    ],
+    "pair_id": "FD-166"
+  },
+  {
+    "a": "Y03-A09-F00001",
+    "b": "Y03-A09-F00024",
+    "reasons": [
+      "source_pair_118"
+    ],
+    "pair_id": "FD-167"
+  },
+  {
+    "a": "Y03-A09-F00024",
+    "b": "Y03-A13-F00001",
+    "reasons": [
+      "source_pair_118"
+    ],
+    "pair_id": "FD-168"
+  },
+  {
+    "a": "Y03-A09-F00024",
+    "b": "Y03-A15-F00001",
+    "reasons": [
+      "source_pair_118"
+    ],
+    "pair_id": "FD-169"
+  },
+  {
+    "a": "Y03-A08-F00042",
+    "b": "Y03-A09-F00024",
+    "reasons": [
+      "source_pair_119"
+    ],
+    "pair_id": "FD-170"
+  },
+  {
+    "a": "EXP-CM-009",
+    "b": "EXP-CM-010",
+    "reasons": [
+      "source_pair_120"
+    ],
+    "pair_id": "FD-171"
+  },
+  {
+    "a": "EXP-CM-016",
+    "b": "EXP-CM-017",
+    "reasons": [
+      "source_pair_122"
+    ],
+    "pair_id": "FD-172"
+  },
+  {
+    "a": "E004-CF-C009",
+    "b": "E004-EX-C124-R03",
+    "reasons": [
+      "source_pair_124"
+    ],
+    "pair_id": "FD-173"
+  },
+  {
+    "a": "P034-person-01",
+    "b": "P035-person-01",
+    "reasons": [
+      "source_pair_126"
+    ],
+    "pair_id": "FD-174"
+  },
+  {
+    "a": "EXP-SCB-021",
+    "b": "V7-C-007-R03",
+    "reasons": [
+      "source_pair_127"
+    ],
+    "pair_id": "FD-175"
+  },
+  {
+    "a": "SCB-turnhead-004",
+    "b": "SCB-write-009",
+    "reasons": [
+      "source_pair_129"
+    ],
+    "pair_id": "FD-176"
+  },
+  {
+    "a": "EXP-SCB-020",
+    "b": "SCB-write-014",
+    "reasons": [
+      "source_pair_133"
+    ],
+    "pair_id": "FD-177"
+  },
+  {
+    "a": "SCB-write-014",
+    "b": "SCB-write-028",
+    "reasons": [
+      "source_pair_139"
+    ],
+    "pair_id": "FD-178"
+  },
+  {
+    "a": "V6-SB-003",
+    "b": "V6R2-SB-003",
+    "reasons": [
+      "source_pair_142"
+    ],
+    "pair_id": "FD-179"
+  },
+  {
+    "a": "V6R2-MP-006",
+    "b": "V6R2-SB-003",
+    "reasons": [
+      "source_pair_142"
+    ],
+    "pair_id": "FD-180"
+  },
+  {
+    "a": "V6R2-MP-059",
+    "b": "V6R2-SB-009-R04",
+    "reasons": [
+      "source_pair_143"
+    ],
+    "pair_id": "FD-181"
+  },
+  {
+    "a": "Y02-A03-F00031",
+    "b": "Y02-A04-F00019",
+    "reasons": [
+      "source_pair_144"
+    ],
+    "pair_id": "FD-182"
+  },
+  {
+    "a": "Y02-A01-F00031-R02",
+    "b": "Y02-A04-F00019",
+    "reasons": [
+      "source_pair_144"
+    ],
+    "pair_id": "FD-183"
+  },
+  {
+    "a": "Y02-A01-F00018-R02",
+    "b": "Y02-A03-F00031",
+    "reasons": [
+      "source_pair_145"
+    ],
+    "pair_id": "FD-184"
+  },
+  {
+    "a": "Y02-A01-F00018-R02",
+    "b": "Y02-A01-F00031-R02",
+    "reasons": [
+      "source_pair_145"
+    ],
+    "pair_id": "FD-185"
+  },
+  {
+    "a": "Y02-A01-F00018-R02",
+    "b": "Y02-A04-F00019",
+    "reasons": [
+      "source_pair_146"
+    ],
+    "pair_id": "FD-186"
+  },
+  {
+    "a": "Y03-A01-F00001",
+    "b": "Y03-A05-F00045",
+    "reasons": [
+      "source_pair_147"
+    ],
+    "pair_id": "FD-187"
+  },
+  {
+    "a": "Y03-A02-F00001",
+    "b": "Y03-A05-F00045",
+    "reasons": [
+      "source_pair_147"
+    ],
+    "pair_id": "FD-188"
+  },
+  {
+    "a": "Y03-A03-F00001",
+    "b": "Y03-A05-F00045",
+    "reasons": [
+      "source_pair_147"
+    ],
+    "pair_id": "FD-189"
+  },
+  {
+    "a": "Y03-A05-F00001",
+    "b": "Y03-A05-F00045",
+    "reasons": [
+      "source_pair_147"
+    ],
+    "pair_id": "FD-190"
+  },
+  {
+    "a": "Y03-A05-F00045",
+    "b": "Y03-A06-F00001",
+    "reasons": [
+      "source_pair_147"
+    ],
+    "pair_id": "FD-191"
+  },
+  {
+    "a": "Y03-A05-F00045",
+    "b": "Y03-A07-F00001",
+    "reasons": [
+      "source_pair_147"
+    ],
+    "pair_id": "FD-192"
+  },
+  {
+    "a": "Y03-A05-F00045",
+    "b": "Y03-A08-F00001",
+    "reasons": [
+      "source_pair_147"
+    ],
+    "pair_id": "FD-193"
+  },
+  {
+    "a": "Y03-A05-F00045",
+    "b": "Y03-A09-F00001",
+    "reasons": [
+      "source_pair_147"
+    ],
+    "pair_id": "FD-194"
+  },
+  {
+    "a": "Y03-A05-F00045",
+    "b": "Y03-A13-F00001",
+    "reasons": [
+      "source_pair_147"
+    ],
+    "pair_id": "FD-195"
+  },
+  {
+    "a": "Y03-A05-F00045",
+    "b": "Y03-A15-F00001",
+    "reasons": [
+      "source_pair_147"
+    ],
+    "pair_id": "FD-196"
+  },
+  {
+    "a": "Y03-A01-F00001",
+    "b": "Y03-A08-F00042",
+    "reasons": [
+      "source_pair_148"
+    ],
+    "pair_id": "FD-197"
+  },
+  {
+    "a": "Y03-A02-F00001",
+    "b": "Y03-A08-F00042",
+    "reasons": [
+      "source_pair_148"
+    ],
+    "pair_id": "FD-198"
+  },
+  {
+    "a": "Y03-A03-F00001",
+    "b": "Y03-A08-F00042",
+    "reasons": [
+      "source_pair_148"
+    ],
+    "pair_id": "FD-199"
+  },
+  {
+    "a": "Y03-A05-F00001",
+    "b": "Y03-A08-F00042",
+    "reasons": [
+      "source_pair_148"
+    ],
+    "pair_id": "FD-200"
+  },
+  {
+    "a": "Y03-A06-F00001",
+    "b": "Y03-A08-F00042",
+    "reasons": [
+      "source_pair_148"
+    ],
+    "pair_id": "FD-201"
+  },
+  {
+    "a": "Y03-A07-F00001",
+    "b": "Y03-A08-F00042",
+    "reasons": [
+      "source_pair_148"
+    ],
+    "pair_id": "FD-202"
+  },
+  {
+    "a": "Y03-A08-F00001",
+    "b": "Y03-A08-F00042",
+    "reasons": [
+      "source_pair_148"
+    ],
+    "pair_id": "FD-203"
+  },
+  {
+    "a": "Y03-A08-F00042",
+    "b": "Y03-A09-F00001",
+    "reasons": [
+      "source_pair_148"
+    ],
+    "pair_id": "FD-204"
+  },
+  {
+    "a": "Y03-A08-F00042",
+    "b": "Y03-A13-F00001",
+    "reasons": [
+      "source_pair_148"
+    ],
+    "pair_id": "FD-205"
+  },
+  {
+    "a": "Y03-A08-F00042",
+    "b": "Y03-A15-F00001",
+    "reasons": [
+      "source_pair_148"
+    ],
+    "pair_id": "FD-206"
+  },
+  {
+    "a": "Y05-A01-F00001",
+    "b": "Y05-A02-F00048",
+    "reasons": [
+      "source_pair_149"
+    ],
+    "pair_id": "FD-207"
+  },
+  {
+    "a": "Y05-A02-F00001",
+    "b": "Y05-A02-F00048",
+    "reasons": [
+      "source_pair_149"
+    ],
+    "pair_id": "FD-208"
+  },
+  {
+    "a": "Y05-A02-F00048",
+    "b": "Y05-A03-F00001",
+    "reasons": [
+      "source_pair_149"
+    ],
+    "pair_id": "FD-209"
+  },
+  {
+    "a": "Y05-A02-F00048",
+    "b": "Y05-A04-F00001",
+    "reasons": [
+      "source_pair_149"
+    ],
+    "pair_id": "FD-210"
+  },
+  {
+    "a": "Y05-A02-F00048",
+    "b": "Y05-A07-F00001",
+    "reasons": [
+      "source_pair_149"
+    ],
+    "pair_id": "FD-211"
+  },
+  {
+    "a": "Y05-A02-F00048",
+    "b": "Y05-A11-F00001",
+    "reasons": [
+      "source_pair_149"
+    ],
+    "pair_id": "FD-212"
+  },
+  {
+    "a": "EXP-CM-001",
+    "b": "EXP-CM-018",
+    "reasons": [
+      "source_pair_150"
+    ],
+    "pair_id": "FD-213"
+  },
+  {
+    "a": "EXP-CM-015",
+    "b": "EXP-CM-018",
+    "reasons": [
+      "source_pair_152"
+    ],
+    "pair_id": "FD-214"
+  },
+  {
+    "a": "E004-CF-C010",
+    "b": "E004-EX-C125",
+    "reasons": [
+      "source_pair_153"
+    ],
+    "pair_id": "FD-215"
+  },
+  {
+    "a": "V6-EX-036",
+    "b": "V6R2-EX-007",
+    "reasons": [
+      "source_pair_154"
+    ],
+    "pair_id": "FD-216"
+  },
+  {
+    "a": "E004-EX-C056",
+    "b": "E004-EX-C199-R03",
+    "reasons": [
+      "source_pair_155"
+    ],
+    "pair_id": "FD-217"
+  },
+  {
+    "a": "SCB-write-001",
+    "b": "SCB-write-014",
+    "reasons": [
+      "source_pair_163"
+    ],
+    "pair_id": "FD-218"
+  },
+  {
+    "a": "SCB-write-001",
+    "b": "SCB-write-016",
+    "reasons": [
+      "source_pair_164"
+    ],
+    "pair_id": "FD-219"
+  },
+  {
+    "a": "SCB-write-002",
+    "b": "SCB-write-020",
+    "reasons": [
+      "source_pair_165"
+    ],
+    "pair_id": "FD-220"
+  },
+  {
+    "a": "SCB-write-014",
+    "b": "SCB-write-019",
+    "reasons": [
+      "source_pair_167"
+    ],
+    "pair_id": "FD-221"
+  },
+  {
+    "a": "SCB-write-016",
+    "b": "SCB-write-019",
+    "reasons": [
+      "source_pair_169"
+    ],
+    "pair_id": "FD-222"
+  },
+  {
+    "a": "SCB-write-021",
+    "b": "SCB-write-028",
+    "reasons": [
+      "source_pair_170"
+    ],
+    "pair_id": "FD-223"
+  },
+  {
+    "a": "V6-SB-009",
+    "b": "V6R2-MP-053-R04",
+    "reasons": [
+      "source_pair_171"
+    ],
+    "pair_id": "FD-224"
+  },
+  {
+    "a": "V6R2-MP-024-R04",
+    "b": "V6R2-MP-053-R04",
+    "reasons": [
+      "source_pair_171"
+    ],
+    "pair_id": "FD-225"
+  },
+  {
+    "a": "V6R2-MP-026",
+    "b": "V6R2-MP-053-R04",
+    "reasons": [
+      "source_pair_171"
+    ],
+    "pair_id": "FD-226"
+  },
+  {
+    "a": "V6-SB-013",
+    "b": "V6R2-SB-010",
+    "reasons": [
+      "source_pair_172"
+    ],
+    "pair_id": "FD-227"
+  },
+  {
+    "a": "V6R2-MP-038",
+    "b": "V6R2-SB-010",
+    "reasons": [
+      "source_pair_172"
+    ],
+    "pair_id": "FD-228"
+  },
+  {
+    "a": "V6R2-MP-019",
+    "b": "V6R2-MP-059",
+    "reasons": [
+      "source_pair_173"
+    ],
+    "pair_id": "FD-229"
+  },
+  {
+    "a": "V6R2-MP-020",
+    "b": "V6R2-MP-059",
+    "reasons": [
+      "source_pair_173"
+    ],
+    "pair_id": "FD-230"
+  },
+  {
+    "a": "V6R2-CA-001",
+    "b": "V7-OE-S104-A01",
+    "reasons": [
+      "source_pair_174"
+    ],
+    "pair_id": "FD-231"
+  },
+  {
+    "a": "EXP-CM-001",
+    "b": "EXP-CM-015",
+    "reasons": [
+      "source_pair_175"
+    ],
+    "pair_id": "FD-232"
+  },
+  {
+    "a": "EXP-CM-005",
+    "b": "EXP-CM-008",
+    "reasons": [
+      "source_pair_176"
+    ],
+    "pair_id": "FD-233"
+  },
+  {
+    "a": "EXP-CM-005",
+    "b": "EXP-CM-012",
+    "reasons": [
+      "source_pair_178"
+    ],
+    "pair_id": "FD-234"
+  },
+  {
+    "a": "EXP-CM-006",
+    "b": "EXP-CM-008",
+    "reasons": [
+      "source_pair_179"
+    ],
+    "pair_id": "FD-235"
+  },
+  {
+    "a": "EXP-CM-006",
+    "b": "EXP-CM-012",
+    "reasons": [
+      "source_pair_180"
+    ],
+    "pair_id": "FD-236"
+  },
+  {
+    "a": "EXP-CM-008",
+    "b": "EXP-CM-009",
+    "reasons": [
+      "source_pair_181"
+    ],
+    "pair_id": "FD-237"
+  },
+  {
+    "a": "EXP-CM-009",
+    "b": "EXP-CM-012",
+    "reasons": [
+      "source_pair_183"
+    ],
+    "pair_id": "FD-238"
+  },
+  {
+    "a": "EXP-CM-009",
+    "b": "EXP-CM-013",
+    "reasons": [
+      "source_pair_184"
+    ],
+    "pair_id": "FD-239"
+  },
+  {
+    "a": "EXP-SCB-045",
+    "b": "SCB-turnhead-024",
+    "reasons": [
+      "source_pair_188"
+    ],
+    "pair_id": "FD-240"
+  },
+  {
+    "a": "SCB-write-001",
+    "b": "V7-C-030",
+    "reasons": [
+      "source_pair_193"
+    ],
+    "pair_id": "FD-241"
+  },
+  {
+    "a": "SCB-write-019",
+    "b": "V7-C-030",
+    "reasons": [
+      "source_pair_194"
+    ],
+    "pair_id": "FD-242"
+  },
+  {
+    "a": "V6-SB-011",
+    "b": "V6R2-SB-011",
+    "reasons": [
+      "source_pair_195"
+    ],
+    "pair_id": "FD-243"
+  },
+  {
+    "a": "V6R2-MP-030",
+    "b": "V6R2-SB-011",
+    "reasons": [
+      "source_pair_195"
+    ],
+    "pair_id": "FD-244"
+  },
+  {
+    "a": "V6R2-MP-031",
+    "b": "V6R2-SB-011",
+    "reasons": [
+      "source_pair_195"
+    ],
+    "pair_id": "FD-245"
+  },
+  {
+    "a": "V6R2-MP-032",
+    "b": "V6R2-SB-011",
+    "reasons": [
+      "source_pair_195"
+    ],
+    "pair_id": "FD-246"
+  },
+  {
+    "a": "V6-SB-014",
+    "b": "V6R2-MP-092-R04",
+    "reasons": [
+      "source_pair_196"
+    ],
+    "pair_id": "FD-247"
+  },
+  {
+    "a": "V6-SB-014",
+    "b": "V6R2-MP-093",
+    "reasons": [
+      "source_pair_196"
+    ],
+    "pair_id": "FD-248"
+  },
+  {
+    "a": "V6R2-MP-040-R03",
+    "b": "V6R2-MP-092-R04",
+    "reasons": [
+      "source_pair_196"
+    ],
+    "pair_id": "FD-249"
+  },
+  {
+    "a": "V6R2-MP-040-R03",
+    "b": "V6R2-MP-093",
+    "reasons": [
+      "source_pair_196"
+    ],
+    "pair_id": "FD-250"
+  },
+  {
+    "a": "V6R2-MP-041",
+    "b": "V6R2-MP-092-R04",
+    "reasons": [
+      "source_pair_196"
+    ],
+    "pair_id": "FD-251"
+  },
+  {
+    "a": "V6R2-MP-041",
+    "b": "V6R2-MP-093",
+    "reasons": [
+      "source_pair_196"
+    ],
+    "pair_id": "FD-252"
+  },
+  {
+    "a": "EXP-CM-003",
+    "b": "EXP-CM-005",
+    "reasons": [
+      "source_pair_197"
+    ],
+    "pair_id": "FD-253"
+  },
+  {
+    "a": "EXP-CM-003",
+    "b": "EXP-CM-006",
+    "reasons": [
+      "source_pair_198"
+    ],
+    "pair_id": "FD-254"
+  },
+  {
+    "a": "EXP-CM-004",
+    "b": "EXP-CM-007",
+    "reasons": [
+      "source_pair_199"
+    ],
+    "pair_id": "FD-255"
+  },
+  {
+    "a": "EXP-CM-005",
+    "b": "EXP-CM-007",
+    "reasons": [
+      "source_pair_200"
+    ],
+    "pair_id": "FD-256"
+  },
+  {
+    "a": "EXP-CM-006",
+    "b": "EXP-CM-007",
+    "reasons": [
+      "source_pair_201"
+    ],
+    "pair_id": "FD-257"
+  },
+  {
+    "a": "EXP-CM-007",
+    "b": "EXP-CM-009",
+    "reasons": [
+      "source_pair_202"
+    ],
+    "pair_id": "FD-258"
+  },
+  {
+    "a": "EXP-CM-015",
+    "b": "EXP-CM-019",
+    "reasons": [
+      "source_pair_203"
+    ],
+    "pair_id": "FD-259"
+  },
+  {
+    "a": "E004-EX-C124-R03",
+    "b": "E004-EX-C125",
+    "reasons": [
+      "source_pair_204"
+    ],
+    "pair_id": "FD-260"
+  },
+  {
+    "a": "P032-person-01",
+    "b": "V7-OE-S116-A01",
+    "reasons": [
+      "source_pair_206"
+    ],
+    "pair_id": "FD-261"
+  },
+  {
+    "a": "P032-person-01",
+    "b": "V7-OE-S116-A02",
+    "reasons": [
+      "source_pair_206"
+    ],
+    "pair_id": "FD-262"
+  },
+  {
+    "a": "EXP-SCB-007",
+    "b": "V7-C-015-R03",
+    "reasons": [
+      "source_pair_207"
+    ],
+    "pair_id": "FD-263"
+  },
+  {
+    "a": "EXP-SCB-020",
+    "b": "SCB-write-001",
+    "reasons": [
+      "source_pair_213"
+    ],
+    "pair_id": "FD-264"
+  },
+  {
+    "a": "EXP-SCB-020",
+    "b": "SCB-write-019",
+    "reasons": [
+      "source_pair_214"
+    ],
+    "pair_id": "FD-265"
+  },
+  {
+    "a": "EXP-SCB-034",
+    "b": "SCB-read-028",
+    "reasons": [
+      "source_pair_215"
+    ],
+    "pair_id": "FD-266"
+  },
+  {
+    "a": "SCB-write-001",
+    "b": "SCB-write-028",
+    "reasons": [
+      "source_pair_218"
+    ],
+    "pair_id": "FD-267"
+  },
+  {
+    "a": "SCB-write-019",
+    "b": "SCB-write-028",
+    "reasons": [
+      "source_pair_221"
+    ],
+    "pair_id": "FD-268"
+  },
+  {
+    "a": "V6-SB-023",
+    "b": "V6R2-MP-009",
+    "reasons": [
+      "source_pair_222"
+    ],
+    "pair_id": "FD-269"
+  },
+  {
+    "a": "V6R2-MP-009",
+    "b": "V6R2-MP-066",
+    "reasons": [
+      "source_pair_222"
+    ],
+    "pair_id": "FD-270"
+  },
+  {
+    "a": "V6R2-MP-009",
+    "b": "V6R2-MP-067",
+    "reasons": [
+      "source_pair_222"
+    ],
+    "pair_id": "FD-271"
+  },
+  {
+    "a": "V6R2-MP-009",
+    "b": "V6R2-MP-068",
+    "reasons": [
+      "source_pair_222"
+    ],
+    "pair_id": "FD-272"
+  },
+  {
+    "a": "V6-SB-023",
+    "b": "V6R2-MP-010",
+    "reasons": [
+      "source_pair_222"
+    ],
+    "pair_id": "FD-273"
+  },
+  {
+    "a": "V6R2-MP-010",
+    "b": "V6R2-MP-066",
+    "reasons": [
+      "source_pair_222"
+    ],
+    "pair_id": "FD-274"
+  },
+  {
+    "a": "V6R2-MP-010",
+    "b": "V6R2-MP-067",
+    "reasons": [
+      "source_pair_222"
+    ],
+    "pair_id": "FD-275"
+  },
+  {
+    "a": "V6R2-MP-010",
+    "b": "V6R2-MP-068",
+    "reasons": [
+      "source_pair_222"
+    ],
+    "pair_id": "FD-276"
+  },
+  {
+    "a": "V6-SB-023",
+    "b": "V6R2-MP-011",
+    "reasons": [
+      "source_pair_222"
+    ],
+    "pair_id": "FD-277"
+  },
+  {
+    "a": "V6R2-MP-011",
+    "b": "V6R2-MP-066",
+    "reasons": [
+      "source_pair_222"
+    ],
+    "pair_id": "FD-278"
+  },
+  {
+    "a": "V6R2-MP-011",
+    "b": "V6R2-MP-067",
+    "reasons": [
+      "source_pair_222"
+    ],
+    "pair_id": "FD-279"
+  },
+  {
+    "a": "V6R2-MP-011",
+    "b": "V6R2-MP-068",
+    "reasons": [
+      "source_pair_222"
+    ],
+    "pair_id": "FD-280"
+  },
+  {
+    "a": "V6-SB-011",
+    "b": "V6-SB-022-R04",
+    "reasons": [
+      "source_pair_223"
+    ],
+    "pair_id": "FD-281"
+  },
+  {
+    "a": "V6-SB-022-R04",
+    "b": "V6R2-MP-030",
+    "reasons": [
+      "source_pair_223"
+    ],
+    "pair_id": "FD-282"
+  },
+  {
+    "a": "V6-SB-022-R04",
+    "b": "V6R2-MP-031",
+    "reasons": [
+      "source_pair_223"
+    ],
+    "pair_id": "FD-283"
+  },
+  {
+    "a": "V6-SB-022-R04",
+    "b": "V6R2-MP-032",
+    "reasons": [
+      "source_pair_223"
+    ],
+    "pair_id": "FD-284"
+  },
+  {
+    "a": "EXP-CM-001",
+    "b": "EXP-CM-017",
+    "reasons": [
+      "source_pair_224"
+    ],
+    "pair_id": "FD-285"
+  },
+  {
+    "a": "EXP-CM-004",
+    "b": "EXP-CM-006",
+    "reasons": [
+      "source_pair_226"
+    ],
+    "pair_id": "FD-286"
+  },
+  {
+    "a": "EXP-CM-008",
+    "b": "EXP-CM-010",
+    "reasons": [
+      "source_pair_229"
+    ],
+    "pair_id": "FD-287"
+  },
+  {
+    "a": "EXP-CM-010",
+    "b": "EXP-CM-012",
+    "reasons": [
+      "source_pair_230"
+    ],
+    "pair_id": "FD-288"
+  },
+  {
+    "a": "EXP-CM-013",
+    "b": "EXP-CM-020",
+    "reasons": [
+      "source_pair_231"
+    ],
+    "pair_id": "FD-289"
+  },
+  {
+    "a": "E004-CF-C009",
+    "b": "E004-CF-C010",
+    "reasons": [
+      "source_pair_232"
+    ],
+    "pair_id": "FD-290"
+  },
+  {
+    "a": "E004-CF-C010",
+    "b": "E004-EX-C124-R03",
+    "reasons": [
+      "source_pair_233"
+    ],
+    "pair_id": "FD-291"
+  },
+  {
+    "a": "E004-EX-C152",
+    "b": "EXP-RF-019",
+    "reasons": [
+      "source_pair_234"
+    ],
+    "pair_id": "FD-292"
+  },
+  {
+    "a": "EXP-SCB-021",
+    "b": "SCB-turnhead-016",
+    "reasons": [
+      "source_pair_235"
+    ],
+    "pair_id": "FD-293"
+  },
+  {
+    "a": "SCB-turnhead-016",
+    "b": "V7-C-007-R03",
+    "reasons": [
+      "source_pair_238"
+    ],
+    "pair_id": "FD-294"
+  },
+  {
+    "a": "SCB-read-027",
+    "b": "V7-OE-S088-A01-R04",
+    "reasons": [
+      "source_pair_239"
+    ],
+    "pair_id": "FD-295"
+  },
+  {
+    "a": "EXP-SCB-027",
+    "b": "V7-OE-S099-A01-ADD01-R02",
+    "reasons": [
+      "source_pair_240"
+    ],
+    "pair_id": "FD-296"
+  },
+  {
+    "a": "EXP-SCB-027",
+    "b": "V7-OE-S099-A01-ADD02-R02",
+    "reasons": [
+      "source_pair_240"
+    ],
+    "pair_id": "FD-297"
+  },
+  {
+    "a": "EXP-SCB-027",
+    "b": "V7-OE-S099-A01-ADD03-R02",
+    "reasons": [
+      "source_pair_240"
+    ],
+    "pair_id": "FD-298"
+  },
+  {
+    "a": "EXP-SCB-027",
+    "b": "V7-OE-S099-A01-ADD04-R02",
+    "reasons": [
+      "source_pair_240"
+    ],
+    "pair_id": "FD-299"
+  },
+  {
+    "a": "SCB-write-001",
+    "b": "SCB-write-021",
+    "reasons": [
+      "source_pair_241"
+    ],
+    "pair_id": "FD-300"
+  },
+  {
+    "a": "SCB-write-019",
+    "b": "SCB-write-021",
+    "reasons": [
+      "source_pair_242"
+    ],
+    "pair_id": "FD-301"
+  },
+  {
+    "a": "V6-SB-005",
+    "b": "V6R2-SB-006",
+    "reasons": [
+      "source_pair_243"
+    ],
+    "pair_id": "FD-302"
+  },
+  {
+    "a": "V6R2-MP-012",
+    "b": "V6R2-SB-006",
+    "reasons": [
+      "source_pair_243"
+    ],
+    "pair_id": "FD-303"
+  },
+  {
+    "a": "V6R2-MP-013",
+    "b": "V6R2-SB-006",
+    "reasons": [
+      "source_pair_243"
+    ],
+    "pair_id": "FD-304"
+  },
+  {
+    "a": "V6R2-MP-014",
+    "b": "V6R2-SB-006",
+    "reasons": [
+      "source_pair_243"
+    ],
+    "pair_id": "FD-305"
+  },
+  {
+    "a": "Y02-A03-F00012",
+    "b": "Y02-A04-F00011",
+    "reasons": [
+      "source_pair_244"
+    ],
+    "pair_id": "FD-306"
+  }
+]

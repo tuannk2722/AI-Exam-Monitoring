@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="vi"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>V11 — Review 836 crop lịch sử</title>
+<style>
+body{font:16px system-ui;background:#f1f3f5;color:#17202a;margin:0}header{padding:22px;background:#162637;color:white}h1{font-size:25px;margin:0 0 10px}p{line-height:1.5}.controls{padding:14px;position:sticky;top:0;background:#fff;border-bottom:1px solid #bbb;z-index:1;display:flex;gap:10px;flex-wrap:wrap}input,select,button{font:inherit;padding:8px}main{padding:16px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,650px),1fr));gap:16px}article{background:#fff;padding:16px;border-radius:8px;border-left:6px solid #307765}article.recrop{border-color:#a26200}article.exclude{border-color:#ab3030}h2{font-size:19px;margin:0 0 8px}.images{display:flex;gap:12px;align-items:center;flex-wrap:wrap}figure{margin:0}figure img{object-fit:contain;background:#ddd;max-width:100%}figcaption{font-size:13px}small{color:#495866}a{color:#0856a0}.badge{font-weight:700}footer{padding:24px}details img{max-width:100%;height:auto}#count{align-self:center}#more{display:block;margin:10px auto 35px}
+</style>
+<header><h1>Audit V11 — 836 crop baseline V9 và development</h1><p>Draft chờ owner nghiệm thu. Thứ tự nhãn: <b>phone_use / looking_around</b>. P = positive, N = negative, U = unknown (masked). Chưa thay dataset V11.</p><p>Giữ khung: có thể giữ crop, nhãn đề xuất vẫn cần nghiệm thu. Sửa khung / loại: đề xuất rút supervision hiện tại. Khung mới phải duyệt lại; không kế thừa nhãn tự động.</p></header>
+<div class="controls"><input id="query" aria-label="Tìm ID hoặc evidence" placeholder="Tìm ID / evidence"><select id="action" aria-label="Hành động"><option value="">Mọi hành động</option><option value="keep">Giữ khung</option><option value="recrop">Sửa khung</option><option value="exclude">Loại khỏi supervision</option></select><select id="delta" aria-label="Thay nhãn"><option value="">Mọi nhãn</option><option value="yes">Có đề xuất đổi nhãn</option><option value="no">Nhãn không đổi</option></select><select id="source" aria-label="Nguồn"><option value="">Mọi nguồn</option></select><span id="count" aria-live="polite"></span></div>
+<main id="cards"></main><button id="more">Xem thêm 24 crop</button><footer>Source có khung xanh: person_box; cam: context_box. Input PNG đúng RGB bilinear letterbox 224 × 224. Source thu nhỏ chỉ hỗ trợ attribution/geometry; không nâng known label bằng chi tiết đã mất tại input. Click native để mở crop gốc; ảnh người thật chỉ lưu local, không upload.</footer>
+<script>
+const rows=/*AUDIT_DATA*/[];
+const $=id=>document.getElementById(id),states=v=>v.map(x=>x[0].toUpperCase()).join('/');
+const actionNames={keep:'Giữ khung',recrop:'Sửa khung — withheld',exclude:'Loại khỏi supervision'};
+for(const source of [...new Set(rows.map(r=>r.source_id))].sort()){const o=document.createElement('option');o.value=source;o.textContent=source;$('source').append(o)}
+let limit=24,filtered=[];
+function text(tag,value,parent){const e=document.createElement(tag);e.textContent=value;parent.append(e);return e}
+function draw(){
+const q=$('query').value.toLocaleLowerCase('vi');filtered=rows.filter(r=>(!$('action').value||r.action===$('action').value)&&(!$('source').value||r.source_id===$('source').value)&&(!$('delta').value||r.label_delta===($('delta').value==='yes'))&&(r.sample_id+' '+r.reason).toLocaleLowerCase('vi').includes(q));
+$('cards').replaceChildren();$('count').textContent=`${filtered.length} / 836 crop · hiển thị ${Math.min(limit,filtered.length)}`;
+for(const r of filtered.slice(0,limit)){const card=document.createElement('article');card.className=r.action;card.id=r.sample_id;$('cards').append(card);text('h2',r.sample_id,card);text('small',`${r.source_id} · ${r.cohort} · V11 ${r.v11_usage}`,card);text('p',`${states(r.current_states)} → ${states(r.proposed_states)} · ${actionNames[r.action]}${r.label_delta?' · đổi nhãn Draft':''}`,card).className='badge';
+const images=document.createElement('div');images.className='images';card.append(images);
+for(const [src,caption,width] of [[r.native,'Native — click mở kích thước gốc',300],[`input/${r.sample_id}.png`,'Input 224 × 224 — không sharpen',224]]){const f=document.createElement('figure');const a=document.createElement('a');a.href=src;a.target='_blank';const img=document.createElement('img');img.src=src;img.width=width;img.height=260;img.loading='lazy';img.alt=`${r.sample_id}: ${caption}`;if(width===224)img.height=224;a.append(img);f.append(a);text('figcaption',caption,f);images.append(f)}
+text('p',r.reason,card);const details=document.createElement('details');card.append(details);text('summary','Source / khung và evidence review',details);const src=document.createElement('img');src.src=`source/${r.sample_id}.jpg`;src.loading='lazy';src.alt='Source: xanh person, cam context';details.append(src);
+for(const [label,ref] of [['Lượt đầu',r.first_pass_evidence],['Kiểm sâu',r.deep_evidence],['Kiểm cuối',r.confirmation_evidence]]){if(!ref)continue;const p=document.createElement('p');const a=document.createElement('a');a.href=`boards/${ref.board}`;a.target='_blank';a.textContent=`${label}: ${ref.board}, ô ${ref.cell}`;p.append(a);details.append(p)}text('small',`Crop SHA-256: ${r.crop_sha256}`,details);
+}$('more').hidden=limit>=filtered.length;
+}
+for(const id of ['query','action','delta','source'])$(id).addEventListener('input',()=>{limit=24;draw()});$('more').onclick=()=>{limit+=24;draw()};draw();
+</script></html>

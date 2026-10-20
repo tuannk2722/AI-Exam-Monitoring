@@ -1,0 +1,21 @@
+{
+  "geometry_qa": [
+    {"id":"V7-B-028-R03","result":"needs_revision","states":["N","N"],"note":"Mặt nam sau còn phần dưới lớn sát tóc anchor; giảm trên tiếp sẽ cắt tóc. Cần cân nhắc loại hoặc geometry giữ giới hạn này có lý do."},
+    {"id":"V7-B-062-R03","result":"needs_revision","states":["U","N"],"note":"Mặt người trái còn rõ cùng cỡ, đầu tiền cảnh che bàn; bản thử chưa giải quyết cạnh tranh."},
+    {"id":"E004-CN-042-R03","result":"pass_draft","states":["U","P"],"note":"Đầu và bàn tay giơ trọn, hướng phía giáo viên; dưới chỉ còn đỉnh đầu tiền cảnh. Tay kia không thấy nên U."},
+    {"id":"E004-CN-044-R03","result":"needs_revision","states":["N","P"],"note":"Đỉnh tóc bị cắt và tay trên giấy chạm mép phải; cần nới trước xác nhận geometry."},
+    {"id":"E004-CN-046-R03","result":"needs_revision","states":["U","N"],"note":"Đã lấy đủ đầu nhưng nửa mặt người sau phải còn cùng cỡ; giữ cả sách sẽ kéo người đó vào crop."},
+    {"id":"E004-CN-047-R03","result":"pass_draft","states":["U","N"],"note":"Một mặt chính hướng sách dựng, hai bàn tay thấy một phần nhưng vùng sau sách khuất nên giữ U theo rubric. Người khác không còn mặt cạnh tranh."},
+    {"id":"E004-CN-053-R03","result":"needs_revision","states":["N","N"],"note":"Tay và giấy sát/cắt đáy, mặt nam phía sau còn lớn. Cần nới đáy và xử lý người sau."},
+    {"id":"E004-CN-055-R03","result":"pass_draft","states":["U","N"],"note":"Một mặt trội cúi trang, tay bút rõ; đầu tiền cảnh còn tóc thấp che tay kia nên U. Không còn mặt cạnh tranh."},
+    {"id":"E004-CN-056-R03","result":"needs_revision","states":["U","N"],"note":"Tóc sát/cắt trên, mặt người sau còn cằm ở mép. Cần nới và xem hiệu quả trước khi dùng."},
+    {"id":"E004-EX-C102-R03","result":"pass_draft","states":["N","N"],"note":"Đầu nguyên vẹn, đủ hai tay bút/giấy, ghế chỉ ở mép không che bằng chứng; hướng bài rõ."},
+    {"id":"E004-EX-C183-R03","result":"needs_revision","states":["N","N"],"note":"Mặt nam phía sau vẫn rõ gần cùng cỡ. Không thể coi đã tách chỉ bằng bỏ thân dưới."}
+  ],
+  "recrop_source_boards_viewed": [40,41,42,43],
+  "source_only_followup": [
+    {"id":"V7-B-030","note":"Tay viết vươn ngang qua người phải, mặt người trái sát vai; chưa có rectangle một anchor giữ đủ hai tay."},
+    {"id":"E004-CN-052","note":"Tóc che hoàn toàn mặt, owner N/N cần đối chiếu bằng chứng hướng viết thay vì suy mắt; tách tay/giấy sẽ vẫn có người cạnh."},
+    {"id":"E004-EX-C089","note":"Owner N/P nhưng đầu nhìn vùng laptop/bút chung; tay vươn dưới mặt người phải nên khó tách một anchor giữ trọn ngữ cảnh. Cần close view để chốt."}
+  ]
+}

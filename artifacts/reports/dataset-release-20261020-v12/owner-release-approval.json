@@ -1,0 +1,41 @@
+{
+  "decision_id": "DATASET-V12-20261020",
+  "status": "approved",
+  "reviewer": "repository-owner",
+  "recorded_at": "2026-10-20",
+  "authority_ref": "artifacts\\reports\\dataset-release-20261020-v12\\OWNER-DECISIONS.md",
+  "inputs": [
+    {
+      "path": "artifacts/reports/dataset-release-20261020-v12/OWNER-DECISIONS.md",
+      "sha256": "97c54796804c87d67064daaed91a913195d936549e36856ec20e11586bd2b89f"
+    },
+    {
+      "path": "artifacts/reports/dataset-release-20261020-v12/owner-final-review.md",
+      "sha256": "fa7530fe64f083d5264c02d28dd46bc2d03acda5876a0ce41a0d27bb4a4d4ee4"
+    },
+    {
+      "path": "artifacts/reports/dataset-release-20261020-v12/owner-crop-acceptance.json",
+      "sha256": "cf88989cb5039d504d96c945416302b04b67fae6c56809ed9f4e7ffba727204f"
+    },
+    {
+      "path": "artifacts/reports/dataset-release-20261020-v12/accepted-audit-cohort.json",
+      "sha256": "6d7dee0e1688bbb7d6093a8e9cb20de8b5e538c1013e05a54b1945efa14d7caf"
+    },
+    {
+      "path": "artifacts/reports/dataset-release-20261020-v12/allocation-proposal.json",
+      "sha256": "21255188e55201fb2e31c0c001327eda7e76c55120ba66c80b2a994954d6d920"
+    },
+    {
+      "path": "artifacts/reports/dataset-release-20261020-v12/lineage-review.json",
+      "sha256": "02d0e037171b55807af612ad9df9cc11ed8db9dd156cd26854ed1b57d23b7046"
+    },
+    {
+      "path": "data/processed/pilot-b/pilot-b-20261017-v11/checksums.sha256",
+      "sha256": "e851ce51ae8bc027c50370468ee15ee99b4d93ae73c0d270f2055489fcbccd3a"
+    }
+  ],
+  "scope": "Owner approved crop exceptions/default acceptance and exact allocation 1092 train/204 val/11 preserved test; local V12 release.",
+  "training_authorized": false,
+  "test_inference_authorized": false,
+  "new_crop_rights": "Owner confirmed full use rights for six supplied videos; local classifier research."
+}

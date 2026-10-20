@@ -1,0 +1,12 @@
+[
+  {"parent":"V7-OE-S091-A01","id":"V7-OE-S091-A01-R03","person":[335,233,441,348],"context":[326,225,454,372],"states":["N","N"],"reason":"Tách nữ trước khoanh tay trên sách, bỏ người trước trái và nhóm phía sau."},
+  {"parent":"EXP-SCB-014","id":"EXP-SCB-014-R03","person":[153,209,307,400],"context":[145,200,319,430],"states":["N","N"],"reason":"Giảm mặt trái, giữ nam phải cùng tay và trang; cần kiểm hướng đầu theo nhãn owner."},
+  {"parent":"SCB-read-012","id":"SCB-read-012-R03","person":[1525,304,1639,416],"context":[1514,295,1651,429],"states":["U","P"],"reason":"Giảm đầu tiền cảnh nhưng giữ tay chống má và một phần bàn; tay kia khuất."},
+  {"parent":"SCB-write-011","id":"SCB-write-011-R03","person":[440,219,586,340],"context":[430,211,598,358],"states":["U","N"],"reason":"Giữ nữ cúi viết, giảm người bên cạnh và đỉnh đầu trước; tay bị che tại nguồn."},
+  {"parent":"V7-C-006","id":"V7-C-006-R03","person":[938,552,1385,1020],"context":[914,537,1411,1050],"states":["N","N"],"reason":"Tách nữ giữa và hai tay bút/trang, bỏ mặt nam phải và mặt nữ sau."},
+  {"parent":"V7-C-008","id":"V7-C-008-R03","person":[1435,386,1690,646],"context":[1410,370,1720,695],"states":["U","P"],"reason":"Tách nữ kính giữa theo owner U/P; kiểm lại hướng nhìn và tay ở input mới."},
+  {"parent":"V7-C-018","id":"V7-C-018-R03","person":[169,259,273,327],"context":[157,248,285,342],"states":["N","N"],"reason":"Giảm đầu tiền cảnh, giữ đầu cúi và hai tay viết trên trang."},
+  {"parent":"V7-C-038","id":"V7-C-038-R03","person":[396,276,535,456],"context":[371,264,549,482],"states":["N","N"],"reason":"Tách nữ giữa đang xem sách, bỏ bàn xa và mặt tiền cảnh."},
+  {"parent":"V7-C-044","id":"V7-C-044-R03","person":[204,511,866,1138],"context":[181,490,890,1138],"states":["U","N"],"reason":"Giảm mặt người sau, giữ nữ trước cúi xuống; tay thiếu tại đáy nguồn nên không thể nới phục hồi."},
+  {"parent":"V7-C-052","id":"V7-C-052-R03","person":[1002,42,1660,870],"context":[982,22,1690,963],"states":["N","N"],"reason":"Tách nữ kính giữa, giữ hai tay khoanh và sách; giảm mặt nam trái."}
+]

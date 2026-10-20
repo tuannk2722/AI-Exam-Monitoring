@@ -1,0 +1,13 @@
+[
+ {"parent":"V6-CA-014","id":"V6-CA-014-ADD02","person":[0,42,119,456],"context":[0,33,128,475],"states":["P","N"],"reason":"Nam bên trái cầm mobile mặt sáng, tách khỏi nữ giữa; kiểm đầu/tay từ nguồn."},
+ {"parent":"V6R2-CA-008","id":"V6R2-CA-008-ADD04","person":[0,169,166,421],"context":[0,161,177,440],"states":["U","N"],"reason":"Nữ trước trái có calculator/thiết bị và hai tay, giữ U khi chưa phân biệt vật tại input; loại người giữa."},
+ {"parent":"V7-A-004","id":"V7-A-004-R04","person":[338,110,407,242],"context":[327,98,416,258],"states":["U","N"],"reason":"Tách nữ áo sáng giữa theo anchor cũ, bỏ đầu nam tiền cảnh ở đáy; giữ tay và vật trên trang."},
+ {"parent":"V7-B-035","id":"V7-B-035-ADD01","person":[43,199,155,463],"context":[35,190,163,480],"states":["N","P"],"reason":"Nam áo xanh kẻ trước trái quay đầu sang bên, giữ hai tay theo yêu cầu owner; kiểm vật và mặt nền."},
+ {"parent":"V7-D-002","id":"V7-D-002-ADD01","person":[212,254,337,463],"context":[204,245,345,477],"states":["U","N"],"reason":"Nữ trái cầm vật, thử tách khỏi nữ bên phải mà giữ đầu và tay/vật."},
+ {"parent":"V7-D-002","id":"V7-D-002-ADD02","person":[347,289,512,512],"context":[338,280,512,512],"states":["U","P"],"reason":"Nữ phải nhìn sang vật của người bên trái; kiểm không cắt đầu/tay và không giữ mặt trái."},
+ {"parent":"V7-D-008","id":"V7-D-008-ADD01","person":[57,95,275,465],"context":[48,84,283,477],"states":["U","N"],"reason":"Nam bên trái cầm vật, giữ đầu/hai tay và tách mặt nữ; xét vật tay nữ tại mép phải."},
+ {"parent":"V7-D-008","id":"V7-D-008-ADD02","person":[277,94,447,470],"context":[268,84,458,483],"states":["U","P"],"reason":"Nữ áo đỏ nhìn sang người/thiết bị bên trái, tay giữ vật trắng và tay chỉ; kiểm hai biên."},
+ {"parent":"V7-D-013","id":"V7-D-013-ADD02","person":[5,13,166,422],"context":[0,4,176,434],"states":["U","N"],"reason":"Nam áo xám trái cầm vật, tách người đứng sau bằng thu phải; kiểm đầu/tay/vật."},
+ {"parent":"V7-D-014","id":"V7-D-014-ADD01","person":[40,25,235,512],"context":[28,12,246,512],"states":["U","N"],"reason":"Nữ trái cầm vật, giữ đầu/tay và giảm người phải đang chỉ; kiểm tay người khác còn trong khung."},
+ {"parent":"V7-OE-S076-A01","id":"V7-OE-S076-A01-R04","person":[0,25,248,437],"context":[0,15,260,450],"states":["N","N"],"reason":"Mở đủ người viết trước, tay che trán và tay bút; kiểm chữ phủ vùng tay và hướng nhìn trước khi include theo owner."}
+]

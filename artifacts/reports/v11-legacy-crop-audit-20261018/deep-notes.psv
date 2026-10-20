@@ -1,0 +1,259 @@
+﻿001|01|P/U|keep|Source cũng mất đầu, không thể nới để phục hồi; giữ phone-only vì mobile/anchor rõ, looking vẫn U.
+001|02|P/N|recrop|Person box lịch sử bao cả hai người; cần person/context mới cho người tiền cảnh, không dùng group box làm person.
+001|03|P/N|keep|Sau đối chiếu source và input thấy mặt kính dài, viền máy và tay ôm mobile; vật cam phía sau không thay phone đang cầm.
+001|04|P/N|keep|Vật cầm có mặt kính/viền và tỷ lệ mobile còn phân biệt tại 224, đầu hướng thiết bị riêng.
+001|05|U/N|recrop|Person box bao nhóm, phone người sau không được truyền cho người viết tiền cảnh; cần khung/person box riêng.
+001|06|U/P|keep|Vật đen chỉ lộ lưng/cạnh sau sách, không đủ đặc trưng mobile tại 224; đầu nhìn khỏi sách rõ.
+002|01|P/N|keep|Mặt sau trắng còn camera/viền và hình dạng mobile tại 224, đầu hướng máy trên bài.
+002|02|N/N|keep|Vật xanh là sách/tập có trang/mép giấy, hai tay thấy đủ; đầu hướng sách riêng.
+002|03|N/U|keep|Thiết bị có vùng màn hình/keypad calculator, tay còn lại đủ review; đầu gục che mắt nên looking U.
+002|04|P/U|keep|Mobile mặt kính dài trên bài còn viền/mặt máy rõ; mắt nhắm không xác nhận đích nhìn.
+002|05|P/N|keep|Thiết bị trong hai tay còn mặt kính/viền mobile rõ tại input, mắt hướng máy riêng.
+002|06|P/N|keep|Mobile trong hai tay còn cụm camera góc/viền đủ phân biệt; phone của người sau không là bằng chứng chính.
+003|01|P/P|keep|Mobile mặt kính và viền trên bài nhận được, đầu quay trái ngoài trang.
+003|02|P/N|keep|Thiết bị trắng trên giấy là mobile mặt kính lớn/viền, không thấy keypad calculator; đầu hướng máy/bài riêng.
+003|03|U/N|keep|Thiết bị nhỏ trên bài mất chi tiết phân biệt mobile/calculator ở input; không giữ known chỉ nhờ source lớn.
+003|04|P/N|keep|Mobile cầm ngang có mặt kính và viền, không keypad; đầu hướng máy riêng.
+003|05|P/N|keep|Mobile trong hai tay còn mặt máy/viền dài nhận được tại input; đầu hướng vùng thao tác.
+003|06|U/N|keep|Mặt lưng trắng không giữ được đặc trưng camera chắc tại 224; đầu hướng tay, không suy phone từ cử chỉ.
+004|01|U/N|keep|Lưng vàng trơn không giữ được camera/đặc trưng tại 224; không truyền nhận dạng từ người cạnh.
+004|02|P/N|recrop|Person box bao nhóm, mobile người nữ rõ nhưng cần box một anchor và context mới.
+004|03|P/N|recrop|Person box bao nhiều người/thiết bị, cần cô lập người cầm; không nhân cùng evidence cho cả nhóm.
+004|04|P/N|recrop|Person box bao nhiều người, thiết bị của người áo nâu nhận mobile nhưng cần crop/person box riêng.
+004|05|P/P|keep|Mobile mặt kính trên bàn riêng đủ nhận, không chỉ dựa vật giơ lên; mắt nhìn ngoài vùng bài/máy.
+004|06|U/U|exclude|Thiết bị màn hình gần vuông không đủ phân biệt mobile/tablet, đầu bị hood che hoàn toàn; không còn target chắc.
+005|01|U/P|keep|Thiết bị cầm chỉ còn lưng/cạnh không phân loại ở 224; mặt nhìn ra trước khỏi vật.
+005|02|U/N|keep|Vật trắng đang mở/thao tác thiếu đặc trưng mobile, không suy từ thao tác; nhìn vùng tay.
+005|03|U/N|keep|Mặt lưng bạc và chấm tối mờ không đủ phân biệt phone tại input; đầu nhìn vật.
+005|04|P/N|recrop|Person box bao nhóm phụ nữ và người trước; phone rõ nhưng cần một anchor/person box.
+005|05|U/N|keep|Vật cầm ngang chỉ còn khối đen, chưa phân biệt phone/controller tại 224; đầu nhìn vật.
+005|06|U/N|keep|Mặt sau trắng chỉ còn khối/mảnh trơn không đủ nhận mobile tại 224; đầu hướng tay.
+006|01|P/U|recrop|Person box bao người trước và người sau, cần tách người tiền cảnh cầm phone; góc sau đầu giữ looking U.
+006|02|P/N|recrop|Person box bao hai người, cần một anchor với phone của người tiền cảnh; đầu hướng máy.
+006|03|U/N|keep|Mặt lưng vàng thiếu cấu trúc camera phân biệt tại 224, đầu nhìn vật; không dùng màu vỏ.
+006|04|U/N|recrop|Person box bao cả hai người, vật đen mặt lưng chưa đủ phone; cần cô lập người cầm.
+006|05|U/N|keep|Thiết bị nhỏ mờ sau resize không đủ nhận mobile, đầu nhìn vùng tay riêng.
+006|06|P/N|recrop|Phone rõ ở tay người nam nhưng person box bao nhiều người; cần box một anchor.
+007|01|P/N|recrop|Person box bao hai người cầm thiết bị khác nhau, cần một anchor/context mới; không chia phone evidence của cả nhóm.
+007|02|U/N|keep|Thiết bị trắng trong tay không giữ đặc trưng mobile tại 224, đầu hướng vật.
+007|03|P/N|recrop|Person box bao nhóm nhiều người, phone người cầm rõ nhưng cần cô lập anchor và box đơn.
+007|04|U/N|keep|Mặt lưng đen không thấy đặc trưng mobile chắc ở 224, đầu hướng vật; không suy từ cử chỉ.
+007|05|P/N|recrop|Person box bao hai người, phone ở tay người trước rõ; cần box đơn và context riêng.
+007|06|U/N|keep|Mặt sau bạc trơn thiếu camera/đặc trưng ở input, đầu hướng vùng tay.
+008|01|U/U|recrop|Source cho thấy đang với thiết bị người bên cạnh, nhưng evidence bị cắt khỏi crop; cần context mới, không truyền P từ source ngoài khung.
+008|02|U/P|recrop|Person box bao người hàng sau và đầu người trước, tay anchor bị che; cần box/context một người.
+008|03|U/N|keep|Mặt lưng đen trơn không phân biệt mobile tại 224, đầu hướng vật.
+008|04|U/N|keep|Lưng trắng thiếu đặc trưng camera tại 224, đầu hướng máy; không lấy phone của người cạnh.
+008|05|P/N|recrop|Phone trong tay người nữ rõ nhưng hai mặt cạnh tranh, cần person box chỉ anchor và context mới.
+008|06|U/N|keep|Lưng vàng/chấm mờ không đủ phân biệt mobile ở input, đầu hướng vật.
+009|01|U/N|keep|Vật hồng còn lộ ở cạnh thân không phân biệt phone/đồ khác tại input; không áp ngoại lệ che hoàn toàn.
+009|02|U/N|keep|Chỉ cạnh/lưng mỏng của thiết bị, không đủ mobile ở input; đầu hướng vùng tay.
+009|03|U/N|recrop|Source còn phần tay/thiết bị bên phải đã cắt khỏi crop, nên có thể draft context mới; hiện giữ U.
+009|04|P/U|keep|Mobile trên bàn rõ nhưng hướng mắt/đích không đủ chắc, không biến nghiêng đầu thành P hoặc N.
+009|05|U/N|recrop|Person box bao cả người đứng và ngồi, tablet không mobile; cần cô lập anchor và giữ tay đầy đủ.
+009|06|U/P|keep|Source cũng hết ở tay giơ bên phải, không có pixels để nới cứu absence; giữ một target looking P.
+010|01|P/N|keep|Lưng xanh có cụm camera hình khối/ống kính phân biệt tại 224, không chỉ chấm nhòe; đầu nhìn máy.
+010|02|U/N|keep|Vật đen nhỏ trong tay thiếu mặt kính/camera phân biệt, đầu hướng tay; source không phục hồi chi tiết input.
+010|03|U/P|keep|Vật đen giơ lên chỉ còn khối mờ ở 224, đầu ngẩng ngoài bàn; không suy từ kiểu cầm.
+010|04|N/N|keep|Hai tay cầm bút/giơ sát ngực còn đủ thấy, không vật mơ hồ; đầu hướng trang phía trước thân.
+010|05|U/N|keep|Thiết bị đen thiếu cấu trúc phân biệt mobile tại input, đầu hướng tay.
+010|06|U/N|keep|Chỉ mặt/cạnh đen mờ của vật cầm, không đủ mobile tại input, đầu hướng tay.
+011|01|U/P|keep|Vật đen dưới tay thiếu chi tiết phân biệt mobile, đầu nhìn ngoài bàn rõ.
+011|02|P/U|keep|Mobile gập trên bàn rõ, source cũng không giữ toàn bộ đầu nên không có pixels để cứu looking; phone-only.
+011|03|P/P|keep|Mobile kiểu gập với bản lề/viền rõ trên bàn, đầu quay khỏi laptop.
+011|04|P/P|keep|Thiết bị trên bàn có keypad/mặt máy mobile phân biệt được; đầu hướng ngoài laptop.
+011|05|P/N|keep|Mobile mặt kính viền rõ trên bàn, đầu hướng laptop; không cần dựa màu vỏ.
+011|06|N/N|keep|Vật đen có bố cục phím/đầu thu dạng remote, không mobile; hai tay đồ thủ công rõ, đầu hướng vùng làm.
+012|01|P/N|keep|Mobile mặt kính viền sáng trên bàn riêng rõ, đầu hướng vùng làm.
+012|02|P/P|keep|Mobile dạng gập trên bàn có mặt máy/bản lề rõ, mặt quay khỏi laptop.
+012|03|N/N|keep|Trong crop vẫn thấy bàn tay và vùng thao tác đủ absence dù sát biên, không tự U vì cắt rất ít đầu ngón; nhìn laptop rõ.
+012|04|U/N|keep|Thiết bị có dây trong tay không phân biệt mobile/controller/player tại 224, đầu hướng vùng máy riêng.
+012|05|P/N|recrop|Phone mặt máy/keypad rõ, nhưng person box bao hai người; cần box/context một anchor.
+012|06|U/N|recrop|Vật đen nhỏ không đủ mobile ở 224, person box bao hai người có đầu/tay nổi bật; cần khung đơn.
+013|01|U/N|keep|Vật trên giấy là tablet lớn, không phone; tay phía sau laptop vẫn thiếu nên không tự N cho phone, đầu hướng laptop.
+013|02|U/U|recrop|Crop mất bàn tay và đích nhìn/laptop bên phải, source cho phép bổ sung context; hiện không đủ hai target.
+013|03|U/P|keep|Vật trắng trong tay thiếu đặc trưng loại thiết bị tại input, mặt ngẩng ngoài vùng bàn.
+013|04|U/N|keep|Vật đen cầm trên bàn chỉ lộ mặt/lưng mờ, không đủ mobile tại input; đầu hướng vật.
+013|05|U/P|keep|Thiết bị bạc có lens/screen nhỏ nhưng chưa phân biệt camera/phone chắc ở input, mặt ngẩng khỏi thiết bị.
+013|06|P/N|recrop|Phone mặt kính rõ nhưng person box bao nhóm, cần một anchor và context mới.
+014|01|U/N|recrop|Person box bao hàng nhiều người, tay anchor tiền cảnh bị che; cần box đơn, không dùng group box.
+014|02|U/N|keep|Thiết bị đen sau laptop không giữ chi tiết nhận mobile ở 224, đầu hướng vùng tay.
+014|03|U/N|keep|Vật đen trong tay còn mơ hồ, không giữ N chỉ vì đang viết; đầu hướng vùng giấy/tay.
+014|04|U/U|exclude|Vật trên bàn có keypad calculator, nhưng tay dưới bàn và mắt nhắm làm hai target chưa đủ evidence; phone calculator không cứu absence.
+014|05|U/N|keep|Tay bị cắt ở biên source/crop, không có pixels nới để xác nhận absence; hướng vào trang rõ nên giữ một target.
+014|06|U/N|keep|Thiết bị cầm đen nhỏ/mờ không đủ phân biệt mobile tại input, đầu hướng tay.
+015|01|U/P|keep|Calculator keypad trên bàn rõ, không mobile; tay dưới bàn thiếu absence, đầu ngẩng khỏi trang.
+015|02|U/P|keep|Tay bị cắt ngay biên source nên không recrop phục hồi, đầu nhìn ngoài trang rõ.
+015|03|P/N|recrop|Mobile mặt kính trong tay rõ nhưng person box bao hai người, cần anchor/context riêng.
+015|04|U/N|recrop|Person box bao nhóm thảo luận với tablet, cần box một anchor; không tự phone N khi tay bị nhóm che.
+015|05|U/N|recrop|Person box bao nhóm, tay chủ thể chưa rõ trong RGB; cần tách anchor và review lại crop mới.
+015|06|U/P|keep|Mặt hướng ngoài vùng laptop/giấy rõ sau đối chiếu context, tay vẫn dưới bàn/khuất nên phone U.
+016|01|U/N|recrop|Person box bao nhóm đứng/ngồi, các màn hình là laptop/tablet không đủ phone P; cần một anchor mới.
+016|02|U/P|recrop|Person box bao nhiều người với gaze/tay khác nhau, cần cô lập chủ thể; không đổi label theo cả nhóm.
+016|03|U/P|recrop|Person box là cả hàng người, tay dưới bàn chưa đủ; cần box đơn và context cho hướng nhìn.
+016|04|N/P|recrop|Person box bao ba người, tay thấy đủ nhưng cần tách một anchor cho RGB classifier.
+016|05|U/P|recrop|Nhiều người trong person box, phone gần bàn chung chưa đủ attribution cho người trước; cần box/context mới.
+016|06|U/N|keep|Vật đen trên bàn chỉ thấy case/lưng, không đủ nhận mobile; tay viết/trang rõ và đầu hướng giấy.
+017|01|N/N|recrop|Person box bao người nam và nữ, tablet không mobile; cần một anchor/context mới.
+017|02|N/N|recrop|Person box bao nhiều người viết, cần tách anchor chứ không dùng group box làm person.
+017|03|U/N|recrop|Anchor là người phía sau, nhưng RGB bị tay/đầu người trước lấn; cần khung tách nếu giữ đủ tay.
+017|04|N/N|recrop|Anchor hàng sau có box nhưng người tiền cảnh lấn khung, cần context mới tránh hai tay cạnh tranh.
+017|05|N/N|recrop|Thiết bị lớn là tablet, người giữa có anchor box nhưng nhiều mặt/tay lấn khung; đề xuất cô lập.
+017|06|P/P|keep|Mobile mặt kính/viền trên bàn trước anchor còn nhận được tại 224, hai tay không cầm thiết bị khác; đầu quay khỏi giấy.
+018|01|P/N|keep|Mobile mặt kính/viền nằm sát tay trên bàn rõ, đầu hướng thiết bị/bài.
+018|02|U/U|exclude|Thiết bị có bàn phím và phần vỏ/cover nhưng không phân biệt chắc mobile/calculator ở 224; source cũng không có đầu, không còn known target chắc.
+018|03|P/U|keep|Source cũng không có mặt/đầu đầy đủ để nới, giữ phone-only với màn hình rõ, looking U.
+018|04|P/N|keep|Trong crop còn profile đầu/hướng vào bài đủ diễn giải, source cũng cắt mép mặt nên không đề xuất nới vô ích; phone rõ.
+018|05|U/N|keep|Vật trắng nhỏ trong tay không giữ cấu trúc mobile tại input, đầu hướng vùng giấy/tay.
+018|06|U/N|keep|Mảnh trắng/tím trong tay quá ít đặc trưng mobile, không nâng P; calculator riêng rõ, đầu hướng bài.
+019|01|U/N|keep|Mặt lưng hồng không có đặc trưng mobile phân biệt tại input, profile đầu vẫn hướng vật; không kế thừa phone P từ cử chỉ.
+019|02|U/N|keep|Mặt lưng bạc/chấm nhỏ không đủ nhận mobile tại 224, đầu hướng tay.
+019|03|U/P|recrop|Person box bao người hàng sau và người trước, phone trên bàn gần không đủ attribution; cần một anchor/context.
+019|04|U/N|keep|Mặt lưng/cạnh thiết bị hồng thiếu cấu trúc phone tại 224, đầu hướng vật; phụ đề ngoài crop không truyền nhãn.
+019|05|P/P|keep|Mobile mặt kính/viền trên laptop cá nhân trước anchor còn phân biệt được, mặt ngẩng khỏi bàn.
+019|06|U/N|keep|Thiết bị trắng có dây có thể player/mobile, input không đủ phân biệt; đầu hướng laptop riêng.
+020|01|U/P|keep|Vật đen dạng case/ví mở không có mặt máy đủ nhận mobile, mặt ngẩng khỏi keyboard.
+020|02|U/N|keep|Vật đen/bạc nhỏ trên bàn chưa phân biệt calculator/mobile ở input, đầu hướng giấy; không giữ N theo nhãn cũ.
+020|03|U/N|recrop|Source còn bàn tay/keyboard bên phải, có thể draft context mới; crop hiện mất tay nên phone U.
+020|04|U/N|keep|Source cũng chạm biên trái ở đầu/tay, không có pixels nới hữu ích; giữ looking N từ profile vào màn hình.
+020|05|U/N|keep|Thiết bị viền cam nằm ngang có thể media player/mobile, không đủ phân biệt tại 224; không tự P vì sáng.
+020|06|N/N|recrop|Person box bao hai người, hai tay keyboard và đầu vào laptop rõ; cần một anchor/context.
+021|01|U/N|keep|Chỉ mặt/cạnh đen của vật cầm không giữ đặc trưng mobile tại input, đầu hướng tay.
+021|02|U/N|keep|Thiết bị trắng có cụm đen lớn nhưng chưa phân biệt camera/phone tại 224, không suy từ cách cầm.
+021|03|U/N|recrop|Thiết bị màn hình gần vuông chưa phân biệt mobile/PDA/camera, person box bao hai người; cần khung đơn.
+021|04|N/N|keep|Handset trắng có dây/kiểu landline, không mobile; tay còn lại trên bàn DJ thấy đủ, đầu hướng vùng thao tác.
+021|05|N/N|keep|Thiết bị bàn có cấu trúc camera/đồ âm thanh không mobile, hai tay laptop rõ; đầu hướng màn hình.
+021|06|N/N|recrop|Person box bao hai người, cần một anchor và context; hai tay keyboard và hướng laptop còn rõ.
+022|01|U/N|keep|Thiết bị bị cắt ở chính biên source, không có pixels để phục hồi loại vật; đầu nhìn vùng riêng đủ N.
+022|02|U/U|exclude|Mắt nhắm/tay chống mặt, tay còn lại cắt/khuất; source không cung cấp đích nhìn chắc, không còn known target.
+022|03|U/P|recrop|Source còn bàn tay/keyboard bên trái đã mất trong crop; đề xuất context mới, hiện phone U.
+022|04|U/N|recrop|Source còn vùng viết/bàn tay bên phải, có thể draft context mới; hiện thiếu absence, hướng bài rõ.
+022|05|U/N|recrop|Source còn bàn tay bên trái nhưng crop đã cắt, cần nới theo anchor; đầu hướng laptop.
+022|06|U/N|recrop|Source có vùng mouse/tay trái bên ngoài crop, đề xuất nới; tay sau laptop vẫn cần QA riêng.
+023|01|N/N|recrop|Person box bao ghế/cảnh và người sau, nên định nghĩa box đơn rồi context gọn giữ tay/laptop.
+023|02|U/N|recrop|Person box rộng gồm người/cảnh phụ và laptop tiền cảnh, tay anchor khuất; đề xuất khung một người.
+023|03|U/N|recrop|Person box bao nhóm/monitor, tay và chủ thể RGB chưa cô lập; cần khung mới.
+023|04|U/N|recrop|Thiết bị nhỏ trong tay chưa đủ mobile, person box bao cả người cạnh; cần box một anchor.
+023|05|U/N|recrop|Person box bao hai người/laptops, tay bị màn hình che; cần một anchor và context.
+023|06|U/U|recrop|Person box bao nhiều người, phone ở đùi không tự thuộc mọi anchor; cần tách một người trước gán target.
+024|01|N/N|recrop|Person box là nhóm đứng/ngồi, cần anchor đơn; không đưa nguyên group box vào person geometry.
+024|02|U/N|keep|Vật/tay trên keyboard thiếu đặc trưng mobile, không suy phone từ động tác; đầu hướng bàn.
+024|03|U/N|recrop|Person box bao nhiều người/monitor, tay anchor bị che; cần cô lập chủ thể.
+024|04|U/P|recrop|Person box bao hàng người, tay/đích thuộc nhiều người; cần box đơn, không label cả nhóm.
+024|05|U/N|keep|Source cũng cắt mép bàn tay ở bên phải, không có pixels nới hữu ích; giữ looking N, phone U.
+024|06|U/P|recrop|Person box bao nhiều người với vùng bài khác nhau, cần cô lập anchor trước review crop mới.
+025|01|P/N|keep|Phần mặt kính tím và viền máy trên túi đỏ còn đủ nhận mobile tại input, đầu hướng vùng thao tác.
+025|02|P/N|keep|Thiết bị trắng có cụm camera/viền còn phân biệt được ở input, đầu hướng máy riêng.
+025|03|U/N|keep|Lưng/cạnh đen của thiết bị thiếu đặc trưng mobile tại 224, đầu hướng tay.
+025|04|U/N|keep|Đầu nghiêng nhưng hướng vào tờ giấy đang giữ của chính anchor, không P chỉ vì giơ giấy; tay thấp vẫn khuất.
+025|05|P/N|keep|Mobile mặt kính/viền trên bàn cạnh tay anchor nhận được, không nhầm calculator bàn bên phải; đầu nhìn bài riêng.
+025|06|P/N|keep|Thiết bị mặt kính với nội dung hiển thị/viền đủ mobile tại input, không keypad vật lý calculator; đầu hướng máy.
+026|01|P/P|keep|Mobile mặt kính/viền đỏ trên bàn riêng rõ, đầu quay sang người khác khỏi giấy.
+026|02|N/P|keep|Vật mỏng là giấy có mép/trang cong trong tay, không mobile; hai tay rõ, mặt ngẩng khỏi bài.
+026|03|P/P|keep|Mobile mặt kính trên bàn riêng còn cấu trúc rõ, đầu quay trái khỏi trang.
+026|04|N/P|keep|Vật cầm là giấy có mép cong, hai tay bút/giấy rõ; mặt hướng người khác ngoài bài.
+026|05|U/N|keep|Native quá mờ ở thiết bị, không đủ phân biệt mobile với vật khác tại input; đầu hướng tay.
+026|06|U/N|keep|Vật đen cầm hai tay không giữ chi tiết mobile ở input, đầu hướng vật.
+027|01|U/N|keep|Thiết bị nhỏ chỉ còn khối mờ, không xác nhận mobile từ cử chỉ; đầu hướng tay.
+027|02|U/N|keep|Lưng/cạnh thiết bị không đủ đặc trưng mobile tại 224, đầu hướng vật.
+027|03|U/N|keep|Thiết bị cầm chỉ lộ cạnh/mặt tối mờ, không đủ mobile tại input, đầu hướng tay.
+027|04|U/N|keep|Thiết bị rất mờ/méo không đủ phone identity, đầu hướng tay; source không phục hồi input.
+027|05|P/U|keep|Mobile trên bàn rõ, hướng mắt/đích vẫn chưa chắc với đầu nghiêng; giữ looking U thay suy từ posture.
+027|06|U/N|keep|Vật cầm chỉ còn mặt lưng/khối mờ không đủ phone identity; đầu hướng tay, watermark lớn không dùng làm evidence.
+028|01|U/P|recrop|Person box bao hai người và tay che, cần anchor đơn/context riêng; không lấy gaze người trước cho người sau.
+028|02|U/U|recrop|Đích nhìn là vùng người bên trái ở ngoài crop, source cho phép nới context; crop hiện thiếu cả tay và vùng bài.
+028|03|U/U|recrop|Đầu nghiêng sang người cạnh nhưng trang/đích ngoài crop, source có thể bổ sung context; hiện U/U.
+028|04|U/N|recrop|Crop cắt bàn tay/vùng viết, source có thể nới nhưng cần tránh phụ đề chồng vùng evidence; current phone U.
+028|05|U/P|keep|Vật đen trên trang không phân loại chắc mobile tại 224, một tay dưới bàn; mặt ngẩng ngoài trang rõ.
+028|06|U/N|keep|Vật đen nhỏ trên trang và tay dưới bàn không đủ absence/identity, đầu hướng giấy.
+029|01|P/P|keep|Mobile mặt kính dưới tay trên bàn rõ, mặt hướng trước ngoài trang riêng.
+029|02|U/U|recrop|Source có bàn/vùng làm nhưng crop chỉ back view/tay che mặt, cần context mới nếu muốn giữ looking known.
+029|03|U/U|recrop|Crop chỉ góc sau đầu và tay khuất, source có context lớp nhưng không truyền label vào crop hiện tại.
+029|04|U/U|recrop|Crop thiếu vùng bài/đích từ góc sau; đề xuất mở context từ source rồi review SHA mới.
+029|05|U/U|recrop|Đầu ở góc sau và tay che mặt, vùng bài ngoài crop; source có thể bổ sung context, không tự looking P.
+029|06|U/P|keep|Đầu quay rõ sang trái ngoài trang, nhưng một tay/vùng bàn khuất; không cần thấy con ngươi để looking P khi hướng rõ.
+030|01|U/U|recrop|Back view và tay/bài thiếu trong crop, source có thể thêm vùng desk/context; hiện không giữ P chỉ theo class nguồn.
+030|02|U/U|recrop|Profile đầu nhưng vùng bài/đích ngoài crop, source có thể thêm context; current U/U.
+030|03|U/U|recrop|Back view không đủ vùng bài để diễn giải, đề xuất context mới theo source, không truyền label từ scene rộng.
+030|04|U/U|recrop|Góc sau đầu nhỏ và bàn bị người trước che, có thể thử context rộng; chưa xác nhận được known target trên crop hiện tại.
+030|05|N/P|keep|Vật đen trên bàn có cấu trúc ví/case, hai tay khoanh thấy được không thiết bị mơ hồ; đầu quay trái ngoài trang.
+030|06|U/U|exclude|Source cũng bị đầu người trước che tay/vùng bài, nới không phục hồi evidence trong cùng frame; không đủ hai target.
+031|01|U/U|recrop|Back view thiếu tay/vùng bài, source có context lớp để draft rộng hơn; không giữ looking P từ class nguồn.
+031|02|U/P|recrop|Đầu quay trái khỏi giấy rõ, tay giơ và người trước lấn khung; có source để thử context giữ tay đầy đủ.
+031|03|U/U|recrop|Back view chỉ vai/đầu trong crop, cần context vùng bài từ source rồi review SHA mới.
+031|04|U/N|keep|Trong crop còn trang sách ngay trước mặt và head/profile hướng vào đó, đủ looking N; tay vẫn che nên phone U.
+031|05|U/U|recrop|Đầu hướng trái nhưng bài/đích thiếu trong crop, source có thể thêm vùng bàn; chưa giữ P theo taxonomy.
+031|06|U/P|keep|Sau mở lại thấy đầu ngẩng/quay khỏi vùng bài, không phải mặt gục trên tay; tay vẫn thiếu evidence absence.
+032|01|U/N|keep|Hướng đầu vào trang trước thân còn diễn giải được, tay bị người trước che; không giữ P chỉ vì nghiêng đầu.
+032|02|U/P|recrop|Person box bao nhiều người, cần chọn anchor đơn; head/tay người khác không được dùng chung.
+032|03|U/P|recrop|Anchor hàng sau nhìn ngoài bài, tay bị đầu người trước che; cần thử context cô lập, không lấy tay người trước.
+032|04|U/P|recrop|Person box bao hai người và crop mất đầu người sau, cần box/context một anchor để tránh nhãn mâu thuẫn.
+032|05|U/P|recrop|Person box bao nhóm và tay giơ ra biên, cần box đơn/context theo anchor.
+032|06|N/N|recrop|Person box bao hai người viết, cần box đơn; hai tay/bài còn đủ evidence ở từng người.
+033|01|U/U|recrop|Person box bao nhóm nhiều người với đích khác nhau, chưa có một target RGB rõ; cần chọn box đơn trước.
+033|02|U/N|recrop|Person box bao hai người/vật cầm mờ, cần anchor đơn; không auto phone P từ cử chỉ.
+033|03|N/P|recrop|Person box bao nhiều người và người đứng, cần anchor đơn để giữ hướng nhìn ra ngoài bài.
+033|04|U/U|exclude|Đầu úp khuất trong hood, tay và đích bị chồng sách che trong cùng source; không có known target chắc.
+033|05|U/U|recrop|Back view và tờ giấy chỉ lộ một phần, cần context mới cho vùng bài; không giữ looking N theo class read.
+033|06|U/U|exclude|Native/source đều quá ít chi tiết và bị đầu người trước che tay/vùng bài, nới không phục hồi evidence.
+034|01|U/U|recrop|Person box/crop chứa hai người, tay/bài bị che; cần xác định một anchor và context mới từ source.
+034|02|U/U|exclude|Mặt mờ và vùng tay/bài bị người trước che ngay source, không phục hồi evidence bằng nới crop.
+034|03|U/U|exclude|Tay che gần toàn mặt và tay còn lại khuất, chưa đủ phone absence hoặc gaze; không còn known target.
+034|04|U/U|exclude|Mặt/tay bị người trước che và source cũng mờ, không đủ hai target ổn định.
+034|05|U/N|recrop|Person box bao hai người đọc, cần box đơn và context; không dùng hands của người khác xác nhận absence.
+034|06|U/N|recrop|Person box bao nhiều người và cắt tay, cần box đơn/context mới theo source.
+035|01|N/N|recrop|Person box bao nhiều người viết, cần anchor đơn; giữ rõ đầu/tay/bài của người được chọn trong crop mới.
+035|02|N/N|recrop|Person box bao hai người đọc/viết, cần tách anchor, không gán nhãn nhóm thành người.
+035|03|U/N|keep|Vùng tay sát mặt quá mờ không đủ phân loại/absence, đầu vẫn hướng trang riêng; không truyền N từ source class.
+035|04|U/N|recrop|Person box bao nhiều người, tay/giấy chồng che; cần chọn một anchor và context mới.
+035|05|N/N|recrop|Person box bao nhiều người đọc, cần box đơn; evidence đầu/tay của mỗi người xét riêng.
+035|06|U/U|recrop|Person box là nhóm đông có gaze khác nhau, chưa có một anchor RGB rõ; cần khung mới trước dùng supervision.
+036|01|U/U|recrop|Person box bao hai người có hướng nhìn khác nhau, cần anchor đơn trước gán target cho RGB crop.
+036|02|U/N|keep|Thiết bị trên giấy chỉ là khối đen nhỏ mờ, không đủ mobile identity ở input; đầu hướng vùng tay.
+036|03|U/N|keep|Mặt lưng bạc thiếu camera/đặc trưng phân biệt tại input, đầu hướng tay; không suy từ kiểu cầm.
+036|04|U/N|keep|Chỉ cạnh/lưng thiết bị trong tay thiếu phone identity ở input, đầu hướng vật.
+036|05|U/N|keep|Vật trắng nhỏ trong tay không giữ đặc trưng mobile tại input, đầu hướng vật.
+036|06|P/N|keep|Mobile mặt kính/viền dưới tay trên bàn vẫn nhận được tại 224, đầu hướng máy/bài riêng.
+037|01|P/N|keep|Mobile viền tím/mặt kính trên bàn vẫn có cấu trúc phân biệt, đầu hướng vùng máy/bài riêng.
+037|02|U/N|keep|Vật nhỏ trên sách dưới tay không giữ phone identity ở input, đầu hướng trang; không nâng P từ source xa.
+037|03|U/N|keep|Mặt lưng đen trong hai tay không đủ camera/mặt máy phân biệt ở input, đầu hướng vật.
+037|04|U/N|keep|Vật đen trên bàn quá mờ, không đủ phân biệt mobile/calculator, đầu hướng thao tác.
+037|05|U/P|keep|Lưng bạc thiếu camera/mặt máy phân biệt tại input, mặt ngẩng ra trước khỏi vật.
+037|06|U/P|keep|Mảnh đen dưới sách không đủ mobile identity, một tay khuất, đầu quay trái khỏi trang.
+038|01|N/N|keep|Đích nhìn vẫn vào trang/sách riêng, không tự P vì mặt hơi ngẩng; hai tay bút/trang rõ không vật lạ.
+038|02|U/U|recrop|Person box bao nhiều người/back view, cần box đơn/context trước supervision; không dùng gaze người sau cho người trước.
+038|03|U/P|keep|Vật trên sách chỉ còn khối đen nhỏ không đủ mobile identity ở input, mặt ngẩng khỏi bài.
+038|04|U/U|exclude|Source đã cắt mất mặt ở mép trái, không có pixels recrop để cứu hướng nhìn; tay/thiết bị cũng thiếu, U/U.
+038|05|U/N|keep|Thiết bị đen cầm hai tay thiếu đặc trưng mobile tại input, đầu hướng vật.
+038|06|U/N|keep|Vật cầm chỉ còn mặt/lưng mờ không đủ mobile, đầu hướng vật.
+039|01|U/N|keep|Mặt lưng/cạnh đỏ không đủ phân biệt phone ở input, không nhận bằng màu vỏ; đầu hướng tay.
+039|02|U/U|exclude|Đầu cúi che mặt, đích dưới bàn/trang chưa rõ và tay dưới bàn thiếu absence; không còn known target chắc.
+039|03|U/N|keep|Thiết bị nhỏ mờ trong tay mất đặc trưng mobile, đầu hướng vùng thao tác.
+039|04|P/N|keep|Thiết bị mặt kính/viền dưới tay trên bàn còn đủ nhận mobile ở input, đầu hướng máy.
+039|05|U/N|keep|Vật nhỏ cầm trong tay chỉ còn mặt/lưng mờ, không đủ phone identity; đầu hướng tay.
+039|06|U/N|keep|Thiết bị nhỏ mặt lưng mờ không đủ phone identity tại input, đầu hướng tay.
+040|01|U/N|keep|Vật trong hai tay chỉ còn cạnh/lưng mờ không đủ nhận mobile tại input; đầu hướng tay trên sách.
+040|02|U/N|keep|Đầu hướng trang và tay viết; tay còn lại bị người cạnh che nên không khẳng định phone absence.
+040|03|P/N|keep|Thiết bị mặt kính có viền trên giấy riêng còn nhận mobile tại input; đầu hướng trang và máy.
+040|04|U/P|keep|Thiết bị cầm chỉ còn cạnh/mặt mờ, không đủ mobile identity tại input; mặt ngẩng khỏi vùng bài.
+040|05|U/P|keep|Thiết bị cầm thiếu mặt kính/camera phân biệt ở input; đầu quay sang người bên cạnh.
+040|06|U/N|keep|Mặt lưng đen trong tay không đủ đặc trưng mobile ở input; đầu hướng vật.
+041|01|U/N|keep|Thiết bị mặt lưng mờ cầm trước ngực không đủ mobile identity; đầu hướng vật.
+041|02|U/N|keep|Vật đen trong hai tay không giữ mặt kính/camera phân biệt ở input; đầu hướng thao tác.
+041|03|U/N|keep|Mặt lưng xám/đen thiếu đặc trưng phân biệt mobile ở input; đầu hướng tay.
+041|04|U/N|keep|Vật cầm trước người quá mờ không đủ phone identity ở input; đầu hướng tay.
+041|05|U/N|keep|Vật đen trong một tay thiếu mobile identity, tay kia chống miệng; đầu hướng vùng tay riêng.
+041|06|U/N|keep|Lưng trắng trong tay không đủ camera/đặc trưng mobile ở input; đầu hướng tay.
+042|01|U/N|keep|Thiết bị sau người trước bị che và chỉ còn lưng mờ; đầu hướng tay của chính anchor.
+042|02|P/P|keep|Mobile mặt kính/viền tím đặt trên trang và tay tương tác còn nhận được tại input; mặt quay lên trái khỏi bài.
+042|03|U/N|keep|Lưng vàng trong tay không đủ đặc trưng phone ở input; đầu hướng vùng tay.
+042|04|U/P|keep|Thiết bị nhỏ một phần bị che, không đủ phone identity tại input; mặt quay sang trái khỏi tay.
+042|05|U/N|keep|Vật đen trên bàn bị cắt và mờ không đủ phân biệt phone/tablet; đầu hướng trang.
+042|06|N/N|keep|Anchor nữ viết rõ trên trang riêng, hai tay/vùng thao tác đủ và không có vật lạ; người hai bên không cản attribution.
+043|01|N/N|recrop|Đầu/tay nam ở giữa đọc được nhưng person box bao cả người trước và người sau; cần box đơn, context giữ trang.
+043|02|U/P|keep|Anchor giơ tay nhìn về giáo viên, rõ ngoài vùng bài; tay còn lại dưới bàn nên phone absence chưa đủ.
+043|03|N/U|recrop|Person box bao hai nữ, tóc che hoàn toàn mặt anchor sọc; cần box đơn và kiểm lại đích nhìn, không truyền gaze từ người cạnh.
+043|04|N/N|keep|Nữ áo đen là anchor trội, đầu và hai tay hướng trang viết riêng; không cần loại chỉ vì có người cạnh.
+043|05|U/N|keep|Đầu nam hướng trang riêng; một tay và vùng thao tác bị người trước che nên phone absence chưa đủ.
+043|06|U/N|recrop|Person box chứa hai người, nữ trái hướng trang riêng còn nữ phải hướng laptop; cần box đơn và duyệt lại attribution.
+044|01|U/N|keep|Đầu hướng trang đang viết rõ; ghế che tay/vùng dưới bàn nên phone absence chưa đủ, source không thêm evidence.

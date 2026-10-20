@@ -1,0 +1,14 @@
+{
+  "geometry_qa": [
+    {"id":"ADD-Y02-F00024-M01-R02","result":"pass_draft","states":["N","N"],"note":"Đầu và hai tay đủ sau nới lên, không mobile trong vùng riêng. Xem lại nguồn cho thấy đầu/hướng nhìn còn theo tay giơ và vùng giấy riêng, chưa đủ looking P; đề xuất N/N."},
+    {"id":"ADD-Y06-F00027-M01","result":"pass_draft","states":["U","P"],"note":"Một người trội và hướng đầu trước rõ. Vùng hai tay đặt đùi có vật/vệt tối không đủ phân biệt ở native và input; không chốt phone N từ việc không thấy màn hình."},
+    {"id":"ADD-Y06-F00060-M01","result":"pass_draft","states":["N","P"],"note":"Hai tay tựa cằm và trên bàn giữ đủ, không mobile; đầu quay trái rõ. Người sau chỉ còn phần dưới mặt/thân tại biên, anchor trước trội."},
+    {"id":"ADD-Y06-F00033-M01","result":"pass_draft","states":["N","P"],"note":"Một mặt chính và hai cẳng tay đan trên bàn, không vật nghi phone. Đầu nhìn trước khỏi bàn riêng; input giữ đủ bằng chứng."},
+    {"id":"ADD-Y06-F00033-M02","result":"needs_revision","states":["N","P"],"note":"Người phía sau trái còn toàn bộ mặt khá rõ cạnh mặt chính; cần chọn F29 hoặc góc khác thay vì giữ bản này."},
+    {"id":"ADD-Y06-F00012-M01","result":"pass_draft","states":["N","P"],"note":"Đầu quay trái, tay đan trên bàn được giữ; chỉ còn mảnh áo người cạnh, không mặt cạnh tranh hoặc vật nghi mobile."},
+    {"id":"ADD-Y06-F00012-M02","result":"pass_draft","states":["N","P"],"note":"Tay tựa cằm và tay đặt bàn rõ; đầu nghiêng trái khỏi vùng bàn, không mobile. Người sau bị cắt ở biên chỉ còn mảnh mặt nhỏ, anchor trội."},
+    {"id":"ADD-Y06-F00029-M01","result":"pass_draft","states":["N","P"],"note":"Hai tay đủ và không mobile, đầu quay trái về phía ngoài bàn riêng. Một mặt hậu cảnh nhỏ ở mép trên; mặt tiền cảnh chỉ còn mảnh ở góc, người chính vẫn trội tại input."}
+  ],
+  "additional_original_boards_viewed":[8,9,10,11],
+  "additional_marked_boards_viewed":[8,9,10,11]
+}

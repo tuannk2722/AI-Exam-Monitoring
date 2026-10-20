@@ -1,0 +1,836 @@
+﻿001|01|P/U|recrop|Mobile cầm rõ; đầu anchor bị cắt ở biên trên nên looking thiếu evidence.
+001|02|P/N|recrop|Anchor tiền cảnh nhìn vào thiết bị; hai người có mặt/tay nổi bật cạnh tranh, cần cô lập anchor.
+001|03|U/N|inspect|Vật màu đỏ lớn có thể tablet/sách; nhìn xuống vật, cần xem native để phân biệt mobile.
+001|04|N/N|keep|Tablet lớn, hai tay thao tác quan sát được; hướng vào thiết bị riêng.
+001|05|U/N|keep|Vật đỏ nhỏ/lưng trơn không đủ nhận mobile; đầu hướng vùng tay/bàn riêng.
+001|06|P/N|keep|Thiết bị mobile cầm hai tay với màn hình/viền; đầu nhìn thiết bị riêng.
+001|07|U/N|inspect|Vật nhỏ màu xanh trong tay chưa phân biệt chắc mobile; đầu hướng vùng thao tác riêng.
+001|08|U/N|recrop|Người kính tiền cảnh viết, thiết bị thuộc người sau; khung hẹp thiếu tay/bàn và nhiều người cạnh tranh.
+001|09|P/N|keep|Mobile mặt sau có cụm camera rõ, hai tay thao tác và mắt hướng máy.
+001|10|P/N|keep|Mobile trong hai tay trước mặt, hướng nhìn vào máy; bối cảnh ngoài lớp chỉ metadata.
+001|11|U/P|inspect|Quay đầu ra ngoài sách, tay cầm vật đen cạnh sách; cần kiểm nhận dạng thiết bị.
+001|12|U/N|inspect|Vật trắng mặt sau trong hai tay, đầu nhìn vật trên bài; cần kiểm cụm camera.
+002|01|N/P|keep|Hai tay khoanh trên bàn không có vật mơ hồ, đầu quay trái ngoài vùng bàn riêng.
+002|02|N/P|keep|Hai tay trên bàn trống, đầu quay sang cạnh rõ.
+002|03|N/N|keep|Hai tay giữ giấy trên đùi quan sát được, hướng mắt vào giấy riêng.
+002|04|U/P|keep|Tay cầm bút nhìn sang trái; tay bên trái/vùng liên quan mất ở biên crop nên phone U.
+002|05|U/N|inspect|Vật xanh hình chữ nhật cầm thấp có thể thiết bị/sách; đầu hướng vùng riêng.
+002|06|N/P|keep|Hai tay cầm bút/giữ giấy trên bàn, đầu quay phải ngoài trang riêng.
+002|07|U/P|keep|Đầu quay phải rõ; một tay/vùng trái cắt khuất, absence không đủ.
+002|08|N/N|keep|Hai tay khoanh trên vùng bàn, không có vật mơ hồ; đầu hướng bàn riêng.
+002|09|U/U|exclude|Đầu úp trên tay nên không xác định đích nhìn; tay bị đầu che, vật hồng có thể thiết bị mơ hồ.
+002|10|U/N|keep|Đầu hướng xuống bài, bàn và một tay khuất ở mép trái, phone absence thiếu.
+002|11|U/U|exclude|Đầu úp che mặt và hai tay, không đủ hướng nhìn hay absence mobile.
+002|12|U/U|exclude|Nằm gục ngang bàn, tóc che mặt và vùng tay khuất; không diễn giải chắc hai target.
+003|01|U/U|inspect|Đầu úp gần tay, có vật đen trên bài nhưng chi tiết thiết bị và hướng nhìn chưa rõ.
+003|02|U/U|exclude|Đầu úp trên tay, không biết đích nhìn và thiếu evidence absence.
+003|03|U/U|exclude|Đầu úp che mặt, một tay ngoài bàn; không suy looking từ tư thế ngủ.
+003|04|U/U|inspect|Mắt nhắm/đầu nghiêng trên tay, vật đen trước bàn có thể mobile; cần kiểm native.
+003|05|N/N|keep|Hai tay trong vùng viết và giữ giấy, không vật mơ hồ; đầu hướng trang bài.
+003|06|N/P|keep|Bút trong tay, tay còn lại sát má, không vật lạ; đầu quay khỏi bài.
+003|07|U/N|inspect|Người áo sọc nhìn vật nhỏ trên bàn; cần phân biệt phone/calculator và attribution.
+003|08|U/N|keep|Tay trái xuống đùi/khuất, tay phải viết; đầu hướng trang riêng rõ.
+003|09|U/N|inspect|Vật cầm mặt sau vàng chưa thấy đặc trưng phone ở 224; nhìn vật trong tay, người sau cầm phone khác.
+003|10|U/U|exclude|Hai người cạnh tranh trong khung, anchor cúi/che mặt và thiếu vùng tay; không đủ hai target.
+003|11|U/P|keep|Đầu quay hẳn sang phải, bàn/tay phía dưới bị cắt nên phone U.
+003|12|U/N|keep|Anchor trắng đang viết, hướng xuống bài rõ; tay và bàn một phần bị người tiền cảnh che.
+004|01|U/P|inspect|Đầu quay trái ngoài bàn; vật đen trên giấy cần kiểm mobile ở native/input.
+004|02|U/P|keep|Đầu và mắt hướng bên phải, tay nằm ngoài crop phía dưới; không đủ absence.
+004|03|P/N|keep|Mobile nằm trong tay trái với mặt kính/viền, tay phải viết; mắt nhìn vùng thao tác riêng.
+004|04|N/U|keep|Tay khoanh quan sát được không có vật mơ hồ; mắt nhắm/đầu nghiêng không đủ xác nhận đích nhìn.
+004|05|P/N|keep|Màn hình mobile sáng tím trên bài, đầu cúi về vùng bài/thiết bị riêng.
+004|06|N/N|keep|Calculator có màn hình nhỏ và keypad trên bàn, tay viết/giữ bài; đầu nhìn trang riêng.
+004|07|U/N|inspect|Thiết bị trắng trên giấy chưa rõ keypad hay mobile ở input; đầu và hai tay hướng bài riêng.
+004|08|U/N|inspect|Vật đen nhỏ trên giấy của anchor cần kiểm nhận dạng sau resize; người khác lấn khung.
+004|09|P/N|keep|Mobile mặt kính trên bàn sát tay anchor, đầu hướng bàn/máy tính riêng.
+004|10|U/N|inspect|Vật đen trong tay trên hộp xanh có thể phone/calculator; đầu nhìn vùng tay riêng.
+004|11|P/N|keep|Mobile nằm trên bàn có màn hình/viền; đầu hướng bàn riêng, không gán thiết bị của người cạnh.
+004|12|U/N|inspect|Vật nhỏ trong hai tay chưa rõ phone; đầu hướng vật trên bàn riêng.
+005|01|P/N|keep|Mobile trong hai tay, mặt máy và cạnh đủ nhận; đầu nhìn máy riêng.
+005|02|U/N|inspect|Thiết bị mặt lưng trắng thiếu đặc trưng ở 224; đầu nhìn vùng tay.
+005|03|P/N|keep|Phone đỏ cầm trên bàn với mặt kính rõ, đầu nhìn xuống thiết bị riêng.
+005|04|P/N|keep|Mobile màn hình sáng và viền rõ trong tay; nhìn vùng bài/thiết bị riêng dù góc sau đầu.
+005|05|P/N|keep|Mobile màn hình dài trong tay dưới bàn, đầu hướng thiết bị riêng; chưa suy duration.
+005|06|U/N|inspect|Lưng vàng của vật cầm chưa thấy đặc trưng phân biệt mobile; đầu nhìn xuống máy.
+005|07|P/N|recrop|Người nữ cầm mobile rõ nhưng người nam và người nữ nổi bật tương đương; cần khung tách anchor.
+005|08|P/N|keep|Mobile mặt kính trong tay, đầu và mắt hướng thiết bị riêng.
+005|09|P/N|recrop|Mobile trong tay rõ nhưng nhiều mặt và bàn tay cạnh tranh, cần xác minh/cô lập anchor.
+005|10|U/N|inspect|Người áo nâu cầm vật đen lên trước mặt, chưa rõ đặc trưng mobile ở input.
+005|11|U/P|inspect|Mặt quay ra ngoài vùng bài; vật đen giơ lên và vật trên bàn cần kiểm mobile/attribution.
+005|12|U/U|inspect|Hood che đầu, màn hình cầm ngang có thể mobile/tablet; cần kiểm kích thước/cấu trúc, không suy looking từ tư thế.
+006|01|P/N|keep|Mobile xanh cầm ngang hai tay, mặt kính/viền rõ; đầu nhìn máy trong vùng riêng.
+006|02|U/P|inspect|Đầu nhìn ra trước khỏi vật cầm; lưng thiết bị nhỏ chưa rõ loại tại input.
+006|03|U/N|inspect|Vật trắng cầm hai tay có thể phone nhưng chi tiết mờ; đầu hướng vùng tay.
+006|04|P/N|keep|Mobile màn hình sáng trên tay, đầu hướng thiết bị; anchor đủ nổi bật dù source mờ.
+006|05|U/N|inspect|Mặt sau xám trong tay cần kiểm camera/đặc trưng mobile; hướng nhìn vào vật rõ.
+006|06|U/N|keep|Một tay viết và đầu hướng bài; tay còn lại bị cắt khỏi khung nên absence thiếu.
+006|07|P/N|recrop|Mobile rõ nhưng hai người nữ nổi bật cùng hướng bàn; cần xác minh anchor và tránh attribution cạnh tranh.
+006|08|P/N|keep|Mobile mặt kính trong tay trên bài, đầu hướng thiết bị riêng.
+006|09|U/N|inspect|Vật đen cầm ngang cần kiểm phone so với controller/thiết bị khác; đầu hướng vật.
+006|10|U/N|inspect|Vật nhỏ trắng cầm hai tay thiếu đặc trưng ở 224, hướng nhìn xuống tay rõ.
+006|11|P/U|recrop|Mobile màn hình sáng tại tay người tiền cảnh; đầu quay lưng/bị cắt và hai người phía sau cạnh tranh.
+006|12|P/N|keep|Mobile trong tay có khung và mặt kính, thêm phone trên bàn; đầu hướng vùng thiết bị riêng.
+007|01|P/N|recrop|Thiết bị mặt kính ở tay anchor rõ, đầu nhìn máy; hai người sát nhau nổi bật cạnh tranh.
+007|02|U/N|inspect|Lưng vàng nhỏ chưa thấy đặc trưng nhận mobile; đầu nhìn vật trong tay.
+007|03|P/N|keep|Mobile đen trong hai tay có mặt kính/cạnh rõ, đầu hướng máy riêng.
+007|04|P/N|keep|Mobile cầm ngang với mặt máy nhận được, đầu nhìn thiết bị trên vùng riêng.
+007|05|N/N|keep|Hai tay viết và giữ giấy, bàn không có vật mơ hồ, mắt hướng trang riêng.
+007|06|U/N|recrop|Hai người nữ cùng nổi bật, vật đen trong tay cần phân biệt mobile và cô lập người cầm.
+007|07|U/N|inspect|Vật tối trong tay người áo trắng còn thiếu đặc trưng ở input; hướng đầu xuống vùng riêng.
+007|08|P/N|recrop|Mobile cầm hai tay rõ, nhìn máy; người nam và người nữ cạnh tranh trong crop.
+007|09|P/N|keep|Mobile mặt kính trong tay người nam áo xanh, đầu hướng máy; người cạnh chỉ một phần.
+007|10|P/N|keep|Mobile màn hình/viền rõ trong tay, đầu nhìn thiết bị riêng.
+007|11|P/N|recrop|Mobile trong tay người tiền cảnh, đầu hướng máy; người sau cầm máy khác nổi bật nên cần cô lập anchor.
+007|12|U/N|inspect|Lưng vật trắng nhỏ trong tay chưa rõ mobile; đầu hướng vùng thao tác riêng.
+008|01|P/N|recrop|Mobile trong tay người tiền cảnh rõ, nhiều mặt/tay phía sau cùng nổi bật cần QA anchor.
+008|02|P/N|keep|Mobile mặt kính trong tay, đầu hướng thiết bị; người sau không phải chủ thể cầm.
+008|03|U/N|inspect|Vật đen mặt lưng trước mặt thiếu camera rõ tại input; nhìn vật trong tay.
+008|04|P/N|keep|Thiết bị nhỏ cầm ngang có màn hình/viền, đầu hướng thiết bị riêng.
+008|05|P/N|keep|Mobile đỏ mặt kính trong vùng tay, nhìn máy riêng; người cạnh bị cắt một phần.
+008|06|P/N|recrop|Phone trong tay và phone trên bàn, người nam trước và người nam sau nổi bật cạnh tranh.
+008|07|U/N|inspect|Mặt lưng bạc trơn chưa đủ phân biệt mobile tại 224, đầu nhìn xuống tay.
+008|08|P/N|keep|Mobile ốp có cụm camera ở góc, trong hai tay; mắt hướng máy.
+008|09|U/U|inspect|Tay và vật hướng ra khỏi crop, đích nhìn ngoài khung chưa rõ; cần source/geometry.
+008|10|P/N|keep|Mobile mặt kính cầm ngang hai tay trên đùi, đầu nhìn xuống thiết bị.
+008|11|U/N|keep|Tay sát thân và một phần dưới bàn/cắt khuất; đầu nhìn xuống bàn riêng nhưng không đủ absence.
+008|12|N/N|keep|Calculator có keypad rõ trên giấy, tay/bàn đủ review; đầu nhìn thiết bị và bài riêng.
+009|01|N/N|keep|Tay viết và giữ giấy thấy rõ; túi mềm có nếp trên bàn không phải mobile, đầu hướng bài.
+009|02|U/P|recrop|Anchor hàng sau quay sang cạnh, tay/bàn bị người tiền cảnh che; đầu người trước cạnh tranh trong khung.
+009|03|N/N|keep|Hai tay viết/giữ giấy nhìn thấy, đầu hướng bài; không có vật mơ hồ.
+009|04|U/N|inspect|Vật đen trước mặt chỉ thấy lưng, chưa rõ đặc trưng mobile; đầu nhìn vật.
+009|05|U/N|inspect|Vật trắng trong hai tay cần kiểm camera/đặc trưng mobile; đầu hướng vùng riêng.
+009|06|P/N|recrop|Mobile thao tác rõ, hai người có mặt/tay sát nhau nổi bật cần tách anchor.
+009|07|P/P|keep|Mobile trong tay thấp sát đùi rõ, đầu quay sang người bên phải ngoài bài riêng.
+009|08|P/N|keep|Mobile mặt kính/cạnh trong tay dưới bàn, đầu nhìn máy; không gán phone người sau.
+009|09|U/N|inspect|Mặt lưng vàng dưới bàn thiếu đặc trưng camera tại 224; đầu nhìn vật.
+009|10|U/U|exclude|Tay che gần hết mặt và vùng tay/bàn không đủ review; không xác định hướng/absence.
+009|11|U/P|keep|Đầu quay sang phải rõ, hai tay/vùng liên quan bị cắt ở đáy.
+009|12|N/P|keep|Hai tay cầm bút/giữ giấy rõ, đầu quay trái khỏi trang bài.
+010|01|P/P|keep|Mobile đen mặt kính trên bàn, hai tay rõ; đầu quay phải ngoài trang bài.
+010|02|U/N|inspect|Thiết bị hồng cạnh thân bị che một phần, cần kiểm mobile; đầu hướng giấy đang viết.
+010|03|U/N|inspect|Vật mỏng cầm ngang chỉ lộ cạnh/lưng, đầu hướng vùng tay; không suy mobile từ cử chỉ.
+010|04|P/N|keep|Mobile áp tai nhận dạng được; đầu cúi về vùng bàn/giấy riêng, không tự looking P vì gọi máy.
+010|05|N/N|keep|Tablet lớn có tỉ lệ/cấu trúc rõ trong hai tay, đầu nhìn tablet; không nhầm tablet thành mobile.
+010|06|U/N|recrop|Vật đen và bàn tay phải bị cắt ở mép phải; đầu nhìn vùng tay, cần mở geometry nếu source đủ.
+010|07|P/P|keep|Mobile trắng áp tai rõ; đầu/mắt quay trái ra ngoài trang bài.
+010|08|P/U|inspect|Vật đen mặt kính trên bàn nhận mobile; đầu hơi nghiêng nhưng đích nhìn chưa rõ tại input.
+010|09|P/N|keep|Mobile trên bàn và hai tay viết/giữ giấy rõ; đầu hướng bài riêng.
+010|10|N/N|keep|Hai tay viết và giữ trang quan sát được, không vật mơ hồ; đầu hướng trang bài dưới mặt.
+010|11|P/P|keep|Mobile màn hình sáng trong tay; đầu quay khỏi máy và bàn riêng rõ dù thiếu sáng.
+010|12|U/N|recrop|Tablet trên bàn không tự phone P; một tay người đứng bị cắt, hai người nổi bật cạnh tranh.
+011|01|U/P|recrop|Đầu quay phải ngoài bài; cánh tay kéo ra ngoài biên crop nên thiếu absence.
+011|02|N/P|keep|Tay chỉ và tay giữ giấy đủ thấy không vật lạ; đầu quay trái ngoài bài.
+011|03|U/N|inspect|Mặt lưng xanh của vật trong tay chưa rõ cụm camera tại 224; calculator trên bàn không xác nhận phone.
+011|04|P/N|keep|Thiết bị đỏ có cụm camera góc rõ, tay kia viết; đầu nhìn vùng thiết bị/bài riêng.
+011|05|U/N|inspect|Vật đen nhỏ trong hai tay thiếu chi tiết mobile ở input; đầu nhìn xuống tay.
+011|06|P/P|keep|Mobile áp tai với cạnh/mặt máy rõ; đầu ngẩng nhìn phía trước khỏi vùng bàn.
+011|07|P/P|keep|Mobile áp tai, đầu quay sang bên ngoài bàn riêng rõ.
+011|08|P/P|keep|Mobile áp tai của anchor áo sọc, đầu quay bên ngoài vùng làm việc.
+011|09|N/N|keep|Hai tay đặt/khoanh trên bàn rõ không vật lạ; đầu hướng xuống vùng tay riêng.
+011|10|N/N|keep|Hai tay nắm trên bàn không vật mơ hồ, đầu cúi nhìn vùng bàn riêng.
+011|11|U/P|inspect|Vật đen nhỏ giơ trước thân chỉ lộ mặt lưng; đầu hướng ra trước khỏi vùng bàn.
+011|12|U/N|keep|Bàn tay áp tai che vùng vật có thể cầm, không thấy mobile rõ; đầu hướng vùng bàn trước thân.
+012|01|N/N|keep|Hai tay giữ/đọc sách quan sát đủ, không vật mơ hồ; đầu hướng trang riêng.
+012|02|U/P|keep|Một tay giơ cao, tay còn lại khuất/cắt đáy; mặt ngẩng hướng trước ngoài vùng bàn.
+012|03|N/N|keep|Hai tay cầm bút/giữ giấy rõ, đầu nhìn vùng viết riêng.
+012|04|U/P|keep|Đầu quay trái rõ; tay/vùng đùi bị che ở đáy và sau người tiền cảnh.
+012|05|N/P|keep|Hai tay đan trên bàn rõ không vật lạ, đầu quay sang trái ngoài bàn.
+012|06|U/P|keep|Đầu quay trái rõ, bàn tay/vùng thấp cắt khuất cạnh chai nên absence thiếu.
+012|07|U/N|inspect|Tay nâng sát ngực và tay dưới biên chưa thấy trọn, đầu hướng thấp; cần source xác định vùng bài.
+012|08|U/P|keep|Đầu/mắt ngẩng ra phía trước khỏi mặt bàn; hai tay/vùng đùi không đủ quan sát.
+012|09|P/P|keep|Mobile áp tai rõ, mặt ngẩng nhìn trước ngoài bàn.
+012|10|N/N|keep|Hai tay cầm/giở sách rõ, đầu hướng trang riêng; không vật mobile mơ hồ.
+012|11|N/P|keep|Hai tay giữ sách rõ, đầu quay trái khỏi sách.
+012|12|N/N|keep|Hai tay giở sách rõ không vật lạ, đầu hướng trang riêng.
+013|01|U/U|exclude|Đầu úp khuất hoàn toàn trong thân/tay; không diễn giải hướng nhìn và absence chắc chắn.
+013|02|U/N|inspect|Vật đen trong tay mờ mất đặc trưng mobile, đầu hướng vùng tay riêng.
+013|03|U/N|inspect|Vật đen dựng trong hai tay chỉ còn khối mờ, đầu nhìn vùng thao tác.
+013|04|U/P|inspect|Đầu ngẩng hướng ngoài bàn, vật nhỏ ở tay chưa rõ loại tại input.
+013|05|P/U|recrop|Mobile kiểu gập trên bàn nhận được; phần đầu/mắt bị cắt khỏi crop, cần nới từ source.
+013|06|N/N|keep|Laptop lớn, hai tay thao tác rõ không vật mơ hồ, đầu nhìn màn hình riêng.
+013|07|N/P|keep|Hai tay khoanh quan sát được, đầu/mắt ngẩng nhìn ra khỏi laptop.
+013|08|N/N|keep|Hai tay thao tác keyboard đủ thấy, đầu hướng laptop, không nhầm laptop với phone.
+013|09|P/P|inspect|Vật dạng phone gập trên bàn cần kiểm native; đầu quay khỏi laptop về camera.
+013|10|U/N|keep|Một tay/vùng liên quan sau laptop không thấy đủ; hướng đầu vào laptop riêng.
+013|11|U/P|inspect|Đầu hướng trước ngoài laptop; vật đen nhỏ trên bàn cần phân biệt phone/vật khác.
+013|12|U/P|keep|Mặt hướng camera khỏi bàn, một tay/vùng bàn bị che bởi người và mặt bàn.
+014|01|N/P|keep|Hai tay ở bàn/cốc/báo thấy rõ không vật mơ hồ, đầu quay sang phải khỏi vùng đọc.
+014|02|P/N|inspect|Thiết bị trên bàn có cấu trúc mobile, cần xác minh input; đầu hướng laptop.
+014|03|U/N|keep|Mặt hướng laptop nhưng tay xa bị thân/laptop che, không đủ absence.
+014|04|N/P|keep|Hai tay cầm bút/giữ giấy rõ, đầu ngẩng hướng trước khỏi giấy.
+014|05|U/N|inspect|Hai tay làm đồ thủ công, vật chữ nhật đen trên bàn cần kiểm mobile/remote; đầu hướng vùng làm riêng.
+014|06|P/N|inspect|Vật đen trên bàn cạnh máy tính có mặt kính/viền cần kiểm native; đầu hướng khu vực làm riêng.
+014|07|P/P|inspect|Vật dạng phone gập trên bàn cần kiểm nhận dạng; mặt hướng camera ngoài laptop.
+014|08|N/N|keep|Hai tay trên mouse/giấy đủ thấy, đầu hướng laptop riêng; không vật mơ hồ.
+014|09|U/N|keep|Laptop rõ nhưng tay/vùng đùi cắt khuất, đầu hướng màn hình riêng.
+014|10|N/N|keep|Tay chống cằm và tay còn lại thao tác bàn nhìn được, không vật mơ hồ; đầu hướng máy tính.
+014|11|U/N|keep|Tay/vùng sau laptop thiếu evidence absence; đầu nhìn màn hình riêng.
+014|12|U/N|recrop|Đầu nhìn laptop nhưng hai tay bị cắt sát biên phải, cần mở khung nếu source cho phép.
+015|01|U/N|inspect|Vật đen nhỏ có dây trong tay có thể máy nghe nhạc/mobile; đầu hướng tay/máy riêng.
+015|02|P/N|recrop|Mobile có màn hình/keypad trong tay anchor; đầu nhìn máy, đầu người cạnh nổi bật gây cạnh tranh.
+015|03|N/P|keep|Hai tay ở laptop đủ thấy không vật mơ hồ, mặt ngẩng nhìn camera khỏi màn hình.
+015|04|N/N|keep|Hai tay cầm sách rõ không vật mơ hồ, mặt hướng trang sách.
+015|05|P/N|recrop|Mobile trong tay có mặt máy, hai người cùng nổi bật; cần tách người cầm.
+015|06|N/N|keep|Hai tay trên keyboard quan sát được, hướng vào laptop; thiếu sáng nhưng evidence hành vi còn.
+015|07|U/N|inspect|Vật màn hình đen lớn trên giấy có thể tablet/mobile; tay và hướng nhìn ở laptop riêng.
+015|08|N/P|keep|Hai tay thao tác laptop rõ, đầu quay trái ra ngoài màn hình riêng.
+015|09|N/N|keep|Hai tay trên keyboard rõ không vật mơ hồ, đầu hướng laptop riêng.
+015|10|U/N|recrop|Một tay trên ghế, tay kia/vùng laptop bị cắt bên phải; đầu hướng vùng riêng nhưng absence thiếu.
+015|11|N/N|keep|Hai tay trên laptop nhìn được, đầu hướng màn hình, không vật mobile mơ hồ.
+015|12|P/N|keep|Thiết bị cầm có màn hình/keypad kiểu mobile rõ, đầu nhìn máy trong tay.
+016|01|U/P|inspect|Mặt ngẩng hướng người xem, vật nhỏ trắng ở tay thấp chưa phân biệt mobile.
+016|02|U/N|inspect|Vật đen cầm trong tay có thể mobile/thiết bị khác, cần kiểm native; đầu hướng vật riêng.
+016|03|U/P|inspect|Thiết bị bạc dựng trên bàn có thể camera/phone; mặt ngẩng khỏi vật, cần phân biệt loại.
+016|04|P/P|keep|Mobile có màn hình/viền trong tay, mắt hướng trước khỏi máy.
+016|05|P/N|recrop|Mobile màn hình ảnh trong tay người nữ, nhìn máy; ba người nổi bật cạnh tranh anchor.
+016|06|P/N|keep|Mobile áp tai còn thấy cạnh máy, đầu hướng khu vực laptop/bài riêng; không suy looking P từ gọi máy.
+016|07|P/N|keep|Mobile mặt kính/viền trong hai tay trên bài, đầu hướng máy.
+016|08|U/N|recrop|Người tiền cảnh nhìn xuống giấy, tay/vùng dưới bàn bị che; nhiều người cạnh tranh trong khung rộng.
+016|09|U/N|inspect|Vật đen trong hai tay mờ sau resize, cần phân biệt mobile; đầu nhìn vùng tay.
+016|10|U/N|inspect|Vật đen trong tay trên bàn cần kiểm mobile/calculator, đầu hướng vùng riêng.
+016|11|P/P|keep|Thiết bị áp tai thấy hình dạng mobile rõ, mặt hướng ngoài trang bài.
+016|12|U/U|inspect|Mắt nhắm/hướng chưa rõ, tay khuất; vật có phím trên bàn cần phân biệt calculator với mobile.
+017|01|U/N|recrop|Tay trái bị cắt ở biên crop, đầu nhìn xuống bài riêng; cần nới khung từ source.
+017|02|N/P|keep|Hai tay đan trước ngực thấy rõ không vật mơ hồ, đầu nhìn sang phải ngoài trang bài.
+017|03|P/N|inspect|Thiết bị màn hình trong tay có dạng mobile, cần xác minh input; đầu hướng máy riêng.
+017|04|U/P|inspect|Đầu ngẩng sang phải khỏi giấy, hai tay không thấy đủ; vật trên giấy cần kiểm calculator/mobile.
+017|05|U/P|recrop|Đầu nhìn khỏi trang bài, tay bị cắt bên trái; cần giữ vùng tay và giảm người cạnh.
+017|06|N/P|keep|Hai tay khoanh trên bàn rõ không vật mơ hồ, mặt hướng ngoài trang riêng.
+017|07|N/N|keep|Hai tay thao tác laptop quan sát được, mặt hướng màn hình; không vật lạ.
+017|08|P/N|keep|Mobile có mặt kính/viền trong hai tay dưới bàn, đầu hướng thiết bị.
+017|09|N/N|keep|Tay chống trán và tay viết trên trang riêng đủ review, không vật mơ hồ; đầu hướng trang.
+017|10|N/N|keep|Hai tay viết/giữ trang nhìn được, đầu hướng bài riêng, không vật mơ hồ.
+017|11|P/N|recrop|Mobile trong tay có mặt kính rõ; hai người nam cùng nổi bật, cần cô lập người cầm.
+017|12|P/P|keep|Mobile mặt kính nằm trên bàn cạnh mouse của anchor; mặt ngẩng khỏi laptop/trang bài.
+018|01|U/N|recrop|Tablet không là mobile; nhóm nhiều người tương đương, tay/vật bị che nên cần xác định và cô lập anchor.
+018|02|U/N|recrop|Nhiều tablet/người trong khung, tay anchor bị che; đầu hướng vùng làm nhưng cần geometry rõ chủ thể.
+018|03|U/U|inspect|Tay khuất và hướng đầu chưa đủ gắn vùng bài/laptop, cần source đối chiếu đích nhìn.
+018|04|P/N|keep|Mobile mặt kính trên bàn gần anchor rõ, đầu hướng laptop/giấy riêng.
+018|05|P/P|keep|Mobile mặt kính trên sách trước anchor, đầu quay khỏi laptop về phía trước.
+018|06|N/N|keep|Anchor tiền cảnh cầm tablet lớn, hai tay thấy đủ không mobile, đầu hướng màn hình riêng.
+018|07|U/N|recrop|Người đứng cùng người ngồi cạnh tranh chủ thể, tay bị che/cắt; cần xác định anchor và vùng thao tác.
+018|08|U/U|exclude|Nhóm nhiều người gục/che mặt, tay và đích nhìn không đủ rõ ở crop.
+018|09|U/P|recrop|Nhóm đông người và tay giáo viên phủ khung, các mặt hướng lên ngoài bài nhưng chưa cô lập anchor.
+018|10|U/P|recrop|Nhiều người nổi bật tương đương, tay dưới bàn không thấy; hướng đầu ngoài vùng làm cần gắn đúng anchor.
+018|11|N/P|recrop|Các tay đặt trên đùi đủ thấy không vật lạ, đầu hướng người khác; nhiều anchor tương đương cần tách.
+018|12|P/N|keep|Mobile mặt kính trên bàn cạnh laptop rõ, đầu hướng màn hình riêng; tay sát mặt không tự U khi phone đã rõ.
+019|01|P/N|keep|Mobile mặt kính trên bàn rõ, đầu hướng giấy đang viết dù khăn che mặt.
+019|02|U/P|recrop|Mặt ngẩng khỏi bàn, thiết bị cạnh laptop gần người sau có attribution chưa rõ; khung nhiều người cần tách.
+019|03|U/N|inspect|Vật đen dạng ví/case cạnh giấy cần phân biệt mobile, hai tay viết và đầu hướng giấy.
+019|04|N/N|recrop|Tablet lớn, tay thao tác/giấy không vật mơ hồ; người nam và nữ nổi bật cần cô lập anchor.
+019|05|N/N|recrop|Các tay viết quan sát được, đầu hướng bài; nhiều người cùng nổi bật cần tách anchor.
+019|06|N/N|keep|Tablet lớn cầm trên đùi, hai tay thao tác rõ, đầu hướng màn hình riêng.
+019|07|U/N|recrop|Người trước keyboard và người sau chống má cạnh tranh, tay bị cắt; cần đối chiếu person box/attribution.
+019|08|U/N|keep|Tay cầm bút rõ nhưng tay còn lại bị khuất sau trang/bàn; đầu hướng bài riêng.
+019|09|N/P|keep|Tay giơ và tay cầm bút thấy đủ không vật lạ, đầu ngẩng ngoài vùng bài.
+019|10|N/N|recrop|Hai tay viết/giữ giấy rõ, đầu xuống bài; người tiền cảnh lấn vùng tay cần tách anchor.
+019|11|N/N|recrop|Thiết bị lớn dạng tablet, hai tay người giữa thấy rõ; nhiều mặt sát nhau cần cô lập anchor.
+019|12|P/N|keep|Mobile màn hình game/viền rõ, đầu hướng thiết bị trong hai tay.
+020|01|U/P|inspect|Đầu quay trái khỏi bàn, vật mỏng trên bàn cần kiểm mobile; hai tay giữ giấy quan sát được.
+020|02|U/N|inspect|Vật nằm sát tay trên mặt bàn chưa rõ loại ở input, đầu nhìn vùng đọc riêng.
+020|03|P/N|keep|Mobile có cụm camera ở góc trong tay, mắt hướng thiết bị riêng.
+020|04|P/N|keep|Mobile mặt kính sáng trong tay đặt trên sách, đầu hướng bài/máy riêng.
+020|05|N/N|keep|Hai tay giữ giấy rõ, đầu nhìn trang riêng; không vật mobile mơ hồ.
+020|06|N/P|keep|Hai tay trên notebook rõ, mặt ngẩng nhìn ngoài trang.
+020|07|N/N|keep|Hai tay cầm bút/giữ trang rõ, đầu hướng bài riêng.
+020|08|N/N|keep|Hai tay giữ giấy/bút quan sát được, đầu hướng trang dù tóc che một phần mặt.
+020|09|P/P|keep|Mobile màn hình/viền rõ ngay tay, đầu ngẩng nhìn ngoài thiết bị/bài.
+020|10|N/N|keep|Tablet lớn trên bàn không là mobile, hai tay viết/giở trang rõ; đầu hướng bài.
+020|11|P/P|keep|Mobile màn hình rõ do anchor cầm, đầu quay về người bên trái ngoài máy; không lấy phone tiền cảnh làm bằng chứng duy nhất.
+020|12|N/P|keep|Calculator có keypad rõ trên bàn, hai tay cầm bút rõ; đầu quay sang người bên phải.
+021|01|N/N|keep|Calculator keypad rõ được thao tác, hai tay/bàn đủ thấy, đầu hướng vùng bài riêng.
+021|02|U/P|keep|Mặt ngẩng nhìn trước ngoài giấy, hai tay bị túi đỏ/bàn che nên absence thiếu.
+021|03|U/N|keep|Đầu hướng bài nhưng hai tay bị túi đỏ/vùng bàn che, absence chưa đủ.
+021|04|P/P|keep|Mobile mặt kính sáng trên sách rõ, mặt quay sang cạnh khỏi bài/máy.
+021|05|P/P|keep|Mobile mặt kính sáng trong tay, đầu quay khỏi máy sang bên trái.
+021|06|P/N|keep|Mobile mặt kính/viền và giao diện rõ, hướng đầu vào thiết bị riêng.
+021|07|N/U|recrop|Calculator keypad rõ, hai tay có bút và calculator, nhưng đầu hoàn toàn ngoài khung.
+021|08|P/U|recrop|Mobile màn hình rõ, đầu chỉ còn mảnh tóc ở mép crop nên đích nhìn thiếu evidence.
+021|09|N/P|keep|Hai tay trên bàn không vật mơ hồ, mặt ngẩng khỏi trang bài.
+021|10|P/N|recrop|Mobile màn hình trên bàn rõ, đầu hướng vùng giấy nhưng mặt bị cắt bên trái; đề xuất nới đầu.
+021|11|N/P|keep|Hai tay cầm bút/giữ trang rõ, đầu quay về người cạnh ngoài bài riêng.
+021|12|N/P|keep|Hai tay giữ giấy rõ, mắt/đầu hướng phải ngoài trang riêng.
+022|01|N/P|keep|Tablet lớn cầm hai tay, đầu ngẩng khỏi màn hình riêng; không nhầm tablet với mobile.
+022|02|P/N|keep|Mobile mặt sau có cụm camera rõ trong tay, đầu hướng máy.
+022|03|P/N|keep|Mobile mặt kính trong hai tay ở bàn, đầu hướng thiết bị; người sau không phải evidence phone.
+022|04|P/N|keep|Mobile màn hình sáng trong tay, tay kia viết; đầu hướng vùng bài/thiết bị riêng.
+022|05|P/N|keep|Mobile xanh có cụm camera góc trong tay, đầu nhìn máy; tay chống má không ảnh hưởng P đã rõ.
+022|06|P/N|keep|Mobile mặt kính và cạnh trong tay, đầu hướng xuống máy trên bài.
+022|07|P/N|keep|Mobile màn hình sáng trên trang, hai tay viết/giữ giấy; đầu hướng vùng bài.
+022|08|P/N|keep|Mobile mặt kính trong hai tay, mắt hướng thiết bị riêng.
+022|09|U/N|inspect|Vật trắng mặt lưng trong tay cần kiểm cụm camera, đầu hướng vùng viết/thiết bị riêng.
+022|10|U/N|keep|Đầu hướng trang đang viết, tay bên kia/vùng sau chồng sách thiếu evidence absence trong bóng tối.
+022|11|N/N|keep|Sách đen có trang và gáy rõ trên bàn, hai tay viết/giữ giấy; đầu hướng bài.
+022|12|N/N|keep|Hai tay viết/giữ giấy rõ, đầu nghiêng sát trang nhưng hướng vào bài riêng.
+023|01|N/P|keep|Hai tay tựa bàn thấy đủ không vật lạ, mặt ngẩng khỏi giấy.
+023|02|N/N|keep|Hai tay giữ giấy rõ, đầu hướng bài riêng.
+023|03|N/N|keep|Hai tay giữ giấy/bút rõ, đầu hướng trang; người đứng sau không là anchor.
+023|04|N/P|keep|Hai tay cầm bút/giữ trang rõ, đầu quay trái khỏi bài riêng.
+023|05|N/N|keep|Hai tay viết/giữ trang quan sát được, đầu hướng bài.
+023|06|P/N|inspect|Vật nhỏ sáng trong tay trên giấy cần kiểm mobile ở input, calculator keypad riêng trên bàn; đầu hướng bài.
+023|07|P/N|keep|Mobile màn hình sáng trên bàn và thiết bị khác cạnh tay, đầu hướng thao tác riêng.
+023|08|U/P|keep|Tay thò xuống dưới bàn không thấy đủ, đầu quay phải khỏi bài; người sau không bổ sung absence.
+023|09|P/U|inspect|Mobile rõ trước mặt, tóc che mặt và đích nhìn cần kiểm source; không tự looking N vì đang cầm phone.
+023|10|P/N|keep|Mobile trắng có camera mặt sau trong tay, tay kia viết; đầu hướng vùng riêng.
+023|11|P/N|keep|Mobile mặt kính trong tay sát bài, đầu hướng máy.
+023|12|U/N|inspect|Mặt sau bạc trong tay thiếu đặc trưng camera ở input, đầu nhìn xuống vật.
+024|01|P/N|keep|Mobile mặt kính trong tay trên bàn, đầu nhìn thiết bị riêng.
+024|02|P/P|keep|Mobile mặt kính dựng trước thân rõ, đầu ngẩng nhìn người xem ngoài bài.
+024|03|U/P|recrop|Người hàng giữa nhìn ngoài bàn, tay bị người trước che; đầu người trước chiếm khung gây attribution cạnh tranh.
+024|04|N/P|keep|Hai tay trên bài/cầm bút rõ không vật lạ, đầu quay trái ngoài trang.
+024|05|U/P|keep|Đầu quay phải rõ nhưng tay nằm dưới bàn/khuất khỏi crop.
+024|06|N/P|keep|Tay chống cằm và tay cầm bút đều thấy, đầu quay phải khỏi trang; không U chỉ vì tay sát mặt.
+024|07|U/P|keep|Đầu quay trái ngoài vùng bàn, tay bị vách ghế/túi che và cắt đáy.
+024|08|N/P|keep|Hai tay trên giấy rõ, đầu quay trái khỏi trang; watermark nhỏ vùng giấy cần ghi cờ provenance.
+024|09|U/P|keep|Đầu quay phải rõ, một tay trong túi và tay kia ngoài khung nên thiếu absence.
+024|10|N/P|keep|Hai tay thấy rõ trên bàn/giơ sát mặt, đầu quay phải ngoài bài.
+024|11|U/P|keep|Đầu quay phải rõ, tay/vùng dưới bàn không thấy đủ; tai nghe không là mobile.
+024|12|U/P|keep|Đầu quay phải khỏi bài rõ, tay/vùng bàn bị cắt ở đáy và khuất sau người.
+025|01|U/P|keep|Đầu quay trái rõ, một tay/vùng bàn bị cắt và che nên thiếu absence.
+025|02|U/N|keep|Đầu hướng trang riêng, một tay xuống dưới bàn/cắt biên nên phone U.
+025|03|U/P|exclude|Dải hình từ cảnh khác ghép/chèn ở đáy crop, gây nhiễu nguồn và vùng tay; không sửa bằng inpaint.
+025|04|N/P|keep|Hai tay giữ bút trên bàn rõ, đầu quay sang người bên trái khỏi giấy.
+025|05|N/N|keep|Hai tay cầm bút/giữ giấy rõ, đầu hướng trang riêng.
+025|06|N/P|keep|Hai tay cầm bút và đặt trên bàn rõ, mặt ngẩng nhìn trước khỏi trang.
+025|07|N/P|keep|Hai tay đặt trên trang rõ, đầu ngẩng nhìn ngoài vùng viết.
+025|08|N/N|keep|Hai tay đan trên bài rõ, đầu nhìn xuống vùng bài riêng.
+025|09|N/N|keep|Hai tay viết/giữ giấy rõ, đầu hướng bài riêng.
+025|10|U/N|keep|Ảnh cháy sáng/mờ, đầu vẫn hướng giấy nhưng một tay và phần bàn bị cắt/khó thấy.
+025|11|N/P|keep|Hai tay và bút trên giấy rõ, đầu quay trái ra ngoài trang.
+025|12|N/N|keep|Hai tay viết/giữ giấy rõ, đầu cúi vào trang riêng.
+026|01|N/N|keep|Hai tay viết/giữ giấy thấy đủ, đầu hướng trang riêng.
+026|02|U/N|keep|Tay viết rõ, tay còn lại/vùng thấp bị bàn che; đầu hướng giấy riêng.
+026|03|U/N|keep|Đầu hướng giấy nhưng bàn tay/vùng thấp bị cắt sát đáy; absence chưa đủ.
+026|04|N/N|keep|Hai tay viết/giữ giấy quan sát được, đầu hướng trang riêng.
+026|05|P/P|keep|Mobile mặt kính trong tay thấp sát đùi rõ, đầu quay sang người bên phải.
+026|06|P/N|keep|Mobile màn hình/viền trên bàn rõ, đầu hướng bài/thiết bị riêng dù góc sau.
+026|07|U/N|inspect|Thiết bị sát mặt chỉ lộ cạnh/lưng, cần kiểm mobile; đầu hướng vật trong tay.
+026|08|U/P|keep|Đầu quay hẳn ra sau, tay chỉ ra sau ngoài crop nên absence thiếu.
+026|09|N/P|keep|Hai tay viết/giữ trang nhìn được, đầu quay trái khỏi giấy.
+026|10|P/P|keep|Mobile mặt kính sáng trong tay thấp bên bàn rõ, đầu hướng sang cạnh khỏi bài.
+026|11|U/P|keep|Đầu quay trái rõ, tay bên trái/vùng thấp không thấy đủ.
+026|12|U/P|keep|Tay chống má rõ nhưng tay kia ngoài khung, mắt hướng cạnh khỏi bài.
+027|01|N/N|keep|Hai tay viết/giữ trang rõ, đầu hướng giấy riêng.
+027|02|N/N|keep|Hai tay trong vùng viết quan sát được, đầu hướng trang, không vật mơ hồ dù crop nhỏ.
+027|03|N/P|keep|Hai tay trên sách rõ, đầu quay trái ngoài vùng đọc.
+027|04|N/N|keep|Hai tay viết/giữ trang rõ, đầu hướng giấy riêng.
+027|05|N/P|keep|Hai tay tựa/khoanh trên bàn quan sát được, đầu nhìn sang người bên trái.
+027|06|N/N|keep|Hai tay cầm bút/giữ sách rõ, đầu hướng trang riêng.
+027|07|N/P|keep|Hai tay đặt trên giấy thấy đủ, đầu quay trái khỏi bài riêng.
+027|08|N/N|keep|Hai tay viết/giữ bài rõ, đầu hướng trang, không vật mơ hồ.
+027|09|U/P|inspect|Mặt ngẩng ngoài bàn, tay trên đùi và vật đen trên laptop chưa rõ attribution/loại vật.
+027|10|N/N|keep|Hai tay ở keyboard/mouse đủ quan sát, đầu hướng máy tính riêng.
+027|11|P/N|keep|Mobile trắng mặt kính trên bàn rõ, đầu hướng laptop; không nhầm laptop với phone.
+027|12|N/N|keep|DSLR với lens lớn rõ trong hai tay, đầu hướng camera riêng; camera không là mobile.
+028|01|N/P|keep|Hai tay rõ ở ghế/bàn, điện thoại có dây trên bàn không là mobile; mặt ngẩng khỏi bài.
+028|02|U/N|keep|Tay/vùng sau laptop và thân bị khuất, đầu hướng laptop riêng.
+028|03|N/P|keep|Hai tay mouse/giấy thấy đủ, mắt nhìn khỏi vùng keyboard/bài.
+028|04|U/N|inspect|Thiết bị nhỏ trắng có dây trên bàn cần phân biệt mobile/player; đầu hướng laptop.
+028|05|P/N|keep|Mobile mặt kính trên bàn rõ, đầu hướng laptop riêng.
+028|06|U/P|inspect|Hai vật đen xếp trên bàn chưa rõ ví/phone, mặt hướng người xem ngoài keyboard.
+028|07|U/N|inspect|Vật đen/bạc trên bàn dưới giấy cần phân biệt mobile/calculator; đầu nhìn giấy.
+028|08|P/P|keep|Mobile mặt kính trên bàn rõ, mặt hướng camera ngoài sách đang viết.
+028|09|U/N|keep|Một tay trên keyboard, tay còn lại cắt/khuất sau laptop; đầu nhìn màn hình.
+028|10|U/N|recrop|Tay thao tác ngoài biên phải, nhiều người và đầu hướng vùng làm; cần source nới geometry.
+028|11|U/N|recrop|Một tay thao tác keyboard nhưng tay kia cắt ngoài khung, đầu sát biên; cần nới.
+028|12|N/N|keep|Hai tay keyboard thấy đủ, laptop không là mobile; đầu hướng màn hình.
+029|01|N/U|keep|Hai tay cầm thức ăn/đồ dùng rõ không mobile, mắt nhắm và đích nhìn không đủ xác định.
+029|02|P/N|inspect|Thiết bị màn hình sáng viền cam cần kiểm mobile/player, đầu hướng bàn/thức ăn riêng.
+029|03|U/P|keep|Một tay dưới bàn/khuất, mặt hướng camera ngoài vùng giấy.
+029|04|P/P|keep|Mobile mặt kính trên bàn rõ, đầu ngẩng ngoài notebook.
+029|05|P/N|keep|Mobile trắng mặt kính trên bàn rõ, đầu hướng vùng viết riêng.
+029|06|N/N|keep|Hai tay keyboard nhìn được, đầu hướng màn hình riêng, anchor tiền cảnh đủ rõ.
+029|07|P/P|keep|Mobile trắng mặt kính trên bàn rõ, đầu quay trái ngoài trang riêng; watermark chân ảnh không che đầu/tay.
+029|08|N/N|recrop|Hai tay keyboard rõ, nhưng hai người nam nổi bật tương đương cần tách anchor.
+029|09|N/N|keep|Hai tay mouse/keyboard rõ, đầu hướng màn hình riêng, không vật mơ hồ.
+029|10|P/N|keep|Mobile mặt kính sáng trong tay, đầu nhìn máy riêng.
+029|11|P/N|keep|Mobile mặt kính/viền trong tay, đầu hướng máy; không lấy thiết bị của người bên cạnh.
+029|12|U/N|inspect|Vật đen nhỏ trong tay chỉ lộ cạnh/mặt mờ, cần phân biệt mobile/player; đầu hướng tay.
+030|01|U/N|inspect|Thiết bị trắng có lỗ tròn lớn có thể camera, cần kiểm native; đầu nhìn vật.
+030|02|P/N|keep|Mobile mặt kính và cạnh trong hai tay, đầu hướng máy riêng.
+030|03|U/N|recrop|Thiết bị vuông màn hình chưa rõ mobile/camera, hai mặt nổi bật cạnh tranh; cần xác minh anchor.
+030|04|U/N|inspect|Handset trắng áp tai có thể landline thay mobile, cần kiểm dây/cấu trúc; đầu hướng bàn DJ.
+030|05|N/N|keep|Hai tay đọc/lật sách thấy đủ, vật dạ quang là bút; đầu hướng trang.
+030|06|N/P|keep|Landline có dây trắng không là mobile, tay kia viết rõ; mắt ngẩng ngoài trang.
+030|07|N/N|keep|Hai tay làm giấy/màu thấy đủ, đầu hướng vùng làm riêng, không vật mobile.
+030|08|N/N|keep|Tay chống cằm và tay keyboard thấy đủ không vật lạ, đầu hướng laptop.
+030|09|N/N|keep|Hai tay viết/giữ giấy rõ, đầu hướng trang riêng.
+030|10|N/N|keep|Hai tay keyboard rõ, đầu hướng laptop; dây tai nghe không tự mobile.
+030|11|U/N|inspect|Hai tay laptop rõ nhưng vật đen trên bàn cần phân biệt mobile/calculator; đầu hướng màn hình.
+030|12|U/N|keep|Vùng tay bị hộp/counter che, đầu hướng giấy/máy tính riêng.
+031|01|N/P|keep|Tay chống cằm và tay mouse thấy đủ, đầu quay ra khỏi màn hình.
+031|02|N/P|keep|Hai tay cầm bút/giữ giấy rõ, mặt ngẩng khỏi bài.
+031|03|N/P|keep|Hai tay đan trước mặt rõ, mắt hướng ngoài sách trên bàn.
+031|04|N/P|keep|Hai tay trên bàn trộn âm rõ, mặt hướng người xem khỏi tài liệu/máy.
+031|05|N/N|keep|Hai tay trên bản đồ thấy đủ, đầu hướng vùng làm riêng.
+031|06|N/N|recrop|Hai tay người nam keyboard rõ, đầu nhìn laptop; hai người có mặt nổi bật cần tách anchor.
+031|07|N/P|keep|Hai tay đan trên bàn rõ, đầu quay trái khỏi vùng làm.
+031|08|N/P|keep|Hai tay trên giấy/keyboard rõ, đầu ngẩng về người đứng bên cạnh.
+031|09|N/N|keep|Hai tay keyboard/mouse rõ, đầu hướng màn hình riêng.
+031|10|N/P|keep|Hai tay giữ sách/bút rõ, mặt hướng người xem ngoài sách.
+031|11|U/P|keep|Tay khuất sau laptop trong bóng tối, mặt ngẩng ngoài màn hình.
+031|12|N/P|keep|Hai tay cầm sách/bút rõ, đầu quay sang phải khỏi trang.
+032|01|U/N|inspect|Vật cầm ở biên trái chỉ lộ một phần, đầu nhìn vật/laptop; cần nhận dạng và nới tay.
+032|02|U/U|inspect|Mắt nhắm/tay chống mặt, tay kia ngoài đáy crop; cần kiểm source đích nhìn, không suy N từ ngồi laptop.
+032|03|U/P|recrop|Mặt hướng người xem ngoài keyboard, tay bị cắt bên trái cần nới khung.
+032|04|U/P|keep|Đầu quay trái khỏi trang, tay còn lại/vùng bàn bị cắt.
+032|05|N/P|keep|Tay mouse và tay trên đùi thấy đủ, đầu quay khỏi bàn.
+032|06|U/P|keep|Đầu quay trái ngoài trang rõ, hai tay dưới bàn không thấy.
+032|07|N/P|keep|Hai tay khoanh thấy rõ, đầu quay trái ngoài vùng trang.
+032|08|N/P|keep|Hai tay giữ tài liệu rõ, mắt ngẩng khỏi trang.
+032|09|N/P|keep|Hai tay chắp trước ngực rõ, đầu quay ngoài laptop.
+032|10|N/P|keep|Hai tay khoanh thấy đủ, đầu quay phải khỏi vùng tài liệu.
+032|11|U/N|recrop|Đầu hướng bàn nhưng bàn tay/thiết bị bị cắt ở mép phải, cần nới từ source.
+032|12|N/N|keep|Hai tay viết/giữ giấy quan sát được, đầu hướng trang riêng.
+033|01|N/N|keep|Hai tay thao tác giấy/keyboard nhìn được, đầu hướng vùng riêng.
+033|02|U/N|recrop|Đầu hướng laptop, tay bị cắt ở mép trái và sau máy; cần nới khung.
+033|03|U/N|keep|Tay chống cằm thấy rõ nhưng tay kia sau laptop, đầu hướng màn hình.
+033|04|U/N|recrop|Tay keyboard và tay mouse bị cắt biên trái/bottom, đầu hướng laptop.
+033|05|N/N|keep|Hai tay đọc/giở giấy rõ, đầu hướng trang riêng.
+033|06|N/N|keep|Calculator keypad rõ, hai tay viết/giữ giấy, đầu nhìn trang.
+033|07|N/N|keep|Hai tay viết/giữ giấy rõ, đầu hướng bài riêng.
+033|08|N/N|keep|Hai tay viết/giữ giấy rõ, đầu hướng trang dù nhìn góc sau.
+033|09|N/N|recrop|Hai tay keyboard thấy đủ, đầu hướng laptop nhưng crop rộng chứa nhiều người/cảnh phụ nên đề xuất cô lập.
+033|10|N/N|keep|Tay viết và tay đỡ trang rõ không vật mơ hồ, đầu hướng bài riêng.
+033|11|U/N|keep|Một tay mouse rõ, tay kia sau laptop bị che; đầu hướng màn hình.
+033|12|N/P|keep|Hai tay đan rõ, đầu quay trái ngoài màn hình laptop.
+034|01|N/P|keep|Hai tay khoanh rõ, đầu quay phải khỏi màn hình/tài liệu.
+034|02|U/N|recrop|Tay khuất sau laptop, đầu hướng màn hình; crop rộng kèm người/cảnh phụ nên nên cô lập.
+034|03|U/N|recrop|Nhiều người và monitor che tay, cần xác định/cô lập anchor; đầu về máy tính.
+034|04|P/N|keep|Mobile trắng mặt kính trong tay rõ, đầu hướng máy/bài riêng.
+034|05|U/N|inspect|Vật bạc nhỏ trong tay cần phân biệt mobile/camera, nhiều người cạnh tranh; đầu hướng vật.
+034|06|N/N|keep|Tablet lớn trong hai tay đủ thấy, đầu hướng tablet riêng; không mobile.
+034|07|U/N|recrop|Hai người nổi bật, tay bị laptop che; đầu về màn hình nhưng geometry chưa cô lập.
+034|08|U/U|recrop|Nhiều người và phone trên đùi một người; chưa xác định chắc anchor/attribution từ RGB, cần person box/source.
+034|09|P/N|keep|Mobile hồng mặt kính trong hai tay rõ, đầu hướng máy riêng.
+034|10|U/N|keep|Tay bị laptop/cạnh bàn che, đầu hướng màn hình riêng; không suy N từ đang laptop.
+034|11|N/N|recrop|Người đứng chỉ trang và tay tựa ghế thấy được, đầu về giấy; nhiều người tương đương cần tách.
+034|12|U/N|inspect|Vật nhỏ đen trong hai tay cần phân biệt mobile, đầu nhìn vật/bàn.
+035|01|U/N|recrop|Monitor che tay, nhiều người nổi bật trong khung; đầu hướng máy tính cần cô lập anchor.
+035|02|P/N|keep|Mobile mặt kính trong tay rõ, đầu hướng máy riêng.
+035|03|N/N|keep|Tay chống cằm và tay thao tác laptop thấy đủ, đầu hướng màn hình riêng.
+035|04|P/N|keep|Mobile mặt kính sáng trong tay rõ, đầu hướng máy riêng.
+035|05|N/N|keep|Tablet màn hình lớn, hai tay mở rõ không mobile, đầu hướng tablet riêng.
+035|06|U/P|recrop|Nhóm nhiều người, tay/vùng lap của anchor không đủ thấy; đầu hướng người nói ngoài giấy.
+035|07|N/N|keep|Hai tay viết/giữ giấy rõ, đầu về bài; timestamp góc không che evidence, ghi cờ overlay.
+035|08|N/N|keep|Tay chống cằm và tay keyboard đủ thấy, đầu hướng màn hình riêng.
+035|09|N/N|keep|Hai tay viết/giữ giấy rõ, tablet lớn trên bàn không mobile, đầu nhìn bài.
+035|10|N/P|keep|Hai tay sát mặt thấy đủ không vật lạ, mắt ngẩng khỏi bàn cờ.
+035|11|N/N|keep|Tay mouse và tay trên đùi thấy đủ, đầu hướng máy tính.
+035|12|N/P|keep|Tay chống cổ và tay đặt rõ trên đùi, mắt hướng trước khỏi trang riêng.
+036|01|U/P|keep|Mặt hướng người xem ngoài bàn, tay/vùng bàn bị cắt ở đáy.
+036|02|U/N|recrop|Đầu hướng laptop nhưng tay cắt sát biên phải, cần nới từ source.
+036|03|U/P|recrop|Nhiều người tương đương, đầu hướng phía phải ngoài bàn; tay/vùng riêng chưa cô lập.
+036|04|N/N|keep|Hai tay giữ mẫu/thao tác rõ, đầu về vùng thực hành riêng; không mobile.
+036|05|P/P|keep|Mobile mặt sau có cụm camera rõ, đầu quay trái ra ngoài thiết bị/bàn.
+036|06|P/N|keep|Mobile mặt kính trong tay rõ, đầu hướng máy riêng.
+036|07|N/N|keep|Tay chống trán và tay trên giấy thấy đủ không vật mơ hồ, đầu hướng bài.
+036|08|U/N|inspect|Vật tím trên túi đỏ chỉ lộ một phần, cần nhận dạng mobile; đầu nhìn vùng thao tác riêng.
+036|09|P/N|inspect|Vật trắng mặt sau trong hai tay có dấu camera nhỏ cần kiểm ở 224, đầu nhìn máy.
+036|10|P/N|keep|Mobile mặt sau có cụm camera rõ, đầu hướng thiết bị riêng.
+036|11|P/N|keep|Mobile màn hình tím có viền trên túi đỏ rõ, đầu hướng máy/bài riêng.
+036|12|N/N|keep|Hai tay viết/giữ giấy rõ, đầu hướng trang, không vật mơ hồ.
+037|01|N/N|keep|Hai tay viết/giữ sách rõ, đầu hướng trang riêng.
+037|02|U/N|inspect|Thiết bị cầm chỉ lộ mặt/cạnh tối, cần kiểm mobile; đầu nhìn vật.
+037|03|N/N|keep|Calculator xanh có keypad rõ, hai tay cầm bút/mở bàn tay quan sát được, đầu hướng bài.
+037|04|P/N|keep|Mobile mặt kính có viền/giao diện rõ trên sách, hướng đầu vào máy riêng.
+037|05|N/P|keep|Hai tay cầm bút/chỉ đều thấy, đầu quay phải khỏi trang bài.
+037|06|U/N|inspect|Đầu nghiêng về giấy đang giơ có thể vẫn nhìn bài riêng; cần source kiểm hướng/đích và tay thấp.
+037|07|N/N|keep|Calculator keypad rõ, tay viết và tay sát tóc không vật mơ hồ, đầu hướng bài.
+037|08|N/P|keep|Calculator có keypad, hai tay bàn rõ; đầu quay phải khỏi trang riêng.
+037|09|P/N|inspect|Vật đen trên bàn trái cạnh tay có dạng mobile cần kiểm input, đầu hướng bài.
+037|10|U/N|inspect|Thiết bị trên bàn dưới tay cần phân biệt calculator/mobile, đầu hướng thiết bị riêng.
+037|11|P/P|inspect|Vật đen trên bàn cạnh trang cần kiểm mobile; đầu quay sang người bên trái.
+037|12|N/P|keep|Hai tay giữ giấy/bút rõ, mặt ngẩng trái khỏi vùng bài.
+038|01|N/N|keep|Hai tay trên trang rõ, đầu hướng bài riêng.
+038|02|P/N|keep|Mobile mặt kính viền sáng trên bàn riêng, đầu hướng sách; không gán người hàng sau.
+038|03|N/P|keep|Hai tay tựa/đan trên bàn rõ, đầu quay phải khỏi trang.
+038|04|U/P|keep|Tay kéo ra sau lưng/túi mất evidence absence, đầu quay trái khỏi bàn.
+038|05|N/N|keep|Hai tay viết/giữ giấy thấy đủ, đầu hướng bài riêng.
+038|06|U/P|inspect|Vật mỏng trắng trong tay có thể giấy/thiết bị, đầu ngẩng khỏi bàn; cần kiểm native.
+038|07|P/P|inspect|Vật màn hình trên bàn có dạng mobile cần xác minh ở input; đầu quay trái ngoài bài.
+038|08|P/P|keep|Mobile mặt kính đen trên bàn rõ, đầu quay sang trái ngoài vùng riêng.
+038|09|P/N|keep|Mobile mặt kính viền trắng trên bàn rõ, đầu hướng trang đang viết.
+038|10|N/N|keep|Hai tay trên trang rõ không vật mơ hồ, đầu nhìn giấy riêng.
+038|11|N/P|keep|Hai tay/động tác giơ ngón rõ không mobile, mặt quay trái khỏi bài.
+038|12|P/N|keep|Mobile mặt kính viền sáng trên bàn riêng, đầu hướng sách; rất gần biến thể cùng cảnh cần kiểm lặp.
+039|01|U/P|inspect|Vật mỏng trong tay chưa rõ giấy hay device, mặt ngẩng khỏi trang.
+039|02|P/P|keep|Mobile mặt kính đen trên bàn rõ, đầu quay ra sau về người khác.
+039|03|N/N|keep|Hai tay viết/giữ trang thấy đủ, đầu hướng bài riêng dù khẩu trang.
+039|04|N/P|keep|Hai tay trên giấy rõ, đầu quay phải khỏi trang; phụ đề ở đáy cần cờ overlay, không suy nhãn từ text.
+039|05|U/P|keep|Đầu quay hẳn ra sau, tay/vùng bàn cắt khuất ở đáy.
+039|06|N/N|keep|Hai tay viết/giữ trang rõ, đầu hướng bài; chữ overlay vùng đáy cần cờ QA riêng.
+039|07|U/P|keep|Tay cầm bút thấy rõ nhưng tay còn lại kéo ra sau khỏi crop, đầu quay khỏi bài.
+039|08|U/U|exclude|Crop 58 × 140, mặt/hướng và tay bị mờ/che; không đủ evidence hai target.
+039|09|U/P|keep|Đầu quay phải rõ, cánh tay/vùng tay ra ngoài crop nên thiếu absence.
+039|10|N/N|keep|Hai tay viết/giữ giấy rõ, đầu hướng bài; watermark nhỏ dưới khung không thay evidence.
+039|11|N/N|keep|Hai tay cầm bút/giữ trang còn thấy, đầu hướng bài; cháy sáng nhưng chưa mất cấu trúc hành vi.
+039|12|U/U|exclude|Mắt nhắm ngủ trên hai tay, không xác định hướng nhìn và absence ở tay bị đầu che.
+040|01|N/P|keep|Hai tay cầm bút rõ không vật mơ hồ, mặt hướng camera ngoài trang.
+040|02|N/P|keep|Hai tay viết/giữ giấy rõ, đầu quay phải khỏi trang.
+040|03|U/P|keep|Mặt quay trái khỏi vùng bàn, tay hoàn toàn ngoài crop.
+040|04|U/P|keep|Đầu quay trái rõ, hai tay/vùng bàn bị cắt và người trước che.
+040|05|U/N|keep|Vật đen quá ít chi tiết tại native 46 × 92 không đủ mobile, đầu hướng tay riêng.
+040|06|N/P|keep|Hai tay khoanh trên bàn rõ, đầu quay trái ngoài trang riêng.
+040|07|U/N|inspect|Vật nhỏ đen trong tay quá mờ, cần kiểm mobile ở native/input; đầu hướng tay.
+040|08|U/N|inspect|Vật đen trong hai tay chỉ thấy khối/mặt mờ, đầu hướng vật.
+040|09|N/P|keep|Hai tay khoanh rõ, đầu quay trái ngoài vùng bàn.
+040|10|U/N|inspect|Vật đen nhỏ ở tay thiếu chi tiết mobile, đầu hướng thiết bị/vùng tay.
+040|11|U/N|inspect|Mặt/cạnh đen trong hai tay chưa đủ nhận mobile sau resize, đầu nhìn vật.
+040|12|N/P|keep|Hai tay đan trên bàn rõ, đầu ngẩng nhìn trước ngoài vùng giấy.
+041|01|U/N|inspect|Thiết bị đen cầm hai tay cần kiểm mặt máy ở input, đầu nhìn vùng tay.
+041|02|U/N|keep|Đầu hướng vùng riêng, hai tay bị cắt đáy/che bởi thân nên absence thiếu.
+041|03|P/N|keep|Mobile mặt kính dưới bàn trong tay rõ, đầu hướng thiết bị; không lấy người sau.
+041|04|U/N|inspect|Vật xanh/đen nhỏ trong hai tay bị mờ/méo, đầu hướng tay; cần kiểm mobile.
+041|05|P/U|inspect|Mobile đen trên bàn rõ, đầu nghiêng nhưng đích nhìn chưa chắc, cần source.
+041|06|P/N|keep|Mobile mặt kính trên bàn rõ, đầu cúi về giấy riêng.
+041|07|P/N|keep|Mobile mặt kính dưới tay trên bàn rõ, đầu hướng trang/máy riêng.
+041|08|P/N|keep|Mobile mặt kính dựng dưới tay trên bàn rõ, đầu hướng vùng bài.
+041|09|P/N|keep|Mobile có màn hình trong tay trên bài rõ, đầu hướng thiết bị riêng.
+041|10|P/P|keep|Mobile mặt kính trên bàn rõ, đầu quay phải khỏi giấy.
+041|11|P/N|keep|Mobile mặt kính trên bàn riêng, đầu nhìn xuống vùng bài/thiết bị.
+041|12|P/N|keep|Mobile có màn hình trong tay trên bàn rõ, đầu hướng vùng thao tác riêng.
+042|01|P/N|keep|Mobile mặt kính trên bàn riêng rõ, đầu nhìn thiết bị/bài trước thân.
+042|02|P/N|keep|Mobile mặt kính ngay tay trên bàn rõ, đầu hướng giấy/máy riêng.
+042|03|P/N|keep|Mobile mặt kính ngay tay trên bàn rõ, đầu hướng vùng giấy.
+042|04|P/N|keep|Mobile mặt kính trong hai tay rõ, đầu hướng máy riêng.
+042|05|U/P|keep|Đầu quay ra sau rõ, tay/bàn cắt khuất; watermark lớn ngang bàn cần cờ QA.
+042|06|U/N|inspect|Vật nhỏ trong tay mờ, watermark lớn ngang bàn; cần kiểm mobile và không suy từ taxonomy nguồn.
+042|07|N/N|keep|Tay chống đầu và tay viết thấy đủ, hướng đầu vào bài riêng.
+042|08|U/N|keep|Tay viết rõ nhưng tay còn lại mất ở đáy crop, đầu hướng trang riêng.
+042|09|N/N|keep|Hai tay viết/giữ sách rõ, đầu hướng trang riêng.
+042|10|N/N|keep|Tay chống má và tay giữ sách thấy đủ, đầu hướng sách riêng.
+042|11|N/N|keep|Hai tay viết/giữ giấy rõ, đầu hướng trang riêng; người cạnh không phải anchor.
+042|12|N/N|keep|Hai tay viết/giữ bài rõ, đầu hướng giấy riêng.
+043|01|N/N|keep|Hai tay viết/giữ giấy rõ, mắt hướng trang riêng.
+043|02|U/P|keep|Mặt hướng ra cửa sổ ngoài bàn, một tay/vùng bàn không đủ thấy.
+043|03|N/P|keep|Hai tay khoanh trên bàn thấy được, đầu quay phải ngoài trang dù ảnh mờ.
+043|04|U/P|recrop|Nhiều người nổi bật, người tiền cảnh quay sang người khác; tay/bàn chưa cô lập đúng anchor.
+043|05|U/U|inspect|Tay bị cắt, đầu hướng thấp nhưng đích/vùng bài ngoài crop; cần source, không tự N từ cúi.
+043|06|U/P|keep|Đầu quay ra sau trái rõ, một tay bị cắt ở mép trái.
+043|07|N/P|keep|Hai tay cầm bút/giữ giấy rõ, đầu ngẩng trái khỏi trang.
+043|08|U/P|keep|Đầu quay phải rõ, một bàn tay bị cắt ngoài biên trái.
+043|09|U/P|keep|Đầu quay trái rõ, hai tay bị monitor/đáy crop che.
+043|10|U/P|keep|Đầu quay phải ngoài bài, tay giơ giấy kéo ra biên crop nên absence thiếu.
+043|11|U/U|inspect|Hai người chồng, đầu nghiêng nhưng thiếu vùng bài/đích rõ; tay bị cắt nên cần source.
+043|12|N/N|keep|Hai tay viết/giữ notebook rõ, đầu hướng trang riêng.
+044|01|U/P|keep|Đầu quay phải sang người cạnh, một tay sau tờ giấy và ngoài crop thiếu evidence absence.
+044|02|N/N|keep|Hai tay viết/giữ bài rõ, đầu hướng giấy riêng.
+044|03|N/N|keep|Tay chống đầu và tay giữ giấy thấy đủ không vật lạ, đầu hướng trang riêng.
+044|04|N/P|keep|Hai tay trên trang đủ thấy, đầu quay trái khỏi bài.
+044|05|U/N|recrop|Tay viết cắt đáy crop và tay sát mặt, đầu hướng trang; cần nới khung tay.
+044|06|N/N|keep|Hai tay bút/sách thấy đủ, đầu hướng trang riêng.
+044|07|U/P|inspect|Vật đen trên giấy cần kiểm mobile, một tay dưới bàn; mặt ngẩng khỏi trang.
+044|08|U/N|inspect|Vật đen trên giấy cần kiểm mobile, một tay/vùng lap khuất; đầu hướng trang.
+044|09|N/N|keep|Calculator keypad rõ, hai tay viết/giữ giấy, đầu hướng bài.
+044|10|N/P|keep|Calculator trên bàn không mobile, hai tay viết/giữ giấy rõ, mặt ngẩng ngoài trang.
+044|11|P/P|inspect|Vật đen dưới tay trên bàn có thể mobile, cần kiểm input; mặt ngẩng khỏi bài.
+044|12|N/N|keep|Hai tay viết/giữ trang rõ, không vật mơ hồ, đầu hướng giấy riêng.
+045|01|N/P|keep|Hai tay khoanh trên bàn thấy đủ, đầu quay trái khỏi bài.
+045|02|U/U|inspect|Góc sau đầu và vùng bàn thiếu context, một tay che mặt; cần source xác định đích nhìn.
+045|03|N/P|keep|Hai tay khoanh trên bàn rõ, mặt hướng trái ngoài trang riêng.
+045|04|N/P|keep|Tay sát ngực và tay buông cạnh bàn thấy đủ, đầu quay sang phải ngoài bài.
+045|05|N/N|keep|Hai tay viết/giữ giấy rõ, đầu hướng trang riêng.
+045|06|U/U|exclude|Crop gần đầu, tay bị người trước che; hướng mắt/đích và vùng bài không đủ rõ.
+045|07|N/P|keep|Hai tay khoanh trên bàn rõ, đầu quay trái ngoài trang.
+045|08|N/P|keep|Hai tay khoanh rõ, đầu/mắt ngẩng ngoài trang bài còn trong crop.
+045|09|U/P|keep|Đầu ngẩng/quay khỏi vùng giấy nhưng tay và vật bị mờ mất cấu trúc nên absence thiếu.
+045|10|U/U|inspect|Góc sau đầu, tay và bài không đủ thấy; cần source, không suy P từ quay đầu đơn lẻ.
+045|11|U/U|inspect|Back view và bàn/đích ngoài crop, tay thiếu evidence; cần source xét geometry.
+045|12|U/U|inspect|Đầu nhìn cạnh ở góc sau, tay che mặt và thiếu vùng bài; cần source trước kết luận looking.
+046|01|U/P|keep|Mặt ngẩng ngoài bài, tay giơ cao và vùng tay thấp mờ/che nên absence chưa đủ.
+046|02|U/U|inspect|Mặt/tay mờ, đầu nghiêng nhưng đích/vùng bài chưa rõ; cần source và không dựa tên turnhead.
+046|03|N/P|keep|Hai tay khoanh trên bàn đủ thấy, đầu quay ra sau khỏi trang.
+046|04|N/P|keep|Hai tay trên bài đủ thấy, đầu quay phải sang cạnh ngoài trang.
+046|05|U/U|inspect|Back view, tay/vùng bài ngoài crop; không đủ diễn giải hướng nhìn từ crop này.
+046|06|U/U|inspect|Góc sau đầu và tay/bài cắt khuất, cần source xác định đích nhìn.
+046|07|N/P|keep|Tay cầm bút và tay trên bàn thấy đủ, đầu quay phải khỏi giấy.
+046|08|N/P|keep|Hai tay trên bài nhìn được, đầu quay ra sau về camera/người khác.
+046|09|U/U|exclude|Native 47 × 44, mặt và tay mất chi tiết; không đủ hai target.
+046|10|U/U|inspect|Back view và vùng bài thiếu, tay không đủ thấy; cần source trước kết luận.
+046|11|U/U|inspect|Góc sau đầu rất nhỏ, thiếu tay/vùng bài; cần source xét geometry.
+046|12|N/P|keep|Hai tay đan trên bàn thấy đủ, đầu quay trái khỏi trang riêng.
+047|01|N/P|keep|Hai tay khoanh trên bàn rõ, đầu quay trái ra ngoài sách.
+047|02|U/P|inspect|Đầu quay trái ngoài bài, vật đen dạng case trên bàn cần kiểm phone và tay gần vật.
+047|03|U/U|exclude|Native 35 × 54, chỉ sau đầu và vai mờ, không đủ hands/gaze/context.
+047|04|U/U|exclude|Native 44 × 56, mặt/hướng và tay quá mờ/che, không đủ evidence.
+047|05|U/N|recrop|Đầu hướng bài nhưng tay bị đầu người trước che, người tiền cảnh cạnh tranh; cần source nới/tách.
+047|06|U/U|exclude|Native 46 × 56, vùng tay bị đầu người trước che và hướng mặt không rõ.
+047|07|U/U|inspect|Back view, tay và bài không thấy đủ; không tự P từ tên turnhead.
+047|08|U/P|recrop|Đầu quay trái khỏi bài, một tay ra ngoài mép trái và người trước cạnh tranh.
+047|09|N/P|keep|Hai tay trên bàn rõ, mặt/mắt ngẩng khỏi trang dù mắt nheo.
+047|10|U/U|inspect|Back view, thiếu vùng bài và tay; cần source cho quan hệ hướng đầu/đích.
+047|11|N/P|keep|Tay sát cổ và tay trên bài còn thấy, đầu quay phải khỏi trang.
+047|12|N/P|keep|Hai tay trên bài thấy đủ, đầu quay ra sau về người xem.
+048|01|N/P|keep|Hai tay khoanh rõ, đầu quay phải khỏi vùng bài.
+048|02|U/P|keep|Đầu quay trái rõ, tay/vùng dưới bàn bị crop/người trước che.
+048|03|U/P|keep|Đầu quay ra sau trái rõ, một tay sát mặt nhưng tay kia không thấy đủ.
+048|04|N/P|keep|Tay chống má và tay trên bài rõ, mặt ngẩng ngoài giấy.
+048|05|N/U|keep|Hai tay đan trên bàn thấy đủ không mobile, mắt/hướng nhìn không đủ rõ để chốt khỏi bài.
+048|06|U/P|keep|Đầu quay sang người bên phải rõ, tay bị người trước/vùng bàn che.
+048|07|U/U|inspect|Góc sau đầu và bàn thiếu, chưa phân biệt nhìn trang riêng hay người bên cạnh; cần source.
+048|08|U/P|keep|Đầu quay trái rõ, tay/vùng giấy bị đầu người trước che.
+048|09|U/U|inspect|Back view nghiêng trái, đích trang/người chưa rõ và tay che; cần source.
+048|10|U/U|inspect|Đầu sát tay che mặt, chưa rõ gục hay hướng ra ngoài; cần source, không tự P.
+048|11|U/U|inspect|Đầu nghiêng/cúi và vùng bài bị người trước che, hướng mắt mờ; cần source.
+048|12|N/P|keep|Hai tay khoanh trên bàn thấy đủ, mặt quay trái/ngẩng ngoài bài.
+049|01|U/P|recrop|Nhiều người cạnh tranh, đầu anchor hàng sau hướng ngoài bài; tay bị người trước che cần source/person box.
+049|02|U/P|keep|Đầu quay ra sau trái rõ, tay ở bàn bị thân/ghế che nên absence thiếu.
+049|03|N/N|keep|Hai tay cầm giấy/bút đủ thấy, đầu hướng tờ giấy đang giữ; không P chỉ vì giấy được dựng.
+049|04|U/P|recrop|Đầu ngẩng trái khỏi bài, tay bị đầu người trước che; cần cô lập anchor.
+049|05|U/P|recrop|Người trước quay trái, tay bị crop/che; người sau mất đầu, cần kiểm person box và geometry.
+049|06|N/P|keep|Hai tay đặt/đan trên đùi rõ, mặt hướng người xem ngoài vùng bài.
+049|07|N/P|keep|Hai tay trên giấy/bút thấy đủ, đầu quay sang người bên phải.
+049|08|U/P|keep|Tay giơ cao rõ nhưng tay còn lại dưới bàn mất evidence, đầu ngẩng ngoài vùng bài.
+049|09|N/P|keep|Hai tay trên giấy rõ, đầu quay về người cạnh ngoài trang riêng.
+049|10|N/N|keep|Hai tay viết/giữ trang nhìn được, đầu hướng bài riêng.
+049|11|U/P|recrop|Tay giơ ra ngoài crop, nhiều đầu nổi bật cạnh tranh; cần cô lập anchor và vùng bài.
+049|12|N/N|recrop|Hai người viết cùng nổi bật, tay/giấy rõ nhưng cần tách anchor để RGB không cạnh tranh.
+050|01|U/N|keep|Đầu hướng sách đang đọc, một tay dưới bàn/khuất ngoài khung nên absence thiếu.
+050|02|U/U|recrop|Khung nhóm đông người tương đương, không xác định chắc anchor từ RGB; cần source/person box.
+050|03|U/N|recrop|Hai người cùng thao tác vật nhỏ mờ, không đủ mobile và anchor cạnh tranh; đầu hướng vùng tay.
+050|04|N/P|recrop|Người tiền cảnh nhìn sang người đứng, hai tay trên bàn thấy được; cần cô lập chủ thể giữa nhóm.
+050|05|N/P|keep|Hai tay cầm bút/giữ giấy rõ, đầu quay ra sau khỏi trang.
+050|06|N/N|keep|Tay viết và tay giữ trang thấy được, đầu cúi vào bài; bàn tay tiền cảnh không phải evidence anchor.
+050|07|N/N|keep|Hai tay viết/giữ giấy rõ, đầu hướng trang riêng.
+050|08|N/N|keep|Hai tay viết/giữ giấy thấy được, đầu hướng trang riêng.
+050|09|N/P|keep|Hai tay khoanh rõ, đầu quay phải khỏi bài.
+050|10|N/N|keep|Hai tay viết/giữ giấy rõ, đầu hướng trang riêng.
+050|11|N/P|keep|Hai tay giữ tờ giấy rõ, mắt ngẩng khỏi giấy.
+050|12|N/N|keep|Hai tay giữ giấy thấy được, đầu hướng tờ giấy đang đọc; ảnh nhỏ nhưng đích rõ.
+051|01|N/N|keep|Hai tay khoanh trên bàn thấy được, đầu hướng giấy trước thân.
+051|02|N/N|keep|Hai tay khoanh trên bàn nhìn được, đầu hướng giấy riêng.
+051|03|N/N|keep|Hai tay khoanh rõ, đầu hướng trang giấy trên bàn, không vật mơ hồ.
+051|04|N/U|keep|Tay che mặt và tay sát ngực quan sát được không vật lạ, hướng mắt/đích bị che nên looking U.
+051|05|N/N|keep|Hai tay giữ giấy rõ, đầu hướng trang riêng.
+051|06|U/U|inspect|Đầu cúi khuất trong hood, hai tay/bài bị chồng sách che; cần source trước kết luận.
+051|07|N/N|keep|Hai tay đan trên giấy rõ, đầu hướng vùng bài riêng.
+051|08|N/N|keep|Hai tay viết/giữ trang nhìn được, đầu hướng bài riêng.
+051|09|N/N|keep|Hai tay khoanh trên bàn thấy rõ, mặt hướng trang sách trước thân.
+051|10|N/N|keep|Tay chống má và tay giữ sách rõ, đầu hướng trang riêng.
+051|11|N/N|keep|Hai tay viết/giữ trang rõ, đầu hướng bài riêng.
+051|12|N/P|keep|Hai tay bút/giấy thấy được, đầu ngẩng trái ngoài trang.
+052|01|N/N|keep|Hai tay khoanh rõ, đầu hướng trang trước thân.
+052|02|U/N|keep|Tablet lớn không là mobile, một tay sau tablet không thấy đủ; đầu hướng tablet.
+052|03|N/N|keep|Hai tay viết/giữ trang rõ, đầu hướng bài riêng.
+052|04|U/U|inspect|Back view với tay/vùng bài khuất, chưa đủ diễn giải hướng nhìn; cần source.
+052|05|N/N|keep|Hai tay khoanh trên bàn thấy được, đầu hướng sách riêng.
+052|06|U/N|keep|Góc sau đầu hướng trang riêng còn thấy, một tay/vùng bàn bị khuất nên phone U.
+052|07|N/N|keep|Hai tay khoanh/giữ trang rõ, đầu hướng sách riêng.
+052|08|N/N|keep|Hai tay khoanh nhìn được, đầu hướng trang trước thân; ảnh nhỏ vẫn có quan hệ đầu/bài.
+052|09|U/U|inspect|Mặt mờ và tay/bài bị đầu người trước che, chưa đủ đích nhìn; cần source.
+052|10|U/N|keep|Đầu hướng sách đang giữ, tay/vùng sau sách mờ/che chưa đủ absence.
+052|11|U/U|recrop|Hai đầu nổi bật chồng nhau, tay/bài anchor bị người trước che; cần source/person box.
+052|12|U/N|recrop|Đầu hướng vùng sách nhưng tay bị người trước che, cần cô lập anchor từ source.
+053|01|N/N|keep|Hai tay viết/giữ giấy rõ, đầu hướng bài riêng.
+053|02|N/U|keep|Tay chống má và tay giữ sách thấy đủ, đầu/mắt chưa xác định đích chắc ở input.
+053|03|U/U|exclude|Native 61 × 56, mặt/tay mất chi tiết, thiếu đích nhìn và absence.
+053|04|U/U|inspect|Tay che mặt và tay kia bị khuất, chưa biết hướng nhìn; cần source.
+053|05|N/N|keep|Hai tay giữ/đọc trang thấy đủ, đầu hướng giấy riêng.
+053|06|U/U|exclude|Native 38 × 54, tay/mặt quá mờ và che, không đủ hai target.
+053|07|U/U|exclude|Native 34 × 40, mặt và tay không có chi tiết nhận định hai target.
+053|08|U/U|exclude|Native 47 × 69, mặt/tay mờ và che, không đủ evidence ổn định.
+053|09|N/N|keep|Hai tay giữ trang thấy đủ, đầu hướng bài đang đọc.
+053|10|N/N|keep|Hai tay khoanh rõ trên bàn, đầu hướng sách đang mở.
+053|11|U/U|inspect|Đầu người trước che tay và vùng sách, hướng/đích chưa rõ; cần source.
+053|12|N/N|keep|Hai tay khoanh trên bàn thấy được, đầu hướng trang riêng.
+054|01|U/N|keep|Đầu hướng giấy nhưng tay bị người trước che và native nhỏ; absence chưa đủ.
+054|02|U/U|exclude|Native 35 × 29, không đủ chi tiết nhận hands/gaze/object.
+054|03|U/N|keep|Đầu hướng sách đang cầm, một tay ngoài vùng quan sát nên absence thiếu.
+054|04|U/N|keep|Đầu hướng trang riêng ở góc sau, tay xa bị thân che nên phone U.
+054|05|N/N|keep|Hai tay viết/giữ giấy thấy đủ, đầu hướng trang riêng.
+054|06|N/N|keep|Hai tay viết/giữ giấy rõ, đầu hướng trang riêng.
+054|07|U/N|keep|Đầu hướng trang, tay/vùng bàn bị đầu người trước che nên thiếu absence.
+054|08|U/U|exclude|Native 53 × 40, đầu và tay mờ/che, không đủ hai target.
+054|09|N/N|keep|Hai tay viết/giữ trang thấy đủ, đầu hướng trang sách sát mặt.
+054|10|U/N|keep|Đầu hướng bài nhưng tay bị đầu người trước che, không đủ absence.
+054|11|U/N|keep|Đầu hướng vùng viết, tay/vật nhỏ mờ thiếu evidence absence chắc.
+054|12|N/N|keep|Hai tay viết/giữ trang rõ, đầu hướng bài riêng.
+055|01|N/N|keep|Hai tay viết/giữ sách thấy đủ, đầu hướng trang riêng.
+055|02|U/N|keep|Đầu hướng trang nhưng tay bị đầu người trước che, absence thiếu.
+055|03|N/N|keep|Hai tay viết/giữ trang thấy được, đầu hướng sách riêng.
+055|04|N/N|keep|Hai tay viết/giữ giấy rõ, đầu hướng bài riêng.
+055|05|N/N|keep|Hai tay viết/giữ giấy thấy được, đầu hướng trang.
+055|06|N/N|keep|Hai tay bút/trang còn thấy dù native nhỏ, đầu hướng giấy; không dùng kích thước đơn lẻ để loại.
+055|07|U/N|keep|Đầu hướng giấy nhưng một tay bị đầu người trước che, absence thiếu.
+055|08|N/N|keep|Hai tay giữ/đọc sách rõ, đầu hướng sách riêng.
+055|09|U/N|keep|Đầu hướng vùng viết nhưng tay/vật rất nhỏ mờ và cắt khuất, không đủ absence.
+055|10|N/N|keep|Hai tay viết/giữ giấy nhìn được, đầu hướng bài riêng.
+055|11|N/N|keep|Hai tay viết/giữ trang thấy được, đầu hướng sách; gần biến thể write-012 cần kiểm lặp.
+055|12|U/U|exclude|Native 45 × 42, mặt/tay bị mờ mất cấu trúc, không đủ hai target.
+056|01|N/N|keep|Hai tay đan trên trang thấy đủ, đầu hướng sách trước thân.
+056|02|N/N|keep|Hai tay viết/giữ giấy còn thấy, đầu hướng trang riêng dù ảnh mờ.
+056|03|N/N|keep|Hai tay viết/giữ sách thấy được, đầu hướng trang riêng.
+056|04|N/N|keep|Hai tay viết/giữ trang còn thấy, đầu sát giấy riêng; không tự nhìn ngoài bài từ nghiêng đầu.
+056|05|N/N|keep|Hai tay viết/giữ trang thấy đủ, đầu hướng bài riêng.
+056|06|U/N|recrop|Nhiều người đọc giấy trong cùng khung, tay chồng/che cần source xác định và cô lập anchor.
+056|07|U/N|recrop|Nhiều đầu nổi bật, tay dưới crop bị cắt; cần source/person box để cô lập anchor.
+056|08|N/N|recrop|Các tay viết/giữ trang rõ, ba người cùng nổi bật; cần cô lập anchor để giảm cạnh tranh RGB.
+056|09|N/N|keep|Hai tay giữ sách rõ, đầu hướng trang riêng; người trước chỉ che phần rìa.
+056|10|N/N|recrop|Hai người cạnh nhau cùng nổi bật, tay đọc/viết đủ thấy; cần tách đúng anchor.
+056|11|N/N|keep|Hai tay viết/giữ giấy nhìn được, đầu hướng trang riêng.
+056|12|U/N|inspect|Đầu hướng bài nhưng vật/tay sát mặt mờ, chưa đủ absence/loại vật; cần source.
+057|01|U/N|recrop|Nhiều người chồng nhau, tay/vùng giấy anchor thiếu rõ; cần source/person box.
+057|02|N/N|keep|Hai tay viết/giữ trang rõ, đầu hướng sách riêng.
+057|03|N/N|keep|Hai tay giữ trang thấy đủ, đầu hướng sách riêng.
+057|04|N/N|keep|Hai tay viết/giữ giấy rõ, đầu hướng trang riêng.
+057|05|N/N|keep|Hai tay khoanh trên bàn rõ, đầu hướng bài trước thân.
+057|06|N/N|recrop|Nhiều người cạnh tranh nhưng tay/trang nhìn được, đầu hướng bài; cần cô lập anchor.
+057|07|U/N|keep|Túi mềm trên bàn không mobile, nhưng tay sau túi bị che; đầu hướng vùng bài riêng.
+057|08|N/U|keep|Tay sát mặt và tay khoanh trên bàn đủ review absence, đích nhìn bị tóc/mặt che nên looking U.
+057|09|N/N|keep|Hai tay khoanh rõ, đầu hướng trang sách riêng.
+057|10|N/N|keep|Hai tay giữ/đọc sách rõ, đầu hướng bài riêng.
+057|11|U/U|recrop|Khung nhiều người tương đương và nhiều đích nhìn, cần source/person box trước đề xuất target cho anchor.
+057|12|N/P|keep|Tay sát mặt và tay trên bàn đủ thấy, mặt ngẩng ngoài trang riêng.
+058|01|N/N|keep|Hai tay giữ trang thấy đủ, đầu hướng sách riêng.
+058|02|U/U|recrop|Hai người cùng nổi bật có hướng nhìn khác nhau, cần source/person box xác định anchor và khung.
+058|03|N/N|keep|Hai tay viết/giữ giấy thấy đủ, đầu hướng trang riêng.
+058|04|U/N|inspect|Vật đen trên giấy ngay tay chưa rõ mobile/thiết bị khác, đầu hướng vùng thao tác.
+058|05|U/N|inspect|Lưng thiết bị bạc trong hai tay thiếu đặc trưng ở input, đầu nhìn vật.
+058|06|U/N|inspect|Thiết bị tối trong tay chỉ lộ một mặt/cạnh, đầu hướng máy, cần kiểm mobile.
+058|07|U/N|inspect|Vật trắng trong hai tay nhỏ/mờ, chưa phân biệt mobile; đầu hướng vật.
+058|08|U/N|inspect|Vật nhỏ đen dưới tay trên bàn cần phân biệt mobile/calculator, đầu hướng vùng riêng.
+058|09|P/N|inspect|Vật đen viền tím dưới tay có dạng mobile, cần kiểm nhận dạng tại input; đầu hướng bàn.
+058|10|P/N|inspect|Vật màn hình nhỏ trong tay cạnh sách cần kiểm mobile; đầu hướng vùng bài riêng.
+058|11|N/N|keep|Hai tay giữ/đọc sách thấy được, đầu hướng trang riêng.
+058|12|P/N|keep|Mobile viền đỏ/mặt kính dưới tay trên bàn rõ, đầu hướng thiết bị riêng.
+059|01|U/N|inspect|Thiết bị đen trong hai tay thiếu đặc trưng mobile tại input, đầu hướng vật.
+059|02|U/N|inspect|Vật đen trên bàn đang chạm thiếu chi tiết loại vật, đầu hướng vùng thao tác.
+059|03|U/P|inspect|Mặt ngẩng ngoài máy, mặt lưng bạc trong hai tay cần kiểm camera/loại vật.
+059|04|U/U|exclude|Tay bị người trước che, mặt/hướng nhỏ mờ và thiếu vùng bài, không đủ hai target.
+059|05|U/P|keep|Đầu quay phải rõ, hai tay dưới bàn/cắt đáy nên absence thiếu.
+059|06|U/U|exclude|Native 48 × 65 cắt mất đầu và tay bị ghế che, không đủ hai target.
+059|07|U/P|keep|Đầu quay phải rõ, tay/vật nhỏ dưới bàn quá mờ để xác nhận absence.
+059|08|P/P|keep|Mobile mặt kính trên bàn riêng rõ, đầu quay trái ngoài máy/vùng bài.
+059|09|U/P|keep|Đầu quay trái rõ, tay dưới bàn/cắt khuất nên phone U.
+059|10|N/P|keep|Hai tay đan trên bài thấy đủ, đầu quay trái khỏi trang.
+059|11|P/P|keep|Mobile mặt kính trên bàn rõ, đầu quay phải khỏi vùng máy.
+059|12|U/P|inspect|Đầu quay trái ngoài bài rõ, vật đen dưới sách cần kiểm mobile; tay một phần khuất.
+060|01|N/N|keep|Hai tay viết/giữ giấy rõ, đầu hướng trang riêng.
+060|02|N/N|keep|Hai tay viết/giữ bài nhìn được, đầu hướng trang riêng.
+060|03|U/N|keep|Đầu hướng sách đang dựng, một tay sau sách không thấy đủ absence.
+060|04|N/N|keep|Hai tay giữ/đọc giấy rõ, đầu hướng trang riêng.
+060|05|N/N|keep|Hai tay khoanh rõ, đầu hướng sách trước thân; nhiễu hạt ảnh không tự positive.
+060|06|N/N|keep|Tay sát mặt và tay giữ trang đủ thấy, đầu nhìn sách riêng.
+060|07|N/N|inspect|Hai tay cầm bút/giữ trang đủ thấy, cần kiểm đích nhìn ở input do mặt hơi ngẩng.
+060|08|N/N|keep|Hai tay đọc/giữ trang rõ, đầu hướng bài riêng.
+060|09|U/U|recrop|Back view và nhiều người chồng nhau, tay/bài thiếu; cần source/person box trước chốt nhãn.
+060|10|N/N|keep|Hai tay giữ sách rõ, đầu hướng trang riêng.
+060|11|N/N|keep|Tay sát ngực và tay viết thấy đủ, đầu hướng giấy riêng.
+060|12|N/P|keep|Hai tay trên bài thấy đủ, đầu quay trái ngoài trang.
+061|01|U/P|keep|Đầu quay sang phải ngoài trang rõ, tay/vùng dưới bàn và người cạnh che nên absence thiếu.
+061|02|N/N|keep|Tay chống đầu và tay giữ trang thấy được, đầu hướng giấy riêng.
+061|03|N/N|keep|Tay chống đầu và tay giữ giấy nhìn được, đầu hướng bài riêng.
+061|04|N/P|keep|Tay chống cổ và tay trên trang thấy được không vật lạ, mặt ngẩng khỏi bài.
+061|05|N/P|keep|Hai tay khoanh thấy được không vật mơ hồ, đầu ngẩng ngoài trang.
+061|06|P/P|inspect|Vật đen mặt kính trên sách có dạng mobile cần kiểm input, mặt ngẩng khỏi bài.
+061|07|U/P|keep|Mặt ngẩng khỏi trang, hai tay dưới bàn/cắt đáy không đủ absence.
+061|08|U/U|recrop|Mặt cắt mất bên trái, tay và đích nhìn thiếu; cần source nới/cô lập anchor.
+061|09|U/N|inspect|Vật đen trong hai tay chỉ lộ lưng/cạnh mờ, đầu hướng vật; cần kiểm mobile.
+061|10|U/N|inspect|Vật đen nhỏ trong hai tay thiếu đặc trưng, đầu hướng vật.
+061|11|P/N|inspect|Thiết bị đỏ cầm trước thân có dạng mobile, cần kiểm mặt kính/viền ở input; đầu hướng máy.
+061|12|P/P|keep|Mobile mặt kính viền sáng trên bàn rõ, mặt ngẩng ngoài giấy.
+062|01|P/P|keep|Mobile mặt kính trên bàn rõ, mặt ngẩng ngoài trang riêng.
+062|02|U/U|inspect|Đầu cúi nhưng tay/vùng đích dưới bàn khuất, chưa biết vào bài hay ra ngoài; cần source.
+062|03|N/P|keep|Tay sát cằm và tay trước thân thấy đủ không vật mơ hồ, mặt ngẩng ngoài giấy.
+062|04|U/N|keep|Đầu hướng trang riêng, hai tay dưới bàn không thấy đủ absence.
+062|05|N/N|keep|Tay chống đầu và tay giữ trang nhìn được, đầu hướng giấy riêng.
+062|06|N/N|keep|Hai tay đan trên giấy thấy đủ, đầu hướng trang riêng.
+062|07|U/N|keep|Đầu hướng giấy đang đọc, hai tay/vùng bàn cắt khuất thiếu absence.
+062|08|U/P|keep|Tay che mặt rõ nhưng tay kia dưới bàn, mắt ngẩng ngoài bài.
+062|09|U/P|keep|Tay sát miệng nhưng tay kia dưới bàn/khuất, mặt ngẩng ngoài trang.
+062|10|N/P|keep|Hai tay giữ sách rõ, đầu quay trái khỏi sách đang cầm.
+062|11|U/N|keep|Tay mouse rõ nhưng tay kia sau laptop, đầu hướng màn hình riêng.
+062|12|N/N|keep|Hai tay giữ/giở giấy rõ, đầu hướng trang riêng.
+063|01|U/N|inspect|Vật nhỏ trong hai tay thiếu đặc trưng mobile, đầu hướng vùng tay.
+063|02|P/N|inspect|Vật mặt kính ngay tay trên bàn có dạng mobile, cần kiểm input; đầu hướng vùng thao tác.
+063|03|N/N|keep|Hai tay viết/giữ giấy thấy được, đầu hướng trang riêng.
+063|04|U/N|inspect|Lưng/cạnh vật nhỏ trong hai tay không đủ nhận mobile, đầu hướng tay.
+063|05|U/N|inspect|Lưng vật cầm nhỏ/mờ thiếu đặc trưng mobile, đầu hướng vùng tay riêng.
+063|06|U/P|keep|Mặt ngẩng ngoài trang, hai tay dưới bàn/cắt đáy thiếu absence.
+063|07|P/P|keep|Mobile mặt kính viền sáng trên bàn rõ, đầu hướng trái ngoài trang.
+063|08|N/P|keep|Hai tay đan trên giấy rõ, đầu quay trái ngoài vùng bài.
+063|09|U/N|inspect|Vật nhỏ trong tay thiếu đặc trưng phone sau resize, đầu hướng vật.
+063|10|U/N|recrop|Đầu hướng trang, tay bị cắt ở mép trái và sau trang; cần source nới geometry.
+063|11|P/P|keep|Mobile mặt kính trên bàn riêng rõ, mặt ngẩng ngoài bài.
+063|12|U/P|keep|Mặt ngẩng hướng lên ngoài bàn, tay/vùng dưới bàn cắt khuất.
+064|01|P/U|inspect|Mobile mặt kính trên bàn rõ, đầu tựa tay che mặt nên cần kiểm đích nhìn, không tự looking N.
+064|02|U/P|keep|Đầu ngẩng ngoài trang, hai tay dưới bàn không thấy đủ.
+064|03|N/P|keep|Tay sát miệng và tay cầm bút thấy đủ không vật mơ hồ, mắt hướng ngoài giấy.
+064|04|N/P|keep|Hai tay giữ sách thấy được, mặt ngẩng khỏi trang.
+064|05|U/P|keep|Mặt ngẩng ngoài bài, bàn tay dưới khung/ghế thiếu evidence absence.
+064|06|U/P|inspect|Thiết bị đen cầm hai tay còn mờ, đầu ngẩng khỏi máy; cần kiểm mobile.
+064|07|N/N|keep|Hai tay giữ sách/giấy thấy được, đầu hướng trang riêng.
+064|08|U/N|keep|Đầu hướng giấy riêng, tay dưới bàn/khuất thiếu evidence absence.
+064|09|N/N|keep|Tay sát thái dương và tay giữ giấy rõ, đầu hướng trang riêng.
+064|10|U/P|keep|Mặt ngẩng ngoài bài, tay/vùng thấp bị ghế/crop che.
+064|11|U/N|keep|Đầu hướng trang, tay phía trái bị cắt ngoài crop nên phone U.
+064|12|U/P|inspect|Vật đen trong tay chỉ lộ cạnh/mặt mờ, đầu quay trái ngoài vùng làm; cần nhận dạng mobile.
+065|01|P/P|keep|Mobile mặt kính trên bàn rõ, mặt ngẩng ngoài giấy.
+065|02|U/N|inspect|Thiết bị đen trong hai tay thiếu đặc trưng nhận mobile, đầu hướng vật.
+065|03|N/P|keep|Hai tay bút/giấy thấy được, mặt ngẩng ngoài trang.
+065|04|N/P|keep|Hai tay đan rõ trên bài, đầu ngẩng khỏi trang riêng.
+065|05|U/N|keep|Đầu nghiêng xuống bài, tay phía dưới cắt/khuất nên absence thiếu.
+065|06|U/N|inspect|Vật xanh/đen nâng sát mặt thiếu đặc trưng mobile, mắt hướng vật trong tay.
+065|07|P/N|keep|Mobile viền đỏ/mặt kính dưới tay trên bàn rõ, đầu nhìn máy.
+065|08|P/P|keep|Mobile mặt kính viền sáng trên bàn rõ, đầu ngẩng ngoài giấy.
+065|09|U/N|inspect|Mặt lưng đen trong hai tay thiếu đặc trưng camera, đầu hướng tay.
+065|10|U/N|inspect|Vật đen cầm hai tay thiếu đặc trưng mobile ở input, đầu hướng vật.
+065|11|U/N|inspect|Vật xanh/trắng trong hai tay quá mờ để phân biệt mobile, đầu hướng tay.
+065|12|N/N|keep|Hai tay viết/giữ trang thấy được, đầu hướng giấy riêng.
+066|01|U/P|keep|Tay mouse rõ nhưng tay kia sau laptop, đầu quay trái ngoài màn hình.
+066|02|P/P|keep|Mobile mặt kính trên bàn cạnh sách rõ, đầu quay phải khỏi trang.
+066|03|U/N|inspect|Vật đen trong tay chỉ còn mặt/lưng mờ, mắt hướng vùng tay, cần kiểm mobile.
+066|04|U/N|inspect|Vật trắng trong hai tay thiếu đặc trưng mobile, đầu hướng vật.
+066|05|U/N|inspect|Vật trắng cầm nhỏ/mờ, đầu hướng tay; cần phân biệt mobile ở input.
+066|06|P/P|inspect|Vật mặt kính trên sách dạng mobile cần kiểm nhận dạng, mặt ngẩng ngoài trang.
+066|07|P/N|inspect|Mặt lưng vàng trong tay có dấu camera cần kiểm input, đầu hướng thiết bị riêng.
+066|08|U/P|keep|Mặt ngẩng khỏi bài, hai tay dưới bàn/crop không thấy đủ.
+066|09|U/N|keep|Góc méo và native 35 × 100, đầu vẫn hướng trang nhưng tay/vật không đủ chi tiết absence.
+066|10|U/P|inspect|Thiết bị vàng chỉ lộ lưng/cạnh trong tay, đầu quay trái khỏi vùng riêng, cần kiểm mobile.
+066|11|U/P|keep|Tay và vùng trước thân bị che, đầu quay khỏi vùng bài; không suy vật từ động tác tay.
+066|12|N/N|keep|Hai tay đọc/giữ sách thấy đủ, đầu hướng trang riêng; nhiễu hạt không tự đổi nhãn.
+067|01|U/N|keep|Đầu hướng trang, tay sát đầu nhưng tay kia dưới bàn/cắt khung thiếu absence.
+067|02|N/N|keep|Tay sát má và tay cầm bút trên trang thấy đủ, đầu hướng bài riêng.
+067|03|U/N|recrop|Đầu hướng sách nhưng tay bị người trước che, cần source cô lập/nới khung.
+067|04|N/N|keep|Hai tay viết/giữ trang rõ, đầu hướng giấy riêng.
+067|05|N/N|keep|Hai tay giữ/viết trang thấy đủ, đầu hướng sách; visor che trán không tự U khi hướng rõ.
+067|06|N/N|keep|Hai tay viết/giữ sách rõ, đầu hướng trang riêng.
+067|07|U/N|recrop|Người giữa hướng bài nhưng tay/người trước chồng che, cần cô lập anchor.
+067|08|N/N|keep|Hai tay giữ/đọc giấy rõ, đầu hướng trang riêng.
+067|09|N/N|keep|Hai tay khoanh thấy đủ, đầu hướng vùng bài trước thân.
+067|10|N/N|keep|Hai tay viết/giữ giấy thấy được, đầu hướng trang riêng.
+067|11|N/P|keep|Hai tay khoanh rõ, mặt ngẩng ngoài trang riêng.
+067|12|N/N|keep|Hai tay viết/giữ sách rõ, đầu hướng trang riêng.
+068|01|N/N|keep|Hai tay viết/giữ giấy rõ, đầu hướng trang riêng.
+068|02|N/N|keep|Hai tay giữ/đọc giấy nhìn được, đầu hướng trang riêng.
+068|03|N/N|keep|Hai tay viết/giữ trang thấy được, đầu hướng giấy; watermark đáy cần cờ QA, không che evidence.
+068|04|N/N|keep|Hai tay viết/giữ giấy rõ, đầu hướng bài riêng.
+068|05|N/N|recrop|Hai tay trên trang/bút thấy được, đầu hướng bài; nhiều người và đầu tiền cảnh cạnh tranh cần cô lập.
+068|06|U/P|inspect|Đầu ngẩng và tay giơ ngoài vùng bài, tay còn lại bị khuất; cần source xác định hướng/đích từ góc sau.
+068|07|U/N|keep|Đầu hướng bài đang viết, tay xa/vùng dưới bàn cắt khuất thiếu absence.
+068|08|N/P|keep|Tay sát má và tay giữ giấy rõ, đầu quay phải khỏi trang.
+068|09|N/P|keep|Hai tay trên giấy/bút rõ, đầu quay phải khỏi bài.
+068|10|U/N|keep|Đầu hướng bảng/sách dựng, một tay sau vật lớn bị che nên absence thiếu.
+068|11|U/N|keep|Đầu hướng bảng/sách dựng, tay sát mặt và tay còn lại bị che nên absence chưa đủ.
+068|12|N/N|keep|Hai tay giữ sách rõ, đầu hướng tờ bài đang đọc.
+069|01|N/N|keep|Hai tay giữ sách/trang thấy được, đầu hướng trang riêng.
+069|02|U/N|recrop|Hai người nổi bật chồng nhau, tay người tiền cảnh cắt/che; cần source/person box.
+069|03|U/N|recrop|Hai người viết cạnh tranh chủ thể, tay sát đáy crop bị cắt; cần cô lập anchor.
+069|04|U/N|recrop|Đầu hướng giấy nhưng tay bị người trước che, cần source nới/cô lập anchor.
+069|05|N/N|keep|Hai tay viết/giữ giấy thấy được, đầu hướng bài riêng.
+069|06|P/N|keep|Mobile mặt kính/viền trong hai tay rõ, đầu hướng máy riêng.
+069|07|P/N|keep|Mobile mặt kính trong tay trước thân rõ, đầu hướng máy riêng.
+069|08|P/N|keep|Mobile áp tai rõ, đầu hướng khu vực màn hình/làm việc riêng, không tự looking P vì gọi máy.
+069|09|P/N|keep|Mobile mặt sau có cụm camera rõ trong tay, đầu hướng máy trên bài riêng.
+069|10|P/N|keep|Mobile mặt sau có cụm camera rõ, đầu hướng máy trên vùng bài riêng.
+069|11|N/N|keep|Hai tay cầm cốc/giữ trang thấy đủ không vật mơ hồ, đầu hướng vùng làm riêng.
+069|12|N/N|keep|Hai tay keyboard rõ, đầu hướng laptop riêng.
+070|01|U/U|recrop|Hai người nổi bật và vật trong tay người cạnh, chưa gắn chắc target/đích cho anchor; cần source/person box.
+070|02|N/N|recrop|Hai tay viết/giữ giấy rõ, đầu hướng trang; ghế tiền cảnh chiếm khung lớn nên đề xuất khung rõ anchor hơn.
+070|03|N/N|keep|Hai tay làm linh kiện rõ, tablet lớn trên bàn không mobile, đầu hướng vùng thực hành riêng.
+070|04|N/N|keep|Hai tay viết/giữ giấy thấy đủ, đầu hướng bài riêng.
+070|05|U/N|keep|Đầu hướng giấy ở góc sau, tay gần thân che khuất thiếu evidence absence.
+070|06|P/U|keep|Mobile màn hình xanh trên bàn rõ, tóc/mặt che khuất không đủ xác nhận đích nhìn.
+070|07|N/P|keep|Hai tay cầm bút/đan trên bàn thấy đủ, mặt ngẩng ngoài bài.
+070|08|N/U|keep|Hai tay/cánh tay giữ bút và tựa bàn đủ review absence, mặt gục/nhắm mắt không xác định hướng nhìn.

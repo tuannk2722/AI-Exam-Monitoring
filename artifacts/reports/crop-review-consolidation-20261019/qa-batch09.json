@@ -1,0 +1,19 @@
+{
+  "geometry_qa": [
+    {"id":"V7-C-021-R03","result":"needs_revision","states":["N","P"],"note":"Mặt người sau vẫn lớn sát đầu anchor; chưa đạt yêu cầu tách. Giữ nhãn owner trong trial, chưa publish."},
+    {"id":"V7-C-033-R03","result":"pass_draft","states":["N","P"],"note":"Một người chính, hai tay khoanh trên bàn nhìn thấy, đầu ngẩng khỏi trang. Người bên phải chỉ còn tay ở mép."},
+    {"id":"V7-C-047-R03","result":"pass_draft","states":["U","P"],"note":"Bỏ các mặt phía sau, giữ người chính quay trái. Tay thiếu ngay tại đáy source nên phone U; không có cách nới thêm ngoài nguồn."},
+    {"id":"V7-C-049-R03","result":"needs_revision","states":["U","P"],"note":"Tay cầm bút bị sát/cắt mép trái, mặt nam sau còn rõ ở mép phải; cần chỉnh để giữ tay mà giảm cạnh tranh."},
+    {"id":"V7-C-051-R03","result":"needs_revision","states":["N","P"],"note":"Vẫn nhiều mặt quanh cùng cỡ; geometry chưa giải quyết được nhóm đông dù tay chính đủ rõ."},
+    {"id":"V7-C-094-R03","result":"pass_draft","states":["N","N"],"note":"Mặt nữ kính trội, hai tay trên trang đủ rõ; chỉ còn đỉnh đầu tiền cảnh thấp không cạnh tranh mặt. Đầu hướng trang riêng."},
+    {"id":"V7-OE-S087-A01-R03","result":"needs_revision","states":["N","N"],"note":"Đúng nữ viết và tay đầy đủ, nhưng nửa mặt nam phía sau ở mép trên còn đáng kể; cần cắt trên thấp hơn mà giữ tóc anchor."},
+    {"id":"V7-OE-S088-A01-R03","result":"needs_revision","states":["U","N"],"note":"Mặt người phải sau còn lớn. Tay trái thả cạnh bàn đã thấy, cần geometry giảm mặt sau trước xét lại phone N."}
+  ],
+  "recrop_source_boards_viewed": [25,26,27],
+  "source_only_followup": [
+    {"id":"V7-C-023","note":"Đầu nghiêng xuống sách trước, tay khuất và người tiền cảnh sát mặt; chưa đủ đổi U/U. Cần loại nếu không có target supervision chắc."},
+    {"id":"V7-C-035","note":"Anchor sau giơ bút bị đầu người trước che sát cằm/tay; không thể bỏ mặt trước mà giữ ngữ cảnh đầy đủ bằng rectangle."},
+    {"id":"V7-C-043","note":"Nữ áo hồng sau có mặt/tay chồng ngay nữ viết trước; recrop đơn khó giữ bằng chứng."},
+    {"id":"V7-C-093","note":"Owner N/N nhưng đầu nam trước quay tới người cạnh, hai mặt sát. Cần close view để phân biệt hướng trang với người; chưa tự đổi nhãn owner."}
+  ]
+}

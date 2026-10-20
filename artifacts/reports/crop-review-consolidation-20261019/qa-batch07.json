@@ -1,0 +1,14 @@
+{
+  "geometry_qa": [
+    {"id":"P007-extra-01-R03","result":"needs_revision","states":["U","P"],"note":"Mặt người sau vẫn rõ và sát mặt anchor; tay trái chạm mép. Chưa đạt geometry đơn anchor."},
+    {"id":"P039-person-01-R03","result":"needs_revision","states":["P","N"],"note":"Phone và tay rõ nhưng mặt nam phía sau còn gần như nguyên, cạnh tranh với anchor; cần xem đại diện P038 hoặc geometry khác."},
+    {"id":"V7-B-010-R03","result":"needs_revision","states":["U","N"],"note":"Mép phải cắt vùng bàn tay viết; thiếu bằng chứng absence phone. Cần nới theo nguồn, không chốt N từ bản này."},
+    {"id":"V7-C-059-R03","result":"needs_revision","states":["U","P"],"note":"Crop native rất nhỏ, hình bị dẹt ngay từ nguồn; input phóng lớn mờ và còn mặt cạnh tranh. Không đưa vào batch đạt."},
+    {"id":"V7-C-061-R03","result":"pass_draft","states":["U","P"],"note":"Anchor áo đỏ chiếm ưu thế, quay đầu sang trái khỏi khu vực riêng; thiếu vùng tay nên phone U. Native và input giữ hướng đầu."},
+    {"id":"V7-C-063-R03","result":"pass_draft","states":["U","P"],"note":"Một mặt chính hướng sang trái ngoài vùng làm việc của mình; tay bị giới hạn bởi nguồn nên U. Không có mặt cạnh tranh."},
+    {"id":"V7-C-083-R03","result":"pass_draft","states":["N","P"],"note":"Giữ đủ hai tay, mẩu giấy trao và hướng đầu về người bên phải; không phone. Người đứng chỉ còn thân, attribution rõ ở native/input."},
+    {"id":"V7-C-085-R03","result":"pass_draft","states":["U","P"],"note":"Một mặt chính nghiêng nhìn sang người cạnh bên; tay khuất nên U, không suy absence. Không còn mặt cạnh tranh."},
+    {"id":"V7-C-091-R03","result":"pass_draft","states":["N","N"],"note":"Tay viết và tay giữ trang đều rõ; mắt/mũi và đầu cúi theo trang vẫn đủ dù mép tóc người trước che bên trái. Không phone hoặc mặt thứ hai rõ."}
+  ],
+  "recrop_source_boards_viewed": [19,20,21]
+}

@@ -1,0 +1,28 @@
+{
+  "status": "Draft",
+  "count": 836,
+  "actions": {
+    "exclude": 49,
+    "recrop": 250,
+    "keep": 537
+  },
+  "observed_pairs": {
+    "unknown/unknown": 61,
+    "unknown/negative": 232,
+    "negative/negative": 194,
+    "unknown/positive": 162,
+    "positive/negative": 49,
+    "negative/positive": 115,
+    "negative/unknown": 11,
+    "positive/positive": 11,
+    "positive/unknown": 1
+  },
+  "kept_label_delta": 310,
+  "kept_no_label_delta": 227,
+  "changed_from_r1": 442,
+  "phone_p_final": 61,
+  "phone_p_candidates_rechecked": 64,
+  "new_recrops_created": 0,
+  "accepted_v11_mutated": false,
+  "test_or_reserve_opened": false
+}

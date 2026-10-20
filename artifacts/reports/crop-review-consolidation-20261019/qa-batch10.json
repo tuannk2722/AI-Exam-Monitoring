@@ -1,0 +1,19 @@
+{
+  "geometry_qa": [
+    {"id":"V7-OE-S091-A01-R03","result":"pass_draft","states":["N","N"],"note":"Một mặt chính và hai tay khoanh trên bàn rõ, hướng sách riêng. Đã bỏ nhóm người phía sau và mặt tiền cảnh."},
+    {"id":"EXP-SCB-014-R03","result":"needs_revision","states":["N","N"],"note":"Nửa mặt bên trái còn cùng cỡ anchor; cần giảm thêm mà giữ tay khoanh."},
+    {"id":"SCB-read-012-R03","result":"needs_revision","states":["U","P"],"note":"Mép trên chạm/cắt tóc và ngón tay dưới bị sát mép; cần nới trên và dưới để giữ trọn bằng chứng."},
+    {"id":"SCB-write-011-R03","result":"pass_draft","states":["U","N"],"note":"Một mặt chính cúi xuống vùng viết; đỉnh đầu trước vẫn che tay nhưng không cạnh tranh mặt. Giữ U vì không đủ bằng chứng absence."},
+    {"id":"V7-C-006-R03","result":"pass_draft","states":["N","N"],"note":"Một mặt chính, tay viết và tay giữ giấy của anchor phân biệt được với tay nam bên phải. Hướng trang rõ, không phone."},
+    {"id":"V7-C-008-R03","result":"needs_revision","states":["U","P"],"note":"Hướng đầu thực tế cúi gần sách, chưa chứng minh P mà owner yêu cầu; mặt bên trái còn một phần và đầu tiền cảnh che tay. Cần close view/giải thích trước đổi owner label."},
+    {"id":"V7-C-018-R03","result":"pass_draft","states":["N","N"],"note":"Giữ bút, tay viết và tay giữ trang; đầu cúi đúng vùng bài. Đỉnh đầu trước nằm dưới bên phải, không che các tay chính."},
+    {"id":"V7-C-038-R03","result":"needs_revision","states":["N","N"],"note":"Mặt bên trái vẫn gần như đầy đủ và cùng cỡ; geometry chưa đạt một anchor trội."},
+    {"id":"V7-C-044-R03","result":"pass_draft","states":["U","N"],"note":"Bỏ mặt nam sau, nữ trước trội và đầu cúi rõ. Nguồn chấm dứt tại vùng cổ tay nên không có phần tay/giấy bổ sung; phone U."},
+    {"id":"V7-C-052-R03","result":"pass_draft","states":["N","N"],"note":"Hai tay khoanh trên sách, một mặt chính cúi theo trang. Nam trái chỉ còn mép mặt/tay nhỏ, nam phải còn thân; attribution rõ."}
+  ],
+  "recrop_source_boards_viewed": [28,29,30],
+  "source_only_followup": [
+    {"id":"V7-R8-C-003","note":"Nam trước quay trái nhưng các mặt sau sát đầu, nới đủ tay kéo theo người khác. Cần xử lý geometry sau khi đối chiếu các đại diện cùng lớp."},
+    {"id":"V7-OE-S094-A01","note":"Tay giơ bên trái nằm sát mặt người bên cạnh, mặt người sau sát bên phải; cần close view để chọn rectangle hoặc đề xuất loại."}
+  ]
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "id": "V6-CA-014",
+    "complete": true,
+    "keep_original": true,
+    "outputs": [
+      "V6-CA-014-ADD02"
+    ],
+    "covered_existing": [
+      "V6-EX-003"
+    ],
+    "note": "Nam bên trái đã tách P/N không lấy mặt nữ. Nữ bên phải có đại diện EX-003 được duyệt U/N; nguồn hiện tại đầu theo phone riêng, không đủ looking P và chấm đen chưa đủ xác nhận camera. Không tạo crop gần lặp chỉ để gán P."
+  },
+  {
+    "id": "V6R2-CA-008",
+    "complete": true,
+    "outputs": [
+      "V6R2-CA-008-ADD01",
+      "V6R2-CA-008-ADD02",
+      "V6R2-CA-008-ADD04"
+    ],
+    "note": "Thay crop nhóm bằng ba vùng trội: người với mobile rõ P/N, người với vật chưa đủ ID U/N, người trước trái U/N. Các hàng sau đầu/tay chồng; mép phải thiếu tay. ADD03 không được chọn vì vật người khác và giới hạn nguồn."
+  },
+  {
+    "id": "V7-B-051",
+    "complete": true,
+    "outputs": [
+      "V7-B-051-ADD01",
+      "V7-B-051-ADD02"
+    ],
+    "note": "Đã tách hai người theo yêu cầu: áo xanh U/P và áo xám U/N; không giữ crop nhóm làm mẫu thứ ba."
+  },
+  {
+    "id": "V7-D-005",
+    "complete": true,
+    "outputs": [
+      "V7-D-005-ADD02"
+    ],
+    "note": "Xét đủ bốn vị trí: nam trên phải bị cắt đầu tại nguồn; nữ tóc nâu cạnh nam có mặt/tay hai bên chồng; nam cầm mobile còn hai mặt nền cạnh tranh; nữ tóc vàng trái có khung U/P đạt. Chỉ đề xuất khung đạt, không ép đủ bốn crop."
+  },
+  {
+    "id": "V6-EX-012",
+    "complete": true,
+    "keep_original": true,
+    "outputs": [
+      "V6-EX-012-ADD01"
+    ],
+    "note": "Giữ crop đã duyệt; bổ sung nữ bên cạnh P/P với mobile rõ và đầu nhìn khỏi bài."
+  },
+  {
+    "id": "V6-EX-042",
+    "complete": true,
+    "keep_original": true,
+    "outputs": [
+      "V6-EX-042-ADD01"
+    ],
+    "note": "Giữ crop đã duyệt; thêm nữ quay trái U/P. Tay phải ngoài nguồn nên không suy N."
+  },
+  {
+    "id": "V7-C-087",
+    "complete": true,
+    "keep_original": true,
+    "outputs": [
+      "V7-C-087-ADD01"
+    ],
+    "note": "Giữ crop đã duyệt; bổ sung nữ áo xanh N/P, hai tay và bút/bài rõ."
+  },
+  {
+    "id": "V7-OE-S081-A01",
+    "complete": true,
+    "outputs": [
+      "V7-OE-S081-A01-ADD01"
+    ],
+    "note": "Thay crop gốc bằng người bàn trước trái N/P có hai tay rõ. Những người giữa dãy quay đầu nhưng tay dưới bàn/đầu sát người sau; người trước phải bị cắt đầu hoặc tay ở nguồn nên không thêm cho đủ số lượng."
+  },
+  {
+    "id": "V7-OE-S089-A01",
+    "complete": true,
+    "outputs": [
+      "V7-OE-S089-A01-ADD01",
+      "V7-OE-S089-A01-ADD02"
+    ],
+    "note": "Hai khung N/N: nam cầm bút hướng bài và nữ viết bên phải. Nam viết ngay bên trái bị đầu tiền cảnh che vùng tay nên không chọn; mô tả nam được đề xuất là cầm bút, không khẳng định đang viết."
+  },
+  {
+    "id": "SCB-read-015",
+    "complete": true,
+    "keep_original": true,
+    "outputs": [
+      "SCB-read-015-ADD01-R04"
+    ],
+    "note": "Giữ crop đọc đã duyệt; thêm nam kính bàn gần giáo viên N/P sau sửa biên tóc và loại phần lớn mặt nền."
+  },
+  {
+    "id": "V7-OE-S093-A01",
+    "complete": true,
+    "outputs": [
+      "V7-OE-S093-A01-ADD01-R02",
+      "V7-OE-S093-A01-ADD02-R02"
+    ],
+    "note": "Thay crop nhóm bằng hai người tiền cảnh N/N; khung giữ riêng đầu và hai tay, không giữ nhóm thành mẫu thứ ba."
+  },
+  {
+    "id": "V7-OE-S099-A01",
+    "complete": true,
+    "outputs": [
+      "V7-OE-S099-A01-ADD01-R02",
+      "V7-OE-S099-A01-ADD02-R02",
+      "V7-OE-S099-A01-ADD03-R02",
+      "V7-OE-S099-A01-ADD04-R02"
+    ],
+    "note": "Đủ bốn người bàn đầu theo thứ tự owner: N/P, N/N, N/N, N/P. Bản đầu cắt tóc đã được thay bằng R02 qua QA native/input."
+  },
+  {
+    "id": "V6-SB-003",
+    "complete": true,
+    "keep_original": true,
+    "outputs": [],
+    "note": "Gi? crop g?c ?? duy?t. Ng??i ?o s?ng k?nh ???c bao ph? b?i MP006 ?? duy?t U/P; r?t ADD01-R03 v? c?ng frame/v?ng.",
+    "covered_existing": [
+      "V6R2-MP-006"
+    ]
+  },
+  {
+    "id": "V6-SB-048",
+    "complete": true,
+    "outputs": [
+      "V6-SB-048-ADD01"
+    ],
+    "note": "Thay crop nhóm bằng người bàn trước trái N/P. Vị trí cạnh giữa có đầu và người bên trái chồng nên ADD02 bị giữ ngoài đề xuất."
+  },
+  {
+    "id": "SCB-write-019",
+    "complete": true,
+    "keep_original": true,
+    "outputs": [],
+    "covered_existing": [
+      "V7-C-030"
+    ],
+    "note": "Ng??i kh?c ?o ?? tr??c ph?i ?? c? C030 ???c duy?t; kh?ng th?m R05 g?n l?p. Gi? crop g?c theo review owner."
+  }
+]

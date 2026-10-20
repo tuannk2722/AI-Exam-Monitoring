@@ -1,0 +1,17 @@
+{
+  "geometry_qa": [
+    {"id":"V6R2-MP-005-R03","result":"needs_revision","states":["U","P"],"note":"Chỏm tóc chạm/cắt mép trên; cần nới vài pixel và kiểm lại mặt nền."},
+    {"id":"V6R2-MP-007-R03","result":"needs_revision","states":["U","P"],"note":"Hai mặt sau vẫn nguyên và cùng cỡ sát mặt anchor. Geometry này không đạt."},
+    {"id":"V6R2-MP-022-R03","result":"needs_revision","states":["U","P"],"note":"Cắt tóc/đỉnh đầu và mặt sau vẫn sát; cần nới và xem có thể tách hay phải loại."},
+    {"id":"V6R2-MP-024-R03","result":"needs_revision","states":["N","P"],"note":"Tay và sách đủ nhưng cắt chỏm tóc; cần nới trên mà hạn chế mặt sau."},
+    {"id":"V6R2-MP-037-R03","result":"needs_revision","states":["U","P"],"note":"Các mặt hai bên vẫn lớn; thu nữa có nguy cơ cắt vai/thân. Chưa đạt đơn anchor."},
+    {"id":"V6R2-MP-039-R03","result":"needs_revision","states":["N","P"],"note":"Đầu chính trọn nhưng mặt sau trái còn rõ; cần so với SB029 và sửa đại diện tốt hơn."},
+    {"id":"V6R2-MP-040-R03","result":"pass_draft","states":["U","N"],"note":"Một mặt trội cúi theo vật trong hai tay, giữ sách và bàn. Lưng vật chưa đủ nhận dạng mobile; phone U."},
+    {"id":"V6R2-MP-043-R03","result":"needs_revision","states":["P","P"],"note":"Mặt người sau hai bên còn rõ và vật đen bị sát mép trái. Chưa đạt dù giữ ý kiến phone P của owner."},
+    {"id":"V6R2-MP-048-R03","result":"pass_draft","states":["N","P"],"note":"Giữ tay cầm bút và tay gần miệng, đầu nhìn trước; không phone, các mặt quanh đã bỏ."},
+    {"id":"V6R2-MP-053-R03","result":"needs_revision","states":["U","P"],"note":"Mặt phía sau phải còn lớn và device riêng nhìn thấy; cần giảm cạnh tranh."},
+    {"id":"V6R2-MP-074-R03","result":"needs_revision","states":["U","N"],"note":"Cắt tóc và tay sát mép phải; cần nới để không dùng geometry mất bằng chứng."},
+    {"id":"V6R2-MP-080-R03","result":"needs_revision","states":["P","N"],"note":"Giữ phone và tay rõ nhưng phần miệng/mặt người sau còn trên trái; mép trên đang chạm tóc anchor. Cần điều chỉnh hoặc loại vì chồng lấp."}
+  ],
+  "recrop_source_boards_viewed": [34,35,36]
+}

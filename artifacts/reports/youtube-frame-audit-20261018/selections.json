@@ -1,0 +1,3250 @@
+[
+  {
+    "candidate_id": "Y01-A01-F00128",
+    "group": "Y01",
+    "anchor": "A01",
+    "frame_id": "Y01-F00128",
+    "context_xyxy": [
+      402,
+      216,
+      640,
+      360
+    ],
+    "person_xyxy": [
+      409,
+      220,
+      608,
+      360
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Tiền cảnh phải, áo viền cổ tay: Đầu cúi vào own-paper; tay còn lại bị thân/người phía sau che nên phone U.",
+    "marked": true,
+    "reference": "reference-01",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Tiền cảnh phải, áo viền cổ tay"
+  },
+  {
+    "candidate_id": "Y01-A02-F00008",
+    "group": "Y01",
+    "anchor": "A02",
+    "frame_id": "Y01-F00008",
+    "context_xyxy": [
+      292,
+      69,
+      545,
+      350
+    ],
+    "person_xyxy": [
+      297,
+      71,
+      520,
+      337
+    ],
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "draft_reason": "Blouse trắng tiền cảnh cửa sổ: Mobile mặt kính/viền đen cạnh tay viết; đầu hướng giấy. Tay người sau ở mép không phải evidence của anchor.",
+    "marked": true,
+    "reference": "reference-01",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Blouse trắng tiền cảnh cửa sổ"
+  },
+  {
+    "candidate_id": "Y01-A03-F00128",
+    "group": "Y01",
+    "anchor": "A03",
+    "frame_id": "Y01-F00128",
+    "context_xyxy": [
+      328,
+      126,
+      469,
+      278
+    ],
+    "person_xyxy": [
+      332,
+      131,
+      438,
+      245
+    ],
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "draft_reason": "Áo trắng viết cạnh cửa sổ: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-01",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo trắng viết cạnh cửa sổ"
+  },
+  {
+    "candidate_id": "Y01-A04-F00008",
+    "group": "Y01",
+    "anchor": "A04",
+    "frame_id": "Y01-F00008",
+    "context_xyxy": [
+      35,
+      18,
+      207,
+      271
+    ],
+    "person_xyxy": [
+      47,
+      22,
+      198,
+      214
+    ],
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "draft_reason": "Tóc sáng bên trái dãy cửa sổ: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-01",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Tóc sáng bên trái dãy cửa sổ"
+  },
+  {
+    "candidate_id": "Y01-A05-F00124",
+    "group": "Y01",
+    "anchor": "A05",
+    "frame_id": "Y01-F00124",
+    "context_xyxy": [
+      294,
+      181,
+      427,
+      360
+    ],
+    "person_xyxy": [
+      304,
+      191,
+      421,
+      344
+    ],
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "draft_reason": "Áo tay sẫm chống cằm ở dãy cửa sổ: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-01",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo tay sẫm chống cằm ở dãy cửa sổ"
+  },
+  {
+    "candidate_id": "Y01-A06-F00102",
+    "group": "Y01",
+    "anchor": "A06",
+    "frame_id": "Y01-F00102",
+    "context_xyxy": [
+      45,
+      16,
+      520,
+      360
+    ],
+    "person_xyxy": [
+      76,
+      24,
+      399,
+      334
+    ],
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "draft_reason": "Tóc dài hàng sau cửa sổ: Mobile mặt kính, viền sáng trên giấy cạnh tay; đã bỏ phone của người phía sau khỏi ROI. Đầu hướng bài.",
+    "marked": true,
+    "reference": "reference-01",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Tóc dài hàng sau cửa sổ"
+  },
+  {
+    "candidate_id": "Y01-A06-F00060",
+    "group": "Y01",
+    "anchor": "A06",
+    "frame_id": "Y01-F00060",
+    "context_xyxy": [
+      254,
+      111,
+      442,
+      360
+    ],
+    "person_xyxy": [
+      263,
+      117,
+      418,
+      349
+    ],
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "draft_reason": "Tóc dài hàng sau cửa sổ: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-01",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Tóc dài hàng sau cửa sổ"
+  },
+  {
+    "candidate_id": "Y01-A07-F00060",
+    "group": "Y01",
+    "anchor": "A07",
+    "frame_id": "Y01-F00060",
+    "context_xyxy": [
+      421,
+      120,
+      640,
+      349
+    ],
+    "person_xyxy": [
+      423,
+      124,
+      628,
+      288
+    ],
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "draft_reason": "Blouse phối đen hàng sau cửa sổ: Mobile mặt kính phản sáng và viền máy cạnh tay phải; nhìn vào giấy riêng.",
+    "marked": true,
+    "reference": "reference-01",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Blouse phối đen hàng sau cửa sổ"
+  },
+  {
+    "candidate_id": "Y01-A08-F00037",
+    "group": "Y01",
+    "anchor": "A08",
+    "frame_id": "Y01-F00037",
+    "context_xyxy": [
+      351,
+      21,
+      512,
+      301
+    ],
+    "person_xyxy": [
+      362,
+      25,
+      505,
+      204
+    ],
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "draft_reason": "Gile đen dãy tường: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-01",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Gile đen dãy tường"
+  },
+  {
+    "candidate_id": "Y01-A09-F00037",
+    "group": "Y01",
+    "anchor": "A09",
+    "frame_id": "Y01-F00037",
+    "context_xyxy": [
+      180,
+      15,
+      350,
+      187
+    ],
+    "person_xyxy": [
+      206,
+      20,
+      347,
+      175
+    ],
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "draft_reason": "Áo trắng cạnh gile đen: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-01",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo trắng cạnh gile đen"
+  },
+  {
+    "candidate_id": "Y01-A10-F00038",
+    "group": "Y01",
+    "anchor": "A10",
+    "frame_id": "Y01-F00038",
+    "context_xyxy": [
+      9,
+      52,
+      280,
+      255
+    ],
+    "person_xyxy": [
+      109,
+      60,
+      280,
+      214
+    ],
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "draft_reason": "Áo kem giữa trái: Mobile trắng mặt sau có cụm camera trên bàn trái; người áo kem cúi viết. Người đứng chỉ còn phần thân ở mép.",
+    "marked": true,
+    "reference": "reference-01",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo kem giữa trái"
+  },
+  {
+    "candidate_id": "Y01-A11-F00099",
+    "group": "Y01",
+    "anchor": "A11",
+    "frame_id": "Y01-F00099",
+    "context_xyxy": [
+      343,
+      49,
+      546,
+      255
+    ],
+    "person_xyxy": [
+      352,
+      52,
+      541,
+      228
+    ],
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "draft_reason": "Áo trắng giữa phải: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-01",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo trắng giữa phải"
+  },
+  {
+    "candidate_id": "Y01-A12-F00098",
+    "group": "Y01",
+    "anchor": "A12",
+    "frame_id": "Y01-F00098",
+    "context_xyxy": [
+      41,
+      135,
+      291,
+      360
+    ],
+    "person_xyxy": [
+      80,
+      155,
+      279,
+      315
+    ],
+    "draft_states": [
+      "P",
+      "U"
+    ],
+    "draft_reason": "Áo trắng bàn sau cạnh tủ: Mobile mặt kính/viền trên bàn cạnh tay; đầu cúi sát sổ che mặt/đích nên looking U.",
+    "marked": true,
+    "reference": "reference-01",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo trắng bàn sau cạnh tủ"
+  },
+  {
+    "candidate_id": "Y01-A13-F00099",
+    "group": "Y01",
+    "anchor": "A13",
+    "frame_id": "Y01-F00099",
+    "context_xyxy": [
+      25,
+      102,
+      267,
+      330
+    ],
+    "person_xyxy": [
+      48,
+      110,
+      263,
+      297
+    ],
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "draft_reason": "Tóc ngắn áo trắng dãy tường: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-01",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Tóc ngắn áo trắng dãy tường"
+  },
+  {
+    "candidate_id": "Y01-A14-F00039",
+    "group": "Y01",
+    "anchor": "A14",
+    "frame_id": "Y01-F00039",
+    "context_xyxy": [
+      24,
+      83,
+      273,
+      329
+    ],
+    "person_xyxy": [
+      78,
+      89,
+      242,
+      281
+    ],
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "draft_reason": "Gile nâu bàn sau: Mobile viền sáng/mặt kính cạnh sổ riêng; người gile nâu viết trên trang.",
+    "marked": true,
+    "reference": "reference-01",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Gile nâu bàn sau"
+  },
+  {
+    "candidate_id": "Y01-A14-F00098",
+    "group": "Y01",
+    "anchor": "A14",
+    "frame_id": "Y01-F00098",
+    "context_xyxy": [
+      326,
+      65,
+      580,
+      307
+    ],
+    "person_xyxy": [
+      412,
+      70,
+      565,
+      235
+    ],
+    "draft_states": [
+      "P",
+      "P"
+    ],
+    "draft_reason": "Gile nâu bàn sau: Mobile viền sáng/mặt kính trên bàn riêng; chống cằm nhìn trước ngoài trang.",
+    "marked": true,
+    "reference": "reference-01",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Gile nâu bàn sau"
+  },
+  {
+    "candidate_id": "Y01-A15-F00039",
+    "group": "Y01",
+    "anchor": "A15",
+    "frame_id": "Y01-F00039",
+    "context_xyxy": [
+      266,
+      59,
+      420,
+      297
+    ],
+    "person_xyxy": [
+      273,
+      65,
+      399,
+      238
+    ],
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "draft_reason": "Áo trắng bàn sau giữa: Mobile mặt kính trên sách phía dưới; người áo trắng nhìn tờ giấy đang cầm nên looking N.",
+    "marked": true,
+    "reference": "reference-01",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo trắng bàn sau giữa"
+  },
+  {
+    "candidate_id": "Y01-A15-F00003",
+    "group": "Y01",
+    "anchor": "A15",
+    "frame_id": "Y01-F00003",
+    "context_xyxy": [
+      389,
+      112,
+      519,
+      292
+    ],
+    "person_xyxy": [
+      402,
+      117,
+      499,
+      241
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Áo trắng bàn sau giữa: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-01",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo trắng bàn sau giữa"
+  },
+  {
+    "candidate_id": "Y01-A16-F00060",
+    "group": "Y01",
+    "anchor": "A16",
+    "frame_id": "Y01-F00060",
+    "context_xyxy": [
+      2,
+      95,
+      228,
+      322
+    ],
+    "person_xyxy": [
+      18,
+      101,
+      198,
+      267
+    ],
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "draft_reason": "Áo đen bàn sau (ngoài dấu): Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": false,
+    "reference": "reference-01",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo đen bàn sau (ngoài dấu)"
+  },
+  {
+    "candidate_id": "Y01-A16-F00039",
+    "group": "Y01",
+    "anchor": "A16",
+    "frame_id": "Y01-F00039",
+    "context_xyxy": [
+      422,
+      76,
+      640,
+      275
+    ],
+    "person_xyxy": [
+      429,
+      82,
+      623,
+      234
+    ],
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "draft_reason": "Áo đen bàn sau (ngoài dấu): Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": false,
+    "reference": "reference-01",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo đen bàn sau (ngoài dấu)"
+  },
+  {
+    "candidate_id": "Y01-A17-F00060",
+    "group": "Y01",
+    "anchor": "A17",
+    "frame_id": "Y01-F00060",
+    "context_xyxy": [
+      402,
+      76,
+      513,
+      207
+    ],
+    "person_xyxy": [
+      411,
+      83,
+      508,
+      201
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Áo khoác xám cuối dãy cửa sổ: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-01",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo khoác xám cuối dãy cửa sổ"
+  },
+  {
+    "candidate_id": "Y01-A18-F00043",
+    "group": "Y01",
+    "anchor": "A18",
+    "frame_id": "Y01-F00043",
+    "context_xyxy": [
+      295,
+      184,
+      544,
+      345
+    ],
+    "person_xyxy": [
+      305,
+      191,
+      439,
+      317
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Nam viết tiền cảnh cạnh bìa xanh: Vật tối trên bìa xanh thiếu đặc trưng mobile ở input, sửa phone P dự kiến thành U; hướng viết vào giấy rõ.",
+    "marked": true,
+    "reference": "reference-01",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Nam viết tiền cảnh cạnh bìa xanh"
+  },
+  {
+    "candidate_id": "Y01-A19-F00067",
+    "group": "Y01",
+    "anchor": "A19",
+    "frame_id": "Y01-F00067",
+    "context_xyxy": [
+      136,
+      65,
+      304,
+      360
+    ],
+    "person_xyxy": [
+      147,
+      75,
+      297,
+      360
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Áo khoác trắng tiền cảnh: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-01",
+    "qa_status": "withheld",
+    "qa_note": "Crop đứng thiếu vùng bài riêng để diễn giải looking; chưa đủ known target.",
+    "location_description": "Áo khoác trắng tiền cảnh"
+  },
+  {
+    "candidate_id": "Y01-A20-F00129",
+    "group": "Y01",
+    "anchor": "A20",
+    "frame_id": "Y01-F00129",
+    "context_xyxy": [
+      218,
+      67,
+      419,
+      360
+    ],
+    "person_xyxy": [
+      232,
+      74,
+      409,
+      360
+    ],
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "draft_reason": "Polo viền đen dãy cửa sổ: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-01",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Polo viền đen dãy cửa sổ"
+  },
+  {
+    "candidate_id": "Y01-A21-F00197",
+    "group": "Y01",
+    "anchor": "A21",
+    "frame_id": "Y01-F00197",
+    "context_xyxy": [
+      434,
+      193,
+      640,
+      360
+    ],
+    "person_xyxy": [
+      452,
+      199,
+      632,
+      330
+    ],
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "draft_reason": "Người đeo kính cạnh polo viền đen: Mobile có cấu trúc mặt lưng/cụm camera trên giấy cạnh tay; đầu cúi viết. Tay người đứng ở mép trái không dùng cho attribution.",
+    "marked": true,
+    "reference": "reference-01",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Người đeo kính cạnh polo viền đen"
+  },
+  {
+    "candidate_id": "Y01-A11-F00050",
+    "group": "Y01",
+    "anchor": "A11",
+    "frame_id": "Y01-F00050",
+    "context_xyxy": [
+      276,
+      41,
+      435,
+      360
+    ],
+    "person_xyxy": [
+      290,
+      44,
+      432,
+      302
+    ],
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "draft_reason": "Áo trắng giữa phải: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-01",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo trắng giữa phải"
+  },
+  {
+    "candidate_id": "Y01-A12-F00052",
+    "group": "Y01",
+    "anchor": "A12",
+    "frame_id": "Y01-F00052",
+    "context_xyxy": [
+      266,
+      44,
+      416,
+      360
+    ],
+    "person_xyxy": [
+      276,
+      48,
+      414,
+      359
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Áo trắng bàn sau cạnh tủ: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-01",
+    "qa_status": "withheld",
+    "qa_note": "Crop đứng thiếu work context, tay sát mép; ưu tiên crop ngồi F98.",
+    "location_description": "Áo trắng bàn sau cạnh tủ"
+  },
+  {
+    "candidate_id": "Y01-A02-F00188",
+    "group": "Y01",
+    "anchor": "A02",
+    "frame_id": "Y01-F00188",
+    "context_xyxy": [
+      254,
+      62,
+      453,
+      360
+    ],
+    "person_xyxy": [
+      260,
+      67,
+      448,
+      360
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Blouse trắng tiền cảnh cửa sổ: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-01",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Blouse trắng tiền cảnh cửa sổ"
+  },
+  {
+    "candidate_id": "Y02-A01-F00018",
+    "group": "Y02",
+    "anchor": "A01",
+    "frame_id": "Y02-F00018",
+    "context_xyxy": [
+      0,
+      109,
+      177,
+      304
+    ],
+    "person_xyxy": [
+      3,
+      116,
+      159,
+      277
+    ],
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "draft_reason": "Trái gần: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-04",
+    "qa_status": "withheld",
+    "qa_note": "Hai mặt/thân cạnh tranh; thu hẹp mất tay/bài. Vị trí A01 dùng R02; A02/A05/A06 chưa có khung đạt trong batch này.",
+    "location_description": "Trái gần"
+  },
+  {
+    "candidate_id": "Y02-A01-F00031",
+    "group": "Y02",
+    "anchor": "A01",
+    "frame_id": "Y02-F00031",
+    "context_xyxy": [
+      0,
+      99,
+      173,
+      294
+    ],
+    "person_xyxy": [
+      3,
+      104,
+      155,
+      261
+    ],
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "draft_reason": "Trái gần: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-04",
+    "qa_status": "withheld",
+    "qa_note": "Hai mặt/thân cạnh tranh; thu hẹp mất tay/bài. Vị trí A01 dùng R02; A02/A05/A06 chưa có khung đạt trong batch này.",
+    "location_description": "Trái gần"
+  },
+  {
+    "candidate_id": "Y02-A02-F00018",
+    "group": "Y02",
+    "anchor": "A02",
+    "frame_id": "Y02-F00018",
+    "context_xyxy": [
+      103,
+      87,
+      248,
+      244
+    ],
+    "person_xyxy": [
+      108,
+      92,
+      242,
+      220
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Trái giữa: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-04",
+    "qa_status": "withheld",
+    "qa_note": "Hai mặt/thân cạnh tranh; thu hẹp mất tay/bài. Vị trí A01 dùng R02; A02/A05/A06 chưa có khung đạt trong batch này.",
+    "location_description": "Trái giữa"
+  },
+  {
+    "candidate_id": "Y02-A02-F00013",
+    "group": "Y02",
+    "anchor": "A02",
+    "frame_id": "Y02-F00013",
+    "context_xyxy": [
+      97,
+      102,
+      242,
+      261
+    ],
+    "person_xyxy": [
+      99,
+      108,
+      235,
+      244
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Trái giữa: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-04",
+    "qa_status": "withheld",
+    "qa_note": "Hai mặt/thân cạnh tranh; thu hẹp mất tay/bài. Vị trí A01 dùng R02; A02/A05/A06 chưa có khung đạt trong batch này.",
+    "location_description": "Trái giữa"
+  },
+  {
+    "candidate_id": "Y02-A03-F00012",
+    "group": "Y02",
+    "anchor": "A03",
+    "frame_id": "Y02-F00012",
+    "context_xyxy": [
+      178,
+      75,
+      281,
+      214
+    ],
+    "person_xyxy": [
+      182,
+      80,
+      253,
+      192
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Trái xa đeo kính: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-04",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Trái xa đeo kính"
+  },
+  {
+    "candidate_id": "Y02-A03-F00031",
+    "group": "Y02",
+    "anchor": "A03",
+    "frame_id": "Y02-F00031",
+    "context_xyxy": [
+      180,
+      107,
+      279,
+      226
+    ],
+    "person_xyxy": [
+      185,
+      112,
+      247,
+      204
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Trái xa đeo kính: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-04",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Trái xa đeo kính"
+  },
+  {
+    "candidate_id": "Y02-A04-F00011",
+    "group": "Y02",
+    "anchor": "A04",
+    "frame_id": "Y02-F00011",
+    "context_xyxy": [
+      345,
+      74,
+      474,
+      217
+    ],
+    "person_xyxy": [
+      381,
+      80,
+      470,
+      198
+    ],
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "draft_reason": "Phải xa: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-04",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Phải xa"
+  },
+  {
+    "candidate_id": "Y02-A04-F00019",
+    "group": "Y02",
+    "anchor": "A04",
+    "frame_id": "Y02-F00019",
+    "context_xyxy": [
+      330,
+      87,
+      484,
+      222
+    ],
+    "person_xyxy": [
+      357,
+      95,
+      476,
+      207
+    ],
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "draft_reason": "Phải xa: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-04",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Phải xa"
+  },
+  {
+    "candidate_id": "Y02-A05-F00029",
+    "group": "Y02",
+    "anchor": "A05",
+    "frame_id": "Y02-F00029",
+    "context_xyxy": [
+      391,
+      92,
+      555,
+      256
+    ],
+    "person_xyxy": [
+      403,
+      100,
+      547,
+      230
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Phải giữa: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-04",
+    "qa_status": "withheld",
+    "qa_note": "Hai mặt/thân cạnh tranh; thu hẹp mất tay/bài. Vị trí A01 dùng R02; A02/A05/A06 chưa có khung đạt trong batch này.",
+    "location_description": "Phải giữa"
+  },
+  {
+    "candidate_id": "Y02-A06-F00031",
+    "group": "Y02",
+    "anchor": "A06",
+    "frame_id": "Y02-F00031",
+    "context_xyxy": [
+      453,
+      73,
+      640,
+      292
+    ],
+    "person_xyxy": [
+      462,
+      80,
+      640,
+      269
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Phải gần: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-04",
+    "qa_status": "withheld",
+    "qa_note": "Hai mặt/thân cạnh tranh; thu hẹp mất tay/bài. Vị trí A01 dùng R02; A02/A05/A06 chưa có khung đạt trong batch này.",
+    "location_description": "Phải gần"
+  },
+  {
+    "candidate_id": "Y02-A01-F00018-R02",
+    "group": "Y02",
+    "anchor": "A01",
+    "frame_id": "Y02-F00018",
+    "context_xyxy": [
+      0,
+      110,
+      137,
+      294
+    ],
+    "person_xyxy": [
+      3,
+      116,
+      137,
+      277
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Trái gần: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-04",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Trái gần"
+  },
+  {
+    "candidate_id": "Y02-A01-F00031-R02",
+    "group": "Y02",
+    "anchor": "A01",
+    "frame_id": "Y02-F00031",
+    "context_xyxy": [
+      0,
+      103,
+      137,
+      294
+    ],
+    "person_xyxy": [
+      3,
+      110,
+      137,
+      277
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Trái gần: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-04",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Trái gần"
+  },
+  {
+    "candidate_id": "Y03-A01-F00001",
+    "group": "Y03",
+    "anchor": "A01",
+    "frame_id": "Y03-F00001",
+    "context_xyxy": [
+      88,
+      249,
+      240,
+      360
+    ],
+    "person_xyxy": [
+      97,
+      258,
+      197,
+      349
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Dãy tường gần nhất: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-05",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Dãy tường gần nhất"
+  },
+  {
+    "candidate_id": "Y03-A02-F00001",
+    "group": "Y03",
+    "anchor": "A02",
+    "frame_id": "Y03-F00001",
+    "context_xyxy": [
+      84,
+      206,
+      160,
+      270
+    ],
+    "person_xyxy": [
+      91,
+      213,
+      147,
+      268
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Áo vàng dãy tường: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-05",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo vàng dãy tường"
+  },
+  {
+    "candidate_id": "Y03-A03-F00001",
+    "group": "Y03",
+    "anchor": "A03",
+    "frame_id": "Y03-F00001",
+    "context_xyxy": [
+      72,
+      156,
+      137,
+      216
+    ],
+    "person_xyxy": [
+      78,
+      162,
+      128,
+      211
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Áo tối sau áo vàng: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-05",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo tối sau áo vàng"
+  },
+  {
+    "candidate_id": "Y03-A04-F00001",
+    "group": "Y03",
+    "anchor": "A04",
+    "frame_id": "Y03-F00001",
+    "context_xyxy": [
+      66,
+      120,
+      123,
+      180
+    ],
+    "person_xyxy": [
+      72,
+      125,
+      116,
+      179
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Áo tối dãy tường hàng tiếp: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-05",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Áo tối dãy tường hàng tiếp"
+  },
+  {
+    "candidate_id": "Y03-A05-F00001",
+    "group": "Y03",
+    "anchor": "A05",
+    "frame_id": "Y03-F00001",
+    "context_xyxy": [
+      304,
+      207,
+      425,
+      316
+    ],
+    "person_xyxy": [
+      311,
+      213,
+      387,
+      301
+    ],
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "draft_reason": "Áo xanh tiền cảnh giữa: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-05",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo xanh tiền cảnh giữa"
+  },
+  {
+    "candidate_id": "Y03-A05-F00045",
+    "group": "Y03",
+    "anchor": "A05",
+    "frame_id": "Y03-F00045",
+    "context_xyxy": [
+      304,
+      181,
+      425,
+      315
+    ],
+    "person_xyxy": [
+      311,
+      189,
+      387,
+      301
+    ],
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "draft_reason": "Áo xanh tiền cảnh giữa: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-05",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo xanh tiền cảnh giữa"
+  },
+  {
+    "candidate_id": "Y03-A06-F00001",
+    "group": "Y03",
+    "anchor": "A06",
+    "frame_id": "Y03-F00001",
+    "context_xyxy": [
+      352,
+      146,
+      434,
+      230
+    ],
+    "person_xyxy": [
+      359,
+      151,
+      424,
+      218
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Áo xám sau áo xanh tiền cảnh: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-05",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo xám sau áo xanh tiền cảnh"
+  },
+  {
+    "candidate_id": "Y03-A06-F00041",
+    "group": "Y03",
+    "anchor": "A06",
+    "frame_id": "Y03-F00041",
+    "context_xyxy": [
+      352,
+      147,
+      433,
+      241
+    ],
+    "person_xyxy": [
+      359,
+      153,
+      428,
+      229
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Áo xám sau áo xanh tiền cảnh: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-05",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo xám sau áo xanh tiền cảnh"
+  },
+  {
+    "candidate_id": "Y03-A07-F00001",
+    "group": "Y03",
+    "anchor": "A07",
+    "frame_id": "Y03-F00001",
+    "context_xyxy": [
+      402,
+      130,
+      459,
+      207
+    ],
+    "person_xyxy": [
+      408,
+      135,
+      453,
+      194
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Áo trắng tay sẫm bên phải áo xám: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-05",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo trắng tay sẫm bên phải áo xám"
+  },
+  {
+    "candidate_id": "Y03-A08-F00001",
+    "group": "Y03",
+    "anchor": "A08",
+    "frame_id": "Y03-F00001",
+    "context_xyxy": [
+      259,
+      146,
+      350,
+      245
+    ],
+    "person_xyxy": [
+      265,
+      152,
+      324,
+      224
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Polo trắng giữa trái: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-05",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Polo trắng giữa trái"
+  },
+  {
+    "candidate_id": "Y03-A08-F00042",
+    "group": "Y03",
+    "anchor": "A08",
+    "frame_id": "Y03-F00042",
+    "context_xyxy": [
+      258,
+      126,
+      350,
+      238
+    ],
+    "person_xyxy": [
+      266,
+      131,
+      327,
+      213
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Polo trắng giữa trái: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-05",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Polo trắng giữa trái"
+  },
+  {
+    "candidate_id": "Y03-A09-F00001",
+    "group": "Y03",
+    "anchor": "A09",
+    "frame_id": "Y03-F00001",
+    "context_xyxy": [
+      309,
+      120,
+      366,
+      196
+    ],
+    "person_xyxy": [
+      315,
+      124,
+      356,
+      180
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Áo xanh sau polo trắng: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-05",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo xanh sau polo trắng"
+  },
+  {
+    "candidate_id": "Y03-A09-F00024",
+    "group": "Y03",
+    "anchor": "A09",
+    "frame_id": "Y03-F00024",
+    "context_xyxy": [
+      308,
+      118,
+      366,
+      196
+    ],
+    "person_xyxy": [
+      314,
+      123,
+      356,
+      181
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Áo xanh sau polo trắng: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-05",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo xanh sau polo trắng"
+  },
+  {
+    "candidate_id": "Y03-A10-F00001",
+    "group": "Y03",
+    "anchor": "A10",
+    "frame_id": "Y03-F00001",
+    "context_xyxy": [
+      347,
+      103,
+      395,
+      169
+    ],
+    "person_xyxy": [
+      352,
+      107,
+      391,
+      154
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Áo xanh hàng giữa phải: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-05",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Áo xanh hàng giữa phải"
+  },
+  {
+    "candidate_id": "Y03-A11-F00001",
+    "group": "Y03",
+    "anchor": "A11",
+    "frame_id": "Y03-F00001",
+    "context_xyxy": [
+      375,
+      84,
+      433,
+      147
+    ],
+    "person_xyxy": [
+      383,
+      89,
+      423,
+      136
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Áo xanh xa cạnh cửa sổ: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-05",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Áo xanh xa cạnh cửa sổ"
+  },
+  {
+    "candidate_id": "Y03-A12-F00001",
+    "group": "Y03",
+    "anchor": "A12",
+    "frame_id": "Y03-F00001",
+    "context_xyxy": [
+      211,
+      120,
+      271,
+      194
+    ],
+    "person_xyxy": [
+      217,
+      125,
+      258,
+      178
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Áo trắng đeo kính giữa trái: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-05",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Áo trắng đeo kính giữa trái"
+  },
+  {
+    "candidate_id": "Y03-A12-F00020",
+    "group": "Y03",
+    "anchor": "A12",
+    "frame_id": "Y03-F00020",
+    "context_xyxy": [
+      210,
+      112,
+      271,
+      207
+    ],
+    "person_xyxy": [
+      220,
+      120,
+      260,
+      188
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Áo trắng đeo kính giữa trái: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-05",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo trắng đeo kính giữa trái"
+  },
+  {
+    "candidate_id": "Y03-A13-F00001",
+    "group": "Y03",
+    "anchor": "A13",
+    "frame_id": "Y03-F00001",
+    "context_xyxy": [
+      173,
+      94,
+      225,
+      156
+    ],
+    "person_xyxy": [
+      180,
+      98,
+      218,
+      143
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Áo trắng sau vị trí đeo kính: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-05",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo trắng sau vị trí đeo kính"
+  },
+  {
+    "candidate_id": "Y03-A14-F00001",
+    "group": "Y03",
+    "anchor": "A14",
+    "frame_id": "Y03-F00001",
+    "context_xyxy": [
+      218,
+      83,
+      267,
+      142
+    ],
+    "person_xyxy": [
+      226,
+      89,
+      259,
+      131
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Áo trắng hàng xa trái giữa: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-05",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Áo trắng hàng xa trái giữa"
+  },
+  {
+    "candidate_id": "Y03-A15-F00001",
+    "group": "Y03",
+    "anchor": "A15",
+    "frame_id": "Y03-F00001",
+    "context_xyxy": [
+      258,
+      96,
+      310,
+      159
+    ],
+    "person_xyxy": [
+      266,
+      103,
+      302,
+      146
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Áo xanh ngay sau vị trí đeo kính: Đầu hơi nghiêng nhưng vẫn hướng vùng giấy; sửa looking P dự kiến thành N. Tay/vật nhỏ nên phone U.",
+    "marked": true,
+    "reference": "reference-05",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo xanh ngay sau vị trí đeo kính"
+  },
+  {
+    "candidate_id": "Y03-A16-F00001",
+    "group": "Y03",
+    "anchor": "A16",
+    "frame_id": "Y03-F00001",
+    "context_xyxy": [
+      300,
+      81,
+      348,
+      140
+    ],
+    "person_xyxy": [
+      307,
+      86,
+      340,
+      131
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Áo xanh đeo kính hàng xa: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-05",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Áo xanh đeo kính hàng xa"
+  },
+  {
+    "candidate_id": "Y04-A01-F00001",
+    "group": "Y04",
+    "anchor": "A01",
+    "frame_id": "Y04-F00001",
+    "context_xyxy": [
+      233,
+      245,
+      330,
+      329
+    ],
+    "person_xyxy": [
+      278,
+      249,
+      325,
+      292
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Bàn đơn gần nhất: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-03",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Bàn đơn gần nhất"
+  },
+  {
+    "candidate_id": "Y04-A01-F00009",
+    "group": "Y04",
+    "anchor": "A01",
+    "frame_id": "Y04-F00009",
+    "context_xyxy": [
+      234,
+      242,
+      328,
+      330
+    ],
+    "person_xyxy": [
+      273,
+      245,
+      319,
+      294
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Bàn đơn gần nhất: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-03",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Bàn đơn gần nhất"
+  },
+  {
+    "candidate_id": "Y04-A02-F00001",
+    "group": "Y04",
+    "anchor": "A02",
+    "frame_id": "Y04-F00001",
+    "context_xyxy": [
+      301,
+      190,
+      368,
+      265
+    ],
+    "person_xyxy": [
+      309,
+      194,
+      366,
+      257
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Bàn đôi gần bên phải: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-03",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Bàn đôi gần bên phải"
+  },
+  {
+    "candidate_id": "Y04-A02-F00022",
+    "group": "Y04",
+    "anchor": "A02",
+    "frame_id": "Y04-F00022",
+    "context_xyxy": [
+      301,
+      190,
+      370,
+      266
+    ],
+    "person_xyxy": [
+      310,
+      194,
+      365,
+      259
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Bàn đôi gần bên phải: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-03",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Bàn đôi gần bên phải"
+  },
+  {
+    "candidate_id": "Y04-A03-F00001",
+    "group": "Y04",
+    "anchor": "A03",
+    "frame_id": "Y04-F00001",
+    "context_xyxy": [
+      255,
+      171,
+      321,
+      236
+    ],
+    "person_xyxy": [
+      273,
+      176,
+      319,
+      225
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Bàn đôi gần bên trái: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-03",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Bàn đôi gần bên trái"
+  },
+  {
+    "candidate_id": "Y04-A03-F00030",
+    "group": "Y04",
+    "anchor": "A03",
+    "frame_id": "Y04-F00030",
+    "context_xyxy": [
+      254,
+      173,
+      323,
+      239
+    ],
+    "person_xyxy": [
+      273,
+      177,
+      320,
+      227
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Bàn đôi gần bên trái: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-03",
+    "qa_status": "withheld",
+    "qa_note": "Đầu vẫn nhìn ngoài trang; không giữ N dự kiến. Không thêm vì gần trạng thái F1.",
+    "location_description": "Bàn đôi gần bên trái"
+  },
+  {
+    "candidate_id": "Y04-A04-F00001",
+    "group": "Y04",
+    "anchor": "A04",
+    "frame_id": "Y04-F00001",
+    "context_xyxy": [
+      346,
+      168,
+      393,
+      220
+    ],
+    "person_xyxy": [
+      357,
+      171,
+      389,
+      211
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Hàng sau gần bên phải: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-03",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Hàng sau gần bên phải"
+  },
+  {
+    "candidate_id": "Y04-A05-F00001",
+    "group": "Y04",
+    "anchor": "A05",
+    "frame_id": "Y04-F00001",
+    "context_xyxy": [
+      312,
+      151,
+      356,
+      198
+    ],
+    "person_xyxy": [
+      322,
+      155,
+      353,
+      192
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Hàng sau gần bên trái: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-03",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Hàng sau gần bên trái"
+  },
+  {
+    "candidate_id": "Y04-A06-F00001",
+    "group": "Y04",
+    "anchor": "A06",
+    "frame_id": "Y04-F00001",
+    "context_xyxy": [
+      368,
+      144,
+      409,
+      188
+    ],
+    "person_xyxy": [
+      378,
+      147,
+      404,
+      178
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Hàng tiếp phía cửa sổ: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-03",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Hàng tiếp phía cửa sổ"
+  },
+  {
+    "candidate_id": "Y04-A07-F00001",
+    "group": "Y04",
+    "anchor": "A07",
+    "frame_id": "Y04-F00001",
+    "context_xyxy": [
+      337,
+      132,
+      382,
+      177
+    ],
+    "person_xyxy": [
+      349,
+      136,
+      378,
+      171
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Giữa phía cửa sổ: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-03",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Giữa phía cửa sổ"
+  },
+  {
+    "candidate_id": "Y04-A08-F00001",
+    "group": "Y04",
+    "anchor": "A08",
+    "frame_id": "Y04-F00001",
+    "context_xyxy": [
+      212,
+      136,
+      259,
+      196
+    ],
+    "person_xyxy": [
+      224,
+      140,
+      255,
+      183
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Bàn đầu dãy giữa bên phải: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-03",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Bàn đầu dãy giữa bên phải"
+  },
+  {
+    "candidate_id": "Y04-A09-F00001",
+    "group": "Y04",
+    "anchor": "A09",
+    "frame_id": "Y04-F00001",
+    "context_xyxy": [
+      165,
+      125,
+      216,
+      179
+    ],
+    "person_xyxy": [
+      175,
+      130,
+      211,
+      168
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Bàn đầu dãy giữa bên trái: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-03",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Bàn đầu dãy giữa bên trái"
+  },
+  {
+    "candidate_id": "Y04-A10-F00001",
+    "group": "Y04",
+    "anchor": "A10",
+    "frame_id": "Y04-F00001",
+    "context_xyxy": [
+      244,
+      114,
+      291,
+      173
+    ],
+    "person_xyxy": [
+      255,
+      119,
+      285,
+      163
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Bàn sau cặp giữa: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-03",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Bàn sau cặp giữa"
+  },
+  {
+    "candidate_id": "Y04-A10-F00075",
+    "group": "Y04",
+    "anchor": "A10",
+    "frame_id": "Y04-F00075",
+    "context_xyxy": [
+      243,
+      112,
+      310,
+      183
+    ],
+    "person_xyxy": [
+      253,
+      117,
+      307,
+      175
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Bàn sau cặp giữa: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-03",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Bàn sau cặp giữa"
+  },
+  {
+    "candidate_id": "Y04-A11-F00001",
+    "group": "Y04",
+    "anchor": "A11",
+    "frame_id": "Y04-F00001",
+    "context_xyxy": [
+      299,
+      95,
+      339,
+      137
+    ],
+    "person_xyxy": [
+      310,
+      100,
+      335,
+      130
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Hàng xa phía phải: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-03",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Hàng xa phía phải"
+  },
+  {
+    "candidate_id": "Y04-A12-F00001",
+    "group": "Y04",
+    "anchor": "A12",
+    "frame_id": "Y04-F00001",
+    "context_xyxy": [
+      207,
+      84,
+      244,
+      127
+    ],
+    "person_xyxy": [
+      216,
+      87,
+      239,
+      119
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Hàng xa trung tâm: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-03",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Hàng xa trung tâm"
+  },
+  {
+    "candidate_id": "Y04-A13-F00001",
+    "group": "Y04",
+    "anchor": "A13",
+    "frame_id": "Y04-F00001",
+    "context_xyxy": [
+      173,
+      91,
+      212,
+      139
+    ],
+    "person_xyxy": [
+      182,
+      97,
+      206,
+      130
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Hàng trái giữa: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-03",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Hàng trái giữa"
+  },
+  {
+    "candidate_id": "Y04-A14-F00001",
+    "group": "Y04",
+    "anchor": "A14",
+    "frame_id": "Y04-F00001",
+    "context_xyxy": [
+      121,
+      110,
+      166,
+      164
+    ],
+    "person_xyxy": [
+      129,
+      114,
+      162,
+      157
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Đầu dãy trái: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-03",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Đầu dãy trái"
+  },
+  {
+    "candidate_id": "Y05-A01-F00001",
+    "group": "Y05",
+    "anchor": "A01",
+    "frame_id": "Y05-F00001",
+    "context_xyxy": [
+      66,
+      183,
+      162,
+      284
+    ],
+    "person_xyxy": [
+      70,
+      187,
+      139,
+      251
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Áo tối bàn trái gần: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-06",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo tối bàn trái gần"
+  },
+  {
+    "candidate_id": "Y05-A01-F00005",
+    "group": "Y05",
+    "anchor": "A01",
+    "frame_id": "Y05-F00005",
+    "context_xyxy": [
+      65,
+      183,
+      158,
+      281
+    ],
+    "person_xyxy": [
+      71,
+      187,
+      138,
+      253
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Áo tối bàn trái gần: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-06",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Áo tối bàn trái gần"
+  },
+  {
+    "candidate_id": "Y05-A02-F00001",
+    "group": "Y05",
+    "anchor": "A02",
+    "frame_id": "Y05-F00001",
+    "context_xyxy": [
+      140,
+      168,
+      241,
+      271
+    ],
+    "person_xyxy": [
+      144,
+      171,
+      226,
+      235
+    ],
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "draft_reason": "Áo xanh đeo kính bàn phải gần: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-06",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo xanh đeo kính bàn phải gần"
+  },
+  {
+    "candidate_id": "Y05-A02-F00048",
+    "group": "Y05",
+    "anchor": "A02",
+    "frame_id": "Y05-F00048",
+    "context_xyxy": [
+      139,
+      156,
+      241,
+      269
+    ],
+    "person_xyxy": [
+      145,
+      164,
+      230,
+      240
+    ],
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "draft_reason": "Áo xanh đeo kính bàn phải gần: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-06",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo xanh đeo kính bàn phải gần"
+  },
+  {
+    "candidate_id": "Y05-A03-F00001",
+    "group": "Y05",
+    "anchor": "A03",
+    "frame_id": "Y05-F00001",
+    "context_xyxy": [
+      34,
+      136,
+      99,
+      210
+    ],
+    "person_xyxy": [
+      39,
+      140,
+      89,
+      198
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Dãy tường sau trái: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-06",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Dãy tường sau trái"
+  },
+  {
+    "candidate_id": "Y05-A04-F00001",
+    "group": "Y05",
+    "anchor": "A04",
+    "frame_id": "Y05-F00001",
+    "context_xyxy": [
+      86,
+      114,
+      157,
+      191
+    ],
+    "person_xyxy": [
+      94,
+      117,
+      146,
+      180
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Dãy tường sau phải: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-06",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Dãy tường sau phải"
+  },
+  {
+    "candidate_id": "Y05-A04-F00005",
+    "group": "Y05",
+    "anchor": "A04",
+    "frame_id": "Y05-F00005",
+    "context_xyxy": [
+      87,
+      114,
+      157,
+      191
+    ],
+    "person_xyxy": [
+      94,
+      117,
+      148,
+      181
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Dãy tường sau phải: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-06",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Dãy tường sau phải"
+  },
+  {
+    "candidate_id": "Y05-A05-F00001",
+    "group": "Y05",
+    "anchor": "A05",
+    "frame_id": "Y05-F00001",
+    "context_xyxy": [
+      37,
+      94,
+      85,
+      148
+    ],
+    "person_xyxy": [
+      41,
+      99,
+      76,
+      140
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Dãy tường hàng tiếp trái: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-06",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Dãy tường hàng tiếp trái"
+  },
+  {
+    "candidate_id": "Y05-A06-F00001",
+    "group": "Y05",
+    "anchor": "A06",
+    "frame_id": "Y05-F00001",
+    "context_xyxy": [
+      83,
+      76,
+      133,
+      135
+    ],
+    "person_xyxy": [
+      94,
+      82,
+      128,
+      126
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Dãy tường hàng tiếp phải: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-06",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Dãy tường hàng tiếp phải"
+  },
+  {
+    "candidate_id": "Y05-A07-F00001",
+    "group": "Y05",
+    "anchor": "A07",
+    "frame_id": "Y05-F00001",
+    "context_xyxy": [
+      266,
+      122,
+      344,
+      216
+    ],
+    "person_xyxy": [
+      273,
+      126,
+      325,
+      207
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Áo tím đầu dãy giữa: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-06",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo tím đầu dãy giữa"
+  },
+  {
+    "candidate_id": "Y05-A07-F00033",
+    "group": "Y05",
+    "anchor": "A07",
+    "frame_id": "Y05-F00033",
+    "context_xyxy": [
+      266,
+      117,
+      344,
+      212
+    ],
+    "person_xyxy": [
+      272,
+      122,
+      324,
+      203
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Áo tím đầu dãy giữa: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-06",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo tím đầu dãy giữa"
+  },
+  {
+    "candidate_id": "Y05-A08-F00001",
+    "group": "Y05",
+    "anchor": "A08",
+    "frame_id": "Y05-F00001",
+    "context_xyxy": [
+      317,
+      103,
+      369,
+      172
+    ],
+    "person_xyxy": [
+      322,
+      108,
+      359,
+      161
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Bên phải áo tím: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-06",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Bên phải áo tím"
+  },
+  {
+    "candidate_id": "Y05-A09-F00001",
+    "group": "Y05",
+    "anchor": "A09",
+    "frame_id": "Y05-F00001",
+    "context_xyxy": [
+      349,
+      92,
+      396,
+      151
+    ],
+    "person_xyxy": [
+      355,
+      97,
+      385,
+      141
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Hàng phải áo xám: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-06",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Hàng phải áo xám"
+  },
+  {
+    "candidate_id": "Y05-A10-F00001",
+    "group": "Y05",
+    "anchor": "A10",
+    "frame_id": "Y05-F00001",
+    "context_xyxy": [
+      385,
+      81,
+      433,
+      140
+    ],
+    "person_xyxy": [
+      391,
+      87,
+      423,
+      132
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Xa bên phải: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-06",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Xa bên phải"
+  },
+  {
+    "candidate_id": "Y05-A11-F00001",
+    "group": "Y05",
+    "anchor": "A11",
+    "frame_id": "Y05-F00001",
+    "context_xyxy": [
+      206,
+      94,
+      268,
+      160
+    ],
+    "person_xyxy": [
+      209,
+      99,
+      262,
+      149
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Áo xanh sau dãy giữa: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-06",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo xanh sau dãy giữa"
+  },
+  {
+    "candidate_id": "Y05-A12-F00001",
+    "group": "Y05",
+    "anchor": "A12",
+    "frame_id": "Y05-F00001",
+    "context_xyxy": [
+      255,
+      78,
+      301,
+      133
+    ],
+    "person_xyxy": [
+      262,
+      83,
+      294,
+      124
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Áo tối giữa phía sau: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-06",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Áo tối giữa phía sau"
+  },
+  {
+    "candidate_id": "Y05-A13-F00001",
+    "group": "Y05",
+    "anchor": "A13",
+    "frame_id": "Y05-F00001",
+    "context_xyxy": [
+      296,
+      70,
+      341,
+      120
+    ],
+    "person_xyxy": [
+      305,
+      75,
+      335,
+      111
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Áo xanh giữa xa: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-06",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Áo xanh giữa xa"
+  },
+  {
+    "candidate_id": "Y05-A14-F00001",
+    "group": "Y05",
+    "anchor": "A14",
+    "frame_id": "Y05-F00001",
+    "context_xyxy": [
+      332,
+      64,
+      377,
+      114
+    ],
+    "person_xyxy": [
+      339,
+      70,
+      369,
+      104
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Áo tối cuối hàng phải: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-06",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Áo tối cuối hàng phải"
+  },
+  {
+    "candidate_id": "Y05-A15-F00001",
+    "group": "Y05",
+    "anchor": "A15",
+    "frame_id": "Y05-F00001",
+    "context_xyxy": [
+      188,
+      58,
+      231,
+      110
+    ],
+    "person_xyxy": [
+      196,
+      64,
+      223,
+      101
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Áo cổ vàng giữa xa: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-06",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Áo cổ vàng giữa xa"
+  },
+  {
+    "candidate_id": "Y05-A16-F00001",
+    "group": "Y05",
+    "anchor": "A16",
+    "frame_id": "Y05-F00001",
+    "context_xyxy": [
+      227,
+      52,
+      267,
+      104
+    ],
+    "person_xyxy": [
+      232,
+      58,
+      261,
+      96
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Áo xanh bên phải cổ vàng: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-06",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Áo xanh bên phải cổ vàng"
+  },
+  {
+    "candidate_id": "Y06-A01-F00033",
+    "group": "Y06",
+    "anchor": "A01",
+    "frame_id": "Y06-F00033",
+    "context_xyxy": [
+      373,
+      49,
+      557,
+      356
+    ],
+    "person_xyxy": [
+      382,
+      57,
+      552,
+      353
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Blouse trắng tiền cảnh panel trái: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-02",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Blouse trắng tiền cảnh panel trái"
+  },
+  {
+    "candidate_id": "Y06-A02-F00064",
+    "group": "Y06",
+    "anchor": "A02",
+    "frame_id": "Y06-F00064",
+    "context_xyxy": [
+      150,
+      4,
+      291,
+      190
+    ],
+    "person_xyxy": [
+      156,
+      9,
+      279,
+      176
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Áo trắng đeo kính ở góc đối diện: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-02",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Áo trắng đeo kính ở góc đối diện"
+  },
+  {
+    "candidate_id": "Y06-A03-F00001",
+    "group": "Y06",
+    "anchor": "A03",
+    "frame_id": "Y06-F00001",
+    "context_xyxy": [
+      0,
+      0,
+      180,
+      302
+    ],
+    "person_xyxy": [
+      0,
+      1,
+      174,
+      269
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Gile đen đeo kính cạnh người đọc: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-02",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Gile đen đeo kính cạnh người đọc"
+  },
+  {
+    "candidate_id": "Y06-A04-F00001",
+    "group": "Y06",
+    "anchor": "A04",
+    "frame_id": "Y06-F00001",
+    "context_xyxy": [
+      221,
+      1,
+      454,
+      303
+    ],
+    "person_xyxy": [
+      229,
+      4,
+      448,
+      288
+    ],
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "draft_reason": "Người đọc sách xanh: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": true,
+    "reference": "reference-02",
+    "qa_status": "withheld",
+    "qa_note": "Thay bằng R02 để bỏ chữ sát mép dưới, giữ đủ sách/tay.",
+    "location_description": "Người đọc sách xanh"
+  },
+  {
+    "candidate_id": "Y06-A04-F00064",
+    "group": "Y06",
+    "anchor": "A04",
+    "frame_id": "Y06-F00064",
+    "context_xyxy": [
+      280,
+      28,
+      490,
+      286
+    ],
+    "person_xyxy": [
+      287,
+      33,
+      480,
+      278
+    ],
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "draft_reason": "Người đọc sách xanh: Góc cạnh, đầu hướng sách đang cầm; hai tay giữ trang, không có thiết bị mơ hồ còn lộ. Không gán phone bàn tiền cảnh cho người đọc.",
+    "marked": true,
+    "reference": "reference-02",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Người đọc sách xanh"
+  },
+  {
+    "candidate_id": "Y06-A05-F00001",
+    "group": "Y06",
+    "anchor": "A05",
+    "frame_id": "Y06-F00001",
+    "context_xyxy": [
+      450,
+      0,
+      640,
+      285
+    ],
+    "person_xyxy": [
+      459,
+      1,
+      638,
+      221
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Gile chống cằm sau người đọc: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-02",
+    "qa_status": "withheld",
+    "qa_note": "Mắt nhìn xuống nhưng đích chưa rõ; vật xám trên bàn chưa phân loại. Không đủ known target.",
+    "location_description": "Gile chống cằm sau người đọc"
+  },
+  {
+    "candidate_id": "Y06-A06-F00036",
+    "group": "Y06",
+    "anchor": "A06",
+    "frame_id": "Y06-F00036",
+    "context_xyxy": [
+      42,
+      4,
+      268,
+      325
+    ],
+    "person_xyxy": [
+      54,
+      10,
+      259,
+      314
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Khoác viền đỏ sau người đọc: Nhìn sang trái ngoài bàn; bàn tay còn lại nằm dưới cánh tay/mép nguồn nên phone U.",
+    "marked": true,
+    "reference": "reference-02",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Khoác viền đỏ sau người đọc"
+  },
+  {
+    "candidate_id": "Y06-A07-F00012",
+    "group": "Y06",
+    "anchor": "A07",
+    "frame_id": "Y06-F00012",
+    "context_xyxy": [
+      210,
+      85,
+      300,
+      236
+    ],
+    "person_xyxy": [
+      219,
+      90,
+      294,
+      222
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Áo trắng hàng cuối bên trái: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-02",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Áo trắng hàng cuối bên trái"
+  },
+  {
+    "candidate_id": "Y06-A08-F00012",
+    "group": "Y06",
+    "anchor": "A08",
+    "frame_id": "Y06-F00012",
+    "context_xyxy": [
+      261,
+      72,
+      360,
+      252
+    ],
+    "person_xyxy": [
+      272,
+      79,
+      352,
+      235
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Áo trắng hàng cuối bên phải: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-02",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Áo trắng hàng cuối bên phải"
+  },
+  {
+    "candidate_id": "Y06-A09-F00027",
+    "group": "Y06",
+    "anchor": "A09",
+    "frame_id": "Y06-F00027",
+    "context_xyxy": [
+      277,
+      27,
+      426,
+      356
+    ],
+    "person_xyxy": [
+      296,
+      34,
+      416,
+      350
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Gile đen cuối lối đi: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-02",
+    "qa_status": "withheld",
+    "qa_note": "Crop ngồi ở lối đi thiếu bàn/bài riêng; vật trên đùi mơ hồ. Chưa đủ looking P.",
+    "location_description": "Gile đen cuối lối đi"
+  },
+  {
+    "candidate_id": "Y06-A10-F00029",
+    "group": "Y06",
+    "anchor": "A10",
+    "frame_id": "Y06-F00029",
+    "context_xyxy": [
+      408,
+      110,
+      489,
+      242
+    ],
+    "person_xyxy": [
+      412,
+      115,
+      482,
+      220
+    ],
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "draft_reason": "Gile khoanh tay giữa phải: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-02",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Gile khoanh tay giữa phải"
+  },
+  {
+    "candidate_id": "Y06-A11-F00029",
+    "group": "Y06",
+    "anchor": "A11",
+    "frame_id": "Y06-F00029",
+    "context_xyxy": [
+      397,
+      118,
+      442,
+      198
+    ],
+    "person_xyxy": [
+      404,
+      121,
+      439,
+      190
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Đầu khoanh sau trái gile giữa phải: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-02",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Đầu khoanh sau trái gile giữa phải"
+  },
+  {
+    "candidate_id": "Y06-A12-F00029",
+    "group": "Y06",
+    "anchor": "A12",
+    "frame_id": "Y06-F00029",
+    "context_xyxy": [
+      464,
+      112,
+      509,
+      191
+    ],
+    "person_xyxy": [
+      468,
+      116,
+      504,
+      183
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Đầu khoanh sau phải gile giữa phải: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-02",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Đầu khoanh sau phải gile giữa phải"
+  },
+  {
+    "candidate_id": "Y06-A13-F00033",
+    "group": "Y06",
+    "anchor": "A13",
+    "frame_id": "Y06-F00033",
+    "context_xyxy": [
+      162,
+      53,
+      304,
+      278
+    ],
+    "person_xyxy": [
+      171,
+      58,
+      284,
+      215
+    ],
+    "draft_states": [
+      "N",
+      "U"
+    ],
+    "draft_reason": "Blouse trắng chống cằm: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng/đích nhìn bị che hoặc thiếu context, chưa đủ known target.",
+    "marked": true,
+    "reference": "reference-02",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Blouse trắng chống cằm"
+  },
+  {
+    "candidate_id": "Y06-A14-F00033",
+    "group": "Y06",
+    "anchor": "A14",
+    "frame_id": "Y06-F00033",
+    "context_xyxy": [
+      261,
+      27,
+      360,
+      205
+    ],
+    "person_xyxy": [
+      272,
+      33,
+      350,
+      180
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Gile đen sau blouse trắng: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "marked": true,
+    "reference": "reference-02",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Gile đen sau blouse trắng"
+  },
+  {
+    "candidate_id": "Y06-A15-F00064",
+    "group": "Y06",
+    "anchor": "A15",
+    "frame_id": "Y06-F00064",
+    "context_xyxy": [
+      75,
+      49,
+      198,
+      224
+    ],
+    "person_xyxy": [
+      82,
+      53,
+      192,
+      212
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Gile bàn trái góc đối diện, mapping chưa chắc: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "marked": false,
+    "reference": "reference-02",
+    "qa_status": "withheld",
+    "qa_note": "Không đề xuất: source/native/input thiếu hướng nhìn chắc, che phần cần thiết hoặc người khác cạnh tranh anchor. Các state lưu là giả thuyết trước QA, không là nhãn được giữ.",
+    "location_description": "Gile bàn trái góc đối diện, mapping chưa chắc"
+  },
+  {
+    "candidate_id": "Y06-A04-F00001-R02",
+    "group": "Y06",
+    "anchor": "A04",
+    "frame_id": "Y06-F00001",
+    "context_xyxy": [
+      221,
+      1,
+      454,
+      281
+    ],
+    "person_xyxy": [
+      229,
+      4,
+      448,
+      280
+    ],
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "draft_reason": "Người đọc sách xanh: Đầu hướng sách xanh, hai tay giữ sách; absence trong vùng nhìn thấy theo ngoại lệ giấy che hoàn toàn. R02 bỏ chữ sát mép dưới.",
+    "marked": true,
+    "reference": "reference-02",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "location_description": "Người đọc sách xanh"
+  }
+]

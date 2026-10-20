@@ -1,0 +1,6 @@
+{
+  "geometry_qa":[
+    {"id":"V7-OE-S023-A01-R03","result":"pass_draft","states":["P","N"],"note":"Crop mới giữ trọn đầu, tay trên chuột và vùng đùi được owner xác nhận phone; mặt nền chỉ còn phần nhỏ tại mép trên, anchor trội. Phone P ghi theo xác nhận riêng của owner, chi tiết vật ở input không tự chứng minh ID; cần review bản mới. Đầu theo màn hình riêng nên đề xuất looking N. Đây là đề xuất giữ lại sau ghi chú exclude/P/P mâu thuẫn, chưa coi là nghiệm thu membership."}
+  ],
+  "owner_confirmation_scope":"Câu trả lời về kinh nghiệm nhìn thực tế là phone được ghi nhận đúng hai ca đã hỏi; không diễn giải thành approval geometry mới hoặc thay toàn bộ rubric."
+}

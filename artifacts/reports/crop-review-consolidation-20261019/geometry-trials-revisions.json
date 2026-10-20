@@ -1,0 +1,13 @@
+[
+  {"parent":"V6-CA-011","id":"V6-CA-011-R04","person":[0,40,175,450],"context":[0,30,179,467],"states":["P","N"],"reason":"Nới mép phải giữ toàn bộ mặt; cụm camera trên lưng vàng cần còn rõ ở input."},
+  {"parent":"V7-D-018","id":"V7-D-018-R04","person":[118,105,205,359],"context":[110,98,210,378],"states":["U","N"],"reason":"Giảm phần mặt nam cạnh phải; giữ bàn tay trên sách nếu còn đủ."},
+  {"parent":"V7-D-022","id":"V7-D-022-R04","person":[88,78,334,426],"context":[78,68,340,450],"states":["U","P"],"reason":"Nới trên/dưới giữ tóc và vùng tay chỉ, không thêm mặt nam phải."},
+  {"parent":"V7-OE-S066-A02","id":"V7-OE-S066-A02-R04","person":[268,52,460,435],"context":[260,44,469,490],"states":["P","N"],"reason":"Nới phải và dưới để giữ trọn phone mặt trước trên bàn."},
+  {"parent":"V7-C-116","id":"V7-C-116-R04","person":[0,40,212,355],"context":[0,32,218,375],"states":["N","P"],"reason":"Giảm chân để giữ mặt/hai tay rõ hơn ở input, không thêm mặt người phải."},
+  {"parent":"V7-D-038","id":"V7-D-038-R04","person":[36,142,283,446],"context":[25,134,295,446],"states":["P","N"],"reason":"Nới phải để giữ đủ ngón tay chỉ và phone, không thêm mặt nam phía trên."},
+  {"parent":"V6-EX-029","id":"V6-EX-029-R04","person":[0,0,355,550],"context":[0,0,365,568],"states":["U","P"],"reason":"Nới phải giữ đầy đủ tóc/mặt nam, vẫn tránh mặt nữ chính bên cạnh."},
+  {"parent":"V6-EX-031","id":"V6-EX-031-R04","person":[335,0,630,535],"context":[325,0,640,552],"states":["N","P"],"reason":"Nới trái giữ toàn bộ mặt nam, kiểm phần nữ cạnh quay lại khung."},
+  {"parent":"V6-EX-035","id":"V6-EX-035-R04","person":[159,149,233,290],"context":[153,140,239,300],"states":["N","P"],"reason":"Nới trên giữ tóc anchor, giữ cùng panel montage."},
+  {"parent":"V6-EX-040","id":"V6-EX-040-R04","person":[65,398,151,575],"context":[55,389,157,588],"states":["N","N"],"reason":"Nới trên để giữ tóc và thu phải để giảm mặt nam sau."},
+  {"parent":"V7-D-050","id":"V7-D-050-R04","person":[277,470,583,859],"context":[265,455,594,879],"states":["P","N"],"reason":"Nới trên giữ đủ tóc/đầu nam giữa, vẫn giữ phone trên đùi và hai tay."}
+]

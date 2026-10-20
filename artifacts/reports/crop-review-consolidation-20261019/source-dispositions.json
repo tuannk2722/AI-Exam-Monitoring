@@ -1,0 +1,7 @@
+[
+  {"id":"V6R2-SB-014","action":"propose_exclusion","reason":"Đã xem nguồn riêng và R03/R04: tay nâng bút nằm sát mặt nam phía sau. Muốn giữ cả tay và đầu người trước phải lấy gần trọn mặt phía sau; thu hẹp cắt tay/tóc. Không có geometry một anchor đủ bằng chứng trong nguồn hiện có."},
+  {"id":"V6R2-SB-018","action":"propose_exclusion","reason":"Nguồn và R03/R04 cho tay viết vươn trái ngay dưới mặt người đội băng xanh. Giữ toàn bộ bàn tay/phụ kiện đầu kéo nửa mặt cùng cỡ vào crop; chưa có phương án tách phù hợp, đề xuất rút crop hiện tại."},
+  {"id":"E004-CN-046","action":"propose_exclusion","reason":"Người đọc tiền cảnh giữ sách dựng sang phải; rectangle giữ toàn đầu/sách bao cả mặt người sau phải gần cùng cỡ. Source đã thiếu một phần tay tại đáy, nới không phục hồi. Không giữ R03 chỉ để có looking N khi attribution cạnh tranh."},
+  {"id":"E004-CN-056","action":"propose_exclusion","reason":"R03 cắt tóc; R04 khôi phục tóc nhưng mặt người sau trái còn gần trọn, tương đương mặt chính. Nguồn 640 px cho hai đầu sát nhau, không tìm được rectangle giữ đúng đầu/tay và giảm mặt cạnh tranh."},
+  {"id":"E004-EX-C183","action":"propose_exclusion","reason":"R03/R04 đều còn profile người sau sát khăn của người viết. Thu mép trên thêm sẽ cắt khăn/đầu; giữ tay phải cần mép phải bao vùng mặt sau. Đề xuất rút thay vì coi recrop chưa đạt là hoàn tất."}
+]

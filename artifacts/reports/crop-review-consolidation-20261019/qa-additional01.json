@@ -1,0 +1,14 @@
+{
+  "geometry_qa": [
+    {"id":"ADD-Y01-F00004-M01","result":"pass_draft","states":["U","N"],"note":"Một người trội, hai tay cạnh đầu và sổ riêng giữ rõ; vật đen mép trái chưa đủ ID/attribution nên U. Đầu cúi theo sổ."},
+    {"id":"ADD-Y01-F00007-M01","result":"needs_revision","states":["N","N"],"note":"Mặt nữ kính phía sau còn nguyên và cùng cỡ; không đạt một anchor trội."},
+    {"id":"ADD-Y01-F00038-M03","result":"pass_draft","states":["P","N"],"note":"Phone mặt kính và viền trên bàn giữ rõ, hai tay bút/giấy và đầu cúi theo bài. Không mặt cạnh tranh; bổ sung looking N so với ca P/U cũ F98."},
+    {"id":"ADD-Y01-F00050-M01","result":"pass_draft","states":["N","P"],"note":"Một mặt chính ngẩng trước, hai tay trên trang đủ thấy; không vật nghi phone. Khác hướng viết ở đại diện cũ."},
+    {"id":"ADD-Y01-F00051-M01","result":"withheld_duplicate","states":["U","P"],"note":"Tay thiếu tại biên source; ưu tiên thử F99 với hai tay/ngữ cảnh đầy đủ hơn làm đại diện hướng ngẩng. F99 vẫn cần sửa."},
+    {"id":"ADD-Y01-F00094-M01","result":"pass_draft","states":["N","P"],"note":"Tay tựa cằm và tay đặt ngang trên bàn đều rõ; không mobile trong vùng riêng. Đầu hướng lên phải khỏi giấy; người sau chỉ còn tóc/thân."},
+    {"id":"ADD-Y01-F00096-M02","result":"needs_revision","states":["U","P"],"note":"Mặt người trước lớn hơn anchor và đỉnh đầu chính bị cắt; không đạt."},
+    {"id":"ADD-Y01-F00099-M01","result":"needs_revision","states":["U","P"],"note":"Hai tay đủ nhưng vật trắng mép trái bị cắt; cần nới lấy trọn vật để xét phone thay vì tạo ambiguity do crop."}
+  ],
+  "additional_original_boards_viewed":[1,2,3],
+  "additional_marked_boards_viewed":[1,2,3]
+}

@@ -1,0 +1,19 @@
+{
+  "geometry_qa": [
+    {"id":"V6R2-MP-089-R03","result":"needs_revision","states":["U","N"],"note":"Chỏm tóc bị cắt; cần nới trên để giữ đầu, vật trong tay vẫn chưa đủ phone ID."},
+    {"id":"V6R2-MP-092-R03","result":"needs_revision","states":["P","P"],"note":"Mặt người sau sát bên phải còn rõ; cần điều chỉnh không cắt tay/vật trên bàn."},
+    {"id":"V6R2-SB-002-R03","result":"needs_revision","states":["U","N"],"note":"Tay/vật bị mép trái che bởi thân tiền cảnh; tóc sát trên. Chưa đủ geometry mới."},
+    {"id":"V6R2-SB-009-R03","result":"needs_revision","states":["U","N"],"note":"Đã lấy thêm tay/sách nhưng người trái vẫn sát và hình méo theo nguồn; cần xem rõ attribution tại native lớn."},
+    {"id":"V6R2-SB-013-R03","result":"needs_revision","states":["N","N"],"note":"Cắt đỉnh đầu anchor, cần nới trên; tay viết và tay giữ bài vẫn đủ."},
+    {"id":"V6R2-SB-014-R03","result":"needs_revision","states":["U","N"],"note":"Tay nâng bút và tóc chạm/cắt mép trên; cần nới để giữ trọn bằng chứng."},
+    {"id":"V6R2-SB-015-R03","result":"needs_revision","states":["N","N"],"note":"Đỉnh đầu bị cắt và nửa mặt người sau vẫn rõ; cần nới và kiểm tương quan hai người."},
+    {"id":"V6R2-SB-018-R03","result":"needs_revision","states":["N","N"],"note":"Phụ kiện đầu sát/cắt mép trên, tay viết sát mép trái. Cần nới giữ toàn bộ tay trước xác nhận N."},
+    {"id":"V7-B-018-R03","result":"needs_revision","states":["N","N"],"note":"Tay phải anchor cắt ở mép phải và tóc sát trên; cần nới mà tránh mặt người bên."},
+    {"id":"V7-B-024-R03","result":"needs_revision","states":["N","P"],"note":"Cắt chỏm tóc và khuỷu tay trái để tránh nhóm, geometry chưa đạt."}
+  ],
+  "recrop_source_boards_viewed": [37,38,39],
+  "source_only_followup": [
+    {"id":"V6R2-SB-001","note":"Cùng cảnh/anchor gần SB008, cần chọn một đại diện sau kiểm source/input; chưa tạo bản lặp mới."},
+    {"id":"V6R2-SB-008","note":"Nam trước cùng vị trí MP024 nhưng khác tư thế sách/tay, mặt sau sát. Chưa có rectangle tách tốt, không tự gộp chỉ vì cùng vị trí."}
+  ]
+}

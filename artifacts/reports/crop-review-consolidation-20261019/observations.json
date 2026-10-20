@@ -1,0 +1,27 @@
+{
+  "status": "in_progress_not_final",
+  "viewed_crop_boards": [1, 2, 3, 4, 5, 6, 7],
+  "viewed_additional_boards": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+  "additional_mapping": {"1": "Y01", "2": "Y02", "3": "Y04", "4": "Y05", "5": "Y06"},
+  "additional_observations": [
+    "Nhóm 1: dấu xanh khoanh nhiều người ở mỗi frame; phải xét từng vùng, nhất là các người ngồi hàng sau và phần tay bị người trước che. F39 người áo ghi-lê nhìn xuống trang có phone ở góc bàn; so với crop Y01-A14-F00039 trước khi tạo thêm.",
+    "Nhóm 2: người giữa mỗi dãy bị người trước che vùng tay; không hứa có crop chỉ từ vòng đánh dấu đầu. F24 người trái trước và F44 người phải sau có thể tách; các người phải trước có phone trên bàn nhưng phải giữ đủ tay và kiểm khuôn mặt người giữa trong khung.",
+    "Nhóm 3 = Y04, nguồn 480 x 360. Dấu gạch xanh chỉ vị trí người, không dùng pixel ảnh đánh dấu để crop. Một số người đã có crop ở F1/F22; cần kiểm anchor/frame trước thêm.",
+    "Nhóm 4 = Y05: F2 ba vị trí, F10 một vị trí, F69 ba vị trí, F71 hai vị trí; so với tám crop đã duyệt. F69 người trái bị mép nguồn/đầu trước che.",
+    "Nhóm 5 = Y06: F95 có hai người quay lưng/che vùng tay cần giữ unknown hoặc không chọn, người nữ trắng bên phải còn rõ hướng mặt. F3/F12/F33/F60 có tay chống mặt nhưng vẫn có phần tay/bàn nhìn được; phải phân biệt absence với tay mất thực sự."
+  ],
+  "legacy_observations": {
+    "V6-CA-011": "Đã xem nguồn nguyên bản: mặt người sau sát ngay đầu anchor trái, tay chồng lên người giữa; cần thử geometry, chưa khẳng định cứu được.",
+    "V6-CA-012": "Đã xem nguồn: có thể thu hẹp bỏ mặt bạn trái, giữ camera trên máy và hai tay anchor phải. Cần kiểm input 224 của khung mới.",
+    "V6-CA-014": "Nguồn có thêm người trái cầm thiết bị có mặt sáng và nữ phải cầm máy màu hồng. Phải kiểm riêng hướng nhìn và việc source cắt người trái.",
+    "V6-CA-015": "Một người phải trội, các mặt nền mờ nhỏ hơn. Có thể thu hẹp vẫn giữ hai tay và sách; nhãn cần kiểm lại sau crop.",
+    "V6-CA-023": "Nguồn đủ đầu/tay người nam giữa; thu hẹp để loại mặt hai người cạnh.",
+    "V6-CA-025": "Source vẫn mất tay phải ở mép, mở crop không khôi phục được. Đồng ý phone U; hướng ra ngoài vùng riêng P.",
+    "V6-CA-030": "Tay trái đã mất ở biên source; không thể cứu absence bằng recrop. U/P phù hợp nhận xét owner.",
+    "V6R2-CA-001": "Vật cạnh má có cạnh tối dài; cần kiểm source/input riêng để chốt P/U. Owner giải thích nhận định phone dựa kinh nghiệm thực tế.",
+    "V6R2-CA-008": "Nguồn nhiều bàn viết, có thiết bị trên bàn; xét thêm các vùng bàn giữa/phải, không tự kế thừa phone của bàn bên cạnh.",
+    "V7-B-039/V7-B-040": "Cùng cảnh và vị trí gần nhưng hành vi khác: một crop cầm vật, một crop viết. Không loại chỉ vì cùng bố cục.",
+    "V7-B-055": "Hai người sát và tay cùng vùng; yêu cầu tách phải kiểm có làm mất vùng tay/phone hoặc còn mặt người cạnh không.",
+    "V7-D-002": "Hai đầu gần nhau, ghế tiền cảnh che tay. Có thể không đủ hình học để tách hai crop hữu ích; chưa chốt."
+  }
+}

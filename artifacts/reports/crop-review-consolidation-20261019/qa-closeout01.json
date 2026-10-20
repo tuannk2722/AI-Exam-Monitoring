@@ -1,0 +1,19 @@
+{
+ "source_review":"Đã kiểm nguồn và vùng nguồn mở rộng cho hàng đợi recrop; native/input 224 của 14 trial closeout01 đều đã xem.",
+ "geometry_qa":[
+  {"id":"V7-D-010-R04","result":"needs_revision","states":["U","N"],"note":"Anchor áo xanh trội nhưng còn tay/thiết bị đỏ của người trước ở đáy; cần bỏ phần đó, giữ hai tay cầm vật chính."},
+  {"id":"V7-OE-S071-A01-R04","result":"needs_revision","states":["U","N"],"note":"Nới trái vẫn chưa giữ hết ngón tay/vật của nữ, đã đưa lại mắt và phần mặt nam cùng cỡ ở mép trái. Không tìm được rectangle đáp ứng cả hai."},
+  {"id":"V7-R8-D-001-R04","result":"needs_revision","states":["U","N"],"note":"Mặt nữ đã bỏ nhưng tay nữ lớn vẫn chồng tablet và phần tay phải của nam sát mép; khung quá hẹp, không giữ N từ thiếu vùng thao tác."},
+  {"id":"V7-B-107-R04","result":"pass_draft","states":["N","N"],"note":"Nam bên phải trội, đầu và hai tay thao tác bàn phím còn rõ ở native/input 224; nữ chỉ còn phần tóc/mép mặt nhỏ và thân bên trái. Vùng nhìn thấy không có vật mơ hồ, hướng laptop riêng."},
+  {"id":"EXP-RF-006-R04","result":"pass_draft","states":["U","N"],"note":"Đã giảm nền trái có chữ, giữ toàn vùng nguồn còn có của hai tay/bài. Chữ còn trên nền dưới tay, không che tay viết; mép bàn tay phải chạm biên nguồn nên thận trọng phone U thay N. Đầu hướng bài rõ tại input."},
+  {"id":"EXP-RF-023-R04","result":"pass_draft","states":["U","P"],"note":"Đã lấy lại bàn tay trao giấy bên trái; người nam áo kẻ trội và quay sang người trái. Tiền cảnh chỉ còn tóc, watermark ở dưới không che hướng đầu; tay còn lại bị che nên phone U. Không sửa/xóa overlay."},
+  {"id":"V7-OE-S087-A01-R04","result":"pass_draft","states":["N","N"],"note":"Nữ viết trội, đủ tóc/hai tay/giấy; người sau chỉ còn miệng/cằm sát mép trên. Không có mobile/vật mơ hồ trong vùng thao tác và đầu theo bài. Đã kiểm input 224."},
+  {"id":"V7-OE-S088-A01-R04","result":"pass_draft","states":["N","N"],"note":"Đã thấy cả tay giữ sách và tay thả cạnh bàn, vùng thao tác không có vật mơ hồ; hướng sách riêng. Người sau chỉ còn góc má/tai nhỏ ở mép phải trên, không có mắt/mặt đầy đủ. Đề xuất N/N thay U/N nhờ vùng tay phục hồi."},
+  {"id":"V6-SB-029-R04","result":"needs_revision","states":["N","P"],"note":"Chỏm tóc chính còn sát/cắt mép trên; nới thêm sẽ lấy lại mặt phía sau. Không công nhận chỉ vì hai tay đã rõ."},
+  {"id":"V6-SB-032-R04","result":"needs_revision","states":["U","P"],"note":"Tóc chính sát/cắt mép trên, phần mặt phía sau vẫn tương đương tại input. Chưa đạt đơn anchor."},
+  {"id":"V6-SB-034-R04","result":"needs_revision","states":["N","N"],"note":"Nới giữ tay làm mặt nam bên phải quay lại gần trọn cùng cỡ; không giải quyết được xung đột tay và mặt cạnh tranh."},
+  {"id":"V6R2-MP-080-R04","result":"needs_revision","states":["P","N"],"note":"Phone rõ nhưng tóc chính chạm mép trên và miệng/người sau còn sát; cần một lần kiểm biên trên cuối trước quyết định."},
+  {"id":"V6R2-SB-009-R04","result":"pass_draft","states":["U","N"],"note":"Đã nới đủ phần đầu/thân nhìn thấy và tay/bài nữ áo xanh ở mép nguồn; người trái chỉ còn tóc/thân. Nguồn bị méo và vật nhỏ không cho phone N, giữ U; hướng cúi theo trang riêng vẫn đọc được ở input. Không hiệu chỉnh méo hoặc bịa chi tiết."},
+  {"id":"E004-CN-052-R04","result":"needs_revision","states":["U","U"],"note":"Tách mặt trái thì cắt bàn tay viết của anchor; tóc che kín mặt/đích. Bản mới không đủ known target. Nới trái phục hồi tay sẽ kéo lại mặt người cạnh."}
+ ]
+}

@@ -1,0 +1,82 @@
+{
+  "status": "accepted_crop_labels_geometry_and_membership",
+  "authority": "Owner chat: reviewed; unmentioned crops approved; finalize and release V12.",
+  "snapshot_sha256": "fa7530fe64f083d5264c02d28dd46bc2d03acda5876a0ce41a0d27bb4a4d4ee4",
+  "exceptions": [
+    {
+      "id": "ADD-Y01-F00004-M01",
+      "decision": "P/N"
+    },
+    {
+      "id": "ADD-Y06-F00027-M01",
+      "decision": "N/P"
+    },
+    {
+      "id": "ADD-Y06-F00012-M02",
+      "decision": "N/U"
+    },
+    {
+      "id": "ADD-Y05-F00069-M02",
+      "decision": "U/P"
+    },
+    {
+      "id": "V7-OE-S042-A01-R03",
+      "decision": "exclude"
+    },
+    {
+      "id": "V7-PF-C-003-R03",
+      "decision": "exclude"
+    },
+    {
+      "id": "EXP-RF-006-R04",
+      "decision": "N/N"
+    },
+    {
+      "id": "V6R2-CA-008-ADD04",
+      "decision": "P/N"
+    },
+    {
+      "id": "V7-OE-S076-A01-R04",
+      "decision": "N/N"
+    },
+    {
+      "id": "V7-A-004-R05",
+      "decision": "P/N"
+    },
+    {
+      "id": "V7-OE-S043-A02-R04",
+      "decision": "P/P"
+    },
+    {
+      "id": "V7-OE-S090-A01-R05",
+      "decision": "N/U"
+    },
+    {
+      "id": "V7-OE-S023-A01-R03",
+      "decision": "exclude"
+    },
+    {
+      "id": "V6R2-CA-009-R03",
+      "decision": "P/P"
+    },
+    {
+      "id": "V6R2-EX-010-R06, V6-EX-027",
+      "decision": "Giữ  V6-EX-027 N/P, loại V6R2-EX-010-R06"
+    },
+    {
+      "id": "V6-EX-022 / V6-EX-027",
+      "decision": "Owner chat: Chỉ giữ V6-EX-027"
+    }
+  ],
+  "excluded_proposals": [
+    "V7-OE-S042-A01-R03",
+    "V7-PF-C-003-R03",
+    "V7-OE-S023-A01-R03",
+    "V6R2-EX-010-R06",
+    "V6-EX-022"
+  ],
+  "accepted_audit_crops": 681,
+  "new_split_assignment_approved": false,
+  "training_authorized": false,
+  "test_inference_authorized": false
+}

@@ -1,0 +1,10 @@
+{
+  "archive": "archive/dataset-release-20261020-v12.zip",
+  "sha256": "1aa65ec020d010cf362d9925d347052d5ad2a742fef3aa53c63fd51641e3a06d",
+  "files": 3725,
+  "archive_bytes": 426777489,
+  "byte_exact_restore": "PASS",
+  "scope": "local_same_drive_no_upload",
+  "restore_destination": "_v12r",
+  "note": "Short restore root avoids Windows MAX_PATH; initial longer scratch restore failed before completion."
+}

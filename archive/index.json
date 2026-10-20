@@ -194,6 +194,21 @@
         "restored_files": 2906,
         "receipt": "artifacts/reports/dataset-release-20261017/backup-receipt.json"
       }
+    },
+    {
+      "name": "dataset-release-20261020-v12",
+      "path": "archive/dataset-release-20261020-v12.zip",
+      "sha256": "1aa65ec020d010cf362d9925d347052d5ad2a742fef3aa53c63fd51641e3a06d",
+      "files": 3725,
+      "archive_bytes": 426777489,
+      "scope": "local_only",
+      "owner_authorization": "Owner approved V12 release; local preservation only.",
+      "validation": {
+        "byte_exact_restore": "PASS",
+        "restored_files": 3725,
+        "receipt": "artifacts/reports/dataset-release-20261020-v12/backup-receipt.json",
+        "storage": "Standalone ZIP; same drive, no remote upload"
+      }
     }
   ]
 }

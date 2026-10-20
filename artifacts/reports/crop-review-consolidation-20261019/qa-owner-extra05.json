@@ -1,0 +1,10 @@
+{"geometry_qa":[
+{"id":"V6R2-EX-010-R06","result":"pass_draft","states":["U","P"],"note":"Tay trái đầy đủ, đầu quay trái rõ, tay phải vẫn mất ở biên nguồn đáy nên U. Native/input một người trội."},
+{"id":"SCB-read-015-ADD01-R03","result":"needs_revision","states":["N","P"],"note":"Mặt nền đã bỏ nhưng tóc người trước sát/cắt trên; cần nới vài pixel, không quay lại khung rộng R02."},
+{"id":"SCB-write-023-R06","result":"pass_draft","states":["N","N"],"note":"Đầu/tóc và hai tay viết đủ, chỉ thân người nền; hướng bài rõ tại native/input."},
+{"id":"SCB-write-027-R06","result":"pass_draft","states":["N","P"],"note":"Đã đủ tóc và hai tay trên sách, đầu quay khỏi trang; tín hiệu còn rõ tại input dù nguồn nén."},
+{"id":"V7-C-004-R06","result":"needs_revision","states":["N","P"],"note":"Tóc/mặt nam còn cắt trái và mặt nữ sau cạnh tranh; khung này không đạt."},
+{"id":"V7-C-010-R06","result":"pass_draft","states":["U","N"],"note":"Nữ chính trội, tóc đủ, đầu theo vùng viết; tay phải và bàn có phần che nên phone U. Người cạnh chỉ phần thân, input đủ looking N."},
+{"id":"V7-B-022-R06","result":"pass_draft","states":["N","N"],"note":"Hai tay viết/giữ giấy đủ sau nới phải, đầu tóc đầy đủ, không mặt cạnh tranh; input đạt."},
+{"id":"V6-SB-003-ADD01-R03","result":"pass_draft","states":["U","P"],"note":"Đã bỏ chân/nền dư, giữ tóc và hai vùng tay. Vật hồng chưa đủ phone ID; đầu hướng khỏi bài. Mặt nền chỉ một phần nhỏ hơn, không che hành vi; native/input đạt."}
+]}

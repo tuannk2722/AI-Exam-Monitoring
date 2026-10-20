@@ -4,7 +4,15 @@ Index theo đối tượng; không là bảng metrics hoặc backlog. Hồ sơ �
 
 ## Releases và nghiên cứu dữ liệu
 
-[Release V11 ngày 17/10](dataset-release-20261017/README.md): dataset hiện hành đã đóng gói từ allocation và 270 crop nghiệm thu; có pointer, kiểm rebuild, backup local và cleanup; không chạy train.
+[Release V12 ngày 20/10](dataset-release-20261020-v12/README.md): chốt review legacy/YouTube và allocation owner; package local accepted, kiểm loader/rebuild/test preservation. Không train.
+
+[Hợp nhất review legacy và YouTube ngày 19–20/10](crop-review-consolidation-20261019/README.md): hồ sơ review cuối của owner, đã được chốt qua release V12; một gallery chỉ thay đổi. Kế tiếp hai hồ sơ audit dưới đây.
+
+[Audit ZIP sáu lớp học ngày 18–19/10](youtube-frame-audit-20261018/README.md): xem 115 frame, đề xuất 71 crop sau QA native/input; snapshot Draft lịch sử, quyết định cuối ở V12. Y05 có cờ scene-family với G17 cũ.
+
+[Audit cohort lịch sử V11 ngày 18/10 — R2](v11-legacy-crop-audit-20261018/r2/README.md): review lại đủ 836 crop theo quyết định Accepted V10/V11; 537 giữ geometry (310 đổi nhãn), 250 cần recrop/review mới, 49 đề xuất rút supervision. Có ghi chú từng ID và gallery R2; snapshot Draft lịch sử; nghiệm thu cuối ở V12, V11 giữ nguyên. R1 được bảo toàn để truy vết.
+
+[Release V11 ngày 17/10](dataset-release-20261017/README.md): parent V12, đã đóng gói từ allocation và 270 crop nghiệm thu; có pointer, kiểm rebuild, backup local và cleanup; không chạy train.
 
 [Nghiệm thu phân bổ và mức đạt ngày 17/10](train-val-plan-20261017/README.md): 1.185 train / 266 validation đã duyệt; mỗi target precision/recall ≥ 80%, FPR ≤ 20%. Cách train chưa được chốt, proposal train mới đã gỡ theo owner; chưa chạy train.
 

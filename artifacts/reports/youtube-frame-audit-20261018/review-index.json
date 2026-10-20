@@ -1,0 +1,4191 @@
+[
+  {
+    "candidate_id": "Y01-A01-F00128",
+    "source_sha256": "039ec8a61df26e09e1cfd33ab9b0e6b59eed6661d76cb28c276b93c665f6c760",
+    "source_member_sha256": "52110cf0733450a8be250d781cf2bd717d37fee5ded3b300a117859937e42efb",
+    "label_sha256": "",
+    "person_xyxy": [
+      409,
+      220,
+      608,
+      360
+    ],
+    "context_xyxy": [
+      402,
+      216,
+      640,
+      360
+    ],
+    "crop_sha256": "cad89c7e13dee55fd104660a0c86a8bff6d923166436e7cdded8d02351fedb73",
+    "input_sha256": "371948c26aa92ea1ea32c0df58ec186f51bd2d38e05e9441317512286357927a",
+    "input_pixel_sha256": "ecbb37c83b49d2a75b0c2219034b29f661d6839293bdba3e7639cc68493b4945",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Tiền cảnh phải, áo viền cổ tay: Đầu cúi vào own-paper; tay còn lại bị thân/người phía sau che nên phone U.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y01",
+    "anchor": "A01",
+    "frame_id": "Y01-F00128",
+    "marked": true,
+    "reference": "reference-01",
+    "location_description": "Tiền cảnh phải, áo viền cổ tay",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y01/frame_00128.jpg",
+    "source_member": "assets/derived/95223b0df46c027a0dc4/frame_00128.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A01-F00128/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A01-F00128/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y01-A02-F00008",
+    "source_sha256": "8d5f7de3fdf99d0fb8ff80292f09686f8c300cde5ef34681dc73fc787b024c45",
+    "source_member_sha256": "4ff7d6f28d5d396afad24b8ff13a96513ea1b19220c8e873ca519c6a824b2cdf",
+    "label_sha256": "",
+    "person_xyxy": [
+      297,
+      71,
+      520,
+      337
+    ],
+    "context_xyxy": [
+      292,
+      69,
+      545,
+      350
+    ],
+    "crop_sha256": "3eca5a07b10d1829ef737380dd3ab517896c9cfc7b4c0a984517b100bf95ce51",
+    "input_sha256": "09024252ba505d550a389758683a15f4474bfe65222b1dbf1f41197f4c028078",
+    "input_pixel_sha256": "083d21a3127086d6fa319c1fb56f5bd4fbee1bf08dc16495a3c56650890f4048",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "draft_reason": "Blouse trắng tiền cảnh cửa sổ: Mobile mặt kính/viền đen cạnh tay viết; đầu hướng giấy. Tay người sau ở mép không phải evidence của anchor.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y01",
+    "anchor": "A02",
+    "frame_id": "Y01-F00008",
+    "marked": true,
+    "reference": "reference-01",
+    "location_description": "Blouse trắng tiền cảnh cửa sổ",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y01/frame_00008.jpg",
+    "source_member": "assets/derived/95223b0df46c027a0dc4/frame_00008.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A02-F00008/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A02-F00008/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y01-A03-F00128",
+    "source_sha256": "039ec8a61df26e09e1cfd33ab9b0e6b59eed6661d76cb28c276b93c665f6c760",
+    "source_member_sha256": "52110cf0733450a8be250d781cf2bd717d37fee5ded3b300a117859937e42efb",
+    "label_sha256": "",
+    "person_xyxy": [
+      332,
+      131,
+      438,
+      245
+    ],
+    "context_xyxy": [
+      328,
+      126,
+      469,
+      278
+    ],
+    "crop_sha256": "1bfb7c17ad8630b70aa3c31faaecb5aae4c57d33e15680e8a115ad7806a8e769",
+    "input_sha256": "6b64ea392ae98238d1a48460b8336ba6a0573c2cab3567a2e2592fab2b05b089",
+    "input_pixel_sha256": "d3f19d37c0529e459945f73d6e008b3dbf5206dbd150819c85bfeccd7c2a1cfb",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "draft_reason": "Áo trắng viết cạnh cửa sổ: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y01",
+    "anchor": "A03",
+    "frame_id": "Y01-F00128",
+    "marked": true,
+    "reference": "reference-01",
+    "location_description": "Áo trắng viết cạnh cửa sổ",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y01/frame_00128.jpg",
+    "source_member": "assets/derived/95223b0df46c027a0dc4/frame_00128.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A03-F00128/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A03-F00128/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y01-A04-F00008",
+    "source_sha256": "8d5f7de3fdf99d0fb8ff80292f09686f8c300cde5ef34681dc73fc787b024c45",
+    "source_member_sha256": "4ff7d6f28d5d396afad24b8ff13a96513ea1b19220c8e873ca519c6a824b2cdf",
+    "label_sha256": "",
+    "person_xyxy": [
+      47,
+      22,
+      198,
+      214
+    ],
+    "context_xyxy": [
+      35,
+      18,
+      207,
+      271
+    ],
+    "crop_sha256": "7ddfecfc654ebcc2d5a1e04296930ce93ea20be3556ad92ab5a34c5eca4393d9",
+    "input_sha256": "2fbee30259adc79151b9fba5e6d0a965b53b3e6c2ced8fd3d238a85a2a20222e",
+    "input_pixel_sha256": "f0de704a90bb448357fbfc120ff5556b8c28c0e95d66b6c680e53cffe334fde4",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "draft_reason": "Tóc sáng bên trái dãy cửa sổ: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y01",
+    "anchor": "A04",
+    "frame_id": "Y01-F00008",
+    "marked": true,
+    "reference": "reference-01",
+    "location_description": "Tóc sáng bên trái dãy cửa sổ",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y01/frame_00008.jpg",
+    "source_member": "assets/derived/95223b0df46c027a0dc4/frame_00008.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A04-F00008/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A04-F00008/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y01-A05-F00124",
+    "source_sha256": "998d5e8c0998f3115f9303d36c0532c7b4a6465213cdb34e0341dd66db7d930c",
+    "source_member_sha256": "28aa6e4072ef8dec5d67ddaa2bb3ce2ca1b1c5e7087d1cc27486db82ac868962",
+    "label_sha256": "",
+    "person_xyxy": [
+      304,
+      191,
+      421,
+      344
+    ],
+    "context_xyxy": [
+      294,
+      181,
+      427,
+      360
+    ],
+    "crop_sha256": "68e33a1f5a932191a26a9c0c9527565e3e980cea4451f3aa211a2e852c6fb28f",
+    "input_sha256": "d1cfa55fce009b1ec7460620ac8e5e188c933df10f1a06a57941e579c74175d2",
+    "input_pixel_sha256": "7cdbe7e138e8c583cb1c3097a54c703d954cf8b50e6893371af0d4c2c4257e7d",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "draft_reason": "Áo tay sẫm chống cằm ở dãy cửa sổ: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y01",
+    "anchor": "A05",
+    "frame_id": "Y01-F00124",
+    "marked": true,
+    "reference": "reference-01",
+    "location_description": "Áo tay sẫm chống cằm ở dãy cửa sổ",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y01/frame_00124.jpg",
+    "source_member": "assets/derived/95223b0df46c027a0dc4/frame_00124.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A05-F00124/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A05-F00124/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y01-A06-F00102",
+    "source_sha256": "f888ad01a7febf2369f84e62bc1131326d8136bdcd9a55a6a207fee2996e692a",
+    "source_member_sha256": "128a71bf2d3dd2f474bf9f4a6bebd9b27206965fee67d9cf5d1976e2a2371db8",
+    "label_sha256": "",
+    "person_xyxy": [
+      76,
+      24,
+      399,
+      334
+    ],
+    "context_xyxy": [
+      45,
+      16,
+      520,
+      360
+    ],
+    "crop_sha256": "e96516805ff9cb09a5aaae4aeef33a01b3dc754b5b9e3383c809364689ca2947",
+    "input_sha256": "84fefc918e61561d630c435723081a68d86f2c54125d012bcf152b33b6f43200",
+    "input_pixel_sha256": "1cf7cfc090c7cf9f889ed8a77761c30d35f320e498315148d689dea4bbb6eaff",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "draft_reason": "Tóc dài hàng sau cửa sổ: Mobile mặt kính, viền sáng trên giấy cạnh tay; đã bỏ phone của người phía sau khỏi ROI. Đầu hướng bài.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y01",
+    "anchor": "A06",
+    "frame_id": "Y01-F00102",
+    "marked": true,
+    "reference": "reference-01",
+    "location_description": "Tóc dài hàng sau cửa sổ",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y01/frame_00102.jpg",
+    "source_member": "assets/derived/95223b0df46c027a0dc4/frame_00102.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A06-F00102/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A06-F00102/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y01-A06-F00060",
+    "source_sha256": "37bd79e7e5c63fb9d66a61e703ae38e07bd5342ae0656a27c5f30ac9b7994e3c",
+    "source_member_sha256": "9c6a953b39adc6defb1b40cb8030efa07d6f3437cf2fcaedaff52683c764c388",
+    "label_sha256": "",
+    "person_xyxy": [
+      263,
+      117,
+      418,
+      349
+    ],
+    "context_xyxy": [
+      254,
+      111,
+      442,
+      360
+    ],
+    "crop_sha256": "0b2302ffb7e668166f8e4725e016bfc6c74f67ba8b7acf35d5bd068ec2fa0c93",
+    "input_sha256": "1ee6bb69bfaa2a0af227b0d7730e4af2fb992dfaf49b7ae5dca8879397eaa0c9",
+    "input_pixel_sha256": "16586d64f45e02a3e41d4246b801dcf9567e37e1147f6610023c42c78ae6f600",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "draft_reason": "Tóc dài hàng sau cửa sổ: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y01",
+    "anchor": "A06",
+    "frame_id": "Y01-F00060",
+    "marked": true,
+    "reference": "reference-01",
+    "location_description": "Tóc dài hàng sau cửa sổ",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y01/frame_00060.jpg",
+    "source_member": "assets/derived/95223b0df46c027a0dc4/frame_00060.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A06-F00060/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A06-F00060/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y01-A07-F00060",
+    "source_sha256": "37bd79e7e5c63fb9d66a61e703ae38e07bd5342ae0656a27c5f30ac9b7994e3c",
+    "source_member_sha256": "9c6a953b39adc6defb1b40cb8030efa07d6f3437cf2fcaedaff52683c764c388",
+    "label_sha256": "",
+    "person_xyxy": [
+      423,
+      124,
+      628,
+      288
+    ],
+    "context_xyxy": [
+      421,
+      120,
+      640,
+      349
+    ],
+    "crop_sha256": "8c9cc8c93564b489b755dbde437769888ab93ff04cb8831b2b0dbdc62ee66651",
+    "input_sha256": "6b3ff13bc05d7f4c954ad4663e140734e9d29986cbff002b71f3371f08fe447c",
+    "input_pixel_sha256": "75d2c54115f23294c65d19e36821ce95645ded03192c6643ce1bef07f4bfcf64",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "draft_reason": "Blouse phối đen hàng sau cửa sổ: Mobile mặt kính phản sáng và viền máy cạnh tay phải; nhìn vào giấy riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y01",
+    "anchor": "A07",
+    "frame_id": "Y01-F00060",
+    "marked": true,
+    "reference": "reference-01",
+    "location_description": "Blouse phối đen hàng sau cửa sổ",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y01/frame_00060.jpg",
+    "source_member": "assets/derived/95223b0df46c027a0dc4/frame_00060.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A07-F00060/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A07-F00060/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y01-A08-F00037",
+    "source_sha256": "10d50d280069fbf8f4e56e7e419577935f980f26e4b8172af574c2c9a30de777",
+    "source_member_sha256": "02a283fdbbaf212ec33745849a4ce015b243dfc5d13441e6a850a45aa72011dd",
+    "label_sha256": "",
+    "person_xyxy": [
+      362,
+      25,
+      505,
+      204
+    ],
+    "context_xyxy": [
+      351,
+      21,
+      512,
+      301
+    ],
+    "crop_sha256": "c237b4702a00615b28ea6d3e487bdb6ff894704575790c1b492faf16ad252f32",
+    "input_sha256": "d9b0150b399c14d1aa40bcf0da360e3c4e7b1b6c26bb0bd6a2dba4c5d6166e93",
+    "input_pixel_sha256": "cede01b32a1193c092073ba4a660633ebcf76e451bbbf04679ae832652ba9550",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "draft_reason": "Gile đen dãy tường: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y01",
+    "anchor": "A08",
+    "frame_id": "Y01-F00037",
+    "marked": true,
+    "reference": "reference-01",
+    "location_description": "Gile đen dãy tường",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y01/frame_00037.jpg",
+    "source_member": "assets/derived/95223b0df46c027a0dc4/frame_00037.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A08-F00037/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A08-F00037/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y01-A09-F00037",
+    "source_sha256": "10d50d280069fbf8f4e56e7e419577935f980f26e4b8172af574c2c9a30de777",
+    "source_member_sha256": "02a283fdbbaf212ec33745849a4ce015b243dfc5d13441e6a850a45aa72011dd",
+    "label_sha256": "",
+    "person_xyxy": [
+      206,
+      20,
+      347,
+      175
+    ],
+    "context_xyxy": [
+      180,
+      15,
+      350,
+      187
+    ],
+    "crop_sha256": "3eeb835194f28177dcc5f3f1472065acba145ece423585e16a96566e80097bd8",
+    "input_sha256": "741785e93a953e7e74fcdb1aadb429bc2b50ac5548d86437b9ce83744cbfde17",
+    "input_pixel_sha256": "555f50209511bacc0142adb9748dfc25313857dcc8a79c6c46074a36f80cf074",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "draft_reason": "Áo trắng cạnh gile đen: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y01",
+    "anchor": "A09",
+    "frame_id": "Y01-F00037",
+    "marked": true,
+    "reference": "reference-01",
+    "location_description": "Áo trắng cạnh gile đen",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y01/frame_00037.jpg",
+    "source_member": "assets/derived/95223b0df46c027a0dc4/frame_00037.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A09-F00037/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A09-F00037/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y01-A10-F00038",
+    "source_sha256": "01851ebc35484b5a7b7c2c9cdac4c1afd168927098eaf93d0a335dc24ab9a631",
+    "source_member_sha256": "c4b2bafe54254579e78ef5e6b390eed1b34ecb2f797918f861b5c039ac6e797b",
+    "label_sha256": "",
+    "person_xyxy": [
+      109,
+      60,
+      280,
+      214
+    ],
+    "context_xyxy": [
+      9,
+      52,
+      280,
+      255
+    ],
+    "crop_sha256": "cc3a921d400401071e1274b0383600622a4bb4f1fa3cd1ec6c4fd12ad6176364",
+    "input_sha256": "7013edd4eba2b3cd92c54bbaf98e86a4057272567bda55f851af0b3d65530350",
+    "input_pixel_sha256": "954c3b616cc089972f248be003bfd5eee65ea428a8614182a326ee8e77650754",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "draft_reason": "Áo kem giữa trái: Mobile trắng mặt sau có cụm camera trên bàn trái; người áo kem cúi viết. Người đứng chỉ còn phần thân ở mép.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y01",
+    "anchor": "A10",
+    "frame_id": "Y01-F00038",
+    "marked": true,
+    "reference": "reference-01",
+    "location_description": "Áo kem giữa trái",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y01/frame_00038.jpg",
+    "source_member": "assets/derived/95223b0df46c027a0dc4/frame_00038.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A10-F00038/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A10-F00038/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y01-A11-F00099",
+    "source_sha256": "2542d4de5907620a79424fd1abcfb67d81e1fb576f0d968a82347e801c5a13c8",
+    "source_member_sha256": "77cf771e81bb2773b5bb9c2ca0d642f8387b34749651e2436a75ac15d6766648",
+    "label_sha256": "",
+    "person_xyxy": [
+      352,
+      52,
+      541,
+      228
+    ],
+    "context_xyxy": [
+      343,
+      49,
+      546,
+      255
+    ],
+    "crop_sha256": "d9255d5961f85118a0cd9e2e36b1a0c389b378bbf6b0c498c8c04ceba8a35585",
+    "input_sha256": "d6c02b6f71a118774e9aff190ba8dc778e558b5779cfecf2ff778c1782507e45",
+    "input_pixel_sha256": "3185015631387bed33ab412b9f362ae35020768544b8f778b90d88ee78d5e92a",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "draft_reason": "Áo trắng giữa phải: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y01",
+    "anchor": "A11",
+    "frame_id": "Y01-F00099",
+    "marked": true,
+    "reference": "reference-01",
+    "location_description": "Áo trắng giữa phải",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y01/frame_00099.jpg",
+    "source_member": "assets/derived/95223b0df46c027a0dc4/frame_00099.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A11-F00099/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A11-F00099/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y01-A12-F00098",
+    "source_sha256": "bb7886f76b19c9b6fcde84075bc9bf0699292afe1c436bbdc32f529911c3c812",
+    "source_member_sha256": "8f6d6397758965fe98ed7b72452137235374739d11840331f448f5ae57c73554",
+    "label_sha256": "",
+    "person_xyxy": [
+      80,
+      155,
+      279,
+      315
+    ],
+    "context_xyxy": [
+      41,
+      135,
+      291,
+      360
+    ],
+    "crop_sha256": "582db7241446bd5e41be8224ca997c81218ecef9a96954cac524ebf146a477f6",
+    "input_sha256": "73a3f1c60f34ef2db2c748db1d982400b6cf749d336d5c2a3530c64834e1fbea",
+    "input_pixel_sha256": "6882655cff81956e1348f31c1db676a15600265420b147e9b6f670ef8c3eba12",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "P",
+      "U"
+    ],
+    "draft_reason": "Áo trắng bàn sau cạnh tủ: Mobile mặt kính/viền trên bàn cạnh tay; đầu cúi sát sổ che mặt/đích nên looking U.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y01",
+    "anchor": "A12",
+    "frame_id": "Y01-F00098",
+    "marked": true,
+    "reference": "reference-01",
+    "location_description": "Áo trắng bàn sau cạnh tủ",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y01/frame_00098.jpg",
+    "source_member": "assets/derived/95223b0df46c027a0dc4/frame_00098.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A12-F00098/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A12-F00098/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y01-A13-F00099",
+    "source_sha256": "2542d4de5907620a79424fd1abcfb67d81e1fb576f0d968a82347e801c5a13c8",
+    "source_member_sha256": "77cf771e81bb2773b5bb9c2ca0d642f8387b34749651e2436a75ac15d6766648",
+    "label_sha256": "",
+    "person_xyxy": [
+      48,
+      110,
+      263,
+      297
+    ],
+    "context_xyxy": [
+      25,
+      102,
+      267,
+      330
+    ],
+    "crop_sha256": "2fc96031f5bcaad19f6fbed7ca85d9f9648e7130572962196a1cf0998c032cd9",
+    "input_sha256": "2849240279f5cd134e2cfab79f6117beed10fda7c4af1bd7cba163f883eec92e",
+    "input_pixel_sha256": "ffceef36c8335beabcb2adc6e7d37d198ed020c868dd370b7db5954094125f31",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "draft_reason": "Tóc ngắn áo trắng dãy tường: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y01",
+    "anchor": "A13",
+    "frame_id": "Y01-F00099",
+    "marked": true,
+    "reference": "reference-01",
+    "location_description": "Tóc ngắn áo trắng dãy tường",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y01/frame_00099.jpg",
+    "source_member": "assets/derived/95223b0df46c027a0dc4/frame_00099.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A13-F00099/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A13-F00099/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y01-A14-F00039",
+    "source_sha256": "82bd8f6b775f58c2449f8c9a347216c6db10ad5fd9f9341143c85f9f63f49422",
+    "source_member_sha256": "ae6d1805050bad7219c63d222928fc7add3478dae8812f83f021481c56eac355",
+    "label_sha256": "",
+    "person_xyxy": [
+      78,
+      89,
+      242,
+      281
+    ],
+    "context_xyxy": [
+      24,
+      83,
+      273,
+      329
+    ],
+    "crop_sha256": "00ebd6c8683f10d3d8bd56a1a0703d39fb04122d751928365d643826b0e4f4c9",
+    "input_sha256": "11fd9d3aed14d004f324182e27468923ec12d6dc11c92e9567a342e953f9e6d0",
+    "input_pixel_sha256": "9c2c90ba831ee10961c52ec6776b738ad1c0d1768cdcbe172adfe8d021065ee5",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "draft_reason": "Gile nâu bàn sau: Mobile viền sáng/mặt kính cạnh sổ riêng; người gile nâu viết trên trang.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y01",
+    "anchor": "A14",
+    "frame_id": "Y01-F00039",
+    "marked": true,
+    "reference": "reference-01",
+    "location_description": "Gile nâu bàn sau",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y01/frame_00039.jpg",
+    "source_member": "assets/derived/95223b0df46c027a0dc4/frame_00039.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A14-F00039/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A14-F00039/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y01-A14-F00098",
+    "source_sha256": "bb7886f76b19c9b6fcde84075bc9bf0699292afe1c436bbdc32f529911c3c812",
+    "source_member_sha256": "8f6d6397758965fe98ed7b72452137235374739d11840331f448f5ae57c73554",
+    "label_sha256": "",
+    "person_xyxy": [
+      412,
+      70,
+      565,
+      235
+    ],
+    "context_xyxy": [
+      326,
+      65,
+      580,
+      307
+    ],
+    "crop_sha256": "e81475e5984599b54b230f60c7365d1f06a21af6f07ff241538f92da9e5011eb",
+    "input_sha256": "91fa8466637256526493eaf1c7460612ee770093fc91b9c9e01d530de2d91a36",
+    "input_pixel_sha256": "0c86e96d5501523fac27884fb5adf356c0f0955a1ed8004f0262d80cb18d8e25",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "P",
+      "P"
+    ],
+    "draft_reason": "Gile nâu bàn sau: Mobile viền sáng/mặt kính trên bàn riêng; chống cằm nhìn trước ngoài trang.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y01",
+    "anchor": "A14",
+    "frame_id": "Y01-F00098",
+    "marked": true,
+    "reference": "reference-01",
+    "location_description": "Gile nâu bàn sau",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y01/frame_00098.jpg",
+    "source_member": "assets/derived/95223b0df46c027a0dc4/frame_00098.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A14-F00098/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A14-F00098/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y01-A15-F00039",
+    "source_sha256": "82bd8f6b775f58c2449f8c9a347216c6db10ad5fd9f9341143c85f9f63f49422",
+    "source_member_sha256": "ae6d1805050bad7219c63d222928fc7add3478dae8812f83f021481c56eac355",
+    "label_sha256": "",
+    "person_xyxy": [
+      273,
+      65,
+      399,
+      238
+    ],
+    "context_xyxy": [
+      266,
+      59,
+      420,
+      297
+    ],
+    "crop_sha256": "8e2d721edaafaaa7a54137d5a26221b89adcda4bc552e330eeee92b29f66b6ec",
+    "input_sha256": "47eaf241810a9b2d13eff50dda745e0b9ccb91341ca22267265f05869340b2b9",
+    "input_pixel_sha256": "5fef738e26b145e8a0c0f976397385ca2f3c2667b82a8f45c2a76b79f8a3df6e",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "draft_reason": "Áo trắng bàn sau giữa: Mobile mặt kính trên sách phía dưới; người áo trắng nhìn tờ giấy đang cầm nên looking N.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y01",
+    "anchor": "A15",
+    "frame_id": "Y01-F00039",
+    "marked": true,
+    "reference": "reference-01",
+    "location_description": "Áo trắng bàn sau giữa",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y01/frame_00039.jpg",
+    "source_member": "assets/derived/95223b0df46c027a0dc4/frame_00039.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A15-F00039/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A15-F00039/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y01-A15-F00003",
+    "source_sha256": "c969bf4014f9ac2f939854358b54091a493819ab2c853961915cc0761f6c3ea8",
+    "source_member_sha256": "57de51aab8598c045ae7d1db4f5440067d5c152154d272c167930427997b34d3",
+    "label_sha256": "",
+    "person_xyxy": [
+      402,
+      117,
+      499,
+      241
+    ],
+    "context_xyxy": [
+      389,
+      112,
+      519,
+      292
+    ],
+    "crop_sha256": "fd778842e4ab8fed02f1b5883eb5bb409fa9e68726610f645f75ca2d58e3d63c",
+    "input_sha256": "fa6a061f960573122b48bc656e70625976e8805b87ebaddd26faecbc1835bf14",
+    "input_pixel_sha256": "51a0c33ecfb5f42ddac8fa4a9a6d2a5ded0439272880c078fa322fc670e4bf47",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Áo trắng bàn sau giữa: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y01",
+    "anchor": "A15",
+    "frame_id": "Y01-F00003",
+    "marked": true,
+    "reference": "reference-01",
+    "location_description": "Áo trắng bàn sau giữa",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y01/frame_00003.jpg",
+    "source_member": "assets/derived/95223b0df46c027a0dc4/frame_00003.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A15-F00003/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A15-F00003/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y01-A16-F00060",
+    "source_sha256": "37bd79e7e5c63fb9d66a61e703ae38e07bd5342ae0656a27c5f30ac9b7994e3c",
+    "source_member_sha256": "9c6a953b39adc6defb1b40cb8030efa07d6f3437cf2fcaedaff52683c764c388",
+    "label_sha256": "",
+    "person_xyxy": [
+      18,
+      101,
+      198,
+      267
+    ],
+    "context_xyxy": [
+      2,
+      95,
+      228,
+      322
+    ],
+    "crop_sha256": "6f4fb79e534d5cdef13ad52f98e48ad3e5ed5793c6d96e6aae45c1bba708cd36",
+    "input_sha256": "3f22fbad49c1a205fb3f0bada0922473d03498ed3f9b5cfc4fb6d543b91856f9",
+    "input_pixel_sha256": "ce4c206f6d92fdb9037847acd49822d99b9c52766514e4a059c8eda4dd43055d",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "draft_reason": "Áo đen bàn sau (ngoài dấu): Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y01",
+    "anchor": "A16",
+    "frame_id": "Y01-F00060",
+    "marked": false,
+    "reference": "reference-01",
+    "location_description": "Áo đen bàn sau (ngoài dấu)",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y01/frame_00060.jpg",
+    "source_member": "assets/derived/95223b0df46c027a0dc4/frame_00060.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A16-F00060/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A16-F00060/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y01-A16-F00039",
+    "source_sha256": "82bd8f6b775f58c2449f8c9a347216c6db10ad5fd9f9341143c85f9f63f49422",
+    "source_member_sha256": "ae6d1805050bad7219c63d222928fc7add3478dae8812f83f021481c56eac355",
+    "label_sha256": "",
+    "person_xyxy": [
+      429,
+      82,
+      623,
+      234
+    ],
+    "context_xyxy": [
+      422,
+      76,
+      640,
+      275
+    ],
+    "crop_sha256": "1b1adc8747c0b3a91d175eb1ec284c6e0e36bca25cfeb76391f17df04fd66abe",
+    "input_sha256": "18ac32c1a50a39a61575349a0446eac698787d9eddbab55de07a4d707a7a433d",
+    "input_pixel_sha256": "5061e9948ea5ea9da6a8995366651c61958b4d00af0fe9f4282836ca59edcbf4",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "draft_reason": "Áo đen bàn sau (ngoài dấu): Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y01",
+    "anchor": "A16",
+    "frame_id": "Y01-F00039",
+    "marked": false,
+    "reference": "reference-01",
+    "location_description": "Áo đen bàn sau (ngoài dấu)",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y01/frame_00039.jpg",
+    "source_member": "assets/derived/95223b0df46c027a0dc4/frame_00039.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A16-F00039/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A16-F00039/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y01-A17-F00060",
+    "source_sha256": "37bd79e7e5c63fb9d66a61e703ae38e07bd5342ae0656a27c5f30ac9b7994e3c",
+    "source_member_sha256": "9c6a953b39adc6defb1b40cb8030efa07d6f3437cf2fcaedaff52683c764c388",
+    "label_sha256": "",
+    "person_xyxy": [
+      411,
+      83,
+      508,
+      201
+    ],
+    "context_xyxy": [
+      402,
+      76,
+      513,
+      207
+    ],
+    "crop_sha256": "acbc940a91c46cf41f5dbf129075bfea02e01205c867d77ccf28da5c1fa9abe9",
+    "input_sha256": "7c3d1b4f1ce290f127783beba3e7caec946ac8ebaee132c8d61d6425b5a13970",
+    "input_pixel_sha256": "1b94d888b3a3f499af5ab220ca21ffae3b9db96d8bb93b049bc816089625fb80",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Áo khoác xám cuối dãy cửa sổ: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y01",
+    "anchor": "A17",
+    "frame_id": "Y01-F00060",
+    "marked": true,
+    "reference": "reference-01",
+    "location_description": "Áo khoác xám cuối dãy cửa sổ",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y01/frame_00060.jpg",
+    "source_member": "assets/derived/95223b0df46c027a0dc4/frame_00060.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A17-F00060/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A17-F00060/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y01-A18-F00043",
+    "source_sha256": "5a9f75e2d1a377e3a4198cf6b74b00277b58eae5e2dc5af0aa300bf2a3dd488b",
+    "source_member_sha256": "04f8551f577c6de4951a12ba114e9425f990906020e298ef5f3fa3e792055bd6",
+    "label_sha256": "",
+    "person_xyxy": [
+      305,
+      191,
+      439,
+      317
+    ],
+    "context_xyxy": [
+      295,
+      184,
+      544,
+      345
+    ],
+    "crop_sha256": "4a3530ca11a7e3b86dfa54d5bb1efd50268d30d6f0669aa9d08e0670f19e8a25",
+    "input_sha256": "72f2cad0b511abd03b40e05e3e1ba310b093ba54df9f415658ca68f9d36d0b4b",
+    "input_pixel_sha256": "c5ddfa033e4d6d2ee59ff8e35bd9b27e84360dc5ca008092a463c208368d2b51",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Nam viết tiền cảnh cạnh bìa xanh: Vật tối trên bìa xanh thiếu đặc trưng mobile ở input, sửa phone P dự kiến thành U; hướng viết vào giấy rõ.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y01",
+    "anchor": "A18",
+    "frame_id": "Y01-F00043",
+    "marked": true,
+    "reference": "reference-01",
+    "location_description": "Nam viết tiền cảnh cạnh bìa xanh",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y01/frame_00043.jpg",
+    "source_member": "assets/derived/95223b0df46c027a0dc4/frame_00043.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A18-F00043/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A18-F00043/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y01-A20-F00129",
+    "source_sha256": "4ba5958f84a32becc7a52319fb89569c5d793b6fc5d5b53f1c508a670c31b1ab",
+    "source_member_sha256": "6f347cfad3280f68e505dffa0a7f0aa801a6bffbabd6b2aee2ccd51c2c2657f5",
+    "label_sha256": "",
+    "person_xyxy": [
+      232,
+      74,
+      409,
+      360
+    ],
+    "context_xyxy": [
+      218,
+      67,
+      419,
+      360
+    ],
+    "crop_sha256": "f6b2dd8251579803b2a9b1717c33574b36ece050f1dcd5d8fe8fb0fd4f2068a1",
+    "input_sha256": "5dfc2822eefb8bb719e0dfe77d46361634050e3ce35feeb271b66d53cc07d8c0",
+    "input_pixel_sha256": "d25600f9c6136cb330f4eefc6187f5c010c55989b08f6ba3dac5f0e8d77caa8c",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "draft_reason": "Polo viền đen dãy cửa sổ: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y01",
+    "anchor": "A20",
+    "frame_id": "Y01-F00129",
+    "marked": true,
+    "reference": "reference-01",
+    "location_description": "Polo viền đen dãy cửa sổ",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y01/frame_00129.jpg",
+    "source_member": "assets/derived/95223b0df46c027a0dc4/frame_00129.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A20-F00129/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A20-F00129/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y01-A21-F00197",
+    "source_sha256": "2528993c303ec39e4cd4b145df7bc8f2228090b7e25cb436a19b27ff5eee1bf5",
+    "source_member_sha256": "8af9f79ac934612fa7036fd976f688d7a0263247d2770944250d6aaedb35c72b",
+    "label_sha256": "",
+    "person_xyxy": [
+      452,
+      199,
+      632,
+      330
+    ],
+    "context_xyxy": [
+      434,
+      193,
+      640,
+      360
+    ],
+    "crop_sha256": "cc2a28bf917a7028c99f411f95c6b04517f6038f8431fa80065347bf5a59a3ba",
+    "input_sha256": "cc0938b2d24f077531aafed76cbf8e0518e5584e7076349f1a25cb483b54f2e6",
+    "input_pixel_sha256": "0c807513f8884ac1efc3a895961d6d59c4eebc801d7df38c5484cd278cbf28be",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "P",
+      "N"
+    ],
+    "draft_reason": "Người đeo kính cạnh polo viền đen: Mobile có cấu trúc mặt lưng/cụm camera trên giấy cạnh tay; đầu cúi viết. Tay người đứng ở mép trái không dùng cho attribution.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y01",
+    "anchor": "A21",
+    "frame_id": "Y01-F00197",
+    "marked": true,
+    "reference": "reference-01",
+    "location_description": "Người đeo kính cạnh polo viền đen",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y01/frame_00197.jpg",
+    "source_member": "assets/derived/95223b0df46c027a0dc4/frame_00197.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A21-F00197/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A21-F00197/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y01-A11-F00050",
+    "source_sha256": "cfff624c6b2c1fa9ab776c44dbe007192571ce9e5a857ab0171dc5057dfc4436",
+    "source_member_sha256": "3a752939065e9165dee994281b67eef3edf65ec66840b9cd56371a1a7cf3997e",
+    "label_sha256": "",
+    "person_xyxy": [
+      290,
+      44,
+      432,
+      302
+    ],
+    "context_xyxy": [
+      276,
+      41,
+      435,
+      360
+    ],
+    "crop_sha256": "eeec2050e5a934c3f859728573b6c3dfbfe834b52e6d3830ccb0a4b1b1d5307a",
+    "input_sha256": "c425f5411dbea973744759be71610d3cf9c908a3ba0f36f00174469a1d89671a",
+    "input_pixel_sha256": "604334a8e434f180d7f4acf6f4ec953786a282b15494ad5cce1709df65017d92",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "draft_reason": "Áo trắng giữa phải: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y01",
+    "anchor": "A11",
+    "frame_id": "Y01-F00050",
+    "marked": true,
+    "reference": "reference-01",
+    "location_description": "Áo trắng giữa phải",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y01/frame_00050.jpg",
+    "source_member": "assets/derived/95223b0df46c027a0dc4/frame_00050.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A11-F00050/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A11-F00050/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y01-A02-F00188",
+    "source_sha256": "8e56ede39c991203133c7ae9a3ed13bad193e258d6b9803f385eb4c6171fd6a5",
+    "source_member_sha256": "31c5b71bf509572356196607adfcf14926fe9f9af7703d290e7d5fa1f842f386",
+    "label_sha256": "",
+    "person_xyxy": [
+      260,
+      67,
+      448,
+      360
+    ],
+    "context_xyxy": [
+      254,
+      62,
+      453,
+      360
+    ],
+    "crop_sha256": "de40185f782a6d79a1eb9d2cdd637b9dbbc99de7252d1e60b5b01dc0cf728fa1",
+    "input_sha256": "f8a3f9ecaaee8397963f0978b9a6b4f9ee7c5c25c15e4e1eb2da61bc526500f1",
+    "input_pixel_sha256": "6f9a5503879a1d509abcce523f9764e80f7117d06bdcf6ec8804642b8668de2c",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Blouse trắng tiền cảnh cửa sổ: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y01",
+    "anchor": "A02",
+    "frame_id": "Y01-F00188",
+    "marked": true,
+    "reference": "reference-01",
+    "location_description": "Blouse trắng tiền cảnh cửa sổ",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y01/frame_00188.jpg",
+    "source_member": "assets/derived/95223b0df46c027a0dc4/frame_00188.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A02-F00188/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y01-A02-F00188/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y02-A03-F00012",
+    "source_sha256": "76c89ebc3cb37797bc35aef6a58d3251dcc10b9d032613ffbf3251e14ac3dd6e",
+    "source_member_sha256": "3fbb5526a82a5554575b1ed33cbfe62eafeae86b85c10384be98864293362fa7",
+    "label_sha256": "",
+    "person_xyxy": [
+      182,
+      80,
+      253,
+      192
+    ],
+    "context_xyxy": [
+      178,
+      75,
+      281,
+      214
+    ],
+    "crop_sha256": "9873f5f3e245cd33c8857afa3a465fb906f25f0a30ad376538841f10abe75c69",
+    "input_sha256": "3439ccd5c241b0f86954fcf1275aa72ecd2bbafcd57be6f9052bec90622c455e",
+    "input_pixel_sha256": "dbad3447987660400ee4a7c531a76b6ca2f6e97a3561365c8de3decb88e09824",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Trái xa đeo kính: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y02",
+    "anchor": "A03",
+    "frame_id": "Y02-F00012",
+    "marked": true,
+    "reference": "reference-04",
+    "location_description": "Trái xa đeo kính",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y02/frame_00012.jpg",
+    "source_member": "assets/derived/79e76713ba8a3a894dce/frame_00012.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y02-A03-F00012/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y02-A03-F00012/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y02-A03-F00031",
+    "source_sha256": "bda6ff62147ad54cf648451af944b51f4e0f702b49d15462e3238b3721437056",
+    "source_member_sha256": "6053233d6ab868a7d85fc65b9800c3c4a1afdd329cacad8b3cf3055812217abc",
+    "label_sha256": "",
+    "person_xyxy": [
+      185,
+      112,
+      247,
+      204
+    ],
+    "context_xyxy": [
+      180,
+      107,
+      279,
+      226
+    ],
+    "crop_sha256": "0149d90f9f4acb51b5468ff71b289604db75426d2bddf6af4fca11a743c38400",
+    "input_sha256": "3b6657d036019f728249847485ab76995b99c7cd99bc3d6c649ddb8ae6deea87",
+    "input_pixel_sha256": "cd5092d519e00595e06a00abf3f2110ca4389bfb58ebecfbc4cc159788a05ec8",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Trái xa đeo kính: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y02",
+    "anchor": "A03",
+    "frame_id": "Y02-F00031",
+    "marked": true,
+    "reference": "reference-04",
+    "location_description": "Trái xa đeo kính",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y02/frame_00031.jpg",
+    "source_member": "assets/derived/79e76713ba8a3a894dce/frame_00031.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y02-A03-F00031/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y02-A03-F00031/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y02-A04-F00011",
+    "source_sha256": "b8e0c2e795bf9abb14873d2deefb13309031e1a6809a0d05ed3f296f4075c28c",
+    "source_member_sha256": "a0ab5844d7840588f3d343e5334c8198574499ea586285aff2750c5226661167",
+    "label_sha256": "",
+    "person_xyxy": [
+      381,
+      80,
+      470,
+      198
+    ],
+    "context_xyxy": [
+      345,
+      74,
+      474,
+      217
+    ],
+    "crop_sha256": "71aa9300ca2cd28e921f8359a6d09d3568bac9b932a2a6f0a0f87bc91d762cfa",
+    "input_sha256": "1a497f552af66fbbc4476921016eba7db31bbee308dcaa29c1976bdb19a5b358",
+    "input_pixel_sha256": "6c3b28faf7218eb04532d794983628a6cc99a46469a0e657ccb002404125f4a1",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "draft_reason": "Phải xa: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y02",
+    "anchor": "A04",
+    "frame_id": "Y02-F00011",
+    "marked": true,
+    "reference": "reference-04",
+    "location_description": "Phải xa",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y02/frame_00011.jpg",
+    "source_member": "assets/derived/79e76713ba8a3a894dce/frame_00011.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y02-A04-F00011/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y02-A04-F00011/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y02-A04-F00019",
+    "source_sha256": "7feacd8d53cde8b082b41c8c94d652bf03e2c5be936207b878d12c97a3f3c6b1",
+    "source_member_sha256": "691c4cd470d6c29f7f588365f6925caf01d6f39d45a65c6dfd2ea415bb90c2f0",
+    "label_sha256": "",
+    "person_xyxy": [
+      357,
+      95,
+      476,
+      207
+    ],
+    "context_xyxy": [
+      330,
+      87,
+      484,
+      222
+    ],
+    "crop_sha256": "427018674036e6cc1b4b63d003fe64d39294306bc35a694e4ca53872d3c4a62d",
+    "input_sha256": "fb9513cc18457488225d834836bcf75bbfa0adf3b8def48640d79521193516e2",
+    "input_pixel_sha256": "88836b500cac05cce302575a1dce81d08c266b5c242ac704352b5c8c62b4e075",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "draft_reason": "Phải xa: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y02",
+    "anchor": "A04",
+    "frame_id": "Y02-F00019",
+    "marked": true,
+    "reference": "reference-04",
+    "location_description": "Phải xa",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y02/frame_00019.jpg",
+    "source_member": "assets/derived/79e76713ba8a3a894dce/frame_00019.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y02-A04-F00019/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y02-A04-F00019/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y02-A01-F00018-R02",
+    "source_sha256": "e6a4addc5e5ecb31203ec10e706c4e9841474c1ebad3b9f2eb1965dc9f31b448",
+    "source_member_sha256": "5c2d1f5fe067fdf60e221399f4b1f538434d4fee2c300280f7d7d5fb4110116d",
+    "label_sha256": "",
+    "person_xyxy": [
+      3,
+      116,
+      137,
+      277
+    ],
+    "context_xyxy": [
+      0,
+      110,
+      137,
+      294
+    ],
+    "crop_sha256": "f746938b8b7138ca3b2add6916c983e84b50cfa723de46ef63b627cf1ef19bb0",
+    "input_sha256": "eeeeddf8aada7ee4b0a76a4f760948caeae2049d3949956ab26604b2f7598906",
+    "input_pixel_sha256": "859424489e7be8d61b0cebe7de3cc5b9fe10073f244f4395569896cbafdaf4e4",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Trái gần: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y02",
+    "anchor": "A01",
+    "frame_id": "Y02-F00018",
+    "marked": true,
+    "reference": "reference-04",
+    "location_description": "Trái gần",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y02/frame_00018.jpg",
+    "source_member": "assets/derived/79e76713ba8a3a894dce/frame_00018.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y02-A01-F00018-R02/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y02-A01-F00018-R02/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y02-A01-F00031-R02",
+    "source_sha256": "bda6ff62147ad54cf648451af944b51f4e0f702b49d15462e3238b3721437056",
+    "source_member_sha256": "6053233d6ab868a7d85fc65b9800c3c4a1afdd329cacad8b3cf3055812217abc",
+    "label_sha256": "",
+    "person_xyxy": [
+      3,
+      110,
+      137,
+      277
+    ],
+    "context_xyxy": [
+      0,
+      103,
+      137,
+      294
+    ],
+    "crop_sha256": "1f6889fcf71630fedef8c3596e5e411a805efae1f636c053a9c05b4a5e16d902",
+    "input_sha256": "0276b433bbc1153066127d5bea6abbccbaf7e09908040f522503741b66b29a7f",
+    "input_pixel_sha256": "c560dc6f34356f3ce73b2ae2cc05cf335928627be346be5217590093210910e5",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Trái gần: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y02",
+    "anchor": "A01",
+    "frame_id": "Y02-F00031",
+    "marked": true,
+    "reference": "reference-04",
+    "location_description": "Trái gần",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y02/frame_00031.jpg",
+    "source_member": "assets/derived/79e76713ba8a3a894dce/frame_00031.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y02-A01-F00031-R02/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y02-A01-F00031-R02/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y03-A01-F00001",
+    "source_sha256": "e7b3c520a7d51301227b7fc50fd82867e1b474475d2534c3ee3b1fc9275283c8",
+    "source_member_sha256": "d6a61487ccc401ebfda20f0e15d3a338e6edc19957be5e3e719566eda40e479d",
+    "label_sha256": "",
+    "person_xyxy": [
+      97,
+      258,
+      197,
+      349
+    ],
+    "context_xyxy": [
+      88,
+      249,
+      240,
+      360
+    ],
+    "crop_sha256": "2e947b7f8e29dd4a0b0545348d621634fa38ee629ac0a5602945ef4c96c2dd00",
+    "input_sha256": "1824aa595f09255ae01fc6b280e81ea438df79225e135eb77a454a156f77ac6a",
+    "input_pixel_sha256": "9e073987e61ac216427d1e094392ccecfe307dbdf539605fdf763ca3bcd2d873",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Dãy tường gần nhất: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y03",
+    "anchor": "A01",
+    "frame_id": "Y03-F00001",
+    "marked": true,
+    "reference": "reference-05",
+    "location_description": "Dãy tường gần nhất",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y03/frame_00001.jpg",
+    "source_member": "assets/derived/30b8ff52d298e941f61a/frame_00001.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A01-F00001/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A01-F00001/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y03-A02-F00001",
+    "source_sha256": "e7b3c520a7d51301227b7fc50fd82867e1b474475d2534c3ee3b1fc9275283c8",
+    "source_member_sha256": "d6a61487ccc401ebfda20f0e15d3a338e6edc19957be5e3e719566eda40e479d",
+    "label_sha256": "",
+    "person_xyxy": [
+      91,
+      213,
+      147,
+      268
+    ],
+    "context_xyxy": [
+      84,
+      206,
+      160,
+      270
+    ],
+    "crop_sha256": "47be9c586ad43f484e57d77d6d6c4c85e0e61afca0fa86682c9845747456e769",
+    "input_sha256": "57eb601152c6729d88872f8d8974106167e408789b6627eb543700e9d72bb772",
+    "input_pixel_sha256": "58b945866750eea4a1d5534deece23e91c5766a99ef3caace79fa620646b4fbc",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Áo vàng dãy tường: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y03",
+    "anchor": "A02",
+    "frame_id": "Y03-F00001",
+    "marked": true,
+    "reference": "reference-05",
+    "location_description": "Áo vàng dãy tường",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y03/frame_00001.jpg",
+    "source_member": "assets/derived/30b8ff52d298e941f61a/frame_00001.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A02-F00001/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A02-F00001/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y03-A03-F00001",
+    "source_sha256": "e7b3c520a7d51301227b7fc50fd82867e1b474475d2534c3ee3b1fc9275283c8",
+    "source_member_sha256": "d6a61487ccc401ebfda20f0e15d3a338e6edc19957be5e3e719566eda40e479d",
+    "label_sha256": "",
+    "person_xyxy": [
+      78,
+      162,
+      128,
+      211
+    ],
+    "context_xyxy": [
+      72,
+      156,
+      137,
+      216
+    ],
+    "crop_sha256": "341414aa5473da623c70f50c9b1cd66bc4a3fa4d50b06d37c24e92d8003a7279",
+    "input_sha256": "1d89bbd11868104e596c1b921855c5fc343c45235d4ce29d30f7a60067c7ebee",
+    "input_pixel_sha256": "fec99243906046cb5b6dea31a38afc99578fc338b001d77f8619209e719b5f05",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Áo tối sau áo vàng: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y03",
+    "anchor": "A03",
+    "frame_id": "Y03-F00001",
+    "marked": true,
+    "reference": "reference-05",
+    "location_description": "Áo tối sau áo vàng",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y03/frame_00001.jpg",
+    "source_member": "assets/derived/30b8ff52d298e941f61a/frame_00001.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A03-F00001/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A03-F00001/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y03-A05-F00001",
+    "source_sha256": "e7b3c520a7d51301227b7fc50fd82867e1b474475d2534c3ee3b1fc9275283c8",
+    "source_member_sha256": "d6a61487ccc401ebfda20f0e15d3a338e6edc19957be5e3e719566eda40e479d",
+    "label_sha256": "",
+    "person_xyxy": [
+      311,
+      213,
+      387,
+      301
+    ],
+    "context_xyxy": [
+      304,
+      207,
+      425,
+      316
+    ],
+    "crop_sha256": "919b143a8aa515dbe9c794b78b94b61136b669cfed11f65b72300328a19fedbb",
+    "input_sha256": "9c142c5db21853549f567d756805c706d6aa8e166a3f7ec63a69f9925cec89f7",
+    "input_pixel_sha256": "ac74b5d03fb13354911df564d80e7c43680efbddddf7bc655751b307fa4be192",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "draft_reason": "Áo xanh tiền cảnh giữa: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y03",
+    "anchor": "A05",
+    "frame_id": "Y03-F00001",
+    "marked": true,
+    "reference": "reference-05",
+    "location_description": "Áo xanh tiền cảnh giữa",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y03/frame_00001.jpg",
+    "source_member": "assets/derived/30b8ff52d298e941f61a/frame_00001.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A05-F00001/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A05-F00001/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y03-A05-F00045",
+    "source_sha256": "04a96e8d6c436883cf9948eb52a5c6fba2be876747d82ddd77cabf9777b3a5ea",
+    "source_member_sha256": "fb8c66459958f80676bc8924b0c1cfdbc712ee3231b65d188ae6386a66d229da",
+    "label_sha256": "",
+    "person_xyxy": [
+      311,
+      189,
+      387,
+      301
+    ],
+    "context_xyxy": [
+      304,
+      181,
+      425,
+      315
+    ],
+    "crop_sha256": "a0118e75e2eb4628423465ed43494095fee62f89c968e2ab56554913293920f2",
+    "input_sha256": "1f252d42e3c97a61ecb9fb5a23983f5f3172cfbdf84eea5225d7418748ab2c33",
+    "input_pixel_sha256": "c0220ad6d303bc7404bde0616c1874f469933efd408d0662d521f64430e2d205",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "draft_reason": "Áo xanh tiền cảnh giữa: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y03",
+    "anchor": "A05",
+    "frame_id": "Y03-F00045",
+    "marked": true,
+    "reference": "reference-05",
+    "location_description": "Áo xanh tiền cảnh giữa",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y03/frame_00045.jpg",
+    "source_member": "assets/derived/30b8ff52d298e941f61a/frame_00045.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A05-F00045/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A05-F00045/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y03-A06-F00001",
+    "source_sha256": "e7b3c520a7d51301227b7fc50fd82867e1b474475d2534c3ee3b1fc9275283c8",
+    "source_member_sha256": "d6a61487ccc401ebfda20f0e15d3a338e6edc19957be5e3e719566eda40e479d",
+    "label_sha256": "",
+    "person_xyxy": [
+      359,
+      151,
+      424,
+      218
+    ],
+    "context_xyxy": [
+      352,
+      146,
+      434,
+      230
+    ],
+    "crop_sha256": "59276da17a032eab40bc063e0c66b447d413b5f98255c2ebfa439b0ddee56b81",
+    "input_sha256": "31133de261922e74eec08f2b8aaa3862644e9925a44d74e81d8226cc612e3e15",
+    "input_pixel_sha256": "707c298bcee505ad9124e8ab2767574bf2bbbb06703b6539d84c5bfc6076be34",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Áo xám sau áo xanh tiền cảnh: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y03",
+    "anchor": "A06",
+    "frame_id": "Y03-F00001",
+    "marked": true,
+    "reference": "reference-05",
+    "location_description": "Áo xám sau áo xanh tiền cảnh",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y03/frame_00001.jpg",
+    "source_member": "assets/derived/30b8ff52d298e941f61a/frame_00001.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A06-F00001/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A06-F00001/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y03-A06-F00041",
+    "source_sha256": "a0f2da0ce4854eed31870dfe7d6fcef7a7f8cadfd3c44f37f3b033a0e1119cfb",
+    "source_member_sha256": "c5648870c7210aa77edc2e881438a1bee98ee3a21a7252d78c75cac4bd873577",
+    "label_sha256": "",
+    "person_xyxy": [
+      359,
+      153,
+      428,
+      229
+    ],
+    "context_xyxy": [
+      352,
+      147,
+      433,
+      241
+    ],
+    "crop_sha256": "5f3c68595c1622f8297ecd252f82b34c84f1a3b1e64ce69a0e2a6b735754266d",
+    "input_sha256": "afeb2480fc1d864c97ddfcf36ec3e8084cb1c04c2b80c3496e53a8313787f5b6",
+    "input_pixel_sha256": "748b1b69f6d839d834fff30193ecedd27485669db93517253978f852f3444c10",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Áo xám sau áo xanh tiền cảnh: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y03",
+    "anchor": "A06",
+    "frame_id": "Y03-F00041",
+    "marked": true,
+    "reference": "reference-05",
+    "location_description": "Áo xám sau áo xanh tiền cảnh",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y03/frame_00041.jpg",
+    "source_member": "assets/derived/30b8ff52d298e941f61a/frame_00041.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A06-F00041/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A06-F00041/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y03-A07-F00001",
+    "source_sha256": "e7b3c520a7d51301227b7fc50fd82867e1b474475d2534c3ee3b1fc9275283c8",
+    "source_member_sha256": "d6a61487ccc401ebfda20f0e15d3a338e6edc19957be5e3e719566eda40e479d",
+    "label_sha256": "",
+    "person_xyxy": [
+      408,
+      135,
+      453,
+      194
+    ],
+    "context_xyxy": [
+      402,
+      130,
+      459,
+      207
+    ],
+    "crop_sha256": "223451cdd2b0bf5e0e3241c044ee924312acebf5808e435989bf0eeb1f52701b",
+    "input_sha256": "4afaedc31b05fb9d5ca9368172b942468774fb88b1e45a8a88e17b84a56933f7",
+    "input_pixel_sha256": "9c3ad2c230996fd4f3065bdec39633f7467f68a62735cca792803ff5d3a34cb4",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Áo trắng tay sẫm bên phải áo xám: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y03",
+    "anchor": "A07",
+    "frame_id": "Y03-F00001",
+    "marked": true,
+    "reference": "reference-05",
+    "location_description": "Áo trắng tay sẫm bên phải áo xám",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y03/frame_00001.jpg",
+    "source_member": "assets/derived/30b8ff52d298e941f61a/frame_00001.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A07-F00001/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A07-F00001/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y03-A08-F00001",
+    "source_sha256": "e7b3c520a7d51301227b7fc50fd82867e1b474475d2534c3ee3b1fc9275283c8",
+    "source_member_sha256": "d6a61487ccc401ebfda20f0e15d3a338e6edc19957be5e3e719566eda40e479d",
+    "label_sha256": "",
+    "person_xyxy": [
+      265,
+      152,
+      324,
+      224
+    ],
+    "context_xyxy": [
+      259,
+      146,
+      350,
+      245
+    ],
+    "crop_sha256": "e634a56a2973a7f266e1cf613c2d31a0337868bfad5a04c3a9499f28b065df77",
+    "input_sha256": "c44e4f1fd3696e1f9c60ce648fe109aef6b58525d4cc9eb0a395413c806e7c89",
+    "input_pixel_sha256": "7d2367d85bac32ad4e862cf5ad62ffe797aad1f8d762583478c8af6ad9ca51c8",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Polo trắng giữa trái: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y03",
+    "anchor": "A08",
+    "frame_id": "Y03-F00001",
+    "marked": true,
+    "reference": "reference-05",
+    "location_description": "Polo trắng giữa trái",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y03/frame_00001.jpg",
+    "source_member": "assets/derived/30b8ff52d298e941f61a/frame_00001.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A08-F00001/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A08-F00001/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y03-A08-F00042",
+    "source_sha256": "d90aabca1c98853126d6c458500a03578a488af2a374d7bc73be18b922f27958",
+    "source_member_sha256": "c03f2d7b8574e59b834972eb136d5c247ba31347aa7d8c797a82f44969966e3b",
+    "label_sha256": "",
+    "person_xyxy": [
+      266,
+      131,
+      327,
+      213
+    ],
+    "context_xyxy": [
+      258,
+      126,
+      350,
+      238
+    ],
+    "crop_sha256": "9641cb37685bff7aec5df7334d5a0fb92964937f356d6c9016cf96a40c59743a",
+    "input_sha256": "ca6053b94416a3f4f22e5451325c7b3f673a04ba6f084feed8c4267284b528c7",
+    "input_pixel_sha256": "07c1df27fd12ca5c8eeb7b9bddbef4fe654c71678cf7ebfe5add11efc19e98cf",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Polo trắng giữa trái: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y03",
+    "anchor": "A08",
+    "frame_id": "Y03-F00042",
+    "marked": true,
+    "reference": "reference-05",
+    "location_description": "Polo trắng giữa trái",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y03/frame_00042.jpg",
+    "source_member": "assets/derived/30b8ff52d298e941f61a/frame_00042.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A08-F00042/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A08-F00042/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y03-A09-F00001",
+    "source_sha256": "e7b3c520a7d51301227b7fc50fd82867e1b474475d2534c3ee3b1fc9275283c8",
+    "source_member_sha256": "d6a61487ccc401ebfda20f0e15d3a338e6edc19957be5e3e719566eda40e479d",
+    "label_sha256": "",
+    "person_xyxy": [
+      315,
+      124,
+      356,
+      180
+    ],
+    "context_xyxy": [
+      309,
+      120,
+      366,
+      196
+    ],
+    "crop_sha256": "e6201793ea5a6c9479fa654adb28e5da2d42155b9393e89a5f492e24db889a1d",
+    "input_sha256": "774cca3a190b3c0a8ab4742d6d87a2471a8d61ffccb1507f7d76d9dd9015d3f9",
+    "input_pixel_sha256": "be39ea91b0a29d6c9355ebbb2befebe7dda5dc60a392d7d813a16779aa97f35a",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Áo xanh sau polo trắng: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y03",
+    "anchor": "A09",
+    "frame_id": "Y03-F00001",
+    "marked": true,
+    "reference": "reference-05",
+    "location_description": "Áo xanh sau polo trắng",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y03/frame_00001.jpg",
+    "source_member": "assets/derived/30b8ff52d298e941f61a/frame_00001.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A09-F00001/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A09-F00001/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y03-A09-F00024",
+    "source_sha256": "818226bbe9872fc9301d9b1e1a7081833d1bbaded7156392d255861f8ee91b65",
+    "source_member_sha256": "c6d4d5065a4307fdbc4ecedc89d47bb4084e87a5ac7eccc9c29e71961d7cdfda",
+    "label_sha256": "",
+    "person_xyxy": [
+      314,
+      123,
+      356,
+      181
+    ],
+    "context_xyxy": [
+      308,
+      118,
+      366,
+      196
+    ],
+    "crop_sha256": "99d5c3952be4ac2bbdbf9d71de0813242004dd9486f0e423175bce3a9afb8006",
+    "input_sha256": "5e9fb28cd8a2e6c01fc5934671586b28c800c261bde9249e1c6cdca90f46a5a4",
+    "input_pixel_sha256": "3936ccad96eeb1dfb52ea5ef510a4d597e5bd09455332502739a566268883a41",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Áo xanh sau polo trắng: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y03",
+    "anchor": "A09",
+    "frame_id": "Y03-F00024",
+    "marked": true,
+    "reference": "reference-05",
+    "location_description": "Áo xanh sau polo trắng",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y03/frame_00024.jpg",
+    "source_member": "assets/derived/30b8ff52d298e941f61a/frame_00024.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A09-F00024/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A09-F00024/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y03-A12-F00020",
+    "source_sha256": "6233cf7156f1647da8545a7c0e670a5d72ec196edc6ed526ae3930416700499b",
+    "source_member_sha256": "50ae9db3e6a388dc89586277eb3d8c357e1907d9f1c8381d291f5b6ae2ed960b",
+    "label_sha256": "",
+    "person_xyxy": [
+      220,
+      120,
+      260,
+      188
+    ],
+    "context_xyxy": [
+      210,
+      112,
+      271,
+      207
+    ],
+    "crop_sha256": "e4a96862acd6a24860ca6f1543ea8988328935283b4a9801d9829df785a8b657",
+    "input_sha256": "c585b82df375d642d73c7d710eb5dadcd3636feffbec3a7069996a50ff6e8673",
+    "input_pixel_sha256": "f55a0e9ba22b1726e98deca66ed0185e8d1cce2323055a10e21ee3759e8c9d8b",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Áo trắng đeo kính giữa trái: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y03",
+    "anchor": "A12",
+    "frame_id": "Y03-F00020",
+    "marked": true,
+    "reference": "reference-05",
+    "location_description": "Áo trắng đeo kính giữa trái",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y03/frame_00020.jpg",
+    "source_member": "assets/derived/30b8ff52d298e941f61a/frame_00020.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A12-F00020/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A12-F00020/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y03-A13-F00001",
+    "source_sha256": "e7b3c520a7d51301227b7fc50fd82867e1b474475d2534c3ee3b1fc9275283c8",
+    "source_member_sha256": "d6a61487ccc401ebfda20f0e15d3a338e6edc19957be5e3e719566eda40e479d",
+    "label_sha256": "",
+    "person_xyxy": [
+      180,
+      98,
+      218,
+      143
+    ],
+    "context_xyxy": [
+      173,
+      94,
+      225,
+      156
+    ],
+    "crop_sha256": "f15aebfc42878722d90ddb56fb2664c1f40656805fc2135680091a7a7429d056",
+    "input_sha256": "868bd9023cb59638e0367860914128cabe0c61968a7236f0ea8420e7e85eb6e8",
+    "input_pixel_sha256": "7670eb95239d9e3b4eaf8ceaf181a92a253921c942f615511ac18cb2ebe91521",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Áo trắng sau vị trí đeo kính: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y03",
+    "anchor": "A13",
+    "frame_id": "Y03-F00001",
+    "marked": true,
+    "reference": "reference-05",
+    "location_description": "Áo trắng sau vị trí đeo kính",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y03/frame_00001.jpg",
+    "source_member": "assets/derived/30b8ff52d298e941f61a/frame_00001.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A13-F00001/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A13-F00001/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y03-A15-F00001",
+    "source_sha256": "e7b3c520a7d51301227b7fc50fd82867e1b474475d2534c3ee3b1fc9275283c8",
+    "source_member_sha256": "d6a61487ccc401ebfda20f0e15d3a338e6edc19957be5e3e719566eda40e479d",
+    "label_sha256": "",
+    "person_xyxy": [
+      266,
+      103,
+      302,
+      146
+    ],
+    "context_xyxy": [
+      258,
+      96,
+      310,
+      159
+    ],
+    "crop_sha256": "89400e9e28e0c4eda28f515b3410fc94b296081755121dddb6d72e225b35b741",
+    "input_sha256": "bdca333684c843fa03685a3f6ac6ff325b0ed8891c43d4c5e47bb30ecc057447",
+    "input_pixel_sha256": "c18279455a2700908510e7e01ecf082eb33a233c4ef111b7796c11448ed880ef",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Áo xanh ngay sau vị trí đeo kính: Đầu hơi nghiêng nhưng vẫn hướng vùng giấy; sửa looking P dự kiến thành N. Tay/vật nhỏ nên phone U.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y03",
+    "anchor": "A15",
+    "frame_id": "Y03-F00001",
+    "marked": true,
+    "reference": "reference-05",
+    "location_description": "Áo xanh ngay sau vị trí đeo kính",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y03/frame_00001.jpg",
+    "source_member": "assets/derived/30b8ff52d298e941f61a/frame_00001.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A15-F00001/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y03-A15-F00001/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y04-A01-F00001",
+    "source_sha256": "9f8b25672e0081ed93bc3fb7d9822e211165b4a25e8060e34d997ae03ffe71b3",
+    "source_member_sha256": "28f65127cd1fc63e1d52238a47cd8045240b7b83e4da25aad4422dcbca9f9766",
+    "label_sha256": "",
+    "person_xyxy": [
+      278,
+      249,
+      325,
+      292
+    ],
+    "context_xyxy": [
+      233,
+      245,
+      330,
+      329
+    ],
+    "crop_sha256": "ce429fb15dcbd7809c669022acb7e8a6e5870c598d04f1b6da997e1b70b2232e",
+    "input_sha256": "faa6f49245d724550cd98eb4cc71a7dc257aaf8e2220f1d6d3ea8e2ef67314c5",
+    "input_pixel_sha256": "2aa995b5065cad6def5bd4e082a7f675aca1677d1c28ec6384ee772e46e3666e",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Bàn đơn gần nhất: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y04",
+    "anchor": "A01",
+    "frame_id": "Y04-F00001",
+    "marked": true,
+    "reference": "reference-03",
+    "location_description": "Bàn đơn gần nhất",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y04/frame_00001.jpg",
+    "source_member": "assets/derived/2227112d45d10d7e91b3/frame_00001.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y04-A01-F00001/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y04-A01-F00001/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y04-A01-F00009",
+    "source_sha256": "89f9bd3ee9c288831e1c9840d37b8e2ea95c323c9288f428dca0b172725346a6",
+    "source_member_sha256": "aaa3c0bb15d88f91694f0e016aca582ecce59268c85d10451033a4ed6b5f0409",
+    "label_sha256": "",
+    "person_xyxy": [
+      273,
+      245,
+      319,
+      294
+    ],
+    "context_xyxy": [
+      234,
+      242,
+      328,
+      330
+    ],
+    "crop_sha256": "1141a0485419eaad7ccc3c500e3086abec664b3a7e7322bf95950d60fbafb8a8",
+    "input_sha256": "16c3a06a847b3e5ddce54c934d00b700003e1cb897be41a7a36239851560a884",
+    "input_pixel_sha256": "a7fe257490e4643f095425ce905947f30657f989b17c5aa5e3a1ede9d185dde4",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Bàn đơn gần nhất: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y04",
+    "anchor": "A01",
+    "frame_id": "Y04-F00009",
+    "marked": true,
+    "reference": "reference-03",
+    "location_description": "Bàn đơn gần nhất",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y04/frame_00009.jpg",
+    "source_member": "assets/derived/2227112d45d10d7e91b3/frame_00009.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y04-A01-F00009/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y04-A01-F00009/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y04-A02-F00001",
+    "source_sha256": "9f8b25672e0081ed93bc3fb7d9822e211165b4a25e8060e34d997ae03ffe71b3",
+    "source_member_sha256": "28f65127cd1fc63e1d52238a47cd8045240b7b83e4da25aad4422dcbca9f9766",
+    "label_sha256": "",
+    "person_xyxy": [
+      309,
+      194,
+      366,
+      257
+    ],
+    "context_xyxy": [
+      301,
+      190,
+      368,
+      265
+    ],
+    "crop_sha256": "4d66af1cdb08e61e03eda3ed67938f7bea604805e780666b7e539428f56914ff",
+    "input_sha256": "792e8f7bccd26324651047d45388138d6dadb355bd26f1d75080f5d2084e35b5",
+    "input_pixel_sha256": "96f1537ccb773c891de6333fffc5a3d5f468f046a91764f2292c1926219bb655",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Bàn đôi gần bên phải: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y04",
+    "anchor": "A02",
+    "frame_id": "Y04-F00001",
+    "marked": true,
+    "reference": "reference-03",
+    "location_description": "Bàn đôi gần bên phải",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y04/frame_00001.jpg",
+    "source_member": "assets/derived/2227112d45d10d7e91b3/frame_00001.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y04-A02-F00001/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y04-A02-F00001/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y04-A02-F00022",
+    "source_sha256": "e74a7c17d88c4ac854323504a914d15502d940d68ae85674ef564f1f5598ae0c",
+    "source_member_sha256": "182da3ab26dd04b442279ba4adc8d71be93a246c469c2d0b40f3377eb71d54e9",
+    "label_sha256": "",
+    "person_xyxy": [
+      310,
+      194,
+      365,
+      259
+    ],
+    "context_xyxy": [
+      301,
+      190,
+      370,
+      266
+    ],
+    "crop_sha256": "1b9fa0fd106e8b198bbbc96582eaf371b6e1a31dc54ab1a62e6b2ef82d90fd5d",
+    "input_sha256": "000850c263f005c80e1c6f88cbee44d75b412e6bdb99543f030d6111e0b42af8",
+    "input_pixel_sha256": "db964331926a22c56340052c7648624a6dea3a6679cac2d0a993ee4571412472",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Bàn đôi gần bên phải: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y04",
+    "anchor": "A02",
+    "frame_id": "Y04-F00022",
+    "marked": true,
+    "reference": "reference-03",
+    "location_description": "Bàn đôi gần bên phải",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y04/frame_00022.jpg",
+    "source_member": "assets/derived/2227112d45d10d7e91b3/frame_00022.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y04-A02-F00022/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y04-A02-F00022/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y04-A03-F00001",
+    "source_sha256": "9f8b25672e0081ed93bc3fb7d9822e211165b4a25e8060e34d997ae03ffe71b3",
+    "source_member_sha256": "28f65127cd1fc63e1d52238a47cd8045240b7b83e4da25aad4422dcbca9f9766",
+    "label_sha256": "",
+    "person_xyxy": [
+      273,
+      176,
+      319,
+      225
+    ],
+    "context_xyxy": [
+      255,
+      171,
+      321,
+      236
+    ],
+    "crop_sha256": "e3a32439996033721bfc22d55560466df955a5c50f09cbc671743bd676855097",
+    "input_sha256": "a8ec343ef6f45d114fa91f3e0fd4004e958b45ac71018d2bc051161f49b67dd9",
+    "input_pixel_sha256": "6397640f52fd6b19812b49711785323c098045cccd77e7e2bf387d189787f1d1",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Bàn đôi gần bên trái: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y04",
+    "anchor": "A03",
+    "frame_id": "Y04-F00001",
+    "marked": true,
+    "reference": "reference-03",
+    "location_description": "Bàn đôi gần bên trái",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y04/frame_00001.jpg",
+    "source_member": "assets/derived/2227112d45d10d7e91b3/frame_00001.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y04-A03-F00001/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y04-A03-F00001/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y04-A08-F00001",
+    "source_sha256": "9f8b25672e0081ed93bc3fb7d9822e211165b4a25e8060e34d997ae03ffe71b3",
+    "source_member_sha256": "28f65127cd1fc63e1d52238a47cd8045240b7b83e4da25aad4422dcbca9f9766",
+    "label_sha256": "",
+    "person_xyxy": [
+      224,
+      140,
+      255,
+      183
+    ],
+    "context_xyxy": [
+      212,
+      136,
+      259,
+      196
+    ],
+    "crop_sha256": "778eff927df96c8f3f27601b9808ed972ffd249d8e5a69ba86b2dc38800a1358",
+    "input_sha256": "1020fda82d74a42727571bd6f9907fd4c940c48d211eafb2ca8d67c818b86db3",
+    "input_pixel_sha256": "6f51027e76ce688753b1c8ab25df681e77f7250c771ce3ccf281c85f48ccb1fe",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Bàn đầu dãy giữa bên phải: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y04",
+    "anchor": "A08",
+    "frame_id": "Y04-F00001",
+    "marked": true,
+    "reference": "reference-03",
+    "location_description": "Bàn đầu dãy giữa bên phải",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y04/frame_00001.jpg",
+    "source_member": "assets/derived/2227112d45d10d7e91b3/frame_00001.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y04-A08-F00001/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y04-A08-F00001/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y04-A10-F00001",
+    "source_sha256": "9f8b25672e0081ed93bc3fb7d9822e211165b4a25e8060e34d997ae03ffe71b3",
+    "source_member_sha256": "28f65127cd1fc63e1d52238a47cd8045240b7b83e4da25aad4422dcbca9f9766",
+    "label_sha256": "",
+    "person_xyxy": [
+      255,
+      119,
+      285,
+      163
+    ],
+    "context_xyxy": [
+      244,
+      114,
+      291,
+      173
+    ],
+    "crop_sha256": "688fd6d71d0a3e7a9f020b04b6ec38b99bafda1a17a7d22ce053bb7331ded7a9",
+    "input_sha256": "63facb6fc52e0c08245ac001434ad206fb118419d7c086538adf205b884cb98c",
+    "input_pixel_sha256": "efe5f8aa9ddaa0c4be16702f34b2193bdd3a15bf0bab614c360dc12583fff9dc",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Bàn sau cặp giữa: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y04",
+    "anchor": "A10",
+    "frame_id": "Y04-F00001",
+    "marked": true,
+    "reference": "reference-03",
+    "location_description": "Bàn sau cặp giữa",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y04/frame_00001.jpg",
+    "source_member": "assets/derived/2227112d45d10d7e91b3/frame_00001.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y04-A10-F00001/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y04-A10-F00001/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y04-A10-F00075",
+    "source_sha256": "e24358db4647d0c2c2f10eb57283393f5a8e69ff487a6757cb5a9bba6c547991",
+    "source_member_sha256": "823847ffc1e3f75825dc24d185e406979fc4966e4fe5343729fe355fe093bfe4",
+    "label_sha256": "",
+    "person_xyxy": [
+      253,
+      117,
+      307,
+      175
+    ],
+    "context_xyxy": [
+      243,
+      112,
+      310,
+      183
+    ],
+    "crop_sha256": "3e30de3198eacd0b549701d963c688f9ac68b073cea69a2e385eb4689c60adf3",
+    "input_sha256": "25280d3c9c0c2b997997be50d13bfb0882ad083571adccb297481f67adaed2e7",
+    "input_pixel_sha256": "692246aa6e7186a605c47d133cf02d98a9abddda84a90ddbc8e5f998af24115d",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Bàn sau cặp giữa: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y04",
+    "anchor": "A10",
+    "frame_id": "Y04-F00075",
+    "marked": true,
+    "reference": "reference-03",
+    "location_description": "Bàn sau cặp giữa",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y04/frame_00075.jpg",
+    "source_member": "assets/derived/2227112d45d10d7e91b3/frame_00075.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y04-A10-F00075/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y04-A10-F00075/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y04-A14-F00001",
+    "source_sha256": "9f8b25672e0081ed93bc3fb7d9822e211165b4a25e8060e34d997ae03ffe71b3",
+    "source_member_sha256": "28f65127cd1fc63e1d52238a47cd8045240b7b83e4da25aad4422dcbca9f9766",
+    "label_sha256": "",
+    "person_xyxy": [
+      129,
+      114,
+      162,
+      157
+    ],
+    "context_xyxy": [
+      121,
+      110,
+      166,
+      164
+    ],
+    "crop_sha256": "8312c4c558275d6fe996b16a52e487fc4e694f4f9347482de6409d1f88f50a77",
+    "input_sha256": "f9a2797ca91fad737f210c0b4f9710675b2db59de8a40701965b8172b9b967c9",
+    "input_pixel_sha256": "f22b7250d730af3b2f4da09b54ea0b5a3c39b27f8b273ba482f8e23655d40fe6",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Đầu dãy trái: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y04",
+    "anchor": "A14",
+    "frame_id": "Y04-F00001",
+    "marked": true,
+    "reference": "reference-03",
+    "location_description": "Đầu dãy trái",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y04/frame_00001.jpg",
+    "source_member": "assets/derived/2227112d45d10d7e91b3/frame_00001.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y04-A14-F00001/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y04-A14-F00001/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y05-A01-F00001",
+    "source_sha256": "92dcc6beb95f549222f59ac11a7ad2648e7bb9bb31115787624fbc8065bc84ac",
+    "source_member_sha256": "2de939ca32975d621e67ff0e0d93bd1fed9323d9505a024fa159e9ecbeef2705",
+    "label_sha256": "",
+    "person_xyxy": [
+      70,
+      187,
+      139,
+      251
+    ],
+    "context_xyxy": [
+      66,
+      183,
+      162,
+      284
+    ],
+    "crop_sha256": "edea81e39dcd4165d99f65902a80dd40a5b0b047a976589e28890a24d2ef6727",
+    "input_sha256": "4160325bbbd61eb6759f7d700a623e9a23caefddd6121b6a0d0ba07607c2850f",
+    "input_pixel_sha256": "84c2e67b1f65d41e0d5b5ca1fee8ea6df5408da6cbf95d5ab165369af0cd1d5b",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Áo tối bàn trái gần: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y05",
+    "anchor": "A01",
+    "frame_id": "Y05-F00001",
+    "marked": true,
+    "reference": "reference-06",
+    "location_description": "Áo tối bàn trái gần",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y05/frame_00001.jpg",
+    "source_member": "assets/derived/1f11900c922a248ef051/frame_00001.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y05-A01-F00001/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y05-A01-F00001/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y05-A02-F00001",
+    "source_sha256": "92dcc6beb95f549222f59ac11a7ad2648e7bb9bb31115787624fbc8065bc84ac",
+    "source_member_sha256": "2de939ca32975d621e67ff0e0d93bd1fed9323d9505a024fa159e9ecbeef2705",
+    "label_sha256": "",
+    "person_xyxy": [
+      144,
+      171,
+      226,
+      235
+    ],
+    "context_xyxy": [
+      140,
+      168,
+      241,
+      271
+    ],
+    "crop_sha256": "672ff2d688a356f816fead440b558bf767b3ad23ad689858786f87f596476f39",
+    "input_sha256": "b027d6055f53c93beaf60036241e739ec6c4067d06c4129810d267a2dc4ead8e",
+    "input_pixel_sha256": "30fdfd78a8d5384d1dc34f18aca2dfbc8f14eabe4df33997f60a41346f102eaf",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "draft_reason": "Áo xanh đeo kính bàn phải gần: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y05",
+    "anchor": "A02",
+    "frame_id": "Y05-F00001",
+    "marked": true,
+    "reference": "reference-06",
+    "location_description": "Áo xanh đeo kính bàn phải gần",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y05/frame_00001.jpg",
+    "source_member": "assets/derived/1f11900c922a248ef051/frame_00001.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y05-A02-F00001/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y05-A02-F00001/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y05-A02-F00048",
+    "source_sha256": "db518a5bfa08dc7a2f2d8a135144a4dd1d7454819ded3340658d1aba546e0b48",
+    "source_member_sha256": "bf6c4e7a3056800b593de3149a5875767159e21b4e723210302a9ba133612b56",
+    "label_sha256": "",
+    "person_xyxy": [
+      145,
+      164,
+      230,
+      240
+    ],
+    "context_xyxy": [
+      139,
+      156,
+      241,
+      269
+    ],
+    "crop_sha256": "d4ec066a3a57cb7bc7c945d7398b934c30005fe2645ca59b24b60d13a675a20d",
+    "input_sha256": "f2f070dc5430885ea4c027cbe9c50990728e082b1a9cc8af9ac508a379742c68",
+    "input_pixel_sha256": "f173048cc0a961e805de8dc7965cdef716e55c5e99a4802eb259f748464e8f41",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "N",
+      "P"
+    ],
+    "draft_reason": "Áo xanh đeo kính bàn phải gần: Tay và vùng thao tác đủ quan sát absence; không mobile hoặc vật mơ hồ còn lộ. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y05",
+    "anchor": "A02",
+    "frame_id": "Y05-F00048",
+    "marked": true,
+    "reference": "reference-06",
+    "location_description": "Áo xanh đeo kính bàn phải gần",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y05/frame_00048.jpg",
+    "source_member": "assets/derived/1f11900c922a248ef051/frame_00048.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y05-A02-F00048/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y05-A02-F00048/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y05-A03-F00001",
+    "source_sha256": "92dcc6beb95f549222f59ac11a7ad2648e7bb9bb31115787624fbc8065bc84ac",
+    "source_member_sha256": "2de939ca32975d621e67ff0e0d93bd1fed9323d9505a024fa159e9ecbeef2705",
+    "label_sha256": "",
+    "person_xyxy": [
+      39,
+      140,
+      89,
+      198
+    ],
+    "context_xyxy": [
+      34,
+      136,
+      99,
+      210
+    ],
+    "crop_sha256": "4834da1122a416f93693305e1c082409bab9811d358fbaba802e4eac5364eaff",
+    "input_sha256": "2796b5d481e93419f3e066ad202f4b4290e9c863bb4c06fcc4738ced9583ba18",
+    "input_pixel_sha256": "403f472286ae18a6f3d5e598ad01050dddd59aee277912615d61c559d0dcdc17",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Dãy tường sau trái: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y05",
+    "anchor": "A03",
+    "frame_id": "Y05-F00001",
+    "marked": true,
+    "reference": "reference-06",
+    "location_description": "Dãy tường sau trái",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y05/frame_00001.jpg",
+    "source_member": "assets/derived/1f11900c922a248ef051/frame_00001.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y05-A03-F00001/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y05-A03-F00001/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y05-A04-F00001",
+    "source_sha256": "92dcc6beb95f549222f59ac11a7ad2648e7bb9bb31115787624fbc8065bc84ac",
+    "source_member_sha256": "2de939ca32975d621e67ff0e0d93bd1fed9323d9505a024fa159e9ecbeef2705",
+    "label_sha256": "",
+    "person_xyxy": [
+      94,
+      117,
+      146,
+      180
+    ],
+    "context_xyxy": [
+      86,
+      114,
+      157,
+      191
+    ],
+    "crop_sha256": "9b33196c2cf56ab85957a4469db586af22a7e0ed908e11554fedbb7415d7941b",
+    "input_sha256": "46bb85948fb45c5a408c8e5781c212a922ada9e65c030e435a52a2c10a8d6ffc",
+    "input_pixel_sha256": "aa4571a54bcd0bcd4e531f28bd38ae9967c868915347995403c9d88d1ff87605",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Dãy tường sau phải: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y05",
+    "anchor": "A04",
+    "frame_id": "Y05-F00001",
+    "marked": true,
+    "reference": "reference-06",
+    "location_description": "Dãy tường sau phải",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y05/frame_00001.jpg",
+    "source_member": "assets/derived/1f11900c922a248ef051/frame_00001.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y05-A04-F00001/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y05-A04-F00001/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y05-A07-F00001",
+    "source_sha256": "92dcc6beb95f549222f59ac11a7ad2648e7bb9bb31115787624fbc8065bc84ac",
+    "source_member_sha256": "2de939ca32975d621e67ff0e0d93bd1fed9323d9505a024fa159e9ecbeef2705",
+    "label_sha256": "",
+    "person_xyxy": [
+      273,
+      126,
+      325,
+      207
+    ],
+    "context_xyxy": [
+      266,
+      122,
+      344,
+      216
+    ],
+    "crop_sha256": "f1792a08f11ed8fab20f28599385d5cd2dff10d8532721d25a9db17d17f56597",
+    "input_sha256": "7266eb37c02934bfefc6a081cbf7c0b2582cf805eaec571da2f7a379de11bf3d",
+    "input_pixel_sha256": "49bf64e8851f7f084b849bae07ede7c70deec0ff1ab32a1a7d4aa69a9fe8875e",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Áo tím đầu dãy giữa: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y05",
+    "anchor": "A07",
+    "frame_id": "Y05-F00001",
+    "marked": true,
+    "reference": "reference-06",
+    "location_description": "Áo tím đầu dãy giữa",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y05/frame_00001.jpg",
+    "source_member": "assets/derived/1f11900c922a248ef051/frame_00001.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y05-A07-F00001/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y05-A07-F00001/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y05-A07-F00033",
+    "source_sha256": "b2d4c1de7930d3af44940f22fd3c3fa5e6b11db799bf532b574d940fa0959582",
+    "source_member_sha256": "ee1d3371394781c8150d1f32805a0a4c65b51ea863f377aca5c276300dd86f38",
+    "label_sha256": "",
+    "person_xyxy": [
+      272,
+      122,
+      324,
+      203
+    ],
+    "context_xyxy": [
+      266,
+      117,
+      344,
+      212
+    ],
+    "crop_sha256": "a6df2f4cfb079ff83afa9953769af42eabaa76138e44ddd000940778c4519989",
+    "input_sha256": "6d932f3b9bd2aadf8997f455132802e495456ddf5b7b50f5a6a5798d84aa00d4",
+    "input_pixel_sha256": "ea1bdc8f6e23384ebe7e5b5d9b76dea4daa1039fc4369ce57689c0b5776a781a",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Áo tím đầu dãy giữa: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y05",
+    "anchor": "A07",
+    "frame_id": "Y05-F00033",
+    "marked": true,
+    "reference": "reference-06",
+    "location_description": "Áo tím đầu dãy giữa",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y05/frame_00033.jpg",
+    "source_member": "assets/derived/1f11900c922a248ef051/frame_00033.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y05-A07-F00033/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y05-A07-F00033/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y05-A11-F00001",
+    "source_sha256": "92dcc6beb95f549222f59ac11a7ad2648e7bb9bb31115787624fbc8065bc84ac",
+    "source_member_sha256": "2de939ca32975d621e67ff0e0d93bd1fed9323d9505a024fa159e9ecbeef2705",
+    "label_sha256": "",
+    "person_xyxy": [
+      209,
+      99,
+      262,
+      149
+    ],
+    "context_xyxy": [
+      206,
+      94,
+      268,
+      160
+    ],
+    "crop_sha256": "850add5d00c95d4991a476d19c960fc09ed44cdfe45d434a136d799a6ea7007a",
+    "input_sha256": "b6a20cfaf7e2aa997280f5c8c86b66d3811015d64c2b1f6e89c3b6eac691250a",
+    "input_pixel_sha256": "c3f5c41ddc6c1a3754e4227d7ce4d0a88648ba1f478cad201cf61ccaaf1e0245",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "N"
+    ],
+    "draft_reason": "Áo xanh sau dãy giữa: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu về trang/sách/vùng thao tác riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y05",
+    "anchor": "A11",
+    "frame_id": "Y05-F00001",
+    "marked": true,
+    "reference": "reference-06",
+    "location_description": "Áo xanh sau dãy giữa",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y05/frame_00001.jpg",
+    "source_member": "assets/derived/1f11900c922a248ef051/frame_00001.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y05-A11-F00001/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y05-A11-F00001/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y06-A01-F00033",
+    "source_sha256": "ff04a8dff2cb2314ea88f6f4399b44d98f4c10210f19488c2f7582bf61642db7",
+    "source_member_sha256": "083193a0c64ff2b67ca7df1336aed0a16c8fd28698b96dc4a0e33e7fef9213d3",
+    "label_sha256": "",
+    "person_xyxy": [
+      382,
+      57,
+      552,
+      353
+    ],
+    "context_xyxy": [
+      373,
+      49,
+      557,
+      356
+    ],
+    "crop_sha256": "b9347e543f0afa51946e7e126c5301523ced0af906f395174e2574e4d9de177d",
+    "input_sha256": "974f0a0215890a07a563c6f482d531adba69e9e3d04d2d3d598e944411d9afc9",
+    "input_pixel_sha256": "6234d3c341436972b6a6164a6e9bd264bf385b2f3e08645ea01227b19d50c3ae",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Blouse trắng tiền cảnh panel trái: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y06",
+    "anchor": "A01",
+    "frame_id": "Y06-F00033",
+    "marked": true,
+    "reference": "reference-02",
+    "location_description": "Blouse trắng tiền cảnh panel trái",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y06/frame_00033.jpg",
+    "source_member": "assets/derived/8648d6fd214427e930d6/frame_00033.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y06-A01-F00033/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y06-A01-F00033/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y06-A02-F00064",
+    "source_sha256": "276106054bda02dbb7797de1a9ae8ed809be5170123125ce5abb570b2cd5dadf",
+    "source_member_sha256": "f87e67cbe156d83732fa79c0d5353a0a71a58a0e31cb9c8e12cf4ccd20309c96",
+    "label_sha256": "",
+    "person_xyxy": [
+      156,
+      9,
+      279,
+      176
+    ],
+    "context_xyxy": [
+      150,
+      4,
+      291,
+      190
+    ],
+    "crop_sha256": "d5529b25222e67ed6141f4f4b40cd42fa7e92bbe9df248d11b70db9dae3d8a36",
+    "input_sha256": "1fdca038b9cc0fe8bfa6ff267e28fbc9e4281db61684187e7bb32c7d45b93410",
+    "input_pixel_sha256": "b187f0aa590976f9ad6e7576d581875cf4014199aab8c7e2ecca7560ddcf2e15",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Áo trắng đeo kính ở góc đối diện: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y06",
+    "anchor": "A02",
+    "frame_id": "Y06-F00064",
+    "marked": true,
+    "reference": "reference-02",
+    "location_description": "Áo trắng đeo kính ở góc đối diện",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y06/frame_00064.jpg",
+    "source_member": "assets/derived/8648d6fd214427e930d6/frame_00064.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y06-A02-F00064/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y06-A02-F00064/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y06-A03-F00001",
+    "source_sha256": "8d4a470279fa868b2c7733fa0db856e50e99660739030476f965f4c3a7b5e743",
+    "source_member_sha256": "fc1b8a101bbbe8b6589e7d94448051b0b9d304c1b2060e19465451fe5043098f",
+    "label_sha256": "",
+    "person_xyxy": [
+      0,
+      1,
+      174,
+      269
+    ],
+    "context_xyxy": [
+      0,
+      0,
+      180,
+      302
+    ],
+    "crop_sha256": "f2e153b136620825985ee5606e7840c31683390dd00605b3d70d66d83a499911",
+    "input_sha256": "b81ef50c44e46217027f4c9092c54c618976d5ee373e38496aab2c0cddcfd3ec",
+    "input_pixel_sha256": "03ee558951fc8731b4bd2f10e8d19f299a5a54e840e624ab53a60adaef4ee5cc",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Gile đen đeo kính cạnh người đọc: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y06",
+    "anchor": "A03",
+    "frame_id": "Y06-F00001",
+    "marked": true,
+    "reference": "reference-02",
+    "location_description": "Gile đen đeo kính cạnh người đọc",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y06/frame_00001.jpg",
+    "source_member": "assets/derived/8648d6fd214427e930d6/frame_00001.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y06-A03-F00001/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y06-A03-F00001/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y06-A04-F00064",
+    "source_sha256": "276106054bda02dbb7797de1a9ae8ed809be5170123125ce5abb570b2cd5dadf",
+    "source_member_sha256": "f87e67cbe156d83732fa79c0d5353a0a71a58a0e31cb9c8e12cf4ccd20309c96",
+    "label_sha256": "",
+    "person_xyxy": [
+      287,
+      33,
+      480,
+      278
+    ],
+    "context_xyxy": [
+      280,
+      28,
+      490,
+      286
+    ],
+    "crop_sha256": "76ae1d6c333bcd618c983570dbe5b811e7748fb4fe23c12031cfa90eed8e246e",
+    "input_sha256": "618d1d6d2cbbee710d363774e9ae3d325fa1fe614b4efce456a550e275f42b6d",
+    "input_pixel_sha256": "adc4822bc746eddfe7e5e3321c52d0386cec07339f87785b1779f94ea8c77945",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "draft_reason": "Người đọc sách xanh: Góc cạnh, đầu hướng sách đang cầm; hai tay giữ trang, không có thiết bị mơ hồ còn lộ. Không gán phone bàn tiền cảnh cho người đọc.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y06",
+    "anchor": "A04",
+    "frame_id": "Y06-F00064",
+    "marked": true,
+    "reference": "reference-02",
+    "location_description": "Người đọc sách xanh",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y06/frame_00064.jpg",
+    "source_member": "assets/derived/8648d6fd214427e930d6/frame_00064.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y06-A04-F00064/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y06-A04-F00064/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y06-A06-F00036",
+    "source_sha256": "c1c4238752583148227d47068b777baf084edb11a4c0d412bd8f1cc6de3c8bac",
+    "source_member_sha256": "20a0bea1c6f61c2fe24ed953f4d3c9d6b5233d31a8154b141c08397a4ff55116",
+    "label_sha256": "",
+    "person_xyxy": [
+      54,
+      10,
+      259,
+      314
+    ],
+    "context_xyxy": [
+      42,
+      4,
+      268,
+      325
+    ],
+    "crop_sha256": "2d902d90e27b57e563e1753d908d17693f5abb4d7550835d35180cc19ae50342",
+    "input_sha256": "c54017b56888996ef729ea053950c92e76d42b96e99c6e27cb1af52dc0fd5c08",
+    "input_pixel_sha256": "72a3994ced75067f0a6847bd44b57e6b3b1f2e48d05657091691a7ec9b0a0e1e",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Khoác viền đỏ sau người đọc: Nhìn sang trái ngoài bàn; bàn tay còn lại nằm dưới cánh tay/mép nguồn nên phone U.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y06",
+    "anchor": "A06",
+    "frame_id": "Y06-F00036",
+    "marked": true,
+    "reference": "reference-02",
+    "location_description": "Khoác viền đỏ sau người đọc",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y06/frame_00036.jpg",
+    "source_member": "assets/derived/8648d6fd214427e930d6/frame_00036.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y06-A06-F00036/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y06-A06-F00036/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y06-A14-F00033",
+    "source_sha256": "ff04a8dff2cb2314ea88f6f4399b44d98f4c10210f19488c2f7582bf61642db7",
+    "source_member_sha256": "083193a0c64ff2b67ca7df1336aed0a16c8fd28698b96dc4a0e33e7fef9213d3",
+    "label_sha256": "",
+    "person_xyxy": [
+      272,
+      33,
+      350,
+      180
+    ],
+    "context_xyxy": [
+      261,
+      27,
+      360,
+      205
+    ],
+    "crop_sha256": "26bd8ce803345d2dd5007778197f33e2e7c154d15d82aa937ca865396053e4b0",
+    "input_sha256": "191072e4db7f62be0fad0014ea7d3de72484425824f5b85c21bcff99a284b666",
+    "input_pixel_sha256": "ccf937d0931f26752223093800d11951fe32ce3f462cda40a00137463ccfe6c0",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "U",
+      "P"
+    ],
+    "draft_reason": "Gile đen sau blouse trắng: Tay/vùng thao tác bị che hoặc vật nhỏ chưa phân loại/attribution chưa chắc; không đủ absence. Hướng đầu/nhìn ra trước hoặc sang bên ngoài vùng bài riêng.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y06",
+    "anchor": "A14",
+    "frame_id": "Y06-F00033",
+    "marked": true,
+    "reference": "reference-02",
+    "location_description": "Gile đen sau blouse trắng",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y06/frame_00033.jpg",
+    "source_member": "assets/derived/8648d6fd214427e930d6/frame_00033.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y06-A14-F00033/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y06-A14-F00033/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  },
+  {
+    "candidate_id": "Y06-A04-F00001-R02",
+    "source_sha256": "8d4a470279fa868b2c7733fa0db856e50e99660739030476f965f4c3a7b5e743",
+    "source_member_sha256": "fc1b8a101bbbe8b6589e7d94448051b0b9d304c1b2060e19465451fe5043098f",
+    "label_sha256": "",
+    "person_xyxy": [
+      229,
+      4,
+      448,
+      280
+    ],
+    "context_xyxy": [
+      221,
+      1,
+      454,
+      281
+    ],
+    "crop_sha256": "cc44e999affa66f838eabe43485c5529ccf4ad7a81f61b9b86111d38c5c97371",
+    "input_sha256": "1a01ab2d9622ca08b36d541ea654ba5adc087371ef93b80d2f9b0dbfed9be76c",
+    "input_pixel_sha256": "428cc3b2690c813d372ddc53d9b00fb82d4ccb02bd70acb4fea572a947e39836",
+    "input_size": 224,
+    "fill": [
+      114,
+      114,
+      114
+    ],
+    "draft_states": [
+      "N",
+      "N"
+    ],
+    "draft_reason": "Người đọc sách xanh: Đầu hướng sách xanh, hai tay giữ sách; absence trong vùng nhìn thấy theo ngoại lệ giấy che hoàn toàn. R02 bỏ chữ sát mép dưới.",
+    "canonical_targets": [
+      null,
+      null
+    ],
+    "canonical_mask": [
+      0,
+      0
+    ],
+    "usage": "review_only",
+    "split": null,
+    "owner_approved": false,
+    "independence_proven": false,
+    "proposed_role": "unassigned_pending_family_review",
+    "group": "Y06",
+    "anchor": "A04",
+    "frame_id": "Y06-F00001",
+    "marked": true,
+    "reference": "reference-02",
+    "location_description": "Người đọc sách xanh",
+    "qa_status": "pass_draft",
+    "qa_note": "Đã xem source, native crop và input 224; anchor chính trội, known target còn đủ bằng chứng. Nhãn đề xuất chờ owner review.",
+    "source_path": "data/interim/youtube-frame-audit-20261018/frames/Y06/frame_00001.jpg",
+    "source_member": "assets/derived/8648d6fd214427e930d6/frame_00001.jpg",
+    "source_archive_sha256": "50156f90e3c7eefff8bdd5bc081a5781921fe76400ea2a7966442d3f09f56a62",
+    "crop_path": "data/interim/youtube-frame-audit-20261018/candidates/Y06-A04-F00001-R02/crop.png",
+    "input_path": "data/interim/youtube-frame-audit-20261018/candidates/Y06-A04-F00001-R02/input.png",
+    "anchor_identity_scope": "Vị trí/bố cục cục bộ trong video; không nhận diện khuôn mặt hoặc chứng minh danh tính."
+  }
+]

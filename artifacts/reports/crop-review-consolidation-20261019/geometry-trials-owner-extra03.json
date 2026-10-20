@@ -1,0 +1,863 @@
+[
+  {
+    "parent": "V7-A-004",
+    "id": "V7-A-004-R05",
+    "person": [
+      327,
+      87,
+      416,
+      258
+    ],
+    "context": [
+      327,
+      87,
+      416,
+      258
+    ],
+    "states": [
+      "U",
+      "N"
+    ],
+    "reason": "Nới trên lấy trọn tóc, giữ bàn tay/vật riêng."
+  },
+  {
+    "parent": "V7-B-035",
+    "id": "V7-B-035-ADD01-R02",
+    "person": [
+      53,
+      183,
+      165,
+      480
+    ],
+    "context": [
+      53,
+      183,
+      165,
+      480
+    ],
+    "states": [
+      "N",
+      "P"
+    ],
+    "reason": "Thu trái tránh device người sau, giữ hai tay và đầu quay trái."
+  },
+  {
+    "parent": "V7-OE-S077-A01",
+    "id": "V7-OE-S077-A01-R04",
+    "person": [
+      244,
+      105,
+      398,
+      512
+    ],
+    "context": [
+      244,
+      105,
+      398,
+      512
+    ],
+    "states": [
+      "U",
+      "P"
+    ],
+    "reason": "Nam áo xám trước quay phải; tay dưới bàn vẫn U, giảm mặt nam sau."
+  },
+  {
+    "parent": "V7-OE-S107-A01",
+    "id": "V7-OE-S107-A01-R04",
+    "person": [
+      39,
+      31,
+      430,
+      512
+    ],
+    "context": [
+      39,
+      31,
+      430,
+      512
+    ],
+    "states": [
+      "P",
+      "N"
+    ],
+    "reason": "Nới phải giữ toàn phone và hai tay theo owner; kiểm người sau và input."
+  },
+  {
+    "parent": "V7-OE-S043-A02",
+    "id": "V7-OE-S043-A02-R04",
+    "person": [
+      1474,
+      412,
+      1879,
+      1099
+    ],
+    "context": [
+      1474,
+      412,
+      1879,
+      1099
+    ],
+    "states": [
+      "P",
+      "U"
+    ],
+    "reason": "Nguồn cho phone mặt kính trên giấy, không phải calculator; tách nữ bên phải. Hướng mắt chưa đủ P, kiểm riêng input."
+  },
+  {
+    "parent": "V7-OE-S053-A01",
+    "id": "V7-OE-S053-A01-R04",
+    "person": [
+      1170,
+      428,
+      1579,
+      922
+    ],
+    "context": [
+      1170,
+      428,
+      1579,
+      922
+    ],
+    "states": [
+      "N",
+      "P"
+    ],
+    "reason": "Chọn nam áo xanh kính nhìn sang người bên phải theo owner, giữ tay khoanh/bàn."
+  },
+  {
+    "parent": "V7-OE-S061-A01",
+    "id": "V7-OE-S061-A01-R04",
+    "person": [
+      135,
+      908,
+      495,
+      1444
+    ],
+    "context": [
+      135,
+      908,
+      495,
+      1444
+    ],
+    "states": [
+      "U",
+      "P"
+    ],
+    "reason": "Chọn nữ áo xanh tiền cảnh trái; giữ đầu/thân/bàn, tay bị che nên U."
+  },
+  {
+    "parent": "V6-EX-012",
+    "id": "V6-EX-012-ADD01",
+    "person": [
+      26,
+      132,
+      231,
+      609
+    ],
+    "context": [
+      26,
+      132,
+      231,
+      609
+    ],
+    "states": [
+      "P",
+      "P"
+    ],
+    "reason": "Nữ bên trái giơ phone mặt kính, đầu nhìn camera khỏi giấy, thêm theo owner."
+  },
+  {
+    "parent": "V6-EX-042",
+    "id": "V6-EX-042-ADD01",
+    "person": [
+      375,
+      52,
+      640,
+      640
+    ],
+    "context": [
+      375,
+      52,
+      640,
+      640
+    ],
+    "states": [
+      "U",
+      "P"
+    ],
+    "reason": "Nữ bên phải quay về bạn bên trái, giữ toàn phần tay/thân còn trong nguồn."
+  },
+  {
+    "parent": "V6R2-EX-008",
+    "id": "V6R2-EX-008-R04",
+    "person": [
+      286,
+      62,
+      640,
+      640
+    ],
+    "context": [
+      286,
+      62,
+      640,
+      640
+    ],
+    "states": [
+      "N",
+      "P"
+    ],
+    "reason": "Mở khung nữ áo xám quay trái khỏi bài riêng, lấy đủ hai tay và trang."
+  },
+  {
+    "parent": "V6R2-EX-010",
+    "id": "V6R2-EX-010-R04",
+    "person": [
+      315,
+      327,
+      444,
+      640
+    ],
+    "context": [
+      315,
+      327,
+      444,
+      640
+    ],
+    "states": [
+      "U",
+      "P"
+    ],
+    "reason": "Nữ ô collage dưới quay trái, lấy phần tay còn có; nguồn đáy vẫn giới hạn, không mặc định N."
+  },
+  {
+    "parent": "V7-C-087",
+    "id": "V7-C-087-ADD01",
+    "person": [
+      0,
+      134,
+      240,
+      640
+    ],
+    "context": [
+      0,
+      134,
+      240,
+      640
+    ],
+    "states": [
+      "N",
+      "P"
+    ],
+    "reason": "Nữ áo xanh bên trái cầm bút, quay sang người bên phải; giữ hai tay và bài riêng."
+  },
+  {
+    "parent": "V7-C-125",
+    "id": "V7-C-125-R04",
+    "person": [
+      0,
+      251,
+      587,
+      685
+    ],
+    "context": [
+      0,
+      251,
+      587,
+      685
+    ],
+    "states": [
+      "N",
+      "N"
+    ],
+    "reason": "Nới phải/đáy đến nguồn để lấy đủ tay nam kính viết tiền cảnh."
+  },
+  {
+    "parent": "V7-OE-S009-A01",
+    "id": "V7-OE-S009-A01-ADD01",
+    "person": [
+      48,
+      204,
+      270,
+      534
+    ],
+    "context": [
+      48,
+      204,
+      270,
+      534
+    ],
+    "states": [
+      "U",
+      "P"
+    ],
+    "reason": "Nam áo đen trước trái quay về phía người đứng; thử tách đủ thân và tay."
+  },
+  {
+    "parent": "V7-OE-S009-A01",
+    "id": "V7-OE-S009-A01-ADD02",
+    "person": [
+      232,
+      210,
+      410,
+      506
+    ],
+    "context": [
+      232,
+      210,
+      410,
+      506
+    ],
+    "states": [
+      "U",
+      "P"
+    ],
+    "reason": "Nam áo xám ngồi cạnh nhìn về phía trước, giữ vùng tay bàn."
+  },
+  {
+    "parent": "E004-EX-C002",
+    "id": "E004-EX-C002-R04",
+    "person": [
+      185,
+      308,
+      504,
+      709
+    ],
+    "context": [
+      185,
+      308,
+      504,
+      709
+    ],
+    "states": [
+      "U",
+      "N"
+    ],
+    "reason": "Thu khít nam áo đen cầm vật trước laptop, bỏ nền dư; giữ đầu/hai tay."
+  },
+  {
+    "parent": "EXP-RF-007",
+    "id": "EXP-RF-007-R04",
+    "person": [
+      141,
+      237,
+      341,
+      416
+    ],
+    "context": [
+      141,
+      237,
+      341,
+      416
+    ],
+    "states": [
+      "N",
+      "P"
+    ],
+    "reason": "Nới phải lấy đủ tay tựa túi/ghế, giữ tay bút và đầu quay phải."
+  },
+  {
+    "parent": "EXP-RF-021",
+    "id": "EXP-RF-021-R04",
+    "person": [
+      184,
+      107,
+      324,
+      398
+    ],
+    "context": [
+      184,
+      107,
+      324,
+      398
+    ],
+    "states": [
+      "N",
+      "P"
+    ],
+    "reason": "Mở xuống lấy cả hai tay và tablet của nữ tóc vàng; kiểm mặt nền hai bên."
+  },
+  {
+    "parent": "SCB-read-004",
+    "id": "SCB-read-004-R04",
+    "person": [
+      367,
+      546,
+      697,
+      1041
+    ],
+    "context": [
+      367,
+      546,
+      697,
+      1041
+    ],
+    "states": [
+      "N",
+      "N"
+    ],
+    "reason": "Đổi sang nữ kính tiền cảnh chống cằm đọc, hai tay trong vùng bài rõ hơn."
+  },
+  {
+    "parent": "SCB-read-015",
+    "id": "SCB-read-015-ADD01",
+    "person": [
+      394,
+      184,
+      500,
+      428
+    ],
+    "context": [
+      394,
+      184,
+      500,
+      428
+    ],
+    "states": [
+      "N",
+      "P"
+    ],
+    "reason": "Nam kính cuối dãy gần cô giáo, giữ hai tay và hướng nhìn khỏi bài."
+  },
+  {
+    "parent": "SCB-write-018",
+    "id": "SCB-write-018-R04",
+    "person": [
+      345,
+      445,
+      669,
+      630
+    ],
+    "context": [
+      345,
+      445,
+      669,
+      630
+    ],
+    "states": [
+      "N",
+      "N"
+    ],
+    "reason": "Chọn nữ kính trước phải viết, giữ đầu/hai tay/giấy rõ hơn anchor cũ."
+  },
+  {
+    "parent": "SCB-write-019",
+    "id": "SCB-write-019-R04",
+    "person": [
+      675,
+      338,
+      797,
+      448
+    ],
+    "context": [
+      675,
+      338,
+      797,
+      448
+    ],
+    "states": [
+      "N",
+      "N"
+    ],
+    "reason": "Chọn người áo đỏ trước phải viết, tránh các mặt nền phía trên."
+  },
+  {
+    "parent": "SCB-write-023",
+    "id": "SCB-write-023-R04",
+    "person": [
+      250,
+      318,
+      367,
+      474
+    ],
+    "context": [
+      250,
+      318,
+      367,
+      474
+    ],
+    "states": [
+      "N",
+      "N"
+    ],
+    "reason": "Chọn người trước giữa bên trái đang viết, giữ hai tay/giấy; kiểm tóc."
+  },
+  {
+    "parent": "SCB-write-027",
+    "id": "SCB-write-027-R04",
+    "person": [
+      11,
+      291,
+      191,
+      439
+    ],
+    "context": [
+      11,
+      291,
+      191,
+      439
+    ],
+    "states": [
+      "N",
+      "N"
+    ],
+    "reason": "Chọn nam áo trắng bàn đầu trái, đầu theo trang, vùng tay rõ."
+  },
+  {
+    "parent": "V7-C-004",
+    "id": "V7-C-004-R04",
+    "person": [
+      581,
+      186,
+      664,
+      400
+    ],
+    "context": [
+      581,
+      186,
+      664,
+      400
+    ],
+    "states": [
+      "N",
+      "P"
+    ],
+    "reason": "Chọn nữ bàn đầu gần cô giáo, quay phải khỏi giấy, giữ hai tay/bài."
+  },
+  {
+    "parent": "V7-C-010",
+    "id": "V7-C-010-R04",
+    "person": [
+      289,
+      258,
+      384,
+      448
+    ],
+    "context": [
+      289,
+      258,
+      384,
+      448
+    ],
+    "states": [
+      "N",
+      "N"
+    ],
+    "reason": "Chọn nữ áo đỏ trước giữa viết; tách khỏi người đứng và nhóm cạnh."
+  },
+  {
+    "parent": "V7-C-046",
+    "id": "V7-C-046-R04",
+    "person": [
+      0,
+      138,
+      444,
+      692
+    ],
+    "context": [
+      0,
+      138,
+      444,
+      692
+    ],
+    "states": [
+      "P",
+      "P"
+    ],
+    "reason": "Chọn người áo đỏ tiền cảnh trái theo owner; kiểm mobile và biên người cạnh."
+  },
+  {
+    "parent": "V7-OE-S093-A01",
+    "id": "V7-OE-S093-A01-ADD01",
+    "person": [
+      675,
+      469,
+      1136,
+      1020
+    ],
+    "context": [
+      675,
+      469,
+      1136,
+      1020
+    ],
+    "states": [
+      "N",
+      "N"
+    ],
+    "reason": "Nam áo đỏ lớp trong tiền cảnh bên trái, giữ hai tay và bài."
+  },
+  {
+    "parent": "V7-OE-S093-A01",
+    "id": "V7-OE-S093-A01-ADD02",
+    "person": [
+      1050,
+      465,
+      1568,
+      1020
+    ],
+    "context": [
+      1050,
+      465,
+      1568,
+      1020
+    ],
+    "states": [
+      "N",
+      "N"
+    ],
+    "reason": "Nam áo đen khăn hoa cạnh phải, giữ hai tay/bài, kiểm người cạnh."
+  },
+  {
+    "parent": "V7-OE-S099-A01",
+    "id": "V7-OE-S099-A01-ADD01",
+    "person": [
+      60,
+      289,
+      219,
+      486
+    ],
+    "context": [
+      60,
+      289,
+      219,
+      486
+    ],
+    "states": [
+      "N",
+      "P"
+    ],
+    "reason": "Nam đầu dãy bàn trước, tay khoanh và đầu quay trái."
+  },
+  {
+    "parent": "V7-OE-S099-A01",
+    "id": "V7-OE-S099-A01-ADD02",
+    "person": [
+      212,
+      282,
+      383,
+      486
+    ],
+    "context": [
+      212,
+      282,
+      383,
+      486
+    ],
+    "states": [
+      "N",
+      "N"
+    ],
+    "reason": "Nữ thứ hai hàng đầu đang viết, giữ đầu/tay/trang."
+  },
+  {
+    "parent": "V7-OE-S099-A01",
+    "id": "V7-OE-S099-A01-ADD03",
+    "person": [
+      380,
+      247,
+      528,
+      452
+    ],
+    "context": [
+      380,
+      247,
+      528,
+      452
+    ],
+    "states": [
+      "N",
+      "N"
+    ],
+    "reason": "Nữ thứ ba hàng đầu, giữ hai tay và bài; kiểm hướng đầu."
+  },
+  {
+    "parent": "V7-OE-S099-A01",
+    "id": "V7-OE-S099-A01-ADD04",
+    "person": [
+      518,
+      204,
+      647,
+      440
+    ],
+    "context": [
+      518,
+      204,
+      647,
+      440
+    ],
+    "states": [
+      "N",
+      "P"
+    ],
+    "reason": "Nữ thứ tư tóc ngắn nhìn phải, giữ tay và trang."
+  },
+  {
+    "parent": "V6-SB-003",
+    "id": "V6-SB-003-ADD01",
+    "person": [
+      148,
+      248,
+      266,
+      628
+    ],
+    "context": [
+      148,
+      248,
+      266,
+      628
+    ],
+    "states": [
+      "U",
+      "P"
+    ],
+    "reason": "Nam áo sáng kính tiền cảnh nhìn lên, giữ phần tay/bàn và người chính."
+  },
+  {
+    "parent": "V6-SB-022",
+    "id": "V6-SB-022-R04",
+    "person": [
+      197,
+      91,
+      257,
+      199
+    ],
+    "context": [
+      197,
+      91,
+      257,
+      199
+    ],
+    "states": [
+      "N",
+      "P"
+    ],
+    "reason": "Nới quanh người đang quay phải để thấy tay/vật, kiểm có thể N theo owner không."
+  },
+  {
+    "parent": "V6-SB-045",
+    "id": "V6-SB-045-R04",
+    "person": [
+      189,
+      289,
+      480,
+      640
+    ],
+    "context": [
+      189,
+      289,
+      480,
+      640
+    ],
+    "states": [
+      "N",
+      "P"
+    ],
+    "reason": "Đổi sang nam áo đỏ tiền cảnh bên cạnh quay trái, giữ hai tay và sách."
+  },
+  {
+    "parent": "V6-SB-048",
+    "id": "V6-SB-048-ADD01",
+    "person": [
+      76,
+      338,
+      188,
+      526
+    ],
+    "context": [
+      76,
+      338,
+      188,
+      526
+    ],
+    "states": [
+      "N",
+      "P"
+    ],
+    "reason": "Nam bàn đầu trái nhìn về phía trước, giữ tay và bài."
+  },
+  {
+    "parent": "V6-SB-048",
+    "id": "V6-SB-048-ADD02",
+    "person": [
+      209,
+      320,
+      314,
+      506
+    ],
+    "context": [
+      209,
+      320,
+      314,
+      506
+    ],
+    "states": [
+      "N",
+      "P"
+    ],
+    "reason": "Nam bàn đầu giữa, hai tay trên bàn và đầu hướng giáo viên, kiểm vùng thao tác."
+  },
+  {
+    "parent": "V7-B-016",
+    "id": "V7-B-016-R04",
+    "person": [
+      340,
+      374,
+      496,
+      640
+    ],
+    "context": [
+      340,
+      374,
+      496,
+      640
+    ],
+    "states": [
+      "N",
+      "N"
+    ],
+    "reason": "Đổi sang nữ tiền cảnh đang viết có hai tay rõ, giảm người hai bên."
+  },
+  {
+    "parent": "V7-B-022",
+    "id": "V7-B-022-R04",
+    "person": [
+      410,
+      106,
+      595,
+      376
+    ],
+    "context": [
+      410,
+      106,
+      595,
+      376
+    ],
+    "states": [
+      "N",
+      "P"
+    ],
+    "reason": "Chọn nam hàng giữa bên phải nhìn trước, giữ tay và bàn riêng."
+  },
+  {
+    "parent": "V7-B-042",
+    "id": "V7-B-042-R04",
+    "person": [
+      124,
+      249,
+      269,
+      556
+    ],
+    "context": [
+      124,
+      249,
+      269,
+      556
+    ],
+    "states": [
+      "N",
+      "N"
+    ],
+    "reason": "Chọn nữ băng đô bàn đầu bên trái có hai tay/trang rõ, không sát mép nguồn."
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "scope": "Audit worksheets and local review artifact only; no production/model change",
+  "ruff": {
+    "command": ".venv/Scripts/python.exe -m ruff check artifacts/reports/v11-legacy-crop-audit-20261018",
+    "status": "PASS"
+  },
+  "preview_unit_tests": {
+    "command": ".venv/Scripts/python.exe -m unittest discover -s tests -p test_source_review.py -q",
+    "status": "PASS",
+    "tests": 6
+  },
+  "repository_checker": {
+    "command": ".venv/Scripts/python.exe scripts/check_repo.py",
+    "status": "PASS",
+    "failures": 0,
+    "require_git": false,
+    "untracked_files_staged": false
+  },
+  "artifact_validation": "validation.json",
+  "tracked_diff_whitespace": "PASS; CRLF notices only",
+  "scratch_cleanup": {
+    "removed": [
+      "outputs/_scratch/v11-legacy-crop-audit-20261018",
+      "artifacts/reports/v11-legacy-crop-audit-20261018/__pycache__",
+      ".ruff_cache"
+    ],
+    "preserved_board_sha_parity": 114,
+    "preview_media_checksums": "media-checksums.sha256"
+  },
+  "data_acceptance": "Pending owner; software PASS does not accept labels, geometry or membership",
+  "training_or_test_inference": false,
+  "commit_or_push": false
+}

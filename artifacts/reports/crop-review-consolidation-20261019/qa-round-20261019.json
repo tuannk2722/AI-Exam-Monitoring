@@ -1,0 +1,21 @@
+{
+  "status": "in_progress",
+  "geometry_qa": [
+    {"id":"V6R2-EX-001-R03","result":"pass_draft","states":["U","P"],"note":"Đã xem nguồn/native/input 224. Anchor và hai tay rõ; chỉ còn phần nhỏ mặt nền ở mép phải. Vật thiếu đặc trưng mobile rõ."},
+    {"id":"Y01-A09-F00037-R03","result":"pass_draft","states":["U","N"],"note":"Khung mới giữ vật đen góc bàn nhưng chưa nhận dạng chắc mobile; đầu hướng giấy. Tóc tiền cảnh ở mép dưới không có mặt cạnh tranh. Cần owner xem thay đổi."},
+    {"id":"V6-CA-011-R03","result":"needs_revision","states":["P","N"],"note":"Lưng vàng có camera nhưng crop quá sát bên phải mặt. Cần nới và kiểm lại trước khi đề xuất."},
+    {"id":"V6R2-CA-009-R03","result":"pass_draft","states":["U","P"],"note":"Người chính trội, quay trái; mặt người phải gần như loại hết. Vật trên giấy và tay chồng với người cạnh nên phone U."},
+    {"id":"V7-B-003-R03","result":"pass_draft","states":["U","N"],"note":"Bỏ mặt nam cạnh, giữ hai tay anchor và tay chỉ của người cạnh. Vật thiếu camera/screen rõ ở input, đầu nhìn vật."},
+    {"id":"V7-B-013-R03","result":"pass_draft","states":["U","N"],"note":"Một mặt chính, hai tay và sách rõ. Lưng máy vàng thiếu camera ở input; giữ U/N."},
+    {"id":"V7-B-023-R03","result":"pass_draft","states":["U","N"],"note":"Mặt/tay nâng vật rõ, nhìn vật của chính anchor nên đề xuất đổi looking N. Vật bị source cắt phía trái nên phone U."},
+    {"id":"V7-B-031-R03","result":"pass_draft","states":["U","N"],"note":"Giữ mặt nam phải và vùng tay/vật, loại mặt người trái. Tay người trái vẫn chạm vật; chi tiết chưa đủ phone P."},
+    {"id":"V7-D-015-R03","result":"pass_draft","states":["U","N"],"note":"Anchor sau rõ đầu/hai tay và sách; tay nữ chỉ còn ở mép dưới phải. Vật thiếu chi tiết phone, đầu hướng vật."}
+  ],
+  "label_observations": [
+    {"id":"V6R2-CA-001","proposed_states":["U","N"],"note":"Giữ cặp U/N owner ghi, kèm nhận định thực tế của owner là phone. Đã xem nguồn/native; chưa kiểm input pipeline riêng."},
+    {"id":"Y05-A07-F00033","proposed_states":["N","N"],"note":"Đã xem nguồn và input 224. Đầu/mắt hướng hai tay đưa trước mặt; đề xuất sửa looking N theo nhận xét owner."},
+    {"id":"V7-OE-S023-A01","proposed_states":["U","N"],"note":"Nguồn 683 x 1024: vật tối cạnh đùi sát ghế chưa đủ nhận mobile; đầu hướng màn hình làm việc. Chưa xử lý mâu thuẫn exclude/P/P; cần minh họa vùng đùi cho review riêng."}
+  ],
+  "recrop_source_boards_viewed": [1,2,3],
+  "followup": ["V7-D-010: hai vùng tay giao nhau, cần phương án khác hoặc loại", "V7-D-012: nhiều mặt bao quanh thiết bị, chưa có crop đơn đạt", "V7-B-040: phân biệt tay nam/nữ và vật đen trước khi giữ phone N"]
+}

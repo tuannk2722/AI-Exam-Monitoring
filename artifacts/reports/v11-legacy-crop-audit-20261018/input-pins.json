@@ -1,0 +1,40 @@
+{
+  "scope": "Owner chọn 836 crop baseline V9 + development, 18/10/2026; không test/reserve.",
+  "files": {
+    "data/processed/pilot-b/pilot-b-20261013-v9/review-ledger.jsonl": "1410a7e85aaf2012ea57bc5dd18a267179821488f8fbec1a74b7e6f6174a97cf",
+    "artifacts/reports/E004-v9-consolidation-20261013/role-membership.json": "078329883c09f5310c22affa5acf2e382a1a0a278c46d21d390d616fea3c5172",
+    "data/processed/pilot-b/pilot-b-20261017-v11/manifest.jsonl": "a180c72365e00e96cbfb35a1257a44a750e6251e41cb0c3e7d389fd2ee7b4dec",
+    "data/processed/pilot-b/pilot-b-20261017-v11/review-ledger.jsonl": "1add358729f95b5711d23a1a90cb1076b0e1795219b70acda758aef751939427",
+    "data/processed/pilot-b/pilot-b-20261017-v11/checksums.sha256": "e851ce51ae8bc027c50370468ee15ee99b4d93ae73c0d270f2055489fcbccd3a"
+  },
+  "count": 836,
+  "cohorts": {
+    "v9_baseline": 765,
+    "v9_development": 71
+  },
+  "current_roles": {
+    "val": 192,
+    "train": 644
+  },
+  "source_counts": {
+    "classroom_attitude": 124,
+    "classroom_monitoring_v2": 24,
+    "coco_2017_train": 37,
+    "commons_classroom_gapfill": 46,
+    "consolidated-frames-20261013": 39,
+    "exam_cheating_keaor": 50,
+    "openimages_train_prefix": 104,
+    "pexels-v2-20261013": 34,
+    "roboflow_v1": 70,
+    "scb_head": 66,
+    "scb_hrw": 93,
+    "student_behaviour": 122,
+    "studentclassroombehavior": 12,
+    "unsplash-20261013": 13,
+    "wmf_knowledge_everyone": 2
+  },
+  "crop_sha_parity": true,
+  "geometry_parity": true,
+  "label_parity": true,
+  "test_or_reserve_opened": false
+}

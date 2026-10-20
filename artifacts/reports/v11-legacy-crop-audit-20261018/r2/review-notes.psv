@@ -1,0 +1,836 @@
+001|01|U/U|exclude|u_back,l_missing,a_source_limit|Source không có đầu của người cầm vật.
+001|02|U/N|recrop|u_attribution,l_own,a_multi|Hai nữ cùng lớn và cùng vùng tay; cần chọn một anchor.
+001|03|U/N|keep|u_back,l_own,a_clear|Không nhận phone từ mặt lưng đen.
+001|04|N/N|keep|n_tablet,l_own,a_clear|Tablet lớn, hai tay quan sát được.
+001|05|U/P|keep|u_back,l_front,a_clear|Mặt ngẩng khỏi vật cầm, lưng đỏ chưa đủ ID.
+001|06|U/N|keep|u_back,l_own,a_clear|Lưng xanh trơn không đủ camera.
+002|01|P/N|keep|p_front,l_own,a_clear|Mặt màn hình/viền trong tay còn thấy; kiểm lại nhóm P ở lượt chốt.
+002|02|U/N|recrop|u_back,l_own,a_multi|Hai mặt và vùng tay cạnh tranh.
+002|03|U/N|keep|u_back,l_own,a_clear|Các đốm trên lưng đen không tách được camera chắc.
+002|04|U/N|keep|u_back,l_own,a_clear|Vật cầm chưa có mặt/camera rõ; nữ trái vẫn trội.
+002|05|U/P|recrop|u_object,l_side,a_multi|Khung person bao nhiều nữ; nữ phải nhìn ra trước.
+002|06|U/N|keep|u_back,l_own,a_clear|Đốm đen trên lưng trắng không đủ mobile ID ở 224.
+003|01|N/P|keep|n_folded,l_side,a_clear|Tay khoanh đủ đọc, quay sang trái khỏi bàn.
+003|02|N/P|keep|n_clear,l_side,a_clear|Hai tay trên bàn, mặt quay sang trái.
+003|03|N/N|recrop|n_paper,l_own,a_multi|Nam giữa cầm giấy; nữ trái còn mặt/thân ngang vai trò.
+003|04|N/P|keep|n_pen,l_other,a_clear|Đầu hướng bài/người cạnh bên, không phải own-paper.
+003|05|U/N|keep|u_object,l_own,a_clear|Vật xanh nhỏ trong tay không đủ nhận dạng.
+003|06|N/P|keep|n_clear,l_side,a_clear|Hai tay vùng giấy rõ, mặt quay phải khỏi trang.
+004|01|N/P|keep|n_clear,l_side,a_clear|Tay/bàn rõ, đầu quay phải khỏi vùng bàn riêng.
+004|02|N/P|keep|n_pen,l_other,a_clear|Nữ trái nhìn sang vùng bài bên phải.
+004|03|U/U|exclude|u_object,l_sleep,a_source_limit|Vật hồng mơ hồ còn lộ; đầu úp che mặt.
+004|04|U/N|keep|u_hand,l_own,a_clear|Đầu vào trang, tay/vùng dưới bàn khuất.
+004|05|U/U|exclude|u_hand,l_sleep,a_source_limit|Tay và mặt bị đầu che, không có known target.
+004|06|U/U|exclude|u_hand,l_sleep,a_source_limit|Nằm gục, mặt/tay mất; không suy từ tư thế ngủ.
+005|01|U/U|exclude|u_object,l_sleep,a_source_limit|Thiết bị trên sách không đủ ID tại input, mắt nhắm.
+005|02|U/U|exclude|u_hand,l_sleep,a_source_limit|Đầu úp và tay che, thiếu evidence hai target.
+005|03|U/U|exclude|u_hand,l_sleep,a_source_limit|Đầu úp, tay ngoài bàn, không cứu bằng nới source.
+005|04|U/U|exclude|u_object,l_sleep,a_source_limit|Thiết bị đen bị mép source cắt, không chắc phone; mắt nhắm.
+005|05|U/N|keep|u_hand,l_own,a_clear|Hướng nhìn trang rõ, tay một phần bị vật tiền cảnh che.
+005|06|N/P|keep|n_chin,l_front,a_clear|Cầm bút, tay chống má thấy đủ, mặt ngẩng ra trước.
+006|01|U/N|keep|u_object,l_own,a_clear|Vật trong tay chỉ cạnh/lưng trơn, đầu hướng vật trên trang.
+006|02|U/N|keep|u_hand,l_own,a_clear|Góc từ trên thấy đầu vào giấy viết; tay còn lại dưới bàn.
+006|03|U/N|keep|u_back,l_own,a_clear|Lưng vàng thiếu camera/màn hình; người sau nhỏ hơn không lấy nhãn của họ.
+006|04|U/U|exclude|u_object,l_hidden,a_source_limit|Vật đen nằm bàn chưa đủ ID, tay che gần hết mặt.
+006|05|U/P|keep|u_hand,l_side,a_clear|Mặt quay sang phải, vùng tay dưới bàn không đủ absence.
+006|06|U/N|recrop|u_hand,l_own,a_multi|Nữ trái hướng trang, người sau và tay chồng; cần cô lập anchor.
+007|01|U/P|recrop|u_object,l_side,a_pbox|Vật đen trên giấy chưa đủ ID; person box bao cả phần nữ phải.
+007|02|U/P|keep|u_hand,l_side,a_clear|Mặt quay phải khỏi vùng bàn, bàn tay ngoài khung.
+007|03|P/N|keep|p_front,l_own,a_clear|Mobile mặt kính/viền trên trang riêng và tay tương tác rõ.
+007|04|N/U|keep|n_folded,l_unclear,a_clear|Tay khoanh đủ absence; đầu nghiêng, mắt/đích không đủ chắc.
+007|05|P/N|keep|p_front,l_own,a_clear|Mặt màn hình sáng lớn và viền máy trên trang, đầu hướng trang.
+007|06|P/N|keep|p_front,l_own,a_clear|Phone trên trang riêng, calculator ở bên; đầu hướng bài.
+008|01|P/N|keep|p_front,l_own,a_clear|Mặt kính và viền phone trắng trên sách còn rõ tại input.
+008|02|U/N|recrop|u_object,l_own,a_foreground|Vật đen trên bài thiếu ID; đầu người tiền cảnh chiếm đáy.
+008|03|P/N|keep|p_front,l_own,a_clear|Mobile mặt trước trên bàn riêng cạnh bàn phím, đầu hướng vùng máy.
+008|04|U/N|keep|u_object,l_own,a_clear|Vật ngang cầm tay không đủ phân biệt phone/tablet ở 224.
+008|05|U/N|keep|u_object,l_own,a_clear|Vật đen dài trên bàn không có đặc trưng nhận mobile chắc.
+008|06|U/N|keep|u_object,l_own,a_clear|Vật ở tay/vùng trang chưa rõ; đầu vẫn vào trang riêng.
+009|01|U/N|recrop|u_back,l_own,a_multi|Lưng xám trơn; đầu/tay của bạn trái vẫn cạnh tranh.
+009|02|U/N|keep|u_back,l_own,a_clear|Lưng trắng không có camera rõ; không suy từ bấm ngón cái.
+009|03|U/N|keep|u_back,l_own,a_clear|Chỉ cạnh/mặt nghiêng đỏ thiếu chi tiết mobile tại input.
+009|04|P/N|keep|p_front,l_own,a_clear|Màn hình UI và viền mobile rõ trong tay anchor.
+009|05|P/P|keep|p_front,l_below,a_clear|Mobile mặt trước rõ cầm dưới mặt bàn, đầu hướng xuống dưới bàn.
+009|06|U/N|recrop|u_back,l_own,a_multi|Lưng vàng thiếu camera; nữ cạnh phải và phone khác nổi bật.
+010|01|U/N|recrop|u_back,l_own,a_multi|Nữ cầm mặt lưng mờ và nam đứng sát có vai trò ngang nhau.
+010|02|U/N|recrop|u_attribution,l_own,a_multi|Hai trẻ cùng lớn, còn thiết bị sát mép bàn; cần một anchor.
+010|03|U/N|recrop|u_back,l_own,a_multi|Ba mặt/vùng tay liền nhau, lưng đỏ chưa đủ mobile ID.
+010|04|U/N|recrop|u_object,l_own,a_multi|Hai nam cùng lớn và tay chồng; thiết bị trong tay chưa đủ ID.
+010|05|U/P|recrop|u_attribution,l_front,a_neighbor_device|Nữ trái ngẩng ra trước; lưng máy của tay người bên phải rất nổi bật.
+010|06|U/U|exclude|u_object,l_hidden,a_source_limit|Màn hình gần vuông chưa đủ mobile; hood che hướng đầu/đích.
+011|01|U/N|keep|u_back,l_own,a_clear|Mặt lưng/cạnh xanh, không camera rõ.
+011|02|U/P|recrop|u_back,l_front,a_multi|Nam trái và nam phải đều có mặt/thân rõ.
+011|03|U/N|recrop|u_object,l_own,a_neighbor_device|Tay người trái chạm vật, attribution chưa sạch.
+011|04|U/N|recrop|u_back,l_own,a_foreground|Nhiều đầu/tay chồng quanh nam cầm vật.
+011|05|U/N|keep|u_back,l_own,a_clear|Lưng xanh chỉ có đốm nhỏ.
+011|06|N/N|recrop|n_pen,l_own,a_foreground|Nữ tiền cảnh và tay viết lớn cạnh nam anchor.
+012|01|U/N|recrop|u_object,l_own,a_multi|Hai nữ và người sau cùng rõ, vùng tay chồng.
+012|02|U/N|keep|u_back,l_own,a_clear|Không đủ camera trên lưng tối.
+012|03|U/N|keep|u_back,l_own,a_clear|Mặt/cạnh đen không đủ nhận mobile.
+012|04|U/N|recrop|u_back,l_own,a_multi|Nhiều nữ cùng kích thước, nhiều tay/thiết bị.
+012|05|U/P|recrop|u_back,l_front,a_multi|Nam ngẩng khỏi vật, người cạnh cũng trội.
+012|06|P/N|recrop|p_camera,l_own,a_multi|Máy xanh có cụm camera lớn nhưng còn nữ trước và thiết bị khác.
+013|01|U/N|recrop|u_object,l_own,a_multi|Kiểm lại PNG 224: vật cầm nghiêng chỉ còn cạnh và vùng tối, chưa tách chắc màn hình; hai nữ cùng rõ và cùng bàn.
+013|02|U/N|keep|u_back,l_own,a_clear|Lưng vàng không đủ camera tại input.
+013|03|U/P|keep|u_back,l_front,a_clear|Mặt ngẩng khỏi máy, lưng đen chưa nhận dạng.
+013|04|U/N|keep|u_object,l_own,a_clear|Chỉ mặt/cạnh vật tối cầm sát thân.
+013|05|N/N|keep|n_pen,l_own,a_clear|Hai tay viết/giữ trang riêng rõ.
+013|06|U/N|recrop|u_back,l_own,a_multi|Hai nữ cùng lớn đang nhìn chung thiết bị.
+014|01|U/N|recrop|u_back,l_own,a_multi|Nhiều nữ và thiết bị cạnh bên ở cùng mức nổi bật.
+014|02|U/N|recrop|u_back,l_own,a_multi|Nam và nữ sát nhau đều còn mặt, cùng vùng thiết bị.
+014|03|U/N|recrop|u_back,l_own,a_multi|Nữ cạnh phải còn mặt và tay tác động gần máy.
+014|04|U/N|keep|u_back,l_own,a_clear|Kiểm lại PNG 224: mặt đen trong tay chưa có màn hình hoặc camera phân biệt được; hướng vùng tay riêng rõ.
+014|05|U/N|recrop|u_back,l_own,a_multi|Hai nữ và hai vùng thao tác ngang vai trò.
+014|06|U/N|keep|u_object,l_own,a_clear|Vật trắng cầm nhỏ, thiếu đặc trưng mobile.
+015|01|U/N|recrop|u_back,l_own,a_multi|Nhóm nhiều mặt cùng lớn, lưng máy không rõ camera.
+015|02|U/N|recrop|u_object,l_own,a_multi|Nam ngồi và nam đứng sát cùng rõ.
+015|03|U/N|recrop|u_back,l_own,a_multi|Nữ cạnh phải và tay chỉ vào máy ngang vai trò.
+015|04|U/N|recrop|u_object,l_own,a_neighbor_device|Tay/thiết bị tiền cảnh nổi bật ở cạnh phải.
+015|05|U/N|recrop|u_attribution,l_own,a_multi|Hai nữ cùng thao tác quanh vật đỏ.
+015|06|U/N|recrop|u_back,l_own,a_multi|Hai nam và tay/thiết bị chồng vùng bài.
+016|01|U/N|keep|u_back,l_own,a_clear|Lưng bạc trơn, đầu vào vùng tay riêng.
+016|02|U/P|keep|u_back,l_front,a_clear|Mặt nhìn trước cao hơn vật trong tay, camera không đủ rõ.
+016|03|U/P|recrop|u_attribution,l_other,a_neighbor_device|Nam trái nhìn/tác động vật của nam bên phải bị cắt.
+016|04|U/N|keep|u_object,l_own,a_clear|Thiết bị ngang chỉ cạnh/lưng, không đủ mobile ID.
+016|05|U/N|recrop|u_hand,l_own,a_multi|Nam đứng và nữ ngồi cùng lớn; cần anchor đơn.
+016|06|N/N|recrop|n_calculator,l_own,a_multi|Calculator có phím nhưng crop còn nhiều mặt cùng rõ.
+017|01|P/N|recrop|p_front,l_own,a_multi|Phone mặt trước trên bàn; cần bỏ mặt/tay nữ cạnh trái.
+017|02|U/N|recrop|u_hand,l_own,a_multi|Nam trước nhìn bài, nam sau nhìn trước; person box gộp cả hai.
+017|03|N/N|keep|n_pen,l_own,a_clear|Viết trên giấy riêng, hai tay còn đủ đọc.
+017|04|U/N|recrop|u_back,l_own,a_multi|Mặt lưng đen, nữ cạnh trái còn mặt/thân lớn.
+017|05|U/N|recrop|u_back,l_own,a_multi|Hai nữ cùng lớn và hai vùng tay.
+017|06|U/N|recrop|u_object,l_own,a_multi|Nam và nữ cùng mặt rõ, chung vùng thao tác.
+018|01|U/P|recrop|u_back,l_side,a_multi|Nam quay sang nữ sau, cả hai mặt đều nổi bật.
+018|02|U/P|keep|u_back,l_below,a_clear|Vật ở dưới mặt bàn, đầu rời trang hướng xuống vùng tay dưới bàn.
+018|03|U/P|keep|u_back,l_below,a_clear|Đầu nhìn vật dưới mép bàn thay vì trang riêng; không nhận mobile từ lưng vàng.
+018|04|U/U|exclude|u_hand,l_hidden,a_source_limit|Tay che mắt/mặt và vùng tay còn lại thiếu evidence.
+018|05|N/P|recrop|n_clear,l_side,a_multi|Nam trước quay phải, nam sau cùng rõ và person box gộp.
+018|06|N/P|keep|n_pen,l_front,a_clear|Mắt/đầu ngẩng khỏi trang dù tay vẫn giữ bút.
+019|01|U/P|keep|u_object,l_side,a_clear|Vật đen nhỏ trên bàn chưa rõ phone, mặt quay sang phải.
+019|02|P/N|keep|p_front,l_own,a_clear|Mặt màn hình hồng sáng có vùng UI/viền máy, đầu vào trang.
+019|03|U/N|keep|u_object,l_own,a_clear|Chỉ mặt/cạnh vàng nằm ngang, không suy phone từ dáng cầm.
+019|04|U/N|keep|u_back,l_own,a_clear|Vật tối áp tai thiếu đặc trưng mobile, đầu vẫn hướng vùng bài.
+019|05|N/N|keep|n_tablet,l_own,a_clear|Tablet lớn rõ và hai tay đủ quan sát.
+019|06|U/N|keep|u_object,l_own,a_clear|Vật trong tay/mặt bàn chưa phân biệt, đầu hướng vùng riêng.
+020|01|U/P|keep|u_back,l_front,a_clear|Chỉ cạnh vật áp má; đầu nhìn trước khỏi giấy.
+020|02|U/P|keep|u_object,l_front,a_clear|Vật đen trên bàn chưa rõ, mặt ngẩng khỏi trang.
+020|03|U/N|keep|u_hand,l_own,a_clear|Một tay dưới mặt bàn, đầu hướng giấy.
+020|04|N/N|keep|n_folded,l_own,a_clear|Hai tay chắp trên giấy đủ thấy, đầu hướng vùng giấy.
+020|05|P/P|keep|p_front,l_front,a_clear|Màn hình/UI sáng trong tay, mặt nhìn ra trước khỏi máy.
+020|06|N/N|recrop|n_tablet,l_own,a_multi|Nam đứng và nữ ngồi cùng rõ; tablet không phải mobile.
+021|01|U/P|keep|u_hand,l_side,a_clear|Tay phải ngoài mép source, đầu quay phải khỏi trang.
+021|02|N/P|keep|n_clear,l_side,a_clear|Tay/bàn rõ, quay trái khỏi own-paper.
+021|03|P/N|keep|p_camera,l_own,a_clear|Cụm camera nhiều thành phần trên lưng xanh còn rõ.
+021|04|P/N|keep|p_camera,l_own,a_clear|Cụm camera lớn trên lưng đỏ còn tách được.
+021|05|U/N|keep|u_back,l_own,a_clear|Khối máy tối trong hai tay không đủ camera/màn hình.
+021|06|U/P|keep|u_back,l_front,a_clear|Không dùng dáng áp vật vào tai làm mobile ID.
+022|01|U/P|keep|u_back,l_side,a_clear|Vật áp tai không còn đặc trưng phone tại input.
+022|02|U/P|keep|u_back,l_side,a_clear|Vật tối cạnh má, không đủ mobile ID.
+022|03|N/N|keep|n_clear,l_own,a_clear|Hai tay đan trên bàn và nhìn vùng thao tác riêng.
+022|04|N/N|keep|n_pen,l_own,a_clear|Tay giữ bút và tay còn lại trên bàn đọc được.
+022|05|U/P|keep|u_object,l_front,a_clear|Vật đen đưa về trước chưa đủ đặc trưng; đầu ngẩng.
+022|06|U/N|keep|u_hand,l_own,a_clear|Một phần tay/vật ở mép bàn chưa rõ, đầu hướng vùng riêng.
+023|01|N/N|keep|n_pen,l_own,a_clear|Hai tay và trang viết đủ quan sát.
+023|02|U/P|keep|u_hand,l_front,a_clear|Giơ tay nhìn trước, tay còn lại ở đùi chưa đủ absence.
+023|03|N/N|keep|n_pen,l_own,a_clear|Mặt cúi theo trang và hai tay viết/giữ rõ.
+023|04|U/P|keep|u_hand,l_side,a_clear|Nam sau quay trái, một vùng tay dưới bàn khuất.
+023|05|N/P|keep|n_folded,l_side,a_clear|Hai tay đặt/đan rõ, đầu quay trái khỏi bàn.
+023|06|U/P|keep|u_hand,l_side,a_clear|Quay trái, vùng tay thấp bị bàn/vật tiền cảnh che.
+024|01|N/N|keep|n_clear,l_own,a_clear|Tay trước thân còn đọc được, đầu hướng vùng bàn riêng.
+024|02|U/P|keep|u_hand,l_front,a_clear|Một tay/vùng thao tác bị thân/bàn che, mặt ngẩng trước.
+024|03|U/P|keep|u_back,l_front,a_clear|Vật áp tai chỉ khối tối, không suy từ tư thế gọi.
+024|04|N/N|keep|n_paper,l_own,a_clear|Hai tay giữ trang giấy rõ, nhìn trang.
+024|05|N/P|keep|n_paper,l_side,a_clear|Đang giữ sách nhưng đầu quay phải khỏi trang.
+024|06|N/N|keep|n_paper,l_own,a_clear|Đầu hướng sách đang giở, tay đủ rõ.
+025|01|U/U|exclude|u_hand,l_sleep,a_source_limit|Đầu úp, tay bị đầu che.
+025|02|U/N|keep|u_back,l_own,a_clear|Chỉ lưng máy đen, đầu hướng vật.
+025|03|U/N|keep|u_back,l_own,a_clear|Lưng/cạnh mờ, không mobile ID.
+025|04|N/P|keep|n_folded,l_side,a_clear|Hai tay đan rõ, đầu quay trái khỏi vùng tay.
+025|05|U/P|keep|u_object,l_side,a_clear|Vật đen/viền bạc trên bàn chưa rõ mobile, đầu nhìn người bên phải.
+025|06|N/N|keep|n_folded,l_own,a_clear|Tay đặt rõ, hướng đầu vào màn laptop phía dưới.
+026|01|U/P|keep|u_object,l_front,a_clear|Vật nhỏ trên bàn chưa phân biệt, mặt hướng camera.
+026|02|U/N|keep|u_object,l_own,a_clear|Vật nhỏ gần chai nước chưa rõ; đầu hướng laptop.
+026|03|U/P|keep|u_object,l_front,a_clear|Vật đóng trên bàn không thấy màn hình/camera; mặt hướng trước.
+026|04|N/N|keep|n_tablet,l_own,a_clear|Laptop, bàn phím và tay đủ đọc; không thiết bị mơ hồ.
+026|05|U/P|keep|u_object,l_front,a_clear|Vật nhỏ đen trên bàn thiếu ID, mặt nhìn trước.
+026|06|N/P|keep|n_clear,l_front,a_clear|Hai tay vùng bàn rõ, nhìn ra trước khỏi laptop.
+027|01|N/P|keep|n_clear,l_side,a_clear|Tay/đĩa ăn rõ, nhìn sang trái khỏi vùng riêng.
+027|02|P/N|keep|p_front,l_own,a_clear|Màn hình/viền mobile trên bàn rõ, đầu hướng laptop.
+027|03|N/N|keep|n_clear,l_own,a_clear|Thiết bị bàn có dây và tay/keyboard đọc được, không mobile.
+027|04|N/P|keep|n_pen,l_front,a_clear|Cầm bút nhưng đầu/nhìn trước khỏi giấy.
+027|05|N/N|keep|n_clear,l_own,a_clear|Tay và vật làm thủ công đủ phân biệt, đầu hướng vùng tay.
+027|06|N/N|recrop|n_tablet,l_own,a_pbox|Nữ trước là đích, person box còn bao nữ phía sau.
+028|01|U/P|keep|u_object,l_front,a_clear|Vật nhỏ trên bàn chưa rõ, nhìn camera.
+028|02|N/N|keep|n_tablet,l_own,a_clear|Tay, giấy và laptop rõ, nhìn màn riêng.
+028|03|N/N|keep|n_folded,l_own,a_clear|Tay gập/khoanh và tay keyboard đủ đọc, nhìn laptop.
+028|04|N/N|keep|n_chin,l_own,a_clear|Chống miệng không tự U khi tay/bàn còn đủ rõ.
+028|05|N/N|keep|n_tablet,l_own,a_clear|Tay trên keyboard và tay giơ ngón cái rõ.
+028|06|N/N|keep|n_tablet,l_own,a_clear|Tay typing và hướng màn laptop riêng rõ.
+029|01|U/N|keep|u_object,l_own,a_clear|Vật đen tại hông chưa rõ, đầu hướng màn riêng bên phải.
+029|02|U/N|recrop|u_back,l_own,a_multi|Hai nam cùng lớn, thiết bị cầm chỉ mặt lưng.
+029|03|N/P|keep|n_tablet,l_front,a_clear|Laptop và tay thấy đủ, mặt nhìn camera.
+029|04|N/N|keep|n_paper,l_own,a_clear|Sách và hai tay rõ, đầu hướng trang.
+029|05|N/N|recrop|n_tablet,l_own,a_multi|Hai nam cùng lớn bên laptop, cần anchor đơn.
+029|06|N/N|keep|n_tablet,l_own,a_clear|Typing laptop, tay và vùng thao tác đủ đọc.
+030|01|N/N|keep|n_chin,l_own,a_clear|Tay chống đầu và vùng laptop/bàn đủ đọc.
+030|02|N/P|keep|n_tablet,l_front,a_clear|Tay trên laptop nhưng nhìn trước khỏi màn laptop.
+030|03|N/P|keep|n_tablet,l_other,a_clear|Nhìn sang người đối diện, không nhìn laptop riêng.
+030|04|N/P|recrop|n_clear,l_side,a_multi|Nam trái quay sang phải; nam cạnh còn mặt/thân cùng rõ.
+030|05|N/N|recrop|n_tablet,l_own,a_multi|Nam phải dùng laptop, nam trái còn mặt/thân lớn.
+030|06|U/N|recrop|u_object,l_own,a_multi|Vật có phím nhưng loại thiết bị chưa chắc; nữ sau còn mặt lớn.
+031|01|U/P|keep|u_object,l_front,a_clear|Thiết bị bạc nhỏ chưa rõ mobile, mặt hướng trước.
+031|02|U/N|keep|u_object,l_own,a_clear|Vật đen cầm không đủ nhận dạng.
+031|03|U/P|keep|u_object,l_front,a_clear|Thiết bị bạc có ô/chấm nhưng chưa chắc camera hay mobile; mặt trước.
+031|04|U/P|keep|u_back,l_front,a_clear|Lưng nâu có logo không thay camera/màn hình, nhìn trước khỏi máy.
+031|05|P/N|recrop|p_front,l_own,a_multi|Screen/UI rõ nhưng ba người ngang vai trò.
+031|06|U/P|keep|u_back,l_front,a_clear|Vật áp tai chỉ mảnh tối, nhìn ra trước khỏi laptop.
+032|01|P/N|keep|p_front,l_own,a_clear|UI/màn kính và viền mobile rõ, đầu hướng thiết bị trên trang.
+032|02|N/N|recrop|n_tablet,l_own,a_pbox|Person box bao nhóm hàng bàn; cần box nam tiền cảnh.
+032|03|U/N|recrop|u_back,l_own,a_multi|Nam trái còn mặt/thân cùng rõ với nam cầm vật.
+032|04|U/N|keep|u_object,l_own,a_clear|Vật nhỏ tối gần tay chưa chắc phone, đầu hướng vùng thao tác.
+032|05|U/P|keep|u_back,l_front,a_clear|Vật sát tai không đủ ID, mắt nhìn trước khỏi trang.
+032|06|U/U|exclude|u_hand,l_sleep,a_source_limit|Mắt nhắm, tay dưới bàn; calculator không cứu absence.
+033|01|N/N|keep|n_clear,l_own,a_clear|Hai tay trên trang rõ, đầu hướng trang.
+033|02|N/P|keep|n_folded,l_side,a_clear|Tay chắp rõ, mặt quay lên phải khỏi giấy.
+033|03|U/N|keep|u_object,l_own,a_clear|Mặt/cạnh máy trong tay không đủ mobile ID.
+033|04|U/P|keep|u_hand,l_front,a_clear|Vùng tay dưới bàn thiếu, mặt ngẩng khỏi bài.
+033|05|N/P|keep|n_folded,l_front,a_clear|Hai tay đan rõ, đầu ngẩng khỏi trang.
+033|06|N/P|keep|n_folded,l_side,a_clear|Hai tay trên bàn đủ đọc, đầu hướng ra bên.
+034|01|N/N|keep|n_tablet,l_own,a_clear|Tay keyboard và hướng màn riêng đủ rõ.
+034|02|P/P|keep|p_front,l_below,a_clear|Màn hình/UI phone rõ dưới bàn, đầu rời laptop hướng tay dưới bàn.
+034|03|N/N|keep|n_pen,l_own,a_clear|Tay viết và tay chống đầu thấy đủ, hướng trang.
+034|04|N/N|keep|n_pen,l_own,a_clear|Hai tay và giấy riêng rõ.
+034|05|U/N|recrop|u_back,l_own,a_multi|Hai nam cùng lớn, thiết bị/tay chồng.
+034|06|U/P|keep|u_object,l_front,a_clear|Vật đen trên bàn không đủ ID, mặt ngẩng ra trước.
+035|01|N/N|recrop|n_tablet,l_own,a_multi|Nam áo xanh trái, nam giữa và nam phải cùng trội.
+035|02|N/N|recrop|n_tablet,l_own,a_multi|Nhóm ba người chung tablet, cần chọn một người.
+035|03|U/P|keep|u_hand,l_front,a_clear|Nam đứng nhìn ra trước, vùng bàn tay chưa đầy đủ.
+035|04|P/N|recrop|p_front,l_own,a_multi|Mặt trước phone trên giấy cạnh laptop; nhiều người cùng rõ.
+035|05|P/N|keep|p_front,l_own,a_clear|Phone mặt kính/viền trên giấy gần tay, nữ phải trội.
+035|06|N/N|recrop|n_tablet,l_own,a_multi|Nam ngồi, nữ sau và nam đứng cùng rõ.
+036|01|N/N|recrop|n_tablet,l_own,a_multi|Cả hàng người và bàn tay/laptop còn chung crop.
+036|02|U/U|exclude|u_hand,l_hidden,a_source_limit|Các đầu gục/tay che; không chọn người mới để cứu group crop.
+036|03|U/P|recrop|u_hand,l_front,a_multi|Nhiều người cùng nhìn người hướng dẫn, tay bị chồng.
+036|04|U/N|recrop|u_hand,l_own,a_multi|Hướng mặt vào dãy máy riêng, nhưng bốn người ngang vai trò.
+036|05|U/N|recrop|u_hand,l_own,a_multi|Dãy nữ nhìn máy riêng, nhiều anchor và tay khuất.
+036|06|U/N|keep|u_object,l_own,a_clear|Vật đen trên bàn chưa đủ ID, đầu vào màn máy trước mặt.
+037|01|P/N|keep|p_front,l_own,a_clear|Mặt kính/viền phone xanh trên bàn đủ nhận, đầu vào trang.
+037|02|U/P|recrop|u_attribution,l_front,a_multi|Phone/vùng bàn dùng chung, person box chứa nhiều nam.
+037|03|U/N|keep|u_object,l_own,a_clear|Vật nhỏ đen ở bàn chưa rõ phone, đầu vào giấy.
+037|04|N/N|recrop|n_tablet,l_own,a_multi|Nam trẻ và nữ lớn cùng rõ bên tablet.
+037|05|N/N|recrop|n_pen,l_own,a_multi|Hai nữ viết cùng lớn và cùng vùng tay.
+037|06|U/P|keep|u_object,l_below,a_clear|Vật trên đùi chưa phân biệt, đầu nhìn xuống dưới mặt bàn.
+038|01|N/N|recrop|n_chin,l_own,a_foreground|Tay/thân người tiền cảnh cắt ngang anchor phía sau.
+038|02|U/N|keep|u_hand,l_own,a_clear|Đầu vào trang rõ, tay còn lại thiếu evidence.
+038|03|U/P|recrop|u_hand,l_front,a_multi|Giơ tay nhìn người hướng dẫn, nữ cạnh phải còn rõ.
+038|04|N/N|recrop|n_pen,l_own,a_multi|Hai nữ viết cùng lớn.
+038|05|U/N|recrop|u_object,l_own,a_multi|Thiết bị ngang thiếu ID và ba mặt/vùng tay chồng.
+038|06|P/N|recrop|p_front,l_own,a_multi|Game/UI trên mặt máy rõ, nhưng nhóm ba nam ngang vai trò.
+039|01|U/P|keep|u_object,l_side,a_clear|Vật trên bàn chỉ mặt phẳng mờ, đầu quay trái.
+039|02|U/N|keep|u_object,l_own,a_clear|Vật nhỏ trên bàn thiếu ID, đầu hướng vùng viết.
+039|03|U/N|keep|u_back,l_own,a_clear|Lưng xám/cụm chấm chưa đủ camera tại input.
+039|04|P/N|keep|p_front,l_own,a_clear|Màn hình/UI và viền máy rõ trong tay trên sách.
+039|05|N/N|keep|n_pen,l_own,a_clear|Nữ trước trội, hai tay và trang viết rõ.
+039|06|N/P|keep|n_pen,l_front,a_clear|Tay còn ở giấy nhưng mặt ngẩng khỏi trang.
+040|01|N/N|keep|n_pen,l_own,a_clear|Hai tay viết/giữ trang đủ rõ.
+040|02|N/U|keep|n_pen,l_hidden,a_clear|Tóc che mặt và đích nhìn không đủ chắc; tay/bài đủ absence.
+040|03|P/P|keep|p_front,l_front,a_clear|Màn hình/UI phone rõ, mặt nhìn trước khỏi trang.
+040|04|P/N|keep|p_front,l_own,a_clear|Phone mặt trước trên sách riêng, đầu vào trang.
+040|05|P/P|recrop|p_front,l_other,a_foreground|Phone anchor rõ nhưng người/tay/phone tiền cảnh cạnh tranh mạnh.
+040|06|N/P|keep|n_calculator,l_side,a_clear|Phím calculator rõ, hai tay thấy đủ; quay phải khỏi giấy.
+041|01|N/N|keep|n_calculator,l_own,a_clear|Calculator đủ phím, đầu/tay vào trang riêng.
+041|02|N/P|keep|n_folded,l_front,a_clear|Tay gập trên bàn rõ, nhìn trước khỏi trang.
+041|03|N/N|keep|n_pen,l_own,a_clear|Đầu vào giấy, tay và vật liệu giấy đọc được.
+041|04|P/N|keep|p_front,l_own,a_clear|UI trên mobile rõ, đầu hướng máy trên sách.
+041|05|P/N|keep|p_front,l_own,a_clear|Mặt trước sáng/viền phone, hướng đầu vào máy riêng.
+041|06|P/N|keep|p_front,l_own,a_clear|UI/màn hình mobile rõ trong tay, đầu hướng tay.
+042|01|U/U|exclude|u_object,l_missing,a_source_limit|Source chỉ bàn tay và thiết bị có phím chưa phân biệt.
+042|02|P/N|keep|p_front,l_own,a_clear|Mặt màn hình xanh/UI rõ, đầu hướng máy trên bàn.
+042|03|U/P|keep|u_hand,l_front,a_clear|Tay ở hông dưới bàn thiếu absence, mặt ngẩng khỏi bài.
+042|04|P/N|keep|p_front,l_own,a_clear|Phone mặt trước trên trang, đầu hướng trang.
+042|05|N/P|recrop|n_pen,l_other,a_foreground|Nữ nhìn sang nam phải; mặt nam ở mép còn gây nhiễu.
+042|06|N/P|keep|n_clear,l_front,a_clear|Tay giữ giấy rõ, mặt ngẩng ra trước.
+043|01|N/U|keep|n_paper,l_sleep,a_clear|Giấy và tay rõ; mắt nhắm/đích không chắc.
+043|02|U/N|keep|u_back,l_own,a_clear|Lưng đen không có camera phân biệt.
+043|03|U/N|recrop|u_back,l_own,a_multi|Nam trước và nữ sau cùng mặt/vùng thiết bị rõ.
+043|04|P/N|keep|p_front,l_own,a_clear|Mặt kính sáng và viền phone trong tay trên trang.
+043|05|U/N|keep|u_back,l_own,a_clear|Lưng xanh thiếu camera rõ, mắt hướng vật cầm bên trái.
+043|06|U/N|keep|u_back,l_own,a_clear|Chấm trên lưng xanh không đủ mobile ID.
+044|01|P/N|keep|p_front,l_own,a_clear|Mặt trước phone trên trang rõ, đầu hướng bài.
+044|02|U/N|keep|u_back,l_own,a_clear|Lưng tối không rõ camera, đầu hướng vùng tay riêng.
+044|03|U/N|keep|u_back,l_own,a_clear|Lưng trắng trong tay không đủ đặc trưng mobile.
+044|04|U/N|keep|u_hand,l_own,a_clear|Tay dưới bàn khuất, đầu hướng trang đang viết.
+044|05|U/N|keep|u_object,l_own,a_clear|Vật đen phẳng chưa đủ phone ID, nữ trước vẫn trội.
+044|06|N/N|recrop|n_pen,l_own,a_foreground|Đầu tiền cảnh ở đáy có thể bỏ bớt, giữ tay và trang anchor.
+045|01|U/P|recrop|u_hand,l_front,a_foreground|Nữ sau ngẩng khỏi bài, thân/tay nữ trước chiếm khung.
+045|02|N/N|recrop|n_paper,l_own,a_foreground|Cần giảm mặt nữ sau và vùng bàn tiền cảnh.
+045|03|N/N|recrop|n_clear,l_own,a_multi|Nam ngồi trội nhưng nam đứng/vật trên tay còn nổi bật.
+045|04|N/P|keep|n_pen,l_side,a_clear|Nữ quay phải khỏi trang, tay/bàn đủ đọc.
+045|05|N/N|recrop|n_pen,l_own,a_pbox|Person box chưa bao đúng đầu/người, context có tay tiền cảnh dư.
+045|06|N/N|keep|n_calculator,l_own,a_clear|Giấy, tay và phím calculator đủ quan sát.
+046|01|P/N|keep|p_front,l_own,a_clear|UI và viền phone rõ dưới tay trên bàn.
+046|02|U/P|recrop|u_hand,l_side,a_multi|Hai nam chồng cơ thể/tay, cần anchor đơn.
+046|03|U/N|keep|u_back,l_own,a_clear|Lưng hồng thiếu camera rõ, đầu vào vật.
+046|04|U/N|keep|u_back,l_own,a_clear|Lưng trắng/chấm nhỏ không đủ ID tại 224.
+046|05|U/N|keep|u_back,l_own,a_clear|Vật đen cầm chưa nhận dạng, nữ trước vẫn trội.
+046|06|U/N|keep|u_back,l_own,a_clear|Lưng bạc thiếu đặc trưng camera.
+047|01|U/N|keep|u_back,l_own,a_clear|Mặt lưng/cạnh đen không đủ mobile ID.
+047|02|P/P|keep|p_front,l_front,a_clear|Mobile mặt kính/viền rõ, đầu nhìn camera khỏi giấy.
+047|03|U/P|recrop|u_hand,l_front,a_foreground|Đầu/tay nam tiền cảnh che vùng bài của nam sau.
+047|04|N/P|keep|n_clear,l_side,a_clear|Tay và giấy rõ, đầu nhìn trái khỏi trang.
+047|05|U/P|keep|u_hand,l_side,a_clear|Vùng bàn tay dưới khung thiếu, đầu quay phải.
+047|06|U/P|keep|u_object,l_side,a_clear|Vật đen trên bàn chưa đủ phân biệt, đầu quay sang bên.
+048|01|U/P|keep|u_hand,l_side,a_clear|Tay sát đùi/ngoài khung thiếu absence, mặt quay trái.
+048|02|N/P|keep|n_clear,l_side,a_clear|Tay trên giấy rõ, đầu quay trái khỏi trang.
+048|03|U/P|keep|u_hand,l_side,a_clear|Một tay/vùng bàn khuất, đầu nhìn sang phải.
+048|04|N/P|keep|n_pen,l_side,a_clear|Tay cầm bút và tay còn lại trên trang, mặt quay phải.
+048|05|U/P|keep|u_hand,l_side,a_clear|Tay bị người/đồ che, đầu quay phải khỏi bài.
+048|06|U/P|recrop|u_hand,l_side,a_tight|Crop gần đầu thiếu vùng tay/bài; thử context cùng panel nguồn.
+049|01|U/P|keep|u_hand,l_side,a_clear|Tay một phần ngoài vùng quan sát, đầu quay trái.
+049|02|U/P|recrop|u_attribution,l_other,a_neighbor_device|Nam nhìn thiết bị của nữ cạnh, vật/tay người cạnh gây nhầm.
+049|03|U/P|exclude|u_hand,l_side,a_splice|Dải cảnh khác ở đáy crop, không inpaint để cứu.
+049|04|N/P|recrop|n_pen,l_other,a_multi|Nam nhìn vùng bài nữ trái, hai mặt cùng lớn.
+049|05|N/N|recrop|n_pen,l_own,a_multi|Nam đỏ sau có mặt lớn cạnh nam viết trước.
+049|06|N/P|recrop|n_pen,l_front,a_multi|Nam trước ngẩng khỏi giấy, nam đỏ sau cùng rõ.
+050|01|N/P|recrop|n_pen,l_front,a_multi|Nam trước nhìn trước, nam đỏ sau cùng mặt rõ.
+050|02|N/N|keep|n_clear,l_own,a_clear|Tay gập và trang đủ rõ, nhìn vùng tay riêng.
+050|03|N/N|keep|n_pen,l_own,a_clear|Hai tay và trang viết rõ.
+050|04|U/N|keep|u_hand,l_own,a_clear|Vùng tay mờ/cắt, đầu vẫn vào bài riêng.
+050|05|N/P|keep|n_pen,l_front,a_clear|Hai tay trên giấy, đầu ngẩng khỏi bài.
+050|06|N/N|recrop|n_pen,l_own,a_multi|Nam đỏ sau còn mặt lớn cạnh nam đang viết.
+051|01|N/N|recrop|n_pen,l_own,a_multi|Hai mặt cùng rõ, cần khung nam viết trước.
+051|02|U/N|keep|u_hand,l_own,a_clear|Đầu hướng giấy, tay còn lại dưới bàn thiếu absence.
+051|03|U/N|keep|u_hand,l_own,a_clear|Đầu hướng trang cầm bên phải, tay còn lại thiếu evidence.
+051|04|N/N|keep|n_pen,l_own,a_clear|Tay viết/giữ trang đủ rõ.
+051|05|U/P|recrop|u_back,l_side,a_multi|Nam quay sang nữ sau; mặt lưng máy chưa đủ ID và hai mặt cùng rõ.
+051|06|P/N|keep|p_front,l_own,a_clear|Màn hình/UI mobile trên trang rõ, đầu hướng trang.
+052|01|U/N|keep|u_back,l_own,a_clear|Lưng hồng không đủ camera rõ.
+052|02|N/P|keep|n_pen,l_side,a_clear|Hai tay ở giấy, đầu quay ra sau khỏi bài.
+052|03|U/N|keep|u_hand,l_own,a_clear|Đầu vào trang đang cầm, phần tay còn lại thiếu evidence.
+052|04|P/P|keep|p_front,l_side,a_clear|Phone màn hình xanh rõ trong tay, đầu quay khỏi bài.
+052|05|U/P|keep|u_hand,l_side,a_clear|Đầu quay trái, một tay dưới bàn thiếu absence.
+052|06|U/P|keep|u_hand,l_front,a_clear|Chống má thấy một tay, tay kia ngoài crop; mặt hướng trước.
+053|01|N/N|keep|n_pen,l_own,a_clear|Tay viết/giữ giấy rõ.
+053|02|U/N|keep|u_hand,l_own,a_clear|Đầu vào trang, tay bên kia thiếu evidence.
+053|03|N/N|keep|n_pen,l_own,a_clear|Hai tay trên giấy rõ.
+053|04|N/N|keep|n_pen,l_own,a_clear|Cầm bút, giữ trang, đầu vào bài.
+053|05|U/P|recrop|u_hand,l_other,a_foreground|Nam sau nhìn nữ trước, thân/đầu nữ cắt vùng anchor.
+053|06|N/N|keep|n_pen,l_own,a_clear|Tay viết/giữ trang còn rõ dù input nhỏ.
+054|01|N/P|recrop|n_pen,l_other,a_multi|Nữ trước quay trái, nam sau vẫn có mặt lớn.
+054|02|N/N|keep|n_pen,l_own,a_clear|Hai tay và vùng giấy đọc được.
+054|03|U/P|keep|u_hand,l_front,a_clear|Mặt nhìn trước, hai tay ở dưới bàn thiếu absence.
+054|04|N/P|recrop|n_tablet,l_front,a_multi|Hai nữ cùng lớn, nữ sọc nhìn khỏi keyboard.
+054|05|U/N|keep|u_object,l_own,a_clear|Kiểm lại PNG 224: vật trắng có vùng tối nhỏ nhưng chưa tách chắc màn hình/phím để nhận mobile; nhìn laptop riêng.
+054|06|N/N|keep|n_clear,l_own,a_clear|Máy ảnh có ống kính rõ và hai tay cầm, không gọi DSLR là phone.
+055|01|N/P|keep|n_clear,l_front,a_clear|Hai tay rõ, nhìn ra trước khỏi vùng keyboard.
+055|02|N/N|keep|n_folded,l_own,a_clear|Một tay gập, tay kia keyboard, hướng laptop riêng.
+055|03|N/N|keep|n_tablet,l_own,a_clear|Tay/bàn rõ, mắt hướng màn máy riêng bên phải.
+055|04|U/N|keep|u_object,l_own,a_clear|Vật trắng nhỏ trên bàn chưa đủ ID, đầu hướng laptop.
+055|05|U/N|keep|u_object,l_own,a_clear|Vật nhỏ mặt đen trên trang thiếu cấu trúc phân biệt phone.
+055|06|U/P|keep|u_object,l_front,a_clear|Vật đen đóng trên bàn thiếu ID; mặt nhìn camera.
+056|01|U/N|keep|u_object,l_own,a_clear|Vật xám trên bàn chưa phân biệt, đầu đọc giấy.
+056|02|U/P|keep|u_object,l_front,a_clear|Vật nhỏ đen trên bàn chưa chắc mobile, nhìn camera.
+056|03|U/N|keep|u_hand,l_own,a_clear|Một tay ngoài khung, đầu hướng keyboard.
+056|04|U/P|recrop|u_hand,l_front,a_multi|Nữ xanh và các mặt quanh cùng rõ, tay thiếu; nhìn khỏi laptop.
+056|05|U/N|keep|u_hand,l_own,a_clear|Một tay ở mép ngoài crop, đầu hướng màn riêng.
+056|06|N/N|keep|n_tablet,l_own,a_clear|Hai tay keyboard và hướng laptop rõ.
+057|01|N/P|keep|n_clear,l_front,a_clear|Tay/vật không thiết bị đủ đọc, mặt ngẩng khỏi bàn.
+057|02|P/N|keep|p_front,l_own,a_clear|Mobile screen/UI xanh trong case đỏ trên bàn, hướng vùng riêng.
+057|03|U/P|keep|u_hand,l_front,a_clear|Một tay khuất dưới bàn, nhìn camera.
+057|04|U/P|keep|u_object,l_front,a_clear|Vật đen phẳng trên bàn chưa đủ mobile ID, đầu hướng trước.
+057|05|U/N|recrop|u_attribution,l_own,a_neighbor_device|Tay/thiết bị người cạnh ở tiền cảnh, vùng bàn dùng chung.
+057|06|N/N|recrop|n_tablet,l_own,a_multi|Nhiều nam cùng lớn trong crop keyboard.
+058|01|U/P|keep|u_object,l_side,a_clear|Vật trắng nhỏ trên bàn thiếu ID, nhìn người bên trái.
+058|02|N/N|recrop|n_tablet,l_own,a_multi|Hai nam cùng rõ và hai laptop.
+058|03|N/N|keep|n_tablet,l_own,a_clear|Hai tay keyboard, nhìn màn riêng.
+058|04|P/N|keep|p_front,l_own,a_clear|Màn hình/UI mobile tím rõ trong tay riêng.
+058|05|P/N|keep|p_front,l_own,a_clear|Mặt screen xanh và viền máy trong tay còn rõ.
+058|06|U/N|keep|u_back,l_own,a_clear|Mặt/cạnh đen cầm chưa đủ mobile ID.
+059|01|U/N|keep|u_back,l_own,a_clear|Mặt sau trắng có mảng tối nhưng chưa đủ camera tại input.
+059|02|U/N|recrop|u_back,l_own,a_neighbor_device|Vật chính chưa rõ, máy/tay người cạnh ở mép phải nổi bật.
+059|03|U/N|recrop|u_object,l_own,a_multi|Ba nam cùng lớn, thiết bị cầm chưa rõ loại.
+059|04|N/N|keep|n_clear,l_own,a_clear|Tai nghe/thiết bị bàn có dây rõ, hai tay máy tính đọc được.
+059|05|N/N|keep|n_paper,l_own,a_clear|Sách và hai tay rõ, đầu vào trang.
+059|06|N/P|keep|n_clear,l_front,a_clear|Điện thoại bàn có dây, tay/bàn rõ; nhìn ra trước khỏi giấy.
+060|01|N/N|keep|n_clear,l_own,a_clear|Tay và vật liệu mô hình đủ phân biệt, đầu hướng thao tác.
+060|02|N/N|keep|n_chin,l_own,a_clear|Chống má và tay keyboard đủ đọc, đầu hướng màn riêng.
+060|03|N/N|keep|n_tablet,l_own,a_clear|Hai tay keyboard rõ, đầu vào màn riêng.
+060|04|N/N|keep|n_tablet,l_own,a_clear|Tay typing và vùng laptop đủ quan sát.
+060|05|N/N|keep|n_clear,l_own,a_clear|Thiết bị điện tử có dây và tay keyboard đủ rõ.
+060|06|U/N|keep|u_hand,l_own,a_clear|Quầy/thiết bị che vùng bàn tay, đầu hướng vùng thao tác.
+061|01|N/P|keep|n_chin,l_front,a_clear|Tay chống miệng và tay bàn đủ rõ, nhìn camera.
+061|02|N/P|keep|n_pen,l_front,a_clear|Hai tay trên giấy rõ, mặt hướng trước khỏi giấy.
+061|03|N/P|keep|n_folded,l_front,a_clear|Hai tay chắp rõ, mặt ngẩng khỏi vùng sách.
+061|04|N/P|recrop|n_clear,l_front,a_foreground|Tay người tiền cảnh lớn ngay trước bàn tay anchor.
+061|05|N/N|keep|n_pen,l_own,a_clear|Tay và giấy rõ, đầu hướng trang.
+061|06|N/N|recrop|n_tablet,l_own,a_multi|Hai người cùng lớn cạnh laptop.
+062|01|N/P|keep|n_folded,l_front,a_clear|Hai tay chắp rõ, đầu nhìn trước/chéo trái khỏi vùng tay.
+062|02|N/N|recrop|n_tablet,l_own,a_pbox|Person box gộp nam đứng và nữ ngồi bên máy.
+062|03|N/N|keep|n_tablet,l_own,a_clear|Hai tay keyboard/mouse và hướng màn riêng rõ.
+062|04|N/P|keep|n_pen,l_front,a_clear|Cầm bút nhưng mặt nhìn camera khỏi sách.
+062|05|N/N|keep|n_tablet,l_own,a_clear|Tay vùng laptop rõ, đầu vào màn riêng.
+062|06|N/N|recrop|n_paper,l_own,a_multi|Nam trẻ cầm vở nhưng người lớn/tay phía sau còn lớn.
+063|01|U/N|keep|u_object,l_own,a_clear|Vật nhỏ ở tay chưa đủ nhận dạng, đầu hướng vùng laptop.
+063|02|U/U|exclude|u_hand,l_sleep,a_source_limit|Mắt nhắm, một tay dưới bàn; không có known target chắc.
+063|03|N/P|keep|n_tablet,l_front,a_clear|Tay typing đủ rõ, nhìn camera.
+063|04|N/P|keep|n_pen,l_other,a_clear|Tay giấy/bút rõ, nhìn sang người bên trái.
+063|05|N/P|keep|n_clear,l_side,a_clear|Tay bàn và tay đùi đọc được, quay trái khỏi vùng thao tác.
+063|06|U/P|keep|u_hand,l_side,a_clear|Hai tay thấp/khuất, mặt quay phải khỏi trang.
+064|01|N/P|keep|n_folded,l_side,a_clear|Tay khoanh đủ đọc, đầu nhìn trái khỏi bàn.
+064|02|N/P|keep|n_pen,l_front,a_clear|Hai tay giấy/bút rõ, mặt ngẩng khỏi trang.
+064|03|U/P|keep|u_object,l_side,a_clear|Vật xám nhỏ trên bàn chưa đủ ID, đầu quay phải.
+064|04|N/P|keep|n_folded,l_side,a_clear|Hai tay khoanh rõ, nhìn sang người bên phải.
+064|05|U/N|keep|u_hand,l_own,a_clear|Tay ở mép khung thiếu evidence, đầu hướng trang.
+064|06|N/N|keep|n_pen,l_own,a_clear|Tay viết/giữ trang đủ đọc, đầu vào bài.
+065|01|U/N|keep|u_object,l_own,a_clear|Vật nhỏ ở bàn tay chưa phân biệt, đầu hướng màn riêng.
+065|02|N/N|keep|n_tablet,l_own,a_clear|Tay keyboard và vùng laptop đủ rõ.
+065|03|U/N|keep|u_hand,l_own,a_clear|Màn laptop che một phần vùng tay, đầu hướng màn riêng.
+065|04|U/N|keep|u_object,l_own,a_clear|Vật đen nhỏ gần keyboard chưa đủ ID.
+065|05|N/N|keep|n_paper,l_own,a_clear|Hai tay giữ trang giấy rõ.
+065|06|N/N|keep|n_pen,l_own,a_clear|Hai tay và giấy viết rõ.
+066|01|N/N|keep|n_pen,l_own,a_clear|Tay viết/giữ trang đủ quan sát.
+066|02|N/N|keep|n_pen,l_own,a_clear|Đầu sát trang nhưng đích và hai tay rõ.
+066|03|N/N|recrop|n_tablet,l_own,a_multi|Person box/context chứa cả nhóm người và dãy laptop.
+066|04|N/N|keep|n_pen,l_own,a_clear|Đầu hướng giấy, hai tay đủ absence.
+066|05|U/N|keep|u_hand,l_own,a_clear|Một tay sau màn laptop, đầu hướng máy.
+066|06|N/P|keep|n_clear,l_side,a_clear|Tay kiểm đồng hồ rõ, đầu quay trái khỏi vùng bàn.
+067|01|N/P|keep|n_folded,l_side,a_clear|Tay khoanh đủ đọc, mặt quay phải.
+067|02|U/N|keep|u_hand,l_own,a_clear|Laptop che vùng tay, đầu hướng màn máy trên đùi.
+067|03|N/N|recrop|n_tablet,l_own,a_foreground|Người/tay tiền cảnh che vùng keyboard của nam giữa.
+067|04|U/N|keep|u_object,l_own,a_clear|Vật bạc ngang chưa đủ mobile ID.
+067|05|U/P|recrop|u_back,l_front,a_multi|Nhiều nam ngồi/đứng cùng rõ; máy nhỏ chưa nhận dạng.
+067|06|U/N|recrop|u_back,l_own,a_foreground|Thân người đứng chiếm phải crop, vật cầm còn chỉ cạnh/mặt lưng.
+068|01|U/N|recrop|u_hand,l_own,a_multi|Hai người cùng lớn và hai laptop, vùng tay khuất.
+068|02|P/N|recrop|p_front,l_own,a_multi|Phone screen/UI rõ ở đùi nam giữa nhưng có ba người cạnh tranh.
+068|03|U/N|keep|u_back,l_own,a_clear|Lưng máy hồng thiếu camera rõ, nữ trước vẫn trội.
+068|04|U/N|keep|u_hand,l_own,a_clear|Tay còn lại sau laptop, đầu hướng màn riêng.
+068|05|N/N|recrop|n_paper,l_own,a_multi|Nam đứng và hai nữ cùng rõ ở vùng giấy chung.
+068|06|N/N|recrop|n_tablet,l_own,a_multi|Hai nam và tay keyboard chồng, cần box đơn.
+069|01|N/N|recrop|n_tablet,l_own,a_multi|Person box chứa hai nam, nhiều vùng tay/máy.
+069|02|U/N|recrop|u_back,l_own,a_multi|Hai nữ và hai vật cầm cùng lớn, lưng máy chưa rõ.
+069|03|N/N|keep|n_tablet,l_own,a_clear|Tay chống má và tay bàn/màn lớn đủ quan sát.
+069|04|P/N|recrop|p_front,l_own,a_foreground|Mặt screen/UI mobile rõ, đầu/vai người trước chiếm khung.
+069|05|N/N|keep|n_tablet,l_own,a_clear|Màn laptop và tay tương tác, đầu hướng màn riêng.
+069|06|U/P|recrop|u_hand,l_front,a_multi|Ba nam cùng rõ và hướng ra trước, tay/vùng bài không đủ riêng.
+070|01|N/N|keep|n_pen,l_own,a_clear|Hai tay trên giấy và hướng trang rõ.
+070|02|N/N|recrop|n_chin,l_own,a_multi|Nam trái vẫn có mặt/thân lớn cạnh nam chống cằm.
+070|03|N/N|keep|n_pen,l_own,a_clear|Hai tay viết/giữ giấy rõ.
+070|04|N/P|keep|n_chin,l_front,a_clear|Tay chống cằm đọc được, nhìn ra trước khỏi bàn cờ.
+070|05|U/P|keep|u_hand,l_front,a_clear|Tay một bên dưới bàn, nhìn khỏi màn máy.
+070|06|N/P|keep|n_chin,l_front,a_clear|Tay cổ và tay còn lại quan sát được, mặt ngẩng trước.
+071|01|U/P|keep|u_hand,l_front,a_clear|Mặt nhìn trước, vùng tay ngoài crop.
+071|02|N/N|keep|n_tablet,l_own,a_clear|Hai tay keyboard và hướng laptop đủ rõ.
+071|03|U/P|recrop|u_hand,l_front,a_multi|Cả nhóm đứng cùng rõ, thiếu vùng tay riêng cho từng người.
+071|04|N/N|keep|n_clear,l_own,a_clear|Hai tay găng và vật thí nghiệm rõ, đầu hướng thao tác.
+071|05|P/P|keep|p_camera,l_front,a_clear|Cụm nhiều ống kính trên lưng máy rõ, nhìn ra trước khỏi vật.
+071|06|U/N|keep|u_back,l_own,a_clear|Mặt/cạnh tối cầm chưa đủ ID.
+072|01|U/N|keep|u_back,l_own,a_clear|Lưng vàng/viền chưa đủ camera.
+072|02|P/N|keep|p_front,l_own,a_clear|Screen/UI phone trong túi bút còn rõ, đầu hướng máy.
+072|03|U/N|keep|u_back,l_own,a_clear|Lưng trắng thiếu đặc trưng phân biệt.
+072|04|P/N|keep|p_camera,l_own,a_clear|Ba thành phần camera mặt sau đủ tách ở input.
+072|05|P/N|keep|p_front,l_own,a_clear|UI/mặt kính mobile trong túi bút rõ.
+072|06|U/N|keep|u_object,l_own,a_clear|Vật nhỏ trên vùng bàn chưa phân biệt, đầu hướng giấy.
+073|01|N/N|keep|n_pen,l_own,a_clear|Góc từ trên thấy hai tay và trang riêng rõ.
+073|02|U/N|keep|u_back,l_own,a_clear|Chỉ cạnh/lưng máy cầm, không camera rõ.
+073|03|U/N|keep|u_back,l_own,a_clear|Lưng máy và dáng cầm không thay ID phone.
+073|04|P/N|keep|p_front,l_own,a_clear|Màn hình/UI mobile rõ trên trang sách.
+073|05|N/P|keep|n_pen,l_other,a_clear|Tay bút và tay chỉ rõ, nhìn sang người khác.
+073|06|N/N|keep|n_paper,l_own,a_clear|Đầu nghiêng theo trang được nâng trong tay, không tự P vì nghiêng.
+074|01|N/N|keep|n_calculator,l_own,a_clear|Calculator có phím, tay và trang rõ.
+074|02|N/P|keep|n_calculator,l_side,a_clear|Hai tay trên bàn rõ, nhìn phải khỏi giấy.
+074|03|N/N|keep|n_calculator,l_own,a_clear|Calculator rõ và hai tay/vùng bài đủ đọc.
+074|04|P/N|recrop|p_front,l_own,a_multi|Phone/UI trên bài rõ nhưng hai sinh viên cùng lớn.
+074|05|P/P|recrop|p_front,l_other,a_multi|Phone mặt trước ở bàn riêng, mặt quay sang nam đứng; còn nhiều người.
+074|06|N/P|keep|n_pen,l_side,a_clear|Cầm bút nhưng mặt/nhìn trái khỏi trang.
+075|01|N/N|keep|n_pen,l_own,a_clear|Hai tay và bút trên bài, đầu hướng bài riêng.
+075|02|U/N|keep|u_object,l_own,a_clear|Vật phẳng bên phải chưa đủ dấu hiệu mobile ở input; nhìn sách riêng.
+075|03|N/P|keep|n_pen,l_side,a_clear|Tay bút và tay còn lại rõ, nhìn sang phải khỏi giấy.
+075|04|U/P|keep|u_object,l_side,a_clear|Vật trắng trong tay đưa sau ghế không đủ nhận dạng; quay nhìn phía sau.
+075|05|N/N|keep|n_pen,l_own,a_clear|Hai tay trên giấy, nhìn bài riêng.
+075|06|N/P|keep|n_paper,l_front,a_clear|Hai tay cầm trang rõ, ngẩng nhìn phía trước khỏi trang.
+076|01|U/P|keep|u_object,l_side,a_clear|Thiết bị phẳng trước tay chưa phân biệt chắc phone/calculator; nhìn trái khỏi bài.
+076|02|U/P|keep|u_hand,l_side,a_clear|Một tay và vùng dưới bàn thiếu, vật đen phẳng chưa có dấu hiệu mobile; nhìn trái.
+076|03|U/N|recrop|u_object,l_own,a_multi|Mặt kính đen chưa đủ nhận dạng ở input; mặt và tay người trái cạnh tranh anchor.
+076|04|N/N|keep|n_pen,l_own,a_clear|Hai tay và bút rõ trên bài riêng.
+076|05|N/P|keep|n_pen,l_front,a_clear|Hai tay rõ, mặt ngẩng nhìn phía trước bên trái khỏi giấy.
+076|06|U/N|keep|u_object,l_own,a_clear|Vật phẳng bên phải chưa đủ dấu hiệu mobile; hướng sách riêng rõ.
+077|01|N/P|keep|n_paper,l_front,a_clear|Hai tay với trang sách rõ; mặt hướng trước khỏi trang.
+077|02|U/P|recrop|u_hand,l_other,a_multi|Tay dưới bàn không rõ, quay nhìn người sau; nhiều mặt lớn trong crop.
+077|03|N/N|keep|n_pen,l_own,a_clear|Hai tay bút và giấy rõ, anchor trước trội hơn người nền.
+077|04|N/P|recrop|n_folded,l_side,a_overlay|Hai tay đan không có vật, nhìn phải; phụ đề phủ cổ tay/cẳng tay cần xử lý geometry hoặc rút crop.
+077|05|U/P|keep|u_hand,l_side,a_clear|Tay thiếu trong khung, đầu quay hẳn sang trái khỏi bàn riêng.
+077|06|N/N|recrop|n_pen,l_own,a_overlay|Hai tay trên bài rõ; thử bỏ dải chữ đáy nhưng phải giữ đủ tay và bài.
+078|01|N/P|keep|n_pen,l_side,a_clear|Tay bút trên bàn và tay tựa ghế thấy rõ, đầu nhìn sang phải khỏi bài.
+078|02|U/U|exclude|u_hand,l_hidden,a_source_limit|Tay thiếu, tóc che mặt và nguồn ít pixel không xác định hướng nhìn đáng tin.
+078|03|U/P|keep|u_hand,l_side,a_clear|Một tay ngoài khung; mặt hướng phải phía trước khỏi trang ở đáy.
+078|04|N/N|recrop|n_pen,l_own,a_overlay|Hai tay trên bài, đầu hướng trang; bỏ dải chữ đáy nếu giữ được ngữ cảnh.
+078|05|N/N|keep|n_paper,l_own,a_clear|Bút và trang giấy cầm trong tay rõ; hướng về trang riêng.
+078|06|U/U|exclude|u_hand,l_sleep,a_clear|Mắt nhắm, đầu đè lên tay; không đủ hai target để giữ supervision.
+079|01|N/P|keep|n_pen,l_front,a_clear|Tay bút và vùng làm bài rõ; nhìn thẳng phía trước khỏi bài.
+079|02|N/P|keep|n_pen,l_side,a_clear|Hai tay rõ trên giấy, đầu quay sang phải phía sau.
+079|03|U/P|recrop|u_hand,l_side,a_tight|Crop cắt tay và bài trong nguồn, mặt hướng sang trái; cần lấy lại ngữ cảnh riêng.
+079|04|U/P|recrop|u_hand,l_other,a_foreground|Tay trao giấy bị cắt và đầu tiền cảnh chen vào, nhìn sang người trái.
+079|05|U/N|keep|u_back,l_own,a_clear|Lưng vật cầm tay không có camera/màn hình đủ rõ; hướng xuống vùng tay riêng.
+079|06|N/P|recrop|n_folded,l_side,a_multi|Tay khoanh rõ nhưng hai mặt gần bằng nhau; target áo xanh nhìn trái.
+080|01|U/N|keep|u_back,l_own,a_clear|Vật cầm tay chỉ có lưng mờ, không đủ camera; nhìn vùng tay riêng.
+080|02|U/N|keep|u_back,l_own,a_clear|Lưng thiết bị không đủ chi tiết mobile ở input; hướng xuống tay riêng.
+080|03|N/P|recrop|n_folded,l_front,a_multi|Tay khoanh rõ, nhìn phía trước; hai mặt lớn cạnh tranh anchor.
+080|04|U/N|keep|u_back,l_own,a_clear|Vật cầm tay mờ không đủ dấu hiệu nhận dạng; đầu hướng vùng tay.
+080|05|U/N|keep|u_back,l_own,a_clear|Không thấy camera/màn hình của vật cầm tay; hướng xuống vùng tay riêng.
+080|06|N/P|keep|n_folded,l_front,a_clear|Hai bàn tay đan trên bàn rõ, nhìn phía trước khỏi bàn.
+081|01|U/N|keep|u_back,l_own,a_clear|Thấy lưng và cạnh trơn, không camera rõ; nhìn vật ở vùng tay riêng.
+081|02|U/N|recrop|u_object,l_own,a_tight|Thiết bị và bàn tay bị cắt ở đáy; cần mở ngữ cảnh từ nguồn.
+081|03|U/N|keep|u_back,l_own,a_clear|Lưng thiết bị nhỏ dưới bàn không có camera đủ rõ; hướng xuống vùng tay riêng.
+081|04|U/N|keep|u_object,l_own,a_clear|Vật nhỏ trong tay chỉ còn mảng tối, nhìn vùng tay trên bàn.
+081|05|U/N|keep|u_hand,l_own,a_clear|Tay bên dưới bàn không thấy đủ; hướng đầu xuống bài riêng.
+081|06|U/N|keep|u_hand,l_own,a_clear|Một tay ở dưới mép bàn không đủ chi tiết; đầu hướng bài.
+082|01|U/N|keep|u_object,l_own,a_clear|Vật dưới bàn tay còn mảng tối chưa đủ mặt kính/camera; nhìn trang riêng.
+082|02|U/N|keep|u_object,l_own,a_clear|Thiết bị phẳng đen bị tay che, thiếu dấu hiệu nhận dạng; hướng bài.
+082|03|P/N|keep|p_front,l_own,a_clear|Mặt kính có nội dung màn hình và viền rõ dưới tay; nhìn vùng bài riêng.
+082|04|U/P|keep|u_object,l_side,a_clear|Vật phẳng đen không đủ chi tiết phân loại ở input; quay sang phải khỏi bài.
+082|05|P/N|keep|p_front,l_own,a_clear|Mặt kính phản chiếu với viền điện thoại rõ trên bàn, đầu hướng vùng làm việc.
+082|06|P/N|keep|p_front,l_own,a_clear|Mặt kính và viền mobile rõ ở tay trên bàn; hướng vùng riêng.
+083|01|P/N|keep|p_front,l_own,a_clear|Màn hình và viền phone rõ trên bàn, hướng vùng làm việc riêng.
+083|02|P/N|recrop|p_front,l_own,a_multi|Màn hình phone rõ; người sau có mặt lớn và person box bao hai người.
+083|03|P/N|recrop|p_front,l_own,a_multi|Mặt kính/UI rõ trên bàn riêng, cần tách người sau khỏi anchor.
+083|04|U/N|keep|u_back,l_own,a_clear|Lưng đen không thấy camera rõ, hướng vùng tay riêng.
+083|05|N/P|keep|n_clear,l_side,a_clear|Hai tay nghỉ trên bàn rõ; quay phải khỏi vùng bài.
+083|06|U/N|keep|u_back,l_own,a_clear|Vật cầm có lưng trơn mờ, không đủ camera; nhìn vùng tay và sách riêng.
+084|01|N/N|keep|n_chin,l_own,a_clear|Tay bút và tay tựa đầu rõ, vẫn nhìn trang riêng.
+084|02|U/N|keep|u_hand,l_own,a_clear|Tay còn lại không thấy; nghiêng đầu nhưng mắt hướng trang riêng.
+084|03|N/N|keep|n_paper,l_own,a_clear|Bút và trang giấy trong hai tay rõ, nhìn bài riêng.
+084|04|U/N|keep|u_hand,l_own,a_clear|Một tay ngoài vùng thấy rõ, đầu hướng sách riêng.
+084|05|N/N|recrop|n_pen,l_own,a_multi|Tay viết và bài rõ nhưng hai mặt cạnh tranh, người trái chen sát đầu target.
+084|06|N/N|keep|n_pen,l_own,a_clear|Hai tay và bài rõ, nhìn trang riêng.
+085|01|N/N|keep|n_pen,l_own,a_clear|Hai tay rõ trên bài, nhìn trang riêng.
+085|02|U/P|keep|u_hand,l_side,a_clear|Một tay thiếu phía bàn, quay hẳn sang phải khỏi bàn riêng.
+085|03|U/P|recrop|u_object,l_side,a_multi|Tay/vật nhỏ mờ, nhìn phải; nhiều mặt tương đương trong crop.
+085|04|U/P|recrop|u_hand,l_other,a_pbox|Box bao cả hai người, target tiền cảnh quay về người sau; tay và vùng bàn riêng thiếu.
+085|05|U/P|recrop|u_hand,l_other,a_tight|Nhìn sang trái khỏi vùng riêng; crop thiếu tay và ngữ cảnh bàn ở nguồn.
+085|06|N/P|recrop|n_pen,l_side,a_multi|Hai tay trên bàn rõ, quay trái; người sau còn mặt lớn cạnh tranh.
+086|01|N/P|keep|n_pen,l_other,a_clear|Hai tay trên giấy rõ nhưng mặt hướng sang trái về bạn, không hướng trang riêng.
+086|02|U/P|keep|u_hand,l_side,a_clear|Tay và bài bị cắt đáy nguồn; đầu quay phải rõ.
+086|03|U/P|keep|u_hand,l_other,a_clear|Tay dưới màn hình không đủ quan sát; nhìn người bên trái.
+086|04|N/P|recrop|n_paper,l_other,a_tight|Hai tay với mẩu giấy rõ, nhìn sang phải; box cắt thân và vùng bàn riêng dù nguồn còn.
+086|05|U/P|recrop|u_hand,l_other,a_multi|Tay riêng bị che, nghiêng sang nhìn bàn khác; hai mặt cùng lớn.
+086|06|N/N|keep|n_pen,l_own,a_clear|Hai tay với bút và giấy rõ, hướng trang riêng.
+087|01|U/P|keep|u_hand,l_other,a_clear|Một tay sau trang thiếu, mặt hướng sang bạn bên phải.
+087|02|N/N|recrop|n_pen,l_own,a_tight|Hai tay bút trên bài, crop cắt nửa mặt và thân; cần chỉnh box một người.
+087|03|N/N|keep|n_chin,l_own,a_clear|Tay tựa đầu và tay trên giấy rõ, đầu nghiêng nhưng hướng bài riêng.
+087|04|N/P|recrop|n_clear,l_side,a_multi|Hai tay trên bàn rõ, nhìn trái; người sau còn mặt lớn cần tách.
+087|05|U/N|recrop|u_hand,l_own,a_tight|Tay viết bị cắt đáy để tránh phụ đề, cần xem khả năng giữ đủ ngữ cảnh.
+087|06|U/N|keep|u_hand,l_own,a_clear|Tay kia sau sách không thấy đủ, đầu hướng sách riêng.
+088|01|U/N|keep|u_hand,l_own,a_clear|Tay dưới bàn không rõ, nhìn xuống vùng bài riêng.
+088|02|U/N|keep|u_hand,l_own,a_clear|Tay cạnh bàn thấp chỉ thấy phần nhỏ; mặt hướng giấy riêng.
+088|03|U/N|keep|u_hand,l_own,a_clear|Calculator có phím rõ nhưng tay còn lại dưới bàn; hướng trang riêng.
+088|04|U/P|keep|u_object,l_other,a_clear|Vật ở mép bàn phải chưa đủ nhận dạng; mắt nhìn khỏi bài về phía trái trước.
+088|05|U/P|keep|u_object,l_front,a_clear|Vật đen dưới tay chưa đủ mặt kính/camera, nhìn thẳng phía trước.
+088|06|N/N|keep|n_pen,l_own,a_clear|Hai tay trên bài và bút rõ, đầu hướng trang.
+089|01|N/P|keep|n_folded,l_front,a_clear|Hai tay khoanh rõ, nhìn phía trước khỏi sách.
+089|02|U/P|keep|u_hand,l_front,a_clear|Tay và mặt bàn khuất sau thân, đầu ngẩng về phía trước.
+089|03|N/P|keep|n_folded,l_front,a_clear|Hai tay đan rõ trên bàn, nhìn trước khỏi bài.
+089|04|N/P|keep|n_clear,l_side,a_clear|Một tay trước ngực và tay kia buông rõ, đầu quay phải khỏi giấy.
+089|05|N/P|keep|n_pen,l_side,a_clear|Hai tay trên bài rõ nhưng đầu quay sang trái khỏi trang.
+089|06|U/P|recrop|u_hand,l_front,a_foreground|Nhìn phía trước, tay bị đầu tiền cảnh che; cần giảm đầu người trước nếu nguồn cho phép.
+090|01|N/P|keep|n_folded,l_side,a_clear|Hai tay khoanh rõ trên bàn, mặt hướng trái khỏi giấy.
+090|02|N/P|recrop|n_folded,l_front,a_foreground|Tay khoanh, nhìn phía trước; mặt tiền cảnh lớn cạnh tranh target.
+090|03|U/P|keep|u_object,l_side,a_clear|Tay gần mặt và vùng bàn quá ít chi tiết để xác nhận không device, nhìn trái.
+090|04|U/P|keep|u_hand,l_side,a_clear|Tay khuất sau thân, đầu quay trái khỏi bàn riêng.
+090|05|U/P|keep|u_hand,l_front,a_clear|Tay thiếu và nguồn tối, đầu ngẩng phía trước rõ.
+090|06|U/P|keep|u_hand,l_front,a_clear|Tay còn lại khuất, mặt ngẩng trước khỏi bàn.
+091|01|U/P|keep|u_hand,l_front,a_clear|Tay dưới bị che, mặt hướng trước khi giơ tay; không suy phone từ động tác.
+091|02|U/U|exclude|u_object,l_unclear,a_blur|Mặt/tay/vật bị nhòe nặng, hướng mắt so với trang không đủ chắc.
+091|03|U/P|keep|u_object,l_side,a_clear|Vật trắng giơ bên mặt không nhận dạng mobile, mặt quay phải khỏi bàn.
+091|04|U/P|keep|u_hand,l_side,a_clear|Một tay khuất ở mép phải, mặt quay phải khỏi bài.
+091|05|U/P|keep|u_hand,l_front,a_clear|Tay và bàn riêng phía trước thân bị khuất, đầu hướng lên phía trước.
+091|06|U/P|keep|u_hand,l_front,a_clear|Tay ngoài khung, mặt ngẩng khỏi bàn rõ dù nguồn tối.
+092|01|U/P|keep|u_object,l_front,a_clear|Tay/vật nhỏ quá mờ để quyết định phone, mặt ngẩng phía trước khỏi bài.
+092|02|N/P|keep|n_clear,l_side,a_clear|Hai tay đặt trên bàn đủ rõ, quay mặt khỏi bài về phía máy quay.
+092|03|U/U|exclude|u_object,l_unclear,a_blur|Nguồn quá nhòe cả tay và mặt, không dựa tên turnhead để gán P.
+092|04|U/P|keep|u_hand,l_front,a_clear|Tay khuất sau thân, đầu ngẩng phía trước rõ.
+092|05|U/P|keep|u_hand,l_front,a_clear|Tay thiếu, mặt ngẩng ra trước khỏi bàn; đầu tiền cảnh chỉ phần nhỏ.
+092|06|N/P|keep|n_folded,l_side,a_clear|Tay khoanh rõ trên bàn, đầu quay trái khỏi giấy.
+093|01|U/P|keep|u_hand,l_side,a_clear|Một tay khuất bởi người trước, mặt ngẩng sang trái khỏi sách.
+093|02|N/P|keep|n_folded,l_side,a_clear|Hai tay khoanh trên bàn rõ, nhìn sang trái khỏi bài.
+093|03|U/U|exclude|u_hand,l_unclear,a_blur|Chỉ lưng đầu nhòe, thiếu tay và hướng nhìn so với vùng riêng.
+093|04|U/U|exclude|u_object,l_unclear,a_blur|Mặt và tay nhòe không đủ xác định hai target.
+093|05|U/U|exclude|u_hand,l_hidden,a_foreground|Mặt cúi bị đầu tiền cảnh che và nhòe, tay không đủ rõ.
+093|06|U/U|exclude|u_hand,l_unclear,a_blur|Nguồn quá ít chi tiết, không xác nhận hướng nhìn hoặc tay.
+094|01|U/P|keep|u_hand,l_side,a_clear|Tay khuất sau thân, đầu quay trái rõ khỏi vùng bàn trước.
+094|02|N/P|recrop|n_pen,l_side,a_foreground|Tay bút và tay nghỉ rõ, nhìn trái; mặt tiền cảnh cạnh tranh cần tách.
+094|03|N/P|keep|n_folded,l_front,a_clear|Hai tay trên bàn rõ, mặt ngẩng trước khỏi sách.
+094|04|U/U|exclude|u_hand,l_unclear,a_source_limit|Chỉ thấy sau đầu/thân, không đủ phân biệt nhìn bài với phía trước.
+094|05|U/P|recrop|u_hand,l_other,a_multi|Đầu quay phải khỏi giấy, tay bị người đối diện che; nhiều thân/mặt cạnh tranh.
+094|06|N/P|recrop|n_clear,l_side,a_multi|Tay trên bàn đủ rõ, nhìn khỏi bài; box rộng chứa nhiều mặt cùng cỡ.
+095|01|N/P|keep|n_folded,l_side,a_clear|Tay khoanh rõ trên bàn, đầu quay phải khỏi vùng riêng.
+095|02|U/P|recrop|u_hand,l_side,a_foreground|Tay bị tiền cảnh che, nhìn sang trái; cần bỏ phần người trước.
+095|03|U/P|recrop|u_hand,l_side,a_multi|Đầu quay trái rõ nhưng tay/giấy bị nhiều người che và box chứa nhóm.
+095|04|N/P|keep|n_chin,l_front,a_clear|Tay tựa mặt và tay trên bàn đủ rõ, mặt ngẩng phía trước.
+095|05|N/P|keep|n_folded,l_front,a_clear|Hai tay gập trên bàn rõ, mặt ngẩng trước khỏi bài.
+095|06|U/U|recrop|u_hand,l_unclear,a_multi|Mặt cúi mờ và tay bị người trước che, cần tách target rồi xét lại hướng nhìn.
+096|01|U/N|recrop|u_hand,l_own,a_multi|Hướng xuống trang riêng nhưng tay bị che/cắt, nhiều thân trong box.
+096|02|U/P|recrop|u_hand,l_side,a_foreground|Tay target bị mặt tiền cảnh che, đầu quay trái khỏi bàn.
+096|03|U/P|recrop|u_hand,l_other,a_tight|Đầu quay trái về người cạnh, tay khuất và context box lệch mất vùng riêng.
+096|04|U/P|recrop|u_hand,l_front,a_multi|Ngẩng trước khỏi bàn, tay che ở mặt; nhiều mặt cùng cỡ trong crop.
+096|05|U/U|recrop|u_hand,l_unclear,a_foreground|Đầu nghiêng chưa đủ phân biệt nhìn bài hay bên trái, người trước che tay.
+096|06|N/P|recrop|n_folded,l_front,a_pbox|Tay khoanh rõ, nhìn trước; person box hiện gồm cả người bên phải.
+097|01|U/P|recrop|u_hand,l_front,a_pbox|Box gồm hai người, target giơ bút nhìn trước; tay còn lại bị che.
+097|02|U/P|keep|u_hand,l_front,a_clear|Tay phía trước thân thiếu, đầu ngẩng trước khỏi bàn.
+097|03|N/P|keep|n_clear,l_side,a_clear|Tay giơ và tay trên bàn rõ, quay trái khỏi trang.
+097|04|U/P|recrop|u_hand,l_front,a_foreground|Mặt ngẩng trước nhưng tay bị người tiền cảnh che; nhiều mặt cạnh tranh.
+097|05|U/P|recrop|u_hand,l_side,a_tight|Target quay trái, crop cắt thân/tay và chứa nhiều phần người sau.
+097|06|U/P|recrop|u_hand,l_front,a_multi|Một tay không đủ rõ, nhìn phía trước; nhiều mặt cùng cỡ.
+098|01|N/P|recrop|n_folded,l_side,a_multi|Hai tay gập rõ, đầu quay phải; nhiều mặt và thân trong crop.
+098|02|U/P|keep|u_hand,l_front,a_clear|Tay không giơ bị khuất, đầu ngẩng phía trước rõ.
+098|03|N/P|recrop|n_pen,l_other,a_multi|Tay bút trên bàn rõ, nhìn người cạnh; hai mặt và thân cạnh tranh.
+098|04|N/N|recrop|n_pen,l_own,a_multi|Hai tay trên giấy, hướng trang riêng; box gồm nhiều đầu/thân.
+098|05|N/P|recrop|n_clear,l_front,a_pbox|Target giơ tay nhìn trước, tay kia trên bàn; box quá rộng chứa nhóm.
+098|06|N/N|recrop|n_pen,l_own,a_pbox|Box nhóm hai người; nữ bên trái viết và hướng bài riêng, cần định vị lại một anchor.
+099|01|U/N|recrop|u_hand,l_own,a_multi|Một tay khuất cạnh bàn, hướng sách riêng; người sau lớn và box chứa nhiều thân.
+099|02|U/U|recrop|u_attribution,l_unclear,a_pbox|Box cả nhóm không có một anchor rõ, chưa thể gán nhãn cho một người.
+099|03|U/U|recrop|u_attribution,l_unclear,a_pbox|Hai người ngang nhau trong box, cần xác định target trước khi gán hai nhãn.
+099|04|N/N|recrop|n_folded,l_own,a_pbox|Người trước khoanh tay hướng sách nhưng box chứa nhiều người, cần anchor một người.
+099|05|N/P|recrop|n_pen,l_other,a_multi|Hai tay trên bàn rõ, quay nhìn người bên trái; nhiều mặt cùng cỡ.
+099|06|N/P|keep|n_pen,l_side,a_clear|Tay bút và tay giấy rõ, mặt quay trái khỏi trang riêng.
+100|01|N/N|keep|n_pen,l_own,a_clear|Hai tay trên giấy rõ, hướng xuống bài riêng.
+100|02|N/N|keep|n_paper,l_own,a_clear|Hai tay trên trang rõ, đầu nghiêng theo sách riêng.
+100|03|N/P|keep|n_folded,l_side,a_clear|Tay khoanh rõ, nhìn sang phải khỏi mặt bàn.
+100|04|N/N|keep|n_pen,l_own,a_clear|Hai tay và bút trên trang, hướng bài riêng.
+100|05|N/P|keep|n_paper,l_front,a_clear|Hai tay giữ sách rõ, nhìn trước khỏi sách.
+100|06|U/N|keep|u_object,l_own,a_clear|Trang đọc rõ nhưng bàn tay ít pixel không đủ loại trừ vật khác; hướng trang cầm.
+101|01|N/N|keep|n_folded,l_own,a_clear|Hai tay trên bàn đủ rõ, hướng xuống bài riêng.
+101|02|N/P|keep|n_folded,l_front,a_clear|Tay khoanh đủ rõ, đầu ngẩng trước khỏi sách.
+101|03|N/N|recrop|n_folded,l_own,a_multi|Target bên phải cúi nhìn bàn, hai tay khoanh; mặt người trái cùng cỡ.
+101|04|N/U|keep|n_chin,l_hidden,a_clear|Tay tựa đầu và tay ngực rõ; mắt nhắm/che không xác định hướng nhìn.
+101|05|N/N|keep|n_paper,l_own,a_clear|Hai tay và giấy rõ, đầu hướng trang riêng.
+101|06|U/N|keep|u_hand,l_own,a_clear|Tay khuất sau sách, đầu hướng trang riêng.
+102|01|N/U|keep|n_folded,l_hidden,a_clear|Hai tay đan rõ, mặt úp xuống tay không đủ xác định nhìn trang.
+102|02|N/N|keep|n_folded,l_own,a_clear|Hai tay khoanh trên bàn, đầu hướng trang riêng.
+102|03|N/N|keep|n_folded,l_own,a_clear|Tay gập trên bàn rõ, nhìn xuống sách riêng.
+102|04|N/N|keep|n_chin,l_own,a_clear|Tay tựa má và tay trên bàn rõ, hướng sách riêng.
+102|05|N/N|keep|n_paper,l_own,a_clear|Hai tay trên giấy rõ, đầu hướng bài riêng.
+102|06|N/N|keep|n_paper,l_own,a_clear|Hai tay giữ trang, đầu hướng trang cầm thuộc vùng riêng.
+103|01|N/P|keep|n_folded,l_front,a_clear|Tay khoanh trên bàn đủ rõ, mặt ngẩng trước khỏi sách.
+103|02|U/P|keep|u_hand,l_front,a_clear|Một tay sau sách đứng không thấy, mặt nhìn phía trước khỏi trang.
+103|03|N/N|keep|n_pen,l_own,a_clear|Tay bút và tay trên ngực rõ, nhìn trang riêng.
+103|04|U/U|recrop|u_hand,l_hidden,a_foreground|Lưng đầu và sách giơ che hướng, người trước lớn; cần kiểm tra lại target/context.
+103|05|N/U|keep|n_folded,l_hidden,a_clear|Tay khoanh đủ rõ nhưng tóc che mặt, không ép N từ dáng cúi.
+103|06|U/N|keep|u_hand,l_own,a_clear|Tay khuất sau thân, đầu hướng xuống trang ngay trước mặt.
+104|01|N/U|keep|n_paper,l_hidden,a_clear|Tay giữ sách và tay nghỉ đủ rõ, tóc che hoàn toàn mặt.
+104|02|U/U|exclude|u_object,l_unclear,a_blur|Tay và mặt nhòe nặng, không đủ xác nhận hai target.
+104|03|U/U|exclude|u_hand,l_unclear,a_blur|Đầu tiền cảnh che tay, mặt nhòe không xác định hướng.
+104|04|U/U|exclude|u_hand,l_unclear,a_source_limit|Nguồn quá ít pixel cho mặt và tay, mở crop không khôi phục chi tiết.
+104|05|U/P|recrop|u_hand,l_front,a_foreground|Mặt nhìn trước khỏi bài nhưng đầu người trước che gần hết tay và cạnh tranh anchor.
+104|06|U/U|exclude|u_hand,l_hidden,a_source_limit|Tóc che mặt, tay khuất và nguồn mờ, không có target đáng tin.
+105|01|U/N|keep|u_hand,l_own,a_clear|Tay còn lại khuất/cắt đáy, đầu hướng trang riêng.
+105|02|U/P|recrop|u_hand,l_front,a_foreground|Nhìn trước khỏi trang, tay dưới bị đầu tiền cảnh che.
+105|03|U/U|exclude|u_hand,l_unclear,a_source_limit|Chỉ mảng đầu/tay nhòe, không đủ hai target.
+105|04|U/U|exclude|u_hand,l_hidden,a_source_limit|Mặt bị bàn tay/tóc che, tay còn lại khuất, không có supervision đáng tin.
+105|05|N/N|keep|n_pen,l_own,a_clear|Hai tay trên bài đủ rõ, hướng trang riêng.
+105|06|U/U|exclude|u_object,l_unclear,a_blur|Mặt và vật gần miệng nhòe, không xác định phone hay hướng nhìn.
+106|01|U/U|exclude|u_hand,l_hidden,a_blur|Mặt che bởi tóc và tay mờ khuất, không đủ hai target.
+106|02|U/U|exclude|u_object,l_unclear,a_source_limit|Mặt và tay không đủ chi tiết để gán chắc nhãn.
+106|03|N/N|keep|n_paper,l_own,a_clear|Hai tay trên sách rõ, hướng trang riêng.
+106|04|N/N|keep|n_folded,l_own,a_clear|Hai tay khoanh trên bàn rõ, nhìn sách riêng.
+106|05|U/U|exclude|u_attribution,l_unclear,a_blur|Nhiều người chồng và nguồn nhòe, không có hai target đáng tin cho anchor.
+106|06|N/N|keep|n_folded,l_own,a_clear|Hai tay khoanh rõ trên bàn, mặt hướng sách riêng.
+107|01|U/U|exclude|u_hand,l_unclear,a_blur|Tay bị đầu tiền cảnh che và mặt nhòe, không đủ hai target.
+107|02|U/U|exclude|u_object,l_hidden,a_source_limit|Nguồn rất ít pixel, tóc che mặt và vật/tay không phân biệt được.
+107|03|U/N|keep|u_hand,l_own,a_clear|Một tay dưới bàn thiếu, mặt hướng trang đang cầm rõ.
+107|04|U/N|keep|u_hand,l_own,a_clear|Tay khuất sau thân, đầu hướng xuống giấy riêng rõ.
+107|05|N/N|keep|n_pen,l_own,a_clear|Hai tay trên bài và bút đủ rõ, hướng xuống trang riêng.
+107|06|N/N|keep|n_pen,l_own,a_clear|Hai tay trên giấy và bút rõ, đầu hướng bài riêng.
+108|01|U/N|recrop|u_hand,l_own,a_foreground|Đầu hướng trang nhưng tay bị đầu tiền cảnh che, cần giảm người trước.
+108|02|U/U|exclude|u_object,l_unclear,a_blur|Mặt và tay nhòe mạnh, không đủ xác nhận hai target.
+108|03|N/N|keep|n_pen,l_own,a_clear|Tay bút và tay giấy rõ, đầu cúi sát bài riêng.
+108|04|U/U|exclude|u_hand,l_hidden,a_foreground|Đầu tiền cảnh che gần hết tay và trang, mặt target nhòe/khuất.
+108|05|U/N|recrop|u_object,l_own,a_multi|Hướng bài riêng nhưng tay/vật mờ và hai người cạnh tranh anchor.
+108|06|N/N|keep|n_pen,l_own,a_clear|Hai tay và bút trên sách rõ, hướng bài riêng.
+109|01|N/N|keep|n_pen,l_own,a_clear|Hai tay trên trang và bút đủ rõ, nhìn bài riêng.
+109|02|U/N|recrop|u_hand,l_own,a_foreground|Hướng xuống trang, tay và phần bài bị đầu tiền cảnh che.
+109|03|N/N|keep|n_pen,l_own,a_clear|Tay bút và tay giữ bài đủ rõ, hướng bài riêng.
+109|04|N/N|keep|n_pen,l_own,a_clear|Hai tay trên bài rõ, đầu hướng trang riêng.
+109|05|U/N|keep|u_object,l_own,a_clear|Vật đỏ giữa hai tay chưa phân biệt chắc dụng cụ hay device; đầu hướng vùng bài.
+109|06|U/N|keep|u_object,l_own,a_clear|Tay/vật nhỏ mờ chưa đủ xác nhận phone N, hướng vùng bài riêng.
+110|01|U/U|exclude|u_hand,l_hidden,a_foreground|Đầu người trước che mặt và tay, không có target đáng tin.
+110|02|U/N|recrop|u_hand,l_own,a_foreground|Hướng trang riêng rõ, tay bị đầu tiền cảnh che; cần giảm người trước.
+110|03|U/N|keep|u_object,l_own,a_clear|Tay/vật trên bàn chưa đủ chi tiết, hướng xuống bài riêng.
+110|04|N/N|keep|n_pen,l_own,a_clear|Bút và hai tay trên giấy đủ rõ, đầu hướng bài riêng.
+110|05|N/N|keep|n_pen,l_own,a_clear|Tay bút và tay giữ sách đủ rõ, đầu hướng trang riêng.
+110|06|U/U|exclude|u_object,l_hidden,a_source_limit|Pixel hóa mạnh, tóc che mặt và tay/vật không phân biệt rõ.
+111|01|N/P|keep|n_folded,l_front,a_clear|Hai tay đan trên bàn rõ, mặt ngẩng phía trước khỏi bài.
+111|02|U/U|exclude|u_hand,l_hidden,a_blur|Tóc/mặt nhòe và tay che khuất, nguồn không đủ để cứu hai target.
+111|03|U/U|exclude|u_object,l_unclear,a_blur|Mặt và tay nhòe mạnh, không gán từ dáng ngồi.
+111|04|U/N|keep|u_object,l_own,a_clear|Vật/tay gần trang thiếu chi tiết phân loại, đầu hướng trang riêng.
+111|05|N/N|keep|n_paper,l_own,a_clear|Hai tay trên sách đủ rõ, đầu hướng trang riêng.
+111|06|U/U|recrop|u_attribution,l_unclear,a_pbox|Box gồm nhiều người, không xác định một anchor để gán nhãn.
+112|01|U/U|recrop|u_hand,l_unclear,a_multi|Hai mặt cùng lớn, tay bị người trước che; cần tách anchor và lấy vùng bài.
+112|02|N/N|recrop|n_pen,l_own,a_multi|Nữ giữa viết trên bài riêng, tay rõ nhưng nhiều mặt/thân cùng cỡ.
+112|03|N/N|recrop|n_paper,l_own,a_foreground|Hai tay giữ sách rõ, đầu hướng sách; đầu tiền cảnh và người trái cạnh tranh.
+112|04|U/N|recrop|u_hand,l_own,a_multi|Nữ trước hướng sách, tay khuất mép bàn; hai người lớn trong khung.
+112|05|N/N|recrop|n_pen,l_own,a_foreground|Bút và hai tay đủ rõ, hướng bài; đầu tiền cảnh lớn cần giảm.
+112|06|U/U|exclude|u_attribution,l_unclear,a_blur|Nhiều người chồng, tay và mặt nhòe không đủ xác định hai target.
+113|01|U/U|recrop|u_attribution,l_unclear,a_pbox|Box bao nhiều học sinh tương đương; chưa có một target rõ.
+113|02|N/N|keep|n_pen,l_own,a_clear|Hai tay và bút trên trang rõ, hướng bài riêng.
+113|03|N/N|recrop|n_paper,l_own,a_multi|Nữ giữa giữ sách và hướng trang riêng; nhiều mặt cùng cỡ cần tách.
+113|04|N/N|keep|n_pen,l_own,a_clear|Hai tay và bút rõ trên bài; đầu tiền cảnh chỉ phần nhỏ, target trội.
+113|05|U/N|recrop|u_hand,l_own,a_tight|Đầu hướng xuống bài nhưng crop cắt tay/giấy; nguồn còn ngữ cảnh để sửa.
+113|06|U/N|recrop|u_object,l_own,a_multi|Vật/tay ở bàn chưa đủ nhận dạng, mặt hướng vùng riêng; nhiều người ngang nhau.
+114|01|U/U|exclude|u_object,l_hidden,a_blur|Tóc che mặt và tay/vật nhòe, không đủ supervision.
+114|02|N/U|keep|n_chin,l_hidden,a_clear|Tay tựa đầu và tay khoanh rõ; tóc che hướng nhìn, không suy N từ cúi đầu.
+114|03|N/N|recrop|n_folded,l_own,a_multi|Nữ giữa tay khoanh và hướng sách, nam trái còn mặt/thân lớn.
+114|04|N/N|keep|n_paper,l_own,a_clear|Hai tay trên trang rõ, đầu hướng sách; anchor trước trội.
+114|05|U/U|recrop|u_attribution,l_unclear,a_pbox|Box bao nhóm nhiều người, cần xác định một target trước gán nhãn.
+114|06|N/P|recrop|n_clear,l_front,a_multi|Target giơ tay nhìn trước, tay kia trên bàn rõ; nhiều mặt cùng cỡ.
+115|01|N/N|keep|n_paper,l_own,a_clear|Hai tay trên trang rõ, mặt hướng sách riêng.
+115|02|U/U|recrop|u_attribution,l_unclear,a_pbox|Hai nữ ngang nhau, một nhìn bài một nhìn phải; không gán chung box nhóm.
+115|03|N/N|recrop|n_pen,l_own,a_multi|Target trước hướng giấy, tay rõ; nhiều mặt lớn phía sau và box nhóm.
+115|04|U/N|keep|u_object,l_own,a_clear|Vật phẳng trên bàn không đủ kính/camera ở input; hướng vùng bài riêng.
+115|05|U/N|recrop|u_back,l_own,a_neighbor_device|Lưng vật trong tay target không rõ camera; người sau và vật riêng gây cạnh tranh.
+115|06|U/N|keep|u_back,l_own,a_clear|Cạnh/lưng trắng trong tay không đủ nhận dạng mobile, hướng tay riêng.
+116|01|U/N|recrop|u_back,l_own,a_multi|Lưng vật trong tay thiếu camera rõ; người phía sau có mặt lớn cạnh tranh.
+116|02|U/N|keep|u_object,l_own,a_clear|Vật tối dưới tay trên bàn chưa đủ mặt kính/chi tiết; hướng vùng riêng.
+116|03|U/N|keep|u_object,l_own,a_clear|Vật tím phẳng chưa đủ dấu hiệu mobile, mặt hướng vùng bàn riêng.
+116|04|U/N|keep|u_object,l_own,a_clear|Vật nhỏ bị hai tay che không xác nhận mobile, hướng sách riêng.
+116|05|U/N|keep|u_object,l_own,a_clear|Vật trên trang chỉ mảng chữ nhật mờ, không đủ nhận dạng; đầu hướng trang.
+116|06|P/N|keep|p_front,l_own,a_clear|Màn hình màu và viền phone phân biệt được trên bàn; nhìn vùng riêng.
+117|01|U/N|keep|u_back,l_own,a_clear|Lưng đen trong tay không thấy camera đủ rõ, nhìn vùng tay riêng.
+117|02|U/N|keep|u_object,l_own,a_clear|Vật nằm dưới tay mờ không đủ nhận dạng; hướng vùng bàn riêng.
+117|03|U/P|keep|u_back,l_front,a_clear|Lưng vàng không có camera rõ, mặt ngẩng phía trước khỏi tay.
+117|04|U/P|recrop|u_hand,l_side,a_foreground|Tay target bị người trước che, mặt quay trái; đầu người trước lớn hơn anchor.
+117|05|U/P|keep|u_hand,l_side,a_clear|Hai tay dưới bàn khuất, đầu quay sang phải khỏi vùng riêng.
+117|06|U/U|recrop|u_hand,l_missing,a_tight|Crop cắt gần hết đầu và tay, cần lấy lại target từ nguồn.
+118|01|U/P|keep|u_object,l_side,a_clear|Vật trong tay nhòe chưa xác định phone, mặt quay phải khỏi bài.
+118|02|P/P|keep|p_front,l_side,a_clear|Mặt kính đen với viền trắng phone rõ trên bàn, mặt quay trái khỏi bàn.
+118|03|U/P|keep|u_hand,l_side,a_clear|Tay dưới bàn thiếu, mặt quay trái khỏi sách riêng.
+118|04|N/P|recrop|n_folded,l_front,a_multi|Hai tay đan rõ, mặt hướng trước khỏi sách; nhiều mặt lớn trong crop.
+118|05|P/P|recrop|p_front,l_side,a_neighbor_device|Phone màn hình/viền trên bàn riêng, mặt quay phải; người sau và device riêng cần tách.
+118|06|U/P|recrop|u_hand,l_front,a_multi|Một tay khuất, mặt ngẩng trước khỏi sách; nhiều mặt cạnh tranh.
+119|01|N/N|keep|n_pen,l_own,a_clear|Bút và hai tay trên bài rõ, hướng trang riêng.
+119|02|N/N|recrop|n_paper,l_own,a_multi|Hai tay với trang sách rõ, đầu hướng bài; người cạnh còn mặt lớn.
+119|03|U/N|keep|u_hand,l_own,a_clear|Một tay sau sách thiếu, đầu hướng trang cầm rõ.
+119|04|N/N|keep|n_paper,l_own,a_clear|Hai tay giữ sách rõ, hướng trang riêng.
+119|05|U/N|recrop|u_object,l_own,a_multi|Vật hồng trên bàn chưa nhận dạng chắc, hướng vùng riêng; nhiều mặt trong box.
+119|06|N/N|recrop|n_paper,l_own,a_multi|Tay trên sách và tay tựa rõ, nhìn trang; hai người cùng lớn.
+120|01|N/P|recrop|n_paper,l_front,a_pbox|Người ngồi trước giữ giấy và nhìn trước, box còn bao người đứng và nhóm.
+120|02|N/N|keep|n_paper,l_own,a_clear|Hai tay trên bài rõ, mặt hướng trang riêng; target trước trội.
+120|03|U/U|recrop|u_attribution,l_unclear,a_pbox|Box gồm nhiều người, chưa có một anchor rõ; không gán chung nhãn.
+120|04|U/N|keep|u_hand,l_own,a_clear|Một tay bị cắt phía trái nguồn, hướng sách riêng.
+120|05|N/N|keep|n_pen,l_own,a_clear|Tay bút và tay gập rõ, đầu cúi theo trang riêng.
+120|06|N/N|recrop|n_paper,l_own,a_pbox|Nữ áo xanh giữ trang và nhìn bài; box kéo cả người phía trước vào anchor.
+121|01|U/U|recrop|u_hand,l_unclear,a_multi|Hai người cùng lớn và mặt/tay ít chi tiết; cần tách target rồi xét lại.
+121|02|U/N|keep|u_hand,l_own,a_clear|Một tay dưới bàn thiếu, đầu hướng trang riêng.
+121|03|U/N|keep|u_object,l_own,a_clear|Vật dưới tay không đủ nhận dạng, đầu hướng trang riêng; không suy phone từ cử chỉ.
+121|04|N/P|recrop|n_chin,l_front,a_multi|Tay tựa cổ và tay nghỉ đủ rõ, nhìn trước; người trái cùng cỡ.
+121|05|U/P|recrop|u_hand,l_front,a_multi|Một tay khuất, mặt ngẩng trước; nhiều mặt cùng cỡ cần tách.
+121|06|U/P|keep|u_object,l_front,a_clear|Vật tím dưới tay chưa phân biệt chắc, tay kia thiếu; nhìn trước khỏi trang.
+122|01|U/P|recrop|u_hand,l_front,a_multi|Tay dưới bàn thiếu, nhìn trước; ba mặt cùng lớn cạnh tranh target.
+122|02|U/N|recrop|u_hand,l_own,a_tight|Mặt và tay bị cắt sát mép; hướng trang riêng, cần kiểm khả năng mở lại source.
+122|03|U/N|keep|u_back,l_own,a_clear|Lưng/cạnh vật trong tay không có camera rõ; hướng vùng tay riêng.
+122|04|U/N|keep|u_back,l_own,a_clear|Vật trong tay chỉ lưng mờ, không đủ mobile; hướng vùng tay riêng.
+122|05|U/N|keep|u_back,l_own,a_clear|Lưng đỏ bị tay che không đủ camera/màn hình; hướng tay riêng.
+122|06|U/P|keep|u_object,l_front,a_clear|Vật phẳng đen trên bàn chưa đủ chi tiết nhận dạng; mặt ngẩng trước khỏi bài.
+123|01|U/P|keep|u_object,l_front,a_clear|Vật trên bàn chỉ mảng tối/viền mờ, không đủ phone P; mặt ngẩng trước.
+123|02|U/N|keep|u_hand,l_own,a_clear|Hai tay dưới bàn thiếu, đầu hướng bài riêng.
+123|03|U/P|keep|u_object,l_front,a_clear|Vật nhỏ trong tay không rõ mobile, mặt hướng trước khỏi sách.
+123|04|U/U|exclude|u_hand,l_unclear,a_source_limit|Tay khuất, mặt không đủ phân biệt nhìn bài hay phía trước.
+123|05|N/U|keep|n_chin,l_hidden,a_clear|Tay tựa đầu và tay trên giấy rõ, tóc che hướng nhìn.
+123|06|N/N|keep|n_folded,l_own,a_clear|Hai tay đan trên bài rõ, hướng xuống trang riêng.
+124|01|U/N|keep|u_hand,l_own,a_clear|Tay sau sách khuất, đầu hướng trang riêng.
+124|02|U/P|recrop|u_hand,l_front,a_multi|Tay dưới thiếu, mặt hướng trước; người sau có mặt sát cùng cỡ.
+124|03|U/P|keep|u_hand,l_front,a_clear|Tay còn lại dưới sách thiếu, mặt hướng trước khỏi trang.
+124|04|N/P|recrop|n_paper,l_front,a_multi|Hai tay giữ sách rõ, mặt ngẩng trước; nhiều mặt lớn phía sau.
+124|05|U/N|recrop|u_hand,l_own,a_multi|Một tay sau laptop thiếu, nhìn màn hình riêng; mặt người sau cạnh tranh.
+124|06|N/N|keep|n_paper,l_own,a_clear|Hai tay trên giấy rõ, đầu hướng bài riêng.
+125|01|U/N|keep|u_object,l_own,a_clear|Vật nhỏ trong tay chỉ mảng màu chưa đủ màn hình/camera; hướng vùng tay trên bài.
+125|02|U/N|keep|u_object,l_own,a_clear|Vật nghiêng cạnh trong tay không đủ nhận dạng; hướng xuống vùng tay trên bàn.
+125|03|U/N|keep|u_object,l_own,a_clear|Vật dưới hai tay mờ không đủ nhận dạng; đầu hướng vùng bài riêng.
+125|04|U/N|keep|u_object,l_own,a_clear|Vật dưới tay chỉ mảng màu/viền không rõ, đầu hướng vùng riêng.
+125|05|U/N|keep|u_back,l_own,a_clear|Lưng/cạnh vật nhỏ trong hai tay không camera rõ; hướng vùng tay riêng.
+125|06|U/P|recrop|u_hand,l_front,a_multi|Hai tay khuất, mặt hướng trước; nhiều mặt lớn phía sau.
+126|01|U/P|keep|u_object,l_front,a_clear|Vật phẳng trên bàn thiếu dấu hiệu mobile rõ, mặt hướng trước khỏi bàn.
+126|02|N/P|recrop|n_folded,l_front,a_multi|Tay đan rõ, mặt hướng trước khỏi sách; ba mặt cạnh tranh.
+126|03|U/N|recrop|u_back,l_own,a_neighbor_device|Lưng vật dưới tay không đủ camera; người sau và device riêng cạnh tranh.
+126|04|N/N|keep|n_paper,l_own,a_clear|Hai tay trên trang rõ, đầu hướng bài riêng.
+126|05|U/P|recrop|u_object,l_front,a_multi|Vật phẳng đen trên bàn chưa đủ nhận dạng, mặt ngẩng trước; nhiều mặt lớn.
+126|06|U/P|keep|u_hand,l_front,a_clear|Tay gần đáy bị cắt và tay kia khuất, đầu ngẩng trước rõ.
+127|01|U/U|exclude|u_object,l_sleep,a_clear|Vật phẳng trên bàn chưa đủ nhận dạng, mặt úp xuống tay không rõ hướng nhìn.
+127|02|U/P|keep|u_hand,l_front,a_clear|Hai tay dưới bàn thiếu, mặt ngẩng trước khỏi sách; người sau nhỏ hơn và tách biệt.
+127|03|N/P|recrop|n_pen,l_front,a_multi|Tay bút và tay gần miệng đủ rõ, nhìn trước; người sát bên cạnh tranh.
+127|04|U/P|keep|u_hand,l_front,a_clear|Tay khuất sau ghế, mặt ngẩng trước khỏi sách.
+127|05|U/P|keep|u_hand,l_front,a_clear|Hai tay khuất sau ghế, mặt hướng trước khỏi vùng riêng.
+127|06|U/P|recrop|u_object,l_front,a_neighbor_device|Vật trong tay không đủ nhận dạng, mặt hướng trước; người sau và device riêng cạnh tranh.
+128|01|U/U|exclude|u_hand,l_unclear,a_source_limit|Một tay thiếu, mặt mờ không phân biệt hướng bài hay phía trước.
+128|02|U/P|keep|u_hand,l_front,a_clear|Tay dưới bàn thiếu, đầu ngẩng trước khỏi sách đủ rõ.
+128|03|N/U|keep|n_chin,l_hidden,a_clear|Tay tựa trán và tay trên bàn rõ, mặt che không xác định hướng nhìn.
+128|04|U/P|keep|u_object,l_front,a_clear|Vật/tay ở đáy thiếu chi tiết, mặt hướng trước khỏi vùng riêng.
+128|05|N/N|recrop|n_paper,l_own,a_tight|Hai tay và sách rõ, hướng trang; crop cắt một phần đầu bên trái cần sửa.
+128|06|U/P|keep|u_back,l_side,a_clear|Cạnh/lưng thiết bị cầm không đủ camera/màn hình, quay trái khỏi vùng riêng.
+129|01|U/P|keep|u_object,l_front,a_clear|Vật trên bàn chỉ mảng tối, mặt ngẩng trước khỏi bàn.
+129|02|U/N|keep|u_back,l_own,a_clear|Lưng đen trong tay không camera rõ, hướng vùng tay riêng.
+129|03|U/P|keep|u_hand,l_front,a_clear|Tay khuất sau ghế, mặt ngẩng trước khỏi vùng riêng.
+129|04|U/P|keep|u_object,l_front,a_clear|Vật nhỏ giữa hai tay chưa đủ nhận dạng, mặt ngẩng trước.
+129|05|U/N|recrop|u_hand,l_own,a_multi|Tay còn lại không rõ, hướng xuống sách; nhiều mặt lớn phía sau.
+129|06|U/N|keep|u_back,l_own,a_clear|Mặt lưng/cạnh đen không camera rõ, đầu hướng vật riêng trong tay.
+130|01|P/N|recrop|p_front,l_own,a_multi|Màn hình màu và viền phone rõ trên bàn, hướng vùng riêng; mặt người sau lớn.
+130|02|U/P|keep|u_object,l_front,a_clear|Vật phẳng đen chưa đủ dấu hiệu nhận dạng; đầu ngẩng trước khỏi bài.
+130|03|U/N|keep|u_back,l_own,a_clear|Vật đen chỉ lưng không có camera rõ, nhìn vùng tay riêng.
+130|04|U/N|keep|u_back,l_own,a_clear|Vật trong tay chỉ lưng/cạnh mờ, hướng xuống vùng tay riêng.
+130|05|U/N|recrop|u_object,l_own,a_multi|Vật nhỏ trong tay mờ, hướng bài riêng; thân và device người sau cạnh tranh.
+130|06|U/N|keep|u_object,l_own,a_clear|Vật dưới tay chỉ mảng màu, không đủ mobile; đầu hướng vùng bài riêng.
+131|01|U/P|recrop|u_hand,l_side,a_multi|Một tay sau laptop khuất, mặt quay trái khỏi màn hình; người sau mặt lớn.
+131|02|U/P|recrop|u_object,l_side,a_neighbor_device|Vật đen trên bàn thiếu dấu hiệu nhận dạng, quay phải; người sau với device riêng.
+131|03|U/N|keep|u_back,l_own,a_clear|Lưng đen trong tay không có camera rõ, đầu hướng vùng tay riêng.
+131|04|U/N|recrop|u_back,l_own,a_multi|Vật trong tay không đủ camera/màn hình, hướng tay; mặt người sau sát target.
+131|05|U/N|recrop|u_back,l_own,a_foreground|Lưng vật không đủ nhận dạng, đầu hướng tay; mặt tiền cảnh chen lớn.
+131|06|U/P|keep|u_object,l_front,a_clear|Vật tím phẳng dưới tay chưa đủ nhận dạng, mặt ngẩng trước khỏi sách.
+132|01|U/N|keep|u_back,l_own,a_clear|Lưng vàng không có camera tách biệt tại input, đầu hướng vật trong tay riêng.
+132|02|U/P|recrop|u_hand,l_front,a_multi|Hai tay khuất dưới bàn, mặt quay ra trước; hai mặt phía sau cạnh tranh anchor.
+132|03|U/N|recrop|u_hand,l_own,a_tight|Đầu hướng sách nhưng tay và thân bị khung rất hẹp cắt; thử nới về phía trong source.
+132|04|U/P|keep|u_back,l_side,a_clear|Lưng vật đỏ trong tay chưa đủ nhận mobile, đầu quay trái khỏi vùng tay; người mép không có mặt trọn.
+132|05|U/P|keep|u_hand,l_other,a_clear|Một tay khuất dưới bàn, đầu quay sang vùng người bên trái khỏi bàn riêng.
+132|06|N/N|recrop|n_pen,l_own,a_multi|Bút và hai tay trên sách đủ thấy, đầu hướng bài; nhiều mặt phía sau và bên trái nằm trong khung.
+133|01|U/N|recrop|u_hand,l_own,a_multi|Tay nâng bút rõ nhưng tay kia dưới bàn, đầu hướng trang; các mặt phía sau quá gần target.
+133|02|N/N|recrop|n_chin,l_own,a_multi|Tay gần cằm và tay đặt sách đủ thấy, đầu hướng sách; mặt người sau cạnh tranh.
+133|03|U/N|keep|u_hand,l_own,a_clear|Hướng sách rõ, hai tay bị bàn và người tiền cảnh che; mặt target vẫn trội.
+133|04|N/N|keep|n_pen,l_own,a_clear|Hai tay và bút trên giấy đọc được, đầu hướng bài; người nền nhỏ và lệch khỏi target.
+133|05|N/N|recrop|n_pen,l_own,a_pbox|Target phía trước viết trên giấy, hai tay rõ; person box bao cả hai trẻ có mặt tương đương.
+133|06|N/N|keep|n_pen,l_own,a_clear|Hai tay và bút trên sách đủ thấy, hướng sách rõ; target trội ở tiền cảnh.
+134|01|U/N|recrop|u_hand,l_own,a_multi|Tay còn lại không tách rõ khỏi thân và bàn, đầu hướng bài; ba người chen trong crop.
+134|02|N/N|recrop|n_pen,l_own,a_multi|Hai tay trên giấy và hướng bài rõ; mặt phải và đầu tiền cảnh cạnh tranh anchor.
+134|03|N/N|keep|n_pen,l_own,a_clear|Bút, hai tay và hướng trang rõ; người cạnh chỉ còn phần thân/mặt ở mép, target trội.
+134|04|U/N|keep|u_hand,l_own,a_source_limit|Đầu hướng bài rõ, một phần tay mất tại biên source; không suy absence hoặc nới ra ngoài ảnh gốc.
+134|05|N/P|recrop|n_folded,l_front,a_pbox|Target giữa khoanh tay đủ thấy, ngẩng ra trước khỏi sách; person box bao nhiều học sinh.
+134|06|N/N|recrop|n_pen,l_own,a_multi|Hai tay trên trang và hướng bài rõ; mặt người sau lớn sát đầu target, cần thu khung.
+135|01|N/N|recrop|n_pen,l_own,a_pbox|Target giữa viết trên trang với hai tay rõ; person box bao ba người cạnh nhau.
+135|02|N/N|keep|n_clear,l_own,a_clear|Hai tay thao tác vật dụng trên bàn đủ thấy, đầu hướng vùng tay riêng.
+135|03|U/N|keep|u_hand,l_own,a_source_limit|Hướng bài rõ nhưng phần tay mất tại cạnh phải source; chữ phía dưới không đè vùng hành vi.
+135|04|N/N|keep|n_pen,l_own,a_clear|Hai tay trên giấy, bút và hướng đầu về bài đủ rõ; target tiền cảnh trội.
+135|05|U/N|recrop|u_hand,l_own,a_foreground|Hướng bài rõ nhưng tay bị đầu tiền cảnh che; nhiều mặt cạnh tranh, cần sửa khung.
+135|06|U/P|recrop|u_hand,l_front,a_foreground|Tay giơ rõ, tay còn lại bị người trước che; nhìn phía giáo viên khỏi bàn, đầu tiền cảnh chiếm lớn.
+136|01|N/N|keep|n_pen,l_own,a_clear|Bút và vùng hai tay tại giấy đủ thấy, đầu hướng trang riêng; target rõ ở tiền cảnh.
+136|02|N/P|recrop|n_chin,l_side,a_multi|Tay chống má và tay đặt giấy đủ thấy, đầu quay sang phải khỏi trang; mặt người cạnh lớn.
+136|03|N/P|keep|n_pen,l_front,a_clear|Hai tay trên giấy có bút, mặt hướng trước/phải khỏi trang; người cạnh chỉ còn phần tay.
+136|04|U/N|recrop|u_hand,l_own,a_tight|Nhìn sách dựng riêng, tay bị sách và biên che; khung ngang cắt đỉnh đầu dù source còn đầu.
+136|05|U/N|recrop|u_hand,l_own,a_multi|Đầu hướng sách dựng, một tay sau sách chưa đủ quan sát; người bên phải và đầu tiền cảnh chen khung.
+136|06|N/N|keep|n_paper,l_own,a_clear|Sách mở và hai tay giữ rõ, nhìn xuống sách; người đứng là anchor trội.
+137|01|N/N|keep|n_pen,l_own,a_clear|Hai tay trên trang và bút đọc được, đầu hướng bài; target trước trội hơn người nền.
+137|02|N/U|recrop|n_pen,l_hidden,a_multi|Hai tay trên bàn không có vật mơ hồ, tóc che kín mặt và đích nhìn; người cạnh chiếm lớn.
+137|03|N/N|recrop|n_pen,l_own,a_foreground|Target áo đen viết và nhìn trang, hai tay rõ; tay và tóc người tiền cảnh chen cùng vùng giấy.
+137|04|U/N|recrop|u_hand,l_own,a_foreground|Bút và hướng trang rõ nhưng tay còn lại khuất sau đầu tiền cảnh lớn; cần thử khung sạch hơn.
+137|05|U/N|recrop|u_hand,l_own,a_foreground|Đầu hướng giấy, tay còn lại bị thân người trước che; cần giảm người tiền cảnh và kiểm lại input.
+137|06|U/N|keep|u_back,l_own,a_clear|Chỉ thấy lưng/cạnh vật trong tay, không có camera hoặc màn hình rõ tại input; đầu hướng tay riêng.
+138|01|U/N|keep|u_back,l_own,a_clear|Vật cầm ngang chỉ thấy lưng đen không có camera rõ, đầu hướng vùng tay riêng.
+138|02|U/N|keep|u_back,l_own,a_clear|Vật áp tai chỉ thấy lưng/ốp không đủ camera, không suy P từ tư thế gọi; mặt hướng màn hình riêng.
+138|03|U/N|keep|u_back,l_own,a_clear|Lưng ốp nhiều màu, chấm tối không đủ tách camera ở input; nhìn vật trong tay riêng.
+138|04|P/N|keep|p_camera,l_own,a_clear|Cụm camera ở góc lưng thiết bị có các vòng tối tách được, đầu hướng thiết bị riêng.
+138|05|U/N|keep|u_hand,l_own,a_clear|Tay cầm cốc rõ nhưng tay còn lại dưới bàn/khuất thân, đầu hướng vùng laptop riêng.
+138|06|N/N|keep|n_tablet,l_own,a_clear|Hai tay tại bàn phím laptop đủ thấy, nhìn màn hình riêng; không có mobile mơ hồ.
+139|01|N/N|recrop|n_pen,l_own,a_multi|Target áo xanh có hai tay tại bài/laptop riêng, nhìn vùng thao tác; hai mặt và thân lớn cạnh nhau.
+139|02|N/N|recrop|n_pen,l_own,a_tight|Hai tay viết trên trang và hướng bài rõ, nhưng person box cắt đỉnh đầu và crop chứa ghế tiền cảnh lớn.
+139|03|U/N|keep|u_object,l_own,a_clear|Bàn sửa thiết bị có các linh kiện/vật phẳng chưa phân loại đủ ở input, không suy phone từ bối cảnh; đầu hướng tay riêng.
+139|04|N/N|recrop|n_pen,l_own,a_multi|Hai tay và bút tại trang rõ, đầu hướng bài; mặt người bên phải cùng cỡ cần giảm trong khung.
+139|05|N/N|keep|n_pen,l_own,a_clear|Hai tay tại giấy và bút đọc được, đầu chếch về trang riêng; người mép chỉ là phần phụ.
+139|06|P/U|keep|p_front,l_hidden,a_clear|Màn hình xanh có viền máy nằm sát tay riêng nhận được mobile; tóc che mặt nên đích nhìn chưa chắc.
+140|01|N/P|keep|n_chin,l_front,a_clear|Hai tay chồng gần cằm đủ thấy, mặt ngẩng nhìn trước khỏi trang; target rõ.
+140|02|N/N|keep|n_pen,l_own,a_clear|Bút và hai tay tại trang đọc được qua mép ghế, đầu nghiêng nhưng vẫn hướng bài riêng.

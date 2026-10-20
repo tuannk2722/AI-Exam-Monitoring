@@ -1,0 +1,17 @@
+{
+  "status": "audit_checks_pass",
+  "audit_complete": true,
+  "ledger_records": 907,
+  "delta_by_kind": {
+    "label_change": 3,
+    "geometry": 168,
+    "duplicate_exclusion": 20,
+    "source_exclusion": 82
+  },
+  "marked_frames_with_slot_records": 41,
+  "slot_decisions_complete": true,
+  "html_local_links_checked": 990,
+  "html_sha256": "63cffc1c576aa01ac9d7147c73acb079100de377c2b148abfae2eacd5e1d7006",
+  "browser_render_checked": true,
+  "note": "Audit hoàn tất; kiểm tra kỹ thuật không thay owner nghiệm thu thay đổi."
+}
