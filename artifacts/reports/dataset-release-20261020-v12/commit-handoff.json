@@ -7,5 +7,12 @@
   "repository_checker_staged": "PASS",
   "diff_check": "Six trailing-space lines in original owner review snapshots retained to preserve exact pinned bytes; no other errors.",
   "binary_upload": false,
-  "clean_checkout": "pending"
+  "clean_checkout": {
+    "status": "PASS",
+    "commit": "327f283",
+    "metadata_exact_bytes": 265,
+    "repository_checker_require_git": "PASS",
+    "local_media_archive_absent": true,
+    "temporary_worktree_removed": true
+  }
 }
