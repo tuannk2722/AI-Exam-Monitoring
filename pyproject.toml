@@ -41,6 +41,9 @@ dev = [
 [tool.setuptools.packages.find]
 where = ["src"]
 
+[tool.setuptools.package-data]
+"ai_exam_monitoring.data" = ["review_workspace_assets/*.html", "review_workspace_assets/*.css", "review_workspace_assets/*.js"]
+
 [tool.ruff]
 target-version = "py311"
 line-length = 100

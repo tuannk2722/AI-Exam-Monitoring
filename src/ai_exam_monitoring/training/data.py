@@ -191,6 +191,26 @@ def _verify_preservation(root: Path, config: DatasetVariables, release: dict[str
             raise DataContractError("Nội dung validation/test khác parent đã freeze")
 
 
+def _verify_no_test_release(release: dict[str, Any], records: list[PilotRecord]) -> None:
+    """Validate an explicitly approved development-only package, never a test freeze."""
+    expected = {
+        "status": "not_applicable_zero_test",
+        "independent_holdout": "future_separate_protocol",
+    }
+    if release.get("test_freeze") != expected:
+        raise DataContractError("Invalid zero-test protocol")
+    if {row.usage for row in records} != {"train", "val"}:
+        raise DataContractError("Zero-test release requires only nonempty train and val splits")
+    if any(row.test_freeze_ref is not None for row in records):
+        raise DataContractError("Zero-test records cannot claim a test freeze")
+    owner_ref = release.get("owner_decision_ref")
+    protocol_ref = release.get("test_freeze_ref")
+    if (not isinstance(owner_ref, str) or not owner_ref
+            or not isinstance(protocol_ref, str)
+            or not protocol_ref.startswith(owner_ref + "#no-test-")):
+        raise DataContractError("Zero-test protocol must reference explicit owner approval")
+
+
 def verify_dataset(root: Path, config: DatasetVariables) -> list[PilotRecord]:
     try:
         if sha256_file(root / "checksums.sha256") != config.payload_sha256:
@@ -209,7 +229,9 @@ def verify_dataset(root: Path, config: DatasetVariables) -> list[PilotRecord]:
                 raise DataContractError("Manifest version/scope/usage differs from config")
         ledger = _verify_membership(root, records)
         freeze = release["test_freeze"]
-        if isinstance(freeze, dict) and set(freeze) == {"path", "sha256"}:
+        if isinstance(freeze, dict) and freeze.get("status") == "not_applicable_zero_test":
+            _verify_no_test_release(release, records)
+        elif isinstance(freeze, dict) and set(freeze) == {"path", "sha256"}:
             _verify_preservation(root, config, release, records, ledger)
         else:
             _verify_inline_freeze(root, release, records)

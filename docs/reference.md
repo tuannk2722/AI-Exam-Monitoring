@@ -29,6 +29,14 @@ Adapter hiện yêu cầu source/checkpoint tồn tại, output mới và FPS d�
 
 ## Trainer/evaluator hiện có
 
+`training.diagnostics --config <JSON> --workspace .` phân tích nhiều run từ cached
+predictions train/selection, kiểm pins/membership/masks và confusion parity, lập
+coverage/consensus/shortlist và gallery source → crop → input; preview augmentation
+tái dùng `ImageCohort` theo đúng order config. Không forward/reload model hoặc mở
+media test. Report/interim output phải mới, gallery không hiển thị scores/nhãn;
+nhận xét thị giác và quyết định owner là bước riêng. [Ví dụ config](../configs/diagnostics/e006-v12-20261021.json),
+[evidence và giới hạn](../artifacts/reports/e006-v12-diagnostics-20261021/README.md).
+
 Schema matched-adaptation-v2 thêm provenance random/learned head và diagnostic epoch0/first-epoch steps cho research/smoke. Model chỉ nhận learned FC từ parent checkpoint đã pin, reset backbone/optimizer; diagnostic giữ RNG/modes và không đổi best epoch rule. CLI train/evaluate dispatch cả v1/v2, research v2 không có final-test scope. [E004-RC1 execution](../configs/experiments/E004-RC1-20261014/EXECUTION.md) dẫn tới variables/approval/checks, không là default recipe mới.
 
 Schema `matched-adaptation-v3` thêm `E005AdaptationConfig`, single-crop hoặc dual-ROI anchor/context, MLP head, mở khóa hai giai đoạn, augmentation, Balanced Smoothed BCE, chọn checkpoint theo `val_macro_ap` và hiệu chỉnh ngưỡng trên validation. CLI train nhận v1/v2/v3; evaluator reload full bundle với code/config/runtime pins, không cấp quyền final test cho E005. Phạm vi đã thực thi là local CPU; các literal `auto`/`cuda` được parser nhận nhưng trainer chưa chuyển model/batch sang GPU, nên không xem đó là hỗ trợ GPU. Variables/approval ở [configs E005](../configs/experiments/E005-V11-20261018/README.md), kết quả và giới hạn ở [report E005](../artifacts/reports/e005-v11-adaptation-20261018/README.md).
@@ -68,7 +76,16 @@ Giới hạn evaluator hiện hành: `code_identity` hash toàn Python package (
 
 ## Công cụ dữ liệu và cách tái dùng
 
+`data.review_workspace --config <JSON> --workspace .` dựng UI review offline từ
+mọi record approved trong ledger đã pin (kể cả review-only). Test visual access
+phải được cấp rõ trong scope/config; không prediction. Kiểm SHA toàn crop, nhóm
+bố cục/màu/cạnh không dùng nhãn/split, tái dùng preview_input. Output mới, không
+overwrite; nháp export/import gắn cohort và SHA, chưa tự áp vào canonical ledger.
+[Config và bàn giao V12](../artifacts/reports/v12-full-audit-20261021/README.md).
+
 ### Đường thực thi cho expansion/release mới
+
+Release development không có test dùng protocol `test_freeze.status=not_applicable_zero_test`, `independent_holdout=future_separate_protocol`, dẫn owner approval qua `test_freeze_ref`. Loader chỉ nhận protocol này khi manifest có train và val, không có test hoặc record tự nhận test freeze; guards frozen/preservation của release cũ giữ nguyên. Đây không là quyền gọi development validation là holdout độc lập. Ví dụ đã duyệt: [V13](../artifacts/reports/dataset-release-20261023-v13/README.md).
 
 Mỗi release mới cần task có mục tiêu/failure mode và parent version tường minh, rồi lập bảng inputs → công cụ → outputs → checks theo bảng sau. Không suy quyền tạo release từ số version kế tiếp hoặc chạy config lịch sử với tên mới. Các module/commit cụ thể trong bảng là mapping implementation để tái dùng, không khóa workflow vào một release.
 

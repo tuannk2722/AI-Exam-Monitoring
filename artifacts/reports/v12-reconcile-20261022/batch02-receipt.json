@@ -1,0 +1,73 @@
+{
+  "owner_response": "data/interim/v12-reconcile-20261022/inputs/owner-batch-02-response.md",
+  "sha256": "121ca191c0244cd910a3ca9d2e2edb7f38518c9d1e5cdb354884290ef9b7e132",
+  "date": "2026-10-23",
+  "labels": {
+    "E004-CF-C011": "NU",
+    "E004-CN-018": "NN",
+    "V7-OE-S116-A01": "UN",
+    "E004-EX-C026": "NP",
+    "V6-CA-031": "NP",
+    "V6R2-EX-008-R04": "NP",
+    "G09-B05-F00043": "NN",
+    "G03-B14-F00033": "NN",
+    "G07-B04-F00012": "NU",
+    "G23-B06-F00008": "NU",
+    "E004-EX-C082": "PN",
+    "E004-SX-C005": "PN",
+    "E004-CN-026": "PN",
+    "CB-0479": "PN",
+    "CB-0294": "PN",
+    "G13-B03-F00010": "UN",
+    "G14-B15-F00059": "NN",
+    "G23-A04-F00014": "UN",
+    "G13-B10-F00034": "UN",
+    "V6R2-MP-081": "PN",
+    "V6-CA-039": "NN",
+    "V6R2-CA-014": "NN",
+    "E004-EX-C045": "NN"
+  },
+  "removed_old": {
+    "V7-D-031": null,
+    "V6R2-MP-012": "V6R2-MP-081",
+    "E004-EX-C193": "E004-EX-C045"
+  },
+  "b03_chat_answer": "N/P",
+  "removed_new": [
+    "NEW-021",
+    "NEW-057",
+    "NEW-150"
+  ],
+  "keep_both": [
+    "NEW-120",
+    "NEW-122"
+  ],
+  "phone_policy_changed_new": [
+    "NEW-010",
+    "NEW-028",
+    "NEW-029",
+    "NEW-030",
+    "NEW-032",
+    "NEW-033",
+    "NEW-034",
+    "NEW-065",
+    "NEW-128",
+    "NEW-129",
+    "NEW-130",
+    "NEW-131",
+    "NEW-132"
+  ],
+  "pending": [
+    "V7-D-042 detail and recrop",
+    "existing phone U visual re-audit"
+  ],
+  "counts_old": {
+    "keep": 1137,
+    "remove": 473,
+    "recrop": 29
+  },
+  "counts_new": {
+    "keep": 153,
+    "remove": 3
+  }
+}

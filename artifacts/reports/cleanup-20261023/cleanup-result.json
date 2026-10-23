@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "removed_files": 4690,
+  "removed_logical_bytes": 1118246110,
+  "removed_single_link_bytes": 1118246110,
+  "disk_free_before": 133532569600,
+  "disk_free_after": 134660440064,
+  "protected_files_verified": 12461,
+  "protected_failures": [],
+  "restore_candidate_from": "data/processed/pilot-b/pilot-b-20261023-v13/crops",
+  "restore_historical_media": "See restore_archive and restore_member in cleanup-manifest.json; verify SHA256 before placing at original path.",
+  "cache_restore": "Regenerate by running the respective tools."
+}

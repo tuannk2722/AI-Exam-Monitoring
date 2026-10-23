@@ -1,0 +1,27 @@
+{
+  "decision": "accepted_local_release",
+  "owner_answer": "approve, continue!",
+  "reviewed_at": "2026-10-23",
+  "dataset_version": "pilot-b-20261023-v13",
+  "candidate_review": "artifacts/reports/v12-reconcile-20261022/package-candidate-review.md",
+  "candidate_checksums_sha256": "dcc70a73a57ff045df25356fef6f221eb742ab8140e038321da6d476995e0aab",
+  "allocation": "artifacts/reports/v12-reconcile-20261022/allocation-approved.json",
+  "counts": {
+    "train": 1119,
+    "val": 185,
+    "test": 0
+  },
+  "use_scope": "local_classifier_research",
+  "scope": [
+    "release_package",
+    "schema_config",
+    "allocation_A",
+    "documented_leakage_limits"
+  ],
+  "test_protocol": "no_test_in_this_release_independent_holdout_later",
+  "limitations": [
+    "Validation is development, not independent holdout.",
+    "21 generated images have owner-confirmed cohort origin but exact parent IDs remain unknown."
+  ],
+  "no_training_or_upload": true
+}

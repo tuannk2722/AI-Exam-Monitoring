@@ -1,0 +1,181 @@
+{
+  "stage": "triage_not_label_decisions",
+  "flags": [
+    {
+      "id": "E004-CF-C007",
+      "reason": "Thiết bị màn hình lớn có thể tablet; kiểm phone P."
+    },
+    {
+      "id": "E004-EX-C117",
+      "reason": "Cùng cảnh C007; phân biệt tablet và phone đang áp tai."
+    },
+    {
+      "id": "E004-EX-C139",
+      "reason": "Phone P nhưng vùng dưới chỉ thấy calculator; kiểm có mobile khác."
+    },
+    {
+      "id": "G09-B05-F00043",
+      "reason": "Looking P nhưng hơi chéo; đối chiếu hướng bàn và đích nhìn."
+    },
+    {
+      "id": "E004-CF-C016",
+      "reason": "Thiết bị lớn cùng family C007; kiểm tablet/phone và đồng bộ Q04."
+    },
+    {
+      "id": "E004-CF-C018",
+      "reason": "Thiết bị lớn cùng family C007; kiểm tablet/phone và đồng bộ Q04."
+    },
+    {
+      "id": "E004-EX-C022",
+      "reason": "Phone N nhưng vật đen cầm tay; kiểm calculator/mobile native."
+    },
+    {
+      "id": "E004-CN-018",
+      "reason": "Looking P có vẻ chỉ nghiêng đầu sang vai; kiểm yaw và hướng bàn."
+    },
+    {
+      "id": "V7-OE-S116-A01",
+      "reason": "Looking P nhưng nhìn phía trước; cần sửa theo rubric mới?"
+    },
+    {
+      "id": "E004-EX-C026",
+      "reason": "Looking N nhưng nghiêng sang bài người bên cạnh; kiểm đích nhìn."
+    },
+    {
+      "id": "V6-CA-031",
+      "reason": "Looking P nhưng cúi về bài; kiểm góc mắt/context."
+    },
+    {
+      "id": "V6R2-EX-008-R04",
+      "reason": "Looking P, có thể nhìn bài cạnh hoặc nghiêng đầu; cần native."
+    },
+    {
+      "id": "V6R2-MP-092-R04",
+      "reason": "Looking P nhưng có vẻ hướng thẳng; kiểm context."
+    },
+    {
+      "id": "E004-EX-C119",
+      "reason": "Thiết bị lớn nhiều khả năng tablet; kiểm Phone P."
+    },
+    {
+      "id": "E004-SX-C005",
+      "reason": "Large landscape device; check tablet."
+    },
+    {
+      "id": "E004-EX-C101",
+      "reason": "Confirm small device at thigh."
+    },
+    {
+      "id": "G13-B03-F00010",
+      "reason": "Calculator versus phone rear."
+    },
+    {
+      "id": "NA-005",
+      "reason": "Calculator rear comparison."
+    },
+    {
+      "id": "G13-A01-F00042",
+      "reason": "Calculator rear comparison."
+    },
+    {
+      "id": "V6R2-MP-012",
+      "reason": "Compare near repeat MP-081."
+    },
+    {
+      "id": "V6-CA-039",
+      "reason": "Compare near repeat V6R2-CA-014."
+    },
+    {
+      "id": "NA-007",
+      "reason": "Calculator rear comparison."
+    },
+    {
+      "id": "V7-A-003",
+      "reason": "Large device labeled P; check tablet versus phone."
+    },
+    {
+      "id": "G14-B09-F00021",
+      "reason": "Phone P but visible calculator; inspect other device."
+    },
+    {
+      "id": "V7-D-042",
+      "reason": "Phone N but held mobile-like device; inspect recrop note."
+    },
+    {
+      "id": "V6-CA-026",
+      "reason": "Looking P slight downward turn; inspect direction."
+    },
+    {
+      "id": "V7-D-031",
+      "reason": "Phone P but raised object looks computer mouse; verify."
+    },
+    {
+      "id": "V7-A-074",
+      "reason": "Looking N despite side profile; distinguish camera side from body yaw."
+    },
+    {
+      "id": "V7-OE-S044-A02",
+      "reason": "Phone on desk calculator-like; verify."
+    },
+    {
+      "id": "E004-EX-C082",
+      "reason": "U despite device rear visible; compare C083."
+    },
+    {
+      "id": "CB-0479",
+      "reason": "U while same device other frames P; visibility check."
+    },
+    {
+      "id": "CB-0294",
+      "reason": "U with phone on desk; check crop visibility."
+    },
+    {
+      "id": "G14-B15-F00059",
+      "reason": "Pink held device phone N; compare calculator."
+    },
+    {
+      "id": "V7-OE-S111-A01-R03",
+      "reason": "Compare same source V6R2-CA-001 P/N vs U/N."
+    },
+    {
+      "id": "NA-002",
+      "reason": "Calculator rear slice."
+    },
+    {
+      "id": "G03-B14-F00033",
+      "reason": "Looking P seems frontal/slight diagonal."
+    },
+    {
+      "id": "G07-B04-F00012",
+      "reason": "Looking P downward slight side; inspect."
+    },
+    {
+      "id": "E004-EX-C023",
+      "reason": "Large screen on book; tablet scope."
+    },
+    {
+      "id": "E004-EX-C193",
+      "reason": "Near repeat EX-C045; compare."
+    },
+    {
+      "id": "G13-B10-F00034",
+      "reason": "Held white device phone N; inspect calculator cues."
+    },
+    {
+      "id": "G23-A04-F00014",
+      "reason": "Held device N; calculator rear comparison."
+    },
+    {
+      "id": "G23-B12-F00012",
+      "reason": "Blue rear calculator comparison."
+    },
+    {
+      "id": "G23-B06-F00008",
+      "reason": "Looking P near frontal; inspect."
+    },
+    {
+      "id": "E004-CN-026",
+      "reason": "Large device phone P; tablet scope."
+    }
+  ]
+}

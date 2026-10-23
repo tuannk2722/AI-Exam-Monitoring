@@ -1,0 +1,17 @@
+{
+  "dataset_version": "pilot-b-20261023-v13",
+  "parent": "pilot-b-20261020-v12",
+  "candidate": "data/interim/v13-release-preparation-20261023/package",
+  "candidate_checksums_sha256": "dcc70a73a57ff045df25356fef6f221eb742ab8140e038321da6d476995e0aab",
+  "allocation": {
+    "path": "artifacts/reports/v12-reconcile-20261022/allocation-approved.json",
+    "sha256": "e5fb4fb95dddd4c9666844bbe85a7fc438e4a562755272442ff804743b3d10d4"
+  },
+  "owner_approval": {
+    "path": "artifacts/reports/dataset-release-20261023-v13/owner-release-approval.json",
+    "sha256": "5a468b398037a0bc97e29e077caf41b8ac63a0f487d80a8b7921a40d1cf4f440"
+  },
+  "output": "data/processed/pilot-b/pilot-b-20261023-v13",
+  "use_scope": "local_classifier_research",
+  "test_count": 0
+}

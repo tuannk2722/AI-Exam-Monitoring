@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="vi"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>V12 · Bàn review toàn bộ crop</title><link rel="stylesheet" href="review.css">
+<header><strong>V12 / REVIEW TOÀN BỘ</strong><span id="progress"></span><span id="saveStatus" role="status"></span>
+<button id="export">Xuất bản review JSON</button><label class="button">Nhập JSON<input type="file" id="import" accept=".json" hidden></label>
+<button id="help">Hướng dẫn</button></header>
+<div class="toolbar"><select id="group" aria-label="Nhóm hình ảnh"></select>
+<input id="search" placeholder="Tìm ID, ghi chú hoặc tag…" aria-label="Tìm crop">
+<select id="filter" aria-label="Lọc review"><option value="all">Tất cả crop</option><option value="todo">Chưa chốt review</option><option value="done">Đã chốt review</option><option value="flag">Đã đánh dấu</option><option value="recrop">Cần crop lại</option><option value="remove">Đề xuất loại</option><option value="upscale">Được phóng lên 224</option></select>
+<label><input type="checkbox" id="showAnchor" checked>Viền người cần review</label><label><input type="checkbox" id="showOld">Hiện metadata cũ</label></div>
+<main><section class="browse"><div class="sectionTitle"><b id="groupTitle"></b><span id="count"></span></div>
+<div id="tiles"></div><div class="pager"><button id="prevPage">← Trang</button><span id="page"></span><button id="nextPage">Trang →</button></div>
+<details><summary>Ghi chú nhóm đang xem</summary><p id="groupHint"></p><textarea id="groupNote" rows="2" placeholder="Nhóm này cần bổ sung / điều chỉnh gì?" aria-label="Ghi chú nhóm"></textarea></details>
+</section>
+<section class="detail" id="detail"><div class="sectionTitle"><b id="sampleId"></b><span><button id="prev">←</button><button id="next">→</button></span></div>
+<div class="images"><figure><figcaption>Crop hiện tại · <span id="dimensions"></span></figcaption><a id="originalLink" target="_blank" rel="noopener"><img id="original" alt="Crop hiện tại"><span id="anchorBox"></span></a><small>Vừa khung; viền chỉ anchor, không vào train</small></figure>
+<figure><figcaption>Đầu vào train · 224 × 224</figcaption><img id="prepared" width="224" height="224" alt="Letterbox train 224"><small id="scale"></small></figure></div>
+<div class="hint" id="suggestion"></div><div id="old" hidden></div>
+<div class="fields"><label>Phone <select id="phone"><option value="">Chưa chọn</option><option>P</option><option>N</option><option>U</option></select></label>
+<label>Looking <select id="looking"><option value="">Chưa chọn</option><option>P</option><option>N</option><option>U</option></select></label>
+<label>Xử lý crop <select id="action"><option value="">Chưa chọn</option><option value="keep">Giữ crop</option><option value="recrop">Cần crop lại</option><option value="remove">Đề xuất loại</option><option value="unsure">Cần xem thêm</option></select></label>
+<label><input type="checkbox" id="flag">Đánh dấu</label></div>
+<div class="fields"><label>Góc nhìn <select id="angle"><option value="">Chưa ghi</option><option>Trước</option><option>Bên / chéo</option><option>Sau</option><option>Trên cao</option><option>Không rõ</option></select></label>
+<label class="grow">Tag tự đặt <input id="tags" placeholder="mờ, vật nhỏ, thiếu tay, calculator…"></label></div>
+<textarea id="note" rows="2" placeholder="Ghi chú: vùng cần crop lại, evidence còn thiếu, mẫu cần bổ sung…" aria-label="Ghi chú crop"></textarea>
+<div class="footer"><label><input type="checkbox" id="done">Đã chốt review crop này</label><button id="nextTodo">Crop chưa chốt tiếp theo →</button></div>
+<small id="draftState">Mọi lựa chọn là bản nháp, chưa sửa dataset.</small></section></main>
+<dialog id="helpDialog"><h2>Review theo hình ảnh, không theo split cũ</h2><p id="scope"></p>
+<p>Ảnh 224 dùng RGB letterbox bilinear, padding [124, 116, 104], trước normalization và augmentation ngẫu nhiên. Để browser zoom 100% khi so độ lớn; pixel CSS không nhất thiết bằng pixel vật lý màn hình.</p>
+<p>Nhóm dựa trên bố cục, màu, cạnh; không phải nhận định hành vi, camera hay nhóm chống leakage. Crop tương tự có thể khác nhãn. Nhóm không tự gán bất kỳ giá trị nào.</p>
+<p>Nhãn mới để trống. P/N/U và chất lượng crop là hai việc riêng. Looking mục tiêu đang review: quay đầu bên/sau so với hướng ngồi; nhìn phía trước không tính. Không dùng ghi chú gợi ý như quyết định loại hoặc gán nhãn.</p>
+<p>← / → chuyển crop khi không nhập liệu. Đánh dấu để quay lại; tìm kiếm cả ID, tag, ghi chú. Chọn nhóm “Tất cả” để tìm toàn bộ inventory. Sửa quyết định sẽ bỏ trạng thái chốt để bạn xác nhận lại.</p>
+<p>Lưu tự động trong browser chỉ là nháp. Hãy xuất JSON mỗi phiên để backup và chuyển máy/browser. Nhập JSON thay toàn bộ nháp sau xác nhận; chỉ nhận đúng cohort và SHA. Không tự áp vào V12 hoặc chia split mới. Không có chức năng xóa ảnh.</p>
+<button id="closeHelp">Bắt đầu / Tiếp tục</button></dialog>
+<script src="inventory.js"></script><script src="review.js"></script></html>

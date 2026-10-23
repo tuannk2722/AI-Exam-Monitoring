@@ -38,3 +38,11 @@ configs/datasets/pilot-b-20261020-v12.json -text whitespace=trailing-space,space
 
 # Preserve exact approved E006 config/protocol bytes across checkouts.
 configs/experiments/E006-V12-20261020/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+
+# Preserve approved V13 config and pinned audit/diagnostic inputs.
+configs/datasets/pilot-b-20261023-v13.json -text whitespace=trailing-space,space-before-tab,cr-at-eol
+configs/diagnostics/*.json -text whitespace=trailing-space,space-before-tab,cr-at-eol
+src/ai_exam_monitoring/data/review_reconcile.py text eol=lf
+src/ai_exam_monitoring/data/review_workspace.py text eol=lf
+src/ai_exam_monitoring/data/review_workspace_assets/* text eol=lf
+src/ai_exam_monitoring/training/diagnostics.py text eol=lf

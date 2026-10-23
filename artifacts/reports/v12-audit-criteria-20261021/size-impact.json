@@ -1,0 +1,111 @@
+{
+  "train": {
+    "records": 1092,
+    "derived": 168,
+    "stored_224_square": 168,
+    "native_long_side_below224": 371,
+    "illustrative_min_stored_side_cutoff_NOT_RECOMMENDED": {
+      "128": {
+        "retained": 877,
+        "removed": 215,
+        "targets": {
+          "phone_use": {
+            "P": 175,
+            "U": 329,
+            "N": 373
+          },
+          "looking_around": {
+            "N": 622,
+            "P": 247,
+            "U": 8
+          }
+        }
+      },
+      "224": {
+        "retained": 612,
+        "removed": 480,
+        "targets": {
+          "phone_use": {
+            "P": 143,
+            "U": 215,
+            "N": 254
+          },
+          "looking_around": {
+            "N": 460,
+            "P": 147,
+            "U": 5
+          }
+        }
+      },
+      "320": {
+        "retained": 210,
+        "removed": 882,
+        "targets": {
+          "phone_use": {
+            "N": 81,
+            "P": 60,
+            "U": 69
+          },
+          "looking_around": {
+            "P": 52,
+            "N": 156,
+            "U": 2
+          }
+        }
+      }
+    }
+  },
+  "val": {
+    "records": 204,
+    "derived": 0,
+    "stored_224_square": 0,
+    "native_long_side_below224": 66,
+    "illustrative_min_stored_side_cutoff_NOT_RECOMMENDED": {
+      "128": {
+        "retained": 156,
+        "removed": 48,
+        "targets": {
+          "phone_use": {
+            "N": 67,
+            "U": 55,
+            "P": 34
+          },
+          "looking_around": {
+            "N": 109,
+            "P": 47
+          }
+        }
+      },
+      "224": {
+        "retained": 91,
+        "removed": 113,
+        "targets": {
+          "phone_use": {
+            "N": 37,
+            "U": 37,
+            "P": 17
+          },
+          "looking_around": {
+            "N": 65,
+            "P": 26
+          }
+        }
+      },
+      "320": {
+        "retained": 54,
+        "removed": 150,
+        "targets": {
+          "phone_use": {
+            "N": 19,
+            "U": 24,
+            "P": 11
+          },
+          "looking_around": {
+            "N": 36,
+            "P": 18
+          }
+        }
+      }
+    }
+  }
+}

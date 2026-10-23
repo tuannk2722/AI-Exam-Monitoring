@@ -1,0 +1,18 @@
+{
+  "status": "PASS_prepared_package_not_published",
+  "package": "data/interim/v13-release-preparation-20261023/package",
+  "records": 1304,
+  "approved_allocation": {
+    "train": 1119,
+    "val": 185
+  },
+  "source_bundle_sha256": "74ac2a4e40e86f2d14e40750aeb837609ee4b5593764636f67ef190834879ece",
+  "checksums_sha256": "dcc70a73a57ff045df25356fef6f221eb742ab8140e038321da6d476995e0aab",
+  "schema_pixel_preflight_export_integrity": "PASS",
+  "excluded_payload_count": 0,
+  "manifest_published": false,
+  "tooling_sha256": {
+    "src/ai_exam_monitoring/data/pilot_package.py": "26e4bbf0ce92eeb281cf232ae09227f12e63524f47ea8ef465c35647c39a8300",
+    "src/ai_exam_monitoring/data/pilot_schema.py": "d1396b6de3be30dc5661467381ba8af776ba810b409c31a5b3ecc94ce02ba226"
+  }
+}

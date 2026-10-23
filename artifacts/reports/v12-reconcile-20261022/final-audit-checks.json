@@ -1,0 +1,48 @@
+{
+  "status": "PASS_audit_checks_not_release_acceptance",
+  "candidate_count": 1305,
+  "old_count": 1156,
+  "new_count": 149,
+  "final_excluded": [
+    "EXP-SCB-030",
+    "G2-A09-F001",
+    "SCB-write-015",
+    "V6-CA-034",
+    "V6-EX-038",
+    "V6R2-MP-017",
+    "V7-C-001-R03"
+  ],
+  "final_label_UN": [
+    "G11-B09-F00008",
+    "G5-A11-F047"
+  ],
+  "groups": 331,
+  "joint_labels": {
+    "P/N": 351,
+    "N/N": 646,
+    "P/P": 43,
+    "N/P": 152,
+    "U/N": 86,
+    "U/P": 17,
+    "N/U": 6,
+    "P/U": 3,
+    "U/U": 1
+  },
+  "release_blockers": {
+    "no_known_target": 1,
+    "old_parent_unresolved": 21
+  },
+  "without_listed_blockers": 1283,
+  "all_candidate_sha_decode_geometry": "PASS",
+  "exact_duplicate_bytes": 0,
+  "exact_duplicate_rgb": 0,
+  "group_membership_exact_once": "PASS",
+  "v12_ledger_preserved": "PASS",
+  "splits_assigned": false,
+  "remaining_release_gates": [
+    "rights and provenance mapping",
+    "unresolved parent quarantine or verified resolution",
+    "explicit split assignment and independent test protocol",
+    "strict PilotRecord package validation and owner release acceptance"
+  ]
+}

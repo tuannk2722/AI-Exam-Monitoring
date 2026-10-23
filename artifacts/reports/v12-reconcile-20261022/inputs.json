@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    {
+      "original": "v12-review-2026-10-22T09-49-21-948Z.json",
+      "path": "data/interim/v12-reconcile-20261022/inputs/owner-review.json",
+      "sha256": "b28e20031f6708dbfb6ba0ac29f7231f93cb0ba4ac003f96d49da3f75df0b2c4",
+      "bytes": 455091
+    },
+    {
+      "original": "additional (2).zip",
+      "path": "data/interim/v12-reconcile-20261022/inputs/additional.zip",
+      "sha256": "bc1046ade762d3d6ef75d7cf95e020561ebdfd26ab4ab6046ebd58c901c93041",
+      "bytes": 189291909
+    }
+  ],
+  "ledger_sha256": "c58a237594e76418bd0d0b78f629560b812a47dcef17d7f66f9e07a027ee662f",
+  "inventory_sha256": "e0f8697215e2cabc803bca1b77b48a841913f29ae25d286e95c7bc10bc384a81",
+  "cohort": "b937d06e096ecb753797429a224f32f4200da676487f8d8e761984ee93aa69a9"
+}

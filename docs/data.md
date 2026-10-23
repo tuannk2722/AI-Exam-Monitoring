@@ -24,6 +24,12 @@ Person box bao phần nhìn thấy; context có thể thêm vùng bàn/thiết b
 
 [E004-PHONE-OCCLUSION-20261015](../artifacts/reports/E004-device-consistency-20261015/owner-direction.md) được owner duyệt cho revision crop bundle này và revision tiếp theo dẫn quyết định: vật bị giấy/vật khác che **hoàn toàn** có thể phone N khi tay và phần quan sát còn lại đủ review, không có phone rõ hoặc thiết bị mơ hồ còn lộ. N ở đây là absence trong vùng nhìn thấy, không chứng minh không có phone sau vật che. Tay mất khỏi crop/dưới bàn, vật còn lộ không phân biệt được hoặc attribution chưa rõ vẫn U nếu không có phone khác rõ. Không hồi tố release/metrics/pins cũ; package mới phải ghi semantics revision/evidence. Các semantics còn lại của bảng trên giữ nguyên.
 
+### Revision đối soát V12 từ 23/10/2026
+
+[V12-RECONCILE-PHONE-20261023](../artifacts/reports/v12-reconcile-20261022/owner-policy-20261023.md) được owner duyệt cho candidate đang đối soát và 156 ảnh bổ sung: tay/bàn bị che hoặc nằm ngoài crop không tự khiến phone U. Không thấy phone hay vật nghi phone trong ảnh thì N; có vật nhìn thấy nhưng chưa phân biệt được phone với vật khác thì U. Không gán thiết bị của người khác cho anchor. Quyết định này supersede riêng điều kiện quan sát tay/bàn của bảng và ngoại lệ 15/10 ở trên trong revision này; giữ nguyên semantics và pins các release đã accepted. Package mới phải dẫn đúng semantics revision và evidence từng crop.
+
+Trong cùng đợt audit, Looking P khi đầu quay hẳn sang bên/sau, hoặc hơi chéo nhưng nhìn bài người khác; đầu thẳng/hơi chéo còn lại N khi đủ evidence. Hướng đầu/đích nhìn không xác định vẫn U. Quy tắc này không tự cấp acceptance nhãn toàn batch, split hoặc release.
+
 ## 3. Contract thực thi và trạng thái record
 
 Codec ở `src/ai_exam_monitoring/data/pilot_schema.py`: `schema_version=pilot-b-manifest-v1`, `target_encoding_version=pilot-b-targets-v1`. Dùng `record_from_dict`, `read_records`, `validate_records`, `write_records`; không tạo parser dict permissive song song. Field lạ, derived mask/value sai, version/evidence không hợp lệ phải bị từ chối.

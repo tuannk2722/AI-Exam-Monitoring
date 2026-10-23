@@ -1,0 +1,51 @@
+{
+  "initial": {
+    "count": 1639,
+    "groups": 48,
+    "preview": {
+      "width": 224,
+      "height": 224
+    },
+    "bodyOverflow": false,
+    "blank": true,
+    "oldHidden": true,
+    "tiles": 12
+  },
+  "navigation": true,
+  "save": {
+    "id": "G1-A04-F001",
+    "value": {
+      "sha256": "4be67d2fd986d4ffacb4400f39bb71034678c7e3b2f39d87741122ca2e0d77c8",
+      "phone": "U",
+      "looking": "N",
+      "action": "recrop",
+      "flag": false,
+      "angle": "",
+      "tags": "",
+      "note": "UI verification only",
+      "done": true,
+      "updatedAt": "2026-10-21T09:02:18.790Z"
+    }
+  },
+  "resume": true,
+  "rejectWrongCohort": true,
+  "rejectWrongSHA": true,
+  "roundtrip": true,
+  "actualExport": true,
+  "actualImport": true,
+  "search": {
+    "count": 1,
+    "id": "V7-B-047"
+  },
+  "small": {
+    "horizontalOverflow": false,
+    "preview": 224
+  },
+  "offlineFile": {
+    "url": "file:",
+    "count": 1639,
+    "previewLoaded": true,
+    "blank": true
+  },
+  "groupNotesSaved": true
+}

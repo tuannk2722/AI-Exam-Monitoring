@@ -1,0 +1,637 @@
+{
+  "status": "draft_pending_owner_review",
+  "reviewer": "coding-agent",
+  "reviewed_at": "2026-10-21",
+  "scope": "37 shortlisted train/val crops; observations not relabel authorization",
+  "findings": [
+    {
+      "sample_id": "V7-A-008",
+      "split": "val",
+      "crop_sha256": "680d78476c69f97de39f480da940547774edd331c16838d15e56a02979f4841e",
+      "source_sha256": "6cadb2ef3d1b175639d6e69f249509dd00b67117f78ef861ce82bb625938f433",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-001.png",
+      "card_sha256": "50ad49f3036aa19ab1d2fb57ed24974433388570274ca97df7f7ef6753743d25",
+      "current_states": [
+        0,
+        0
+      ],
+      "factor": "laptop_context",
+      "observation": "Anchor đang dùng laptop; tay và phần bàn/laptop còn thấy ở input. Không thấy bằng chứng mobile rõ.",
+      "draft_action": "keep",
+      "recommendation": "Không đề xuất đổi N/N; ca âm tính khó khác miền phòng thi.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "V7-C-132",
+      "split": "val",
+      "crop_sha256": "f70726c8ca1678be4e72c8c0eeceae69ffd41b486feed80cb33128998ed590f9",
+      "source_sha256": "92dd99122e630c2324188e31e9f70d4d121c40f4bd759a8c9e2f357507a4d542",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-002.png",
+      "card_sha256": "b24d648f565ca4225de52b4a864d2c0f477eebdfce5d241fdc96272f6e3b1cef",
+      "current_states": [
+        0,
+        0
+      ],
+      "factor": "writing_object",
+      "observation": "Anchor đang viết trên sách; vật chữ nhật/chi tiết trên bàn không đủ để gợi mobile.",
+      "draft_action": "keep",
+      "recommendation": "Giữ nhãn accepted; không suy phone từ tư thế tay hoặc vật chữ nhật.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "G27-A04-F00043",
+      "split": "val",
+      "crop_sha256": "aebb8b5976d5267f73de93ae5a56e82fe06f3d7d3d45435b38b1ea5b25f59257",
+      "source_sha256": "c102469691aac7d04f1c1efaa62daee0b0c955155d66f31dbdb7f4bde78d6e36",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-003.png",
+      "card_sha256": "878146e9e869d975aa18f16c61eed74aa63c2bf20140bbeecc036f1e227fb3db",
+      "current_states": [
+        0,
+        0
+      ],
+      "factor": "writing_negative",
+      "observation": "Tay cầm bút viết, tay còn lại trên giấy; crop giữ vùng bằng chứng ở input.",
+      "draft_action": "keep",
+      "recommendation": "Giữ N/N; ưu tiên hard negative viết bài trong cùng bối cảnh.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "G05-A02-F00092-R02",
+      "split": "val",
+      "crop_sha256": "a9f25acf3e1c8131fb26063885086d44fefd2b48e01b0dc8c4ebacb7b379b201",
+      "source_sha256": "b062397688885a8dee1f21a5d17cce16bd70bc917d20e4cddaf21efb25e989f7",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-004.png",
+      "card_sha256": "d728cfd611d307d5ac4aaca2ba6a12840d68d2c787ab751e9a9c58d46274efb5",
+      "current_states": [
+        0,
+        0
+      ],
+      "factor": "hand_to_face",
+      "observation": "Một tay gần miệng/cằm, tay còn lại trên bàn; cốc và đồ dùng trong context.",
+      "draft_action": "keep",
+      "recommendation": "Giữ N/N; tư thế tay gần mặt không tự là phone P.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "V6R2-CA-001",
+      "split": "val",
+      "crop_sha256": "aab8995f5b2c70a49afbf081caf9c158711f1339456522b585f9dd0ad1815350",
+      "source_sha256": "577709394314230ee017b65f8faf4f95fd83ea8792f2d9e80b539906c07778d9",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-005.png",
+      "card_sha256": "abdbef33313072711ade5e08972566a2499991ba241613f4213e93683789eafc",
+      "current_states": [
+        1,
+        0
+      ],
+      "factor": "phone_at_ear",
+      "observation": "Vật dạng điện thoại sát tai và tay cầm bút trên giấy; vẫn thấy ở input.",
+      "draft_action": "keep",
+      "recommendation": "Giữ P/N; ca phone P dạng áp tai, không chỉ nhìn màn hình.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "E004-EX-C008",
+      "split": "val",
+      "crop_sha256": "0a0df174a405b0e7f54df8b1f3fca6bb4d45e11b2931e69b7f81b0324c395262",
+      "source_sha256": "30eff18182c95497306194b0ac6984a53f9b92712093a23d635628eb73618e26",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-006.png",
+      "card_sha256": "943abb73ef22a9a67b7985b6e0f807b2776a46eda0e553d88d9cde2c1d69e05a",
+      "current_states": [
+        1,
+        0
+      ],
+      "factor": "clear_phone_miss",
+      "observation": "Điện thoại cầm trong tay rõ cả crop và input; đồng thời có bút/giấy.",
+      "draft_action": "keep",
+      "recommendation": "Giữ P/N; bỏ sót không giải thích được chỉ bằng ảnh quá nhỏ.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "G06-A02-F00012",
+      "split": "val",
+      "crop_sha256": "970a3ce53ee7c9ee569ad61e398382eefeecd61a618b9616a3df0333b31cb240",
+      "source_sha256": "23961da248c2cd68a199f2eb1fcc2cabfee3587ebd4f62ec5143a9d8b5bbb9bf",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-007.png",
+      "card_sha256": "a1931465c39b8e5ccb04675ba63dd0939c0b519957aa1af72fd3d7739ce8d32f",
+      "current_states": [
+        1,
+        0
+      ],
+      "factor": "phone_on_desk",
+      "observation": "Điện thoại nằm trên bàn cạnh giấy, anchor đang viết; vật vẫn rõ ở input.",
+      "draft_action": "keep",
+      "recommendation": "Giữ P/N; ví dụ chuẩn semantics hiện hành bao gồm phone trên bàn.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "G12-A01-F00053-R02",
+      "split": "val",
+      "crop_sha256": "8e91498909fbfe8935c5477599913b595ce5c8a05c591706f5602b4f9b3ddb24",
+      "source_sha256": "ee23a654a195cdd74929f18ee1f6581a088a62ef2612e6aa4e537a17f249deaf",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-008.png",
+      "card_sha256": "b5bfdf801585fcc4e87fa3b01b3638a0133b3d29d2e6a50397702193775f80a0",
+      "current_states": [
+        1,
+        0
+      ],
+      "factor": "device_boundary",
+      "observation": "Vật có màn hình nhỏ và cụm phím vật lý giống calculator; chưa thấy phone khác trong vùng bàn.",
+      "draft_action": "owner_review",
+      "recommendation": "**owner review** — đề xuất phone P → N nếu owner xác nhận đây là calculator và vùng quan sát đủ; không sửa V12.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "V7-UNAPPROVED-C-003",
+      "split": "val",
+      "crop_sha256": "27052242a60dcc5dc741ded5132d50f73ba3e2bc1fe3a37d64afd2bd9f14c970",
+      "source_sha256": "ba2ea6126b9f972e518011d2fd3a634498cb7a0b1c9a96e0f820ea582d321b1f",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-009.png",
+      "card_sha256": "52c3552f65ad7817cea1f947e1e80f8bce8fb0f00dbb64418f87971ef36b017d",
+      "current_states": [
+        1,
+        0
+      ],
+      "factor": "clear_phone_positive",
+      "observation": "Anchor cầm điện thoại rõ; còn một thiết bị trên bàn. ID chứa UNAPPROVED là tên lịch sử, không thay trạng thái release.",
+      "draft_action": "keep",
+      "recommendation": "Giữ P/N; ví dụ phone P rõ.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "V7-B-018-R04",
+      "split": "val",
+      "crop_sha256": "7b118e38e4d3fe4e79ead3f531028aa856329dbaaf171645c64f9e9cd2ba19f3",
+      "source_sha256": "8c7303936593f23f52d07d80e05030de5649487e5909d36ee23793ec3853972f",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-010.png",
+      "card_sha256": "6acdeeac0ff5cf6c0ba9f19ca3345e725ac20aa2e94e0e19b0a11b5f572387b2",
+      "current_states": [
+        0,
+        0
+      ],
+      "factor": "low_resolution_negative",
+      "observation": "Ảnh gốc/crop đã nhòe; vẫn thấy hai tay và giấy trong tư thế viết.",
+      "draft_action": "keep",
+      "recommendation": "Không loại chỉ vì nhòe hoặc kích thước nhỏ; giữ nhãn accepted.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "SCB-write-010",
+      "split": "val",
+      "crop_sha256": "e49745110fa014e72c033e80186f647389e45d67d519862a736964393c78c283",
+      "source_sha256": "0ed8801ab48b0689f6c30c2444d1134b1c68c0159ffce61d4cd2224e4ed0511a",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-011.png",
+      "card_sha256": "cdb3d1a916c483f4bd1ed8d0ae786ea5bfa9bf5e7c05bd2f0c4caaded88da5ab",
+      "current_states": [
+        0,
+        0
+      ],
+      "factor": "low_resolution_negative",
+      "observation": "Cúi viết trên bàn; chi tiết mắt yếu từ crop, vùng bài làm còn đủ.",
+      "draft_action": "keep",
+      "recommendation": "Giữ N/N; không đồng nhất ảnh khó với dữ liệu sai.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "E004-EX-C002-R04",
+      "split": "val",
+      "crop_sha256": "d2c5db318c9acccd167d5c24ab63f3f07ffa96dca91da768548fac03c64c5e6b",
+      "source_sha256": "1f512e9262dca3f2bd6420cdf8a107b2122b8aa17bcfb597ee068cdd90daa986",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-012.png",
+      "card_sha256": "8ee9fdbefe662abc911ec23f47258dafad89289de2806b6172e1fae1fe84d977",
+      "current_states": [
+        null,
+        0
+      ],
+      "factor": "ambiguous_device",
+      "observation": "Vật đen trong tay nhìn nghiêng, có chi tiết giống phím; không xác minh chắc mobile từ crop.",
+      "draft_action": "keep",
+      "recommendation": "Giữ phone U; không dùng hình chữ nhật để ép sang P hoặc N.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "G05-A01-F00065-R02",
+      "split": "val",
+      "crop_sha256": "c9cd81c6977761381c05b2ae6f0b38be22b891ed750a80b7d5688f297ff99fa7",
+      "source_sha256": "6b73206ce9d301ff792115b1c692482241c9454b1937f946e9d7c4557b2fd48c",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-013.png",
+      "card_sha256": "0d954257d48ca041949d2084efd1f8fe88c3425008329d0c051e514103f7f45e",
+      "current_states": [
+        null,
+        1
+      ],
+      "factor": "attribution_boundary",
+      "observation": "Anchor quay đầu sang bạn/người sau; vật ở cạnh vùng tay/bàn không phân biệt chắc loại.",
+      "draft_action": "keep",
+      "recommendation": "Giữ U/P; ví dụ tách hai target, looking P không biến phone U thành N.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "V7-D-009",
+      "split": "val",
+      "crop_sha256": "05925f323e5dd7409afe64694efc2283935f8f8950884731a940cbf0ebf4cb65",
+      "source_sha256": "e3a0af52c13b87020858a9c156e0999a33c415c3252afd8b3fa1ba3c2e3d248a",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-014.png",
+      "card_sha256": "baa7af532652ff75e75d48aa57d14e588e71f347fd86515d7d14af278730d55d",
+      "current_states": [
+        null,
+        0
+      ],
+      "factor": "visible_phone_unknown",
+      "observation": "Anchor cầm điện thoại đen, hình dáng màn hình/thân máy rõ ở crop và input.",
+      "draft_action": "owner_review",
+      "recommendation": "**owner review** — đề xuất phone U → P; looking N giữ nguyên. Đây là review mới, không hồi tố metrics.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "V6-EX-036",
+      "split": "val",
+      "crop_sha256": "ff832e58fe95fdb1f6b43c1ccced79b4e01aa6bcc23bbaab21be41c7a0655c4c",
+      "source_sha256": "6470b1bdfe1079fec0ff2c8e7ff24076dd9b7964f65d78e93f767780b4f1cfbc",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-015.png",
+      "card_sha256": "49564ee82125d2317f08073e7560ce4b431a9afd729e5333f05258d67038bca6",
+      "current_states": [
+        0,
+        0
+      ],
+      "factor": "head_down_boundary",
+      "observation": "Anchor cúi đầu nhẹ về vùng giấy/bàn; grayscale và ánh sáng làm nét mặt yếu.",
+      "draft_action": "keep",
+      "recommendation": "Giữ N/N; head angle riêng không đủ suy looking P.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "E004-CN-048",
+      "split": "val",
+      "crop_sha256": "0ed65f6320a155a9310ddb94bc569c5d9003e4813374d78716bc730cad009b95",
+      "source_sha256": "25417caf81b395ca09deb038bc82382ccdc6f9c3015c9f534d961257449ff924",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-016.png",
+      "card_sha256": "d18b5a59bdb94aaca8de4569afca681384696521961fe623f1a71237b945d4c8",
+      "current_states": [
+        0,
+        0
+      ],
+      "factor": "reading_standing",
+      "observation": "Anchor đứng đọc sách, hướng đầu và mắt về sách; input vẫn giữ sách và mắt.",
+      "draft_action": "keep",
+      "recommendation": "Giữ N/N; standing không đồng nghĩa looking around.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "EXP-SCB-005",
+      "split": "val",
+      "crop_sha256": "b728e114061fbab2df8dfb31d73e8cf2234ec066ba09e67f81be548756df3b8c",
+      "source_sha256": "cb6b28c5bdb27e2c4f8a5e38e556af8e790568b45e1ccb524b9f89bfa6743b8b",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-017.png",
+      "card_sha256": "9ab3bccec98e397ec67f50100e951f613d3861dcaf48afc0d7bd270705167de4",
+      "current_states": [
+        0,
+        0
+      ],
+      "factor": "head_turn_work_region",
+      "observation": "Đầu xoay nhẹ khi tay đặt trên bàn; crop cao/hẹp làm vùng mắt nhỏ hơn ở 224.",
+      "draft_action": "keep",
+      "recommendation": "Giữ accepted N/N; dùng làm ca ranh giới nhìn đầu nghiêng so với vùng bài, chưa đủ bằng chứng đổi nhãn.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "EXP-SCB-021",
+      "split": "val",
+      "crop_sha256": "9b25fdc98774274fa5c19ab71c74340d2f8b46f7ba1b5161776743dd6311497d",
+      "source_sha256": "0fc8b59aad2c9fae6379a7c6a35bce8c27e4afec2bac4ee61b5c269f640b665f",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-018.png",
+      "card_sha256": "683f3ae619cc64b8dec7e33bcf494102129bb7bb127d2f42ee417605938a73bd",
+      "current_states": [
+        0,
+        1
+      ],
+      "factor": "looking_boundary",
+      "observation": "Anchor cầm bút, đầu cúi nghiêng gần trang sách; crop 107 × 111 không cho thấy chắc đang nhìn người khác.",
+      "draft_action": "owner_review",
+      "recommendation": "**owner review** — Owner chốt looking P có đủ evidence hay phải U/N; đề xuất U nếu không xác định được vùng nhìn, không tự đổi.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "V7-C-075",
+      "split": "val",
+      "crop_sha256": "1c8e67c56174d4aed65020b610d5df5c70ff1e552b1b6a3a55eb9b8deaeee12c",
+      "source_sha256": "647aa0b7ebf480c43f47a31b03f8990c8cf51f7b4d05270dd7b372dd1090b963",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-019.png",
+      "card_sha256": "0acf2ba7b14614ad20c9634158e6d0b04a8d9aae3aee21d46de54e036e0a234c",
+      "current_states": [
+        null,
+        1
+      ],
+      "factor": "missing_work_context",
+      "observation": "Mặt quay sang bên, mắt gần khép; source/crop không thể hiện rõ vùng bài hay đích nhìn.",
+      "draft_action": "owner_review",
+      "recommendation": "**owner review** — đề xuất xem lại looking P → U vì context/đích nhìn không rõ; không lấy góc đầu thay bằng chứng.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "G05-B02-F00015-R02",
+      "split": "val",
+      "crop_sha256": "0c716f50065767c7f75aa25529aea483b66b3e96d8ae1960dd5c731963f7cde2",
+      "source_sha256": "1da763e1dbb2b7c67003409c727d4b758ab05fdb1d2782fa442287a420b67a5a",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-020.png",
+      "card_sha256": "1f58b8f974f3079ab0d16d08f474dc74eabd9ac2f334b4acaafad66a2dabbf2a",
+      "current_states": [
+        0,
+        1
+      ],
+      "factor": "small_head_turn",
+      "observation": "Crop 77 × 85 đã thiếu chi tiết, đầu hướng sang bên; input chỉ phóng lớn dữ liệu gốc.",
+      "draft_action": "keep",
+      "recommendation": "Giữ N/P; ca khó có hướng đầu, không đề xuất xóa để tăng metric.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "G09-A02-F00043",
+      "split": "val",
+      "crop_sha256": "00ec03789acbffeb918627d03533258aa7dafaefa04cb0c1ee0bf01ebddbd597",
+      "source_sha256": "5de13386bc53257fe97f4b5381195beabaae63a737e4633f1b903735bf0495c8",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-021.png",
+      "card_sha256": "aac7c29508ab6f8ae73e5e7764d4e7ac24e0b43ca1bd6cf5d514e076f620b241",
+      "current_states": [
+        0,
+        1
+      ],
+      "factor": "front_outside_work",
+      "observation": "Anchor nhìn sang phía trước/bên ngoài trang sách; bàn và sách còn trong crop.",
+      "draft_action": "keep",
+      "recommendation": "Giữ N/P theo contract ngoài vùng bài làm; không suy là gian lận hay phân biệt đang nghe giảng.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "E004-EX-C001",
+      "split": "val",
+      "crop_sha256": "d1f8c9ebed5724996e6d9149410c3c6779b87de804063514635c775bf5e6c402",
+      "source_sha256": "9fa62c3ed8ef26eab6abc9ebc385b544dcf9edf3982cb35987537507af95d303",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-022.png",
+      "card_sha256": "0d0d8390549c62d517f0bda67cd91d10106cd8fccfb6b4b5a0a45f9d4cf73520",
+      "current_states": [
+        1,
+        1
+      ],
+      "factor": "clear_looking_positive",
+      "observation": "Mặt/đầu hướng ra ngoài vùng bàn, điện thoại cầm rõ.",
+      "draft_action": "keep",
+      "recommendation": "Giữ P/P; ví dụ hai target cùng positive.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "G27-B02-F00016",
+      "split": "val",
+      "crop_sha256": "b8ab8501dde712c98964948197b681960c5b50db771b5fb6c041923f2a017aaf",
+      "source_sha256": "5310e5e9b3e40d07de1f233298fb6d0061a449a183548eb17477c6c44e43eb09",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-023.png",
+      "card_sha256": "8b6e6ea7bf60e075205552b78e7d62b912f89c7c4382ff9f644d524225eb0968",
+      "current_states": [
+        0,
+        1
+      ],
+      "factor": "small_front_view",
+      "observation": "Anchor ở xa, đầu hướng lên khỏi vùng bàn; crop 85 × 116 đã thiếu chi tiết mắt.",
+      "draft_action": "keep",
+      "recommendation": "Giữ N/P; model có TP dù nhỏ, không đặt cutoff kích thước tùy ý.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "E004-EX-C018",
+      "split": "val",
+      "crop_sha256": "e17a4722309c38e217758a75d599affd57e0576ddf058720d04ef1e2ab93d37b",
+      "source_sha256": "bc0bf034153912f5446999969a937d1df6a460e83eed805e9e82e7019d224081",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-024.png",
+      "card_sha256": "2b8b3e9c77997aee0731ae2eb50d3d31f2d2b1d68b434275d5f6c13a09454fa2",
+      "current_states": [
+        0,
+        0
+      ],
+      "factor": "clear_working_negative",
+      "observation": "Góc trên xuống, hai tay và giấy rõ, đầu cúi về bài.",
+      "draft_action": "keep",
+      "recommendation": "Giữ N/N; ví dụ âm tính có context làm việc.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "V7-B-048",
+      "split": "val",
+      "crop_sha256": "d96862844fd88ce9ea168a7904c1c895afe68c675ae43635a25d008bd9988c69",
+      "source_sha256": "9fceb11cd4fadcd633a42cde57c0f838e5c7969cd04c1d5c6a2568dfa04749e4",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-025.png",
+      "card_sha256": "f73b1cc3e6b246f0d65fab2b34a7e571c6a3e242dfd455a2ee8826c9f8dc20d7",
+      "current_states": [
+        0,
+        0
+      ],
+      "factor": "clear_working_negative",
+      "observation": "Anchor cúi viết, giấy/bút và vùng bàn còn thấy ở input.",
+      "draft_action": "keep",
+      "recommendation": "Giữ N/N; đối chứng looking TN.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "CB-0428",
+      "split": "train",
+      "crop_sha256": "fc3c939f692e0e88d58d30daef08cea13bc5544d2b633e682dfec0d96c7134b6",
+      "source_sha256": "d6e8693403b5e0a6db5de7b823ed931739978f9b348133d5265fbbcb80aa84f9",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-026.png",
+      "card_sha256": "b7f01418b88c4a414dc8a77b0e7b5c3732542294f5e9469ce1baaf0aa92c4e61",
+      "current_states": [
+        1,
+        0
+      ],
+      "factor": "desk_phone_train",
+      "observation": "Trên giấy có hai vật dạng thiết bị, điện thoại accepted vẫn thấy ở input.",
+      "draft_action": "keep",
+      "recommendation": "Giữ P/N; 11 epoch xem riêng chưa thấy erasing xóa hết phone.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "E004-CF-C021-R03",
+      "split": "train",
+      "crop_sha256": "befae459aea7616e06b9151cda56af660e0307a70580195aae3e364759a46b8a",
+      "source_sha256": "b62a619a1756bd91f4c87d46e085199da124aea6d6e50f3ff425d78554741c66",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-027.png",
+      "card_sha256": "6c3b025d8c5a2aac00f1330f50dff751238db4fe1a17a61a9524902c4291bb75",
+      "current_states": [
+        1,
+        1
+      ],
+      "factor": "multiple_devices",
+      "observation": "Anchor cầm thiết bị rõ và nhìn sang người bên cạnh; các bàn tay người khác cùng context.",
+      "draft_action": "keep",
+      "recommendation": "Giữ P/P; dùng thảo luận attribution, không gán mọi thiết bị cho anchor.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "NB-0046",
+      "split": "train",
+      "crop_sha256": "cde6c71615909e3ef72b43aca8ad7a72fde712735154d67ea7bb534c73bd7829",
+      "source_sha256": "8d575a4349569f07689535eb4013a647229098be58e092734307de982ddef13e",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-028.png",
+      "card_sha256": "4c145730ac3b4e3ac9696fa80dc5328c2b4dff07a554addbac6e965f72a6caa3",
+      "current_states": [
+        0,
+        0
+      ],
+      "factor": "clear_working_negative",
+      "observation": "Anchor cúi sát giấy, hai tay ở vùng bài làm; crop derivative 224 đủ review.",
+      "draft_action": "keep",
+      "recommendation": "Giữ N/N; không phải recrop mới trong task này.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "G23-B01-F00003",
+      "split": "train",
+      "crop_sha256": "6fdb90261726401fbb616ecc88913c001bb174a66b62ba635c99296f74c8ef95",
+      "source_sha256": "f1d616a94c98a2a83b5f3b4436faeb5ccaa7c594d3c71e2bf2558b6fc189c952",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-029.png",
+      "card_sha256": "7cf6f5eb80345d439d2c16d541cccc8ae2039f4a9905160ce9ec9bbcc52509c9",
+      "current_states": [
+        0,
+        0
+      ],
+      "factor": "calculator_negative",
+      "observation": "Calculator có cụm phím trên bàn; anchor cầm bút viết.",
+      "draft_action": "keep",
+      "recommendation": "Giữ N/N; ví dụ calculator không tạo phone P. Erasing epoch 9 che một phần vùng đầu.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "CB-0294",
+      "split": "train",
+      "crop_sha256": "e75cf679bceed54b7f6485b66a4f3f0ce962307d5a6fbbb20be3522b5f52afc7",
+      "source_sha256": "fca65211fcb27f3a30611751102d483cba483e7e105a9cf5a580ba974dabdafd",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-030.png",
+      "card_sha256": "89b130c61d4b22ca34b632379907236a21a7b2cef7e946c05f9351d76dd30f2a",
+      "current_states": [
+        null,
+        0
+      ],
+      "factor": "ambiguous_device",
+      "observation": "Vật dài trong tay chỉ thấy cạnh, có calculator trên bàn; không thấy mặt thiết bị để phân loại chắc.",
+      "draft_action": "keep",
+      "recommendation": "Giữ U/N; không ép U thành N để tăng supervision.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "V7-OE-S044-A01",
+      "split": "train",
+      "crop_sha256": "5ce2af8a8c29b4a8378bd484d6ddc58f55f7e483559e5394056a0767c97ac49c",
+      "source_sha256": "50355b53643243c7753025665768ab3edf454f290317c8131178d98418a54f2c",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-031.png",
+      "card_sha256": "ab3072db11027a4c765a947e55f9dbff96e1c783c5a89c9bdf87b5e1581cc554",
+      "current_states": [
+        null,
+        0
+      ],
+      "factor": "ambiguous_device",
+      "observation": "Thiết bị trong hai tay nhìn nghiêng và một phần bị chai che; không thấy đủ mặt thiết bị.",
+      "draft_action": "keep",
+      "recommendation": "Giữ U/N; cần evidence nhận diện mobile trước khi đổi P.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "V6R2-MP-006",
+      "split": "train",
+      "crop_sha256": "b4f3f915c69755c01ca4ebab8a533c7bd4da63cb7afe60fe5be2b3d07ef538c5",
+      "source_sha256": "8f6e841975ae0584691bd640ce83fbda12916f7136737a163ebfdbce6daff6cd",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-032.png",
+      "card_sha256": "16ff95e4102ec413fe9dee03bd51d1a143c6966e12db3528e743ac1fe76820c1",
+      "current_states": [
+        null,
+        1
+      ],
+      "factor": "front_outside_work",
+      "observation": "Đầu/mắt hướng lên khỏi bàn; vùng trang giấy phía dưới vẫn có context.",
+      "draft_action": "keep",
+      "recommendation": "Giữ U/P; phone thiếu bằng chứng độc lập.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "EXP-CM-003",
+      "split": "train",
+      "crop_sha256": "23fd2bf2f934a2500747ab2be3bfb0a013797af1b8c15c2e835c29f8b9dcfa23",
+      "source_sha256": "60ec384f7ea44c3284958b44141510ea306d221349a01b4b27a280b08c66ad6b",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-033.png",
+      "card_sha256": "4057a9d2f880472282531b673867784181b4b5a4b93de7a98e2eeb6e2f57dd15",
+      "current_states": [
+        null,
+        1
+      ],
+      "factor": "erasing_face",
+      "observation": "Anchor hướng đầu lên/bên ngoài vùng giấy; có vật sát tai nhưng phone accepted U.",
+      "draft_action": "keep",
+      "recommendation": "Giữ U/P; augmentation epoch 6 che vùng miệng/má, làm yếu bằng chứng looking. Chưa suy nguyên nhân metrics.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "G26-B11-F00027",
+      "split": "train",
+      "crop_sha256": "ba8a3dde88a69629fafb3630735519105c40f6e333907c331422d39d07d23508",
+      "source_sha256": "ab9fd1c8bdec0ad1f2507a5be9096581d80801e803bee8a819a1daf7a6890178",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-034.png",
+      "card_sha256": "b765ba40c2743be2914fb4a9b71ea5ed6715af7fe3cec1577c9789d7d02232ac",
+      "current_states": [
+        null,
+        0
+      ],
+      "factor": "ambiguous_device",
+      "observation": "Anchor cúi về giấy, vật chữ nhật dưới tay không phân biệt chắc ở input.",
+      "draft_action": "keep",
+      "recommendation": "Giữ U/N; cần phân biệt mobile/calculator/vật khác trước gán phone.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "NB-0006",
+      "split": "train",
+      "crop_sha256": "5b205873b9de78c08f2fc7faceefbea70f43606a849617ce610de548c8f9f014",
+      "source_sha256": "c1a5d47dc6e04b1c47a76a891536cc6059fed2ad67089204ce3dfbc44f0351cb",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-035.png",
+      "card_sha256": "00c4f2bf1e8df286ba2bb718f044da98b7bb0fb2a91dc1b86659bcb0dd0473b4",
+      "current_states": [
+        0,
+        0
+      ],
+      "factor": "calculator_negative",
+      "observation": "Anchor cầm calculator có màn hình nhỏ và phím vật lý, hướng về giấy.",
+      "draft_action": "keep",
+      "recommendation": "Giữ N/N; ví dụ negative dù cầm thiết bị.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "Y01-A12-F00098",
+      "split": "train",
+      "crop_sha256": "582db7241446bd5e41be8224ca997c81218ecef9a96954cac524ebf146a477f6",
+      "source_sha256": "bb7886f76b19c9b6fcde84075bc9bf0699292afe1c436bbdc32f529911c3c812",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-036.png",
+      "card_sha256": "6ed4520d8ececa8a82ba7647a9a7fcc7b17bcfe1237c12823db848473158a16b",
+      "current_states": [
+        1,
+        null
+      ],
+      "factor": "head_occluded",
+      "observation": "Đầu gục/cúi sâu, không thấy mặt/hướng nhìn rõ; điện thoại trên bàn còn thấy.",
+      "draft_action": "keep",
+      "recommendation": "Giữ P/U; ví dụ U looking không làm mất supervision phone.",
+      "owner_accepted": false
+    },
+    {
+      "sample_id": "NB-0038-R1",
+      "split": "train",
+      "crop_sha256": "ec0a35b0e60deca6b1caf57276ea94c98f265d39c49cf8009691df4879274225",
+      "source_sha256": "a6eb03a71376aa387382eac795016ebc1d5de0670e1fe66ffc2a4a53ff597bf1",
+      "card": "data/interim/e006-v12-diagnostics-20261021/card-037.png",
+      "card_sha256": "8ebc5e6020aa127ab3f0cf407df64ad8bd446842338d332c570f15ea8ab3b384",
+      "current_states": [
+        0,
+        null
+      ],
+      "factor": "looking_unknown",
+      "observation": "Đầu nhìn nghiêng, một phần tay/bài làm ở rìa và bị người trước che; khó chốt đích nhìn.",
+      "draft_action": "keep",
+      "recommendation": "Giữ N/U; ví dụ ranh giới U cần context, không dùng nhãn nguồn thay review.",
+      "owner_accepted": false
+    }
+  ]
+}

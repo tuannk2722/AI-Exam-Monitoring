@@ -1,0 +1,1192 @@
+[
+  {
+    "sample_id": "V7-A-008",
+    "reasons": [
+      "phone_use:FP"
+    ],
+    "split": "val",
+    "crop_sha256": "680d78476c69f97de39f480da940547774edd331c16838d15e56a02979f4841e",
+    "source_sha256": "6cadb2ef3d1b175639d6e69f249509dd00b67117f78ef861ce82bb625938f433",
+    "source_id": "coco_2017_train",
+    "crop_size": [
+      212,
+      213
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      0,
+      0
+    ],
+    "reasons_current": [
+      "Owner final audit decision; see accepted-audit-cohort.",
+      "Owner final audit decision; see accepted-audit-cohort."
+    ],
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-001.png",
+    "card_sha256": "50ad49f3036aa19ab1d2fb57ed24974433388570274ca97df7f7ef6753743d25"
+  },
+  {
+    "sample_id": "V7-C-132",
+    "reasons": [
+      "phone_use:FP"
+    ],
+    "split": "val",
+    "crop_sha256": "f70726c8ca1678be4e72c8c0eeceae69ffd41b486feed80cb33128998ed590f9",
+    "source_sha256": "92dd99122e630c2324188e31e9f70d4d121c40f4bd759a8c9e2f357507a4d542",
+    "source_id": "openimages_train_prefix",
+    "crop_size": [
+      347,
+      472
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      0,
+      0
+    ],
+    "reasons_current": [
+      "Owner final audit decision; see accepted-audit-cohort.",
+      "Owner final audit decision; see accepted-audit-cohort."
+    ],
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-002.png",
+    "card_sha256": "b24d648f565ca4225de52b4a864d2c0f477eebdfce5d241fdc96272f6e3b1cef"
+  },
+  {
+    "sample_id": "G27-A04-F00043",
+    "reasons": [
+      "phone_use:FP"
+    ],
+    "split": "val",
+    "crop_sha256": "aebb8b5976d5267f73de93ae5a56e82fe06f3d7d3d45435b38b1ea5b25f59257",
+    "source_sha256": "c102469691aac7d04f1c1efaa62daee0b0c955155d66f31dbdb7f4bde78d6e36",
+    "source_id": "owner-frames-part05-20261016",
+    "crop_size": [
+      250,
+      343
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      0,
+      0
+    ],
+    "reasons_current": [
+      "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "Owner mặc định approve vì ID không được nêu trong nhận xét."
+    ],
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-003.png",
+    "card_sha256": "878146e9e869d975aa18f16c61eed74aa63c2bf20140bbeecc036f1e227fb3db"
+  },
+  {
+    "sample_id": "G05-A02-F00092-R02",
+    "reasons": [
+      "phone_use:FP"
+    ],
+    "split": "val",
+    "crop_sha256": "a9f25acf3e1c8131fb26063885086d44fefd2b48e01b0dc8c4ebacb7b379b201",
+    "source_sha256": "b062397688885a8dee1f21a5d17cce16bd70bc917d20e4cddaf21efb25e989f7",
+    "source_id": "owner-frames-part01-20261016",
+    "crop_size": [
+      177,
+      188
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      0,
+      0
+    ],
+    "reasons_current": [
+      "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "Owner mặc định approve vì ID không được nêu trong nhận xét."
+    ],
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-004.png",
+    "card_sha256": "d728cfd611d307d5ac4aaca2ba6a12840d68d2c787ab751e9a9c58d46274efb5"
+  },
+  {
+    "sample_id": "V6R2-CA-001",
+    "reasons": [
+      "phone_use:FN"
+    ],
+    "split": "val",
+    "crop_sha256": "aab8995f5b2c70a49afbf081caf9c158711f1339456522b585f9dd0ad1815350",
+    "source_sha256": "577709394314230ee017b65f8faf4f95fd83ea8792f2d9e80b539906c07778d9",
+    "source_id": "classroom_attitude",
+    "crop_size": [
+      240,
+      347
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      1,
+      0
+    ],
+    "reasons_current": [
+      "Owner final audit decision; see accepted-audit-cohort.",
+      "Owner final audit decision; see accepted-audit-cohort."
+    ],
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-005.png",
+    "card_sha256": "abdbef33313072711ade5e08972566a2499991ba241613f4213e93683789eafc"
+  },
+  {
+    "sample_id": "E004-EX-C008",
+    "reasons": [
+      "phone_use:FN"
+    ],
+    "split": "val",
+    "crop_sha256": "0a0df174a405b0e7f54df8b1f3fca6bb4d45e11b2931e69b7f81b0324c395262",
+    "source_sha256": "30eff18182c95497306194b0ac6984a53f9b92712093a23d635628eb73618e26",
+    "source_id": "pexels-v2-20261013",
+    "crop_size": [
+      900,
+      750
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      1,
+      0
+    ],
+    "reasons_current": [
+      "Owner final audit decision; see accepted-audit-cohort.",
+      "Owner final audit decision; see accepted-audit-cohort."
+    ],
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-006.png",
+    "card_sha256": "943abb73ef22a9a67b7985b6e0f807b2776a46eda0e553d88d9cde2c1d69e05a"
+  },
+  {
+    "sample_id": "G06-A02-F00012",
+    "reasons": [
+      "phone_use:FN"
+    ],
+    "split": "val",
+    "crop_sha256": "970a3ce53ee7c9ee569ad61e398382eefeecd61a618b9616a3df0333b31cb240",
+    "source_sha256": "23961da248c2cd68a199f2eb1fcc2cabfee3587ebd4f62ec5143a9d8b5bbb9bf",
+    "source_id": "owner-frames-part01-20261016",
+    "crop_size": [
+      164,
+      216
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      1,
+      0
+    ],
+    "reasons_current": [
+      "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "Owner mặc định approve vì ID không được nêu trong nhận xét."
+    ],
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-007.png",
+    "card_sha256": "a1931465c39b8e5ccb04675ba63dd0939c0b519957aa1af72fd3d7739ce8d32f"
+  },
+  {
+    "sample_id": "G12-A01-F00053-R02",
+    "reasons": [
+      "phone_use:TP"
+    ],
+    "split": "val",
+    "crop_sha256": "8e91498909fbfe8935c5477599913b595ce5c8a05c591706f5602b4f9b3ddb24",
+    "source_sha256": "ee23a654a195cdd74929f18ee1f6581a088a62ef2612e6aa4e537a17f249deaf",
+    "source_id": "owner-frames-part02-20261016",
+    "crop_size": [
+      202,
+      215
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      1,
+      0
+    ],
+    "reasons_current": [
+      "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "Owner mặc định approve vì ID không được nêu trong nhận xét."
+    ],
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-008.png",
+    "card_sha256": "b5bfdf801585fcc4e87fa3b01b3638a0133b3d29d2e6a50397702193775f80a0"
+  },
+  {
+    "sample_id": "V7-UNAPPROVED-C-003",
+    "reasons": [
+      "phone_use:TP"
+    ],
+    "split": "val",
+    "crop_sha256": "27052242a60dcc5dc741ded5132d50f73ba3e2bc1fe3a37d64afd2bd9f14c970",
+    "source_sha256": "ba2ea6126b9f972e518011d2fd3a634498cb7a0b1c9a96e0f820ea582d321b1f",
+    "source_id": "classroom_attitude",
+    "crop_size": [
+      196,
+      348
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      1,
+      0
+    ],
+    "reasons_current": [
+      "Owner final audit decision; see accepted-audit-cohort.",
+      "Owner final audit decision; see accepted-audit-cohort."
+    ],
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-009.png",
+    "card_sha256": "52c3552f65ad7817cea1f947e1e80f8bce8fb0f00dbb64418f87971ef36b017d"
+  },
+  {
+    "sample_id": "V7-B-018-R04",
+    "reasons": [
+      "phone_use:TN"
+    ],
+    "split": "val",
+    "crop_sha256": "7b118e38e4d3fe4e79ead3f531028aa856329dbaaf171645c64f9e9cd2ba19f3",
+    "source_sha256": "8c7303936593f23f52d07d80e05030de5649487e5909d36ee23793ec3853972f",
+    "source_id": "student_behaviour",
+    "crop_size": [
+      168,
+      175
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      0,
+      0
+    ],
+    "reasons_current": [
+      "Owner final audit decision; see accepted-audit-cohort.",
+      "Owner final audit decision; see accepted-audit-cohort."
+    ],
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-010.png",
+    "card_sha256": "6acdeeac0ff5cf6c0ba9f19ca3345e725ac20aa2e94e0e19b0a11b5f572387b2"
+  },
+  {
+    "sample_id": "SCB-write-010",
+    "reasons": [
+      "phone_use:TN"
+    ],
+    "split": "val",
+    "crop_sha256": "e49745110fa014e72c033e80186f647389e45d67d519862a736964393c78c283",
+    "source_sha256": "0ed8801ab48b0689f6c30c2444d1134b1c68c0159ffce61d4cd2224e4ed0511a",
+    "source_id": "scb_hrw",
+    "crop_size": [
+      242,
+      215
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      0,
+      0
+    ],
+    "reasons_current": [
+      "Owner final audit decision; see accepted-audit-cohort.",
+      "Owner final audit decision; see accepted-audit-cohort."
+    ],
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-011.png",
+    "card_sha256": "cdb3d1a916c483f4bd1ed8d0ae786ea5bfa9bf5e7c05bd2f0c4caaded88da5ab"
+  },
+  {
+    "sample_id": "E004-EX-C002-R04",
+    "reasons": [
+      "phone_use:U"
+    ],
+    "split": "val",
+    "crop_sha256": "d2c5db318c9acccd167d5c24ab63f3f07ffa96dca91da768548fac03c64c5e6b",
+    "source_sha256": "1f512e9262dca3f2bd6420cdf8a107b2122b8aa17bcfb597ee068cdd90daa986",
+    "source_id": "pexels-v2-20261013",
+    "crop_size": [
+      319,
+      401
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      null,
+      0
+    ],
+    "reasons_current": [
+      "Owner final audit decision; see accepted-audit-cohort.",
+      "Owner final audit decision; see accepted-audit-cohort."
+    ],
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-012.png",
+    "card_sha256": "8ee9fdbefe662abc911ec23f47258dafad89289de2806b6172e1fae1fe84d977"
+  },
+  {
+    "sample_id": "G05-A01-F00065-R02",
+    "reasons": [
+      "phone_use:U"
+    ],
+    "split": "val",
+    "crop_sha256": "c9cd81c6977761381c05b2ae6f0b38be22b891ed750a80b7d5688f297ff99fa7",
+    "source_sha256": "6b73206ce9d301ff792115b1c692482241c9454b1937f946e9d7c4557b2fd48c",
+    "source_id": "owner-frames-part01-20261016",
+    "crop_size": [
+      192,
+      221
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      null,
+      1
+    ],
+    "reasons_current": [
+      "Owner mặc định approve vì ID không được nêu trong nhận xét.",
+      "Owner mặc định approve vì ID không được nêu trong nhận xét."
+    ],
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-013.png",
+    "card_sha256": "0d954257d48ca041949d2084efd1f8fe88c3425008329d0c051e514103f7f45e"
+  },
+  {
+    "sample_id": "V7-D-009",
+    "reasons": [
+      "looking_around:FP"
+    ],
+    "split": "val",
+    "crop_sha256": "05925f323e5dd7409afe64694efc2283935f8f8950884731a940cbf0ebf4cb65",
+    "source_sha256": "e3a0af52c13b87020858a9c156e0999a33c415c3252afd8b3fa1ba3c2e3d248a",
+    "source_id": "classroom_attitude",
+    "crop_size": [
+      318,
+      512
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      null,
+      0
+    ],
+    "reasons_current": [
+      "Owner final audit decision; see accepted-audit-cohort.",
+      "Owner final audit decision; see accepted-audit-cohort."
+    ],
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-014.png",
+    "card_sha256": "baa7af532652ff75e75d48aa57d14e588e71f347fd86515d7d14af278730d55d"
+  },
+  {
+    "sample_id": "V6-EX-036",
+    "reasons": [
+      "looking_around:FP"
+    ],
+    "split": "val",
+    "crop_sha256": "ff832e58fe95fdb1f6b43c1ccced79b4e01aa6bcc23bbaab21be41c7a0655c4c",
+    "source_sha256": "6470b1bdfe1079fec0ff2c8e7ff24076dd9b7964f65d78e93f767780b4f1cfbc",
+    "source_id": "exam_cheating_keaor",
+    "crop_size": [
+      258,
+      443
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      0,
+      0
+    ],
+    "reasons_current": [
+      "Owner final audit decision; see accepted-audit-cohort.",
+      "Owner final audit decision; see accepted-audit-cohort."
+    ],
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-015.png",
+    "card_sha256": "49564ee82125d2317f08073e7560ce4b431a9afd729e5333f05258d67038bca6"
+  },
+  {
+    "sample_id": "E004-CN-048",
+    "reasons": [
+      "looking_around:FP"
+    ],
+    "split": "val",
+    "crop_sha256": "0ed65f6320a155a9310ddb94bc569c5d9003e4813374d78716bc730cad009b95",
+    "source_sha256": "25417caf81b395ca09deb038bc82382ccdc6f9c3015c9f534d961257449ff924",
+    "source_id": "studentclassroombehavior",
+    "crop_size": [
+      577,
+      815
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      0,
+      0
+    ],
+    "reasons_current": [
+      "Owner final audit decision; see accepted-audit-cohort.",
+      "Owner final audit decision; see accepted-audit-cohort."
+    ],
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-016.png",
+    "card_sha256": "d18b5a59bdb94aaca8de4569afca681384696521961fe623f1a71237b945d4c8"
+  },
+  {
+    "sample_id": "EXP-SCB-005",
+    "reasons": [
+      "looking_around:FP"
+    ],
+    "split": "val",
+    "crop_sha256": "b728e114061fbab2df8dfb31d73e8cf2234ec066ba09e67f81be548756df3b8c",
+    "source_sha256": "cb6b28c5bdb27e2c4f8a5e38e556af8e790568b45e1ccb524b9f89bfa6743b8b",
+    "source_id": "scb_hrw",
+    "crop_size": [
+      188,
+      486
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      0,
+      0
+    ],
+    "reasons_current": [
+      "Owner final audit decision; see accepted-audit-cohort.",
+      "Owner final audit decision; see accepted-audit-cohort."
+    ],
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-017.png",
+    "card_sha256": "9ab3bccec98e397ec67f50100e951f613d3861dcaf48afc0d7bd270705167de4"
+  },
+  {
+    "sample_id": "EXP-SCB-021",
+    "reasons": [
+      "looking_around:FN"
+    ],
+    "split": "val",
+    "crop_sha256": "9b25fdc98774274fa5c19ab71c74340d2f8b46f7ba1b5161776743dd6311497d",
+    "source_sha256": "0fc8b59aad2c9fae6379a7c6a35bce8c27e4afec2bac4ee61b5c269f640b665f",
+    "source_id": "scb_head",
+    "crop_size": [
+      107,
+      111
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      0,
+      1
+    ],
+    "reasons_current": [
+      "Owner final audit decision; see accepted-audit-cohort.",
+      "Owner final audit decision; see accepted-audit-cohort."
+    ],
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-018.png",
+    "card_sha256": "683f3ae619cc64b8dec7e33bcf494102129bb7bb127d2f42ee417605938a73bd"
+  },
+  {
+    "sample_id": "V7-C-075",
+    "reasons": [
+      "looking_around:FN"
+    ],
+    "split": "val",
+    "crop_sha256": "1c8e67c56174d4aed65020b610d5df5c70ff1e552b1b6a3a55eb9b8deaeee12c",
+    "source_sha256": "647aa0b7ebf480c43f47a31b03f8990c8cf51f7b4d05270dd7b372dd1090b963",
+    "source_id": "roboflow_v1",
+    "crop_size": [
+      416,
+      416
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      null,
+      1
+    ],
+    "reasons_current": [
+      "Owner final audit decision; see accepted-audit-cohort.",
+      "Owner final audit decision; see accepted-audit-cohort."
+    ],
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-019.png",
+    "card_sha256": "0acf2ba7b14614ad20c9634158e6d0b04a8d9aae3aee21d46de54e036e0a234c"
+  },
+  {
+    "sample_id": "G05-B02-F00015-R02",
+    "reasons": [
+      "looking_around:FN"
+    ],
+    "split": "val",
+    "crop_sha256": "0c716f50065767c7f75aa25529aea483b66b3e96d8ae1960dd5c731963f7cde2",
+    "source_sha256": "1da763e1dbb2b7c67003409c727d4b758ab05fdb1d2782fa442287a420b67a5a",
+    "source_id": "owner-frames-part01-20261016",
+    "crop_size": [
+      77,
+      85
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      0,
+      1
+    ],
+    "reasons_current": [
+      "Chuyển khung sang anchor nữ bên phải, mặt quay sang trái ngoài trang bài theo owner; giữ hai tay/vùng bàn. Nữ bên trái đã có G05-B01 nên không thêm bản trùng.",
+      "Chuyển khung sang anchor nữ bên phải, mặt quay sang trái ngoài trang bài theo owner; giữ hai tay/vùng bàn. Nữ bên trái đã có G05-B01 nên không thêm bản trùng."
+    ],
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-020.png",
+    "card_sha256": "1f58b8f974f3079ab0d16d08f474dc74eabd9ac2f334b4acaafad66a2dabbf2a"
+  },
+  {
+    "sample_id": "G09-A02-F00043",
+    "reasons": [
+      "looking_around:FN"
+    ],
+    "split": "val",
+    "crop_sha256": "00ec03789acbffeb918627d03533258aa7dafaefa04cb0c1ee0bf01ebddbd597",
+    "source_sha256": "5de13386bc53257fe97f4b5381195beabaae63a737e4633f1b903735bf0495c8",
+    "source_id": "owner-frames-part02-20261016",
+    "crop_size": [
+      199,
+      291
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      0,
+      1
+    ],
+    "reasons_current": [
+      "Băng bó tự nó không phải evidence cho thiết bị hoặc unknown. Tư thế tay và vùng hoạt động còn lại đủ quan sát, không thấy vật mơ hồ; đề xuất phone N, giữ looking P. Không suy luận tác động model khi chưa đo.",
+      "Băng bó tự nó không phải evidence cho thiết bị hoặc unknown. Tư thế tay và vùng hoạt động còn lại đủ quan sát, không thấy vật mơ hồ; đề xuất phone N, giữ looking P. Không suy luận tác động model khi chưa đo."
+    ],
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-021.png",
+    "card_sha256": "aac7c29508ab6f8ae73e5e7764d4e7ac24e0b43ca1bd6cf5d514e076f620b241"
+  },
+  {
+    "sample_id": "E004-EX-C001",
+    "reasons": [
+      "looking_around:TP"
+    ],
+    "split": "val",
+    "crop_sha256": "d1f8c9ebed5724996e6d9149410c3c6779b87de804063514635c775bf5e6c402",
+    "source_sha256": "9fa62c3ed8ef26eab6abc9ebc385b544dcf9edf3982cb35987537507af95d303",
+    "source_id": "pexels-v2-20261013",
+    "crop_size": [
+      562,
+      638
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      1,
+      1
+    ],
+    "reasons_current": [
+      "Owner final audit decision; see accepted-audit-cohort.",
+      "Owner final audit decision; see accepted-audit-cohort."
+    ],
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-022.png",
+    "card_sha256": "0d0d8390549c62d517f0bda67cd91d10106cd8fccfb6b4b5a0a45f9d4cf73520"
+  },
+  {
+    "sample_id": "G27-B02-F00016",
+    "reasons": [
+      "looking_around:TP"
+    ],
+    "split": "val",
+    "crop_sha256": "b8ab8501dde712c98964948197b681960c5b50db771b5fb6c041923f2a017aaf",
+    "source_sha256": "5310e5e9b3e40d07de1f233298fb6d0061a449a183548eb17477c6c44e43eb09",
+    "source_id": "owner-frames-part05-20261016",
+    "crop_size": [
+      85,
+      116
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      0,
+      1
+    ],
+    "reasons_current": [
+      "Owner đã review toàn bộ và duyệt các crop không nêu trong bảng.",
+      "Owner đã review toàn bộ và duyệt các crop không nêu trong bảng."
+    ],
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-023.png",
+    "card_sha256": "8b6e6ea7bf60e075205552b78e7d62b912f89c7c4382ff9f644d524225eb0968"
+  },
+  {
+    "sample_id": "E004-EX-C018",
+    "reasons": [
+      "looking_around:TN"
+    ],
+    "split": "val",
+    "crop_sha256": "e17a4722309c38e217758a75d599affd57e0576ddf058720d04ef1e2ab93d37b",
+    "source_sha256": "bc0bf034153912f5446999969a937d1df6a460e83eed805e9e82e7019d224081",
+    "source_id": "pexels-v2-20261013",
+    "crop_size": [
+      895,
+      750
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      0,
+      0
+    ],
+    "reasons_current": [
+      "Owner final audit decision; see accepted-audit-cohort.",
+      "Owner final audit decision; see accepted-audit-cohort."
+    ],
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-024.png",
+    "card_sha256": "2b8b3e9c77997aee0731ae2eb50d3d31f2d2b1d68b434275d5f6c13a09454fa2"
+  },
+  {
+    "sample_id": "V7-B-048",
+    "reasons": [
+      "looking_around:TN"
+    ],
+    "split": "val",
+    "crop_sha256": "d96862844fd88ce9ea168a7904c1c895afe68c675ae43635a25d008bd9988c69",
+    "source_sha256": "9fceb11cd4fadcd633a42cde57c0f838e5c7969cd04c1d5c6a2568dfa04749e4",
+    "source_id": "student_behaviour",
+    "crop_size": [
+      320,
+      350
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      0,
+      0
+    ],
+    "reasons_current": [
+      "Owner final audit decision; see accepted-audit-cohort.",
+      "Owner final audit decision; see accepted-audit-cohort."
+    ],
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-025.png",
+    "card_sha256": "f73b1cc3e6b246f0d65fab2b34a7e571c6a3e242dfd455a2ee8826c9f8dc20d7"
+  },
+  {
+    "sample_id": "CB-0428",
+    "reasons": [
+      "phone_use:TP"
+    ],
+    "split": "train",
+    "crop_sha256": "fc3c939f692e0e88d58d30daef08cea13bc5544d2b633e682dfec0d96c7134b6",
+    "source_sha256": "d6e8693403b5e0a6db5de7b823ed931739978f9b348133d5265fbbcb80aa84f9",
+    "source_id": "E004-crop-bundle-20261014",
+    "crop_size": [
+      224,
+      224
+    ],
+    "native_roi_equal": false,
+    "has_derivation": true,
+    "current_states": [
+      1,
+      0
+    ],
+    "reasons_current": [
+      "Accepted labels; exact upstream evidence: artifacts/reports/E004-crop-closure-20261015/candidate-ledger.json#CB-0428",
+      "Accepted labels; exact upstream evidence: artifacts/reports/E004-crop-closure-20261015/candidate-ledger.json#CB-0428"
+    ],
+    "augmentation": {
+      "run": "E006-V12-S1-SQRT-S20261020-R4",
+      "epoch": 5,
+      "cohort_index": 85,
+      "epochs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "sheet": "data/interim/e006-v12-diagnostics-20261021/augmentation-026.png"
+    },
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-026.png",
+    "card_sha256": "b7f01418b88c4a414dc8a77b0e7b5c3732542294f5e9469ce1baaf0aa92c4e61"
+  },
+  {
+    "sample_id": "E004-CF-C021-R03",
+    "reasons": [
+      "phone_use:TP"
+    ],
+    "split": "train",
+    "crop_sha256": "befae459aea7616e06b9151cda56af660e0307a70580195aae3e364759a46b8a",
+    "source_sha256": "b62a619a1756bd91f4c87d46e085199da124aea6d6e50f3ff425d78554741c66",
+    "source_id": "consolidated-frames-20261013",
+    "crop_size": [
+      523,
+      672
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      1,
+      1
+    ],
+    "reasons_current": [
+      "Owner final audit decision; see accepted-audit-cohort.",
+      "Owner final audit decision; see accepted-audit-cohort."
+    ],
+    "augmentation": {
+      "run": "E006-V12-S1-SQRT-S20261020-R4",
+      "epoch": 5,
+      "cohort_index": 177,
+      "epochs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "sheet": "data/interim/e006-v12-diagnostics-20261021/augmentation-027.png"
+    },
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-027.png",
+    "card_sha256": "6c3b025d8c5a2aac00f1330f50dff751238db4fe1a17a61a9524902c4291bb75"
+  },
+  {
+    "sample_id": "NB-0046",
+    "reasons": [
+      "phone_use:TN"
+    ],
+    "split": "train",
+    "crop_sha256": "cde6c71615909e3ef72b43aca8ad7a72fde712735154d67ea7bb534c73bd7829",
+    "source_sha256": "8d575a4349569f07689535eb4013a647229098be58e092734307de982ddef13e",
+    "source_id": "E004-new-bundle-20261015",
+    "crop_size": [
+      224,
+      224
+    ],
+    "native_roi_equal": false,
+    "has_derivation": true,
+    "current_states": [
+      0,
+      0
+    ],
+    "reasons_current": [
+      "Accepted labels; exact upstream evidence: artifacts/reports/E004-new-bundle-closure-20261016/closed-ledger.json#NB-0046",
+      "Accepted labels; exact upstream evidence: artifacts/reports/E004-new-bundle-closure-20261016/closed-ledger.json#NB-0046"
+    ],
+    "augmentation": {
+      "run": "E006-V12-S1-SQRT-S20261020-R4",
+      "epoch": 5,
+      "cohort_index": 626,
+      "epochs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "sheet": "data/interim/e006-v12-diagnostics-20261021/augmentation-028.png"
+    },
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-028.png",
+    "card_sha256": "4c145730ac3b4e3ac9696fa80dc5328c2b4dff07a554addbac6e965f72a6caa3"
+  },
+  {
+    "sample_id": "G23-B01-F00003",
+    "reasons": [
+      "phone_use:TN"
+    ],
+    "split": "train",
+    "crop_sha256": "6fdb90261726401fbb616ecc88913c001bb174a66b62ba635c99296f74c8ef95",
+    "source_sha256": "f1d616a94c98a2a83b5f3b4436faeb5ccaa7c594d3c71e2bf2558b6fc189c952",
+    "source_id": "owner-frames-part05-20261016",
+    "crop_size": [
+      254,
+      225
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      0,
+      0
+    ],
+    "reasons_current": [
+      "Owner đã review toàn bộ và duyệt các crop không nêu trong bảng.",
+      "Owner đã review toàn bộ và duyệt các crop không nêu trong bảng."
+    ],
+    "augmentation": {
+      "run": "E006-V12-S1-SQRT-S20261020-R4",
+      "epoch": 5,
+      "cohort_index": 473,
+      "epochs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "sheet": "data/interim/e006-v12-diagnostics-20261021/augmentation-029.png"
+    },
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-029.png",
+    "card_sha256": "7cf6f5eb80345d439d2c16d541cccc8ae2039f4a9905160ce9ec9bbcc52509c9"
+  },
+  {
+    "sample_id": "CB-0294",
+    "reasons": [
+      "phone_use:U"
+    ],
+    "split": "train",
+    "crop_sha256": "e75cf679bceed54b7f6485b66a4f3f0ce962307d5a6fbbb20be3522b5f52afc7",
+    "source_sha256": "fca65211fcb27f3a30611751102d483cba483e7e105a9cf5a580ba974dabdafd",
+    "source_id": "E004-crop-bundle-20261014",
+    "crop_size": [
+      224,
+      224
+    ],
+    "native_roi_equal": false,
+    "has_derivation": true,
+    "current_states": [
+      null,
+      0
+    ],
+    "reasons_current": [
+      "Accepted labels; exact upstream evidence: artifacts/reports/E004-crop-closure-20261015/candidate-ledger.json#CB-0294",
+      "Accepted labels; exact upstream evidence: artifacts/reports/E004-crop-closure-20261015/candidate-ledger.json#CB-0294"
+    ],
+    "augmentation": {
+      "run": "E006-V12-S1-SQRT-S20261020-R4",
+      "epoch": 5,
+      "cohort_index": 70,
+      "epochs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "sheet": "data/interim/e006-v12-diagnostics-20261021/augmentation-030.png"
+    },
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-030.png",
+    "card_sha256": "89b130c61d4b22ca34b632379907236a21a7b2cef7e946c05f9351d76dd30f2a"
+  },
+  {
+    "sample_id": "V7-OE-S044-A01",
+    "reasons": [
+      "phone_use:U"
+    ],
+    "split": "train",
+    "crop_sha256": "5ce2af8a8c29b4a8378bd484d6ddc58f55f7e483559e5394056a0767c97ac49c",
+    "source_sha256": "50355b53643243c7753025665768ab3edf454f290317c8131178d98418a54f2c",
+    "source_id": "commons_classroom_gapfill",
+    "crop_size": [
+      614,
+      850
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      null,
+      0
+    ],
+    "reasons_current": [
+      "Owner final audit decision; see accepted-audit-cohort.",
+      "Owner final audit decision; see accepted-audit-cohort."
+    ],
+    "augmentation": {
+      "run": "E006-V12-S1-SQRT-S20261020-R4",
+      "epoch": 5,
+      "cohort_index": 964,
+      "epochs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "sheet": "data/interim/e006-v12-diagnostics-20261021/augmentation-031.png"
+    },
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-031.png",
+    "card_sha256": "ab3072db11027a4c765a947e55f9dbff96e1c783c5a89c9bdf87b5e1581cc554"
+  },
+  {
+    "sample_id": "V6R2-MP-006",
+    "reasons": [
+      "looking_around:TP"
+    ],
+    "split": "train",
+    "crop_sha256": "b4f3f915c69755c01ca4ebab8a533c7bd4da63cb7afe60fe5be2b3d07ef538c5",
+    "source_sha256": "8f6e841975ae0584691bd640ce83fbda12916f7136737a163ebfdbce6daff6cd",
+    "source_id": "student_behaviour",
+    "crop_size": [
+      126,
+      189
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      null,
+      1
+    ],
+    "reasons_current": [
+      "Owner final audit decision; see accepted-audit-cohort.",
+      "Owner final audit decision; see accepted-audit-cohort."
+    ],
+    "augmentation": {
+      "run": "E006-V12-S1-SQRT-S20261020-R4",
+      "epoch": 5,
+      "cohort_index": 797,
+      "epochs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "sheet": "data/interim/e006-v12-diagnostics-20261021/augmentation-032.png"
+    },
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-032.png",
+    "card_sha256": "16ff95e4102ec413fe9dee03bd51d1a143c6966e12db3528e743ac1fe76820c1"
+  },
+  {
+    "sample_id": "EXP-CM-003",
+    "reasons": [
+      "looking_around:TP"
+    ],
+    "split": "train",
+    "crop_sha256": "23fd2bf2f934a2500747ab2be3bfb0a013797af1b8c15c2e835c29f8b9dcfa23",
+    "source_sha256": "60ec384f7ea44c3284958b44141510ea306d221349a01b4b27a280b08c66ad6b",
+    "source_id": "classroom_monitoring_v2",
+    "crop_size": [
+      111,
+      194
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      null,
+      1
+    ],
+    "reasons_current": [
+      "Owner final audit decision; see accepted-audit-cohort.",
+      "Owner final audit decision; see accepted-audit-cohort."
+    ],
+    "augmentation": {
+      "run": "E006-V12-S1-SQRT-S20261020-R4",
+      "epoch": 5,
+      "cohort_index": 240,
+      "epochs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "sheet": "data/interim/e006-v12-diagnostics-20261021/augmentation-033.png"
+    },
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-033.png",
+    "card_sha256": "4057a9d2f880472282531b673867784181b4b5a4b93de7a98e2eeb6e2f57dd15"
+  },
+  {
+    "sample_id": "G26-B11-F00027",
+    "reasons": [
+      "looking_around:TN"
+    ],
+    "split": "train",
+    "crop_sha256": "ba8a3dde88a69629fafb3630735519105c40f6e333907c331422d39d07d23508",
+    "source_sha256": "ab9fd1c8bdec0ad1f2507a5be9096581d80801e803bee8a819a1daf7a6890178",
+    "source_id": "owner-frames-part05-20261016",
+    "crop_size": [
+      214,
+      150
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      null,
+      0
+    ],
+    "reasons_current": [
+      "Tư thế cầm vật rất quen thuộc rồi",
+      "Tư thế cầm vật rất quen thuộc rồi"
+    ],
+    "augmentation": {
+      "run": "E006-V12-S1-SQRT-S20261020-R4",
+      "epoch": 5,
+      "cohort_index": 517,
+      "epochs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "sheet": "data/interim/e006-v12-diagnostics-20261021/augmentation-034.png"
+    },
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-034.png",
+    "card_sha256": "b765ba40c2743be2914fb4a9b71ea5ed6715af7fe3cec1577c9789d7d02232ac"
+  },
+  {
+    "sample_id": "NB-0006",
+    "reasons": [
+      "looking_around:TN"
+    ],
+    "split": "train",
+    "crop_sha256": "5b205873b9de78c08f2fc7faceefbea70f43606a849617ce610de548c8f9f014",
+    "source_sha256": "c1a5d47dc6e04b1c47a76a891536cc6059fed2ad67089204ce3dfbc44f0351cb",
+    "source_id": "E004-new-bundle-20261015",
+    "crop_size": [
+      224,
+      224
+    ],
+    "native_roi_equal": false,
+    "has_derivation": true,
+    "current_states": [
+      0,
+      0
+    ],
+    "reasons_current": [
+      "Accepted labels; exact upstream evidence: artifacts/reports/E004-new-bundle-closure-20261016/closed-ledger.json#NB-0006",
+      "Accepted labels; exact upstream evidence: artifacts/reports/E004-new-bundle-closure-20261016/closed-ledger.json#NB-0006"
+    ],
+    "augmentation": {
+      "run": "E006-V12-S1-SQRT-S20261020-R4",
+      "epoch": 5,
+      "cohort_index": 587,
+      "epochs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "sheet": "data/interim/e006-v12-diagnostics-20261021/augmentation-035.png"
+    },
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-035.png",
+    "card_sha256": "00c4f2bf1e8df286ba2bb718f044da98b7bb0fb2a91dc1b86659bcb0dd0473b4"
+  },
+  {
+    "sample_id": "Y01-A12-F00098",
+    "reasons": [
+      "looking_around:U"
+    ],
+    "split": "train",
+    "crop_sha256": "582db7241446bd5e41be8224ca997c81218ecef9a96954cac524ebf146a477f6",
+    "source_sha256": "bb7886f76b19c9b6fcde84075bc9bf0699292afe1c436bbdc32f529911c3c812",
+    "source_id": "youtube-crawl-20261018",
+    "crop_size": [
+      250,
+      225
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      1,
+      null
+    ],
+    "reasons_current": [
+      "Owner final audit decision; see accepted-audit-cohort.",
+      "Owner final audit decision; see accepted-audit-cohort."
+    ],
+    "augmentation": {
+      "run": "E006-V12-S1-SQRT-S20261020-R4",
+      "epoch": 5,
+      "cohort_index": 1035,
+      "epochs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "sheet": "data/interim/e006-v12-diagnostics-20261021/augmentation-036.png"
+    },
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-036.png",
+    "card_sha256": "6ed4520d8ececa8a82ba7647a9a7fcc7b17bcfe1237c12823db848473158a16b"
+  },
+  {
+    "sample_id": "NB-0038-R1",
+    "reasons": [
+      "looking_around:U"
+    ],
+    "split": "train",
+    "crop_sha256": "ec0a35b0e60deca6b1caf57276ea94c98f265d39c49cf8009691df4879274225",
+    "source_sha256": "a6eb03a71376aa387382eac795016ebc1d5de0670e1fe66ffc2a4a53ff597bf1",
+    "source_id": "E004-new-bundle-20261015",
+    "crop_size": [
+      128,
+      142
+    ],
+    "native_roi_equal": true,
+    "has_derivation": false,
+    "current_states": [
+      0,
+      null
+    ],
+    "reasons_current": [
+      "Accepted labels; exact upstream evidence: artifacts/reports/E004-new-bundle-closure-20261016/closed-ledger.json#NB-0038-R1",
+      "Accepted labels; exact upstream evidence: artifacts/reports/E004-new-bundle-closure-20261016/closed-ledger.json#NB-0038-R1"
+    ],
+    "augmentation": {
+      "run": "E006-V12-S1-SQRT-S20261020-R4",
+      "epoch": 5,
+      "cohort_index": 618,
+      "epochs": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "sheet": "data/interim/e006-v12-diagnostics-20261021/augmentation-037.png"
+    },
+    "card": "data/interim/e006-v12-diagnostics-20261021/card-037.png",
+    "card_sha256": "8ebc5e6020aa127ab3f0cf407df64ad8bd446842338d332c570f15ea8ab3b384"
+  }
+]

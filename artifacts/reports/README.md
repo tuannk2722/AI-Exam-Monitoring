@@ -8,6 +8,18 @@ viết report cuối, test đóng.
 
 ## Releases và nghiên cứu dữ liệu
 
+[Release V13 ngày 23/10](dataset-release-20261023-v13/README.md): local accepted sau audit V12 và ảnh generated; 1.119 train / 185 validation development / 0 test, tổng 1.304 crop. Dùng đủ 21 ảnh owner duyệt, không quarantine; loader/rebuild checks và giới hạn lineage trong report. Đây là release dùng tiếp, V12/pins lịch sử giữ nguyên.
+
+[Đối soát review V12 và ảnh bổ sung ngày 22/10](v12-reconcile-20261022/README.md): evidence JSON delta, audit nhãn/geometry/trùng lặp và các batch owner đã chốt. Kết quả hiện hành là V13 accepted ở trên; các snapshot draft giữ nguyên.
+
+[Cleanup ngày 23/10](cleanup-20261023/README.md): exact manifest và restore locator cho 4.690 file đã dọn; protected bytes được kiểm trước/sau. Availability này bổ sung đợt retention 16/10.
+
+[Bàn audit toàn bộ accepted V12](v12-full-audit-20261021/README.md): đủ 1.639 crop mọi role, 48 nhóm thị giác, preview 224 và lưu/export review. Owner cho phép mở test cũ để visual audit; không gán nhãn hoặc chia split mới.
+
+[Tiêu chí audit V12 ngày 21/10](v12-audit-criteria-20261021/README.md): nghiên cứu crop/quality/semantics, chín ví dụ và tác động lọc kích thước. Owner chọn looking là quay đầu bên/sau, phía trước không tính; rubric chi tiết còn Draft, chưa relabel/release.
+
+[Chẩn đoán E006/V12 ngày 21/10](e006-v12-diagnostics-20261021/README.md): lỗi qua sáu run, coverage, 37 crop visual review và bộ ví dụ P/N/U; bốn ngoại lệ Draft chờ owner, proposal đối chứng erasing riêng; không train/test hoặc sửa V12.
+
 [Release V12 ngày 20/10](dataset-release-20261020-v12/README.md): chốt review legacy/YouTube và allocation owner; package local accepted, kiểm loader/rebuild/test preservation. Không train.
 
 [Hợp nhất review legacy và YouTube ngày 19–20/10](crop-review-consolidation-20261019/README.md): hồ sơ review cuối của owner, đã được chốt qua release V12; một gallery chỉ thay đổi. Kế tiếp hai hồ sơ audit dưới đây.

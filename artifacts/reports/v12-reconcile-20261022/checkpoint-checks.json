@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-23",
+  "status": "PASS_checkpoint_not_dataset_acceptance",
+  "old_records": 1639,
+  "old_candidates": 1166,
+  "new_records": 156,
+  "new_candidates": 153,
+  "batch02_explicit_decisions": "PASS",
+  "prior_removals_preserved": "PASS",
+  "owner_response_pin": "PASS",
+  "v12_ledger_pin_unchanged": "PASS",
+  "geometry_outputs_verified_pixel_exact": 52,
+  "preview_recipe_parity_verified": 52,
+  "report_relative_links": "PASS",
+  "review_reconcile_regression_tests": {
+    "passed": 5,
+    "failed": 0
+  },
+  "git_diff_check": "PASS",
+  "pending": [
+    "owner_batch03",
+    "two_anchor_questions",
+    "geometry_person_boxes_and_lineage_for_new_images",
+    "nearest_cross_source_review",
+    "release_plan"
+  ]
+}

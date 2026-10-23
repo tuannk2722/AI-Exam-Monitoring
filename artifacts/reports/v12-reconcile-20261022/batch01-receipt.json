@@ -1,0 +1,39 @@
+{
+  "owner_response": "data/interim/v12-reconcile-20261022/inputs/owner-batch-01-response.md",
+  "sha256": "e0a2aa0a7a74836294999129dbedb16fc714a565158ad2b057c5c1373c4fc86d",
+  "explicit_applied": {
+    "EXP-SCB-045": {
+      "action": "remove"
+    },
+    "V7-OE-S106-A01": {
+      "pnu": [
+        "N",
+        "N"
+      ]
+    },
+    "V6-EX-011": {
+      "action": "remove",
+      "duplicate_of": "P019-person-01"
+    },
+    "V6R2-MP-054": {
+      "action": "remove",
+      "duplicate_of": "V6R2-MP-006"
+    },
+    "V6-CA-044": {
+      "action": "remove",
+      "duplicate_of": "V6R2-CA-016"
+    }
+  },
+  "research_pending": [
+    "E004-CF-C011",
+    "EXP-SCB-021",
+    "NB-0003",
+    "NB-0007"
+  ],
+  "policy": "review_only_without_substantive_delta_removed",
+  "counts": {
+    "keep": 1140,
+    "remove": 470,
+    "recrop": 29
+  }
+}

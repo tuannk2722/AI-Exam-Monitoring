@@ -2,6 +2,8 @@
 
 [Training contract](../../docs/training.md) quy định loss/evaluation; [reference](../../docs/reference.md#training-code) mô tả trainer/CLI; [reports](../../artifacts/reports/README.md) giữ kết quả. Không lấy ID lớn nhất làm model được duyệt.
 
+[Follow-up E006 ngày 21/10](E006-followup-20261021/README.md): Draft đối chứng SQRT có/không random erasing sau review nhãn và freeze dataset; chưa executable config hoặc approval run.
+
 | Hồ sơ | Vai trò | Approval / cách dùng |
 |---|---|---|
 | [E001](E001.yaml), [smoke](E001-smoke.yaml) | Frozen CPU probe v4 lịch sử | [Approval](../../docs/experiments/E001-approval.json); final test có protocol riêng qua reports index |

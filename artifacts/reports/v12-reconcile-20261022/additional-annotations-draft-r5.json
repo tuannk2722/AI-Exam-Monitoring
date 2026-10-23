@@ -1,0 +1,1910 @@
+{
+  "status": "batch04_partially_applied_three_label_or_membership_conflicts_pending",
+  "labels": [
+    {
+      "id": "NEW-001",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-002",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-003",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-004",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "owner_batch04",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-005",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-006",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-007",
+      "pnu": [
+        "P",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-008",
+      "pnu": [
+        "P",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-009",
+      "pnu": [
+        "P",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-010",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "owner_batch": "owner-review-batch-02.md",
+      "effective_action": "keep",
+      "phone_basis": "owner_20261023_visible_absence_not_occlusion_unknown",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-011",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-012",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json",
+      "decision_status": "pending_owner_conflict_clarification"
+    },
+    {
+      "id": "NEW-013",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-014",
+      "pnu": [
+        "P",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-015",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-016",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-017",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-018",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-019",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-020",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-021",
+      "pnu": [
+        "N",
+        "U"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "owner_batch": "owner-review-batch-02.md",
+      "effective_action": "remove",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-022",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-023",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-024",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-025",
+      "pnu": [
+        "U",
+        "P"
+      ],
+      "basis": "native_review_after_batch03",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json",
+      "owner_exception_review": "pending",
+      "decision_status": "pending_owner_conflict_clarification"
+    },
+    {
+      "id": "NEW-026",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-027",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-028",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "phone_basis": "owner_20261023_visible_absence_not_occlusion_unknown",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-029",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "phone_basis": "owner_20261023_visible_absence_not_occlusion_unknown",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-030",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "phone_basis": "owner_20261023_visible_absence_not_occlusion_unknown",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-031",
+      "pnu": [
+        "P",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-032",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "owner_batch04",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "phone_basis": "owner_20261023_visible_absence_not_occlusion_unknown",
+      "geometry_evidence": "additional-geometry-draft-r2.json",
+      "owner_exception_review": "pending"
+    },
+    {
+      "id": "NEW-033",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "phone_basis": "owner_20261023_visible_absence_not_occlusion_unknown",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-034",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "phone_basis": "owner_20261023_visible_absence_not_occlusion_unknown",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-035",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-036",
+      "pnu": [
+        "P",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-037",
+      "pnu": [
+        "P",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-038",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-039",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-040",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-041",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-042",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-043",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-044",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-045",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-046",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-047",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-048",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-049",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-050",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-051",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-052",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "owner_batch04",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "remove",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-053",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-054",
+      "pnu": [
+        "P",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-055",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-056",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json",
+      "decision_status": "pending_owner_conflict_clarification"
+    },
+    {
+      "id": "NEW-057",
+      "pnu": [
+        "U",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "owner_batch": "owner-review-batch-02.md",
+      "effective_action": "remove",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-058",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-059",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-060",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-061",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-062",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-063",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-064",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-065",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "phone_basis": "owner_20261023_visible_absence_not_occlusion_unknown",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-066",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-067",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-068",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-069",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "owner_batch04",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "remove",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-070",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-071",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-072",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-073",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-074",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-075",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-076",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-077",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-078",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-079",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-080",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-081",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-082",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-083",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-084",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-085",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "owner_batch04",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-086",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-087",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-088",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-089",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-090",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-091",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-092",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-093",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-094",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-095",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-096",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-097",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-098",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-099",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "owner_batch04",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "remove",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-100",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-101",
+      "pnu": [
+        "P",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-102",
+      "pnu": [
+        "P",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-103",
+      "pnu": [
+        "P",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-104",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-105",
+      "pnu": [
+        "P",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-106",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-107",
+      "pnu": [
+        "P",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-108",
+      "pnu": [
+        "P",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-109",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-110",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-111",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-112",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-113",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-114",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-115",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-116",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-117",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-118",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-119",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-120",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "owner_batch04",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-121",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-122",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "owner_batch": "owner-review-batch-02.md",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-123",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-124",
+      "pnu": [
+        "U",
+        "P"
+      ],
+      "basis": "owner_batch04",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-125",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "owner_batch04",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "remove",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-126",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-127",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-128",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "phone_basis": "owner_20261023_visible_absence_not_occlusion_unknown",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-129",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "phone_basis": "owner_20261023_visible_absence_not_occlusion_unknown",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-130",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "owner_batch04",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "remove",
+      "phone_basis": "owner_20261023_visible_absence_not_occlusion_unknown",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-131",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "phone_basis": "owner_20261023_visible_absence_not_occlusion_unknown",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-132",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "phone_basis": "owner_20261023_visible_absence_not_occlusion_unknown",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-133",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "owner_batch04",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-134",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-135",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-136",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-137",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-138",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-139",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-140",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-141",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-142",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-143",
+      "pnu": [
+        "P",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-144",
+      "pnu": [
+        "P",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-145",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-146",
+      "pnu": [
+        "P",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-147",
+      "pnu": [
+        "P",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-148",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-149",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-150",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "owner_batch": "owner-review-batch-02.md",
+      "effective_action": "remove",
+      "duplicate_of": "NEW-149",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-151",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-152",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-153",
+      "pnu": [
+        "N",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-154",
+      "pnu": [
+        "N",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-155",
+      "pnu": [
+        "P",
+        "N"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    },
+    {
+      "id": "NEW-156",
+      "pnu": [
+        "P",
+        "P"
+      ],
+      "basis": "visual_review_pairs_or_new_detail_boards",
+      "geometry": "overlay_screened_draft",
+      "input_224": "screened_before_geometry_changes",
+      "effective_action": "keep",
+      "geometry_evidence": "additional-geometry-draft-r2.json"
+    }
+  ],
+  "supersedes": "additional-annotations-draft-r4.json",
+  "replacement_pending": {
+    "id": "NEW-069",
+    "pnu": [
+      "N",
+      "N"
+    ],
+    "reason": "awaiting_exact_local_image_bytes"
+  }
+}

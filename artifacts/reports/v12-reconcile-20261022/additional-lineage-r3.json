@@ -1,0 +1,2461 @@
+{
+  "status": "visual_draft_not_owner_group_acceptance",
+  "matched_to_old_family": 134,
+  "unresolved_old_parent_count": 22,
+  "unresolved_new_scene_groups": 8,
+  "rows": [
+    {
+      "id": "NEW-001",
+      "sha256": "cf42f11d0e6b02b3726bf12f2428394b00d0798ff7e291310344867609e3c1b7",
+      "visual_family_reference_id": "V6R2-MP-035",
+      "reference_sha256": "828303d3f57d5ade248dcf337dc5602a25993cb0cddeb33f1786a2888b09913a",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-001.png",
+        "data/interim/v12-full-audit-20261021/images/1236-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-5a8153c0f8eb3b40",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-002",
+      "sha256": "93ce9404acc1a7fee863ee29da24e5cfabb3b8e4298082bfe9274d26c813433b",
+      "visual_family_reference_id": "G23-B08-F00011",
+      "reference_sha256": "998674135a03be5acb189d192bf9ba4ce63a162561211b10b9dcd2576f815f21",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-002.png",
+        "data/interim/v12-full-audit-20261021/images/0793-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-212fb8e3a88eb0c6",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-003",
+      "sha256": "55f1da94bc582cda8cbf5e648ce2427f7bc677016727623bcfb5a4694fd0c53e",
+      "visual_family_reference_id": "V6R2-MP-035",
+      "reference_sha256": "828303d3f57d5ade248dcf337dc5602a25993cb0cddeb33f1786a2888b09913a",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-003.png",
+        "data/interim/v12-full-audit-20261021/images/1236-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-5a8153c0f8eb3b40",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-004",
+      "sha256": "6b9305d188d1a78ca14d09bf4cbd600620e017b4711310184125295bcf412158",
+      "visual_family_reference_id": "G23-B08-F00011",
+      "reference_sha256": "998674135a03be5acb189d192bf9ba4ce63a162561211b10b9dcd2576f815f21",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-004.png",
+        "data/interim/v12-full-audit-20261021/images/0793-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-212fb8e3a88eb0c6",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-005",
+      "sha256": "76b115d162934364a10cf2ea91199367cedf7167c6c27263538bdb612f25fecc",
+      "visual_family_reference_id": "V6R2-MP-035",
+      "reference_sha256": "828303d3f57d5ade248dcf337dc5602a25993cb0cddeb33f1786a2888b09913a",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-005.png",
+        "data/interim/v12-full-audit-20261021/images/1236-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-5a8153c0f8eb3b40",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-006",
+      "sha256": "1af7557086e756b4fd0905d66cd9b92d4107e8f226042857b53c6a0307d9e75f",
+      "visual_family_reference_id": "V6R2-MP-035",
+      "reference_sha256": "828303d3f57d5ade248dcf337dc5602a25993cb0cddeb33f1786a2888b09913a",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-006.png",
+        "data/interim/v12-full-audit-20261021/images/1236-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-5a8153c0f8eb3b40",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-007",
+      "sha256": "a5f3fe56d11e722fda6738dc5886bb6a7002469952f9c435a8af6481d4af2c49",
+      "visual_family_reference_id": "G23-B08-F00011",
+      "reference_sha256": "998674135a03be5acb189d192bf9ba4ce63a162561211b10b9dcd2576f815f21",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-007.png",
+        "data/interim/v12-full-audit-20261021/images/0793-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-212fb8e3a88eb0c6",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-008",
+      "sha256": "0b928296428a0550de0a56ec796099bd927547ead5228b3eeb2a0a1b9558677a",
+      "visual_family_reference_id": "V6R2-MP-035",
+      "reference_sha256": "828303d3f57d5ade248dcf337dc5602a25993cb0cddeb33f1786a2888b09913a",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-008.png",
+        "data/interim/v12-full-audit-20261021/images/1236-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-5a8153c0f8eb3b40",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-009",
+      "sha256": "1a13bf03b91693858c34b757e4a168ecc368eb2d8cae3bfdb2ba89a0471a186c",
+      "visual_family_reference_id": "V6R2-MP-035",
+      "reference_sha256": "828303d3f57d5ade248dcf337dc5602a25993cb0cddeb33f1786a2888b09913a",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-009.png",
+        "data/interim/v12-full-audit-20261021/images/1236-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-5a8153c0f8eb3b40",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-010",
+      "sha256": "9c716d737464e47ee4419bec195c8d4f2bd68ee54e708a98a52fa279b35b80af",
+      "visual_family_reference_id": "V6R2-MP-028",
+      "reference_sha256": "408dc48b8d35b21c9212f2e9b678bb56eca1f72e796ccf4620d737bb40a9259a",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-010.png",
+        "data/interim/v12-full-audit-20261021/images/1229-crop.png"
+      ],
+      "existing_leakage_group_hint": "V7-G-2a44130a4d5f7ba39107",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-011",
+      "sha256": "89a50a92876e6d70faa31721a0f4229e00da738f0c75137406e5f09cbe6d6b88",
+      "visual_family_reference_id": "CB-0317",
+      "reference_sha256": "34b08a142cf1762375aee8e25425731dd69a26691a4ed49f796adf23845beff3",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-011.png",
+        "data/interim/v12-full-audit-20261021/images/0074-crop.jpg"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-012",
+      "sha256": "c7de46338b989d68c1f7b38e7f5b8a785274a18780003e95527b803a42e3103a",
+      "visual_family_reference_id": "G2-A01-F001",
+      "reference_sha256": "a354653bf1ad16a65d2f5f975689b37e4797c64ae46234f15d51afbbcc28c066",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-012.png",
+        "data/interim/v12-full-audit-20261021/images/0734-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-013",
+      "sha256": "c2eccdbd700e888088bfe49c40395965d093649fac3856816767896df8e29e5e",
+      "visual_family_reference_id": "V6R2-MP-053-R04",
+      "reference_sha256": "fcb25c87e8850a8019c647c04a7cadea803707acbd8338f1bd0bc37b7cb6c8df",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-013.png",
+        "data/interim/v12-full-audit-20261021/images/1251-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-5a8153c0f8eb3b40",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-014",
+      "sha256": "e41def6502df9d977e0439f686354207a0c3854fe9c552347a536745042fc04f",
+      "visual_family_reference_id": null,
+      "reference_sha256": null,
+      "reference_old_action": null,
+      "parent_recipe_verified": false,
+      "status": "new_family_identified_old_parent_unresolved",
+      "new_scene_group": "NEW-SCENE-014",
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-014.png"
+      ],
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-015",
+      "sha256": "f10806cd78d75c357776686e99192bdf5232b8121d37942e572621ae73546edc",
+      "visual_family_reference_id": "V6R2-MP-032",
+      "reference_sha256": "29bf4c97a1d840d6b604c3b80ef293340fb4918bc6aebff6b9467b9dc15e5027",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-015.png",
+        "data/interim/v12-full-audit-20261021/images/1233-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-5a8153c0f8eb3b40",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-016",
+      "sha256": "7f93b2a80b666867248a468a341d378e7c6a3241321d76362bb4c0140250481c",
+      "visual_family_reference_id": "CB-0428",
+      "reference_sha256": "fc3c939f692e0e88d58d30daef08cea13bc5544d2b633e682dfec0d96c7134b6",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-016.png",
+        "data/interim/v12-full-audit-20261021/images/0085-crop.jpg"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-017",
+      "sha256": "d4adf6b72a0481fbad5c7488c15ecce0d14546b2497c23cc77d8879ff5729af1",
+      "visual_family_reference_id": "V6R2-MP-082",
+      "reference_sha256": "6223df1fe0d274c7a3b7760117cd61ab3fe0a11bd5fb880fe4b048a3af94a39a",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-017.png",
+        "data/interim/v12-full-audit-20261021/images/1274-crop.png"
+      ],
+      "existing_leakage_group_hint": "V7-G-2a44130a4d5f7ba39107",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-018",
+      "sha256": "69d24765dc64125b8f3196c83da0d82a7571b8de5e3a9257a279f0c680adf524",
+      "visual_family_reference_id": null,
+      "reference_sha256": null,
+      "reference_old_action": null,
+      "parent_recipe_verified": false,
+      "status": "new_family_identified_old_parent_unresolved",
+      "new_scene_group": "NEW-SCENE-014",
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-018.png"
+      ],
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-019",
+      "sha256": "abfef01eaa1de5487e8e09dff2526897d83b70b2c0f0adf2438d1d21b5d79854",
+      "visual_family_reference_id": "V6-SB-012",
+      "reference_sha256": "4cb27eaf92414c50f540532f3e8efdfc872e0d0ed43f3127b909dbeb500dc09e",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-019.png",
+        "data/interim/v12-full-audit-20261021/images/1146-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-5a8153c0f8eb3b40",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-020",
+      "sha256": "5d9c820cf176c782e37d31e9bd733d823b1a74374328dec2e8b0008f21ae0a57",
+      "visual_family_reference_id": "G2-A01-F001",
+      "reference_sha256": "a354653bf1ad16a65d2f5f975689b37e4797c64ae46234f15d51afbbcc28c066",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-020.png",
+        "data/interim/v12-full-audit-20261021/images/0734-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-021",
+      "sha256": "76867e64604240fe8534d752253e72ccfd19bf8a250baa9f36ff4ef5babc36de",
+      "visual_family_reference_id": "V6R2-MP-024-R04",
+      "reference_sha256": "6aa7203048ddd21d3d1951a98af825a947f5c194ea90e9c8af5d4c85a3f39a4c",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-021.png",
+        "data/interim/v12-full-audit-20261021/images/1226-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-5a8153c0f8eb3b40",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-022",
+      "sha256": "dd9119b57cef47376c88609dd8255ae350d0555279e1809c08b8e73f5d0ee721",
+      "visual_family_reference_id": "CB-0647",
+      "reference_sha256": "fec08bcd4731caabdfee64a8d8a906b2ecea72194f36a925ee4f5b95e8d4b454",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-022.png",
+        "data/interim/v12-full-audit-20261021/images/0128-crop.jpg"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-023",
+      "sha256": "77296fc97adb07cce33c37a3ee8369664f026301c2e0ab329dbdc59938485e4e",
+      "visual_family_reference_id": "V6-SB-009",
+      "reference_sha256": "e343f642d35e085df89af749492b1f24078864132f356c84319211f50e97a49d",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-023.png",
+        "data/interim/v12-full-audit-20261021/images/1144-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-5a8153c0f8eb3b40",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-024",
+      "sha256": "df19d687b31a8e9d25270caecb960cc6f6f438f76795630c6e1a4f30077b38e4",
+      "visual_family_reference_id": "V6-SB-012",
+      "reference_sha256": "4cb27eaf92414c50f540532f3e8efdfc872e0d0ed43f3127b909dbeb500dc09e",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-024.png",
+        "data/interim/v12-full-audit-20261021/images/1146-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-5a8153c0f8eb3b40",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-025",
+      "sha256": "65618bf85932609c0d31438546a9819723fb58d38badc9b27605aa0c55385582",
+      "visual_family_reference_id": "V6R2-MP-038",
+      "reference_sha256": "18c9a28e806161c9eb060c683b67881a599791b1f7d556a0a9e61d688e2a592d",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-025.png",
+        "data/interim/v12-full-audit-20261021/images/1238-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-5a8153c0f8eb3b40",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-026",
+      "sha256": "aa7d5568f44b1c98a943452fdd58336c240017bd7c5f97c771c50114012b361a",
+      "visual_family_reference_id": "V6-SB-003",
+      "reference_sha256": "982fa92661f328f307ce4f279a35b273e19a01bf20a80a39473ff063f44f812d",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-026.png",
+        "data/interim/v12-full-audit-20261021/images/1140-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-5a8153c0f8eb3b40",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-027",
+      "sha256": "bde2825488e851a189d97eecfac1649ba0b0eb6564dafe1de6a6550568a09a85",
+      "visual_family_reference_id": "V6R2-MP-086",
+      "reference_sha256": "4d7ce699f86d9e5729eab91ac65f00b17951f4587d8b7a456a7cef5fcb6bee84",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-027.png",
+        "data/interim/v12-full-audit-20261021/images/1277-crop.png"
+      ],
+      "existing_leakage_group_hint": "V7-G-2a44130a4d5f7ba39107",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-028",
+      "sha256": "bbfbe60991477c449a802da3dc58c0a0e73cd4a90b5f7cc7efe30b917e16ddf0",
+      "visual_family_reference_id": "EXP-SCB-045",
+      "reference_sha256": "3fbd039fc284f30a9f35ea7fd3e6a116c9ab6ed809ef92b769d6715d98674c70",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-028.png",
+        "data/interim/v12-full-audit-20261021/images/0533-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-f1f4cd90327755bf",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-029",
+      "sha256": "9a0386d7b9a5c23779619ec94e91e8a45ec72bdae42b8f78556c1ac9dbe981d6",
+      "visual_family_reference_id": "EXP-SCB-045",
+      "reference_sha256": "3fbd039fc284f30a9f35ea7fd3e6a116c9ab6ed809ef92b769d6715d98674c70",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-029.png",
+        "data/interim/v12-full-audit-20261021/images/0533-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-f1f4cd90327755bf",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-030",
+      "sha256": "f0d5f29dc507e20a3197f34c0f2f000ef4e96dee7bd32704ac16eead01470279",
+      "visual_family_reference_id": "EXP-SCB-045",
+      "reference_sha256": "3fbd039fc284f30a9f35ea7fd3e6a116c9ab6ed809ef92b769d6715d98674c70",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-030.png",
+        "data/interim/v12-full-audit-20261021/images/0533-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-f1f4cd90327755bf",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-031",
+      "sha256": "382904d5eeae829c7a3002f39bdc7b7ccf8a65f6eaaf73f4dfb5e04d6674a723",
+      "visual_family_reference_id": null,
+      "reference_sha256": null,
+      "reference_old_action": null,
+      "parent_recipe_verified": false,
+      "status": "new_family_identified_old_parent_unresolved",
+      "new_scene_group": "NEW-SCENE-031",
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-031.png"
+      ],
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-032",
+      "sha256": "e76f3d392661c54e8c4f7fbb0b7e3477069b9232dd2523a4b468ffbb63fd20eb",
+      "visual_family_reference_id": "SCB-turnhead-024",
+      "reference_sha256": "c5660139bf74238c6a07e932b1c1f8aff8d51293bc355037dcaad8b45dc93a0d",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-032.png",
+        "data/interim/v12-full-audit-20261021/images/1049-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-199824f94cff596a",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-033",
+      "sha256": "d80dc05a395a6a0f2129a4857bb2b92e506308c170f24e013d04d9eacb4e8e7c",
+      "visual_family_reference_id": "SCB-turnhead-024",
+      "reference_sha256": "c5660139bf74238c6a07e932b1c1f8aff8d51293bc355037dcaad8b45dc93a0d",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-033.png",
+        "data/interim/v12-full-audit-20261021/images/1049-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-199824f94cff596a",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-034",
+      "sha256": "84358ab508af95dc540af50a8b3febccd2d224f178b11edef37d650316dc10f2",
+      "visual_family_reference_id": "SCB-turnhead-024",
+      "reference_sha256": "c5660139bf74238c6a07e932b1c1f8aff8d51293bc355037dcaad8b45dc93a0d",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-034.png",
+        "data/interim/v12-full-audit-20261021/images/1049-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-199824f94cff596a",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-035",
+      "sha256": "f44ae9e00ef085fb6485ebc294c52d105fea84d42a83b5fa2463f86d3230c67d",
+      "visual_family_reference_id": "G23-B08-F00011",
+      "reference_sha256": "998674135a03be5acb189d192bf9ba4ce63a162561211b10b9dcd2576f815f21",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-035.png",
+        "data/interim/v12-full-audit-20261021/images/0793-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-212fb8e3a88eb0c6",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-036",
+      "sha256": "30319ef03ceffe0222aed24dfbf44e80cf7b05bfb09fa43fdbeec061897e5f7b",
+      "visual_family_reference_id": "G23-B08-F00011",
+      "reference_sha256": "998674135a03be5acb189d192bf9ba4ce63a162561211b10b9dcd2576f815f21",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-036.png",
+        "data/interim/v12-full-audit-20261021/images/0793-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-212fb8e3a88eb0c6",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-037",
+      "sha256": "4fa05394f2ac8fd058553143701dd23393edc4f17344acbfe81efc90afdc5526",
+      "visual_family_reference_id": null,
+      "reference_sha256": null,
+      "reference_old_action": null,
+      "parent_recipe_verified": false,
+      "status": "new_family_identified_old_parent_unresolved",
+      "new_scene_group": "NEW-SCENE-031",
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-037.png"
+      ],
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-038",
+      "sha256": "75f2d9ac50e5e6b93ba99f87591a56e0629122fa34cd93acbac7cfc9547276db",
+      "visual_family_reference_id": "G09-B05-F00043",
+      "reference_sha256": "7dde560346abe4bca858d4cb151c7d6c0ff8b227563e90b9dea177ac84cbe030",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-038.png",
+        "data/interim/v12-full-audit-20261021/images/0628-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-3ba00f62d1124398",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-039",
+      "sha256": "5958f25f9b1834f4aa21e7bd977e8b40fd20a932c54b095c9da4aa1bf4efdc98",
+      "visual_family_reference_id": "G09-B05-F00043",
+      "reference_sha256": "7dde560346abe4bca858d4cb151c7d6c0ff8b227563e90b9dea177ac84cbe030",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-039.png",
+        "data/interim/v12-full-audit-20261021/images/0628-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-3ba00f62d1124398",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-040",
+      "sha256": "d35fa780e3cffaf7a3e7c2456c520ad5eac699dab78cbc7b637dec34bd5b8b6e",
+      "visual_family_reference_id": "NB-0053",
+      "reference_sha256": "b72ef85211513bf7328cad9e4aaf79e64e6a512343628b14c1db4f73850295eb",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-040.png",
+        "data/interim/v12-full-audit-20261021/images/0953-crop.jpg"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-041",
+      "sha256": "52057116e582e873f52b348a376df935760605e85abd1304dc9d891e33f8b19e",
+      "visual_family_reference_id": "NB-0053",
+      "reference_sha256": "b72ef85211513bf7328cad9e4aaf79e64e6a512343628b14c1db4f73850295eb",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-041.png",
+        "data/interim/v12-full-audit-20261021/images/0953-crop.jpg"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-042",
+      "sha256": "7af43cd0f3b36d152c5174fcc6bfd7044d67656c7bc239e28b9596374d94fde2",
+      "visual_family_reference_id": "NB-0053",
+      "reference_sha256": "b72ef85211513bf7328cad9e4aaf79e64e6a512343628b14c1db4f73850295eb",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-042.png",
+        "data/interim/v12-full-audit-20261021/images/0953-crop.jpg"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-043",
+      "sha256": "61db92a4cad7556731ff9ac61646246fec06c0c5b0949348ff8f0f37c8df9e6e",
+      "visual_family_reference_id": "G05-B03-F00039",
+      "reference_sha256": "113c434be08dea0d07a66e96464d1c4b8cb5fed9a355438613b66eabfe05d346",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-043.png",
+        "data/interim/v12-full-audit-20261021/images/0584-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-dd195a952d5ce32c",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-044",
+      "sha256": "1680f08db3cd41116873940a49806200dcac9c1706d7d1e6a2c3846ee2230e88",
+      "visual_family_reference_id": "NC-010",
+      "reference_sha256": "093aa539f125809a0db430862d648743723b16905de085bf16a550bdb9ddacc7",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-044.png",
+        "data/interim/v12-full-audit-20261021/images/0995-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-045",
+      "sha256": "7a25b66ade06432bac482179b321ce16238a2994f6c438c65a12b5cab436ffd4",
+      "visual_family_reference_id": "G26-B03-F00002",
+      "reference_sha256": "fbaad371e02a84b9476d2087d16aee1c78470dc4540aeed0cd0447d2357d6f24",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-045.png",
+        "data/interim/v12-full-audit-20261021/images/0822-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-212fb8e3a88eb0c6",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-046",
+      "sha256": "6a4ceb90c944a1ffa4e07c3dd384ecfb41d5b6633a002fe528e86567968c188c",
+      "visual_family_reference_id": "G11-B04-F00008",
+      "reference_sha256": "024e6644977d69037d3f8eddd97a5672312ca17b062de718d388cb05226ee75c",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-046.png",
+        "data/interim/v12-full-audit-20261021/images/0660-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-047",
+      "sha256": "aef99f01614bf0933f4b6029b570392b80d602053d27a1e9a8b4347e2f08907e",
+      "visual_family_reference_id": "G04-A03-F00010",
+      "reference_sha256": "2d65a527e795b967a8949742a8410dbd5260adf37d967bc14613e46cee7f6486",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-047.png",
+        "data/interim/v12-full-audit-20261021/images/0561-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-048",
+      "sha256": "c6321c526f3d3bb16a63822dd45767751b76465e144cef09cd895f861008686e",
+      "visual_family_reference_id": "G26-B23-F00018",
+      "reference_sha256": "26f546f5b33a6b092def3f43b92279d5560ceaa5f9968edcb39b716063d2297c",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-048.png",
+        "data/interim/v12-full-audit-20261021/images/0836-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-212fb8e3a88eb0c6",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-049",
+      "sha256": "87b04113f5c279a1c212d9a928973667476e724c8622fd74599f7c6117e6b4dc",
+      "visual_family_reference_id": "G23-B14-F00013",
+      "reference_sha256": "d525c1ff3a15539279eb3c099a98dcc2e9fcae7fe31ff22cd380563081201f8d",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-049.png",
+        "data/interim/v12-full-audit-20261021/images/0799-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-212fb8e3a88eb0c6",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-050",
+      "sha256": "03afe228247255b9bcfc2ad7ce0047f08d6c5192f7e9dd8836d3b4e4eab9d6a2",
+      "visual_family_reference_id": "CB-0189",
+      "reference_sha256": "227eb6e758e8159bb293dd93ed71265386ddd08f7c6cb9e2f52ec33771badd10",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-050.png",
+        "data/interim/v12-full-audit-20261021/images/0053-crop.jpg"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-051",
+      "sha256": "32f17a3f490197ef3a1e5c438d97ddad342ea1b627fcb41fbefea2dc628df270",
+      "visual_family_reference_id": "CB-0473",
+      "reference_sha256": "f945d88d56dccb3616c43942b66b8945ba1fb9ee6276d4928d5b955597f26708",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-051.png",
+        "data/interim/v12-full-audit-20261021/images/0087-crop.jpg"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-052",
+      "sha256": "46014bf7d8045f501d789cbfe79751861f6ef25a1e4cb81d63093118b1f261d7",
+      "visual_family_reference_id": "CB-0405",
+      "reference_sha256": "a88ec7569b71bbeb4650dd7b8d300b2ba1b37098b4445bcc00debd88c909ce18",
+      "reference_old_action": "recrop",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-052.png",
+        "data/interim/v12-full-audit-20261021/images/0083-crop.jpg"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-053",
+      "sha256": "73cdc1d8ee888a478c5605702385280c3b758f7f7ba6c275eea36b856ad8e819",
+      "visual_family_reference_id": "G05-B03-F00039",
+      "reference_sha256": "113c434be08dea0d07a66e96464d1c4b8cb5fed9a355438613b66eabfe05d346",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-053.png",
+        "data/interim/v12-full-audit-20261021/images/0584-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-dd195a952d5ce32c",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-054",
+      "sha256": "7f740972f19e7b77eefe6e3f39424098f6b915297d495601e1df2e503413108c",
+      "visual_family_reference_id": "G18-A03-F00010",
+      "reference_sha256": "9bc6af0fd22d971db1809bb51e4ebf5a13295eb030630f69a02c88708a9bd9ca",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-054.png",
+        "data/interim/v12-full-audit-20261021/images/0730-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-055",
+      "sha256": "d8bf76ce125663262dab7c450db54ec2c17983e5929d2dd534c5cc73a70516e7",
+      "visual_family_reference_id": "CB-0657",
+      "reference_sha256": "432b2cf2b27f2ff3c983d25a0b346e9a30d5c098998421bed97cafaf05c94dd1",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-055.png",
+        "data/interim/v12-full-audit-20261021/images/0133-crop.jpg"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-056",
+      "sha256": "4b1e5986498428d6886c31c8a81e4d7766baac103d2ee094e46aa97e7195f794",
+      "visual_family_reference_id": "G13-B03-F00010",
+      "reference_sha256": "7f0f0959781493633c278401d42d10e34fdc66d095b7ee3ad0adcf23105a521b",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-056.png",
+        "data/interim/v12-full-audit-20261021/images/0690-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-212fb8e3a88eb0c6",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-057",
+      "sha256": "92cc43600f3fec43c84a530e7b1308de0dfa3d5d363f48b1f83ba6b2a4f29a87",
+      "visual_family_reference_id": "G2-A09-F041",
+      "reference_sha256": "2299b765d100e3fb7d0a8b666960d7104756c86a9c94d23b9244cc51fc1adb17",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-057.png",
+        "data/interim/v12-full-audit-20261021/images/0749-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-058",
+      "sha256": "422eb6b236226e802c6bd2cdd49637e1fb8ece8363ba37279841d153d48e896f",
+      "visual_family_reference_id": "G09-B05-F00043",
+      "reference_sha256": "7dde560346abe4bca858d4cb151c7d6c0ff8b227563e90b9dea177ac84cbe030",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-058.png",
+        "data/interim/v12-full-audit-20261021/images/0628-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-3ba00f62d1124398",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-059",
+      "sha256": "7cbf39126175975efd940542604ffdf61efdd9aad8618ec914af6061645d3583",
+      "visual_family_reference_id": "CB-0152",
+      "reference_sha256": "3ab799066909b3843841c5e4e3b4426b025eda8b6398ad49feadb21b31a07a04",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-059.png",
+        "data/interim/v12-full-audit-20261021/images/0048-crop.jpg"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-060",
+      "sha256": "9891d0196a8e98265fe3c8dc721d2fdda5f734314a6e9e730c3867b49563ffed",
+      "visual_family_reference_id": "NA-005",
+      "reference_sha256": "201c323aadcd04249ab8f1f61fe09fac45477a40f2085416988cccc63c01cd64",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-060.png",
+        "data/interim/v12-full-audit-20261021/images/0898-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-061",
+      "sha256": "6bc9ab182c5b9b750389f614ddcd7a2220e646fa82a43223ec9912a8a12b0cee",
+      "visual_family_reference_id": "G14-A09-F00027",
+      "reference_sha256": "0e584c1152faf6f8b85353d03583258b85abee510b16a6c95f63938df59446dd",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-061.png",
+        "data/interim/v12-full-audit-20261021/images/0707-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-212fb8e3a88eb0c6",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-062",
+      "sha256": "6679b8222057b1f8be708a77bf3b1e7b7b162afa35188964fb91399637b7c071",
+      "visual_family_reference_id": "CB-0033",
+      "reference_sha256": "505f227701fcbfeeaa88be2fcac4fff877a8d7646d19c459d5882f7f1a4e000c",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-062.png",
+        "data/interim/v12-full-audit-20261021/images/0027-crop.jpg"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-063",
+      "sha256": "2ad4f8911c4e938613a24dc5f03910a450bffaa6cc5c58bdd8d9016291a789f7",
+      "visual_family_reference_id": "NC-002",
+      "reference_sha256": "6d4d3738eac64c22a7a0f2df5a81544d856c310b21f4dc7f3c700b08109f1122",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-063.png",
+        "data/interim/v12-full-audit-20261021/images/0987-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-064",
+      "sha256": "8b87341db573232414503cf4a262565360417d469b1aa0b6eb675d78c1331cb8",
+      "visual_family_reference_id": "CB-0653",
+      "reference_sha256": "51185b2a0f481450fd80422d4adff24a7d54c48a001f2d93f46cbc6b4c17f1fc",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-064.png",
+        "data/interim/v12-full-audit-20261021/images/0131-crop.jpg"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-065",
+      "sha256": "943cff1039fec8735ba6986f5871ce714c07bccd187d7fe93efb2d49c7050b00",
+      "visual_family_reference_id": "SCB-turnhead-005",
+      "reference_sha256": "4cd2471369f6b2442bf719fabe27fb8622e38f8910e6175539d23c5ac36d16d1",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-065.png",
+        "data/interim/v12-full-audit-20261021/images/1038-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-adab5098c70c2244",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-066",
+      "sha256": "b3484de2dc6142ed8047a1a929b97019e2eadcb43c6e70ade07693df34a9941b",
+      "visual_family_reference_id": null,
+      "reference_sha256": null,
+      "reference_old_action": null,
+      "parent_recipe_verified": false,
+      "status": "new_family_identified_old_parent_unresolved",
+      "new_scene_group": "NEW-SCENE-066",
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-066.png"
+      ],
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-067",
+      "sha256": "8723b035ca6070452aa8718d949287f2f900a75d42fc093b8db34c1ae28d1fd2",
+      "visual_family_reference_id": "V6-SB-013",
+      "reference_sha256": "bd6daa2114e6578d48d83e7c025b9cba8df059fcf65c78b1093349acc1cc8e44",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-067.png",
+        "data/interim/v12-full-audit-20261021/images/1147-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-5a8153c0f8eb3b40",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-068",
+      "sha256": "777a11a82898fee67f600ae64dd7011ea4c665fa63b672bef729edbc25c4d19c",
+      "visual_family_reference_id": "E004-EX-C022",
+      "reference_sha256": "6b845d8fadd5d6646f8dee18cf13403e30ed89622003087e3ffe82b6b4cba0db",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-068.png",
+        "data/interim/v12-full-audit-20261021/images/0277-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-f16711f05a567204",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-069",
+      "sha256": "af0895378ad2bb775130a57ae1a231e56f697a0c979999bcca51e3496a8f9059",
+      "visual_family_reference_id": "G2-A10-F029",
+      "reference_sha256": "52e4ab74654710713ba1e1b94bd55df6212bde68dcc425e2c5ca487c41eab9b1",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional-replacements/NEW-069.png",
+        "data/interim/v12-full-audit-20261021/images/0751-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe",
+      "replacement_relation": "same_visual_family_rechecked_against_NEW070_and_G2-A10-F029"
+    },
+    {
+      "id": "NEW-070",
+      "sha256": "dce33864423e1b94eeceb380ab4a5a760f0314b770b53d8df250204987e637a4",
+      "visual_family_reference_id": "G2-A10-F029",
+      "reference_sha256": "52e4ab74654710713ba1e1b94bd55df6212bde68dcc425e2c5ca487c41eab9b1",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-070.png",
+        "data/interim/v12-full-audit-20261021/images/0751-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-071",
+      "sha256": "8d38827769ed82542a796331ea35ade4dd0f6f420e86b98acd8404590edd8ee0",
+      "visual_family_reference_id": "G2-A06-F149",
+      "reference_sha256": "6fb8112edabc5538ed50cc32879a455e27da06668174031f0ef6a322d9ae2b34",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-071.png",
+        "data/interim/v12-full-audit-20261021/images/0743-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-072",
+      "sha256": "f9406eb1c5203385694b41aae7943d5e36087de9ac748768148683072c45ee14",
+      "visual_family_reference_id": "G2-A06-F149",
+      "reference_sha256": "6fb8112edabc5538ed50cc32879a455e27da06668174031f0ef6a322d9ae2b34",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-072.png",
+        "data/interim/v12-full-audit-20261021/images/0743-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-073",
+      "sha256": "f323a630faa7450a2cd7baf9307ceaa41c097c1e638e3a71d3253a6794d41273",
+      "visual_family_reference_id": "G13-B02-F00009",
+      "reference_sha256": "6792fb7db1b9c63dccba2b7afd9daaf4bc0c0fdbe89a90672e2425f96a8499be",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-073.png",
+        "data/interim/v12-full-audit-20261021/images/0688-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-212fb8e3a88eb0c6",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-074",
+      "sha256": "d23f7ed7165a4dff8b9bb8b44c0190cfdc7a9f10f90c8ba3f4c1f745667ab256",
+      "visual_family_reference_id": "G13-B02-F00009",
+      "reference_sha256": "6792fb7db1b9c63dccba2b7afd9daaf4bc0c0fdbe89a90672e2425f96a8499be",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-074.png",
+        "data/interim/v12-full-audit-20261021/images/0688-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-212fb8e3a88eb0c6",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-075",
+      "sha256": "941af63b593eab2078f44e00c44623d6e8a16a1bac326702e8abedc9e1b80514",
+      "visual_family_reference_id": "G23-A03-F00009",
+      "reference_sha256": "359814cd44b0ce20f028afc5aa4778623977519a98db115ee8a4c9773f29b730",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-075.png",
+        "data/interim/v12-full-audit-20261021/images/0784-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-212fb8e3a88eb0c6",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-076",
+      "sha256": "722dc2cf718980758b05bd7f4673889edc28e7ca93c01c5cb675248c479141b2",
+      "visual_family_reference_id": "G23-A03-F00009",
+      "reference_sha256": "359814cd44b0ce20f028afc5aa4778623977519a98db115ee8a4c9773f29b730",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-076.png",
+        "data/interim/v12-full-audit-20261021/images/0784-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-212fb8e3a88eb0c6",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-077",
+      "sha256": "37feb528f5359fb48bd653a64de7f0963d66f1d7ced301f9c42edc398c81bde8",
+      "visual_family_reference_id": "G26-B03-F00002",
+      "reference_sha256": "fbaad371e02a84b9476d2087d16aee1c78470dc4540aeed0cd0447d2357d6f24",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-077.png",
+        "data/interim/v12-full-audit-20261021/images/0822-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-212fb8e3a88eb0c6",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-078",
+      "sha256": "2c35da280ceb9f5f50bea0cbdcd7f46c93e54a489241798c5706ec76261fb91a",
+      "visual_family_reference_id": "G13-B01-F00009",
+      "reference_sha256": "dbd676cca6af9fb7d67d82060cec5695b7bfd7466426f702f2da14de974bd7ee",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-078.png",
+        "data/interim/v12-full-audit-20261021/images/0687-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-212fb8e3a88eb0c6",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-079",
+      "sha256": "559ece48adab4f178c6fa4c008bd0e02d66865010c662eb0fc1693f3b4b1c2dd",
+      "visual_family_reference_id": "V7-B-059",
+      "reference_sha256": "621bc536cd974d44338abf1103f94ffbbc9c7d81daa0cd82b9877e1167510dde",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-079.png",
+        "data/interim/v12-full-audit-20261021/images/1361-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-6d753f357b929402",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-080",
+      "sha256": "0657f78432141d204a88a2a7b19a36656c72b4bed5a6ba6ac06139c2aa5998ec",
+      "visual_family_reference_id": "V7-B-059",
+      "reference_sha256": "621bc536cd974d44338abf1103f94ffbbc9c7d81daa0cd82b9877e1167510dde",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-080.png",
+        "data/interim/v12-full-audit-20261021/images/1361-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-6d753f357b929402",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-081",
+      "sha256": "a88813e8d2d41340125559270abd9affe19a59ec3e5b1434968056a603313a6e",
+      "visual_family_reference_id": "G16-A02-F00027",
+      "reference_sha256": "85bd6bd7349d773fc1a50b94bceca470b08df752612ff69ff0acad17b82544e8",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-081.png",
+        "data/interim/v12-full-audit-20261021/images/0723-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-082",
+      "sha256": "9838e2fc3e3504dc1d62a520615534380a30fc13b28fb551373b3d49ecd53218",
+      "visual_family_reference_id": "G16-A02-F00027",
+      "reference_sha256": "85bd6bd7349d773fc1a50b94bceca470b08df752612ff69ff0acad17b82544e8",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-082.png",
+        "data/interim/v12-full-audit-20261021/images/0723-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-083",
+      "sha256": "32231795718598d77924749c30709a3e6145c2e5b3595238925b9a8e9aabe8f0",
+      "visual_family_reference_id": "G16-A02-F00043",
+      "reference_sha256": "6902331b5a9568ab1df46e24bd11a13e83ea35e5ac6177c04cb9343f168536c1",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-083.png",
+        "data/interim/v12-full-audit-20261021/images/0724-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-084",
+      "sha256": "4918de1713c244ff507bd52de858f6b08b19f766909a11f73ccffb504bf45daf",
+      "visual_family_reference_id": "G16-A02-F00043",
+      "reference_sha256": "6902331b5a9568ab1df46e24bd11a13e83ea35e5ac6177c04cb9343f168536c1",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-084.png",
+        "data/interim/v12-full-audit-20261021/images/0724-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-085",
+      "sha256": "efeb204b0e9faf15fa91b32f9dded8f8839ad2edbd9be5e96a9c6833fb5e828e",
+      "visual_family_reference_id": "E004-CN-045",
+      "reference_sha256": "d0857a7ca108ed66fce583e81d71b358ded05a6a514e2d6333f397b39cba5111",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-085.png",
+        "data/interim/v12-full-audit-20261021/images/0247-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-b3d0f3168bae23e6",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-086",
+      "sha256": "6830172c12e7ba1d0d4c4d05c6380b6194039fda1e3ad5b10dc80d3cb2c8be14",
+      "visual_family_reference_id": "E004-CN-045",
+      "reference_sha256": "d0857a7ca108ed66fce583e81d71b358ded05a6a514e2d6333f397b39cba5111",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-086.png",
+        "data/interim/v12-full-audit-20261021/images/0247-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-b3d0f3168bae23e6",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-087",
+      "sha256": "eb6026613d9742fde6411c32fa1a96b8a73f39c2fd4e67bd3da7964ce6eb0889",
+      "visual_family_reference_id": "E004-CN-045",
+      "reference_sha256": "d0857a7ca108ed66fce583e81d71b358ded05a6a514e2d6333f397b39cba5111",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-087.png",
+        "data/interim/v12-full-audit-20261021/images/0247-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-b3d0f3168bae23e6",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-088",
+      "sha256": "3be9ae1fed2f0fd9c12030ea53d95e98e3e68d57dafc41799768718fcd189272",
+      "visual_family_reference_id": "V6R2-MP-006",
+      "reference_sha256": "b4f3f915c69755c01ca4ebab8a533c7bd4da63cb7afe60fe5be2b3d07ef538c5",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-088.png",
+        "data/interim/v12-full-audit-20261021/images/1212-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-5a8153c0f8eb3b40",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-089",
+      "sha256": "278073049f2ab175852cc2baa676ba89dbde5253c8d70239f35afca48ccf1951",
+      "visual_family_reference_id": "V6R2-MP-006",
+      "reference_sha256": "b4f3f915c69755c01ca4ebab8a533c7bd4da63cb7afe60fe5be2b3d07ef538c5",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-089.png",
+        "data/interim/v12-full-audit-20261021/images/1212-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-5a8153c0f8eb3b40",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-090",
+      "sha256": "aed4eaec711bd284f7e1a18c7b681be549ec68c33079ee989be7a0dbe7d5f58d",
+      "visual_family_reference_id": "V6R2-CA-008-ADD02",
+      "reference_sha256": "768faf578dd87d7a6a4b64fd2f890ef7f466fae59959792fae939ed8ba7039ad",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-090.png",
+        "data/interim/v12-full-audit-20261021/images/1180-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-bb79f6ea3e90b19c",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-091",
+      "sha256": "48437a03e0937575940768008480ff7d5702f94d3df810cc0b393de1928b8be7",
+      "visual_family_reference_id": "CB-0518-R1",
+      "reference_sha256": "5a8370927af28c4cb8c6adcbfe0be4c252668b2f18bb140159ab08cb8358554b",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-091.png",
+        "data/interim/v12-full-audit-20261021/images/0095-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-092",
+      "sha256": "54d9b81e4a19cfa7f2b9118991adb07354d27563b21be589b70406fd25260732",
+      "visual_family_reference_id": "CB-0518-R1",
+      "reference_sha256": "5a8370927af28c4cb8c6adcbfe0be4c252668b2f18bb140159ab08cb8358554b",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-092.png",
+        "data/interim/v12-full-audit-20261021/images/0095-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-093",
+      "sha256": "18fe9f78e64966cfc542175bfa7261a5bffa11b14fa51896bce7af63d6669f9a",
+      "visual_family_reference_id": "CB-0518-R1",
+      "reference_sha256": "5a8370927af28c4cb8c6adcbfe0be4c252668b2f18bb140159ab08cb8358554b",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-093.png",
+        "data/interim/v12-full-audit-20261021/images/0095-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-094",
+      "sha256": "dc9aa4c192c2ef35d672e7ac6da8b92a4168552e3691cfb281cd0d82cec86b16",
+      "visual_family_reference_id": "SCB-turnhead-027",
+      "reference_sha256": "2e4dc7402863fc1c6caad100ed722eb4a5ec12ce60b5d6f7f51110ee7032bf44",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-094.png",
+        "data/interim/v12-full-audit-20261021/images/1051-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-e050c4c8e80fb350",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-095",
+      "sha256": "3c37f9a927d6ad0e3e74ecbc3d8e9184e976ed1735b69b53392163a162c98f5c",
+      "visual_family_reference_id": "SCB-turnhead-027",
+      "reference_sha256": "2e4dc7402863fc1c6caad100ed722eb4a5ec12ce60b5d6f7f51110ee7032bf44",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-095.png",
+        "data/interim/v12-full-audit-20261021/images/1051-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-e050c4c8e80fb350",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-096",
+      "sha256": "39333a0a49f75509e46c48545f931c9aaaa7c34421e579dc5af9671c8df419a3",
+      "visual_family_reference_id": "SCB-turnhead-027",
+      "reference_sha256": "2e4dc7402863fc1c6caad100ed722eb4a5ec12ce60b5d6f7f51110ee7032bf44",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-096.png",
+        "data/interim/v12-full-audit-20261021/images/1051-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-e050c4c8e80fb350",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-097",
+      "sha256": "e9c6634ce3affa0d4b5de666bb4d55d0be75fd9f9cee4fc4b346608a31b44636",
+      "visual_family_reference_id": "SCB-turnhead-027",
+      "reference_sha256": "2e4dc7402863fc1c6caad100ed722eb4a5ec12ce60b5d6f7f51110ee7032bf44",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-097.png",
+        "data/interim/v12-full-audit-20261021/images/1051-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-e050c4c8e80fb350",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-098",
+      "sha256": "7575ddb248c6c935db9579d6d9b9c912dbb5bc58170bbfb4959f066aea2f1729",
+      "visual_family_reference_id": "V6-SB-014",
+      "reference_sha256": "90964b88255f7dbfe76aed78285f184d2ea8c07e2b194ad06445186e972aaba0",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-098.png",
+        "data/interim/v12-full-audit-20261021/images/1148-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-5a8153c0f8eb3b40",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-099",
+      "sha256": "c7ef147c69b5193a67c09b07365a65d037215836c6a76eabd7926123da5abbf5",
+      "visual_family_reference_id": "V6R2-MP-093",
+      "reference_sha256": "29a32955b9a03d268d39ccadf0b3c5d8c6898cdc49ef88f219acea772f9aef87",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-099.png",
+        "data/interim/v12-full-audit-20261021/images/1283-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-5a8153c0f8eb3b40",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-100",
+      "sha256": "707fe80139afbb4b2b6acabc517d4a7ec883ff208d10b6d166ad9e448b63d134",
+      "visual_family_reference_id": "V6R2-MP-069",
+      "reference_sha256": "f0d7d428443ca7ab4409ac1785ccd3073ac8b87d73a75ec897ad111754eb7009",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-100.png",
+        "data/interim/v12-full-audit-20261021/images/1263-crop.png"
+      ],
+      "existing_leakage_group_hint": "V7-G-2a44130a4d5f7ba39107",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-101",
+      "sha256": "29f06318b1f557bf97e365a7ae52595d5baa263efe7c72362c9e8c53897f2437",
+      "visual_family_reference_id": "V6R2-MP-069",
+      "reference_sha256": "f0d7d428443ca7ab4409ac1785ccd3073ac8b87d73a75ec897ad111754eb7009",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-101.png",
+        "data/interim/v12-full-audit-20261021/images/1263-crop.png"
+      ],
+      "existing_leakage_group_hint": "V7-G-2a44130a4d5f7ba39107",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-102",
+      "sha256": "229307c8afd0e92869dcb26fdba2affe5f7fa8740729a9c147bc52426faee76e",
+      "visual_family_reference_id": "V6R2-MP-069",
+      "reference_sha256": "f0d7d428443ca7ab4409ac1785ccd3073ac8b87d73a75ec897ad111754eb7009",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-102.png",
+        "data/interim/v12-full-audit-20261021/images/1263-crop.png"
+      ],
+      "existing_leakage_group_hint": "V7-G-2a44130a4d5f7ba39107",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-103",
+      "sha256": "977e8248c142d4a70021268c39c33207eafb046fef60453d79d884738fb6343e",
+      "visual_family_reference_id": "V6R2-MP-069",
+      "reference_sha256": "f0d7d428443ca7ab4409ac1785ccd3073ac8b87d73a75ec897ad111754eb7009",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-103.png",
+        "data/interim/v12-full-audit-20261021/images/1263-crop.png"
+      ],
+      "existing_leakage_group_hint": "V7-G-2a44130a4d5f7ba39107",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-104",
+      "sha256": "35cfc5efac57631a5a4122aff5ad3d32178946bf144404d3fe04be59b26690cf",
+      "visual_family_reference_id": "E004-SX-C006",
+      "reference_sha256": "ee07b045bbf927b3c1d12e9f08d4fcc8c674a19bb04253060d2a0a1265743a5b",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-104.png",
+        "data/interim/v12-full-audit-20261021/images/0449-crop.png"
+      ],
+      "existing_leakage_group_hint": null,
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-105",
+      "sha256": "209dfb35557f4c0423dd9f6eb41734dbc5424857fbc2da5dd86373de8e8d1f04",
+      "visual_family_reference_id": "E004-SX-C006",
+      "reference_sha256": "ee07b045bbf927b3c1d12e9f08d4fcc8c674a19bb04253060d2a0a1265743a5b",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-105.png",
+        "data/interim/v12-full-audit-20261021/images/0449-crop.png"
+      ],
+      "existing_leakage_group_hint": null,
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-106",
+      "sha256": "032d5aeabd216a62249f2e0d9f903e96c53a6bb9a2560759290b1116d082ebc9",
+      "visual_family_reference_id": "E004-SX-C006",
+      "reference_sha256": "ee07b045bbf927b3c1d12e9f08d4fcc8c674a19bb04253060d2a0a1265743a5b",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-106.png",
+        "data/interim/v12-full-audit-20261021/images/0449-crop.png"
+      ],
+      "existing_leakage_group_hint": null,
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-107",
+      "sha256": "d54c52100418c5d4d295c65dba1ae8c68854db9eb66f6ee5e0dde4d44efc0e1d",
+      "visual_family_reference_id": "E004-SX-C006",
+      "reference_sha256": "ee07b045bbf927b3c1d12e9f08d4fcc8c674a19bb04253060d2a0a1265743a5b",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-107.png",
+        "data/interim/v12-full-audit-20261021/images/0449-crop.png"
+      ],
+      "existing_leakage_group_hint": null,
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-108",
+      "sha256": "0c9617c35489a3767d6d676cef66f69f2634a7e9c66590b0bbbd473241d1d72f",
+      "visual_family_reference_id": "E004-SX-C006",
+      "reference_sha256": "ee07b045bbf927b3c1d12e9f08d4fcc8c674a19bb04253060d2a0a1265743a5b",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-108.png",
+        "data/interim/v12-full-audit-20261021/images/0449-crop.png"
+      ],
+      "existing_leakage_group_hint": null,
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-109",
+      "sha256": "466098adfdbc40126756443fe28a32ac40e21496cdd9a78a8973fe27f7d465c3",
+      "visual_family_reference_id": "EXP-CM-013",
+      "reference_sha256": "42d7b975175348099ee632aced91ccfeebb5cfd0c6334e1e83e20225038ec662",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-109.png",
+        "data/interim/v12-full-audit-20261021/images/0475-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-270a79bbb0f58a4e",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-110",
+      "sha256": "f8b405ed45c3e17b2767464f9890f2f6a56e049e95f29563def4051bde01223d",
+      "visual_family_reference_id": "EXP-CM-013",
+      "reference_sha256": "42d7b975175348099ee632aced91ccfeebb5cfd0c6334e1e83e20225038ec662",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-110.png",
+        "data/interim/v12-full-audit-20261021/images/0475-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-270a79bbb0f58a4e",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-111",
+      "sha256": "de4afd47e8bf2d4429f2ae9d531c528cbd76998ab9db7109086d69219556d7fe",
+      "visual_family_reference_id": "EXP-CM-013",
+      "reference_sha256": "42d7b975175348099ee632aced91ccfeebb5cfd0c6334e1e83e20225038ec662",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-111.png",
+        "data/interim/v12-full-audit-20261021/images/0475-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-270a79bbb0f58a4e",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-112",
+      "sha256": "d9f22382228324c4c116b0f90252c1ad1ac84e1696bcedc834fa2bfcbbd9a0e1",
+      "visual_family_reference_id": "EXP-CM-013",
+      "reference_sha256": "42d7b975175348099ee632aced91ccfeebb5cfd0c6334e1e83e20225038ec662",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-112.png",
+        "data/interim/v12-full-audit-20261021/images/0475-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-270a79bbb0f58a4e",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-113",
+      "sha256": "9496db650862a035f2cabc6a7379cf9acd43968578fd5f7eb3a12dfd67eb821e",
+      "visual_family_reference_id": "EXP-CM-013",
+      "reference_sha256": "42d7b975175348099ee632aced91ccfeebb5cfd0c6334e1e83e20225038ec662",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-113.png",
+        "data/interim/v12-full-audit-20261021/images/0475-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-270a79bbb0f58a4e",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-114",
+      "sha256": "a1d3a56ca05436e4dfcb55f00c7e66376f31b45087f96170e3a082ae6c823d3f",
+      "visual_family_reference_id": "E004-EX-C006",
+      "reference_sha256": "9bef57bf8d41e2a50ca3b7f0c07449d34b3ee3bda714d21e83e50922c552ebee",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-114.png",
+        "data/interim/v12-full-audit-20261021/images/0261-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-f16711f05a567204",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-115",
+      "sha256": "e62fc8097506675fe930b3f37917913b14614217d9c09f7fc44d768a63800a9d",
+      "visual_family_reference_id": "E004-EX-C006",
+      "reference_sha256": "9bef57bf8d41e2a50ca3b7f0c07449d34b3ee3bda714d21e83e50922c552ebee",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-115.png",
+        "data/interim/v12-full-audit-20261021/images/0261-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-f16711f05a567204",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-116",
+      "sha256": "5295baf17f3fe2e602ea841c3bcb8a84315ca94090e9234ae908cd08fddc5373",
+      "visual_family_reference_id": "CB-0033",
+      "reference_sha256": "505f227701fcbfeeaa88be2fcac4fff877a8d7646d19c459d5882f7f1a4e000c",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-116.png",
+        "data/interim/v12-full-audit-20261021/images/0027-crop.jpg"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-117",
+      "sha256": "43cfcbe1e77590cccb1189040343b8d0f021c0b260b238f909ca58fe677d94d8",
+      "visual_family_reference_id": "G02-A01-F00028",
+      "reference_sha256": "db02c7dcbeee97d80c5cf4094de2e4f50341929a893727b84dbd8e20263661fa",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-117.png",
+        "data/interim/v12-full-audit-20261021/images/0541-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-118",
+      "sha256": "95a3fa9aef5a6507addad4448a93ea08de6ae487a60853bb34526222b8920509",
+      "visual_family_reference_id": "G02-A01-F00028",
+      "reference_sha256": "db02c7dcbeee97d80c5cf4094de2e4f50341929a893727b84dbd8e20263661fa",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-118.png",
+        "data/interim/v12-full-audit-20261021/images/0541-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-119",
+      "sha256": "7756ed2f7041a866409e3e89b403690be67027c0a6d1990ab383404101ea1b70",
+      "visual_family_reference_id": "Y04-A01-F00001",
+      "reference_sha256": "ce429fb15dcbd7809c669022acb7e8a6e5870c598d04f1b6da997e1b70b2232e",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-119.png",
+        "data/interim/v12-full-audit-20261021/images/1615-crop.png"
+      ],
+      "existing_leakage_group_hint": "V12-Y04",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-120",
+      "sha256": "81e42b8ae2146b73a5a65dcdcb100604a8edc0cd2a61949101f1a82c7edfd8b2",
+      "visual_family_reference_id": "Y04-A01-F00001",
+      "reference_sha256": "ce429fb15dcbd7809c669022acb7e8a6e5870c598d04f1b6da997e1b70b2232e",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-120.png",
+        "data/interim/v12-full-audit-20261021/images/1615-crop.png"
+      ],
+      "existing_leakage_group_hint": "V12-Y04",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-121",
+      "sha256": "5d20b7ab86a2d11d430a39d76b4b050e24ae4281cb8f2bc93f4f23c654226f7e",
+      "visual_family_reference_id": "Y04-A01-F00001",
+      "reference_sha256": "ce429fb15dcbd7809c669022acb7e8a6e5870c598d04f1b6da997e1b70b2232e",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-121.png",
+        "data/interim/v12-full-audit-20261021/images/1615-crop.png"
+      ],
+      "existing_leakage_group_hint": "V12-Y04",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-122",
+      "sha256": "3729431885ce46ba9e3149e34942d7958e7212504cb875f1702212c099fff683",
+      "visual_family_reference_id": "Y04-A01-F00001",
+      "reference_sha256": "ce429fb15dcbd7809c669022acb7e8a6e5870c598d04f1b6da997e1b70b2232e",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-122.png",
+        "data/interim/v12-full-audit-20261021/images/1615-crop.png"
+      ],
+      "existing_leakage_group_hint": "V12-Y04",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-123",
+      "sha256": "5efcb5543677631ee300164082f046852b5a97b04270bd9dec526d0c1423a3b0",
+      "visual_family_reference_id": "Y04-A01-F00001",
+      "reference_sha256": "ce429fb15dcbd7809c669022acb7e8a6e5870c598d04f1b6da997e1b70b2232e",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-123.png",
+        "data/interim/v12-full-audit-20261021/images/1615-crop.png"
+      ],
+      "existing_leakage_group_hint": "V12-Y04",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-124",
+      "sha256": "5ac8a1b9c15a04d6915fc4ad0ccd215216eeaa7ad8c7c9df47c7fd90bac53b72",
+      "visual_family_reference_id": "G1-A03-F046",
+      "reference_sha256": "93294a042f066e78356ff84c60b08728c9a6a3b791e5068f5f60a7d2184d7b12",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-124.png",
+        "data/interim/v12-full-audit-20261021/images/0637-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-125",
+      "sha256": "cc73237354a20b2765c6e6784f3cd0b1d65fe11306b81b8d8107cb1ca027dc2c",
+      "visual_family_reference_id": "CB-0159",
+      "reference_sha256": "ca7b6b129bec5c8e54f7866ac8e50b169382cea4dd668ebba96da6bd520abe9d",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-125.png",
+        "data/interim/v12-full-audit-20261021/images/0049-crop.jpg"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-126",
+      "sha256": "b053d0a9e370c8166f16e6d0e25b42b0d2a898cd9d27cc5ae10bd1e59d076d44",
+      "visual_family_reference_id": "CB-0145",
+      "reference_sha256": "5dd222fb6587671957e2c9194d361b26a016a52c6eb7ac83b3fa5c9213bc115a",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-126.png",
+        "data/interim/v12-full-audit-20261021/images/0046-crop.jpg"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-127",
+      "sha256": "9c8d7048e6e542efcdd13d10d65efd1717940fbd00607a9e8ca0f31213f9a397",
+      "visual_family_reference_id": "G1-A07-F016",
+      "reference_sha256": "d8b41dc51505b7803565a7ad9bf482608bae8cd829bc7beb0fea818a5805c9d0",
+      "reference_old_action": "remove",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-127.png",
+        "data/interim/v12-full-audit-20261021/images/0644-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-128",
+      "sha256": "9fdc229e2653077f1928f175e4ecd88eaf73b5ebb3c05baf109e5336952e07f5",
+      "visual_family_reference_id": "SCB-turnhead-005",
+      "reference_sha256": "4cd2471369f6b2442bf719fabe27fb8622e38f8910e6175539d23c5ac36d16d1",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-128.png",
+        "data/interim/v12-full-audit-20261021/images/1038-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-adab5098c70c2244",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-129",
+      "sha256": "67e59f2bf50d92b642caf7700ddfccc541498665d7ec8d87700aa61920f1ac02",
+      "visual_family_reference_id": "SCB-turnhead-005",
+      "reference_sha256": "4cd2471369f6b2442bf719fabe27fb8622e38f8910e6175539d23c5ac36d16d1",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-129.png",
+        "data/interim/v12-full-audit-20261021/images/1038-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-adab5098c70c2244",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-130",
+      "sha256": "6763c3ec60dc13e147e07ac2bc983c8895a31211dab57e9bd220f0b592d6fabf",
+      "visual_family_reference_id": "SCB-turnhead-005",
+      "reference_sha256": "4cd2471369f6b2442bf719fabe27fb8622e38f8910e6175539d23c5ac36d16d1",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-130.png",
+        "data/interim/v12-full-audit-20261021/images/1038-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-adab5098c70c2244",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-131",
+      "sha256": "a6bf0f075147c6c243cc5943d3ec069536160055ce0e77553ef5d597c2deb6f4",
+      "visual_family_reference_id": "SCB-turnhead-005",
+      "reference_sha256": "4cd2471369f6b2442bf719fabe27fb8622e38f8910e6175539d23c5ac36d16d1",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-131.png",
+        "data/interim/v12-full-audit-20261021/images/1038-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-adab5098c70c2244",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-132",
+      "sha256": "ab730485872f65fe268f03eeeb60ca135cb71ee4b10b9bb5a4afd53d73e359bc",
+      "visual_family_reference_id": "SCB-turnhead-005",
+      "reference_sha256": "4cd2471369f6b2442bf719fabe27fb8622e38f8910e6175539d23c5ac36d16d1",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-132.png",
+        "data/interim/v12-full-audit-20261021/images/1038-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-adab5098c70c2244",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-133",
+      "sha256": "f0a76ceaf262c5985c84f84bc2f8589f8d66814b7ac8b1798f5f13408567c015",
+      "visual_family_reference_id": "E004-CN-043",
+      "reference_sha256": "14a313da8e8a8836fb10d513c224be459998c2202548296c863ed3335ca58126",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-133.png",
+        "data/interim/v12-full-audit-20261021/images/0245-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-3f62385677d090a0",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-134",
+      "sha256": "b21ae4aa028a3f438536b7cd6ec8f87a7c5faa514772d54844cf48c722b82f7f",
+      "visual_family_reference_id": null,
+      "reference_sha256": null,
+      "reference_old_action": null,
+      "parent_recipe_verified": false,
+      "status": "new_family_identified_old_parent_unresolved",
+      "new_scene_group": "NEW-SCENE-134",
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-134.png"
+      ],
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-135",
+      "sha256": "04e79001f97cad195b3c50a6d210ec2c8ec7844039b6f0eee9806cfbfc299323",
+      "visual_family_reference_id": null,
+      "reference_sha256": null,
+      "reference_old_action": null,
+      "parent_recipe_verified": false,
+      "status": "new_family_identified_old_parent_unresolved",
+      "new_scene_group": "NEW-SCENE-134",
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-135.png"
+      ],
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-136",
+      "sha256": "bee0e27709e84974ff70f994924c27b8776dbfc4aa7a69bc2882b0bbc8d149af",
+      "visual_family_reference_id": null,
+      "reference_sha256": null,
+      "reference_old_action": null,
+      "parent_recipe_verified": false,
+      "status": "new_family_identified_old_parent_unresolved",
+      "new_scene_group": "NEW-SCENE-134",
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-136.png"
+      ],
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-137",
+      "sha256": "de8d1df043f108d5670bcf2a86503dbff8a6cf3e8132e0c560c81c8347246c66",
+      "visual_family_reference_id": null,
+      "reference_sha256": null,
+      "reference_old_action": null,
+      "parent_recipe_verified": false,
+      "status": "new_family_identified_old_parent_unresolved",
+      "new_scene_group": "NEW-SCENE-134",
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-137.png"
+      ],
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-138",
+      "sha256": "766e2a8e1327769faa60e048dc1a1c52b0e4f49ced664ffe1d6b8ed2205c0f76",
+      "visual_family_reference_id": null,
+      "reference_sha256": null,
+      "reference_old_action": null,
+      "parent_recipe_verified": false,
+      "status": "new_family_identified_old_parent_unresolved",
+      "new_scene_group": "NEW-SCENE-138",
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-138.png"
+      ],
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-139",
+      "sha256": "cadcea731526f463242faa7a6fadd9aa22a6878861a08b36cdddbff2df90858b",
+      "visual_family_reference_id": null,
+      "reference_sha256": null,
+      "reference_old_action": null,
+      "parent_recipe_verified": false,
+      "status": "new_family_identified_old_parent_unresolved",
+      "new_scene_group": "NEW-SCENE-138",
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-139.png"
+      ],
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-140",
+      "sha256": "e9e3774ee3bc80f0153568f1e4be900c52f1770c198a45f9a42d1f3a11aea118",
+      "visual_family_reference_id": null,
+      "reference_sha256": null,
+      "reference_old_action": null,
+      "parent_recipe_verified": false,
+      "status": "new_family_identified_old_parent_unresolved",
+      "new_scene_group": "NEW-SCENE-140",
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-140.png"
+      ],
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-141",
+      "sha256": "244493b509ff4f4dc904947e13efe4473a14bf3efc8a76ada2d19dd7d3f3c314",
+      "visual_family_reference_id": null,
+      "reference_sha256": null,
+      "reference_old_action": null,
+      "parent_recipe_verified": false,
+      "status": "new_family_identified_old_parent_unresolved",
+      "new_scene_group": "NEW-SCENE-140",
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-141.png"
+      ],
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-142",
+      "sha256": "98284844d2beff1f708c9a99525c818700779187b7e5424655e0d26be515f16c",
+      "visual_family_reference_id": null,
+      "reference_sha256": null,
+      "reference_old_action": null,
+      "parent_recipe_verified": false,
+      "status": "new_family_identified_old_parent_unresolved",
+      "new_scene_group": "NEW-SCENE-140",
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-142.png"
+      ],
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-143",
+      "sha256": "55a3520353fcebd7086a203fe9476cfb4413a7f23bbe8c06cc80d41425960e83",
+      "visual_family_reference_id": null,
+      "reference_sha256": null,
+      "reference_old_action": null,
+      "parent_recipe_verified": false,
+      "status": "new_family_identified_old_parent_unresolved",
+      "new_scene_group": "NEW-SCENE-143",
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-143.png"
+      ],
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-144",
+      "sha256": "ed0f46532a320a88aaf36e11e89d704f7fb5d1761d68abee98e99744757870b1",
+      "visual_family_reference_id": null,
+      "reference_sha256": null,
+      "reference_old_action": null,
+      "parent_recipe_verified": false,
+      "status": "new_family_identified_old_parent_unresolved",
+      "new_scene_group": "NEW-SCENE-143",
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-144.png"
+      ],
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-145",
+      "sha256": "2e3715b311b9870251021fa0e6ea2636fe2f2b435168efe400b49def9a04deb4",
+      "visual_family_reference_id": null,
+      "reference_sha256": null,
+      "reference_old_action": null,
+      "parent_recipe_verified": false,
+      "status": "new_family_identified_old_parent_unresolved",
+      "new_scene_group": "NEW-SCENE-143",
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-145.png"
+      ],
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-146",
+      "sha256": "d01989316e98a6f17a46d6a3117932d471001cfc6e7cd28e50c1aadee66f5ec1",
+      "visual_family_reference_id": null,
+      "reference_sha256": null,
+      "reference_old_action": null,
+      "parent_recipe_verified": false,
+      "status": "new_family_identified_old_parent_unresolved",
+      "new_scene_group": "NEW-SCENE-146",
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-146.png"
+      ],
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-147",
+      "sha256": "aaeb8795aac382ea6b64e1fbd3e8e72e50c634d71f6c75f45699595d46efc329",
+      "visual_family_reference_id": null,
+      "reference_sha256": null,
+      "reference_old_action": null,
+      "parent_recipe_verified": false,
+      "status": "new_family_identified_old_parent_unresolved",
+      "new_scene_group": "NEW-SCENE-146",
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-147.png"
+      ],
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-148",
+      "sha256": "8d62441370fcaeb2c5914e2b029f9a810fa1104309f67086127a35d818996561",
+      "visual_family_reference_id": null,
+      "reference_sha256": null,
+      "reference_old_action": null,
+      "parent_recipe_verified": false,
+      "status": "new_family_identified_old_parent_unresolved",
+      "new_scene_group": "NEW-SCENE-146",
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-148.png"
+      ],
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-149",
+      "sha256": "1f65dba597615c5a55b5758d937201cecfc406269ca72b32615f2d1c6d9deb5b",
+      "visual_family_reference_id": null,
+      "reference_sha256": null,
+      "reference_old_action": null,
+      "parent_recipe_verified": false,
+      "status": "new_family_identified_old_parent_unresolved",
+      "new_scene_group": "NEW-SCENE-146",
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-149.png"
+      ],
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-150",
+      "sha256": "c90698eca96fb0842d6d6bbee61867b01115d8363b7490fa49026c5b47c52f11",
+      "visual_family_reference_id": null,
+      "reference_sha256": null,
+      "reference_old_action": null,
+      "parent_recipe_verified": false,
+      "status": "new_family_identified_old_parent_unresolved",
+      "new_scene_group": "NEW-SCENE-146",
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-150.png"
+      ],
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-151",
+      "sha256": "a996fc063d616580bd28a80ed36e09e05dedc832296d0f9fedb82d3d40494e33",
+      "visual_family_reference_id": "E004-CF-C011",
+      "reference_sha256": "ed36e184e784902bfd5426573815a0d83c91de94847dbe15d02079ffbff297d8",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-151.png",
+        "data/interim/v12-full-audit-20261021/images/0180-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-f16711f05a567204",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-152",
+      "sha256": "50c365bfa4e2e711b7bb7127ad4c5d669b06a0bbc8746e306dfa4e0505427009",
+      "visual_family_reference_id": "E004-CF-C011",
+      "reference_sha256": "ed36e184e784902bfd5426573815a0d83c91de94847dbe15d02079ffbff297d8",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-152.png",
+        "data/interim/v12-full-audit-20261021/images/0180-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-f16711f05a567204",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-153",
+      "sha256": "8174dc2e4db0dfbf13d31a7f32e35687801241ab05a51cceace88849bf6daf44",
+      "visual_family_reference_id": "NB-0075",
+      "reference_sha256": "9e873ae97ccba9fc19e68c324655b1170decb8fd1c22c9e2f4994bffab9157f6",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-153.png",
+        "data/interim/v12-full-audit-20261021/images/0975-crop.jpg"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-154",
+      "sha256": "2bff4e7a923601d38f0491e24e01a4161baf3870a9e8427ece9fd1d5fe73704a",
+      "visual_family_reference_id": "NB-0075",
+      "reference_sha256": "9e873ae97ccba9fc19e68c324655b1170decb8fd1c22c9e2f4994bffab9157f6",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-154.png",
+        "data/interim/v12-full-audit-20261021/images/0975-crop.jpg"
+      ],
+      "existing_leakage_group_hint": "PLAN-050586780e2cf597",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-155",
+      "sha256": "3034aa0070927976770bed671f794eea27d4b61b6e6da84f636e7ccb03cd8ade",
+      "visual_family_reference_id": "V6R2-EX-002",
+      "reference_sha256": "0dcbe20feb6764a8c1ec46b8a76ebe4b1c9d7dcb16df43739312dd05d5cc4786",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-155.png",
+        "data/interim/v12-full-audit-20261021/images/1193-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-cca3a7a410a0fdc7",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    },
+    {
+      "id": "NEW-156",
+      "sha256": "21ec5419bae54accf9554e402e94575bde864b4b22c1f8a0b9a0fcccf0a312c3",
+      "visual_family_reference_id": "V6R2-EX-002",
+      "reference_sha256": "0dcbe20feb6764a8c1ec46b8a76ebe4b1c9d7dcb16df43739312dd05d5cc4786",
+      "reference_old_action": "keep",
+      "parent_recipe_verified": false,
+      "status": "visual_family_match_not_exact_generation_parent",
+      "new_scene_group": null,
+      "evidence": [
+        "data/interim/v12-reconcile-20261022/additional/NEW-156.png",
+        "data/interim/v12-full-audit-20261021/images/1193-crop.png"
+      ],
+      "existing_leakage_group_hint": "PLAN-cca3a7a410a0fdc7",
+      "evidence_scope": "direct_image_pair_for_visual_family_only_not_recipe"
+    }
+  ]
+}

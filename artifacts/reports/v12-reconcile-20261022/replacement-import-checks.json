@@ -1,0 +1,34 @@
+{
+  "status": "PASS_listed_checks_not_release_acceptance",
+  "candidate_count": 1312,
+  "old_count": 1163,
+  "new_count": 149,
+  "replacement_id": "NEW-069",
+  "replacement_sha256": "af0895378ad2bb775130a57ae1a231e56f697a0c979999bcca51e3496a8f9059",
+  "replacement_pnu": [
+    "N",
+    "N"
+  ],
+  "exact_duplicate_bytes": [],
+  "exact_duplicate_rgb": [],
+  "replacement_nearest_8": "different_scenes_visual_checked",
+  "replacement_family_NEW070": "same_family_distinct_device_and_hand_pose",
+  "group_count": 334,
+  "label_counts": {
+    "P/N": 351,
+    "N/N": 654,
+    "P/P": 43,
+    "N/P": 153,
+    "U/N": 84,
+    "U/P": 17,
+    "N/U": 6,
+    "P/U": 3,
+    "U/U": 1
+  },
+  "remaining": [
+    "old geometry draft acceptance",
+    "grouping acceptance and unresolved lineage families",
+    "final package QA before release planning"
+  ],
+  "v12_ledger_sha256": "c58a237594e76418bd0d0b78f629560b812a47dcef17d7f66f9e07a027ee662f"
+}

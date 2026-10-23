@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-21",
+  "scope": "research and nine examples; no full semantic audit",
+  "examples_sha_verified": 9,
+  "image_header_inventory": {
+    "train": 1092,
+    "val": 204
+  },
+  "input_pins_verified": 22,
+  "local_artifacts_verified": 32,
+  "native_roi_provenance": "PASS for nine examples",
+  "count_consistency": "PASS",
+  "local_report_links": "PASS",
+  "code_changed_this_task": false,
+  "training": false,
+  "test_media_access": false,
+  "release_or_relabel": false,
+  "tests": "Not run: no source changes in this research task",
+  "owner_direction": "head turned sideways/back; front excluded",
+  "rubric_status": "proposed detail; no canonical contract mutation"
+}
