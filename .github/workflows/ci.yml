@@ -33,3 +33,4 @@ jobs:
       - run: python -m mypy src/ai_exam_monitoring scripts/check_repo.py
       # Fixture phần mềm tự sinh; không dùng dataset thật, tải weights hoặc GPU.
       - run: python -m unittest discover -s tests -p 'test_training*.py' -q
+      - run: python -m unittest discover -s tests -p 'test_runtime.py' -q

@@ -31,6 +31,8 @@ Phân biệt quyền theo hành động; bảng này không cấp approval mới
 | Final test | Candidate/protocol/holdout được freeze, quyền truy cập riêng và guard theo protocol | Không được tuning hoặc mở lại chỉ vì đổi output |
 | Selected/promotion | Evaluation hợp lệ, quality gates được chốt và owner decision đúng use scope | Không tự nghiệm thu runtime/video/demo |
 
+Ngoại lệ chuyển phase [E008-PROTOTYPE-20261025](../artifacts/reports/e008-v14-colab-20261024/prototype-decision-20261025.md) cho phép chọn model cho tích hợp prototype dù chưa đạt numerical gates nghiên cứu. Ghi rõ use scope và hạn chế trong decision riêng, giữ nguyên kết quả/gates/Selected lịch sử; không thay final-test access hoặc nghiệm thu chất lượng video.
+
 Proposal cụ thể có thể yêu cầu điều kiện chặt hơn. Điều kiện holdout/promotion không tự trở thành điều kiện mọi software task; run chẩn đoán scope khác vẫn cần owner duyệt riêng, không tự thu hẹp proposal hiện hành để chạy. Workflow cho **một experiment mới được duyệt**:
 
 1. Xác định hypothesis và biến thay đổi từ lỗi/data đã biết; tạo ID/config/protocol/approval rõ scope. Không sửa run/config đã pin hoặc reuse output để thử recipe khác.

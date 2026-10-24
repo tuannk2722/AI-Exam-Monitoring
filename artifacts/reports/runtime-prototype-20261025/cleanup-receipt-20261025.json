@@ -1,0 +1,31 @@
+{
+  "owner_scope": "Clean codebase and remove all three video experiments, including their configs/reports/outputs; commit runtime phase",
+  "inventory_files": 2059,
+  "inventory_bytes": 304267695,
+  "inventory_sha256": "64935985bd6168f2105ab7b62792cbed9d72b08ed3dc10b26b41069812fe11fa",
+  "manifest_path": "outputs/runtime-prototype-20261025/cleanup-manifest.json",
+  "remaining_roots": [
+    "outputs/runtime-video-qa-20261025",
+    "outputs/runtime-video-qa-2hz-20261025",
+    "outputs/runtime-video-qa-1hz-20261025",
+    "artifacts/reports/runtime-video-qa-20261025",
+    "configs/runtime/RUNTIME-VIDEO-QA-1HZ-20261025",
+    "configs/runtime/RUNTIME-VIDEO-QA-2HZ-20261025",
+    "outputs/_scratch/runtime-prototype-20261025",
+    "Ultralytics",
+    "outputs/runtime-settings"
+  ],
+  "protected_inputs": "PASS",
+  "execution_status": "blocked_by_policy_pending_manual_cleanup",
+  "roots": [
+    "outputs/runtime-video-qa-20261025",
+    "outputs/runtime-video-qa-2hz-20261025",
+    "outputs/runtime-video-qa-1hz-20261025",
+    "artifacts/reports/runtime-video-qa-20261025",
+    "configs/runtime/RUNTIME-VIDEO-QA-1HZ-20261025",
+    "configs/runtime/RUNTIME-VIDEO-QA-2HZ-20261025",
+    "outputs/_scratch/runtime-prototype-20261025",
+    "Ultralytics",
+    "outputs/runtime-settings"
+  ]
+}

@@ -6,6 +6,8 @@ Index theo đối tượng; không là bảng metrics hoặc backlog. Hồ sơ �
 
 [E007 Colab và kết quả V13](e007-v13-colab-20261024/README.md): smoke và 9 research FINISHED, import/checksums/reload đã kiểm; D1 cải thiện ổn định, phone qua gate cả ba seed, looking chưa qua. Chưa Selected hoặc final test.
 
+[E008 — chuyển phase prototype](e008-v14-colab-20261024/prototype-decision-20261025.md): owner bỏ gate chuyển phase 80/80/20 và chọn G0 seed 20261023; kết quả nghiên cứu giữ nguyên, thiết kế runtime đã duyệt; [bàn giao software/synthetic](runtime-prototype-20261025/README.md), chưa nghiệm thu chất lượng video.
+
 [E008 V14 — kết quả Colab](e008-v14-colab-20261024/results-20261025.md): 4 smoke + 5 research FINISHED; audit metadata PASS, G0 thắng screening, looking chưa đạt. [Ba run G0 đã nhận đủ best/last và kiểm integrity local](e008-v14-colab-20261024/checkpoints-20261025.md); chưa Selected.
 
 [Audit looking E007 ngày 24/10](looking-around-audit-20261024/README.md): cached scores sáu run, visual review lỗi looking tái diễn và upstream context; sửa diagnostics V4/336 px. Snapshot proposal E008 giữ nguyên; approval và dữ liệu mới ở companion V14.

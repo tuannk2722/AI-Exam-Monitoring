@@ -59,3 +59,6 @@ configs/datasets/pilot-b-20261024-v14.json -text whitespace=trailing-space,space
 configs/experiments/E008-V13-LOOKING-20261024/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
 configs/experiments/E008-V14-LOOKING-20261024/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
 notebooks/E008-V14-Colab.ipynb -text whitespace=trailing-space,space-before-tab,cr-at-eol
+
+# Preserve approved runtime config/authorization bytes across checkouts.
+configs/runtime/RUNTIME-PROTOTYPE-20261025/** -text whitespace=trailing-space,space-before-tab,cr-at-eol

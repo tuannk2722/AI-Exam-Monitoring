@@ -59,6 +59,8 @@ Contract liên bước dưới đây tương ứng `contracts/domain.py`; đây 
 | `TrackObservation` | `session_id,track_id,frame,bbox,source_prediction_ids`; track ID không là danh tính ngoài session |
 | `BehaviorEvent` | Event/session/track/behavior, frame/time window, aggregated confidence, model/rule versions, prediction refs; end không trước start; status hiện `candidate/confirmed/dismissed` |
 
+Slice prototype dùng contract `recorded-observations-v1` theo [thiết kế runtime được duyệt](../configs/runtime/RUNTIME-PROTOTYPE-20261025/README.md): metadata pins source/model/config/code/environment; mỗi frame có index/time, geometry và danh sách observation (có thể rỗng), mỗi anchor có hai score theo target order, ngưỡng và cờ vượt ngưỡng. Anchor ID chỉ trong frame, không là track hay danh tính. `session.json` có trạng thái cuối completed/failed; `frames_processed` chưa xác nhận session thành công. Không sửa dataclass `Prediction` để chứa payload riêng này.
+
 Các entity dự kiến cho phần sau: session/job, model version, risk snapshot, evidence và human review. Chỉ định fields/persistence cụ thể khi thực hiện slice tương ứng; chưa cần database schema hoặc service phụ ngay bây giờ.
 
 ## 5. Yêu cầu vận hành và luồng người dùng
@@ -69,7 +71,7 @@ Nghiệm thu end-to-end phải dùng video được phép, model đã chọn, cr
 
 Ngân sách 0 đồng. Local cho development/audit/inference; Colab Free là hướng GPU đã chốt. Mỗi benchmark/run phải pin hardware/environment; ngoại lệ compute của run lịch sử không cấp quyền mặc định cho run mới. Cloud/realtime/auth chỉ thêm khi requirement/gate và user yêu cầu thực sự cần.
 
-Media người thật cần policy văn bản cho consent, access, third-party processing, retention/deletion và incident handling trước thu nhận/ghi/upload. Retention media runtime/video chưa chốt; [retention workspace nghiên cứu](storage.md) không thay policy này hoặc cấp quyền thu nhận/upload media. Không real identity trong tên file/manifest, không credential trong Git/TASK/log; không upload media vào API/W&B khi thiếu quyền. Nguồn đã có approval giữ đúng scope, không hỏi lại phần không đổi.
+Media người thật cần policy văn bản cho consent, access, third-party processing, retention/deletion và incident handling trước thu nhận/ghi/upload. Policy prototype local đã được duyệt trong thiết kế runtime (owner-only, không upload, tối đa 7 ngày; rights theo từng clip vẫn bắt buộc); retention cho scope khác chưa chốt; [retention workspace nghiên cứu](storage.md) không thay policy này hoặc cấp quyền thu nhận/upload media. Không real identity trong tên file/manifest, không credential trong Git/TASK/log; không upload media vào API/W&B khi thiếu quyền. Nguồn đã có approval giữ đúng scope, không hỏi lại phần không đổi.
 
 ## 6. Điều kiện chuyển bước
 
@@ -85,4 +87,6 @@ Thứ tự phụ thuộc: dataset/annotation QA → baseline/evaluation → dữ
 | Tracking/events/risk | Model Selected phát prediction thật; benchmark tracker, event fixtures/rules và risk semantics được duyệt trước slice tương ứng |
 | Web/system evaluation/demo | Domain/event gate, UI đọc output thật, recorded-session integration; freeze protocol, đo hardware và báo giới hạn theo §5 |
 
-Gate chặn hành động thuộc scope của nó. Proposal hoặc phần độc lập được user yêu cầu vẫn có thể tiến hành; không suy thành quyền mở downstream hay dùng model chưa được nghiệm thu trong demo. Checklist scientific còn mở thuộc proposal được dẫn từ status; owner chốt phương án có evidence/acceptance, không phải tự annotate từng ảnh.
+Ngoại lệ prototype theo [E008-PROTOTYPE-20261025](../artifacts/reports/e008-v14-colab-20261024/prototype-decision-20261025.md): owner đã bỏ 80/80/20 khỏi điều kiện chuyển phase và chọn checkpoint G0 cho tích hợp thử nghiệm. Model được chọn đúng use scope prototype có thể thay điều kiện Selected nghiên cứu trong lộ trình downstream; detector/license/crop QA, tracker/rules/risk, media rights và nghiệm thu video vẫn phải được duyệt theo slice. Không biến quality gate lịch sử thành PASS hoặc tự cấp nghiệm thu demo.
+
+Gate chặn hành động thuộc scope của nó. Proposal hoặc phần độc lập được user yêu cầu vẫn có thể tiến hành; không suy thành quyền mở downstream ngoài scope đã duyệt hoặc nghiệm thu demo từ approval prototype. Checklist scientific còn mở thuộc proposal được dẫn từ status; owner chốt phương án có evidence/acceptance, không phải tự annotate từng ảnh.

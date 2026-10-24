@@ -10,7 +10,7 @@ Hardware tham chiếu lịch sử: local i7-1255U, RAM 8/16 GB, Intel UHD; khôn
 |---|---|
 | `src/ai_exam_monitoring/data/` | Audit nguồn YOLO, overlay, similarity, codec `PilotRecord`, package và integrity; builder v7 historical có self-SHA pin |
 | `src/ai_exam_monitoring/training/` | Config/approval, loader/freeze, RGB letterbox, frozen encoder/cache, head training/resume, metrics và evaluator |
-| `src/ai_exam_monitoring/inference/` | Adapter generic đọc checkpoint có sẵn và xuất prediction theo taxonomy checkpoint; chưa lọc person hoặc suy luận classifier B |
+| `src/ai_exam_monitoring/inference/` | Adapter generic giữ nguyên; runtime mới lọc person YOLOv8n, crop context và classifier G0 có pins, timestamp, media rights và gallery QA |
 | `src/ai_exam_monitoring/contracts/` | Dataclass producer/consumer dùng chung; không phụ thuộc web framework |
 | `src/ai_exam_monitoring/common/` | Config/error/provenance và truy/khôi phục lịch sử theo SHA |
 | `configs/` | Biến dataset/experiment có version; phân biệt proposal với config thực thi được duyệt theo training spec |
@@ -19,9 +19,9 @@ Hardware tham chiếu lịch sử: local i7-1255U, RAM 8/16 GB, Intel UHD; khôn
 
 ## Adapter và giới hạn integration
 
-`Prediction` hiện biểu diễn một label/score/bbox. Adapter classifier B chưa có: khi nối hai score với person/crop/frame phải thiết kế producer/consumer tường minh và review nếu mở schema; không nhét dict tùy ý hoặc coi detection class ID là target order. `PilotRecord` là contract dataset riêng, được mô tả đầy đủ trong data spec.
+`Prediction` hiện biểu diễn một label/score/bbox. Adapter classifier B ở `inference/classifier.py`; `runtime.py` xuất contract JSONL riêng có version và giữ target order từ config/calibration, không coi detection class ID là target order. `PilotRecord` là contract dataset riêng, được mô tả đầy đủ trong data spec.
 
-Adapter hiện yêu cầu source/checkpoint tồn tại, output mới và FPS dương/hữu hạn trước predict; không tạo timestamp 0 để che metadata thiếu. JSONL mở đầu bằng metadata source/checkpoint SHA và FPS, tiếp theo là predictions. CLI confidence mặc định 0.25 là giá trị của adapter generic, không phải threshold hành vi hoặc risk được owner duyệt. Không có classifier video integration/session status persistence ở đường này.
+Adapter hiện yêu cầu source/checkpoint tồn tại, output mới và FPS dương/hữu hạn trước predict; không tạo timestamp 0 để che metadata thiếu. JSONL mở đầu bằng metadata source/checkpoint SHA và FPS, tiếp theo là predictions. CLI confidence mặc định 0.25 là giá trị của adapter generic, không phải threshold hành vi hoặc risk được owner duyệt. Đường generic này giữ nguyên. CLI `inference.runtime` có session outcome và pipeline riêng theo [runtime config/usage](../configs/runtime/RUNTIME-PROTOTYPE-20261025/README.md); `video.py` kiểm decode/timestamps, `person.py` giữ geometry policy, `runtime_config.py` kiểm approval/pins/rights. Reuse `AdaptationModel` và `letterbox` để reload full G0 bundle trên CPU với identity runtime mới; không gọi hoặc nới evaluator lịch sử.
 
 
 
