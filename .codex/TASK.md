@@ -1,4 +1,4 @@
-﻿# Cleanup codebase và commit E008/V14
+# Cleanup codebase và commit E008/V14
 
 - Trạng thái: review và software checks hoàn tất; tạo commit local và kiểm clean checkout.
 

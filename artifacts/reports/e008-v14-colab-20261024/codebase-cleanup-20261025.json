@@ -20,6 +20,8 @@
     "staged_repository_checker": "PASS --require-git",
     "staged_diff_whitespace": "PASS",
     "staged_notebook_and_pinned_bytes": "PASS",
-    "full_software_suite": "PASS: 220 tests in 250.855 seconds"
-  }
+    "full_software_suite": "PASS: 220 tests in 250.855 seconds",
+    "clean_checkout": "PASS at 254ebb6: --require-git, frozen config/report/notebook bytes, campaign source SHA, no model payload, clean status"
+  },
+  "verification_worktree_removed": true
 }
