@@ -1,0 +1,34 @@
+{
+  "status": "approved",
+  "owner": "repository-owner",
+  "recorded_at": "2026-10-24",
+  "authorization_source": "Direct user requests in this conversation: approve E008; proceed training on Colab Pro; may increase duration within existing budget; prepare notebook for owner to execute.",
+  "proposal": {
+    "path": "configs/experiments/E008-V14-LOOKING-20261024/proposal.yaml",
+    "sha256": "ef0a162e5f749759b07837ce3163702260fd1c64cdfc1a7bbec8e4d98f245e65"
+  },
+  "dataset_version": "pilot-b-20261024-v14",
+  "payload_sha256": "51fe689b7161737ddce1b6e2845c887a58e9c91fbcd01bb1dc0768b13f351f5b",
+  "implementation_authorized": true,
+  "smoke_authorized": true,
+  "research_authorized_after_smoke": true,
+  "cloud_upload_authorized": true,
+  "cloud_providers": [
+    "Google Colab"
+  ],
+  "visibility": "private",
+  "budget_tier": "gpu_4h",
+  "max_gpu_seconds": 14400,
+  "max_research_runs": 7,
+  "purchase_extra_credits": false,
+  "final_test_inference_authorized": false,
+  "promotion_authorized": false,
+  "owner_executes_notebook": true,
+  "agent_has_uploaded_or_started_gpu": false,
+  "duration_revision": {
+    "max_epochs": 24,
+    "patience": 6,
+    "warmup_epochs": 3,
+    "basis": "Owner delegated longer training without increasing budget. E007 D1 best epochs 11/7/9 under cap 12; all E008 arms use the same extended cosine horizon."
+  }
+}

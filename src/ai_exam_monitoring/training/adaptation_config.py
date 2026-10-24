@@ -158,7 +158,8 @@ class AdaptationConfig:
         is_v4 = isinstance(self, RepresentationConfig)
         fixed = {
             "schema_version": (
-                ADAPTATION_CONFIG_SCHEMA_V4 if is_v4 else ADAPTATION_CONFIG_SCHEMA_V3
+                ADAPTATION_CONFIG_SCHEMA_V5 if isinstance(self, SpatialConfig)
+                else ADAPTATION_CONFIG_SCHEMA_V4 if is_v4 else ADAPTATION_CONFIG_SCHEMA_V3
                 if is_v3
                 else (
                     ADAPTATION_CONFIG_SCHEMA_V2
@@ -293,6 +294,7 @@ ADAPTATION_CONFIG_SCHEMA_V1 = "matched-adaptation-v1"
 ADAPTATION_CONFIG_SCHEMA_V2 = "matched-adaptation-v2"
 ADAPTATION_CONFIG_SCHEMA_V3 = "matched-adaptation-v3"
 ADAPTATION_CONFIG_SCHEMA_V4 = "representation-adaptation-v4"
+ADAPTATION_CONFIG_SCHEMA_V5 = "spatial-representation-v5"
 
 
 @dataclass(frozen=True)
@@ -469,10 +471,24 @@ class RepresentationConfig(E005AdaptationConfig):
             raise ConfigurationError("Unsupported V4 ResNet scope/source")
 
 
+@dataclass(frozen=True)
+class SpatialConfig(RepresentationConfig):
+    pooling: str
+
+    def __post_init__(self) -> None:
+        super().__post_init__()
+        if (self.pooling not in {"global_mean", "context_2x2", "person_2x2"}
+                or self.model != "dinov2_vits14_v4"
+                or self.augmentation.random_erasing_prob != 0
+                or self.anchor_padding_ratio != 0):
+            raise ConfigurationError("Unsupported spatial pooling/augmentation policy")
+
+
 def config_from_dict(raw: Any) -> AdaptationConfig:
     schema = raw.get("schema_version") if isinstance(raw, dict) else None
     model: type[AdaptationConfig] = (
-        RepresentationConfig if schema == ADAPTATION_CONFIG_SCHEMA_V4 else E005AdaptationConfig
+        SpatialConfig if schema == ADAPTATION_CONFIG_SCHEMA_V5
+        else RepresentationConfig if schema == ADAPTATION_CONFIG_SCHEMA_V4 else E005AdaptationConfig
         if schema in {ADAPTATION_CONFIG_SCHEMA_V3, ADAPTATION_CONFIG_SCHEMA_V4}
         else (
             ResearchAdaptationConfig
@@ -504,14 +520,14 @@ def config_from_dict(raw: Any) -> AdaptationConfig:
         if not isinstance(value["diagnostic_steps"], list):
             raise ConfigurationError("Diagnostic steps must be an array")
         value["diagnostic_steps"] = tuple(value["diagnostic_steps"])
-    elif model in {E005AdaptationConfig, RepresentationConfig}:
+    elif model in {E005AdaptationConfig, RepresentationConfig, SpatialConfig}:
         if not isinstance(value["pos_weight"], list):
             raise ConfigurationError("pos_weight must be an array")
         value["pos_weight"] = tuple(float(w) for w in value["pos_weight"])
         value["augmentation"] = AdaptationAugmentationConfig(
             **strict_fields(value["augmentation"], AdaptationAugmentationConfig)
         )
-        if model is RepresentationConfig:
+        if model in {RepresentationConfig, SpatialConfig}:
             value["execution_authorization"] = FilePin(
                 **strict_fields(value["execution_authorization"], FilePin)
             )

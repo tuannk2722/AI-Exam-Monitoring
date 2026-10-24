@@ -43,6 +43,8 @@ def prepare(design_path: Path, root: Path, phase: str) -> dict[str, Any]:
     proposal_path = FilePin(**design["proposal"]).verify(root)
     proposal = yaml.safe_load(proposal_path.read_text(encoding="utf-8"))
     budget = proposal["budgets"][authority["budget_tier"]]
+    for value in design.get("supporting_inputs", []):
+        FilePin(**value).verify(root)
     pointer = read_pin(root, design["dataset_pointer"])
     if (pointer["dataset_version"] != authority["dataset_version"]
             or pointer["payload_sha256"] != authority["payload_sha256"]):
@@ -54,7 +56,7 @@ def prepare(design_path: Path, root: Path, phase: str) -> dict[str, Any]:
     if any(sum(r.usage == role for r in records) != count for role, count in expected.items()):
         raise DataContractError("Approved dataset counts differ")
     allocation = read_pin(root, design["allocation"])
-    if (allocation.get("status") != "owner_approved_A"
+    if (allocation.get("status") not in {"owner_approved_A", "owner_delegated_allocation"}
             or not isinstance(allocation.get("rows"), list)):
         raise DataContractError("Unsupported allocation schema/status")
     assignments = {r["id"]: r for r in allocation["rows"]}
@@ -159,19 +161,22 @@ def prepare(design_path: Path, root: Path, phase: str) -> dict[str, Any]:
     for item in items:
         arm_name, seed = item["arm"], item["seed"]
         arm = resolved_arm(arm_name)
-        ident = item.get("id", f"E007-V13-{arm_name}-S{seed}")
+        prefix = design.get("run_prefix", "E007-V13")
+        ident = item.get("id", f"{prefix}-{arm_name}-S{seed}")
         encoder = arm["encoder"]
         weights = design["pretrained"][encoder]
         for field in ("weights", "license"):
             FilePin(**weights[field]).verify(root)
-        head_path = local_path(root, design["initialization_dir"]) / f"head-{encoder}-{seed}.pt"
+        head_key = (f"{encoder}-{arm['feature_dim']}" if "pooling" in arm else encoder)
+        head_path = local_path(root, design["initialization_dir"]) / f"head-{head_key}-{seed}.pt"
         if not head_path.exists():
             create_e005_initial_head(head_path, seed, in_dim=arm["feature_dim"],
                                      hidden_dim=common["head"]["hidden_dim"],
                                      dropout=common["head"]["dropout"])
-        raw = {**template, "schema_version": "representation-adaptation-v4",
+        raw = {**template, "schema_version": design.get(
+                   "config_schema", "representation-adaptation-v4"),
                "experiment_id": ident, "owner": authority["owner"], "run_kind": phase,
-               "hypothesis": f"V13 {arm_name}: approved representation study; seed {seed}",
+               "hypothesis": f"{spec.dataset_version} {arm_name}: study; seed {seed}",
                "cohorts": cohorts, "protocol": pin(root, protocol_path),
                "readiness": pin(root, readiness_path),
                "execution_authorization": design["authorization"],
@@ -184,6 +189,13 @@ def prepare(design_path: Path, root: Path, phase: str) -> dict[str, Any]:
                "image_size": arm["image_size"], "batch_size": common["batch_size"],
                "head_learning_rate": common["head_learning_rate"],
                "layer4_learning_rate": arm["backbone_learning_rate"],
+               "weight_decay": common.get("weight_decay", template["weight_decay"]),
+               "patience": common.get("patience", template["patience"]),
+               "min_delta": common.get("min_delta", template["min_delta"]),
+               "head_hidden_dim": common["head"]["hidden_dim"],
+               "head_dropout": common["head"]["dropout"],
+               "label_smoothing": common["loss"].get(
+                   "label_smoothing", template["label_smoothing"]),
                "max_epochs": item.get("epochs", common["max_epochs"]),
                "warmup_epochs": common["warmup_head_only_epochs"],
                "pos_weight": common["loss"]["pos_weight"],
@@ -193,6 +205,9 @@ def prepare(design_path: Path, root: Path, phase: str) -> dict[str, Any]:
                                 "random_erasing_prob": arm["random_erasing_prob"]},
                "wall_time_seconds": (budget["smoke_minutes"]*60 if phase == "smoke"
                                      else budget["run_including_reload_minutes"]*60)}
+        if "pooling" in arm:
+            raw["pooling"] = arm["pooling"]
+            raw["anchor_padding_ratio"] = 0.0
         config = config_from_dict(raw)
         path = folder / f"{ident}.yaml"
         path.write_text(yaml.safe_dump(config.to_dict(), sort_keys=False), encoding="utf-8")

@@ -1,0 +1,67 @@
+{
+  "phase": "smoke",
+  "design": {
+    "path": "configs/experiments/E008-V14-LOOKING-20261024/design.json",
+    "sha256": "875ad16139b529d42e777da6b403aa903d4bc83044358d6b99fbd9adda93c0e2"
+  },
+  "items": [
+    {
+      "id": "E008-V14-SMOKE-G0-FULL",
+      "arm": "G0",
+      "seed": 20261023,
+      "config": {
+        "path": "configs/experiments/E008-V14-LOOKING-20261024/materialized/smoke/E008-V14-SMOKE-G0-FULL.yaml",
+        "sha256": "a02549df610849e0673d44d84497a293c4b353d0285fbf884ee91149ff3d33cf"
+      }
+    },
+    {
+      "id": "E008-V14-SMOKE-G0-RESUME",
+      "arm": "G0",
+      "seed": 20261023,
+      "config": {
+        "path": "configs/experiments/E008-V14-LOOKING-20261024/materialized/smoke/E008-V14-SMOKE-G0-RESUME.yaml",
+        "sha256": "632b3144f170575f20a7aac5b7be4d42cd2cd76c1c2e79feaa565da8279ec8b4"
+      }
+    },
+    {
+      "id": "E008-V14-SMOKE-A1-FULL",
+      "arm": "A1",
+      "seed": 20261023,
+      "config": {
+        "path": "configs/experiments/E008-V14-LOOKING-20261024/materialized/smoke/E008-V14-SMOKE-A1-FULL.yaml",
+        "sha256": "244eb6f6969a97285c072b9808547193b02c7421ded192b6efd4289d46b226be"
+      }
+    },
+    {
+      "id": "E008-V14-SMOKE-A1-RESUME",
+      "arm": "A1",
+      "seed": 20261023,
+      "config": {
+        "path": "configs/experiments/E008-V14-LOOKING-20261024/materialized/smoke/E008-V14-SMOKE-A1-RESUME.yaml",
+        "sha256": "d2f0074e644b49e504b8f59f8f58f14791452be5167a6cb67a40c5356c73d2b5"
+      }
+    }
+  ],
+  "code_sha256": "7ac8c00a62162010a71233c7c99b83a90f118792bb66222cea5cc17e63c00dd3",
+  "budget": {
+    "screening_arms": [
+      "G0",
+      "G1",
+      "A1"
+    ],
+    "confirmation_seeds": [
+      20261024,
+      20261025
+    ],
+    "confirmation_arms": [
+      "screening_champion",
+      "G0"
+    ],
+    "max_research_runs": 7,
+    "smoke_minutes": 30,
+    "run_including_reload_minutes": 25,
+    "reserve_minutes": 35,
+    "total_gpu_minutes": 240,
+    "purchase_extra_credits": false
+  }
+}

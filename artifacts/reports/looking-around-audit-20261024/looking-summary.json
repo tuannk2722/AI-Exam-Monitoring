@@ -1,0 +1,740 @@
+[
+  {
+    "run": "E007-V13-D1-S20261023",
+    "train_looking_ap": 0.9944603943899495,
+    "val_looking_ap": 0.7240793227595128,
+    "thresholds": {
+      "phone_use": 0.39699235558509827,
+      "looking_around": 0.3086262047290802
+    },
+    "val_calibrated": {
+      "targets": {
+        "phone_use": {
+          "positive": 55,
+          "negative": 120,
+          "unknown": 10,
+          "tp": 48,
+          "fp": 5,
+          "fn": 7,
+          "tn": 115,
+          "ap": 0.9432329368156394,
+          "precision": 0.9056603773584906,
+          "recall": 0.8727272727272727,
+          "f1": 0.8888888888888888,
+          "reason": null,
+          "fpr": 0.041666666666666664,
+          "positive_groups": 38,
+          "negative_groups": 59,
+          "evidenced_groups": 91,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": true
+        },
+        "looking_around": {
+          "positive": 33,
+          "negative": 152,
+          "unknown": 0,
+          "tp": 26,
+          "fp": 20,
+          "fn": 7,
+          "tn": 132,
+          "ap": 0.7240793227595128,
+          "precision": 0.5652173913043478,
+          "recall": 0.7878787878787878,
+          "f1": 0.6582278481012658,
+          "reason": null,
+          "fpr": 0.13157894736842105,
+          "positive_groups": 21,
+          "negative_groups": 82,
+          "evidenced_groups": 92,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": false
+        }
+      },
+      "macro_ap": 0.8336561297875761,
+      "records": 185,
+      "cooccurrence": {
+        "fully_known": 175,
+        "positive": 3,
+        "metric": null,
+        "reason": "insufficient_pilot_support"
+      },
+      "thresholds": {
+        "phone_use": 0.39699235558509827,
+        "looking_around": 0.3086262047290802
+      },
+      "v11_all_targets_pass_gates": false
+    },
+    "small_anchor_val": {
+      "targets": {
+        "phone_use": {
+          "positive": 12,
+          "negative": 32,
+          "unknown": 4,
+          "tp": 10,
+          "fp": 0,
+          "fn": 2,
+          "tn": 32,
+          "ap": 0.9935897435897434,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091,
+          "reason": null,
+          "fpr": 0.0,
+          "positive_groups": 7,
+          "negative_groups": 8,
+          "evidenced_groups": 11,
+          "v11_support_gate_status": "INCONCLUSIVE",
+          "v11_quality_gate_pass": null
+        },
+        "looking_around": {
+          "positive": 7,
+          "negative": 41,
+          "unknown": 0,
+          "tp": 6,
+          "fp": 7,
+          "fn": 1,
+          "tn": 34,
+          "ap": 0.4320758606472892,
+          "precision": 0.46153846153846156,
+          "recall": 0.8571428571428571,
+          "f1": 0.6,
+          "reason": null,
+          "fpr": 0.17073170731707318,
+          "positive_groups": 2,
+          "negative_groups": 11,
+          "evidenced_groups": 11,
+          "v11_support_gate_status": "INCONCLUSIVE",
+          "v11_quality_gate_pass": null
+        }
+      },
+      "macro_ap": 0.7128328021185163,
+      "records": 48,
+      "cooccurrence": {
+        "fully_known": 44,
+        "positive": 0,
+        "metric": null,
+        "reason": "insufficient_pilot_support"
+      },
+      "thresholds": {
+        "phone_use": 0.39699235558509827,
+        "looking_around": 0.3086262047290802
+      },
+      "v11_all_targets_pass_gates": false
+    }
+  },
+  {
+    "run": "E007-V13-D1-S20261024",
+    "train_looking_ap": 0.9562969704873491,
+    "val_looking_ap": 0.7661962100297002,
+    "thresholds": {
+      "phone_use": 0.35140541195869446,
+      "looking_around": 0.4998760521411896
+    },
+    "val_calibrated": {
+      "targets": {
+        "phone_use": {
+          "positive": 55,
+          "negative": 120,
+          "unknown": 10,
+          "tp": 48,
+          "fp": 5,
+          "fn": 7,
+          "tn": 115,
+          "ap": 0.9402390452406435,
+          "precision": 0.9056603773584906,
+          "recall": 0.8727272727272727,
+          "f1": 0.8888888888888888,
+          "reason": null,
+          "fpr": 0.041666666666666664,
+          "positive_groups": 38,
+          "negative_groups": 59,
+          "evidenced_groups": 91,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": true
+        },
+        "looking_around": {
+          "positive": 33,
+          "negative": 152,
+          "unknown": 0,
+          "tp": 23,
+          "fp": 8,
+          "fn": 10,
+          "tn": 144,
+          "ap": 0.7661962100297002,
+          "precision": 0.7419354838709677,
+          "recall": 0.696969696969697,
+          "f1": 0.71875,
+          "reason": null,
+          "fpr": 0.05263157894736842,
+          "positive_groups": 21,
+          "negative_groups": 82,
+          "evidenced_groups": 92,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": false
+        }
+      },
+      "macro_ap": 0.8532176276351718,
+      "records": 185,
+      "cooccurrence": {
+        "fully_known": 175,
+        "positive": 3,
+        "metric": null,
+        "reason": "insufficient_pilot_support"
+      },
+      "thresholds": {
+        "phone_use": 0.35140541195869446,
+        "looking_around": 0.4998760521411896
+      },
+      "v11_all_targets_pass_gates": false
+    },
+    "small_anchor_val": {
+      "targets": {
+        "phone_use": {
+          "positive": 12,
+          "negative": 32,
+          "unknown": 4,
+          "tp": 10,
+          "fp": 0,
+          "fn": 2,
+          "tn": 32,
+          "ap": 0.986645299145299,
+          "precision": 1.0,
+          "recall": 0.8333333333333334,
+          "f1": 0.9090909090909091,
+          "reason": null,
+          "fpr": 0.0,
+          "positive_groups": 7,
+          "negative_groups": 8,
+          "evidenced_groups": 11,
+          "v11_support_gate_status": "INCONCLUSIVE",
+          "v11_quality_gate_pass": null
+        },
+        "looking_around": {
+          "positive": 7,
+          "negative": 41,
+          "unknown": 0,
+          "tp": 4,
+          "fp": 4,
+          "fn": 3,
+          "tn": 37,
+          "ap": 0.5151102865388579,
+          "precision": 0.5,
+          "recall": 0.5714285714285714,
+          "f1": 0.5333333333333333,
+          "reason": null,
+          "fpr": 0.0975609756097561,
+          "positive_groups": 2,
+          "negative_groups": 11,
+          "evidenced_groups": 11,
+          "v11_support_gate_status": "INCONCLUSIVE",
+          "v11_quality_gate_pass": null
+        }
+      },
+      "macro_ap": 0.7508777928420785,
+      "records": 48,
+      "cooccurrence": {
+        "fully_known": 44,
+        "positive": 0,
+        "metric": null,
+        "reason": "insufficient_pilot_support"
+      },
+      "thresholds": {
+        "phone_use": 0.35140541195869446,
+        "looking_around": 0.4998760521411896
+      },
+      "v11_all_targets_pass_gates": false
+    }
+  },
+  {
+    "run": "E007-V13-D1-S20261025",
+    "train_looking_ap": 0.9841229893927719,
+    "val_looking_ap": 0.745763484925951,
+    "thresholds": {
+      "phone_use": 0.4581069350242615,
+      "looking_around": 0.43778350949287415
+    },
+    "val_calibrated": {
+      "targets": {
+        "phone_use": {
+          "positive": 55,
+          "negative": 120,
+          "unknown": 10,
+          "tp": 49,
+          "fp": 6,
+          "fn": 6,
+          "tn": 114,
+          "ap": 0.9380293661982435,
+          "precision": 0.8909090909090909,
+          "recall": 0.8909090909090909,
+          "f1": 0.8909090909090909,
+          "reason": null,
+          "fpr": 0.05,
+          "positive_groups": 38,
+          "negative_groups": 59,
+          "evidenced_groups": 91,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": true
+        },
+        "looking_around": {
+          "positive": 33,
+          "negative": 152,
+          "unknown": 0,
+          "tp": 23,
+          "fp": 10,
+          "fn": 10,
+          "tn": 142,
+          "ap": 0.745763484925951,
+          "precision": 0.696969696969697,
+          "recall": 0.696969696969697,
+          "f1": 0.696969696969697,
+          "reason": null,
+          "fpr": 0.06578947368421052,
+          "positive_groups": 21,
+          "negative_groups": 82,
+          "evidenced_groups": 92,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": false
+        }
+      },
+      "macro_ap": 0.8418964255620973,
+      "records": 185,
+      "cooccurrence": {
+        "fully_known": 175,
+        "positive": 3,
+        "metric": null,
+        "reason": "insufficient_pilot_support"
+      },
+      "thresholds": {
+        "phone_use": 0.4581069350242615,
+        "looking_around": 0.43778350949287415
+      },
+      "v11_all_targets_pass_gates": false
+    },
+    "small_anchor_val": {
+      "targets": {
+        "phone_use": {
+          "positive": 12,
+          "negative": 32,
+          "unknown": 4,
+          "tp": 9,
+          "fp": 0,
+          "fn": 3,
+          "tn": 32,
+          "ap": 0.9569444444444444,
+          "precision": 1.0,
+          "recall": 0.75,
+          "f1": 0.8571428571428571,
+          "reason": null,
+          "fpr": 0.0,
+          "positive_groups": 7,
+          "negative_groups": 8,
+          "evidenced_groups": 11,
+          "v11_support_gate_status": "INCONCLUSIVE",
+          "v11_quality_gate_pass": null
+        },
+        "looking_around": {
+          "positive": 7,
+          "negative": 41,
+          "unknown": 0,
+          "tp": 5,
+          "fp": 5,
+          "fn": 2,
+          "tn": 36,
+          "ap": 0.513126159554731,
+          "precision": 0.5,
+          "recall": 0.7142857142857143,
+          "f1": 0.5882352941176471,
+          "reason": null,
+          "fpr": 0.12195121951219512,
+          "positive_groups": 2,
+          "negative_groups": 11,
+          "evidenced_groups": 11,
+          "v11_support_gate_status": "INCONCLUSIVE",
+          "v11_quality_gate_pass": null
+        }
+      },
+      "macro_ap": 0.7350353019995877,
+      "records": 48,
+      "cooccurrence": {
+        "fully_known": 44,
+        "positive": 0,
+        "metric": null,
+        "reason": "insufficient_pilot_support"
+      },
+      "thresholds": {
+        "phone_use": 0.4581069350242615,
+        "looking_around": 0.43778350949287415
+      },
+      "v11_all_targets_pass_gates": false
+    }
+  },
+  {
+    "run": "E007-V13-R0-S20261023",
+    "train_looking_ap": 0.7504839403289096,
+    "val_looking_ap": 0.3089491345002883,
+    "thresholds": {
+      "phone_use": 0.5499998927116394,
+      "looking_around": 0.6338068246841431
+    },
+    "val_calibrated": {
+      "targets": {
+        "phone_use": {
+          "positive": 55,
+          "negative": 120,
+          "unknown": 10,
+          "tp": 46,
+          "fp": 27,
+          "fn": 9,
+          "tn": 93,
+          "ap": 0.7781906462528034,
+          "precision": 0.6301369863013698,
+          "recall": 0.8363636363636363,
+          "f1": 0.71875,
+          "reason": null,
+          "fpr": 0.225,
+          "positive_groups": 38,
+          "negative_groups": 59,
+          "evidenced_groups": 91,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": false
+        },
+        "looking_around": {
+          "positive": 33,
+          "negative": 152,
+          "unknown": 0,
+          "tp": 4,
+          "fp": 1,
+          "fn": 29,
+          "tn": 151,
+          "ap": 0.3089491345002883,
+          "precision": 0.8,
+          "recall": 0.12121212121212122,
+          "f1": 0.21052631578947367,
+          "reason": null,
+          "fpr": 0.006578947368421052,
+          "positive_groups": 21,
+          "negative_groups": 82,
+          "evidenced_groups": 92,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": false
+        }
+      },
+      "macro_ap": 0.5435698903765459,
+      "records": 185,
+      "cooccurrence": {
+        "fully_known": 175,
+        "positive": 3,
+        "metric": null,
+        "reason": "insufficient_pilot_support"
+      },
+      "thresholds": {
+        "phone_use": 0.5499998927116394,
+        "looking_around": 0.6338068246841431
+      },
+      "v11_all_targets_pass_gates": false
+    },
+    "small_anchor_val": {
+      "targets": {
+        "phone_use": {
+          "positive": 12,
+          "negative": 32,
+          "unknown": 4,
+          "tp": 7,
+          "fp": 2,
+          "fn": 5,
+          "tn": 30,
+          "ap": 0.8582264470422364,
+          "precision": 0.7777777777777778,
+          "recall": 0.5833333333333334,
+          "f1": 0.6666666666666666,
+          "reason": null,
+          "fpr": 0.0625,
+          "positive_groups": 7,
+          "negative_groups": 8,
+          "evidenced_groups": 11,
+          "v11_support_gate_status": "INCONCLUSIVE",
+          "v11_quality_gate_pass": null
+        },
+        "looking_around": {
+          "positive": 7,
+          "negative": 41,
+          "unknown": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 7,
+          "tn": 41,
+          "ap": 0.13460501957955268,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "reason": "precision_undefined_no_positive_predictions",
+          "fpr": 0.0,
+          "positive_groups": 2,
+          "negative_groups": 11,
+          "evidenced_groups": 11,
+          "v11_support_gate_status": "INCONCLUSIVE",
+          "v11_quality_gate_pass": null
+        }
+      },
+      "macro_ap": 0.4964157333108945,
+      "records": 48,
+      "cooccurrence": {
+        "fully_known": 44,
+        "positive": 0,
+        "metric": null,
+        "reason": "insufficient_pilot_support"
+      },
+      "thresholds": {
+        "phone_use": 0.5499998927116394,
+        "looking_around": 0.6338068246841431
+      },
+      "v11_all_targets_pass_gates": false
+    }
+  },
+  {
+    "run": "E007-V13-R0-S20261024",
+    "train_looking_ap": 0.6655759333497218,
+    "val_looking_ap": 0.3053502603388873,
+    "thresholds": {
+      "phone_use": 0.3072977662086487,
+      "looking_around": 0.6581183075904846
+    },
+    "val_calibrated": {
+      "targets": {
+        "phone_use": {
+          "positive": 55,
+          "negative": 120,
+          "unknown": 10,
+          "tp": 45,
+          "fp": 27,
+          "fn": 10,
+          "tn": 93,
+          "ap": 0.7563172895423076,
+          "precision": 0.625,
+          "recall": 0.8181818181818182,
+          "f1": 0.7086614173228346,
+          "reason": null,
+          "fpr": 0.225,
+          "positive_groups": 38,
+          "negative_groups": 59,
+          "evidenced_groups": 91,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": false
+        },
+        "looking_around": {
+          "positive": 33,
+          "negative": 152,
+          "unknown": 0,
+          "tp": 4,
+          "fp": 2,
+          "fn": 29,
+          "tn": 150,
+          "ap": 0.3053502603388873,
+          "precision": 0.6666666666666666,
+          "recall": 0.12121212121212122,
+          "f1": 0.20512820512820512,
+          "reason": null,
+          "fpr": 0.013157894736842105,
+          "positive_groups": 21,
+          "negative_groups": 82,
+          "evidenced_groups": 92,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": false
+        }
+      },
+      "macro_ap": 0.5308337749405975,
+      "records": 185,
+      "cooccurrence": {
+        "fully_known": 175,
+        "positive": 3,
+        "metric": null,
+        "reason": "insufficient_pilot_support"
+      },
+      "thresholds": {
+        "phone_use": 0.3072977662086487,
+        "looking_around": 0.6581183075904846
+      },
+      "v11_all_targets_pass_gates": false
+    },
+    "small_anchor_val": {
+      "targets": {
+        "phone_use": {
+          "positive": 12,
+          "negative": 32,
+          "unknown": 4,
+          "tp": 7,
+          "fp": 3,
+          "fn": 5,
+          "tn": 29,
+          "ap": 0.7890604575163398,
+          "precision": 0.7,
+          "recall": 0.5833333333333334,
+          "f1": 0.6363636363636364,
+          "reason": null,
+          "fpr": 0.09375,
+          "positive_groups": 7,
+          "negative_groups": 8,
+          "evidenced_groups": 11,
+          "v11_support_gate_status": "INCONCLUSIVE",
+          "v11_quality_gate_pass": null
+        },
+        "looking_around": {
+          "positive": 7,
+          "negative": 41,
+          "unknown": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 7,
+          "tn": 41,
+          "ap": 0.14525418863197453,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "reason": "precision_undefined_no_positive_predictions",
+          "fpr": 0.0,
+          "positive_groups": 2,
+          "negative_groups": 11,
+          "evidenced_groups": 11,
+          "v11_support_gate_status": "INCONCLUSIVE",
+          "v11_quality_gate_pass": null
+        }
+      },
+      "macro_ap": 0.46715732307415714,
+      "records": 48,
+      "cooccurrence": {
+        "fully_known": 44,
+        "positive": 0,
+        "metric": null,
+        "reason": "insufficient_pilot_support"
+      },
+      "thresholds": {
+        "phone_use": 0.3072977662086487,
+        "looking_around": 0.6581183075904846
+      },
+      "v11_all_targets_pass_gates": false
+    }
+  },
+  {
+    "run": "E007-V13-R0-S20261025",
+    "train_looking_ap": 0.7555860950497522,
+    "val_looking_ap": 0.2683106048689641,
+    "thresholds": {
+      "phone_use": 0.4711335301399231,
+      "looking_around": 0.7677426338195801
+    },
+    "val_calibrated": {
+      "targets": {
+        "phone_use": {
+          "positive": 55,
+          "negative": 120,
+          "unknown": 10,
+          "tp": 43,
+          "fp": 21,
+          "fn": 12,
+          "tn": 99,
+          "ap": 0.7837214126727631,
+          "precision": 0.671875,
+          "recall": 0.7818181818181819,
+          "f1": 0.7226890756302521,
+          "reason": null,
+          "fpr": 0.175,
+          "positive_groups": 38,
+          "negative_groups": 59,
+          "evidenced_groups": 91,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": false
+        },
+        "looking_around": {
+          "positive": 33,
+          "negative": 152,
+          "unknown": 0,
+          "tp": 2,
+          "fp": 1,
+          "fn": 31,
+          "tn": 151,
+          "ap": 0.2683106048689641,
+          "precision": 0.6666666666666666,
+          "recall": 0.06060606060606061,
+          "f1": 0.1111111111111111,
+          "reason": null,
+          "fpr": 0.006578947368421052,
+          "positive_groups": 21,
+          "negative_groups": 82,
+          "evidenced_groups": 92,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": false
+        }
+      },
+      "macro_ap": 0.5260160087708636,
+      "records": 185,
+      "cooccurrence": {
+        "fully_known": 175,
+        "positive": 3,
+        "metric": null,
+        "reason": "insufficient_pilot_support"
+      },
+      "thresholds": {
+        "phone_use": 0.4711335301399231,
+        "looking_around": 0.7677426338195801
+      },
+      "v11_all_targets_pass_gates": false
+    },
+    "small_anchor_val": {
+      "targets": {
+        "phone_use": {
+          "positive": 12,
+          "negative": 32,
+          "unknown": 4,
+          "tp": 8,
+          "fp": 3,
+          "fn": 4,
+          "tn": 29,
+          "ap": 0.8537736568986568,
+          "precision": 0.7272727272727273,
+          "recall": 0.6666666666666666,
+          "f1": 0.6956521739130435,
+          "reason": null,
+          "fpr": 0.09375,
+          "positive_groups": 7,
+          "negative_groups": 8,
+          "evidenced_groups": 11,
+          "v11_support_gate_status": "INCONCLUSIVE",
+          "v11_quality_gate_pass": null
+        },
+        "looking_around": {
+          "positive": 7,
+          "negative": 41,
+          "unknown": 0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 7,
+          "tn": 41,
+          "ap": 0.14504162630579653,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0,
+          "reason": "precision_undefined_no_positive_predictions",
+          "fpr": 0.0,
+          "positive_groups": 2,
+          "negative_groups": 11,
+          "evidenced_groups": 11,
+          "v11_support_gate_status": "INCONCLUSIVE",
+          "v11_quality_gate_pass": null
+        }
+      },
+      "macro_ap": 0.49940764160222667,
+      "records": 48,
+      "cooccurrence": {
+        "fully_known": 44,
+        "positive": 0,
+        "metric": null,
+        "reason": "insufficient_pilot_support"
+      },
+      "thresholds": {
+        "phone_use": 0.4711335301399231,
+        "looking_around": 0.7677426338195801
+      },
+      "v11_all_targets_pass_gates": false
+    }
+  }
+]

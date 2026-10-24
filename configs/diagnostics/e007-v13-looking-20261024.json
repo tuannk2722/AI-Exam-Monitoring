@@ -1,0 +1,62 @@
+{
+  "status": "authorized_diagnostic_only",
+  "authorization_ref": "Owner chat 2026-10-24: audit loi va giai quyet looking_around",
+  "package": "data/processed/pilot-b/pilot-b-20261023-v13",
+  "payload_sha256": "186daf8c2ec9ac0231cb3f9438d24415feb5b0439a5320cad36312562029576e",
+  "run_root": "outputs/E007-V13-Colab-20261024/runs",
+  "runs": [
+    "E007-V13-D1-S20261023",
+    "E007-V13-D1-S20261024",
+    "E007-V13-D1-S20261025",
+    "E007-V13-R0-S20261023",
+    "E007-V13-R0-S20261024",
+    "E007-V13-R0-S20261025"
+  ],
+  "run_checksum_pins": {
+    "E007-V13-D1-S20261023": "bc56b217c44e3f594d37dcb3ad2fe3b92da9635e72c25f5014c43b629d42d6d4",
+    "E007-V13-D1-S20261024": "a84cab21f6658450950c477f07ca546a2c56a037500f638b2d86c7b83b853562",
+    "E007-V13-D1-S20261025": "6420a40fc69aeb5e4c04c6fad8402449fe86dfeb5a4b9e01f9667d11501c25cb",
+    "E007-V13-R0-S20261023": "d7d9d5cc2cc9f7f4b78fb451cf27de00298c1ea26d2c9377653f2dc3ebc32a5b",
+    "E007-V13-R0-S20261024": "1bfc4a351e40796deea804f4208d77ae51856d05b087802c0c9461c31332247c",
+    "E007-V13-R0-S20261025": "d8eaeb926aba23226d70e17292227e4b55c0428b026d444b0624b90d232719a9"
+  },
+  "recipes": {
+    "D1": [
+      "E007-V13-D1-S20261023",
+      "E007-V13-D1-S20261024",
+      "E007-V13-D1-S20261025"
+    ],
+    "R0": [
+      "E007-V13-R0-S20261023",
+      "E007-V13-R0-S20261024",
+      "E007-V13-R0-S20261025"
+    ]
+  },
+  "reference_recipe": "D1",
+  "errors_per_bucket": 8,
+  "review_sample_ids": [
+    "E004-EX-C003",
+    "G01-A02-F00001-R02",
+    "G01-B02-F00009",
+    "G08-B02-F00001",
+    "G12-A02-F00007",
+    "G19-A01-F00052",
+    "NEW-058",
+    "NEW-132",
+    "V7-A-074",
+    "V7-C-046-R05",
+    "V7-C-111",
+    "V7-OE-S094-A01-R04"
+  ],
+  "augmentation_epoch": 7,
+  "augmentation_epochs": [
+    1,
+    4,
+    7,
+    11
+  ],
+  "source_roots": "artifacts/reports/dataset-release-20261023-v13/source-roots.json",
+  "source_roots_sha256": "97f20fbdb453a25d2b3e380f2d6a5a6e8e54a39ded1c98c20512ac31a4cd89a8",
+  "report_output": "artifacts/reports/looking-around-audit-20261024",
+  "media_output": "data/interim/looking-around-audit-20261024"
+}

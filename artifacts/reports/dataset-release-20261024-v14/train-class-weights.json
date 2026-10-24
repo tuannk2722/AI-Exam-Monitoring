@@ -1,0 +1,23 @@
+{
+  "method": "sqrt(known_negative / known_positive), train only; data-derived evidence, not a runnable experiment config",
+  "target_order": [
+    "phone_use",
+    "looking_around"
+  ],
+  "positive_weight": [
+    1.4113362174546458,
+    2.160246899469287
+  ],
+  "counts": {
+    "phone_use": {
+      "positive": 369,
+      "negative": 735,
+      "unknown": 95
+    },
+    "looking_around": {
+      "negative": 980,
+      "positive": 210,
+      "unknown": 9
+    }
+  }
+}

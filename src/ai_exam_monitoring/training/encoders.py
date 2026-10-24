@@ -7,7 +7,7 @@ import os
 import sys
 import zipfile
 from pathlib import Path, PurePosixPath
-from typing import Any
+from typing import Any, cast
 
 import torch
 from torch import nn
@@ -60,7 +60,7 @@ class DinoNetwork(nn.Module):
         self.backbone = backbone
         self.fc = head
 
-    def features(self, images: torch.Tensor) -> torch.Tensor:
+    def tokens(self, images: torch.Tensor) -> torch.Tensor:
         net = self.backbone
         # Blocks 0..9 and tokenization are always frozen in the approved policy.
         with torch.no_grad():
@@ -76,5 +76,9 @@ class DinoNetwork(nn.Module):
                 for block in net.blocks[10:]:
                     x = block(x)
                 x = net.norm(x)
+        return cast(torch.Tensor, x)
+
+    def features(self, images: torch.Tensor) -> torch.Tensor:
+        x = self.tokens(images)
         return torch.cat((x[:, 0], x[:, 1:].mean(dim=1)), dim=1)
 

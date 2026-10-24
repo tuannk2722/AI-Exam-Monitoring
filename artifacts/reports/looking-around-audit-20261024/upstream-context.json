@@ -1,0 +1,248 @@
+{
+  "input_pins": {
+    "artifacts/reports/v12-reconcile-20261022/candidate-source-provenance.json": "1fe6c4c632e6868969b2804ccc9c701fe85ab4437a5de55d6dcec95722a2dd52",
+    "artifacts/reports/dataset-release-20261020-v12/source-roots.json": "f7515133e42cb3a784bd96610e977ec30cc030f286403e192caafb935dd466f5"
+  },
+  "samples": [
+    {
+      "sample_id": "G01-B02-F00009",
+      "path": "data/interim/dataset-release-20261020-v12/sources/owner-frames-part01-20261016/G01/frame_00009.jpg",
+      "sha256": "20acd311f10deb4e44bee9b01af577e32be5e74a1ee028df54f6192a60acefba",
+      "upstream_v12_crop": {
+        "person_id": "B02",
+        "person_box": {
+          "xmin": 100,
+          "ymin": 202,
+          "xmax": 171,
+          "ymax": 281
+        },
+        "context_box": {
+          "xmin": 91,
+          "ymin": 194,
+          "xmax": 183,
+          "ymax": 293
+        },
+        "crop_relpath": "crops/G01-B02-F00009.png",
+        "crop_sha256": "a71d94abf783f9c3183e4d488553b962702d96e3d46db61419e7270d7940fccd",
+        "review": {
+          "reviewer": "repository-owner",
+          "reviewed_at": "2026-10-17",
+          "evidence_ref": "artifacts/reports/frame-crop-additional-20261017/owner-accepted.json#G01-B02-F00009",
+          "crop_sha256": "a71d94abf783f9c3183e4d488553b962702d96e3d46db61419e7270d7940fccd"
+        },
+        "derivation": null
+      },
+      "scope": "read_only_upstream_context_no_relabel"
+    },
+    {
+      "sample_id": "G08-B02-F00001",
+      "path": "data/interim/dataset-release-20261020-v12/sources/owner-frames-part02-20261016/G08/frame_00001.jpg",
+      "sha256": "122fd10c1a2968eca265513596693a4fbe4901ae08432bc34132f55c305e76b5",
+      "upstream_v12_crop": {
+        "person_id": "B02",
+        "person_box": {
+          "xmin": 142,
+          "ymin": 216,
+          "xmax": 211,
+          "ymax": 315
+        },
+        "context_box": {
+          "xmin": 131,
+          "ymin": 205,
+          "xmax": 224,
+          "ymax": 338
+        },
+        "crop_relpath": "crops/G08-B02-F00001.png",
+        "crop_sha256": "0db8cac05f66de3455262603daba6e71379f49557880d508834d9ebf88d4bb7a",
+        "review": {
+          "reviewer": "repository-owner",
+          "reviewed_at": "2026-10-17",
+          "evidence_ref": "artifacts/reports/frame-crop-additional-20261017/owner-accepted.json#G08-B02-F00001",
+          "crop_sha256": "0db8cac05f66de3455262603daba6e71379f49557880d508834d9ebf88d4bb7a"
+        },
+        "derivation": null
+      },
+      "scope": "read_only_upstream_context_no_relabel"
+    },
+    {
+      "sample_id": "G12-A02-F00007",
+      "path": "data/interim/dataset-release-20261020-v12/sources/owner-frames-part02-20261016/G12/frame_00007.jpg",
+      "sha256": "6d01543ce3c14c8baf97fc9f1cef30a5b6d500af3cdc44edb9d5996db48ee6af",
+      "upstream_v12_crop": {
+        "person_id": "A02",
+        "person_box": {
+          "xmin": 440,
+          "ymin": 103,
+          "xmax": 640,
+          "ymax": 306
+        },
+        "context_box": {
+          "xmin": 426,
+          "ymin": 91,
+          "xmax": 640,
+          "ymax": 360
+        },
+        "crop_relpath": "crops/G12-A02-F00007.png",
+        "crop_sha256": "84c5ee946b816103af3e6d92d143db680763910a37ef92a85b051a33a7e29360",
+        "review": {
+          "reviewer": "repository-owner",
+          "reviewed_at": "2026-10-17",
+          "evidence_ref": "artifacts/reports/frame-crop-audit-20261016/owner-accepted-20261017.json#G12-A02-F00007",
+          "crop_sha256": "84c5ee946b816103af3e6d92d143db680763910a37ef92a85b051a33a7e29360"
+        },
+        "derivation": null
+      },
+      "scope": "read_only_upstream_context_no_relabel"
+    },
+    {
+      "sample_id": "G19-A01-F00052",
+      "path": "data/interim/dataset-release-20261020-v12/sources/owner-frames-part04-20261016/G19/frame_00052.jpg",
+      "sha256": "5227b0e8e2bc62517afb61fc3f0e682cd1b647abad2b359018b11f9bb14444f5",
+      "upstream_v12_crop": {
+        "person_id": "A01",
+        "person_box": {
+          "xmin": 143,
+          "ymin": 253,
+          "xmax": 204,
+          "ymax": 329
+        },
+        "context_box": {
+          "xmin": 132,
+          "ymin": 243,
+          "xmax": 246,
+          "ymax": 360
+        },
+        "crop_relpath": "crops/G19-A01-F00052.png",
+        "crop_sha256": "b2d95a9f90f870a43e03ae2f72e7fe35abe76036a963a5056a27c35a8af7401f",
+        "review": {
+          "reviewer": "repository-owner",
+          "reviewed_at": "2026-10-17",
+          "evidence_ref": "artifacts/reports/frame-crop-audit-20261016/owner-accepted-20261017.json#G19-A01-F00052",
+          "crop_sha256": "b2d95a9f90f870a43e03ae2f72e7fe35abe76036a963a5056a27c35a8af7401f"
+        },
+        "derivation": null
+      },
+      "scope": "read_only_upstream_context_no_relabel"
+    },
+    {
+      "sample_id": "V7-A-074",
+      "path": "data/interim/dataset-release-20261020-v12/sources/openimages_train_prefix/v7-new/images/05654392821a2417767fed1f54f290c9aa04c46a49f6dd33c6f045d364f31006.jpg",
+      "sha256": "05654392821a2417767fed1f54f290c9aa04c46a49f6dd33c6f045d364f31006",
+      "upstream_v12_crop": {
+        "person_id": "V7-A-074",
+        "person_box": {
+          "xmin": 327,
+          "ymin": 46,
+          "xmax": 1004,
+          "ymax": 761
+        },
+        "context_box": {
+          "xmin": 327,
+          "ymin": 46,
+          "xmax": 1004,
+          "ymax": 761
+        },
+        "crop_relpath": "crops/V7-A-074.png",
+        "crop_sha256": "8446c39276e9d8c430744b94153da207f61424d1355895aa83a9c59c1ad7f3e7",
+        "review": {
+          "reviewer": "repository-owner",
+          "reviewed_at": "2026-10-20",
+          "evidence_ref": "artifacts/reports/dataset-release-20261020-v12/owner-release-approval.json#V7-A-074",
+          "crop_sha256": "8446c39276e9d8c430744b94153da207f61424d1355895aa83a9c59c1ad7f3e7"
+        },
+        "derivation": null
+      },
+      "scope": "read_only_upstream_context_no_relabel"
+    },
+    {
+      "sample_id": "V7-C-046-R05",
+      "path": "data/interim/dataset-release-20261020-v12/sources/scb_hrw/v7-new/images/8749f1236e43b18264f832e7f430c59047a739a94094a4536f758b127277aadb.jpg",
+      "sha256": "8749f1236e43b18264f832e7f430c59047a739a94094a4536f758b127277aadb",
+      "upstream_v12_crop": {
+        "person_id": "V7-C-046-R05",
+        "person_box": {
+          "xmin": 0,
+          "ymin": 199,
+          "xmax": 429,
+          "ymax": 704
+        },
+        "context_box": {
+          "xmin": 0,
+          "ymin": 199,
+          "xmax": 429,
+          "ymax": 704
+        },
+        "crop_relpath": "crops/V7-C-046-R05.png",
+        "crop_sha256": "29084461d6ea2acdbf1675be2c7e87899560b698876a85ad9d41f9b8ee0e3fb7",
+        "review": {
+          "reviewer": "repository-owner",
+          "reviewed_at": "2026-10-20",
+          "evidence_ref": "artifacts/reports/dataset-release-20261020-v12/owner-release-approval.json#V7-C-046-R05",
+          "crop_sha256": "29084461d6ea2acdbf1675be2c7e87899560b698876a85ad9d41f9b8ee0e3fb7"
+        },
+        "derivation": null
+      },
+      "scope": "read_only_upstream_context_no_relabel"
+    },
+    {
+      "sample_id": "V7-C-111",
+      "path": "data/interim/dataset-release-20261020-v12/sources/openimages_train_prefix/v7-new/images/1095cf5bd84874bb0fcce59f42ac021c1a8bf64a24704babcc4722760da81fde.jpg",
+      "sha256": "1095cf5bd84874bb0fcce59f42ac021c1a8bf64a24704babcc4722760da81fde",
+      "upstream_v12_crop": {
+        "person_id": "V7-C-111",
+        "person_box": {
+          "xmin": 409,
+          "ymin": 199,
+          "xmax": 912,
+          "ymax": 707
+        },
+        "context_box": {
+          "xmin": 409,
+          "ymin": 199,
+          "xmax": 912,
+          "ymax": 707
+        },
+        "crop_relpath": "crops/V7-C-111.png",
+        "crop_sha256": "8d3b1b29c6d6f2b39fb00a56e80a4ec07ab33c2f78f79fa4bc746df54b72dec7",
+        "review": {
+          "reviewer": "repository-owner",
+          "reviewed_at": "2026-10-20",
+          "evidence_ref": "artifacts/reports/dataset-release-20261020-v12/owner-release-approval.json#V7-C-111",
+          "crop_sha256": "8d3b1b29c6d6f2b39fb00a56e80a4ec07ab33c2f78f79fa4bc746df54b72dec7"
+        },
+        "derivation": null
+      },
+      "scope": "read_only_upstream_context_no_relabel"
+    },
+    {
+      "sample_id": "V7-OE-S094-A01-R04",
+      "path": "data/interim/dataset-release-20261020-v12/sources/scb_hrw/v7-new/images/1dac8404e2cb63e1de0423c68c0086b806cc1bb867ba7461d1dbe55e922a67a8.jpg",
+      "sha256": "1dac8404e2cb63e1de0423c68c0086b806cc1bb867ba7461d1dbe55e922a67a8",
+      "upstream_v12_crop": {
+        "person_id": "V7-OE-S094-A01-R04",
+        "person_box": {
+          "xmin": 307,
+          "ymin": 352,
+          "xmax": 609,
+          "ymax": 825
+        },
+        "context_box": {
+          "xmin": 297,
+          "ymin": 342,
+          "xmax": 620,
+          "ymax": 850
+        },
+        "crop_relpath": "crops/V7-OE-S094-A01-R04.png",
+        "crop_sha256": "29b8c6672b4e69a5e310219a7816739a10a77a9d0e5315376853d853e618edbb",
+        "review": {
+          "reviewer": "repository-owner",
+          "reviewed_at": "2026-10-20",
+          "evidence_ref": "artifacts/reports/dataset-release-20261020-v12/owner-release-approval.json#V7-OE-S094-A01-R04",
+          "crop_sha256": "29b8c6672b4e69a5e310219a7816739a10a77a9d0e5315376853d853e618edbb"
+        },
+        "derivation": null
+      },
+      "scope": "read_only_upstream_context_no_relabel"
+    }
+  ]
+}

@@ -1,0 +1,4588 @@
+{
+  "D1_calibrated": [
+    {
+      "sample_id": "E004-EX-C003",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-b12c1c9e4616",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.7437090873718262,
+        "E007-V13-D1-S20261024": 0.7588320970535278,
+        "E007-V13-D1-S20261025": 0.8222082853317261
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.35948790113131207
+    },
+    {
+      "sample_id": "E004-EX-C163",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-f537227ca5d6",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.8595772981643677,
+        "E007-V13-D1-S20261024": 0.7833354473114014,
+        "E007-V13-D1-S20261025": 0.925599992275238
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.4540026783943176
+    },
+    {
+      "sample_id": "G01-A02-F00001-R02",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.6884178519248962,
+        "E007-V13-D1-S20261024": 0.5311192274093628,
+        "E007-V13-D1-S20261025": 0.5571138262748718
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.17678837974866232
+    },
+    {
+      "sample_id": "G01-B02-F00009",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.9477754831314087,
+        "E007-V13-D1-S20261024": 0.8756304383277893,
+        "E007-V13-D1-S20261025": 0.9051640629768372
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.49409473935763043
+    },
+    {
+      "sample_id": "G06-A01-F00012",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-84bd7f16d41c",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.23603078722953796,
+        "E007-V13-D1-S20261024": 0.16635695099830627,
+        "E007-V13-D1-S20261025": 0.12334510684013367
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.22692395250002542
+    },
+    {
+      "sample_id": "G08-B01-F00001",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "TN",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.5787041187286377,
+        "E007-V13-D1-S20261024": 0.48944291472435,
+        "E007-V13-D1-S20261025": 0.5555188059806824
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.1327487826347351
+    },
+    {
+      "sample_id": "G08-B02-F00001",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.6639665365219116,
+        "E007-V13-D1-S20261024": 0.5876606106758118,
+        "E007-V13-D1-S20261025": 0.6818168759346008
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.22905275225639343
+    },
+    {
+      "sample_id": "G12-A02-F00007",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-f46a5ce03d9c",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.06255050003528595,
+        "E007-V13-D1-S20261024": 0.12124620378017426,
+        "E007-V13-D1-S20261025": 0.07400564849376678
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.32949447135130566
+    },
+    {
+      "sample_id": "G12-B03-F00001",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-f46a5ce03d9c",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.14204248785972595,
+        "E007-V13-D1-S20261024": 0.1865939199924469,
+        "E007-V13-D1-S20261025": 0.10521655529737473
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.25755057980616886
+    },
+    {
+      "sample_id": "G19-A01-F00052",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.11978014558553696,
+        "E007-V13-D1-S20261024": 0.16664092242717743,
+        "E007-V13-D1-S20261025": 0.16596515476703644
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.2646331811944644
+    },
+    {
+      "sample_id": "G19-A02-F00056",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "TP",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.37732046842575073,
+        "E007-V13-D1-S20261024": 0.42484480142593384,
+        "E007-V13-D1-S20261025": 0.3983958065509796
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.06103773911794027
+    },
+    {
+      "sample_id": "NEW-058",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-faf4d452ebb3",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.23760873079299927,
+        "E007-V13-D1-S20261024": 0.2936761677265167,
+        "E007-V13-D1-S20261025": 0.3240584135055542
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.13031415144602457
+    },
+    {
+      "sample_id": "NEW-065",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-f05900408e3c",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "TP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.2821493446826935,
+        "E007-V13-D1-S20261024": 0.305345356464386,
+        "E007-V13-D1-S20261025": 0.44595614075660706
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.07639339566230774
+    },
+    {
+      "sample_id": "NEW-132",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-f05900408e3c",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.19268885254859924,
+        "E007-V13-D1-S20261024": 0.32957956194877625,
+        "E007-V13-D1-S20261025": 0.24936553835868835
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.1582172711690267
+    },
+    {
+      "sample_id": "SCB-turnhead-016",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-89ee6ad74b64",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.7316384315490723,
+        "E007-V13-D1-S20261024": 0.5579532980918884,
+        "E007-V13-D1-S20261025": 0.5357034206390381
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.2062634825706482
+    },
+    {
+      "sample_id": "V6-CA-011-R04",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-18fea63f31fb",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "TP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.3299529254436493,
+        "E007-V13-D1-S20261024": 0.2387760579586029,
+        "E007-V13-D1-S20261025": 0.48028984665870667
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.06728389859199524
+    },
+    {
+      "sample_id": "V6R2-CA-001",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-427adbb68b90",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.06280914694070816,
+        "E007-V13-D1-S20261024": 0.0640050619840622,
+        "E007-V13-D1-S20261025": 0.05274071916937828
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.34231659149130184
+    },
+    {
+      "sample_id": "V6R2-CA-008-ADD02",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-47a05ee7832f",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.9461148381233215,
+        "E007-V13-D1-S20261024": 0.9107194542884827,
+        "E007-V13-D1-S20261025": 0.9629286527633667
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.5377527475357056
+    },
+    {
+      "sample_id": "V6R2-EX-009",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-35cc4606f795",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.05491836369037628,
+        "E007-V13-D1-S20261024": 0.06979737430810928,
+        "E007-V13-D1-S20261025": 0.04968427121639252
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.34403489778439206
+    },
+    {
+      "sample_id": "V6R2-EX-009",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-35cc4606f795",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "TN",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.5513690710067749,
+        "E007-V13-D1-S20261024": 0.49006906151771545,
+        "E007-V13-D1-S20261025": 0.6174350380897522
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.14406712849934897
+    },
+    {
+      "sample_id": "V7-A-002",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-595519798017",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.3050650358200073,
+        "E007-V13-D1-S20261024": 0.2383844554424286,
+        "E007-V13-D1-S20261025": 0.3923596143722534
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.09023186564445496
+    },
+    {
+      "sample_id": "V7-A-074",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-0881bcd67c53",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.7988340258598328,
+        "E007-V13-D1-S20261024": 0.8455089330673218,
+        "E007-V13-D1-S20261025": 0.7531608939170837
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.3837393621603648
+    },
+    {
+      "sample_id": "V7-B-031-R03",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-91a496c71247",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "TP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.2317214161157608,
+        "E007-V13-D1-S20261024": 0.2317831814289093,
+        "E007-V13-D1-S20261025": 0.4581069350242615
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.09496438999970754
+    },
+    {
+      "sample_id": "V7-C-009-R03",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-3f68d78ef9da",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "TP",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.29131636023521423,
+        "E007-V13-D1-S20261024": 0.5158460736274719,
+        "E007-V13-D1-S20261025": 0.2883405387401581
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.060907612244288124
+    },
+    {
+      "sample_id": "V7-C-046-R05",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-b5b853925e4b",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.76555335521698,
+        "E007-V13-D1-S20261024": 0.8230369091033936,
+        "E007-V13-D1-S20261025": 0.7203822731971741
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.3542289237181346
+    },
+    {
+      "sample_id": "V7-C-055",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-6d5b425cd643",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "TN",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.605374276638031,
+        "E007-V13-D1-S20261024": 0.33312153816223145,
+        "E007-V13-D1-S20261025": 0.5149964690208435
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.09451844294865926
+    },
+    {
+      "sample_id": "V7-C-069",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-89bfb43b31e4",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "TN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.45331960916519165,
+        "E007-V13-D1-S20261024": 0.5001343488693237,
+        "E007-V13-D1-S20261025": 0.38392817974090576
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.06626901030540466
+    },
+    {
+      "sample_id": "V7-C-081",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-05c32740b912",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.8065076470375061,
+        "E007-V13-D1-S20261024": 0.822064995765686,
+        "E007-V13-D1-S20261025": 0.8071007132530212
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.40972288449605304
+    },
+    {
+      "sample_id": "V7-C-081",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-05c32740b912",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "TP",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.342494934797287,
+        "E007-V13-D1-S20261024": 0.34754157066345215,
+        "E007-V13-D1-S20261025": 0.26662397384643555
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.11912091573079427
+    },
+    {
+      "sample_id": "V7-C-111",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-3a4bab5b2f66",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.21845337748527527,
+        "E007-V13-D1-S20261024": 0.2769225835800171,
+        "E007-V13-D1-S20261025": 0.25626689195632935
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.16488097111384073
+    },
+    {
+      "sample_id": "V7-D-009",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-98904d4b2246",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "TN",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.6159369349479675,
+        "E007-V13-D1-S20261024": 0.42724958062171936,
+        "E007-V13-D1-S20261025": 0.45507001876831055
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.13240790367126465
+    },
+    {
+      "sample_id": "V7-OE-S094-A01-R04",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-58b7c70ac04f",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.6247469186782837,
+        "E007-V13-D1-S20261024": 0.653060793876648,
+        "E007-V13-D1-S20261025": 0.47193628549575806
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.16781941056251526
+    }
+  ],
+  "D1_fixed": [
+    {
+      "sample_id": "E004-EX-C003",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-b12c1c9e4616",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.7437090873718262,
+        "E007-V13-D1-S20261024": 0.7588320970535278,
+        "E007-V13-D1-S20261025": 0.8222082853317261
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.2749164899190267
+    },
+    {
+      "sample_id": "E004-EX-C163",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-f537227ca5d6",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.8595772981643677,
+        "E007-V13-D1-S20261024": 0.7833354473114014,
+        "E007-V13-D1-S20261025": 0.925599992275238
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.356170912583669
+    },
+    {
+      "sample_id": "G01-A02-F00001-R02",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.6884178519248962,
+        "E007-V13-D1-S20261024": 0.5311192274093628,
+        "E007-V13-D1-S20261025": 0.5571138262748718
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.09221696853637695
+    },
+    {
+      "sample_id": "G01-B02-F00009",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.9477754831314087,
+        "E007-V13-D1-S20261024": 0.8756304383277893,
+        "E007-V13-D1-S20261025": 0.9051640629768372
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.40952332814534503
+    },
+    {
+      "sample_id": "G06-A01-F00012",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-84bd7f16d41c",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.23603078722953796,
+        "E007-V13-D1-S20261024": 0.16635695099830627,
+        "E007-V13-D1-S20261025": 0.12334510684013367
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.324755718310674
+    },
+    {
+      "sample_id": "G08-B01-F00001",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "TN",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.5787041187286377,
+        "E007-V13-D1-S20261024": 0.48944291472435,
+        "E007-V13-D1-S20261025": 0.5555188059806824
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.048260003328323364
+    },
+    {
+      "sample_id": "G08-B02-F00001",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.6639665365219116,
+        "E007-V13-D1-S20261024": 0.5876606106758118,
+        "E007-V13-D1-S20261025": 0.6818168759346008
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.14448134104410806
+    },
+    {
+      "sample_id": "G12-A01-F00053-R02",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-f46a5ce03d9c",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.39699235558509827,
+        "E007-V13-D1-S20261024": 0.4091411530971527,
+        "E007-V13-D1-S20261025": 0.31847354769706726
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.12513098120689392
+    },
+    {
+      "sample_id": "G12-A02-F00007",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-f46a5ce03d9c",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.06255050003528595,
+        "E007-V13-D1-S20261024": 0.12124620378017426,
+        "E007-V13-D1-S20261025": 0.07400564849376678
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.414065882563591
+    },
+    {
+      "sample_id": "G12-B03-F00001",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-f46a5ce03d9c",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.14204248785972595,
+        "E007-V13-D1-S20261024": 0.1865939199924469,
+        "E007-V13-D1-S20261025": 0.10521655529737473
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.3553823456168175
+    },
+    {
+      "sample_id": "G19-A01-F00052",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.11978014558553696,
+        "E007-V13-D1-S20261024": 0.16664092242717743,
+        "E007-V13-D1-S20261025": 0.16596515476703644
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.3492045924067497
+    },
+    {
+      "sample_id": "G19-A02-F00056",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.37732046842575073,
+        "E007-V13-D1-S20261024": 0.42484480142593384,
+        "E007-V13-D1-S20261025": 0.3983958065509796
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.09981297453244527
+    },
+    {
+      "sample_id": "G27-A02-F00022",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-b57f7c3e7223",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.37724119424819946,
+        "E007-V13-D1-S20261024": 0.4998760521411896,
+        "E007-V13-D1-S20261025": 0.3502260148525238
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.09088557958602905
+    },
+    {
+      "sample_id": "NEW-058",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-faf4d452ebb3",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.23760873079299927,
+        "E007-V13-D1-S20261024": 0.2936761677265167,
+        "E007-V13-D1-S20261025": 0.3240584135055542
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.21488556265830994
+    },
+    {
+      "sample_id": "NEW-065",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-f05900408e3c",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.2821493446826935,
+        "E007-V13-D1-S20261024": 0.305345356464386,
+        "E007-V13-D1-S20261025": 0.44595614075660706
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.1555163860321045
+    },
+    {
+      "sample_id": "NEW-129",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-f05900408e3c",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "TP",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.3086262047290802,
+        "E007-V13-D1-S20261024": 0.6431649923324585,
+        "E007-V13-D1-S20261025": 0.43778350949287415
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.13225175937016806
+    },
+    {
+      "sample_id": "NEW-132",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-f05900408e3c",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.19268885254859924,
+        "E007-V13-D1-S20261024": 0.32957956194877625,
+        "E007-V13-D1-S20261025": 0.24936553835868835
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.24278868238131204
+    },
+    {
+      "sample_id": "NEW-156",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-6c1282220376",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "TP",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.3935498893260956,
+        "E007-V13-D1-S20261024": 0.5137969851493835,
+        "E007-V13-D1-S20261025": 0.27951523661613464
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.11357728640238444
+    },
+    {
+      "sample_id": "SCB-turnhead-016",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-89ee6ad74b64",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.7316384315490723,
+        "E007-V13-D1-S20261024": 0.5579532980918884,
+        "E007-V13-D1-S20261025": 0.5357034206390381
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.10843171675999959
+    },
+    {
+      "sample_id": "V6-CA-011-R04",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-18fea63f31fb",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.3299529254436493,
+        "E007-V13-D1-S20261024": 0.2387760579586029,
+        "E007-V13-D1-S20261025": 0.48028984665870667
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.15032705664634705
+    },
+    {
+      "sample_id": "V6R2-CA-001",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-427adbb68b90",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.06280914694070816,
+        "E007-V13-D1-S20261024": 0.0640050619840622,
+        "E007-V13-D1-S20261025": 0.05274071916937828
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.44014835730195045
+    },
+    {
+      "sample_id": "V6R2-CA-008-ADD02",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-47a05ee7832f",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.9461148381233215,
+        "E007-V13-D1-S20261024": 0.9107194542884827,
+        "E007-V13-D1-S20261025": 0.9629286527633667
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.43992098172505695
+    },
+    {
+      "sample_id": "V6R2-EX-009",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-35cc4606f795",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.05491836369037628,
+        "E007-V13-D1-S20261024": 0.06979737430810928,
+        "E007-V13-D1-S20261025": 0.04968427121639252
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.4418666635950406
+    },
+    {
+      "sample_id": "V6R2-EX-009",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-35cc4606f795",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "TN",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.5513690710067749,
+        "E007-V13-D1-S20261024": 0.49006906151771545,
+        "E007-V13-D1-S20261025": 0.6174350380897522
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.05957834919293722
+    },
+    {
+      "sample_id": "V7-A-002",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-595519798017",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.3050650358200073,
+        "E007-V13-D1-S20261024": 0.2383844554424286,
+        "E007-V13-D1-S20261025": 0.3923596143722534
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.18806363145510355
+    },
+    {
+      "sample_id": "V7-A-074",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-0881bcd67c53",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.7988340258598328,
+        "E007-V13-D1-S20261024": 0.8455089330673218,
+        "E007-V13-D1-S20261025": 0.7531608939170837
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.2991679509480794
+    },
+    {
+      "sample_id": "V7-B-031-R03",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-91a496c71247",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.2317214161157608,
+        "E007-V13-D1-S20261024": 0.2317831814289093,
+        "E007-V13-D1-S20261025": 0.4581069350242615
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.19279615581035614
+    },
+    {
+      "sample_id": "V7-C-009-R03",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-3f68d78ef9da",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "TP",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.29131636023521423,
+        "E007-V13-D1-S20261024": 0.5158460736274719,
+        "E007-V13-D1-S20261025": 0.2883405387401581
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.14539639155069986
+    },
+    {
+      "sample_id": "V7-C-046-R05",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-b5b853925e4b",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.76555335521698,
+        "E007-V13-D1-S20261024": 0.8230369091033936,
+        "E007-V13-D1-S20261025": 0.7203822731971741
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.2696575125058492
+    },
+    {
+      "sample_id": "V7-C-055",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-6d5b425cd643",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "TN",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.605374276638031,
+        "E007-V13-D1-S20261024": 0.33312153816223145,
+        "E007-V13-D1-S20261025": 0.5149964690208435
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.09574973583221436
+    },
+    {
+      "sample_id": "V7-C-081",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-05c32740b912",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.8065076470375061,
+        "E007-V13-D1-S20261024": 0.822064995765686,
+        "E007-V13-D1-S20261025": 0.8071007132530212
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.3118911186854045
+    },
+    {
+      "sample_id": "V7-C-081",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-05c32740b912",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.342494934797287,
+        "E007-V13-D1-S20261024": 0.34754157066345215,
+        "E007-V13-D1-S20261025": 0.26662397384643555
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.18111317356427512
+    },
+    {
+      "sample_id": "V7-C-111",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-3a4bab5b2f66",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.21845337748527527,
+        "E007-V13-D1-S20261024": 0.2769225835800171,
+        "E007-V13-D1-S20261025": 0.25626689195632935
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.2494523823261261
+    },
+    {
+      "sample_id": "V7-OE-S094-A01-R04",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-58b7c70ac04f",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "TN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.6247469186782837,
+        "E007-V13-D1-S20261024": 0.653060793876648,
+        "E007-V13-D1-S20261025": 0.47193628549575806
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.10195714235305786
+    },
+    {
+      "sample_id": "V7-OE-S105-A01",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-427adbb68b90",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "TP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.4703510105609894,
+        "E007-V13-D1-S20261024": 0.35140541195869446,
+        "E007-V13-D1-S20261025": 0.526589572429657
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.06827771663665771
+    },
+    {
+      "sample_id": "V7-UNAPPROVED-C-004",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-03f430723e05",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "TP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.4645262360572815,
+        "E007-V13-D1-S20261024": 0.48723238706588745,
+        "E007-V13-D1-S20261025": 0.5561895966529846
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.03481032450993856
+    }
+  ],
+  "R0_calibrated": [
+    {
+      "sample_id": "E004-EX-C001",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-3b6f3e6d66b0",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.7025572657585144,
+        "E007-V13-R0-S20261024": 0.7827999591827393,
+        "E007-V13-R0-S20261025": 0.8265771269798279
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.08408886194229126
+    },
+    {
+      "sample_id": "E004-EX-C003",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-b12c1c9e4616",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "TN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.6753818988800049,
+        "E007-V13-R0-S20261024": 0.42498481273651123,
+        "E007-V13-R0-S20261025": 0.454487681388855
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.08657163381576538
+    },
+    {
+      "sample_id": "E004-EX-C013",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-42b3da913f68",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.7304258942604065,
+        "E007-V13-R0-S20261024": 0.5929313898086548,
+        "E007-V13-R0-S20261025": 0.7546663880348206
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.24986416101455688
+    },
+    {
+      "sample_id": "E004-EX-C018",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-25fe3edbcbe8",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "TN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.6121544241905212,
+        "E007-V13-R0-S20261024": 0.3988792598247528,
+        "E007-V13-R0-S20261025": 0.4250068664550781
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.06662089625994365
+    },
+    {
+      "sample_id": "E004-EX-C162",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-cd5bb3c3f29f",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.6400794386863708,
+        "E007-V13-R0-S20261024": 0.40283316373825073,
+        "E007-V13-R0-S20261025": 0.4864096939563751
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.06696370244026184
+    },
+    {
+      "sample_id": "E004-EX-C163",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-f537227ca5d6",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.753814160823822,
+        "E007-V13-R0-S20261024": 0.42276260256767273,
+        "E007-V13-R0-S20261025": 0.713614821434021
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.18725346525510153
+    },
+    {
+      "sample_id": "E004-EX-C164-R03",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-4ae2818e4a2f",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "TN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.6292687654495239,
+        "E007-V13-R0-S20261024": 0.49149227142333984,
+        "E007-V13-R0-S20261025": 0.28313547372817993
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.1504871447881063
+    },
+    {
+      "sample_id": "EXP-RF-004",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-0bc1786faf11",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.7714040875434875,
+        "E007-V13-R0-S20261024": 0.5087104439735413,
+        "E007-V13-R0-S20261025": 0.6783347725868225
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.21000603834788004
+    },
+    {
+      "sample_id": "EXP-RF-004",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-0bc1786faf11",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.21607451140880585,
+        "E007-V13-R0-S20261024": 0.3748664855957031,
+        "E007-V13-R0-S20261025": 0.2672664225101471
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.4004867821931839
+    },
+    {
+      "sample_id": "EXP-RF-010-R03",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-b6a4e4d3434b",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.6873030662536621,
+        "E007-V13-R0-S20261024": 0.38193783164024353,
+        "E007-V13-R0-S20261025": 0.5002455115318298
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.08035174012184143
+    },
+    {
+      "sample_id": "EXP-SCB-021",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-89ee6ad74b64",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.05042970925569534,
+        "E007-V13-R0-S20261024": 0.09833071380853653,
+        "E007-V13-R0-S20261025": 0.08658738434314728
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.6081066528956095
+    },
+    {
+      "sample_id": "G01-A01-F00009-R02",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.15379416942596436,
+        "E007-V13-R0-S20261024": 0.3293403387069702,
+        "E007-V13-R0-S20261025": 0.23531372845172882
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.44707317650318146
+    },
+    {
+      "sample_id": "G01-A02-F00018-R02",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.30807819962501526,
+        "E007-V13-R0-S20261024": 0.42946019768714905,
+        "E007-V13-R0-S20261025": 0.43000826239585876
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.2973737021287282
+    },
+    {
+      "sample_id": "G05-A01-F00065-R02",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-2ce89fcf05d4",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.523034930229187,
+        "E007-V13-R0-S20261024": 0.4214700162410736,
+        "E007-V13-R0-S20261025": 0.5059080719947815
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.20308491587638855
+    },
+    {
+      "sample_id": "G06-A02-F00012",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-84bd7f16d41c",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.48412755131721497,
+        "E007-V13-R0-S20261024": 0.13688655197620392,
+        "E007-V13-R0-S20261025": 0.30852624773979187
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.1329636126756668
+    },
+    {
+      "sample_id": "G08-A01-F00009-R02",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.1266896277666092,
+        "E007-V13-R0-S20261024": 0.25292885303497314,
+        "E007-V13-R0-S20261025": 0.19798649847507477
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.49402092893918353
+    },
+    {
+      "sample_id": "G09-A02-F00043",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-faf4d452ebb3",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "TN",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.5418389439582825,
+        "E007-V13-R0-S20261024": 0.38931331038475037,
+        "E007-V13-R0-S20261025": 0.4894849956035614
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.03617598613103231
+    },
+    {
+      "sample_id": "G09-A02-F00043",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-faf4d452ebb3",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.10145437717437744,
+        "E007-V13-R0-S20261024": 0.17859718203544617,
+        "E007-V13-R0-S20261025": 0.14279478788375854
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.5456071396668752
+    },
+    {
+      "sample_id": "G09-A02-F00105",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-faf4d452ebb3",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "TN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.64402836561203,
+        "E007-V13-R0-S20261024": 0.3726820647716522,
+        "E007-V13-R0-S20261025": 0.47012364864349365
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.053474217653274536
+    },
+    {
+      "sample_id": "G10-A01-F00013",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.15003259479999542,
+        "E007-V13-R0-S20261024": 0.2730155885219574,
+        "E007-V13-R0-S20261025": 0.21421027183532715
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.47413643697897595
+    },
+    {
+      "sample_id": "G12-A02-F00007",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-f46a5ce03d9c",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.1959977149963379,
+        "E007-V13-R0-S20261024": 0.3010577857494354,
+        "E007-V13-R0-S20261025": 0.311344176530838
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.4170893629391988
+    },
+    {
+      "sample_id": "G12-A03-F00001",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-f46a5ce03d9c",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "TP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.5369892716407776,
+        "E007-V13-R0-S20261024": 0.24171291291713715,
+        "E007-V13-R0-S20261025": 0.5051655173301697
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.03754248718420664
+    },
+    {
+      "sample_id": "G12-B06-F00001",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-f46a5ce03d9c",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.3893510103225708,
+        "E007-V13-R0-S20261024": 0.2168542593717575,
+        "E007-V13-R0-S20261025": 0.3563252091407776
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.12196690340836842
+    },
+    {
+      "sample_id": "G19-A01-F00052",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.11601945757865906,
+        "E007-V13-R0-S20261024": 0.24961549043655396,
+        "E007-V13-R0-S20261025": 0.25008851289749146
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.4813147683938344
+    },
+    {
+      "sample_id": "G19-A02-F00056",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.25530359148979187,
+        "E007-V13-R0-S20261024": 0.38571903109550476,
+        "E007-V13-R0-S20261025": 0.38404932618141174
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.3448652724424998
+    },
+    {
+      "sample_id": "G27-A02-F00022",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-b57f7c3e7223",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "TP",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.6461401581764221,
+        "E007-V13-R0-S20261024": 0.2890380620956421,
+        "E007-V13-R0-S20261025": 0.4006635546684265
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.06162331501642863
+    },
+    {
+      "sample_id": "G27-A02-F00022",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-b57f7c3e7223",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.5531521439552307,
+        "E007-V13-R0-S20261024": 0.6406625509262085,
+        "E007-V13-R0-S20261025": 0.6445012092590332
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.07378395398457845
+    },
+    {
+      "sample_id": "G27-A04-F00043",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-b57f7c3e7223",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.7164881825447083,
+        "E007-V13-R0-S20261024": 0.47259044647216797,
+        "E007-V13-R0-S20261025": 0.6570632457733154
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.17257022857666016
+    },
+    {
+      "sample_id": "NEW-038",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-faf4d452ebb3",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.6827403903007507,
+        "E007-V13-R0-S20261024": 0.4053545892238617,
+        "E007-V13-R0-S20261025": 0.5566259026527405
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.10542989770571391
+    },
+    {
+      "sample_id": "NEW-038",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-faf4d452ebb3",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.15593455731868744,
+        "E007-V13-R0-S20261024": 0.3720843195915222,
+        "E007-V13-R0-S20261025": 0.31099027395248413
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.4068862050771713
+    },
+    {
+      "sample_id": "NEW-039",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-faf4d452ebb3",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.32209962606430054,
+        "E007-V13-R0-S20261024": 0.4010356068611145,
+        "E007-V13-R0-S20261025": 0.4148530066013336
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.3072265088558197
+    },
+    {
+      "sample_id": "NEW-053",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-2ce89fcf05d4",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.6353045105934143,
+        "E007-V13-R0-S20261024": 0.3381313681602478,
+        "E007-V13-R0-S20261025": 0.5471948981285095
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.06406652927398682
+    },
+    {
+      "sample_id": "NEW-058",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-faf4d452ebb3",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.8780008554458618,
+        "E007-V13-R0-S20261024": 0.5927851796150208,
+        "E007-V13-R0-S20261025": 0.6777868270874023
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.2733805576960246
+    },
+    {
+      "sample_id": "NEW-058",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-faf4d452ebb3",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.27286288142204285,
+        "E007-V13-R0-S20261024": 0.5556207895278931,
+        "E007-V13-R0-S20261025": 0.485258549451828
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.24864184856414795
+    },
+    {
+      "sample_id": "NEW-129",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-f05900408e3c",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.4246026575565338,
+        "E007-V13-R0-S20261024": 0.47784557938575745,
+        "E007-V13-R0-S20261025": 0.5007684230804443
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.21881703535715738
+    },
+    {
+      "sample_id": "NEW-156",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-6c1282220376",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.5262973308563232,
+        "E007-V13-R0-S20261024": 0.5919869542121887,
+        "E007-V13-R0-S20261025": 0.5187700986862183
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.14087112744649252
+    },
+    {
+      "sample_id": "P023-person-01",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-15d03f6bde05",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.4764616787433624,
+        "E007-V13-R0-S20261024": 0.2044849991798401,
+        "E007-V13-R0-S20261025": 0.1614798903465271
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.16200154026349387
+    },
+    {
+      "sample_id": "SCB-turnhead-016",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-89ee6ad74b64",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.3402685821056366,
+        "E007-V13-R0-S20261024": 0.565774142742157,
+        "E007-V13-R0-S20261025": 0.6521750688552856
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.16714999079704285
+    },
+    {
+      "sample_id": "SCB-turnhead-017",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-18f87fa7d592",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.13739123940467834,
+        "E007-V13-R0-S20261024": 0.25409820675849915,
+        "E007-V13-R0-S20261025": 0.3346637189388275
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.44450486699740094
+    },
+    {
+      "sample_id": "V6-EX-017",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-ae46dde5a1c9",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.7165091633796692,
+        "E007-V13-R0-S20261024": 0.4710121154785156,
+        "E007-V13-R0-S20261025": 0.6487948894500732
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.16929499308268228
+    },
+    {
+      "sample_id": "V6-SB-045-R04",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c0af8fb32c4c",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.17132718861103058,
+        "E007-V13-R0-S20261024": 0.3955143690109253,
+        "E007-V13-R0-S20261025": 0.32498985528945923
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.3892787843942642
+    },
+    {
+      "sample_id": "V6R2-CA-001",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-427adbb68b90",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.39366835355758667,
+        "E007-V13-R0-S20261024": 0.21727250516414642,
+        "E007-V13-R0-S20261025": 0.3166313171386719
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.13361967106660208
+    },
+    {
+      "sample_id": "V6R2-CA-008-ADD01",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-47a05ee7832f",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.5376123189926147,
+        "E007-V13-R0-S20261024": 0.2148648053407669,
+        "E007-V13-R0-S20261025": 0.3549090027809143
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.07368168731530507
+    },
+    {
+      "sample_id": "V6R2-CA-008-ADD02",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-47a05ee7832f",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.6712667346000671,
+        "E007-V13-R0-S20261024": 0.3780297636985779,
+        "E007-V13-R0-S20261025": 0.5495839715003967
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.09014976024627686
+    },
+    {
+      "sample_id": "V6R2-CA-008-ADD04",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-47a05ee7832f",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.5298452377319336,
+        "E007-V13-R0-S20261024": 0.22028176486492157,
+        "E007-V13-R0-S20261025": 0.2967202067375183
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.09386132657527924
+    },
+    {
+      "sample_id": "V6R2-CA-010",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-0bc1786faf11",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.6472541689872742,
+        "E007-V13-R0-S20261024": 0.5279417037963867,
+        "E007-V13-R0-S20261025": 0.6575358510017395
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.16810017824172974
+    },
+    {
+      "sample_id": "V6R2-EX-007",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-ae46dde5a1c9",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.6942037343978882,
+        "E007-V13-R0-S20261024": 0.4481886923313141,
+        "E007-V13-R0-S20261025": 0.5654765367507935
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.1264792581399282
+    },
+    {
+      "sample_id": "V6R2-EX-007",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-ae46dde5a1c9",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "TP",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.6338068246841431,
+        "E007-V13-R0-S20261024": 0.6424412131309509,
+        "E007-V13-R0-S20261025": 0.5686760544776917
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.07158122460047404
+    },
+    {
+      "sample_id": "V7-A-030",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-1ce9e235543a",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.6829275488853455,
+        "E007-V13-R0-S20261024": 0.46072515845298767,
+        "E007-V13-R0-S20261025": 0.6631130576133728
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.15944485863049826
+    },
+    {
+      "sample_id": "V7-B-046",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c7214e061621",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.5727024078369141,
+        "E007-V13-R0-S20261024": 0.41263771057128906,
+        "E007-V13-R0-S20261025": 0.555509626865387
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.07080618540445964
+    },
+    {
+      "sample_id": "V7-C-009-R03",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-3f68d78ef9da",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.12196900695562363,
+        "E007-V13-R0-S20261024": 0.2207554429769516,
+        "E007-V13-R0-S20261025": 0.16676296293735504
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.5167267844080925
+    },
+    {
+      "sample_id": "V7-C-055",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-6d5b425cd643",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "TN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.6878370046615601,
+        "E007-V13-R0-S20261024": 0.5154367089271545,
+        "E007-V13-R0-S20261025": 0.4211845397949219
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.13197501500447592
+    },
+    {
+      "sample_id": "V7-C-055",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-6d5b425cd643",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.2557907700538635,
+        "E007-V13-R0-S20261024": 0.5582009553909302,
+        "E007-V13-R0-S20261025": 0.4342169761657715
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.27048635482788086
+    },
+    {
+      "sample_id": "V7-C-069",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-89bfb43b31e4",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "TN",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.6015548706054688,
+        "E007-V13-R0-S20261024": 0.2616803050041199,
+        "E007-V13-R0-S20261025": 0.48630422353744507
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.037447710831960045
+    },
+    {
+      "sample_id": "V7-C-075",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-47d3e969ba58",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "TN",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.5411879420280457,
+        "E007-V13-R0-S20261024": 0.33023640513420105,
+        "E007-V13-R0-S20261025": 0.6085853576660156
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.056400805711746216
+    },
+    {
+      "sample_id": "V7-C-075",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-47d3e969ba58",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.07442139089107513,
+        "E007-V13-R0-S20261024": 0.2644045650959015,
+        "E007-V13-R0-S20261025": 0.11049018055200577
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.5367838765184084
+    },
+    {
+      "sample_id": "V7-C-079",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-ae46dde5a1c9",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.708265483379364,
+        "E007-V13-R0-S20261024": 0.43990516662597656,
+        "E007-V13-R0-S20261025": 0.5834400057792664
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.13439315557479858
+    },
+    {
+      "sample_id": "V7-C-079",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-ae46dde5a1c9",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "TP",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.5403820872306824,
+        "E007-V13-R0-S20261024": 0.6970457434654236,
+        "E007-V13-R0-S20261025": 0.5849246382713318
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.10505672295888265
+    },
+    {
+      "sample_id": "V7-C-081",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-05c32740b912",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.3594740331172943,
+        "E007-V13-R0-S20261024": 0.43446847796440125,
+        "E007-V13-R0-S20261025": 0.4971446394920349
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.25619353850682575
+    },
+    {
+      "sample_id": "V7-C-087-ADD01",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-a9198aab32cf",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.3942527770996094,
+        "E007-V13-R0-S20261024": 0.49161016941070557,
+        "E007-V13-R0-S20261025": 0.49424099922180176
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.22652127345403036
+    },
+    {
+      "sample_id": "V7-C-111",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-3a4bab5b2f66",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.38397854566574097,
+        "E007-V13-R0-S20261024": 0.45927006006240845,
+        "E007-V13-R0-S20261025": 0.4497361481189728
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.2555610040823619
+    },
+    {
+      "sample_id": "V7-C-123",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c4f1df6344ca",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "TN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.7435529232025146,
+        "E007-V13-R0-S20261024": 0.41706863045692444,
+        "E007-V13-R0-S20261025": 0.45743951201438904
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.10567263762156169
+    },
+    {
+      "sample_id": "V7-C-132",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-3d9903d5652c",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.8287049531936646,
+        "E007-V13-R0-S20261024": 0.8069224953651428,
+        "E007-V13-R0-S20261025": 0.7981476783752441
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.3684479792912801
+    },
+    {
+      "sample_id": "V7-D-005-ADD02",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-2100d6d00ef4",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.3358400762081146,
+        "E007-V13-R0-S20261024": 0.5042568445205688,
+        "E007-V13-R0-S20261025": 0.404509574174881
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.2716870903968811
+    },
+    {
+      "sample_id": "V7-OE-S077-A01-R04",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-bb5899940687",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "TN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.6602233052253723,
+        "E007-V13-R0-S20261024": 0.32845374941825867,
+        "E007-V13-R0-S20261025": 0.4338538646697998
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.05621968706448873
+    },
+    {
+      "sample_id": "V7-OE-S077-A01-R04",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-bb5899940687",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.4060813784599304,
+        "E007-V13-R0-S20261024": 0.6148419976234436,
+        "E007-V13-R0-S20261025": 0.5378171801567078
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.166975736618042
+    },
+    {
+      "sample_id": "V7-OE-S105-A01",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-427adbb68b90",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.3193500339984894,
+        "E007-V13-R0-S20261024": 0.23836831748485565,
+        "E007-V13-R0-S20261025": 0.43721938133239746
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.11116448541482289
+    }
+  ],
+  "R0_fixed": [
+    {
+      "sample_id": "E004-EX-C001",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-3b6f3e6d66b0",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "TP",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.5530104041099548,
+        "E007-V13-R0-S20261024": 0.4297880232334137,
+        "E007-V13-R0-S20261025": 0.3674158453941345
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.0852688451608022
+    },
+    {
+      "sample_id": "E004-EX-C001",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-3b6f3e6d66b0",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.7025572657585144,
+        "E007-V13-R0-S20261024": 0.7827999591827393,
+        "E007-V13-R0-S20261025": 0.8265771269798279
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.27064478397369385
+    },
+    {
+      "sample_id": "E004-EX-C002-R04",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-b12c1c9e4616",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "TN",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.49733468890190125,
+        "E007-V13-R0-S20261024": 0.5600128173828125,
+        "E007-V13-R0-S20261025": 0.5434398055076599
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.035372644662857056
+    },
+    {
+      "sample_id": "E004-EX-C003",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-b12c1c9e4616",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.5626924633979797,
+        "E007-V13-R0-S20261024": 0.6346110105514526,
+        "E007-V13-R0-S20261025": 0.6220442056655884
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.10644922653834026
+    },
+    {
+      "sample_id": "E004-EX-C008",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-2a24b95069f4",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "TP",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.5499998927116394,
+        "E007-V13-R0-S20261024": 0.39568188786506653,
+        "E007-V13-R0-S20261025": 0.4095781743526459
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.08157994349797566
+    },
+    {
+      "sample_id": "E004-EX-C013",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-42b3da913f68",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.7304258942604065,
+        "E007-V13-R0-S20261024": 0.5929313898086548,
+        "E007-V13-R0-S20261025": 0.7546663880348206
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.1926745573679606
+    },
+    {
+      "sample_id": "E004-EX-C142",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-306328761bd6",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "TP",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.6221631169319153,
+        "E007-V13-R0-S20261024": 0.3659258484840393,
+        "E007-V13-R0-S20261025": 0.47153571248054504
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.09490051865577698
+    },
+    {
+      "sample_id": "E004-EX-C151",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-234cefce6103",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.6056333184242249,
+        "E007-V13-R0-S20261024": 0.6554797291755676,
+        "E007-V13-R0-S20261025": 0.5814412832260132
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.11418477694193523
+    },
+    {
+      "sample_id": "E004-EX-C162",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-cd5bb3c3f29f",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "TN",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.4088188111782074,
+        "E007-V13-R0-S20261024": 0.5682319402694702,
+        "E007-V13-R0-S20261025": 0.5198979377746582
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.05977035562197367
+    },
+    {
+      "sample_id": "E004-EX-C163",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-f537227ca5d6",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "TN",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.753814160823822,
+        "E007-V13-R0-S20261024": 0.42276260256767273,
+        "E007-V13-R0-S20261025": 0.713614821434021
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.18155545989672342
+    },
+    {
+      "sample_id": "EXP-RF-004",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-0bc1786faf11",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.7714040875434875,
+        "E007-V13-R0-S20261024": 0.5087104439735413,
+        "E007-V13-R0-S20261025": 0.6783347725868225
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.15281643470128378
+    },
+    {
+      "sample_id": "EXP-RF-004",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-0bc1786faf11",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.21607451140880585,
+        "E007-V13-R0-S20261024": 0.3748664855957031,
+        "E007-V13-R0-S20261025": 0.2672664225101471
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.2139308601617813
+    },
+    {
+      "sample_id": "EXP-RF-010-R03",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-b6a4e4d3434b",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "TN",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.6873030662536621,
+        "E007-V13-R0-S20261024": 0.38193783164024353,
+        "E007-V13-R0-S20261025": 0.5002455115318298
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.10187024871508281
+    },
+    {
+      "sample_id": "EXP-RF-010-R03",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-b6a4e4d3434b",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.5439481139183044,
+        "E007-V13-R0-S20261024": 0.6062154173851013,
+        "E007-V13-R0-S20261025": 0.6839739084243774
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.11137914657592773
+    },
+    {
+      "sample_id": "EXP-SCB-021",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-89ee6ad74b64",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.05042970925569534,
+        "E007-V13-R0-S20261024": 0.09833071380853653,
+        "E007-V13-R0-S20261025": 0.08658738434314728
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.42155073086420697
+    },
+    {
+      "sample_id": "G01-A01-F00009-R02",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.15379416942596436,
+        "E007-V13-R0-S20261024": 0.3293403387069702,
+        "E007-V13-R0-S20261025": 0.23531372845172882
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.26051725447177887
+    },
+    {
+      "sample_id": "G01-A02-F00018-R02",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.30807819962501526,
+        "E007-V13-R0-S20261024": 0.42946019768714905,
+        "E007-V13-R0-S20261025": 0.43000826239585876
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.11081778009732564
+    },
+    {
+      "sample_id": "G06-A01-F00012",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-84bd7f16d41c",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "TP",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.596156120300293,
+        "E007-V13-R0-S20261024": 0.22818316519260406,
+        "E007-V13-R0-S20261025": 0.4830099642276764
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.12832099696000418
+    },
+    {
+      "sample_id": "G06-A02-F00012",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-84bd7f16d41c",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.48412755131721497,
+        "E007-V13-R0-S20261024": 0.13688655197620392,
+        "E007-V13-R0-S20261025": 0.30852624773979187
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.1901532163222631
+    },
+    {
+      "sample_id": "G08-A01-F00009-R02",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.1266896277666092,
+        "E007-V13-R0-S20261024": 0.25292885303497314,
+        "E007-V13-R0-S20261025": 0.19798649847507477
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.30746500690778095
+    },
+    {
+      "sample_id": "G09-A01-F00056",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-faf4d452ebb3",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.5814297795295715,
+        "E007-V13-R0-S20261024": 0.6320935487747192,
+        "E007-V13-R0-S20261025": 0.7404440641403198
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.15132246414820352
+    },
+    {
+      "sample_id": "G09-A01-F00071",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-faf4d452ebb3",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "TN",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.3747866749763489,
+        "E007-V13-R0-S20261024": 0.5255244970321655,
+        "E007-V13-R0-S20261025": 0.6681115031242371
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.10628310839335124
+    },
+    {
+      "sample_id": "G09-A02-F00043",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-faf4d452ebb3",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.10145437717437744,
+        "E007-V13-R0-S20261024": 0.17859718203544617,
+        "E007-V13-R0-S20261025": 0.14279478788375854
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.3590512176354726
+    },
+    {
+      "sample_id": "G09-B02-F00007",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-faf4d452ebb3",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "TN",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.4602741003036499,
+        "E007-V13-R0-S20261024": 0.5611649751663208,
+        "E007-V13-R0-S20261025": 0.5182032585144043
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.03969804445902506
+    },
+    {
+      "sample_id": "G10-A01-F00013",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.15003259479999542,
+        "E007-V13-R0-S20261024": 0.2730155885219574,
+        "E007-V13-R0-S20261025": 0.21421027183532715
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.28758051494757336
+    },
+    {
+      "sample_id": "G12-A02-F00007",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-f46a5ce03d9c",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "TP",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.5515722036361694,
+        "E007-V13-R0-S20261024": 0.3732588291168213,
+        "E007-V13-R0-S20261025": 0.4924822747707367
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.06194369991620382
+    },
+    {
+      "sample_id": "G12-A02-F00007",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-f46a5ce03d9c",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.1959977149963379,
+        "E007-V13-R0-S20261024": 0.3010577857494354,
+        "E007-V13-R0-S20261025": 0.311344176530838
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.23053344090779623
+    },
+    {
+      "sample_id": "G12-B06-F00001",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-f46a5ce03d9c",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.3893510103225708,
+        "E007-V13-R0-S20261024": 0.2168542593717575,
+        "E007-V13-R0-S20261025": 0.3563252091407776
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.1791565070549647
+    },
+    {
+      "sample_id": "G19-A01-F00052",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.11601945757865906,
+        "E007-V13-R0-S20261024": 0.24961549043655396,
+        "E007-V13-R0-S20261025": 0.25008851289749146
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.2947588463624318
+    },
+    {
+      "sample_id": "G19-A02-F00056",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.25530359148979187,
+        "E007-V13-R0-S20261024": 0.38571903109550476,
+        "E007-V13-R0-S20261025": 0.38404932618141174
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.1583093504110972
+    },
+    {
+      "sample_id": "G27-A02-F00022",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-b57f7c3e7223",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "TP",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.6461401581764221,
+        "E007-V13-R0-S20261024": 0.2890380620956421,
+        "E007-V13-R0-S20261025": 0.4006635546684265
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.15214618047078451
+    },
+    {
+      "sample_id": "G27-A04-F00043",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-b57f7c3e7223",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "TN",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.7164881825447083,
+        "E007-V13-R0-S20261024": 0.47259044647216797,
+        "E007-V13-R0-S20261025": 0.6570632457733154
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.13365366061528525
+    },
+    {
+      "sample_id": "NEW-038",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-faf4d452ebb3",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "TN",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.6827403903007507,
+        "E007-V13-R0-S20261024": 0.4053545892238617,
+        "E007-V13-R0-S20261025": 0.5566259026527405
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.11133723457654317
+    },
+    {
+      "sample_id": "NEW-038",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-faf4d452ebb3",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.15593455731868744,
+        "E007-V13-R0-S20261024": 0.3720843195915222,
+        "E007-V13-R0-S20261025": 0.31099027395248413
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.22033028304576874
+    },
+    {
+      "sample_id": "NEW-039",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-faf4d452ebb3",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.32209962606430054,
+        "E007-V13-R0-S20261024": 0.4010356068611145,
+        "E007-V13-R0-S20261025": 0.4148530066013336
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.12067058682441711
+    },
+    {
+      "sample_id": "NEW-053",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-2ce89fcf05d4",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "TN",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.6353045105934143,
+        "E007-V13-R0-S20261024": 0.3381313681602478,
+        "E007-V13-R0-S20261025": 0.5471948981285095
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.11478934685389201
+    },
+    {
+      "sample_id": "NEW-058",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-faf4d452ebb3",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.8780008554458618,
+        "E007-V13-R0-S20261024": 0.5927851796150208,
+        "E007-V13-R0-S20261025": 0.6777868270874023
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.2161909540494283
+    },
+    {
+      "sample_id": "NEW-058",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-faf4d452ebb3",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "TP",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.27286288142204285,
+        "E007-V13-R0-S20261024": 0.5556207895278931,
+        "E007-V13-R0-S20261025": 0.485258549451828
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.09916645288467407
+    },
+    {
+      "sample_id": "NEW-128",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-f05900408e3c",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.558617115020752,
+        "E007-V13-R0-S20261024": 0.5860341191291809,
+        "E007-V13-R0-S20261025": 0.632227897644043
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.09229304393132527
+    },
+    {
+      "sample_id": "NEW-129",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-f05900408e3c",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "TP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.4246026575565338,
+        "E007-V13-R0-S20261024": 0.47784557938575745,
+        "E007-V13-R0-S20261025": 0.5007684230804443
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.03277339537938436
+    },
+    {
+      "sample_id": "NEW-131",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-f05900408e3c",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.5928835272789001,
+        "E007-V13-R0-S20261024": 0.5980416536331177,
+        "E007-V13-R0-S20261025": 0.6368644833564758
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.10926322142283122
+    },
+    {
+      "sample_id": "P023-person-01",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-15d03f6bde05",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.4764616787433624,
+        "E007-V13-R0-S20261024": 0.2044849991798401,
+        "E007-V13-R0-S20261025": 0.1614798903465271
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.21919114391009012
+    },
+    {
+      "sample_id": "SCB-turnhead-005",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-f05900408e3c",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "TN",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.47238796949386597,
+        "E007-V13-R0-S20261024": 0.5846445560455322,
+        "E007-V13-R0-S20261025": 0.5724868178367615
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.06158113479614258
+    },
+    {
+      "sample_id": "SCB-turnhead-017",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-18f87fa7d592",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.13739123940467834,
+        "E007-V13-R0-S20261024": 0.25409820675849915,
+        "E007-V13-R0-S20261025": 0.3346637189388275
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.25794894496599835
+    },
+    {
+      "sample_id": "V6-CA-014-ADD02",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-9c6b3219f9ee",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "TP",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.5689328908920288,
+        "E007-V13-R0-S20261024": 0.40389809012413025,
+        "E007-V13-R0-S20261025": 0.24879994988441467
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.13874495029449463
+    },
+    {
+      "sample_id": "V6-CA-014-ADD02",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-9c6b3219f9ee",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.5172836780548096,
+        "E007-V13-R0-S20261024": 0.5723211765289307,
+        "E007-V13-R0-S20261025": 0.6503658890724182
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.07999024788538615
+    },
+    {
+      "sample_id": "V6-EX-017",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-ae46dde5a1c9",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "TN",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.7165091633796692,
+        "E007-V13-R0-S20261024": 0.4710121154785156,
+        "E007-V13-R0-S20261025": 0.6487948894500732
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.13143064578374228
+    },
+    {
+      "sample_id": "V6-EX-017",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-ae46dde5a1c9",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.6155855655670166,
+        "E007-V13-R0-S20261024": 0.722820520401001,
+        "E007-V13-R0-S20261025": 0.6754810214042664
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.17129570245742798
+    },
+    {
+      "sample_id": "V6-EX-036",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-ae46dde5a1c9",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "TN",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.40525874495506287,
+        "E007-V13-R0-S20261024": 0.5142441987991333,
+        "E007-V13-R0-S20261025": 0.5041230320930481
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.03770282864570618
+    },
+    {
+      "sample_id": "V6-SB-043",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-45a9bd904fa4",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "TN",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.33730629086494446,
+        "E007-V13-R0-S20261024": 0.6066016554832458,
+        "E007-V13-R0-S20261025": 0.6077119708061218
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.12566911180814108
+    },
+    {
+      "sample_id": "V6-SB-045-R04",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c0af8fb32c4c",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.17132718861103058,
+        "E007-V13-R0-S20261024": 0.3955143690109253,
+        "E007-V13-R0-S20261025": 0.32498985528945923
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.20272286236286163
+    },
+    {
+      "sample_id": "V6-SB-046",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-85e4f2eea9a9",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.5570712089538574,
+        "E007-V13-R0-S20261024": 0.5440650582313538,
+        "E007-V13-R0-S20261025": 0.640274703502655
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.08047032356262207
+    },
+    {
+      "sample_id": "V6-SB-048-ADD01",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-75ae5d10326c",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "TN",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.5254860520362854,
+        "E007-V13-R0-S20261024": 0.4925394654273987,
+        "E007-V13-R0-S20261025": 0.551668107509613
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.02820489803949992
+    },
+    {
+      "sample_id": "V6R2-CA-001",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-427adbb68b90",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.39366835355758667,
+        "E007-V13-R0-S20261024": 0.21727250516414642,
+        "E007-V13-R0-S20261025": 0.3166313171386719
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.19080927471319833
+    },
+    {
+      "sample_id": "V6R2-CA-001",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-427adbb68b90",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.5029970407485962,
+        "E007-V13-R0-S20261024": 0.5547969937324524,
+        "E007-V13-R0-S20261025": 0.5641276240348816
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.040640552838643394
+    },
+    {
+      "sample_id": "V6R2-CA-008-ADD01",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-47a05ee7832f",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "TP",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.5376123189926147,
+        "E007-V13-R0-S20261024": 0.2148648053407669,
+        "E007-V13-R0-S20261025": 0.3549090027809143
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.1559461702903112
+    },
+    {
+      "sample_id": "V6R2-CA-008-ADD02",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-47a05ee7832f",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "TN",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.6712667346000671,
+        "E007-V13-R0-S20261024": 0.3780297636985779,
+        "E007-V13-R0-S20261025": 0.5495839715003967
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.11427364746729533
+    },
+    {
+      "sample_id": "V6R2-CA-008-ADD04",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-47a05ee7832f",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "TP",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.5298452377319336,
+        "E007-V13-R0-S20261024": 0.22028176486492157,
+        "E007-V13-R0-S20261025": 0.2967202067375183
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.1709477553764979
+    },
+    {
+      "sample_id": "V6R2-CA-010",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-0bc1786faf11",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.6472541689872742,
+        "E007-V13-R0-S20261024": 0.5279417037963867,
+        "E007-V13-R0-S20261025": 0.6575358510017395
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.11091057459513347
+    },
+    {
+      "sample_id": "V6R2-EX-007",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-ae46dde5a1c9",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "TN",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.6942037343978882,
+        "E007-V13-R0-S20261024": 0.4481886923313141,
+        "E007-V13-R0-S20261025": 0.5654765367507935
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.10383052627245586
+    },
+    {
+      "sample_id": "V6R2-EX-009",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-35cc4606f795",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "TN",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.3565715551376343,
+        "E007-V13-R0-S20261024": 0.5928187370300293,
+        "E007-V13-R0-S20261025": 0.501532256603241
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.07925981283187866
+    },
+    {
+      "sample_id": "V7-A-030",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-1ce9e235543a",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "TN",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.6829275488853455,
+        "E007-V13-R0-S20261024": 0.46072515845298767,
+        "E007-V13-R0-S20261025": 0.6631130576133728
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.1284384826819102
+    },
+    {
+      "sample_id": "V7-A-074",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-0881bcd67c53",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "TN",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.4275815486907959,
+        "E007-V13-R0-S20261024": 0.6423899531364441,
+        "E007-V13-R0-S20261025": 0.558887779712677
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.0912320613861084
+    },
+    {
+      "sample_id": "V7-B-046",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c7214e061621",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "TN",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.5727024078369141,
+        "E007-V13-R0-S20261024": 0.41263771057128906,
+        "E007-V13-R0-S20261025": 0.555509626865387
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.07185810804367065
+    },
+    {
+      "sample_id": "V7-C-009-R03",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-3f68d78ef9da",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.12196900695562363,
+        "E007-V13-R0-S20261024": 0.2207554429769516,
+        "E007-V13-R0-S20261025": 0.16676296293735504
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.3301708623766899
+    },
+    {
+      "sample_id": "V7-C-055",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-6d5b425cd643",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "TN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.6878370046615601,
+        "E007-V13-R0-S20261024": 0.5154367089271545,
+        "E007-V13-R0-S20261025": 0.4211845397949219
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.09402972459793091
+    },
+    {
+      "sample_id": "V7-C-055",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-6d5b425cd643",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "TP",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.2557907700538635,
+        "E007-V13-R0-S20261024": 0.5582009553909302,
+        "E007-V13-R0-S20261025": 0.4342169761657715
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.12273106972376506
+    },
+    {
+      "sample_id": "V7-C-069",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-89bfb43b31e4",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.5072954297065735,
+        "E007-V13-R0-S20261024": 0.5891850590705872,
+        "E007-V13-R0-S20261025": 0.590977132320404
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.06248587369918823
+    },
+    {
+      "sample_id": "V7-C-075",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-47d3e969ba58",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "TN",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.5411879420280457,
+        "E007-V13-R0-S20261024": 0.33023640513420105,
+        "E007-V13-R0-S20261025": 0.6085853576660156
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.10651229818662007
+    },
+    {
+      "sample_id": "V7-C-075",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-47d3e969ba58",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.07442139089107513,
+        "E007-V13-R0-S20261024": 0.2644045650959015,
+        "E007-V13-R0-S20261025": 0.11049018055200577
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.3502279544870059
+    },
+    {
+      "sample_id": "V7-C-079",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-ae46dde5a1c9",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "TN",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.708265483379364,
+        "E007-V13-R0-S20261024": 0.43990516662597656,
+        "E007-V13-R0-S20261025": 0.5834400057792664
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.11726677417755127
+    },
+    {
+      "sample_id": "V7-C-081",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-05c32740b912",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.3594740331172943,
+        "E007-V13-R0-S20261024": 0.43446847796440125,
+        "E007-V13-R0-S20261025": 0.4971446394920349
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.06963761647542317
+    },
+    {
+      "sample_id": "V7-C-087-ADD01",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-a9198aab32cf",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.3942527770996094,
+        "E007-V13-R0-S20261024": 0.49161016941070557,
+        "E007-V13-R0-S20261025": 0.49424099922180176
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.03996535142262777
+    },
+    {
+      "sample_id": "V7-C-111",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-3a4bab5b2f66",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.38397854566574097,
+        "E007-V13-R0-S20261024": 0.45927006006240845,
+        "E007-V13-R0-S20261025": 0.4497361481189728
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.06900508205095927
+    },
+    {
+      "sample_id": "V7-C-132",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-3d9903d5652c",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.8287049531936646,
+        "E007-V13-R0-S20261024": 0.8069224953651428,
+        "E007-V13-R0-S20261025": 0.7981476783752441
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.31125837564468384
+    },
+    {
+      "sample_id": "V7-D-005-ADD02",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-2100d6d00ef4",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "TP",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.3358400762081146,
+        "E007-V13-R0-S20261024": 0.5042568445205688,
+        "E007-V13-R0-S20261025": 0.404509574174881
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.08796906471252441
+    },
+    {
+      "sample_id": "V7-OE-S066-A01",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-e75d3ea33f87",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "TP",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.5612037181854248,
+        "E007-V13-R0-S20261024": 0.3092024624347687,
+        "E007-V13-R0-S20261025": 0.4711335301399231
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.09362257520357768
+    },
+    {
+      "sample_id": "V7-OE-S066-A02-R04",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-e75d3ea33f87",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.579403817653656,
+        "E007-V13-R0-S20261024": 0.5535489916801453,
+        "E007-V13-R0-S20261025": 0.6616923213005066
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.09821504354476929
+    },
+    {
+      "sample_id": "V7-OE-S104-A01",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-427adbb68b90",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "TN",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.4962310492992401,
+        "E007-V13-R0-S20261024": 0.6293774247169495,
+        "E007-V13-R0-S20261025": 0.6121259331703186
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.08175743619600932
+    },
+    {
+      "sample_id": "V7-OE-S105-A01",
+      "target": "phone_use",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-427adbb68b90",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FN",
+        "E007-V13-R0-S20261024": "FN",
+        "E007-V13-R0-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.3193500339984894,
+        "E007-V13-R0-S20261024": 0.23836831748485565,
+        "E007-V13-R0-S20261025": 0.43721938133239746
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.16835408906141916
+    },
+    {
+      "sample_id": "V7-OE-S105-A01",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-427adbb68b90",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "TN",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.5041002035140991,
+        "E007-V13-R0-S20261024": 0.4837721884250641,
+        "E007-V13-R0-S20261025": 0.5518423318862915
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.024056782325108845
+    },
+    {
+      "sample_id": "V7-OE-S108-A01",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-427adbb68b90",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.5959705710411072,
+        "E007-V13-R0-S20261024": 0.6489705443382263,
+        "E007-V13-R0-S20261025": 0.5786964893341064
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.10787920157114665
+    },
+    {
+      "sample_id": "V7-OE-S111-A01-R03",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-427adbb68b90",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-R0-S20261023": "FP",
+        "E007-V13-R0-S20261024": "FP",
+        "E007-V13-R0-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-R0-S20261023": 0.6046695113182068,
+        "E007-V13-R0-S20261024": 0.6320565938949585,
+        "E007-V13-R0-S20261025": 0.7334895133972168
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.15673853953679404
+    }
+  ]
+}

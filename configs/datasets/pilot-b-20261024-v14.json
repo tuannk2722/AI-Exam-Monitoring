@@ -1,0 +1,31 @@
+{
+  "dataset_version": "pilot-b-20261024-v14",
+  "parent": "pilot-b-20261023-v13",
+  "parent_payload": {
+    "path": "data/processed/pilot-b/pilot-b-20261023-v13/checksums.sha256",
+    "sha256": "186daf8c2ec9ac0231cb3f9438d24415feb5b0439a5320cad36312562029576e"
+  },
+  "owner_direction": {
+    "path": "artifacts/reports/dataset-release-20261024-v14/owner-direction.json",
+    "sha256": "df4bf8563e53cad763a275abc6341f6d79029ba21f7c0e549abfea631fecb768"
+  },
+  "allocation": {
+    "path": "artifacts/reports/dataset-release-20261024-v14/allocation.json",
+    "sha256": "7f932e72ead71d4b61ac22861c88984ed19b5ddbb680f5073567a326f21ddf77"
+  },
+  "visual_review": {
+    "path": "artifacts/reports/dataset-release-20261024-v14/visual-review.json",
+    "sha256": "5b6f9fccb74ebd3fa8d5d46a8d02ca356dccaedc0aaa1c051168d0970e2497a8"
+  },
+  "candidate_ledger": {
+    "path": "data/interim/v14-generated-review-20261024/review-ledger.jsonl",
+    "sha256": "8d24cde3e2f4d21e4ca17e9176dd3abe98d45a3f8e2f0bdd9d6b8bdd4cbe36e1"
+  },
+  "output": "data/processed/pilot-b/pilot-b-20261024-v14",
+  "use_scope": "local_classifier_research",
+  "split_version": "owner-delegated-group-train-val-20261024-v14",
+  "test_count": 0,
+  "generated_usage": "all_53_train",
+  "train_records": 1199,
+  "val_records": 156
+}

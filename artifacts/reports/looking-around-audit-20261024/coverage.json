@@ -1,0 +1,178 @@
+{
+  "train": {
+    "overall": {
+      "records": 1119,
+      "targets": {
+        "phone_use": {
+          "P": {
+            "records": 342,
+            "groups": 96
+          },
+          "N": {
+            "records": 684,
+            "groups": 157
+          },
+          "U": {
+            "records": 93,
+            "groups": 21
+          }
+        },
+        "looking_around": {
+          "P": {
+            "records": 179,
+            "groups": 74
+          },
+          "N": {
+            "records": 931,
+            "groups": 207
+          },
+          "U": {
+            "records": 9,
+            "groups": 7
+          }
+        }
+      },
+      "joint_states": {
+        "P/N": 299,
+        "N/N": 554,
+        "P/P": 40,
+        "N/P": 124,
+        "U/N": 78,
+        "U/P": 15,
+        "N/U": 6,
+        "P/U": 3
+      }
+    },
+    "by_source": {
+      "reviewed-crop-inputs-20261023": {
+        "records": 1119,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 342,
+              "groups": 96
+            },
+            "N": {
+              "records": 684,
+              "groups": 157
+            },
+            "U": {
+              "records": 93,
+              "groups": 21
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 179,
+              "groups": 74
+            },
+            "N": {
+              "records": 931,
+              "groups": 207
+            },
+            "U": {
+              "records": 9,
+              "groups": 7
+            }
+          }
+        },
+        "joint_states": {
+          "P/N": 299,
+          "N/N": 554,
+          "P/P": 40,
+          "N/P": 124,
+          "U/N": 78,
+          "U/P": 15,
+          "N/U": 6,
+          "P/U": 3
+        }
+      }
+    }
+  },
+  "val": {
+    "overall": {
+      "records": 185,
+      "targets": {
+        "phone_use": {
+          "P": {
+            "records": 55,
+            "groups": 38
+          },
+          "N": {
+            "records": 120,
+            "groups": 59
+          },
+          "U": {
+            "records": 10,
+            "groups": 7
+          }
+        },
+        "looking_around": {
+          "P": {
+            "records": 33,
+            "groups": 21
+          },
+          "N": {
+            "records": 152,
+            "groups": 82
+          },
+          "U": {
+            "records": 0,
+            "groups": 0
+          }
+        }
+      },
+      "joint_states": {
+        "N/N": 92,
+        "P/N": 52,
+        "N/P": 28,
+        "U/N": 8,
+        "U/P": 2,
+        "P/P": 3
+      }
+    },
+    "by_source": {
+      "reviewed-crop-inputs-20261023": {
+        "records": 185,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 55,
+              "groups": 38
+            },
+            "N": {
+              "records": 120,
+              "groups": 59
+            },
+            "U": {
+              "records": 10,
+              "groups": 7
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 33,
+              "groups": 21
+            },
+            "N": {
+              "records": 152,
+              "groups": 82
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "N/N": 92,
+          "P/N": 52,
+          "N/P": 28,
+          "U/N": 8,
+          "U/P": 2,
+          "P/P": 3
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "status": "cleanup_blocked_checks_continue",
+  "reason": "Scoped PowerShell Remove-Item for three verified scratch targets rejected before execution: blocked by policy",
+  "targets_retained": [
+    "outputs/_scratch/e008-prepare",
+    "outputs/_scratch/e008-portable-check",
+    "outputs/_scratch/looking-around-audit-20261024"
+  ],
+  "retained_files": 1456,
+  "retained_bytes": 533806757,
+  "protected_files_verified": 106,
+  "source_code_changed_by_cleanup": false,
+  "caches_removed": false,
+  "plan": "codebase-cleanup-plan-20261025.json",
+  "note": "All scratch/cache stays ignored; no dataset/model retirement; earlier receipts preserved.",
+  "checks": {
+    "ruff": "PASS",
+    "mypy": "PASS (56 source files)",
+    "compileall": "PASS",
+    "staged_repository_checker": "PASS --require-git",
+    "staged_diff_whitespace": "PASS",
+    "staged_notebook_and_pinned_bytes": "PASS",
+    "full_software_suite": "PASS: 220 tests in 250.855 seconds"
+  }
+}

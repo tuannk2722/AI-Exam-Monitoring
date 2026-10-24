@@ -6,15 +6,21 @@ Index theo đối tượng; không là bảng metrics hoặc backlog. Hồ sơ �
 
 [E007 Colab và kết quả V13](e007-v13-colab-20261024/README.md): smoke và 9 research FINISHED, import/checksums/reload đã kiểm; D1 cải thiện ổn định, phone qua gate cả ba seed, looking chưa qua. Chưa Selected hoặc final test.
 
+[E008 V14 — kết quả Colab](e008-v14-colab-20261024/results-20261025.md): 4 smoke + 5 research FINISHED; audit metadata PASS, G0 thắng screening, looking chưa đạt. [Ba run G0 đã nhận đủ best/last và kiểm integrity local](e008-v14-colab-20261024/checkpoints-20261025.md); chưa Selected.
+
+[Audit looking E007 ngày 24/10](looking-around-audit-20261024/README.md): cached scores sáu run, visual review lỗi looking tái diễn và upstream context; sửa diagnostics V4/336 px. Snapshot proposal E008 giữ nguyên; approval và dữ liệu mới ở companion V14.
+
 [E006 V12 — training tự động](e006-v12-20261020/README.md): smoke, screening và
 xác nhận qua seed theo phạm vi owner duyệt; runner tổng hợp số liệu, agent kiểm và
 viết report cuối, test đóng.
 
 ## Releases và nghiên cứu dữ liệu
 
-[Release V13 ngày 23/10](dataset-release-20261023-v13/README.md): local accepted sau audit V12 và ảnh generated; 1.119 train / 185 validation development / 0 test, tổng 1.304 crop. Dùng đủ 21 ảnh owner duyệt, không quarantine; loader/rebuild checks và giới hạn lineage trong report. Đây là release dùng tiếp, V12/pins lịch sử giữ nguyên.
+[Release V14 ngày 24/10](dataset-release-20261024-v14/README.md): local accepted, dùng đủ 53 crop mới trong train; loại 2 crop chất lượng kém, chuyển cả 6 nhóm nguồn liên quan sang train. Release dùng tiếp trước E008; validation development thay đổi, pins V13 giữ nguyên.
 
-[Đối soát review V12 và ảnh bổ sung ngày 22/10](v12-reconcile-20261022/README.md): evidence JSON delta, audit nhãn/geometry/trùng lặp và các batch owner đã chốt. Kết quả hiện hành là V13 accepted ở trên; các snapshot draft giữ nguyên.
+[Release V13 ngày 23/10](dataset-release-20261023-v13/README.md): parent V14 và input E007, local accepted sau audit V12; dùng đủ 21 ảnh generated owner duyệt. Loader/rebuild checks và giới hạn lineage trong report; pins lịch sử giữ nguyên.
+
+[Đối soát review V12 và ảnh bổ sung ngày 22/10](v12-reconcile-20261022/README.md): evidence JSON delta, audit nhãn/geometry/trùng lặp và các batch owner đã chốt, dẫn tới release V13; các snapshot draft giữ nguyên.
 
 [Cleanup ngày 23/10](cleanup-20261023/README.md): exact manifest và restore locator cho 4.690 file đã dọn; protected bytes được kiểm trước/sau. Availability này bổ sung đợt retention 16/10.
 

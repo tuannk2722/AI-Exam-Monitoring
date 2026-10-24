@@ -1,0 +1,35 @@
+{
+  "inference_executed": false,
+  "test_accessed": false,
+  "runs": [
+    {
+      "run": "E007-V13-D1-S20261023",
+      "exact_calibration_and_metrics_from_cached_scores": "PASS"
+    },
+    {
+      "run": "E007-V13-D1-S20261024",
+      "exact_calibration_and_metrics_from_cached_scores": "PASS"
+    },
+    {
+      "run": "E007-V13-D1-S20261025",
+      "exact_calibration_and_metrics_from_cached_scores": "PASS"
+    },
+    {
+      "run": "E007-V13-R0-S20261023",
+      "exact_calibration_and_metrics_from_cached_scores": "PASS"
+    },
+    {
+      "run": "E007-V13-R0-S20261024",
+      "exact_calibration_and_metrics_from_cached_scores": "PASS"
+    },
+    {
+      "run": "E007-V13-R0-S20261025",
+      "exact_calibration_and_metrics_from_cached_scores": "PASS"
+    }
+  ],
+  "software_pins": {
+    "src/ai_exam_monitoring/training/calibration.py": "b4b6d9cb3f60e6256a2ac333b66d8a6e7959c7ab7e063e243d7357fcb880d131",
+    "src/ai_exam_monitoring/training/metrics.py": "a92454b52bda1f62b25f8b3991bc55902b4f3ec6cb68586a96990e0323a67d65",
+    "src/ai_exam_monitoring/training/adaptation_metrics.py": "9ca960d523d3c9a1a1241b009a935cd4289bf92510f8bbb2053af1758304ae36"
+  }
+}

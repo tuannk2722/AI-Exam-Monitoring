@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "inference_executed": false,
+  "training_executed": false,
+  "test_accessed": false,
+  "unittest_diagnostics": {
+    "tests": 13,
+    "status": "PASS"
+  },
+  "unittest_error_audit": {
+    "tests": 6,
+    "status": "PASS"
+  },
+  "unittest_representation": {
+    "tests": 10,
+    "status": "PASS"
+  },
+  "ruff_src_tests_scripts": "PASS",
+  "strict_mypy_source_and_checker": {
+    "files": 55,
+    "status": "PASS"
+  },
+  "repository_checker": {
+    "failures": 0,
+    "mode": "working tree structure plus existing Git index; new files untracked, no stage/commit requested"
+  },
+  "cached_exact_calibration_and_metrics": {
+    "runs": 6,
+    "status": "PASS"
+  },
+  "confusion_parity": {
+    "cells": 48,
+    "status": "PASS"
+  },
+  "initial_audit_input_pins": {
+    "files": 130,
+    "status": "PASS"
+  },
+  "visual_review": {
+    "unique_crops": 90,
+    "recurrent_looking_val": 20,
+    "recurrent_looking_train": 41,
+    "upstream_originals": 8,
+    "status": "draft_no_relabel"
+  },
+  "media_and_supplementary_pins": "PASS",
+  "proposal_yaml_payload_budget_and_unapproved_actions": "PASS",
+  "historical_scopes_unchanged": "PASS",
+  "model_quality": "looking_around_not_accepted; no_selected_model",
+  "limitations": [
+    "No new inference or independent holdout",
+    "Current dataset and model pins remain unchanged",
+    "Visual mechanisms are hypotheses; E008 requires owner design and compute approval"
+  ]
+}

@@ -1,0 +1,107 @@
+schema_version: looking-spatial-study-draft-v1
+experiment_id: E008-V13-LOOKING-20261024
+status: draft_pending_owner_design_approval
+implementation_scientific_authorized: false
+smoke_authorized: false
+research_authorized: false
+final_test_authorized: false
+promotion_authorized: false
+evidence_ref: artifacts/reports/looking-around-audit-20261024/README.md
+design_ref: configs/experiments/E008-V13-LOOKING-20261024/README.md
+dataset:
+  path: data/processed/pilot-b/pilot-b-20261023-v13
+  payload_sha256: 186daf8c2ec9ac0231cb3f9438d24415feb5b0439a5320cad36312562029576e
+  train_records: 1119
+  selection_records: 185
+  test_records: 0
+  mutate_labels_geometry_or_splits: false
+pretrained_from:
+  path: configs/experiments/E007-V13-20261024/design.json
+  reuse_exact_dinov2_source_weights_and_license: true
+  warm_start_research_checkpoint: false
+arms:
+  G0:
+    feature: normalized_cls_and_global_patch_mean_including_padding
+    input_dim: 768
+  G1:
+    feature: normalized_cls_and_context_content_2x2_area_weighted_patch_means
+    input_dim: 1920
+  A1:
+    feature: normalized_cls_and_person_box_2x2_area_weighted_patch_means
+    input_dim: 1920
+pooling:
+  bins: [top_left, top_right, bottom_left, bottom_right]
+  coordinate_system: exact_rounded_letterbox_content_and_mirrored_person_box
+  empty_bin: error
+  new_annotations: false
+  context_self_attention_preserved: true
+fixed_recipe:
+  target_order: [phone_use, looking_around]
+  encoder: dinov2_vits14
+  image_size: 336
+  transform: rgb_letterbox_bilinear_v1
+  mean: [0.485, 0.456, 0.406]
+  std: [0.229, 0.224, 0.225]
+  fill: [124, 116, 104]
+  device: cuda
+  precision: float32
+  tf32: false
+  workers: 0
+  threads: 4
+  batch_size: 16
+  objective: balanced_smoothed_minibatch_bce_v3
+  pos_weight: [1.4142135623730951, 2.280595825313147]
+  label_smoothing: 0.05
+  sampling: uniform_permutation_no_drop_v1
+  optimizer: AdamW
+  head_learning_rate: 0.0003
+  backbone_learning_rate: 0.00001
+  weight_decay: 0.01
+  head_hidden_dim: 128
+  head_dropout: 0.3
+  head_output_dim: 2
+  warmup_epochs: 3
+  trainable_scope: head_and_last_two_blocks_and_final_norm
+  stochastic_depth: 0.0
+  max_epochs: 12
+  patience: 6
+  min_delta: 0.0001
+  lr_scheduler: cosine
+  min_lr_ratio: 0.1
+  augmentation:
+    horizontal_flip_prob: 0.5
+    brightness_jitter: 0.15
+    contrast_jitter: 0.15
+    saturation_jitter: 0.1
+    box_jitter_ratio: 0.0
+    random_erasing_prob: 0.0
+selection:
+  checkpoint: max_val_macro_ap_then_min_raw_masked_bce_then_earliest_epoch
+  calibration: exact_v4_selection_once_reused_for_all_cohorts
+  quality_gate: {precision_min: 0.8, recall_min: 0.8, fpr_max: 0.2}
+  support_gate: {positive_min: 30, negative_min: 30, positive_groups_min: 5, negative_groups_min: 5}
+  champion: e007_gate_support_shortfall_macro_ap_bce_then_arm_id
+  screening_seed: 20261023
+  confirmation_seeds: [20261024, 20261025]
+  confirmation_arms: [champion, G0]
+  deduplicate_if_champion_is_G0: true
+  independent_holdout_claim: false
+budget:
+  provider: Google Colab
+  storage: Google Drive
+  visibility: private
+  max_gpu_seconds: 14400
+  max_smoke_seconds: 1800
+  max_research_runs: 7
+  max_seconds_per_research_including_reload: 1500
+  setup_sync_recovery_reserve_seconds: 2100
+  purchase_extra_credits: false
+  fallback_after_oom_or_timing_failure: stop_and_request_revision
+execution_gates:
+  - Owner approves this design and new cloud/compute scope
+  - Implement schema dispatch without changing historical V4 behavior or pins
+  - Freeze exact code/config/protocol/pretrained/data/environment identity
+  - Pass geometry area weights hflip gradients modes and equivalent-region fixtures
+  - Pass actual GPU G0 and A1 smoke full_resume_transition_and_reload
+  - Run at most the screening and paired confirmation matrix
+  - Report both targets per seed and retain Continue unless quality and owner acceptance justify promotion

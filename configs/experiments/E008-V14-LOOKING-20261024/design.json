@@ -1,0 +1,112 @@
+{
+  "id": "E008-V14-COLAB-20261024",
+  "run_prefix": "E008-V14",
+  "config_schema": "spatial-representation-v5",
+  "control_arm": "G0",
+  "smoke_arms": [
+    "G0",
+    "A1"
+  ],
+  "research_max_epochs": 24,
+  "screening_seed": 20261023,
+  "authorization": {
+    "path": "configs/experiments/E008-V14-LOOKING-20261024/owner-authorization.json",
+    "sha256": "e72d121cb5152c681504ace88ae58c441c5bb25945520f958b6af5b0beb24298"
+  },
+  "proposal": {
+    "path": "configs/experiments/E008-V14-LOOKING-20261024/proposal.yaml",
+    "sha256": "ef0a162e5f749759b07837ce3163702260fd1c64cdfc1a7bbec8e4d98f245e65"
+  },
+  "dataset_pointer": {
+    "path": "configs/experiments/E008-V14-LOOKING-20261024/dataset-pointer.json",
+    "sha256": "b86bcb88c4e2a98eb31005fb42d1ab6685b26572f47a8ec7fd61996d164849e3"
+  },
+  "allocation": {
+    "path": "configs/experiments/E008-V14-LOOKING-20261024/enrollment.json",
+    "sha256": "57c19f2331df0cbf21cb1bb32b9bfe28b50964296c99abbe91ebb3ff3d6c0444"
+  },
+  "provenance": {
+    "path": "configs/experiments/E008-V14-LOOKING-20261024/provenance.json",
+    "sha256": "1f20d4be604c93d29cf4de5c1a67525fcb9fa728310d3658eaacaba8cd6d61bc"
+  },
+  "release_approval": {
+    "path": "configs/experiments/E008-V14-LOOKING-20261024/release-enrollment.json",
+    "sha256": "f14bee499670723d7a5af7af1f3c2165d2ef14133fa8ec7ae929f1d1786c2d3c"
+  },
+  "template": {
+    "path": "configs/experiments/E006-V12-20261020/r4/E006-V12-S1-SQRT-S20261020-R4.yaml",
+    "sha256": "142e95080b052da85c62546f1be977980a6a53cf3558631088db2829f18bd13e"
+  },
+  "config_dir": "configs/experiments/E008-V14-LOOKING-20261024/materialized",
+  "run_dir": "outputs/E008-V14-Colab-20261024/runs",
+  "smoke_receipt": "artifacts/reports/e008-v14-colab-20261024/gpu-smoke.json",
+  "initialization_dir": "outputs/E008-V14-Colab-20261024/initialization",
+  "smoke_runs": [
+    {
+      "arm": "G0",
+      "seed": 20261023,
+      "id": "E008-V14-SMOKE-G0-FULL",
+      "epochs": 5
+    },
+    {
+      "arm": "G0",
+      "seed": 20261023,
+      "id": "E008-V14-SMOKE-G0-RESUME",
+      "epochs": 5
+    },
+    {
+      "arm": "A1",
+      "seed": 20261023,
+      "id": "E008-V14-SMOKE-A1-FULL",
+      "epochs": 5
+    },
+    {
+      "arm": "A1",
+      "seed": 20261023,
+      "id": "E008-V14-SMOKE-A1-RESUME",
+      "epochs": 5
+    }
+  ],
+  "pretrained": {
+    "dinov2_vits14": {
+      "weights": {
+        "path": "outputs/E007-V13-Colab-20261024/pretrained/dinov2_vits14_pretrain.pth",
+        "sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+      },
+      "license": {
+        "path": "artifacts/reports/e007-v13-colab-20261024/dinov2-pretrained.json",
+        "sha256": "0b19ff7fc61b59ef0350b655e71bb64e1ce8666607fc0ad7c2baedd2c8bb62e4"
+      },
+      "source": {
+        "path": "outputs/E007-V13-Colab-20261024/pretrained/dinov2-source.zip",
+        "sha256": "04276715cddb29d45d05bff3a6fc132224dc27749b279ac98ad2ce4620e20d48"
+      }
+    }
+  },
+  "supporting_inputs": [
+    {
+      "path": "configs/datasets/pilot-b-20261024-v14.json",
+      "sha256": "e0081259feaae086577b9f125c59e0f8e74f5029c332db3177b9d0c614ef5196"
+    },
+    {
+      "path": "artifacts/reports/dataset-release-20261024-v14/owner-direction.json",
+      "sha256": "df4bf8563e53cad763a275abc6341f6d79029ba21f7c0e549abfea631fecb768"
+    },
+    {
+      "path": "artifacts/reports/dataset-release-20261024-v14/allocation.json",
+      "sha256": "7f932e72ead71d4b61ac22861c88984ed19b5ddbb680f5073567a326f21ddf77"
+    },
+    {
+      "path": "artifacts/reports/dataset-release-20261024-v14/visual-review.json",
+      "sha256": "5b6f9fccb74ebd3fa8d5d46a8d02ca356dccaedc0aaa1c051168d0970e2497a8"
+    },
+    {
+      "path": "artifacts/reports/dataset-release-20261024-v14/package-pointers.json",
+      "sha256": "b419085c2d315ba28ca660b8d0ae0846eff8c81a44c57403da06983de0666065"
+    },
+    {
+      "path": "artifacts/reports/dataset-release-20261024-v14/train-class-weights.json",
+      "sha256": "cab1424dd1135270cd31d3ae92bd42d83d86d03a64cadb4d2626990ca1327cb0"
+    }
+  ]
+}

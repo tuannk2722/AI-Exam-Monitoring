@@ -60,6 +60,33 @@ def coverage(records: list[PilotRecord]) -> dict[str, Any]:
     return result
 
 
+def operating_envelope(rows: list[dict[str, Any]], target: int) -> dict[str, Any]:
+    """Describe attainable gates from cached scores; never install a new threshold."""
+    known = [r for r in rows if r["mask"][target]]
+    p = sum(r["targets"][target] == 1 for r in known)
+    n = len(known) - p
+    if not p or not n:
+        return {"positive": p, "negative": n, "feasible_80_80_20": None,
+                "max_precision_at_recall_ge80": None,
+                "max_recall_at_precision_ge80": None}
+    points = []
+    for cut in sorted({0., .5, math.nextafter(1., 2.),
+                       *(r["scores"][target] for r in known)}):
+        counts = Counter(outcome(r, target, cut) for r in known)
+        tp, fp = counts["TP"], counts["FP"]
+        precision = tp / (tp + fp) if tp + fp else None
+        points.append((precision, tp / p, fp / n))
+    return {
+        "positive": p, "negative": n,
+        "feasible_80_80_20": any(pr is not None and pr >= .8 and re >= .8 and fpr <= .2
+                                      for pr, re, fpr in points),
+        "max_precision_at_recall_ge80": max(
+            (pr for pr, re, _ in points if pr is not None and re >= .8), default=None),
+        "max_recall_at_precision_ge80": max(
+            (re for pr, re, _ in points if pr is not None and pr >= .8), default=None),
+    }
+
+
 def consensus(
     predictions: dict[str, dict[str, dict[str, Any]]],
     thresholds: dict[str, list[float]],
@@ -162,8 +189,9 @@ def build(workspace: Path, config_path: Path) -> dict[str, Any]:
     thresholds = {}
     run_configs = {}
     parity = []
+    run_root = local(workspace, config.get("run_root", "outputs"))
     for run_name in config["runs"]:
-        run = local(workspace, f"outputs/{run_name}")
+        run = local(run_root, run_name)
         pin(run / "checksums.json", config["run_checksum_pins"][run_name])
         hashes = read_json(run / "checksums.json")
         for name in ("run.json", "resolved-config.json", "metrics.json",
@@ -190,9 +218,14 @@ def build(workspace: Path, config_path: Path) -> dict[str, Any]:
                 raise DataContractError("Dataset/cohort membership mismatch")
             mr = metrics[metric_key]
             ts = [mr["calibrated_thresholds"][target] for target in TARGET_ORDER]
-            if any(not isinstance(t, (int, float)) or not math.isfinite(t)
-                   or not 0 < t < 1 for t in ts):
+            is_v4 = rc["schema_version"] == "representation-adaptation-v4"
+            if any(type(t) not in {int, float} or not math.isfinite(t)
+                   or not (0 <= t <= math.nextafter(1., 2.) if is_v4 else 0 < t < 1)
+                   for t in ts):
                 raise DataContractError("Invalid calibrated threshold")
+            if is_v4 and mr["calibrated_thresholds"] != metrics["selection"][
+                    "calibrated_thresholds"]:
+                raise DataContractError("V4 thresholds must be reused from selection")
             for row in rows:
                 rec = by_id[row["sample_id"]]
                 if (row["targets"] != list(rec.target_values)
@@ -237,6 +270,14 @@ def build(workspace: Path, config_path: Path) -> dict[str, Any]:
     train_controls = shortlist([r for r in rows if r["split"] == "train"
                                 and r["stable_outcome"] in {"TP", "TN", "U"}], 0)
     selected.extend(train_controls)
+    # Explicit audit cases supplement the diverse shortlist without losing same-group errors.
+    selected_ids = {r["sample_id"] for r in selected}
+    for sid in config.get("review_sample_ids", []):
+        if sid not in by_id:
+            raise DataContractError("Review ID outside train/val cohort")
+        if sid not in selected_ids:
+            selected.append({"sample_id": sid, "reasons": ["explicit_audit_case"]})
+            selected_ids.add(sid)
     output.mkdir(parents=True)
     media.mkdir(parents=True)
     write_json(output / "coverage.json", cov)
@@ -246,6 +287,12 @@ def build(workspace: Path, config_path: Path) -> dict[str, Any]:
         for k, values in analyses.items()
     })
     write_json(output / "confusion-parity.json", parity)
+    write_json(output / "operating-envelopes.json", {
+        run: {split: {target: operating_envelope(
+            [r for r in members.values() if r["split"] == split], i)
+                      for i, target in enumerate(TARGET_ORDER)} for split in ("train", "val")}
+        for run, members in predictions.items()
+    })
     make_gallery(workspace, package, media, selected, by_id, run_configs,
                  config, pin)
     write_json(output / "review-selection.json", selected)
@@ -290,11 +337,14 @@ def make_gallery(
                          [str(r.group.leakage_group_id) for r in train if r.group])
     train_ids = [r.sample_id for r in train]
     cards = []
-    page = ["<!doctype html><meta charset='utf-8'><title>Review V12</title>",
+    size = rc.image_size
+    panel_width = max(340, size)
+    card_height = max(245, size) + 65
+    page = ["<!doctype html><meta charset='utf-8'><title>Review Draft</title>",
             "<style>body{font:16px sans-serif;margin:24px}img{max-width:100%}</style>",
-            "<h1>Review Draft — source / crop / input 224 / augmentation train</h1>",
+            f"<h1>Review Draft — source / crop / input {size} / augmentation train</h1>",
             "<p>Không hiển thị scores hoặc nhãn để review độc lập với dự đoán. "
-            "Ảnh nguồn có box anchor xanh và context đỏ. Input hiển thị đúng 224 px. "
+            f"Ảnh nguồn có box anchor xanh và context đỏ. Input hiển thị đúng {size} px. "
             "Augmentation chỉ train, epoch đã ghi; val không augmentation.</p>"]
     for index, item in enumerate(selected):
         rec = records[item["sample_id"]]
@@ -337,13 +387,13 @@ def make_gallery(
         for box, color in ((rec.crop.context_box, "red"), (rec.crop.person_box, "lime")):
             draw.rectangle((box.xmin, box.ymin, box.xmax - 1, box.ymax - 1),
                            outline=color, width=max(2, source.width // 300))
-        card = Image.new("RGB", (1200, 310), "white")
+        card = Image.new("RGB", (4 * (panel_width + 12), card_height), "white")
         d = ImageDraw.Draw(card)
         d.text((8, 8), f"{index + 1:02d} {rec.sample_id} | {rec.usage}", fill="black")
         panels = [ImageOps.contain(source, (340, 245)),
                   ImageOps.contain(crop, (340, 245)), letterbox(crop, rc)]
-        positions = [8, 360, 710, 956]
-        titles = ["Source + anchor/context", f"Crop {crop.width}x{crop.height}", "Input 224"]
+        positions = [8 + i * (panel_width + 12) for i in range(4)]
+        titles = ["Source + anchor/context", f"Crop {crop.width}x{crop.height}", f"Input {size}"]
         if rec.usage == "train":
             idx = train_ids.index(rec.sample_id)
             epoch = config["augmentation_epoch"]
@@ -358,7 +408,8 @@ def make_gallery(
             titles.append(f"Train aug epoch {epoch}")
             item["augmentation"] = {"run": ref, "epoch": epoch, "cohort_index": idx}
             epochs = config["augmentation_epochs"]
-            aug_sheet = Image.new("RGB", (6 * 224, math.ceil(len(epochs) / 6) * 246), "white")
+            aug_sheet = Image.new("RGB", (6 * size, math.ceil(len(epochs) / 6) * (size + 22)),
+                                  "white")
             aug_draw = ImageDraw.Draw(aug_sheet)
             for ep_index, ep in enumerate(epochs):
                 aug_batch = cohort.model_batch([idx], rc, epoch=ep, train_mode=True)
@@ -369,7 +420,7 @@ def make_gallery(
                 aug_image = Image.fromarray(
                     (pixels.clamp(0, 1).permute(1, 2, 0).numpy() * 255).astype("uint8")
                 )
-                x, y = (ep_index % 6) * 224, (ep_index // 6) * 246
+                x, y = (ep_index % 6) * size, (ep_index // 6) * (size + 22)
                 aug_draw.text((x, y), f"{rec.sample_id} epoch {ep}", fill="black")
                 aug_sheet.paste(aug_image, (x, y + 22))
             aug_name = f"augmentation-{index + 1:03d}.png"
@@ -387,9 +438,10 @@ def make_gallery(
                     f"<img src='{filename}' loading='lazy'>")
         cards.append(card)
     for offset in range(0, len(cards), 4):
-        sheet = Image.new("RGB", (1200, 310 * len(cards[offset:offset + 4])), "white")
+        sheet = Image.new("RGB", (cards[offset].width,
+                                 card_height * len(cards[offset:offset + 4])), "white")
         for i, card in enumerate(cards[offset:offset + 4]):
-            sheet.paste(card, (0, 310 * i))
+            sheet.paste(card, (0, card_height * i))
         sheet.save(media / f"sheet-{offset // 4 + 1:02d}.png")
     (media / "index.html").write_text("\n".join(page), encoding="utf8")
 

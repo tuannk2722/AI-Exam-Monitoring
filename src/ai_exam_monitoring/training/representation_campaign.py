@@ -118,6 +118,8 @@ def run_campaign(design_path: Path, root: Path, storage: Path, started_at: float
         elif signature != runtime:
             raise DataContractError("GPU/environment changed within campaign")
         output: Path = base / item["id"]
+        print(f"Starting {item['id']} ({config.run_kind}, cap {config.max_epochs} epochs)",
+              flush=True)
         args = ["ai_exam_monitoring.training.train", "--workspace", str(root),
                 "--config", str(config_path), "--output", str(output)]
         if drill:
@@ -147,6 +149,7 @@ def run_campaign(design_path: Path, root: Path, storage: Path, started_at: float
             "metrics": pin(root, output / "metrics.json"),
         })
         sync()
+        print(f"Finished {item['id']}; reload PASS; synced to private storage", flush=True)
         return output
 
     try:
@@ -154,7 +157,7 @@ def run_campaign(design_path: Path, root: Path, storage: Path, started_at: float
         smoke = prepare(design_path, root, "smoke")
         smoke_deadline = min(deadline, smoke_started + smoke["budget"]["smoke_minutes"] * 60)
         sync()
-        for arm in ("R0", "D1"):
+        for arm in design.get("smoke_arms", ["R0", "D1"]):
             items = [item for item in smoke["items"] if item["arm"] == arm]
             if len(items) != 2:
                 raise DataContractError("Smoke requires full/resumed pair for each encoder")
@@ -170,7 +173,7 @@ def run_campaign(design_path: Path, root: Path, storage: Path, started_at: float
             # Conservative full-run estimate, including reporting and reload.
             seconds = read(full / "run.json")["elapsed_seconds"]
             run_cap = smoke["budget"]["run_including_reload_minutes"] * 60
-            if seconds * 12 / a["epoch"] * 1.25 > run_cap:
+            if seconds * design.get("research_max_epochs", 12) / a["epoch"] * 1.25 > run_cap:
                 raise DataContractError("Smoke predicts full run exceeds approved cap")
         write_json(local_path(root, design["smoke_receipt"]), {
             "status": "PASS", "device": "cuda", "code_sha256": code_identity()["sha256"],
@@ -200,7 +203,7 @@ def run_campaign(design_path: Path, root: Path, storage: Path, started_at: float
         state["screening_champion"] = champion
         sync()
         for item in research["items"]:
-            if item["seed"] != seed and item["arm"] in {champion, "R0"}:
+            if item["seed"] != seed and item["arm"] in {champion, design.get("control_arm", "R0")}:
                 research_run(item)
         state["status"] = "FINISHED"
         state["decision"] = "continue_research_only_owner_review_required"

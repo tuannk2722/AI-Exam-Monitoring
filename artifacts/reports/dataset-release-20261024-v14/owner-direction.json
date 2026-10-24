@@ -1,0 +1,23 @@
+{
+  "recorded_at": "2026-10-24",
+  "reviewer": "repository-owner",
+  "authorization_source": "Direct user instructions in this conversation",
+  "e008_design_approved": true,
+  "agent_label_review_and_release_delegated": true,
+  "allocation_delegated": true,
+  "latest_direction": "Đưa toàn bộ crop mới vào sử dụng; nghiên cứu và chọn hướng đúng, hợp lý.",
+  "exclude_ids": [
+    "G01-A02-F00001-R02",
+    "G01-B02-F00009"
+  ],
+  "source_statement": "Nhóm 1/2/3 generate theo mục tiêu khắc phục, không có crop nguồn chính xác. Nhóm tên ID chỉ dùng đúng crop ID đó.",
+  "approved_use_scope": [
+    "local_classifier_research"
+  ],
+  "rights_basis": "Owner cung cấp ảnh tự generate và yêu cầu sử dụng trong dataset nghiên cứu hiện hành; không suy ra public license hoặc quyền upload.",
+  "allocation": "53 generated vào train. Chuyển toàn bộ 6 nhóm nguồn liên quan (27 crop) từ val sang train. G12 liên quan nghi vấn được xử lý bảo thủ, không khẳng định parent chính xác.",
+  "supersedes": "Phương án review-only được agent đề xuất trước khi owner yêu cầu dùng toàn bộ crop mới.",
+  "no_test_v14": true,
+  "training_started": false,
+  "media_uploaded": false
+}

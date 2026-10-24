@@ -19,6 +19,7 @@ from .adaptation_config import (
     E005AdaptationConfig,
     FilePin,
     RepresentationConfig,
+    SpatialConfig,
     local_path,
 )
 from .artifacts import digest_json
@@ -31,6 +32,7 @@ from .data import (
     letterbox,
     verify_dataset,
 )
+from .spatial_pooling import letterbox_regions, mirror_regions
 
 
 def _uint8_letterbox(image: Image.Image, config: AdaptationConfig) -> torch.Tensor:
@@ -81,7 +83,8 @@ class ImageCohort:
     def _ensure_cached(self, idx: int, config: E005AdaptationConfig) -> None:
         if isinstance(config, RepresentationConfig):
             key = digest_json({"size": config.image_size, "fill": config.fill,
-                               "transform": config.transform, "model": config.model})
+                               "transform": config.transform, "model": config.model,
+                               "spatial": isinstance(config, SpatialConfig)})
             if key != self._v4_cache_key:
                 self._context_cache.clear()
                 self._anchor_cache.clear()
@@ -95,6 +98,11 @@ class ImageCohort:
         with Image.open(self.paths[idx]) as raw_image:
             rgb_image = raw_image.convert("RGB")
             self._context_cache[idx] = _uint8_letterbox(rgb_image, config)
+            if isinstance(config, SpatialConfig):
+                self._geometry_cache[idx] = letterbox_regions(
+                    record.crop.person_box, record.crop.context_box,
+                    rgb_image.size, config.image_size,
+                )
             if config.model == "resnet18_anchor_context":
                 geom = compute_relative_anchor_geometry(
                     record.crop.person_box, record.crop.context_box
@@ -119,6 +127,7 @@ class ImageCohort:
         if not isinstance(config, E005AdaptationConfig):
             return self.batch(indices, config)
         is_dual = config.model == "resnet18_anchor_context"
+        is_spatial = isinstance(config, SpatialConfig) and config.pooling != "global_mean"
         aug = config.augmentation
         do_aug = bool(train_mode and aug.enabled)
         ctx_list: list[torch.Tensor] = []
@@ -135,7 +144,7 @@ class ImageCohort:
             )
             geo = (
                 self._geometry_cache[i].clone()
-                if is_dual
+                if is_dual or is_spatial
                 else torch.zeros(6, dtype=torch.float32)
             )
             if do_aug:
@@ -152,6 +161,8 @@ class ImageCohort:
                     and float(torch.rand(1, generator=gen)) < aug.horizontal_flip_prob
                 ):
                     ctx_f = torch.flip(ctx_f, dims=[2])
+                    if is_spatial:
+                        geo = mirror_regions(geo, size)
                     if is_dual:
                         anc_f = torch.flip(anc_f, dims=[2])
                         old_rx1, old_rx2 = float(geo[0]), float(geo[2])
@@ -205,10 +216,15 @@ class ImageCohort:
                     ctx_f[:, ey : ey + eh, ex : ex + ew] = fill_val
 
             ctx_list.append(_normalize_float_chw(ctx_f, config.mean, config.std))
+            if is_spatial:
+                geo_list.append(geo)
             if is_dual:
                 anc_list.append(_normalize_float_chw(anc_f, config.mean, config.std))
                 geo_list.append(geo)
         ctx_batch = torch.stack(ctx_list)
+        if is_spatial and isinstance(config, SpatialConfig):
+            region = 0 if config.pooling == "context_2x2" else 1
+            return {"context": ctx_batch, "pooling_box": torch.stack(geo_list)[:, region]}
         if not is_dual:
             return ctx_batch
         return {

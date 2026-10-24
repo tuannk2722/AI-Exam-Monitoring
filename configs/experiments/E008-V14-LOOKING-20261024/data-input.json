@@ -1,0 +1,29 @@
+{
+  "experiment_id": "E008-V14-LOOKING-20261024",
+  "supersedes_input_of": "E008-V13-LOOKING-20261024",
+  "design_approved_by_owner": true,
+  "executable_run_config": false,
+  "dataset": "data/processed/pilot-b/pilot-b-20261024-v14",
+  "payload_sha256": "51fe689b7161737ddce1b6e2845c887a58e9c91fbcd01bb1dc0768b13f351f5b",
+  "dataset_version": "pilot-b-20261024-v14",
+  "split_version": "owner-delegated-group-train-val-20261024-v14",
+  "encoding_version": "pilot-b-targets-v1",
+  "train_records": 1199,
+  "selection_records": 156,
+  "test_records": 0,
+  "target_order": [
+    "phone_use",
+    "looking_around"
+  ],
+  "train_derived_sqrt_positive_weight": [
+    1.4113362174546458,
+    2.160246899469287
+  ],
+  "warm_start_research_checkpoint": false,
+  "matched_v14_g0_required": true,
+  "owner_direction_ref": "artifacts/reports/dataset-release-20261024-v14/owner-direction.json",
+  "original_design_pins": {
+    "configs/experiments/E008-V13-LOOKING-20261024/proposal.yaml": "41e74470ee762958948dc6e12cf7c536258ba321b5bd20052535c9e583cc0a06",
+    "configs/experiments/E008-V13-LOOKING-20261024/README.md": "6c20219d3d6abe7c4a233df50f3cb6b69f6d1eb5c9bfd1d3f7c3ea636e5c27bf"
+  }
+}

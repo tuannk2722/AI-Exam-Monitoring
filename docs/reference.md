@@ -37,9 +37,27 @@ media test. Report/interim output phải mới, gallery không hiển thị scor
 nhận xét thị giác và quyết định owner là bước riêng. [Ví dụ config](../configs/diagnostics/e006-v12-20261021.json),
 [evidence và giới hạn](../artifacts/reports/e006-v12-diagnostics-20261021/README.md).
 
+Diagnostics hỗ trợ runs nested qua `run_root` (mặc định `outputs`) và bổ sung ca cùng
+nhóm bằng `review_sample_ids` thuộc train/val. Preview dùng đúng `image_size`, gồm
+336 px của V4; endpoints calibration V4 và reuse threshold selection được kiểm
+riêng, không nới guard V3. `operating-envelopes.json` mô tả ngưỡng khả thi từ cached
+scores, không áp ngưỡng mới. [Config E007](../configs/diagnostics/e007-v13-looking-20261024.json),
+[audit looking](../artifacts/reports/looking-around-audit-20261024/README.md).
+
 Schema matched-adaptation-v2 thêm provenance random/learned head và diagnostic epoch0/first-epoch steps cho research/smoke. Model chỉ nhận learned FC từ parent checkpoint đã pin, reset backbone/optimizer; diagnostic giữ RNG/modes và không đổi best epoch rule. CLI train/evaluate dispatch cả v1/v2, research v2 không có final-test scope. [E004-RC1 execution](../configs/experiments/E004-RC1-20261014/EXECUTION.md) dẫn tới variables/approval/checks, không là default recipe mới.
 
 Schema `matched-adaptation-v3` thêm `E005AdaptationConfig`, single-crop hoặc dual-ROI anchor/context, MLP head, mở khóa hai giai đoạn, augmentation, Balanced Smoothed BCE, chọn checkpoint theo `val_macro_ap` và hiệu chỉnh ngưỡng trên validation. CLI train nhận v1/v2/v3; evaluator reload full bundle với code/config/runtime pins, không cấp quyền final test cho E005. Phạm vi đã thực thi là local CPU; các literal `auto`/`cuda` được parser nhận nhưng trainer chưa chuyển model/batch sang GPU, nên không xem đó là hỗ trợ GPU. Variables/approval ở [configs E005](../configs/experiments/E005-V11-20261018/README.md), kết quả và giới hạn ở [report E005](../artifacts/reports/e005-v11-adaptation-20261018/README.md).
+
+Schema `spatial-representation-v5` mở rộng representation V4 cho DINO: `pooling`
+nhận `global_mean`, `context_2x2`, `person_2x2`. `spatial_pooling.py` map rectangle
+native qua imported crop/rounded letterbox, mirror khi hflip và tính mean theo
+diện tích giao patch/bin; invalid/empty bin phải lỗi. V4 giữ global mean cũ;
+CLI train/evaluate dispatch V5 và tái dùng V4 calibration/runtime/resume guards.
+`representation_prepare/campaign` nhận control arm, smoke arms, epoch horizon
+và head dimension từ design/proposal đã pin; `colab_bundle` kiểm cả supporting
+inputs trong allowlist. [E008 launcher](../configs/experiments/E008-V14-LOOKING-20261024/README.md)
+materialize research chỉ sau actual GPU smoke cùng identity; software fixtures
+không thay GPU smoke hoặc model acceptance.
 
 `training.campaign_prepare --design <JSON> --workspace .` materialize một campaign
 được owner duyệt; từ chối ghi đè protocol/config đã tạo.

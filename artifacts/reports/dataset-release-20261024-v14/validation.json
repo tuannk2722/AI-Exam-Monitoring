@@ -1,0 +1,48 @@
+{
+  "schema_export_source_pixels": "PASS",
+  "payload_integrity": "PASS",
+  "training_loader": "PASS",
+  "manifest_records": 1355,
+  "ledger_records": 1357,
+  "generated_train_records": 53,
+  "parent_records_labels_geometry_source_group_unchanged": 1304,
+  "retained_parent_crop_bytes_unchanged": 1302,
+  "parent_and_original_e008_pins_unchanged": true,
+  "excluded_absent_from_manifest_and_crop_payload": true,
+  "cross_split_known_groups": 0,
+  "coverage": {
+    "train": {
+      "phone_use": {
+        "positive": 369,
+        "negative": 735,
+        "unknown": 95
+      },
+      "looking_around": {
+        "negative": 980,
+        "positive": 210,
+        "unknown": 9
+      }
+    },
+    "val": {
+      "phone_use": {
+        "negative": 105,
+        "positive": 44,
+        "unknown": 7
+      },
+      "looking_around": {
+        "negative": 127,
+        "positive": 29
+      }
+    }
+  },
+  "train_group_count": 245,
+  "val_group_count": 86,
+  "training_or_inference_performed": false,
+  "media_uploaded": false,
+  "reverse_order_rebuild_exact_payload": "PASS",
+  "cross_split_exact_rgb_duplicates": [],
+  "pilot_package_regression_tests": 8,
+  "pilot_schema_regression_tests": 22,
+  "repo_checker": "PASS",
+  "git_diff_check": "PASS"
+}

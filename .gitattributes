@@ -53,3 +53,9 @@ configs/experiments/E007-V13-20261024/** -text whitespace=trailing-space,space-b
 # These two frozen E007 source files include a final blank line in the run code hash.
 src/ai_exam_monitoring/training/device.py whitespace=-blank-at-eof
 src/ai_exam_monitoring/training/encoders.py whitespace=-blank-at-eof
+
+# Preserve frozen V14/E008 inputs and the launcher checksum across checkouts.
+configs/datasets/pilot-b-20261024-v14.json -text whitespace=trailing-space,space-before-tab,cr-at-eol
+configs/experiments/E008-V13-LOOKING-20261024/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+configs/experiments/E008-V14-LOOKING-20261024/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+notebooks/E008-V14-Colab.ipynb -text whitespace=trailing-space,space-before-tab,cr-at-eol

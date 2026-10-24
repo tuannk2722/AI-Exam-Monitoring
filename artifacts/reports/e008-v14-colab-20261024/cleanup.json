@@ -1,0 +1,12 @@
+{
+  "status": "blocked_by_execution_policy",
+  "action": "Remove temporary preparation scripts and portable verification checkout after successful preservation checks",
+  "reason_returned": "rejected: blocked by policy",
+  "attempts": "Guarded scoped cleanup and narrower literal-path deletion were both rejected before execution",
+  "retained_scratch": [
+    "outputs/_scratch/e008-prepare",
+    "outputs/_scratch/e008-portable-check"
+  ],
+  "python_caches_removed": false,
+  "canonical_bundle_and_inputs_affected": false
+}

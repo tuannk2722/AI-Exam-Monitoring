@@ -1,0 +1,2021 @@
+{
+  "status": "draft_no_relabel",
+  "reviewed_crop_count": 90,
+  "recurrent_looking_val": 20,
+  "recurrent_looking_train": 41,
+  "findings": [
+    {
+      "sample_id": "ADD-Y01-F00099-M01-R02",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-90f8a6ebf178",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.3041631579399109,
+        "E007-V13-D1-S20261024": 0.12262009084224701,
+        "E007-V13-D1-S20261025": 0.26458436250686646
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.18497271835803986,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Đầu chỉ lệch nhẹ, ánh mắt sang bên; cue khó và cần đích nhìn, không bác nhãn owner.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        191,
+        193
+      ],
+      "crop_sha256": "07de355c9fc71493ecf01349311c62ba060b57e7e53ca3e85cb4f72c2d9d17c6",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-001.png",
+      "card_sha256": "db393291f04d9dc921071ed2ad5e9049209cb75aa577d0a051c37b5330ac7ac6",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "ADD-Y06-F00012-M03",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-5511616149c4",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.3853274881839752,
+        "E007-V13-D1-S20261024": 0.749589741230011,
+        "E007-V13-D1-S20261025": 0.443250834941864
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.11062743266423543,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Hướng thân và đầu tương tự nhau, camera bên; profile không tự là quay khỏi bài.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        143,
+        262
+      ],
+      "crop_sha256": "b7ced491423f1fb15843697925fdd0d9a176012e6775356902fcd25032076c02",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-002.png",
+      "card_sha256": "e7827d0d6816a185309ddcd28c8bf0ef76db0d646cbd596ea340a02552ab02b5",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "CB-0753",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-a42b68477bc4",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "TP",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.5951992869377136,
+        "E007-V13-D1-S20261024": 0.15889114141464233,
+        "E007-V13-D1-S20261025": 0.4129052460193634
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.21747875213623047,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Cúi sát vùng sách/bàn phía cạnh, che mặt; đích nhìn/attribution khó xác định từ crop.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        224,
+        224
+      ],
+      "crop_sha256": "b116331e01b5657d7900ffa827a28a0d526da2a46c2149df2ea7d17f2abc9e48",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-003.png",
+      "card_sha256": "a24ddd4b9a526a6f621c5175d66c9a4caa67c1853923c31fe48aec8be6e1da65",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "E004-CN-001",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-8ba1f551a56c",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.454107403755188,
+        "E007-V13-D1-S20261024": 0.642579197883606,
+        "E007-V13-D1-S20261025": 0.6305855512619019
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.1603287955125173,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Tay sau đầu, mặt hướng xuống bàn hơi lệch; không có quay hẳn khỏi hướng bàn rõ.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        255,
+        302
+      ],
+      "crop_sha256": "c36707ce1ae2cdf2552d6b2a430a50c536b94794eb885d330a96f2b681681e83",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-004.png",
+      "card_sha256": "2e6fadd921210b008d7244e5fc672c511f54fa0cb41322bec3ff8eb3b03bfe56",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "E004-CN-014",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-7ad2ecf77770",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "TN",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.5611570477485657,
+        "E007-V13-D1-S20261024": 0.31205958127975464,
+        "E007-V13-D1-S20261025": 0.4525706171989441
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.1517114738623301,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Mặt profile, thân ngồi theo bàn; thiếu mốc camera toàn cảnh trong crop.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        490,
+        605
+      ],
+      "crop_sha256": "402ea9503fb058a477f0e8e04d52467ac82fa580f7c31af60f5a658d7463858a",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-005.png",
+      "card_sha256": "19a1a7f0c7208bf2a1468397d70e4f51797eb252cf8c0474819265d4172614a3",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "E004-CN-018",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c73d808d68b9",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "TN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.34714698791503906,
+        "E007-V13-D1-S20261024": 0.5039247274398804,
+        "E007-V13-D1-S20261025": 0.2939108908176422
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.06214735905329386,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Đầu cúi nghiêng xuống phía bàn, không chỉ dựa vào đường mặt để suy P.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        304,
+        232
+      ],
+      "crop_sha256": "126d5ce33bd563cc958652dbe7a0c19104ae4874f1f9ede195e79c283b1eed1c",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-006.png",
+      "card_sha256": "0e7a1a0c1591165b7a0a34e57e22a3c166241ca71a6434dc1136570aad64c272",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "E004-CN-043",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-eccf11266d34",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.3453896939754486,
+        "E007-V13-D1-S20261024": 0.5134292244911194,
+        "E007-V13-D1-S20261025": 0.5174576044082642
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.043330252170562744,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Camera sau bên, tóc che mặt, đang viết; hướng thân/bàn quan trọng hơn mặt profile.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        185,
+        186
+      ],
+      "crop_sha256": "14a313da8e8a8836fb10d513c224be459998c2202548296c863ed3335ca58126",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-007.png",
+      "card_sha256": "dfe90d028025503ca250b104846c044378644e67f4b65a1aa05650a9ca2da907",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "E004-EX-C003",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-b12c1c9e4616",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.7437090873718262,
+        "E007-V13-D1-S20261024": 0.7588320970535278,
+        "E007-V13-D1-S20261025": 0.8222082853317261
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.35948790113131207,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Nhìn xuống bài, chống trán, camera bên; profile không tự là quay đầu.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        605,
+        398
+      ],
+      "crop_sha256": "480aa471d294e57b0f32bc40af239af99688285481f7c0ca1816a4e702e7ea1c",
+      "card": "data/interim/looking-around-audit-20261024/card-018.png",
+      "card_sha256": "4017aa7e97e83d4736f86ddf49deef1852507972a95b7a57f695be18585d6df1",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "E004-EX-C049",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-bddaa1a41f46",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.6278623938560486,
+        "E007-V13-D1-S20261024": 0.6465442776679993,
+        "E007-V13-D1-S20261025": 0.7056976556777954
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.24460618694623312,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Cúi đọc trên bàn, camera chéo bên; giữ negative khó.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        247,
+        281
+      ],
+      "crop_sha256": "c6755aad5babb6d234adfb7ce7920a8b2fb51b905a813c114fd1e8640261316e",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-008.png",
+      "card_sha256": "58b7a0b44e3b5a6394005e1effeff99365381372cc07a7b89560947abe6c9f1d",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "E004-EX-C125",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-bddaa1a41f46",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "TN",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.4695557653903961,
+        "E007-V13-D1-S20261024": 0.4210125505924225,
+        "E007-V13-D1-S20261025": 0.47557249665260315
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.09252734978993733,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Đầu hơi chéo, thân theo bàn; đích nhìn không chứng minh quay sang người khác.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        253,
+        272
+      ],
+      "crop_sha256": "5500655e5bf045e86be44cadc96e8272538742e6c9e37541315ec95919eaee94",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-009.png",
+      "card_sha256": "6f0652a3e0169e42d1aaaa359b8dd57a7100b3459e5aca6f742e787390442036",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "E004-EX-C184",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-2fd79bc98a1e",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.5317942500114441,
+        "E007-V13-D1-S20261024": 0.6934871077537537,
+        "E007-V13-D1-S20261025": 0.4796220064163208
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.15287253260612488,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Góc sau bên, hướng mặt/thân theo bàn; giữ N/N owner đã chốt.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        237,
+        462
+      ],
+      "crop_sha256": "adcbce93e2addb6a8e4b85ae88aadc0b0ccb5636174f97dc825e3e6115cb37c5",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-010.png",
+      "card_sha256": "d541f4045e9987ce3c901e6019cc5d2e7a9f8bf49bf029677c976ae9e85a98b8",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "E004-SX-C001",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-361c1941d508",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "TP",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.37860384583473206,
+        "E007-V13-D1-S20261024": 0.21215327084064484,
+        "E007-V13-D1-S20261025": 0.28764915466308594
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.1692782590786616,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Quay đầu so với thân trong lúc cầm phone; hai target có thể đồng thời P.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        545,
+        600
+      ],
+      "crop_sha256": "76c06fb3185ca921d0ce9a1b5f4e53dce40ac84bddd506cfdbe8ece4609af3a8",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-011.png",
+      "card_sha256": "8d450e851e6b517b81d4369e92f0320058683b501efb667b78b85b4bc5ff3576",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "E004-SX-C002",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-8b12c03c6919",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "TN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.4170610010623932,
+        "E007-V13-D1-S20261024": 0.6444525122642517,
+        "E007-V13-D1-S20261025": 0.31996819376945496
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.12360885739326477,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Ngồi theo bàn nhìn về trước, camera bên tạo profile.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        430,
+        705
+      ],
+      "crop_sha256": "8a044fadc0fe94bcf4501b1eb1dc5bd442373091dc25847610824a6de994b52a",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-012.png",
+      "card_sha256": "16f12e8082ebda22929eebd023e20aa73022bc77e6bf6aa0e4eac3569a0c9eff",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "EXP-CM-004",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-b7e021cae7b2",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "TN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.5464627742767334,
+        "E007-V13-D1-S20261024": 0.5481353402137756,
+        "E007-V13-D1-S20261025": 0.3015744388103485
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.14076830943425497,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Đang nghe điện thoại với đầu hơi nghiêng; phone P không tự kéo looking P.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        88,
+        133
+      ],
+      "crop_sha256": "02e0979c1bc884df252945e2142a0ceebfd9d8966f548c8db0eb2cf295b6392b",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-013.png",
+      "card_sha256": "e8a4626bbb585567f320dd64dc0e7a382e3e0e4244a26d33f0e331ab96a7505d",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "EXP-CM-013",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-b7e021cae7b2",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "TN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.33295562863349915,
+        "E007-V13-D1-S20261024": 0.5987775921821594,
+        "E007-V13-D1-S20261025": 0.34414491057395935
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.0722898542881012,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Mặt hơi nghiêng theo hướng ngồi/bàn; native nhỏ.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        119,
+        222
+      ],
+      "crop_sha256": "42d7b975175348099ee632aced91ccfeebb5cfd0c6334e1e83e20225038ec662",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-014.png",
+      "card_sha256": "25ae86141ed663483c8b9349e8b6cf248e83e757f42a6e17fff59ef996ef38aa",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "EXP-CM-024",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-b7e021cae7b2",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "TP",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.49746599793434143,
+        "E007-V13-D1-S20261024": 0.42152702808380127,
+        "E007-V13-D1-S20261025": 0.4262925982475281
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.09289324283599854,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Đầu quay rõ hơn so với hướng thân; cue nhỏ ở native 79 × 127.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        79,
+        127
+      ],
+      "crop_sha256": "3b60f0d7babe6c2125a7b065757cc16d4536b7a4f8d3be998ee3d9d45138d49f",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-015.png",
+      "card_sha256": "be1e91e444e97145260fbb492a605d138f5642edef31e0f0e4295583b56c0759",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "EXP-SCB-013",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-2213efa972ee",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.5885235071182251,
+        "E007-V13-D1-S20261024": 0.6026082634925842,
+        "E007-V13-D1-S20261025": 0.5105549693107605
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.1518003245194753,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Đầu/người hướng theo bàn, camera bên và mặt mờ; giữ N đã nghiệm thu.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        82,
+        179
+      ],
+      "crop_sha256": "fc72d6f3a6dce6f2741885fc30d3ed076ef5c397ae448392d6c3d376f7d71372",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-016.png",
+      "card_sha256": "9a5eb2aa074fe3a844ff9961a40e669d078c9e0ef7bd88ca6130c4450ce272c8",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "G01-A02-F00001-R02",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.6884178519248962,
+        "E007-V13-D1-S20261024": 0.5311192274093628,
+        "E007-V13-D1-S20261025": 0.5571138262748718
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.17678837974866232,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Đầu cúi/lệch nhẹ theo bàn; native nhỏ và thiếu chi tiết đích nhìn.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        111,
+        130
+      ],
+      "crop_sha256": "9c1b0be55af24c8e0fbddbcf828e236f1cad1d9236c727a309f361f20676488e",
+      "card": "data/interim/looking-around-audit-20261024/card-042.png",
+      "card_sha256": "2241caacca3ece08d1156fbb3151fdf2739310ceb0760ab0f11c4252d7204f8a",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "G01-B02-F00009",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.9477754831314087,
+        "E007-V13-D1-S20261024": 0.8756304383277893,
+        "E007-V13-D1-S20261025": 0.9051640629768372
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.49409473935763043,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Đọc tờ giấy, hướng đầu theo bàn; toàn cảnh cho mốc phía trước lớp.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        92,
+        99
+      ],
+      "crop_sha256": "a71d94abf783f9c3183e4d488553b962702d96e3d46db61419e7270d7940fccd",
+      "card": "data/interim/looking-around-audit-20261024/card-016.png",
+      "card_sha256": "47f7bbc12cd05b88782c978af209b88a859dbba3fdd87b27c44ea83e595d8191",
+      "upstream_context_opened": true
+    },
+    {
+      "sample_id": "G04-B08-F00002",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-a42b68477bc4",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "TN",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.3813473880290985,
+        "E007-V13-D1-S20261024": 0.4478999376296997,
+        "E007-V13-D1-S20261025": 0.4527280926704407
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.0465472936630249,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Đầu cúi nhìn vùng tay/bài, context có tay người bên cạnh; không thấy quay đầu hẳn.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        144,
+        293
+      ],
+      "crop_sha256": "04111f60176db99c20df6e9d7bdf944bfb0afa1ffcc0bf0f57d1df6319048add",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-017.png",
+      "card_sha256": "84e3da35b184ac071966e0f686eed7adb96f2542f1af0c86971f2c338dad22a6",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "G08-B01-F00001",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "TN",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.5787041187286377,
+        "E007-V13-D1-S20261024": 0.48944291472435,
+        "E007-V13-D1-S20261025": 0.5555188059806824
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.1327487826347351,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Đọc tờ giấy cầm trước mặt; camera bên tạo profile, không suy looking P.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        100,
+        104
+      ],
+      "crop_sha256": "c70c19465a22218479e30be81ad5b1022f03bac94856079834b01618ac6f7387",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-018.png",
+      "card_sha256": "6175fbb15230cbcec69759675b52b8ed8bffd4eac1074eb98cc5a08511c11d7d",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "G08-B02-F00001",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.6639665365219116,
+        "E007-V13-D1-S20261024": 0.5876606106758118,
+        "E007-V13-D1-S20261025": 0.6818168759346008
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.22905275225639343,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Nhìn lên phía trước lớp theo toàn cảnh; crop hẹp làm mất mốc lớp học.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        93,
+        133
+      ],
+      "crop_sha256": "0db8cac05f66de3455262603daba6e71379f49557880d508834d9ebf88d4bb7a",
+      "card": "data/interim/looking-around-audit-20261024/card-043.png",
+      "card_sha256": "058da2867d3b12301b863f5aa8b4d4ac1fb369e7663d87788d5ba7e4d741da7b",
+      "upstream_context_opened": true
+    },
+    {
+      "sample_id": "G11-B09-F00008",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-a42b68477bc4",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.6065342426300049,
+        "E007-V13-D1-S20261024": 0.6311529278755188,
+        "E007-V13-D1-S20261025": 0.6156834363937378
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.20236161351203918,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Camera phía sau, đang nhìn xuống vùng trước mặt; tóc che hướng mắt.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        122,
+        178
+      ],
+      "crop_sha256": "be8c1bb82c3cfe353febdb10ec3d03b249344ef7d8d2bc10549aa0f7f14b3357",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-019.png",
+      "card_sha256": "7fb03d19ec525eca092525c8d9fcb65e4db4ca302d493781879d8f3cab08f7b2",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "G12-A02-F00007",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-f46a5ce03d9c",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.06255050003528595,
+        "E007-V13-D1-S20261024": 0.12124620378017426,
+        "E007-V13-D1-S20261025": 0.07400564849376678
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.32949447135130566,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Đầu quay về người bên cạnh, thân/bàn theo hướng khác; context có nhiều người.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        214,
+        269
+      ],
+      "crop_sha256": "84c5ee946b816103af3e6d92d143db680763910a37ef92a85b051a33a7e29360",
+      "card": "data/interim/looking-around-audit-20261024/card-021.png",
+      "card_sha256": "b78c1e22b62a16ce667cb1426457bb5b37e2bcdc45a35e9b66f9897477739efb",
+      "upstream_context_opened": true
+    },
+    {
+      "sample_id": "G19-A01-F00052",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.11978014558553696,
+        "E007-V13-D1-S20261024": 0.16664092242717743,
+        "E007-V13-D1-S20261025": 0.16596515476703644
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.2646331811944644,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Quay đầu ngang từ camera cao, native 114 × 117 mờ; upsample không thêm chi tiết.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        114,
+        117
+      ],
+      "crop_sha256": "b2d95a9f90f870a43e03ae2f72e7fe35abe76036a963a5056a27c35a8af7401f",
+      "card": "data/interim/looking-around-audit-20261024/card-022.png",
+      "card_sha256": "81ba233404059f2b7835085db73042785a32e568218ae036effe8301eacd9355",
+      "upstream_context_opened": true
+    },
+    {
+      "sample_id": "G19-A02-F00056",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-c95982bde3ac",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "TP",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.37732046842575073,
+        "E007-V13-D1-S20261024": 0.42484480142593384,
+        "E007-V13-D1-S20261025": 0.3983958065509796
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.06103773911794027,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Đầu quay sang bên khác hướng thân/bàn; native nhỏ và góc camera cao.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        128,
+        178
+      ],
+      "crop_sha256": "2a9d254148e6e0baaabe2b7a5ad86ff01f3902761fd450a9ff53e1d2679097e4",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-020.png",
+      "card_sha256": "a5c278863926b1d4263025b309f6bd77d21d18bdaad022457be2861dceef1680",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "G24-B01-F00010",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-a42b68477bc4",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "TN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.33964917063713074,
+        "E007-V13-D1-S20261024": 0.7019932866096497,
+        "E007-V13-D1-S20261025": 0.42088767886161804
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.08334534366925557,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Ngước về phía trước theo thân/bàn; không đồng nhất ngước đầu với looking P.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        108,
+        167
+      ],
+      "crop_sha256": "6a3881339e08438f2dac74d9f1f44889e6ae9a2fc7434a874fce2ebf36086ce6",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-021.png",
+      "card_sha256": "3cbe57814de801ed2f5983842533dfeedfaed72161366532c1c9e2d81666efaa",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "G3-A01-F014",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-a42b68477bc4",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.5342041850090027,
+        "E007-V13-D1-S20261024": 0.628926694393158,
+        "E007-V13-D1-S20261025": 0.5516668558120728
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.1561706562836965,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Ngước đầu theo hướng ngồi, mặt profile từ camera bên.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        140,
+        150
+      ],
+      "crop_sha256": "5fda9884ac4bccad1a9285ccdb0191a9cd9070f21f4cb84161cded95ff75d22e",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-022.png",
+      "card_sha256": "5c987eb2ff7d1e8fed13bc5ce04898b9d155a0087fdc18306465b2ff4097fb7d",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "NB-0036-R1",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-a42b68477bc4",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "TN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.37299269437789917,
+        "E007-V13-D1-S20261024": 0.5771908164024353,
+        "E007-V13-D1-S20261025": 0.42649728059768677
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.05098916093508402,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Hướng đầu và thân cùng phía trước, native nhỏ/mờ; cánh tay người khác cạnh crop.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        87,
+        124
+      ],
+      "crop_sha256": "f4585baaacb3deb57ed2587278664b52cd08adea74af7575e2639e2d156926c6",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-023.png",
+      "card_sha256": "a8593c126b176411ad0d0640cb54cc57caf662bed4b37ce9ff272800bbafe90f",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "NB-0045",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-a42b68477bc4",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "TP",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.42970576882362366,
+        "E007-V13-D1-S20261024": 0.20321494340896606,
+        "E007-V13-D1-S20261025": 0.32765862345695496
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.17595518628756204,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Đầu quay khác hướng vai/ngồi, mắt nhìn ngang; context nhiều người.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        224,
+        224
+      ],
+      "crop_sha256": "c3a873d313e7a1393ed35a22c2313d17d6a35741a177d299528be2eae1edcb85",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-024.png",
+      "card_sha256": "0d45922eb180be29d5ec8f38a0df2f9cfb62399350b5f3d97c439929d1693503",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "NB-0053",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-a42b68477bc4",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.5961020588874817,
+        "E007-V13-D1-S20261024": 0.5593134164810181,
+        "E007-V13-D1-S20261025": 0.4882282614707947
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.1324526568253835,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Đầu hướng theo thân và bàn, góc bên; người cạnh có thể gây nhiễu.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        224,
+        224
+      ],
+      "crop_sha256": "b72ef85211513bf7328cad9e4aaf79e64e6a512343628b14c1db4f73850295eb",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-025.png",
+      "card_sha256": "945fc9a0551f6dcc4b29897f9453ca5aaca2f6a88a38edb186efd164d3c8a378",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "NB-0061",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-a42b68477bc4",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.398898184299469,
+        "E007-V13-D1-S20261024": 0.5885876417160034,
+        "E007-V13-D1-S20261025": 0.4710412621498108
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.07074710726737976,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Cúi đầu chống trán trên bài; tóc/tay che mặt và người khác trong context.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        224,
+        224
+      ],
+      "crop_sha256": "7b1a811813bcda1adb57ca69bf9888bc95e3f00f407283308a8ed1868aff44f6",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-026.png",
+      "card_sha256": "58c35b21bf9998ffc43345765aa9bd55e8177856dce939f15c3b5a598df1fd5a",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "NEW-032",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-adb5fe588097",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "TN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.32911163568496704,
+        "E007-V13-D1-S20261024": 0.51678067445755,
+        "E007-V13-D1-S20261025": 0.3724186420440674
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.03425164024035136,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Camera sau, hướng đầu theo thân và bàn; không mặc định back view là P.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        630,
+        828
+      ],
+      "crop_sha256": "e76f3d392661c54e8c4f7fbb0b7e3477069b9232dd2523a4b468ffbb63fd20eb",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-027.png",
+      "card_sha256": "742a25a3d39f0bd1754f984e7da135e3ed9c0312365812cdd3df8775e4d3ac13",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "NEW-033",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-adb5fe588097",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "TN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.40735477209091187,
+        "E007-V13-D1-S20261024": 0.6283441781997681,
+        "E007-V13-D1-S20261025": 0.4284302294254303
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.078849991162618,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Camera sau và đầu cúi xuống bài; giữ negative cùng cảnh NEW-032.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        595,
+        828
+      ],
+      "crop_sha256": "d80dc05a395a6a0f2129a4857bb2b92e506308c170f24e013d04d9eacb4e8e7c",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-028.png",
+      "card_sha256": "9ede771614c8c777aa9b81c2df2b137c9c24a50a15a9ae8cb0b910e85e49b1e5",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "NEW-058",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-faf4d452ebb3",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.23760873079299927,
+        "E007-V13-D1-S20261024": 0.2936761677265167,
+        "E007-V13-D1-S20261025": 0.3240584135055542
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.13031415144602457,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Thấy sau đầu và quay về bàn/người phía bên; cue cần quan hệ đầu–thân–bàn.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        761,
+        505
+      ],
+      "crop_sha256": "422eb6b236226e802c6bd2cdd49637e1fb8ece8363ba37279841d153d48e896f",
+      "card": "data/interim/looking-around-audit-20261024/card-025.png",
+      "card_sha256": "5b3c81b845448000da2e14f317365fc011a31be31bb973942ea5e69a0e4fe53b",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "NEW-065",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-f05900408e3c",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "TP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.2821493446826935,
+        "E007-V13-D1-S20261024": 0.305345356464386,
+        "E007-V13-D1-S20261025": 0.44595614075660706
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.07639339566230774,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Ngoảnh mặt qua vai từ camera sau; cue rõ ở input, tương tự dạng lỗi NEW-132.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        301,
+        430
+      ],
+      "crop_sha256": "943cff1039fec8735ba6986f5871ce714c07bccd187d7fe93efb2d49c7050b00",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-029.png",
+      "card_sha256": "dd4753a1a5cefb95523b02b82dda3ec371c08d957061165e540359d08dd07c70",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "NEW-120",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-11037ac665e0",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.7245643734931946,
+        "E007-V13-D1-S20261024": 0.7274842858314514,
+        "E007-V13-D1-S20261025": 0.7667495608329773
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.3241708179314931,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Camera cao nghiêng, đầu nhìn phía trước theo bàn; hình dạng profile thay theo camera.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        1448,
+        1086
+      ],
+      "crop_sha256": "81e42b8ae2146b73a5a65dcdcb100604a8edc0cd2a61949101f1a82c7edfd8b2",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-030.png",
+      "card_sha256": "83510b620ae38c11376c2f44e21b07bfab59c7fd36af6541e16a5b2acf117883",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "NEW-123",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-11037ac665e0",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "TN",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.5070255994796753,
+        "E007-V13-D1-S20261024": 0.4554893970489502,
+        "E007-V13-D1-S20261025": 0.5194902420043945
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.10816426078478496,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Camera cao, cúi đọc sách trước mặt; không có quay ngang hẳn rõ.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        1448,
+        1086
+      ],
+      "crop_sha256": "5efcb5543677631ee300164082f046852b5a97b04270bd9dec526d0c1423a3b0",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-031.png",
+      "card_sha256": "c8448799cdbf695a58d0467d16496b12cea36f413787b624340c642c9d138b9c",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "NEW-132",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-f05900408e3c",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.19268885254859924,
+        "E007-V13-D1-S20261024": 0.32957956194877625,
+        "E007-V13-D1-S20261025": 0.24936553835868835
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.1582172711690267,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Ngoảnh mặt về phía sau qua vai; cue còn thấy ở input 336.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        1086,
+        1448
+      ],
+      "crop_sha256": "ab730485872f65fe268f03eeeb60ca135cb71ee4b10b9bb5a4afd53d73e359bc",
+      "card": "data/interim/looking-around-audit-20261024/card-024.png",
+      "card_sha256": "a4a1a8cf53364e2004b842ae4dd1adbc742d1c460b3cf092b54603091e840598",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "NEW-133",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-eccf11266d34",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.43657633662223816,
+        "E007-V13-D1-S20261024": 0.7002249956130981,
+        "E007-V13-D1-S20261025": 0.6295692920684814
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.17336161931355795,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Camera sau bên, đầu hơi nghiêng theo bàn; giữ N accepted, không giả định original-camera provenance.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        1254,
+        1254
+      ],
+      "crop_sha256": "f0a76ceaf262c5985c84f84bc2f8589f8d66814b7ac8b1798f5f13408567c015",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-032.png",
+      "card_sha256": "963bda7cee1e23d04872d5475d2468e81942e383d1d4b3d1d8cde374cfa0a346",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "NEW-135",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-80dbeeee524a",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.3252949118614197,
+        "E007-V13-D1-S20261024": 0.6397072076797485,
+        "E007-V13-D1-S20261025": 0.5177389979362488
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.07881845037142436,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Camera sau bên, người đang viết theo bàn; crop không có mốc phía trước lớp đầy đủ.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        1024,
+        1536
+      ],
+      "crop_sha256": "04e79001f97cad195b3c50a6d210ec2c8ec7844039b6f0eee9806cfbfc299323",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-033.png",
+      "card_sha256": "6afc13714eb3d3fe5ade41e2079c445f547c590e56f396572fd987782f5c5391",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "NEW-137",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-80dbeeee524a",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "TN",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.2914943993091583,
+        "E007-V13-D1-S20261024": 0.6056203246116638,
+        "E007-V13-D1-S20261025": 0.48253586888313293
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.0558761457602183,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Camera sau, thân/đầu cùng hướng bài; không suy back view thành P.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        1024,
+        1536
+      ],
+      "crop_sha256": "de8d1df043f108d5670bcf2a86503dbff8a6cf3e8132e0c560c81c8347246c66",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-034.png",
+      "card_sha256": "876f34f6977c9aae1471ac252aaebde0a0c6affff2a19551543436c29ae1dbf3",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "NEW-147",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-73ddf9a5fecb",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "TP",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.6566498279571533,
+        "E007-V13-D1-S20261024": 0.37658417224884033,
+        "E007-V13-D1-S20261025": 0.3704369366168976
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.17955402533213297,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Ngoảnh mặt qua vai so với thân/ngồi; đối chiếu định tính NEW-149 cùng cảnh.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        1024,
+        1536
+      ],
+      "crop_sha256": "aaeb8795aac382ea6b64e1fbd3e8e72e50c634d71f6c75f45699595d46efc329",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-035.png",
+      "card_sha256": "6de302b67de31eac0b4b1db7129a31769a2d1dfea31b1d34a6bf1a46644c685f",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "NEW-149",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-73ddf9a5fecb",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.7369024753570557,
+        "E007-V13-D1-S20261024": 0.7024320960044861,
+        "E007-V13-D1-S20261025": 0.6276322603225708
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.27356035510698956,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Đầu theo hướng thân/bàn từ sau bên, khác trạng thái ngoảnh của NEW-147.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        1024,
+        1536
+      ],
+      "crop_sha256": "1f65dba597615c5a55b5758d937201cecfc406269ca72b32615f2d1c6d9deb5b",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-036.png",
+      "card_sha256": "d5b41881f82c3b03d69d217bf05ebeb3790669f654693d44e2f5e213ffe3689c",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "SCB-read-027",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-531350dab548",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.3665909767150879,
+        "E007-V13-D1-S20261024": 0.7418125867843628,
+        "E007-V13-D1-S20261025": 0.5522356033325195
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.13811780015627542,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Đọc giấy giơ trước mặt, profile theo hướng ngồi; taxonomy read không là nhãn tự động.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        174,
+        229
+      ],
+      "crop_sha256": "2b54f1978b2e255b9b9ebf1b1c44589a0cf1988bdf9a8f08ecf854e21fafec75",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-037.png",
+      "card_sha256": "d3b62146999946a9cb3625ba0d82b62d5f23f6b8a084c2683a2f9112a6327ec2",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "SCB-turnhead-013",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-0e13dbf8e402",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "TN",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.2674869894981384,
+        "E007-V13-D1-S20261024": 0.6974260807037354,
+        "E007-V13-D1-S20261025": 0.45982280373573303
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.08690951267878215,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Nhìn phía trước theo thân/bàn; không dùng tên nguồn turnhead để đổi N thành P.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        101,
+        250
+      ],
+      "crop_sha256": "365bce353f7952b4b22907e55c5cb0c53f2ab769099d736de9627b7bb6ceaabb",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-038.png",
+      "card_sha256": "daf3b5e4e924e4da678fe173dbe25e84476eab66aac76f6963971b13b0d74372",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "SCB-turnhead-027",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-930bbb8d6579",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.45900848507881165,
+        "E007-V13-D1-S20261024": 0.6356391906738281,
+        "E007-V13-D1-S20261025": 0.7026857733726501
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.18368256092071533,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Ngước đầu hơi nghiêng theo hướng trước thân; tên nguồn không thay owner label.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        126,
+        148
+      ],
+      "crop_sha256": "2e4dc7402863fc1c6caad100ed722eb4a5ec12ce60b5d6f7f51110ee7032bf44",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-039.png",
+      "card_sha256": "5a1539dbebfa5aed9328120322092b47fb058a92912e3ed6e23f27a70fb2e3d4",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "V6-SB-028",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-87e803cafb93",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "TP",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.44498857855796814,
+        "E007-V13-D1-S20261024": 0.3545873761177063,
+        "E007-V13-D1-S20261025": 0.26334089040756226
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.1520312229792277,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Cúi đầu quay ngang sang bên, native nhỏ/mờ; khó thấy đích nhìn.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        102,
+        164
+      ],
+      "crop_sha256": "27f86896088e77414e19b851ae7197b4086144edad510384956d694685016417",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-040.png",
+      "card_sha256": "52b7bafd666d63aa681b0cb0b5b2f215b522baca01cc53f48ab51146c020e042",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "V6R2-EX-009",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-35cc4606f795",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "TN",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.5513690710067749,
+        "E007-V13-D1-S20261024": 0.49006906151771545,
+        "E007-V13-D1-S20261025": 0.6174350380897522
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.14406712849934897,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Đầu hơi chéo trong lúc cầm phone và giơ tay; nhãn N đã nghiệm thu, cần phân biệt cử chỉ với quay hẳn.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        443,
+        628
+      ],
+      "crop_sha256": "00a558b1236e03fee44a814cef19215018dc11ce48d7638e8368f114abecefa6",
+      "card": "data/interim/looking-around-audit-20261024/card-005.png",
+      "card_sha256": "6be17c5d4292b7fa6545c0a43cf76518f6ed9d1f0fc38b22ab4e28a284dceef9",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "V7-A-074",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-0881bcd67c53",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.7988340258598328,
+        "E007-V13-D1-S20261024": 0.8455089330673218,
+        "E007-V13-D1-S20261025": 0.7531608939170837
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.3837393621603648,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Ngồi nghiêng theo bàn; toàn cảnh cho thấy người cùng bàn và hướng tương tự.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        677,
+        715
+      ],
+      "crop_sha256": "8446c39276e9d8c430744b94153da207f61424d1355895aa83a9c59c1ad7f3e7",
+      "card": "data/interim/looking-around-audit-20261024/card-017.png",
+      "card_sha256": "e1f8a1b57cbebb990b768bb05371661d4e95284afe9e5b7c2e4c1d159d0c7dda",
+      "upstream_context_opened": true
+    },
+    {
+      "sample_id": "V7-B-061",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-76703d4fc8d1",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "TN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.36575937271118164,
+        "E007-V13-D1-S20261024": 0.5993579030036926,
+        "E007-V13-D1-S20261025": 0.27466049790382385
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.10657934347788493,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Đầu cúi về vùng tay trước người, camera bên; không suy mặt profile thành P.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        214,
+        461
+      ],
+      "crop_sha256": "8ea6ff7e567363089efd2224597607d546f7cb9506952c63e42786d5c604fded",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-041.png",
+      "card_sha256": "b46d23f24e43b2c43700844051c3b3cea787e29728236273bf0a51015ecdc013",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "V7-C-009-R03",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-3f68d78ef9da",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "TP",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.29131636023521423,
+        "E007-V13-D1-S20261024": 0.5158460736274719,
+        "E007-V13-D1-S20261025": 0.2883405387401581
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.060907612244288124,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Quay mặt về phía sau so với lưng/thân; background có người khác.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        135,
+        160
+      ],
+      "crop_sha256": "6c86d6be1d82eba31c664aede6dfea89d5686a1b63e57271e3d6f3720b566d7c",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-042.png",
+      "card_sha256": "4c7427e8125bc4afa07f4deb801a3737016231fd1e55cb54d34a3df904caf89b",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "V7-C-046-R05",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-b5b853925e4b",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.76555335521698,
+        "E007-V13-D1-S20261024": 0.8230369091033936,
+        "E007-V13-D1-S20261025": 0.7203822731971741
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.3542289237181346,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Toàn cảnh cả lớp cùng nhìn phía trước; mặt profile do camera bên.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        429,
+        505
+      ],
+      "crop_sha256": "29084461d6ea2acdbf1675be2c7e87899560b698876a85ad9d41f9b8ee0e3fb7",
+      "card": "data/interim/looking-around-audit-20261024/card-019.png",
+      "card_sha256": "5c69b1f1dcb60b07b4a953d39462bf913307fcd138570142d8e634d35dcaff94",
+      "upstream_context_opened": true
+    },
+    {
+      "sample_id": "V7-C-069",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-89bfb43b31e4",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "TN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.45331960916519165,
+        "E007-V13-D1-S20261024": 0.5001343488693237,
+        "E007-V13-D1-S20261025": 0.38392817974090576
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.06626901030540466,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Đầu hơi chéo trong lúc cầm bút, thân vẫn theo bàn; không tự biến thành P.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        202,
+        375
+      ],
+      "crop_sha256": "897d81132fe838600304160ec09222c5bb7197462b44d8220e5ff47d7a0280ed",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-043.png",
+      "card_sha256": "f3313e5948734b537aea722f4aa92c907885dc220e49e6d97203e4eaeb39f0a5",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "V7-C-081",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-05c32740b912",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "TP",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.342494934797287,
+        "E007-V13-D1-S20261024": 0.34754157066345215,
+        "E007-V13-D1-S20261025": 0.26662397384643555
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.11912091573079427,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Đầu quay ngang rõ so với thân; looking P đúng, lỗi tái diễn thuộc phone riêng.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        184,
+        251
+      ],
+      "crop_sha256": "99ace2c4d45351a3f9a5c0832c8e4a11f7b6f7c8db79e33139b579814cf0e377",
+      "card": "data/interim/looking-around-audit-20261024/card-003.png",
+      "card_sha256": "1272859820b44b284a29856ef6e4baf38a49274d3d8a2569def72e3802c725aa",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "V7-C-111",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-3a4bab5b2f66",
+      "state": "P",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FN",
+        "E007-V13-D1-S20261024": "FN",
+        "E007-V13-D1-S20261025": "FN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.21845337748527527,
+        "E007-V13-D1-S20261024": 0.2769225835800171,
+        "E007-V13-D1-S20261025": 0.25626689195632935
+      },
+      "error_count": 3,
+      "stable_outcome": "FN",
+      "mean_margin": 0.16488097111384073,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Đầu quay lệch so với thân/hướng ghế; bối cảnh phòng họp thay vì lớp học.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        503,
+        508
+      ],
+      "crop_sha256": "8d3b1b29c6d6f2b39fb00a56e80a4ec07ab33c2f78f79fa4bc746df54b72dec7",
+      "card": "data/interim/looking-around-audit-20261024/card-023.png",
+      "card_sha256": "f94fcfd2a9b83862274156755b3f211488fc2cc7ab5eb11c28e3c185a490d8a0",
+      "upstream_context_opened": true
+    },
+    {
+      "sample_id": "V7-D-009",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-98904d4b2246",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "TN",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.6159369349479675,
+        "E007-V13-D1-S20261024": 0.42724958062171936,
+        "E007-V13-D1-S20261025": 0.45507001876831055
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.13240790367126465,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Nhìn thiết bị trước mặt, đầu cúi/hơi nghiêng; giữ quyết định owner P/N.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        318,
+        512
+      ],
+      "crop_sha256": "05925f323e5dd7409afe64694efc2283935f8f8950884731a940cbf0ebf4cb65",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-044.png",
+      "card_sha256": "2d4d935f0e3d5bfb8661c0b2b2116e0a3f0f64171eb918a5327971527f034efb",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "V7-D-026-R03",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-4815fec20181",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "TN"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.3236120045185089,
+        "E007-V13-D1-S20261024": 0.5683112144470215,
+        "E007-V13-D1-S20261025": 0.21689178049564362
+      },
+      "error_count": 2,
+      "stable_outcome": "mixed",
+      "mean_margin": 0.10143756369749705,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Đang viết, cúi đầu theo bàn từ camera bên.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        245,
+        392
+      ],
+      "crop_sha256": "f4318aed03d262ecbb41699f94c48e4be5220b61a228afc604cee5b9b2aef477",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-045.png",
+      "card_sha256": "0f90d5216974ce6f534f47781eb4d446639a083ddbe9572969e974f09b94c4c8",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "V7-OE-S094-A01-R04",
+      "target": "looking_around",
+      "split": "val",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-58b7c70ac04f",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.6247469186782837,
+        "E007-V13-D1-S20261024": 0.653060793876648,
+        "E007-V13-D1-S20261025": 0.47193628549575806
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.16781941056251526,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Giơ tay và nhìn phía trước theo toàn cảnh; không thấy quay khỏi hướng lớp.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        323,
+        508
+      ],
+      "crop_sha256": "29b8c6672b4e69a5e310219a7816739a10a77a9d0e5315376853d853e618edbb",
+      "card": "data/interim/looking-around-audit-20261024/card-020.png",
+      "card_sha256": "52229789929b603a2df2b15d0bec3bde7325a51c859ad0c21900a592ee17b9ae",
+      "upstream_context_opened": true
+    },
+    {
+      "sample_id": "V7-OE-S099-A01-ADD04-R02",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-b9b24d524425",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.4635466933250427,
+        "E007-V13-D1-S20261024": 0.6326471567153931,
+        "E007-V13-D1-S20261025": 0.5636682510375977
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.1378587782382965,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Đầu profile theo vai/thân và bàn; thiếu mốc toàn lớp trong crop.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        133,
+        177
+      ],
+      "crop_sha256": "0062584ff181a16d179361ef826e9813102e0959e7b175c87f1b3ebe7bbe3925",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-046.png",
+      "card_sha256": "ede7c6583bb2956b9cbcd2917f0cc2ca3e74f6a6fc1e5427bc1d81705cb99ca1",
+      "upstream_context_opened": false
+    },
+    {
+      "sample_id": "Y02-A01-F00031-R02",
+      "target": "looking_around",
+      "split": "train",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "group_id": "AUDIT-G-1bfd0787a02a",
+      "state": "N",
+      "outcomes": {
+        "E007-V13-D1-S20261023": "FP",
+        "E007-V13-D1-S20261024": "FP",
+        "E007-V13-D1-S20261025": "FP"
+      },
+      "scores": {
+        "E007-V13-D1-S20261023": 0.6385401487350464,
+        "E007-V13-D1-S20261024": 0.7854353189468384,
+        "E007-V13-D1-S20261025": 0.5921726822853088
+      },
+      "error_count": 3,
+      "stable_outcome": "FP",
+      "mean_margin": 0.2566207945346832,
+      "status": "draft_visual_observation_not_label_approval",
+      "observation": "Hướng mặt và thân cùng phía, camera bên; profile không đủ chứng minh quay đầu.",
+      "causal_mechanism": "unproven",
+      "accepted_state_preserved": true,
+      "crop_size": [
+        137,
+        191
+      ],
+      "crop_sha256": "1f6889fcf71630fedef8c3596e5e411a805efae1f636c053a9c05b4a5e16d902",
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-047.png",
+      "card_sha256": "5999f00110a75c5aa10aafd5c611b594bac44786ced16d6b250a0568924e3d52",
+      "upstream_context_opened": false
+    }
+  ]
+}

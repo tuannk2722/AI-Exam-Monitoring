@@ -35,6 +35,8 @@ def build(design_path: Path, root: Path, output: Path) -> dict[str, Any]:
     for encoder in design["pretrained"].values():
         for value in encoder.values():
             paths.add(FilePin(**value).verify(root))
+    for value in design.get("supporting_inputs", []):
+        paths.add(FilePin(**value).verify(root))
     files = {}
     for path in sorted(paths):
         if not path.is_file() or not path.resolve().is_relative_to(root) or path.is_symlink():

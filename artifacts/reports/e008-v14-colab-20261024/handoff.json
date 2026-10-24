@@ -1,0 +1,18 @@
+{
+  "status": "ready_for_owner_colab_execution",
+  "agent_uploaded": false,
+  "actual_gpu_smoke": "NOT_RUN",
+  "bundle": {
+    "path": "outputs/E008-V14-Colab-20261024/e008-colab-bundle.zip",
+    "sha256": "8d1b7f25d5fcc11dfe963ab8deea5948e5d5b0d5a3f6a3a086d606a8e116aab7",
+    "bytes": 489023246
+  },
+  "notebook": {
+    "path": "notebooks/E008-V14-Colab.ipynb",
+    "sha256": "816021b4cf4af57f6638385635f95d245c2a8e2f1394282bafd3a31df57248b8"
+  },
+  "drive_bundle_location": "My Drive/E008/e008-colab-bundle.zip",
+  "drive_results_location": "My Drive/E008/E008-V14-COLAB-20261024",
+  "drive_metadata_zip": "My Drive/E008/E008-V14-results-metadata.zip",
+  "code_sha256": "7ac8c00a62162010a71233c7c99b83a90f118792bb66222cea5cc17e63c00dd3"
+}

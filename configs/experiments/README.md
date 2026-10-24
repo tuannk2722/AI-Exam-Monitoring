@@ -4,6 +4,10 @@
 
 [E007 V13 — execution Colab](E007-V13-20261024/README.md): smoke và 9 research FINISHED trên L4, artifacts đã kiểm; D1 thắng, chưa Selected. [Proposal 23/10](E007-V13-20261023/README.md) giữ snapshot Draft đã pin; authorization và exact materialized configs nằm ở execution companion.
 
+[E008 V14 — Colab Pro](E008-V14-LOOKING-20261024/README.md): owner đã chạy 4 smoke + 5 research; G0 thắng screening, audit metadata PASS. Looking thiếu support và chưa đạt precision/recall; Continue research, chưa Selected.
+
+[E008 V13 — proposal gốc](E008-V13-LOOKING-20261024/README.md): snapshot giữ nguyên sau review; ba arm global/context spatial/anchor spatial, tối đa 7 research run và trần 4 giờ GPU mới. [Variables gốc](E008-V13-LOOKING-20261024/proposal.yaml); approval và input hiện hành ở companion V14.
+
 [Follow-up E006 ngày 21/10](E006-followup-20261021/README.md): Draft đối chứng SQRT có/không random erasing sau review nhãn và freeze dataset; chưa executable config hoặc approval run.
 
 | Hồ sơ | Vai trò | Approval / cách dùng |

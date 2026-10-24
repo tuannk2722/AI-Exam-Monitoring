@@ -20,6 +20,7 @@ from .adaptation_config import (
     FilePin,
     RepresentationConfig,
     ResearchAdaptationConfig,
+    SpatialConfig,
 )
 from .artifacts import save_checkpoint
 
@@ -34,6 +35,8 @@ def tensor_digest(state: Mapping[str, torch.Tensor]) -> str:
 
 
 def head_input_dim(config: AdaptationConfig) -> int:
+    if isinstance(config, SpatialConfig) and config.pooling != "global_mean":
+        return 1920
     if isinstance(config, RepresentationConfig) and config.model == "dinov2_vits14_v4":
         return 768
     if isinstance(config, E005AdaptationConfig) and config.model == "resnet18_anchor_context":
@@ -329,6 +332,15 @@ class AdaptationModel(nn.Module):
                 parts.append(geom.to(device=fa.device, dtype=fa.dtype))
             fused = torch.cat(parts, dim=1)
             return cast(torch.Tensor, self.network.fc(fused))
+        if isinstance(self._config, SpatialConfig) and self._config.pooling != "global_mean":
+            from .spatial_pooling import spatial_features
+
+            if isinstance(inputs, torch.Tensor) or set(inputs) != {"context", "pooling_box"}:
+                raise DataContractError("Spatial model requires reviewed pooling rectangle")
+            tokens = self.network.tokens(inputs["context"])
+            feats = spatial_features(tokens, inputs["pooling_box"],
+                                     image_size=self._config.image_size)
+            return cast(torch.Tensor, self.network.fc(feats))
         if not isinstance(inputs, torch.Tensor):
             raise DataContractError("Single-crop model expects tensor input")
         feats = self._extract_backbone_features(inputs)

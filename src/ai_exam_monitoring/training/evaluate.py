@@ -38,6 +38,7 @@ def evaluate(run_dir: Path, output: Path, workspace: Path, split: str,
     if raw_config.get("schema_version") in {
         "matched-adaptation-v1", "matched-adaptation-v2", "matched-adaptation-v3",
         "representation-adaptation-v4",
+        "spatial-representation-v5",
     }:
         from .adaptation_evaluate import evaluate_adaptation
 

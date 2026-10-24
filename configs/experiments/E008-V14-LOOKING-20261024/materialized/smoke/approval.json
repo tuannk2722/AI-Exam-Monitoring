@@ -1,0 +1,24 @@
+{
+  "status": "approved",
+  "owner": "repository-owner",
+  "scope": "local_classifier_research",
+  "run_kind": "smoke",
+  "code_sha256": "7ac8c00a62162010a71233c7c99b83a90f118792bb66222cea5cc17e63c00dd3",
+  "owner_authorization": {
+    "path": "configs/experiments/E008-V14-LOOKING-20261024/owner-authorization.json",
+    "sha256": "e72d121cb5152c681504ace88ae58c441c5bb25945520f958b6af5b0beb24298"
+  },
+  "final_test_inference_authorized": false,
+  "configs": {
+    "E008-V14-SMOKE-G0-FULL": "e0469b2cfe403683e9bc4b1f352f1a6141207cd8eceba7eed996519b3283cc9d",
+    "E008-V14-SMOKE-G0-RESUME": "14c3a28b032c1fbf9ce6c1900da6a96aa446422fd4c5960b7c891999862c96cf",
+    "E008-V14-SMOKE-A1-FULL": "ed043f1d2d320fb856d7bdcbf60de3a3c41649cd0431c8c8c94ff5c58094da2f",
+    "E008-V14-SMOKE-A1-RESUME": "301c2cab452549873c6dd64b3bc488a7b427b12de756adbff8a7a2b35c721310"
+  },
+  "config_signatures": {
+    "E008-V14-SMOKE-G0-FULL": "a0b0492ab8ece35bb380bfb1cb4ecd37e6f8339b7db934f08bd2b4bfe80ad2dd",
+    "E008-V14-SMOKE-G0-RESUME": "a0b0492ab8ece35bb380bfb1cb4ecd37e6f8339b7db934f08bd2b4bfe80ad2dd",
+    "E008-V14-SMOKE-A1-FULL": "48f7b4e04351ffd67d68459f89e2e0e04ab5728bb78b0270283a4e02a0d7f78a",
+    "E008-V14-SMOKE-A1-RESUME": "48f7b4e04351ffd67d68459f89e2e0e04ab5728bb78b0270283a4e02a0d7f78a"
+  }
+}
