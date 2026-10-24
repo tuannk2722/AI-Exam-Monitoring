@@ -7,6 +7,7 @@ Owner duyệt 16/10/2026: ưu tiên dataset/model hiện hành và khả năng c
 - Chính sách: tài liệu này (`docs/storage.md`). Trạng thái payload: [availability](../artifacts/reports/storage-retention-20261016/availability.json); chỉ đọc inventory chi tiết khi task cần.
 - `archive/index.json` và DVC pointers giữ identity/checksum; không chứng minh binary còn tồn tại hoặc đã remote backup.
 - [Cleanup 23/10](../artifacts/reports/cleanup-20261023/README.md) cập nhật availability riêng cho exact paths đã nghỉ lưu trong manifest; dùng locator này cùng availability 16/10 khi restore bản làm việc E004 hoặc candidate V13.
+- [Cleanup sau E007 ngày 24/10](../artifacts/reports/cleanup-20261024/README.md) là scope owner mới: nghỉ lưu checkpoint/dataset crops lịch sử, resume của run đã đóng và bản trùng theo exact manifest. Giữ V13/nguồn độc nhất, ba best D1 và ba best R0 cùng metadata. Availability mới này ưu tiên cho các path có trong manifest; pins cũ không chứng minh payload còn tồn tại.
 - Report/approval/pins lịch sử giữ nguyên, mô tả thời điểm thực hiện. [Receipt cleanup](../artifacts/reports/storage-retention-20261016/README.md) giữ kết quả, không là backlog.
 
 ## Giữ và nghỉ lưu

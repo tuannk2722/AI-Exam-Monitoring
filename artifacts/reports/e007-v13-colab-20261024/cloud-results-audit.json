@@ -1,0 +1,1249 @@
+{
+  "status": "VERIFIED",
+  "scope": "cached artifacts only; no training/inference/test access",
+  "campaign_sha256": "fe914301c865cef73c1b208eb7b262e316983396453474ddf1dfa4c66ef91b5a",
+  "source_sha256": "e7810ca31a9a1bf1d2f110f1b348dafe8130f7f2717cb504ff0736f9a23cc8f7",
+  "checked_artifact_hashes": 221,
+  "smoke_tensor_resume_parity": "PASS",
+  "research_reload_parity": "9/9 PASS",
+  "runtime": {
+    "device": "cuda",
+    "accelerator": {
+      "torch_cuda": "12.8",
+      "cudnn": 91002,
+      "gpu": "NVIDIA L4",
+      "capability": [
+        8,
+        9
+      ],
+      "precision": "float32",
+      "cublas_workspace_config": ":4096:8",
+      "cudnn_benchmark": false,
+      "cudnn_deterministic": true,
+      "matmul_tf32": false,
+      "cudnn_tf32": false
+    },
+    "packages": {
+      "torch": "2.8.0+cu128",
+      "torchvision": "0.23.0+cu128",
+      "numpy": "2.2.6",
+      "Pillow": "11.3.0",
+      "PyYAML": "6.0.2"
+    },
+    "python": "3.11.17 (main, Oct  1 2026, 15:41:07) [GCC 13.3.0]"
+  },
+  "campaign_seconds": 2517.6870579719543,
+  "smoke_seconds": 489.54387760162354,
+  "screening_champion": "D1",
+  "runs": [
+    {
+      "id": "E007-V13-R0-S20261023",
+      "arm": "R0",
+      "seed": 20261023,
+      "best_epoch": 6,
+      "completed_epochs": 12,
+      "elapsed_seconds": 88.5141715640001,
+      "macro_ap": 0.5435698903765459,
+      "raw_bce": 0.4959643483161926,
+      "train_macro_ap": 0.8076511158611797,
+      "thresholds": {
+        "phone_use": 0.5499998927116394,
+        "looking_around": 0.6338068246841431
+      },
+      "calibrated": {
+        "targets": {
+          "phone_use": {
+            "positive": 55,
+            "negative": 120,
+            "unknown": 10,
+            "tp": 46,
+            "fp": 27,
+            "fn": 9,
+            "tn": 93,
+            "ap": 0.7781906462528034,
+            "precision": 0.6301369863013698,
+            "recall": 0.8363636363636363,
+            "f1": 0.71875,
+            "reason": null,
+            "fpr": 0.225,
+            "positive_groups": 38,
+            "negative_groups": 59,
+            "evidenced_groups": 91,
+            "v11_support_gate_status": "AVAILABLE",
+            "v11_quality_gate_pass": false
+          },
+          "looking_around": {
+            "positive": 33,
+            "negative": 152,
+            "unknown": 0,
+            "tp": 4,
+            "fp": 1,
+            "fn": 29,
+            "tn": 151,
+            "ap": 0.3089491345002883,
+            "precision": 0.8,
+            "recall": 0.12121212121212122,
+            "f1": 0.21052631578947367,
+            "reason": null,
+            "fpr": 0.006578947368421052,
+            "positive_groups": 21,
+            "negative_groups": 82,
+            "evidenced_groups": 92,
+            "v11_support_gate_status": "AVAILABLE",
+            "v11_quality_gate_pass": false
+          }
+        },
+        "macro_ap": 0.5435698903765459,
+        "records": 185,
+        "cooccurrence": {
+          "fully_known": 175,
+          "positive": 3,
+          "metric": null,
+          "reason": "insufficient_pilot_support"
+        },
+        "thresholds": {
+          "phone_use": 0.5499998927116394,
+          "looking_around": 0.6338068246841431
+        },
+        "v11_all_targets_pass_gates": false
+      },
+      "default_targets": {
+        "phone_use": {
+          "positive": 55,
+          "negative": 120,
+          "unknown": 10,
+          "tp": 50,
+          "fp": 33,
+          "fn": 5,
+          "tn": 87,
+          "ap": 0.7781906462528034,
+          "precision": 0.6024096385542169,
+          "recall": 0.9090909090909091,
+          "f1": 0.7246376811594203,
+          "reason": null,
+          "fpr": 0.275,
+          "positive_groups": 38,
+          "negative_groups": 59,
+          "evidenced_groups": 91,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": false
+        },
+        "looking_around": {
+          "positive": 33,
+          "negative": 152,
+          "unknown": 0,
+          "tp": 8,
+          "fp": 17,
+          "fn": 25,
+          "tn": 135,
+          "ap": 0.3089491345002883,
+          "precision": 0.32,
+          "recall": 0.24242424242424243,
+          "f1": 0.27586206896551724,
+          "reason": null,
+          "fpr": 0.1118421052631579,
+          "positive_groups": 21,
+          "negative_groups": 82,
+          "evidenced_groups": 92,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": false
+        }
+      },
+      "threshold_envelope": {
+        "phone_use": {
+          "feasible_80_80_20": false,
+          "max_precision_at_recall_ge80": 0.6301369863013698,
+          "max_recall_at_precision_ge80": 0.5636363636363636
+        },
+        "looking_around": {
+          "feasible_80_80_20": false,
+          "max_precision_at_recall_ge80": 0.1935483870967742,
+          "max_recall_at_precision_ge80": 0.12121212121212122
+        }
+      }
+    },
+    {
+      "id": "E007-V13-R1-S20261023",
+      "arm": "R1",
+      "seed": 20261023,
+      "best_epoch": 6,
+      "completed_epochs": 12,
+      "elapsed_seconds": 87.29969445899997,
+      "macro_ap": 0.5385714083894777,
+      "raw_bce": 0.49389544129371643,
+      "train_macro_ap": 0.8129194065912873,
+      "thresholds": {
+        "phone_use": 0.5600348711013794,
+        "looking_around": 0.6424980759620667
+      },
+      "calibrated": {
+        "targets": {
+          "phone_use": {
+            "positive": 55,
+            "negative": 120,
+            "unknown": 10,
+            "tp": 44,
+            "fp": 27,
+            "fn": 11,
+            "tn": 93,
+            "ap": 0.7668235775197328,
+            "precision": 0.6197183098591549,
+            "recall": 0.8,
+            "f1": 0.6984126984126984,
+            "reason": null,
+            "fpr": 0.225,
+            "positive_groups": 38,
+            "negative_groups": 59,
+            "evidenced_groups": 91,
+            "v11_support_gate_status": "AVAILABLE",
+            "v11_quality_gate_pass": false
+          },
+          "looking_around": {
+            "positive": 33,
+            "negative": 152,
+            "unknown": 0,
+            "tp": 4,
+            "fp": 1,
+            "fn": 29,
+            "tn": 151,
+            "ap": 0.3103192392592225,
+            "precision": 0.8,
+            "recall": 0.12121212121212122,
+            "f1": 0.21052631578947367,
+            "reason": null,
+            "fpr": 0.006578947368421052,
+            "positive_groups": 21,
+            "negative_groups": 82,
+            "evidenced_groups": 92,
+            "v11_support_gate_status": "AVAILABLE",
+            "v11_quality_gate_pass": false
+          }
+        },
+        "macro_ap": 0.5385714083894777,
+        "records": 185,
+        "cooccurrence": {
+          "fully_known": 175,
+          "positive": 3,
+          "metric": null,
+          "reason": "insufficient_pilot_support"
+        },
+        "thresholds": {
+          "phone_use": 0.5600348711013794,
+          "looking_around": 0.6424980759620667
+        },
+        "v11_all_targets_pass_gates": false
+      },
+      "default_targets": {
+        "phone_use": {
+          "positive": 55,
+          "negative": 120,
+          "unknown": 10,
+          "tp": 50,
+          "fp": 34,
+          "fn": 5,
+          "tn": 86,
+          "ap": 0.7668235775197328,
+          "precision": 0.5952380952380952,
+          "recall": 0.9090909090909091,
+          "f1": 0.7194244604316546,
+          "reason": null,
+          "fpr": 0.2833333333333333,
+          "positive_groups": 38,
+          "negative_groups": 59,
+          "evidenced_groups": 91,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": false
+        },
+        "looking_around": {
+          "positive": 33,
+          "negative": 152,
+          "unknown": 0,
+          "tp": 8,
+          "fp": 17,
+          "fn": 25,
+          "tn": 135,
+          "ap": 0.3103192392592225,
+          "precision": 0.32,
+          "recall": 0.24242424242424243,
+          "f1": 0.27586206896551724,
+          "reason": null,
+          "fpr": 0.1118421052631579,
+          "positive_groups": 21,
+          "negative_groups": 82,
+          "evidenced_groups": 92,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": false
+        }
+      },
+      "threshold_envelope": {
+        "phone_use": {
+          "feasible_80_80_20": false,
+          "max_precision_at_recall_ge80": 0.6216216216216216,
+          "max_recall_at_precision_ge80": 0.5818181818181818
+        },
+        "looking_around": {
+          "feasible_80_80_20": false,
+          "max_precision_at_recall_ge80": 0.19852941176470587,
+          "max_recall_at_precision_ge80": 0.12121212121212122
+        }
+      }
+    },
+    {
+      "id": "E007-V13-R2-S20261023",
+      "arm": "R2",
+      "seed": 20261023,
+      "best_epoch": 10,
+      "completed_epochs": 12,
+      "elapsed_seconds": 133.6031827070001,
+      "macro_ap": 0.532416774405565,
+      "raw_bce": 0.4635089039802551,
+      "train_macro_ap": 0.9238797875477412,
+      "thresholds": {
+        "phone_use": 0.41051194071769714,
+        "looking_around": 0.3006768226623535
+      },
+      "calibrated": {
+        "targets": {
+          "phone_use": {
+            "positive": 55,
+            "negative": 120,
+            "unknown": 10,
+            "tp": 41,
+            "fp": 24,
+            "fn": 14,
+            "tn": 96,
+            "ap": 0.7729861296231751,
+            "precision": 0.6307692307692307,
+            "recall": 0.7454545454545455,
+            "f1": 0.6833333333333333,
+            "reason": null,
+            "fpr": 0.2,
+            "positive_groups": 38,
+            "negative_groups": 59,
+            "evidenced_groups": 91,
+            "v11_support_gate_status": "AVAILABLE",
+            "v11_quality_gate_pass": false
+          },
+          "looking_around": {
+            "positive": 33,
+            "negative": 152,
+            "unknown": 0,
+            "tp": 21,
+            "fp": 53,
+            "fn": 12,
+            "tn": 99,
+            "ap": 0.2918474191879549,
+            "precision": 0.28378378378378377,
+            "recall": 0.6363636363636364,
+            "f1": 0.3925233644859813,
+            "reason": null,
+            "fpr": 0.34868421052631576,
+            "positive_groups": 21,
+            "negative_groups": 82,
+            "evidenced_groups": 92,
+            "v11_support_gate_status": "AVAILABLE",
+            "v11_quality_gate_pass": false
+          }
+        },
+        "macro_ap": 0.532416774405565,
+        "records": 185,
+        "cooccurrence": {
+          "fully_known": 175,
+          "positive": 3,
+          "metric": null,
+          "reason": "insufficient_pilot_support"
+        },
+        "thresholds": {
+          "phone_use": 0.41051194071769714,
+          "looking_around": 0.3006768226623535
+        },
+        "v11_all_targets_pass_gates": false
+      },
+      "default_targets": {
+        "phone_use": {
+          "positive": 55,
+          "negative": 120,
+          "unknown": 10,
+          "tp": 34,
+          "fp": 16,
+          "fn": 21,
+          "tn": 104,
+          "ap": 0.7729861296231751,
+          "precision": 0.68,
+          "recall": 0.6181818181818182,
+          "f1": 0.6476190476190476,
+          "reason": null,
+          "fpr": 0.13333333333333333,
+          "positive_groups": 38,
+          "negative_groups": 59,
+          "evidenced_groups": 91,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": false
+        },
+        "looking_around": {
+          "positive": 33,
+          "negative": 152,
+          "unknown": 0,
+          "tp": 9,
+          "fp": 21,
+          "fn": 24,
+          "tn": 131,
+          "ap": 0.2918474191879549,
+          "precision": 0.3,
+          "recall": 0.2727272727272727,
+          "f1": 0.2857142857142857,
+          "reason": null,
+          "fpr": 0.13815789473684212,
+          "positive_groups": 21,
+          "negative_groups": 82,
+          "evidenced_groups": 92,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": false
+        }
+      },
+      "threshold_envelope": {
+        "phone_use": {
+          "feasible_80_80_20": false,
+          "max_precision_at_recall_ge80": 0.5945945945945946,
+          "max_recall_at_precision_ge80": 0.5272727272727272
+        },
+        "looking_around": {
+          "feasible_80_80_20": false,
+          "max_precision_at_recall_ge80": 0.25,
+          "max_recall_at_precision_ge80": null
+        }
+      }
+    },
+    {
+      "id": "E007-V13-D0-S20261023",
+      "arm": "D0",
+      "seed": 20261023,
+      "best_epoch": 10,
+      "completed_epochs": 12,
+      "elapsed_seconds": 249.52608660199985,
+      "macro_ap": 0.7063425202481665,
+      "raw_bce": 0.3782632350921631,
+      "train_macro_ap": 0.8564168932857481,
+      "thresholds": {
+        "phone_use": 0.43766629695892334,
+        "looking_around": 0.4843149483203888
+      },
+      "calibrated": {
+        "targets": {
+          "phone_use": {
+            "positive": 55,
+            "negative": 120,
+            "unknown": 10,
+            "tp": 44,
+            "fp": 16,
+            "fn": 11,
+            "tn": 104,
+            "ap": 0.8202047165866873,
+            "precision": 0.7333333333333333,
+            "recall": 0.8,
+            "f1": 0.7652173913043478,
+            "reason": null,
+            "fpr": 0.13333333333333333,
+            "positive_groups": 38,
+            "negative_groups": 59,
+            "evidenced_groups": 91,
+            "v11_support_gate_status": "AVAILABLE",
+            "v11_quality_gate_pass": false
+          },
+          "looking_around": {
+            "positive": 33,
+            "negative": 152,
+            "unknown": 0,
+            "tp": 23,
+            "fp": 20,
+            "fn": 10,
+            "tn": 132,
+            "ap": 0.5924803239096457,
+            "precision": 0.5348837209302325,
+            "recall": 0.696969696969697,
+            "f1": 0.6052631578947368,
+            "reason": null,
+            "fpr": 0.13157894736842105,
+            "positive_groups": 21,
+            "negative_groups": 82,
+            "evidenced_groups": 92,
+            "v11_support_gate_status": "AVAILABLE",
+            "v11_quality_gate_pass": false
+          }
+        },
+        "macro_ap": 0.7063425202481665,
+        "records": 185,
+        "cooccurrence": {
+          "fully_known": 175,
+          "positive": 3,
+          "metric": null,
+          "reason": "insufficient_pilot_support"
+        },
+        "thresholds": {
+          "phone_use": 0.43766629695892334,
+          "looking_around": 0.4843149483203888
+        },
+        "v11_all_targets_pass_gates": false
+      },
+      "default_targets": {
+        "phone_use": {
+          "positive": 55,
+          "negative": 120,
+          "unknown": 10,
+          "tp": 40,
+          "fp": 14,
+          "fn": 15,
+          "tn": 106,
+          "ap": 0.8202047165866873,
+          "precision": 0.7407407407407407,
+          "recall": 0.7272727272727273,
+          "f1": 0.7339449541284404,
+          "reason": null,
+          "fpr": 0.11666666666666667,
+          "positive_groups": 38,
+          "negative_groups": 59,
+          "evidenced_groups": 91,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": false
+        },
+        "looking_around": {
+          "positive": 33,
+          "negative": 152,
+          "unknown": 0,
+          "tp": 20,
+          "fp": 18,
+          "fn": 13,
+          "tn": 134,
+          "ap": 0.5924803239096457,
+          "precision": 0.5263157894736842,
+          "recall": 0.6060606060606061,
+          "f1": 0.5633802816901409,
+          "reason": null,
+          "fpr": 0.11842105263157894,
+          "positive_groups": 21,
+          "negative_groups": 82,
+          "evidenced_groups": 92,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": false
+        }
+      },
+      "threshold_envelope": {
+        "phone_use": {
+          "feasible_80_80_20": false,
+          "max_precision_at_recall_ge80": 0.7333333333333333,
+          "max_recall_at_precision_ge80": 0.7090909090909091
+        },
+        "looking_around": {
+          "feasible_80_80_20": false,
+          "max_precision_at_recall_ge80": 0.3918918918918919,
+          "max_recall_at_precision_ge80": 0.18181818181818182
+        }
+      }
+    },
+    {
+      "id": "E007-V13-D1-S20261023",
+      "arm": "D1",
+      "seed": 20261023,
+      "best_epoch": 11,
+      "completed_epochs": 12,
+      "elapsed_seconds": 271.67794561899996,
+      "macro_ap": 0.8336561297875761,
+      "raw_bce": 0.2493111491203308,
+      "train_macro_ap": 0.9962660370677343,
+      "thresholds": {
+        "phone_use": 0.39699235558509827,
+        "looking_around": 0.3086262047290802
+      },
+      "calibrated": {
+        "targets": {
+          "phone_use": {
+            "positive": 55,
+            "negative": 120,
+            "unknown": 10,
+            "tp": 48,
+            "fp": 5,
+            "fn": 7,
+            "tn": 115,
+            "ap": 0.9432329368156394,
+            "precision": 0.9056603773584906,
+            "recall": 0.8727272727272727,
+            "f1": 0.8888888888888888,
+            "reason": null,
+            "fpr": 0.041666666666666664,
+            "positive_groups": 38,
+            "negative_groups": 59,
+            "evidenced_groups": 91,
+            "v11_support_gate_status": "AVAILABLE",
+            "v11_quality_gate_pass": true
+          },
+          "looking_around": {
+            "positive": 33,
+            "negative": 152,
+            "unknown": 0,
+            "tp": 26,
+            "fp": 20,
+            "fn": 7,
+            "tn": 132,
+            "ap": 0.7240793227595128,
+            "precision": 0.5652173913043478,
+            "recall": 0.7878787878787878,
+            "f1": 0.6582278481012658,
+            "reason": null,
+            "fpr": 0.13157894736842105,
+            "positive_groups": 21,
+            "negative_groups": 82,
+            "evidenced_groups": 92,
+            "v11_support_gate_status": "AVAILABLE",
+            "v11_quality_gate_pass": false
+          }
+        },
+        "macro_ap": 0.8336561297875761,
+        "records": 185,
+        "cooccurrence": {
+          "fully_known": 175,
+          "positive": 3,
+          "metric": null,
+          "reason": "insufficient_pilot_support"
+        },
+        "thresholds": {
+          "phone_use": 0.39699235558509827,
+          "looking_around": 0.3086262047290802
+        },
+        "v11_all_targets_pass_gates": false
+      },
+      "default_targets": {
+        "phone_use": {
+          "positive": 55,
+          "negative": 120,
+          "unknown": 10,
+          "tp": 45,
+          "fp": 5,
+          "fn": 10,
+          "tn": 115,
+          "ap": 0.9432329368156394,
+          "precision": 0.9,
+          "recall": 0.8181818181818182,
+          "f1": 0.8571428571428571,
+          "reason": null,
+          "fpr": 0.041666666666666664,
+          "positive_groups": 38,
+          "negative_groups": 59,
+          "evidenced_groups": 91,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": true
+        },
+        "looking_around": {
+          "positive": 33,
+          "negative": 152,
+          "unknown": 0,
+          "tp": 20,
+          "fp": 12,
+          "fn": 13,
+          "tn": 140,
+          "ap": 0.7240793227595128,
+          "precision": 0.625,
+          "recall": 0.6060606060606061,
+          "f1": 0.6153846153846154,
+          "reason": null,
+          "fpr": 0.07894736842105263,
+          "positive_groups": 21,
+          "negative_groups": 82,
+          "evidenced_groups": 92,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": false
+        }
+      },
+      "threshold_envelope": {
+        "phone_use": {
+          "feasible_80_80_20": true,
+          "max_precision_at_recall_ge80": 0.9183673469387755,
+          "max_recall_at_precision_ge80": 0.9090909090909091
+        },
+        "looking_around": {
+          "feasible_80_80_20": false,
+          "max_precision_at_recall_ge80": 0.5510204081632653,
+          "max_recall_at_precision_ge80": 0.48484848484848486
+        }
+      }
+    },
+    {
+      "id": "E007-V13-R0-S20261024",
+      "arm": "R0",
+      "seed": 20261024,
+      "best_epoch": 5,
+      "completed_epochs": 11,
+      "elapsed_seconds": 84.21281567000005,
+      "macro_ap": 0.5308337749405975,
+      "raw_bce": 0.5069384574890137,
+      "train_macro_ap": 0.7427882535295994,
+      "thresholds": {
+        "phone_use": 0.3072977662086487,
+        "looking_around": 0.6581183075904846
+      },
+      "calibrated": {
+        "targets": {
+          "phone_use": {
+            "positive": 55,
+            "negative": 120,
+            "unknown": 10,
+            "tp": 45,
+            "fp": 27,
+            "fn": 10,
+            "tn": 93,
+            "ap": 0.7563172895423076,
+            "precision": 0.625,
+            "recall": 0.8181818181818182,
+            "f1": 0.7086614173228346,
+            "reason": null,
+            "fpr": 0.225,
+            "positive_groups": 38,
+            "negative_groups": 59,
+            "evidenced_groups": 91,
+            "v11_support_gate_status": "AVAILABLE",
+            "v11_quality_gate_pass": false
+          },
+          "looking_around": {
+            "positive": 33,
+            "negative": 152,
+            "unknown": 0,
+            "tp": 4,
+            "fp": 2,
+            "fn": 29,
+            "tn": 150,
+            "ap": 0.3053502603388873,
+            "precision": 0.6666666666666666,
+            "recall": 0.12121212121212122,
+            "f1": 0.20512820512820512,
+            "reason": null,
+            "fpr": 0.013157894736842105,
+            "positive_groups": 21,
+            "negative_groups": 82,
+            "evidenced_groups": 92,
+            "v11_support_gate_status": "AVAILABLE",
+            "v11_quality_gate_pass": false
+          }
+        },
+        "macro_ap": 0.5308337749405975,
+        "records": 185,
+        "cooccurrence": {
+          "fully_known": 175,
+          "positive": 3,
+          "metric": null,
+          "reason": "insufficient_pilot_support"
+        },
+        "thresholds": {
+          "phone_use": 0.3072977662086487,
+          "looking_around": 0.6581183075904846
+        },
+        "v11_all_targets_pass_gates": false
+      },
+      "default_targets": {
+        "phone_use": {
+          "positive": 55,
+          "negative": 120,
+          "unknown": 10,
+          "tp": 27,
+          "fp": 6,
+          "fn": 28,
+          "tn": 114,
+          "ap": 0.7563172895423076,
+          "precision": 0.8181818181818182,
+          "recall": 0.4909090909090909,
+          "f1": 0.6136363636363636,
+          "reason": null,
+          "fpr": 0.05,
+          "positive_groups": 38,
+          "negative_groups": 59,
+          "evidenced_groups": 91,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": false
+        },
+        "looking_around": {
+          "positive": 33,
+          "negative": 152,
+          "unknown": 0,
+          "tp": 12,
+          "fp": 31,
+          "fn": 21,
+          "tn": 121,
+          "ap": 0.3053502603388873,
+          "precision": 0.27906976744186046,
+          "recall": 0.36363636363636365,
+          "f1": 0.3157894736842105,
+          "reason": null,
+          "fpr": 0.20394736842105263,
+          "positive_groups": 21,
+          "negative_groups": 82,
+          "evidenced_groups": 92,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": false
+        }
+      },
+      "threshold_envelope": {
+        "phone_use": {
+          "feasible_80_80_20": false,
+          "max_precision_at_recall_ge80": 0.625,
+          "max_recall_at_precision_ge80": 0.509090909090909
+        },
+        "looking_around": {
+          "feasible_80_80_20": false,
+          "max_precision_at_recall_ge80": 0.1986754966887417,
+          "max_recall_at_precision_ge80": null
+        }
+      }
+    },
+    {
+      "id": "E007-V13-D1-S20261024",
+      "arm": "D1",
+      "seed": 20261024,
+      "best_epoch": 7,
+      "completed_epochs": 12,
+      "elapsed_seconds": 273.616812989,
+      "macro_ap": 0.8532176276351718,
+      "raw_bce": 0.24492867290973663,
+      "train_macro_ap": 0.9743236504879322,
+      "thresholds": {
+        "phone_use": 0.35140541195869446,
+        "looking_around": 0.4998760521411896
+      },
+      "calibrated": {
+        "targets": {
+          "phone_use": {
+            "positive": 55,
+            "negative": 120,
+            "unknown": 10,
+            "tp": 48,
+            "fp": 5,
+            "fn": 7,
+            "tn": 115,
+            "ap": 0.9402390452406435,
+            "precision": 0.9056603773584906,
+            "recall": 0.8727272727272727,
+            "f1": 0.8888888888888888,
+            "reason": null,
+            "fpr": 0.041666666666666664,
+            "positive_groups": 38,
+            "negative_groups": 59,
+            "evidenced_groups": 91,
+            "v11_support_gate_status": "AVAILABLE",
+            "v11_quality_gate_pass": true
+          },
+          "looking_around": {
+            "positive": 33,
+            "negative": 152,
+            "unknown": 0,
+            "tp": 23,
+            "fp": 8,
+            "fn": 10,
+            "tn": 144,
+            "ap": 0.7661962100297002,
+            "precision": 0.7419354838709677,
+            "recall": 0.696969696969697,
+            "f1": 0.71875,
+            "reason": null,
+            "fpr": 0.05263157894736842,
+            "positive_groups": 21,
+            "negative_groups": 82,
+            "evidenced_groups": 92,
+            "v11_support_gate_status": "AVAILABLE",
+            "v11_quality_gate_pass": false
+          }
+        },
+        "macro_ap": 0.8532176276351718,
+        "records": 185,
+        "cooccurrence": {
+          "fully_known": 175,
+          "positive": 3,
+          "metric": null,
+          "reason": "insufficient_pilot_support"
+        },
+        "thresholds": {
+          "phone_use": 0.35140541195869446,
+          "looking_around": 0.4998760521411896
+        },
+        "v11_all_targets_pass_gates": false
+      },
+      "default_targets": {
+        "phone_use": {
+          "positive": 55,
+          "negative": 120,
+          "unknown": 10,
+          "tp": 44,
+          "fp": 5,
+          "fn": 11,
+          "tn": 115,
+          "ap": 0.9402390452406435,
+          "precision": 0.8979591836734694,
+          "recall": 0.8,
+          "f1": 0.8461538461538461,
+          "reason": null,
+          "fpr": 0.041666666666666664,
+          "positive_groups": 38,
+          "negative_groups": 59,
+          "evidenced_groups": 91,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": true
+        },
+        "looking_around": {
+          "positive": 33,
+          "negative": 152,
+          "unknown": 0,
+          "tp": 22,
+          "fp": 8,
+          "fn": 11,
+          "tn": 144,
+          "ap": 0.7661962100297002,
+          "precision": 0.7333333333333333,
+          "recall": 0.6666666666666666,
+          "f1": 0.6984126984126984,
+          "reason": null,
+          "fpr": 0.05263157894736842,
+          "positive_groups": 21,
+          "negative_groups": 82,
+          "evidenced_groups": 92,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": false
+        }
+      },
+      "threshold_envelope": {
+        "phone_use": {
+          "feasible_80_80_20": true,
+          "max_precision_at_recall_ge80": 0.9166666666666666,
+          "max_recall_at_precision_ge80": 0.8727272727272727
+        },
+        "looking_around": {
+          "feasible_80_80_20": false,
+          "max_precision_at_recall_ge80": 0.5294117647058824,
+          "max_recall_at_precision_ge80": 0.48484848484848486
+        }
+      }
+    },
+    {
+      "id": "E007-V13-R0-S20261025",
+      "arm": "R0",
+      "seed": 20261025,
+      "best_epoch": 6,
+      "completed_epochs": 12,
+      "elapsed_seconds": 90.48280617799992,
+      "macro_ap": 0.5260160087708636,
+      "raw_bce": 0.49924328923225403,
+      "train_macro_ap": 0.8131477655353009,
+      "thresholds": {
+        "phone_use": 0.4711335301399231,
+        "looking_around": 0.7677426338195801
+      },
+      "calibrated": {
+        "targets": {
+          "phone_use": {
+            "positive": 55,
+            "negative": 120,
+            "unknown": 10,
+            "tp": 43,
+            "fp": 21,
+            "fn": 12,
+            "tn": 99,
+            "ap": 0.7837214126727631,
+            "precision": 0.671875,
+            "recall": 0.7818181818181819,
+            "f1": 0.7226890756302521,
+            "reason": null,
+            "fpr": 0.175,
+            "positive_groups": 38,
+            "negative_groups": 59,
+            "evidenced_groups": 91,
+            "v11_support_gate_status": "AVAILABLE",
+            "v11_quality_gate_pass": false
+          },
+          "looking_around": {
+            "positive": 33,
+            "negative": 152,
+            "unknown": 0,
+            "tp": 2,
+            "fp": 1,
+            "fn": 31,
+            "tn": 151,
+            "ap": 0.2683106048689641,
+            "precision": 0.6666666666666666,
+            "recall": 0.06060606060606061,
+            "f1": 0.1111111111111111,
+            "reason": null,
+            "fpr": 0.006578947368421052,
+            "positive_groups": 21,
+            "negative_groups": 82,
+            "evidenced_groups": 92,
+            "v11_support_gate_status": "AVAILABLE",
+            "v11_quality_gate_pass": false
+          }
+        },
+        "macro_ap": 0.5260160087708636,
+        "records": 185,
+        "cooccurrence": {
+          "fully_known": 175,
+          "positive": 3,
+          "metric": null,
+          "reason": "insufficient_pilot_support"
+        },
+        "thresholds": {
+          "phone_use": 0.4711335301399231,
+          "looking_around": 0.7677426338195801
+        },
+        "v11_all_targets_pass_gates": false
+      },
+      "default_targets": {
+        "phone_use": {
+          "positive": 55,
+          "negative": 120,
+          "unknown": 10,
+          "tp": 39,
+          "fp": 17,
+          "fn": 16,
+          "tn": 103,
+          "ap": 0.7837214126727631,
+          "precision": 0.6964285714285714,
+          "recall": 0.7090909090909091,
+          "f1": 0.7027027027027027,
+          "reason": null,
+          "fpr": 0.14166666666666666,
+          "positive_groups": 38,
+          "negative_groups": 59,
+          "evidenced_groups": 91,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": false
+        },
+        "looking_around": {
+          "positive": 33,
+          "negative": 152,
+          "unknown": 0,
+          "tp": 11,
+          "fp": 34,
+          "fn": 22,
+          "tn": 118,
+          "ap": 0.2683106048689641,
+          "precision": 0.24444444444444444,
+          "recall": 0.3333333333333333,
+          "f1": 0.28205128205128205,
+          "reason": null,
+          "fpr": 0.2236842105263158,
+          "positive_groups": 21,
+          "negative_groups": 82,
+          "evidenced_groups": 92,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": false
+        }
+      },
+      "threshold_envelope": {
+        "phone_use": {
+          "feasible_80_80_20": false,
+          "max_precision_at_recall_ge80": 0.6197183098591549,
+          "max_recall_at_precision_ge80": 0.43636363636363634
+        },
+        "looking_around": {
+          "feasible_80_80_20": false,
+          "max_precision_at_recall_ge80": 0.19285714285714287,
+          "max_recall_at_precision_ge80": null
+        }
+      }
+    },
+    {
+      "id": "E007-V13-D1-S20261025",
+      "arm": "D1",
+      "seed": 20261025,
+      "best_epoch": 9,
+      "completed_epochs": 12,
+      "elapsed_seconds": 273.1428666419997,
+      "macro_ap": 0.8418964255620973,
+      "raw_bce": 0.2409391701221466,
+      "train_macro_ap": 0.9902906466670911,
+      "thresholds": {
+        "phone_use": 0.4581069350242615,
+        "looking_around": 0.43778350949287415
+      },
+      "calibrated": {
+        "targets": {
+          "phone_use": {
+            "positive": 55,
+            "negative": 120,
+            "unknown": 10,
+            "tp": 49,
+            "fp": 6,
+            "fn": 6,
+            "tn": 114,
+            "ap": 0.9380293661982435,
+            "precision": 0.8909090909090909,
+            "recall": 0.8909090909090909,
+            "f1": 0.8909090909090909,
+            "reason": null,
+            "fpr": 0.05,
+            "positive_groups": 38,
+            "negative_groups": 59,
+            "evidenced_groups": 91,
+            "v11_support_gate_status": "AVAILABLE",
+            "v11_quality_gate_pass": true
+          },
+          "looking_around": {
+            "positive": 33,
+            "negative": 152,
+            "unknown": 0,
+            "tp": 23,
+            "fp": 10,
+            "fn": 10,
+            "tn": 142,
+            "ap": 0.745763484925951,
+            "precision": 0.696969696969697,
+            "recall": 0.696969696969697,
+            "f1": 0.696969696969697,
+            "reason": null,
+            "fpr": 0.06578947368421052,
+            "positive_groups": 21,
+            "negative_groups": 82,
+            "evidenced_groups": 92,
+            "v11_support_gate_status": "AVAILABLE",
+            "v11_quality_gate_pass": false
+          }
+        },
+        "macro_ap": 0.8418964255620973,
+        "records": 185,
+        "cooccurrence": {
+          "fully_known": 175,
+          "positive": 3,
+          "metric": null,
+          "reason": "insufficient_pilot_support"
+        },
+        "thresholds": {
+          "phone_use": 0.4581069350242615,
+          "looking_around": 0.43778350949287415
+        },
+        "v11_all_targets_pass_gates": false
+      },
+      "default_targets": {
+        "phone_use": {
+          "positive": 55,
+          "negative": 120,
+          "unknown": 10,
+          "tp": 47,
+          "fp": 6,
+          "fn": 8,
+          "tn": 114,
+          "ap": 0.9380293661982435,
+          "precision": 0.8867924528301887,
+          "recall": 0.8545454545454545,
+          "f1": 0.8703703703703703,
+          "reason": null,
+          "fpr": 0.05,
+          "positive_groups": 38,
+          "negative_groups": 59,
+          "evidenced_groups": 91,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": true
+        },
+        "looking_around": {
+          "positive": 33,
+          "negative": 152,
+          "unknown": 0,
+          "tp": 21,
+          "fp": 8,
+          "fn": 12,
+          "tn": 144,
+          "ap": 0.745763484925951,
+          "precision": 0.7241379310344828,
+          "recall": 0.6363636363636364,
+          "f1": 0.6774193548387096,
+          "reason": null,
+          "fpr": 0.05263157894736842,
+          "positive_groups": 21,
+          "negative_groups": 82,
+          "evidenced_groups": 92,
+          "v11_support_gate_status": "AVAILABLE",
+          "v11_quality_gate_pass": false
+        }
+      },
+      "threshold_envelope": {
+        "phone_use": {
+          "feasible_80_80_20": true,
+          "max_precision_at_recall_ge80": 0.9375,
+          "max_recall_at_precision_ge80": 0.9272727272727272
+        },
+        "looking_around": {
+          "feasible_80_80_20": false,
+          "max_precision_at_recall_ge80": 0.5576923076923077,
+          "max_recall_at_precision_ge80": 0.3939393939393939
+        }
+      }
+    }
+  ],
+  "three_seed_statistics": {
+    "R0": {
+      "mean_macro_ap": 0.5334732246960023,
+      "sample_sd_macro_ap": 0.009069713948910282,
+      "mean_raw_bce": 0.5007153650124868,
+      "phone_use": {
+        "mean_ap": 0.772743116155958,
+        "passed_seeds": 0
+      },
+      "looking_around": {
+        "mean_ap": 0.2942033332360466,
+        "passed_seeds": 0
+      }
+    },
+    "D1": {
+      "mean_macro_ap": 0.8429233943282818,
+      "sample_sd_macro_ap": 0.009821102185875683,
+      "mean_raw_bce": 0.245059664050738,
+      "phone_use": {
+        "mean_ap": 0.9405004494181755,
+        "passed_seeds": 3
+      },
+      "looking_around": {
+        "mean_ap": 0.745346339238388,
+        "passed_seeds": 0
+      }
+    }
+  },
+  "stable_d1_errors_across_three_seeds": {
+    "phone_use": {
+      "false_positives": [
+        "E004-EX-C163",
+        "SCB-turnhead-016",
+        "V6R2-CA-008-ADD02",
+        "V7-C-081"
+      ],
+      "false_negatives": [
+        "G06-A01-F00012",
+        "G12-B03-F00001",
+        "V6R2-CA-001",
+        "V6R2-EX-009",
+        "V7-A-002"
+      ]
+    },
+    "looking_around": {
+      "false_positives": [
+        "E004-EX-C003",
+        "G01-A02-F00001-R02",
+        "G01-B02-F00009",
+        "G08-B02-F00001",
+        "V7-A-074",
+        "V7-C-046-R05",
+        "V7-OE-S094-A01-R04"
+      ],
+      "false_negatives": [
+        "G12-A02-F00007",
+        "G19-A01-F00052",
+        "NEW-058",
+        "NEW-132",
+        "V7-C-111"
+      ]
+    }
+  },
+  "paired_group_bootstrap": {
+    "description": "D1 minus R0 macro AP, paired group resampling; mean over same 3 fixed seeds",
+    "development_only": true,
+    "groups": 92,
+    "replicates": 2000,
+    "percentile_95_ci": [
+      0.1790262647042372,
+      0.41906042358917245
+    ],
+    "point_delta": 0.30945016963227945
+  },
+  "decision": "continue_research_only; no run passes both targets; no promotion"
+}

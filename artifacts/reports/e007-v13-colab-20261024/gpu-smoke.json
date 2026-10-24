@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "device": "cuda",
+  "code_sha256": "e7810ca31a9a1bf1d2f110f1b348dafe8130f7f2717cb504ff0736f9a23cc8f7",
+  "payload_sha256": "186daf8c2ec9ac0231cb3f9438d24415feb5b0439a5320cad36312562029576e",
+  "design_sha256": "2c9cabf8d6fe06b214eb24758b3d14e53c67012e0f7281034489be7f2ab4ebdf",
+  "runtime_sha256": "8cf423e39e0fea23c7c2b182254a62b3e4faa49bf54371c182812fe6ee82c24f",
+  "checks": {
+    "resume": "PASS",
+    "reload": "PASS",
+    "stage_transition": "PASS"
+  },
+  "runs": [
+    {
+      "id": "E007-V13-SMOKE-R0-FULL",
+      "arm": "R0",
+      "seed": 20261023,
+      "config": {
+        "path": "configs/experiments/E007-V13-20261024/materialized/smoke/E007-V13-SMOKE-R0-FULL.yaml",
+        "sha256": "1f098f4bfa09b3663e8d39153266d6a27607da0cee30a60e25e653e23fb98d99"
+      },
+      "run": {
+        "path": "outputs/E007-V13-Colab-20261024/runs/E007-V13-SMOKE-R0-FULL/run.json",
+        "sha256": "d5089aa8aeed2b635649a5a5b863e02ab96ec791869393acb7480f2557b5bacd"
+      },
+      "reload": "PASS",
+      "metrics": {
+        "path": "outputs/E007-V13-Colab-20261024/runs/E007-V13-SMOKE-R0-FULL/metrics.json",
+        "sha256": "bc893b004c4bc1994faaf660f66af83d4923ce76347dd2caff4fd251f72607b2"
+      }
+    },
+    {
+      "id": "E007-V13-SMOKE-R0-RESUME",
+      "arm": "R0",
+      "seed": 20261023,
+      "config": {
+        "path": "configs/experiments/E007-V13-20261024/materialized/smoke/E007-V13-SMOKE-R0-RESUME.yaml",
+        "sha256": "06c3749a0fff6a072684510aca41f054d3d8b46d20e8141c3c17cc142097e19d"
+      },
+      "run": {
+        "path": "outputs/E007-V13-Colab-20261024/runs/E007-V13-SMOKE-R0-RESUME/run.json",
+        "sha256": "83cd69e070cc53a7a44bd2d2379fb722fa58f70ae107773134ee42516d291b42"
+      },
+      "reload": "PASS",
+      "metrics": {
+        "path": "outputs/E007-V13-Colab-20261024/runs/E007-V13-SMOKE-R0-RESUME/metrics.json",
+        "sha256": "bc893b004c4bc1994faaf660f66af83d4923ce76347dd2caff4fd251f72607b2"
+      }
+    },
+    {
+      "id": "E007-V13-SMOKE-D1-FULL",
+      "arm": "D1",
+      "seed": 20261023,
+      "config": {
+        "path": "configs/experiments/E007-V13-20261024/materialized/smoke/E007-V13-SMOKE-D1-FULL.yaml",
+        "sha256": "c1f850995d54daa7f8c51259aeebeea155b32c11ea5306d3f68254e9a291c86e"
+      },
+      "run": {
+        "path": "outputs/E007-V13-Colab-20261024/runs/E007-V13-SMOKE-D1-FULL/run.json",
+        "sha256": "4f02284c810c658a35b14c3adb2dd34587e330f26600b8a58a7b048f041c39e4"
+      },
+      "reload": "PASS",
+      "metrics": {
+        "path": "outputs/E007-V13-Colab-20261024/runs/E007-V13-SMOKE-D1-FULL/metrics.json",
+        "sha256": "cee5966832117e20e28dae118f67597f0234c40f24f89acd47f23c2343d2ec8b"
+      }
+    },
+    {
+      "id": "E007-V13-SMOKE-D1-RESUME",
+      "arm": "D1",
+      "seed": 20261023,
+      "config": {
+        "path": "configs/experiments/E007-V13-20261024/materialized/smoke/E007-V13-SMOKE-D1-RESUME.yaml",
+        "sha256": "a47937af1c1aa5f9cf99c8715c92d3e5de3d79dae8a4bb288d2861d62b00d6fa"
+      },
+      "run": {
+        "path": "outputs/E007-V13-Colab-20261024/runs/E007-V13-SMOKE-D1-RESUME/run.json",
+        "sha256": "4e48dfb7da5b6ca0276135a25d89809f4c0ae928c1de225e339d0ab0705063d9"
+      },
+      "reload": "PASS",
+      "metrics": {
+        "path": "outputs/E007-V13-Colab-20261024/runs/E007-V13-SMOKE-D1-RESUME/metrics.json",
+        "sha256": "cee5966832117e20e28dae118f67597f0234c40f24f89acd47f23c2343d2ec8b"
+      }
+    }
+  ],
+  "elapsed_seconds": 489.54387760162354
+}

@@ -18,6 +18,7 @@ from . import holdout_access
 from .adaptation_config import (
     AdaptationConfig,
     DatasetSpec,
+    RepresentationConfig,
     config_from_dict,
     local_path,
     verify_adaptation_approval,
@@ -27,6 +28,7 @@ from .adaptation_model import AdaptationModel, tensor_digest
 from .adaptation_train import cohort_report, runtime_signature
 from .artifacts import checksum_artifacts, code_identity, digest_json, environment, now, write_json
 from .data import crop_path, image_tensor, labels, verify_dataset
+from .device import configure_device, execution_environment
 from .train import peak_rss
 
 
@@ -38,6 +40,7 @@ def load_bundle(run_dir: Path, workspace: Path) -> tuple[AdaptationModel, dict[s
     record = json.loads((run_dir / "run.json").read_text(encoding="utf-8"))
     bundle = json.loads((run_dir / "bundle.json").read_text(encoding="utf-8"))
     torch.set_num_threads(config.threads)
+    device = configure_device(config)
     if (
         record["status"] != "FINISHED"
         or bundle["schema_version"] != "full-model-bundle-v1"
@@ -45,7 +48,7 @@ def load_bundle(run_dir: Path, workspace: Path) -> tuple[AdaptationModel, dict[s
         or bundle["code_sha256"] != record["code_sha256"]
         or bundle["config_sha256"] != digest_json(config.to_dict())
         or bundle["config_sha256"] != record["config_sha256"]
-        or bundle["runtime_sha256"] != runtime_signature(environment())
+        or bundle["runtime_sha256"] != runtime_signature(execution_environment(config))
         or bundle["target_order"] != config.target_order
         or bundle["threshold"] != config.threshold
     ):
@@ -70,7 +73,7 @@ def load_bundle(run_dir: Path, workspace: Path) -> tuple[AdaptationModel, dict[s
         or tensor_digest(payload["model"]) != payload["model_tensor_sha256"]
     ):
         raise DataContractError("Full model tensor/config identity changed")
-    model = AdaptationModel(config, full_state=payload["model"])
+    model = AdaptationModel(config, full_state=payload["model"], workspace=workspace).to(device)
     model.eval()
     return model, payload
 
@@ -135,6 +138,8 @@ def evaluate_adaptation(
         json.loads((run_dir / "resolved-config.json").read_text(encoding="utf-8"))
     )
     verify_adaptation_approval(config, workspace)
+    if isinstance(config, RepresentationConfig) and (split == "test" or run_benchmark):
+        raise DataContractError("V4 research has no final test or legacy CPU benchmark scope")
     token, payload_key = None, None
     protocol: dict[str, Any]
     if split == "test":
@@ -260,6 +265,19 @@ def evaluate_adaptation(
                 )
             ]
         metrics = {}
+        thresholds = None
+        if isinstance(config, RepresentationConfig):
+            checks = json.loads((run_dir / "checksums.json").read_text(encoding="utf-8"))
+            calibration_path = run_dir / "calibration.json"
+            if sha256_file(calibration_path) != checks.get("calibration.json"):
+                raise DataContractError("Calibration artifact changed")
+            calibration = json.loads(calibration_path.read_text(encoding="utf-8"))
+            selection = next(c for c in selected if c.role == "selection")
+            if (calibration.get("checkpoint_sha256") != sha256_file(run_dir / "best.pt")
+                    or calibration.get("selection_ids_sha256") != digest_json(selection.ids)
+                    or calibration.get("fit_cohort") != selection.name):
+                raise DataContractError("Calibration checkpoint/cohort mismatch")
+            thresholds = (float(calibration["thresholds"][0]), float(calibration["thresholds"][1]))
         for cohort in selected:
             metrics[cohort.name], predictions = cohort_report(
                 model,
@@ -267,6 +285,7 @@ def evaluate_adaptation(
                 config,
                 bundle["train_prevalence"],
                 protocol,
+                thresholds=thresholds,
             )
             write_json(output / f"predictions-{cohort.name}.json", predictions)
         if run_benchmark:

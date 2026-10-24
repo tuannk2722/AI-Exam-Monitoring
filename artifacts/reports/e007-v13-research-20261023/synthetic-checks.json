@@ -1,0 +1,51 @@
+{
+  "synthetic_only": true,
+  "threshold_candidates_below_0_05": {
+    "scores": [
+      [
+        0.03999999910593033,
+        0.03999999910593033
+      ],
+      [
+        0.029999999329447746,
+        0.029999999329447746
+      ],
+      [
+        0.019999999552965164,
+        0.019999999552965164
+      ],
+      [
+        0.009999999776482582,
+        0.009999999776482582
+      ]
+    ],
+    "truth": [
+      [
+        1.0,
+        1.0
+      ],
+      [
+        1.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "chosen": [
+      0.5,
+      0.5
+    ],
+    "chosen_phone_recall": 0.0,
+    "exact_threshold_0_03_precision": 1.0,
+    "exact_threshold_0_03_recall": 1.0
+  },
+  "masked_loss_unknown_gradients_zero": true,
+  "finite_loss": true,
+  "scope": "demonstrates calibration boundary limitation and unknown masking only; no model/data inference"
+}

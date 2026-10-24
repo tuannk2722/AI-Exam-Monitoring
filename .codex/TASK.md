@@ -1,23 +1,23 @@
-# CLEANUP-20261023 — Dọn workspace và commit V13
+# CLEANUP-E007-20261024 — Dọn tài sản nghiên cứu và commit
 
-- Trạng thái: hoàn thành cleanup và checks; bàn giao qua commit chứa task này theo yêu cầu owner, không push.
+- Trạng thái: hoàn tất cleanup và commit theo yêu cầu owner; protected verification, Git checker và kiểm tra checkout sạch đều PASS.
 
 ## Yêu cầu và hiện trạng
 
-Đã đọc index/status, storage, development và hồ sơ release V13; đối chiếu Git và dung lượng. Thay đổi chờ commit gồm diagnostics/review, audit và V13.
+Đã đọc index/status/storage/operations và đối chiếu Git. E007 FINISHED, D1 là hướng chính nhưng looking chưa đạt; chưa Selected. Giữ các thay đổi E007 chưa commit, không train/inference mới.
 
 ## Quyết định và inputs
 
-Giữ V13 accepted: 1.304 crop, 1.119 train / 185 val / 0 test. Giữ releases/model được retention bảo vệ, nguồn và evidence độc nhất. Không đổi nhãn/split/pins. Dọn exact manifest sau kiểm SHA và dependencies; không coi DVC hardlink là dung lượng riêng.
+Owner cho phép nghỉ lưu tài sản cũ không còn ích cho phát triển. Lập exact manifest/hash trước xóa; giữ V13, nguồn recrop/QA độc nhất, pretrained DINO/ResNet, ba best D1 và ba đối chứng R0 cùng metadata/predictions/config/code. Không sửa pins hoặc tuyên bố lịch sử còn tái lập đầy đủ. Archive nguồn không coi là cache.
 
 ## Outputs và vòng đời
 
-Hồ sơ: artifacts/reports/cleanup-20261023/. Candidate crops trùng V13 được nghỉ lưu với locator khôi phục, metadata giữ nguyên. Cache công cụ tái tạo được. Archive và nguồn rebuild V13 giữ lại; scratch kiểm tra dọn sau dùng.
+Report cleanup-20261024 giữ manifest/protected snapshots/availability/receipt. Script audit E007 đã bảo toàn nguyên bytes trong report trước dọn scratch. Cache/duplicate bundle/scratch/checkpoint cũ được xét theo dependency. Không tác động Downloads ngoài workspace.
 
 ## Contract impact và checks
 
-Không đổi contract do cleanup. Ruff PASS; 200 unit tests PASS; mypy PASS (48 files). Protected bytes trước/sau PASS (12.461 file); checker --require-git PASS trên workspace và clean staged checkout. Staged diff không có binary; giữ nguyên một trailing whitespace trong evidence owner batch 04.
+Không đổi thuật toán/schema/labels/splits. Source identity E007 giữ nguyên. Kiểm protected hashes trước/sau; regression/source checks; stage đúng source/docs/config/metadata, require-git checker và inspect staged diff trước commit. Không stage media/checkpoints/env/cache/credentials. Git attributes giữ exact bytes các config E007.
 
 ## Checkpoint và bàn giao
 
-Đã dọn 4.690 file, 1.118.246.110 bytes. Exact paths/restore và kết quả ở README, cleanup-manifest.json, cleanup-result.json, protected-before.json và handoff.json trong hồ sơ cleanup. Metadata/pins giữ nguyên; candidate crops và media E004 trong manifest cần restore trước khi dùng lại. Nguồn rebuild V13 và bàn audit mới nhất giữ lại. Bổ sung gitattributes bảo toàn bytes config/input đã pin; không train/upload. Scratch checkout đã dọn sau kiểm.
+Đã xóa 8.971 files / 9,959 GiB logical, ổ D tăng 7,674 GiB trống. Workspace còn khoảng 13,748 GiB; 21.177 protected files giữ nguyên SHA/size PASS, sáu best D1/R0 còn đủ. Manifest/receipt/verification ở report cleanup-20261024, storage/status/operations đã cập nhật availability. 210 tests/Ruff/mypy PASS; không train/inference mới. E007 source/config pins giữ nguyên; staged exact bytes 47 artifacts đã kiểm. Cache/scratch không còn file; automatic review chặn riêng xóa cây thư mục rỗng “blocked by policy”, để nguyên, không bypass. Require-git checker và staged diff PASS. Checkout sạch của commit đã kiểm repository PASS và source SHA E007 giữ nguyên `e7810ca31a9a1bf1d2f110f1b348dafe8130f7f2717cb504ff0736f9a23cc8f7`; không còn bước nghiên cứu hoặc train trong task cleanup này.

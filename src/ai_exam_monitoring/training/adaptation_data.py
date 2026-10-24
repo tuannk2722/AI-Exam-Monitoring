@@ -14,7 +14,13 @@ from torchvision.transforms import functional as TF
 from ai_exam_monitoring.common.errors import DataContractError
 from ai_exam_monitoring.data.pilot_schema import PilotRecord, record_to_dict
 
-from .adaptation_config import AdaptationConfig, E005AdaptationConfig, FilePin, local_path
+from .adaptation_config import (
+    AdaptationConfig,
+    E005AdaptationConfig,
+    FilePin,
+    RepresentationConfig,
+    local_path,
+)
 from .artifacts import digest_json
 from .data import (
     compute_relative_anchor_geometry,
@@ -63,6 +69,7 @@ class ImageCohort:
     _context_cache: dict[int, torch.Tensor] = field(default_factory=dict, init=False, repr=False)
     _anchor_cache: dict[int, torch.Tensor] = field(default_factory=dict, init=False, repr=False)
     _geometry_cache: dict[int, torch.Tensor] = field(default_factory=dict, init=False, repr=False)
+    _v4_cache_key: str | None = field(default=None, init=False, repr=False)
 
     @property
     def ids(self) -> list[str]:
@@ -72,6 +79,14 @@ class ImageCohort:
         return torch.stack([image_tensor(self.paths[i], config) for i in indices])
 
     def _ensure_cached(self, idx: int, config: E005AdaptationConfig) -> None:
+        if isinstance(config, RepresentationConfig):
+            key = digest_json({"size": config.image_size, "fill": config.fill,
+                               "transform": config.transform, "model": config.model})
+            if key != self._v4_cache_key:
+                self._context_cache.clear()
+                self._anchor_cache.clear()
+                self._geometry_cache.clear()
+                self._v4_cache_key = key
         if idx in self._context_cache:
             return
         record = self.records[idx]
@@ -229,6 +244,34 @@ def _waiver(config: AdaptationConfig, workspace: Path, ready: dict[str, Any]) ->
 
 def validate_readiness(config: AdaptationConfig, workspace: Path) -> dict[str, Any]:
     ready = config.readiness.read_json(workspace)
+    if isinstance(config, RepresentationConfig):
+        if (ready.get("schema_version") != "representation-readiness-v4"
+                or ready.get("status") != "approved" or ready.get("owner") != config.owner
+                or ready.get("scope") != config.run_kind
+                or ready.get("protocol_sha256") != config.protocol.sha256
+                or ready.get("cohorts_sha256") != digest_json(config.to_dict()["cohorts"])
+                or ready.get("execution_authorization")
+                != config.to_dict()["execution_authorization"]
+                or ready.get("independence_claim") is not False):
+            raise DataContractError("V4 readiness identity/scope mismatch")
+        evidence = ready.get("evidence_pins")
+        if not isinstance(evidence, list) or not evidence:
+            raise DataContractError("V4 readiness evidence missing")
+        for item in evidence:
+            FilePin(**item).verify(workspace)
+        if config.run_kind == "research":
+            from .artifacts import code_identity
+
+            receipt = FilePin(**ready["smoke_receipt"]).read_json(workspace)
+            if (receipt.get("status") != "PASS" or receipt.get("device") != config.device
+                    or receipt.get("code_sha256") != code_identity()["sha256"]
+                    or receipt.get("payload_sha256")
+                    != next(c.data.payload_sha256 for c in config.cohorts if c.role == "train")
+                    or receipt.get("checks") != {
+                        "resume": "PASS", "reload": "PASS", "stage_transition": "PASS"
+                    }):
+                raise DataContractError("Actual V4 smoke PASS required")
+        return ready
     if (
         ready.get("schema_version") not in {"adaptation-readiness-v1", "adaptation-readiness-v2"}
         or ready.get("status") != "approved"
@@ -239,7 +282,7 @@ def validate_readiness(config: AdaptationConfig, workspace: Path) -> dict[str, A
         or not ready.get("decision_ref")
     ):
         raise DataContractError("Readiness does not bind exact data/protocol/action")
-    revised = ready["schema_version"] == "adaptation-readiness-v2"
+    revised = ready["schema_version"] in {"adaptation-readiness-v2", "representation-readiness-v4"}
     if revised:
         _waiver(config, workspace, ready)
     gates = ready.get("gates", {})
@@ -280,11 +323,12 @@ def prepare_cohorts(
     config: AdaptationConfig, workspace: Path
 ) -> tuple[list[ImageCohort], dict[str, Any]]:
     ready = validate_readiness(config, workspace)
-    revised = ready["schema_version"] == "adaptation-readiness-v2"
+    revised = ready["schema_version"] in {"adaptation-readiness-v2", "representation-readiness-v4"}
     protocol = config.protocol.read_json(workspace)
     if (
         protocol.get("schema_version")
-        != ("matched-protocol-v2" if revised else "matched-protocol-v1")
+        != ("representation-protocol-v4" if isinstance(config, RepresentationConfig)
+            else "matched-protocol-v2" if revised else "matched-protocol-v1")
         or protocol.get("status") != "frozen"
         or protocol.get("owner") != config.owner
         or protocol.get("target_order") != config.target_order
@@ -305,6 +349,10 @@ def prepare_cohorts(
         key = digest_json(spec.data.__dict__)
         if key not in cache:
             cache[key] = verify_dataset(root, spec.data)
+        if isinstance(config, RepresentationConfig) and any(
+            row.usage == "test" for row in cache[key]
+        ):
+            raise DataContractError("V4 protocol requires an explicitly zero-test release")
         all_rows = {r.sample_id: r for r in cache[key]}
         if not set(spec.sample_ids) <= set(all_rows):
             raise DataContractError("Cohort member missing from accepted manifest")

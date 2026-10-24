@@ -2,6 +2,8 @@
 
 [Training contract](../../docs/training.md) quy định loss/evaluation; [reference](../../docs/reference.md#training-code) mô tả trainer/CLI; [reports](../../artifacts/reports/README.md) giữ kết quả. Không lấy ID lớn nhất làm model được duyệt.
 
+[E007 V13 — execution Colab](E007-V13-20261024/README.md): smoke và 9 research FINISHED trên L4, artifacts đã kiểm; D1 thắng, chưa Selected. [Proposal 23/10](E007-V13-20261023/README.md) giữ snapshot Draft đã pin; authorization và exact materialized configs nằm ở execution companion.
+
 [Follow-up E006 ngày 21/10](E006-followup-20261021/README.md): Draft đối chứng SQRT có/không random erasing sau review nhãn và freeze dataset; chưa executable config hoặc approval run.
 
 | Hồ sơ | Vai trò | Approval / cách dùng |

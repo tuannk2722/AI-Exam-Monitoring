@@ -18,6 +18,7 @@ from .adaptation_config import (
     AdaptationConfig,
     E005AdaptationConfig,
     FilePin,
+    RepresentationConfig,
     ResearchAdaptationConfig,
 )
 from .artifacts import save_checkpoint
@@ -33,6 +34,8 @@ def tensor_digest(state: Mapping[str, torch.Tensor]) -> str:
 
 
 def head_input_dim(config: AdaptationConfig) -> int:
+    if isinstance(config, RepresentationConfig) and config.model == "dinov2_vits14_v4":
+        return 768
     if isinstance(config, E005AdaptationConfig) and config.model == "resnet18_anchor_context":
         return 1542 if config.use_geometry_features else 1536
     return 512
@@ -161,15 +164,25 @@ class AdaptationModel(nn.Module):
         weights: Path | None = None,
         initial_head: Path | None = None,
         full_state: Mapping[str, torch.Tensor] | None = None,
+        workspace: Path | None = None,
     ):
         super().__init__()
         self._config = config
         self.policy = config.model
-        self.network = resnet18(weights=None)
+        self.network: Any = resnet18(weights=None)
         is_v3 = isinstance(config, E005AdaptationConfig)
         in_dim = head_input_dim(config)
         hidden_dim = config.head_hidden_dim if isinstance(config, E005AdaptationConfig) else 0
         dropout = config.head_dropout if isinstance(config, E005AdaptationConfig) else 0.0
+        if isinstance(config, RepresentationConfig) and config.model == "dinov2_vits14_v4":
+            from .encoders import DinoNetwork, load_dino_source
+
+            if workspace is None or config.encoder_source is None:
+                raise DataContractError("DINO requires workspace and pinned local source")
+            self.network = DinoNetwork(
+                load_dino_source(config.encoder_source, workspace),
+                build_e005_head(in_dim, hidden_dim, dropout),
+            )
         if full_state is None:
             if (
                 weights is None
@@ -178,7 +191,12 @@ class AdaptationModel(nn.Module):
                 or sha256_file(initial_head) != config.head_initialization.sha256
             ):
                 raise DataContractError("Missing or changed pretrained/head initialization")
-            self.network.load_state_dict(torch.load(weights, map_location="cpu", weights_only=True))
+            pretrained_model = (
+                self.network.backbone if self.policy == "dinov2_vits14_v4" else self.network
+            )
+            pretrained_model.load_state_dict(
+                torch.load(weights, map_location="cpu", weights_only=True)
+            )
             self.network.fc = cast(Any, build_e005_head(in_dim, hidden_dim, dropout))
             payload = torch.load(initial_head, map_location="cpu", weights_only=True)
             if is_v3 and (in_dim != 512 or hidden_dim > 0):
@@ -228,6 +246,10 @@ class AdaptationModel(nn.Module):
             return "head_only"
         if epoch <= config.warmup_epochs:
             return "warmup_head_only"
+        if self.policy == "dinov2_vits14_v4":
+            self.network.backbone.blocks[10:].requires_grad_(True)
+            self.network.backbone.norm.requires_grad_(True)
+            return "finetune_last_two_blocks"
         if config.trainable_scope == "head_and_layer4_block1":
             self.network.layer4[1].requires_grad_(True)
             return "finetune_layer4_block1"
@@ -244,6 +266,8 @@ class AdaptationModel(nn.Module):
         return self
 
     def _extract_backbone_features(self, images: torch.Tensor) -> torch.Tensor:
+        if self.policy == "dinov2_vits14_v4":
+            return cast(torch.Tensor, self.network.features(images))
         net = self.network
         if images.requires_grad:
             x = net.conv1(images)
@@ -320,6 +344,11 @@ class AdaptationModel(nn.Module):
                 if name.startswith("network.fc."):
                     names["head"].append(name)
                     params["head"].append(parameter)
+                elif (config.trainable_scope == "head_and_last_two_blocks" and
+                      name.startswith(("network.backbone.blocks.10.",
+                                       "network.backbone.blocks.11.", "network.backbone.norm."))):
+                    names["layer4"].append(name)
+                    params["layer4"].append(parameter)
                 elif (
                     config.trainable_scope == "head_and_layer4_block1"
                     and name.startswith("network.layer4.1.")

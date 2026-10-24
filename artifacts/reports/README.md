@@ -2,6 +2,10 @@
 
 Index theo đối tượng; không là bảng metrics hoặc backlog. Hồ sơ đã pin là snapshot, kể cả chữ “next”, “pending” hoặc lệnh CLI cũ. [Status](../../docs/status.md) chỉ công việc hiện hành; [operations](../../docs/operations.md) xử lý historical paths/restore. Không sửa report/card/receipt đã seal để cập nhật tiến độ.
 
+[Nghiên cứu E007 trên V13](e007-v13-research-20261023/README.md): audit lịch sử/code/config, coverage V13 và cached scores E006; hướng representation mới và proposal 4–8 giờ GPU. Chưa train hoặc đổi accepted inputs.
+
+[E007 Colab và kết quả V13](e007-v13-colab-20261024/README.md): smoke và 9 research FINISHED, import/checksums/reload đã kiểm; D1 cải thiện ổn định, phone qua gate cả ba seed, looking chưa qua. Chưa Selected hoặc final test.
+
 [E006 V12 — training tự động](e006-v12-20261020/README.md): smoke, screening và
 xác nhận qua seed theo phạm vi owner duyệt; runner tổng hợp số liệu, agent kiểm và
 viết report cuối, test đóng.
@@ -95,6 +99,8 @@ Card/manifest/coverage ở package mà pointer chỉ tới; có thể không hi�
 Experiment đang thiết kế: [configs index](../../configs/experiments/README.md). Run mới có hồ sơ riêng; chỉ thêm locator ở đây, không nối vào baseline lịch sử. Checkpoints/predictions ở `outputs/<ID>` theo run pins; restore không cấp test access.
 
 ## Vận hành
+
+[Cleanup sau E007 ngày 24/10](cleanup-20261024/README.md): nghỉ lưu tài sản lịch sử không còn phục vụ hướng D1 theo manifest; bảo toàn V13, nguồn độc nhất, model best D1/R0 và bằng chứng nghiên cứu.
 
 [E004 enrollment và run C345](E004-train-enrollment-20261016/README.md): V10/development có 1.061 train; research FINISHED, reload exact parity; looking cải thiện nhưng phone false positives tăng, Continue research.
 

@@ -46,3 +46,10 @@ src/ai_exam_monitoring/data/review_reconcile.py text eol=lf
 src/ai_exam_monitoring/data/review_workspace.py text eol=lf
 src/ai_exam_monitoring/data/review_workspace_assets/* text eol=lf
 src/ai_exam_monitoring/training/diagnostics.py text eol=lf
+
+# Preserve the exact E007 proposal, authorization and imported Colab config pins.
+configs/experiments/E007-V13-20261023/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+configs/experiments/E007-V13-20261024/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+# These two frozen E007 source files include a final blank line in the run code hash.
+src/ai_exam_monitoring/training/device.py whitespace=-blank-at-eof
+src/ai_exam_monitoring/training/encoders.py whitespace=-blank-at-eof

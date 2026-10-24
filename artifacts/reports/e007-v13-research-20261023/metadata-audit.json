@@ -1,0 +1,4211 @@
+{
+  "schema": "e007-v13-metadata-audit-v1",
+  "method": "manifest and provenance only; no media/model/test inference",
+  "inputs": {
+    "data\\processed\\pilot-b\\pilot-b-20261023-v13\\manifest.jsonl": "6175a015bd08ed33550e46e3d967f21324534ef540b1c234d328275fdbd4ff88",
+    "artifacts\\reports\\v12-reconcile-20261022\\candidate-source-provenance.json": "1fe6c4c632e6868969b2804ccc9c701fe85ab4437a5de55d6dcec95722a2dd52"
+  },
+  "canonical_sources": {
+    "reviewed-crop-inputs-20261023": 1304
+  },
+  "splits": {
+    "train": {
+      "records": 1119,
+      "groups": 239,
+      "targets": {
+        "phone_use": {
+          "positive": {
+            "records": 342,
+            "groups": 96
+          },
+          "negative": {
+            "records": 684,
+            "groups": 157
+          },
+          "unknown": {
+            "records": 93,
+            "groups": 21
+          },
+          "sqrt_negative_positive": 1.4142135623730951,
+          "largest_positive_groups": [
+            [
+              "AUDIT-G-a42b68477bc4",
+              118
+            ],
+            [
+              "AUDIT-G-87e803cafb93",
+              28
+            ],
+            [
+              "AUDIT-G-1be5c3aac6e1",
+              24
+            ],
+            [
+              "AUDIT-G-90f8a6ebf178",
+              17
+            ],
+            [
+              "AUDIT-G-bddaa1a41f46",
+              17
+            ]
+          ]
+        },
+        "looking_around": {
+          "positive": {
+            "records": 179,
+            "groups": 74
+          },
+          "negative": {
+            "records": 931,
+            "groups": 207
+          },
+          "unknown": {
+            "records": 9,
+            "groups": 7
+          },
+          "sqrt_negative_positive": 2.280595825313147,
+          "largest_positive_groups": [
+            [
+              "AUDIT-G-a42b68477bc4",
+              41
+            ],
+            [
+              "AUDIT-G-87e803cafb93",
+              13
+            ],
+            [
+              "AUDIT-G-930bbb8d6579",
+              9
+            ],
+            [
+              "AUDIT-G-f002d9f60ef8",
+              7
+            ],
+            [
+              "AUDIT-G-1be5c3aac6e1",
+              7
+            ]
+          ]
+        }
+      },
+      "cooccurrence": {
+        "1/0": 299,
+        "0/0": 554,
+        "1/1": 40,
+        "0/1": 124,
+        "U/0": 78,
+        "U/1": 15,
+        "0/U": 6,
+        "1/U": 3
+      },
+      "dimensions": {
+        "median_long_edge": 293,
+        "long_edge_gt_224": 719,
+        "long_edge_gt_336": 481,
+        "long_edge_lt_112": 25
+      },
+      "anchor_context_area_lt_0_70": 348,
+      "largest_groups": [
+        [
+          "AUDIT-G-a42b68477bc4",
+          367
+        ],
+        [
+          "AUDIT-G-1be5c3aac6e1",
+          136
+        ],
+        [
+          "AUDIT-G-87e803cafb93",
+          68
+        ],
+        [
+          "AUDIT-G-bddaa1a41f46",
+          47
+        ],
+        [
+          "AUDIT-G-90f8a6ebf178",
+          32
+        ]
+      ]
+    },
+    "val": {
+      "records": 185,
+      "groups": 92,
+      "targets": {
+        "phone_use": {
+          "positive": {
+            "records": 55,
+            "groups": 38
+          },
+          "negative": {
+            "records": 120,
+            "groups": 59
+          },
+          "unknown": {
+            "records": 10,
+            "groups": 7
+          },
+          "sqrt_negative_positive": 1.4770978917519928,
+          "largest_positive_groups": [
+            [
+              "AUDIT-G-f46a5ce03d9c",
+              7
+            ],
+            [
+              "AUDIT-G-47a05ee7832f",
+              3
+            ],
+            [
+              "AUDIT-G-6c1282220376",
+              3
+            ],
+            [
+              "AUDIT-G-2ce89fcf05d4",
+              2
+            ],
+            [
+              "AUDIT-G-84bd7f16d41c",
+              2
+            ]
+          ]
+        },
+        "looking_around": {
+          "positive": {
+            "records": 33,
+            "groups": 21
+          },
+          "negative": {
+            "records": 152,
+            "groups": 82
+          },
+          "unknown": {
+            "records": 0,
+            "groups": 0
+          },
+          "sqrt_negative_positive": 2.1461734799546393,
+          "largest_positive_groups": [
+            [
+              "AUDIT-G-c95982bde3ac",
+              6
+            ],
+            [
+              "AUDIT-G-faf4d452ebb3",
+              4
+            ],
+            [
+              "AUDIT-G-f05900408e3c",
+              3
+            ],
+            [
+              "AUDIT-G-89ee6ad74b64",
+              2
+            ],
+            [
+              "AUDIT-G-ae46dde5a1c9",
+              2
+            ]
+          ]
+        }
+      },
+      "cooccurrence": {
+        "0/0": 92,
+        "1/0": 52,
+        "0/1": 28,
+        "U/0": 8,
+        "U/1": 2,
+        "1/1": 3
+      },
+      "dimensions": {
+        "median_long_edge": 324,
+        "long_edge_gt_224": 131,
+        "long_edge_gt_336": 87,
+        "long_edge_lt_112": 12
+      },
+      "anchor_context_area_lt_0_70": 48,
+      "largest_groups": [
+        [
+          "AUDIT-G-c95982bde3ac",
+          22
+        ],
+        [
+          "AUDIT-G-faf4d452ebb3",
+          19
+        ],
+        [
+          "AUDIT-G-f46a5ce03d9c",
+          9
+        ],
+        [
+          "AUDIT-G-84bd7f16d41c",
+          8
+        ],
+        [
+          "AUDIT-G-b57f7c3e7223",
+          7
+        ]
+      ]
+    }
+  },
+  "upstream_sources": {
+    "train": {
+      "E004-crop-bundle-20261014": {
+        "records": 185,
+        "groups": 1,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 94,
+              "groups": 1
+            },
+            "negative": {
+              "records": 57,
+              "groups": 1
+            },
+            "unknown": {
+              "records": 34,
+              "groups": 1
+            },
+            "sqrt_negative_positive": 0.7787059642274511,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-a42b68477bc4",
+                94
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 23,
+              "groups": 1
+            },
+            "negative": {
+              "records": 162,
+              "groups": 1
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 2.6539552107881486,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-a42b68477bc4",
+                23
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "U/0": 29,
+          "U/1": 5,
+          "1/0": 88,
+          "0/0": 45,
+          "0/1": 12,
+          "1/1": 6
+        },
+        "dimensions": {
+          "median_long_edge": 224,
+          "long_edge_gt_224": 74,
+          "long_edge_gt_336": 33,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 117,
+        "largest_groups": [
+          [
+            "AUDIT-G-a42b68477bc4",
+            185
+          ]
+        ]
+      },
+      "E004-new-bundle-20261015": {
+        "records": 86,
+        "groups": 1,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 1,
+              "groups": 1
+            },
+            "negative": {
+              "records": 83,
+              "groups": 1
+            },
+            "unknown": {
+              "records": 2,
+              "groups": 1
+            },
+            "sqrt_negative_positive": 9.1104335791443,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-a42b68477bc4",
+                1
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 5,
+              "groups": 1
+            },
+            "negative": {
+              "records": 81,
+              "groups": 1
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 4.024922359499621,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-a42b68477bc4",
+                5
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "0/0": 78,
+          "1/0": 1,
+          "U/0": 2,
+          "0/1": 5
+        },
+        "dimensions": {
+          "median_long_edge": 224.0,
+          "long_edge_gt_224": 24,
+          "long_edge_gt_336": 19,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 20,
+        "largest_groups": [
+          [
+            "AUDIT-G-a42b68477bc4",
+            86
+          ]
+        ]
+      },
+      "behavie": {
+        "records": 33,
+        "groups": 31,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 11,
+              "groups": 11
+            },
+            "negative": {
+              "records": 21,
+              "groups": 19
+            },
+            "unknown": {
+              "records": 1,
+              "groups": 1
+            },
+            "sqrt_negative_positive": 1.381698559415515,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-8ba1f551a56c",
+                1
+              ],
+              [
+                "AUDIT-G-54c82c9058ab",
+                1
+              ],
+              [
+                "AUDIT-G-eb2a134705f0",
+                1
+              ],
+              [
+                "AUDIT-G-dfa6150fad08",
+                1
+              ],
+              [
+                "AUDIT-G-3af6e6bb7e8b",
+                1
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 9,
+              "groups": 9
+            },
+            "negative": {
+              "records": 24,
+              "groups": 24
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 1.632993161855452,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-ea8debaa6a5c",
+                1
+              ],
+              [
+                "AUDIT-G-7ad2ecf77770",
+                1
+              ],
+              [
+                "AUDIT-G-819aeff0c312",
+                1
+              ],
+              [
+                "AUDIT-G-4540596b1678",
+                1
+              ],
+              [
+                "AUDIT-G-361c1941d508",
+                1
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "1/0": 9,
+          "0/1": 7,
+          "0/0": 14,
+          "U/0": 1,
+          "1/1": 2
+        },
+        "dimensions": {
+          "median_long_edge": 616,
+          "long_edge_gt_224": 33,
+          "long_edge_gt_336": 28,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 17,
+        "largest_groups": [
+          [
+            "AUDIT-G-ea8debaa6a5c",
+            2
+          ],
+          [
+            "AUDIT-G-7ad2ecf77770",
+            2
+          ],
+          [
+            "AUDIT-G-8ba1f551a56c",
+            1
+          ],
+          [
+            "AUDIT-G-18a369d3a30c",
+            1
+          ],
+          [
+            "AUDIT-G-a976bec8a2cc",
+            1
+          ]
+        ]
+      },
+      "classroom_attitude": {
+        "records": 67,
+        "groups": 47,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 34,
+              "groups": 31
+            },
+            "negative": {
+              "records": 25,
+              "groups": 17
+            },
+            "unknown": {
+              "records": 8,
+              "groups": 6
+            },
+            "sqrt_negative_positive": 0.8574929257125442,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-d54cafaed8d3",
+                3
+              ],
+              [
+                "AUDIT-G-93a320738280",
+                2
+              ],
+              [
+                "AUDIT-G-5334aedf9d3d",
+                1
+              ],
+              [
+                "AUDIT-G-f002d9f60ef8",
+                1
+              ],
+              [
+                "AUDIT-G-f7a0531da2af",
+                1
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 14,
+              "groups": 9
+            },
+            "negative": {
+              "records": 53,
+              "groups": 41
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 1.9456912102680337,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-f002d9f60ef8",
+                3
+              ],
+              [
+                "AUDIT-G-3ed82094ac59",
+                3
+              ],
+              [
+                "AUDIT-G-da8d0f648bce",
+                2
+              ],
+              [
+                "AUDIT-G-f957c0bae0a7",
+                1
+              ],
+              [
+                "AUDIT-G-953954485996",
+                1
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "1/0": 33,
+          "0/1": 11,
+          "0/0": 14,
+          "1/1": 1,
+          "U/0": 6,
+          "U/1": 2
+        },
+        "dimensions": {
+          "median_long_edge": 453,
+          "long_edge_gt_224": 63,
+          "long_edge_gt_336": 49,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 0,
+        "largest_groups": [
+          [
+            "AUDIT-G-5b0377b53747",
+            5
+          ],
+          [
+            "AUDIT-G-f002d9f60ef8",
+            4
+          ],
+          [
+            "AUDIT-G-3ed82094ac59",
+            4
+          ],
+          [
+            "AUDIT-G-d54cafaed8d3",
+            3
+          ],
+          [
+            "AUDIT-G-ca5bdab5ee4d",
+            3
+          ]
+        ]
+      },
+      "classroom_monitoring_v2": {
+        "records": 20,
+        "groups": 1,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 4,
+              "groups": 1
+            },
+            "negative": {
+              "records": 11,
+              "groups": 1
+            },
+            "unknown": {
+              "records": 5,
+              "groups": 1
+            },
+            "sqrt_negative_positive": 1.6583123951777,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-b7e021cae7b2",
+                4
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 3,
+              "groups": 1
+            },
+            "negative": {
+              "records": 17,
+              "groups": 1
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 2.3804761428476167,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-b7e021cae7b2",
+                3
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "1/0": 4,
+          "U/0": 3,
+          "0/0": 10,
+          "U/1": 2,
+          "0/1": 1
+        },
+        "dimensions": {
+          "median_long_edge": 179.0,
+          "long_edge_gt_224": 1,
+          "long_edge_gt_336": 0,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 0,
+        "largest_groups": [
+          [
+            "AUDIT-G-b7e021cae7b2",
+            20
+          ]
+        ]
+      },
+      "coco_2017_train": {
+        "records": 5,
+        "groups": 5,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 2,
+              "groups": 2
+            },
+            "negative": {
+              "records": 3,
+              "groups": 3
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 1.224744871391589,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-ca4e36ffb70f",
+                1
+              ],
+              [
+                "AUDIT-G-8a7cb31da91e",
+                1
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 5,
+              "groups": 5
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          }
+        },
+        "cooccurrence": {
+          "1/0": 2,
+          "0/0": 3
+        },
+        "dimensions": {
+          "median_long_edge": 348,
+          "long_edge_gt_224": 5,
+          "long_edge_gt_336": 3,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 0,
+        "largest_groups": [
+          [
+            "AUDIT-G-ca4e36ffb70f",
+            1
+          ],
+          [
+            "AUDIT-G-c47f1b2f8775",
+            1
+          ],
+          [
+            "AUDIT-G-8b85b858891f",
+            1
+          ],
+          [
+            "AUDIT-G-a25dfe3ab915",
+            1
+          ],
+          [
+            "AUDIT-G-8a7cb31da91e",
+            1
+          ]
+        ]
+      },
+      "commons_classroom_gapfill": {
+        "records": 18,
+        "groups": 11,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 14,
+              "groups": 8
+            },
+            "negative": {
+              "records": 4,
+              "groups": 3
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 0.5345224838248488,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-960e2d1c12d0",
+                5
+              ],
+              [
+                "AUDIT-G-29789898a0cd",
+                3
+              ],
+              [
+                "AUDIT-G-44a5cb9e25ac",
+                1
+              ],
+              [
+                "AUDIT-G-b59cce3252b3",
+                1
+              ],
+              [
+                "AUDIT-G-3b4852e86083",
+                1
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 1,
+              "groups": 1
+            },
+            "negative": {
+              "records": 17,
+              "groups": 11
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 4.123105625617661,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-29789898a0cd",
+                1
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "1/0": 13,
+          "0/0": 4,
+          "1/1": 1
+        },
+        "dimensions": {
+          "median_long_edge": 1076.5,
+          "long_edge_gt_224": 18,
+          "long_edge_gt_336": 18,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 0,
+        "largest_groups": [
+          [
+            "AUDIT-G-960e2d1c12d0",
+            5
+          ],
+          [
+            "AUDIT-G-29789898a0cd",
+            3
+          ],
+          [
+            "AUDIT-G-bb8d48dbe95c",
+            2
+          ],
+          [
+            "AUDIT-G-44a5cb9e25ac",
+            1
+          ],
+          [
+            "AUDIT-G-b59cce3252b3",
+            1
+          ]
+        ]
+      },
+      "consolidated-frames-20261013": {
+        "records": 48,
+        "groups": 10,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 20,
+              "groups": 5
+            },
+            "negative": {
+              "records": 28,
+              "groups": 6
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 1.1832159566199232,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-bddaa1a41f46",
+                14
+              ],
+              [
+                "AUDIT-G-871b187b5082",
+                2
+              ],
+              [
+                "AUDIT-G-62c6cb2900bc",
+                2
+              ],
+              [
+                "AUDIT-G-c0dc2033987e",
+                1
+              ],
+              [
+                "AUDIT-G-c5e85ded6dce",
+                1
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 4,
+              "groups": 3
+            },
+            "negative": {
+              "records": 43,
+              "groups": 10
+            },
+            "unknown": {
+              "records": 1,
+              "groups": 1
+            },
+            "sqrt_negative_positive": 3.278719262151,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-bddaa1a41f46",
+                2
+              ],
+              [
+                "AUDIT-G-871b187b5082",
+                1
+              ],
+              [
+                "AUDIT-G-1ec324869dd0",
+                1
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "0/0": 24,
+          "1/0": 19,
+          "0/U": 1,
+          "1/1": 1,
+          "0/1": 3
+        },
+        "dimensions": {
+          "median_long_edge": 367.5,
+          "long_edge_gt_224": 44,
+          "long_edge_gt_336": 32,
+          "long_edge_lt_112": 1
+        },
+        "anchor_context_area_lt_0_70": 25,
+        "largest_groups": [
+          [
+            "AUDIT-G-bddaa1a41f46",
+            30
+          ],
+          [
+            "AUDIT-G-1ec324869dd0",
+            7
+          ],
+          [
+            "AUDIT-G-871b187b5082",
+            2
+          ],
+          [
+            "AUDIT-G-62c6cb2900bc",
+            2
+          ],
+          [
+            "AUDIT-G-44d3060d79c4",
+            2
+          ]
+        ]
+      },
+      "exam_cheating_keaor": {
+        "records": 30,
+        "groups": 16,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 6,
+              "groups": 5
+            },
+            "negative": {
+              "records": 23,
+              "groups": 12
+            },
+            "unknown": {
+              "records": 1,
+              "groups": 1
+            },
+            "sqrt_negative_positive": 1.9578900207451218,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-d5e65443689f",
+                2
+              ],
+              [
+                "AUDIT-G-736bd5d17561",
+                1
+              ],
+              [
+                "AUDIT-G-77d089a44afa",
+                1
+              ],
+              [
+                "AUDIT-G-f002d9f60ef8",
+                1
+              ],
+              [
+                "AUDIT-G-d43aa5ebb6ea",
+                1
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 15,
+              "groups": 13
+            },
+            "negative": {
+              "records": 15,
+              "groups": 8
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 1.0,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-32c1dd64c9b2",
+                2
+              ],
+              [
+                "AUDIT-G-a1b48e2b70aa",
+                2
+              ],
+              [
+                "AUDIT-G-f002d9f60ef8",
+                1
+              ],
+              [
+                "AUDIT-G-76da77ce17cc",
+                1
+              ],
+              [
+                "AUDIT-G-ce18fc6d0661",
+                1
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "1/0": 5,
+          "0/0": 10,
+          "0/1": 13,
+          "U/1": 1,
+          "1/1": 1
+        },
+        "dimensions": {
+          "median_long_edge": 316.0,
+          "long_edge_gt_224": 24,
+          "long_edge_gt_336": 14,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 0,
+        "largest_groups": [
+          [
+            "AUDIT-G-a1b48e2b70aa",
+            8
+          ],
+          [
+            "AUDIT-G-f002d9f60ef8",
+            3
+          ],
+          [
+            "AUDIT-G-736bd5d17561",
+            2
+          ],
+          [
+            "AUDIT-G-d5e65443689f",
+            2
+          ],
+          [
+            "AUDIT-G-32c1dd64c9b2",
+            2
+          ]
+        ]
+      },
+      "openimages_train_prefix": {
+        "records": 35,
+        "groups": 32,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 9,
+              "groups": 9
+            },
+            "negative": {
+              "records": 24,
+              "groups": 22
+            },
+            "unknown": {
+              "records": 2,
+              "groups": 2
+            },
+            "sqrt_negative_positive": 1.632993161855452,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-11acdd5e62ef",
+                1
+              ],
+              [
+                "AUDIT-G-65ce66e91e06",
+                1
+              ],
+              [
+                "AUDIT-G-af0dec113e50",
+                1
+              ],
+              [
+                "AUDIT-G-7d8b0431a013",
+                1
+              ],
+              [
+                "AUDIT-G-12376f3ae827",
+                1
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 5,
+              "groups": 5
+            },
+            "negative": {
+              "records": 30,
+              "groups": 27
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 2.449489742783178,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-1fbbe86421e1",
+                1
+              ],
+              [
+                "AUDIT-G-229b0f61cc44",
+                1
+              ],
+              [
+                "AUDIT-G-a674eaf16a71",
+                1
+              ],
+              [
+                "AUDIT-G-55039e362ce4",
+                1
+              ],
+              [
+                "AUDIT-G-d9616ebbea00",
+                1
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "1/0": 9,
+          "U/0": 2,
+          "0/0": 19,
+          "0/1": 5
+        },
+        "dimensions": {
+          "median_long_edge": 613,
+          "long_edge_gt_224": 34,
+          "long_edge_gt_336": 30,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 0,
+        "largest_groups": [
+          [
+            "AUDIT-G-e03a35a80413",
+            2
+          ],
+          [
+            "AUDIT-G-05d05f39c97b",
+            2
+          ],
+          [
+            "AUDIT-G-39955f7c96f7",
+            2
+          ],
+          [
+            "AUDIT-G-11acdd5e62ef",
+            1
+          ],
+          [
+            "AUDIT-G-65ce66e91e06",
+            1
+          ]
+        ]
+      },
+      "owner-frames-part01-20261016": {
+        "records": 37,
+        "groups": 2,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 1,
+              "groups": 1
+            },
+            "negative": {
+              "records": 34,
+              "groups": 2
+            },
+            "unknown": {
+              "records": 2,
+              "groups": 1
+            },
+            "sqrt_negative_positive": 5.830951894845301,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-a42b68477bc4",
+                1
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 3,
+              "groups": 2
+            },
+            "negative": {
+              "records": 33,
+              "groups": 2
+            },
+            "unknown": {
+              "records": 1,
+              "groups": 1
+            },
+            "sqrt_negative_positive": 3.3166247903554,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-a42b68477bc4",
+                2
+              ],
+              [
+                "AUDIT-G-1be5c3aac6e1",
+                1
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "0/0": 30,
+          "0/1": 3,
+          "U/0": 2,
+          "0/U": 1,
+          "1/0": 1
+        },
+        "dimensions": {
+          "median_long_edge": 214,
+          "long_edge_gt_224": 18,
+          "long_edge_gt_336": 3,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 19,
+        "largest_groups": [
+          [
+            "AUDIT-G-a42b68477bc4",
+            27
+          ],
+          [
+            "AUDIT-G-1be5c3aac6e1",
+            10
+          ]
+        ]
+      },
+      "owner-frames-part02-20261016": {
+        "records": 26,
+        "groups": 2,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 23,
+              "groups": 2
+            },
+            "unknown": {
+              "records": 3,
+              "groups": 1
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          },
+          "looking_around": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 25,
+              "groups": 2
+            },
+            "unknown": {
+              "records": 1,
+              "groups": 1
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          }
+        },
+        "cooccurrence": {
+          "0/0": 22,
+          "0/U": 1,
+          "U/0": 3
+        },
+        "dimensions": {
+          "median_long_edge": 237.0,
+          "long_edge_gt_224": 16,
+          "long_edge_gt_336": 6,
+          "long_edge_lt_112": 1
+        },
+        "anchor_context_area_lt_0_70": 13,
+        "largest_groups": [
+          [
+            "AUDIT-G-1be5c3aac6e1",
+            13
+          ],
+          [
+            "AUDIT-G-a42b68477bc4",
+            13
+          ]
+        ]
+      },
+      "owner-frames-part03-20261016": {
+        "records": 40,
+        "groups": 2,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 17,
+              "groups": 2
+            },
+            "negative": {
+              "records": 21,
+              "groups": 1
+            },
+            "unknown": {
+              "records": 2,
+              "groups": 1
+            },
+            "sqrt_negative_positive": 1.1114378604524227,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-1be5c3aac6e1",
+                15
+              ],
+              [
+                "AUDIT-G-a42b68477bc4",
+                2
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 2,
+              "groups": 2
+            },
+            "negative": {
+              "records": 38,
+              "groups": 2
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 4.358898943540674,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-1be5c3aac6e1",
+                1
+              ],
+              [
+                "AUDIT-G-a42b68477bc4",
+                1
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "0/0": 20,
+          "0/1": 1,
+          "U/0": 2,
+          "1/0": 16,
+          "1/1": 1
+        },
+        "dimensions": {
+          "median_long_edge": 312.5,
+          "long_edge_gt_224": 39,
+          "long_edge_gt_336": 13,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 3,
+        "largest_groups": [
+          [
+            "AUDIT-G-1be5c3aac6e1",
+            38
+          ],
+          [
+            "AUDIT-G-a42b68477bc4",
+            2
+          ]
+        ]
+      },
+      "owner-frames-part04-20261016": {
+        "records": 26,
+        "groups": 2,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 7,
+              "groups": 1
+            },
+            "negative": {
+              "records": 16,
+              "groups": 1
+            },
+            "unknown": {
+              "records": 3,
+              "groups": 2
+            },
+            "sqrt_negative_positive": 1.5118578920369088,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-a42b68477bc4",
+                7
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 1,
+              "groups": 1
+            },
+            "negative": {
+              "records": 24,
+              "groups": 2
+            },
+            "unknown": {
+              "records": 1,
+              "groups": 1
+            },
+            "sqrt_negative_positive": 4.898979485566356,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-a42b68477bc4",
+                1
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "1/0": 6,
+          "U/0": 3,
+          "1/1": 1,
+          "0/0": 15,
+          "0/U": 1
+        },
+        "dimensions": {
+          "median_long_edge": 299.5,
+          "long_edge_gt_224": 21,
+          "long_edge_gt_336": 9,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 6,
+        "largest_groups": [
+          [
+            "AUDIT-G-1be5c3aac6e1",
+            18
+          ],
+          [
+            "AUDIT-G-a42b68477bc4",
+            8
+          ]
+        ]
+      },
+      "owner-frames-part05-20261016": {
+        "records": 48,
+        "groups": 2,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 45,
+              "groups": 2
+            },
+            "unknown": {
+              "records": 3,
+              "groups": 1
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          },
+          "looking_around": {
+            "positive": {
+              "records": 4,
+              "groups": 2
+            },
+            "negative": {
+              "records": 43,
+              "groups": 2
+            },
+            "unknown": {
+              "records": 1,
+              "groups": 1
+            },
+            "sqrt_negative_positive": 3.278719262151,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-a42b68477bc4",
+                3
+              ],
+              [
+                "AUDIT-G-1be5c3aac6e1",
+                1
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "0/0": 40,
+          "U/0": 3,
+          "0/1": 4,
+          "0/U": 1
+        },
+        "dimensions": {
+          "median_long_edge": 251.5,
+          "long_edge_gt_224": 34,
+          "long_edge_gt_336": 10,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 13,
+        "largest_groups": [
+          [
+            "AUDIT-G-1be5c3aac6e1",
+            41
+          ],
+          [
+            "AUDIT-G-a42b68477bc4",
+            7
+          ]
+        ]
+      },
+      "pexels-v2-20261013": {
+        "records": 35,
+        "groups": 12,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 14,
+              "groups": 8
+            },
+            "negative": {
+              "records": 17,
+              "groups": 5
+            },
+            "unknown": {
+              "records": 4,
+              "groups": 3
+            },
+            "sqrt_negative_positive": 1.1019463300386794,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-18d00bd8c58d",
+                6
+              ],
+              [
+                "AUDIT-G-bddaa1a41f46",
+                2
+              ],
+              [
+                "AUDIT-G-62c6cb2900bc",
+                1
+              ],
+              [
+                "AUDIT-G-26ebff27de8c",
+                1
+              ],
+              [
+                "AUDIT-G-01634d73be60",
+                1
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 15,
+              "groups": 7
+            },
+            "negative": {
+              "records": 19,
+              "groups": 9
+            },
+            "unknown": {
+              "records": 1,
+              "groups": 1
+            },
+            "sqrt_negative_positive": 1.1254628677422756,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-bddaa1a41f46",
+                4
+              ],
+              [
+                "AUDIT-G-18d00bd8c58d",
+                4
+              ],
+              [
+                "AUDIT-G-d1bca7b0a68b",
+                2
+              ],
+              [
+                "AUDIT-G-c5e85ded6dce",
+                2
+              ],
+              [
+                "AUDIT-G-62c6cb2900bc",
+                1
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "1/1": 4,
+          "1/0": 9,
+          "U/0": 3,
+          "0/0": 7,
+          "0/1": 10,
+          "1/U": 1,
+          "U/1": 1
+        },
+        "dimensions": {
+          "median_long_edge": 395,
+          "long_edge_gt_224": 30,
+          "long_edge_gt_336": 22,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 19,
+        "largest_groups": [
+          [
+            "AUDIT-G-bddaa1a41f46",
+            12
+          ],
+          [
+            "AUDIT-G-18d00bd8c58d",
+            7
+          ],
+          [
+            "AUDIT-G-c5e85ded6dce",
+            4
+          ],
+          [
+            "AUDIT-G-d1bca7b0a68b",
+            3
+          ],
+          [
+            "AUDIT-G-9c0ce2d4fed0",
+            2
+          ]
+        ]
+      },
+      "roboflow_v1": {
+        "records": 42,
+        "groups": 19,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 11,
+              "groups": 5
+            },
+            "negative": {
+              "records": 26,
+              "groups": 17
+            },
+            "unknown": {
+              "records": 5,
+              "groups": 2
+            },
+            "sqrt_negative_positive": 1.5374122295716148,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-76da77ce17cc",
+                6
+              ],
+              [
+                "AUDIT-G-f002d9f60ef8",
+                2
+              ],
+              [
+                "AUDIT-G-d43aa5ebb6ea",
+                1
+              ],
+              [
+                "AUDIT-G-5edb6cd8551e",
+                1
+              ],
+              [
+                "AUDIT-G-b339dd11f9a5",
+                1
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 11,
+              "groups": 7
+            },
+            "negative": {
+              "records": 31,
+              "groups": 16
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 1.6787441193290353,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-f002d9f60ef8",
+                3
+              ],
+              [
+                "AUDIT-G-76da77ce17cc",
+                2
+              ],
+              [
+                "AUDIT-G-ddad84e4d883",
+                2
+              ],
+              [
+                "AUDIT-G-b339dd11f9a5",
+                1
+              ],
+              [
+                "AUDIT-G-613a0d73a381",
+                1
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "0/0": 16,
+          "0/1": 10,
+          "U/0": 5,
+          "1/0": 10,
+          "1/1": 1
+        },
+        "dimensions": {
+          "median_long_edge": 393.0,
+          "long_edge_gt_224": 33,
+          "long_edge_gt_336": 27,
+          "long_edge_lt_112": 3
+        },
+        "anchor_context_area_lt_0_70": 3,
+        "largest_groups": [
+          [
+            "AUDIT-G-76da77ce17cc",
+            12
+          ],
+          [
+            "AUDIT-G-f002d9f60ef8",
+            9
+          ],
+          [
+            "AUDIT-G-ddad84e4d883",
+            2
+          ],
+          [
+            "AUDIT-G-b339dd11f9a5",
+            2
+          ],
+          [
+            "AUDIT-G-27a4a51388e5",
+            2
+          ]
+        ]
+      },
+      "scb_head": {
+        "records": 25,
+        "groups": 12,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 23,
+              "groups": 12
+            },
+            "unknown": {
+              "records": 2,
+              "groups": 2
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          },
+          "looking_around": {
+            "positive": {
+              "records": 10,
+              "groups": 5
+            },
+            "negative": {
+              "records": 15,
+              "groups": 10
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 1.224744871391589,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-930bbb8d6579",
+                6
+              ],
+              [
+                "AUDIT-G-102208524c99",
+                1
+              ],
+              [
+                "AUDIT-G-deefcd46b903",
+                1
+              ],
+              [
+                "AUDIT-G-1719482d92d0",
+                1
+              ],
+              [
+                "AUDIT-G-cd6c3fa65d37",
+                1
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "0/0": 14,
+          "0/1": 9,
+          "U/1": 1,
+          "U/0": 1
+        },
+        "dimensions": {
+          "median_long_edge": 192,
+          "long_edge_gt_224": 11,
+          "long_edge_gt_336": 3,
+          "long_edge_lt_112": 2
+        },
+        "anchor_context_area_lt_0_70": 2,
+        "largest_groups": [
+          [
+            "AUDIT-G-930bbb8d6579",
+            10
+          ],
+          [
+            "AUDIT-G-1719482d92d0",
+            2
+          ],
+          [
+            "AUDIT-G-102208524c99",
+            2
+          ],
+          [
+            "AUDIT-G-531350dab548",
+            2
+          ],
+          [
+            "AUDIT-G-f1b61977fc3f",
+            2
+          ]
+        ]
+      },
+      "scb_hrw": {
+        "records": 43,
+        "groups": 26,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 43,
+              "groups": 26
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          },
+          "looking_around": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 42,
+              "groups": 25
+            },
+            "unknown": {
+              "records": 1,
+              "groups": 1
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          }
+        },
+        "cooccurrence": {
+          "0/0": 42,
+          "0/U": 1
+        },
+        "dimensions": {
+          "median_long_edge": 202,
+          "long_edge_gt_224": 19,
+          "long_edge_gt_336": 12,
+          "long_edge_lt_112": 3
+        },
+        "anchor_context_area_lt_0_70": 1,
+        "largest_groups": [
+          [
+            "AUDIT-G-930bbb8d6579",
+            6
+          ],
+          [
+            "AUDIT-G-b9b24d524425",
+            5
+          ],
+          [
+            "AUDIT-G-0e13dbf8e402",
+            4
+          ],
+          [
+            "AUDIT-G-298111bbec2c",
+            3
+          ],
+          [
+            "AUDIT-G-deefcd46b903",
+            2
+          ]
+        ]
+      },
+      "student_behaviour": {
+        "records": 45,
+        "groups": 2,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 10,
+              "groups": 1
+            },
+            "negative": {
+              "records": 21,
+              "groups": 2
+            },
+            "unknown": {
+              "records": 14,
+              "groups": 1
+            },
+            "sqrt_negative_positive": 1.449137674618944,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-87e803cafb93",
+                10
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 6,
+              "groups": 1
+            },
+            "negative": {
+              "records": 39,
+              "groups": 2
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 2.5495097567963922,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-87e803cafb93",
+                6
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "U/0": 12,
+          "1/0": 8,
+          "0/0": 19,
+          "0/1": 2,
+          "1/1": 2,
+          "U/1": 2
+        },
+        "dimensions": {
+          "median_long_edge": 152,
+          "long_edge_gt_224": 1,
+          "long_edge_gt_336": 1,
+          "long_edge_lt_112": 5
+        },
+        "anchor_context_area_lt_0_70": 5,
+        "largest_groups": [
+          [
+            "AUDIT-G-87e803cafb93",
+            44
+          ],
+          [
+            "AUDIT-G-817c5cf8d67e",
+            1
+          ]
+        ]
+      },
+      "studentclassroombehavior": {
+        "records": 7,
+        "groups": 6,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 1,
+              "groups": 1
+            },
+            "negative": {
+              "records": 6,
+              "groups": 5
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 2.449489742783178,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-06204162c22e",
+                1
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 1,
+              "groups": 1
+            },
+            "negative": {
+              "records": 5,
+              "groups": 5
+            },
+            "unknown": {
+              "records": 1,
+              "groups": 1
+            },
+            "sqrt_negative_positive": 2.23606797749979,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-24f8ea73efdb",
+                1
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "1/U": 1,
+          "0/0": 5,
+          "0/1": 1
+        },
+        "dimensions": {
+          "median_long_edge": 381,
+          "long_edge_gt_224": 6,
+          "long_edge_gt_336": 4,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 5,
+        "largest_groups": [
+          [
+            "AUDIT-G-24f8ea73efdb",
+            2
+          ],
+          [
+            "AUDIT-G-06204162c22e",
+            1
+          ],
+          [
+            "AUDIT-G-eccf11266d34",
+            1
+          ],
+          [
+            "AUDIT-G-1807f2644b58",
+            1
+          ],
+          [
+            "AUDIT-G-a17685f665ce",
+            1
+          ]
+        ]
+      },
+      "unresolved_new_origin": {
+        "records": 136,
+        "groups": 21,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 59,
+              "groups": 12
+            },
+            "negative": {
+              "records": 75,
+              "groups": 17
+            },
+            "unknown": {
+              "records": 2,
+              "groups": 2
+            },
+            "sqrt_negative_positive": 1.1274690420042432,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-87e803cafb93",
+                18
+              ],
+              [
+                "AUDIT-G-a42b68477bc4",
+                13
+              ],
+              [
+                "AUDIT-G-1be5c3aac6e1",
+                9
+              ],
+              [
+                "AUDIT-G-8ba1f551a56c",
+                5
+              ],
+              [
+                "AUDIT-G-033ee4855fd5",
+                3
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 42,
+              "groups": 17
+            },
+            "negative": {
+              "records": 94,
+              "groups": 19
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 1.4960264830861913,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-87e803cafb93",
+                7
+              ],
+              [
+                "AUDIT-G-a42b68477bc4",
+                6
+              ],
+              [
+                "AUDIT-G-1be5c3aac6e1",
+                4
+              ],
+              [
+                "AUDIT-G-930bbb8d6579",
+                3
+              ],
+              [
+                "AUDIT-G-8ba1f551a56c",
+                3
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "0/0": 52,
+          "0/1": 23,
+          "1/0": 41,
+          "1/1": 18,
+          "U/0": 1,
+          "U/1": 1
+        },
+        "dimensions": {
+          "median_long_edge": 1271.5,
+          "long_edge_gt_224": 130,
+          "long_edge_gt_336": 130,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 33,
+        "largest_groups": [
+          [
+            "AUDIT-G-a42b68477bc4",
+            39
+          ],
+          [
+            "AUDIT-G-87e803cafb93",
+            24
+          ],
+          [
+            "AUDIT-G-1be5c3aac6e1",
+            16
+          ],
+          [
+            "AUDIT-G-bddaa1a41f46",
+            5
+          ],
+          [
+            "AUDIT-G-8ba1f551a56c",
+            5
+          ]
+        ]
+      },
+      "unsplash-20261013": {
+        "records": 14,
+        "groups": 10,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 10,
+              "groups": 6
+            },
+            "negative": {
+              "records": 4,
+              "groups": 4
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 0.6324555320336759,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-9e2cb303e43b",
+                4
+              ],
+              [
+                "AUDIT-G-01634d73be60",
+                2
+              ],
+              [
+                "AUDIT-G-9536d52b12a0",
+                1
+              ],
+              [
+                "AUDIT-G-3a543157cf3d",
+                1
+              ],
+              [
+                "AUDIT-G-02c2fd6628e6",
+                1
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 14,
+              "groups": 10
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          }
+        },
+        "cooccurrence": {
+          "1/0": 10,
+          "0/0": 4
+        },
+        "dimensions": {
+          "median_long_edge": 674.0,
+          "long_edge_gt_224": 14,
+          "long_edge_gt_336": 14,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 7,
+        "largest_groups": [
+          [
+            "AUDIT-G-9e2cb303e43b",
+            4
+          ],
+          [
+            "AUDIT-G-01634d73be60",
+            2
+          ],
+          [
+            "AUDIT-G-9536d52b12a0",
+            1
+          ],
+          [
+            "AUDIT-G-43faba18e6a6",
+            1
+          ],
+          [
+            "AUDIT-G-3a543157cf3d",
+            1
+          ]
+        ]
+      },
+      "wmf_knowledge_everyone": {
+        "records": 2,
+        "groups": 1,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 2,
+              "groups": 1
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          },
+          "looking_around": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 2,
+              "groups": 1
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          }
+        },
+        "cooccurrence": {
+          "0/0": 2
+        },
+        "dimensions": {
+          "median_long_edge": 222.5,
+          "long_edge_gt_224": 1,
+          "long_edge_gt_336": 0,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 0,
+        "largest_groups": [
+          [
+            "AUDIT-G-627bdafa1582",
+            2
+          ]
+        ]
+      },
+      "youtube-crawl-20261018": {
+        "records": 66,
+        "groups": 5,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 17,
+              "groups": 1
+            },
+            "negative": {
+              "records": 49,
+              "groups": 5
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 1.697749375254331,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-90f8a6ebf178",
+                17
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 5,
+              "groups": 4
+            },
+            "negative": {
+              "records": 60,
+              "groups": 5
+            },
+            "unknown": {
+              "records": 1,
+              "groups": 1
+            },
+            "sqrt_negative_positive": 3.4641016151377544,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-11037ac665e0",
+                2
+              ],
+              [
+                "AUDIT-G-90f8a6ebf178",
+                1
+              ],
+              [
+                "AUDIT-G-41e41aa4fb78",
+                1
+              ],
+              [
+                "AUDIT-G-5511616149c4",
+                1
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "1/0": 15,
+          "0/0": 45,
+          "1/1": 1,
+          "0/1": 4,
+          "1/U": 1
+        },
+        "dimensions": {
+          "median_long_edge": 202.0,
+          "long_edge_gt_224": 26,
+          "long_edge_gt_336": 1,
+          "long_edge_lt_112": 10
+        },
+        "anchor_context_area_lt_0_70": 40,
+        "largest_groups": [
+          [
+            "AUDIT-G-90f8a6ebf178",
+            32
+          ],
+          [
+            "AUDIT-G-5511616149c4",
+            14
+          ],
+          [
+            "AUDIT-G-41e41aa4fb78",
+            10
+          ],
+          [
+            "AUDIT-G-1bfd0787a02a",
+            7
+          ],
+          [
+            "AUDIT-G-11037ac665e0",
+            3
+          ]
+        ]
+      }
+    },
+    "val": {
+      "E004-crop-bundle-20261014": {
+        "records": 0,
+        "groups": 0,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 0,
+              "groups": 0
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          },
+          "looking_around": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 0,
+              "groups": 0
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          }
+        },
+        "cooccurrence": {},
+        "dimensions": {
+          "median_long_edge": null,
+          "long_edge_gt_224": 0,
+          "long_edge_gt_336": 0,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 0,
+        "largest_groups": []
+      },
+      "E004-new-bundle-20261015": {
+        "records": 0,
+        "groups": 0,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 0,
+              "groups": 0
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          },
+          "looking_around": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 0,
+              "groups": 0
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          }
+        },
+        "cooccurrence": {},
+        "dimensions": {
+          "median_long_edge": null,
+          "long_edge_gt_224": 0,
+          "long_edge_gt_336": 0,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 0,
+        "largest_groups": []
+      },
+      "behavie": {
+        "records": 0,
+        "groups": 0,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 0,
+              "groups": 0
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          },
+          "looking_around": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 0,
+              "groups": 0
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          }
+        },
+        "cooccurrence": {},
+        "dimensions": {
+          "median_long_edge": null,
+          "long_edge_gt_224": 0,
+          "long_edge_gt_336": 0,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 0,
+        "largest_groups": []
+      },
+      "classroom_attitude": {
+        "records": 30,
+        "groups": 23,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 23,
+              "groups": 19
+            },
+            "negative": {
+              "records": 4,
+              "groups": 4
+            },
+            "unknown": {
+              "records": 3,
+              "groups": 2
+            },
+            "sqrt_negative_positive": 0.41702882811414954,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-427adbb68b90",
+                2
+              ],
+              [
+                "AUDIT-G-47a05ee7832f",
+                2
+              ],
+              [
+                "AUDIT-G-e75d3ea33f87",
+                2
+              ],
+              [
+                "AUDIT-G-03f430723e05",
+                2
+              ],
+              [
+                "AUDIT-G-18fea63f31fb",
+                1
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 2,
+              "groups": 2
+            },
+            "negative": {
+              "records": 28,
+              "groups": 21
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 3.7416573867739413,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-2100d6d00ef4",
+                1
+              ],
+              [
+                "AUDIT-G-bb5899940687",
+                1
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "1/0": 23,
+          "U/0": 3,
+          "0/0": 2,
+          "0/1": 2
+        },
+        "dimensions": {
+          "median_long_edge": 352.0,
+          "long_edge_gt_224": 29,
+          "long_edge_gt_336": 18,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 1,
+        "largest_groups": [
+          [
+            "AUDIT-G-427adbb68b90",
+            4
+          ],
+          [
+            "AUDIT-G-47a05ee7832f",
+            3
+          ],
+          [
+            "AUDIT-G-e75d3ea33f87",
+            2
+          ],
+          [
+            "AUDIT-G-03f430723e05",
+            2
+          ],
+          [
+            "AUDIT-G-18fea63f31fb",
+            1
+          ]
+        ]
+      },
+      "classroom_monitoring_v2": {
+        "records": 0,
+        "groups": 0,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 0,
+              "groups": 0
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          },
+          "looking_around": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 0,
+              "groups": 0
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          }
+        },
+        "cooccurrence": {},
+        "dimensions": {
+          "median_long_edge": null,
+          "long_edge_gt_224": 0,
+          "long_edge_gt_336": 0,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 0,
+        "largest_groups": []
+      },
+      "coco_2017_train": {
+        "records": 0,
+        "groups": 0,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 0,
+              "groups": 0
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          },
+          "looking_around": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 0,
+              "groups": 0
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          }
+        },
+        "cooccurrence": {},
+        "dimensions": {
+          "median_long_edge": null,
+          "long_edge_gt_224": 0,
+          "long_edge_gt_336": 0,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 0,
+        "largest_groups": []
+      },
+      "commons_classroom_gapfill": {
+        "records": 1,
+        "groups": 1,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 1,
+              "groups": 1
+            },
+            "negative": {
+              "records": 0,
+              "groups": 0
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 0.0,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-309e775a520a",
+                1
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 1,
+              "groups": 1
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          }
+        },
+        "cooccurrence": {
+          "1/0": 1
+        },
+        "dimensions": {
+          "median_long_edge": 1460,
+          "long_edge_gt_224": 1,
+          "long_edge_gt_336": 1,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 0,
+        "largest_groups": [
+          [
+            "AUDIT-G-309e775a520a",
+            1
+          ]
+        ]
+      },
+      "consolidated-frames-20261013": {
+        "records": 5,
+        "groups": 5,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 2,
+              "groups": 2
+            },
+            "negative": {
+              "records": 3,
+              "groups": 3
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 1.224744871391589,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-306328761bd6",
+                1
+              ],
+              [
+                "AUDIT-G-234cefce6103",
+                1
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 5,
+              "groups": 5
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          }
+        },
+        "cooccurrence": {
+          "1/0": 2,
+          "0/0": 3
+        },
+        "dimensions": {
+          "median_long_edge": 900,
+          "long_edge_gt_224": 5,
+          "long_edge_gt_336": 5,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 1,
+        "largest_groups": [
+          [
+            "AUDIT-G-306328761bd6",
+            1
+          ],
+          [
+            "AUDIT-G-234cefce6103",
+            1
+          ],
+          [
+            "AUDIT-G-cd5bb3c3f29f",
+            1
+          ],
+          [
+            "AUDIT-G-f537227ca5d6",
+            1
+          ],
+          [
+            "AUDIT-G-4ae2818e4a2f",
+            1
+          ]
+        ]
+      },
+      "exam_cheating_keaor": {
+        "records": 10,
+        "groups": 6,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 4,
+              "groups": 4
+            },
+            "negative": {
+              "records": 6,
+              "groups": 2
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 1.224744871391589,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-a626bf97afea",
+                1
+              ],
+              [
+                "AUDIT-G-4879317c7e86",
+                1
+              ],
+              [
+                "AUDIT-G-6c1282220376",
+                1
+              ],
+              [
+                "AUDIT-G-35cc4606f795",
+                1
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 3,
+              "groups": 2
+            },
+            "negative": {
+              "records": 7,
+              "groups": 6
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 1.5275252316519468,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-ae46dde5a1c9",
+                2
+              ],
+              [
+                "AUDIT-G-a9198aab32cf",
+                1
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "1/0": 4,
+          "0/0": 3,
+          "0/1": 3
+        },
+        "dimensions": {
+          "median_long_edge": 484.0,
+          "long_edge_gt_224": 10,
+          "long_edge_gt_336": 10,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 0,
+        "largest_groups": [
+          [
+            "AUDIT-G-ae46dde5a1c9",
+            4
+          ],
+          [
+            "AUDIT-G-a9198aab32cf",
+            2
+          ],
+          [
+            "AUDIT-G-a626bf97afea",
+            1
+          ],
+          [
+            "AUDIT-G-4879317c7e86",
+            1
+          ],
+          [
+            "AUDIT-G-6c1282220376",
+            1
+          ]
+        ]
+      },
+      "openimages_train_prefix": {
+        "records": 7,
+        "groups": 6,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 4,
+              "groups": 3
+            },
+            "negative": {
+              "records": 3,
+              "groups": 3
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 0.8660254037844386,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-6937412cae4f",
+                2
+              ],
+              [
+                "AUDIT-G-0881bcd67c53",
+                1
+              ],
+              [
+                "AUDIT-G-8ee7dde4145e",
+                1
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 2,
+              "groups": 2
+            },
+            "negative": {
+              "records": 5,
+              "groups": 4
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 1.5811388300841898,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-3a4bab5b2f66",
+                1
+              ],
+              [
+                "AUDIT-G-c4f1df6344ca",
+                1
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "1/0": 4,
+          "0/1": 2,
+          "0/0": 1
+        },
+        "dimensions": {
+          "median_long_edge": 508,
+          "long_edge_gt_224": 7,
+          "long_edge_gt_336": 6,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 0,
+        "largest_groups": [
+          [
+            "AUDIT-G-6937412cae4f",
+            2
+          ],
+          [
+            "AUDIT-G-0881bcd67c53",
+            1
+          ],
+          [
+            "AUDIT-G-8ee7dde4145e",
+            1
+          ],
+          [
+            "AUDIT-G-3a4bab5b2f66",
+            1
+          ],
+          [
+            "AUDIT-G-c4f1df6344ca",
+            1
+          ]
+        ]
+      },
+      "owner-frames-part01-20261016": {
+        "records": 15,
+        "groups": 3,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 3,
+              "groups": 2
+            },
+            "negative": {
+              "records": 8,
+              "groups": 2
+            },
+            "unknown": {
+              "records": 4,
+              "groups": 3
+            },
+            "sqrt_negative_positive": 1.632993161855452,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-84bd7f16d41c",
+                2
+              ],
+              [
+                "AUDIT-G-2ce89fcf05d4",
+                1
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 3,
+              "groups": 2
+            },
+            "negative": {
+              "records": 12,
+              "groups": 3
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 2.0,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-c95982bde3ac",
+                2
+              ],
+              [
+                "AUDIT-G-2ce89fcf05d4",
+                1
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "0/0": 7,
+          "0/1": 1,
+          "U/0": 2,
+          "U/1": 2,
+          "1/0": 3
+        },
+        "dimensions": {
+          "median_long_edge": 213,
+          "long_edge_gt_224": 3,
+          "long_edge_gt_336": 0,
+          "long_edge_lt_112": 1
+        },
+        "anchor_context_area_lt_0_70": 10,
+        "largest_groups": [
+          [
+            "AUDIT-G-84bd7f16d41c",
+            8
+          ],
+          [
+            "AUDIT-G-c95982bde3ac",
+            5
+          ],
+          [
+            "AUDIT-G-2ce89fcf05d4",
+            2
+          ]
+        ]
+      },
+      "owner-frames-part02-20261016": {
+        "records": 39,
+        "groups": 3,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 7,
+              "groups": 1
+            },
+            "negative": {
+              "records": 31,
+              "groups": 3
+            },
+            "unknown": {
+              "records": 1,
+              "groups": 1
+            },
+            "sqrt_negative_positive": 2.104417123236605,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-f46a5ce03d9c",
+                7
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 4,
+              "groups": 3
+            },
+            "negative": {
+              "records": 35,
+              "groups": 3
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 2.958039891549808,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-c95982bde3ac",
+                2
+              ],
+              [
+                "AUDIT-G-faf4d452ebb3",
+                1
+              ],
+              [
+                "AUDIT-G-f46a5ce03d9c",
+                1
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "0/1": 3,
+          "0/0": 28,
+          "1/0": 6,
+          "1/1": 1,
+          "U/0": 1
+        },
+        "dimensions": {
+          "median_long_edge": 203,
+          "long_edge_gt_224": 13,
+          "long_edge_gt_336": 0,
+          "long_edge_lt_112": 6
+        },
+        "anchor_context_area_lt_0_70": 25,
+        "largest_groups": [
+          [
+            "AUDIT-G-faf4d452ebb3",
+            16
+          ],
+          [
+            "AUDIT-G-c95982bde3ac",
+            14
+          ],
+          [
+            "AUDIT-G-f46a5ce03d9c",
+            9
+          ]
+        ]
+      },
+      "owner-frames-part03-20261016": {
+        "records": 0,
+        "groups": 0,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 0,
+              "groups": 0
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          },
+          "looking_around": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 0,
+              "groups": 0
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          }
+        },
+        "cooccurrence": {},
+        "dimensions": {
+          "median_long_edge": null,
+          "long_edge_gt_224": 0,
+          "long_edge_gt_336": 0,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 0,
+        "largest_groups": []
+      },
+      "owner-frames-part04-20261016": {
+        "records": 3,
+        "groups": 1,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 3,
+              "groups": 1
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          },
+          "looking_around": {
+            "positive": {
+              "records": 2,
+              "groups": 1
+            },
+            "negative": {
+              "records": 1,
+              "groups": 1
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 0.7071067811865476,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-c95982bde3ac",
+                2
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "0/0": 1,
+          "0/1": 2
+        },
+        "dimensions": {
+          "median_long_edge": 117,
+          "long_edge_gt_224": 0,
+          "long_edge_gt_336": 0,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 3,
+        "largest_groups": [
+          [
+            "AUDIT-G-c95982bde3ac",
+            3
+          ]
+        ]
+      },
+      "owner-frames-part05-20261016": {
+        "records": 7,
+        "groups": 1,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 2,
+              "groups": 1
+            },
+            "negative": {
+              "records": 5,
+              "groups": 1
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 1.5811388300841898,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-b57f7c3e7223",
+                2
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 1,
+              "groups": 1
+            },
+            "negative": {
+              "records": 6,
+              "groups": 1
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 2.449489742783178,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-b57f7c3e7223",
+                1
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "0/0": 5,
+          "1/1": 1,
+          "1/0": 1
+        },
+        "dimensions": {
+          "median_long_edge": 242,
+          "long_edge_gt_224": 4,
+          "long_edge_gt_336": 3,
+          "long_edge_lt_112": 1
+        },
+        "anchor_context_area_lt_0_70": 3,
+        "largest_groups": [
+          [
+            "AUDIT-G-b57f7c3e7223",
+            7
+          ]
+        ]
+      },
+      "pexels-v2-20261013": {
+        "records": 6,
+        "groups": 5,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 3,
+              "groups": 3
+            },
+            "negative": {
+              "records": 3,
+              "groups": 3
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 1.0,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-3b6f3e6d66b0",
+                1
+              ],
+              [
+                "AUDIT-G-b12c1c9e4616",
+                1
+              ],
+              [
+                "AUDIT-G-2a24b95069f4",
+                1
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 6,
+              "groups": 5
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          }
+        },
+        "cooccurrence": {
+          "1/0": 3,
+          "0/0": 3
+        },
+        "dimensions": {
+          "median_long_edge": 766.5,
+          "long_edge_gt_224": 6,
+          "long_edge_gt_336": 6,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 1,
+        "largest_groups": [
+          [
+            "AUDIT-G-b12c1c9e4616",
+            2
+          ],
+          [
+            "AUDIT-G-3b6f3e6d66b0",
+            1
+          ],
+          [
+            "AUDIT-G-2a24b95069f4",
+            1
+          ],
+          [
+            "AUDIT-G-42b3da913f68",
+            1
+          ],
+          [
+            "AUDIT-G-25fe3edbcbe8",
+            1
+          ]
+        ]
+      },
+      "roboflow_v1": {
+        "records": 12,
+        "groups": 10,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 1,
+              "groups": 1
+            },
+            "negative": {
+              "records": 9,
+              "groups": 8
+            },
+            "unknown": {
+              "records": 2,
+              "groups": 2
+            },
+            "sqrt_negative_positive": 3.0,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-15d03f6bde05",
+                1
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 4,
+              "groups": 4
+            },
+            "negative": {
+              "records": 8,
+              "groups": 6
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 1.4142135623730951,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-0bc1786faf11",
+                1
+              ],
+              [
+                "AUDIT-G-6d5b425cd643",
+                1
+              ],
+              [
+                "AUDIT-G-47d3e969ba58",
+                1
+              ],
+              [
+                "AUDIT-G-05c32740b912",
+                1
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "0/1": 4,
+          "0/0": 5,
+          "1/0": 1,
+          "U/0": 2
+        },
+        "dimensions": {
+          "median_long_edge": 365.5,
+          "long_edge_gt_224": 11,
+          "long_edge_gt_336": 7,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 0,
+        "largest_groups": [
+          [
+            "AUDIT-G-b6a4e4d3434b",
+            2
+          ],
+          [
+            "AUDIT-G-15d03f6bde05",
+            2
+          ],
+          [
+            "AUDIT-G-0bc1786faf11",
+            1
+          ],
+          [
+            "AUDIT-G-1ce9e235543a",
+            1
+          ],
+          [
+            "AUDIT-G-c7214e061621",
+            1
+          ]
+        ]
+      },
+      "scb_head": {
+        "records": 5,
+        "groups": 4,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 5,
+              "groups": 4
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          },
+          "looking_around": {
+            "positive": {
+              "records": 4,
+              "groups": 3
+            },
+            "negative": {
+              "records": 1,
+              "groups": 1
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 0.5,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-89ee6ad74b64",
+                2
+              ],
+              [
+                "AUDIT-G-18f87fa7d592",
+                1
+              ],
+              [
+                "AUDIT-G-3f68d78ef9da",
+                1
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "0/1": 4,
+          "0/0": 1
+        },
+        "dimensions": {
+          "median_long_edge": 111,
+          "long_edge_gt_224": 1,
+          "long_edge_gt_336": 0,
+          "long_edge_lt_112": 3
+        },
+        "anchor_context_area_lt_0_70": 0,
+        "largest_groups": [
+          [
+            "AUDIT-G-89ee6ad74b64",
+            2
+          ],
+          [
+            "AUDIT-G-f05900408e3c",
+            1
+          ],
+          [
+            "AUDIT-G-18f87fa7d592",
+            1
+          ],
+          [
+            "AUDIT-G-3f68d78ef9da",
+            1
+          ]
+        ]
+      },
+      "scb_hrw": {
+        "records": 8,
+        "groups": 7,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 8,
+              "groups": 7
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          },
+          "looking_around": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 8,
+              "groups": 7
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          }
+        },
+        "cooccurrence": {
+          "0/0": 8
+        },
+        "dimensions": {
+          "median_long_edge": 506.5,
+          "long_edge_gt_224": 6,
+          "long_edge_gt_336": 5,
+          "long_edge_lt_112": 1
+        },
+        "anchor_context_area_lt_0_70": 0,
+        "largest_groups": [
+          [
+            "AUDIT-G-18f87fa7d592",
+            2
+          ],
+          [
+            "AUDIT-G-083974449364",
+            1
+          ],
+          [
+            "AUDIT-G-af50587463cc",
+            1
+          ],
+          [
+            "AUDIT-G-089e0555a24e",
+            1
+          ],
+          [
+            "AUDIT-G-b5b853925e4b",
+            1
+          ]
+        ]
+      },
+      "student_behaviour": {
+        "records": 21,
+        "groups": 19,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 21,
+              "groups": 19
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          },
+          "looking_around": {
+            "positive": {
+              "records": 1,
+              "groups": 1
+            },
+            "negative": {
+              "records": 20,
+              "groups": 18
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 4.47213595499958,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-c0af8fb32c4c",
+                1
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "0/0": 20,
+          "0/1": 1
+        },
+        "dimensions": {
+          "median_long_edge": 340,
+          "long_edge_gt_224": 19,
+          "long_edge_gt_336": 11,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 1,
+        "largest_groups": [
+          [
+            "AUDIT-G-f7c06bcf42da",
+            2
+          ],
+          [
+            "AUDIT-G-8f038d8aaa9e",
+            2
+          ],
+          [
+            "AUDIT-G-ae0cbae3310d",
+            1
+          ],
+          [
+            "AUDIT-G-d084ef076093",
+            1
+          ],
+          [
+            "AUDIT-G-45a9bd904fa4",
+            1
+          ]
+        ]
+      },
+      "studentclassroombehavior": {
+        "records": 2,
+        "groups": 2,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 2,
+              "groups": 2
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          },
+          "looking_around": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 2,
+              "groups": 2
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          }
+        },
+        "cooccurrence": {
+          "0/0": 2
+        },
+        "dimensions": {
+          "median_long_edge": 660.0,
+          "long_edge_gt_224": 2,
+          "long_edge_gt_336": 2,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 0,
+        "largest_groups": [
+          [
+            "AUDIT-G-3731357fc5da",
+            1
+          ],
+          [
+            "AUDIT-G-9482364f777d",
+            1
+          ]
+        ]
+      },
+      "unresolved_new_origin": {
+        "records": 13,
+        "groups": 5,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 4,
+              "groups": 3
+            },
+            "negative": {
+              "records": 9,
+              "groups": 3
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 1.5,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-6c1282220376",
+                2
+              ],
+              [
+                "AUDIT-G-2ce89fcf05d4",
+                1
+              ],
+              [
+                "AUDIT-G-47a05ee7832f",
+                1
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 7,
+              "groups": 3
+            },
+            "negative": {
+              "records": 6,
+              "groups": 4
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 0.9258200997725514,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-faf4d452ebb3",
+                3
+              ],
+              [
+                "AUDIT-G-f05900408e3c",
+                3
+              ],
+              [
+                "AUDIT-G-6c1282220376",
+                1
+              ]
+            ]
+          }
+        },
+        "cooccurrence": {
+          "0/1": 6,
+          "1/0": 3,
+          "0/0": 3,
+          "1/1": 1
+        },
+        "dimensions": {
+          "median_long_edge": 1448,
+          "long_edge_gt_224": 13,
+          "long_edge_gt_336": 13,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 2,
+        "largest_groups": [
+          [
+            "AUDIT-G-f05900408e3c",
+            5
+          ],
+          [
+            "AUDIT-G-faf4d452ebb3",
+            3
+          ],
+          [
+            "AUDIT-G-2ce89fcf05d4",
+            2
+          ],
+          [
+            "AUDIT-G-6c1282220376",
+            2
+          ],
+          [
+            "AUDIT-G-47a05ee7832f",
+            1
+          ]
+        ]
+      },
+      "unsplash-20261013": {
+        "records": 1,
+        "groups": 1,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 1,
+              "groups": 1
+            },
+            "negative": {
+              "records": 0,
+              "groups": 0
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": 0.0,
+            "largest_positive_groups": [
+              [
+                "AUDIT-G-4783aa4ba386",
+                1
+              ]
+            ]
+          },
+          "looking_around": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 1,
+              "groups": 1
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          }
+        },
+        "cooccurrence": {
+          "1/0": 1
+        },
+        "dimensions": {
+          "median_long_edge": 321,
+          "long_edge_gt_224": 1,
+          "long_edge_gt_336": 0,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 1,
+        "largest_groups": [
+          [
+            "AUDIT-G-4783aa4ba386",
+            1
+          ]
+        ]
+      },
+      "wmf_knowledge_everyone": {
+        "records": 0,
+        "groups": 0,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 0,
+              "groups": 0
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          },
+          "looking_around": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 0,
+              "groups": 0
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          }
+        },
+        "cooccurrence": {},
+        "dimensions": {
+          "median_long_edge": null,
+          "long_edge_gt_224": 0,
+          "long_edge_gt_336": 0,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 0,
+        "largest_groups": []
+      },
+      "youtube-crawl-20261018": {
+        "records": 0,
+        "groups": 0,
+        "targets": {
+          "phone_use": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 0,
+              "groups": 0
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          },
+          "looking_around": {
+            "positive": {
+              "records": 0,
+              "groups": 0
+            },
+            "negative": {
+              "records": 0,
+              "groups": 0
+            },
+            "unknown": {
+              "records": 0,
+              "groups": 0
+            },
+            "sqrt_negative_positive": null,
+            "largest_positive_groups": []
+          }
+        },
+        "cooccurrence": {},
+        "dimensions": {
+          "median_long_edge": null,
+          "long_edge_gt_224": 0,
+          "long_edge_gt_336": 0,
+          "long_edge_lt_112": 0
+        },
+        "anchor_context_area_lt_0_70": 0,
+        "largest_groups": []
+      }
+    }
+  },
+  "overlap": {
+    "ids": 0,
+    "group": 0,
+    "crop_sha": 0,
+    "source_sha": 0
+  }
+}

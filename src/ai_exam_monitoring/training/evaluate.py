@@ -37,6 +37,7 @@ def evaluate(run_dir: Path, output: Path, workspace: Path, split: str,
     raw_config = json.loads((run_dir / "resolved-config.json").read_text(encoding="utf-8"))
     if raw_config.get("schema_version") in {
         "matched-adaptation-v1", "matched-adaptation-v2", "matched-adaptation-v3",
+        "representation-adaptation-v4",
     }:
         from .adaptation_evaluate import evaluate_adaptation
 

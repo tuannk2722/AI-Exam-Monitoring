@@ -1,0 +1,8 @@
+# Linux/Colab setup recipe; record actual pip freeze before smoke, not a universal lock.
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.8.0+cu128
+torchvision==0.23.0+cu128
+numpy==2.2.6
+Pillow==11.3.0
+PyYAML==6.0.2
+psutil==7.0.0

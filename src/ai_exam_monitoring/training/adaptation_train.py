@@ -5,8 +5,11 @@ from __future__ import annotations
 import copy
 import json
 import math
+import os
 import random
 import time
+from collections.abc import Callable
+from dataclasses import asdict
 from pathlib import Path
 from typing import Any
 
@@ -19,6 +22,7 @@ from ai_exam_monitoring.common.provenance import sha256_file
 from .adaptation_config import (
     AdaptationConfig,
     E005AdaptationConfig,
+    RepresentationConfig,
     ResearchAdaptationConfig,
     load_adaptation_config,
     verify_adaptation_approval,
@@ -40,10 +44,18 @@ from .artifacts import (
     checksum_artifacts,
     code_identity,
     digest_json,
-    environment,
     now,
     save_checkpoint,
     write_json,
+)
+from .calibration import calibrate_exact, evaluate_pair
+from .device import (
+    configure_device,
+    execution_device,
+    execution_environment,
+    move_batch,
+    restore_cuda_rng,
+    save_cuda_rng,
 )
 from .metrics import evaluate_scores, masked_loss
 from .train import peak_rss, restore_rng, rng_state, write_curve
@@ -61,7 +73,7 @@ def infer(model: AdaptationModel, cohort: ImageCohort, config: AdaptationConfig)
                 if is_v3
                 else cohort.batch(indices, config)
             )
-            logits.append(model(batch_in).cpu())
+            logits.append(model(move_batch(batch_in, execution_device(config))).cpu())
     result = torch.cat(logits)
     if not torch.isfinite(result).all():
         raise DataContractError("Nonfinite cohort logits")
@@ -136,6 +148,7 @@ def train_images(
     resume: bool = False,
     interrupt_after: int | None = None,
     remaining_seconds: float | None = None,
+    checkpoint_hook: Callable[[dict[str, Any]], None] | None = None,
 ) -> dict[str, Any]:
     if (
         train.role != "train"
@@ -148,6 +161,8 @@ def train_images(
     use_ap_selection = (
         isinstance(config, E005AdaptationConfig) and config.selection_metric == "val_macro_ap"
     )
+    device = execution_device(config)
+    model.to(device)
     groups, names = model.parameter_groups(config)
     optimizer = torch.optim.AdamW(groups)
     generator = torch.Generator().manual_seed(config.seed)
@@ -185,6 +200,7 @@ def train_images(
         optimizer.load_state_dict(state["optimizer"])
         generator.set_state(state["sampler_rng"])
         restore_rng(state["rng"])
+        restore_cuda_rng(config, state.get("cuda_rng"))
     else:
         provenance = (
             {"head_provenance": config.to_dict()["head_provenance"]}
@@ -209,7 +225,11 @@ def train_images(
             rng=rng_state(),
             sampler_rng=generator.get_state(),
         )
+        if isinstance(config, RepresentationConfig):
+            state["cuda_rng"] = save_cuda_rng(config)
         save_checkpoint(output / "last.pt", state)
+        if checkpoint_hook is not None:
+            checkpoint_hook(state)
 
     if not resume:
         checkpoint()
@@ -241,7 +261,7 @@ def train_images(
 
         if state["epoch"] == 0:
             diagnose(0, 0)
-    known = train.mask.sum(0)
+    known = train.mask.sum(0).to(device)
     for epoch in range(state["epoch"] + 1, config.max_epochs + 1):
         if state["stale"] >= config.patience:
             break
@@ -262,11 +282,11 @@ def train_images(
             optimizer.zero_grad(set_to_none=True)
             if isinstance(config, E005AdaptationConfig):
                 batch_in = train.model_batch(indices, config, epoch=epoch, train_mode=True)
-                logits = model(batch_in)
+                logits = model(move_batch(batch_in, device))
                 loss = minibatch_loss(
                     logits,
-                    train.values[indices],
-                    train.mask[indices],
+                    train.values[indices].to(device),
+                    train.mask[indices].to(device),
                     len(train.ids),
                     known,
                     pos_weight=config.pos_weight,
@@ -392,6 +412,7 @@ def cohort_report(
     config: AdaptationConfig,
     prevalence: torch.Tensor,
     protocol: dict[str, Any],
+    *, thresholds: tuple[float, float] | None = None,
 ) -> tuple[dict[str, Any], list[dict[str, Any]]]:
     logits = infer(model, cohort, config)
     metrics = report_scores(logits, cohort.values, cohort.mask, config.threshold, prevalence)
@@ -444,9 +465,18 @@ def cohort_report(
             slice_membership=enrolled_slices,
         )
         if config.calibrate_thresholds_on_val:
-            cal = calibrate_optimal_thresholds(
-                logits.sigmoid(), cohort.values, cohort.mask, groups=cohort.groups
-            )
+            cal: dict[str, Any]
+            if isinstance(config, RepresentationConfig):
+                if thresholds is None:
+                    raise DataContractError("V4 requires thresholds fitted once on selection")
+                cal = {"threshold_list": list(thresholds),
+                       "thresholds": dict(zip(config.target_order, thresholds, strict=True)),
+                       "evaluation": evaluate_pair(logits.sigmoid(), cohort.values,
+                                                   cohort.mask, thresholds, cohort.groups)}
+            else:
+                cal = calibrate_optimal_thresholds(
+                    logits.sigmoid(), cohort.values, cohort.mask, groups=cohort.groups
+                )
             t_list = cal["threshold_list"]
             calibrated_pair = (float(t_list[0]), float(t_list[1]))
             metrics["calibrated_thresholds"] = cal["thresholds"]
@@ -455,7 +485,9 @@ def cohort_report(
             for s_name, members in enrolled_slices.items():
                 s_idx = [i for i, ident in enumerate(cohort.ids) if ident in set(members)]
                 s_grp = [cohort.groups[i] for i in s_idx]
-                cal_slices[s_name] = evaluate_scores_per_target_thresholds(
+                evaluator = (evaluate_pair if isinstance(config, RepresentationConfig)
+                             else evaluate_scores_per_target_thresholds)
+                cal_slices[s_name] = evaluator(
                     logits[s_idx].sigmoid(),
                     cohort.values[s_idx],
                     cohort.mask[s_idx],
@@ -497,7 +529,8 @@ def cohort_report(
 
 def runtime_signature(env: dict[str, Any]) -> str:
     return digest_json(
-        {key: env[key] for key in ("python", "platform", "packages", "threads", "device")}
+        {key: env[key] for key in ("python", "platform", "packages", "threads", "device",
+                                   *(["accelerator"] if "accelerator" in env else []))}
     )
 
 
@@ -521,7 +554,15 @@ def run_adaptation(
     random.seed(config.seed)
     np.random.seed(config.seed)
     torch.manual_seed(config.seed)
-    code, env = code_identity(), environment()
+    configure_device(config)
+    code, env = code_identity(), execution_environment(config)
+    if isinstance(config, RepresentationConfig) and config.run_kind == "research":
+        from .adaptation_config import FilePin
+
+        readiness = config.readiness.read_json(workspace)
+        smoke = FilePin(**readiness["smoke_receipt"]).read_json(workspace)
+        if smoke.get("runtime_sha256") != runtime_signature(env):
+            raise DataContractError("Research environment differs from actual GPU smoke")
     identity = digest_json(
         {"config": config.to_dict(), "code": code["sha256"], "runtime": runtime_signature(env)}
     )
@@ -565,6 +606,22 @@ def run_adaptation(
         write_json(output / "environment.json", env)
     record.write(output)
     started = time.perf_counter()
+    def mirror(state: dict[str, Any]) -> None:
+        destination = os.environ.get("E007_RECOVERY_DIR")
+        if not isinstance(config, RepresentationConfig) or not destination:
+            return
+        from .recovery import mirror_epoch
+
+        recovery_record = asdict(record)
+        recovery_record.update(
+            status="INTERRUPTED", ended_at=now(), completed_epochs=state["epoch"],
+            best_epoch=state["best_epoch"],
+            elapsed_seconds=record.elapsed_seconds + time.perf_counter() - started,
+            error="Committed epoch recovery snapshot; live process may still be running",
+            observation="Resume only after the original process has stopped.",
+        )
+        mirror_epoch(output, Path(destination), recovery_record)
+
     try:
         config.weights_license.verify(workspace)
         cohorts, protocol = prepare_cohorts(config, workspace)
@@ -574,6 +631,7 @@ def run_adaptation(
             config,
             weights=config.weights.verify(workspace),
             initial_head=config.head_initialization.verify(workspace),
+            workspace=workspace,
         )
         result = train_images(
             model,
@@ -587,14 +645,26 @@ def run_adaptation(
             remaining_seconds=config.wall_time_seconds
             - record.elapsed_seconds
             - (time.perf_counter() - started),
+            checkpoint_hook=mirror if isinstance(config, RepresentationConfig) else None,
         )
         prevalence = (train.values * train.mask).sum(0) / train.mask.sum(0)
         metrics = {}
+        thresholds = None
+        if isinstance(config, RepresentationConfig):
+            thresholds = calibrate_exact(
+                infer(model, selection, config).sigmoid(), selection.values, selection.mask
+            )
+            write_json(output / "calibration.json", {
+                "schema_version": "selection-calibration-v4", "fit_cohort": selection.name,
+                "thresholds": list(thresholds),
+                "checkpoint_sha256": sha256_file(output / "best.pt"),
+                "selection_ids_sha256": digest_json(selection.ids),
+            })
         for cohort in cohorts:
             if record.elapsed_seconds + time.perf_counter() - started >= config.wall_time_seconds:
                 raise TimeoutError("Approved wall-time budget exhausted during reporting")
             metrics[cohort.name], predictions = cohort_report(
-                model, cohort, config, prevalence, protocol
+                model, cohort, config, prevalence, protocol, thresholds=thresholds
             )
             write_json(output / f"predictions-{cohort.name}.json", predictions)
         if record.elapsed_seconds + time.perf_counter() - started >= config.wall_time_seconds:

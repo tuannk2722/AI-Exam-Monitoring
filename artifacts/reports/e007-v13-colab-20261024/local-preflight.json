@@ -1,0 +1,33 @@
+{
+  "code_sha256": "e7810ca31a9a1bf1d2f110f1b348dafe8130f7f2717cb504ff0736f9a23cc8f7",
+  "status": "PASS",
+  "scope": "configuration and accepted dataset verification only; no V13 training/inference",
+  "counts": {
+    "train": 1119,
+    "selection": 185
+  },
+  "configs": [
+    {
+      "id": "E007-V13-SMOKE-R0-FULL",
+      "model": "resnet18_single_crop_v3",
+      "config_approval": "PASS"
+    },
+    {
+      "id": "E007-V13-SMOKE-R0-RESUME",
+      "model": "resnet18_single_crop_v3",
+      "config_approval": "PASS"
+    },
+    {
+      "id": "E007-V13-SMOKE-D1-FULL",
+      "model": "dinov2_vits14_v4",
+      "config_approval": "PASS"
+    },
+    {
+      "id": "E007-V13-SMOKE-D1-RESUME",
+      "model": "dinov2_vits14_v4",
+      "config_approval": "PASS"
+    }
+  ],
+  "actual_gpu_smoke": "NOT_RUN",
+  "official_dino_synthetic_check": "PASS pretrained state load, 336 features exact parity, last-two-block gradients; CPU synthetic tensor only"
+}

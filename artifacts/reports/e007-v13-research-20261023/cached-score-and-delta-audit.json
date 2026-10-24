@@ -1,0 +1,238 @@
+{
+  "inputs": {
+    "data/processed/pilot-b/pilot-b-20261020-v12/manifest.jsonl": "debc4af96314b2d550eb21318bdc2597ee375913aebfb3b952d06137f85b80fe",
+    "data/processed/pilot-b/pilot-b-20261023-v13/manifest.jsonl": "6175a015bd08ed33550e46e3d967f21324534ef540b1c234d328275fdbd4ff88",
+    "outputs\\E006-V12-S1-SQRT-S20261020-R4\\predictions-selection.json": "54d183bbb2fe2bd676b066fd4067d1e271728b35e494a6fb3f354f717fc79e84",
+    "outputs\\E006-V12-S1-SQRT-S20261020-R4\\history.json": "ffa83c685575e8912242612adac201a040707d2c9bf5122e667e5f7777d0f742",
+    "outputs\\E006-V12-S1-SQRT-S20261021-R4\\predictions-selection.json": "a567392730515db3632f1e2e39fa86b961e0da0c662a70fb62a5102e01eb23ce",
+    "outputs\\E006-V12-S1-SQRT-S20261021-R4\\history.json": "ede9bdf971357a2396c038c87e2a1c35728d867850d73782360ae1c66187b2ed",
+    "outputs\\E006-V12-S1-SQRT-S20261022-R4\\predictions-selection.json": "f8b6ac6286bf9308ee10b20999c3fc7ed9395cce0b08d1b048b5cfdb38009dc7",
+    "outputs\\E006-V12-S1-SQRT-S20261022-R4\\history.json": "2127bdd03c9839cb324a7e233536654588b2e26a1c09bafe0193bb9aa65cc7b2",
+    "outputs\\E006-V12-S1-RATIO-S20261020-R4\\predictions-selection.json": "f9872776ac2f7bf13efbe58df05b1c8743fc3973211cb9f064979d0006b312b8",
+    "outputs\\E006-V12-S1-RATIO-S20261020-R4\\history.json": "07d8562947f8622136bb2cc996d6821ee589936e7f15fefefd0da40cda323b38",
+    "outputs\\E006-V12-S1-RATIO-S20261021-R4\\predictions-selection.json": "02faa94107b9439bd9d01a092e34fe5d14fb7dd3e3631dd4196b4a4ef31ab5b0",
+    "outputs\\E006-V12-S1-RATIO-S20261021-R4\\history.json": "a02b9f7a67bce67414571fc0afc14ea00261246b66a1bd5330df9bf0d5979977",
+    "outputs\\E006-V12-S1-RATIO-S20261022-R4\\predictions-selection.json": "91402ab64a97fb7b70d2bcee572222be3530d9a0dae8f00e94e0ad003c734f19",
+    "outputs\\E006-V12-S1-RATIO-S20261022-R4\\history.json": "c0f73889e0506c2c32730f0cf49d9795af541a5c8a086bc0a395a8abae25cd26"
+  },
+  "same_role_label_transitions": {
+    "train": {
+      "same_role_ids": 890,
+      "targets": {
+        "phone_use": {
+          "unknown->positive": 71,
+          "negative->negative": 402,
+          "positive->positive": 177,
+          "unknown->negative": 156,
+          "unknown->unknown": 82,
+          "negative->unknown": 1,
+          "positive->unknown": 1
+        },
+        "looking_around": {
+          "positive->negative": 147,
+          "unknown->unknown": 3,
+          "negative->negative": 613,
+          "positive->positive": 118,
+          "unknown->negative": 5,
+          "positive->unknown": 4
+        }
+      }
+    },
+    "val": {
+      "same_role_ids": 167,
+      "targets": {
+        "phone_use": {
+          "positive->positive": 35,
+          "negative->negative": 81,
+          "unknown->negative": 27,
+          "unknown->unknown": 8,
+          "unknown->positive": 15,
+          "negative->unknown": 1
+        },
+        "looking_around": {
+          "negative->negative": 115,
+          "positive->positive": 24,
+          "positive->negative": 27,
+          "negative->positive": 1
+        }
+      }
+    }
+  },
+  "generated_confirmed": {
+    "train": 21,
+    "val": 0
+  },
+  "new_without_exact_upstream_source": {
+    "train": 136,
+    "val": 13
+  },
+  "cached_e006": [
+    {
+      "run": "E006-V12-S1-SQRT-S20261020-R4",
+      "v12_exact_threshold_envelope": {
+        "phone_use": {
+          "P": 35,
+          "N": 94,
+          "ap": 0.7220871930604223,
+          "any_exact_threshold_pass": false,
+          "best_precision_at_recall_ge_0_8": 0.6326530612244898,
+          "minimum_fpr_at_recall_ge_0_8": 0.18085106382978725
+        },
+        "looking_around": {
+          "P": 65,
+          "N": 139,
+          "ap": 0.6630432074526527,
+          "any_exact_threshold_pass": false,
+          "best_precision_at_recall_ge_0_8": 0.5306122448979592,
+          "minimum_fpr_at_recall_ge_0_8": 0.33093525179856115
+        }
+      },
+      "same_crop_sha_v12_v13_val_count": 166,
+      "same_crop_sha_label_sensitivity": {
+        "phone_use": {
+          "same_known_ids": 116,
+          "old_labels": {
+            "P": 35,
+            "N": 81,
+            "ap": 0.7851973831105998,
+            "any_exact_threshold_pass": false,
+            "best_precision_at_recall_ge_0_8": 0.6904761904761905,
+            "minimum_fpr_at_recall_ge_0_8": 0.16049382716049382
+          },
+          "new_labels": {
+            "P": 35,
+            "N": 81,
+            "ap": 0.7851973831105998,
+            "any_exact_threshold_pass": false,
+            "best_precision_at_recall_ge_0_8": 0.6904761904761905,
+            "minimum_fpr_at_recall_ge_0_8": 0.16049382716049382
+          }
+        },
+        "looking_around": {
+          "same_known_ids": 166,
+          "old_labels": {
+            "P": 51,
+            "N": 115,
+            "ap": 0.6501680679217526,
+            "any_exact_threshold_pass": false,
+            "best_precision_at_recall_ge_0_8": 0.4942528735632184,
+            "minimum_fpr_at_recall_ge_0_8": 0.3739130434782609
+          },
+          "new_labels": {
+            "P": 25,
+            "N": 141,
+            "ap": 0.22706627304155735,
+            "any_exact_threshold_pass": false,
+            "best_precision_at_recall_ge_0_8": 0.1926605504587156,
+            "minimum_fpr_at_recall_ge_0_8": 0.6028368794326241
+          }
+        }
+      }
+    },
+    {
+      "run": "E006-V12-S1-SQRT-S20261021-R4",
+      "v12_exact_threshold_envelope": {
+        "phone_use": {
+          "P": 35,
+          "N": 94,
+          "ap": 0.7196927662852702,
+          "any_exact_threshold_pass": false,
+          "best_precision_at_recall_ge_0_8": 0.6078431372549019,
+          "minimum_fpr_at_recall_ge_0_8": 0.2127659574468085
+        },
+        "looking_around": {
+          "P": 65,
+          "N": 139,
+          "ap": 0.6437778238339996,
+          "any_exact_threshold_pass": false,
+          "best_precision_at_recall_ge_0_8": 0.5360824742268041,
+          "minimum_fpr_at_recall_ge_0_8": 0.3237410071942446
+        }
+      }
+    },
+    {
+      "run": "E006-V12-S1-SQRT-S20261022-R4",
+      "v12_exact_threshold_envelope": {
+        "phone_use": {
+          "P": 35,
+          "N": 94,
+          "ap": 0.7056727127207935,
+          "any_exact_threshold_pass": false,
+          "best_precision_at_recall_ge_0_8": 0.6444444444444445,
+          "minimum_fpr_at_recall_ge_0_8": 0.1702127659574468
+        },
+        "looking_around": {
+          "P": 65,
+          "N": 139,
+          "ap": 0.6394405399916409,
+          "any_exact_threshold_pass": false,
+          "best_precision_at_recall_ge_0_8": 0.5360824742268041,
+          "minimum_fpr_at_recall_ge_0_8": 0.3237410071942446
+        }
+      }
+    },
+    {
+      "run": "E006-V12-S1-RATIO-S20261020-R4",
+      "v12_exact_threshold_envelope": {
+        "phone_use": {
+          "P": 35,
+          "N": 94,
+          "ap": 0.7440774209923839,
+          "any_exact_threshold_pass": false,
+          "best_precision_at_recall_ge_0_8": 0.6666666666666666,
+          "minimum_fpr_at_recall_ge_0_8": 0.14893617021276595
+        },
+        "looking_around": {
+          "P": 65,
+          "N": 139,
+          "ap": 0.6366965988723855,
+          "any_exact_threshold_pass": false,
+          "best_precision_at_recall_ge_0_8": 0.4666666666666667,
+          "minimum_fpr_at_recall_ge_0_8": 0.4460431654676259
+        }
+      }
+    },
+    {
+      "run": "E006-V12-S1-RATIO-S20261021-R4",
+      "v12_exact_threshold_envelope": {
+        "phone_use": {
+          "P": 35,
+          "N": 94,
+          "ap": 0.7147377624374152,
+          "any_exact_threshold_pass": false,
+          "best_precision_at_recall_ge_0_8": 0.6304347826086957,
+          "minimum_fpr_at_recall_ge_0_8": 0.18085106382978725
+        },
+        "looking_around": {
+          "P": 65,
+          "N": 139,
+          "ap": 0.6463225420368045,
+          "any_exact_threshold_pass": false,
+          "best_precision_at_recall_ge_0_8": 0.5098039215686274,
+          "minimum_fpr_at_recall_ge_0_8": 0.3597122302158273
+        }
+      }
+    },
+    {
+      "run": "E006-V12-S1-RATIO-S20261022-R4",
+      "v12_exact_threshold_envelope": {
+        "phone_use": {
+          "P": 35,
+          "N": 94,
+          "ap": 0.7068052638554431,
+          "any_exact_threshold_pass": false,
+          "best_precision_at_recall_ge_0_8": 0.6304347826086957,
+          "minimum_fpr_at_recall_ge_0_8": 0.18085106382978725
+        },
+        "looking_around": {
+          "P": 65,
+          "N": 139,
+          "ap": 0.6402135557949418,
+          "any_exact_threshold_pass": false,
+          "best_precision_at_recall_ge_0_8": 0.5306122448979592,
+          "minimum_fpr_at_recall_ge_0_8": 0.33093525179856115
+        }
+      }
+    }
+  ]
+}

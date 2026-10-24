@@ -12,7 +12,9 @@ JSON unknown là null/mask 0; tensor có placeholder để tính nhưng loss/met
 
 Metrics giữ P/N/U, TP/FP/FN/TN, precision/recall/F 1/AP từng target, macro masked BCE và macro AP. AP non-interpolated, equal scores xử lý theo nhóm. Macro AP chỉ có khi cả hai target có AP hợp lệ. Thiếu P hoặc N thì metric unavailable/null; không positive predictions thì precision null, không fake 0 hoặc PASS. Co-occurrence báo fully-known denominator/support; thiếu support thì không công bố như metric đáng tin.
 
-Đối chứng hằng dùng prevalence chỉ tính từ train; không fit prevalence/threshold trên val/test. Selection/hyperparameter dùng development; validation đã dùng chọn epoch không là holdout độc lập. Báo cùng cohort/labels/masks/protocol trước so delta; AP cao không bảo đảm chất lượng tại operating point đã chọn trong protocol.
+Đối chứng hằng dùng prevalence chỉ tính từ train, không fit prevalence trên val/test. Ngưỡng quyết định theo protocol được duyệt; không fit ngưỡng trên test. Selection/hyperparameter dùng development; validation đã dùng chọn epoch không là holdout độc lập. Báo cùng cohort/labels/masks/protocol trước so delta; AP cao không bảo đảm chất lượng tại operating point đã chọn trong protocol.
+
+Riêng [E007 V13 đã duyệt](../configs/experiments/E007-V13-20261024/README.md), schema `representation-adaptation-v4` hiệu chỉnh một cặp ngưỡng trên validation sau chọn checkpoint, xét các mốc score và endpoints đã định nghĩa, rồi giữ nguyên cặp đó cho train/validation/slices/reload. GPU FP32 và trạng thái RNG CUDA thuộc identity/resume; research chỉ chạy sau smoke trên cùng môi trường. Đây là development trên release không có test, không thay semantics hoặc pins của trainer lịch sử.
 
 ## 3. Experiment contract và quyền theo hành động
 

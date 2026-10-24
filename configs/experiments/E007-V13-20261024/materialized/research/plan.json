@@ -1,0 +1,168 @@
+{
+  "phase": "research",
+  "design": {
+    "path": "configs/experiments/E007-V13-20261024/design.json",
+    "sha256": "2c9cabf8d6fe06b214eb24758b3d14e53c67012e0f7281034489be7f2ab4ebdf"
+  },
+  "items": [
+    {
+      "id": "E007-V13-R0-S20261023",
+      "arm": "R0",
+      "seed": 20261023,
+      "config": {
+        "path": "configs/experiments/E007-V13-20261024/materialized/research/E007-V13-R0-S20261023.yaml",
+        "sha256": "1bd566d09d8d937f9d008752d79d15518db4a1f68a52882d178db11e2eb5156d"
+      }
+    },
+    {
+      "id": "E007-V13-R1-S20261023",
+      "arm": "R1",
+      "seed": 20261023,
+      "config": {
+        "path": "configs/experiments/E007-V13-20261024/materialized/research/E007-V13-R1-S20261023.yaml",
+        "sha256": "3f7ac8954d4a063397c05ae697245738cb2241d6b9fe565fb2d96fbb96569c5c"
+      }
+    },
+    {
+      "id": "E007-V13-R2-S20261023",
+      "arm": "R2",
+      "seed": 20261023,
+      "config": {
+        "path": "configs/experiments/E007-V13-20261024/materialized/research/E007-V13-R2-S20261023.yaml",
+        "sha256": "38d02fb3debe885e76cf97620ca25f813917202562a46aeb7e6c95ee737b3233"
+      }
+    },
+    {
+      "id": "E007-V13-D0-S20261023",
+      "arm": "D0",
+      "seed": 20261023,
+      "config": {
+        "path": "configs/experiments/E007-V13-20261024/materialized/research/E007-V13-D0-S20261023.yaml",
+        "sha256": "568dd831dc7e05eba252db99cf0471de374fface8acce1d0a43b47f29ddb1c75"
+      }
+    },
+    {
+      "id": "E007-V13-D1-S20261023",
+      "arm": "D1",
+      "seed": 20261023,
+      "config": {
+        "path": "configs/experiments/E007-V13-20261024/materialized/research/E007-V13-D1-S20261023.yaml",
+        "sha256": "0f499ea441c86fc165db3ffc2dd0aa7a5083a5c64de960353456cdd43ccffc7d"
+      }
+    },
+    {
+      "id": "E007-V13-R0-S20261024",
+      "arm": "R0",
+      "seed": 20261024,
+      "config": {
+        "path": "configs/experiments/E007-V13-20261024/materialized/research/E007-V13-R0-S20261024.yaml",
+        "sha256": "9cd4adb968592ff670d651ce69883df668bfda21ea0091e493d34d3bfd4e2241"
+      }
+    },
+    {
+      "id": "E007-V13-R1-S20261024",
+      "arm": "R1",
+      "seed": 20261024,
+      "config": {
+        "path": "configs/experiments/E007-V13-20261024/materialized/research/E007-V13-R1-S20261024.yaml",
+        "sha256": "bb93b0ee558bd5ada29c0b5b7efe4698be4f362a0effa7626f244a3d505a03db"
+      }
+    },
+    {
+      "id": "E007-V13-R2-S20261024",
+      "arm": "R2",
+      "seed": 20261024,
+      "config": {
+        "path": "configs/experiments/E007-V13-20261024/materialized/research/E007-V13-R2-S20261024.yaml",
+        "sha256": "cac842d6f9c8e1461f2892d92a50f95580eb6a1500c314d2d5a37d9e268dfc60"
+      }
+    },
+    {
+      "id": "E007-V13-D0-S20261024",
+      "arm": "D0",
+      "seed": 20261024,
+      "config": {
+        "path": "configs/experiments/E007-V13-20261024/materialized/research/E007-V13-D0-S20261024.yaml",
+        "sha256": "4fe43b987584bb3fd930d6a62a351d73a45b88407199c5f64224195ce281f4eb"
+      }
+    },
+    {
+      "id": "E007-V13-D1-S20261024",
+      "arm": "D1",
+      "seed": 20261024,
+      "config": {
+        "path": "configs/experiments/E007-V13-20261024/materialized/research/E007-V13-D1-S20261024.yaml",
+        "sha256": "73b735f9f62f6d493c60fbd138fc603dbc64953583b7e8376cb9c474d339dc5e"
+      }
+    },
+    {
+      "id": "E007-V13-R0-S20261025",
+      "arm": "R0",
+      "seed": 20261025,
+      "config": {
+        "path": "configs/experiments/E007-V13-20261024/materialized/research/E007-V13-R0-S20261025.yaml",
+        "sha256": "39de3ab4aa99b8744c9a63f32b2c42c1321f40d60e5662e2737e5d0eb34124ca"
+      }
+    },
+    {
+      "id": "E007-V13-R1-S20261025",
+      "arm": "R1",
+      "seed": 20261025,
+      "config": {
+        "path": "configs/experiments/E007-V13-20261024/materialized/research/E007-V13-R1-S20261025.yaml",
+        "sha256": "326848eed63863da6928fdffcdde29c5707b06621337fa15e671cc73b0e4e59d"
+      }
+    },
+    {
+      "id": "E007-V13-R2-S20261025",
+      "arm": "R2",
+      "seed": 20261025,
+      "config": {
+        "path": "configs/experiments/E007-V13-20261024/materialized/research/E007-V13-R2-S20261025.yaml",
+        "sha256": "3576c64ca84ff2413d998985d30bfef50729e9456bd51b144bab467646830138"
+      }
+    },
+    {
+      "id": "E007-V13-D0-S20261025",
+      "arm": "D0",
+      "seed": 20261025,
+      "config": {
+        "path": "configs/experiments/E007-V13-20261024/materialized/research/E007-V13-D0-S20261025.yaml",
+        "sha256": "891bb3f8a8597f70296052536173cf08e6a887143490efb01319e257e2e5bc65"
+      }
+    },
+    {
+      "id": "E007-V13-D1-S20261025",
+      "arm": "D1",
+      "seed": 20261025,
+      "config": {
+        "path": "configs/experiments/E007-V13-20261024/materialized/research/E007-V13-D1-S20261025.yaml",
+        "sha256": "4551a5760f1c72a2bb0c69ea278945f15c70412ad785093e9fcf1591b958e9f9"
+      }
+    }
+  ],
+  "code_sha256": "e7810ca31a9a1bf1d2f110f1b348dafe8130f7f2717cb504ff0736f9a23cc8f7",
+  "budget": {
+    "screening_arms": [
+      "R0",
+      "R1",
+      "R2",
+      "D0",
+      "D1"
+    ],
+    "confirmation_arms": [
+      "screening_champion",
+      "R0"
+    ],
+    "confirmation_seeds": [
+      20261024,
+      20261025
+    ],
+    "deduplicate_champion_if_R0": true,
+    "max_research_runs": 9,
+    "smoke_minutes": 45,
+    "run_including_reload_minutes": 40,
+    "reserve_minutes": 75,
+    "total_gpu_minutes": 480
+  }
+}

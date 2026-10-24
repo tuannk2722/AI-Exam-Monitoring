@@ -1,0 +1,37 @@
+{
+  "git_head": "baafc41e163d984a948e5974aa9581668f73d7f7",
+  "method": "SHA256 of directly inspected inputs; no full media inventory audit",
+  "files": {
+    "AGENTS.md": "08e8b9eae969cbe36a7353267bf590b8ff3ce8e468f19d08849e5ddc77ecbe14",
+    "docs/training.md": "ecc37bc8cb5d758962e643ed681b71987cc3666fd4a7b754f9845673c4b2a0d9",
+    "docs/data.md": "8a66a6d0b1494074bc30acf0f4953cc11277032643451f8e9136857926ea4067",
+    "artifacts/reports/dataset-release-20261023-v13/package-pointers.json": "66f7f216b692079fec8201062d5098b6d588365ac95bff4ae6ee5b493951da97",
+    "artifacts/reports/dataset-release-20261023-v13/parent-delta.json": "3c836513aa107da7664853127f625b30d2d4f46e730abc33afce81ad50d61a09",
+    "artifacts/reports/v12-reconcile-20261022/allocation-approved.json": "e5fb4fb95dddd4c9666844bbe85a7fc438e4a562755272442ff804743b3d10d4",
+    "artifacts/reports/v12-reconcile-20261022/candidate-source-provenance.json": "1fe6c4c632e6868969b2804ccc9c701fe85ab4437a5de55d6dcec95722a2dd52",
+    "configs/experiments/E006-V12-20261020/r4/E006-V12-S1-SQRT-S20261020-R4.yaml": "142e95080b052da85c62546f1be977980a6a53cf3558631088db2829f18bd13e",
+    "src/ai_exam_monitoring/training/adaptation_config.py": "cab91d8d5cc14d3f0b052ee348210eda7f96e16a89f6be13a5231e5aa4fdce20",
+    "src/ai_exam_monitoring/training/adaptation_data.py": "83aea8358e11fcb771fdc7284f802020de672f5acc4744547a35513db28edc6b",
+    "src/ai_exam_monitoring/training/adaptation_evaluate.py": "a2852e5bce1d4e5fc74d0f35256bc4b615802f388cb77b095231b2e05498723f",
+    "src/ai_exam_monitoring/training/adaptation_metrics.py": "9ca960d523d3c9a1a1241b009a935cd4289bf92510f8bbb2053af1758304ae36",
+    "src/ai_exam_monitoring/training/adaptation_model.py": "015b65076e33ee901bda8b29d4d7d9480bb47b53c779873525798b13386f8ca9",
+    "src/ai_exam_monitoring/training/adaptation_train.py": "1a99e066d1852b135c2bc31d226d618dde429a1f3cca9af704f5ed4eaecf25f9",
+    "src/ai_exam_monitoring/training/artifacts.py": "10fa6618a17ac4ea4dd2388c1f692bff909e62f646081102628e4ae814b4968a",
+    "src/ai_exam_monitoring/training/campaign.py": "f754459a5a27d50cde65af052fc3ea231e935affaa9eb54bbadf314a9a87c21b",
+    "src/ai_exam_monitoring/training/campaign_prepare.py": "2c2d396e579d0fc0fa7206239d2e222a5f855dd6378b7d458ff2025fc46e7190",
+    "src/ai_exam_monitoring/training/config.py": "ab2a47bac6c38c1876a0101c8574341ca3a10f23ba318ee938b43e91d18c49b2",
+    "src/ai_exam_monitoring/training/data.py": "8fbf724a73ff8dd6b36f549feb7e1a4ce976aedc0c9e006c1b339e6ba9908fe2",
+    "src/ai_exam_monitoring/training/diagnostics.py": "a65a3a8191e40a92f39e3b4e9ef414d3ab648b9b04ac8ab504fceb3fd4a3b848",
+    "src/ai_exam_monitoring/training/error_audit.py": "7cd5d644cbaa773c11aec3d837781df27aad9fb4f26bf3c63b76fbd789fd39f5",
+    "src/ai_exam_monitoring/training/evaluate.py": "a142be7ad87083e395c637372f0d050c474ab5af0e4cb5b3736ed2a175d18557",
+    "src/ai_exam_monitoring/training/holdout_access.py": "12fb1ba2153f1083adb16776123804b6066b0d85cea3d98ad80607869e5fae74",
+    "src/ai_exam_monitoring/training/metrics.py": "a92454b52bda1f62b25f8b3991bc55902b4f3ec6cb68586a96990e0323a67d65",
+    "src/ai_exam_monitoring/training/model.py": "dd1ac6ddacbdbb306e4496085317beee13ce937a12f1ae6dc1913dae1046716b",
+    "src/ai_exam_monitoring/training/train.py": "36e859d55f947bb05b9cf95800a680ec1e4e3b64bc1d9fbbabcbb2dbfb36a5fe",
+    "src/ai_exam_monitoring/training/__init__.py": "de05aae2d802a9f77a5cbd89f8625e02fe4ae1d5c03d9b4de2728b003881db94"
+  },
+  "external_reference": {
+    "filename": "Ke-Hoach-Nghien-Cuu-Dot-Pha-E007-V13.md",
+    "sha256": "627fd39b7e0fd760ae16994c195d58d3d1a8da3bd89efb85c9b019f1414230a5"
+  }
+}

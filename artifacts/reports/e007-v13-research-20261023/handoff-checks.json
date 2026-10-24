@@ -1,0 +1,32 @@
+{
+  "scope": "research/docs/non-executable proposal; no production source changes",
+  "yaml_parse": "PASS",
+  "codec_record_counts": "PASS",
+  "train_only_weight_derivation": "PASS",
+  "budget_arithmetic": "PASS",
+  "draft_rejected_by_executable_parser": "ConfigurationError",
+  "local_document_links": {
+    "status": "PASS",
+    "checked": 17
+  },
+  "synthetic_checks": "synthetic-checks.json",
+  "cached_prediction_integrity": "cached-score-and-delta-audit.json",
+  "full_ml_suite": "not_run_not_required_for_docs_research",
+  "real_training_inference_upload": "not_performed",
+  "git_staged_or_committed": false,
+  "git_diff_check": "PASS",
+  "tracked_diff_inspected": [
+    ".codex/TASK.md",
+    "artifacts/reports/README.md",
+    "configs/experiments/README.md",
+    "docs/status.md"
+  ],
+  "new_artifact_utf8_json_whitespace_links": "PASS",
+  "repository_checker": {
+    "command": "scripts/check_repo.py",
+    "exit_code": 0,
+    "failures": 0,
+    "scope": "real Git index; new untracked artifacts checked separately, not staged or claimed committed"
+  },
+  "scratch_created": false
+}

@@ -26,7 +26,7 @@ py -3.11 -m venv .venv
 
 Các CLI đã có đều dưới prefix `ai_exam_monitoring`: `data.audit`, `data.overlay`, `data.validate_labels`, `data.image_similarity`; `training.train`, `training.evaluate`, `training.error_audit`; `inference.detect`; `common.history`. Kiểm flags bằng `--help`/code khi thực hiện. Không có training `dvc.yaml`, vì vậy không dùng `dvc repro` thay trainer CLI.
 
-Colab/GPU vẫn là hướng tương lai được scope approve riêng: exact checkout → dependencies → auth từ secret → pull đúng versions có quyền → verify → smoke → canonical CLI → sync last/best/status. Notebook không thay logic, runtime kết thúc/OOM giữ trạng thái; đổi variables tạo run identity mới.
+Colab/GPU cần scope approve riêng: exact source → dependencies → auth → đúng versions có quyền → verify → smoke → canonical CLI → sync last/best/status. [E007 launcher](../configs/experiments/E007-V13-20261024/README.md) triển khai luồng này bằng bundle private và Drive mount tương tác; actual GPU smoke vẫn là gate trước research. Notebook không thay logic, runtime kết thúc/OOM giữ trạng thái; đổi variables tạo run identity mới.
 
 ## 4. Kiểm tra theo phạm vi thay đổi
 

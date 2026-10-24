@@ -2,6 +2,8 @@
 
 Chỉ đọc khi task cần restore/reproduction/backup. Đây là hướng dẫn thao tác, không phải yêu cầu sản phẩm hoặc quyền mở lại test. [Reports index](../artifacts/reports/README.md) tìm evidence; [development](development.md) quy định lifecycle. Các lệnh theo version dưới đây chỉ áp dụng đúng historical identity; kiểm availability/pins trước chạy.
 
+Sau E007, tra [availability 24/10](../artifacts/reports/cleanup-20261024/README.md) trước: một số model/crops/backup resume cũ và DVC cache được nghỉ lưu theo owner scope mới. Giữ nguyên registry/pins lịch sử, không chạy các recipe dưới đây nếu thiếu payload. Các `restore_from` trong manifest là bản trùng đã được kiểm SHA; original E007 còn trên private Drive theo cloud import receipt.
+
 ## Trước khi restore
 
 Đọc [retention](storage.md#thiếu-input) và [availability](../artifacts/reports/storage-retention-20261016/availability.json). Registry/DVC pointer định danh, không chứng minh binary còn tồn tại. Recipes bên dưới chỉ dùng khi task cần và đủ inputs; không phải lệnh chạy lại lịch sử.

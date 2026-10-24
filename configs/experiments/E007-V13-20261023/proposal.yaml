@@ -1,0 +1,184 @@
+# Thiết kế nghiên cứu; không truyền file này cho training.train/campaign_prepare.
+schema_version: e007-research-proposal-v1
+status: Draft
+executable: false
+experiment_family: E007-V13-20261023
+owner: repository-owner
+created_at: '2026-10-23'
+authorization:
+  research_requested: true
+  scientific_implementation_approved: false
+  smoke_approved: false
+  training_approved: false
+  cloud_upload_approved: false
+  final_test_authorized: false
+dataset:
+  version: pilot-b-20261023-v13
+  package: data/processed/pilot-b/pilot-b-20261023-v13
+  pointer: artifacts/reports/dataset-release-20261023-v13/package-pointers.json
+  payload_sha256: 186daf8c2ec9ac0231cb3f9438d24415feb5b0439a5320cad36312562029576e
+  split_version: owner-train-val-20261023-v13
+  allocation: artifacts/reports/v12-reconcile-20261022/allocation-approved.json
+  provenance: artifacts/reports/v12-reconcile-20261022/candidate-source-provenance.json
+  expected_records: {train: 1119, val: 185, test: 0}
+  use_scope_current: local_classifier_research
+  independence_claim: false
+  test_policy: not_applicable_zero_test
+  keep_all_approved_generated: true
+  mutate_release: false
+targets: [phone_use, looking_around]
+initialization:
+  warm_start_historical_run: false
+  pretrained_only: true
+  shared_initial_head_within_architecture_and_seed: true
+pretrained_candidates:
+  resnet18:
+    weights_id: IMAGENET1K_V1
+    local_path: outputs/pretrained/resnet18-f37072fd.pth
+    sha256: f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec
+    license_evidence: artifacts/reports/E004-v9-execution-20261013/pretrained-license.json
+  dinov2_vits14:
+    source: https://github.com/facebookresearch/dinov2
+    source_revision: null  # Freeze sau duyệt design; không dùng latest khi run.
+    weights_sha256: null  # Chưa download, không fabricated pin.
+    license_evidence: null  # Cần receipt cho exact source/weights.
+    license_reported_by_upstream: Apache-2.0
+    registers: false
+    patch_size: 14
+    features: normalized_cls_concat_mean_normalized_patch_tokens
+    feature_dim: 768
+common:
+  device: cuda
+  actual_gpu: null
+  precision: float32
+  automatic_cpu_fallback: false
+  automatic_oom_config_changes: false
+  workers: 0
+  batch_size: 16
+  sampling: uniform_permutation_no_drop_v1
+  transform: rgb_letterbox_bilinear_v1
+  mean: [0.485, 0.456, 0.406]
+  std: [0.229, 0.224, 0.225]
+  fill: [124, 116, 104]
+  optimizer: AdamW
+  head_learning_rate: 0.0003
+  weight_decay: 0.01
+  max_epochs: 12
+  warmup_head_only_epochs: 3
+  lr_scheduler: cosine_after_head_warmup
+  min_lr_ratio: 0.1
+  patience: 6
+  min_delta: 0.0001
+  head:
+    layers: [LayerNorm, Dropout, Linear, GELU, Dropout, Linear]
+    hidden_dim: 128
+    dropout: 0.3
+    output_dim: 2
+  loss:
+    objective: global_known_normalized_weighted_smoothed_bce
+    target_aggregation: equal_mean_two_targets
+    unknown: masked_zero_gradient
+    empty_target_minibatch: zero_contribution_with_population_known_denominator
+    pos_weight_rule: sqrt_train_known_negative_over_positive
+    train_positive: [342, 179]
+    train_negative: [684, 931]
+    pos_weight: [1.4142135623730951, 2.280595825313147]
+    label_smoothing: 0.05
+    smoothing_rule: symmetric_y_times_1_minus_epsilon_plus_epsilon_over_2
+  augmentation:
+    enabled: true
+    horizontal_flip_prob: 0.5
+    box_jitter_ratio: 0.0
+    brightness_jitter: 0.15
+    contrast_jitter: 0.15
+    saturation_jitter: 0.1
+    random_erasing_prob: 0.0
+  checkpoint:
+    unit: full_encoder_and_head
+    primary_selection: max_val_macro_ap
+    tie_breakers: [min_raw_val_masked_bce, earliest_epoch]
+    resume: atomic_epoch_boundary_same_identity_and_environment
+    splice_per_target_heads: false
+  calibration:
+    fit_on: val_only_after_checkpoint_selection
+    apply_same_pair_to: [train, val, slices, standalone_evaluation]
+    candidates: exact_score_breakpoints_with_explicit_endpoint_policy
+    comparison: score_greater_than_or_equal_threshold
+    no_positive_prediction_precision: null
+    feasible_rank: [max_f1, max_minimum_gate_margin, nearest_0_5, lowest_threshold]
+    fallback_rank: [min_total_gate_shortfall, max_f1, nearest_0_5, lowest_threshold]
+arms:
+  R0:
+    encoder: resnet18
+    image_size: 224
+    feature_dim: 512
+    trainable_scope: head_and_layer4_block1
+    backbone_learning_rate: 0.00003
+    batchnorm_policy: all_eval_affine_follows_trainable_scope
+    random_erasing_prob: 0.15
+  R1:
+    same_as: R0
+    random_erasing_prob: 0.0
+  R2:
+    same_as: R1
+    image_size: 336
+  D0:
+    encoder: dinov2_vits14
+    image_size: 336
+    feature_dim: 768
+    trainable_scope: head_only
+    backbone_learning_rate: 0.0
+    stochastic_depth: 0.0
+    random_erasing_prob: 0.0
+    cache_fixed_features_despite_augmentation: false
+  D1:
+    same_as: D0
+    trainable_scope: head_and_blocks_10_11_and_final_norm_after_warmup
+    backbone_learning_rate: 0.00001
+screening:
+  seed: 20261023
+  champion_rank:
+    - both_targets_pass
+    - number_targets_pass
+    - min_total_gate_shortfall
+    - max_macro_ap
+    - min_raw_masked_bce
+    - arm_id
+quality_gates_proposed_unchanged:
+  per_target: {precision_min: 0.8, recall_min: 0.8, fpr_max: 0.2}
+  support: {positive_min: 30, negative_min: 30, positive_groups_min: 5, negative_groups_min: 5}
+budgets:
+  recommended_tier: gpu_8h
+  chosen_tier: null
+  gpu_8h:
+    screening_arms: [R0, R1, R2, D0, D1]
+    confirmation_arms: [screening_champion, R0]
+    confirmation_seeds: [20261024, 20261025]
+    deduplicate_champion_if_R0: true
+    max_research_runs: 9
+    smoke_minutes: 45
+    run_including_reload_minutes: 40
+    reserve_minutes: 75
+    total_gpu_minutes: 480
+  gpu_4h:
+    screening_arms: [R0, R1, D0]
+    confirmation_arms: [screening_champion]
+    confirmation_seeds: [20261024, 20261025]
+    max_research_runs: 5
+    smoke_minutes: 45
+    run_including_reload_minutes: 30
+    reserve_minutes: 45
+    total_gpu_minutes: 240
+stop_rules:
+  - fail_if_pins_rights_scope_or_membership_invalid
+  - stop_if_smoke_fails_or_expected_full_run_exceeds_cap
+  - stop_on_oom_or_nonfinite_without_changing_config
+  - stop_queue_at_total_gpu_cap_counting_setup_idle_and_retries
+  - no_unplanned_runs_or_test_access
+pending_freeze:
+  - owner_design_and_budget_tier
+  - provider_gpu_private_storage_and_cloud_use_scope
+  - implementation_schema_code_identity_and_tests
+  - pretrained_revision_weights_hash_and_license_receipt
+  - linux_cuda_environment_and_determinism_policy
+  - exact_protocol_configs_and_action_specific_approval
