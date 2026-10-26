@@ -1,0 +1,21 @@
+{
+  "status": "owner_accepted_correction",
+  "date": "2026-10-26",
+  "supersedes_in_scope": {
+    "path": "configs/runtime/RUNTIME-DETECTOR-COMPARISON-20261026/accepted-census.json",
+    "sha256": "ffcf189b5eeb6f3a49a2fdd17f18e3ea7168beb7c8b6518ad908f5a6bde4fe52"
+  },
+  "scope": "frame_0_add_missing_person_only",
+  "owner_statement": "cần bổ sung người đội mũ.",
+  "added_person_id": "p019",
+  "mapping": {
+    "anchor_id": "f00000000-V8S-b011",
+    "person_id": "p019",
+    "status": "owner_confirmed"
+  },
+  "evidence": {
+    "path": "outputs/runtime-detector-matching-review-20261026/matching-draft.json",
+    "sha256": "fbb10314d7bd41661dab0d8e28fcb3500ecf10004b0241101285bebdaf2cbc7d"
+  },
+  "location_box_is_ground_truth": false
+}

@@ -1,0 +1,78 @@
+proposal_id: RUNTIME-DETECTOR-COMPARISON-20261026
+status: direction_approved_variables_pending
+scope: 19_frame_development_detector_comparison
+pins:
+  census_draft:
+    path: outputs/runtime-d2-census-review-20261026/census-draft.json
+    sha256: 84c4eb49d57d63694cd7fb77c3a7316e8d5bbb8537f3139d4a1526bff133a66f
+  D2_detections:
+    path: outputs/runtime-detector-diagnostic-20261026/detections.jsonl
+    sha256: 005a3099dd91aae2ce7df53ede6644e1d2d4203317e3a570a11c664b78f59b6c
+  D2_run:
+    path: outputs/runtime-detector-diagnostic-20261026/run.json
+    sha256: 89cebd606563bf9f9f44c328cf2ef728b9927efcac442e8d4b1363cfc3f93042
+  D2_checksums:
+    path: outputs/runtime-detector-diagnostic-20261026/checksums.json
+    sha256: d7c94c5be06e370d39d9d6de1900ab920d0bbce0cf0fdfe98b2b8404995b0d63
+  D2_runtime:
+    path: configs/runtime/RUNTIME-D2-20261026/runtime.yaml
+    sha256: 7d6ee9deecb352f30b479e104cc3154b71e846431d2b067870432481d8c3b539
+  cohort:
+    path: outputs/runtime-detector-review-20261025/cohort.json
+    sha256: 44d3da6f3461199ea1506dad50c64ed5aff0398a2e55492497578ddb55a7fa6e
+accepted_census: null
+packages:
+  ultralytics: 8.3.221
+  torch: 2.8.0+cpu
+  opencv-python: 4.11.0.86
+common_predict:
+  imgsz: 640
+  conf: 0.25
+  max_det: 100
+  device: cpu
+  half: false
+  augment: false
+  rect: true
+  batch: 1
+  classes:
+  - 0
+  save: false
+  verbose: false
+arms:
+- id: D2
+  mode: cached_baseline
+  model: yolov8n.pt
+  iou: 0.3
+- id: V8S
+  mode: new_detector
+  model: yolov8s.pt
+  url: https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov8s.pt
+  asset_id: 195719452
+  size_bytes: 22588772
+  sha256: null
+  iou: 0.3
+- id: V10S
+  mode: new_detector_end2end
+  model: yolov10s.pt
+  url: https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov10s.pt
+  asset_id: 195719628
+  size_bytes: 16623111
+  sha256: null
+  iou: null
+  require_end2end: true
+execution:
+  threads: 4
+  seed: 20261026
+  new_frame_forwards: 38
+  extra_real_smoke: false
+  rerun_or_sweep: false
+  classifier_forward: false
+  training: false
+  upload: false
+  media_delete_by: '2026-11-01T08:55:06.308086+00:00'
+review:
+  matching: draft_then_owner_person_mapping_no_IoU_as_identity
+  unknown: excluded_from_success_and_reported_as_unresolved
+  keeper: reference_quality_not_exact_box_requirement
+  role: all_people_diagnostic_unknown
+continuation: held_out_confirmation_requires_distinct_protocol_after_development_selection

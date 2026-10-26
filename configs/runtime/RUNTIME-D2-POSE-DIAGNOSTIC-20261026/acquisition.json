@@ -1,0 +1,13 @@
+{
+  "weights": {
+    "path": "outputs/runtime-d2-pose-acquisition-20261026/yolov8n-pose.pt",
+    "sha256": "c6fa93dd1ee4a2c18c900a45c1d864a1c6f7aba75d84f91648a30b7fb641d212"
+  },
+  "source_url": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov8n-pose.pt",
+  "size": 6832633,
+  "license": "AGPL-3.0",
+  "authorization": {
+    "path": "configs/runtime/RUNTIME-D2-POSE-DIAGNOSTIC-20261026/authorization.json",
+    "sha256": "bea2d4f3346488b1e5ca2eada6250733a8f4b0fdb9b1393361b0fe020f1802c0"
+  }
+}

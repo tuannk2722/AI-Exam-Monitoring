@@ -61,7 +61,8 @@ class BundleClassifier:
                 or tensor_digest(payload["model"]) != payload["model_tensor_sha256"]
                 or any(not torch.isfinite(v).all() for v in payload["model"].values())):
             raise DataContractError("Checkpoint tensor/config identity mismatch")
-        torch.set_num_threads(runtime.raw["classifier"]["threads"])
+        self.threads = runtime.raw["classifier"]["threads"]
+        torch.set_num_threads(self.threads)
         self.model = AdaptationModel(self.config, full_state=payload["model"],
                                      workspace=runtime.workspace).cpu().float().eval()
         self.model.requires_grad_(False)
@@ -70,6 +71,9 @@ class BundleClassifier:
         return letterbox(image, self.config)
 
     def predict(self, image: Image.Image) -> list[float]:
+        # Other adapters (including Ultralytics CPU setup) can change this global.
+        if torch.get_num_threads() != self.threads:
+            torch.set_num_threads(self.threads)
         tensor = TF.normalize(TF.to_tensor(self.preview(image)), self.config.mean, self.config.std)
         with torch.inference_mode():
             logits = self.model(tensor.unsqueeze(0))

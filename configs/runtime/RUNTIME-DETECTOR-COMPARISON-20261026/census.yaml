@@ -1,0 +1,20 @@
+schema_version: d2-census-build-v1
+pins:
+  cohort:
+    path: outputs/runtime-detector-review-20261025/cohort.json
+    sha256: 44d3da6f3461199ea1506dad50c64ed5aff0398a2e55492497578ddb55a7fa6e
+  predictions:
+    path: outputs/runtime-d2-crop-review-20261026/predictions.json
+    sha256: f04a3fb68ea059b1380e6fe8d33eca994c999f7a57df581e46fa2a3abe1aefd7
+  exception_review:
+    path: artifacts/reports/runtime-clip-qa-20261025/owner-review-20261026-r2.json
+    sha256: d3caf5833ba99db3e5fa7ae545efdbb76df00401883a2380a546767752ef10a8
+  pair_review:
+    path: artifacts/reports/runtime-clip-qa-20261025/pair-owner-review-20261026-r1.json
+    sha256: b613494db6c4aafd49c18661cfc320d500b3bc3dfccd6a4f58983131261fb9f3
+  keeper_review:
+    path: artifacts/reports/runtime-clip-qa-20261025/keeper-owner-review-20261026-r1.json
+    sha256: 6c8e65d7cb19ebe438f12fc16de48d78d93db831a304d5115384ccde1b890ad6
+  pair_table:
+    path: outputs/runtime-d2-pair-audit-20261026/pairs.csv
+    sha256: 64dc52a025423eee62210e9d8015c1d390748db03ed06fb5cdeb9392255bfbf3

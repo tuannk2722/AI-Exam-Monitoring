@@ -1,6 +1,10 @@
 # Tra cứu kết quả và bằng chứng
 
+[Đối soát ngoại lệ D2 và readiness](runtime-clip-qa-20261025/d2-reconcile-20261026.md): hồ sơ lịch sử attribution/duplicate; stage hiện tại đã đóng theo quyết định V8S bên dưới.
+
 Index theo đối tượng; không là bảng metrics hoặc backlog. Hồ sơ đã pin là snapshot, kể cả chữ “next”, “pending” hoặc lệnh CLI cũ. [Status](../../docs/status.md) chỉ công việc hiện hành; [operations](../../docs/operations.md) xử lý historical paths/restore. Không sửa report/card/receipt đã seal để cập nhật tiến độ.
+
+[QA runtime clip ngày 25/10](runtime-clip-qa-20261025/README.md): full-frame dừng theo quyền owner giao; [lượt 1 Hz hoàn tất](runtime-clip-qa-20261025/qa-1hz.md) và batch review detector/crop toàn clip, chưa nghiệm thu chất lượng video. [Đánh giá A1/Dual ROI](runtime-clip-qa-20261025/model-relevance.md) đối chiếu code/kết quả/availability phục vụ thiết kế đối chứng.
 
 [Nghiên cứu E007 trên V13](e007-v13-research-20261023/README.md): audit lịch sử/code/config, coverage V13 và cached scores E006; hướng representation mới và proposal 4–8 giờ GPU. Chưa train hoặc đổi accepted inputs.
 
@@ -115,3 +119,9 @@ Experiment đang thiết kế: [configs index](../../configs/experiments/README.
 [Handoff 2026-10-11](repository-handoff-20261011/README.md) giữ snapshot checks/backup và original locator. Các tổng hợp mới trên không thay receipt gốc hoặc là data/model acceptance mới.
 
 [Retention tài sản hiện hành 16/10/2026](storage-retention-20261016/README.md): chính sách owner duyệt, availability mới và evidence cleanup; report cũ không chứng minh payload còn tồn tại.
+
+[V8S + G0 ngày 26/10](runtime-clip-qa-20261025/v8s-g0-20261026.md): runtime revision và crop QA đã được owner nghiệm thu; session tích hợp đã hoàn tất.
+
+[Session V8S + G0](runtime-clip-qa-20261025/v8s-session-20261026.md): batch owner accepted; integration 60 samples completed, parity với 19 frame tham chiếu PASS.
+
+[Chốt stage runtime V8S](runtime-clip-qa-20261025/stage-acceptance-20261026.json): Accepted / Complete trong scope clip hiện tại; không mở downstream.

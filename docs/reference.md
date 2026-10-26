@@ -25,6 +25,11 @@ Adapter hiện yêu cầu source/checkpoint tồn tại, output mới và FPS d�
 
 
 
+Runtime ghi `failed_frame_index` theo index nguồn của frame đang xử lý, không phải
+số frame đã hoàn tất; null khi iterator lỗi hoặc kết thúc thiếu trước khi cung cấp
+frame hiện hành. Khi đó không xuất ảnh frame trước đó làm ảnh lỗi. `completed_frames`
+vẫn là số frame xử lý xong; outcome cuối và `session.json` quyết định thành công.
+
 <a id="training-code"></a>
 
 ## Trainer/evaluator hiện có
@@ -140,3 +145,17 @@ Pairing theo relative path bỏ extension, case-sensitive. Same stem khác thư 
 Audit schema v2 giữ input/layout/names, decode/resolution, missing/orphan/ambiguous, invalid files/lines, empty labels, class counts, normalized bbox stats, exact duplicate SHA và valid samples. Label file lỗi không đóng góp partial statistics; orphan hợp lệ có thể vào class count nhưng pixel stats chỉ dùng unique decoded pairs. Empty/missing annotation không xác nhận negative. Near duplicate/license/semantics/group acceptance cần QA riêng.
 
 Overlay dùng `--output-dir`, `--limit` (font tùy chọn); lấy N valid pairs đầu theo path và ghi manifest/audit, không gọi là mẫu đại diện/phân tầng. Dùng tọa độ pixel gốc, không tự xoay EXIF hoặc repair annotation. Output ngoài nguồn/raw; overlay từ chối directory đã có nội dung. Exit 0 pass checks thực hiện, exit 1 lỗi cấu trúc/không xuất mẫu, exit 2 input/output/arguments không hợp lệ.
+
+### Đối chứng detector-only
+
+`inference.review_batch --config <batch.yaml> --output <output mới>` tạo batch ngoại lệ từ evidence đã pin, không gọi model. [Batch hiện hành](../configs/runtime/RUNTIME-D2-RECONCILE-20261026/README.md).
+
+Thực thi `inference.runtime` mới yêu cầu receipt có `media_delete_by` tuyệt đối (timezone-aware, còn hạn, tối đa 7 ngày), không tự đặt deadline từ thời điểm chạy. Media receipt v2 có thể pin `parent_session` để kiểm cùng source và không gia hạn. V1 đọc lịch sử được nhưng thiếu deadline thì không chạy mới; tạo receipt mới đúng scope thay vì sửa bản đã pin. Completed/failed giữ deadline ban đầu.
+
+`python -m ai_exam_monitoring.inference.detector_review --config <stage-a.yaml> --preflight-only` kiểm pins/rights/retention mà không inference. Run cần `--review <census accepted>` và `--output <thư mục mới dưới outputs>`. D0 parity phải PASS trước candidates; không load classifier hoặc tự chọn winner. [Scope, config và review](../artifacts/reports/runtime-clip-qa-20261025/detector-stage-a-20261026.md).
+
+Schema `detector-ablation-config-v2` dành cho ngoại lệ diagnostic được owner duyệt riêng: `review_policy=diagnostic_unknown_no_selection`, pin exact draft/decision và scope approval tương ứng. `--review` giữ draft, không đổi thành accepted; output giữ unknown, quality not evaluated và winner null. V1 không được miễn census accepted bởi flag CLI.
+
+Runtime `recorded-runtime-config-v3` nhận detector D2 IoU 0,30 với pin `detector_selection` accepted khớp policy và weights; không đổi cách đọc v1/v2. [Config và decision](../configs/runtime/RUNTIME-D2-20261026/README.md). CLI `python -m ai_exam_monitoring.inference.selected_crop_review --config <config> --output <output mới>` kiểm selected arm, reuse cached scores chỉ khi geometry/confidence và crop/input SHA/pixels khớp, chạy G0 cho crop mới theo số lượng đã pin. Output phân biệt cached/new, không gọi cached là inference mới; chưa tự nghiệm thu attribution.
+
+Runtime `recorded-runtime-config-v4` nhận V8S với exact selection/decision/evidence pins, policy 640/conf0,25/IoU0,30 và explicit rect/augment/batch. `selected-crop-review-v2` tái dùng CLI review với comparison JSON và runtime config đã approved; v1/D2 giữ nguyên. [Revision V8S](../configs/runtime/RUNTIME-V8S-20261026/README.md).

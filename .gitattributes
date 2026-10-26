@@ -62,3 +62,13 @@ notebooks/E008-V14-Colab.ipynb -text whitespace=trailing-space,space-before-tab,
 
 # Preserve approved runtime config/authorization bytes across checkouts.
 configs/runtime/RUNTIME-PROTOTYPE-20261025/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+
+# Preserve approved runtime-stage inputs and receipts byte-for-byte.
+configs/runtime/RUNTIME-CLIP-1HZ-20261025/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+configs/runtime/RUNTIME-D2-20261026/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+configs/runtime/RUNTIME-D2-POSE-DIAGNOSTIC-20261026/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+configs/runtime/RUNTIME-D2-RECONCILE-20261026/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+configs/runtime/RUNTIME-DETECTOR-COMPARISON-20261026/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+configs/runtime/RUNTIME-DETECTOR-REVIEW-20261025/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+configs/runtime/RUNTIME-QA-PREP-20261025/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+configs/runtime/RUNTIME-V8S-20261026/** -text whitespace=trailing-space,space-before-tab,cr-at-eol

@@ -1,0 +1,17 @@
+{
+  "status": "accepted",
+  "scope": "V8S behavior attribution batch / prototype integration readiness",
+  "owner_statement": "tôi đã review và không có case nào cần chỉnh sửa cả. hãy chốt và làm tiếp theo những gì đã đề ra đi!",
+  "batch": {
+    "path": "outputs/runtime-v8s-behavior-review-20261026/review.json",
+    "sha256": "f353a799f7bb5dbde5b9adfa629a5938616c4bc85e02d9b147f30cb02532c47f"
+  },
+  "batch_config": {
+    "path": "configs/runtime/RUNTIME-V8S-20261026/behavior-batch.yaml",
+    "sha256": "72e6b897d5b1f8f9aa0f9b34730e664c8c746cee657070c56274e865067ac54e"
+  },
+  "exceptions": [],
+  "per_crop_ground_truth": "not inferred",
+  "next_authorized": "same clip, 1 Hz / 60 samples, unchanged V8S/context-v1/G0",
+  "general_video_quality_accepted": false
+}

@@ -1,0 +1,19 @@
+{
+  "status": "approved",
+  "runtime_id": "RUNTIME-CLIP-1HZ-20261025",
+  "config_sha256": "f178c1e1d4e015fdd681edc59e261d0117a89d35ae27eb624cda4172c3eff304",
+  "owner": "repository-owner",
+  "date": "2026-10-25",
+  "decision_ref": "configs/runtime/RUNTIME-CLIP-1HZ-20261025/README.md",
+  "scope": [
+    "one_local_1hz_qa_run",
+    "detector_crop_review"
+  ],
+  "changes_from_prototype": [
+    "schema_version",
+    "runtime_id",
+    "approval_ref",
+    "sampling_hz"
+  ],
+  "quality_acceptance": false
+}

@@ -1,0 +1,51 @@
+schema_version: recorded-runtime-config-v3
+runtime_id: RUNTIME-D2-20261026
+approval_ref: configs/runtime/RUNTIME-D2-20261026/runtime-authorization.json
+pins:
+  checkpoint:
+    path: outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/best.pt
+    sha256: cb86da628495996a15135d0d1b400ef410d29383c49f20e6c763c838eb85b500
+  resolved_config:
+    path: outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/resolved-config.json
+    sha256: 87f7b794caeb31a55ffcfdc73c5e3d171198d3f9c5f16ddfcb962a1658a6fcdc
+  calibration:
+    path: outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/calibration.json
+    sha256: 4d652d900c9ebb51cf975ff9931161147f2a341d75188af3f97b2346e3e1810f
+  bundle:
+    path: outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/bundle.json
+    sha256: 13c1e6d7c14a20a2131b825f387f0ba99057edad2156d7120127ebc47f242955
+  run:
+    path: outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/run.json
+    sha256: 2abd62105e2ab912dd64ad430a60c37c11394f6687b8c77de6896e241bc4bf5b
+  detector_weights:
+    path: outputs/runtime-prototype-20261025/weights/yolov8n.pt
+    sha256: f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36
+  detector_receipt:
+    path: artifacts/reports/runtime-prototype-20261025/detector-acquisition.json
+    sha256: 35f9d2de7829c8e5dbbc39f94712ab86da834935899d7fbe43980601ac29f2eb
+  detector_selection:
+    path: configs/runtime/RUNTIME-D2-20261026/winner.json
+    sha256: f615a407a2e3af386afd292d19d0d913bd4839db32a5f5492b8a478a76e06259
+detector:
+  imgsz: 640
+  conf: 0.25
+  iou: 0.3
+  max_det: 100
+  device: cpu
+  half: false
+crop:
+  version: context-v1
+  left: 0.2
+  right: 0.2
+  top: 0.1
+  bottom: 0.2
+classifier:
+  device: cpu
+  batch_size: 1
+  threads: 4
+  precision: float32
+  target_order:
+  - phone_use
+  - looking_around
+gallery_frames: 20
+sampling_hz: 1

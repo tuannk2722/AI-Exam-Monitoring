@@ -1,0 +1,16 @@
+{
+  "status": "approved",
+  "run_id": "RUNTIME-DETECTOR-A-20261026",
+  "config_sha256": "277e14ede897772ab752a1cc365985284cf063d6793057413cebeefd5ef09e0e",
+  "owner": "repository-owner",
+  "date": "2026-10-26",
+  "decision_ref": "user-message-20261026-approve-active-proposal",
+  "decision_quote": "approve, hãy thực hiện tiếp đi!",
+  "scope": [
+    "implementation",
+    "synthetic_checks",
+    "detector_only_run_after_cohort_review"
+  ],
+  "cohort_labels_accepted": false,
+  "quality_acceptance": false
+}

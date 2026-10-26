@@ -1,0 +1,16 @@
+{
+  "status": "approved",
+  "run_id": "RUNTIME-DETECTOR-DIAGNOSTIC-20261026",
+  "config_sha256": "cdc5c53cdd69da2970f7b3c0bfae15e42bfffda53c4f346a26ea56ce6f1349f0",
+  "owner": "repository-owner",
+  "date": "2026-10-26",
+  "decision_ref": {
+    "path": "configs/runtime/RUNTIME-DETECTOR-REVIEW-20261025/diagnostic-decision-20261026.md",
+    "sha256": "9696e23a6e51c2422893d97ac37d08b079622b7889c77e797088456f36d76225"
+  },
+  "scope": [
+    "detector_only_diagnostic_with_unknowns"
+  ],
+  "cohort_labels_accepted": false,
+  "quality_acceptance": false
+}

@@ -7,7 +7,7 @@ import json
 import math
 import time
 from collections.abc import Iterable
-from datetime import UTC, datetime, timedelta
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import Any, Protocol
 
@@ -27,7 +27,13 @@ from ai_exam_monitoring.training.train import peak_rss
 
 from .classifier import BundleClassifier
 from .person import PersonDetection, PersonDetector, crop_boxes
-from .runtime_config import TARGETS, RuntimeConfig, load_runtime_config, verify_media
+from .runtime_config import (
+    TARGETS,
+    RuntimeConfig,
+    load_runtime_config,
+    media_deadline,
+    verify_media,
+)
 from .video import RecordedVideo, VideoFrame, qa_indices, sample_indices, validate_time
 
 
@@ -79,6 +85,8 @@ def process_frames(
               **metadata, "target_order": TARGETS, "thresholds": thresholds})
         try:
             for frame in frames:
+                if "media_delete_by" in metadata:
+                    media_deadline(metadata)
                 current = frame
                 started = time.perf_counter()
                 expected_index = (expected_indices[frame_count]
@@ -135,6 +143,8 @@ def process_frames(
                 frame_count += 1
                 observation_count += len(observations)
                 times.append((time.perf_counter() - started) * 1000)
+                # The iterator may fail before yielding another source frame.
+                current = None
             if frame_count == 0 or (expected_times is not None
                                     and frame_count != len(expected_times)):
                 raise DataContractError("Incomplete or empty decoded session")
@@ -142,7 +152,8 @@ def process_frames(
             # Avoid logging exception text that can contain private input paths.
             error = type(exc).__name__
             emit({"record_type": "outcome", "status": "failed", "error_type": error,
-                  "completed_frames": frame_count, "failed_frame_index": frame_count})
+                  "completed_frames": frame_count,
+                  "failed_frame_index": current.index if current is not None else None})
             if current is not None and len(sections) < config.raw.get("gallery_frames", 20):
                 current.image.save(output / "failed-frame.png")
                 sections.append(f"<section><h2>Lỗi tại frame {current.index}</h2>"
@@ -168,6 +179,7 @@ def run_video(config_path: Path, workspace: Path, source: Path,
         raise DataContractError("Require an existing local MP4")
     config = load_runtime_config(config_path, workspace)
     rights = verify_media(source, media_approval, config)
+    deadline = media_deadline(rights).isoformat()
     source_sha = rights["source_sha256"]
     output.mkdir(parents=True, exist_ok=False)
     started = time.perf_counter()
@@ -176,13 +188,15 @@ def run_video(config_path: Path, workspace: Path, source: Path,
                               "source_sha256": source_sha, "config_sha256": config.sha256,
                               "media_approval_sha256": sha256_file(media_approval),
                               "started_at": datetime.now(UTC).isoformat(),
-                              "media_delete_by": (datetime.now(UTC)
-                                                  + timedelta(days=7)).isoformat()}
+                              "media_delete_by": deadline}
     write_json(output / "session.json", record)
     try:
         # Decode pass one validates the entire clip and samples uniformly in video time.
         video = RecordedVideo(source)
-        timestamps = [frame.time_ms for frame in video.frames()]
+        timestamps = []
+        for frame in video.frames():
+            media_deadline(rights)
+            timestamps.append(frame.time_ms)
         indices = (sample_indices(timestamps, config.raw["sampling_hz"])
                    if "sampling_hz" in config.raw else list(range(len(timestamps))))
         sampled_times = [timestamps[i] for i in indices]
@@ -203,7 +217,7 @@ def run_video(config_path: Path, workspace: Path, source: Path,
                     "config_sha256": config.sha256, "code_sha256": code_identity()["sha256"],
                     "environment_sha256": digest_json(env), "pins": config.raw["pins"],
                     "crop_policy": config.raw["crop"], "fps": video.fps,
-                    "qa_frame_indices": sorted(selected)}
+                    "qa_frame_indices": sorted(selected), "media_delete_by": deadline}
         metadata.update(sampling_hz=config.raw.get("sampling_hz"),
                         source_frame_count=len(timestamps), sampled_frame_indices=indices)
         record.update(source_frame_count=len(timestamps),
@@ -214,8 +228,8 @@ def run_video(config_path: Path, workspace: Path, source: Path,
                                      expected_indices=indices))
         if sha256_file(source) != source_sha:
             raise DataContractError("Video changed during processing")
+        media_deadline(rights)
         record["status"] = "completed"
-        record["media_delete_by"] = (datetime.now(UTC) + timedelta(days=7)).isoformat()
     except BaseException as exc:
         record.update(status="failed", error_type=type(exc).__name__)
         raise

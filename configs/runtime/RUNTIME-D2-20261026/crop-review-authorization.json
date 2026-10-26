@@ -1,0 +1,13 @@
+{
+  "status": "approved",
+  "run_id": "RUNTIME-D2-CROP-REVIEW-20261026",
+  "config_sha256": "5e71b69470be01323955c41204a13a24ad3c0edfdd69e888e8ebc83a1832ab05",
+  "decision_ref": {
+    "path": "configs/runtime/RUNTIME-DETECTOR-REVIEW-20261025/d2-winner-decision-20261026.md",
+    "sha256": "d70aa33ab38d8bcc3bf5b6f7d8ca74af10a09481dbffeedc1ba9f8abfd37a389"
+  },
+  "scope": [
+    "selected_arm_crop_g0_review"
+  ],
+  "classifier_quality_accepted": false
+}

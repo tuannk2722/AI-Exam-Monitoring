@@ -1,0 +1,103 @@
+{
+  "schema_version": "runtime-keeper-owner-review-v1",
+  "date": "2026-10-26",
+  "status": "reviewed",
+  "owner": "repository-owner",
+  "batch": {
+    "path": "outputs/runtime-d2-keeper-review-20261026/review.json",
+    "sha256": "2882ce8f8542ef0e8e87b62daeef3ada5086ab012f729238c984490f6994a052"
+  },
+  "config": {
+    "path": "configs/runtime/RUNTIME-D2-RECONCILE-20261026/keeper-batch.yaml",
+    "sha256": "26c45667b991138034c0e891c693ea0b13a407ca5affd6a6fdb30f042905dd3b"
+  },
+  "case_mapping_note": "C04/P04 và C06/P06 được đối chiếu duy nhất bằng exact anchor ID trong keeper batch; không sửa nhãn case C04/C06 của exception batch cũ.",
+  "records": [
+    {
+      "owner_case_id": "C01",
+      "case_id": "C01",
+      "anchors": [
+        "f00000690-D2-b015",
+        "f00000690-D2-b016"
+      ],
+      "keeper_anchor": "f00000690-D2-b015",
+      "other_anchor": "f00000690-D2-b016",
+      "crop": {
+        "path": "outputs/runtime-clip-1hz-20261025/session/f00000690-a016-crop.png",
+        "sha256": "c820637e58babcf748a999bd3c1d7e4ff572e1e1cf4a8034c77bb5fa9bd299ab"
+      },
+      "input": {
+        "path": "outputs/runtime-clip-1hz-20261025/session/f00000690-a016-input.png",
+        "sha256": "c0f5c31f10fa3f795573080d5e8e8298dda0198d10956d2d911fc040905c6c67"
+      },
+      "status": "owner_confirmed",
+      "scope": "preferred_existing_crop_for_this_reviewed_pair",
+      "suppression_applied": false
+    },
+    {
+      "owner_case_id": "C02",
+      "case_id": "C02",
+      "anchors": [
+        "f00001080-D2-b014",
+        "f00001080-D2-b015"
+      ],
+      "keeper_anchor": "f00001080-D2-b015",
+      "other_anchor": "f00001080-D2-b014",
+      "crop": {
+        "path": "outputs/runtime-clip-1hz-20261025/session/f00001080-a015-crop.png",
+        "sha256": "63778a818f39395ed4382aabac6cb9b03537f19414dd8bebb529c453524f2867"
+      },
+      "input": {
+        "path": "outputs/runtime-clip-1hz-20261025/session/f00001080-a015-input.png",
+        "sha256": "ada1f9c8f9061b17e7884098f3525d4270dfbd83d150ee09d44d819ea5af4fe2"
+      },
+      "status": "owner_confirmed",
+      "scope": "preferred_existing_crop_for_this_reviewed_pair",
+      "suppression_applied": false
+    },
+    {
+      "owner_case_id": "C04",
+      "case_id": "P04",
+      "anchors": [
+        "f00001680-D2-b006",
+        "f00001680-D2-b009"
+      ],
+      "keeper_anchor": "f00001680-D2-b009",
+      "other_anchor": "f00001680-D2-b006",
+      "crop": {
+        "path": "outputs/runtime-clip-1hz-20261025/session/f00001680-a009-crop.png",
+        "sha256": "93fc69e299503f30194f03392e1b756b1483dec68c85089d58406d2f7c5f5643"
+      },
+      "input": {
+        "path": "outputs/runtime-clip-1hz-20261025/session/f00001680-a009-input.png",
+        "sha256": "f438b1a8601396fe7216d2e4269aa53216f6e4b65fe445e4dfe8c465877511c2"
+      },
+      "status": "owner_confirmed",
+      "scope": "preferred_existing_crop_for_this_reviewed_pair",
+      "suppression_applied": false
+    },
+    {
+      "owner_case_id": "C06",
+      "case_id": "P06",
+      "anchors": [
+        "f00000780-D2-b015",
+        "f00000780-D2-b017"
+      ],
+      "keeper_anchor": "f00000780-D2-b015",
+      "other_anchor": "f00000780-D2-b017",
+      "crop": {
+        "path": "outputs/runtime-clip-1hz-20261025/session/f00000780-a016-crop.png",
+        "sha256": "642b941c14a92b2afe74212f3453817acfe0fb5f497e1b94600f9dfbe7a582e7"
+      },
+      "input": {
+        "path": "outputs/runtime-clip-1hz-20261025/session/f00000780-a016-input.png",
+        "sha256": "97b705ad3c8c613c4bfe5e6fda3a1f3a7cbfa46517d3bb484136dfe67c615086"
+      },
+      "status": "owner_confirmed",
+      "scope": "preferred_existing_crop_for_this_reviewed_pair",
+      "suppression_applied": false
+    }
+  ],
+  "behavior_labels_changed": false,
+  "runtime_changed": false
+}

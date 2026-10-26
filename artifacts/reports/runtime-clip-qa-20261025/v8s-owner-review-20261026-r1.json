@@ -1,0 +1,82 @@
+{
+  "schema_version": "detector-owner-review-addendum-v1",
+  "status": "V8S_quality_accepted_with_known_errors_reference_clarification_pending",
+  "owner": "repository-owner",
+  "date": "2026-10-26",
+  "batch": {
+    "path": "outputs/runtime-detector-matching-review-20261026/matching-draft.json",
+    "sha256": "fbb10314d7bd41661dab0d8e28fcb3500ecf10004b0241101285bebdaf2cbc7d"
+  },
+  "census": {
+    "path": "configs/runtime/RUNTIME-DETECTOR-COMPARISON-20261026/accepted-census.json",
+    "sha256": "ffcf189b5eeb6f3a49a2fdd17f18e3ea7168beb7c8b6518ad908f5a6bde4fe52"
+  },
+  "run": {
+    "path": "outputs/runtime-detector-comparison-20261026/run.json",
+    "sha256": "33ffbe63677652c0f0cfdd7c7aa8b294cb7d43045bf45b61fbcbd6dbcdfbb7a8"
+  },
+  "arm": "V8S",
+  "acceptance": {
+    "scope": "prototype_development_visual_quality",
+    "owner_statement": "với kết quả như này tôi hoàn toàn có thể chấp nhận được, không cần phải tuyệt đối.",
+    "zero_error_requirement_waived_for_this_scope": true,
+    "global_accuracy_claim": false,
+    "V10S_accepted": false,
+    "automatic_suppression_approved": false
+  },
+  "owner_reported_misses": [
+    {
+      "frame_index": 0,
+      "person_id": "p009"
+    },
+    {
+      "frame_index": 0,
+      "person_id": "p015"
+    },
+    {
+      "frame_index": 1680,
+      "person_id": "p017"
+    },
+    {
+      "frame_index": 1770,
+      "person_id": "p017"
+    }
+  ],
+  "owner_confirmed_duplicates": [
+    {
+      "frame_index": 990,
+      "anchors": [
+        "f00000990-V8S-b009",
+        "f00000990-V8S-b012"
+      ],
+      "person_id": "p006"
+    },
+    {
+      "frame_index": 1080,
+      "anchors": [
+        "f00001080-V8S-b017",
+        "f00001080-V8S-b018"
+      ],
+      "person_id": "p015",
+      "resolution": "Owner could not read p for b017; exact manifest confirms draft p015, owner explicitly confirmed same as b018."
+    },
+    {
+      "frame_index": 1560,
+      "anchors": [
+        "f00001560-V8S-b019",
+        "f00001560-V8S-b017"
+      ],
+      "person_id": "p008"
+    }
+  ],
+  "owner_observation": "V8S luôn bắt được bạn ngồi ở góc xa camera nhất.",
+  "pending": [
+    {
+      "frame_index": 0,
+      "anchor_id": "f00000000-V8S-b011",
+      "issue": "Draft p015 conflicts with owner miss and visual source; cap-wearing far person appears absent from accepted census. Owner clarification requested."
+    }
+  ],
+  "other_mapping_status": "not_promoted_to_accepted_from_quality_acceptance",
+  "aggregate_metrics": null
+}

@@ -1,0 +1,22 @@
+schema_version: selected-crop-review-v1
+run_id: RUNTIME-D2-CROP-REVIEW-20261026
+approval_ref: configs/runtime/RUNTIME-D2-20261026/crop-review-authorization.json
+selected_arm: D2
+new_crop_forwards: 2
+cached_crops: 340
+pins:
+  winner:
+    path: configs/runtime/RUNTIME-D2-20261026/winner.json
+    sha256: f615a407a2e3af386afd292d19d0d913bd4839db32a5f5492b8a478a76e06259
+  diagnostic_config:
+    path: configs/runtime/RUNTIME-DETECTOR-REVIEW-20261025/diagnostic.yaml
+    sha256: b9106c572fffd857f6e4515847bc8ddaaf6ae7c11939fc8e0622d5572aa4e95e
+  diagnostic_checksums:
+    path: outputs/runtime-detector-diagnostic-20261026/checksums.json
+    sha256: d7c94c5be06e370d39d9d6de1900ab920d0bbce0cf0fdfe98b2b8404995b0d63
+  diagnostic_run:
+    path: outputs/runtime-detector-diagnostic-20261026/run.json
+    sha256: 89cebd606563bf9f9f44c328cf2ef728b9927efcac442e8d4b1363cfc3f93042
+  detections:
+    path: outputs/runtime-detector-diagnostic-20261026/detections.jsonl
+    sha256: 005a3099dd91aae2ce7df53ede6644e1d2d4203317e3a570a11c664b78f59b6c

@@ -1,0 +1,21 @@
+schema_version: pair-geometry-audit-v1
+arm: D2
+pins:
+  run:
+    path: outputs/runtime-detector-diagnostic-20261026/run.json
+    sha256: 89cebd606563bf9f9f44c328cf2ef728b9927efcac442e8d4b1363cfc3f93042
+  checksums:
+    path: outputs/runtime-detector-diagnostic-20261026/checksums.json
+    sha256: d7c94c5be06e370d39d9d6de1900ab920d0bbce0cf0fdfe98b2b8404995b0d63
+  detections:
+    path: outputs/runtime-detector-diagnostic-20261026/detections.jsonl
+    sha256: 005a3099dd91aae2ce7df53ede6644e1d2d4203317e3a570a11c664b78f59b6c
+  cohort:
+    path: outputs/runtime-detector-review-20261025/cohort.json
+    sha256: 44d3da6f3461199ea1506dad50c64ed5aff0398a2e55492497578ddb55a7fa6e
+  owner_review:
+    path: artifacts/reports/runtime-clip-qa-20261025/owner-review-20261026-r2.json
+    sha256: d3caf5833ba99db3e5fa7ae545efdbb76df00401883a2380a546767752ef10a8
+  design:
+    path: configs/runtime/RUNTIME-D2-RECONCILE-20261026/duplicate-design.md
+    sha256: 617d20df6a914dc35b45b680d35d91c1fe5853efde88027bc969f48a2edbf460

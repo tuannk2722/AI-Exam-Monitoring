@@ -1,0 +1,43 @@
+{
+  "schema_version": "detector-selection-v2",
+  "status": "accepted",
+  "winner": "V8S",
+  "owner": "repository-owner",
+  "scope": "prototype_visual_acceptance_with_known_errors",
+  "decision_ref": {
+    "path": "configs/runtime/RUNTIME-V8S-20261026/decision.json",
+    "sha256": "82cb8beb092a99655fa2f0ddd54f59131c3f1a52bb1a7822be58f91942eae7da"
+  },
+  "detector": {
+    "imgsz": 640,
+    "conf": 0.25,
+    "iou": 0.3,
+    "max_det": 100,
+    "device": "cpu",
+    "half": false,
+    "rect": true,
+    "augment": false,
+    "batch": 1
+  },
+  "detector_weights": {
+    "path": "outputs/runtime-detector-comparison-acquisition-20261026/yolov8s.pt",
+    "sha256": "1f47a78bf100391c2a140b7ac73a1caae18c32779be7d310658112f7ac9aa78a"
+  },
+  "evidence": {
+    "owner_review": {
+      "path": "artifacts/reports/runtime-clip-qa-20261025/v8s-owner-review-20261026-r2.json",
+      "sha256": "6289b9363548c1dd0a54fe4b823afebb9e62b58ad5d78a76e3073fe4ae3fe1ed"
+    },
+    "comparison_run": {
+      "path": "outputs/runtime-detector-comparison-20261026/run.json",
+      "sha256": "33ffbe63677652c0f0cfdd7c7aa8b294cb7d43045bf45b61fbcbd6dbcdfbb7a8"
+    },
+    "census": {
+      "path": "configs/runtime/RUNTIME-DETECTOR-COMPARISON-20261026/accepted-census-r2.json",
+      "sha256": "d443b67e4e10ec4336031b344fd1a58851d4aaacbb1599282f4be470c1eac903"
+    }
+  },
+  "no_person_loss": false,
+  "no_duplicate_crops": false,
+  "full_video_quality_accepted": false
+}

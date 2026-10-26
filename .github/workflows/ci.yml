@@ -30,7 +30,18 @@ jobs:
           python-version: "3.11"
           cache: pip
       - run: python -m pip install -r requirements/base.txt -r requirements/classifier-cpu.txt -r requirements/dev.txt
+      - run: python -m pip install -r requirements/runtime-cpu.txt
+      # Import bắt buộc để test decoder không âm thầm skip nếu thiếu OpenCV.
+      - run: python -c "import cv2; print(cv2.__version__)"
       - run: python -m mypy src/ai_exam_monitoring scripts/check_repo.py
       # Fixture phần mềm tự sinh; không dùng dataset thật, tải weights hoặc GPU.
       - run: python -m unittest discover -s tests -p 'test_training*.py' -q
       - run: python -m unittest discover -s tests -p 'test_runtime.py' -q
+      - run: python -m unittest discover -s tests -p 'test_detector_review.py' -q
+      - run: python -m unittest discover -s tests -p 'test_selected_crop_review.py' -q
+      - run: python -m unittest discover -s tests -p 'test_pair_geometry.py' -q
+      - run: python -m unittest discover -s tests -p 'test_pose_diagnostic.py' -q
+      - run: python -m unittest discover -s tests -p 'test_census_review.py' -q
+      - run: python -m unittest discover -s tests -p 'test_detector_comparison.py' -q
+      - run: python -m unittest discover -s tests -p 'test_matching_review.py' -q
+      - run: python -m unittest discover -s tests -p 'test_runtime_selection.py' -q

@@ -1,0 +1,52 @@
+{
+  "schema_version": "detector-selection-v1",
+  "status": "accepted",
+  "winner": "D2",
+  "owner": "repository-owner",
+  "date": "2026-10-26",
+  "decision_ref": {
+    "path": "configs/runtime/RUNTIME-DETECTOR-REVIEW-20261025/d2-winner-decision-20261026.md",
+    "sha256": "d70aa33ab38d8bcc3bf5b6f7d8ca74af10a09481dbffeedc1ba9f8abfd37a389"
+  },
+  "review_scope": "all_19_development_gallery_frames",
+  "review_method": "owner_visual_batch_review",
+  "owner_findings": {
+    "no_person_loss": true,
+    "no_duplicate_crops": true
+  },
+  "quantitative_matching_available": false,
+  "detector": {
+    "imgsz": 640,
+    "conf": 0.25,
+    "iou": 0.3,
+    "max_det": 100,
+    "device": "cpu",
+    "half": false
+  },
+  "detector_weights": {
+    "path": "outputs/runtime-prototype-20261025/weights/yolov8n.pt",
+    "sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36"
+  },
+  "evidence": {
+    "cohort": {
+      "path": "outputs/runtime-detector-review-20261025/cohort.json",
+      "sha256": "44d3da6f3461199ea1506dad50c64ed5aff0398a2e55492497578ddb55a7fa6e"
+    },
+    "run": {
+      "path": "outputs/runtime-detector-diagnostic-20261026/run.json",
+      "sha256": "89cebd606563bf9f9f44c328cf2ef728b9927efcac442e8d4b1363cfc3f93042"
+    },
+    "detections": {
+      "path": "outputs/runtime-detector-diagnostic-20261026/detections.jsonl",
+      "sha256": "005a3099dd91aae2ce7df53ede6644e1d2d4203317e3a570a11c664b78f59b6c"
+    },
+    "checksums": {
+      "path": "outputs/runtime-detector-diagnostic-20261026/checksums.json",
+      "sha256": "d7c94c5be06e370d39d9d6de1900ab920d0bbce0cf0fdfe98b2b8404995b0d63"
+    },
+    "decision": {
+      "path": "configs/runtime/RUNTIME-DETECTOR-REVIEW-20261025/d2-winner-decision-20261026.md",
+      "sha256": "d70aa33ab38d8bcc3bf5b6f7d8ca74af10a09481dbffeedc1ba9f8abfd37a389"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 # Trạng thái dự án
 
-Đối chiếu code và hồ sơ bàn giao đến **2026-10-25**. Chỉ giữ trạng thái hiện hành, thay nội dung khi tiến độ đổi; không append nhật ký/metrics/mọi task. Không là approval. [Index](00-INDEX.md) định tuyến contracts; [reports](../artifacts/reports/README.md) giữ lịch sử/evidence.
+Đối chiếu code và hồ sơ bàn giao đến **2026-10-26**. Chỉ giữ trạng thái hiện hành, thay nội dung khi tiến độ đổi; không append nhật ký/metrics/mọi task. Không là approval. [Index](00-INDEX.md) định tuyến contracts; [reports](../artifacts/reports/README.md) giữ lịch sử/evidence.
 
 ## Capability
 
@@ -9,7 +9,7 @@
 | Data engineering | V14 local accepted: 1.355 crop sử dụng, 1.199 train / 156 val development / 0 test; dùng đủ 53 crop mới | [V14 release/pointers](../artifacts/reports/dataset-release-20261024-v14/README.md) |
 | Baseline | E001–E003 FINISHED, Continue research; chưa model Selected | Reports → runs/baseline |
 | Model improvement | E008 V14: 4 smoke + 5 research FINISHED; audit metadata PASS. G0 thắng, phone qua gate 3/3 seed G0; looking chưa đạt, chưa Selected. Đã nhận đủ best/last ba run G0 và kiểm integrity local | [Kết quả E008](../artifacts/reports/e008-v14-colab-20261024/results-20261025.md), [checkpoint](../artifacts/reports/e008-v14-colab-20261024/checkpoints-20261025.md) |
-| Runtime | Đã có CLI recorded-video → person → context crop → G0, pins/rights guards và gallery QA; có full-frame và sampling 1/2 Hz; chưa nghiệm thu chất lượng video | [Reference](reference.md), [system](system.md) |
+| Runtime | Đã có CLI recorded-video → person → context crop → G0, pins/rights guards và gallery QA; có full-frame và sampling 1/2 Hz; stage V8S + G0 trên clip hiện tại đã nghiệm thu, chưa nghiệm thu tổng quát | [Reference](reference.md), [system](system.md) |
 | Tracking/events/risk/web | Chưa end-to-end; tracker/rules/risk còn quyết định mở | [Decisions](decisions.md), system acceptance |
 | Tooling/storage | Sau E007 đã nghỉ lưu payload lịch sử và bản trùng: 8.971 files, 9,959 GiB logical; giữ V13/nguồn độc nhất, ba best D1 và ba best R0 cùng metadata | [Cleanup/availability 24/10](../artifacts/reports/cleanup-20261024/README.md), [chính sách](storage.md) |
 
@@ -17,7 +17,13 @@
 
 Owner đã duyệt [chuyển phase prototype](../artifacts/reports/e008-v14-colab-20261024/prototype-decision-20261025.md), dừng cải thiện classifier E008 và chọn G0 seed 20261023, giữ checkpoint/preprocessing/ngưỡng. 80/80/20 không còn chặn chuyển phase prototype; kết quả nghiên cứu và hạn chế support/validation giữ nguyên. [Đề xuất runtime](../configs/runtime/RUNTIME-PROTOTYPE-20261025/README.md) đã được owner duyệt detector/license/crop/output và implementation; config đã materialize. Owner yêu cầu dọn toàn bộ ba thử nghiệm video và hồ sơ riêng; không giữ các lượt đó làm backlog hoặc nghiệm thu. Giữ implementation/config prototype cho phase runtime tiếp theo; tình trạng dọn ghi ở [cleanup](../artifacts/reports/runtime-prototype-20261025/cleanup-20261025.md). [Bàn giao runtime](../artifacts/reports/runtime-prototype-20261025/README.md); chưa nghiệm thu chất lượng video.
 
-## Phạm vi hiện hành
+Đối soát cleanup cũ theo [observation](../artifacts/reports/runtime-prototype-20261025/cleanup-observation-20261025.json); settings runtime đã được tạo lại cho lượt mới, không phục hồi thử nghiệm cũ. [QA partial](../artifacts/reports/runtime-clip-qa-20261025/README.md) giữ lượt full-frame đã dừng; [QA 1 Hz](../artifacts/reports/runtime-clip-qa-20261025/qa-1hz.md) hoàn tất 60 frame toàn clip, integrity PASS, batch 400 crops để review. Chưa nghiệm thu chất lượng.
+
+## Stage runtime đã đóng
+
+Owner đã nghiệm thu và đóng stage **V8S → context-v1 → G0** trên clip hiện tại, 1 Hz / 60 samples, theo [quyết định cuối](../artifacts/reports/runtime-clip-qa-20261025/stage-acceptance-20261026.json). [Bàn giao session](../artifacts/reports/runtime-clip-qa-20261025/v8s-session-20261026.md) và [runtime hiện hành](../configs/runtime/RUNTIME-V8S-20261026/README.md) giữ config/evidence. Các lỗi detector đã biết được chấp nhận trong scope prototype; mọi người diagnostic, role unknown. Không còn review hoặc run bắt buộc của stage này.
+
+D2, pose và đối chứng V8S/V10S là hồ sơ lịch sử trong reports, không là backlog. Không suy stage acceptance thành ground truth từng crop, chất lượng video độc lập hoặc real-time SLA. Chưa mở tracking/events/risk/web; bước mới cần scope và quyết định riêng. Deadline media giữ 01/11/2026 15:55:06 Việt Nam.
 
 Dataset dùng tiếp là [V14 accepted](../artifacts/reports/dataset-release-20261024-v14/README.md): 1.199 train / 156 val development / 0 test. Dùng đủ 53 crop generated mới trong train; exclude G01-A02-F00001-R02 và G01-B02-F00009, chuyển đủ 27 crop thuộc 6 nhóm nguồn liên quan từ val sang train. Nhãn/geometry/bytes V13 giữ lại không đổi. Validation đã đổi composition và không là holdout độc lập; giữ giới hạn lineage của ảnh generated. V13/E007 và pins lịch sử được bảo toàn.
 

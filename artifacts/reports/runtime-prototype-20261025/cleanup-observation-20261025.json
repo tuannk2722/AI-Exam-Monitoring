@@ -1,0 +1,112 @@
+{
+  "schema_version": "runtime-cleanup-observation-v1",
+  "observed_at_utc": "2026-10-25T07:32:56.168508+00:00",
+  "historical_receipt": {
+    "path": "artifacts/reports/runtime-prototype-20261025/cleanup-receipt-20261025.json",
+    "sha256": "b80380d923c38a484fa3c54b8ead7252de01d935f46e7addac6e38f8acb0025b"
+  },
+  "manifest": {
+    "path": "outputs/runtime-prototype-20261025/cleanup-manifest.json",
+    "sha256": "64935985bd6168f2105ab7b62792cbed9d72b08ed3dc10b26b41069812fe11fa"
+  },
+  "operation": "read_only_presence_and_integrity_check",
+  "deletion_performed": false,
+  "roots": [
+    {
+      "path": "outputs/runtime-video-qa-20261025",
+      "exists": false
+    },
+    {
+      "path": "outputs/runtime-video-qa-2hz-20261025",
+      "exists": false
+    },
+    {
+      "path": "outputs/runtime-video-qa-1hz-20261025",
+      "exists": false
+    },
+    {
+      "path": "artifacts/reports/runtime-video-qa-20261025",
+      "exists": false
+    },
+    {
+      "path": "configs/runtime/RUNTIME-VIDEO-QA-1HZ-20261025",
+      "exists": false
+    },
+    {
+      "path": "configs/runtime/RUNTIME-VIDEO-QA-2HZ-20261025",
+      "exists": false
+    },
+    {
+      "path": "outputs/_scratch/runtime-prototype-20261025",
+      "exists": false
+    },
+    {
+      "path": "Ultralytics",
+      "exists": false
+    },
+    {
+      "path": "outputs/runtime-settings",
+      "exists": false
+    }
+  ],
+  "protected_inputs": [
+    {
+      "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/best.pt",
+      "expected_sha256": "cb86da628495996a15135d0d1b400ef410d29383c49f20e6c763c838eb85b500",
+      "actual_sha256": "cb86da628495996a15135d0d1b400ef410d29383c49f20e6c763c838eb85b500"
+    },
+    {
+      "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/resolved-config.json",
+      "expected_sha256": "87f7b794caeb31a55ffcfdc73c5e3d171198d3f9c5f16ddfcb962a1658a6fcdc",
+      "actual_sha256": "87f7b794caeb31a55ffcfdc73c5e3d171198d3f9c5f16ddfcb962a1658a6fcdc"
+    },
+    {
+      "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/calibration.json",
+      "expected_sha256": "4d652d900c9ebb51cf975ff9931161147f2a341d75188af3f97b2346e3e1810f",
+      "actual_sha256": "4d652d900c9ebb51cf975ff9931161147f2a341d75188af3f97b2346e3e1810f"
+    },
+    {
+      "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/bundle.json",
+      "expected_sha256": "13c1e6d7c14a20a2131b825f387f0ba99057edad2156d7120127ebc47f242955",
+      "actual_sha256": "13c1e6d7c14a20a2131b825f387f0ba99057edad2156d7120127ebc47f242955"
+    },
+    {
+      "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/run.json",
+      "expected_sha256": "2abd62105e2ab912dd64ad430a60c37c11394f6687b8c77de6896e241bc4bf5b",
+      "actual_sha256": "2abd62105e2ab912dd64ad430a60c37c11394f6687b8c77de6896e241bc4bf5b"
+    },
+    {
+      "path": "outputs/runtime-prototype-20261025/weights/yolov8n.pt",
+      "expected_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+      "actual_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36"
+    },
+    {
+      "path": "artifacts/reports/runtime-prototype-20261025/detector-acquisition.json",
+      "expected_sha256": "35f9d2de7829c8e5dbbc39f94712ab86da834935899d7fbe43980601ac29f2eb",
+      "actual_sha256": "35f9d2de7829c8e5dbbc39f94712ab86da834935899d7fbe43980601ac29f2eb"
+    },
+    {
+      "path": "outputs/E007-V13-Colab-20261024/pretrained/dinov2-source.zip",
+      "expected_sha256": "04276715cddb29d45d05bff3a6fc132224dc27749b279ac98ad2ce4620e20d48",
+      "actual_sha256": "04276715cddb29d45d05bff3a6fc132224dc27749b279ac98ad2ce4620e20d48"
+    },
+    {
+      "path": "artifacts/reports/e007-v13-colab-20261024/dinov2-pretrained.json",
+      "expected_sha256": "0b19ff7fc61b59ef0350b655e71bb64e1ce8666607fc0ad7c2baedd2c8bb62e4",
+      "actual_sha256": "0b19ff7fc61b59ef0350b655e71bb64e1ce8666607fc0ad7c2baedd2c8bb62e4"
+    },
+    {
+      "path": "configs/runtime/RUNTIME-PROTOTYPE-20261025/runtime.yaml",
+      "expected_sha256": "fe37340ca308f4b46750424717a6c2c1e589a9cd9559334a75c49aa344830d6f",
+      "actual_sha256": "fe37340ca308f4b46750424717a6c2c1e589a9cd9559334a75c49aa344830d6f"
+    },
+    {
+      "path": "configs/runtime/RUNTIME-PROTOTYPE-20261025/owner-authorization.json",
+      "expected_sha256": "fb8d47ca112fb4d56116c48ae944a4634380fd4d0379b0f8286dcc0a8e5fb5d4",
+      "actual_sha256": "fb8d47ca112fb4d56116c48ae944a4634380fd4d0379b0f8286dcc0a8e5fb5d4"
+    }
+  ],
+  "runtime_config_digest": "dbab350d2cebef75294a92d36b046615eed22242cae102b1f5513cdda6e08ddf",
+  "result": "all_9_roots_absent_11_protected_inputs_match",
+  "limitations": "Presence at listed workspace roots only; no claim about deletion time, actor, relocated copies or source videos outside workspace."
+}

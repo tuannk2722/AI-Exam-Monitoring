@@ -1,0 +1,141 @@
+{
+  "status": "relations_reviewed_completeness_pending",
+  "prior_review": {
+    "path": "artifacts/reports/runtime-clip-qa-20261025/pair-owner-review-20261026-r1.json",
+    "sha256": "b613494db6c4aafd49c18661cfc320d500b3bc3dfccd6a4f58983131261fb9f3"
+  },
+  "batch": {
+    "path": "outputs/runtime-d2-census-review-20261026/census-draft.json",
+    "sha256": "84c4eb49d57d63694cd7fb77c3a7316e8d5bbb8537f3139d4a1526bff133a66f"
+  },
+  "relations": [
+    {
+      "case_id": "P01",
+      "anchors": [
+        "f00000870-D2-b004",
+        "f00000870-D2-b007"
+      ],
+      "relation": "different_person",
+      "status": "owner_confirmed",
+      "geometry": {
+        "iou": 0.2999670645853685,
+        "intersection_over_smaller": 0.516861304290773,
+        "area_ratio": 0.8065026799603097
+      }
+    },
+    {
+      "case_id": "P02",
+      "anchors": [
+        "f00000480-D2-b002",
+        "f00000480-D2-b016"
+      ],
+      "relation": "different_person",
+      "status": "owner_confirmed",
+      "geometry": {
+        "iou": 0.299948873922217,
+        "intersection_over_smaller": 0.7126518672250886,
+        "area_ratio": 0.47879810306802845
+      }
+    },
+    {
+      "case_id": "P03",
+      "anchors": [
+        "f00001170-D2-b003",
+        "f00001170-D2-b005"
+      ],
+      "relation": "different_person",
+      "status": "owner_confirmed",
+      "geometry": {
+        "iou": 0.29923627807304326,
+        "intersection_over_smaller": 0.5160957379925459,
+        "area_ratio": 0.8059280671390279
+      }
+    },
+    {
+      "case_id": "P04",
+      "anchors": [
+        "f00001680-D2-b006",
+        "f00001680-D2-b009"
+      ],
+      "relation": "same_person",
+      "status": "owner_confirmed",
+      "geometry": {
+        "iou": 0.27687385519668906,
+        "intersection_over_smaller": 0.5726396977177607,
+        "area_ratio": 0.6094317270882749
+      }
+    },
+    {
+      "case_id": "P05",
+      "anchors": [
+        "f00000000-D2-b005",
+        "f00000000-D2-b007"
+      ],
+      "relation": "different_person",
+      "status": "owner_confirmed",
+      "geometry": {
+        "iou": 0.2759753421873835,
+        "intersection_over_smaller": 0.4975602005276126,
+        "area_ratio": 0.7689494386976472
+      }
+    },
+    {
+      "case_id": "P06",
+      "anchors": [
+        "f00000780-D2-b015",
+        "f00000780-D2-b017"
+      ],
+      "relation": "same_person",
+      "status": "owner_confirmed",
+      "geometry": {
+        "iou": 0.22236786592138286,
+        "intersection_over_smaller": 1.0,
+        "area_ratio": 0.22236786592138286
+      }
+    },
+    {
+      "case_id": "CENSUS-f00000000",
+      "anchors": [
+        "f00000000-D2-b013",
+        "f00000000-D2-b015"
+      ],
+      "relation": "same_person",
+      "status": "owner_confirmed"
+    },
+    {
+      "case_id": "CENSUS-f00000990",
+      "anchors": [
+        "f00000990-D2-b011",
+        "f00000990-D2-b005"
+      ],
+      "relation": "same_person",
+      "status": "owner_confirmed"
+    },
+    {
+      "case_id": "CENSUS-f00001170",
+      "anchors": [
+        "f00001170-D2-b019",
+        "f00001170-D2-b011"
+      ],
+      "relation": "same_person",
+      "status": "owner_confirmed"
+    },
+    {
+      "case_id": "CENSUS-f00001290",
+      "anchors": [
+        "f00001290-D2-b013",
+        "f00001290-D2-b005"
+      ],
+      "relation": "same_person",
+      "status": "owner_confirmed"
+    }
+  ],
+  "reconfirmed_existing": [
+    "C01",
+    "C02",
+    "P04",
+    "P06"
+  ],
+  "new_keeper_decisions": null,
+  "complete_visible_person_census": false
+}

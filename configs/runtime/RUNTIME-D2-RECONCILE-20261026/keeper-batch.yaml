@@ -1,0 +1,78 @@
+schema_version: runtime-exception-batch-v1
+pins:
+  predictions:
+    path: outputs/runtime-d2-crop-review-20261026/predictions.json
+    sha256: f04a3fb68ea059b1380e6fe8d33eca994c999f7a57df581e46fa2a3abe1aefd7
+  run:
+    path: outputs/runtime-d2-crop-review-20261026/run.json
+    sha256: f3fd32d394ef39708c0332fd08a871cfefa207d96c3065f9f486421f022ccf01
+  checksums:
+    path: outputs/runtime-d2-crop-review-20261026/checksums.json
+    sha256: 6a11f6118d95dcf8182bedee2573f70c15c5701e01c33c26f1e017e2b3c154f3
+  cohort:
+    path: outputs/runtime-detector-review-20261025/cohort.json
+    sha256: 44d3da6f3461199ea1506dad50c64ed5aff0398a2e55492497578ddb55a7fa6e
+  owner_exceptions:
+    path: artifacts/reports/runtime-clip-qa-20261025/owner-review-20261026-r2.json
+    sha256: d3caf5833ba99db3e5fa7ae545efdbb76df00401883a2380a546767752ef10a8
+  owner_pairs:
+    path: artifacts/reports/runtime-clip-qa-20261025/pair-owner-review-20261026-r1.json
+    sha256: b613494db6c4aafd49c18661cfc320d500b3bc3dfccd6a4f58983131261fb9f3
+cases:
+- id: C01
+  title: '23 giây: hai box ở mép phải'
+  anchors:
+  - f00000690-D2-b015
+  - f00000690-D2-b016
+  draft_observation: 'Quan hệ cùng người đã được owner xác nhận. Chỉ review lựa chọn
+    crop; chưa có box giữ accepted. Crop rộng C01 có phone thuộc người đội mũ bên
+    cạnh. '
+  question: Chọn mã b của crop giữ đủ phần đầu, tay/bàn đang thấy của anchor và ít
+    lẫn người khác; hoặc ghi cả hai đều phù hợp / chưa crop nào phù hợp / chưa rõ.
+    Không chọn theo score. Ghi phần evidence bị mất nếu có.
+  overlays:
+    '690':
+      path: outputs/runtime-detector-diagnostic-20261026/D2-f00000690.png
+      sha256: 05b17a2bd543e8f6022151e13836a89824648666e27e9b42511902250ec1667a
+- id: C02
+  title: '36 giây: hai box người đang viết'
+  anchors:
+  - f00001080-D2-b014
+  - f00001080-D2-b015
+  draft_observation: 'Quan hệ cùng người đã được owner xác nhận. Chỉ review lựa chọn
+    crop; chưa có box giữ accepted. '
+  question: Chọn mã b của crop giữ đủ phần đầu, tay/bàn đang thấy của anchor và ít
+    lẫn người khác; hoặc ghi cả hai đều phù hợp / chưa crop nào phù hợp / chưa rõ.
+    Không chọn theo score. Ghi phần evidence bị mất nếu có.
+  overlays:
+    '1080':
+      path: outputs/runtime-detector-diagnostic-20261026/D2-f00001080.png
+      sha256: ebe9bca977fafe1b78cfe6bfc38604a1c53331837d227f69fd20897076e34955
+- id: P04
+  title: '56 giây: b006/b009'
+  anchors:
+  - f00001680-D2-b006
+  - f00001680-D2-b009
+  draft_observation: 'Quan hệ cùng người đã được owner xác nhận. Chỉ review lựa chọn
+    crop; chưa có box giữ accepted. '
+  question: Chọn mã b của crop giữ đủ phần đầu, tay/bàn đang thấy của anchor và ít
+    lẫn người khác; hoặc ghi cả hai đều phù hợp / chưa crop nào phù hợp / chưa rõ.
+    Không chọn theo score. Ghi phần evidence bị mất nếu có.
+  overlays:
+    '1680':
+      path: outputs/runtime-detector-diagnostic-20261026/D2-f00001680.png
+      sha256: 496a29d5b11c53b2131e2570b045112d3eda2915b318e2d441e161bc01bbfda7
+- id: P06
+  title: '26 giây: b015/b017'
+  anchors:
+  - f00000780-D2-b015
+  - f00000780-D2-b017
+  draft_observation: 'Quan hệ cùng người đã được owner xác nhận. Chỉ review lựa chọn
+    crop; chưa có box giữ accepted. '
+  question: Chọn mã b của crop giữ đủ phần đầu, tay/bàn đang thấy của anchor và ít
+    lẫn người khác; hoặc ghi cả hai đều phù hợp / chưa crop nào phù hợp / chưa rõ.
+    Không chọn theo score. Ghi phần evidence bị mất nếu có.
+  overlays:
+    '780':
+      path: outputs/runtime-detector-diagnostic-20261026/D2-f00000780.png
+      sha256: 74162f8f68d8396fee943c695d779e9265c7bb213047bc370ca3fe76fd93c74d

@@ -1,0 +1,58 @@
+schema_version: detector-ablation-config-v2
+run_id: RUNTIME-DETECTOR-DIAGNOSTIC-20261026
+approval_ref: configs/runtime/RUNTIME-DETECTOR-REVIEW-20261025/diagnostic-authorization.json
+pins:
+  proposal:
+    path: configs/runtime/RUNTIME-DETECTOR-REVIEW-20261025/proposal.yaml
+    sha256: 8aed192c61ef1ceb14434e5bfbf4c4b7f2afa580cddc82e995768685391fe7eb
+  baseline_runtime:
+    path: configs/runtime/RUNTIME-CLIP-1HZ-20261025/runtime.yaml
+    sha256: eb438adc3145ba7382bfc8e5d734506006f161397963820bb08a0138dffde09d
+  cohort:
+    path: outputs/runtime-detector-review-20261025/cohort.json
+    sha256: 44d3da6f3461199ea1506dad50c64ed5aff0398a2e55492497578ddb55a7fa6e
+  session:
+    path: outputs/runtime-clip-1hz-20261025/session/session.json
+    sha256: ea5717fd9a87cfd3ef1487332ff8168cfdc347fb71275d150373b31a293bc120
+  media_approval:
+    path: outputs/runtime-clip-1hz-20261025/media-approval.json
+    sha256: 2fb48efb7031f7d4a26282e7e5fb2d66525def56abb1c7697c2dedfbf9fc41c6
+  draft_review:
+    path: outputs/runtime-detector-review-20261025/person-review-draft-20261026.json
+    sha256: 71c9d4de10c3a0c7400f49ef36553fc53762d07be81e3ab22c88a7fadd972ba0
+  diagnostic_decision:
+    path: configs/runtime/RUNTIME-DETECTOR-REVIEW-20261025/diagnostic-decision-20261026.md
+    sha256: 9696e23a6e51c2422893d97ac37d08b079622b7889c77e797088456f36d76225
+frame_indices:
+- 0
+- 90
+- 210
+- 300
+- 390
+- 480
+- 600
+- 690
+- 780
+- 870
+- 990
+- 1080
+- 1170
+- 1290
+- 1380
+- 1470
+- 1560
+- 1680
+- 1770
+arms:
+- id: D0
+  conf: 0.25
+  iou: 0.7
+- id: D1
+  conf: 0.25
+  iou: 0.5
+- id: D2
+  conf: 0.25
+  iou: 0.3
+classifier_inference: false
+role_policy: unknown_diagnostic_only
+review_policy: diagnostic_unknown_no_selection

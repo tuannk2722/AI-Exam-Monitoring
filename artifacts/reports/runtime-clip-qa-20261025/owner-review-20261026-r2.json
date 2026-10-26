@@ -1,0 +1,337 @@
+{
+  "schema_version": "runtime-owner-review-addendum-v1",
+  "status": "reviewed_with_unknowns",
+  "date": "2026-10-26",
+  "owner": "repository-owner",
+  "batch": {
+    "path": "outputs/runtime-d2-reconcile-20261026/review.json",
+    "sha256": "79ce84434cf06c17c10505d699784e60d6fc6bbba070b6b7c68371c4e64f00c2"
+  },
+  "scope": "selected_exception_cases_only_not_full_clip_metrics",
+  "eligibility": "all_people_diagnostic_role_unknown",
+  "relations": [
+    {
+      "case_id": "C01",
+      "anchors": [
+        "f00000690-D2-b015",
+        "f00000690-D2-b016"
+      ],
+      "relation": "same_person",
+      "status": "owner_confirmed"
+    },
+    {
+      "case_id": "C02",
+      "anchors": [
+        "f00001080-D2-b014",
+        "f00001080-D2-b015"
+      ],
+      "relation": "same_person",
+      "status": "owner_confirmed"
+    }
+  ],
+  "records": [
+    {
+      "case_id": "C01",
+      "anchor_id": "f00000690-D2-b015",
+      "crop": {
+        "path": "outputs/runtime-clip-1hz-20261025/session/f00000690-a016-crop.png",
+        "sha256": "c820637e58babcf748a999bd3c1d7e4ff572e1e1cf4a8034c77bb5fa9bd299ab"
+      },
+      "targets": {
+        "phone_use": "U",
+        "looking_around": "U"
+      },
+      "label_status": "behavior_unreviewed_relation_confirmed",
+      "runtime_role": "unknown",
+      "owner_role_note": null,
+      "scores": [
+        0.17414307594299316,
+        0.061353057622909546
+      ],
+      "above_threshold": [
+        false,
+        false
+      ],
+      "note": "Cùng người đã xác nhận; chưa được cấp nhãn hai hành vi, giữ U/U."
+    },
+    {
+      "case_id": "C01",
+      "anchor_id": "f00000690-D2-b016",
+      "crop": {
+        "path": "outputs/runtime-clip-1hz-20261025/session/f00000690-a017-crop.png",
+        "sha256": "0f51563d41a055d77a3e0c178fad34d16896ce96be0ddf2766ae952639beb9e1"
+      },
+      "targets": {
+        "phone_use": "U",
+        "looking_around": "U"
+      },
+      "label_status": "behavior_unreviewed_relation_confirmed",
+      "runtime_role": "unknown",
+      "owner_role_note": null,
+      "scores": [
+        0.9269689321517944,
+        0.1731199026107788
+      ],
+      "above_threshold": [
+        true,
+        false
+      ],
+      "note": "Cùng người đã xác nhận; chưa được cấp nhãn hai hành vi, giữ U/U."
+    },
+    {
+      "case_id": "C02",
+      "anchor_id": "f00001080-D2-b014",
+      "crop": {
+        "path": "outputs/runtime-clip-1hz-20261025/session/f00001080-a014-crop.png",
+        "sha256": "8d069ba3d2230783b7e94a619345c65f1a5671741f5356c5e23f544e0c9cd464"
+      },
+      "targets": {
+        "phone_use": "U",
+        "looking_around": "U"
+      },
+      "label_status": "behavior_unreviewed_relation_confirmed",
+      "runtime_role": "unknown",
+      "owner_role_note": null,
+      "scores": [
+        0.016660157591104507,
+        0.24827557802200317
+      ],
+      "above_threshold": [
+        false,
+        false
+      ],
+      "note": "Cùng người đã xác nhận; chưa được cấp nhãn hai hành vi, giữ U/U."
+    },
+    {
+      "case_id": "C02",
+      "anchor_id": "f00001080-D2-b015",
+      "crop": {
+        "path": "outputs/runtime-clip-1hz-20261025/session/f00001080-a015-crop.png",
+        "sha256": "63778a818f39395ed4382aabac6cb9b03537f19414dd8bebb529c453524f2867"
+      },
+      "targets": {
+        "phone_use": "U",
+        "looking_around": "U"
+      },
+      "label_status": "behavior_unreviewed_relation_confirmed",
+      "runtime_role": "unknown",
+      "owner_role_note": null,
+      "scores": [
+        0.13115911185741425,
+        0.027728401124477386
+      ],
+      "above_threshold": [
+        false,
+        false
+      ],
+      "note": "Cùng người đã xác nhận; chưa được cấp nhãn hai hành vi, giữ U/U."
+    },
+    {
+      "case_id": "C03",
+      "anchor_id": "f00001680-D2-b002",
+      "crop": {
+        "path": "outputs/runtime-clip-1hz-20261025/session/f00001680-a002-crop.png",
+        "sha256": "5693bb4abfe99f4ddb31e085a2dfc837f1d93fad07e7670b869cebebe078b648"
+      },
+      "targets": {
+        "phone_use": "U",
+        "looking_around": "N"
+      },
+      "label_status": "owner_reviewed",
+      "runtime_role": "unknown",
+      "owner_role_note": null,
+      "scores": [
+        0.012410874478518963,
+        0.5068063139915466
+      ],
+      "above_threshold": [
+        false,
+        true
+      ]
+    },
+    {
+      "case_id": "C03",
+      "anchor_id": "f00001770-D2-b005",
+      "crop": {
+        "path": "outputs/runtime-clip-1hz-20261025/session/f00001770-a005-crop.png",
+        "sha256": "eb704fa233162ac6b33230661d135bf43d722ab11f4ba9b6b367b1e6476c08e0"
+      },
+      "targets": {
+        "phone_use": "U",
+        "looking_around": "N"
+      },
+      "label_status": "owner_reviewed",
+      "runtime_role": "unknown",
+      "owner_role_note": null,
+      "scores": [
+        0.010128939524292946,
+        0.3611065745353699
+      ],
+      "above_threshold": [
+        false,
+        false
+      ]
+    },
+    {
+      "case_id": "C04",
+      "anchor_id": "f00000480-D2-b009",
+      "crop": {
+        "path": "outputs/runtime-clip-1hz-20261025/session/f00000480-a009-crop.png",
+        "sha256": "7ee6ad57538df6c554fd0c8c2e3d94ed9c95e1e423426ab79f967ff53dde5a80"
+      },
+      "targets": {
+        "phone_use": "U",
+        "looking_around": "U"
+      },
+      "label_status": "owner_reviewed",
+      "runtime_role": "unknown",
+      "owner_role_note": null,
+      "scores": [
+        0.16077710688114166,
+        0.508306086063385
+      ],
+      "above_threshold": [
+        false,
+        true
+      ]
+    },
+    {
+      "case_id": "C05",
+      "anchor_id": "f00001080-D2-b000",
+      "crop": {
+        "path": "outputs/runtime-clip-1hz-20261025/session/f00001080-a000-crop.png",
+        "sha256": "faa5959b73ee28ac53a11d988725b7c68a696f0f486459be3450c5006981fd22"
+      },
+      "targets": {
+        "phone_use": "N",
+        "looking_around": "P"
+      },
+      "label_status": "owner_reviewed",
+      "runtime_role": "unknown",
+      "owner_role_note": "invigilator",
+      "scores": [
+        0.06268669664859772,
+        0.8157504200935364
+      ],
+      "above_threshold": [
+        false,
+        true
+      ]
+    },
+    {
+      "case_id": "C05",
+      "anchor_id": "f00001770-D2-b000",
+      "crop": {
+        "path": "outputs/runtime-clip-1hz-20261025/session/f00001770-a000-crop.png",
+        "sha256": "f8a25463a1af28e41f0a96fce98500481a35bd7a6984487cac5e1e6baffd6705"
+      },
+      "targets": {
+        "phone_use": "U",
+        "looking_around": "U"
+      },
+      "label_status": "owner_reviewed",
+      "runtime_role": "unknown",
+      "owner_role_note": null,
+      "scores": [
+        0.21093839406967163,
+        0.4567411243915558
+      ],
+      "above_threshold": [
+        false,
+        true
+      ],
+      "person_presence": "visible_head",
+      "behavior_observability": "insufficient",
+      "detector_false_positive": false
+    },
+    {
+      "case_id": "C06",
+      "anchor_id": "f00001080-D2-b004",
+      "crop": {
+        "path": "outputs/runtime-d2-crop-review-20261026/f00001080-D2-b004-crop.png",
+        "sha256": "1847d550f362c736a963f3e5febee3d596886826184c9ee70b14e327efc49c1a"
+      },
+      "targets": {
+        "phone_use": "N",
+        "looking_around": "N"
+      },
+      "label_status": "owner_reviewed",
+      "runtime_role": "unknown",
+      "owner_role_note": null,
+      "scores": [
+        0.03364396095275879,
+        0.1462612897157669
+      ],
+      "above_threshold": [
+        false,
+        false
+      ]
+    },
+    {
+      "case_id": "C06",
+      "anchor_id": "f00001170-D2-b005",
+      "crop": {
+        "path": "outputs/runtime-d2-crop-review-20261026/f00001170-D2-b005-crop.png",
+        "sha256": "fb49c38f7eb581ddf3c8ac118e94b3a20b937dd5f7a16997a75acb12395eec70"
+      },
+      "targets": {
+        "phone_use": "N",
+        "looking_around": "N"
+      },
+      "label_status": "owner_reviewed",
+      "runtime_role": "unknown",
+      "owner_role_note": null,
+      "scores": [
+        0.03810771927237511,
+        0.13970956206321716
+      ],
+      "above_threshold": [
+        false,
+        false
+      ]
+    },
+    {
+      "case_id": "C07",
+      "anchor_id": "f00001380-D2-b004",
+      "crop": {
+        "path": "outputs/runtime-clip-1hz-20261025/session/f00001380-a004-crop.png",
+        "sha256": "cc846a1acd8c7be8bee6cf44f6983d944f6b282da042efad4d745122e4ec69f1"
+      },
+      "targets": {
+        "phone_use": "P",
+        "looking_around": "N"
+      },
+      "label_status": "owner_reviewed",
+      "runtime_role": "unknown",
+      "owner_role_note": null,
+      "scores": [
+        0.9432870149612427,
+        0.3637772798538208
+      ],
+      "above_threshold": [
+        true,
+        false
+      ]
+    }
+  ],
+  "owner_statement_looking": "Người đội mũ không hề looking_around P trong bất cứ frame nào.",
+  "statement_scope_note": "Ghi N cho hai anchor C03 đã xác định; chưa tự lan truyền sang mọi frame do chưa có mapping/track được nghiệm thu.",
+  "pending": [],
+  "raw_feedback": "C03: Điện thoại trong crop rộng thuộc người đội mũ. người đội mũ không hề looking_around P trong bất cứ frame nào.\nC04: U/U\nC05: crop f00001080-D2-b000 là giám thị đang đi lại, nhưng dựa theo hướng nhìn và đầu thì có thể coi là N/P. crop f00001770-D2-b000 này thì tôi ko thấy có dấu hiệu là người trong này.\nC06: cả hai crop thì target anchor đều là người áo trắng - N/N.\nC07: target anchor là người duy nhất trong crop và phone thuộc người đó - P/N.",
+  "supersedes": {
+    "path": "artifacts/reports/runtime-clip-qa-20261025/owner-review-20261026-r1.json",
+    "sha256": "ada3d35886d1cc939b33230128971f399b3353e81e80b1cb00c64419d63d7cfe",
+    "scope": "clarifications_C01_ownership_C03_C05_59"
+  },
+  "clarifications": [
+    "Chỉ xác nhận ownership C01; C03 phone U, looking N",
+    "C05 giây 59: có phần đầu, không đủ quan sát: U/U"
+  ],
+  "ownership": {
+    "case_id": "C01",
+    "anchor_id": "f00000690-D2-b016",
+    "visible_phone_owner": "neighbor_with_cap",
+    "status": "owner_confirmed",
+    "note": "Không tự suy nhãn N cho mọi phone của anchor từ ownership của một thiết bị."
+  }
+}
