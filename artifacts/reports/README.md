@@ -1,6 +1,8 @@
 # Tra cứu kết quả và bằng chứng
 
+[Nghiệm thu events prototype](events-prototype-20261027/acceptance-20261027.md): owner chấp nhận batch sau review và yêu cầu cleanup/hai commit; supersede trạng thái chờ review trong snapshot dưới đây.
 
+[Temporal events prototype ngày 27/10](events-prototype-20261027/README.md): rules đã duyệt, implementation/tests và một cached replay completed; candidates chưa human acceptance, risk/web chưa mở.
 
 [Chốt C10 prototype](tracking-cadence-20261027/closeout-20261027.md): owner duyệt kết quả và miễn audit toàn clip. Supersede trạng thái candidate bên dưới; bước tiếp là [proposal temporal events](../../configs/events/EVENTS-PROTOTYPE-20261027/README.md).
 

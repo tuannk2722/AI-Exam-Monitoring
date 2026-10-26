@@ -1,0 +1,53 @@
+{
+  "schema_version": "events-authorization-v1",
+  "status": "approved",
+  "event_run_id": "EVENTS-PROTOTYPE-20261027",
+  "basis": "Owner reviewed and approved the events proposal, implementation/tests and one cached replay.",
+  "allowed_actions": [
+    "implementation",
+    "synthetic_tests",
+    "cached_replay"
+  ],
+  "output": "outputs/events-prototype-20261027",
+  "cached_replay_runs": 1,
+  "new_model_forwards": 0,
+  "access": "repository_owner",
+  "upload": false,
+  "risk": false,
+  "web": false,
+  "media_delete_by": "2026-11-01T08:55:06.308086+00:00",
+  "pins": {
+    "design": {
+      "path": "configs/events/EVENTS-PROTOTYPE-20261027/README.md",
+      "sha256": "4bd48d9f44b9a4499c9a58d28adb6054bd02b61f6826fc677ba999001619495c"
+    },
+    "proposal_rule": {
+      "path": "configs/events/EVENTS-PROTOTYPE-20261027/rule.yaml",
+      "sha256": "f7067e1c7f5d16fdf6e2997b4a012c5ba36f551176087f7e03e143b60a1a1a7c"
+    },
+    "rule": {
+      "path": "configs/events/EVENTS-PROTOTYPE-20261027/approved-rule.yaml",
+      "sha256": "ec002fa0944baa9d3f6d16accbb98c6000cf9f780a5114046adc05fa5f9156a6"
+    },
+    "tracking_acceptance": {
+      "path": "artifacts/reports/tracking-cadence-20261027/owner-acceptance-20261027.json",
+      "sha256": "4f51ab376697672ef4b92fe6b4a151ef3d95d7682d403c4e0bd7f6e818337b0d"
+    },
+    "tracking_authorization": {
+      "path": "configs/tracking/TRACKING-PROTOTYPE-20261026/owner-authorization.json",
+      "sha256": "8d60c4398e6f2f1080e6ee222d973517fcb29b7d008f6f99d383fdbf32ef0aa1"
+    },
+    "tracker_session": {
+      "path": "outputs/tracking-cadence-20261027/C10/session.json",
+      "sha256": "a556a48fc43a1bfd9b369f11e05b2fdfdb5059de5118194477246bc63bc25e98"
+    },
+    "assignments": {
+      "path": "outputs/tracking-cadence-20261027/C10/assignments.jsonl",
+      "sha256": "81b5b50b1ea690657b62ca053e192069e701a7ad810c98b2a9c2c0d5c01788cc"
+    },
+    "projection": {
+      "path": "outputs/tracking-cadence-20261027/C10-parent-projection.json",
+      "sha256": "45356fbce787ba4775d6328bf1e8bdffb7b8f7e3b48d3dbdab3bb4662d0360ae"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": "events-prototype-acceptance-v1",
+  "decision_id": "EVENTS-ACCEPTANCE-20261027",
+  "status": "accepted_for_current_clip_prototype",
+  "decision_by": "repository_owner",
+  "basis": "Owner reviewed candidates and monitoring results and found them acceptable; requested cleanup and separate tracking/events commits.",
+  "individual_event_confirmation": false,
+  "independent_quality_metrics": false,
+  "risk": false,
+  "web": false,
+  "media_delete_by": "2026-11-01T08:55:06.308086+00:00",
+  "pins": {
+    "report": {
+      "path": "artifacts/reports/events-prototype-20261027/README.md",
+      "sha256": "2ad55b94edaf408b6d9acf534c53a0d5321ad04823af708c51c064f3bfd6526e"
+    },
+    "candidates": {
+      "path": "artifacts/reports/events-prototype-20261027/candidates.md",
+      "sha256": "76bddfa645256fa64b77e57edabc66fdf464d2579c24f9a91e60f26cf18da2d8"
+    },
+    "verification": {
+      "path": "artifacts/reports/events-prototype-20261027/verification.json",
+      "sha256": "b0b05f2ed805ffa2955211902338fd0af5584eae067ba2f39c0ad9b0a2ba749b"
+    },
+    "events": {
+      "path": "outputs/events-prototype-20261027/events.jsonl",
+      "sha256": "4216fec567205d2150e47976921f6d0ee7edfe1f3038d09e514ed26b782b1b59"
+    },
+    "session": {
+      "path": "outputs/events-prototype-20261027/session.json",
+      "sha256": "2cebd72185febbe938d5a2d1958a248fc2f0acd1b3c5bea634d90b49531e27db"
+    },
+    "authorization": {
+      "path": "configs/events/EVENTS-PROTOTYPE-20261027/owner-authorization.json",
+      "sha256": "adc1aff2fb13e58274fddabb224237debe52e1d8968542a83351d94f0d1d019c"
+    },
+    "rule": {
+      "path": "configs/events/EVENTS-PROTOTYPE-20261027/approved-rule.yaml",
+      "sha256": "ec002fa0944baa9d3f6d16accbb98c6000cf9f780a5114046adc05fa5f9156a6"
+    }
+  }
+}

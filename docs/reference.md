@@ -27,6 +27,7 @@ CLI `inference.tracking` replay detections của session completed theo authoriz
 
 CLI `inference.tracking_cadence --authorization <json> --source <video> --output <new-output>` thực thi ma trận detector-only C5/C10 theo [config đã pin](../configs/tracking/TRACKING-CADENCE-20261027/README.md). Cache `person-cadence-v1` giữ nguyên observations tại 60 parent samples; frame mới chỉ có box/confidence, không giả classifier scores. Projection về anchors parent phải exact; source, budget và deadline được kiểm. Không chạy lại ma trận đã hoàn tất chỉ để xem [gallery/kết quả](../artifacts/reports/tracking-cadence-20261027/README.md).
 
+CLI `inference.events --authorization <json> --output <approved-output>` join cached G0/C10 và tạo temporal candidates theo [rules/authorization](../configs/events/EVENTS-PROTOTYPE-20261027/execution.md). Không gọi model hoặc decode media; guards kiểm pins/rights/expiry, exact mapping và path replay duy nhất. Output chứa BehaviorEvent, support/provenance, accounting và completed/failed outcome; xem [report](../artifacts/reports/events-prototype-20261027/README.md) thay vì chạy lại để đọc kết quả.
 
 
 

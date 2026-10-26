@@ -1,0 +1,26 @@
+{
+  "session": {
+    "path": "outputs/events-prototype-20261027/session.json",
+    "sha256": "2cebd72185febbe938d5a2d1958a248fc2f0acd1b3c5bea634d90b49531e27db"
+  },
+  "manifest": {
+    "path": "outputs/events-prototype-20261027/checksums.json",
+    "sha256": "a610d12d32018d9497ed1e3c42fbb1049bf74bd398f410a0d8de89cc9bf1a32d"
+  },
+  "events": {
+    "path": "outputs/events-prototype-20261027/events.jsonl",
+    "sha256": "4216fec567205d2150e47976921f6d0ee7edfe1f3038d09e514ed26b782b1b59"
+  },
+  "accounting": {
+    "path": "outputs/events-prototype-20261027/accounting.json",
+    "sha256": "3d139d15169b791253998d91dc49cf6458567efbae1d2c79f8b92f4be3eaea0c"
+  },
+  "verified_output_files": 7,
+  "exact_support_refs": 334,
+  "independent_accounting": "pass",
+  "event_tests": 10,
+  "tracking_tests": 22,
+  "mypy_source_files": 73,
+  "ruff": "pass",
+  "new_model_forwards": 0
+}
