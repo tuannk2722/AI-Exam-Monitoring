@@ -63,6 +63,9 @@ Slice prototype dùng contract `recorded-observations-v1` theo [thiết kế run
 
 Các entity dự kiến cho phần sau: session/job, model version, risk snapshot, evidence và human review. Chỉ định fields/persistence cụ thể khi thực hiện slice tương ứng; chưa cần database schema hoặc service phụ ngay bây giờ.
 
+
+Slice tracking theo [thiết kế được duyệt](../configs/tracking/TRACKING-PROTOTYPE-20261026/execution.md) xuất `track-assignments-v1` riêng: arm ID, parent session SHA, frame index/time và đúng một assignment cho mỗi anchor gốc. Assignment giữ person box gốc, track ID hoặc null và reason; box tracker nếu có là field riêng. Track ID chỉ có nghĩa trong arm/session; không gộp hoặc tạo behavior predictions cho frame thiếu observation. `tracking-session-v1` và benchmark outcome phân biệt completed/failed với quality acceptance. Không thay dataclass `TrackObservation` hoặc output runtime cũ; chưa mở event/risk contracts.
+
 ## 5. Yêu cầu vận hành và luồng người dùng
 
 Sau khi đủ gate, slice đầu là local recorded-video: chọn video có quyền → server kiểm input → session queued/running → lưu output/evidence → completed hoặc failed → người xem timeline và review. Không thêm live/WebSocket/seat mapping vào slice đầu. Server tạo tên file kỹ thuật, validate loại/kích thước/thời lượng; không chỉ dựa validation client. Các limit cụ thể chưa chốt, không hard-code số giả như acceptance target.

@@ -23,6 +23,11 @@ Hardware tham chiếu lịch sử: local i7-1255U, RAM 8/16 GB, Intel UHD; khôn
 
 Adapter hiện yêu cầu source/checkpoint tồn tại, output mới và FPS dương/hữu hạn trước predict; không tạo timestamp 0 để che metadata thiếu. JSONL mở đầu bằng metadata source/checkpoint SHA và FPS, tiếp theo là predictions. CLI confidence mặc định 0.25 là giá trị của adapter generic, không phải threshold hành vi hoặc risk được owner duyệt. Đường generic này giữ nguyên. CLI `inference.runtime` có session outcome và pipeline riêng theo [runtime config/usage](../configs/runtime/RUNTIME-PROTOTYPE-20261025/README.md); `video.py` kiểm decode/timestamps, `person.py` giữ geometry policy, `runtime_config.py` kiểm approval/pins/rights. Reuse `AdaptationModel` và `letterbox` để reload full G0 bundle trên CPU với identity runtime mới; không gọi hoặc nới evaluator lịch sử.
 
+CLI `inference.tracking` replay detections của session completed theo authorization/pins, giữ assignment cho mọi anchor kể cả null; ByteTrack dùng original index qua high/low filtering. CLI `inference.tracking_review` decode đúng source đã pin để tạo gallery offline ba arms và draft review export. [Thiết kế được duyệt, dependencies và cách dùng](../configs/tracking/TRACKING-PROTOTYPE-20261026/execution.md); không chạy detector/classifier hoặc suy identity ground truth. Review export chưa tự là acceptance, chưa có metrics identity khi thiếu review coverage. Các arms dùng instance mới và chạy tuần tự do bộ đếm ID upstream dùng chung.
+
+CLI `inference.tracking_cadence --authorization <json> --source <video> --output <new-output>` thực thi ma trận detector-only C5/C10 theo [config đã pin](../configs/tracking/TRACKING-CADENCE-20261027/README.md). Cache `person-cadence-v1` giữ nguyên observations tại 60 parent samples; frame mới chỉ có box/confidence, không giả classifier scores. Projection về anchors parent phải exact; source, budget và deadline được kiểm. Không chạy lại ma trận đã hoàn tất chỉ để xem [gallery/kết quả](../artifacts/reports/tracking-cadence-20261027/README.md).
+
+
 
 
 Runtime ghi `failed_frame_index` theo index nguồn của frame đang xử lý, không phải

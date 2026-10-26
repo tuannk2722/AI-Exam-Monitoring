@@ -1,0 +1,34 @@
+schema_version: tracking-cadence-config-v1
+experiment_id: TRACKING-CADENCE-20261027
+cache_hz: 10
+source_fps: 30
+source_frames: 1800
+expected_cache_samples: 600
+expected_parent_samples: 60
+expected_new_forwards: 540
+classifier_new_forwards: 0
+tracker_policy:
+  ultralytics_version: 8.3.221
+  proposed_lap_version: 0.5.12
+  track_buffer: 60
+  match_thresh: 0.8
+  fuse_score: true
+arm_policy:
+  type: bytetrack
+  track_high_thresh: 0.25
+  track_low_thresh: 0.1
+  new_track_thresh: 0.25
+arms:
+  - arm_id: C5
+    hz: 5
+    samples: 300
+  - arm_id: C10
+    hz: 10
+    samples: 600
+known_case:
+  anchors:
+    - f00000240-a004
+    - f00000270-a000
+  frame_indices: [240, 270]
+review_windows_seconds: [[7, 11], [35, 40]]
+media_delete_by: '2026-11-01T08:55:06.308086+00:00'

@@ -1,0 +1,53 @@
+proposal_id: TRACKING-PROTOTYPE-20261026
+status: draft
+scope: tracking_only_local_replay
+input_pins_ref: configs/tracking/TRACKING-PROTOTYPE-20261026/preflight.json
+parent_runtime_id: RUNTIME-V8S-20261026
+sampling_hz: 1
+expected_samples: 60
+expected_observations: 1162
+association_box: person_box
+behavior_scores_for_association: false
+detector_inference: false
+classifier_inference: false
+tracker:
+  implementation: ultralytics.trackers.byte_tracker.BYTETracker
+  ultralytics_version: 8.3.221
+  proposed_lap_version: 0.5.12
+  frame_rate: 1
+  track_buffer: 60
+  expected_max_time_lost_updates: 2
+  match_thresh: 0.8
+  fuse_score: true
+arms:
+  - arm_id: N0
+    type: no_tracking
+  - arm_id: B0
+    type: bytetrack
+    track_high_thresh: 0.25
+    track_low_thresh: 0.1
+    new_track_thresh: 0.25
+  - arm_id: B1
+    type: bytetrack
+    track_high_thresh: 0.5
+    track_low_thresh: 0.25
+    new_track_thresh: 0.5
+review:
+  protocol_ref: configs/tracking/TRACKING-PROTOTYPE-20261026/README.md
+  source_samples: all_60
+  owner_batch_acceptance_required: true
+  unknown_identity: excluded_and_counted
+  numerical_quality_gate: null
+  winner: null
+media:
+  parent_receipt: configs/runtime/RUNTIME-V8S-20261026/session-media-approval.json
+  access: repository_owner
+  upload: false
+  media_delete_by: '2026-11-01T08:55:06.308086+00:00'
+outputs:
+  proposed_root: outputs/tracking-prototype-20261026
+  mutate_parent: false
+downstream:
+  events: false
+  risk: false
+  web: false

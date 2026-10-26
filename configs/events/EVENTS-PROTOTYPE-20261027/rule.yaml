@@ -1,0 +1,24 @@
+schema_version: temporal-event-rule-proposal-v1
+rule_id: EVENTS-PROTOTYPE-20261027
+status: draft_pending_owner_approval
+tracking_arm: C10
+classifier_sampling_hz: 1
+behaviors: [phone_use, looking_around]
+threshold_source: pinned_parent_runtime
+min_positive_observations: 3
+expected_spacing_ms: 1000
+min_observed_span_ms: 2000
+bridge_missing_samples: false
+merge_track_ids: false
+break_on_negative: true
+break_on_unknown: true
+break_on_null_track: true
+confidence_aggregation: arithmetic_mean_supporting_scores
+event_status: candidate
+duration_semantics: last_minus_first_observation
+duplicate_suppression: none
+new_model_forwards: 0
+cached_replay_runs: 1
+risk: false
+web: false
+media_delete_by: '2026-11-01T08:55:06.308086+00:00'

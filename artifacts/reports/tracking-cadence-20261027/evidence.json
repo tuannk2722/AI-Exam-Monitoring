@@ -1,0 +1,52 @@
+{
+  "schema_version": "tracking-cadence-audit-v1",
+  "selected_arm": "C10",
+  "status": "candidate_for_further_validation",
+  "quality_accepted": false,
+  "events": false,
+  "risk": false,
+  "web": false,
+  "media_delete_by": "2026-11-01T08:55:06.308086+00:00",
+  "decision_by": "assistant_under_owner_delegation",
+  "session": {
+    "path": "outputs/tracking-cadence-20261027/session.json",
+    "sha256": "1488b6359e2046f42bea16328ccf8aa061ce4a4d117f597c2ca15ec862d25fff"
+  },
+  "output_manifest": {
+    "path": "outputs/tracking-cadence-20261027/checksums.json",
+    "sha256": "bc4bbbd9cc7fb84c430daad346116b9d3d5f9fcfcc7b5067fbe3561988676b80"
+  },
+  "audit_manifest": {
+    "path": "outputs/tracking-cadence-audit-20261027/checksums.json",
+    "sha256": "0856392413936d3523886cdb751ddbda39822bbdb47759d8044f4ced706279b9"
+  },
+  "authorization": {
+    "path": "configs/tracking/TRACKING-CADENCE-20261027/owner-authorization.json",
+    "sha256": "daae1c85911f12c621134d2057c892dd45eb48e94f8a8ed9441198c85133619e"
+  },
+  "verified_output_files": 164,
+  "parent_observations_exact": true,
+  "visual_scope": {
+    "case_7_11_samples": {
+      "C5": 21,
+      "C10": 41
+    },
+    "motion_full_scene_samples_per_arm": 11,
+    "motion_C10_track_101_samples": 51,
+    "top_center_jumps_per_arm": 8,
+    "prior_coverage_cases": 17
+  },
+  "limitations": [
+    "development_clip_not_holdout",
+    "remaining_fragmentation_and_duplicates",
+    "no_exhaustive_identity_ground_truth",
+    "not_realtime_validation"
+  ],
+  "checks": {
+    "tracking_tests": 22,
+    "runtime_tests": 22,
+    "mypy_source_files": 72,
+    "ruff": "pass",
+    "repository_checker_without_require_git": "pass"
+  }
+}

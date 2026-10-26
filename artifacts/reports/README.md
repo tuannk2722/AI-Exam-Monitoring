@@ -1,5 +1,13 @@
 # Tra cứu kết quả và bằng chứng
 
+
+
+[Chốt C10 prototype](tracking-cadence-20261027/closeout-20261027.md): owner duyệt kết quả và miễn audit toàn clip. Supersede trạng thái candidate bên dưới; bước tiếp là [proposal temporal events](../../configs/events/EVENTS-PROTOTYPE-20261027/README.md).
+
+[Tracking cadence ngày 27/10](tracking-cadence-20261027/README.md): C5/C10 completed; C10 là candidate tiếp theo sau audit lỗi 8 → 9 giây và motion 35–40 giây. Còn fragmentation/duplicate, chưa nghiệm thu downstream.
+
+[Tracking prototype ngày 26/10](tracking-prototype-20261026/README.md): replay N0/B0/B1 completed, gallery 60 samples. [Research ngày 27/10](tracking-prototype-20261026/research-20261027/README.md) chọn B0 baseline theo ủy quyền owner; phát hiện mixed-person track ở cả hai arm, quality gate downstream còn mở.
+
 [Đối soát ngoại lệ D2 và readiness](runtime-clip-qa-20261025/d2-reconcile-20261026.md): hồ sơ lịch sử attribution/duplicate; stage hiện tại đã đóng theo quyết định V8S bên dưới.
 
 Index theo đối tượng; không là bảng metrics hoặc backlog. Hồ sơ đã pin là snapshot, kể cả chữ “next”, “pending” hoặc lệnh CLI cũ. [Status](../../docs/status.md) chỉ công việc hiện hành; [operations](../../docs/operations.md) xử lý historical paths/restore. Không sửa report/card/receipt đã seal để cập nhật tiến độ.

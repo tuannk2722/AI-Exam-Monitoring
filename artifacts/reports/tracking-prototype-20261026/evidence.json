@@ -1,0 +1,74 @@
+{
+  "schema_version": "tracking-evidence-v1",
+  "benchmark": {
+    "path": "outputs/tracking-prototype-20261026/benchmark.json",
+    "sha256": "df908dc4aee5919ff11fd93963f1c060e968cb3b60b74e658cf1ee386d404539"
+  },
+  "review": {
+    "path": "outputs/tracking-review-20261026/review-session.json",
+    "sha256": "120b715b312569bf2a77ba0858a630548c8d4e0a5a0c4f2b751ae6360a76a4d6"
+  },
+  "batch": {
+    "path": "outputs/tracking-review-20261026/batch.json",
+    "sha256": "a55323aec1be499ded3ddbc2663c9b5c252e2657e9422f30ffe513d2ca5e232f"
+  },
+  "gallery": {
+    "path": "outputs/tracking-review-20261026/index.html",
+    "sha256": "79ad820900bf4478c654947dd73e1cfe851e2a77f524e3c054d08ed819d52dd6"
+  },
+  "authorization": {
+    "path": "configs/tracking/TRACKING-PROTOTYPE-20261026/owner-authorization.json",
+    "sha256": "8d60c4398e6f2f1080e6ee222d973517fcb29b7d008f6f99d383fdbf32ef0aa1"
+  },
+  "verified_output_hash_counts": {
+    "tracking-prototype-20261026": 19,
+    "tracking-review-20261026": 63
+  },
+  "cached_parent_source_frames_exact_match": 19,
+  "arms": {
+    "N0": {
+      "samples": 60,
+      "observations": 1162,
+      "assigned": 1162,
+      "unassigned": 0,
+      "assignment_coverage": 1.0,
+      "track_count": 1162,
+      "timing_scope": "association_and_assignment_only",
+      "mean_update_ms": 0.0370899999931377,
+      "p50_update_ms": 0.030199997127056122,
+      "p95_update_ms": 0.05195500161789817,
+      "quality_metrics": null,
+      "quality_acceptance": "pending_owner_review"
+    },
+    "B0": {
+      "samples": 60,
+      "observations": 1162,
+      "assigned": 1103,
+      "unassigned": 59,
+      "assignment_coverage": 0.9492254733218589,
+      "track_count": 40,
+      "timing_scope": "association_and_assignment_only",
+      "mean_update_ms": 7.07722833334022,
+      "p50_update_ms": 6.949849997909041,
+      "p95_update_ms": 9.537995004939145,
+      "quality_metrics": null,
+      "quality_acceptance": "pending_owner_review"
+    },
+    "B1": {
+      "samples": 60,
+      "observations": 1162,
+      "assigned": 905,
+      "unassigned": 257,
+      "assignment_coverage": 0.7788296041308089,
+      "track_count": 29,
+      "timing_scope": "association_and_assignment_only",
+      "mean_update_ms": 7.956146666644297,
+      "p50_update_ms": 7.757449999189703,
+      "p95_update_ms": 12.259700001595775,
+      "quality_metrics": null,
+      "quality_acceptance": "pending_owner_review"
+    }
+  },
+  "quality_acceptance": "pending_owner_review",
+  "winner": null
+}
