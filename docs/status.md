@@ -1,6 +1,6 @@
 # Trạng thái dự án
 
-Đối chiếu code và hồ sơ bàn giao đến **2026-10-27**. Chỉ giữ trạng thái hiện hành, thay nội dung khi tiến độ đổi; không append nhật ký/metrics/mọi task. Không là approval. [Index](00-INDEX.md) định tuyến contracts; [reports](../artifacts/reports/README.md) giữ lịch sử/evidence.
+Đối chiếu code và hồ sơ bàn giao đến **2026-10-28**. Chỉ giữ trạng thái hiện hành, thay nội dung khi tiến độ đổi; không append nhật ký/metrics/mọi task. Không là approval. [Index](00-INDEX.md) định tuyến contracts; [reports](../artifacts/reports/README.md) giữ lịch sử/evidence.
 
 ## Capability
 
@@ -10,12 +10,23 @@
 | Baseline | E001–E003 FINISHED, Continue research; chưa model Selected | Reports → runs/baseline |
 | Model improvement | E008 V14: 4 smoke + 5 research FINISHED; audit metadata PASS. G0 thắng, phone qua gate 3/3 seed G0; looking chưa đạt, chưa Selected. Đã nhận đủ best/last ba run G0 và kiểm integrity local | [Kết quả E008](../artifacts/reports/e008-v14-colab-20261024/results-20261025.md), [checkpoint](../artifacts/reports/e008-v14-colab-20261024/checkpoints-20261025.md) |
 | Runtime | Đã có CLI recorded-video → person → context crop → G0, pins/rights guards và gallery QA; có full-frame và sampling 1/2 Hz; stage V8S + G0 trên clip hiện tại đã nghiệm thu, chưa nghiệm thu tổng quát | [Reference](reference.md), [system](system.md) |
-| Tracking/events/risk/web | C10 và events đã được owner chấp nhận cho prototype trên clip hiện tại. Web Review local đã triển khai với light/dark và SQLite review riêng; risk chưa mở | [Tracking closeout](../artifacts/reports/tracking-cadence-20261027/closeout-20261027.md), [event acceptance](../artifacts/reports/events-prototype-20261027/acceptance-20261027.md), [Web Review](web-review.md) |
+| Tracking/events/risk/web | C10 và events đã được owner chấp nhận cho prototype trên clip hiện tại. Web Review local đã triển khai với light/dark và SQLite review riêng; risk chưa mở | [Tracking closeout](../artifacts/reports/tracking-cadence-20261027/closeout-20261027.md), [event acceptance](../artifacts/reports/events-prototype-20261027/acceptance-20261027.md), [scope web](../configs/web/README.md) |
 | Tooling/storage | Sau E007 đã nghỉ lưu payload lịch sử và bản trùng: 8.971 files, 9,959 GiB logical; giữ V13/nguồn độc nhất, ba best D1 và ba best R0 cùng metadata | [Cleanup/availability 24/10](../artifacts/reports/cleanup-20261024/README.md), [chính sách](storage.md) |
 
 ## Ưu tiên hiện hành
 
-Owner đã chốt C10 prototype, miễn audit toàn clip và [chấp nhận kết quả events](../artifacts/reports/events-prototype-20261027/acceptance-20261027.md). Web Review local đã có sảnh phiên, bàn duyệt light/dark, SQLite review riêng, tổng kết và nhập/xuất. Owner duyệt áp dụng nguyên pipeline cho video mới có receipt riêng theo [scope web](../configs/web/README.md); [hướng dẫn chạy](web-review.md). Giữ giới hạn fragmentation/duplicate/classifier, không biến batch acceptance thành confirmed từng event hoặc metrics độc lập. Risk chưa mở; chưa nghiệm thu chất lượng end-to-end trên clip mới.
+Owner chuyển đích demo sang **camera trực tiếp (có thể từ điện thoại) và video
+upload đang phát có detection**, bbox trên hình + log review gọn. Đợt hiện tại
+chỉ spec/bộ khung theo [LIVE-DEMO-FOUNDATION-20261027](live-monitoring.md), đã được
+owner review và approve ngày 28/10/2026; [approval](live-monitoring.md#approval-của-owner--28102026).
+Baseline Web Review đã commit `996c52c`; branch mới `feat/live-monitoring-demo`.
+Đã thêm primitives frame/buffer độc lập; chưa nối live runner/UI. Owner xác nhận
+iPhone và có thể mượn máy GPU NVIDIA; đề xuất USB/Camo nếu máy Windows, chưa chốt
+model máy hoặc kiểm camera backend. Thiết kế transport và log revision đã được
+duyệt; numeric cadence/jitter/gap và receipt camera còn mở. Chưa triển khai/
+nghiệm thu live runtime, UI hoặc hiệu năng/chất lượng live.
+
+Owner đã chốt C10 prototype, miễn audit toàn clip và [chấp nhận kết quả events](../artifacts/reports/events-prototype-20261027/acceptance-20261027.md). Web Review local đã có sảnh phiên, bàn duyệt light/dark, SQLite review riêng, tổng kết và nhập/xuất. Owner duyệt áp dụng nguyên pipeline cho video mới có receipt riêng theo [scope web](../configs/web/README.md). Giữ giới hạn fragmentation/duplicate/classifier, không biến batch acceptance thành confirmed từng event hoặc metrics độc lập. Risk chưa mở; chưa nghiệm thu chất lượng end-to-end trên clip mới.
 
 Owner đã duyệt [chuyển phase prototype](../artifacts/reports/e008-v14-colab-20261024/prototype-decision-20261025.md), dừng cải thiện classifier E008 và chọn G0 seed 20261023, giữ checkpoint/preprocessing/ngưỡng. 80/80/20 không còn chặn chuyển phase prototype; kết quả nghiên cứu và hạn chế support/validation giữ nguyên. [Đề xuất runtime](../configs/runtime/RUNTIME-PROTOTYPE-20261025/README.md) đã được owner duyệt detector/license/crop/output và implementation; config đã materialize. Owner yêu cầu dọn toàn bộ ba thử nghiệm video và hồ sơ riêng; không giữ các lượt đó làm backlog hoặc nghiệm thu. Giữ implementation/config prototype cho phase runtime tiếp theo; tình trạng dọn ghi ở [cleanup](../artifacts/reports/runtime-prototype-20261025/cleanup-20261025.md). [Bàn giao runtime](../artifacts/reports/runtime-prototype-20261025/README.md); chưa nghiệm thu chất lượng video.
 

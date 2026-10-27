@@ -30,4 +30,4 @@ entry point replay một lần của campaign; adapter web tái dùng `run_video
 `tracker_factory`, `assignments`, `aggregate` với identity/output mới.
 
 C10 hiện yêu cầu FPS nguyên chia hết cho 10 để giữ nhịp sampling đúng. Clip khác
-định dạng này báo lỗi; không tự resample hoặc đổi rule. [Hướng dẫn](../../docs/web-review.md).
+định dạng này báo lỗi; không tự resample hoặc đổi rule.

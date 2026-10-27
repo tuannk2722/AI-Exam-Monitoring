@@ -1,30 +1,30 @@
-﻿# WEB-REVIEW-20261027 — Giao diện human review local
+﻿# LIVE-DEMO-APPROVAL-COMMIT-20261028 — Chốt approval, cleanup và commit
 
-- Trạng thái: hoàn thành implementation và kiểm chứng phần mềm; cleanup file tạm bị policy chặn. Owner yêu cầu end-to-end theo UI Plan, thêm light/dark; ưu tiên AI.
+- Trạng thái: hoàn tất hồ sơ approval và checks; cleanup payload tạm bị policy chặn; đang commit theo yêu cầu owner.
 
 ## Yêu cầu và hiện trạng
-- Đã đọc index/status/system/development/decisions/reference, UI Plan và code runtime/tracking/events/gallery. Git sạch trước task. Chưa có web; stack ADR-007: FastAPI/Jinja2/JS/SQLite.
-- Ba màn hình: quản lý phiên, bàn duyệt, tổng kết. Batch acceptance không xác nhận từng event. Risk hiển thị chưa mở.
+- Đã đọc AGENTS, index/status, TASK trước, system/development/storage, live design và diff thực tế.
+- Branch feat/live-monitoring-demo, parent 996c52c. Owner review/approve thiết kế rồi yêu cầu chốt approval, cleanup và commit; chưa có live runner/UI.
+- Giữ thay đổi owner đang có: xóa docs/web-review.md và thay incoming links; không restore tài liệu đã xóa. Sửa dấu câu còn sót ở reference.
 
 ## Quyết định và inputs
-- User hiện tại mở implementation web local. Không sửa approvals/config/artifacts đã pin có web=false (phạm vi lịch sử).
-- Inputs: outputs/events-prototype-20261027, runtime-v8s-session-20261026-r2, tracking-cadence-20261027/C10 qua provenance pins; giữ retention gốc.
-- Owner chọn SQLite local riêng và duyệt giữ nguyên pipeline cho clip mới có receipt riêng. Scope ở configs/web/README.md; không hỏi lại.
-- Không train, đổi threshold/model, upload hoặc tự nghiệm thu chất lượng.
+- Approval ngày 28/10/2026 tại docs/live-monitoring.md và registry: thiết kế/bộ khung Accepted; không hỏi lại transport, bbox/log hoặc revision review đã duyệt.
+- Máy/GPU/iPhone model, numeric jitter/gap/SLA và receipt camera chưa có giá trị cụ thể; approval không tự điền giá trị hoặc là live quality acceptance/run permission mới.
+- Không train, model/camera inference, đổi pins hoặc push.
 
 ## Outputs và vòng đời
-- Source src/ai_exam_monitoring/web, config riêng, hướng dẫn docs. Review mới dưới outputs/web-review, không sửa artifacts AI.
-- Scratch outputs/_scratch/web-review-20261027; dọn sau kiểm. Không media/DB vào Git.
+- Commit source/tests/docs/config metadata đúng scope. Không binaries/media/cache/DB vào Git.
+- Đã inventory hai screenshots synthetic: synthetic-dark.png 106 788 bytes, synthetic-light.png 105 662 bytes; cache Python trong src/tests/scripts và Ruff/mypy là disposable.
+- Lệnh cleanup có containment/reparse/tracked-file checks, hash manifest và protected metadata before/after đã bị automatic approval review từ chối trước thực thi với “blocked by policy”. Không bypass. Ảnh/cache ignored còn nguyên; manifest dự kiến không được tạo; dữ liệu/model/evidence không bị thay.
+- Scratch clean checkout tại outputs/_scratch/live-demo-commit-check-20261028 chỉ để kiểm commit; dọn bằng git worktree remove sau kiểm. Không đụng các scratch/report lịch sử khác hoặc temp ngoài workspace.
 
 ## Contract impact và checks
-- Giữ contracts AI; uncertain thuộc review riêng, không đổi BehaviorEvent đã seal. Bổ sung slice event-human-review-v1 theo persistence được owner duyệt vào system; fields/cách dùng tại docs/web-review.md.
-- Kiểm API/provenance/media/review/nhập/xuất, Ruff/mypy và browser light/dark; không chạy lại model chỉ để kiểm UI.
+- Không thêm contract; chốt approval thiết kế đã review. Schema/model/event rule lịch sử giữ nguyên.
+- Ruff toàn src/tests/scripts PASS; strict mypy 80 source files PASS.
+- Streaming 6, events 10, Web Review 5, repo checker 13 tests PASS (34 tổng); không chạy browser/model thật vì UI/AI production không đổi.
+- Kiểm links tài liệu đã xóa, staged diff, checker --require-git trước commit; checker và streaming tests trên clean checkout sau commit.
 
 ## Checkpoint và bàn giao
-- Đã triển khai FastAPI/Jinja2/JS: ba views, light/dark, filters/candidates/short/tracks, overlay/focus/zoom, nhịp 1 Hz/10 Hz, timeline/filmstrip/crop/input, SQLite revision, review/import/export và tổng kết. Worker mới tái dùng runtime/tracker/aggregate, không gọi lại campaign replay.
-- Đã kiểm 5 tests API/persistence/pipeline synthetic, browser synthetic và browser chỉ đọc phiên thật: 55 events, 20 phone, 169 chuỗi ngắn, 1.162 observations; không ghi quyết định vào dữ liệu thật (SQLite thật 0 rows). Ruff toàn repo PASS, mypy 79 files PASS, JS syntax/compile/diff PASS. Full suite 309 tests OK, 1 skip browser tùy chọn; nhóm web 6 tests gồm browser chạy riêng PASS. Browser kiểm light/dark, desktop/mobile, phím tắt, step frame, lưu/nhập/xuất/reload.
-- Owner đã yêu cầu cleanup và commit snapshot Web Review trước khi tạo branch riêng cho demo live. Stage đúng source/docs/config/tests; kiểm index và diff trước commit, không push.
-- Không chạy inference thật mới hoặc tự nghiệm thu chất lượng model/video. Đã kiểm lại pins phiên gốc. Server preview đã dừng bằng Ctrl+C của exec session.
-- Automatic approval review chặn nguyên lệnh cleanup trước thực thi với “blocked by policy”; không bypass xóa file. Còn hai screenshots synthetic ở outputs/_scratch/web-review-20261027, web __pycache__, test_web pyc và thư mục test lỗi C:/Users/OS/AppData/Local/Temp/tmp2echhxln. Không có media thật trong screenshots test. Dữ liệu/model/evidence gốc giữ nguyên.
-- Cleanup theo yêu cầu mới vẫn bị automatic approval review chặn trước thực thi, lý do “blocked by policy”. Không bypass; file tạm ignored không vào commit. Phần source và kiểm Git tiếp tục độc lập.
-- Bàn giao: docs/web-review.md; chạy .venv/Scripts/python.exe -m ai_exam_monitoring.web, mở http://127.0.0.1:8765. Snapshot này được commit trước khi mở hướng live; không push.
+- Đã hoàn thành phần source/docs được duyệt, chốt rõ inputs/numeric policy còn mở và Superseded recorded-only/review-first.
+- Commit trên branch hiện tại; không push. Sau commit xác nhận Git sạch và chỉ còn một worktree. Cleanup ảnh/cache bị policy chặn là giới hạn riêng, không cản commit.
+- Bước tiếp theo khi được yêu cầu: runtime xử lý từng frame và luồng video online, sau đó camera/GPU/log/UI theo thiết kế đã duyệt.
