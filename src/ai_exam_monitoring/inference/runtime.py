@@ -4,12 +4,11 @@ from __future__ import annotations
 import argparse
 import html
 import json
-import math
 import time
 from collections.abc import Iterable
 from datetime import UTC, datetime
 from pathlib import Path
-from typing import Any, Protocol
+from typing import Any
 
 import numpy as np
 from PIL import Image, ImageDraw
@@ -26,7 +25,8 @@ from ai_exam_monitoring.training.artifacts import (
 from ai_exam_monitoring.training.train import peak_rss
 
 from .classifier import BundleClassifier
-from .person import PersonDetection, PersonDetector, crop_boxes
+from .frame_processor import Classifier, Detector, FrameProcessor
+from .person import PersonDetector
 from .runtime_config import (
     TARGETS,
     RuntimeConfig,
@@ -35,17 +35,6 @@ from .runtime_config import (
     verify_media,
 )
 from .video import RecordedVideo, VideoFrame, qa_indices, sample_indices, validate_time
-
-
-class Detector(Protocol):
-    def predict(self, image: Image.Image) -> list[PersonDetection]: ...
-
-
-class Classifier(Protocol):
-    thresholds: list[float]
-
-    def predict(self, image: Image.Image) -> list[float]: ...
-    def preview(self, image: Image.Image) -> Image.Image: ...
 
 
 def write_gallery(output: Path, sections: list[str], error: str | None = None) -> None:
@@ -73,9 +62,8 @@ def process_frames(
     times: list[float] = []
     sections: list[str] = []
     current: VideoFrame | None = None
-    thresholds = classifier.thresholds
-    if len(thresholds) != 2 or any(not math.isfinite(v) for v in thresholds):
-        raise DataContractError("Invalid operating thresholds")
+    processor = FrameProcessor(detector, classifier, config.raw["crop"])
+    thresholds = processor.thresholds
     with (output / "predictions.jsonl").open("x", encoding="utf-8") as handle:
         def emit(row: dict[str, Any]) -> None:
             handle.write(json.dumps(row, ensure_ascii=False, allow_nan=False) + "\n")
@@ -104,33 +92,24 @@ def process_frames(
                 annotated = frame.image.copy()
                 draw = ImageDraw.Draw(annotated)
                 figures: list[str] = []
-                observations: list[dict[str, Any]] = []
-                for index, detection in enumerate(detector.predict(frame.image)):
-                    person, context = crop_boxes(detection, frame.image.size, config.raw["crop"])
-                    crop = frame.image.crop(context)
-                    scores = classifier.predict(crop)
-                    if len(scores) != 2 or any(not math.isfinite(v) or not 0 <= v <= 1
-                                               for v in scores):
-                        raise DataContractError("Invalid behavior scores")
-                    anchor = f"f{frame.index:08d}-a{index:03d}"
-                    observations.append({"anchor_id": anchor, "person_box": person,
-                                         "context_box": context,
-                                         "detector_confidence": detection.confidence,
-                                         "scores": scores,
-                                         "above_threshold": [s >= t for s, t in
-                                                             zip(scores, thresholds, strict=True)]})
-                    if frame.index in selected:
-                        crop.save(output / f"{anchor}-crop.png")
-                        classifier.preview(crop).save(output / f"{anchor}-input.png")
-                        draw.rectangle(person, outline="lime", width=2)
-                        draw.rectangle(context, outline="orange", width=2)
-                        draw.text((person[0], person[1]), anchor, fill="lime")
-                        figures.append(f"<figure><figcaption>{anchor}: {scores[0]:.4f}, "
-                                       f"{scores[1]:.4f}</figcaption><img src='{anchor}-crop.png'>"
-                                       f"<img src='{anchor}-input.png'></figure>")
-                emit({"record_type": "frame", "frame_index": frame.index,
-                      "video_time_ms": frame.time_ms, "width": frame.image.width,
-                      "height": frame.image.height, "observations": observations})
+
+                def save_qa(observation: dict[str, Any], crop: Image.Image,
+                            draw: ImageDraw.ImageDraw = draw,
+                            figures: list[str] = figures) -> None:
+                    anchor = observation["anchor_id"]
+                    person, context = observation["person_box"], observation["context_box"]
+                    scores = observation["scores"]
+                    crop.save(output / f"{anchor}-crop.png")
+                    classifier.preview(crop).save(output / f"{anchor}-input.png")
+                    draw.rectangle(person, outline="lime", width=2)
+                    draw.rectangle(context, outline="orange", width=2)
+                    draw.text((person[0], person[1]), anchor, fill="lime")
+                    figures.append(f"<figure><figcaption>{anchor}: {scores[0]:.4f}, "
+                                   f"{scores[1]:.4f}</figcaption><img src='{anchor}-crop.png'>"
+                                   f"<img src='{anchor}-input.png'></figure>")
+
+                row = processor.process(frame, save_qa if frame.index in selected else None)
+                emit(row)
                 if frame.index in selected:
                     source_name = f"f{frame.index:08d}-source.png"
                     boxes_name = f"f{frame.index:08d}-boxes.png"
@@ -141,7 +120,7 @@ def process_frames(
                                     + ("".join(figures) or "<p>Không detection.</p>")
                                     + "</section>")
                 frame_count += 1
-                observation_count += len(observations)
+                observation_count += len(row["observations"])
                 times.append((time.perf_counter() - started) * 1000)
                 # The iterator may fail before yielding another source frame.
                 current = None

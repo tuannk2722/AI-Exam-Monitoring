@@ -16,15 +16,20 @@
 ## Ưu tiên hiện hành
 
 Owner chuyển đích demo sang **camera trực tiếp (có thể từ điện thoại) và video
-upload đang phát có detection**, bbox trên hình + log review gọn. Đợt hiện tại
-chỉ spec/bộ khung theo [LIVE-DEMO-FOUNDATION-20261027](live-monitoring.md), đã được
-owner review và approve ngày 28/10/2026; [approval](live-monitoring.md#approval-của-owner--28102026).
+upload đang phát có detection**, bbox trên hình + log review gọn. Thiết kế/bộ khung
+theo [LIVE-DEMO-FOUNDATION-20261027](live-monitoring.md) đã được owner review và
+approve ngày 28/10/2026; [approval](live-monitoring.md#approval-của-owner--28102026).
+Owner tiếp tục yêu cầu refactor runtime và triển khai luồng video online.
 Baseline Web Review đã commit `996c52c`; branch mới `feat/live-monitoring-demo`.
-Đã thêm primitives frame/buffer độc lập; chưa nối live runner/UI. Owner xác nhận
+Đã refactor processor từng frame dùng chung và có runner video online nội bộ:
+decode một lượt theo media clock, bounded pending/result, pause/seek/stop/EOF,
+epoch reset và loại kết quả muộn; kiểm bằng fixtures và MP4 synthetic. Factory
+giữ guards config/pins/receipt/deadline, CPU V8S/G0; chưa chạy model thật để đo
+online và chưa nối upload/UI/transport/tracking/events. Owner xác nhận
 iPhone và có thể mượn máy GPU NVIDIA; đề xuất USB/Camo nếu máy Windows, chưa chốt
 model máy hoặc kiểm camera backend. Thiết kế transport và log revision đã được
-duyệt; numeric cadence/jitter/gap và receipt camera còn mở. Chưa triển khai/
-nghiệm thu live runtime, UI hoặc hiệu năng/chất lượng live.
+duyệt; numeric cadence/jitter/gap và receipt camera còn mở. Chưa có camera runtime
+hoặc nghiệm thu UI, hiệu năng/chất lượng live. API và giới hạn runner ở [reference](reference.md).
 
 Owner đã chốt C10 prototype, miễn audit toàn clip và [chấp nhận kết quả events](../artifacts/reports/events-prototype-20261027/acceptance-20261027.md). Web Review local đã có sảnh phiên, bàn duyệt light/dark, SQLite review riêng, tổng kết và nhập/xuất. Owner duyệt áp dụng nguyên pipeline cho video mới có receipt riêng theo [scope web](../configs/web/README.md). Giữ giới hạn fragmentation/duplicate/classifier, không biến batch acceptance thành confirmed từng event hoặc metrics độc lập. Risk chưa mở; chưa nghiệm thu chất lượng end-to-end trên clip mới.
 

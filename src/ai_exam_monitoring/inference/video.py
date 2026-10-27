@@ -83,18 +83,28 @@ def qa_indices(times: Sequence[float], limit: int) -> set[int]:
                            for j in range(limit))}
 
 
+class FrameSampler:
+    """Incremental first-at/after sampling; preserve PTS, never fabricate slots."""
+
+    def __init__(self, hz: float):
+        if not math.isfinite(hz) or hz <= 0:
+            raise DataContractError("Sampling rate must be finite and positive")
+        self.interval = 1000 / hz
+        self.boundary: float | None = None
+        self.previous: float | None = None
+
+    def include(self, stamp: float) -> bool:
+        validate_time(stamp, self.previous)
+        self.previous = stamp
+        if self.boundary is None:
+            self.boundary = stamp
+        if stamp < self.boundary:
+            return False
+        self.boundary += (math.floor((stamp - self.boundary) / self.interval) + 1) * self.interval
+        return True
+
+
 def sample_indices(times: Sequence[float], hz: float) -> list[int]:
     """First decoded frame at/after each sampling boundary; retain source indices."""
-    if not math.isfinite(hz) or hz <= 0:
-        raise DataContractError("Sampling rate must be finite and positive")
-    result: list[int] = []
-    previous = None
-    boundary = times[0] if times else 0.
-    interval = 1000 / hz
-    for index, stamp in enumerate(times):
-        validate_time(stamp, previous)
-        previous = stamp
-        if stamp >= boundary:
-            result.append(index)
-            boundary += (math.floor((stamp - boundary) / interval) + 1) * interval
-    return result
+    sampler = FrameSampler(hz)
+    return [index for index, stamp in enumerate(times) if sampler.include(stamp)]

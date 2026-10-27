@@ -26,12 +26,36 @@ tracker association và event aggregation cho output mới theo [scope web](../c
 Review JSON/SQLite riêng không mutate BehaviorEvent hay session acceptance.
 Risk chưa mở; persistence review theo [scope web](../configs/web/README.md).
 
-`inference/streaming.py` có primitives nội bộ `FrameStamp`, `StreamFrame`,
-`LatestFrameBuffer`, `can_overlay`: frame identity/clock/geometry, một pending
-frame, đếm drop và explicit epoch reset. Chưa nối vào web/runtime; không camera
-capture, GPU, live transport hoặc migration SQLite. [Thiết kế live](live-monitoring.md)
-giữ thiết kế/bộ khung đã được owner duyệt ngày 28/10/2026 và các inputs/numeric
-policy còn mở. Chưa có live runtime hoặc acceptance hiệu năng.
+`inference/frame_processor.py` tách `FrameProcessor.detect/classify/process` dùng
+chung cho runtime offline và video online. Snapshot detection giữ đúng ảnh/anchors;
+classification giữ context geometry, target order, scores và flags. Writer QA/JSONL
+vẫn ở runtime offline; schema và CLI cũ giữ nguyên. `video.FrameSampler` chọn mẫu
+tăng dần theo cùng quy tắc first-at-or-after của `sample_indices`, giữ PTS gốc.
+
+`inference/online_video.py` cung cấp API nội bộ `create_online_video` và
+`OnlineVideoRunner`: file đã có sẵn được decode một lượt, phát theo media clock,
+AI chạy serial ở worker riêng, một pending frame và một pending result. Khi AI
+chậm, pending frame bị thay và có bộ đếm; không giả đủ mẫu cho temporal rule.
+`start/pause/resume/seek/stop/join`, `snapshot` và `take_result` dùng cho adapter
+UI tương lai. `seek(frame_index)` mở epoch mới, bỏ pending/result cũ và decode lại
+từ đầu đến đúng index; chưa dùng seek nhanh theo keyframe vì cần exact PTS/index.
+EOF chờ AI xử lý mẫu cuối; stop ngắt wait và bỏ kết quả muộn, nhưng phải `join`
+để chờ model/native decode đang chạy trả về và giải phóng tài nguyên.
+
+Factory kiểm config/pins/receipt/deadline trước mở file, kiểm lại trước load model,
+SHA nguồn trước/sau phiên; chỉ load V8S/G0 thật khi `start`. Không ghi session hoặc
+evidence mới và không thay writer offline. Đây chưa là endpoint upload hoặc live
+artifact schema. `take_result` chuyển ownership ảnh/observations cho consumer;
+`result.annotated()` chỉ vẽ trên ảnh của chính kết quả đó. Consumer kiểm epoch
+còn hiện hành trước hiển thị và dùng `time.perf_counter_ns()` trừ `captured_ns`
+để tính tuổi frame. Clock này monotonic với độ phân giải cao trên Windows/Python
+3.11; source time vẫn là PTS, không dùng processing time thay timestamp video.
+
+`inference/streaming.py` giữ `FrameStamp`, `StreamFrame`, `LatestFrameBuffer` và
+`can_overlay` cho identity/clock/geometry, drop counters và epoch reset. Runner
+chưa nối web, camera, GPU, transport, tracking/events online hoặc SQLite live.
+Web Review vẫn chạy worker offline. [Thiết kế live](live-monitoring.md) giữ approval
+ngày 28/10/2026; numeric jitter/gap, camera receipt và acceptance hiệu năng còn mở.
 
 `Prediction` hiện biểu diễn một label/score/bbox. Adapter classifier B ở `inference/classifier.py`; `runtime.py` xuất contract JSONL riêng có version và giữ target order từ config/calibration, không coi detection class ID là target order. `PilotRecord` là contract dataset riêng, được mô tả đầy đủ trong data spec.
 
