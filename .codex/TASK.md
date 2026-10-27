@@ -1,11 +1,30 @@
-# CLEANUP-COMMIT-20261027 — Nghiệm thu events, cleanup và hai commit
+﻿# WEB-REVIEW-20261027 — Giao diện human review local
 
-- Owner đã review candidates/kết quả giám sát và chấp nhận cho prototype. Yêu cầu cleanup kỹ, commit riêng tracking và events; không push.
-- Đã đối chiếu index/status/contracts, Git, storage/development và inputs đã pin. Không gọi model hoặc mở risk/web.
-- Ghi receipt nghiệm thu events riêng, không sửa candidates thành confirmed từng dòng hoặc đổi session đã seal. Cập nhật trạng thái hiện hành; giữ giới hạn tracking/classifier.
-- Cleanup caches có thể tái tạo và scratch rỗng, rà source/docs; giữ dataset/model/inputs và evidence canonical đang có consumers. Kiểm exact paths trong workspace trước xóa, lưu manifest và hashes bảo toàn.
-- Commit tracking gồm implementation/tests/gallery/config/research và closeout C10; proposal events draft là hồ sơ handoff đã được closeout pin/tham chiếu. Commit events gồm rules được duyệt, implementation/tests/replay/acceptance và trạng thái sau nghiệm thu. Không media/model/cache vào Git.
-- Kiểm Ruff/mypy/tests, staged diff, checker require-git trên từng snapshot commit và clean checkout; kiểm pins giữa working tree và Git. Dọn checkout/cache sau kiểm, báo hai hashes và final clean status.
-- Trạng thái: đã kiểm đủ hai snapshot và tách commit tracking/events theo yêu cầu; nghiệm thu events đã ghi receipt. Không push hoặc mở risk/web.
-- Checks: full suite 303 tests PASS, Ruff PASS, mypy 73 files PASS; checker require-git trên workspace và từng snapshot PASS. Snapshot tracking 22 tests/events 10 tests PASS, 32 staged pin edges khớp; 52 input/evidence paths bảo toàn.
-- Cleanup source/docs và hai checkout/helper tạm đã hoàn tất. Xóa cache bị automatic approval review chặn trước chạy: 126 files/42.749.409 bytes còn lại, 0 file cache đã xóa. Không bypass. Manifest/giới hạn ở artifacts/reports/events-prototype-20261027/cleanup-commit-20261027.md. Evidence/model/dataset giữ nguyên.
+- Trạng thái: hoàn thành implementation và kiểm chứng phần mềm; cleanup file tạm bị policy chặn. Owner yêu cầu end-to-end theo UI Plan, thêm light/dark; ưu tiên AI.
+
+## Yêu cầu và hiện trạng
+- Đã đọc index/status/system/development/decisions/reference, UI Plan và code runtime/tracking/events/gallery. Git sạch trước task. Chưa có web; stack ADR-007: FastAPI/Jinja2/JS/SQLite.
+- Ba màn hình: quản lý phiên, bàn duyệt, tổng kết. Batch acceptance không xác nhận từng event. Risk hiển thị chưa mở.
+
+## Quyết định và inputs
+- User hiện tại mở implementation web local. Không sửa approvals/config/artifacts đã pin có web=false (phạm vi lịch sử).
+- Inputs: outputs/events-prototype-20261027, runtime-v8s-session-20261026-r2, tracking-cadence-20261027/C10 qua provenance pins; giữ retention gốc.
+- Owner chọn SQLite local riêng và duyệt giữ nguyên pipeline cho clip mới có receipt riêng. Scope ở configs/web/README.md; không hỏi lại.
+- Không train, đổi threshold/model, upload hoặc tự nghiệm thu chất lượng.
+
+## Outputs và vòng đời
+- Source src/ai_exam_monitoring/web, config riêng, hướng dẫn docs. Review mới dưới outputs/web-review, không sửa artifacts AI.
+- Scratch outputs/_scratch/web-review-20261027; dọn sau kiểm. Không media/DB vào Git.
+
+## Contract impact và checks
+- Giữ contracts AI; uncertain thuộc review riêng, không đổi BehaviorEvent đã seal. Bổ sung slice event-human-review-v1 theo persistence được owner duyệt vào system; fields/cách dùng tại docs/web-review.md.
+- Kiểm API/provenance/media/review/nhập/xuất, Ruff/mypy và browser light/dark; không chạy lại model chỉ để kiểm UI.
+
+## Checkpoint và bàn giao
+- Đã triển khai FastAPI/Jinja2/JS: ba views, light/dark, filters/candidates/short/tracks, overlay/focus/zoom, nhịp 1 Hz/10 Hz, timeline/filmstrip/crop/input, SQLite revision, review/import/export và tổng kết. Worker mới tái dùng runtime/tracker/aggregate, không gọi lại campaign replay.
+- Đã kiểm 5 tests API/persistence/pipeline synthetic, browser synthetic và browser chỉ đọc phiên thật: 55 events, 20 phone, 169 chuỗi ngắn, 1.162 observations; không ghi quyết định vào dữ liệu thật (SQLite thật 0 rows). Ruff toàn repo PASS, mypy 79 files PASS, JS syntax/compile/diff PASS. Full suite 309 tests OK, 1 skip browser tùy chọn; nhóm web 6 tests gồm browser chạy riêng PASS. Browser kiểm light/dark, desktop/mobile, phím tắt, step frame, lưu/nhập/xuất/reload.
+- Owner đã yêu cầu cleanup và commit snapshot Web Review trước khi tạo branch riêng cho demo live. Stage đúng source/docs/config/tests; kiểm index và diff trước commit, không push.
+- Không chạy inference thật mới hoặc tự nghiệm thu chất lượng model/video. Đã kiểm lại pins phiên gốc. Server preview đã dừng bằng Ctrl+C của exec session.
+- Automatic approval review chặn nguyên lệnh cleanup trước thực thi với “blocked by policy”; không bypass xóa file. Còn hai screenshots synthetic ở outputs/_scratch/web-review-20261027, web __pycache__, test_web pyc và thư mục test lỗi C:/Users/OS/AppData/Local/Temp/tmp2echhxln. Không có media thật trong screenshots test. Dữ liệu/model/evidence gốc giữ nguyên.
+- Cleanup theo yêu cầu mới vẫn bị automatic approval review chặn trước thực thi, lý do “blocked by policy”. Không bypass; file tạm ignored không vào commit. Phần source và kiểm Git tiếp tục độc lập.
+- Bàn giao: docs/web-review.md; chạy .venv/Scripts/python.exe -m ai_exam_monitoring.web, mở http://127.0.0.1:8765. Snapshot này được commit trước khi mở hướng live; không push.

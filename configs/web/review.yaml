@@ -1,0 +1,7 @@
+schema_version: web-review-config-v1
+runtime: configs/runtime/RUNTIME-V8S-20261026/runtime.yaml
+tracker: configs/tracking/TRACKING-CADENCE-20261027/config.yaml
+event_rule: configs/events/EVENTS-PROTOTYPE-20261027/approved-rule.yaml
+output_root: outputs/web-review
+host: 127.0.0.1
+port: 8765

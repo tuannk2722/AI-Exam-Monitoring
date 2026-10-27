@@ -15,6 +15,12 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
+web = [
+  "fastapi>=0.115,<1",
+  "uvicorn>=0.34,<1",
+  "Jinja2>=3.1,<4",
+  "httpx>=0.28,<1",
+]
 classifier = [
   "torch==2.8.0",
   "torchvision==0.23.0",
@@ -42,6 +48,7 @@ dev = [
 where = ["src"]
 
 [tool.setuptools.package-data]
+"ai_exam_monitoring.web" = ["assets/*.html", "assets/*.css", "assets/*.js"]
 "ai_exam_monitoring.data" = ["review_workspace_assets/*.html", "review_workspace_assets/*.css", "review_workspace_assets/*.js"]
 "ai_exam_monitoring.inference" = ["tracking_review_assets/*.html"]
 

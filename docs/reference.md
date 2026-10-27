@@ -12,12 +12,19 @@ Hardware tham chiếu lịch sử: local i7-1255U, RAM 8/16 GB, Intel UHD; khôn
 | `src/ai_exam_monitoring/training/` | Config/approval, loader/freeze, RGB letterbox, frozen encoder/cache, head training/resume, metrics và evaluator |
 | `src/ai_exam_monitoring/inference/` | Adapter generic giữ nguyên; runtime mới lọc person YOLOv8n, crop context và classifier G0 có pins, timestamp, media rights và gallery QA |
 | `src/ai_exam_monitoring/contracts/` | Dataclass producer/consumer dùng chung; không phụ thuộc web framework |
+| `src/ai_exam_monitoring/web/` | FastAPI/Jinja2/JS/SQLite local: catalog evidence, media, review riêng và worker recorded-video; [cách chạy](web-review.md) |
 | `src/ai_exam_monitoring/common/` | Config/error/provenance và truy/khôi phục lịch sử theo SHA |
 | `configs/` | Biến dataset/experiment có version; phân biệt proposal với config thực thi được duyệt theo training spec |
 
 
 
 ## Adapter và giới hạn integration
+
+`python -m ai_exam_monitoring.web` mở UI loopback ba màn hình với light/dark.
+Catalog đọc runtime/C10/events bằng provenance; worker tái dùng runtime,
+tracker association và event aggregation cho output mới theo [scope web](../configs/web/README.md).
+Review JSON/SQLite riêng không mutate BehaviorEvent hay session acceptance.
+Risk chưa mở. [Workflow, persistence và giới hạn](web-review.md).
 
 `Prediction` hiện biểu diễn một label/score/bbox. Adapter classifier B ở `inference/classifier.py`; `runtime.py` xuất contract JSONL riêng có version và giữ target order từ config/calibration, không coi detection class ID là target order. `PilotRecord` là contract dataset riêng, được mô tả đầy đủ trong data spec.
 

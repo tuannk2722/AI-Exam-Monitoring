@@ -61,7 +61,15 @@ Contract liên bước dưới đây tương ứng `contracts/domain.py`; đây 
 
 Slice prototype dùng contract `recorded-observations-v1` theo [thiết kế runtime được duyệt](../configs/runtime/RUNTIME-PROTOTYPE-20261025/README.md): metadata pins source/model/config/code/environment; mỗi frame có index/time, geometry và danh sách observation (có thể rỗng), mỗi anchor có hai score theo target order, ngưỡng và cờ vượt ngưỡng. Anchor ID chỉ trong frame, không là track hay danh tính. `session.json` có trạng thái cuối completed/failed; `frames_processed` chưa xác nhận session thành công. Không sửa dataclass `Prediction` để chứa payload riêng này.
 
-Các entity dự kiến cho phần sau: session/job, model version, risk snapshot, evidence và human review. Chỉ định fields/persistence cụ thể khi thực hiện slice tương ứng; chưa cần database schema hoặc service phụ ngay bây giờ.
+Các entity tương lai như model registry và risk snapshot chỉ định fields/persistence
+khi thực hiện slice tương ứng; không thêm database schema hoặc service phụ trước scope.
+
+Slice web local theo [WEB-REVIEW-20261027](../configs/web/README.md) lưu review riêng
+bằng `event-human-review-v1`, gắn `events_sha256` và event ID. Quyết định gồm
+candidate/confirmed/dismissed/uncertain, lý do, ghi chú và cờ đánh dấu; revision
+kiểm xung đột ghi. `uncertain` không sửa contract BehaviorEvent phía trên.
+Disposition cấp phiên không xác nhận từng event. SQLite/JSON review không mutate
+artifacts AI; [fields và vòng đời](web-review.md#review-persistence-và-media).
 
 Slice events theo [rule prototype được duyệt](../configs/events/EVENTS-PROTOTYPE-20261027/execution.md) join observations G0 1 Hz với C10 theo exact frame/time/anchor/box. `temporal-event-candidates-v1` bọc `BehaviorEvent` với support refs namespaced theo parent session, source/model/tracker/rule pins, scores/count và observed span. Chỉ xuất candidate; không bridge missing/unknown/negative/null hoặc nối khác ID. Mean score không là xác suất event đã calibrated; span là last minus first observation, không nội suy duration liên tục. Session completed/failed tách quality acceptance; risk/web vẫn có gate riêng.
 
