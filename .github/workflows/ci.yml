@@ -31,6 +31,7 @@ jobs:
           cache: pip
       - run: python -m pip install -r requirements/base.txt -r requirements/classifier-cpu.txt -r requirements/dev.txt
       - run: python -m pip install -r requirements/runtime-cpu.txt
+      - run: python -m pip install -e '.[web]'
       # Import bắt buộc để test decoder không âm thầm skip nếu thiếu OpenCV.
       - run: python -c "import cv2; print(cv2.__version__)"
       - run: python -m mypy src/ai_exam_monitoring scripts/check_repo.py
@@ -38,6 +39,9 @@ jobs:
       - run: python -m unittest discover -s tests -p 'test_training*.py' -q
       - run: python -m unittest discover -s tests -p 'test_runtime.py' -q
       - run: python -m unittest discover -s tests -p 'test_online_video.py' -q
+      - run: python -m unittest discover -s tests -p 'test_preview.py' -q
+      - run: python -m unittest discover -s tests -p 'test_web_review.py' -q
+      - run: python -m unittest discover -s tests -p 'test_web_monitor.py' -q
       - run: python -m unittest discover -s tests -p 'test_detector_review.py' -q
       - run: python -m unittest discover -s tests -p 'test_selected_crop_review.py' -q
       - run: python -m unittest discover -s tests -p 'test_pair_geometry.py' -q

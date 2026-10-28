@@ -20,7 +20,10 @@ Hardware tham chiếu lịch sử: local i7-1255U, RAM 8/16 GB, Intel UHD; khôn
 
 ## Adapter và giới hạn integration
 
-`python -m ai_exam_monitoring.web` mở UI loopback ba màn hình với light/dark.
+`python -m ai_exam_monitoring.web` mở UI loopback với light/dark. Khi có
+`configs/web/LIVE-VIDEO-WEB-20261028/monitor.yaml`, `/` là màn hình video online;
+`/review` giữ ba màn hình review offline. Cài web extra đã khai báo bằng
+`pip install -e ".[web]"` cùng môi trường runtime CPU hiện có nếu còn thiếu.
 Catalog đọc runtime/C10/events bằng provenance; worker tái dùng runtime,
 tracker association và event aggregation cho output mới theo [scope web](../configs/web/README.md).
 Review JSON/SQLite riêng không mutate BehaviorEvent hay session acceptance.
@@ -37,7 +40,7 @@ tăng dần theo cùng quy tắc first-at-or-after của `sample_indices`, giữ
 AI chạy serial ở worker riêng, một pending frame và một pending result. Khi AI
 chậm, pending frame bị thay và có bộ đếm; không giả đủ mẫu cho temporal rule.
 `start/pause/resume/seek/stop/join`, `snapshot` và `take_result` dùng cho adapter
-UI tương lai. `seek(frame_index)` mở epoch mới, bỏ pending/result cũ và decode lại
+web. `seek(frame_index)` mở epoch mới, bỏ pending/result cũ và decode lại
 từ đầu đến đúng index; chưa dùng seek nhanh theo keyframe vì cần exact PTS/index.
 EOF chờ AI xử lý mẫu cuối; stop ngắt wait và bỏ kết quả muộn, nhưng phải `join`
 để chờ model/native decode đang chạy trả về và giải phóng tài nguyên.
@@ -52,10 +55,24 @@ còn hiện hành trước hiển thị và dùng `time.perf_counter_ns()` trừ
 3.11; source time vẫn là PTS, không dùng processing time thay timestamp video.
 
 `inference/streaming.py` giữ `FrameStamp`, `StreamFrame`, `LatestFrameBuffer` và
-`can_overlay` cho identity/clock/geometry, drop counters và epoch reset. Runner
-chưa nối web, camera, GPU, transport, tracking/events online hoặc SQLite live.
-Web Review vẫn chạy worker offline. [Thiết kế live](live-monitoring.md) giữ approval
-ngày 28/10/2026; numeric jitter/gap, camera receipt và acceptance hiệu năng còn mở.
+`can_overlay` cho identity/clock/geometry, drop counters và epoch reset. Runner đã
+nối adapter web theo [scope được duyệt](../configs/web/LIVE-VIDEO-WEB-20261028/README.md).
+`web/monitor.py` giữ một session upload/runner, metadata/pins riêng, chặn chạy đồng
+thời với job offline, expiry và lifecycle; `monitor_routes.py` giới hạn request
+body, upload raw bytes, MJPEG và SSE full snapshots. `preview.py` fan-out một JPEG
+mới nhất, reset/close đánh thức subscribers, kiểm epoch lại sau encode. Không có
+queue ảnh riêng tăng vô hạn theo subscriber chậm. API không tự chạy model khi
+chỉ mở/refresh trang; receipt và video phải hợp lệ trước start.
+
+Upload hoàn tất mới bắt đầu AI, không đợi AI xử lý toàn clip trước xem kết quả.
+UI hiển thị source time và tuổi ảnh riêng; pause/seek/stop gửi về nguồn server.
+Lệnh có command ID tăng dần/epoch; retry lệnh cuối cùng không thực thi hai lần,
+request cũ khác trả conflict. Refresh chỉ reconnect; server restart không tự chạy
+model lại. `session.json` ở output root mới là metadata vận hành, chưa là artifact
+AI sealed; không ghi observations thành event hoặc review. Quan sát tức thời
+hiển thị riêng, không có nút confirmed cho một frame đơn lẻ. Review legacy tiếp
+tục đọc artifacts offline/SQLite cũ. Camera, GPU, tracking/events online và SQLite
+live vẫn chưa nối. Numeric jitter/gap, camera receipt và nghiệm thu hiệu năng còn mở.
 
 `Prediction` hiện biểu diễn một label/score/bbox. Adapter classifier B ở `inference/classifier.py`; `runtime.py` xuất contract JSONL riêng có version và giữ target order từ config/calibration, không coi detection class ID là target order. `PilotRecord` là contract dataset riêng, được mô tả đầy đủ trong data spec.
 

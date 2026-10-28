@@ -75,7 +75,14 @@ khi thực hiện slice tương ứng; không thêm database schema hoặc servi
 Online frame identity/live log là slice mới: epoch phân biệt reconnect/seek;
 source time khác clock xử lý. `FrameRef` và schema sealed giữ nguyên cho offline.
 [Thiết kế live](live-monitoring.md) đề xuất timing, buffer, snapshot/revision và
-seal cuối phiên; chưa là wire schema hoặc migration Accepted.
+seal cuối phiên. [LIVE-VIDEO-WEB-20261028](../configs/web/LIVE-VIDEO-WEB-20261028/README.md)
+đã được owner duyệt riêng cho API upload/điều khiển/MJPEG/SSE và metadata
+`online-video-web-session-v1`: một phiên local, receipt/hash/deadline bắt buộc,
+snapshot trạng thái đầy đủ khi reconnect, command ID/epoch chống thực thi lặp.
+Giới hạn và config ở hồ sơ này. Metadata vận hành riêng không phải session AI
+đã seal hoặc event evidence; observations tức thời không được ghi thành quyết
+định review. SQLite live log/revision và numeric policy tracking/events vẫn cần
+slice riêng, không sửa schema review legacy.
 
 Slice web local theo [WEB-REVIEW-20261027](../configs/web/README.md) lưu review riêng
 bằng `event-human-review-v1`, gắn `events_sha256` và event ID. Quyết định gồm

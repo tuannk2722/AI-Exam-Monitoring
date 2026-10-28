@@ -101,6 +101,12 @@ def load_runtime_config(path: Path, workspace: Path) -> RuntimeConfig:
 def verify_media(path: Path, receipt_path: Path, config: RuntimeConfig) -> dict[str, Any]:
     """A per-source receipt is required; design approval alone is not media consent."""
     receipt = json.loads(receipt_path.read_text(encoding="utf-8"))
+    return verify_media_receipt(receipt, config, source_sha256=sha256_file(path))
+
+
+def verify_media_receipt(receipt: Any, config: RuntimeConfig,
+                         *, source_sha256: str) -> dict[str, Any]:
+    """Validate declared rights before upload; verify bytes against the SHA afterwards."""
     if not isinstance(receipt, dict):
         raise ConfigurationError("Expected media approval object")
     schema = receipt.get("schema_version")
@@ -108,7 +114,7 @@ def verify_media(path: Path, receipt_path: Path, config: RuntimeConfig) -> dict[
         raise ConfigurationError("Unsupported media receipt schema")
     expected = {"schema_version": schema, "status": "approved",
                 "runtime_id": config.raw["runtime_id"], "use_scope": "local_prototype_qa",
-                "source_sha256": sha256_file(path), "test_or_holdout": False,
+                "source_sha256": source_sha256, "test_or_holdout": False,
                 "rights_confirmed": True, "third_party_processing": False,
                 "access": "repository_owner", "retention_days": 7}
     if any(receipt.get(k) != v for k, v in expected.items()) or not receipt.get("decision_ref"):

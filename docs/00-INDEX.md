@@ -5,7 +5,7 @@
 | Task | Contract / hướng dẫn | Context cần chọn |
 |---|---|---|
 | Phạm vi, kiến trúc, runtime/integration/UI | [System](system.md) | [Reference](reference.md), [decisions](decisions.md), capability ở status |
-| Demo camera/video trực tiếp và log review gọn | [Thiết kế live](live-monitoring.md) | [Reference](reference.md): processor/runner video online nội bộ; camera, UI/log và numeric policy còn mở |
+| Demo camera/video trực tiếp và log review gọn | [Thiết kế live](live-monitoring.md) | [Adapter web được duyệt](../configs/web/LIVE-VIDEO-WEB-20261028/README.md), [reference](reference.md); camera, temporal log và numeric policy còn mở |
 | Semantics/schema, annotation/group/split/release | [Data](data.md) | [Reports index](../artifacts/reports/README.md) → nguồn/release/coverage đúng version; reference → công cụ data |
 | Loss/metrics, training/evaluation/promotion | [Training](training.md) | [Configs index](../configs/experiments/README.md) → proposal/config/approval; reports → kết quả run |
 | Coding/setup/checks/bàn giao | [Development](development.md) | [TASK template](templates/task-template.md), source/tests/CI liên quan |

@@ -24,12 +24,17 @@ Baseline Web Review đã commit `996c52c`; branch mới `feat/live-monitoring-de
 Đã refactor processor từng frame dùng chung và có runner video online nội bộ:
 decode một lượt theo media clock, bounded pending/result, pause/seek/stop/EOF,
 epoch reset và loại kết quả muộn; kiểm bằng fixtures và MP4 synthetic. Factory
-giữ guards config/pins/receipt/deadline, CPU V8S/G0; chưa chạy model thật để đo
-online và chưa nối upload/UI/transport/tracking/events. Owner xác nhận
-iPhone và có thể mượn máy GPU NVIDIA; đề xuất USB/Camo nếu máy Windows, chưa chốt
-model máy hoặc kiểm camera backend. Thiết kế transport và log revision đã được
+giữ guards config/pins/receipt/deadline, CPU V8S/G0. Đã nối upload/UI/transport
+theo [LIVE-VIDEO-WEB-20261028 được owner duyệt](../configs/web/LIVE-VIDEO-WEB-20261028/README.md):
+màn hình giám sát light/dark tại `/`, MJPEG/SSE, điều khiển nguồn server và metadata
+phiên riêng; `/review` giữ review offline. Chỉ observations tức thời, chưa temporal
+log/review mới hoặc tracking/events online; chưa chạy model thật để đo online.
+Owner xác nhận dùng iPhone và laptop mượn đáp ứng trên mức sàn của project, ưu tiên
+thiết kế ổn định; chưa có environment đo thực tế để chốt GPU config/SLA. Hướng
+USB/Camo nếu máy Windows giữ nguyên, camera backend chưa kiểm. Transport và log revision đã được
 duyệt; numeric cadence/jitter/gap và receipt camera còn mở. Chưa có camera runtime
-hoặc nghiệm thu UI, hiệu năng/chất lượng live. API và giới hạn runner ở [reference](reference.md).
+hoặc nghiệm thu hiệu năng/chất lượng live trên media thật. API và giới hạn runner
+ở [reference](reference.md).
 
 Owner đã chốt C10 prototype, miễn audit toàn clip và [chấp nhận kết quả events](../artifacts/reports/events-prototype-20261027/acceptance-20261027.md). Web Review local đã có sảnh phiên, bàn duyệt light/dark, SQLite review riêng, tổng kết và nhập/xuất. Owner duyệt áp dụng nguyên pipeline cho video mới có receipt riêng theo [scope web](../configs/web/README.md). Giữ giới hạn fragmentation/duplicate/classifier, không biến batch acceptance thành confirmed từng event hoặc metrics độc lập. Risk chưa mở; chưa nghiệm thu chất lượng end-to-end trên clip mới.
 

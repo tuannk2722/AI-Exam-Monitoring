@@ -2,6 +2,9 @@
 
 from __future__ import annotations
 
+import threading
+from collections.abc import AsyncIterator
+from contextlib import asynccontextmanager
 from pathlib import Path
 from typing import Any
 
@@ -14,6 +17,8 @@ from ai_exam_monitoring.common.config import load_yaml
 from ai_exam_monitoring.common.errors import ProjectError
 
 from .catalog import Catalog, read_json
+from .monitor import Monitor
+from .monitor_routes import install_monitor_routes
 from .pipeline import Jobs
 from .store import ReviewStore
 
@@ -24,8 +29,23 @@ def create_app(workspace: Path = Path("."), config_path: Path | None = None) -> 
     catalog = Catalog(root)
     store = ReviewStore(catalog.path(config["output_root"]) / "reviews.sqlite3")
     jobs = Jobs(catalog, config)
-    app = FastAPI(title="Exam Review", docs_url=None, redoc_url=None)
+    monitor_path = root / "configs/web/LIVE-VIDEO-WEB-20261028/monitor.yaml"
+    monitor = Monitor(root, monitor_path) if monitor_path.is_file() else None
+    execution_lock = threading.Lock()
+
+    @asynccontextmanager
+    async def lifespan(_: FastAPI) -> AsyncIterator[None]:
+        try:
+            yield
+        finally:
+            from starlette.concurrency import run_in_threadpool
+            if monitor is not None:
+                await run_in_threadpool(monitor.close)
+            await run_in_threadpool(jobs.executor.shutdown, wait=True)
+
+    app = FastAPI(title="Exam Monitor", docs_url=None, redoc_url=None, lifespan=lifespan)
     app.state.catalog, app.state.store, app.state.jobs = catalog, store, jobs
+    app.state.monitor = monitor
     assets = Path(__file__).parent / "assets"
     app.mount("/assets", StaticFiles(directory=assets), name="assets")
     templates = Environment(loader=FileSystemLoader(assets), autoescape=select_autoescape())
@@ -63,6 +83,10 @@ def create_app(workspace: Path = Path("."), config_path: Path | None = None) -> 
 
     @app.get("/", response_class=HTMLResponse)
     def index() -> str:
+        return templates.get_template("monitor.html" if monitor else "index.html").render()
+
+    @app.get("/review", response_class=HTMLResponse)
+    def legacy_review() -> str:
         return templates.get_template("index.html").render()
 
     @app.get("/api/sessions")
@@ -114,7 +138,10 @@ def create_app(workspace: Path = Path("."), config_path: Path | None = None) -> 
 
     @app.post("/api/jobs", status_code=202)
     def start_job(value: dict[str, str]) -> dict[str, Any]:
-        return jobs.start(value["source"], value["receipt"])
+        with execution_lock:
+            if monitor is not None and monitor.busy():
+                raise FileExistsError("Phiên giám sát đang hoạt động; hãy dừng hoặc xóa phiên")
+            return jobs.start(value["source"], value["receipt"])
 
     @app.get("/api/jobs")
     def job_list() -> list[dict[str, Any]]:
@@ -133,4 +160,6 @@ def create_app(workspace: Path = Path("."), config_path: Path | None = None) -> 
             result.append(value)
         return result
 
+    if monitor is not None:
+        install_monitor_routes(app, monitor, jobs, execution_lock)
     return app
