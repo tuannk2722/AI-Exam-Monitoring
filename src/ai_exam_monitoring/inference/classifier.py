@@ -1,8 +1,10 @@
-"""CPU prototype use of an approved full bundle; never invokes historical evaluation."""
+"""Approved full-bundle inference; legacy CPU and explicit FP32 device/batch execution."""
 from __future__ import annotations
 
 import json
 import math
+from collections.abc import Sequence
+from contextlib import nullcontext
 from pathlib import Path
 from typing import Any
 
@@ -16,6 +18,7 @@ from ai_exam_monitoring.training.adaptation_model import AdaptationModel, tensor
 from ai_exam_monitoring.training.artifacts import digest_json
 from ai_exam_monitoring.training.data import letterbox
 
+from .execution import ExecutionSettings
 from .runtime_config import TARGETS, RuntimeConfig
 
 
@@ -27,7 +30,9 @@ def read_object(path: Path) -> dict[str, Any]:
 
 
 class BundleClassifier:
-    def __init__(self, runtime: RuntimeConfig):
+    def __init__(self, runtime: RuntimeConfig, *, execution: ExecutionSettings | None = None):
+        self.execution = execution
+        self.device = execution.resolve() if execution else torch.device("cpu")
         resolved = read_object(runtime.pin("resolved_config"))
         self.config = config_from_dict(resolved)
         bundle = read_object(runtime.pin("bundle"))
@@ -64,7 +69,7 @@ class BundleClassifier:
         self.threads = runtime.raw["classifier"]["threads"]
         torch.set_num_threads(self.threads)
         self.model = AdaptationModel(self.config, full_state=payload["model"],
-                                     workspace=runtime.workspace).cpu().float().eval()
+                                     workspace=runtime.workspace).to(self.device).float().eval()
         self.model.requires_grad_(False)
 
     def preview(self, image: Image.Image) -> Image.Image:
@@ -75,8 +80,27 @@ class BundleClassifier:
         if torch.get_num_threads() != self.threads:
             torch.set_num_threads(self.threads)
         tensor = TF.normalize(TF.to_tensor(self.preview(image)), self.config.mean, self.config.std)
-        with torch.inference_mode():
-            logits = self.model(tensor.unsqueeze(0))
+        precision = self.execution.precision() if self.execution else nullcontext()
+        with precision, torch.inference_mode():
+            logits = self.model(tensor.unsqueeze(0).to(self.device))
             if logits.shape != (1, 2) or not torch.isfinite(logits).all():
                 raise DataContractError("Invalid classifier output")
             return [float(v) for v in torch.sigmoid(logits)[0].tolist()]
+
+    def predict_batch(self, images: Sequence[Image.Image]) -> list[list[float]]:
+        """One bounded same-frame chunk, preserving order and the original transform."""
+        limit = self.execution.batch_size if self.execution else 1
+        if len(images) > limit:
+            raise DataContractError("Classifier chunk exceeds explicit execution batch size")
+        if not images:
+            return []
+        if torch.get_num_threads() != self.threads:
+            torch.set_num_threads(self.threads)
+        tensors = [TF.normalize(TF.to_tensor(self.preview(image)),
+                                self.config.mean, self.config.std) for image in images]
+        precision = self.execution.precision() if self.execution else nullcontext()
+        with precision, torch.inference_mode():
+            logits = self.model(torch.stack(tensors).to(self.device))
+            if logits.shape != (len(images), 2) or not torch.isfinite(logits).all():
+                raise DataContractError("Invalid classifier batch output")
+            return [[float(v) for v in row] for row in torch.sigmoid(logits).cpu().tolist()]

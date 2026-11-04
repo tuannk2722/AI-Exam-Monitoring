@@ -242,6 +242,7 @@ class Monitor:
         runner, preview = self.runner, self.preview
         try:
             while True:
+                before = runner.snapshot()
                 result = runner.take_result()
                 # Rendering/encoding outside the manager lock keeps stop/seek responsive.
                 published = False
@@ -255,6 +256,10 @@ class Monitor:
                     if published and result is not None and result.stamp.epoch == state.epoch:
                         self.latest = result.observations
                         self.captured_ns = result.stamp.captured_ns
+                    # Completion can race take_result. Drain once more after a terminal
+                    # snapshot before exposing EOF or leaving the final frame behind.
+                    if state.status in TERMINAL and before.status not in TERMINAL:
+                        continue
                     self.record.update(status=state.status, epoch=state.epoch,
                                        source_frame_index=state.source_frame_index,
                                        source_time_ms=state.source_time_ms,

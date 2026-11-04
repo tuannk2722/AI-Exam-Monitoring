@@ -4,15 +4,21 @@ from __future__ import annotations
 import json
 import math
 import os
+from collections.abc import Mapping
+from contextlib import nullcontext
 from dataclasses import dataclass
 from importlib import import_module
 from importlib.metadata import version
+from typing import TYPE_CHECKING
 
 from PIL import Image
 
 from ai_exam_monitoring.common.errors import DataContractError
 
 from .runtime_config import RuntimeConfig
+
+if TYPE_CHECKING:
+    from .execution import ExecutionSettings
 
 
 @dataclass(frozen=True)
@@ -45,11 +51,22 @@ def crop_boxes(
 
 
 class PersonDetector:
-    def __init__(self, config: RuntimeConfig):
+    def __init__(self, config: RuntimeConfig, *, execution: ExecutionSettings | None = None,
+                 packages: Mapping[str, str] | None = None):
+        self.execution = execution
         receipt = json.loads(config.pin("detector_receipt").read_text(encoding="utf-8"))
-        for package, expected in receipt["packages"].items():
-            if version(package) != expected:
-                raise DataContractError(f"Runtime package changed: {package}")
+        if execution is None:
+            if packages is not None:
+                raise DataContractError("Package override requires an execution profile")
+            for package, expected in receipt["packages"].items():
+                if version(package) != expected:
+                    raise DataContractError(f"Runtime package changed: {package}")
+        else:
+            from .execution import verify_execution_packages
+
+            if packages is None:
+                raise DataContractError("Execution profile requires exact package pins")
+            verify_execution_packages(receipt["packages"], packages, execution)
         if receipt["weights_sha256"] != config.raw["pins"]["detector_weights"]["sha256"]:
             raise DataContractError("Detector receipt/weights mismatch")
         # Set before import: no analytics, synchronization, or implicit model downloads.
@@ -63,11 +80,15 @@ class PersonDetector:
         names = {str(k): v for k, v in self.model.names.items()}
         if names != receipt["taxonomy"] or names.get("0") != "person":
             raise DataContractError("Detector taxonomy mismatch")
-        self.variables = config.raw["detector"]
+        self.variables = dict(config.raw["detector"])
+        if execution is not None:
+            self.variables["device"] = execution.device
 
     def predict(self, image: Image.Image) -> list[PersonDetection]:
-        results = self.model.predict(source=image, classes=[0], verbose=False, save=False,
-                                     stream=False, **self.variables)
+        precision = self.execution.precision() if self.execution else nullcontext()
+        with precision:
+            results = self.model.predict(source=image, classes=[0], verbose=False, save=False,
+                                         stream=False, **self.variables)
         if len(results) != 1:
             raise DataContractError("Expected exactly one detector frame result")
         detections = []

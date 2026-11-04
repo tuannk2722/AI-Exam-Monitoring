@@ -169,6 +169,31 @@ class WebMonitorTests(unittest.TestCase):
         self.assertNotIn("source.part", [p.name for p in self.monitor.path(identity).iterdir()])
         self.assertFalse((self.monitor.path(identity) / "predictions.jsonl").exists())
 
+    def test_eof_between_result_take_and_state_snapshot_drains_final_result(self):
+        from ai_exam_monitoring.inference.online_video import OnlineResult
+        from ai_exam_monitoring.inference.streaming import FrameStamp
+
+        identity = self.ready()
+        results = iter([
+            OnlineResult(FrameStamp(identity, 0, index, index * 30., index + 1, 32, 32),
+                         Image.new("RGB", (32, 32)),
+                         {"frame_index": index, "observations": []}, index + 2)
+            for index in (3, 4)
+        ])
+        def state(status):
+            return SimpleNamespace(status=status, epoch=0, source_frame_index=4,
+                                   source_time_ms=120., processed=5, stale_results=0,
+                                   error_type=None, buffer=SimpleNamespace(dropped=0))
+        snapshots = iter([state("running"), state("completed"),
+                          state("completed"), state("completed")])
+        self.monitor.runner = SimpleNamespace(snapshot=lambda: next(snapshots),
+                                              take_result=lambda: next(results),
+                                              join=lambda: True, stop=lambda: None)
+        self.monitor._pump()
+        self.assertEqual(self.monitor.record["status"], "completed")
+        self.assertEqual(self.monitor.latest["frame_index"], 4)
+        self.assertEqual(self.monitor.preview.snapshot().stamp.sequence, 4)
+
     def test_wrong_hash_incomplete_and_oversize_upload_leave_no_payload(self):
         for payload in (b"x" * len(self.payload), self.payload + b"extra", self.payload[:-1]):
             with self.subTest(payload=payload):

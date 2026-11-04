@@ -32,6 +32,17 @@ hiệu năng/chất lượng live hoặc quyền thu nhận media mới từ app
 Primitives nội bộ không mở camera, gọi model hoặc thay artifacts đã pin. Không
 cần triển khai auth phức tạp, risk score, nhiều camera hoặc hệ thống nghiệp vụ mới.
 
+### Cụ thể hóa timing — 28/10/2026
+
+Owner tiếp tục duyệt [LIVE-TIMING-20261028](../configs/tracking/LIVE-TIMING-20261028/README.md)
+cho implementation và fixtures: slot detector 100 ms, frame đầu tại/sau mốc lệch
+tối đa 50 ms, G0 mỗi 10 slot; slot detector thiếu reset continuity/tracker, slot G0
+thiếu ngắt segment. Candidate cần ≥ 3 positives ở slot liên tiếp và span timestamp
+thật ≥ 2.000 ms; pause/resume reset continuity. Approval này thay riêng trạng thái
+numeric jitter/gap/reset còn mở trong phần thiết kế ban đầu bên dưới. Không tự
+gán acceptance C10 cho stream mới. Camera receipt, wire/evidence persistence và
+profile/SLA máy thật còn cần slice tích hợp; không hỏi lại policy đã duyệt.
+
 Đối chiếu code và nguồn chính thức ngày 27–28/10/2026. Tài liệu ban đầu trong
 Downloads là input thiết kế UI cũ; yêu cầu mới của owner có ưu tiên khi khác nhau.
 

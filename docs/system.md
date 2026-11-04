@@ -81,8 +81,13 @@ seal cuối phiên. [LIVE-VIDEO-WEB-20261028](../configs/web/LIVE-VIDEO-WEB-2026
 snapshot trạng thái đầy đủ khi reconnect, command ID/epoch chống thực thi lặp.
 Giới hạn và config ở hồ sơ này. Metadata vận hành riêng không phải session AI
 đã seal hoặc event evidence; observations tức thời không được ghi thành quyết
-định review. SQLite live log/revision và numeric policy tracking/events vẫn cần
-slice riêng, không sửa schema review legacy.
+định review. SQLite live log/revision vẫn cần slice riêng, không sửa schema review
+legacy. Numeric policy đã được duyệt tại
+[LIVE-TIMING-20261028](../configs/tracking/LIVE-TIMING-20261028/README.md): detector
+10 Hz, tolerance 50 ms sau mốc; thiếu slot detector reset continuity, thiếu G0 ngắt
+segment; G0 mỗi 10 slot và
+candidate giữ ≥ 3 positives liên tiếp/span thật ≥ 2 giây. Chưa bật log online hoặc
+nghiệm thu chất lượng/cadence thực từ approval implementation này.
 
 Slice web local theo [WEB-REVIEW-20261027](../configs/web/README.md) lưu review riêng
 bằng `event-human-review-v1`, gắn `events_sha256` và event ID. Quyết định gồm
@@ -99,7 +104,7 @@ Slice tracking theo [thiết kế được duyệt](../configs/tracking/TRACKING
 
 Slice offline đầu giữ workflow đọc/xử lý artifacts. Đích mới: chọn camera hoặc upload video có quyền → kiểm input/kết nối → bắt đầu → video/detection/log cập nhật → mở evidence và review nhanh → dừng hoặc EOF. Video chiếm phần chính, log cạnh bên và drawer bằng chứng; diagnostics/export mở khi cần. Không bắt buộc đi qua hub/workbench/summary. Server validate input; limit cụ thể chốt theo cấu hình demo.
 
-Video upload phát theo media clock và phân tích khi phát; pause/seek đồng bộ với backend. Camera cần xử lý mất nguồn và stop giải phóng capture. Missing/gap không tạo prediction giả hoặc nối event. Khi AI không theo kịp, báo xử lý chậm và coverage thực; không dùng FPS preview làm FPS AI. Transport, nhãn tức thời so với temporal log và hướng persistence live đã được duyệt ở cấp [thiết kế](live-monitoring.md); numeric jitter/gap/reset và cấu hình chạy còn cần cụ thể hóa trước implementation tương ứng.
+Video upload phát theo media clock và phân tích khi phát; pause/seek đồng bộ với backend. Camera cần xử lý mất nguồn và stop giải phóng capture. Missing/gap không tạo prediction giả hoặc nối event. Khi AI không theo kịp, báo xử lý chậm và coverage thực; không dùng FPS preview làm FPS AI. Transport, nhãn tức thời so với temporal log và hướng persistence live đã được duyệt ở cấp [thiết kế](live-monitoring.md); numeric jitter/gap/reset theo LIVE-TIMING-20261028 ở trên. Cấu hình máy và receipt camera còn cần cụ thể hóa trước thực thi tương ứng.
 
 Nghiệm thu end-to-end phải dùng video được phép, model đã chọn, crop policy/rule versions và kết quả thật. Đo trên hardware/OS/dependencies đã pin: resolution/FPS/duration, startup/warm-up/repeats, throughput, mean/p50/p95 latency, peak RAM/VRAM, tracking loss/switch và false/missed events. **Chưa có SLA FPS/latency toàn video hoặc quality threshold hệ thống Accepted.** Các chỉ tiêu classifier theo experiment protocol không tự chuyển thành SLA video.
 

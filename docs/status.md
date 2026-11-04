@@ -29,10 +29,18 @@ theo [LIVE-VIDEO-WEB-20261028 được owner duyệt](../configs/web/LIVE-VIDEO-
 màn hình giám sát light/dark tại `/`, MJPEG/SSE, điều khiển nguồn server và metadata
 phiên riêng; `/review` giữ review offline. Chỉ observations tức thời, chưa temporal
 log/review mới hoặc tracking/events online; chưa chạy model thật để đo online.
+Owner đã review/chốt giao diện và logic slice web/video; baseline commit `2c9d8fa`.
+Có adapter device/batch FP32, timings hữu hạn và CLI probe/profile độc lập theo
+[LIVE-COMPUTE-20261028](../configs/runtime/LIVE-COMPUTE-20261028/README.md).
+Web vẫn CPU; chưa có model parity trên CUDA hoặc config GPU được chọn. Owner chốt
+tải demo dưới 15 người, 5–10 phút; mốc kiểm tải 14 người / 10 phút chưa là SLA.
 Owner xác nhận dùng iPhone và laptop mượn đáp ứng trên mức sàn của project, ưu tiên
 thiết kế ổn định; chưa có environment đo thực tế để chốt GPU config/SLA. Hướng
 USB/Camo nếu máy Windows giữ nguyên, camera backend chưa kiểm. Transport và log revision đã được
-duyệt; numeric cadence/jitter/gap và receipt camera còn mở. Chưa có camera runtime
+duyệt; [numeric timing](../configs/tracking/LIVE-TIMING-20261028/README.md) tiếp tục
+được owner duyệt cho implementation/fixtures. Có primitives chọn slot, reset continuity
+và candidate tăng dần, chưa nối tracker thật hoặc lưu evidence/review online.
+Receipt camera và persistence live cụ thể còn mở. Chưa có camera runtime
 hoặc nghiệm thu hiệu năng/chất lượng live trên media thật. API và giới hạn runner
 ở [reference](reference.md).
 

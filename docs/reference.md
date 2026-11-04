@@ -72,7 +72,27 @@ model lại. `session.json` ở output root mới là metadata vận hành, chư
 AI sealed; không ghi observations thành event hoặc review. Quan sát tức thời
 hiển thị riêng, không có nút confirmed cho một frame đơn lẻ. Review legacy tiếp
 tục đọc artifacts offline/SQLite cũ. Camera, GPU, tracking/events online và SQLite
-live vẫn chưa nối. Numeric jitter/gap, camera receipt và nghiệm thu hiệu năng còn mở.
+live vẫn chưa nối. Numeric jitter/gap đã được duyệt riêng ở phần dưới; camera receipt
+và nghiệm thu hiệu năng còn mở.
+
+GPU/batching có adapter nội bộ và CLI chuẩn bị theo
+[LIVE-COMPUTE-20261028](../configs/runtime/LIVE-COMPUTE-20261028/README.md).
+`inference.hardware_probe` chỉ đọc môi trường, không model/camera/download.
+`execution.py` giữ device/batch tường minh và FP32; `execution_processor.py` tái dùng
+V8S/G0 với package manifest riêng, giữ exact guards của receipt CPU cho caller cũ.
+`profiling.py` đo stage với đồng bộ CUDA, cửa sổ percentiles hữu hạn.
+`inference.profile_runtime` yêu cầu profile/config approval mới và receipt nguồn,
+tách warm-up khỏi đo tuần tự, ghi metadata/count/timing, không images/scores.
+Không dùng throughput tool này làm SLA playback/camera. Web chưa tự dùng GPU;
+cần environment máy đích, model parity và profile trước chọn cấu hình thực thi.
+
+`live_timing.py` chọn slot theo [LIVE-TIMING-20261028](../configs/tracking/LIVE-TIMING-20261028/README.md),
+giữ timestamp thật và count missing; continuity kiểm các slot thực sự được xử lý
+để cả dropped pending cũng reset tracker. `live_events.py` giữ segments hữu hạn,
+candidate/update/close, chặn late generation/epoch và khoảng thiếu mẫu. Chỉ metadata
+nội bộ, chưa ghi support images/full history hay SQLite và chưa bật log trên UI.
+Caller phải reset tracker trước token yêu cầu reset và persist evidence trước khi
+cho review; `initial_support` + latest không thay danh sách bằng chứng đầy đủ.
 
 `Prediction` hiện biểu diễn một label/score/bbox. Adapter classifier B ở `inference/classifier.py`; `runtime.py` xuất contract JSONL riêng có version và giữ target order từ config/calibration, không coi detection class ID là target order. `PilotRecord` là contract dataset riêng, được mô tả đầy đủ trong data spec.
 
