@@ -29,3 +29,51 @@ configs/experiments/E004-C345-20261016/** -text
 
 # Preserve V11 release config SHA across platforms.
 configs/datasets/pilot-b-20261017-v11.json -text whitespace=trailing-space,space-before-tab,cr-at-eol
+
+# Preserve exact approved E005 V11 config/protocol bytes across checkouts.
+configs/experiments/E005-V11-20261018/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+
+# Preserve V12 release config SHA across platforms.
+configs/datasets/pilot-b-20261020-v12.json -text whitespace=trailing-space,space-before-tab,cr-at-eol
+
+# Preserve exact approved E006 config/protocol bytes across checkouts.
+configs/experiments/E006-V12-20261020/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+
+# Preserve approved V13 config and pinned audit/diagnostic inputs.
+configs/datasets/pilot-b-20261023-v13.json -text whitespace=trailing-space,space-before-tab,cr-at-eol
+configs/diagnostics/*.json -text whitespace=trailing-space,space-before-tab,cr-at-eol
+src/ai_exam_monitoring/data/review_reconcile.py text eol=lf
+src/ai_exam_monitoring/data/review_workspace.py text eol=lf
+src/ai_exam_monitoring/data/review_workspace_assets/* text eol=lf
+src/ai_exam_monitoring/training/diagnostics.py text eol=lf
+
+# Preserve the exact E007 proposal, authorization and imported Colab config pins.
+configs/experiments/E007-V13-20261023/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+configs/experiments/E007-V13-20261024/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+# These two frozen E007 source files include a final blank line in the run code hash.
+src/ai_exam_monitoring/training/device.py whitespace=-blank-at-eof
+src/ai_exam_monitoring/training/encoders.py whitespace=-blank-at-eof
+
+# Preserve frozen V14/E008 inputs and the launcher checksum across checkouts.
+configs/datasets/pilot-b-20261024-v14.json -text whitespace=trailing-space,space-before-tab,cr-at-eol
+configs/experiments/E008-V13-LOOKING-20261024/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+configs/experiments/E008-V14-LOOKING-20261024/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+notebooks/E008-V14-Colab.ipynb -text whitespace=trailing-space,space-before-tab,cr-at-eol
+
+# Preserve approved runtime config/authorization bytes across checkouts.
+configs/runtime/RUNTIME-PROTOTYPE-20261025/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+
+# Preserve approved runtime-stage inputs and receipts byte-for-byte.
+# Preserve the tracking design and authorization pins across checkouts.
+configs/tracking/TRACKING-PROTOTYPE-20261026/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+configs/tracking/TRACKING-CADENCE-20261027/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+configs/events/EVENTS-PROTOTYPE-20261027/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+src/ai_exam_monitoring/inference/tracking_review_assets/* -text whitespace=trailing-space,space-before-tab,cr-at-eol
+configs/runtime/RUNTIME-CLIP-1HZ-20261025/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+configs/runtime/RUNTIME-D2-20261026/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+configs/runtime/RUNTIME-D2-POSE-DIAGNOSTIC-20261026/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+configs/runtime/RUNTIME-D2-RECONCILE-20261026/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+configs/runtime/RUNTIME-DETECTOR-COMPARISON-20261026/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+configs/runtime/RUNTIME-DETECTOR-REVIEW-20261025/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+configs/runtime/RUNTIME-QA-PREP-20261025/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+configs/runtime/RUNTIME-V8S-20261026/** -text whitespace=trailing-space,space-before-tab,cr-at-eol

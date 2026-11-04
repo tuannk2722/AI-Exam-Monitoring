@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "package_validation": "package-validation.json",
+  "backup_validation": "backup-receipt.json",
+  "unit_tests": {
+    "test_pilot_package": 8,
+    "test_pilot_schema": 22,
+    "status": "PASS"
+  },
+  "ruff": "PASS",
+  "git_diff_check": "PASS",
+  "repository_checker": {
+    "status": "PASS",
+    "scope": "Existing Git index only; new files remain untracked, no staging or commit."
+  },
+  "pinned_inputs_after_handoff": "PASS",
+  "cleanup": [
+    "_v12r",
+    "outputs/_scratch/dataset-release-20261020-v12",
+    "artifacts/reports/dataset-release-20261020-v12/__pycache__"
+  ],
+  "worksheets_sha256": {
+    "assemble.py": "43d9ee571fbfbca98f2da08f7790ab9553a707d9af8c1f72b1e32cd888e576f5",
+    "check_lineage.py": "9020fd91fee9a0dcfcb0d9a7126e910de7bcad415ff3bb057e4db61ed0b69bbf",
+    "prepare_acceptance.py": "376889996063c90cfddfb9cc804f2fcc67ee9a34deeaf82f6f379ea01c26b566",
+    "prepare_allocation.py": "4eb4066656f2c38478107abd56dab93d481592934a09b03ce3c046e9007f745d",
+    "prepare_sources.py": "c831d203038a89ddfe50c4d14b255b4702b086aff051774c606f0721dc066e27"
+  },
+  "training_or_test_inference": false,
+  "remote_upload": false
+}

@@ -1,0 +1,19 @@
+{
+  "geometry_qa": [
+    {"id":"V7-OE-S085-A01-R03","result":"needs_revision","states":["N","P"],"note":"Mép phải còn nửa mặt nam sau khá lớn. Thu thêm sẽ cắt cánh tay anchor; cần cân nhắc phương án hoặc rút crop."},
+    {"id":"V7-OE-S111-A01-R03","result":"pass_draft","states":["U","N"],"note":"Tay viết và bút đã giữ trọn trước phụ đề; bàn còn ít nhưng đầu hướng trang rõ. Vùng tay ở tai không đủ ID mobile nên U."},
+    {"id":"EXP-SCB-024-R03","result":"needs_revision","states":["U","P"],"note":"Bỏ mặt tiền cảnh chỉ còn đầu/vai, mất gần hết ngữ cảnh thân và bàn; không dùng cắt quá chặt để giải quyết occlusion."},
+    {"id":"SCB-turnhead-026-R03","result":"needs_revision","states":["U","P"],"note":"Bỏ mặt trước làm mất tay giơ bên trái và ngón tay dưới. Không đạt geometry dù hướng đầu rõ."},
+    {"id":"V7-C-001-R03","result":"pass_draft","states":["U","P"],"note":"Mặt chính duy nhất quay phải, giữ vai/tay trên bàn; người đối diện chỉ còn lưng/tóc. Phone U vì vùng bàn riêng bị che."},
+    {"id":"V7-C-007-R03","result":"pass_draft","states":["U","P"],"note":"Một mặt trội quay trái, giữ bàn/trang, mặt sau chỉ còn phần cằm ở mép trên; tay vẫn khuất nên U."},
+    {"id":"V7-C-009-R03","result":"pass_draft","states":["U","P"],"note":"Mặt nghiêng và thân người chính rõ, đầu hướng trái khỏi vùng bàn của mình; các mặt quanh đã bỏ. Tay thiếu do che khuất nên U."},
+    {"id":"V7-C-015-R03","result":"pass_draft","states":["U","N"],"note":"Tách được nữ áo vàng, đầu cúi theo trang nhìn thấy ở dưới; tay bị vai người trước che nên U. Đề xuất looking N thay U cần owner review."},
+    {"id":"V7-C-017-R03","result":"needs_revision","states":["U","P"],"note":"Mặt người tiền cảnh vẫn nguyên và cùng cỡ anchor; bản mới chưa giải quyết vấn đề nhiều anchor."},
+    {"id":"V7-C-019-R03","result":"pass_draft","states":["U","P"],"note":"Giữ đầu quay trái, thân và vùng bàn riêng; người sát trái chỉ còn tóc/vai. Tay khuất nên U, không suy N từ bàn trống."}
+  ],
+  "recrop_source_boards_viewed": [22,23,24],
+  "source_only_followup": [
+    {"id":"EXP-SCB-037","note":"Mặt tiền cảnh đè ngay vùng tay khoanh anchor; chưa có rectangle giữ tay mà bỏ mặt cạnh tranh."},
+    {"id":"V7-C-003","note":"Cụm nhiều mặt cùng cỡ sát vai và tay; cần đối chiếu với SCB-turnhead-008 để chọn đại diện, không tạo crop chặt chỉ đầu."}
+  ]
+}

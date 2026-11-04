@@ -1,0 +1,10 @@
+{"geometry_qa":[
+ {"id":"V7-D-010-R05","result":"needs_revision","states":["U","N"],"note":"Còn một đầu đỏ của thiết bị người trước ở sát đáy phải; cắt thêm 15 px đáy sẽ giữ hai cổ tay của anchor mà bỏ cạnh tranh."},
+ {"id":"V7-PF-D-002-R04","result":"needs_revision","states":["P","N"],"note":"Mặt nam giữa giảm nhưng cả hai tay và thiết bị đen của người đó vẫn nằm ngay phía trên phone target, cạnh tranh attribution. Nới tóc lại thêm mặt sau, không đạt geometry đơn."},
+ {"id":"EXP-SCB-014-R04","result":"needs_revision","states":["U","N"],"note":"Đã bỏ gần hết mặt bên trái nhưng tay khoanh chính bị cắt bên trái, không đáp ứng sửa đầy đủ vùng tay. Nới lại đưa mặt cạnh tranh vào."},
+ {"id":"V7-OE-S094-A01-R04","result":"pass_draft","states":["N","P"],"note":"Giữ nam giơ tay trội, tóc/hai tay/bàn đủ; các mặt hai bên chỉ còn mảnh nhỏ ở mép. Hai tay quan sát đủ không có vật mơ hồ, đầu hướng phía trước khỏi bài. Native và input 224 thống nhất."},
+ {"id":"V6R2-MP-053-R04","result":"pass_draft","states":["U","P"],"note":"Nam tiền cảnh trội và đủ đầu/hai tay; mặt người sau chỉ còn một phần hẹp ở mép phải. Vật cầm chưa xác định mobile ở input nên U, đầu ngẩng trước khỏi vùng thao tác nên P."},
+ {"id":"V6R2-MP-080-R05","result":"pass_draft","states":["P","N"],"note":"Đã đủ tóc, hai tay và mobile mặt màu trên bàn tại input. Người sau chỉ còn phần mũi/miệng sát mép trên, không có mắt hay vùng tay/device riêng; anchor chính trội, hướng vùng thao tác riêng. Chấp nhận phần nền theo rubric, không yêu cầu xóa mọi người phụ."},
+ {"id":"V6R2-SB-002-R04","result":"pass_draft","states":["U","N"],"note":"Đủ đầu và phần tay/vật còn nhìn được của nam áo đen; người trước chỉ còn thân ở mép trái. Một phần tay bị người trước che từ source và vật không có ID rõ nên U, đầu theo vật riêng N. Native/input đã kiểm."},
+ {"id":"V7-B-028-R04","result":"pass_draft","states":["N","N"],"note":"Nữ viết chiếm phần lớn crop, đủ tóc/bàn tay/giấy; người sau chỉ còn phần má/cằm sát mép trên, không có vùng hành vi cạnh tranh. Hướng bài và hai tay đủ absence trong phần quan sát; input giữ bằng chứng N/N."}
+]}

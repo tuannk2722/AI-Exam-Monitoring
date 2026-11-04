@@ -1,0 +1,62 @@
+{
+  "schema_version": "tracking-selection-v1",
+  "decision_id": "TRACKING-B0-BASELINE-20261027",
+  "status": "selected_for_prototype_baseline",
+  "selected_arm": "B0",
+  "date": "2026-10-27",
+  "decided_by": "assistant",
+  "authority": "explicit_owner_delegation_in_conversation",
+  "owner_basis": "Owner reviewed B1 red boxes, requested deep internet research and delegated the choice of tracking approach to the assistant.",
+  "scope": "Existing authorized clip; V8S/context-v1/G0 observations sampled at 1 Hz; technical baseline selection only.",
+  "supersedes": "Pending owner choice of arm in TRACKING-PROTOTYPE-20261026; preserves all original approvals/results.",
+  "parent_authorization": {
+    "path": "configs/tracking/TRACKING-PROTOTYPE-20261026/owner-authorization.json",
+    "sha256": "8d60c4398e6f2f1080e6ee222d973517fcb29b7d008f6f99d383fdbf32ef0aa1"
+  },
+  "proposal": {
+    "path": "configs/tracking/TRACKING-PROTOTYPE-20261026/proposal.yaml",
+    "sha256": "248f9cc1c659d8d522424f93a7de4e3f58d5896755458cfad55b56e2657b4481"
+  },
+  "selected_output": {
+    "path": "outputs/tracking-prototype-20261026/B0/session.json",
+    "sha256": "42408c4284ee315b9bc4fd05fe8004e31de0da927bbc9c33b1b50f5e1c6fd649"
+  },
+  "selected_assignments": {
+    "path": "outputs/tracking-prototype-20261026/B0/assignments.jsonl",
+    "sha256": "64f57c93681d627ae0c6a51ea9fe81e6c0691b7753d9dcf32e83a4eeca70203a"
+  },
+  "research": {
+    "path": "artifacts/reports/tracking-prototype-20261026/research-20261027/README.md",
+    "sha256": "898f6cb3840fcb37de256193e84a96c5f0f716339571ec192ba0a10daddc31d8"
+  },
+  "cached_analysis": {
+    "path": "artifacts/reports/tracking-prototype-20261026/research-20261027/cached-analysis.json",
+    "sha256": "a9b182f048c3da124db6aede24a870f2f920a82541f1df8020977b671de86124"
+  },
+  "visual_audit": {
+    "path": "artifacts/reports/tracking-prototype-20261026/research-20261027/visual-audit.json",
+    "sha256": "61e99378ff91d872b68281284662f5ba29d430c87456ba0359e1e6f803539575"
+  },
+  "policy": {
+    "implementation": "ultralytics BYTETracker 8.3.221",
+    "lap": "0.5.12",
+    "frame_rate": 1,
+    "track_buffer": 60,
+    "max_time_lost_updates": 2,
+    "track_high_thresh": 0.25,
+    "track_low_thresh": 0.1,
+    "new_track_thresh": 0.25,
+    "match_thresh": 0.8,
+    "fuse_score": true
+  },
+  "quality_acceptance": "not_accepted_for_temporal_aggregation",
+  "stage_status": "baseline_selected_quality_gate_open",
+  "known_blocker": "Both B0 and B1 reuse track ID 10 across different people at samples 8 and 9.",
+  "independent_video_validation": false,
+  "ground_truth_complete": false,
+  "events_authorized": false,
+  "risk_authorized": false,
+  "web_authorized": false,
+  "new_inference_performed": false,
+  "media_delete_by": "2026-11-01T08:55:06.308086+00:00"
+}

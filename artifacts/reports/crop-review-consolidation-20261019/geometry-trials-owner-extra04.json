@@ -1,0 +1,422 @@
+[
+  {
+    "parent": "V7-OE-S061-A01",
+    "id": "V7-OE-S061-A01-R05",
+    "person": [
+      135,
+      876,
+      495,
+      1440
+    ],
+    "context": [
+      135,
+      876,
+      495,
+      1440
+    ],
+    "states": [
+      "U",
+      "P"
+    ],
+    "reason": "Nới trên theo lưới nguồn, lấy đủ tóc nữ tiền cảnh."
+  },
+  {
+    "parent": "V6R2-EX-010",
+    "id": "V6R2-EX-010-R05",
+    "person": [
+      290,
+      342,
+      438,
+      640
+    ],
+    "context": [
+      290,
+      342,
+      438,
+      640
+    ],
+    "states": [
+      "U",
+      "P"
+    ],
+    "reason": "Nới trái giữ tay nữ ô dưới; tay nguồn đáy vẫn giới hạn."
+  },
+  {
+    "parent": "V7-C-125",
+    "id": "V7-C-125-R05",
+    "person": [
+      0,
+      229,
+      587,
+      685
+    ],
+    "context": [
+      0,
+      229,
+      587,
+      685
+    ],
+    "states": [
+      "N",
+      "N"
+    ],
+    "reason": "Nới trên lấy trọn tóc nam kính và hai tay."
+  },
+  {
+    "parent": "SCB-read-015",
+    "id": "SCB-read-015-ADD01-R02",
+    "person": [
+      425,
+      135,
+      511,
+      350
+    ],
+    "context": [
+      425,
+      135,
+      511,
+      350
+    ],
+    "states": [
+      "N",
+      "P"
+    ],
+    "reason": "Lấy đúng đầu nam bàn gần giáo viên, giữ tay/bài."
+  },
+  {
+    "parent": "SCB-write-018",
+    "id": "SCB-write-018-R05",
+    "person": [
+      664,
+      285,
+      883,
+      579
+    ],
+    "context": [
+      664,
+      285,
+      883,
+      579
+    ],
+    "states": [
+      "N",
+      "N"
+    ],
+    "reason": "Chọn nữ kính tiền cảnh phải, tách hai tay/bài đầy đủ trên nguồn."
+  },
+  {
+    "parent": "SCB-write-019",
+    "id": "SCB-write-019-R05",
+    "person": [
+      626,
+      365,
+      790,
+      450
+    ],
+    "context": [
+      626,
+      365,
+      790,
+      450
+    ],
+    "states": [
+      "U",
+      "N"
+    ],
+    "reason": "Mở trái lấy tay viết người áo đỏ; kiểm giới hạn nguồn đáy."
+  },
+  {
+    "parent": "SCB-write-023",
+    "id": "SCB-write-023-R05",
+    "person": [
+      295,
+      296,
+      384,
+      384
+    ],
+    "context": [
+      295,
+      296,
+      384,
+      384
+    ],
+    "states": [
+      "N",
+      "N"
+    ],
+    "reason": "Sửa đúng bàn đầu giữa, trọn đầu và hai tay."
+  },
+  {
+    "parent": "SCB-write-027",
+    "id": "SCB-write-027-R05",
+    "person": [
+      9,
+      292,
+      191,
+      439
+    ],
+    "context": [
+      9,
+      292,
+      191,
+      439
+    ],
+    "states": [
+      "N",
+      "P"
+    ],
+    "reason": "Nới trên lấy trọn tóc nam đầu trái; kiểm hướng đầu khỏi giấy."
+  },
+  {
+    "parent": "V7-C-004",
+    "id": "V7-C-004-R05",
+    "person": [
+      494,
+      208,
+      582,
+      359
+    ],
+    "context": [
+      494,
+      208,
+      582,
+      359
+    ],
+    "states": [
+      "N",
+      "N"
+    ],
+    "reason": "Nữ bàn trước gần giáo viên: đủ đầu và hai tay, kiểm hướng về bài."
+  },
+  {
+    "parent": "V7-C-010",
+    "id": "V7-C-010-R05",
+    "person": [
+      298,
+      134,
+      375,
+      242
+    ],
+    "context": [
+      298,
+      134,
+      375,
+      242
+    ],
+    "states": [
+      "N",
+      "N"
+    ],
+    "reason": "Định vị lại nữ đỏ bàn trước giữa, bỏ trial sai tọa độ sàn."
+  },
+  {
+    "parent": "V7-OE-S099-A01",
+    "id": "V7-OE-S099-A01-ADD01-R02",
+    "person": [
+      58,
+      283,
+      220,
+      469
+    ],
+    "context": [
+      58,
+      283,
+      220,
+      469
+    ],
+    "states": [
+      "N",
+      "P"
+    ],
+    "reason": "Giữ tóc nam đầu dãy, hai tay khoanh trên bàn."
+  },
+  {
+    "parent": "V7-OE-S099-A01",
+    "id": "V7-OE-S099-A01-ADD02-R02",
+    "person": [
+      212,
+      267,
+      388,
+      421
+    ],
+    "context": [
+      212,
+      267,
+      388,
+      421
+    ],
+    "states": [
+      "N",
+      "N"
+    ],
+    "reason": "Lấy đủ tóc và tay phải nữ thứ hai viết."
+  },
+  {
+    "parent": "V7-OE-S099-A01",
+    "id": "V7-OE-S099-A01-ADD03-R02",
+    "person": [
+      382,
+      223,
+      533,
+      379
+    ],
+    "context": [
+      382,
+      223,
+      533,
+      379
+    ],
+    "states": [
+      "N",
+      "N"
+    ],
+    "reason": "Lấy đủ đầu nữ thứ ba và hai tay."
+  },
+  {
+    "parent": "V7-OE-S099-A01",
+    "id": "V7-OE-S099-A01-ADD04-R02",
+    "person": [
+      518,
+      186,
+      651,
+      363
+    ],
+    "context": [
+      518,
+      186,
+      651,
+      363
+    ],
+    "states": [
+      "N",
+      "P"
+    ],
+    "reason": "Nữ tóc ngắn thứ tư hướng phải; giữ tóc và tay."
+  },
+  {
+    "parent": "V6-SB-003",
+    "id": "V6-SB-003-ADD01-R02",
+    "person": [
+      148,
+      240,
+      266,
+      628
+    ],
+    "context": [
+      148,
+      240,
+      266,
+      628
+    ],
+    "states": [
+      "U",
+      "P"
+    ],
+    "reason": "Nới trên cho tóc nam kính, giữ vùng bàn và tay còn có."
+  },
+  {
+    "parent": "V7-B-016",
+    "id": "V7-B-016-R05",
+    "person": [
+      360,
+      362,
+      492,
+      640
+    ],
+    "context": [
+      360,
+      362,
+      492,
+      640
+    ],
+    "states": [
+      "N",
+      "N"
+    ],
+    "reason": "Nới trên, thu trái bỏ đầu tiền cảnh khác; giữ tay nữ viết."
+  },
+  {
+    "parent": "V7-B-022",
+    "id": "V7-B-022-R05",
+    "person": [
+      240,
+      344,
+      455,
+      640
+    ],
+    "context": [
+      240,
+      344,
+      455,
+      640
+    ],
+    "states": [
+      "N",
+      "N"
+    ],
+    "reason": "Chuyển nữ tiền cảnh giữa, hai tay/bút/bài đủ, tránh mặt nam hàng sau."
+  },
+  {
+    "parent": "V7-OE-S081-A01",
+    "id": "V7-OE-S081-A01-ADD01",
+    "person": [
+      24,
+      191,
+      145,
+      357
+    ],
+    "context": [
+      24,
+      191,
+      145,
+      357
+    ],
+    "states": [
+      "N",
+      "P"
+    ],
+    "reason": "Nữ bàn trước trái nhìn khỏi bài, giữ đủ hai tay và giấy."
+  },
+  {
+    "parent": "V7-D-005",
+    "id": "V7-D-005-ADD01",
+    "person": [
+      216,
+      93,
+      438,
+      490
+    ],
+    "context": [
+      216,
+      93,
+      438,
+      490
+    ],
+    "states": [
+      "P",
+      "N"
+    ],
+    "reason": "Nam chính với mobile và hai tay; kiểm mặt nữ nền sát đầu."
+  },
+  {
+    "parent": "V7-D-005",
+    "id": "V7-D-005-ADD02",
+    "person": [
+      0,
+      118,
+      138,
+      443
+    ],
+    "context": [
+      0,
+      118,
+      138,
+      443
+    ],
+    "states": [
+      "U",
+      "P"
+    ],
+    "reason": "Nữ tóc vàng trái nhìn sang bạn; kiểm người nền và tay occlusion."
+  }
+]

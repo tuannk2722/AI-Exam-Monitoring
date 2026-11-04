@@ -1,0 +1,149 @@
+{
+  "SQRT_calibrated": {
+    "train": {
+      "phone_use": {
+        "TP": 182,
+        "U": 449,
+        "TN": 374,
+        "FP": 39,
+        "mixed": 47,
+        "FN": 1
+      },
+      "looking_around": {
+        "TN": 660,
+        "mixed": 104,
+        "TP": 208,
+        "FN": 70,
+        "U": 9,
+        "FP": 41
+      }
+    },
+    "val": {
+      "phone_use": {
+        "TN": 73,
+        "U": 75,
+        "mixed": 9,
+        "FP": 15,
+        "FN": 3,
+        "TP": 29
+      },
+      "looking_around": {
+        "FP": 18,
+        "TN": 106,
+        "TP": 42,
+        "mixed": 23,
+        "FN": 15
+      }
+    }
+  },
+  "SQRT_fixed": {
+    "train": {
+      "phone_use": {
+        "TP": 163,
+        "U": 449,
+        "TN": 417,
+        "FP": 15,
+        "mixed": 42,
+        "FN": 6
+      },
+      "looking_around": {
+        "TN": 614,
+        "TP": 240,
+        "mixed": 122,
+        "FN": 46,
+        "U": 9,
+        "FP": 61
+      }
+    },
+    "val": {
+      "phone_use": {
+        "TN": 81,
+        "U": 75,
+        "FN": 13,
+        "FP": 5,
+        "TP": 14,
+        "mixed": 16
+      },
+      "looking_around": {
+        "FP": 29,
+        "TN": 86,
+        "TP": 47,
+        "mixed": 30,
+        "FN": 12
+      }
+    }
+  },
+  "RATIO_calibrated": {
+    "train": {
+      "phone_use": {
+        "TP": 181,
+        "U": 449,
+        "TN": 390,
+        "FP": 33,
+        "mixed": 38,
+        "FN": 1
+      },
+      "looking_around": {
+        "TN": 656,
+        "mixed": 99,
+        "TP": 227,
+        "FN": 61,
+        "U": 9,
+        "FP": 40
+      }
+    },
+    "val": {
+      "phone_use": {
+        "TN": 76,
+        "U": 75,
+        "mixed": 10,
+        "FP": 13,
+        "FN": 4,
+        "TP": 26
+      },
+      "looking_around": {
+        "FP": 20,
+        "TN": 105,
+        "TP": 41,
+        "mixed": 23,
+        "FN": 15
+      }
+    }
+  },
+  "RATIO_fixed": {
+    "train": {
+      "phone_use": {
+        "TP": 181,
+        "U": 449,
+        "TN": 392,
+        "FP": 34,
+        "mixed": 36
+      },
+      "looking_around": {
+        "TN": 523,
+        "TP": 298,
+        "FP": 104,
+        "mixed": 147,
+        "U": 9,
+        "FN": 11
+      }
+    },
+    "val": {
+      "phone_use": {
+        "TN": 75,
+        "U": 75,
+        "mixed": 14,
+        "FP": 14,
+        "FN": 5,
+        "TP": 21
+      },
+      "looking_around": {
+        "FP": 50,
+        "TN": 57,
+        "TP": 52,
+        "mixed": 40,
+        "FN": 5
+      }
+    }
+  }
+}

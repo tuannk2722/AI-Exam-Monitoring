@@ -1,0 +1,34 @@
+{
+  "geometry_qa": [
+    {
+      "id": "V6-SB-003-ADD01-R03",
+      "result": "withheld_duplicate",
+      "states": [
+        "U",
+        "P"
+      ],
+      "retain": "V6R2-MP-006",
+      "note": "C?ng frame v? thao t?c; MP006 ?? approved. Kh?ng th?m crop c?ng v?ng ch? v? bi?n r?ng h?n."
+    },
+    {
+      "id": "V6R2-MP-080-R05",
+      "result": "withheld_duplicate",
+      "states": [
+        "P",
+        "N"
+      ],
+      "retain": "V6-SB-013",
+      "note": "Hai frame g?n nhau c?ng thao t?c tr?n phone h?ng ??t b?n, ??u c?i v? tay g?n nh? l?p. SB013 ?? c? ?? ??u/tay/phone v? ???c duy?t P/N; r?t R05 m?i."
+    },
+    {
+      "id": "SCB-write-019-R05",
+      "result": "withheld_duplicate",
+      "states": [
+        "U",
+        "N"
+      ],
+      "retain": "V7-C-030",
+      "note": "V?ng n? ?o ?? tr??c ph?i ?? c? C030 v?i c?ng h?nh vi c?i vi?t, hai frame g?n nhau. Kh?ng th?m R05; gi? nh?n ?? duy?t c?a C030, kh?ng chuy?n nh?n gi?a crop."
+    }
+  ]
+}

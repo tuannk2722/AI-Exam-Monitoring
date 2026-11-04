@@ -1,0 +1,8 @@
+{
+  "status": "interrupted_by_agent",
+  "output": "outputs/runtime-v8s-session-20261026",
+  "reason": "Ultralytics CPU select_device changes global torch threads; classifier must restore configured threads before each forward",
+  "original_session_status": "running; process terminated before finalizer",
+  "quality_accepted": false,
+  "replacement": "outputs/runtime-v8s-session-20261026-r2"
+}

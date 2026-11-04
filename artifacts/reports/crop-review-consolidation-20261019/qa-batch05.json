@@ -1,0 +1,17 @@
+{
+  "geometry_qa": [
+    {"id":"V6-EX-035-R03","result":"needs_revision","states":["N","P"],"note":"Tay rõ, mặt nam sau giảm nhưng crop cắt tóc trên anchor; phải nới lên."},
+    {"id":"V6-EX-040-R03","result":"needs_revision","states":["N","N"],"note":"Hai tay viết rõ nhưng tóc anchor sát/cắt ở mép trên. Nới lên và kiểm mặt nền bên phải."},
+    {"id":"V7-A-072-R03","result":"pass_draft","states":["P","N"],"note":"Phone mặt trước rõ trên bàn sát anchor, đầu hướng vùng làm việc. Tay người khác ở đáy nhưng không có mặt cạnh tranh và không chạm phone."},
+    {"id":"V7-B-077-R03","result":"pass_draft","states":["U","N"],"note":"Mặt/tay nam xanh rõ, chỉ còn thân người cạnh. Thiết bị bị tay che chưa đủ ID ở input; nhìn vùng tay riêng nên U/N."},
+    {"id":"V7-D-050-R03","result":"needs_revision","states":["P","N"],"note":"Phone screen trên đùi rõ và thuộc anchor nhưng khung cắt tóc trên. Nới trên, giữ đủ tay bút và đầu."}
+  ],
+  "recrop_source_boards_viewed": [13,14,15],
+  "followup": [
+    "EX032/040/041 gần lặp tư thế viết, EX034/035 gần lặp ngẩng đầu; chọn EX040 và EX035 sau khi bản sửa đạt.",
+    "V7-R8-C-001: tay trái cần giữ nằm dưới mặt nam sau, chưa có cách cô lập sạch.",
+    "V7-B-078: phone của người giữa nằm bên trái dưới mặt người nền; chưa có box đơn đạt.",
+    "V7-B-107: tay nam phải kéo sang dưới mặt nữ trái, không được cắt tay để ép phone N.",
+    "V7-C-104: mặt người cạnh nằm sát đầu nam trẻ, chưa có crop đơn đạt."
+  ]
+}

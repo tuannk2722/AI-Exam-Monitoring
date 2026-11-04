@@ -1,0 +1,52 @@
+[
+  {
+    "id": "G07-B12-F00029",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0607-crop.png",
+    "input_sha256": "0fc3dea77361daeceb318307f9dc29a2b0663b43bc7e14271aa010c452100d0a",
+    "output_path": "data/interim/v12-reconcile-20261022/anchor-recrops-after-batch03/G07-B12-F00029.png",
+    "output_sha256": "729d79de3677e5413fd55da9333470b0eee33b28deb21750110245a9f8274dfb",
+    "box_xyxy_on_input": [
+      40,
+      0,
+      232,
+      239
+    ],
+    "output_size": [
+      192,
+      239
+    ],
+    "anchor_evidence": "batch03-receipt.json",
+    "status": "agent_recrop_after_owner_anchor_confirmation",
+    "proposed_pnu": [
+      "N",
+      "N"
+    ],
+    "phone_reason": "no_phone_on_confirmed_anchor",
+    "acceptance": null
+  },
+  {
+    "id": "G22-B16-F00034",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0781-crop.png",
+    "input_sha256": "71abb6990ef1322382d9017b5474e5e7d1e248b812ae499ace1b8f96f247684f",
+    "output_path": "data/interim/v12-reconcile-20261022/anchor-recrops-after-batch03/G22-B16-F00034.png",
+    "output_sha256": "12dc9fb0beb6175c23bc8a2488fcacd805748571944fdec29dc4964b7d7236b1",
+    "box_xyxy_on_input": [
+      29,
+      0,
+      227,
+      188
+    ],
+    "output_size": [
+      198,
+      188
+    ],
+    "anchor_evidence": "batch03-receipt.json",
+    "status": "agent_recrop_after_owner_anchor_confirmation",
+    "proposed_pnu": [
+      "U",
+      "N"
+    ],
+    "phone_reason": "visible_ambiguous_device_on_desk",
+    "acceptance": null
+  }
+]

@@ -1,0 +1,807 @@
+[
+  {
+    "frame_id": "Y01-F00002",
+    "reviewer": "agent-visual-draft",
+    "note": "Cặp giữa cửa sổ viết; tiền cảnh mất tay/đầu, ưu tiên khung cận F8/F41.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00003",
+    "reviewer": "agent-visual-draft",
+    "note": "Ba vị trí bàn sau và hai người viết bên trái; vật trên bàn cần kiểm input.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00004",
+    "reviewer": "agent-visual-draft",
+    "note": "Khớp panel trên trái ảnh tham chiếu; gile tiền cảnh tay sát đầu; không gán phone của bàn trái cho người gile.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00005",
+    "reviewer": "agent-visual-draft",
+    "note": "Người áo xanh đứng che cặp giữa; tiền cảnh mất phần đầu/tay, ưu tiên frame khác.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00006",
+    "reviewer": "agent-visual-draft",
+    "note": "Áo xanh che bên phải; cặp giữa trái viết, F38 có góc cận hơn.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00007",
+    "reviewer": "agent-visual-draft",
+    "note": "Hai người giữa tương tác quanh sổ, dễ lẫn anchor; phía sau trái viết riêng.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00008",
+    "reviewer": "agent-visual-draft",
+    "note": "Tóc sáng trái viết; blouse trắng tiền cảnh có vật đen trên bàn; nam phía sau viết. Thử ROI tách người.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00009",
+    "reviewer": "agent-visual-draft",
+    "note": "Cặp giữa nhìn chung giấy; tay/context chồng; tiền cảnh tóc sáng viết.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00037",
+    "reviewer": "agent-visual-draft",
+    "note": "Cặp tóc sáng/gile giữa: người gile quay trái ngoài trang; đầu tiền cảnh sát mép bàn cần bỏ khỏi crop.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00038",
+    "reviewer": "agent-visual-draft",
+    "note": "Áo kem trái cúi viết; áo trắng phải quay về trang bên trái. Mobile trắng có cụm camera trên bàn trái; bàn sau có vật tối.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00039",
+    "reviewer": "agent-visual-draft",
+    "note": "Ba vị trí bàn sau viết/đọc; mobile riêng trên hai bàn trái/giữa. Áo đen ngoài dấu cũng được xét.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00040",
+    "reviewer": "agent-visual-draft",
+    "note": "Tóc dài trái và blouse phối đen phía sau viết; mobile trên bàn; tiền cảnh phải che một phần.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00041",
+    "reviewer": "agent-visual-draft",
+    "note": "Cặp tóc sáng đọc/viết, kính sau ngẩng. Thiết bị xanh thuộc bàn sau phải, không gán sang người trước.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00042",
+    "reviewer": "agent-visual-draft",
+    "note": "Cận tay viết, mất đầu khỏi nguồn; không chọn crop đầy đủ.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00043",
+    "reviewer": "agent-visual-draft",
+    "note": "Nam tiền cảnh viết, vật tối trên bìa xanh; tóc xoăn cạnh bên chạm ROI. Kiểm vật ở input, không tự phone P.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00044",
+    "reviewer": "agent-visual-draft",
+    "note": "Cặp giữa viết; gile nâu bàn sau nhìn trước; đầu tiền cảnh che tay/bàn hàng giữa.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00045",
+    "reviewer": "agent-visual-draft",
+    "note": "Nữ cạnh áo polo nhìn trái; áo polo mất một phần tay mép dưới, F128 rõ hơn.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00049",
+    "reviewer": "agent-visual-draft",
+    "note": "Một người đứng giữa; áo kem trái còn nhìn bài; hàng sau nhìn trước. Chỉ giữ nếu có work context.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00050",
+    "reviewer": "agent-visual-draft",
+    "note": "Tư thế đứng nhìn trước rõ, có bàn/sổ dưới; chọn một đại diện, không nhân frame gần trùng.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00051",
+    "reviewer": "agent-visual-draft",
+    "note": "Áo trắng ngồi lại, tay che miệng; người sau đứng dậy, nhiều chồng lấn.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00052",
+    "reviewer": "agent-visual-draft",
+    "note": "Áo trắng đứng cạnh tủ nhìn trái; bàn sau gile nâu nhìn trước. Crop đứng thiếu vùng bài bị giữ lại.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00059",
+    "reviewer": "agent-visual-draft",
+    "note": "Tóc dài hàng sau đứng; cặp polo/kính ngồi, khó tách tay/bàn người đứng.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00060",
+    "reviewer": "agent-visual-draft",
+    "note": "Khớp panel dưới trái: tóc dài nhìn trước, blouse phối đen viết, gile xám sau nhìn trước. Phone cạnh tay phải không gán sang tóc dài.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00067",
+    "reviewer": "agent-visual-draft",
+    "note": "Áo khoác trắng đứng tiền cảnh, vùng bàn ngoài mép; chưa đủ context cho crop looking.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00069",
+    "reviewer": "agent-visual-draft",
+    "note": "Nữ tóc buộc đứng nhìn trước nhưng vùng tay/bài ngoài khung; không ưu tiên.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00094",
+    "reviewer": "agent-visual-draft",
+    "note": "Áo xanh che bàn sau; áo trắng giữa chống cằm nhìn trước; nhiều đầu tiền cảnh.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00095",
+    "reviewer": "agent-visual-draft",
+    "note": "Áo xanh quay lưng che trái; polo viền đen cầm vật nhỏ chưa nhận dạng; cặp tóc sáng đọc/viết.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00096",
+    "reviewer": "agent-visual-draft",
+    "note": "Blouse tiền cảnh và nam phải viết; tóc sáng sau ngẩng, tay tiền cảnh sát mép dưới.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00097",
+    "reviewer": "agent-visual-draft",
+    "note": "Polo/kính cùng cầm giấy, hai anchor cạnh tranh; tóc dài sau nhìn ngoài giấy.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00098",
+    "reviewer": "agent-visual-draft",
+    "note": "Áo trắng bàn sau cúi sát sổ có vật mặt kính đen; gile nâu nhìn trước có phone trên bàn riêng.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00099",
+    "reviewer": "agent-visual-draft",
+    "note": "Tóc ngắn trái viết; áo kem sau nhìn trước; áo trắng giữa nhìn vùng sổ; người sau cúi thấp mặt che.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00100",
+    "reviewer": "agent-visual-draft",
+    "note": "Cận tay viết mất đầu; không đề xuất crop đầy đủ.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00102",
+    "reviewer": "agent-visual-draft",
+    "note": "Tóc dài viết, mobile trên giấy cạnh tay; phải bỏ phone của người phía sau khỏi ROI.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00124",
+    "reviewer": "agent-visual-draft",
+    "note": "Polo nhìn trước; cặp tóc sáng một người cúi, một người chống tay nhìn trước. Tách từng người.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00125",
+    "reviewer": "agent-visual-draft",
+    "note": "Vị trí đứng như F52, góc rộng hơn; ưu tiên F98 cho bàn sau ít lẫn.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00126",
+    "reviewer": "agent-visual-draft",
+    "note": "Áo khoác trắng đứng dậy, nam cạnh nhìn ngoài trang; tay tiền cảnh bị mép cắt.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00128",
+    "reviewer": "agent-visual-draft",
+    "note": "Khớp panel trên phải: nhiều vị trí cửa sổ, polo bị nữ trước che tay/bàn; ROI nam viết phía giữa khá rõ.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00129",
+    "reviewer": "agent-visual-draft",
+    "note": "Polo viền đen đứng sát bàn nhìn ngoài sổ; kính bên cạnh viết. Giữ riêng nếu anchor trội.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00133",
+    "reviewer": "agent-visual-draft",
+    "note": "Hai người cửa sổ đứng, nhiều tay người khác trong context; các khung cận tốt hơn.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00187",
+    "reviewer": "agent-visual-draft",
+    "note": "Cặp cuối cạnh tủ ngẩng; người phải bị mép dưới cắt tay, không chọn mặc định.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00188",
+    "reviewer": "agent-visual-draft",
+    "note": "Blouse đứng cạnh bàn, người phải có tay khuất; attribution vật trên bàn chưa chắc, phone U.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00189",
+    "reviewer": "agent-visual-draft",
+    "note": "Gần trùng F188, tay dưới mép; không thêm khi không có trạng thái mới.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00190",
+    "reviewer": "agent-visual-draft",
+    "note": "Người đứng xoay phải giơ tay; không truyền phone P từ frame ngồi F8.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y01-F00197",
+    "reviewer": "agent-visual-draft",
+    "note": "Polo đứng cạnh người kính viết, có mobile cạnh tay người kính; tách ROI và kiểm attribution.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y02-F00011",
+    "reviewer": "agent-visual-draft",
+    "note": "Đủ sáu vị trí; trước phải đọc giấy, trái cúi vùng riêng; vật đen bàn trước chưa tự đủ P.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y02-F00012",
+    "reviewer": "agent-visual-draft",
+    "note": "Đủ sáu; trước phải giơ giấy sát mép, kính cuối trái ngẩng, cuối phải nhìn bài.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y02-F00013",
+    "reviewer": "agent-visual-draft",
+    "note": "Đủ sáu; đa số nhìn giấy, vật đen trước phải không rõ camera/mặt kính; gần F11.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y02-F00014",
+    "reviewer": "agent-visual-draft",
+    "note": "Đủ sáu; cuối và trước phải ngẩng nhìn đối diện, giữa phải cầm giấy.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y02-F00018",
+    "reviewer": "agent-visual-draft",
+    "note": "Đủ sáu; nam giữa trái và kính cuối trái ngẩng, vật trong tay nam chưa rõ; trước trái/phải cúi.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y02-F00019",
+    "reviewer": "agent-visual-draft",
+    "note": "Đủ sáu; cuối phải chống cằm nhìn trái, trước phải quay trái, ba trái cúi; crop dễ lẫn tay.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y02-F00023",
+    "reviewer": "agent-visual-draft",
+    "note": "Đủ sáu; đa số đọc/viết, cuối phải nhìn ngang; trạng thái gần F13/F26.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y02-F00024",
+    "reviewer": "agent-visual-draft",
+    "note": "Đủ sáu; trước trái giơ tay nhưng nhìn xuống, kính cuối trái nhìn lên; không suy phone từ cử chỉ.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y02-F00026",
+    "reviewer": "agent-visual-draft",
+    "note": "Đủ sáu; trước và giữa trái cúi, kính cuối trái nhìn phải; bên phải viết.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y02-F00029",
+    "reviewer": "agent-visual-draft",
+    "note": "Đủ sáu; giữa/cuối phải ngẩng, trước phải viết; đầu hai người cạnh tranh trong ROI giữa.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y02-F00031",
+    "reviewer": "agent-visual-draft",
+    "note": "Đủ sáu; trước trái nhìn phải và trước phải nhìn trái, nam/kính trái cúi. Giữ cặp hướng nếu tách được.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y02-F00033",
+    "reviewer": "agent-visual-draft",
+    "note": "Đủ sáu; cuối phải cầm giấy, giữa phải ngẩng, trước phải viết; trước trái hướng giấy.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y02-F00044",
+    "reviewer": "agent-visual-draft",
+    "note": "Đủ sáu, đổi framing có viền đen; trước trái quay mạnh, nam/kính ngẩng; nhiều đầu chồng.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y02-F00046",
+    "reviewer": "agent-visual-draft",
+    "note": "Đủ sáu; trước trái nhìn phía nam, nam cúi; giữa/trước phải nhìn ngang; mép cắt vai phải.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y02-F00058",
+    "reviewer": "agent-visual-draft",
+    "note": "Đủ sáu; bên phải nhìn trái, bên trái cúi; không thêm frame cùng trạng thái.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y03-F00001",
+    "reviewer": "agent-visual-draft",
+    "note": "Khớp ảnh tham chiếu; dãy đánh dấu hiện diện, đa số cúi; hàng giữa xa ngẩng. Thử ROI từng vị trí.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y03-F00004",
+    "reviewer": "agent-visual-draft",
+    "note": "Xanh tiền cảnh ngẩng/đổi tay; áo xám nhìn bài, giáo viên chuyển phải; hàng xa đầu nhỏ.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y03-F00008",
+    "reviewer": "agent-visual-draft",
+    "note": "Xanh tiền cảnh viết; áo xám chống đầu, polo cúi; người giữa đưa tay lên mặt.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y03-F00011",
+    "reviewer": "agent-visual-draft",
+    "note": "Gần F8; chữ ở vùng cao không đè anchor gần, áo xám tay che đầu.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y03-F00017",
+    "reviewer": "agent-visual-draft",
+    "note": "Polo chống tay, xanh gần nhìn bài; hàng xa hướng không rõ, không ép known.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y03-F00020",
+    "reviewer": "agent-visual-draft",
+    "note": "Áo trắng kính giữa trái ngồi thẳng, tay lên mặt nhìn trước; áo xám che mặt, xanh gần cúi.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y03-F00024",
+    "reviewer": "agent-visual-draft",
+    "note": "Áo xanh giữa ngẩng nhìn phải; áo xám gục/che mặt, xanh gần cúi. Người xa trái đứng ngoài dấu quá nhỏ/che tay.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y03-F00041",
+    "reviewer": "agent-visual-draft",
+    "note": "Áo xám sau xanh gần ngẩng nhìn trước; xanh gần cúi. Bố cục cố định, các vùng dấu còn trong frame.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y03-F00042",
+    "reviewer": "agent-visual-draft",
+    "note": "Polo giữa trái nhìn phải rõ; áo xám và xanh gần cúi. Thử đối chứng looking của polo.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y03-F00045",
+    "reviewer": "agent-visual-draft",
+    "note": "Xanh tiền cảnh nhìn phải, áo xám/polo ngẩng; giữ một đại diện cho mỗi trạng thái.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y03-F00046",
+    "reviewer": "agent-visual-draft",
+    "note": "Xanh gần vẫn nhìn phải; người sát tường gần đổi tay/cúi, không truyền nhãn F1; xa gần giống F45.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y04-F00001",
+    "reviewer": "agent-visual-draft",
+    "note": "Khớp ảnh tham chiếu; bàn đơn cúi, cặp gần/giữa có người ngẩng; nguồn 480 px làm tay/vật rất nhỏ.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y04-F00002",
+    "reviewer": "agent-visual-draft",
+    "note": "Bàn đơn và giữa trước phải ngẩng; phần lớn hàng sau cúi; có mặt trong frame chưa đủ crop đạt.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y04-F00007",
+    "reviewer": "agent-visual-draft",
+    "note": "Bàn đơn nhìn bài, cặp gần nhìn trước, giữa sau chống cằm; bút/hộp bút không tự mobile.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y04-F00008",
+    "reviewer": "agent-visual-draft",
+    "note": "Bàn đơn ngẩng nhẹ, hàng sau phải nhìn trước; gần F7, không tăng mẫu gần trùng.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y04-F00009",
+    "reviewer": "agent-visual-draft",
+    "note": "Bàn đơn quay trái khỏi sách; thử đối chứng F1. Cặp gần nhìn trước, hàng xa mờ.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y04-F00022",
+    "reviewer": "agent-visual-draft",
+    "note": "Bàn đôi gần phải nhìn sách mở, trái chống tay; nhiều người giữa cúi. Thử N vị trí phải.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y04-F00023",
+    "reviewer": "agent-visual-draft",
+    "note": "Gần F22, bàn đơn cúi; cặp gần cúi/chống cằm, không thêm trạng thái trùng.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y04-F00030",
+    "reviewer": "agent-visual-draft",
+    "note": "Thử vị trí trái bàn đôi; QA cho thấy đầu vẫn ngoài trang nên không giữ N dự kiến.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y04-F00054",
+    "reviewer": "agent-visual-draft",
+    "note": "Bàn đơn ngẩng phía giáo viên, bàn đôi trái nhìn trước/phải cúi; hàng xa thiếu chi tiết.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y04-F00055",
+    "reviewer": "agent-visual-draft",
+    "note": "Gần F54, không có evidence mới ở đầu/tay; giữ một đại diện.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y04-F00059",
+    "reviewer": "agent-visual-draft",
+    "note": "Bàn đơn cúi, bàn đôi phải quay nhẹ, trái chống tay; không suy hướng chỉ từ có sách.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y04-F00066",
+    "reviewer": "agent-visual-draft",
+    "note": "Bàn đơn cầm/nhìn sách, cặp gần đọc, giữa chống cằm; tay khó thấy giữ phone U.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y04-F00075",
+    "reviewer": "agent-visual-draft",
+    "note": "Người giữa sau cặp đầu dãy dang tay/ngẩng, bàn gần đọc; thử biến thể và kiểm người nền.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y04-F00079",
+    "reviewer": "agent-visual-draft",
+    "note": "Người giữa đưa tay gần mặt, bàn đơn mở sách, giáo viên đứng lên; không có phone rõ mới.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y05-F00001",
+    "reviewer": "agent-visual-draft",
+    "note": "Khớp ảnh tham chiếu; hai bàn gần cúi, đầu dãy giữa nhìn phải; hàng xa nhỏ.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y05-F00002",
+    "reviewer": "agent-visual-draft",
+    "note": "Bàn phải gần ngẩng phải, hàng tường sau đổi tay; F48 nhìn trước rõ hơn.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y05-F00005",
+    "reviewer": "agent-visual-draft",
+    "note": "Bàn trái gần tay gần mặt, đầu vẫn cúi hơn dự kiến; không giữ looking P sau QA. Ghế sau phải úp đầu.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y05-F00010",
+    "reviewer": "agent-visual-draft",
+    "note": "Hai bàn gần cúi; đầu giữa tay che mặt, dãy tường chống tay; không suy hướng khi bị che.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y05-F00014",
+    "reviewer": "agent-visual-draft",
+    "note": "Bàn phải gần nghiêng trái, tay trải trang; bàn trái cúi; nghiêng nhẹ chưa đủ P.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y05-F00017",
+    "reviewer": "agent-visual-draft",
+    "note": "Bàn phải chống cằm/cúi, trái cúi; đầu giữa che mặt; ít evidence mới.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y05-F00029",
+    "reviewer": "agent-visual-draft",
+    "note": "Hai bàn gần cúi; đầu giữa cầm vật nhỏ trước miệng, không nhận dạng mobile; tường sau úp đầu.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y05-F00030",
+    "reviewer": "agent-visual-draft",
+    "note": "Gần F29, đầu giữa đổi góc; không lấy vật nhỏ cầm tay làm phone P.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y05-F00033",
+    "reviewer": "agent-visual-draft",
+    "note": "Đầu dãy giữa nhìn trước, vật nhỏ chưa rõ loại; giữ U/P nếu anchor trội; bàn gần cúi.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y05-F00048",
+    "reviewer": "agent-visual-draft",
+    "note": "Bàn phải gần nhìn lên trước rõ, hai tay trên bàn; đầu giữa cúi. Cặp với F1.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y05-F00050",
+    "reviewer": "agent-visual-draft",
+    "note": "Bàn phải nhìn phải, hai tay trên trang; trái cúi; không thêm cùng trạng thái.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y05-F00055",
+    "reviewer": "agent-visual-draft",
+    "note": "Bàn phải chống cằm nhìn bài, tường sau ngẩng; đầu giữa che mặt.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y05-F00069",
+    "reviewer": "agent-visual-draft",
+    "note": "Hai bàn gần cúi viết/đọc, đầu giữa chống tay, hàng sau ngẩng; không mobile rõ.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y05-F00070",
+    "reviewer": "agent-visual-draft",
+    "note": "Bàn phải quay phải, trái cúi; đầu giữa nhìn ngoài, tương đồng trạng thái đã chọn.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y05-F00071",
+    "reviewer": "agent-visual-draft",
+    "note": "Bàn phải nhìn trang, trái cúi; đầu giữa ngẩng với tay che; hàng xa không rõ hơn.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y05-F00094",
+    "reviewer": "agent-visual-draft",
+    "note": "Hai bàn gần cúi; đầu giữa viết nhưng vùng đầu/bàn lẫn người cạnh; chưa chọn thêm.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y06-F00001",
+    "reviewer": "agent-visual-draft",
+    "note": "Cận người đọc, gile kính trái và gile chống cằm phải. Chữ dưới phải cần bỏ; vị trí khác ngoài khung/che.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y06-F00003",
+    "reviewer": "agent-visual-draft",
+    "note": "Pan phải: gile chống cằm, hai áo trắng sau và gile cuối lối đi; đầu tiền cảnh che phải, người đọc ngoài khung.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y06-F00004",
+    "reviewer": "agent-visual-draft",
+    "note": "Góc phải rộng, đầu tiền cảnh che giữa; hàng xa chồng lấn, người đọc ngoài khung.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y06-F00012",
+    "reviewer": "agent-visual-draft",
+    "note": "Khoác viền đỏ, gile chống cằm, hai áo trắng sau, gile lối đi và gile khoanh tay hiện; người đọc ngoài khung.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y06-F00027",
+    "reviewer": "agent-visual-draft",
+    "note": "Gile cuối lối đi rõ thân nhưng vật trên đùi mơ hồ và không có bàn riêng; blouse trắng trước phải che một phần.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y06-F00029",
+    "reviewer": "agent-visual-draft",
+    "note": "Khớp panel phải; người đọc và các đầu khoanh có mặt, người quay lưng che tiền cảnh; đầu khoanh che phần thân/tay.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y06-F00032",
+    "reviewer": "agent-visual-draft",
+    "note": "Pan cửa sổ: blouse chống cằm, gile sau, blouse tiền cảnh; người đọc ngoài khung. Nhắm mắt/cúi không tự N.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y06-F00033",
+    "reviewer": "agent-visual-draft",
+    "note": "Khớp panel trái; blouse trắng tiền cảnh nhìn trái, tay dưới bàn; blouse chống cằm thiếu trang bài rõ.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y06-F00036",
+    "reviewer": "agent-visual-draft",
+    "note": "Cận người đọc/khoác viền đỏ/gile chống cằm; đầu nơ che dưới phải; thử ROI tránh cạnh tranh.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y06-F00060",
+    "reviewer": "agent-visual-draft",
+    "note": "Góc ngang rộng, đầu tiền cảnh che người đọc; bên phải nhìn trái nhưng thiếu tay/context.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y06-F00064",
+    "reviewer": "agent-visual-draft",
+    "note": "Góc đối diện: sách người đọc rõ, gile trái và áo kính; phone bàn tiền cảnh không thuộc người đọc.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y06-F00072",
+    "reviewer": "agent-visual-draft",
+    "note": "Góc xa, người từng quay lưng nay quay ngang và tay chồng; mapping cá nhân chưa chắc, không ghép danh tính.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y06-F00073",
+    "reviewer": "agent-visual-draft",
+    "note": "Gần F72, cảnh rộng hơn, nhiều người chồng; không thêm frame gần trùng.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y06-F00080",
+    "reviewer": "agent-visual-draft",
+    "note": "Người đọc, gile kính trái và blouse chống cằm phải hiện; bàn che bởi đầu tiền cảnh; ưu tiên F1/F33.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  },
+  {
+    "frame_id": "Y06-F00095",
+    "reviewer": "agent-visual-draft",
+    "note": "Cảnh xa từ sau: hai người quay lưng che người đọc, hàng sau nhỏ; không có geometry tốt hơn.",
+    "review_pass": "full-frame-native-board",
+    "scope": "Quan sát theo vị trí/bố cục, không nhận diện khuôn mặt; không là annotation detector đầy đủ."
+  }
+]

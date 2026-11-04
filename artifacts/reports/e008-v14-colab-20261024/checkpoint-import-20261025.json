@@ -1,0 +1,294 @@
+{
+  "status": "PASS",
+  "scope": "three complete G0 run folders imported and checkpoint structure verified",
+  "runs": [
+    {
+      "id": "E008-V14-G0-S20261023",
+      "source_zip": {
+        "filename": "E008-V14-G0-S20261023-20261024T181907Z-1-001.zip",
+        "bytes": 274034335,
+        "sha256": "973a049d736580acf192217c0f44f7fc21e13433cb8659035a0a17434de66b7f"
+      },
+      "artifacts": [
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/initialization.json",
+          "bytes": 1996,
+          "sha256": "1e2a99eda223ffac043420119e875d581732744ea6eed96e3b584361ebb61598"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/history.json",
+          "bytes": 5343,
+          "sha256": "de99e16b71c0e685cb27ba4c6260009763415e3f5f3f2ff313e837f3f10a6368"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/bundle.json",
+          "bytes": 791,
+          "sha256": "13c1e6d7c14a20a2131b825f387f0ba99057edad2156d7120127ebc47f242955"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/run.json",
+          "bytes": 3050,
+          "sha256": "2abd62105e2ab912dd64ad430a60c37c11394f6687b8c77de6896e241bc4bf5b"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/checksums.json",
+          "bytes": 1253,
+          "sha256": "1e079b11b07d7d025bab9db766adfbb055fe6f7c101d029b137f20061a518815"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/learning-curve.svg",
+          "bytes": 984,
+          "sha256": "b035aaefc20ac9a0d60544c59a4b2fbf999fcaa443ed23cfba94b2fb9c39e703"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/resolved-config.json",
+          "bytes": 35600,
+          "sha256": "87f7b794caeb31a55ffcfdc73c5e3d171198d3f9c5f16ddfcb962a1658a6fcdc"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/code-provenance.json",
+          "bytes": 5504,
+          "sha256": "ee617846be92f7a8583338c4dc4fe0cc8698500ecc196106c205835af1b67341"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/calibration.json",
+          "bytes": 320,
+          "sha256": "4d652d900c9ebb51cf975ff9931161147f2a341d75188af3f97b2346e3e1810f"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/metrics.json",
+          "bytes": 328764,
+          "sha256": "6c6d858e66f885f29852e97d1cbea55b9a8822784e5c1bb02c34e1211fe5cfaf"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/predictions-selection.json",
+          "bytes": 87887,
+          "sha256": "2cf95ae343a52d24bf35bb4608e5b74888b0c95611faab8133a04b003eae9da2"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/environment.json",
+          "bytes": 1898,
+          "sha256": "83280244b52c6595047a3ee51cf34e9a99e1286600ef018f1f4153f28908d0a0"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/predictions-train.json",
+          "bytes": 675886,
+          "sha256": "5e95d3ae378bbb0b414b250197aaab291d0416e5b713f120a4ff47093b930dbe"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/best.pt",
+          "bytes": 88722399,
+          "sha256": "cb86da628495996a15135d0d1b400ef410d29383c49f20e6c763c838eb85b500"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/last.pt",
+          "bytes": 206675760,
+          "sha256": "6d95a3eb4cebd09a95d26e98b238dc418f888b94fd2aad958032e9790103f32f"
+        }
+      ],
+      "best_epoch": 8,
+      "completed_epochs": 14,
+      "model_tensor_sha256": "ce6dbdf32b19cee4a56709f62bfd3dcbe813b2922711a11b51c224abc24f4358",
+      "parameter_tensors": 181,
+      "status": "PASS"
+    },
+    {
+      "id": "E008-V14-G0-S20261024",
+      "source_zip": {
+        "filename": "E008-V14-G0-S20261024-20261024T181910Z-1-001.zip",
+        "bytes": 274033870,
+        "sha256": "83c659880627231a135dd0e9c00efc5af2824e911ede5e60d2ab53750f7a1e41"
+      },
+      "artifacts": [
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261024/code-provenance.json",
+          "bytes": 5504,
+          "sha256": "ee617846be92f7a8583338c4dc4fe0cc8698500ecc196106c205835af1b67341"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261024/calibration.json",
+          "bytes": 335,
+          "sha256": "3bad5a394dc30f748eb4b0bc258ebf29b0db1b5a030e4fa84668c171941b1c61"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261024/initialization.json",
+          "bytes": 1996,
+          "sha256": "b124a0eb33feef78e32d06bcdcbf6ccad2e78b6e421ecb8074375550e557cbf1"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261024/bundle.json",
+          "bytes": 791,
+          "sha256": "50495b6c8f15c9cf108cea2f2b71d68c90c5cdbcb4b842d9dc25a264eddc047c"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261024/history.json",
+          "bytes": 5351,
+          "sha256": "07e46f8435dbd531f4ce3a83419b22e2ff5fd99ac2113137c140645ba4d4f011"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261024/learning-curve.svg",
+          "bytes": 986,
+          "sha256": "58ba3a4f36770e5e50397064349a5ae105c0fb7668b0499bfba2c3615f627633"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261024/run.json",
+          "bytes": 3056,
+          "sha256": "f43fbbcbb6400e521beb0b60fbcd71694ee73d7805733fdb8a2f70be79669c5c"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261024/resolved-config.json",
+          "bytes": 35600,
+          "sha256": "1ce8a111fd4b595366ddaa96c90269c4822f3ad4a1508df309444266ee9c4b27"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261024/metrics.json",
+          "bytes": 324904,
+          "sha256": "12d3b8a44dcea10ccc2b5be6549463a8caef384abb7c075b3efb2576b2c74836"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261024/environment.json",
+          "bytes": 1898,
+          "sha256": "c3a1fb700d93f6c85f3ed966cbb20809d75c747d259c440c28d19c5f10e9bb63"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261024/checksums.json",
+          "bytes": 1253,
+          "sha256": "0c98d9f29506e3be8f1f59144dca2b2cb24e4504d81be5f51be2ba00477158ee"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261024/predictions-selection.json",
+          "bytes": 90196,
+          "sha256": "bfc404759baa567930a2d3e2543936840eea8f0fad4c125be33b79b2400c77ae"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261024/predictions-train.json",
+          "bytes": 693716,
+          "sha256": "37ce8f7e65ce61eebb5453f3167b02b88c41634ea757d7e5f27abafdc4f24463"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261024/best.pt",
+          "bytes": 88722399,
+          "sha256": "e29e03c1cfa281a6cdf45b644f3ee55dcec2c15f8690152a1a9f0f2eb73d9d80"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261024/last.pt",
+          "bytes": 206675696,
+          "sha256": "a80879be95d50fe34cddbd4f10dc3d9b17e01572c06b090bf310f0f3c739220e"
+        }
+      ],
+      "best_epoch": 8,
+      "completed_epochs": 14,
+      "model_tensor_sha256": "1a06c35c23368d1f474d95e168b1c18491471e7e966d50be306143f2c15ddd31",
+      "parameter_tensors": 181,
+      "status": "PASS"
+    },
+    {
+      "id": "E008-V14-G0-S20261025",
+      "source_zip": {
+        "filename": "E008-V14-G0-S20261025-20261024T181917Z-1-001.zip",
+        "bytes": 274020180,
+        "sha256": "4c14cfc33d6c7257b54fc95ed6cdfc83e6b27d5f3b4a1e4a73189d43ab4ac299"
+      },
+      "artifacts": [
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261025/learning-curve.svg",
+          "bytes": 1040,
+          "sha256": "7cbeb3efd59a5ed5171d6de68d9480b5a5877c532539e86430ee267e01977a7b"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261025/code-provenance.json",
+          "bytes": 5504,
+          "sha256": "ee617846be92f7a8583338c4dc4fe0cc8698500ecc196106c205835af1b67341"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261025/resolved-config.json",
+          "bytes": 35600,
+          "sha256": "2f1b50c35867dc402d3eebe90b87ea19915be36cc15717019fd4f50ddc566e71"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261025/run.json",
+          "bytes": 3057,
+          "sha256": "609f4f6f2dfff6b7707d70b2b586206bdd751eca7a5ee7b0aede8251582f3248"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261025/environment.json",
+          "bytes": 1898,
+          "sha256": "01eee07b5770c31080523f8c1baf159d29d0d1de13f1b331d9313329d0a6ea18"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261025/metrics.json",
+          "bytes": 301337,
+          "sha256": "121bb301a77e403db8baf99dfb1765cca658e21bf434b8c0e98d772194dc82ef"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261025/checksums.json",
+          "bytes": 1253,
+          "sha256": "a7bdad83b05b882bde6864497eba8d3c7249920bac02a78f4d758017caabc4f1"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261025/calibration.json",
+          "bytes": 334,
+          "sha256": "ee729fc0b0e343fe55749ef670531fc7da29374851a72e8efca8a6d452371e98"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261025/predictions-selection.json",
+          "bytes": 90100,
+          "sha256": "3be7d2917e52059872b2265afcde4a45cabc4a443b60b1033a44bc9d1d267a09"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261025/initialization.json",
+          "bytes": 1996,
+          "sha256": "afc97b4c9e6fc5a1bbea8b2839fae8edb499e872a0b39c01c0916b81ede011b3"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261025/history.json",
+          "bytes": 6153,
+          "sha256": "0a93026a7f4d3da8784e4186ea083d10e463f398557309bc0dce6b000ab70899"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261025/bundle.json",
+          "bytes": 791,
+          "sha256": "b0fb50492d369a486dc05aff1bbbbba9f8d4349e15515cab265b8232bf3b979d"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261025/predictions-train.json",
+          "bytes": 692950,
+          "sha256": "f1ca87f914211fe8f8537c729be4bd64a0d8e2cab2c8c407b9b2fd435397872a"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261025/best.pt",
+          "bytes": 88722399,
+          "sha256": "3580034e3afd5e6beb13a5aacec3e835b6554fd4972aeeea8cc55717fe06f26f"
+        },
+        {
+          "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261025/last.pt",
+          "bytes": 206676080,
+          "sha256": "0fee8d9d4f6e89e256a67728b8f6668f83b9d523a619e05f1b0114c183362429"
+        }
+      ],
+      "best_epoch": 10,
+      "completed_epochs": 16,
+      "model_tensor_sha256": "0ec81e85dec8f6d1fa80d26dfc9622d5f664703e5dd619da000c6a6334d6158b",
+      "parameter_tensors": 181,
+      "status": "PASS"
+    }
+  ],
+  "artifact_count": 45,
+  "bytes": 889651608,
+  "checks": [
+    "ZIP exact inventory, safe paths, CRC",
+    "42 artifact SHA against previously imported checksums; three checksum files byte-identical",
+    "all overlapping metadata byte-identical to audited metadata ZIP",
+    "destination SHA re-read after write",
+    "weights_only CPU deserialization of six checkpoints",
+    "best config/identity/epoch and last history/completed epoch",
+    "best tensor digest matches declared digest and last best_model",
+    "best/last model tensors finite"
+  ],
+  "local_inference_performed": false,
+  "cuda_reload_evidence": "previously audited Colab reload; no new inference",
+  "training_performed": false,
+  "decision": "Continue research; not Selected",
+  "source_zips_deleted": false,
+  "drive_backup_verified_in_this_task": false
+}

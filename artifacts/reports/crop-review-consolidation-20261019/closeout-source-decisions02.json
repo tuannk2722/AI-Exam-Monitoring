@@ -1,0 +1,17 @@
+[
+ {"id":"V7-OE-S056-A01","reason":"Phone riêng trên giấy đủ rõ nhưng rectangle của nam trái phải trải từ đầu tới phone phía phải dưới hai mặt nền rõ. Thu ngang mất phone/tay; thu trên mất đầu chính. Đề xuất rút bản nhiều anchor đang yêu cầu sửa."},
+ {"id":"V7-PF-A-004","reason":"Nam áo trắng hoa vàng ở đầu bàn có tay trái thấp và phone trên giấy bên phải; khung đủ hai tay/phone kéo mặt nam áo xanh bên cạnh vào rõ tương đương. Không dùng owner phone P để bỏ qua vấn đề anchor."},
+ {"id":"V7-C-003","reason":"Target ngồi quay lại ở nhóm bàn xa có nhiều mặt cùng cỡ xếp sát quanh đầu/tay. Vùng nguồn mở rộng vẫn không tách được một người cùng đủ ngữ cảnh nhìn; không đặt ngưỡng pixel để thay đánh giá này."},
+ {"id":"V7-C-093","reason":"Nam áo xanh tiền cảnh có tay vươn phải lên bàn dưới đầu người bên cạnh. Khung đủ hai tay và đầu bao mặt bạn sát sau; không thể sửa rectangle để giữ riêng N/N theo owner."},
+ {"id":"V6-SB-004","reason":"Để giữ khuỷu/tay trái của nam áo bạc phải lấy vùng mặt và device nam áo đen sau trái. R03 không tách được, thu trái tiếp mất tay/context; nguồn không cho crop đơn đủ bằng chứng."},
+ {"id":"V6-SB-008","reason":"Nam kính trước có đầu nam sau ngay bên trái tóc, R03 vẫn còn mặt sát cùng cỡ. Thu trên/trái cắt tóc/tay target; không tìm được khung tách đủ."},
+ {"id":"V6-SB-029","reason":"R03 và R04 bỏ bớt mặt sau bằng cách cắt/sát chỏm tóc; nới đủ đầu đưa mặt sau trở lại cùng cỡ. MP039 khác hướng đầu nhưng không có geometry tốt hơn để thay."},
+ {"id":"V6-SB-032","reason":"R03/R04 đều còn chỏm tóc sát biên và mặt phía sau cạnh tranh; nới trên cần lấy gần nguyên mặt sau. Đề xuất rút, không coi tay trên trang rõ là đủ sửa anchor."},
+ {"id":"V6-SB-034","reason":"R03 cắt tay phải, R04 nới tay lấy lại mặt nam bên cạnh gần trọn cùng cỡ. Không có khoảng trống giữa vùng tay cần giữ và mặt cần bỏ."},
+ {"id":"V6-SB-040","reason":"Hai tay/vật hồng của nữ trước trải sang trái dưới mặt nam cạnh. R03 thu trái cắt tay/vật; nới để đủ tay bao mặt nam rõ tương đương. Không tự đổi N/N owner khi geometry chưa đạt."},
+ {"id":"V6-SB-042","reason":"Nam ngồi trước có tay bút vươn trái dưới mặt học sinh sau; khung giữ tay/đầu chứa mặt đó cùng cỡ, R03 còn cắt tay. Nhãn owner N/N giữ trong lịch sử, đề xuất rút do geometry."},
+ {"id":"V6R2-MP-039","reason":"R03 giữ hai tay đan nhưng mặt sau trái rõ cùng cỡ sát tóc. Đã so SB029, mỗi góc đầu khác nhau nhưng cả hai khung đều không giải quyết được cạnh tranh; không loại bằng hash đơn thuần."},
+ {"id":"V6R2-SB-001","reason":"Nguồn nam kính cầm vật có mặt người sau sát trái cùng cỡ, tay/vật cần khung ngang bao vùng đó. So SB008 cùng kiểu chồng lấn không có phương án giữ đầu/tay và giảm mặt cạnh tranh."},
+ {"id":"V6R2-SB-008","reason":"Nam trước nhìn ra ngoài có hai mặt người sau ngay phía trên và tay khuất dưới bàn. Rectangle giữ đầu/thân/context vẫn có mặt tương đương; thu đầu không tạo bằng chứng mới."},
+ {"id":"V7-B-030","reason":"Nam giữa viết có mặt nam bên phải sát tóc và mặt nam bên trái ngay trên vùng tay. Khung giữ đầy đủ đầu/hai tay/bài bao cả hai mặt cạnh tranh; không tìm được khung đơn anchor."}
+]

@@ -1,0 +1,37 @@
+{
+  "decision_id": "RUNTIME-V8S-STAGE-ACCEPTANCE-20261026",
+  "status": "accepted",
+  "stage_status": "complete",
+  "owner": "repository_owner",
+  "date": "2026-10-26",
+  "scope": "Local recorded-video prototype: V8S -> context-v1 -> G0, existing authorized clip, 1 Hz / 60 samples",
+  "owner_basis": [
+    "Owner confirmed review complete and asked whether stage can close.",
+    "Owner explicitly requested updating acceptance, closing the stage, cleanup and commit."
+  ],
+  "evidence": {
+    "session": {
+      "path": "outputs/runtime-v8s-session-20261026-r2/session.json",
+      "sha256": "b1cefa1520daacb15618701b857ce9c7e92ee4d0a4338d196049c552120b1b93"
+    },
+    "audit": {
+      "path": "artifacts/reports/runtime-clip-qa-20261025/v8s-session-audit-20261026.json",
+      "sha256": "8b62a522a4d23695da0601fcd212b02e27ec6b27907c65ddf1f357551fcd500e"
+    },
+    "batch_acceptance": {
+      "path": "artifacts/reports/runtime-clip-qa-20261025/v8s-behavior-acceptance-20261026.json",
+      "sha256": "8db290aa21b32adb705a013f6c55903ebf339795dd4574f83bad3ea66ca4f4b0"
+    },
+    "runtime": {
+      "path": "configs/runtime/RUNTIME-V8S-20261026/runtime.yaml",
+      "sha256": "513dd60b2a83770914b6f5ad62a0ca9e4a3445b77701c869bcae86ec5de24dfc"
+    }
+  },
+  "accepted_limitations": [
+    "Known detector misses/duplicates remain accepted for prototype scope.",
+    "Owner stage acceptance does not create per-crop ground-truth labels.",
+    "No independent-video quality, real-time SLA, tracking/events/risk/web acceptance."
+  ],
+  "remaining_required_stage_work": [],
+  "media_delete_by": "2026-11-01T08:55:06.308086+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "protected_files_verified": 21177,
+  "protected_status": "PASS",
+  "deleted_files_absent": 8971,
+  "workspace_logical_bytes_after": 14761236470,
+  "workspace_unique_file_bytes_after": 14761236470,
+  "top_level_bytes_after": {
+    ".dvcignore": 142,
+    ".env.example": 244,
+    ".gitattributes": 3136,
+    ".gitignore": 805,
+    "AGENTS.md": 5461,
+    "pyproject.toml": 1478,
+    "README.md": 2197,
+    ".codex": 1812,
+    ".dvc": 88932960,
+    ".git": 32455348,
+    ".github": 3300,
+    ".venv": 3706265659,
+    "archive": 5949588674,
+    "artifacts": 111619984,
+    "configs": 6071964,
+    "data": 3673428064,
+    "docs": 94038,
+    "notebooks": 6232,
+    "outputs": 1192012403,
+    "requirements": 823,
+    "scripts": 30796,
+    "src": 479126,
+    "tests": 231824
+  },
+  "note": "Logical/unique file bytes are not NTFS allocated clusters; disk free delta is separate."
+}

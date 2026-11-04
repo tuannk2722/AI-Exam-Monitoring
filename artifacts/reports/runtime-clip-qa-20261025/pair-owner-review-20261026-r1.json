@@ -1,0 +1,118 @@
+{
+  "schema_version": "runtime-owner-review-addendum-v1",
+  "status": "reviewed",
+  "date": "2026-10-26",
+  "owner": "repository-owner",
+  "batch": {
+    "path": "outputs/runtime-d2-pair-controls-20261026/review.json",
+    "sha256": "99802d36291856db2ad9cda594eec9ee18b4673bcf87002d116f0002641f8ff3"
+  },
+  "gallery": {
+    "path": "outputs/runtime-d2-pair-controls-20261026/index.html",
+    "sha256": "7b96b2be315a8901be423684964d8eff85e738744549cf4ecb569accb7520abe"
+  },
+  "config": {
+    "path": "configs/runtime/RUNTIME-D2-RECONCILE-20261026/controls-batch.yaml",
+    "sha256": "a75d7343809c1014756acef594a8d6e4f7897efa7bcbae068ea130b579b314c7"
+  },
+  "pair_table": {
+    "path": "outputs/runtime-d2-pair-audit-20261026/pairs.csv",
+    "sha256": "64dc52a025423eee62210e9d8015c1d390748db03ed06fb5cdeb9392255bfbf3"
+  },
+  "prior_review": {
+    "path": "artifacts/reports/runtime-clip-qa-20261025/owner-review-20261026-r2.json",
+    "sha256": "d3caf5833ba99db3e5fa7ae545efdbb76df00401883a2380a546767752ef10a8"
+  },
+  "scope": "P01-P06_pair_relations_only_not_behavior_labels_or_full_clip_metrics",
+  "eligibility": "all_people_diagnostic_role_unknown",
+  "owner_statement": "chỉ có P04, P06 là CÙNG NGƯỜI. còn lại là KHÁC NGƯỜI.",
+  "clarification": "P07 trong phản hồi trước đã được owner sửa thành P06. Không có case P07 trong batch.",
+  "relations": [
+    {
+      "case_id": "P01",
+      "anchors": [
+        "f00000870-D2-b004",
+        "f00000870-D2-b007"
+      ],
+      "relation": "different_person",
+      "status": "owner_confirmed",
+      "geometry": {
+        "iou": 0.2999670645853685,
+        "intersection_over_smaller": 0.516861304290773,
+        "area_ratio": 0.8065026799603097
+      }
+    },
+    {
+      "case_id": "P02",
+      "anchors": [
+        "f00000480-D2-b002",
+        "f00000480-D2-b016"
+      ],
+      "relation": "different_person",
+      "status": "owner_confirmed",
+      "geometry": {
+        "iou": 0.299948873922217,
+        "intersection_over_smaller": 0.7126518672250886,
+        "area_ratio": 0.47879810306802845
+      }
+    },
+    {
+      "case_id": "P03",
+      "anchors": [
+        "f00001170-D2-b003",
+        "f00001170-D2-b005"
+      ],
+      "relation": "different_person",
+      "status": "owner_confirmed",
+      "geometry": {
+        "iou": 0.29923627807304326,
+        "intersection_over_smaller": 0.5160957379925459,
+        "area_ratio": 0.8059280671390279
+      }
+    },
+    {
+      "case_id": "P04",
+      "anchors": [
+        "f00001680-D2-b006",
+        "f00001680-D2-b009"
+      ],
+      "relation": "same_person",
+      "status": "owner_confirmed",
+      "geometry": {
+        "iou": 0.27687385519668906,
+        "intersection_over_smaller": 0.5726396977177607,
+        "area_ratio": 0.6094317270882749
+      }
+    },
+    {
+      "case_id": "P05",
+      "anchors": [
+        "f00000000-D2-b005",
+        "f00000000-D2-b007"
+      ],
+      "relation": "different_person",
+      "status": "owner_confirmed",
+      "geometry": {
+        "iou": 0.2759753421873835,
+        "intersection_over_smaller": 0.4975602005276126,
+        "area_ratio": 0.7689494386976472
+      }
+    },
+    {
+      "case_id": "P06",
+      "anchors": [
+        "f00000780-D2-b015",
+        "f00000780-D2-b017"
+      ],
+      "relation": "same_person",
+      "status": "owner_confirmed",
+      "geometry": {
+        "iou": 0.22236786592138286,
+        "intersection_over_smaller": 1.0,
+        "area_ratio": 0.22236786592138286
+      }
+    }
+  ],
+  "suppression_applied": false,
+  "keeper_decisions": null
+}

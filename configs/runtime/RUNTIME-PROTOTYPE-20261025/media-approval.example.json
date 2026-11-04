@@ -1,0 +1,13 @@
+{
+  "schema_version": "runtime-media-approval-v1",
+  "status": "draft",
+  "runtime_id": "RUNTIME-PROTOTYPE-20261025",
+  "use_scope": "local_prototype_qa",
+  "source_sha256": "REPLACE_WITH_EXACT_CLIP_SHA256",
+  "test_or_holdout": false,
+  "rights_confirmed": false,
+  "third_party_processing": false,
+  "access": "repository_owner",
+  "retention_days": 7,
+  "decision_ref": "REPLACE_WITH_OWNER_DECISION_FOR_THIS_CLIP"
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "representation-readiness-v4",
+  "status": "approved",
+  "owner": "repository-owner",
+  "scope": "smoke",
+  "independence_claim": false,
+  "protocol_sha256": "1b92b3a8018e6d743e0b88d1a126b3fc7e88fbd7ba44f8b17750e57cfdab573b",
+  "cohorts_sha256": "1a912bec745e4a3aaf93845badd0b1262a849cdf4e6d0ea3ad2a28e57d3dce1b",
+  "execution_authorization": {
+    "path": "configs/experiments/E008-V14-LOOKING-20261024/owner-authorization.json",
+    "sha256": "e72d121cb5152c681504ace88ae58c441c5bb25945520f958b6af5b0beb24298"
+  },
+  "smoke_receipt": null,
+  "evidence_pins": [
+    {
+      "path": "configs/experiments/E008-V14-LOOKING-20261024/owner-authorization.json",
+      "sha256": "e72d121cb5152c681504ace88ae58c441c5bb25945520f958b6af5b0beb24298"
+    },
+    {
+      "path": "configs/experiments/E008-V14-LOOKING-20261024/proposal.yaml",
+      "sha256": "ef0a162e5f749759b07837ce3163702260fd1c64cdfc1a7bbec8e4d98f245e65"
+    },
+    {
+      "path": "configs/experiments/E008-V14-LOOKING-20261024/dataset-pointer.json",
+      "sha256": "b86bcb88c4e2a98eb31005fb42d1ab6685b26572f47a8ec7fd61996d164849e3"
+    },
+    {
+      "path": "configs/experiments/E008-V14-LOOKING-20261024/enrollment.json",
+      "sha256": "57c19f2331df0cbf21cb1bb32b9bfe28b50964296c99abbe91ebb3ff3d6c0444"
+    },
+    {
+      "path": "configs/experiments/E008-V14-LOOKING-20261024/provenance.json",
+      "sha256": "1f20d4be604c93d29cf4de5c1a67525fcb9fa728310d3658eaacaba8cd6d61bc"
+    },
+    {
+      "path": "configs/experiments/E008-V14-LOOKING-20261024/release-enrollment.json",
+      "sha256": "f14bee499670723d7a5af7af1f3c2165d2ef14133fa8ec7ae929f1d1786c2d3c"
+    }
+  ]
+}

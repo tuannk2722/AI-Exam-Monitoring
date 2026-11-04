@@ -1,0 +1,88 @@
+proposal_id: RUNTIME-D2-POSE-DIAGNOSTIC-20261026
+status: draft_pending_owner_decision
+scope: local_cached_19_frames_pose_feasibility_only
+pins:
+  cohort:
+    path: outputs/runtime-detector-review-20261025/cohort.json
+    sha256: 44d3da6f3461199ea1506dad50c64ed5aff0398a2e55492497578ddb55a7fa6e
+  detections:
+    path: outputs/runtime-detector-diagnostic-20261026/detections.jsonl
+    sha256: 005a3099dd91aae2ce7df53ede6644e1d2d4203317e3a570a11c664b78f59b6c
+  pair_table:
+    path: outputs/runtime-d2-pair-audit-20261026/pairs.csv
+    sha256: 64dc52a025423eee62210e9d8015c1d390748db03ed06fb5cdeb9392255bfbf3
+  exception_review:
+    path: artifacts/reports/runtime-clip-qa-20261025/owner-review-20261026-r2.json
+    sha256: d3caf5833ba99db3e5fa7ae545efdbb76df00401883a2380a546767752ef10a8
+  pair_review:
+    path: artifacts/reports/runtime-clip-qa-20261025/pair-owner-review-20261026-r1.json
+    sha256: b613494db6c4aafd49c18661cfc320d500b3bc3dfccd6a4f58983131261fb9f3
+  keeper_review:
+    path: artifacts/reports/runtime-clip-qa-20261025/keeper-owner-review-20261026-r1.json
+    sha256: 6c8e65d7cb19ebe438f12fc16de48d78d93db831a304d5115384ccde1b890ad6
+  baseline:
+    path: configs/runtime/RUNTIME-D2-20261026/runtime.yaml
+    sha256: 7d6ee9deecb352f30b479e104cc3154b71e846431d2b067870432481d8c3b539
+model:
+  name: yolov8n-pose.pt
+  source_url: https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov8n-pose.pt
+  github_asset_id: 195719300
+  reported_size_bytes: 6832633
+  weights_sha256: null
+  acquisition: download_and_record_sha256_before_load_after_owner_approval
+  license: AGPL-3.0_or_Enterprise_per_Ultralytics
+  license_url: https://www.ultralytics.com/license
+  pretraining: COCO_pose
+packages:
+  ultralytics: 8.3.221
+  torch: 2.8.0+cpu
+  opencv-python: 4.11.0.86
+predict:
+  imgsz: 960
+  conf: 0.25
+  iou: 0.7
+  max_det: 100
+  device: cpu
+  half: false
+  augment: false
+  rect: false
+  batch: 1
+  save: false
+  verbose: false
+execution:
+  threads: 4
+  seed: 20261026
+  max_model_frame_forwards: 19
+  additional_real_media_smoke: false
+  train: false
+  suppression: false
+  classifier_forward: false
+  upload: false
+  media_delete_by: '2026-11-01T08:55:06.308086+00:00'
+matching_proposal:
+  keypoint_confidence_min: 0.5
+  head_indices:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  minimum_head_points: 3
+  shoulder_indices:
+  - 5
+  - 6
+  minimum_shoulder_points: 2
+  containment: all_required_visible_points_inside_original_float_D2_box_no_padding
+  assignment: exactly_one_pose_support_per_D2_box_else_unknown
+  pair_relation: same_unique_pose=same_proposed;distinct_unique_poses=different_proposed;otherwise_unknown
+  keeper: reference_only_no_automatic_selection
+  transitive_merge: false
+outputs:
+- run_and_acquisition_receipts
+- raw_pose_boxes_keypoints_confidences
+- D2_to_pose_support_mapping
+- 259_overlap_pair_proposals
+- 8_reviewed_pair_comparison
+- source_pose_D2_gallery
+- checksums
+acceptance: feasibility_diagnostic_not_runtime_promotion

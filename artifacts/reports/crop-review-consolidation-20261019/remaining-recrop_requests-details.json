@@ -1,0 +1,3984 @@
+[
+  {
+    "id": "V7-B-040",
+    "owner": {
+      "line": 74,
+      "cells": [
+        "V7-B-040",
+        "N/N",
+        "N/N",
+        "recrop",
+        "Nữ tiền cảnh và tay viết lớn cạnh nam anchor."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-B-040 | N/N | N/N | recrop | Nữ tiền cảnh và tay viết lớn cạnh nam anchor. |"
+    },
+    "states": [
+      "N",
+      "N"
+    ],
+    "person": {
+      "xmin": 175,
+      "ymin": 0,
+      "xmax": 390,
+      "ymax": 450
+    },
+    "context": {
+      "xmin": 175,
+      "ymin": 0,
+      "xmax": 390,
+      "ymax": 450
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-D-010",
+    "owner": {
+      "line": 91,
+      "cells": [
+        "V7-D-010",
+        "P/U",
+        "U/N",
+        "recrop",
+        "Hai nữ và hai vùng thao tác ngang vai trò."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-D-010 | P/U | U/N | recrop | Hai nữ và hai vùng thao tác ngang vai trò. |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 0,
+      "ymin": 0,
+      "xmax": 367,
+      "ymax": 512
+    },
+    "context": {
+      "xmin": 0,
+      "ymin": 0,
+      "xmax": 367,
+      "ymax": 512
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-D-012",
+    "owner": {
+      "line": 93,
+      "cells": [
+        "V7-D-012",
+        "P/U",
+        "U/N",
+        "recrop",
+        "Nhóm nhiều mặt cùng lớn, lưng máy không rõ camera."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-D-012 | P/U | U/N | recrop | Nhóm nhiều mặt cùng lớn, lưng máy không rõ camera. |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 175,
+      "ymin": 22,
+      "xmax": 510,
+      "ymax": 512
+    },
+    "context": {
+      "xmin": 175,
+      "ymin": 22,
+      "xmax": 510,
+      "ymax": 512
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-OE-S071-A01",
+    "owner": {
+      "line": 110,
+      "cells": [
+        "V7-OE-S071-A01",
+        "P/U",
+        "U/N",
+        "recrop",
+        "Nam và nữ cùng mặt rõ, chung vùng thao tác."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-OE-S071-A01 | P/U | U/N | recrop | Nam và nữ cùng mặt rõ, chung vùng thao tác. |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 113,
+      "ymin": 0,
+      "xmax": 512,
+      "ymax": 512
+    },
+    "context": {
+      "xmin": 113,
+      "ymin": 0,
+      "xmax": 512,
+      "ymax": 512
+    },
+    "trials": [
+      {
+        "parent": "V7-OE-S071-A01",
+        "id": "V7-OE-S071-A01-R03",
+        "person": [
+          214,
+          0,
+          512,
+          512
+        ],
+        "context": [
+          204,
+          0,
+          512,
+          512
+        ],
+        "states": [
+          "U",
+          "N"
+        ],
+        "reason": "Thử loại mặt nam trái, giữ tay thao tác của nữ; cần kiểm mất cạnh tay/vật."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V7-OE-S071-A01-R03",
+        "result": "needs_revision",
+        "states": [
+          "U",
+          "N"
+        ],
+        "note": "Bỏ mặt nam nhưng cắt cạnh vật và đầu ngón tay nữ bên trái. Chưa đủ tốt để đề xuất; xem nới nhẹ hoặc loại nếu mặt cạnh quay lại."
+      }
+    ]
+  },
+  {
+    "id": "V7-R8-D-001",
+    "owner": {
+      "line": 128,
+      "cells": [
+        "V7-R8-D-001",
+        "P/U",
+        "N/N",
+        "recrop",
+        "Nam đứng và nữ ngồi cùng rõ; tablet không phải mobile."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-R8-D-001 | P/U | N/N | recrop | Nam đứng và nữ ngồi cùng rõ; tablet không phải mobile. |"
+    },
+    "states": [
+      "N",
+      "N"
+    ],
+    "person": {
+      "xmin": 105,
+      "ymin": 20,
+      "xmax": 315,
+      "ymax": 500
+    },
+    "context": {
+      "xmin": 105,
+      "ymin": 20,
+      "xmax": 315,
+      "ymax": 500
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-B-069",
+    "owner": {
+      "line": 178,
+      "cells": [
+        "V7-B-069",
+        "P/U",
+        "U/N",
+        "recrop",
+        "Hai nam cùng lớn, thiết bị cầm chỉ mặt lưng."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-B-069 | P/U | U/N | recrop | Hai nam cùng lớn, thiết bị cầm chỉ mặt lưng. |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 62,
+      "ymin": 0,
+      "xmax": 493,
+      "ymax": 426
+    },
+    "context": {
+      "xmin": 62,
+      "ymin": 0,
+      "xmax": 493,
+      "ymax": 426
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-C-097",
+    "owner": {
+      "line": 181,
+      "cells": [
+        "V7-C-097",
+        "U/N",
+        "N/N",
+        "recrop",
+        "Hai nam cùng lớn bên laptop, cần anchor đơn."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-C-097 | U/N | N/N | recrop | Hai nam cùng lớn bên laptop, cần anchor đơn. |"
+    },
+    "states": [
+      "N",
+      "N"
+    ],
+    "person": {
+      "xmin": 186,
+      "ymin": 97,
+      "xmax": 640,
+      "ymax": 376
+    },
+    "context": {
+      "xmin": 186,
+      "ymin": 97,
+      "xmax": 640,
+      "ymax": 376
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-OE-S051-A01",
+    "owner": {
+      "line": 211,
+      "cells": [
+        "V7-OE-S051-A01",
+        "P/U",
+        "U/N",
+        "recrop",
+        "Hai nam cùng lớn, thiết bị/tay chồng.",
+        "P/P"
+      ],
+      "owner_comments": [
+        "P/P"
+      ],
+      "raw": "| V7-OE-S051-A01 | P/U | U/N | recrop | Hai nam cùng lớn, thiết bị/tay chồng. | P/P |"
+    },
+    "states": [
+      "P",
+      "P"
+    ],
+    "person": {
+      "xmin": 845,
+      "ymin": 383,
+      "xmax": 1920,
+      "ymax": 1277
+    },
+    "context": {
+      "xmin": 845,
+      "ymin": 383,
+      "xmax": 1920,
+      "ymax": 1277
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-OE-S054-A01",
+    "owner": {
+      "line": 214,
+      "cells": [
+        "V7-OE-S054-A01",
+        "N/N",
+        "N/N",
+        "recrop",
+        "Nhóm ba người chung tablet, cần chọn một người.",
+        "N/P"
+      ],
+      "owner_comments": [
+        "N/P"
+      ],
+      "raw": "| V7-OE-S054-A01 | N/N | N/N | recrop | Nhóm ba người chung tablet, cần chọn một người. | N/P |"
+    },
+    "states": [
+      "N",
+      "P"
+    ],
+    "person": {
+      "xmin": 365,
+      "ymin": 186,
+      "xmax": 1248,
+      "ymax": 1009
+    },
+    "context": {
+      "xmin": 365,
+      "ymin": 186,
+      "xmax": 1248,
+      "ymax": 1009
+    },
+    "trials": [
+      {
+        "parent": "V7-OE-S054-A01",
+        "id": "V7-OE-S054-A01-R03",
+        "person": [
+          120,
+          295,
+          594,
+          780
+        ],
+        "context": [
+          100,
+          278,
+          606,
+          805
+        ],
+        "states": [
+          "N",
+          "N"
+        ],
+        "reason": "Chọn nam trái làm anchor đơn đang thao tác tablet/bài; không gán looking P cho box nhóm."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V7-OE-S054-A01-R03",
+        "result": "withheld_duplicate_and_geometry",
+        "duplicate_of": "V7-PF-A-006-R03",
+        "states": [
+          "N",
+          "N"
+        ],
+        "note": "Phát hiện cùng frame lớp dùng tablet với PF-A-006; không cần hai crop mới. Cả hai bản còn mặt nữ lớn và tay/tablet sát phải."
+      }
+    ]
+  },
+  {
+    "id": "V7-OE-S056-A01",
+    "owner": {
+      "line": 216,
+      "cells": [
+        "V7-OE-S056-A01",
+        "P/N",
+        "P/N",
+        "recrop",
+        "Mặt trước phone trên giấy cạnh laptop; nhiều người cùng rõ."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-OE-S056-A01 | P/N | P/N | recrop | Mặt trước phone trên giấy cạnh laptop; nhiều người cùng rõ. |"
+    },
+    "states": [
+      "P",
+      "N"
+    ],
+    "person": {
+      "xmin": 0,
+      "ymin": 187,
+      "xmax": 1248,
+      "ymax": 1440
+    },
+    "context": {
+      "xmin": 0,
+      "ymin": 187,
+      "xmax": 1248,
+      "ymax": 1440
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-PF-A-004",
+    "owner": {
+      "line": 226,
+      "cells": [
+        "V7-PF-A-004",
+        "P/P",
+        "U/P",
+        "recrop",
+        "Phone/vùng bàn dùng chung, person box chứa nhiều nam.",
+        "P/P"
+      ],
+      "owner_comments": [
+        "P/P"
+      ],
+      "raw": "| V7-PF-A-004 | P/P | U/P | recrop | Phone/vùng bàn dùng chung, person box chứa nhiều nam. | P/P |"
+    },
+    "states": [
+      "P",
+      "P"
+    ],
+    "person": {
+      "xmin": 80,
+      "ymin": 475,
+      "xmax": 1170,
+      "ymax": 1440
+    },
+    "context": {
+      "xmin": 80,
+      "ymin": 475,
+      "xmax": 1170,
+      "ymax": 1440
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-PF-A-006",
+    "owner": {
+      "line": 228,
+      "cells": [
+        "V7-PF-A-006",
+        "N/N",
+        "N/N",
+        "recrop",
+        "Nam trẻ và nữ lớn cùng rõ bên tablet."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-PF-A-006 | N/N | N/N | recrop | Nam trẻ và nữ lớn cùng rõ bên tablet. |"
+    },
+    "states": [
+      "N",
+      "N"
+    ],
+    "person": {
+      "xmin": 120,
+      "ymin": 630,
+      "xmax": 745,
+      "ymax": 1230
+    },
+    "context": {
+      "xmin": 120,
+      "ymin": 630,
+      "xmax": 745,
+      "ymax": 1230
+    },
+    "trials": [
+      {
+        "parent": "V7-PF-A-006",
+        "id": "V7-PF-A-006-R03",
+        "person": [
+          110,
+          640,
+          585,
+          1145
+        ],
+        "context": [
+          95,
+          625,
+          606,
+          1175
+        ],
+        "states": [
+          "N",
+          "N"
+        ],
+        "reason": "Cô lập nam trái và tay trên vùng tablet, giảm nữ phía sau."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V7-PF-A-006-R03",
+        "result": "needs_revision",
+        "states": [
+          "N",
+          "N"
+        ],
+        "note": "Nam tiền cảnh trội thân nhưng mặt nữ sau còn lớn, tablet/tay sát phải. Cần xem phương án khác, không duyệt chỉ vì có một người tiền cảnh."
+      }
+    ]
+  },
+  {
+    "id": "V7-PF-D-002",
+    "owner": {
+      "line": 236,
+      "cells": [
+        "V7-PF-D-002",
+        "P/U",
+        "P/N",
+        "recrop",
+        "Game/UI trên mặt máy rõ, nhưng nhóm ba nam ngang vai trò."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-PF-D-002 | P/U | P/N | recrop | Game/UI trên mặt máy rõ, nhưng nhóm ba nam ngang vai trò. |"
+    },
+    "states": [
+      "P",
+      "N"
+    ],
+    "person": {
+      "xmin": 1000,
+      "ymin": 320,
+      "xmax": 1920,
+      "ymax": 1277
+    },
+    "context": {
+      "xmin": 1000,
+      "ymin": 320,
+      "xmax": 1920,
+      "ymax": 1277
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V6-EX-002",
+    "owner": {
+      "line": 280,
+      "cells": [
+        "V6-EX-002",
+        "P/P",
+        "U/P",
+        "recrop",
+        "Hai nam chồng cơ thể/tay, cần anchor đơn."
+      ],
+      "owner_comments": [],
+      "raw": "| V6-EX-002 | P/P | U/P | recrop | Hai nam chồng cơ thể/tay, cần anchor đơn. |"
+    },
+    "states": [
+      "U",
+      "P"
+    ],
+    "person": {
+      "xmin": 115,
+      "ymin": 140,
+      "xmax": 487,
+      "ymax": 640
+    },
+    "context": {
+      "xmin": 115,
+      "ymin": 140,
+      "xmax": 487,
+      "ymax": 640
+    },
+    "trials": [
+      {
+        "parent": "V6-EX-002",
+        "id": "V6-EX-002-R03",
+        "person": [
+          187,
+          137,
+          410,
+          608
+        ],
+        "context": [
+          179,
+          127,
+          418,
+          625
+        ],
+        "states": [
+          "U",
+          "P"
+        ],
+        "reason": "Nam trước quay sang người phía sau, không có mặt thứ hai; vùng tay chồng nên giữ phone U."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V6-EX-002-R03",
+        "result": "needs_revision",
+        "states": [
+          "U",
+          "P"
+        ],
+        "note": "Mặt người sau vẫn còn một phần lớn cạnh mặt anchor và hai vùng tay chồng. Chưa đạt crop đơn; cân nhắc loại nếu không thể giữ trọn đầu/tay."
+      }
+    ]
+  },
+  {
+    "id": "V6-EX-034",
+    "owner": {
+      "line": 302,
+      "cells": [
+        "V6-EX-034",
+        "N/N",
+        "N/P",
+        "recrop",
+        "Nam trước ngẩng khỏi giấy, nam đỏ sau cùng rõ."
+      ],
+      "owner_comments": [],
+      "raw": "| V6-EX-034 | N/N | N/P | recrop | Nam trước ngẩng khỏi giấy, nam đỏ sau cùng rõ. |"
+    },
+    "states": [
+      "N",
+      "P"
+    ],
+    "person": {
+      "xmin": 125,
+      "ymin": 330,
+      "xmax": 225,
+      "ymax": 485
+    },
+    "context": {
+      "xmin": 125,
+      "ymin": 330,
+      "xmax": 225,
+      "ymax": 485
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V6-EX-035",
+    "owner": {
+      "line": 303,
+      "cells": [
+        "V6-EX-035",
+        "N/U",
+        "N/P",
+        "recrop",
+        "Nam trước nhìn trước, nam đỏ sau cùng mặt rõ."
+      ],
+      "owner_comments": [],
+      "raw": "| V6-EX-035 | N/U | N/P | recrop | Nam trước nhìn trước, nam đỏ sau cùng mặt rõ. |"
+    },
+    "states": [
+      "N",
+      "P"
+    ],
+    "person": {
+      "xmin": 145,
+      "ymin": 140,
+      "xmax": 250,
+      "ymax": 311
+    },
+    "context": {
+      "xmin": 145,
+      "ymin": 140,
+      "xmax": 250,
+      "ymax": 311
+    },
+    "trials": [
+      {
+        "parent": "V6-EX-035",
+        "id": "V6-EX-035-R03",
+        "person": [
+          159,
+          172,
+          233,
+          290
+        ],
+        "context": [
+          153,
+          165,
+          239,
+          300
+        ],
+        "states": [
+          "N",
+          "P"
+        ],
+        "reason": "Đại diện tư thế ngẩng khỏi bài trong family montage, giảm mặt nam áo đỏ sau."
+      },
+      {
+        "parent": "V6-EX-035",
+        "id": "V6-EX-035-R04",
+        "person": [
+          159,
+          149,
+          233,
+          290
+        ],
+        "context": [
+          153,
+          140,
+          239,
+          300
+        ],
+        "states": [
+          "N",
+          "P"
+        ],
+        "reason": "Nới trên giữ tóc anchor, giữ cùng panel montage."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V6-EX-035-R03",
+        "result": "needs_revision",
+        "states": [
+          "N",
+          "P"
+        ],
+        "note": "Tay rõ, mặt nam sau giảm nhưng crop cắt tóc trên anchor; phải nới lên."
+      },
+      {
+        "id": "V6-EX-035-R04",
+        "result": "needs_revision",
+        "states": [
+          "N",
+          "P"
+        ],
+        "note": "Tóc đủ nhưng mặt nam đỏ phía sau quay lại rõ, vẫn cần lựa chọn geometry/đại diện khác cho trạng thái ngẩng."
+      }
+    ]
+  },
+  {
+    "id": "V7-R8-C-001",
+    "owner": {
+      "line": 327,
+      "cells": [
+        "V7-R8-C-001",
+        "N/P",
+        "N/P",
+        "recrop",
+        "Nữ trước quay trái, nam sau vẫn có mặt lớn."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-R8-C-001 | N/P | N/P | recrop | Nữ trước quay trái, nam sau vẫn có mặt lớn. |"
+    },
+    "states": [
+      "N",
+      "P"
+    ],
+    "person": {
+      "xmin": 145,
+      "ymin": 175,
+      "xmax": 325,
+      "ymax": 495
+    },
+    "context": {
+      "xmin": 145,
+      "ymin": 175,
+      "xmax": 325,
+      "ymax": 495
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-B-078",
+    "owner": {
+      "line": 359,
+      "cells": [
+        "V7-B-078",
+        "P/U",
+        "U/N",
+        "recrop",
+        "Ba nam cùng lớn, thiết bị cầm chưa rõ loại.",
+        "P/N"
+      ],
+      "owner_comments": [
+        "P/N"
+      ],
+      "raw": "| V7-B-078 | P/U | U/N | recrop | Ba nam cùng lớn, thiết bị cầm chưa rõ loại. | P/N |"
+    },
+    "states": [
+      "P",
+      "N"
+    ],
+    "person": {
+      "xmin": 61,
+      "ymin": 0,
+      "xmax": 738,
+      "ymax": 606
+    },
+    "context": {
+      "xmin": 61,
+      "ymin": 0,
+      "xmax": 738,
+      "ymax": 606
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-B-107",
+    "owner": {
+      "line": 374,
+      "cells": [
+        "V7-B-107",
+        "N/N",
+        "N/N",
+        "recrop",
+        "Hai người cùng lớn cạnh laptop."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-B-107 | N/N | N/N | recrop | Hai người cùng lớn cạnh laptop. |"
+    },
+    "states": [
+      "N",
+      "N"
+    ],
+    "person": {
+      "xmin": 184,
+      "ymin": 0,
+      "xmax": 1024,
+      "ymax": 683
+    },
+    "context": {
+      "xmin": 184,
+      "ymin": 0,
+      "xmax": 1024,
+      "ymax": 683
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-C-104",
+    "owner": {
+      "line": 380,
+      "cells": [
+        "V7-C-104",
+        "U/N",
+        "N/N",
+        "recrop",
+        "Nam trẻ cầm vở nhưng người lớn/tay phía sau còn lớn.",
+        "N/P"
+      ],
+      "owner_comments": [
+        "N/P"
+      ],
+      "raw": "| V7-C-104 | U/N | N/N | recrop | Nam trẻ cầm vở nhưng người lớn/tay phía sau còn lớn. | N/P |"
+    },
+    "states": [
+      "N",
+      "P"
+    ],
+    "person": {
+      "xmin": 0,
+      "ymin": 153,
+      "xmax": 323,
+      "ymax": 761
+    },
+    "context": {
+      "xmin": 0,
+      "ymin": 153,
+      "xmax": 323,
+      "ymax": 761
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "EXP-RF-003",
+    "owner": {
+      "line": 468,
+      "cells": [
+        "EXP-RF-003",
+        "N/P",
+        "N/P",
+        "recrop",
+        "Hai tay đan không có vật, nhìn phải; phụ đề phủ cổ tay/cẳng tay cần xử lý geometry hoặc rút crop."
+      ],
+      "owner_comments": [],
+      "raw": "| EXP-RF-003 | N/P | N/P | recrop | Hai tay đan không có vật, nhìn phải; phụ đề phủ cổ tay/cẳng tay cần xử lý geometry hoặc rút crop. |"
+    },
+    "states": [
+      "N",
+      "P"
+    ],
+    "person": {
+      "xmin": 95,
+      "ymin": 10,
+      "xmax": 322,
+      "ymax": 416
+    },
+    "context": {
+      "xmin": 40,
+      "ymin": 8,
+      "xmax": 325,
+      "ymax": 416
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "EXP-RF-006",
+    "owner": {
+      "line": 470,
+      "cells": [
+        "EXP-RF-006",
+        "N/N",
+        "N/N",
+        "recrop",
+        "Hai tay trên bài rõ; thử bỏ dải chữ đáy nhưng phải giữ đủ tay và bài."
+      ],
+      "owner_comments": [],
+      "raw": "| EXP-RF-006 | N/N | N/N | recrop | Hai tay trên bài rõ; thử bỏ dải chữ đáy nhưng phải giữ đủ tay và bài. |"
+    },
+    "states": [
+      "N",
+      "N"
+    ],
+    "person": {
+      "xmin": 34,
+      "ymin": 0,
+      "xmax": 368,
+      "ymax": 414
+    },
+    "context": {
+      "xmin": 34,
+      "ymin": 0,
+      "xmax": 368,
+      "ymax": 414
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "EXP-RF-023",
+    "owner": {
+      "line": 480,
+      "cells": [
+        "EXP-RF-023",
+        "U/P",
+        "U/P",
+        "recrop",
+        "Tay trao giấy bị cắt và đầu tiền cảnh chen vào, nhìn sang người trái."
+      ],
+      "owner_comments": [],
+      "raw": "| EXP-RF-023 | U/P | U/P | recrop | Tay trao giấy bị cắt và đầu tiền cảnh chen vào, nhìn sang người trái. |"
+    },
+    "states": [
+      "U",
+      "P"
+    ],
+    "person": {
+      "xmin": 238,
+      "ymin": 70,
+      "xmax": 404,
+      "ymax": 266
+    },
+    "context": {
+      "xmin": 238,
+      "ymin": 70,
+      "xmax": 404,
+      "ymax": 266
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "P006-extra-01",
+    "owner": {
+      "line": 482,
+      "cells": [
+        "P006-extra-01",
+        "U/P",
+        "N/P",
+        "recrop",
+        "Tay khoanh rõ nhưng hai mặt gần bằng nhau; target áo xanh nhìn trái."
+      ],
+      "owner_comments": [],
+      "raw": "| P006-extra-01 | U/P | N/P | recrop | Tay khoanh rõ nhưng hai mặt gần bằng nhau; target áo xanh nhìn trái. |"
+    },
+    "states": [
+      "N",
+      "P"
+    ],
+    "person": {
+      "xmin": 209,
+      "ymin": 70,
+      "xmax": 276,
+      "ymax": 220
+    },
+    "context": {
+      "xmin": 185,
+      "ymin": 50,
+      "xmax": 290,
+      "ymax": 239
+    },
+    "trials": [
+      {
+        "parent": "P006-extra-01",
+        "id": "P006-extra-01-R03",
+        "person": [
+          220,
+          65,
+          265,
+          204
+        ],
+        "context": [
+          215,
+          58,
+          270,
+          216
+        ],
+        "states": [
+          "N",
+          "P"
+        ],
+        "reason": "Tách mặt nam tiền cảnh quay trái, giữ hai bàn tay khoanh; kiểm mặt nam phía sau ở mép trái."
+      }
+    ],
+    "qa": [
+      {
+        "id": "P006-extra-01-R03",
+        "result": "needs_revision",
+        "states": [
+          "N",
+          "P"
+        ],
+        "note": "Thu trái quá mức cắt phần mặt và bàn tay. Chưa đạt; nới sẽ đưa lại mặt người sau, cần xem lựa chọn đại diện."
+      }
+    ]
+  },
+  {
+    "id": "P007-extra-01",
+    "owner": {
+      "line": 485,
+      "cells": [
+        "P007-extra-01",
+        "U/P",
+        "N/P",
+        "recrop",
+        "Tay khoanh rõ, nhìn phía trước; hai mặt lớn cạnh tranh anchor."
+      ],
+      "owner_comments": [],
+      "raw": "| P007-extra-01 | U/P | N/P | recrop | Tay khoanh rõ, nhìn phía trước; hai mặt lớn cạnh tranh anchor. |"
+    },
+    "states": [
+      "N",
+      "P"
+    ],
+    "person": {
+      "xmin": 210,
+      "ymin": 60,
+      "xmax": 275,
+      "ymax": 218
+    },
+    "context": {
+      "xmin": 185,
+      "ymin": 45,
+      "xmax": 290,
+      "ymax": 236
+    },
+    "trials": [
+      {
+        "parent": "P007-extra-01",
+        "id": "P007-extra-01-R03",
+        "person": [
+          213,
+          62,
+          267,
+          213
+        ],
+        "context": [
+          205,
+          51,
+          277,
+          235
+        ],
+        "states": [
+          "N",
+          "P"
+        ],
+        "reason": "Giảm mặt người sau ở bên trái, giữ đầu và hai tay khoanh của nam trước."
+      }
+    ],
+    "qa": [
+      {
+        "id": "P007-extra-01-R03",
+        "result": "needs_revision",
+        "states": [
+          "U",
+          "P"
+        ],
+        "note": "Mặt người sau vẫn rõ và sát mặt anchor; tay trái chạm mép. Chưa đạt geometry đơn anchor."
+      }
+    ]
+  },
+  {
+    "id": "P009-person-01",
+    "owner": {
+      "line": 490,
+      "cells": [
+        "P009-person-01",
+        "P/U",
+        "U/N",
+        "recrop",
+        "Thiết bị và bàn tay bị cắt ở đáy; cần mở ngữ cảnh từ nguồn."
+      ],
+      "owner_comments": [],
+      "raw": "| P009-person-01 | P/U | U/N | recrop | Thiết bị và bàn tay bị cắt ở đáy; cần mở ngữ cảnh từ nguồn. |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 82,
+      "ymin": 132,
+      "xmax": 178,
+      "ymax": 416
+    },
+    "context": {
+      "xmin": 82,
+      "ymin": 132,
+      "xmax": 178,
+      "ymax": 416
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "P038-person-01",
+    "owner": {
+      "line": 502,
+      "cells": [
+        "P038-person-01",
+        "P/U",
+        "P/N",
+        "recrop",
+        "Màn hình phone rõ; người sau có mặt lớn và person box bao hai người."
+      ],
+      "owner_comments": [],
+      "raw": "| P038-person-01 | P/U | P/N | recrop | Màn hình phone rõ; người sau có mặt lớn và person box bao hai người. |"
+    },
+    "states": [
+      "P",
+      "N"
+    ],
+    "person": {
+      "xmin": 141,
+      "ymin": 190,
+      "xmax": 359,
+      "ymax": 640
+    },
+    "context": {
+      "xmin": 141,
+      "ymin": 190,
+      "xmax": 359,
+      "ymax": 640
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "P039-person-01",
+    "owner": {
+      "line": 503,
+      "cells": [
+        "P039-person-01",
+        "P/U",
+        "P/N",
+        "recrop",
+        "Mặt kính/UI rõ trên bàn riêng, cần tách người sau khỏi anchor."
+      ],
+      "owner_comments": [],
+      "raw": "| P039-person-01 | P/U | P/N | recrop | Mặt kính/UI rõ trên bàn riêng, cần tách người sau khỏi anchor. |"
+    },
+    "states": [
+      "P",
+      "N"
+    ],
+    "person": {
+      "xmin": 145,
+      "ymin": 191,
+      "xmax": 359,
+      "ymax": 640
+    },
+    "context": {
+      "xmin": 145,
+      "ymin": 191,
+      "xmax": 359,
+      "ymax": 640
+    },
+    "trials": [
+      {
+        "parent": "P039-person-01",
+        "id": "P039-person-01-R03",
+        "person": [
+          145,
+          201,
+          347,
+          530
+        ],
+        "context": [
+          134,
+          184,
+          355,
+          564
+        ],
+        "states": [
+          "P",
+          "N"
+        ],
+        "reason": "Đại diện thao tác cùng bàn với P038; person box chỉ nam trước, giảm phần bàn dưới để nhìn phone rõ hơn."
+      }
+    ],
+    "qa": [
+      {
+        "id": "P039-person-01-R03",
+        "result": "needs_revision",
+        "states": [
+          "P",
+          "N"
+        ],
+        "note": "Phone và tay rõ nhưng mặt nam phía sau còn gần như nguyên, cạnh tranh với anchor; cần xem đại diện P038 hoặc geometry khác."
+      }
+    ]
+  },
+  {
+    "id": "V7-B-010",
+    "owner": {
+      "line": 511,
+      "cells": [
+        "V7-B-010",
+        "N/N",
+        "N/N",
+        "recrop",
+        "Tay viết và bài rõ nhưng hai mặt cạnh tranh, người trái chen sát đầu target."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-B-010 | N/N | N/N | recrop | Tay viết và bài rõ nhưng hai mặt cạnh tranh, người trái chen sát đầu target. |"
+    },
+    "states": [
+      "N",
+      "N"
+    ],
+    "person": {
+      "xmin": 53,
+      "ymin": 0,
+      "xmax": 341,
+      "ymax": 416
+    },
+    "context": {
+      "xmin": 53,
+      "ymin": 0,
+      "xmax": 341,
+      "ymax": 416
+    },
+    "trials": [
+      {
+        "parent": "V7-B-010",
+        "id": "V7-B-010-R03",
+        "person": [
+          95,
+          30,
+          292,
+          397
+        ],
+        "context": [
+          84,
+          19,
+          302,
+          410
+        ],
+        "states": [
+          "N",
+          "N"
+        ],
+        "reason": "Tách nữ viết giữa, giảm hai mặt bên cạnh; giữ hai tay và trang."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V7-B-010-R03",
+        "result": "needs_revision",
+        "states": [
+          "U",
+          "N"
+        ],
+        "note": "Mép phải cắt vùng bàn tay viết; thiếu bằng chứng absence phone. Cần nới theo nguồn, không chốt N từ bản này."
+      }
+    ]
+  },
+  {
+    "id": "V7-C-059",
+    "owner": {
+      "line": 515,
+      "cells": [
+        "V7-C-059",
+        "U/P",
+        "U/P",
+        "recrop",
+        "Tay/vật nhỏ mờ, nhìn phải; nhiều mặt tương đương trong crop."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-C-059 | U/P | U/P | recrop | Tay/vật nhỏ mờ, nhìn phải; nhiều mặt tương đương trong crop. |"
+    },
+    "states": [
+      "U",
+      "P"
+    ],
+    "person": {
+      "xmin": 100,
+      "ymin": 127,
+      "xmax": 215,
+      "ymax": 227
+    },
+    "context": {
+      "xmin": 100,
+      "ymin": 127,
+      "xmax": 215,
+      "ymax": 227
+    },
+    "trials": [
+      {
+        "parent": "V7-C-059",
+        "id": "V7-C-059-R03",
+        "person": [
+          132,
+          150,
+          186,
+          207
+        ],
+        "context": [
+          126,
+          144,
+          192,
+          216
+        ],
+        "states": [
+          "U",
+          "P"
+        ],
+        "reason": "Thử tách nam áo kẻ phía sau; nguồn nhỏ/méo nên cần kiểm kỹ ở input."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V7-C-059-R03",
+        "result": "needs_revision",
+        "states": [
+          "U",
+          "P"
+        ],
+        "note": "Crop native rất nhỏ, hình bị dẹt ngay từ nguồn; input phóng lớn mờ và còn mặt cạnh tranh. Không đưa vào batch đạt."
+      }
+    ]
+  },
+  {
+    "id": "V7-C-065",
+    "owner": {
+      "line": 518,
+      "cells": [
+        "V7-C-065",
+        "U/P",
+        "N/P",
+        "recrop",
+        "Hai tay trên bàn rõ, quay trái; người sau còn mặt lớn cạnh tranh."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-C-065 | U/P | N/P | recrop | Hai tay trên bàn rõ, quay trái; người sau còn mặt lớn cạnh tranh. |"
+    },
+    "states": [
+      "N",
+      "P"
+    ],
+    "person": {
+      "xmin": 157,
+      "ymin": 35,
+      "xmax": 416,
+      "ymax": 378
+    },
+    "context": {
+      "xmin": 157,
+      "ymin": 35,
+      "xmax": 416,
+      "ymax": 378
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-OE-S085-A01",
+    "owner": {
+      "line": 528,
+      "cells": [
+        "V7-OE-S085-A01",
+        "N/P",
+        "N/P",
+        "recrop",
+        "Hai tay trên bàn rõ, nhìn trái; người sau còn mặt lớn cần tách."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-OE-S085-A01 | N/P | N/P | recrop | Hai tay trên bàn rõ, nhìn trái; người sau còn mặt lớn cần tách. |"
+    },
+    "states": [
+      "N",
+      "P"
+    ],
+    "person": {
+      "xmin": 0,
+      "ymin": 21,
+      "xmax": 416,
+      "ymax": 416
+    },
+    "context": {
+      "xmin": 0,
+      "ymin": 21,
+      "xmax": 416,
+      "ymax": 416
+    },
+    "trials": [
+      {
+        "parent": "V7-OE-S085-A01",
+        "id": "V7-OE-S085-A01-R03",
+        "person": [
+          0,
+          43,
+          308,
+          416
+        ],
+        "context": [
+          0,
+          36,
+          316,
+          416
+        ],
+        "states": [
+          "N",
+          "P"
+        ],
+        "reason": "Giảm mặt phía sau, giữ hai tay và đầu quay trái; kiểm lại mức cạnh tranh ở mép phải."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V7-OE-S085-A01-R03",
+        "result": "needs_revision",
+        "states": [
+          "N",
+          "P"
+        ],
+        "note": "Mép phải còn nửa mặt nam sau khá lớn. Thu thêm sẽ cắt cánh tay anchor; cần cân nhắc phương án hoặc rút crop."
+      }
+    ]
+  },
+  {
+    "id": "EXP-SCB-024",
+    "owner": {
+      "line": 542,
+      "cells": [
+        "EXP-SCB-024",
+        "U/P",
+        "U/P",
+        "recrop",
+        "Nhìn phía trước, tay bị đầu tiền cảnh che; cần giảm đầu người trước nếu nguồn cho phép."
+      ],
+      "owner_comments": [],
+      "raw": "| EXP-SCB-024 | U/P | U/P | recrop | Nhìn phía trước, tay bị đầu tiền cảnh che; cần giảm đầu người trước nếu nguồn cho phép. |"
+    },
+    "states": [
+      "U",
+      "P"
+    ],
+    "person": {
+      "xmin": 1037,
+      "ymin": 154,
+      "xmax": 1304,
+      "ymax": 454
+    },
+    "context": {
+      "xmin": 1037,
+      "ymin": 154,
+      "xmax": 1304,
+      "ymax": 454
+    },
+    "trials": [
+      {
+        "parent": "EXP-SCB-024",
+        "id": "EXP-SCB-024-R03",
+        "person": [
+          1058,
+          158,
+          1280,
+          351
+        ],
+        "context": [
+          1042,
+          145,
+          1305,
+          374
+        ],
+        "states": [
+          "U",
+          "P"
+        ],
+        "reason": "Giảm mặt tiền cảnh phía dưới; tay vốn bị che nên U, giữ hướng nhìn trước."
+      }
+    ],
+    "qa": [
+      {
+        "id": "EXP-SCB-024-R03",
+        "result": "needs_revision",
+        "states": [
+          "U",
+          "P"
+        ],
+        "note": "Bỏ mặt tiền cảnh chỉ còn đầu/vai, mất gần hết ngữ cảnh thân và bàn; không dùng cắt quá chặt để giải quyết occlusion."
+      }
+    ]
+  },
+  {
+    "id": "EXP-SCB-037",
+    "owner": {
+      "line": 544,
+      "cells": [
+        "EXP-SCB-037",
+        "U/P",
+        "N/P",
+        "recrop",
+        "Tay khoanh, nhìn phía trước; mặt tiền cảnh lớn cạnh tranh target."
+      ],
+      "owner_comments": [],
+      "raw": "| EXP-SCB-037 | U/P | N/P | recrop | Tay khoanh, nhìn phía trước; mặt tiền cảnh lớn cạnh tranh target. |"
+    },
+    "states": [
+      "N",
+      "P"
+    ],
+    "person": {
+      "xmin": 40,
+      "ymin": 138,
+      "xmax": 129,
+      "ymax": 232
+    },
+    "context": {
+      "xmin": 40,
+      "ymin": 138,
+      "xmax": 129,
+      "ymax": 232
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "SCB-turnhead-026",
+    "owner": {
+      "line": 568,
+      "cells": [
+        "SCB-turnhead-026",
+        "U/P",
+        "N/P",
+        "recrop",
+        "Tay bút và tay nghỉ rõ, nhìn trái; mặt tiền cảnh cạnh tranh cần tách."
+      ],
+      "owner_comments": [],
+      "raw": "| SCB-turnhead-026 | U/P | N/P | recrop | Tay bút và tay nghỉ rõ, nhìn trái; mặt tiền cảnh cạnh tranh cần tách. |"
+    },
+    "states": [
+      "N",
+      "P"
+    ],
+    "person": {
+      "xmin": 1516,
+      "ymin": 462,
+      "xmax": 1762,
+      "ymax": 694
+    },
+    "context": {
+      "xmin": 1516,
+      "ymin": 462,
+      "xmax": 1762,
+      "ymax": 694
+    },
+    "trials": [
+      {
+        "parent": "SCB-turnhead-026",
+        "id": "SCB-turnhead-026-R03",
+        "person": [
+          1576,
+          465,
+          1730,
+          681
+        ],
+        "context": [
+          1568,
+          451,
+          1744,
+          698
+        ],
+        "states": [
+          "U",
+          "P"
+        ],
+        "reason": "Thử tách nữ quay trái ở sau; vùng tay trái bị giới hạn khi bỏ mặt tiền cảnh, không giữ phone N nếu thiếu tay."
+      }
+    ],
+    "qa": [
+      {
+        "id": "SCB-turnhead-026-R03",
+        "result": "needs_revision",
+        "states": [
+          "U",
+          "P"
+        ],
+        "note": "Bỏ mặt trước làm mất tay giơ bên trái và ngón tay dưới. Không đạt geometry dù hướng đầu rõ."
+      }
+    ]
+  },
+  {
+    "id": "V7-C-003",
+    "owner": {
+      "line": 572,
+      "cells": [
+        "V7-C-003",
+        "U/P",
+        "N/P",
+        "recrop",
+        "Tay trên bàn đủ rõ, nhìn khỏi bài; box rộng chứa nhiều mặt cùng cỡ."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-C-003 | U/P | N/P | recrop | Tay trên bàn đủ rõ, nhìn khỏi bài; box rộng chứa nhiều mặt cùng cỡ. |"
+    },
+    "states": [
+      "N",
+      "P"
+    ],
+    "person": {
+      "xmin": 347,
+      "ymin": 88,
+      "xmax": 449,
+      "ymax": 229
+    },
+    "context": {
+      "xmin": 347,
+      "ymin": 88,
+      "xmax": 449,
+      "ymax": 229
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-C-017",
+    "owner": {
+      "line": 580,
+      "cells": [
+        "V7-C-017",
+        "U/P",
+        "U/P",
+        "recrop",
+        "Tay target bị mặt tiền cảnh che, đầu quay trái khỏi bàn."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-C-017 | U/P | U/P | recrop | Tay target bị mặt tiền cảnh che, đầu quay trái khỏi bàn. |"
+    },
+    "states": [
+      "U",
+      "P"
+    ],
+    "person": {
+      "xmin": 607,
+      "ymin": 164,
+      "xmax": 718,
+      "ymax": 267
+    },
+    "context": {
+      "xmin": 607,
+      "ymin": 164,
+      "xmax": 718,
+      "ymax": 267
+    },
+    "trials": [
+      {
+        "parent": "V7-C-017",
+        "id": "V7-C-017-R03",
+        "person": [
+          635,
+          181,
+          690,
+          237
+        ],
+        "context": [
+          626,
+          175,
+          702,
+          247
+        ],
+        "states": [
+          "U",
+          "P"
+        ],
+        "reason": "Giảm mặt tiền cảnh, giữ nữ kính phía sau quay trái; tay bị che tại nguồn."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V7-C-017-R03",
+        "result": "needs_revision",
+        "states": [
+          "U",
+          "P"
+        ],
+        "note": "Mặt người tiền cảnh vẫn nguyên và cùng cỡ anchor; bản mới chưa giải quyết vấn đề nhiều anchor."
+      }
+    ]
+  },
+  {
+    "id": "V7-C-021",
+    "owner": {
+      "line": 582,
+      "cells": [
+        "V7-C-021",
+        "U/P",
+        "U/P",
+        "recrop",
+        "Ngẩng trước khỏi bàn, tay che ở mặt; nhiều mặt cùng cỡ trong crop.",
+        "N/P"
+      ],
+      "owner_comments": [
+        "N/P"
+      ],
+      "raw": "| V7-C-021 | U/P | U/P | recrop | Ngẩng trước khỏi bàn, tay che ở mặt; nhiều mặt cùng cỡ trong crop. | N/P |"
+    },
+    "states": [
+      "N",
+      "P"
+    ],
+    "person": {
+      "xmin": 1521,
+      "ymin": 518,
+      "xmax": 1867,
+      "ymax": 1123
+    },
+    "context": {
+      "xmin": 1521,
+      "ymin": 518,
+      "xmax": 1867,
+      "ymax": 1123
+    },
+    "trials": [
+      {
+        "parent": "V7-C-021",
+        "id": "V7-C-021-R03",
+        "person": [
+          1540,
+          595,
+          1792,
+          811
+        ],
+        "context": [
+          1522,
+          580,
+          1810,
+          864
+        ],
+        "states": [
+          "N",
+          "P"
+        ],
+        "reason": "Giảm nhóm phía sau và bàn xa, giữ đầu và hai tay nam phía trước; đối chiếu owner N/P."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V7-C-021-R03",
+        "result": "needs_revision",
+        "states": [
+          "N",
+          "P"
+        ],
+        "note": "Mặt người sau vẫn lớn sát đầu anchor; chưa đạt yêu cầu tách. Giữ nhãn owner trong trial, chưa publish."
+      }
+    ]
+  },
+  {
+    "id": "V7-C-023",
+    "owner": {
+      "line": 583,
+      "cells": [
+        "V7-C-023",
+        "U/P",
+        "U/U",
+        "recrop",
+        "Đầu nghiêng chưa đủ phân biệt nhìn bài hay bên trái, người trước che tay."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-C-023 | U/P | U/U | recrop | Đầu nghiêng chưa đủ phân biệt nhìn bài hay bên trái, người trước che tay. |"
+    },
+    "states": [
+      "U",
+      "U"
+    ],
+    "person": {
+      "xmin": 570,
+      "ymin": 243,
+      "xmax": 696,
+      "ymax": 372
+    },
+    "context": {
+      "xmin": 570,
+      "ymin": 243,
+      "xmax": 696,
+      "ymax": 372
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-C-035",
+    "owner": {
+      "line": 585,
+      "cells": [
+        "V7-C-035",
+        "U/P",
+        "U/P",
+        "recrop",
+        "Box gồm hai người, target giơ bút nhìn trước; tay còn lại bị che."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-C-035 | U/P | U/P | recrop | Box gồm hai người, target giơ bút nhìn trước; tay còn lại bị che. |"
+    },
+    "states": [
+      "U",
+      "P"
+    ],
+    "person": {
+      "xmin": 0,
+      "ymin": 367,
+      "xmax": 293,
+      "ymax": 816
+    },
+    "context": {
+      "xmin": 0,
+      "ymin": 367,
+      "xmax": 293,
+      "ymax": 816
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-C-043",
+    "owner": {
+      "line": 588,
+      "cells": [
+        "V7-C-043",
+        "U/P",
+        "U/P",
+        "recrop",
+        "Mặt ngẩng trước nhưng tay bị người tiền cảnh che; nhiều mặt cạnh tranh."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-C-043 | U/P | U/P | recrop | Mặt ngẩng trước nhưng tay bị người tiền cảnh che; nhiều mặt cạnh tranh. |"
+    },
+    "states": [
+      "U",
+      "P"
+    ],
+    "person": {
+      "xmin": 954,
+      "ymin": 324,
+      "xmax": 1171,
+      "ymax": 507
+    },
+    "context": {
+      "xmin": 954,
+      "ymin": 324,
+      "xmax": 1171,
+      "ymax": 507
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-C-049",
+    "owner": {
+      "line": 590,
+      "cells": [
+        "V7-C-049",
+        "U/P",
+        "U/P",
+        "recrop",
+        "Một tay không đủ rõ, nhìn phía trước; nhiều mặt cùng cỡ."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-C-049 | U/P | U/P | recrop | Một tay không đủ rõ, nhìn phía trước; nhiều mặt cùng cỡ. |"
+    },
+    "states": [
+      "U",
+      "P"
+    ],
+    "person": {
+      "xmin": 560,
+      "ymin": 189,
+      "xmax": 800,
+      "ymax": 450
+    },
+    "context": {
+      "xmin": 560,
+      "ymin": 189,
+      "xmax": 800,
+      "ymax": 450
+    },
+    "trials": [
+      {
+        "parent": "V7-C-049",
+        "id": "V7-C-049-R03",
+        "person": [
+          558,
+          225,
+          684,
+          411
+        ],
+        "context": [
+          550,
+          216,
+          692,
+          430
+        ],
+        "states": [
+          "U",
+          "P"
+        ],
+        "reason": "Giảm nhóm phía sau, giữ nam kính tiền cảnh và vùng tay; kiểm mặt sau còn cạnh tranh hay không."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V7-C-049-R03",
+        "result": "needs_revision",
+        "states": [
+          "U",
+          "P"
+        ],
+        "note": "Tay cầm bút bị sát/cắt mép trái, mặt nam sau còn rõ ở mép phải; cần chỉnh để giữ tay mà giảm cạnh tranh."
+      }
+    ]
+  },
+  {
+    "id": "V7-C-051",
+    "owner": {
+      "line": 591,
+      "cells": [
+        "V7-C-051",
+        "U/P",
+        "N/P",
+        "recrop",
+        "Hai tay gập rõ, đầu quay phải; nhiều mặt và thân trong crop."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-C-051 | U/P | N/P | recrop | Hai tay gập rõ, đầu quay phải; nhiều mặt và thân trong crop. |"
+    },
+    "states": [
+      "N",
+      "P"
+    ],
+    "person": {
+      "xmin": 295,
+      "ymin": 157,
+      "xmax": 468,
+      "ymax": 450
+    },
+    "context": {
+      "xmin": 295,
+      "ymin": 157,
+      "xmax": 468,
+      "ymax": 450
+    },
+    "trials": [
+      {
+        "parent": "V7-C-051",
+        "id": "V7-C-051-R03",
+        "person": [
+          331,
+          185,
+          452,
+          294
+        ],
+        "context": [
+          322,
+          177,
+          462,
+          326
+        ],
+        "states": [
+          "N",
+          "P"
+        ],
+        "reason": "Giữ đầu quay phải và hai tay trên bàn của nam trước, bỏ thân dưới không cần thiết."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V7-C-051-R03",
+        "result": "needs_revision",
+        "states": [
+          "N",
+          "P"
+        ],
+        "note": "Vẫn nhiều mặt quanh cùng cỡ; geometry chưa giải quyết được nhóm đông dù tay chính đủ rõ."
+      }
+    ]
+  },
+  {
+    "id": "V7-C-093",
+    "owner": {
+      "line": 593,
+      "cells": [
+        "V7-C-093",
+        "U/N",
+        "N/P",
+        "recrop",
+        "Tay bút trên bàn rõ, nhìn người cạnh; hai mặt và thân cạnh tranh.",
+        "N/N"
+      ],
+      "owner_comments": [
+        "N/N"
+      ],
+      "raw": "| V7-C-093 | U/N | N/P | recrop | Tay bút trên bàn rõ, nhìn người cạnh; hai mặt và thân cạnh tranh. | N/N |"
+    },
+    "states": [
+      "N",
+      "N"
+    ],
+    "person": {
+      "xmin": 395,
+      "ymin": 180,
+      "xmax": 565,
+      "ymax": 410
+    },
+    "context": {
+      "xmin": 395,
+      "ymin": 180,
+      "xmax": 565,
+      "ymax": 410
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-OE-S087-A01",
+    "owner": {
+      "line": 596,
+      "cells": [
+        "V7-OE-S087-A01",
+        "N/N",
+        "N/N",
+        "recrop",
+        "Box nhóm hai người; nữ bên trái viết và hướng bài riêng, cần định vị lại một anchor."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-OE-S087-A01 | N/N | N/N | recrop | Box nhóm hai người; nữ bên trái viết và hướng bài riêng, cần định vị lại một anchor. |"
+    },
+    "states": [
+      "N",
+      "N"
+    ],
+    "person": {
+      "xmin": 223,
+      "ymin": 170,
+      "xmax": 421,
+      "ymax": 400
+    },
+    "context": {
+      "xmin": 223,
+      "ymin": 170,
+      "xmax": 421,
+      "ymax": 400
+    },
+    "trials": [
+      {
+        "parent": "V7-OE-S087-A01",
+        "id": "V7-OE-S087-A01-R03",
+        "person": [
+          159,
+          193,
+          322,
+          333
+        ],
+        "context": [
+          149,
+          184,
+          334,
+          350
+        ],
+        "states": [
+          "N",
+          "N"
+        ],
+        "reason": "Định vị lại nữ viết bên trái theo review, bỏ mặt nữ kính phía phải; giữ hai tay bút và giấy."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V7-OE-S087-A01-R03",
+        "result": "needs_revision",
+        "states": [
+          "N",
+          "N"
+        ],
+        "note": "Đúng nữ viết và tay đầy đủ, nhưng nửa mặt nam phía sau ở mép trên còn đáng kể; cần cắt trên thấp hơn mà giữ tóc anchor."
+      }
+    ]
+  },
+  {
+    "id": "V7-OE-S088-A01",
+    "owner": {
+      "line": 597,
+      "cells": [
+        "V7-OE-S088-A01",
+        "U/N",
+        "U/N",
+        "recrop",
+        "Một tay khuất cạnh bàn, hướng sách riêng; người sau lớn và box chứa nhiều thân."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-OE-S088-A01 | U/N | U/N | recrop | Một tay khuất cạnh bàn, hướng sách riêng; người sau lớn và box chứa nhiều thân. |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 392,
+      "ymin": 212,
+      "xmax": 648,
+      "ymax": 448
+    },
+    "context": {
+      "xmin": 392,
+      "ymin": 212,
+      "xmax": 648,
+      "ymax": 448
+    },
+    "trials": [
+      {
+        "parent": "V7-OE-S088-A01",
+        "id": "V7-OE-S088-A01-R03",
+        "person": [
+          395,
+          236,
+          564,
+          409
+        ],
+        "context": [
+          385,
+          226,
+          574,
+          435
+        ],
+        "states": [
+          "U",
+          "N"
+        ],
+        "reason": "Tách nữ đọc sách trước, giảm người sau ở phải và phía trên; giữ tay thả cạnh bàn."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V7-OE-S088-A01-R03",
+        "result": "needs_revision",
+        "states": [
+          "U",
+          "N"
+        ],
+        "note": "Mặt người phải sau còn lớn. Tay trái thả cạnh bàn đã thấy, cần geometry giảm mặt sau trước xét lại phone N."
+      }
+    ]
+  },
+  {
+    "id": "V7-R8-C-003",
+    "owner": {
+      "line": 601,
+      "cells": [
+        "V7-R8-C-003",
+        "U/P",
+        "N/P",
+        "recrop",
+        "Hai tay trên bàn rõ, quay nhìn người bên trái; nhiều mặt cùng cỡ."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-R8-C-003 | U/P | N/P | recrop | Hai tay trên bàn rõ, quay nhìn người bên trái; nhiều mặt cùng cỡ. |"
+    },
+    "states": [
+      "N",
+      "P"
+    ],
+    "person": {
+      "xmin": 165,
+      "ymin": 170,
+      "xmax": 340,
+      "ymax": 450
+    },
+    "context": {
+      "xmin": 165,
+      "ymin": 170,
+      "xmax": 340,
+      "ymax": 450
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "EXP-SCB-014",
+    "owner": {
+      "line": 611,
+      "cells": [
+        "EXP-SCB-014",
+        "N/P",
+        "N/N",
+        "recrop",
+        "Target bên phải cúi nhìn bàn, hai tay khoanh; mặt người trái cùng cỡ."
+      ],
+      "owner_comments": [],
+      "raw": "| EXP-SCB-014 | N/P | N/N | recrop | Target bên phải cúi nhìn bàn, hai tay khoanh; mặt người trái cùng cỡ. |"
+    },
+    "states": [
+      "N",
+      "N"
+    ],
+    "person": {
+      "xmin": 117,
+      "ymin": 188,
+      "xmax": 310,
+      "ymax": 515
+    },
+    "context": {
+      "xmin": 117,
+      "ymin": 188,
+      "xmax": 310,
+      "ymax": 515
+    },
+    "trials": [
+      {
+        "parent": "EXP-SCB-014",
+        "id": "EXP-SCB-014-R03",
+        "person": [
+          153,
+          209,
+          307,
+          400
+        ],
+        "context": [
+          145,
+          200,
+          319,
+          430
+        ],
+        "states": [
+          "N",
+          "N"
+        ],
+        "reason": "Giảm mặt trái, giữ nam phải cùng tay và trang; cần kiểm hướng đầu theo nhãn owner."
+      }
+    ],
+    "qa": [
+      {
+        "id": "EXP-SCB-014-R03",
+        "result": "needs_revision",
+        "states": [
+          "N",
+          "N"
+        ],
+        "note": "Nửa mặt bên trái còn cùng cỡ anchor; cần giảm thêm mà giữ tay khoanh."
+      }
+    ]
+  },
+  {
+    "id": "V7-C-008",
+    "owner": {
+      "line": 677,
+      "cells": [
+        "V7-C-008",
+        "U/N",
+        "N/N",
+        "recrop",
+        "Hai tay giữ sách rõ, đầu hướng sách; đầu tiền cảnh và người trái cạnh tranh.",
+        "U/P"
+      ],
+      "owner_comments": [
+        "U/P"
+      ],
+      "raw": "| V7-C-008 | U/N | N/N | recrop | Hai tay giữ sách rõ, đầu hướng sách; đầu tiền cảnh và người trái cạnh tranh. | U/P |"
+    },
+    "states": [
+      "U",
+      "P"
+    ],
+    "person": {
+      "xmin": 1371,
+      "ymin": 335,
+      "xmax": 1770,
+      "ymax": 717
+    },
+    "context": {
+      "xmin": 1371,
+      "ymin": 335,
+      "xmax": 1770,
+      "ymax": 717
+    },
+    "trials": [
+      {
+        "parent": "V7-C-008",
+        "id": "V7-C-008-R03",
+        "person": [
+          1435,
+          386,
+          1690,
+          646
+        ],
+        "context": [
+          1410,
+          370,
+          1720,
+          695
+        ],
+        "states": [
+          "U",
+          "P"
+        ],
+        "reason": "Tách nữ kính giữa theo owner U/P; kiểm lại hướng nhìn và tay ở input mới."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V7-C-008-R03",
+        "result": "needs_revision",
+        "states": [
+          "U",
+          "P"
+        ],
+        "note": "Hướng đầu thực tế cúi gần sách, chưa chứng minh P mà owner yêu cầu; mặt bên trái còn một phần và đầu tiền cảnh che tay. Cần close view/giải thích trước đổi owner label."
+      }
+    ]
+  },
+  {
+    "id": "V7-C-038",
+    "owner": {
+      "line": 683,
+      "cells": [
+        "V7-C-038",
+        "U/N",
+        "N/N",
+        "recrop",
+        "Nữ giữa giữ sách và hướng trang riêng; nhiều mặt cùng cỡ cần tách."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-C-038 | U/N | N/N | recrop | Nữ giữa giữ sách và hướng trang riêng; nhiều mặt cùng cỡ cần tách. |"
+    },
+    "states": [
+      "N",
+      "N"
+    ],
+    "person": {
+      "xmin": 349,
+      "ymin": 228,
+      "xmax": 591,
+      "ymax": 568
+    },
+    "context": {
+      "xmin": 349,
+      "ymin": 228,
+      "xmax": 591,
+      "ymax": 568
+    },
+    "trials": [
+      {
+        "parent": "V7-C-038",
+        "id": "V7-C-038-R03",
+        "person": [
+          396,
+          276,
+          535,
+          456
+        ],
+        "context": [
+          371,
+          264,
+          549,
+          482
+        ],
+        "states": [
+          "N",
+          "N"
+        ],
+        "reason": "Tách nữ giữa đang xem sách, bỏ bàn xa và mặt tiền cảnh."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V7-C-038-R03",
+        "result": "needs_revision",
+        "states": [
+          "N",
+          "N"
+        ],
+        "note": "Mặt bên trái vẫn gần như đầy đủ và cùng cỡ; geometry chưa đạt một anchor trội."
+      }
+    ]
+  },
+  {
+    "id": "V7-OE-S094-A01",
+    "owner": {
+      "line": 692,
+      "cells": [
+        "V7-OE-S094-A01",
+        "U/P",
+        "N/P",
+        "recrop",
+        "Target giơ tay nhìn trước, tay kia trên bàn rõ; nhiều mặt cùng cỡ."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-OE-S094-A01 | U/P | N/P | recrop | Target giơ tay nhìn trước, tay kia trên bàn rõ; nhiều mặt cùng cỡ. |"
+    },
+    "states": [
+      "N",
+      "P"
+    ],
+    "person": {
+      "xmin": 274,
+      "ymin": 281,
+      "xmax": 734,
+      "ymax": 877
+    },
+    "context": {
+      "xmin": 274,
+      "ymin": 281,
+      "xmax": 734,
+      "ymax": 877
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V6-SB-004",
+    "owner": {
+      "line": 697,
+      "cells": [
+        "V6-SB-004",
+        "P/U",
+        "U/N",
+        "recrop",
+        "Lưng vật trong tay target không rõ camera; người sau và vật riêng gây cạnh tranh."
+      ],
+      "owner_comments": [],
+      "raw": "| V6-SB-004 | P/U | U/N | recrop | Lưng vật trong tay target không rõ camera; người sau và vật riêng gây cạnh tranh. |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 478,
+      "ymin": 364,
+      "xmax": 630,
+      "ymax": 563
+    },
+    "context": {
+      "xmin": 478,
+      "ymin": 364,
+      "xmax": 630,
+      "ymax": 563
+    },
+    "trials": [
+      {
+        "parent": "V6-SB-004",
+        "id": "V6-SB-004-R03",
+        "person": [
+          498,
+          388,
+          616,
+          544
+        ],
+        "context": [
+          489,
+          380,
+          628,
+          558
+        ],
+        "states": [
+          "U",
+          "N"
+        ],
+        "reason": "Giảm mặt người sau trái, giữ vật và hai tay nam áo bạc; chưa đủ ID phone."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V6-SB-004-R03",
+        "result": "needs_revision",
+        "states": [
+          "U",
+          "N"
+        ],
+        "note": "Mặt và device người sau còn rõ ở trên trái; chưa tách được bằng geometry này."
+      }
+    ]
+  },
+  {
+    "id": "V6-SB-008",
+    "owner": {
+      "line": 699,
+      "cells": [
+        "V6-SB-008",
+        "P/U",
+        "U/N",
+        "recrop",
+        "Lưng vật trong tay thiếu camera rõ; người phía sau có mặt lớn cạnh tranh."
+      ],
+      "owner_comments": [],
+      "raw": "| V6-SB-008 | P/U | U/N | recrop | Lưng vật trong tay thiếu camera rõ; người phía sau có mặt lớn cạnh tranh. |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 357,
+      "ymin": 168,
+      "xmax": 468,
+      "ymax": 303
+    },
+    "context": {
+      "xmin": 357,
+      "ymin": 168,
+      "xmax": 468,
+      "ymax": 303
+    },
+    "trials": [
+      {
+        "parent": "V6-SB-008",
+        "id": "V6-SB-008-R03",
+        "person": [
+          377,
+          202,
+          451,
+          290
+        ],
+        "context": [
+          369,
+          195,
+          462,
+          303
+        ],
+        "states": [
+          "U",
+          "N"
+        ],
+        "reason": "Giảm mặt người sau, giữ nam kính trước và vật cầm tay."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V6-SB-008-R03",
+        "result": "needs_revision",
+        "states": [
+          "U",
+          "N"
+        ],
+        "note": "Mặt người sau trái còn lớn; tóc anchor sát mép trên, cần điều chỉnh hoặc loại."
+      }
+    ]
+  },
+  {
+    "id": "V6-SB-029",
+    "owner": {
+      "line": 714,
+      "cells": [
+        "V6-SB-029",
+        "N/P",
+        "N/P",
+        "recrop",
+        "Hai tay đan rõ, mặt hướng trước khỏi sách; nhiều mặt lớn trong crop."
+      ],
+      "owner_comments": [],
+      "raw": "| V6-SB-029 | N/P | N/P | recrop | Hai tay đan rõ, mặt hướng trước khỏi sách; nhiều mặt lớn trong crop. |"
+    },
+    "states": [
+      "N",
+      "P"
+    ],
+    "person": {
+      "xmin": 437,
+      "ymin": 275,
+      "xmax": 555,
+      "ymax": 472
+    },
+    "context": {
+      "xmin": 437,
+      "ymin": 275,
+      "xmax": 555,
+      "ymax": 472
+    },
+    "trials": [
+      {
+        "parent": "V6-SB-029",
+        "id": "V6-SB-029-R03",
+        "person": [
+          461,
+          328,
+          539,
+          454
+        ],
+        "context": [
+          454,
+          320,
+          550,
+          472
+        ],
+        "states": [
+          "N",
+          "P"
+        ],
+        "reason": "Giữ nam đan tay trước, bỏ mặt người sau bằng giảm mép trên."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V6-SB-029-R03",
+        "result": "needs_revision",
+        "states": [
+          "N",
+          "P"
+        ],
+        "note": "Mép trên cắt chỏm đầu để bỏ mặt sau; cần nới và đánh giá lại đại diện trùng MP039."
+      }
+    ]
+  },
+  {
+    "id": "V6-SB-032",
+    "owner": {
+      "line": 716,
+      "cells": [
+        "V6-SB-032",
+        "U/P",
+        "U/P",
+        "recrop",
+        "Một tay khuất, mặt ngẩng trước khỏi sách; nhiều mặt cạnh tranh."
+      ],
+      "owner_comments": [],
+      "raw": "| V6-SB-032 | U/P | U/P | recrop | Một tay khuất, mặt ngẩng trước khỏi sách; nhiều mặt cạnh tranh. |"
+    },
+    "states": [
+      "U",
+      "P"
+    ],
+    "person": {
+      "xmin": 438,
+      "ymin": 302,
+      "xmax": 552,
+      "ymax": 480
+    },
+    "context": {
+      "xmin": 438,
+      "ymin": 302,
+      "xmax": 552,
+      "ymax": 480
+    },
+    "trials": [
+      {
+        "parent": "V6-SB-032",
+        "id": "V6-SB-032-R03",
+        "person": [
+          459,
+          341,
+          540,
+          455
+        ],
+        "context": [
+          451,
+          332,
+          551,
+          480
+        ],
+        "states": [
+          "U",
+          "P"
+        ],
+        "reason": "Tách nam trước quay trái, giữ tay trên sách; tay còn lại khuất."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V6-SB-032-R03",
+        "result": "needs_revision",
+        "states": [
+          "U",
+          "P"
+        ],
+        "note": "Cắt chỏm đầu và mép mặt người sau vẫn còn; không dùng bản này."
+      }
+    ]
+  },
+  {
+    "id": "V6-SB-034",
+    "owner": {
+      "line": 718,
+      "cells": [
+        "V6-SB-034",
+        "N/N",
+        "N/N",
+        "recrop",
+        "Hai tay với trang sách rõ, đầu hướng bài; người cạnh còn mặt lớn."
+      ],
+      "owner_comments": [],
+      "raw": "| V6-SB-034 | N/N | N/N | recrop | Hai tay với trang sách rõ, đầu hướng bài; người cạnh còn mặt lớn. |"
+    },
+    "states": [
+      "N",
+      "N"
+    ],
+    "person": {
+      "xmin": 114,
+      "ymin": 300,
+      "xmax": 288,
+      "ymax": 640
+    },
+    "context": {
+      "xmin": 114,
+      "ymin": 300,
+      "xmax": 288,
+      "ymax": 640
+    },
+    "trials": [
+      {
+        "parent": "V6-SB-034",
+        "id": "V6-SB-034-R03",
+        "person": [
+          125,
+          359,
+          235,
+          563
+        ],
+        "context": [
+          117,
+          349,
+          248,
+          590
+        ],
+        "states": [
+          "N",
+          "N"
+        ],
+        "reason": "Giảm mặt người phải, giữ nữ băng đô và hai tay trên trang."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V6-SB-034-R03",
+        "result": "needs_revision",
+        "states": [
+          "N",
+          "N"
+        ],
+        "note": "Tay phía phải bị cắt ở mép, cần nới để giữ trọn bằng chứng N."
+      }
+    ]
+  },
+  {
+    "id": "V6-SB-040",
+    "owner": {
+      "line": 721,
+      "cells": [
+        "V6-SB-040",
+        "N/N",
+        "U/N",
+        "recrop",
+        "Vật hồng trên bàn chưa nhận dạng chắc, hướng vùng riêng; nhiều mặt trong box.",
+        "N/N"
+      ],
+      "owner_comments": [
+        "N/N"
+      ],
+      "raw": "| V6-SB-040 | N/N | U/N | recrop | Vật hồng trên bàn chưa nhận dạng chắc, hướng vùng riêng; nhiều mặt trong box. | N/N |"
+    },
+    "states": [
+      "N",
+      "N"
+    ],
+    "person": {
+      "xmin": 288,
+      "ymin": 293,
+      "xmax": 622,
+      "ymax": 640
+    },
+    "context": {
+      "xmin": 288,
+      "ymin": 293,
+      "xmax": 622,
+      "ymax": 640
+    },
+    "trials": [
+      {
+        "parent": "V6-SB-040",
+        "id": "V6-SB-040-R03",
+        "person": [
+          377,
+          359,
+          585,
+          613
+        ],
+        "context": [
+          325,
+          347,
+          601,
+          640
+        ],
+        "states": [
+          "N",
+          "N"
+        ],
+        "reason": "Giữ người trước cùng hai tay và vật hồng theo owner N/N; giảm mặt người trái."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V6-SB-040-R03",
+        "result": "needs_revision",
+        "states": [
+          "N",
+          "N"
+        ],
+        "note": "Mép trái cắt một phần tay/vật hồng; không đủ geometry cho xác nhận N theo owner. Nguồn nhiễu hạt nhưng không xử lý làm giả chi tiết."
+      }
+    ]
+  },
+  {
+    "id": "V6-SB-042",
+    "owner": {
+      "line": 723,
+      "cells": [
+        "V6-SB-042",
+        "N/N",
+        "N/P",
+        "recrop",
+        "Người ngồi trước giữ giấy và nhìn trước, box còn bao người đứng và nhóm.",
+        "N/N"
+      ],
+      "owner_comments": [
+        "N/N"
+      ],
+      "raw": "| V6-SB-042 | N/N | N/P | recrop | Người ngồi trước giữ giấy và nhìn trước, box còn bao người đứng và nhóm. | N/N |"
+    },
+    "states": [
+      "N",
+      "N"
+    ],
+    "person": {
+      "xmin": 223,
+      "ymin": 199,
+      "xmax": 617,
+      "ymax": 602
+    },
+    "context": {
+      "xmin": 223,
+      "ymin": 199,
+      "xmax": 617,
+      "ymax": 602
+    },
+    "trials": [
+      {
+        "parent": "V6-SB-042",
+        "id": "V6-SB-042-R03",
+        "person": [
+          356,
+          280,
+          582,
+          528
+        ],
+        "context": [
+          344,
+          270,
+          599,
+          558
+        ],
+        "states": [
+          "N",
+          "N"
+        ],
+        "reason": "Tập trung nam ngồi trước và hai tay trên giấy theo owner N/N, bỏ người đứng."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V6-SB-042-R03",
+        "result": "needs_revision",
+        "states": [
+          "N",
+          "N"
+        ],
+        "note": "Tay cầm bút chạm mép trái và đầu nhìn trước hơn là giấy; owner N/N cần close view riêng trước đề xuất nhãn khác."
+      }
+    ]
+  },
+  {
+    "id": "V6R2-MP-005",
+    "owner": {
+      "line": 733,
+      "cells": [
+        "V6R2-MP-005",
+        "U/P",
+        "U/P",
+        "recrop",
+        "Một tay khuất, mặt ngẩng trước; nhiều mặt cùng cỡ cần tách."
+      ],
+      "owner_comments": [],
+      "raw": "| V6R2-MP-005 | U/P | U/P | recrop | Một tay khuất, mặt ngẩng trước; nhiều mặt cùng cỡ cần tách. |"
+    },
+    "states": [
+      "U",
+      "P"
+    ],
+    "person": {
+      "xmin": 482,
+      "ymin": 227,
+      "xmax": 549,
+      "ymax": 347
+    },
+    "context": {
+      "xmin": 482,
+      "ymin": 227,
+      "xmax": 549,
+      "ymax": 347
+    },
+    "trials": [
+      {
+        "parent": "V6R2-MP-005",
+        "id": "V6R2-MP-005-R03",
+        "person": [
+          506,
+          251,
+          539,
+          339
+        ],
+        "context": [
+          499,
+          243,
+          548,
+          350
+        ],
+        "states": [
+          "U",
+          "P"
+        ],
+        "reason": "Giảm mặt trái, giữ nữ chính ngẩng cùng phần sách/tay nhìn thấy."
+      },
+      {
+        "parent": "V6R2-MP-005",
+        "id": "V6R2-MP-005-R04",
+        "person": [
+          506,
+          239,
+          539,
+          339
+        ],
+        "context": [
+          495,
+          231,
+          548,
+          350
+        ],
+        "states": [
+          "U",
+          "P"
+        ],
+        "reason": "Nới trên để giữ trọn tóc, giữ tay và sách như bản thử trước."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V6R2-MP-005-R03",
+        "result": "needs_revision",
+        "states": [
+          "U",
+          "P"
+        ],
+        "note": "Chỏm tóc chạm/cắt mép trên; cần nới vài pixel và kiểm lại mặt nền."
+      },
+      {
+        "id": "V6R2-MP-005-R04",
+        "result": "needs_revision",
+        "states": [
+          "U",
+          "P"
+        ],
+        "note": "Đầu chính đủ nhưng nới trên đưa nhiều phần mặt sau trở lại. Cần giải pháp khác hoặc loại vì chồng lấp."
+      }
+    ]
+  },
+  {
+    "id": "V6R2-MP-007",
+    "owner": {
+      "line": 735,
+      "cells": [
+        "V6R2-MP-007",
+        "U/P",
+        "U/P",
+        "recrop",
+        "Tay dưới bàn thiếu, nhìn trước; ba mặt cùng lớn cạnh tranh target."
+      ],
+      "owner_comments": [],
+      "raw": "| V6R2-MP-007 | U/P | U/P | recrop | Tay dưới bàn thiếu, nhìn trước; ba mặt cùng lớn cạnh tranh target. |"
+    },
+    "states": [
+      "U",
+      "P"
+    ],
+    "person": {
+      "xmin": 373,
+      "ymin": 281,
+      "xmax": 478,
+      "ymax": 447
+    },
+    "context": {
+      "xmin": 373,
+      "ymin": 281,
+      "xmax": 478,
+      "ymax": 447
+    },
+    "trials": [
+      {
+        "parent": "V6R2-MP-007",
+        "id": "V6R2-MP-007-R03",
+        "person": [
+          391,
+          300,
+          465,
+          430
+        ],
+        "context": [
+          385,
+          295,
+          472,
+          449
+        ],
+        "states": [
+          "U",
+          "P"
+        ],
+        "reason": "Tách nam kính trước, giảm mặt hai người sau; tay vẫn dưới bàn."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V6R2-MP-007-R03",
+        "result": "needs_revision",
+        "states": [
+          "U",
+          "P"
+        ],
+        "note": "Hai mặt sau vẫn nguyên và cùng cỡ sát mặt anchor. Geometry này không đạt."
+      }
+    ]
+  },
+  {
+    "id": "V6R2-MP-022",
+    "owner": {
+      "line": 748,
+      "cells": [
+        "V6R2-MP-022",
+        "U/P",
+        "U/P",
+        "recrop",
+        "Tay dưới thiếu, mặt hướng trước; người sau có mặt sát cùng cỡ."
+      ],
+      "owner_comments": [],
+      "raw": "| V6R2-MP-022 | U/P | U/P | recrop | Tay dưới thiếu, mặt hướng trước; người sau có mặt sát cùng cỡ. |"
+    },
+    "states": [
+      "U",
+      "P"
+    ],
+    "person": {
+      "xmin": 62,
+      "ymin": 141,
+      "xmax": 139,
+      "ymax": 283
+    },
+    "context": {
+      "xmin": 62,
+      "ymin": 141,
+      "xmax": 139,
+      "ymax": 283
+    },
+    "trials": [
+      {
+        "parent": "V6R2-MP-022",
+        "id": "V6R2-MP-022-R03",
+        "person": [
+          72,
+          182,
+          126,
+          269
+        ],
+        "context": [
+          65,
+          176,
+          133,
+          284
+        ],
+        "states": [
+          "U",
+          "P"
+        ],
+        "reason": "Giảm người sau và giữ nam trước hướng lên; thiếu tay dưới."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V6R2-MP-022-R03",
+        "result": "needs_revision",
+        "states": [
+          "U",
+          "P"
+        ],
+        "note": "Cắt tóc/đỉnh đầu và mặt sau vẫn sát; cần nới và xem có thể tách hay phải loại."
+      }
+    ]
+  },
+  {
+    "id": "V6R2-MP-037",
+    "owner": {
+      "line": 758,
+      "cells": [
+        "V6R2-MP-037",
+        "U/P",
+        "U/P",
+        "recrop",
+        "Hai tay khuất, mặt hướng trước; nhiều mặt lớn phía sau."
+      ],
+      "owner_comments": [],
+      "raw": "| V6R2-MP-037 | U/P | U/P | recrop | Hai tay khuất, mặt hướng trước; nhiều mặt lớn phía sau. |"
+    },
+    "states": [
+      "U",
+      "P"
+    ],
+    "person": {
+      "xmin": 166,
+      "ymin": 312,
+      "xmax": 269,
+      "ymax": 509
+    },
+    "context": {
+      "xmin": 166,
+      "ymin": 312,
+      "xmax": 269,
+      "ymax": 509
+    },
+    "trials": [
+      {
+        "parent": "V6R2-MP-037",
+        "id": "V6R2-MP-037-R03",
+        "person": [
+          181,
+          332,
+          250,
+          487
+        ],
+        "context": [
+          174,
+          326,
+          258,
+          510
+        ],
+        "states": [
+          "U",
+          "P"
+        ],
+        "reason": "Tách người giữa ngẩng đầu trước, giảm hai mặt bên; tay khuất."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V6R2-MP-037-R03",
+        "result": "needs_revision",
+        "states": [
+          "U",
+          "P"
+        ],
+        "note": "Các mặt hai bên vẫn lớn; thu nữa có nguy cơ cắt vai/thân. Chưa đạt đơn anchor."
+      }
+    ]
+  },
+  {
+    "id": "V6R2-MP-039",
+    "owner": {
+      "line": 760,
+      "cells": [
+        "V6R2-MP-039",
+        "N/P",
+        "N/P",
+        "recrop",
+        "Tay đan rõ, mặt hướng trước khỏi sách; ba mặt cạnh tranh."
+      ],
+      "owner_comments": [],
+      "raw": "| V6R2-MP-039 | N/P | N/P | recrop | Tay đan rõ, mặt hướng trước khỏi sách; ba mặt cạnh tranh. |"
+    },
+    "states": [
+      "N",
+      "P"
+    ],
+    "person": {
+      "xmin": 433,
+      "ymin": 303,
+      "xmax": 553,
+      "ymax": 480
+    },
+    "context": {
+      "xmin": 433,
+      "ymin": 303,
+      "xmax": 553,
+      "ymax": 480
+    },
+    "trials": [
+      {
+        "parent": "V6R2-MP-039",
+        "id": "V6R2-MP-039-R03",
+        "person": [
+          455,
+          323,
+          538,
+          458
+        ],
+        "context": [
+          448,
+          316,
+          548,
+          480
+        ],
+        "states": [
+          "N",
+          "P"
+        ],
+        "reason": "Thử đại diện gần SB029 nhưng giữ đầu trọn và hai tay đan, cần so trùng sau QA."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V6R2-MP-039-R03",
+        "result": "needs_revision",
+        "states": [
+          "N",
+          "P"
+        ],
+        "note": "Đầu chính trọn nhưng mặt sau trái còn rõ; cần so với SB029 và sửa đại diện tốt hơn."
+      }
+    ]
+  },
+  {
+    "id": "V6R2-MP-043",
+    "owner": {
+      "line": 763,
+      "cells": [
+        "V6R2-MP-043",
+        "P/P",
+        "U/P",
+        "recrop",
+        "Vật phẳng đen trên bàn chưa đủ nhận dạng, mặt ngẩng trước; nhiều mặt lớn.",
+        "P/P"
+      ],
+      "owner_comments": [
+        "P/P"
+      ],
+      "raw": "| V6R2-MP-043 | P/P | U/P | recrop | Vật phẳng đen trên bàn chưa đủ nhận dạng, mặt ngẩng trước; nhiều mặt lớn. | P/P |"
+    },
+    "states": [
+      "P",
+      "P"
+    ],
+    "person": {
+      "xmin": 135,
+      "ymin": 347,
+      "xmax": 236,
+      "ymax": 547
+    },
+    "context": {
+      "xmin": 135,
+      "ymin": 347,
+      "xmax": 236,
+      "ymax": 547
+    },
+    "trials": [
+      {
+        "parent": "V6R2-MP-043",
+        "id": "V6R2-MP-043-R03",
+        "person": [
+          151,
+          368,
+          222,
+          520
+        ],
+        "context": [
+          144,
+          360,
+          230,
+          548
+        ],
+        "states": [
+          "P",
+          "P"
+        ],
+        "reason": "Giữ nam trước và vật đen trên bàn theo owner P/P, giảm mặt hai người sau."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V6R2-MP-043-R03",
+        "result": "needs_revision",
+        "states": [
+          "P",
+          "P"
+        ],
+        "note": "Mặt người sau hai bên còn rõ và vật đen bị sát mép trái. Chưa đạt dù giữ ý kiến phone P của owner."
+      }
+    ]
+  },
+  {
+    "id": "V6R2-MP-053",
+    "owner": {
+      "line": 770,
+      "cells": [
+        "V6R2-MP-053",
+        "P/U",
+        "U/P",
+        "recrop",
+        "Vật trong tay không đủ nhận dạng, mặt hướng trước; người sau và device riêng cạnh tranh."
+      ],
+      "owner_comments": [],
+      "raw": "| V6R2-MP-053 | P/U | U/P | recrop | Vật trong tay không đủ nhận dạng, mặt hướng trước; người sau và device riêng cạnh tranh. |"
+    },
+    "states": [
+      "U",
+      "P"
+    ],
+    "person": {
+      "xmin": 217,
+      "ymin": 318,
+      "xmax": 319,
+      "ymax": 504
+    },
+    "context": {
+      "xmin": 217,
+      "ymin": 318,
+      "xmax": 319,
+      "ymax": 504
+    },
+    "trials": [
+      {
+        "parent": "V6R2-MP-053",
+        "id": "V6R2-MP-053-R03",
+        "person": [
+          231,
+          336,
+          309,
+          477
+        ],
+        "context": [
+          224,
+          329,
+          318,
+          504
+        ],
+        "states": [
+          "U",
+          "P"
+        ],
+        "reason": "Giữ nam cười cùng hai tay/vật, giảm mặt sau phải."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V6R2-MP-053-R03",
+        "result": "needs_revision",
+        "states": [
+          "U",
+          "P"
+        ],
+        "note": "Mặt phía sau phải còn lớn và device riêng nhìn thấy; cần giảm cạnh tranh."
+      }
+    ]
+  },
+  {
+    "id": "V6R2-MP-074",
+    "owner": {
+      "line": 781,
+      "cells": [
+        "V6R2-MP-074",
+        "U/N",
+        "U/N",
+        "recrop",
+        "Tay còn lại không rõ, hướng xuống sách; nhiều mặt lớn phía sau."
+      ],
+      "owner_comments": [],
+      "raw": "| V6R2-MP-074 | U/N | U/N | recrop | Tay còn lại không rõ, hướng xuống sách; nhiều mặt lớn phía sau. |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 485,
+      "ymin": 235,
+      "xmax": 551,
+      "ymax": 350
+    },
+    "context": {
+      "xmin": 485,
+      "ymin": 235,
+      "xmax": 551,
+      "ymax": 350
+    },
+    "trials": [
+      {
+        "parent": "V6R2-MP-074",
+        "id": "V6R2-MP-074-R03",
+        "person": [
+          504,
+          259,
+          541,
+          342
+        ],
+        "context": [
+          499,
+          252,
+          548,
+          353
+        ],
+        "states": [
+          "U",
+          "N"
+        ],
+        "reason": "Tách nữ cúi sách, giữ phần tay còn thấy; giảm mặt người trái."
+      },
+      {
+        "parent": "V6R2-MP-074",
+        "id": "V6R2-MP-074-R04",
+        "person": [
+          504,
+          249,
+          541,
+          342
+        ],
+        "context": [
+          495,
+          241,
+          553,
+          355
+        ],
+        "states": [
+          "U",
+          "N"
+        ],
+        "reason": "Nới trên và phải để giữ đầu và tay tựa mặt, giảm mặt sau theo ranh giới trái."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V6R2-MP-074-R03",
+        "result": "needs_revision",
+        "states": [
+          "U",
+          "N"
+        ],
+        "note": "Cắt tóc và tay sát mép phải; cần nới để không dùng geometry mất bằng chứng."
+      },
+      {
+        "id": "V6R2-MP-074-R04",
+        "result": "needs_revision",
+        "states": [
+          "U",
+          "N"
+        ],
+        "note": "Đầu và tay tựa đủ hơn, nhưng mặt nam trái sau còn rõ cùng cỡ; chưa đạt."
+      }
+    ]
+  },
+  {
+    "id": "V6R2-MP-080",
+    "owner": {
+      "line": 783,
+      "cells": [
+        "V6R2-MP-080",
+        "P/U",
+        "P/N",
+        "recrop",
+        "Màn hình màu và viền phone rõ trên bàn, hướng vùng riêng; mặt người sau lớn."
+      ],
+      "owner_comments": [],
+      "raw": "| V6R2-MP-080 | P/U | P/N | recrop | Màn hình màu và viền phone rõ trên bàn, hướng vùng riêng; mặt người sau lớn. |"
+    },
+    "states": [
+      "P",
+      "N"
+    ],
+    "person": {
+      "xmin": 327,
+      "ymin": 340,
+      "xmax": 434,
+      "ymax": 524
+    },
+    "context": {
+      "xmin": 327,
+      "ymin": 340,
+      "xmax": 434,
+      "ymax": 524
+    },
+    "trials": [
+      {
+        "parent": "V6R2-MP-080",
+        "id": "V6R2-MP-080-R03",
+        "person": [
+          341,
+          373,
+          421,
+          504
+        ],
+        "context": [
+          335,
+          366,
+          430,
+          524
+        ],
+        "states": [
+          "P",
+          "N"
+        ],
+        "reason": "Giảm mặt người sau phía trên, giữ phone mặt màu trên bàn và hai tay."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V6R2-MP-080-R03",
+        "result": "needs_revision",
+        "states": [
+          "P",
+          "N"
+        ],
+        "note": "Giữ phone và tay rõ nhưng phần miệng/mặt người sau còn trên trái; mép trên đang chạm tóc anchor. Cần điều chỉnh hoặc loại vì chồng lấp."
+      }
+    ]
+  },
+  {
+    "id": "V6R2-SB-001",
+    "owner": {
+      "line": 792,
+      "cells": [
+        "V6R2-SB-001",
+        "P/U",
+        "U/N",
+        "recrop",
+        "Vật trong tay không đủ camera/màn hình, hướng tay; mặt người sau sát target."
+      ],
+      "owner_comments": [],
+      "raw": "| V6R2-SB-001 | P/U | U/N | recrop | Vật trong tay không đủ camera/màn hình, hướng tay; mặt người sau sát target. |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 360,
+      "ymin": 166,
+      "xmax": 465,
+      "ymax": 306
+    },
+    "context": {
+      "xmin": 360,
+      "ymin": 166,
+      "xmax": 465,
+      "ymax": 306
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V6R2-SB-002",
+    "owner": {
+      "line": 793,
+      "cells": [
+        "V6R2-SB-002",
+        "P/U",
+        "U/N",
+        "recrop",
+        "Lưng vật không đủ nhận dạng, đầu hướng tay; mặt tiền cảnh chen lớn."
+      ],
+      "owner_comments": [],
+      "raw": "| V6R2-SB-002 | P/U | U/N | recrop | Lưng vật không đủ nhận dạng, đầu hướng tay; mặt tiền cảnh chen lớn. |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 278,
+      "ymin": 305,
+      "xmax": 350,
+      "ymax": 420
+    },
+    "context": {
+      "xmin": 278,
+      "ymin": 305,
+      "xmax": 350,
+      "ymax": 420
+    },
+    "trials": [
+      {
+        "parent": "V6R2-SB-002",
+        "id": "V6R2-SB-002-R03",
+        "person": [
+          299,
+          325,
+          340,
+          410
+        ],
+        "context": [
+          294,
+          317,
+          347,
+          420
+        ],
+        "states": [
+          "U",
+          "N"
+        ],
+        "reason": "Tách nam sau đang cầm vật, giảm mặt tiền cảnh bên trái."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V6R2-SB-002-R03",
+        "result": "needs_revision",
+        "states": [
+          "U",
+          "N"
+        ],
+        "note": "Tay/vật bị mép trái che bởi thân tiền cảnh; tóc sát trên. Chưa đủ geometry mới."
+      }
+    ]
+  },
+  {
+    "id": "V6R2-SB-008",
+    "owner": {
+      "line": 796,
+      "cells": [
+        "V6R2-SB-008",
+        "U/P",
+        "U/P",
+        "recrop",
+        "Hai tay khuất dưới bàn, mặt quay ra trước; hai mặt phía sau cạnh tranh anchor."
+      ],
+      "owner_comments": [],
+      "raw": "| V6R2-SB-008 | U/P | U/P | recrop | Hai tay khuất dưới bàn, mặt quay ra trước; hai mặt phía sau cạnh tranh anchor. |"
+    },
+    "states": [
+      "U",
+      "P"
+    ],
+    "person": {
+      "xmin": 456,
+      "ymin": 271,
+      "xmax": 581,
+      "ymax": 474
+    },
+    "context": {
+      "xmin": 456,
+      "ymin": 271,
+      "xmax": 581,
+      "ymax": 474
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V6R2-SB-009",
+    "owner": {
+      "line": 797,
+      "cells": [
+        "V6R2-SB-009",
+        "U/N",
+        "U/N",
+        "recrop",
+        "Đầu hướng sách nhưng tay và thân bị khung rất hẹp cắt; thử nới về phía trong source."
+      ],
+      "owner_comments": [],
+      "raw": "| V6R2-SB-009 | U/N | U/N | recrop | Đầu hướng sách nhưng tay và thân bị khung rất hẹp cắt; thử nới về phía trong source. |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 588,
+      "ymin": 346,
+      "xmax": 623,
+      "ymax": 446
+    },
+    "context": {
+      "xmin": 588,
+      "ymin": 346,
+      "xmax": 623,
+      "ymax": 446
+    },
+    "trials": [
+      {
+        "parent": "V6R2-SB-009",
+        "id": "V6R2-SB-009-R03",
+        "person": [
+          585,
+          364,
+          615,
+          436
+        ],
+        "context": [
+          573,
+          352,
+          629,
+          451
+        ],
+        "states": [
+          "U",
+          "N"
+        ],
+        "reason": "Nới về phía trong nguồn để giữ tay và sách của nữ áo xanh mép phải."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V6R2-SB-009-R03",
+        "result": "needs_revision",
+        "states": [
+          "U",
+          "N"
+        ],
+        "note": "Đã lấy thêm tay/sách nhưng người trái vẫn sát và hình méo theo nguồn; cần xem rõ attribution tại native lớn."
+      }
+    ]
+  },
+  {
+    "id": "V7-B-028",
+    "owner": {
+      "line": 812,
+      "cells": [
+        "V7-B-028",
+        "N/N",
+        "N/N",
+        "recrop",
+        "Hai tay trên trang và hướng bài rõ; mặt người sau lớn sát đầu target, cần thu khung."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-B-028 | N/N | N/N | recrop | Hai tay trên trang và hướng bài rõ; mặt người sau lớn sát đầu target, cần thu khung. |"
+    },
+    "states": [
+      "N",
+      "N"
+    ],
+    "person": {
+      "xmin": 199,
+      "ymin": 166,
+      "xmax": 640,
+      "ymax": 640
+    },
+    "context": {
+      "xmin": 199,
+      "ymin": 166,
+      "xmax": 640,
+      "ymax": 640
+    },
+    "trials": [
+      {
+        "parent": "V7-B-028",
+        "id": "V7-B-028-R03",
+        "person": [
+          259,
+          245,
+          640,
+          640
+        ],
+        "context": [
+          238,
+          230,
+          640,
+          640
+        ],
+        "states": [
+          "N",
+          "N"
+        ],
+        "reason": "Giữ nữ viết trước, tóc và tay/trang, giảm mặt nam sau phía trên."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V7-B-028-R03",
+        "result": "needs_revision",
+        "states": [
+          "N",
+          "N"
+        ],
+        "note": "Mặt nam sau còn phần dưới lớn sát tóc anchor; giảm trên tiếp sẽ cắt tóc. Cần cân nhắc loại hoặc geometry giữ giới hạn này có lý do."
+      }
+    ]
+  },
+  {
+    "id": "V7-B-030",
+    "owner": {
+      "line": 813,
+      "cells": [
+        "V7-B-030",
+        "N/N",
+        "N/N",
+        "recrop",
+        "Target giữa viết trên trang với hai tay rõ; person box bao ba người cạnh nhau."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-B-030 | N/N | N/N | recrop | Target giữa viết trên trang với hai tay rõ; person box bao ba người cạnh nhau. |"
+    },
+    "states": [
+      "N",
+      "N"
+    ],
+    "person": {
+      "xmin": 100,
+      "ymin": 46,
+      "xmax": 636,
+      "ymax": 513
+    },
+    "context": {
+      "xmin": 100,
+      "ymin": 46,
+      "xmax": 636,
+      "ymax": 513
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-B-062",
+    "owner": {
+      "line": 817,
+      "cells": [
+        "V7-B-062",
+        "N/N",
+        "U/N",
+        "recrop",
+        "Hướng bài rõ nhưng tay bị đầu tiền cảnh che; nhiều mặt cạnh tranh, cần sửa khung."
+      ],
+      "owner_comments": [],
+      "raw": "| V7-B-062 | N/N | U/N | recrop | Hướng bài rõ nhưng tay bị đầu tiền cảnh che; nhiều mặt cạnh tranh, cần sửa khung. |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 32,
+      "ymin": 262,
+      "xmax": 244,
+      "ymax": 628
+    },
+    "context": {
+      "xmin": 32,
+      "ymin": 262,
+      "xmax": 244,
+      "ymax": 628
+    },
+    "trials": [
+      {
+        "parent": "V7-B-062",
+        "id": "V7-B-062-R03",
+        "person": [
+          36,
+          351,
+          164,
+          570
+        ],
+        "context": [
+          24,
+          337,
+          177,
+          594
+        ],
+        "states": [
+          "U",
+          "N"
+        ],
+        "reason": "Tách nam cúi viết, giảm các mặt sau, tay dưới vẫn bị tóc tiền cảnh che."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V7-B-062-R03",
+        "result": "needs_revision",
+        "states": [
+          "U",
+          "N"
+        ],
+        "note": "Mặt người trái còn rõ cùng cỡ, đầu tiền cảnh che bàn; bản thử chưa giải quyết cạnh tranh."
+      }
+    ]
+  },
+  {
+    "id": "E004-CN-052",
+    "owner": {
+      "line": 826,
+      "cells": [
+        "E004-CN-052",
+        "N/U",
+        "N/U",
+        "recrop",
+        "Hai tay trên bàn không có vật mơ hồ, tóc che kín mặt và đích nhìn; người cạnh chiếm lớn.",
+        "N/N"
+      ],
+      "owner_comments": [
+        "N/N"
+      ],
+      "raw": "| E004-CN-052 | N/U | N/U | recrop | Hai tay trên bàn không có vật mơ hồ, tóc che kín mặt và đích nhìn; người cạnh chiếm lớn. | N/N |"
+    },
+    "states": [
+      "N",
+      "N"
+    ],
+    "person": {
+      "xmin": 613,
+      "ymin": 70,
+      "xmax": 1363,
+      "ymax": 1074
+    },
+    "context": {
+      "xmin": 559,
+      "ymin": 43,
+      "xmax": 1363,
+      "ymax": 1074
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "E004-EX-C089",
+    "owner": {
+      "line": 837,
+      "cells": [
+        "E004-EX-C089",
+        "N/P",
+        "N/N",
+        "recrop",
+        "Target áo xanh có hai tay tại bài/laptop riêng, nhìn vùng thao tác; hai mặt và thân lớn cạnh nhau.",
+        "N/P"
+      ],
+      "owner_comments": [
+        "N/P"
+      ],
+      "raw": "| E004-EX-C089 | N/P | N/N | recrop | Target áo xanh có hai tay tại bài/laptop riêng, nhìn vùng thao tác; hai mặt và thân lớn cạnh nhau. | N/P |"
+    },
+    "states": [
+      "N",
+      "P"
+    ],
+    "person": {
+      "xmin": 162,
+      "ymin": 137,
+      "xmax": 670,
+      "ymax": 716
+    },
+    "context": {
+      "xmin": 108,
+      "ymin": 104,
+      "xmax": 778,
+      "ymax": 720
+    },
+    "trials": [],
+    "qa": []
+  }
+]

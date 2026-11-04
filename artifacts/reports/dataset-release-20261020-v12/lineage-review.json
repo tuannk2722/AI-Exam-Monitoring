@@ -1,0 +1,104 @@
+{
+  "status": "reviewed_proposal_pending_owner_group_acceptance",
+  "screened_non_test_sources": 1281,
+  "manual_comparisons": [
+    {
+      "comparison_id": "L01",
+      "result": "distinct_visible_scene",
+      "note": "Đã xem hai frame: khác cấu trúc phòng/bàn và bố cục; không phải duplicate."
+    },
+    {
+      "comparison_id": "L02",
+      "result": "distinct_visible_scene",
+      "note": "Đã xem hai frame: khác cấu trúc phòng/bàn và bố cục; không phải duplicate."
+    },
+    {
+      "comparison_id": "L03",
+      "result": "distinct_visible_scene",
+      "note": "Đã xem hai frame: khác cấu trúc phòng/bàn và bố cục; không phải duplicate."
+    },
+    {
+      "comparison_id": "L04",
+      "result": "distinct_visible_scene",
+      "note": "Đã xem hai frame: khác cấu trúc phòng/bàn và bố cục; không phải duplicate."
+    },
+    {
+      "comparison_id": "L05",
+      "result": "distinct_visible_scene",
+      "note": "Đã xem hai frame: khác cấu trúc phòng/bàn và bố cục; không phải duplicate."
+    },
+    {
+      "comparison_id": "L06",
+      "result": "distinct_visible_scene",
+      "note": "Đã xem hai frame: khác cấu trúc phòng/bàn và bố cục; không phải duplicate."
+    },
+    {
+      "comparison_id": "L07",
+      "result": "distinct_visible_scene",
+      "note": "Đã xem hai frame: khác cấu trúc phòng/bàn và bố cục; không phải duplicate."
+    },
+    {
+      "comparison_id": "L08",
+      "result": "distinct_visible_scene",
+      "note": "Đã xem hai frame: khác cấu trúc phòng/bàn và bố cục; không phải duplicate."
+    },
+    {
+      "comparison_id": "L09",
+      "result": "distinct_visible_scene",
+      "note": "Đã xem hai frame: khác cấu trúc phòng/bàn và bố cục; không phải duplicate."
+    },
+    {
+      "comparison_id": "L10",
+      "result": "distinct_visible_scene",
+      "note": "Đã xem hai frame: khác cấu trúc phòng/bàn và bố cục; không phải duplicate."
+    },
+    {
+      "comparison_id": "L11",
+      "result": "distinct_visible_scene",
+      "note": "Đã xem hai frame: khác cấu trúc phòng/bàn và bố cục; không phải duplicate."
+    },
+    {
+      "comparison_id": "L12",
+      "result": "distinct_visible_scene",
+      "note": "Đã xem hai frame: khác cấu trúc phòng/bàn và bố cục; không phải duplicate."
+    },
+    {
+      "comparison_id": "L13",
+      "result": "distinct_visible_scene",
+      "note": "Đã xem hai frame: khác cấu trúc phòng/bàn và bố cục; không phải duplicate."
+    },
+    {
+      "comparison_id": "L14",
+      "result": "distinct_visible_scene",
+      "note": "Đã xem hai frame: khác cấu trúc phòng/bàn và bố cục; không phải duplicate."
+    },
+    {
+      "comparison_id": "L15",
+      "result": "distinct_visible_scene",
+      "note": "Đã xem hai frame: khác cấu trúc phòng/bàn và bố cục; không phải duplicate."
+    },
+    {
+      "comparison_id": "L16",
+      "result": "distinct_visible_scene",
+      "note": "Đã xem hai frame: khác cấu trúc phòng/bàn và bố cục; không phải duplicate."
+    },
+    {
+      "comparison_id": "L17",
+      "result": "distinct_visible_scene",
+      "note": "Đã xem hai frame: khác cấu trúc phòng/bàn và bố cục; không phải duplicate."
+    },
+    {
+      "comparison_id": "L18",
+      "result": "distinct_visible_scene",
+      "note": "Đã xem hai frame: khác cấu trúc phòng/bàn và bố cục; không phải duplicate."
+    }
+  ],
+  "conservative_family": [
+    "Y03",
+    "Y05",
+    "prior-audit-G17"
+  ],
+  "G17_records_in_V11": 0,
+  "independence_proven": false,
+  "proposal": "90 new crops train only; no random frame split; preserve V11 retained roles."
+}

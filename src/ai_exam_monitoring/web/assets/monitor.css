@@ -1,0 +1,33 @@
+.monitor-page { max-width: 1600px; margin: auto; padding: 28px 32px; }
+.monitor-page a, .top-actions a { color: var(--accent); text-decoration: none; }
+.source-panel { padding: 16px 20px; margin-bottom: 20px; }
+#upload-form { display: flex; gap: 20px; align-items: end; }
+#upload-form label { flex: 1; margin: 0; }
+#upload-form input { width: 100%; margin-top: 6px; }
+.monitor-grid { display: grid; grid-template-columns: minmax(0, 3fr) minmax(280px, 1fr); gap: 20px; align-items: start; }
+.monitor-viewer { overflow: hidden; }
+.monitor-toolbar, .monitor-clock, .monitor-metrics { display: flex; flex-wrap: wrap; gap: 12px; justify-content: space-between; padding: 12px 18px; border-bottom: 1px solid var(--border); }
+.monitor-screen { position: relative; background: #080e16; aspect-ratio: 16 / 9; display: grid; place-items: center; overflow: hidden; }
+.monitor-screen img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
+#preview-placeholder { text-align: center; padding: 24px; color: #c2d0df; }
+.monitor-glyph { font-size: 52px; color: #69dcc1; }
+.monitor-clock { color: var(--muted); font-variant-numeric: tabular-nums; font-size: 12px; }
+.monitor-controls { display: flex; gap: 10px; flex-wrap: wrap; padding: 16px 18px 10px; }
+#delete { margin-left: auto; }
+.seek-label { margin: 4px 18px; display: flex; justify-content: space-between; font-size: 12px; }
+#seek { width: calc(100% - 36px); margin: 0 18px 12px; }
+.monitor-metrics { font-size: 12px; background: var(--subtle); }
+.monitor-metrics strong { color: var(--text); }
+#retention { padding: 0 18px; }
+.monitor-observations { padding: 22px; }
+.monitor-observations h2 { margin: 4px 0 10px; }
+.observation { border: 1px solid var(--border); border-radius: 8px; padding: 12px; margin: 10px 0; background: var(--subtle); }
+.observation strong { display: block; margin-bottom: 5px; }
+.observation .badge { margin-right: 5px; }
+.monitor-log-note { margin-top: 24px; padding-top: 16px; border-top: 1px solid var(--border); color: var(--muted); font-size: 13px; }
+.monitor-log-note h3 { color: var(--text); }
+.monitor-notice { border: 1px solid var(--warning); padding: 12px 16px; margin-bottom: 16px; border-radius: 8px; color: var(--text); }
+.monitor-footnote { color: var(--muted); font-size: 12px; margin-top: 18px; }
+[hidden] { display: none !important; }
+@media (max-width: 950px) { .monitor-grid { grid-template-columns: 1fr; } .monitor-page { padding: 20px 16px; } #upload-form { flex-wrap: wrap; } }
+@media (max-width: 600px) { #upload-form { display: grid; } .topbar { height: auto; padding: 14px; flex-wrap: wrap; gap: 16px; } .monitor-controls button { flex: 1; } #delete { margin-left: 0; } .monitor-clock { justify-content: start; } }

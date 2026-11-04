@@ -1,0 +1,23 @@
+{
+  "status": "PASS_for_listed_checks_only",
+  "old_rows": 1639,
+  "old_candidates": 1165,
+  "new_rows": 156,
+  "new_candidates": 153,
+  "candidate_inventory": 1318,
+  "crop_pixels_exact_roi": 53,
+  "new_geometry_bounds_and_input_pins": 156,
+  "duplicate_bytes": [],
+  "duplicate_decoded_rgb": [],
+  "accepted_v12_ledger_sha256": "c58a237594e76418bd0d0b78f629560b812a47dcef17d7f66f9e07a027ee662f",
+  "owner_exception_E004_EX_C184": "U/N resolved",
+  "expanded_pairs_screened": 153,
+  "near_repeat_decisions_pending": 3,
+  "not_checked_or_not_accepted": [
+    "global semantic dedup completeness",
+    "owner batch 04 acceptance",
+    "final person geometry for 51 accepted recrops",
+    "lineage group and split acceptance",
+    "release readiness"
+  ]
+}

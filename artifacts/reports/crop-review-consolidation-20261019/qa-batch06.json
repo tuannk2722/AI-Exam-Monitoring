@@ -1,0 +1,19 @@
+{
+  "geometry_qa": [
+    {"id":"V7-D-056-R03","result":"pass_draft","states":["N","N"],"note":"Một mặt chính, hai tay trên keyboard/vùng bàn rõ, không thiết bị nghi vấn, đầu hướng nơi làm việc."},
+    {"id":"V7-D-058-R03","result":"pass_draft","states":["P","N"],"note":"Nữ trái và phone đang thao tác rõ, đầu hướng máy; người phải chỉ còn tay/phone ở mép dưới, attribution tách được."},
+    {"id":"V7-OE-S003-A01-R03","result":"pass_draft","states":["P","N"],"note":"Giữ đầu, hai tay và screen mobile của áo hồng, người phải chỉ còn vai. Hướng đầu theo màn hình cầm tay rõ."},
+    {"id":"E004-EX-C041-R03","result":"pass_draft","states":["P","N"],"note":"Nữ giữa trội, screen/UI trên trang rõ và hai tay gắn anchor. Nam trái chỉ còn tay ở mép, không mặt cạnh tranh."},
+    {"id":"E004-EX-C042-R03","result":"pass_draft","states":["P","P"],"note":"Phone mặt trước có viền trên bàn riêng, đầu quay trái khỏi giấy; chỉ một mặt chính."},
+    {"id":"E004-EX-C066-R03","result":"pass_draft","states":["P","N"],"note":"Giữ phone mặt kính/viền trên trang và nữ chống má hướng trang, bỏ mặt nam trái. Chỏm tóc thiếu từ chính source, không thiếu mặt."},
+    {"id":"E004-EX-C199-R03","result":"pass_draft","states":["P","P"],"note":"Vật trên bàn còn thấy mặt kính đen và viền sáng ở native/input, giữ P theo owner. Nữ quay đầu về phía sau; crop đơn không còn mặt khác."},
+    {"id":"EXP-RF-010-R03","result":"pass_draft","states":["U","N"],"note":"Bỏ dải chữ mà giữ tay viết/trang. Tay còn lại nằm khuất sát thân/cánh tay, không đủ absence nên phone U; đề xuất đổi nhãn trong review geometry mới."},
+    {"id":"P006-extra-01-R03","result":"needs_revision","states":["N","P"],"note":"Thu trái quá mức cắt phần mặt và bàn tay. Chưa đạt; nới sẽ đưa lại mặt người sau, cần xem lựa chọn đại diện."}
+  ],
+  "recrop_source_boards_viewed": [16,17,18],
+  "source_only_followup": [
+    {"id":"EXP-RF-003","note":"Chữ đè cẳng tay/cổ tay; không thể bỏ bằng rectangle mà giữ trọn tay. Cần quyết định loại nếu overlay vi phạm rubric."},
+    {"id":"EXP-RF-006","note":"Chữ đáy chồng tay/giấy, không cắt mất tay để loại chữ. Cần quyết định loại hoặc giữ có lý do theo rubric."},
+    {"id":"EXP-RF-023","note":"Watermark chồng tay trao giấy và đầu tiền cảnh; chưa có recrop giữ bằng chứng đủ sạch."}
+  ]
+}

@@ -1,0 +1,28 @@
+schema_version: selected-crop-review-v2
+run_id: RUNTIME-V8S-CROP-REVIEW-20261026
+approval_ref: configs/runtime/RUNTIME-V8S-20261026/crop-review-authorization.json
+selected_arm: V8S
+new_crop_forwards: 364
+cached_crops: 0
+pins:
+  winner:
+    path: configs/runtime/RUNTIME-V8S-20261026/selection.json
+    sha256: 3fe39976db39bcbb0787e4ce3f9547edb6dc054eaf349433abd851fc26ef0182
+  runtime_config:
+    path: configs/runtime/RUNTIME-V8S-20261026/runtime.yaml
+    sha256: 513dd60b2a83770914b6f5ad62a0ca9e4a3445b77701c869bcae86ec5de24dfc
+  cohort:
+    path: outputs/runtime-detector-review-20261025/cohort.json
+    sha256: 44d3da6f3461199ea1506dad50c64ed5aff0398a2e55492497578ddb55a7fa6e
+  diagnostic_config:
+    path: configs/runtime/RUNTIME-DETECTOR-COMPARISON-20261026/proposal.yaml
+    sha256: 1c5c33d33e3dfa4c98bd761025e365a42d4b4c07ac0046b2325c082be733bfb0
+  diagnostic_checksums:
+    path: outputs/runtime-detector-comparison-20261026/checksums.json
+    sha256: 5234de22d1a1e7c6a34ef5923961b18edfd5ce7d19444af4ef52fddeaa93d446
+  diagnostic_run:
+    path: outputs/runtime-detector-comparison-20261026/run.json
+    sha256: 33ffbe63677652c0f0cfdd7c7aa8b294cb7d43045bf45b61fbcbd6dbcdfbb7a8
+  detections:
+    path: outputs/runtime-detector-comparison-20261026/detections.json
+    sha256: 3d5b979d307dfda700a34000109f8d57b8973a7e5162aa9946020e67387e38e3

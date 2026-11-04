@@ -1,0 +1,94 @@
+schema_version: spatial-research-proposal-v1
+experiment_family: E008-V14-LOOKING-20261024
+status: approved_under_owner_delegation
+executable: false
+owner: repository-owner
+targets: [phone_use, looking_around]
+dataset:
+  version: pilot-b-20261024-v14
+  expected_records: {train: 1199, val: 156, test: 0}
+  independence_claim: false
+  mutate_release: false
+common:
+  device: cuda
+  precision: float32
+  tf32: false
+  workers: 0
+  threads: 4
+  batch_size: 16
+  head_learning_rate: 0.0003
+  weight_decay: 0.01
+  max_epochs: 24
+  warmup_head_only_epochs: 3
+  patience: 6
+  min_delta: 0.0001
+  lr_scheduler: cosine
+  min_lr_ratio: 0.1
+  head: {hidden_dim: 128, dropout: 0.3, output_dim: 2}
+  loss:
+    objective: balanced_smoothed_minibatch_bce_v3
+    pos_weight: [1.4113362174546458, 2.160246899469287]
+    label_smoothing: 0.05
+  augmentation:
+    enabled: true
+    horizontal_flip_prob: 0.5
+    brightness_jitter: 0.15
+    contrast_jitter: 0.15
+    saturation_jitter: 0.1
+    box_jitter_ratio: 0.0
+    random_erasing_prob: 0.0
+arms:
+  G0:
+    encoder: dinov2_vits14
+    image_size: 336
+    feature_dim: 768
+    pooling: global_mean
+    trainable_scope: head_and_last_two_blocks
+    backbone_learning_rate: 0.00001
+    random_erasing_prob: 0.0
+  G1:
+    same_as: G0
+    feature_dim: 1920
+    pooling: context_2x2
+  A1:
+    same_as: G1
+    pooling: person_2x2
+screening:
+  seed: 20261023
+  champion_rank: [both_targets_pass, number_targets_pass, min_total_gate_shortfall,
+                  max_macro_ap, min_raw_masked_bce, arm_id]
+selection:
+  checkpoint: max_val_macro_ap_then_min_raw_masked_bce_then_earliest_epoch
+  calibration: exact_v4_val_once_reused_train_val_slices_reload
+  support: {positive_min: 30, negative_min: 30, positive_groups_min: 5, negative_groups_min: 5}
+  quality: {precision_min: 0.8, recall_min: 0.8, fpr_max: 0.2}
+  looking_val_positive: 29
+  looking_support_status: insufficient_for_quality_acceptance
+budgets:
+  gpu_4h:
+    screening_arms: [G0, G1, A1]
+    confirmation_seeds: [20261024, 20261025]
+    confirmation_arms: [screening_champion, G0]
+    max_research_runs: 7
+    smoke_minutes: 30
+    run_including_reload_minutes: 25
+    reserve_minutes: 35
+    total_gpu_minutes: 240
+    purchase_extra_credits: false
+initialization:
+  warm_start_historical_run: false
+  shared_head_G1_A1_by_seed: true
+  shared_pretrained_all_arms: true
+pooling:
+  bin_order: [top_left, top_right, bottom_left, bottom_right]
+  weights: patch_bin_intersection_area
+  coordinates: continuous_xyxy_after_exact_rounded_letterbox_and_hflip
+  invalid_or_empty_bin: error
+  context_self_attention_preserved: true
+execution:
+  owner_runs_notebook: true
+  private_colab_drive_only: true
+  actual_gpu_smoke_before_research: true
+  stop_on_oom_or_timing_failure: true
+  final_test_authorized: false
+  promotion_authorized: false

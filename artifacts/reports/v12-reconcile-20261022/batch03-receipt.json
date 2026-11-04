@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-23",
+  "owner_response": "data/interim/v12-reconcile-20261022/inputs/owner-batch-03-response.md",
+  "sha256": "eaad6668245c3e7babc5caee1b46b4f064e160ba1fd9f66ddd31e7667f4fe2ba",
+  "labels": {
+    "V7-B-001": "UN",
+    "V7-B-047": "UN",
+    "V7-B-057": "UN",
+    "V7-B-077-R03": "UN",
+    "V7-D-051": "UN",
+    "V7-OE-S104-A01": "UN",
+    "V7-OE-S108-A01": "UN",
+    "V7-OE-S111-A01-R03": "UN",
+    "E004-EX-C043": "UN",
+    "E004-EX-C184": "UN",
+    "E004-EX-C190": "UN",
+    "V7-A-004-ADD02": "PN",
+    "V7-B-031-R03": "PN"
+  },
+  "removed": [
+    "NB-0031"
+  ],
+  "approved_crop_count": 51,
+  "geometry_input_sha256": "96d03bd4b984cdfd8e6c3f2a84599c93f2e89381ca1000caa86befbd7775404c",
+  "anchors": {
+    "G07-B12-F00029": "middle_ponytail_person",
+    "G22-B16-F00034": "right_ponytail_person"
+  },
+  "pending": [
+    "E004-EX-C184_phone_U_reason",
+    "G22-B16-F00034_phone_recheck",
+    "two_recrops_after_anchor_confirmation"
+  ]
+}

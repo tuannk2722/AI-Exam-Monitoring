@@ -1,0 +1,614 @@
+[
+  {
+    "run": "E007-V13-D1-S20261023",
+    "split": "train",
+    "target": "phone_use",
+    "mode": "fixed",
+    "counts": {
+      "TP": 333,
+      "TN": 679,
+      "U": 93,
+      "FP": 5,
+      "FN": 9
+    }
+  },
+  {
+    "run": "E007-V13-D1-S20261023",
+    "split": "train",
+    "target": "phone_use",
+    "mode": "calibrated",
+    "counts": {
+      "TP": 339,
+      "TN": 670,
+      "U": 93,
+      "FP": 14,
+      "FN": 3
+    }
+  },
+  {
+    "run": "E007-V13-D1-S20261023",
+    "split": "train",
+    "target": "looking_around",
+    "mode": "fixed",
+    "counts": {
+      "TN": 918,
+      "FN": 5,
+      "TP": 174,
+      "U": 9,
+      "FP": 13
+    }
+  },
+  {
+    "run": "E007-V13-D1-S20261023",
+    "split": "train",
+    "target": "looking_around",
+    "mode": "calibrated",
+    "counts": {
+      "TN": 877,
+      "FN": 1,
+      "TP": 178,
+      "FP": 54,
+      "U": 9
+    }
+  },
+  {
+    "run": "E007-V13-D1-S20261023",
+    "split": "val",
+    "target": "phone_use",
+    "mode": "fixed",
+    "counts": {
+      "TN": 115,
+      "TP": 45,
+      "FP": 5,
+      "U": 10,
+      "FN": 10
+    }
+  },
+  {
+    "run": "E007-V13-D1-S20261023",
+    "split": "val",
+    "target": "phone_use",
+    "mode": "calibrated",
+    "counts": {
+      "TN": 115,
+      "TP": 48,
+      "FP": 5,
+      "U": 10,
+      "FN": 7
+    }
+  },
+  {
+    "run": "E007-V13-D1-S20261023",
+    "split": "val",
+    "target": "looking_around",
+    "mode": "fixed",
+    "counts": {
+      "TN": 140,
+      "FP": 12,
+      "TP": 20,
+      "FN": 13
+    }
+  },
+  {
+    "run": "E007-V13-D1-S20261023",
+    "split": "val",
+    "target": "looking_around",
+    "mode": "calibrated",
+    "counts": {
+      "TN": 132,
+      "FP": 20,
+      "TP": 26,
+      "FN": 7
+    }
+  },
+  {
+    "run": "E007-V13-D1-S20261024",
+    "split": "train",
+    "target": "phone_use",
+    "mode": "fixed",
+    "counts": {
+      "TP": 328,
+      "TN": 671,
+      "U": 93,
+      "FP": 13,
+      "FN": 14
+    }
+  },
+  {
+    "run": "E007-V13-D1-S20261024",
+    "split": "train",
+    "target": "phone_use",
+    "mode": "calibrated",
+    "counts": {
+      "TP": 334,
+      "TN": 658,
+      "U": 93,
+      "FP": 26,
+      "FN": 8
+    }
+  },
+  {
+    "run": "E007-V13-D1-S20261024",
+    "split": "train",
+    "target": "looking_around",
+    "mode": "fixed",
+    "counts": {
+      "TN": 897,
+      "FN": 17,
+      "TP": 162,
+      "FP": 34,
+      "U": 9
+    }
+  },
+  {
+    "run": "E007-V13-D1-S20261024",
+    "split": "train",
+    "target": "looking_around",
+    "mode": "calibrated",
+    "counts": {
+      "TN": 897,
+      "FN": 17,
+      "TP": 162,
+      "FP": 34,
+      "U": 9
+    }
+  },
+  {
+    "run": "E007-V13-D1-S20261024",
+    "split": "val",
+    "target": "phone_use",
+    "mode": "fixed",
+    "counts": {
+      "TN": 115,
+      "TP": 44,
+      "FP": 5,
+      "U": 10,
+      "FN": 11
+    }
+  },
+  {
+    "run": "E007-V13-D1-S20261024",
+    "split": "val",
+    "target": "phone_use",
+    "mode": "calibrated",
+    "counts": {
+      "TN": 115,
+      "TP": 48,
+      "FP": 5,
+      "U": 10,
+      "FN": 7
+    }
+  },
+  {
+    "run": "E007-V13-D1-S20261024",
+    "split": "val",
+    "target": "looking_around",
+    "mode": "fixed",
+    "counts": {
+      "TN": 144,
+      "FP": 8,
+      "TP": 22,
+      "FN": 11
+    }
+  },
+  {
+    "run": "E007-V13-D1-S20261024",
+    "split": "val",
+    "target": "looking_around",
+    "mode": "calibrated",
+    "counts": {
+      "TN": 144,
+      "FP": 8,
+      "TP": 23,
+      "FN": 10
+    }
+  },
+  {
+    "run": "E007-V13-D1-S20261025",
+    "split": "train",
+    "target": "phone_use",
+    "mode": "fixed",
+    "counts": {
+      "TP": 336,
+      "TN": 673,
+      "U": 93,
+      "FP": 11,
+      "FN": 6
+    }
+  },
+  {
+    "run": "E007-V13-D1-S20261025",
+    "split": "train",
+    "target": "phone_use",
+    "mode": "calibrated",
+    "counts": {
+      "TP": 337,
+      "TN": 669,
+      "U": 93,
+      "FP": 15,
+      "FN": 5
+    }
+  },
+  {
+    "run": "E007-V13-D1-S20261025",
+    "split": "train",
+    "target": "looking_around",
+    "mode": "fixed",
+    "counts": {
+      "TN": 916,
+      "FN": 12,
+      "TP": 167,
+      "U": 9,
+      "FP": 15
+    }
+  },
+  {
+    "run": "E007-V13-D1-S20261025",
+    "split": "train",
+    "target": "looking_around",
+    "mode": "calibrated",
+    "counts": {
+      "TN": 905,
+      "FN": 7,
+      "TP": 172,
+      "FP": 26,
+      "U": 9
+    }
+  },
+  {
+    "run": "E007-V13-D1-S20261025",
+    "split": "val",
+    "target": "phone_use",
+    "mode": "fixed",
+    "counts": {
+      "TN": 114,
+      "TP": 47,
+      "FP": 6,
+      "U": 10,
+      "FN": 8
+    }
+  },
+  {
+    "run": "E007-V13-D1-S20261025",
+    "split": "val",
+    "target": "phone_use",
+    "mode": "calibrated",
+    "counts": {
+      "TN": 114,
+      "TP": 49,
+      "FP": 6,
+      "U": 10,
+      "FN": 6
+    }
+  },
+  {
+    "run": "E007-V13-D1-S20261025",
+    "split": "val",
+    "target": "looking_around",
+    "mode": "fixed",
+    "counts": {
+      "TN": 144,
+      "FP": 8,
+      "TP": 21,
+      "FN": 12
+    }
+  },
+  {
+    "run": "E007-V13-D1-S20261025",
+    "split": "val",
+    "target": "looking_around",
+    "mode": "calibrated",
+    "counts": {
+      "TN": 142,
+      "FP": 10,
+      "TP": 23,
+      "FN": 10
+    }
+  },
+  {
+    "run": "E007-V13-R0-S20261023",
+    "split": "train",
+    "target": "phone_use",
+    "mode": "fixed",
+    "counts": {
+      "FN": 37,
+      "TP": 305,
+      "TN": 519,
+      "FP": 165,
+      "U": 93
+    }
+  },
+  {
+    "run": "E007-V13-R0-S20261023",
+    "split": "train",
+    "target": "phone_use",
+    "mode": "calibrated",
+    "counts": {
+      "FN": 46,
+      "TN": 553,
+      "TP": 296,
+      "U": 93,
+      "FP": 131
+    }
+  },
+  {
+    "run": "E007-V13-R0-S20261023",
+    "split": "train",
+    "target": "looking_around",
+    "mode": "fixed",
+    "counts": {
+      "TN": 910,
+      "FN": 93,
+      "FP": 21,
+      "TP": 86,
+      "U": 9
+    }
+  },
+  {
+    "run": "E007-V13-R0-S20261023",
+    "split": "train",
+    "target": "looking_around",
+    "mode": "calibrated",
+    "counts": {
+      "TN": 928,
+      "FN": 145,
+      "TP": 34,
+      "U": 9,
+      "FP": 3
+    }
+  },
+  {
+    "run": "E007-V13-R0-S20261023",
+    "split": "val",
+    "target": "phone_use",
+    "mode": "fixed",
+    "counts": {
+      "TN": 87,
+      "TP": 50,
+      "FP": 33,
+      "U": 10,
+      "FN": 5
+    }
+  },
+  {
+    "run": "E007-V13-R0-S20261023",
+    "split": "val",
+    "target": "phone_use",
+    "mode": "calibrated",
+    "counts": {
+      "TN": 93,
+      "TP": 46,
+      "FP": 27,
+      "U": 10,
+      "FN": 9
+    }
+  },
+  {
+    "run": "E007-V13-R0-S20261023",
+    "split": "val",
+    "target": "looking_around",
+    "mode": "fixed",
+    "counts": {
+      "TN": 135,
+      "FP": 17,
+      "FN": 25,
+      "TP": 8
+    }
+  },
+  {
+    "run": "E007-V13-R0-S20261023",
+    "split": "val",
+    "target": "looking_around",
+    "mode": "calibrated",
+    "counts": {
+      "TN": 151,
+      "FP": 1,
+      "FN": 29,
+      "TP": 4
+    }
+  },
+  {
+    "run": "E007-V13-R0-S20261024",
+    "split": "train",
+    "target": "phone_use",
+    "mode": "fixed",
+    "counts": {
+      "FN": 138,
+      "TN": 640,
+      "TP": 204,
+      "U": 93,
+      "FP": 44
+    }
+  },
+  {
+    "run": "E007-V13-R0-S20261024",
+    "split": "train",
+    "target": "phone_use",
+    "mode": "calibrated",
+    "counts": {
+      "TP": 288,
+      "FN": 54,
+      "TN": 544,
+      "U": 93,
+      "FP": 140
+    }
+  },
+  {
+    "run": "E007-V13-R0-S20261024",
+    "split": "train",
+    "target": "looking_around",
+    "mode": "fixed",
+    "counts": {
+      "TN": 832,
+      "FN": 55,
+      "FP": 99,
+      "TP": 124,
+      "U": 9
+    }
+  },
+  {
+    "run": "E007-V13-R0-S20261024",
+    "split": "train",
+    "target": "looking_around",
+    "mode": "calibrated",
+    "counts": {
+      "TN": 921,
+      "FN": 128,
+      "TP": 51,
+      "U": 9,
+      "FP": 10
+    }
+  },
+  {
+    "run": "E007-V13-R0-S20261024",
+    "split": "val",
+    "target": "phone_use",
+    "mode": "fixed",
+    "counts": {
+      "TN": 114,
+      "FN": 28,
+      "TP": 27,
+      "FP": 6,
+      "U": 10
+    }
+  },
+  {
+    "run": "E007-V13-R0-S20261024",
+    "split": "val",
+    "target": "phone_use",
+    "mode": "calibrated",
+    "counts": {
+      "TN": 93,
+      "TP": 45,
+      "FP": 27,
+      "U": 10,
+      "FN": 10
+    }
+  },
+  {
+    "run": "E007-V13-R0-S20261024",
+    "split": "val",
+    "target": "looking_around",
+    "mode": "fixed",
+    "counts": {
+      "TN": 121,
+      "FP": 31,
+      "FN": 21,
+      "TP": 12
+    }
+  },
+  {
+    "run": "E007-V13-R0-S20261024",
+    "split": "val",
+    "target": "looking_around",
+    "mode": "calibrated",
+    "counts": {
+      "TN": 150,
+      "FP": 2,
+      "FN": 29,
+      "TP": 4
+    }
+  },
+  {
+    "run": "E007-V13-R0-S20261025",
+    "split": "train",
+    "target": "phone_use",
+    "mode": "fixed",
+    "counts": {
+      "FN": 62,
+      "TP": 280,
+      "TN": 595,
+      "U": 93,
+      "FP": 89
+    }
+  },
+  {
+    "run": "E007-V13-R0-S20261025",
+    "split": "train",
+    "target": "phone_use",
+    "mode": "calibrated",
+    "counts": {
+      "FN": 56,
+      "TP": 286,
+      "TN": 584,
+      "U": 93,
+      "FP": 100
+    }
+  },
+  {
+    "run": "E007-V13-R0-S20261025",
+    "split": "train",
+    "target": "looking_around",
+    "mode": "fixed",
+    "counts": {
+      "TN": 846,
+      "FN": 42,
+      "FP": 85,
+      "TP": 137,
+      "U": 9
+    }
+  },
+  {
+    "run": "E007-V13-R0-S20261025",
+    "split": "train",
+    "target": "looking_around",
+    "mode": "calibrated",
+    "counts": {
+      "TN": 930,
+      "FN": 150,
+      "TP": 29,
+      "U": 9,
+      "FP": 1
+    }
+  },
+  {
+    "run": "E007-V13-R0-S20261025",
+    "split": "val",
+    "target": "phone_use",
+    "mode": "fixed",
+    "counts": {
+      "TN": 103,
+      "FN": 16,
+      "TP": 39,
+      "FP": 17,
+      "U": 10
+    }
+  },
+  {
+    "run": "E007-V13-R0-S20261025",
+    "split": "val",
+    "target": "phone_use",
+    "mode": "calibrated",
+    "counts": {
+      "TN": 99,
+      "FN": 12,
+      "TP": 43,
+      "FP": 21,
+      "U": 10
+    }
+  },
+  {
+    "run": "E007-V13-R0-S20261025",
+    "split": "val",
+    "target": "looking_around",
+    "mode": "fixed",
+    "counts": {
+      "TN": 118,
+      "FP": 34,
+      "FN": 22,
+      "TP": 11
+    }
+  },
+  {
+    "run": "E007-V13-R0-S20261025",
+    "split": "val",
+    "target": "looking_around",
+    "mode": "calibrated",
+    "counts": {
+      "TN": 151,
+      "FP": 1,
+      "FN": 31,
+      "TP": 2
+    }
+  }
+]

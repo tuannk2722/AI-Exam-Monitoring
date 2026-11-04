@@ -1,0 +1,208 @@
+{
+  "status": "in_progress",
+  "viewed_crop_boards": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76
+  ],
+  "geometry_qa": [
+    {
+      "id": "V6-CA-012-R03",
+      "result": "pass_draft",
+      "states": [
+        "P",
+        "N"
+      ],
+      "note": "Đã xem native/input 224. Camera trên lưng máy còn phân biệt được, tay gắn với anchor; mặt người trái được loại, chỉ còn phần tay/thân ở mép."
+    },
+    {
+      "id": "V6-CA-015-R03",
+      "result": "pass_draft",
+      "states": [
+        "U",
+        "P"
+      ],
+      "note": "Anchor lớn rõ, hướng lên trái ngoài sách. Các người nền mờ và nhỏ hơn; hai tay và vật còn đủ trong crop. Vật đen bị sách che nên không ép phone P."
+    },
+    {
+      "id": "V6-CA-023-R03",
+      "result": "pass_draft",
+      "states": [
+        "N",
+        "N"
+      ],
+      "note": "Hai tay giữ giấy còn thấy, đầu hướng giấy; loại mặt hai người sát cạnh. Mặt nền nhỏ hơn không cạnh tranh vùng tay."
+    },
+    {
+      "id": "V6-CA-014-ADD01",
+      "result": "withheld_duplicate",
+      "states": [
+        "U",
+        "P"
+      ],
+      "duplicate_of": "V6-EX-003",
+      "note": "Geometry đã xem nhưng khi rà cohort ở board 23 tìm thấy V6-EX-003 cùng người/vùng/frame. Không đưa crop mới trùng này vào gallery đề xuất; kiểm crop cũ và chọn một đại diện."
+    }
+  ],
+  "followup_visual_cases": [
+    {
+      "ids": [
+        "V6-EX-037",
+        "V6R2-EX-015"
+      ],
+      "note": "Cùng bàn nữ áo đen viết; cần so sánh khung và tay để kiểm crop lặp."
+    },
+    {
+      "ids": [
+        "V7-A-073",
+        "V7-C-144",
+        "V7-D-057"
+      ],
+      "note": "Cùng frame phòng máy CRT nhưng anchor/khung khác; owner đều exclude, không tự giữ vì mặt còn thấy."
+    },
+    {
+      "ids": [
+        "V7-OE-S023-A01"
+      ],
+      "note": "Board 35 đã thấy vật đen trên đùi của nam vest. Cần xem nguồn mở rộng xuống để giữ cả vật và attribution, theo yêu cầu recrop có phone."
+    },
+    {
+      "ids": [
+        "V6-EX-022",
+        "V6-EX-027",
+        "V6-EX-030"
+      ],
+      "note": "Cùng vùng và hướng đầu, khác crop/overlay; ưu tiên kiểm frame gốc, dự kiến giữ một đại diện có tay/bài đầy đủ và không dính montage."
+    },
+    {
+      "ids": [
+        "V6-EX-032",
+        "V6-EX-034",
+        "V6-EX-035",
+        "V6-EX-040"
+      ],
+      "note": "Cùng bàn nam áo nâu, tư thế đầu viết/ngẩng gần nhau. Cần giữ biến thiên looking thực sự, loại các cặp cùng trạng thái/tư thế dư thừa."
+    },
+    {
+      "ids": [
+        "V7-OE-S066-A01"
+      ],
+      "note": "Input/source riêng cần phân biệt hai thiết bị: calculator phím rõ trên bàn, vật đang cầm có mặt kính. Nhận xét owner phone P có cơ sở, không dùng calculator để phủ định vật cầm."
+    },
+    {
+      "ids": [
+        "V7-OE-S043-A02",
+        "V7-OE-S044-A02"
+      ],
+      "note": "Vật trên bàn nhìn như calculator có phím trong board. Owner P/P; cần xem native/input phóng riêng để phân biệt thiết bị trước kết luận, không tự bỏ quyết định owner."
+    },
+    {
+      "ids": [
+        "EXP-CM-005",
+        "EXP-CM-006",
+        "EXP-CM-008",
+        "EXP-CM-009",
+        "EXP-CM-011",
+        "EXP-CM-022",
+        "EXP-CM-023",
+        "EXP-CM-024"
+      ],
+      "note": "Nhóm gần nhau về cảnh nhưng tay/đầu/bút thay đổi. Rà từng cặp để giữ biến thiên hữu ích, tránh xóa chỉ vì cùng vị trí."
+    },
+    {
+      "ids": [
+        "V7-PF-A-007",
+        "V7-PF-C-004"
+      ],
+      "note": "Có thể là cùng frame/vùng với crop khác mức zoom; cả hai owner yêu cầu exclude nên không cần crop thay thế cho hai ID này."
+    },
+    {
+      "ids": [
+        "E004-CF-C031"
+      ],
+      "note": "Owner U/P; board cho hướng cúi sát bàn/túi. Kiểm nguồn/input để hiểu vùng nhìn trước khi chốt, không tự suy N từ đầu cúi."
+    },
+    {
+      "ids": [
+        "E004-EX-C124",
+        "E004-EX-C125"
+      ],
+      "note": "Cảnh/tư thế rất gần, cần đối chiếu pixel/source và giá trị biến thiên để lựa chọn đại diện nếu thực sự dư thừa."
+    }
+  ],
+  "owner_clarification": "Owner trả lời: ý tôi là với kinh nghiệm nhìn thực tế thì là phone. Ghi nhận nhận định, không coi là câu trả lời riêng về exclude/recrop của V7-OE-S023-A01. Thử recrop vùng đùi và để phần thay đổi review.",
+  "broad_scan_note": "Đã xem đủ 907 crop trên 76 board; đây là rà tổng thể, chưa thay thế QA source/native/input cho các ca sửa."
+}

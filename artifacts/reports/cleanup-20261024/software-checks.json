@@ -1,0 +1,10 @@
+{
+  "ruff": "PASS",
+  "strict_mypy": "PASS 55 source files",
+  "unit_tests": {
+    "status": "PASS",
+    "tests": 210,
+    "seconds": 238.421
+  },
+  "scope": "E007 source regression before payload retirement; no model training/inference"
+}

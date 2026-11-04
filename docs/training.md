@@ -12,7 +12,9 @@ JSON unknown là null/mask 0; tensor có placeholder để tính nhưng loss/met
 
 Metrics giữ P/N/U, TP/FP/FN/TN, precision/recall/F 1/AP từng target, macro masked BCE và macro AP. AP non-interpolated, equal scores xử lý theo nhóm. Macro AP chỉ có khi cả hai target có AP hợp lệ. Thiếu P hoặc N thì metric unavailable/null; không positive predictions thì precision null, không fake 0 hoặc PASS. Co-occurrence báo fully-known denominator/support; thiếu support thì không công bố như metric đáng tin.
 
-Đối chứng hằng dùng prevalence chỉ tính từ train; không fit prevalence/threshold trên val/test. Selection/hyperparameter dùng development; validation đã dùng chọn epoch không là holdout độc lập. Báo cùng cohort/labels/masks/protocol trước so delta; AP cao không bảo đảm chất lượng tại operating point đã chọn trong protocol.
+Đối chứng hằng dùng prevalence chỉ tính từ train, không fit prevalence trên val/test. Ngưỡng quyết định theo protocol được duyệt; không fit ngưỡng trên test. Selection/hyperparameter dùng development; validation đã dùng chọn epoch không là holdout độc lập. Báo cùng cohort/labels/masks/protocol trước so delta; AP cao không bảo đảm chất lượng tại operating point đã chọn trong protocol.
+
+Riêng [E007 V13 đã duyệt](../configs/experiments/E007-V13-20261024/README.md), schema `representation-adaptation-v4` hiệu chỉnh một cặp ngưỡng trên validation sau chọn checkpoint, xét các mốc score và endpoints đã định nghĩa, rồi giữ nguyên cặp đó cho train/validation/slices/reload. GPU FP32 và trạng thái RNG CUDA thuộc identity/resume; research chỉ chạy sau smoke trên cùng môi trường. Đây là development trên release không có test, không thay semantics hoặc pins của trainer lịch sử.
 
 ## 3. Experiment contract và quyền theo hành động
 
@@ -28,6 +30,8 @@ Phân biệt quyền theo hành động; bảng này không cấp approval mới
 | Training run | Recipe/config/data/compute/protocol và approval đúng identity; readiness/smoke cần thiết đã PASS | FINISHED không Selected; không mở final test |
 | Final test | Candidate/protocol/holdout được freeze, quyền truy cập riêng và guard theo protocol | Không được tuning hoặc mở lại chỉ vì đổi output |
 | Selected/promotion | Evaluation hợp lệ, quality gates được chốt và owner decision đúng use scope | Không tự nghiệm thu runtime/video/demo |
+
+Ngoại lệ chuyển phase [E008-PROTOTYPE-20261025](../artifacts/reports/e008-v14-colab-20261024/prototype-decision-20261025.md) cho phép chọn model cho tích hợp prototype dù chưa đạt numerical gates nghiên cứu. Ghi rõ use scope và hạn chế trong decision riêng, giữ nguyên kết quả/gates/Selected lịch sử; không thay final-test access hoặc nghiệm thu chất lượng video.
 
 Proposal cụ thể có thể yêu cầu điều kiện chặt hơn. Điều kiện holdout/promotion không tự trở thành điều kiện mọi software task; run chẩn đoán scope khác vẫn cần owner duyệt riêng, không tự thu hẹp proposal hiện hành để chạy. Workflow cho **một experiment mới được duyệt**:
 

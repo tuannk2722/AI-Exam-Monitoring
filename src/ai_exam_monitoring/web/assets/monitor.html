@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="vi" data-theme="dark">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Exam Monitor · Giám sát video</title>
+  <link rel="stylesheet" href="/assets/style.css">
+  <link rel="stylesheet" href="/assets/monitor.css">
+  <script src="/assets/monitor.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/"><span class="brand-mark">◈</span><span>EXAM<span class="brand-light">MONITOR</span><small>AI ASSISTED · HUMAN DECIDED</small></span></a>
+    <div class="top-actions"><a href="/review">Review các phiên đã lưu ↗</a><button id="theme">Giao diện sáng</button></div>
+  </header>
+  <main class="monitor-page">
+    <div id="notice" role="status" aria-live="polite" class="monitor-notice" hidden></div>
+    <section class="panel source-panel" aria-label="Nguồn video">
+      <form id="upload-form">
+        <label>Video MP4<input id="video-file" type="file" accept="video/mp4,.mp4" required></label>
+        <label>Receipt quyền sử dụng<input id="receipt-file" type="file" accept="application/json,.json" required></label>
+        <button id="upload" type="submit">↑ Tải lên & kiểm tra</button>
+      </form>
+      <p class="muted small">Tối đa <span id="upload-limit">512 MiB</span>. Receipt đã duyệt phải khớp video và còn hạn. Camera sẽ được nối ở bước tiếp theo.</p>
+    </section>
+    <div class="monitor-grid">
+      <section class="panel monitor-viewer" aria-label="Video giám sát">
+        <div class="monitor-toolbar"><strong id="session-state" role="status">Chưa có nguồn</strong><span id="connection-state" class="muted">Local</span></div>
+        <div class="monitor-screen">
+          <img id="preview" alt="Khung hình đã phân tích với bounding boxes đúng nguồn" hidden>
+          <div id="preview-placeholder"><span class="monitor-glyph">▣</span><h2>Chọn video để bắt đầu</h2><p>Hình có bbox sẽ xuất hiện khi AI hoàn tất mẫu đầu tiên.</p></div>
+        </div>
+        <div class="monitor-clock"><span id="source-time">Nguồn —</span><span id="result-time">Ảnh phân tích —</span><span id="age">Độ trễ —</span></div>
+        <div class="monitor-controls">
+          <button id="start" class="primary" disabled>▶ Bắt đầu</button>
+          <button id="pause" disabled>Tạm dừng</button>
+          <button id="stop" disabled>Dừng phiên</button>
+          <button id="delete" disabled>Xóa bản upload</button>
+        </div>
+        <label class="seek-label" for="seek">Tua video <span id="seek-time"></span></label>
+        <input id="seek" type="range" min="0" max="0" value="0" disabled>
+        <div class="monitor-metrics"><span>Đã phân tích <strong id="processed">0</strong> mẫu</span><span>Bỏ qua khi AI bận <strong id="dropped">0</strong> mẫu</span><span id="ai-state">Chưa chạy AI</span></div>
+        <p id="retention" class="muted small"></p>
+      </section>
+      <aside class="panel monitor-observations">
+        <span class="eyebrow">MẪU PHÂN TÍCH GẦN NHẤT</span><h2>Quan sát tức thời</h2>
+        <p class="muted small">Các nhãn vượt ngưỡng ở ảnh đã phân tích. Đây chưa phải kết luận hành vi kéo dài.</p>
+        <div id="observations" aria-live="polite"><p class="muted">Chưa có kết quả.</p></div>
+        <div class="monitor-log-note"><h3>Ca cần review</h3><p>Chưa bật log temporal cho video online. Một quan sát đơn lẻ không tự trở thành ca cần xác nhận.</p><a href="/review">Mở bằng chứng các phiên offline ↗</a></div>
+      </aside>
+    </div>
+    <p class="monitor-footnote">Hệ thống hỗ trợ quan sát, không định danh người hoặc kết luận gian lận. CPU có thể xử lý chậm; số ảnh hiển thị không phải tốc độ AI đã được nghiệm thu.</p>
+  </main>
+</body>
+</html>

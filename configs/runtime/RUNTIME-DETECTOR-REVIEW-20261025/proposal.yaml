@@ -1,0 +1,28 @@
+schema_version: runtime-detector-review-proposal-v1
+proposal_id: RUNTIME-DETECTOR-REVIEW-20261025
+status: draft
+executable: false
+owner: repository-owner
+scope: detector_only_ablation_after_owner_approval
+baseline_runtime: configs/runtime/RUNTIME-CLIP-1HZ-20261025/runtime.yaml
+cohort_manifest: outputs/runtime-detector-review-20261025/cohort.json
+frame_indices: [0, 90, 210, 300, 390, 480, 600, 690, 780, 870, 990, 1080, 1170, 1290, 1380, 1470, 1560, 1680, 1770]
+arms:
+  - {id: D0, conf: 0.25, iou: 0.70}
+  - {id: D1, conf: 0.25, iou: 0.50}
+  - {id: D2, conf: 0.25, iou: 0.30}
+fixed: {imgsz: 640, max_det: 100, device: cpu, half: false, classes: [0]}
+planned_detector_frame_forwards: 57
+classifier_inference: false
+training: false
+test_access: false
+matching: owner_reviewed_person_per_frame_with_unknowns
+proposed_selection:
+  fewer_duplicate_extras_than_baseline: true
+  zero_newly_missed_baseline_visible_persons: true
+  unknown_cases_block_acceptance: true
+  no_qualifying_arm: keep_baseline_pending_new_design
+role_policy: proposed_unknown_diagnostic_only_pending_owner
+alternative_models:
+  E008_A1: assessment_only_checkpoint_not_present_locally
+  E005_Dual_ROI: assessment_only_checkpoint_retired

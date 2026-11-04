@@ -1,0 +1,24 @@
+{
+  "status": "approved",
+  "owner": "repository-owner",
+  "scope": "local_classifier_research",
+  "run_kind": "research",
+  "configs": {
+    "E005-V11-LP": "4b30c7a9bd3b44f8e4c0e2dd20916dff56b82d23b6b27e1a95c7fd3fe751476c",
+    "E005-V11-S1-AUG": "bd598668eb5000e0e90c10f5dd4dbb35a1783a94f6a62945f74a1c51f747a7fd",
+    "E005-V11-AC-L4B1": "0048dadec87bdb6f57708b75602d737af1aa51242c33cbaaf1fa2a7cdd5367e3",
+    "E005-V11-AC-L4": "0f2341b801830d6adbaf60231377f675442e1a529ae8d6ee93a7581c8819d3ef"
+  },
+  "config_signatures": {
+    "E005-V11-LP": "7ef190d5807a3d57269da45fc87b6a5e4a44531e06cd6edd2cad2bd31b8fc4a5",
+    "E005-V11-S1-AUG": "9d8f8a4878897206a67aa1c610dc214035ef66e333637401df8721e5bbfcb4de",
+    "E005-V11-AC-L4B1": "7e1143b32a3755657c3920f60aa1b684e7aef72e9e146b00d7da389e31665f3c",
+    "E005-V11-AC-L4": "6b8c360322b1f0034df484b0a229f039596f8efdb48e8d06f90cd2ecd58ee545"
+  },
+  "code_sha256": "241460325c026eb4aee270f8a3f8e9eedef8fde1ee9276d23fdc29d5a7ce1a7a",
+  "owner_authorization": {
+    "path": "artifacts/reports/e005-v11-adaptation-20261018/owner-e005-approval.json",
+    "sha256": "4163f919cc09609fc3f36f205fc949ba7a675cf26abf265187dd75507c43f1c7"
+  },
+  "final_test_inference_authorized": false
+}

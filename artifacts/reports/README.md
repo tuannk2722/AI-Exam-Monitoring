@@ -1,10 +1,60 @@
 # Tra cứu kết quả và bằng chứng
 
+[Nghiệm thu events prototype](events-prototype-20261027/acceptance-20261027.md): owner chấp nhận batch sau review và yêu cầu cleanup/hai commit; supersede trạng thái chờ review trong snapshot dưới đây.
+
+[Temporal events prototype ngày 27/10](events-prototype-20261027/README.md): rules đã duyệt, implementation/tests và một cached replay completed; candidates chưa human acceptance, risk/web chưa mở.
+
+[Chốt C10 prototype](tracking-cadence-20261027/closeout-20261027.md): owner duyệt kết quả và miễn audit toàn clip. Supersede trạng thái candidate bên dưới; bước tiếp là [proposal temporal events](../../configs/events/EVENTS-PROTOTYPE-20261027/README.md).
+
+[Tracking cadence ngày 27/10](tracking-cadence-20261027/README.md): C5/C10 completed; C10 là candidate tiếp theo sau audit lỗi 8 → 9 giây và motion 35–40 giây. Còn fragmentation/duplicate, chưa nghiệm thu downstream.
+
+[Tracking prototype ngày 26/10](tracking-prototype-20261026/README.md): replay N0/B0/B1 completed, gallery 60 samples. [Research ngày 27/10](tracking-prototype-20261026/research-20261027/README.md) chọn B0 baseline theo ủy quyền owner; phát hiện mixed-person track ở cả hai arm, quality gate downstream còn mở.
+
+[Đối soát ngoại lệ D2 và readiness](runtime-clip-qa-20261025/d2-reconcile-20261026.md): hồ sơ lịch sử attribution/duplicate; stage hiện tại đã đóng theo quyết định V8S bên dưới.
+
 Index theo đối tượng; không là bảng metrics hoặc backlog. Hồ sơ đã pin là snapshot, kể cả chữ “next”, “pending” hoặc lệnh CLI cũ. [Status](../../docs/status.md) chỉ công việc hiện hành; [operations](../../docs/operations.md) xử lý historical paths/restore. Không sửa report/card/receipt đã seal để cập nhật tiến độ.
+
+[QA runtime clip ngày 25/10](runtime-clip-qa-20261025/README.md): full-frame dừng theo quyền owner giao; [lượt 1 Hz hoàn tất](runtime-clip-qa-20261025/qa-1hz.md) và batch review detector/crop toàn clip, chưa nghiệm thu chất lượng video. [Đánh giá A1/Dual ROI](runtime-clip-qa-20261025/model-relevance.md) đối chiếu code/kết quả/availability phục vụ thiết kế đối chứng.
+
+[Nghiên cứu E007 trên V13](e007-v13-research-20261023/README.md): audit lịch sử/code/config, coverage V13 và cached scores E006; hướng representation mới và proposal 4–8 giờ GPU. Chưa train hoặc đổi accepted inputs.
+
+[E007 Colab và kết quả V13](e007-v13-colab-20261024/README.md): smoke và 9 research FINISHED, import/checksums/reload đã kiểm; D1 cải thiện ổn định, phone qua gate cả ba seed, looking chưa qua. Chưa Selected hoặc final test.
+
+[E008 — chuyển phase prototype](e008-v14-colab-20261024/prototype-decision-20261025.md): owner bỏ gate chuyển phase 80/80/20 và chọn G0 seed 20261023; kết quả nghiên cứu giữ nguyên, thiết kế runtime đã duyệt; [bàn giao software/synthetic](runtime-prototype-20261025/README.md), chưa nghiệm thu chất lượng video.
+
+[E008 V14 — kết quả Colab](e008-v14-colab-20261024/results-20261025.md): 4 smoke + 5 research FINISHED; audit metadata PASS, G0 thắng screening, looking chưa đạt. [Ba run G0 đã nhận đủ best/last và kiểm integrity local](e008-v14-colab-20261024/checkpoints-20261025.md); chưa Selected.
+
+[Audit looking E007 ngày 24/10](looking-around-audit-20261024/README.md): cached scores sáu run, visual review lỗi looking tái diễn và upstream context; sửa diagnostics V4/336 px. Snapshot proposal E008 giữ nguyên; approval và dữ liệu mới ở companion V14.
+
+[E006 V12 — training tự động](e006-v12-20261020/README.md): smoke, screening và
+xác nhận qua seed theo phạm vi owner duyệt; runner tổng hợp số liệu, agent kiểm và
+viết report cuối, test đóng.
 
 ## Releases và nghiên cứu dữ liệu
 
-[Release V11 ngày 17/10](dataset-release-20261017/README.md): dataset hiện hành đã đóng gói từ allocation và 270 crop nghiệm thu; có pointer, kiểm rebuild, backup local và cleanup; không chạy train.
+[Release V14 ngày 24/10](dataset-release-20261024-v14/README.md): local accepted, dùng đủ 53 crop mới trong train; loại 2 crop chất lượng kém, chuyển cả 6 nhóm nguồn liên quan sang train. Release dùng tiếp trước E008; validation development thay đổi, pins V13 giữ nguyên.
+
+[Release V13 ngày 23/10](dataset-release-20261023-v13/README.md): parent V14 và input E007, local accepted sau audit V12; dùng đủ 21 ảnh generated owner duyệt. Loader/rebuild checks và giới hạn lineage trong report; pins lịch sử giữ nguyên.
+
+[Đối soát review V12 và ảnh bổ sung ngày 22/10](v12-reconcile-20261022/README.md): evidence JSON delta, audit nhãn/geometry/trùng lặp và các batch owner đã chốt, dẫn tới release V13; các snapshot draft giữ nguyên.
+
+[Cleanup ngày 23/10](cleanup-20261023/README.md): exact manifest và restore locator cho 4.690 file đã dọn; protected bytes được kiểm trước/sau. Availability này bổ sung đợt retention 16/10.
+
+[Bàn audit toàn bộ accepted V12](v12-full-audit-20261021/README.md): đủ 1.639 crop mọi role, 48 nhóm thị giác, preview 224 và lưu/export review. Owner cho phép mở test cũ để visual audit; không gán nhãn hoặc chia split mới.
+
+[Tiêu chí audit V12 ngày 21/10](v12-audit-criteria-20261021/README.md): nghiên cứu crop/quality/semantics, chín ví dụ và tác động lọc kích thước. Owner chọn looking là quay đầu bên/sau, phía trước không tính; rubric chi tiết còn Draft, chưa relabel/release.
+
+[Chẩn đoán E006/V12 ngày 21/10](e006-v12-diagnostics-20261021/README.md): lỗi qua sáu run, coverage, 37 crop visual review và bộ ví dụ P/N/U; bốn ngoại lệ Draft chờ owner, proposal đối chứng erasing riêng; không train/test hoặc sửa V12.
+
+[Release V12 ngày 20/10](dataset-release-20261020-v12/README.md): chốt review legacy/YouTube và allocation owner; package local accepted, kiểm loader/rebuild/test preservation. Không train.
+
+[Hợp nhất review legacy và YouTube ngày 19–20/10](crop-review-consolidation-20261019/README.md): hồ sơ review cuối của owner, đã được chốt qua release V12; một gallery chỉ thay đổi. Kế tiếp hai hồ sơ audit dưới đây.
+
+[Audit ZIP sáu lớp học ngày 18–19/10](youtube-frame-audit-20261018/README.md): xem 115 frame, đề xuất 71 crop sau QA native/input; snapshot Draft lịch sử, quyết định cuối ở V12. Y05 có cờ scene-family với G17 cũ.
+
+[Audit cohort lịch sử V11 ngày 18/10 — R2](v11-legacy-crop-audit-20261018/r2/README.md): review lại đủ 836 crop theo quyết định Accepted V10/V11; 537 giữ geometry (310 đổi nhãn), 250 cần recrop/review mới, 49 đề xuất rút supervision. Có ghi chú từng ID và gallery R2; snapshot Draft lịch sử; nghiệm thu cuối ở V12, V11 giữ nguyên. R1 được bảo toàn để truy vết.
+
+[Release V11 ngày 17/10](dataset-release-20261017/README.md): parent V12, đã đóng gói từ allocation và 270 crop nghiệm thu; có pointer, kiểm rebuild, backup local và cleanup; không chạy train.
 
 [Nghiệm thu phân bổ và mức đạt ngày 17/10](train-val-plan-20261017/README.md): 1.185 train / 266 validation đã duyệt; mỗi target precision/recall ≥ 80%, FPR ≤ 20%. Cách train chưa được chốt, proposal train mới đã gỡ theo owner; chưa chạy train.
 
@@ -48,6 +98,8 @@ Card/manifest/coverage ở package mà pointer chỉ tới; có thể không hi�
 
 ## Experiments
 
+[Thực nghiệm E005 trên Dataset V11 ngày 18/10](e005-v11-adaptation-20261018/README.md): 1 smoke và 4 run đối chứng (`E005-V11-LP`, `E005-V11-S1-AUG`, `E005-V11-AC-L4B1`, `E005-V11-AC-L4`) FINISHED, reload exact parity PASS; `E005-V11-S1-AUG` đạt cao nhất, chưa đồng thời vượt cổng 80/80/20 cho cả hai target; Continue research, test 11 giữ đóng.
+
 [E004 V9 execution freeze](E004-v9-execution-20261013/README.md): matched control/layer4 FINISHED; development evaluation và benchmark hoàn tất, khuyến nghị Continue research, test đóng.
 
 [Phân tích nguyên nhân sau E004](E004-root-cause-20261014/README.md): đối chiếu lịch sử, code và cached scores; phân biệt overfitting, giới hạn dữ liệu/cohort và giả thuyết khắc phục; chưa cấp quyền run/test mới.
@@ -70,8 +122,16 @@ Experiment đang thiết kế: [configs index](../../configs/experiments/README.
 
 ## Vận hành
 
+[Cleanup sau E007 ngày 24/10](cleanup-20261024/README.md): nghỉ lưu tài sản lịch sử không còn phục vụ hướng D1 theo manifest; bảo toàn V13, nguồn độc nhất, model best D1/R0 và bằng chứng nghiên cứu.
+
 [E004 enrollment và run C345](E004-train-enrollment-20261016/README.md): V10/development có 1.061 train; research FINISHED, reload exact parity; looking cải thiện nhưng phone false positives tăng, Continue research.
 
 [Handoff 2026-10-11](repository-handoff-20261011/README.md) giữ snapshot checks/backup và original locator. Các tổng hợp mới trên không thay receipt gốc hoặc là data/model acceptance mới.
 
 [Retention tài sản hiện hành 16/10/2026](storage-retention-20261016/README.md): chính sách owner duyệt, availability mới và evidence cleanup; report cũ không chứng minh payload còn tồn tại.
+
+[V8S + G0 ngày 26/10](runtime-clip-qa-20261025/v8s-g0-20261026.md): runtime revision và crop QA đã được owner nghiệm thu; session tích hợp đã hoàn tất.
+
+[Session V8S + G0](runtime-clip-qa-20261025/v8s-session-20261026.md): batch owner accepted; integration 60 samples completed, parity với 19 frame tham chiếu PASS.
+
+[Chốt stage runtime V8S](runtime-clip-qa-20261025/stage-acceptance-20261026.json): Accepted / Complete trong scope clip hiện tại; không mở downstream.

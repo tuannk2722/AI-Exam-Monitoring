@@ -1,0 +1,38 @@
+{
+  "schema_version": "adaptation-readiness-v2",
+  "status": "approved",
+  "owner": "repository-owner",
+  "scope": "smoke",
+  "protocol_sha256": "18cf26a8fb07cd8b8f5ea8fd63cb8a6c6711d69e1e97cbc918c43bfc05d1a181",
+  "cohorts_sha256": "7c01058f52e39425293ccb5afa8cc5fc118db05b553284f272cc603be950bf02",
+  "decision_ref": "artifacts/reports/e006-v12-20261020/owner-authorization.json",
+  "waiver_approval": {
+    "path": "artifacts/reports/e006-v12-20261020/owner-authorization.json",
+    "sha256": "70f3bb029099bb6f7d52c32d0385b7f75d8bf2de400d34e3132a6857592041aa"
+  },
+  "gates": {
+    "G0": true,
+    "G1": true,
+    "G2": "owner_waived",
+    "G3": "owner_waived"
+  },
+  "evidence_pins": [
+    {
+      "path": "artifacts/reports/e006-v12-20261020/owner-authorization.json",
+      "sha256": "70f3bb029099bb6f7d52c32d0385b7f75d8bf2de400d34e3132a6857592041aa"
+    },
+    {
+      "path": "artifacts/reports/dataset-release-20261020-v12/package-pointers.json",
+      "sha256": "d8fb0c04d7b78443b1b28d0544df0560f9b626fcf747991cfacaf25bf1568772"
+    },
+    {
+      "path": "artifacts/reports/dataset-release-20261020-v12/owner-release-approval.json",
+      "sha256": "c03322c1dcdbe64d585fe4089eab81335235bf554d4d7534d8e0c3b3c2d3ed8a"
+    },
+    {
+      "path": "artifacts/reports/dataset-release-20261020-v12/allocation-proposal.json",
+      "sha256": "21255188e55201fb2e31c0c001327eda7e76c55120ba66c80b2a994954d6d920"
+    }
+  ],
+  "condition": "Research blocked until actual smoke PASS receipt exists."
+}

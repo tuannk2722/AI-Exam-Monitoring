@@ -1,0 +1,420 @@
+[
+  {
+    "sample_id": "V6-CA-033",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Đầu úp trên tay nên không xác định đích nhìn; tay bị đầu che, vật hồng có thể thiết bị mơ hồ.",
+    "evidence": {
+      "board": "exclude-001.jpg",
+      "cell": 1
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "V6-CA-036",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Đầu úp che mặt và hai tay, không đủ hướng nhìn hay absence mobile.",
+    "evidence": {
+      "board": "exclude-001.jpg",
+      "cell": 2
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "V6-CA-037",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Nằm gục ngang bàn, tóc che mặt và vùng tay khuất; không diễn giải chắc hai target.",
+    "evidence": {
+      "board": "exclude-001.jpg",
+      "cell": 3
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "V6-CA-040",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Đầu úp trên tay, không biết đích nhìn và thiếu evidence absence.",
+    "evidence": {
+      "board": "exclude-001.jpg",
+      "cell": 4
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "V6-CA-043",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Đầu úp che mặt, một tay ngoài bàn; không suy looking từ tư thế ngủ.",
+    "evidence": {
+      "board": "exclude-001.jpg",
+      "cell": 5
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "V6R2-CA-006",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Hai người cạnh tranh trong khung, anchor cúi/che mặt và thiếu vùng tay; không đủ hai target.",
+    "evidence": {
+      "board": "exclude-001.jpg",
+      "cell": 6
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "V7-B-025",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Thiết bị màn hình gần vuông không đủ phân biệt mobile/tablet, đầu bị hood che hoàn toàn; không còn target chắc.",
+    "evidence": {
+      "board": "exclude-002.jpg",
+      "cell": 1
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "V7-OE-S076-A01",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Tay che gần hết mặt và vùng tay/bàn không đủ review; không xác định hướng/absence.",
+    "evidence": {
+      "board": "exclude-002.jpg",
+      "cell": 2
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "EXP-CM-021",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Đầu úp khuất hoàn toàn trong thân/tay; không diễn giải hướng nhìn và absence chắc chắn.",
+    "evidence": {
+      "board": "exclude-002.jpg",
+      "cell": 3
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "V7-OE-S043-A02",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Vật trên bàn có keypad calculator, nhưng tay dưới bàn và mắt nhắm làm hai target chưa đủ evidence; phone calculator không cứu absence.",
+    "evidence": {
+      "board": "exclude-002.jpg",
+      "cell": 4
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "V7-OE-S058-A01",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Nhóm nhiều người gục/che mặt, tay và đích nhìn không đủ rõ ở crop.",
+    "evidence": {
+      "board": "exclude-002.jpg",
+      "cell": 5
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "E004-EX-C120",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Thiết bị có bàn phím và phần vỏ/cover nhưng không phân biệt chắc mobile/calculator ở 224; source cũng không có đầu, không còn known target chắc.",
+    "evidence": {
+      "board": "exclude-002.jpg",
+      "cell": 6
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "V6-EX-030",
+    "states": "U/P",
+    "action": "exclude",
+    "reason": "Dải hình từ cảnh khác ghép/chèn ở đáy crop, gây nhiễu nguồn và vùng tay; không sửa bằng inpaint.",
+    "evidence": {
+      "board": "exclude-003.jpg",
+      "cell": 1
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "V7-C-106",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Mắt nhắm/tay chống mặt, tay còn lại cắt/khuất; source không cung cấp đích nhìn chắc, không còn known target.",
+    "evidence": {
+      "board": "exclude-003.jpg",
+      "cell": 2
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "EXP-RF-008",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Crop 58 × 140, mặt/hướng và tay bị mờ/che; không đủ evidence hai target.",
+    "evidence": {
+      "board": "exclude-003.jpg",
+      "cell": 3
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "EXP-RF-015",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Mắt nhắm ngủ trên hai tay, không xác định hướng nhìn và absence ở tay bị đầu che.",
+    "evidence": {
+      "board": "exclude-003.jpg",
+      "cell": 4
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "EXP-SCB-024",
+    "states": "U/P",
+    "action": "keep",
+    "reason": "Kiểm lại input riêng: mặt ngẩng và quay ra trước khỏi vùng bài đủ rõ dù tay bị người trước che; giữ looking P, phone U. Không loại chỉ vì crop nhỏ.",
+    "evidence": {
+      "board": "exclude-003.jpg",
+      "cell": 5
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "SCB-turnhead-009",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Native 47 × 44, mặt và tay mất chi tiết; không đủ hai target.",
+    "evidence": {
+      "board": "exclude-003.jpg",
+      "cell": 6
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "SCB-turnhead-018",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Native 35 × 54, chỉ sau đầu và vai mờ, không đủ hands/gaze/context.",
+    "evidence": {
+      "board": "exclude-004.jpg",
+      "cell": 1
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "SCB-turnhead-019",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Native 44 × 56, mặt/hướng và tay quá mờ/che, không đủ evidence.",
+    "evidence": {
+      "board": "exclude-004.jpg",
+      "cell": 2
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "SCB-turnhead-020",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Source cũng bị đầu người trước che tay/vùng bài, nới không phục hồi evidence trong cùng frame; không đủ hai target.",
+    "evidence": {
+      "board": "exclude-004.jpg",
+      "cell": 3
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "SCB-turnhead-021",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Native 46 × 56, vùng tay bị đầu người trước che và hướng mặt không rõ.",
+    "evidence": {
+      "board": "exclude-004.jpg",
+      "cell": 4
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "EXP-SCB-017",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Đầu úp khuất trong hood, tay và đích bị chồng sách che trong cùng source; không có known target chắc.",
+    "evidence": {
+      "board": "exclude-004.jpg",
+      "cell": 5
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "SCB-read-006",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Native/source đều quá ít chi tiết và bị đầu người trước che tay/vùng bài, nới không phục hồi evidence.",
+    "evidence": {
+      "board": "exclude-004.jpg",
+      "cell": 6
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "SCB-read-009",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Mặt mờ và vùng tay/bài bị người trước che ngay source, không phục hồi evidence bằng nới crop.",
+    "evidence": {
+      "board": "exclude-005.jpg",
+      "cell": 1
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "SCB-read-013",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Native 61 × 56, mặt/tay mất chi tiết, thiếu đích nhìn và absence.",
+    "evidence": {
+      "board": "exclude-005.jpg",
+      "cell": 2
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "SCB-read-014",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Tay che gần toàn mặt và tay còn lại khuất, chưa đủ phone absence hoặc gaze; không còn known target.",
+    "evidence": {
+      "board": "exclude-005.jpg",
+      "cell": 3
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "SCB-read-016",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Native 38 × 54, tay/mặt quá mờ và che, không đủ hai target.",
+    "evidence": {
+      "board": "exclude-005.jpg",
+      "cell": 4
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "SCB-read-017",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Native 34 × 40, mặt và tay không có chi tiết nhận định hai target.",
+    "evidence": {
+      "board": "exclude-005.jpg",
+      "cell": 5
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "SCB-read-019",
+    "states": "U/N",
+    "action": "keep",
+    "reason": "Kiểm lại source/native/input: đầu hướng vùng trang mở ngay trước người đủ rõ, không cần thấy con ngươi; tay còn bị che nên phone U. Không loại chỉ vì native 47 × 69.",
+    "evidence": {
+      "board": "exclude-005.jpg",
+      "cell": 6
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "SCB-read-022",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Mặt/tay bị người trước che và source cũng mờ, không đủ hai target ổn định.",
+    "evidence": {
+      "board": "exclude-006.jpg",
+      "cell": 1
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "SCB-read-026",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Native 35 × 29, không đủ chi tiết nhận hands/gaze/object.",
+    "evidence": {
+      "board": "exclude-006.jpg",
+      "cell": 2
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "SCB-write-005",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Native 53 × 40, đầu và tay mờ/che, không đủ hai target.",
+    "evidence": {
+      "board": "exclude-006.jpg",
+      "cell": 3
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "SCB-write-022",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Native 45 × 42, mặt/tay bị mờ mất cấu trúc, không đủ hai target.",
+    "evidence": {
+      "board": "exclude-006.jpg",
+      "cell": 4
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "V6-SB-018",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Tay bị người trước che, mặt/hướng nhỏ mờ và thiếu vùng bài, không đủ hai target.",
+    "evidence": {
+      "board": "exclude-006.jpg",
+      "cell": 5
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "V6-SB-021",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Native 48 × 65 cắt mất đầu và tay bị ghế che, không đủ hai target.",
+    "evidence": {
+      "board": "exclude-006.jpg",
+      "cell": 6
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "V6R2-MP-008",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Source đã cắt mất mặt ở mép trái, không có pixels recrop để cứu hướng nhìn; tay/thiết bị cũng thiếu, U/U.",
+    "evidence": {
+      "board": "exclude-007.jpg",
+      "cell": 1
+    },
+    "confirmed_source_native_input": true
+  },
+  {
+    "sample_id": "V6R2-MP-014",
+    "states": "U/U",
+    "action": "exclude",
+    "reason": "Đầu cúi che mặt, đích dưới bàn/trang chưa rõ và tay dưới bàn thiếu absence; không còn known target chắc.",
+    "evidence": {
+      "board": "exclude-007.jpg",
+      "cell": 2
+    },
+    "confirmed_source_native_input": true
+  }
+]

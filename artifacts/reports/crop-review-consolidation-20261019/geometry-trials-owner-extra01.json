@@ -1,0 +1,10 @@
+[
+  {"parent":"V6R2-CA-008","id":"V6R2-CA-008-ADD01","person":[166,72,266,219],"context":[157,65,274,257],"states":["P","N"],"reason":"Nam viết giữa, mobile trên bàn riêng và tay viết; kiểm đầu tiền cảnh chỉ còn tóc ở đáy."},
+  {"parent":"V6R2-CA-008","id":"V6R2-CA-008-ADD02","person":[282,83,394,275],"context":[276,75,400,304],"states":["U","N"],"reason":"Người áo xám cầm vật giữa phải, vật chưa phân biệt phone/calculator; đầu hướng vật riêng."},
+  {"parent":"V6R2-CA-008","id":"V6R2-CA-008-ADD03","person":[160,217,311,512],"context":[152,210,317,512],"states":["U","N"],"reason":"Người viết trước giữa, tay dưới sát biên source; giữ U, kiểm người sau và tay calculator."},
+  {"parent":"V7-A-004","id":"V7-A-004-ADD01","person":[162,192,280,408],"context":[153,183,288,447],"states":["P","N"],"reason":"Áo xám trước giữa đang tương tác mobile mặt kính, giữ tay và giấy riêng; kiểm mặt hai bên."},
+  {"parent":"V7-A-004","id":"V7-A-004-ADD02","person":[77,144,183,333],"context":[70,136,190,365],"states":["U","N"],"reason":"Áo đỏ trước trái cầm vật trên giấy; xem cấu trúc mobile và tách người cạnh."},
+  {"parent":"V7-B-051","id":"V7-B-051-ADD01","person":[14,118,145,291],"context":[8,109,151,324],"states":["U","P"],"reason":"Nam áo xanh đầu quay sang phải, hai tay nâng vật, giữ U theo owner; kiểm đầu tiền cảnh và mặt xám bên cạnh."},
+  {"parent":"V7-B-051","id":"V7-B-051-ADD02","person":[128,129,255,373],"context":[123,119,264,400],"states":["U","N"],"reason":"Nam áo xám nhìn vật đang cầm, giữ đầu/tay và giảm người trái; tay ngoài vùng không tự N."},
+  {"parent":"V7-D-013","id":"V7-D-013-ADD01","person":[269,125,445,423],"context":[260,116,453,437],"states":["U","P"],"reason":"Nam áo vàng ngồi quay trái, hai tay cầm vật; giữ U theo yêu cầu owner, kiểm mặt nữ sau và người phải."}
+]

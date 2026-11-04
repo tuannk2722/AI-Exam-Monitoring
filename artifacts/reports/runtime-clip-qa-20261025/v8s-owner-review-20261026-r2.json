@@ -1,0 +1,92 @@
+{
+  "schema_version": "detector-owner-review-addendum-v1",
+  "status": "V8S_quality_accepted_with_known_errors",
+  "owner": "repository-owner",
+  "date": "2026-10-26",
+  "batch": {
+    "path": "outputs/runtime-detector-matching-review-20261026/matching-draft.json",
+    "sha256": "fbb10314d7bd41661dab0d8e28fcb3500ecf10004b0241101285bebdaf2cbc7d"
+  },
+  "census": {
+    "path": "configs/runtime/RUNTIME-DETECTOR-COMPARISON-20261026/accepted-census-r2.json",
+    "sha256": "d443b67e4e10ec4336031b344fd1a58851d4aaacbb1599282f4be470c1eac903"
+  },
+  "run": {
+    "path": "outputs/runtime-detector-comparison-20261026/run.json",
+    "sha256": "33ffbe63677652c0f0cfdd7c7aa8b294cb7d43045bf45b61fbcbd6dbcdfbb7a8"
+  },
+  "arm": "V8S",
+  "acceptance": {
+    "scope": "prototype_development_visual_quality",
+    "owner_statement": "với kết quả như này tôi hoàn toàn có thể chấp nhận được, không cần phải tuyệt đối.",
+    "zero_error_requirement_waived_for_this_scope": true,
+    "global_accuracy_claim": false,
+    "V10S_accepted": false,
+    "automatic_suppression_approved": false
+  },
+  "owner_reported_misses": [
+    {
+      "frame_index": 0,
+      "person_id": "p009"
+    },
+    {
+      "frame_index": 0,
+      "person_id": "p015"
+    },
+    {
+      "frame_index": 1680,
+      "person_id": "p017"
+    },
+    {
+      "frame_index": 1770,
+      "person_id": "p017"
+    }
+  ],
+  "owner_confirmed_duplicates": [
+    {
+      "frame_index": 990,
+      "anchors": [
+        "f00000990-V8S-b009",
+        "f00000990-V8S-b012"
+      ],
+      "person_id": "p006"
+    },
+    {
+      "frame_index": 1080,
+      "anchors": [
+        "f00001080-V8S-b017",
+        "f00001080-V8S-b018"
+      ],
+      "person_id": "p015",
+      "resolution": "Owner could not read p for b017; exact manifest confirms draft p015, owner explicitly confirmed same as b018."
+    },
+    {
+      "frame_index": 1560,
+      "anchors": [
+        "f00001560-V8S-b019",
+        "f00001560-V8S-b017"
+      ],
+      "person_id": "p008"
+    }
+  ],
+  "owner_observation": "V8S luôn bắt được bạn ngồi ở góc xa camera nhất.",
+  "pending": [],
+  "other_mapping_status": "not_promoted_to_accepted_from_quality_acceptance",
+  "aggregate_metrics": null,
+  "supersedes": {
+    "path": "artifacts/reports/runtime-clip-qa-20261025/v8s-owner-review-20261026-r1.json",
+    "sha256": "8ce61c54293dcff81f081a184ac7e8783f84b638904483c997463a03568c024b"
+  },
+  "confirmed_mapping_corrections": [
+    {
+      "anchor_id": "f00000000-V8S-b011",
+      "frame_index": 0,
+      "from_draft_person_id": "p015",
+      "accepted_person_id": "p019",
+      "decision_ref": {
+        "path": "configs/runtime/RUNTIME-DETECTOR-COMPARISON-20261026/census-correction-20261026-r2.json",
+        "sha256": "bf14a31fe85b57da2d3b72bcabd650f4dcc553ab5f9c7688136b0747c46f8393"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1770 @@
+[
+  {
+    "id": "CB-0097",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0038-crop.jpg",
+    "input_sha256": "da94468d615a7a05ade2dddfe9ce513e117a5db472db41d325454f33a1b382a9",
+    "box_xyxy_on_input": [
+      65,
+      34,
+      224,
+      208
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/CB-0097.png",
+    "output_sha256": "091a13a037a19b82b09048c9edcf8ed8e1c5df94e5918798bf114f59540c4e33",
+    "output_size": [
+      159,
+      174
+    ],
+    "proposed_pnu": [
+      "N",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "CB-0100",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0039-crop.jpg",
+    "input_sha256": "11cba49b6a10dd39f970d6f01869221c59fc590dccdef2c3aed1d0fb71557450",
+    "box_xyxy_on_input": [
+      78,
+      4,
+      224,
+      195
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/CB-0100.png",
+    "output_sha256": "37e39dfaefb61ab239c752d79b44f4330b9201b980a2caad3e11621ba5dcb7c0",
+    "output_size": [
+      146,
+      191
+    ],
+    "proposed_pnu": [
+      "N",
+      "P"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "CB-0103",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0040-crop.jpg",
+    "input_sha256": "409a1788f398bf7b6919dc5c5f61d067b5935c16f1f39747e1ef2630fec72976",
+    "box_xyxy_on_input": [
+      137,
+      22,
+      224,
+      161
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/CB-0103.png",
+    "output_sha256": "ac56e9139e6c89bd02d33bbcf5886a753a2903efe74028edc64e5c84f3d54ac6",
+    "output_size": [
+      87,
+      139
+    ],
+    "proposed_pnu": [
+      "N",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "CB-0150",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0047-crop.jpg",
+    "input_sha256": "df698efae384b3faf40f0134dfa033ae9419e43501d46009715482cd933bd1d7",
+    "box_xyxy_on_input": [
+      63,
+      56,
+      224,
+      224
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/CB-0150.png",
+    "output_sha256": "d6de6b74ca3aa9751ed9f746e82c8e5fb909604ab842266e9e08b7ca3f01a48b",
+    "output_size": [
+      161,
+      168
+    ],
+    "proposed_pnu": [
+      "P",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "CB-0168",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0050-crop.jpg",
+    "input_sha256": "2490fc82b6eba16b5dc8c82246e1f50bf955e66cb4804cc878663bf910bdf3db",
+    "box_xyxy_on_input": [
+      128,
+      56,
+      224,
+      213
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/CB-0168.png",
+    "output_sha256": "4cc22bbaa44133bdc2ae0a0a521b94cfb4309a4ec19db7da27802f30000cf68e",
+    "output_size": [
+      96,
+      157
+    ],
+    "proposed_pnu": [
+      "P",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "CB-0405",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0083-crop.jpg",
+    "input_sha256": "a88ec7569b71bbeb4650dd7b8d300b2ba1b37098b4445bcc00debd88c909ce18",
+    "box_xyxy_on_input": [
+      38,
+      27,
+      206,
+      224
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/CB-0405.png",
+    "output_sha256": "b33427de1cd337f5121403ec7439602da80dd9bef035d9d9ef3fe345782c167b",
+    "output_size": [
+      168,
+      197
+    ],
+    "proposed_pnu": [
+      "P",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "CB-0639-R1",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0125-crop.png",
+    "input_sha256": "722ae32d13d7c77ec3511258b294069b49e2a4e7ad693582b903693a12f54222",
+    "box_xyxy_on_input": [
+      36,
+      0,
+      291,
+      385
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/CB-0639-R1.png",
+    "output_sha256": "7185bb7c2e847ad9c54746b38f7fd635d9b302fde9467ff5f4b194a66c6928f6",
+    "output_size": [
+      255,
+      385
+    ],
+    "proposed_pnu": [
+      "N",
+      "P"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "CB-0657",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0133-crop.jpg",
+    "input_sha256": "432b2cf2b27f2ff3c983d25a0b346e9a30d5c098998421bed97cafaf05c94dd1",
+    "box_xyxy_on_input": [
+      45,
+      60,
+      175,
+      215
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/CB-0657.png",
+    "output_sha256": "d3ab9e73741307f226857b9bcc5892612ddc1e468b0e56e5f472f4e8297ec046",
+    "output_size": [
+      130,
+      155
+    ],
+    "proposed_pnu": [
+      "P",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "CB-0660",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0134-crop.jpg",
+    "input_sha256": "41aaabd867bbfef5f165943cf45b4ba7aa5244d407ea8226f49770ad32ce5958",
+    "box_xyxy_on_input": [
+      34,
+      83,
+      186,
+      215
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/CB-0660.png",
+    "output_sha256": "398ed9ae7d04ac582190bdd71cf1fce929ce9931017079b6eece0e0200747fcd",
+    "output_size": [
+      152,
+      132
+    ],
+    "proposed_pnu": [
+      "P",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "CB-0670",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0136-crop.jpg",
+    "input_sha256": "5a800827321cc68a6a874c7aed19d04a70fa32025f47250482ea84c537590168",
+    "box_xyxy_on_input": [
+      49,
+      67,
+      179,
+      224
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/CB-0670.png",
+    "output_sha256": "37842e03fa89623a777a4026473138bbcf5261f4fb493dfeaa33d8bc832be00e",
+    "output_size": [
+      130,
+      157
+    ],
+    "proposed_pnu": [
+      "P",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "CB-0675",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0137-crop.jpg",
+    "input_sha256": "75c138050628447177499bc5cb5ee14b5a1f5f4a626864ad4aee63039bc1ea6d",
+    "box_xyxy_on_input": [
+      45,
+      58,
+      177,
+      224
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/CB-0675.png",
+    "output_sha256": "30a9dd7af2eface522fb64d0f68a36739c69c0872fbece4d5c44830ad680cc96",
+    "output_size": [
+      132,
+      166
+    ],
+    "proposed_pnu": [
+      "P",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "CB-0684",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0138-crop.jpg",
+    "input_sha256": "4c22895b8f0c461822baf75aa325974f88592a9ed3ee542e41e5623598894ced",
+    "box_xyxy_on_input": [
+      56,
+      87,
+      197,
+      224
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/CB-0684.png",
+    "output_sha256": "af997c28d05eaf509a0db6cd51257d2292567c0e33f6172355b69eddaaa6b64d",
+    "output_size": [
+      141,
+      137
+    ],
+    "proposed_pnu": [
+      "P",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "CB-0694",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0140-crop.jpg",
+    "input_sha256": "be0838ca357b1a5c5996c10ca51208052c4304c5e2d76e3e55d76a5ab9a1df4d",
+    "box_xyxy_on_input": [
+      27,
+      74,
+      181,
+      224
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/CB-0694.png",
+    "output_sha256": "57dfe6c643d8e6f8e026b9ecf6ca4bb6189a677ae651b435e63633e3e9f7373d",
+    "output_size": [
+      154,
+      150
+    ],
+    "proposed_pnu": [
+      "P",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "CB-0700",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0141-crop.jpg",
+    "input_sha256": "2990087efb43d6a086ad6968231c0443f6d075bbf7a1af58fd2c14d7c24259d1",
+    "box_xyxy_on_input": [
+      63,
+      94,
+      193,
+      224
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/CB-0700.png",
+    "output_sha256": "8736b58134b8afe279c007e13aaf9bbfa0b5e49272f163684f6f2a2033d4172b",
+    "output_size": [
+      130,
+      130
+    ],
+    "proposed_pnu": [
+      "U",
+      "P"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "CB-0755",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0159-crop.jpg",
+    "input_sha256": "9a1372d17edd76e97c1ca2035aaa19537c2aec8d4b0a4d3d682a54e36ef167a2",
+    "box_xyxy_on_input": [
+      13,
+      22,
+      164,
+      224
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/CB-0755.png",
+    "output_sha256": "28bdd0e043f5c32c4dc0ce0376b9f73937ccc8a8287d10e7f4941e0bdad95405",
+    "output_size": [
+      151,
+      202
+    ],
+    "proposed_pnu": [
+      "N",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "CB-0759",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0161-crop.jpg",
+    "input_sha256": "205c2fbbc0f436b08e90233e48a0b4a7974bf146a6a90388c8fe89586258b61e",
+    "box_xyxy_on_input": [
+      29,
+      29,
+      177,
+      224
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/CB-0759.png",
+    "output_sha256": "4bd5fd2728c452f64a421144f1b6d62073d3cea56eb03686f2ae7193a63edae4",
+    "output_size": [
+      148,
+      195
+    ],
+    "proposed_pnu": [
+      "N",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "CB-0760",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0162-crop.jpg",
+    "input_sha256": "adcfb8967b65cf9d47872a51745d664d28cb8df68013621a46acc22fe5ecbdb9",
+    "box_xyxy_on_input": [
+      67,
+      0,
+      188,
+      168
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/CB-0760.png",
+    "output_sha256": "73d5c50e6e05aeac7b7047280c70c8cc9fd9ac7d7ea94d9ae9bacb0db9dcca66",
+    "output_size": [
+      121,
+      168
+    ],
+    "proposed_pnu": [
+      "N",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "CB-0764",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0164-crop.jpg",
+    "input_sha256": "a099fcf0efa17936d3c824a0d05ea6f119dbe371a10dea9608d29fd4f603c3fd",
+    "box_xyxy_on_input": [
+      58,
+      20,
+      202,
+      175
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/CB-0764.png",
+    "output_sha256": "7b8830cf017a68983b01ef57486c6f790c2ea8033dff7e5d38f1491f80da903f",
+    "output_size": [
+      144,
+      155
+    ],
+    "proposed_pnu": [
+      "N",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "CB-0765",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0165-crop.jpg",
+    "input_sha256": "84d73d16cfbcae62c474fd9ad10a36a12dd56da9aaf4d54be1bf6059ad200960",
+    "box_xyxy_on_input": [
+      54,
+      18,
+      197,
+      175
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/CB-0765.png",
+    "output_sha256": "7dd57ad6c70a10dc2047bd7c7b3a105ab261194a02eed3c2f3d9f079b76f68f8",
+    "output_size": [
+      143,
+      157
+    ],
+    "proposed_pnu": [
+      "N",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "E004-CF-C004",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0173-crop.png",
+    "input_sha256": "e79a3add878754238131a7a4d8ffbfdc19e689284f07052d07c5720f62c07e25",
+    "box_xyxy_on_input": [
+      67,
+      8,
+      270,
+      254
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/E004-CF-C004.png",
+    "output_sha256": "60f3910389d484b1b758817998b0a60536083cb4cf0b9d84d4718390651a7604",
+    "output_size": [
+      203,
+      246
+    ],
+    "proposed_pnu": [
+      "N",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "E004-CF-C023",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0192-crop.png",
+    "input_sha256": "5f904214fe593e881021943f68092c7281e531e5de671cea8dd30e5e88451044",
+    "box_xyxy_on_input": [
+      160,
+      16,
+      713,
+      528
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/E004-CF-C023.png",
+    "output_sha256": "6b6e8b14c990dac6646839c451fcfad7bd98440d17910426ece2d6de94289c61",
+    "output_size": [
+      553,
+      512
+    ],
+    "proposed_pnu": [
+      "N",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "E004-CN-005",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0207-crop.png",
+    "input_sha256": "9ddffd98e6cc11759c269474fd63e18e3b16932ff5fe2d647824ebccd0b096b3",
+    "box_xyxy_on_input": [
+      58,
+      37,
+      354,
+      666
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/E004-CN-005.png",
+    "output_sha256": "e32eea159f4191c9348397a03d87bed97fa216a438696a98b635a409ed809969",
+    "output_size": [
+      296,
+      629
+    ],
+    "proposed_pnu": [
+      "N",
+      "P"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "E004-CN-007",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0209-crop.png",
+    "input_sha256": "6ec6df6b633f700e66a2dbf8a46d9c9f22899f46e2b213c70b540fa12044670e",
+    "box_xyxy_on_input": [
+      40,
+      34,
+      415,
+      657
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/E004-CN-007.png",
+    "output_sha256": "333e0404076f0dc572d8e9c2797e7ed9eab8b2e686f617595d8b4fc2852f3c0d",
+    "output_size": [
+      375,
+      623
+    ],
+    "proposed_pnu": [
+      "N",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "E004-CN-013",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0215-crop.png",
+    "input_sha256": "6fd3ba13df59ed5d7eec896df268479a9537033d3bc39dcf114fd38777afe400",
+    "box_xyxy_on_input": [
+      66,
+      35,
+      350,
+      677
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/E004-CN-013.png",
+    "output_sha256": "df0988fee12e2ac0ae98e82c8335108e448a883dc8633064507e610591bbf928",
+    "output_size": [
+      284,
+      642
+    ],
+    "proposed_pnu": [
+      "N",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "E004-CN-020",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0222-crop.png",
+    "input_sha256": "aa23bae78ae4530b4c069037cd678cbaac47605090926c6e41d6215726f4facd",
+    "box_xyxy_on_input": [
+      86,
+      41,
+      398,
+      659
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/E004-CN-020.png",
+    "output_sha256": "6d062c5dc90bc6eca2eddad9cd3c8436a47b4ca5b5fd2b2d51656845efb0cd24",
+    "output_size": [
+      312,
+      618
+    ],
+    "proposed_pnu": [
+      "N",
+      "P"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "E004-CN-032",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0234-crop.png",
+    "input_sha256": "9d035d164515f24cebaa889b7e6fa1dfa7ed001562f4ea71406ca6346f86d281",
+    "box_xyxy_on_input": [
+      87,
+      22,
+      412,
+      718
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/E004-CN-032.png",
+    "output_sha256": "5aa32b5e1a31227684e1a53295c7a79f02bcef5ecb4ff3ec25f5902cdeca165d",
+    "output_size": [
+      325,
+      696
+    ],
+    "proposed_pnu": [
+      "N",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "E004-EX-C025",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0280-crop.png",
+    "input_sha256": "d2764b7276d502ca665d1ab9a873998eb923f3d3b4c8c734488c64e79867c70d",
+    "box_xyxy_on_input": [
+      34,
+      25,
+      387,
+      390
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/E004-EX-C025.png",
+    "output_sha256": "ce9477ed2e2ea600c5957a36f18f63fe7ea4d505ee7258bafc45d8357dca5e23",
+    "output_size": [
+      353,
+      365
+    ],
+    "proposed_pnu": [
+      "P",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "E004-EX-C043",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0298-crop.png",
+    "input_sha256": "a372e3735168c5737bce16d54349ac8fa955a6469b0acdc83afdd73783fc5607",
+    "box_xyxy_on_input": [
+      72,
+      125,
+      522,
+      570
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/E004-EX-C043.png",
+    "output_sha256": "9102b275164f552b5e0621621542a55fb2810239b4c69f3b2bef3d2a1d61d220",
+    "output_size": [
+      450,
+      445
+    ],
+    "proposed_pnu": [
+      "P",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "E004-EX-C091",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0341-crop.png",
+    "input_sha256": "a04d8728cfbaca1d9ffa687fc35c0adeadf1732699ffb69c08266f6ce42bc33f",
+    "box_xyxy_on_input": [
+      112,
+      14,
+      670,
+      720
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/E004-EX-C091.png",
+    "output_sha256": "a4e4802194bc9600a23072f04642a02af2f24652cb01866be507b1b409456586",
+    "output_size": [
+      558,
+      706
+    ],
+    "proposed_pnu": [
+      "N",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "E004-EX-C099",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0349-crop.png",
+    "input_sha256": "95edb8996d759014c16518afd10f3545568150691a15dc39ab3cd59a630d9291",
+    "box_xyxy_on_input": [
+      0,
+      0,
+      726,
+      720
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/E004-EX-C099.png",
+    "output_sha256": "2d7cdebf4336cd730b420894d1f9806db3cdda252704e9e70e0ef7150c043008",
+    "output_size": [
+      726,
+      720
+    ],
+    "proposed_pnu": [
+      "P",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "E004-EX-C109",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0359-crop.png",
+    "input_sha256": "d107868d325fb53ad83a76256e9fe846cb97b1961a418a8c6a0e69778a8f932c",
+    "box_xyxy_on_input": [
+      35,
+      55,
+      239,
+      194
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/E004-EX-C109.png",
+    "output_sha256": "7dbed58db2a1d856c1a34da2ee29b811d70251b75b3e7c51c8a593f5f5093b63",
+    "output_size": [
+      204,
+      139
+    ],
+    "proposed_pnu": [
+      "N",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "E004-EX-C112",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0362-crop.png",
+    "input_sha256": "3481d292470670c36110f23ccc06a12c9241aecd6f8a79f173d2f08fe173c9c0",
+    "box_xyxy_on_input": [
+      68,
+      55,
+      230,
+      176
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/E004-EX-C112.png",
+    "output_sha256": "6af440b7d7f4957f2af10bc5f4354657e88f1ee706f769cdb564da30292154be",
+    "output_size": [
+      162,
+      121
+    ],
+    "proposed_pnu": [
+      "N",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "E004-EX-C149",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0395-crop.png",
+    "input_sha256": "16c0466b630025942610bdfb621f23704a1c18d9d97a6876784dfd7482b5d426",
+    "box_xyxy_on_input": [
+      76,
+      50,
+      562,
+      622
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/E004-EX-C149.png",
+    "output_sha256": "3e9de4518f4a2bd910794bc34b02e55726dbc5b318bc59b0ca989354251a13d9",
+    "output_size": [
+      486,
+      572
+    ],
+    "proposed_pnu": [
+      "P",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "E004-EX-C184",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0428-crop.png",
+    "input_sha256": "9c4718f9ee8c0f51e72bf79c48a134fca94f3e58e5a612a328ccecf121a6dc17",
+    "box_xyxy_on_input": [
+      67,
+      33,
+      304,
+      495
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/E004-EX-C184.png",
+    "output_sha256": "adcbce93e2addb6a8e4b85ae88aadc0b0ccb5636174f97dc825e3e6115cb37c5",
+    "output_size": [
+      237,
+      462
+    ],
+    "proposed_pnu": [
+      "N",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "E004-EX-C188",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0432-crop.png",
+    "input_sha256": "30c509d9d2c931c301417fb7e35ca47facc09c4cc133ab98615c9f1145feeac5",
+    "box_xyxy_on_input": [
+      46,
+      37,
+      272,
+      432
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/E004-EX-C188.png",
+    "output_sha256": "10295013737344738fe2ea726f266cb990af2943813756a07b069ad63159e76a",
+    "output_size": [
+      226,
+      395
+    ],
+    "proposed_pnu": [
+      "N",
+      "P"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "E004-EX-C190",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0434-crop.png",
+    "input_sha256": "4d94e26c05dcc40e44101441eb4e8574cc5dbf25769742249804650598ab9665",
+    "box_xyxy_on_input": [
+      39,
+      39,
+      479,
+      416
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/E004-EX-C190.png",
+    "output_sha256": "b9aaf931de3816ae3f731ab43236cb2933e883730e77bd662b8d1a98d3bd0699",
+    "output_size": [
+      440,
+      377
+    ],
+    "proposed_pnu": [
+      "P",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "E004-SX-C011",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0454-crop.png",
+    "input_sha256": "9b559293ad12c301f20d01d405f74ae6e588681c5fa1da7e22f1c2dc6b43a206",
+    "box_xyxy_on_input": [
+      49,
+      35,
+      353,
+      567
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/E004-SX-C011.png",
+    "output_sha256": "af88aa37cc569216669e44c0986628eb52220563940e7486e54cc6e7d51b2b1a",
+    "output_size": [
+      304,
+      532
+    ],
+    "proposed_pnu": [
+      "N",
+      "P"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "G07-B09-F00023",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0604-crop.png",
+    "input_sha256": "76a709ec22447911a2995da7483a96055818a0cd072fb09737f7944eb6d0e8bc",
+    "box_xyxy_on_input": [
+      4,
+      11,
+      237,
+      235
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/G07-B09-F00023.png",
+    "output_sha256": "20e0e768d06cd099a9aaff4c012e121821d936ec38dc04f21f18199012bae19e",
+    "output_size": [
+      233,
+      224
+    ],
+    "proposed_pnu": [
+      "N",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "G11-B07-F00008",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0663-crop.png",
+    "input_sha256": "2cee0a10a51d83831c93b79b97aaa689e3736becc28882604c2dbee58652a1e7",
+    "box_xyxy_on_input": [
+      11,
+      14,
+      100,
+      110
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/G11-B07-F00008.png",
+    "output_sha256": "d32d02cc4886c671832d0e1223b3a474c18f760858a87abeba5a5230fc513a63",
+    "output_size": [
+      89,
+      96
+    ],
+    "proposed_pnu": [
+      "N",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "G14-B14-F00033",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0719-crop.png",
+    "input_sha256": "f0f66bd84d1f79e66aaccedd0e1f4d9764c644e9cbfbad2d374485b82bd40bf2",
+    "box_xyxy_on_input": [
+      10,
+      11,
+      318,
+      279
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/G14-B14-F00033.png",
+    "output_sha256": "bfbea2341adf1164acc4ab1129991efdcb055b220c1733767751ad978c8e35a6",
+    "output_size": [
+      308,
+      268
+    ],
+    "proposed_pnu": [
+      "P",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "G3-A08-F021",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0855-crop.png",
+    "input_sha256": "feaa72fe237578692dc3faaefe361d7b69d0407d570fdd881a66ac775b14b340",
+    "box_xyxy_on_input": [
+      43,
+      16,
+      160,
+      164
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/G3-A08-F021.png",
+    "output_sha256": "43de7bf5f843787aaaa108897c9a17636089520bb6742799311325c6322790a4",
+    "output_size": [
+      117,
+      148
+    ],
+    "proposed_pnu": [
+      "N",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "NB-0031",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0931-crop.jpg",
+    "input_sha256": "cc1a67d8ea7afb20d90248019473d0bdb7209dfce55cb026ce851ab52212da1f",
+    "box_xyxy_on_input": [
+      56,
+      22,
+      204,
+      206
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/NB-0031.png",
+    "output_sha256": "eac9178938732ed14e423dea714b9ad6d91af7302ddc4e48635993a43e5f6043",
+    "output_size": [
+      148,
+      184
+    ],
+    "proposed_pnu": [
+      "N",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "NB-0066",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/0966-crop.jpg",
+    "input_sha256": "2ccabe8e9c605588924181d9db8e84eecd55e2a9848c43b68325e093d4533125",
+    "box_xyxy_on_input": [
+      6,
+      76,
+      224,
+      224
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/NB-0066.png",
+    "output_sha256": "9322f1d3e79abc12a498dd5fb1920c4568a504049eb1f804ac8f00071dd066bb",
+    "output_size": [
+      218,
+      148
+    ],
+    "proposed_pnu": [
+      "N",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "V6-SB-035",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/1163-crop.png",
+    "input_sha256": "6f9c58ecb2a8475ea2c8d389d72124f0b9981948a090dcc08b52717d91dd948e",
+    "box_xyxy_on_input": [
+      37,
+      53,
+      494,
+      531
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/V6-SB-035.png",
+    "output_sha256": "6ccedb407624669a7feb17bb62ff2e802a17e958bc5e5f9f83b0374d3ef26d4a",
+    "output_size": [
+      457,
+      478
+    ],
+    "proposed_pnu": [
+      "N",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "V7-A-069",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/1326-crop.png",
+    "input_sha256": "10524f6d12ee5c69530aac468a6f1aa1ccd0d4a8a38d45ab692ff0d9d5042f41",
+    "box_xyxy_on_input": [
+      0,
+      49,
+      433,
+      328
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/V7-A-069.png",
+    "output_sha256": "b6059df59b2b0b5a2f2a866266e9ecd18d7a8dac86f4fbe925729baabd029494",
+    "output_size": [
+      433,
+      279
+    ],
+    "proposed_pnu": [
+      "P",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "V7-B-061",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/1362-crop.png",
+    "input_sha256": "2f3f0358c57a4253038bf05efd715c523c93da16a677b72c15efc73356b8475f",
+    "box_xyxy_on_input": [
+      115,
+      51,
+      329,
+      512
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/V7-B-061.png",
+    "output_sha256": "8ea6ff7e567363089efd2224597607d546f7cb9506952c63e42786d5c604fded",
+    "output_size": [
+      214,
+      461
+    ],
+    "proposed_pnu": [
+      "U",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "V7-D-042",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/1469-crop.png",
+    "input_sha256": "c3bf797ac7b0fcfbdf03c083c46dc521ac5c00e90dc5fea3c556c40295aa1a41",
+    "box_xyxy_on_input": [
+      0,
+      0,
+      300,
+      450
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/V7-D-042.png",
+    "output_sha256": "b1f17a5817ea7d215945fd6f11184842f2fb007b41494d492c5d324e03013ef2",
+    "output_size": [
+      300,
+      450
+    ],
+    "proposed_pnu": [
+      "N",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "V7-OE-S020-A01",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/1479-crop.png",
+    "input_sha256": "2c945a8772678270911202a6a986bbd14a664fc8e2dd74d5cc67781050190249",
+    "box_xyxy_on_input": [
+      74,
+      104,
+      344,
+      461
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/V7-OE-S020-A01.png",
+    "output_sha256": "c49e1547a9f2c3f32564d1f264a098cbbdcc7178a1428fefbc387fcc8e4111ca",
+    "output_size": [
+      270,
+      357
+    ],
+    "proposed_pnu": [
+      "N",
+      "P"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "V7-OE-S049-A01",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/1498-crop.png",
+    "input_sha256": "fceddf116ec807a9c557c75f4dd04b58e7ad265d0324c8eab5968d2af791c332",
+    "box_xyxy_on_input": [
+      600,
+      0,
+      1642,
+      1229
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/V7-OE-S049-A01.png",
+    "output_sha256": "4819af2beffd38c9a54921b047f8b47f40cca3cc5ac5716e74c3b8fbd0a162ca",
+    "output_size": [
+      1042,
+      1229
+    ],
+    "proposed_pnu": [
+      "P",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "V7-OE-S050-A01",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/1499-crop.png",
+    "input_sha256": "55a2df748cb96000290ab0445be84953e48fd4f76c0038a03d94b4201bdc0a02",
+    "box_xyxy_on_input": [
+      408,
+      89,
+      1075,
+      1267
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/V7-OE-S050-A01.png",
+    "output_sha256": "592a5fa08010a85e07d725ae5eaeecf465e7ec923f6bf86a2e606a7db937c2df",
+    "output_size": [
+      667,
+      1178
+    ],
+    "proposed_pnu": [
+      "N",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "V7-OE-S052-A01",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/1501-crop.png",
+    "input_sha256": "98e6b84488d0f0e122173359d7cebfce85824a9ed669af929bf8b2ff67ab36d2",
+    "box_xyxy_on_input": [
+      388,
+      59,
+      839,
+      575
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/V7-OE-S052-A01.png",
+    "output_sha256": "9a8c6d90c089a9e6c4c7a9bcb09e215704dfc640a63dbd09aadd504dc1224679",
+    "output_size": [
+      451,
+      516
+    ],
+    "proposed_pnu": [
+      "P",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  },
+  {
+    "id": "Y03-A08-F00042",
+    "status": "visually_screened_proposal_pending_batch_acceptance",
+    "input_path": "data/interim/v12-full-audit-20261021/images/1609-crop.png",
+    "input_sha256": "9641cb37685bff7aec5df7334d5a0fb92964937f356d6c9016cf96a40c59743a",
+    "box_xyxy_on_input": [
+      6,
+      4,
+      71,
+      109
+    ],
+    "output_path": "data/interim/v12-reconcile-20261022/geometry-proposals/Y03-A08-F00042.png",
+    "output_sha256": "873606922eaad87598d53893d5948b1070a4a258b6892fad3893104b5a2a619d",
+    "output_size": [
+      65,
+      105
+    ],
+    "proposed_pnu": [
+      "N",
+      "N"
+    ],
+    "source_pixels_only": true,
+    "acceptance": null,
+    "person_geometry_status": "needs_review_not_copied_from_old_acceptance",
+    "preview_recipe": {
+      "function": "source_review.preview_input",
+      "size": 224,
+      "fill": [
+        124,
+        116,
+        104
+      ]
+    }
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "status": "authorized_diagnostic_only",
+  "package": "data/processed/pilot-b/pilot-b-20261020-v12",
+  "payload_sha256": "fd4fe8392ca558a17b61bdfbf462f9c26d4d51fc1425690b576e9b119b70f959",
+  "runs": [
+    "E006-V12-S1-SQRT-S20261020-R4",
+    "E006-V12-S1-SQRT-S20261021-R4",
+    "E006-V12-S1-SQRT-S20261022-R4",
+    "E006-V12-S1-RATIO-S20261020-R4",
+    "E006-V12-S1-RATIO-S20261021-R4",
+    "E006-V12-S1-RATIO-S20261022-R4"
+  ],
+  "recipes": {
+    "SQRT": [
+      "E006-V12-S1-SQRT-S20261020-R4",
+      "E006-V12-S1-SQRT-S20261021-R4",
+      "E006-V12-S1-SQRT-S20261022-R4"
+    ],
+    "RATIO": [
+      "E006-V12-S1-RATIO-S20261020-R4",
+      "E006-V12-S1-RATIO-S20261021-R4",
+      "E006-V12-S1-RATIO-S20261022-R4"
+    ]
+  },
+  "reference_recipe": "SQRT",
+  "errors_per_bucket": 4,
+  "augmentation_epoch": 5,
+  "source_roots": "artifacts/reports/dataset-release-20261020-v12/source-roots.json",
+  "source_roots_sha256": "f7515133e42cb3a784bd96610e977ec30cc030f286403e192caafb935dd466f5",
+  "report_output": "artifacts/reports/e006-v12-diagnostics-20261021",
+  "media_output": "data/interim/e006-v12-diagnostics-20261021",
+  "run_checksum_pins": {
+    "E006-V12-S1-SQRT-S20261020-R4": "cd1ddadc2ffe08020f3b6890266abacc12870e99b8ffeed3b3d1ad8ccff4714d",
+    "E006-V12-S1-SQRT-S20261021-R4": "bb43c53071269929432cef6dc86af559bae4695916de2b8e3aadf96a2bb69a62",
+    "E006-V12-S1-SQRT-S20261022-R4": "e8781d376d9c09e9551e1792ea28a3a470f7b7787bb864a018d5f5e96b24381b",
+    "E006-V12-S1-RATIO-S20261020-R4": "b2515a98b3dacd75edd92ce923a291808ac11f4faff4083608c6885759e93078",
+    "E006-V12-S1-RATIO-S20261021-R4": "8bc3cef57c7286d06987cc3628fcabd5172161db8381f616e327105a0fce0356",
+    "E006-V12-S1-RATIO-S20261022-R4": "11bfe1a90960c2051d4d77354f623da1952d7e79ac3ae20cce893277651ef4c4"
+  },
+  "augmentation_epochs": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ]
+}

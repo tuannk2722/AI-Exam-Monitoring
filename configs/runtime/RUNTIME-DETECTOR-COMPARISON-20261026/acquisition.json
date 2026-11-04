@@ -1,0 +1,28 @@
+{
+  "authorization": {
+    "path": "configs/runtime/RUNTIME-DETECTOR-COMPARISON-20261026/authorization.json",
+    "sha256": "42c238e9878eb669fbe055d32ab8982fc77f3678197fbf76a97314c4bc5028e3"
+  },
+  "assets": {
+    "V8S": {
+      "weights": {
+        "path": "outputs/runtime-detector-comparison-acquisition-20261026/yolov8s.pt",
+        "sha256": "1f47a78bf100391c2a140b7ac73a1caae18c32779be7d310658112f7ac9aa78a"
+      },
+      "source_url": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov8s.pt",
+      "size_bytes": 22588772,
+      "license": "AGPL-3.0",
+      "asset_id": 195719452
+    },
+    "V10S": {
+      "weights": {
+        "path": "outputs/runtime-detector-comparison-acquisition-20261026/yolov10s.pt",
+        "sha256": "65fa8332c38a7189597a268897bce6c1026f9499711b9761fb0c2c639b91d4d6"
+      },
+      "source_url": "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolov10s.pt",
+      "size_bytes": 16623111,
+      "license": "AGPL-3.0",
+      "asset_id": 195719628
+    }
+  }
+}

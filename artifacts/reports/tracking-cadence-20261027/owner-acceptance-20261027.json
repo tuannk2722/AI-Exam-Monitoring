@@ -1,0 +1,42 @@
+{
+  "schema_version": "tracking-prototype-acceptance-v1",
+  "decision_id": "TRACKING-C10-CLOSEOUT-20261027",
+  "status": "accepted_for_current_clip_prototype",
+  "selected_arm": "C10",
+  "decision_by": "repository_owner",
+  "basis": "Owner approved the cadence report, explicitly waived full-clip C10 audit, and requested proceeding to the next step.",
+  "full_clip_audit": "waived_by_owner_not_performed",
+  "tracking_stage": "closed_for_prototype",
+  "general_quality_acceptance": false,
+  "known_limitations": [
+    "fragmentation_after_occlusion",
+    "duplicate_tracks",
+    "limited_visual_audit",
+    "no_identity_ground_truth_metrics"
+  ],
+  "next_scope": "temporal_event_rule_design",
+  "event_rule_approval": false,
+  "risk": false,
+  "web": false,
+  "media_delete_by": "2026-11-01T08:55:06.308086+00:00",
+  "selection": {
+    "path": "configs/tracking/TRACKING-CADENCE-20261027/selection-20261027.json",
+    "sha256": "71815c16355e4d591aaf28d70af882251095847c65e13dd36785371fb2e73cfc"
+  },
+  "report": {
+    "path": "artifacts/reports/tracking-cadence-20261027/README.md",
+    "sha256": "5c5e9f5ed8ca263a011efabf78e8d427c7f80197ce72debbf5cd91ab783a3000"
+  },
+  "evidence": {
+    "path": "artifacts/reports/tracking-cadence-20261027/evidence.json",
+    "sha256": "1e706cb2cb2cc9534a8f86894f825185c05f78eca7b12ba8db9f8fab761e60e8"
+  },
+  "assignments": {
+    "path": "outputs/tracking-cadence-20261027/C10/assignments.jsonl",
+    "sha256": "81b5b50b1ea690657b62ca053e192069e701a7ad810c98b2a9c2c0d5c01788cc"
+  },
+  "closeout": {
+    "path": "artifacts/reports/tracking-cadence-20261027/closeout-20261027.md",
+    "sha256": "03e814967f49b5adb52366b13fdee81490622d1170b94e86e4009e865af3063f"
+  }
+}

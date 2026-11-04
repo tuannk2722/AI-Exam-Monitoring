@@ -1,0 +1,1674 @@
+{
+  "train": {
+    "overall": {
+      "records": 1092,
+      "targets": {
+        "phone_use": {
+          "P": {
+            "records": 187,
+            "groups": 42
+          },
+          "N": {
+            "records": 456,
+            "groups": 106
+          },
+          "U": {
+            "records": 449,
+            "groups": 95
+          }
+        },
+        "looking_around": {
+          "P": {
+            "records": 339,
+            "groups": 87
+          },
+          "N": {
+            "records": 744,
+            "groups": 147
+          },
+          "U": {
+            "records": 9,
+            "groups": 7
+          }
+        }
+      },
+      "joint_states": {
+        "P/N": 146,
+        "U/P": 157,
+        "N/P": 142,
+        "P/P": 40,
+        "N/N": 306,
+        "U/N": 292,
+        "N/U": 8,
+        "P/U": 1
+      }
+    },
+    "by_source": {
+      "E004-crop-bundle-20261014": {
+        "records": 240,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 78,
+              "groups": 1
+            },
+            "N": {
+              "records": 31,
+              "groups": 1
+            },
+            "U": {
+              "records": 131,
+              "groups": 1
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 57,
+              "groups": 1
+            },
+            "N": {
+              "records": 183,
+              "groups": 1
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "U/N": 92,
+          "U/P": 39,
+          "N/N": 22,
+          "N/P": 9,
+          "P/N": 69,
+          "P/P": 9
+        }
+      },
+      "E004-new-bundle-20261015": {
+        "records": 105,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 0,
+              "groups": 0
+            },
+            "N": {
+              "records": 71,
+              "groups": 1
+            },
+            "U": {
+              "records": 34,
+              "groups": 1
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 19,
+              "groups": 1
+            },
+            "N": {
+              "records": 84,
+              "groups": 1
+            },
+            "U": {
+              "records": 2,
+              "groups": 1
+            }
+          }
+        },
+        "joint_states": {
+          "U/P": 7,
+          "U/N": 27,
+          "N/N": 57,
+          "N/P": 12,
+          "N/U": 2
+        }
+      },
+      "classroom_attitude": {
+        "records": 62,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 13,
+              "groups": 12
+            },
+            "N": {
+              "records": 16,
+              "groups": 14
+            },
+            "U": {
+              "records": 33,
+              "groups": 26
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 17,
+              "groups": 12
+            },
+            "N": {
+              "records": 44,
+              "groups": 35
+            },
+            "U": {
+              "records": 1,
+              "groups": 1
+            }
+          }
+        },
+        "joint_states": {
+          "U/N": 26,
+          "N/N": 7,
+          "P/N": 11,
+          "N/P": 8,
+          "U/P": 7,
+          "P/P": 2,
+          "N/U": 1
+        }
+      },
+      "classroom_monitoring_v2": {
+        "records": 21,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 0,
+              "groups": 0
+            },
+            "N": {
+              "records": 9,
+              "groups": 1
+            },
+            "U": {
+              "records": 12,
+              "groups": 1
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 12,
+              "groups": 1
+            },
+            "N": {
+              "records": 9,
+              "groups": 1
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "U/N": 3,
+          "U/P": 9,
+          "N/N": 6,
+          "N/P": 3
+        }
+      },
+      "coco_2017_train": {
+        "records": 13,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 3,
+              "groups": 3
+            },
+            "N": {
+              "records": 6,
+              "groups": 6
+            },
+            "U": {
+              "records": 4,
+              "groups": 4
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 6,
+              "groups": 6
+            },
+            "N": {
+              "records": 7,
+              "groups": 7
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "P/P": 1,
+          "U/P": 3,
+          "P/N": 2,
+          "N/P": 2,
+          "N/N": 4,
+          "U/N": 1
+        }
+      },
+      "commons_classroom_gapfill": {
+        "records": 26,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 14,
+              "groups": 9
+            },
+            "N": {
+              "records": 2,
+              "groups": 1
+            },
+            "U": {
+              "records": 10,
+              "groups": 6
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 11,
+              "groups": 6
+            },
+            "N": {
+              "records": 15,
+              "groups": 10
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "U/P": 6,
+          "P/N": 9,
+          "U/N": 4,
+          "P/P": 5,
+          "N/N": 2
+        }
+      },
+      "consolidated-frames-20261013": {
+        "records": 31,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 13,
+              "groups": 1
+            },
+            "N": {
+              "records": 14,
+              "groups": 1
+            },
+            "U": {
+              "records": 4,
+              "groups": 1
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 12,
+              "groups": 1
+            },
+            "N": {
+              "records": 19,
+              "groups": 1
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "P/N": 11,
+          "N/N": 6,
+          "N/P": 8,
+          "P/P": 2,
+          "U/P": 2,
+          "U/N": 2
+        }
+      },
+      "exam_cheating_keaor": {
+        "records": 31,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 2,
+              "groups": 1
+            },
+            "N": {
+              "records": 11,
+              "groups": 6
+            },
+            "U": {
+              "records": 18,
+              "groups": 9
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 19,
+              "groups": 13
+            },
+            "N": {
+              "records": 12,
+              "groups": 8
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "U/N": 7,
+          "P/P": 2,
+          "U/P": 11,
+          "N/P": 6,
+          "N/N": 5
+        }
+      },
+      "openimages_train_prefix": {
+        "records": 40,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 9,
+              "groups": 9
+            },
+            "N": {
+              "records": 22,
+              "groups": 21
+            },
+            "U": {
+              "records": 9,
+              "groups": 9
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 15,
+              "groups": 15
+            },
+            "N": {
+              "records": 25,
+              "groups": 24
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "U/P": 4,
+          "P/N": 7,
+          "U/N": 5,
+          "P/P": 2,
+          "N/N": 13,
+          "N/P": 9
+        }
+      },
+      "owner-frames-part01-20261016": {
+        "records": 38,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 0,
+              "groups": 0
+            },
+            "N": {
+              "records": 27,
+              "groups": 2
+            },
+            "U": {
+              "records": 11,
+              "groups": 2
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 9,
+              "groups": 2
+            },
+            "N": {
+              "records": 27,
+              "groups": 2
+            },
+            "U": {
+              "records": 2,
+              "groups": 2
+            }
+          }
+        },
+        "joint_states": {
+          "N/N": 18,
+          "U/N": 9,
+          "N/P": 7,
+          "N/U": 2,
+          "U/P": 2
+        }
+      },
+      "owner-frames-part02-20261016": {
+        "records": 28,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 0,
+              "groups": 0
+            },
+            "N": {
+              "records": 22,
+              "groups": 2
+            },
+            "U": {
+              "records": 6,
+              "groups": 1
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 5,
+              "groups": 2
+            },
+            "N": {
+              "records": 23,
+              "groups": 2
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "N/N": 18,
+          "N/P": 4,
+          "U/N": 5,
+          "U/P": 1
+        }
+      },
+      "owner-frames-part03-20261016": {
+        "records": 45,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 12,
+              "groups": 2
+            },
+            "N": {
+              "records": 14,
+              "groups": 1
+            },
+            "U": {
+              "records": 19,
+              "groups": 2
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 3,
+              "groups": 2
+            },
+            "N": {
+              "records": 42,
+              "groups": 2
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "N/N": 13,
+          "U/N": 18,
+          "N/P": 1,
+          "U/P": 1,
+          "P/N": 11,
+          "P/P": 1
+        }
+      },
+      "owner-frames-part04-20261016": {
+        "records": 29,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 5,
+              "groups": 1
+            },
+            "N": {
+              "records": 16,
+              "groups": 1
+            },
+            "U": {
+              "records": 8,
+              "groups": 2
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 7,
+              "groups": 2
+            },
+            "N": {
+              "records": 22,
+              "groups": 2
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "P/N": 3,
+          "P/P": 2,
+          "U/N": 5,
+          "U/P": 3,
+          "N/P": 2,
+          "N/N": 14
+        }
+      },
+      "owner-frames-part05-20261016": {
+        "records": 56,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 0,
+              "groups": 0
+            },
+            "N": {
+              "records": 35,
+              "groups": 2
+            },
+            "U": {
+              "records": 21,
+              "groups": 2
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 9,
+              "groups": 2
+            },
+            "N": {
+              "records": 47,
+              "groups": 2
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "N/N": 30,
+          "U/N": 17,
+          "U/P": 4,
+          "N/P": 5
+        }
+      },
+      "pexels-v2-20261013": {
+        "records": 26,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 9,
+              "groups": 3
+            },
+            "N": {
+              "records": 14,
+              "groups": 3
+            },
+            "U": {
+              "records": 3,
+              "groups": 2
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 13,
+              "groups": 3
+            },
+            "N": {
+              "records": 13,
+              "groups": 4
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "P/N": 6,
+          "U/N": 2,
+          "N/P": 9,
+          "N/N": 5,
+          "P/P": 3,
+          "U/P": 1
+        }
+      },
+      "roboflow_v1": {
+        "records": 43,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 5,
+              "groups": 1
+            },
+            "N": {
+              "records": 15,
+              "groups": 13
+            },
+            "U": {
+              "records": 23,
+              "groups": 12
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 15,
+              "groups": 9
+            },
+            "N": {
+              "records": 28,
+              "groups": 15
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "N/N": 8,
+          "N/P": 7,
+          "U/P": 7,
+          "U/N": 16,
+          "P/N": 4,
+          "P/P": 1
+        }
+      },
+      "scb_head": {
+        "records": 32,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 0,
+              "groups": 0
+            },
+            "N": {
+              "records": 20,
+              "groups": 12
+            },
+            "U": {
+              "records": 12,
+              "groups": 9
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 24,
+              "groups": 13
+            },
+            "N": {
+              "records": 7,
+              "groups": 5
+            },
+            "U": {
+              "records": 1,
+              "groups": 1
+            }
+          }
+        },
+        "joint_states": {
+          "N/P": 13,
+          "U/P": 11,
+          "U/N": 1,
+          "N/N": 6,
+          "N/U": 1
+        }
+      },
+      "scb_hrw": {
+        "records": 58,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 0,
+              "groups": 0
+            },
+            "N": {
+              "records": 48,
+              "groups": 25
+            },
+            "U": {
+              "records": 10,
+              "groups": 9
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 6,
+              "groups": 4
+            },
+            "N": {
+              "records": 51,
+              "groups": 28
+            },
+            "U": {
+              "records": 1,
+              "groups": 1
+            }
+          }
+        },
+        "joint_states": {
+          "N/N": 42,
+          "N/P": 5,
+          "N/U": 1,
+          "U/N": 9,
+          "U/P": 1
+        }
+      },
+      "student_behaviour": {
+        "records": 65,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 9,
+              "groups": 1
+            },
+            "N": {
+              "records": 9,
+              "groups": 2
+            },
+            "U": {
+              "records": 47,
+              "groups": 1
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 30,
+              "groups": 1
+            },
+            "N": {
+              "records": 35,
+              "groups": 2
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "U/N": 28,
+          "P/N": 2,
+          "U/P": 19,
+          "P/P": 7,
+          "N/N": 5,
+          "N/P": 4
+        }
+      },
+      "studentclassroombehavior": {
+        "records": 6,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 0,
+              "groups": 0
+            },
+            "N": {
+              "records": 3,
+              "groups": 2
+            },
+            "U": {
+              "records": 3,
+              "groups": 2
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 3,
+              "groups": 2
+            },
+            "N": {
+              "records": 3,
+              "groups": 3
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "U/P": 1,
+          "U/N": 2,
+          "N/P": 2,
+          "N/N": 1
+        }
+      },
+      "unsplash-20261013": {
+        "records": 5,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 1,
+              "groups": 1
+            },
+            "N": {
+              "records": 1,
+              "groups": 1
+            },
+            "U": {
+              "records": 3,
+              "groups": 3
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 0,
+              "groups": 0
+            },
+            "N": {
+              "records": 5,
+              "groups": 4
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "U/N": 3,
+          "P/N": 1,
+          "N/N": 1
+        }
+      },
+      "wmf_knowledge_everyone": {
+        "records": 2,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 0,
+              "groups": 0
+            },
+            "N": {
+              "records": 2,
+              "groups": 1
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 1,
+              "groups": 1
+            },
+            "N": {
+              "records": 1,
+              "groups": 1
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "N/P": 1,
+          "N/N": 1
+        }
+      },
+      "youtube-crawl-20261018": {
+        "records": 90,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 14,
+              "groups": 1
+            },
+            "N": {
+              "records": 48,
+              "groups": 5
+            },
+            "U": {
+              "records": 28,
+              "groups": 5
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 46,
+              "groups": 5
+            },
+            "N": {
+              "records": 42,
+              "groups": 5
+            },
+            "U": {
+              "records": 2,
+              "groups": 2
+            }
+          }
+        },
+        "joint_states": {
+          "P/N": 10,
+          "U/P": 18,
+          "N/P": 25,
+          "P/P": 3,
+          "N/N": 22,
+          "U/N": 10,
+          "N/U": 1,
+          "P/U": 1
+        }
+      }
+    }
+  },
+  "val": {
+    "overall": {
+      "records": 204,
+      "targets": {
+        "phone_use": {
+          "P": {
+            "records": 35,
+            "groups": 25
+          },
+          "N": {
+            "records": 94,
+            "groups": 48
+          },
+          "U": {
+            "records": 75,
+            "groups": 54
+          }
+        },
+        "looking_around": {
+          "P": {
+            "records": 65,
+            "groups": 40
+          },
+          "N": {
+            "records": 139,
+            "groups": 80
+          },
+          "U": {
+            "records": 0,
+            "groups": 0
+          }
+        }
+      },
+      "joint_states": {
+        "N/N": 66,
+        "U/N": 44,
+        "P/P": 6,
+        "P/N": 29,
+        "U/P": 31,
+        "N/P": 28
+      }
+    },
+    "by_source": {
+      "classroom_attitude": {
+        "records": 32,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 14,
+              "groups": 11
+            },
+            "N": {
+              "records": 0,
+              "groups": 0
+            },
+            "U": {
+              "records": 18,
+              "groups": 15
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 5,
+              "groups": 5
+            },
+            "N": {
+              "records": 27,
+              "groups": 19
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "P/N": 14,
+          "U/N": 13,
+          "U/P": 5
+        }
+      },
+      "coco_2017_train": {
+        "records": 5,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 0,
+              "groups": 0
+            },
+            "N": {
+              "records": 2,
+              "groups": 2
+            },
+            "U": {
+              "records": 3,
+              "groups": 3
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 2,
+              "groups": 2
+            },
+            "N": {
+              "records": 3,
+              "groups": 3
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "N/N": 2,
+          "U/N": 1,
+          "U/P": 2
+        }
+      },
+      "commons_classroom_gapfill": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 1,
+              "groups": 1
+            },
+            "N": {
+              "records": 0,
+              "groups": 0
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 0,
+              "groups": 0
+            },
+            "N": {
+              "records": 1,
+              "groups": 1
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "P/N": 1
+        }
+      },
+      "consolidated-frames-20261013": {
+        "records": 5,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 1,
+              "groups": 1
+            },
+            "N": {
+              "records": 1,
+              "groups": 1
+            },
+            "U": {
+              "records": 3,
+              "groups": 3
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 0,
+              "groups": 0
+            },
+            "N": {
+              "records": 5,
+              "groups": 5
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "P/N": 1,
+          "U/N": 3,
+          "N/N": 1
+        }
+      },
+      "exam_cheating_keaor": {
+        "records": 12,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 3,
+              "groups": 3
+            },
+            "N": {
+              "records": 6,
+              "groups": 2
+            },
+            "U": {
+              "records": 3,
+              "groups": 2
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 5,
+              "groups": 3
+            },
+            "N": {
+              "records": 7,
+              "groups": 6
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "P/N": 2,
+          "U/N": 3,
+          "N/P": 4,
+          "N/N": 2,
+          "P/P": 1
+        }
+      },
+      "openimages_train_prefix": {
+        "records": 13,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 3,
+              "groups": 2
+            },
+            "N": {
+              "records": 5,
+              "groups": 5
+            },
+            "U": {
+              "records": 5,
+              "groups": 5
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 8,
+              "groups": 8
+            },
+            "N": {
+              "records": 5,
+              "groups": 4
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "U/P": 3,
+          "P/N": 2,
+          "P/P": 1,
+          "U/N": 2,
+          "N/P": 4,
+          "N/N": 1
+        }
+      },
+      "owner-frames-part01-20261016": {
+        "records": 22,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 3,
+              "groups": 2
+            },
+            "N": {
+              "records": 9,
+              "groups": 3
+            },
+            "U": {
+              "records": 10,
+              "groups": 3
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 7,
+              "groups": 3
+            },
+            "N": {
+              "records": 15,
+              "groups": 3
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "N/N": 8,
+          "U/P": 6,
+          "U/N": 4,
+          "P/N": 3,
+          "N/P": 1
+        }
+      },
+      "owner-frames-part02-20261016": {
+        "records": 42,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 5,
+              "groups": 1
+            },
+            "N": {
+              "records": 30,
+              "groups": 2
+            },
+            "U": {
+              "records": 7,
+              "groups": 2
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 10,
+              "groups": 3
+            },
+            "N": {
+              "records": 32,
+              "groups": 3
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "N/N": 22,
+          "U/P": 1,
+          "N/P": 8,
+          "P/N": 4,
+          "P/P": 1,
+          "U/N": 6
+        }
+      },
+      "owner-frames-part04-20261016": {
+        "records": 3,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 0,
+              "groups": 0
+            },
+            "N": {
+              "records": 2,
+              "groups": 1
+            },
+            "U": {
+              "records": 1,
+              "groups": 1
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 2,
+              "groups": 1
+            },
+            "N": {
+              "records": 1,
+              "groups": 1
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "N/N": 1,
+          "N/P": 1,
+          "U/P": 1
+        }
+      },
+      "owner-frames-part05-20261016": {
+        "records": 7,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 2,
+              "groups": 1
+            },
+            "N": {
+              "records": 4,
+              "groups": 1
+            },
+            "U": {
+              "records": 1,
+              "groups": 1
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 6,
+              "groups": 1
+            },
+            "N": {
+              "records": 1,
+              "groups": 1
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "N/P": 3,
+          "P/P": 2,
+          "N/N": 1,
+          "U/P": 1
+        }
+      },
+      "pexels-v2-20261013": {
+        "records": 7,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 2,
+              "groups": 2
+            },
+            "N": {
+              "records": 2,
+              "groups": 2
+            },
+            "U": {
+              "records": 3,
+              "groups": 3
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 1,
+              "groups": 1
+            },
+            "N": {
+              "records": 6,
+              "groups": 5
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "P/P": 1,
+          "U/N": 3,
+          "N/N": 2,
+          "P/N": 1
+        }
+      },
+      "roboflow_v1": {
+        "records": 11,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 0,
+              "groups": 0
+            },
+            "N": {
+              "records": 3,
+              "groups": 3
+            },
+            "U": {
+              "records": 8,
+              "groups": 8
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 6,
+              "groups": 5
+            },
+            "N": {
+              "records": 5,
+              "groups": 4
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "U/P": 5,
+          "N/N": 2,
+          "U/N": 3,
+          "N/P": 1
+        }
+      },
+      "scb_head": {
+        "records": 9,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 0,
+              "groups": 0
+            },
+            "N": {
+              "records": 3,
+              "groups": 2
+            },
+            "U": {
+              "records": 6,
+              "groups": 6
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 8,
+              "groups": 6
+            },
+            "N": {
+              "records": 1,
+              "groups": 1
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "N/P": 2,
+          "U/P": 6,
+          "N/N": 1
+        }
+      },
+      "scb_hrw": {
+        "records": 9,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 0,
+              "groups": 0
+            },
+            "N": {
+              "records": 6,
+              "groups": 6
+            },
+            "U": {
+              "records": 3,
+              "groups": 3
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 2,
+              "groups": 2
+            },
+            "N": {
+              "records": 7,
+              "groups": 7
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "N/N": 5,
+          "U/N": 2,
+          "U/P": 1,
+          "N/P": 1
+        }
+      },
+      "student_behaviour": {
+        "records": 22,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 0,
+              "groups": 0
+            },
+            "N": {
+              "records": 19,
+              "groups": 18
+            },
+            "U": {
+              "records": 3,
+              "groups": 3
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 3,
+              "groups": 3
+            },
+            "N": {
+              "records": 19,
+              "groups": 17
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "N/N": 16,
+          "U/N": 3,
+          "N/P": 3
+        }
+      },
+      "studentclassroombehavior": {
+        "records": 3,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 0,
+              "groups": 0
+            },
+            "N": {
+              "records": 2,
+              "groups": 2
+            },
+            "U": {
+              "records": 1,
+              "groups": 1
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 0,
+              "groups": 0
+            },
+            "N": {
+              "records": 3,
+              "groups": 3
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "N/N": 2,
+          "U/N": 1
+        }
+      },
+      "unsplash-20261013": {
+        "records": 1,
+        "targets": {
+          "phone_use": {
+            "P": {
+              "records": 1,
+              "groups": 1
+            },
+            "N": {
+              "records": 0,
+              "groups": 0
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          },
+          "looking_around": {
+            "P": {
+              "records": 0,
+              "groups": 0
+            },
+            "N": {
+              "records": 1,
+              "groups": 1
+            },
+            "U": {
+              "records": 0,
+              "groups": 0
+            }
+          }
+        },
+        "joint_states": {
+          "P/N": 1
+        }
+      }
+    }
+  }
+}

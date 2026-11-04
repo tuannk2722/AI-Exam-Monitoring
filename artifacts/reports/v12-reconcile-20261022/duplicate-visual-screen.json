@@ -1,0 +1,877 @@
+{
+  "status": "91_pairs_screened_not_global_dedup_acceptance",
+  "pairs": [
+    {
+      "a": "CB-0033",
+      "b": "NEW-116",
+      "distance": 2,
+      "number": 1,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-01.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "CB-0145",
+      "b": "NEW-126",
+      "distance": 2,
+      "number": 2,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-01.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "CB-0152",
+      "b": "NEW-059",
+      "distance": 3,
+      "number": 3,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-01.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "CB-0159",
+      "b": "NEW-125",
+      "distance": 2,
+      "number": 4,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-01.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "CB-0189",
+      "b": "NEW-050",
+      "distance": 0,
+      "number": 5,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-01.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "CB-0317",
+      "b": "NEW-011",
+      "distance": 1,
+      "number": 6,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-01.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "CB-0405",
+      "b": "NEW-052",
+      "distance": 0,
+      "number": 7,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-02.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "CB-0428",
+      "b": "NEW-016",
+      "distance": 3,
+      "number": 8,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-02.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "CB-0473",
+      "b": "NEW-051",
+      "distance": 1,
+      "number": 9,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-02.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "CB-0626",
+      "b": "CB-0631",
+      "distance": 5,
+      "number": 10,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-02.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "CB-0647",
+      "b": "NEW-022",
+      "distance": 5,
+      "number": 11,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-02.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "CB-0653",
+      "b": "NEW-064",
+      "distance": 1,
+      "number": 12,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-02.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "E004-CF-C011",
+      "b": "NEW-151",
+      "distance": 6,
+      "number": 13,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-03.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "E004-EX-C006",
+      "b": "NEW-114",
+      "distance": 0,
+      "number": 14,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-03.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "E004-EX-C006",
+      "b": "NEW-115",
+      "distance": 0,
+      "number": 15,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-03.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "E004-EX-C022",
+      "b": "NEW-068",
+      "distance": 2,
+      "number": 16,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-03.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "G05-B03-F00039",
+      "b": "NEW-043",
+      "distance": 1,
+      "number": 17,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-03.jpg",
+      "retired_old_ids": [
+        "G05-B03-F00039"
+      ]
+    },
+    {
+      "a": "G05-B03-F00039",
+      "b": "NEW-053",
+      "distance": 5,
+      "number": 18,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-03.jpg",
+      "retired_old_ids": [
+        "G05-B03-F00039"
+      ]
+    },
+    {
+      "a": "G1-A03-F046",
+      "b": "NEW-124",
+      "distance": 6,
+      "number": 19,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-04.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "G13-B01-F00009",
+      "b": "NEW-078",
+      "distance": 2,
+      "number": 20,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-04.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "G14-A09-F00027",
+      "b": "NEW-061",
+      "distance": 0,
+      "number": 21,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-04.jpg",
+      "retired_old_ids": [
+        "G14-A09-F00027"
+      ]
+    },
+    {
+      "a": "G16-A02-F00043",
+      "b": "NEW-083",
+      "distance": 1,
+      "number": 22,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-04.jpg",
+      "retired_old_ids": [
+        "G16-A02-F00043"
+      ]
+    },
+    {
+      "a": "G16-A02-F00043",
+      "b": "NEW-084",
+      "distance": 2,
+      "number": 23,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-04.jpg",
+      "retired_old_ids": [
+        "G16-A02-F00043"
+      ]
+    },
+    {
+      "a": "G18-A03-F00010",
+      "b": "NEW-054",
+      "distance": 3,
+      "number": 24,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-04.jpg",
+      "retired_old_ids": [
+        "G18-A03-F00010"
+      ]
+    },
+    {
+      "a": "G2-A01-F001",
+      "b": "NEW-020",
+      "distance": 6,
+      "number": 25,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-05.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "G2-A02-F001",
+      "b": "G2-A02-F005",
+      "distance": 6,
+      "number": 26,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-05.jpg",
+      "retired_old_ids": [
+        "G2-A02-F001"
+      ]
+    },
+    {
+      "a": "G2-A06-F149",
+      "b": "NEW-071",
+      "distance": 2,
+      "number": 27,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-05.jpg",
+      "retired_old_ids": [
+        "G2-A06-F149"
+      ]
+    },
+    {
+      "a": "G2-A06-F149",
+      "b": "NEW-072",
+      "distance": 2,
+      "number": 28,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-05.jpg",
+      "retired_old_ids": [
+        "G2-A06-F149"
+      ]
+    },
+    {
+      "a": "G2-A09-F041",
+      "b": "NEW-057",
+      "distance": 1,
+      "number": 29,
+      "visual_screen": "near_repeat_or_low_information_pending",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-05.jpg",
+      "retired_old_ids": [
+        "G2-A09-F041"
+      ]
+    },
+    {
+      "a": "G23-A03-F00009",
+      "b": "NEW-075",
+      "distance": 2,
+      "number": 30,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-05.jpg",
+      "retired_old_ids": [
+        "G23-A03-F00009"
+      ]
+    },
+    {
+      "a": "G23-A03-F00009",
+      "b": "NEW-076",
+      "distance": 3,
+      "number": 31,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-06.jpg",
+      "retired_old_ids": [
+        "G23-A03-F00009"
+      ]
+    },
+    {
+      "a": "G23-B14-F00013",
+      "b": "NEW-049",
+      "distance": 3,
+      "number": 32,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-06.jpg",
+      "retired_old_ids": [
+        "G23-B14-F00013"
+      ]
+    },
+    {
+      "a": "G26-B03-F00002",
+      "b": "NEW-045",
+      "distance": 2,
+      "number": 33,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-06.jpg",
+      "retired_old_ids": [
+        "G26-B03-F00002"
+      ]
+    },
+    {
+      "a": "G26-B03-F00002",
+      "b": "NEW-077",
+      "distance": 1,
+      "number": 34,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-06.jpg",
+      "retired_old_ids": [
+        "G26-B03-F00002"
+      ]
+    },
+    {
+      "a": "G26-B23-F00018",
+      "b": "NEW-048",
+      "distance": 2,
+      "number": 35,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-06.jpg",
+      "retired_old_ids": [
+        "G26-B23-F00018"
+      ]
+    },
+    {
+      "a": "G5-A09-F047",
+      "b": "G5-A09-F065",
+      "distance": 6,
+      "number": 36,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-06.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NB-0075",
+      "b": "NEW-153",
+      "distance": 5,
+      "number": 37,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-07.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NB-0075",
+      "b": "NEW-154",
+      "distance": 3,
+      "number": 38,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-07.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NC-002",
+      "b": "NEW-063",
+      "distance": 2,
+      "number": 39,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-07.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NC-010",
+      "b": "NEW-044",
+      "distance": 6,
+      "number": 40,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-07.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "V6-CA-042",
+      "b": "V7-OE-S080-A01",
+      "distance": 5,
+      "number": 41,
+      "visual_screen": "near_repeat_or_low_information_pending",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-07.jpg",
+      "retired_old_ids": [
+        "V6-CA-042",
+        "V7-OE-S080-A01"
+      ]
+    },
+    {
+      "a": "V6-SB-013",
+      "b": "NEW-067",
+      "distance": 4,
+      "number": 42,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-07.jpg",
+      "retired_old_ids": [
+        "V6-SB-013"
+      ]
+    },
+    {
+      "a": "V6R2-MP-006",
+      "b": "V6R2-MP-054",
+      "distance": 3,
+      "number": 43,
+      "visual_screen": "owner_approved_duplicate_removal_batch01",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-08.jpg",
+      "retired_old_ids": [
+        "V6R2-MP-006",
+        "V6R2-MP-054"
+      ]
+    },
+    {
+      "a": "V6R2-MP-006",
+      "b": "NEW-089",
+      "distance": 6,
+      "number": 44,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-08.jpg",
+      "retired_old_ids": [
+        "V6R2-MP-006"
+      ]
+    },
+    {
+      "a": "V6R2-MP-024-R04",
+      "b": "NEW-021",
+      "distance": 1,
+      "number": 45,
+      "visual_screen": "near_repeat_or_low_information_pending",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-08.jpg",
+      "retired_old_ids": [
+        "V6R2-MP-024-R04"
+      ]
+    },
+    {
+      "a": "V6R2-MP-028",
+      "b": "NEW-010",
+      "distance": 0,
+      "number": 46,
+      "visual_screen": "near_repeat_or_low_information_pending",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-08.jpg",
+      "retired_old_ids": [
+        "V6R2-MP-028"
+      ]
+    },
+    {
+      "a": "V6R2-MP-035",
+      "b": "NEW-008",
+      "distance": 6,
+      "number": 47,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-08.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "V6R2-MP-038",
+      "b": "NEW-025",
+      "distance": 1,
+      "number": 48,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-08.jpg",
+      "retired_old_ids": [
+        "V6R2-MP-038"
+      ]
+    },
+    {
+      "a": "V6R2-MP-045",
+      "b": "V6R2-MP-070",
+      "distance": 3,
+      "number": 49,
+      "visual_screen": "near_repeat_or_low_information_pending",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-09.jpg",
+      "retired_old_ids": [
+        "V6R2-MP-045",
+        "V6R2-MP-070"
+      ]
+    },
+    {
+      "a": "V6R2-MP-086",
+      "b": "NEW-027",
+      "distance": 1,
+      "number": 50,
+      "visual_screen": "near_repeat_or_low_information_pending",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-09.jpg",
+      "retired_old_ids": [
+        "V6R2-MP-086"
+      ]
+    },
+    {
+      "a": "NEW-002",
+      "b": "NEW-007",
+      "distance": 5,
+      "number": 51,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-09.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-003",
+      "b": "NEW-005",
+      "distance": 5,
+      "number": 52,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-09.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-003",
+      "b": "NEW-008",
+      "distance": 5,
+      "number": 53,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-09.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-005",
+      "b": "NEW-009",
+      "distance": 6,
+      "number": 54,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-09.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-012",
+      "b": "NEW-020",
+      "distance": 4,
+      "number": 55,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-10.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-029",
+      "b": "NEW-030",
+      "distance": 6,
+      "number": 56,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-10.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-043",
+      "b": "NEW-053",
+      "distance": 4,
+      "number": 57,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-10.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-045",
+      "b": "NEW-077",
+      "distance": 3,
+      "number": 58,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-10.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-071",
+      "b": "NEW-072",
+      "distance": 2,
+      "number": 59,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-10.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-075",
+      "b": "NEW-076",
+      "distance": 3,
+      "number": 60,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-10.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-079",
+      "b": "NEW-080",
+      "distance": 6,
+      "number": 61,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-11.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-083",
+      "b": "NEW-084",
+      "distance": 1,
+      "number": 62,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-11.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-088",
+      "b": "NEW-089",
+      "distance": 5,
+      "number": 63,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-11.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-100",
+      "b": "NEW-102",
+      "distance": 4,
+      "number": 64,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-11.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-101",
+      "b": "NEW-103",
+      "distance": 4,
+      "number": 65,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-11.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-104",
+      "b": "NEW-107",
+      "distance": 4,
+      "number": 66,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-11.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-104",
+      "b": "NEW-108",
+      "distance": 6,
+      "number": 67,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-12.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-105",
+      "b": "NEW-108",
+      "distance": 5,
+      "number": 68,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-12.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-106",
+      "b": "NEW-108",
+      "distance": 6,
+      "number": 69,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-12.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-109",
+      "b": "NEW-112",
+      "distance": 3,
+      "number": 70,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-12.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-109",
+      "b": "NEW-113",
+      "distance": 2,
+      "number": 71,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-12.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-112",
+      "b": "NEW-113",
+      "distance": 3,
+      "number": 72,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-12.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-114",
+      "b": "NEW-115",
+      "distance": 0,
+      "number": 73,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-13.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-119",
+      "b": "NEW-120",
+      "distance": 6,
+      "number": 74,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-13.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-119",
+      "b": "NEW-122",
+      "distance": 6,
+      "number": 75,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-13.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-120",
+      "b": "NEW-122",
+      "distance": 0,
+      "number": 76,
+      "visual_screen": "near_repeat_new_pair_pending",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-13.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-120",
+      "b": "NEW-123",
+      "distance": 5,
+      "number": 77,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-13.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-121",
+      "b": "NEW-123",
+      "distance": 6,
+      "number": 78,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-13.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-122",
+      "b": "NEW-123",
+      "distance": 5,
+      "number": 79,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-14.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-128",
+      "b": "NEW-129",
+      "distance": 2,
+      "number": 80,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-14.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-128",
+      "b": "NEW-130",
+      "distance": 6,
+      "number": 81,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-14.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-129",
+      "b": "NEW-130",
+      "distance": 4,
+      "number": 82,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-14.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-130",
+      "b": "NEW-131",
+      "distance": 6,
+      "number": 83,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-14.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-134",
+      "b": "NEW-135",
+      "distance": 6,
+      "number": 84,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-14.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-134",
+      "b": "NEW-136",
+      "distance": 2,
+      "number": 85,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-15.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-135",
+      "b": "NEW-136",
+      "distance": 4,
+      "number": 86,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-15.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-140",
+      "b": "NEW-142",
+      "distance": 0,
+      "number": 87,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-15.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-147",
+      "b": "NEW-149",
+      "distance": 5,
+      "number": 88,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-15.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-149",
+      "b": "NEW-150",
+      "distance": 2,
+      "number": 89,
+      "visual_screen": "near_repeat_new_pair_pending",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-15.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-151",
+      "b": "NEW-152",
+      "distance": 1,
+      "number": 90,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-15.jpg",
+      "retired_old_ids": []
+    },
+    {
+      "a": "NEW-153",
+      "b": "NEW-154",
+      "distance": 4,
+      "number": 91,
+      "visual_screen": "distinct_pose_or_device_variant",
+      "evidence": "data/interim/v12-reconcile-20261022/boards/duplicates-16.jpg",
+      "retired_old_ids": []
+    }
+  ]
+}

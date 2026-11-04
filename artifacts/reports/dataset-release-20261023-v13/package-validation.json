@@ -1,0 +1,15 @@
+{
+  "schema_export_integrity": "PASS",
+  "candidate_crop_bytes_preserved": "PASS",
+  "exact_membership_and_1304_payloads": "PASS",
+  "accepted_rebuild": "PASS_identical_checksums",
+  "counts": {
+    "train": 1119,
+    "val": 185,
+    "test": 0
+  },
+  "excluded_payloads": 0,
+  "published_package": "data/processed/pilot-b/pilot-b-20261023-v13",
+  "training_run": false,
+  "upload": false
+}

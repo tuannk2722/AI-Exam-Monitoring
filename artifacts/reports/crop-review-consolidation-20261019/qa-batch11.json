@@ -1,0 +1,17 @@
+{
+  "geometry_qa": [
+    {"id":"V7-OE-S101-A01-R03","result":"pass_draft","states":["N","N"],"note":"Giữ hai tay bút/trang và đầu cúi; mặt sau đã bỏ, các thân phía sau không gây nhầm anchor."},
+    {"id":"V6-SB-004-R03","result":"needs_revision","states":["U","N"],"note":"Mặt và device người sau còn rõ ở trên trái; chưa tách được bằng geometry này."},
+    {"id":"V6-SB-008-R03","result":"needs_revision","states":["U","N"],"note":"Mặt người sau trái còn lớn; tóc anchor sát mép trên, cần điều chỉnh hoặc loại."},
+    {"id":"V6-SB-029-R03","result":"needs_revision","states":["N","P"],"note":"Mép trên cắt chỏm đầu để bỏ mặt sau; cần nới và đánh giá lại đại diện trùng MP039."},
+    {"id":"V6-SB-030-R03","result":"pass_draft","states":["P","P"],"note":"Nữ trước trội, phone mặt kính/viền trên bàn giữ rõ, hai tay đan và đầu quay phải. Mặt sau chỉ còn mép nhỏ."},
+    {"id":"V6-SB-032-R03","result":"needs_revision","states":["U","P"],"note":"Cắt chỏm đầu và mép mặt người sau vẫn còn; không dùng bản này."},
+    {"id":"V6-SB-034-R03","result":"needs_revision","states":["N","N"],"note":"Tay phía phải bị cắt ở mép, cần nới để giữ trọn bằng chứng N."},
+    {"id":"V6-SB-040-R03","result":"needs_revision","states":["N","N"],"note":"Mép trái cắt một phần tay/vật hồng; không đủ geometry cho xác nhận N theo owner. Nguồn nhiễu hạt nhưng không xử lý làm giả chi tiết."},
+    {"id":"V6-SB-041-R03","result":"pass_draft","states":["N","N"],"note":"Một người trội với tay trên sách và tay đỡ mặt, không phone; đầu theo trang. Người trái chỉ còn phần mặt nhỏ ở mép."},
+    {"id":"V6-SB-042-R03","result":"needs_revision","states":["N","N"],"note":"Tay cầm bút chạm mép trái và đầu nhìn trước hơn là giấy; owner N/N cần close view riêng trước đề xuất nhãn khác."},
+    {"id":"V6-SB-047-R03","result":"pass_draft","states":["N","N"],"note":"Nữ xanh một mặt chính, đủ tay viết và tay giữ trang, không có face tiền cảnh cạnh tranh; đầu hướng trang rõ."},
+    {"id":"V6R2-MP-004-R03","result":"pass_draft","states":["N","P"],"note":"Giữ tay tựa cổ và tay nghỉ, người chính ngẩng trước; người trái chỉ còn tóc/vai. Mép phải là biên source, không mất tay chính."}
+  ],
+  "recrop_source_boards_viewed": [31,32,33]
+}

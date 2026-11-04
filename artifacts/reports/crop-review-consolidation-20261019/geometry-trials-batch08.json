@@ -1,0 +1,12 @@
+[
+  {"parent":"V7-OE-S085-A01","id":"V7-OE-S085-A01-R03","person":[0,43,308,416],"context":[0,36,316,416],"states":["N","P"],"reason":"Giảm mặt phía sau, giữ hai tay và đầu quay trái; kiểm lại mức cạnh tranh ở mép phải."},
+  {"parent":"V7-OE-S111-A01","id":"V7-OE-S111-A01-R03","person":[99,70,344,350],"context":[87,60,356,357],"states":["U","N"],"reason":"Nới xuống giữ tay viết tới ngay trước phụ đề; kiểm không cắt ngón tay."},
+  {"parent":"EXP-SCB-024","id":"EXP-SCB-024-R03","person":[1058,158,1280,351],"context":[1042,145,1305,374],"states":["U","P"],"reason":"Giảm mặt tiền cảnh phía dưới; tay vốn bị che nên U, giữ hướng nhìn trước."},
+  {"parent":"SCB-turnhead-026","id":"SCB-turnhead-026-R03","person":[1576,465,1730,681],"context":[1568,451,1744,698],"states":["U","P"],"reason":"Thử tách nữ quay trái ở sau; vùng tay trái bị giới hạn khi bỏ mặt tiền cảnh, không giữ phone N nếu thiếu tay."},
+  {"parent":"V7-C-001","id":"V7-C-001-R03","person":[182,159,246,247],"context":[178,154,255,262],"states":["U","P"],"reason":"Tách nam kính quay phải khỏi nhóm; tay còn khuất bởi người đối diện."},
+  {"parent":"V7-C-007","id":"V7-C-007-R03","person":[617,180,685,289],"context":[608,176,697,312],"states":["U","P"],"reason":"Giảm người trước và mặt phía sau, giữ nam quay trái cùng bàn riêng."},
+  {"parent":"V7-C-009","id":"V7-C-009-R03","person":[57,280,170,421],"context":[46,274,181,434],"states":["U","P"],"reason":"Giảm nhóm phía sau và bàn tiền cảnh, giữ người quay lưng nghiêng đầu trái; tay vẫn khuất."},
+  {"parent":"V7-C-015","id":"V7-C-015-R03","person":[758,405,887,556],"context":[750,397,900,575],"states":["U","N"],"reason":"Tách nữ áo vàng cúi về trang, giảm người đối diện; cần kiểm hướng đầu còn đủ ở input."},
+  {"parent":"V7-C-017","id":"V7-C-017-R03","person":[635,181,690,237],"context":[626,175,702,247],"states":["U","P"],"reason":"Giảm mặt tiền cảnh, giữ nữ kính phía sau quay trái; tay bị che tại nguồn."},
+  {"parent":"V7-C-019","id":"V7-C-019-R03","person":[808,476,1014,763],"context":[794,458,1033,802],"states":["U","P"],"reason":"Bỏ phần bàn xa và người dưới, tập trung nữ quay trái và tay cạnh bàn."}
+]

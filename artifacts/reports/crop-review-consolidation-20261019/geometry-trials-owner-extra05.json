@@ -1,0 +1,170 @@
+[
+  {
+    "parent": "V6R2-EX-010",
+    "id": "V6R2-EX-010-R06",
+    "person": [
+      279,
+      342,
+      438,
+      640
+    ],
+    "context": [
+      279,
+      342,
+      438,
+      640
+    ],
+    "states": [
+      "U",
+      "P"
+    ],
+    "reason": "Nới trái lấy đủ đầu ngón còn trong nguồn."
+  },
+  {
+    "parent": "SCB-read-015",
+    "id": "SCB-read-015-ADD01-R03",
+    "person": [
+      425,
+      171,
+      511,
+      350
+    ],
+    "context": [
+      425,
+      171,
+      511,
+      350
+    ],
+    "states": [
+      "N",
+      "P"
+    ],
+    "reason": "Thu trên bỏ phần lớn đầu nền, giữ tóc người trước."
+  },
+  {
+    "parent": "SCB-write-023",
+    "id": "SCB-write-023-R06",
+    "person": [
+      281,
+      296,
+      384,
+      384
+    ],
+    "context": [
+      281,
+      296,
+      384,
+      384
+    ],
+    "states": [
+      "N",
+      "N"
+    ],
+    "reason": "Nới trái lấy tay viết đầy đủ."
+  },
+  {
+    "parent": "SCB-write-027",
+    "id": "SCB-write-027-R06",
+    "person": [
+      9,
+      272,
+      191,
+      439
+    ],
+    "context": [
+      9,
+      272,
+      191,
+      439
+    ],
+    "states": [
+      "N",
+      "P"
+    ],
+    "reason": "Nới trên lấy đủ tóc; giữ hai tay và sách."
+  },
+  {
+    "parent": "V7-C-004",
+    "id": "V7-C-004-R06",
+    "person": [
+      150,
+      189,
+      301,
+      400
+    ],
+    "context": [
+      150,
+      189,
+      301,
+      400
+    ],
+    "states": [
+      "N",
+      "P"
+    ],
+    "reason": "Chọn nam kính bàn trước trái có vùng đầu/tay rõ hơn."
+  },
+  {
+    "parent": "V7-C-010",
+    "id": "V7-C-010-R06",
+    "person": [
+      298,
+      134,
+      388,
+      242
+    ],
+    "context": [
+      298,
+      134,
+      388,
+      242
+    ],
+    "states": [
+      "U",
+      "N"
+    ],
+    "reason": "Nới phải phần tay; không suy N khi tay sau giấy chưa rõ."
+  },
+  {
+    "parent": "V7-B-022",
+    "id": "V7-B-022-R06",
+    "person": [
+      240,
+      344,
+      475,
+      640
+    ],
+    "context": [
+      240,
+      344,
+      475,
+      640
+    ],
+    "states": [
+      "N",
+      "N"
+    ],
+    "reason": "Nới phải lấy đủ ngón tay giữ giấy."
+  },
+  {
+    "parent": "V6-SB-003",
+    "id": "V6-SB-003-ADD01-R03",
+    "person": [
+      148,
+      240,
+      266,
+      480
+    ],
+    "context": [
+      148,
+      240,
+      266,
+      480
+    ],
+    "states": [
+      "U",
+      "P"
+    ],
+    "reason": "Giảm chân/nền dư, giữ cả tay đặt bàn và tay thả cạnh ghế; kiểm mặt sau."
+  }
+]

@@ -1,0 +1,303 @@
+{
+  "status": "manual_audit_complete_pending_owner_acceptance",
+  "scope": "Quyết định trên crop/frame cục bộ, không nhận dạng danh tính. Chưa sửa accepted V11.",
+  "decisions": [
+    {
+      "set": 2,
+      "action": "retain_distinct",
+      "reason": "Ba frame khác hướng đầu và góc máy. CA-018 rõ hơn nhưng P006 và P007 không phải cùng khung; tiếp tục recrop theo owner."
+    },
+    {
+      "set": 3,
+      "action": "retain_distinct",
+      "reason": "Khác góc máy và vị trí hai tay trên thiết bị, không phải bản cắt lại cùng frame."
+    },
+    {
+      "set": 4,
+      "action": "exclude_duplicate",
+      "remove": "V7-OE-S073-A01",
+      "retain": "P019-person-01",
+      "states": [
+        "U",
+        "N"
+      ],
+      "reason": "Ảnh gốc cùng bố cục bàn, tay bút và thiết bị dưới bàn; khác tỷ lệ/cắt. P019 giữ đầy đủ hai tay và đã approved U/N, phù hợp nhận xét owner nhìn vật."
+    },
+    {
+      "set": 5,
+      "action": "exclude_duplicate",
+      "remove": "V7-OE-S072-A01",
+      "retain": "V6R2-EX-001",
+      "retained_requires_recrop": true,
+      "reason": "Cùng tư thế tay, đầu và bố cục; ảnh nguồn là biến thể tỷ lệ. Chỉ tạo một recrop cho EX-001 để bỏ mặt người phải."
+    },
+    {
+      "set": 6,
+      "action": "retain_distinct",
+      "reason": "Nam tiền cảnh quay sang hai phía khác nhau. S077 sửa phone thành U theo owner vì tay khuất; không gộp với C081."
+    },
+    {
+      "set": 7,
+      "action": "exclude_duplicate",
+      "remove": "V7-OE-S109-A01",
+      "retain": "P029-person-01",
+      "states": [
+        "U",
+        "N"
+      ],
+      "reason": "Cùng frame bàn đôi, tay trái trên giấy và tay dưới bàn; hai crop khác tỷ lệ. P029 cô lập anchor hơn, đầu nghiêng xuống bàn riêng. Loại bản có nhãn looking P mâu thuẫn."
+    },
+    {
+      "set": 8,
+      "action": "exclude_duplicate",
+      "remove": "V7-OE-S109-A02",
+      "retain": "P029-person-02",
+      "states": [
+        "U",
+        "N"
+      ],
+      "reason": "Cùng frame/anchor, tay trên giấy và tay dưới bàn giống nhau; giữ bản ít phần người bên trái hơn."
+    },
+    {
+      "set": 9,
+      "action": "exclude_duplicate",
+      "remove": "V7-OE-S102-A02",
+      "retain": "P033-person-01",
+      "states": [
+        "P",
+        "P"
+      ],
+      "reason": "Cùng frame quay đầu phải, thiết bị trên bàn và hai tay trùng; giữ crop P033 đã được owner duyệt P/P."
+    },
+    {
+      "set": 10,
+      "action": "exclude_duplicate",
+      "remove": "EXP-RF-013",
+      "retain": "V7-A-032",
+      "states": [
+        "N",
+        "N"
+      ],
+      "reason": "Cùng hình viết trên quyển dựng, khác tỷ lệ/cắt nguồn. A032 có tay, bút và quyển rõ hơn, ít méo hình hơn."
+    },
+    {
+      "set": 11,
+      "action": "exclude_near_duplicate",
+      "remove": "E004-EX-C195",
+      "retain": "E004-EX-C048",
+      "states": [
+        "P",
+        "N"
+      ],
+      "reason": "Hai frame gần nhau cùng thao tác đọc. C195 cắt mất điện thoại vẫn thấy trên ảnh gốc; C048 giữ được thiết bị và đủ tay, chọn làm đại diện thay vì tạo thêm một crop gần lặp."
+    },
+    {
+      "set": 12,
+      "action": "retain_distinct",
+      "reason": "Góc đầu và góc chụp khác rõ; không phải duplicate của cùng frame."
+    },
+    {
+      "set": 13,
+      "action": "retain_distinct",
+      "reason": "Hai thời điểm khác tư thế đầu và cầm giấy; không phải duplicate cùng frame."
+    },
+    {
+      "set": 19,
+      "action": "not_duplicate",
+      "reason": "Khác cảnh/bàn/áo rõ ràng khi xem riêng. Loại nghi vấn do thumbnail nhỏ."
+    },
+    {
+      "set": 21,
+      "action": "not_duplicate",
+      "reason": "Khác trang phục và vị trí bàn; thumbnail nhỏ đã gây nhầm tương đồng."
+    },
+    {
+      "set": 22,
+      "action": "not_duplicate",
+      "reason": "Khác vị trí bàn và tư thế, không cùng vùng ảnh."
+    },
+    {
+      "set": 26,
+      "action": "not_duplicate",
+      "reason": "MP010 có mũ đội, vị trí và cảnh khác MP009; không gộp."
+    },
+    {
+      "set": 14,
+      "action": "exclude_near_duplicate",
+      "remove": "V6-EX-027",
+      "retain": "V6-EX-022",
+      "reason": "Cùng góc đầu quay trái và tay nghỉ trên giấy trong các panel gần nhau; EX022 giữ đủ cả hai tay và vùng bàn, EX027 mất tay dưới biên. EX030 đã được owner loại, không đưa lại vào vòng review. R2-EX010 có tay giơ khác nên không gộp."
+    },
+    {
+      "set": 15,
+      "action": "exclude_near_duplicate",
+      "remove": "V6-EX-032",
+      "retain": "V6-EX-040",
+      "retained_requires_recrop": true,
+      "reason": "Cùng thao tác cúi viết, vị trí hai tay/giấy gần như lặp trong montage. EX040 đã có R04 đạt QA và ít mặt người sau hơn, chọn một đại diện viết."
+    },
+    {
+      "set": 15,
+      "action": "exclude_near_duplicate",
+      "remove": "V6-EX-041",
+      "retain": "V6-EX-040",
+      "retained_requires_recrop": true,
+      "reason": "Cùng hướng cúi và thao tác viết như EX040; EX041 nhỏ hơn và còn mặt người sau. Chọn recrop R04 của EX040 cho hành vi này; không gộp nhóm ngẩng EX034/035 với nhóm viết."
+    },
+    {
+      "set": 16,
+      "action": "exclude_near_duplicate",
+      "remove": "V6-EX-037",
+      "retain": "V6R2-EX-015",
+      "reason": "Hai panel gần nhau cùng cúi viết, tay bút và tay giữ giấy; R2-EX015 giữ trang/tay rõ hơn và không có dải xám đáy của EX037."
+    },
+    {
+      "set": 17,
+      "action": "retain_distinct",
+      "reason": "Source cho thấy góc máy và vị trí giáo viên thay đổi rõ; C003 và turnhead008 không cùng frame. C049 là vùng bàn/anchor khác. Không loại chỉ vì đồng phục và lớp giống nhau."
+    },
+    {
+      "set": 18,
+      "action": "retain_distinct",
+      "reason": "write014 có vật đỏ/dụng cụ giữa hai tay được owner chốt N/N, write001 viết trực tiếp trên trang. Khác tương tác vật trong tay, giữ đối chứng thay vì gộp chỉ vì cùng vị trí."
+    },
+    {
+      "set": 20,
+      "action": "covered_by_owner_exclusion",
+      "remove": "SCB-write-012",
+      "retain": "SCB-write-021",
+      "reason": "write012 đã được owner ghi exclude, không đưa lại vào danh sách thay đổi. write021 giữ thao tác viết rõ; write019 là vị trí/khung khác."
+    },
+    {
+      "set": 23,
+      "action": "exclude_near_duplicate",
+      "remove": "V6R2-MP-084",
+      "retain": "V6-SB-014",
+      "reason": "Nguồn cùng bố cục bàn cạnh cửa sổ và hai tay giữ vật đen, thay đổi tư thế rất nhỏ. SB014 có crop native lớn hơn; giữ U/N theo quyết định đã duyệt, không suy phone P từ cặp này."
+    },
+    {
+      "set": 24,
+      "action": "retain_distinct",
+      "reason": "SB029 đầu ngẩng trái ngoài laptop, MP039 cúi hơn về màn hình; khác hướng nhìn hữu ích. Hai nguồn không cùng frame."
+    },
+    {
+      "set": 25,
+      "action": "retain_distinct",
+      "reason": "Nguồn cho thấy bố trí người/bàn thay đổi nhiều và vị trí tay che miệng khác. Tương đồng tư thế, áo tối và cùng phòng chưa đủ để coi là duplicate; giữ P/P owner đã duyệt cho cả hai."
+    },
+    {
+      "pair_id": "FD-001",
+      "action": "exclude_near_duplicate",
+      "remove": "V7-OE-S068-A02",
+      "retain": "V7-OE-S068-A01",
+      "reason": "C?ng frame v? v?ng ng??i ?o x?m tr??c ph?i vi?t; gi? R03 c?a S068-A01, kh?ng gi? b?n c?t r?ng A02 c?ng ng??i."
+    },
+    {
+      "pair_id": "FD-019",
+      "action": "exclude_near_duplicate",
+      "remove": "P007-person-01",
+      "retain": "P006-person-01",
+      "reason": "Hai frame g?n nhau: ng??i b?n tr?i v?n gi? v?t v? ch?ng c?m, h??ng ??u kh?ng ??i ??ng k?. Gi? P006; kh?ng g?p c?c ng??i kh?c trong c?ng frame."
+    },
+    {
+      "pair_id": "FD-021",
+      "action": "exclude_near_duplicate",
+      "remove": "P031-person-01",
+      "retain": "P032-person-01",
+      "reason": "C?ng thao t?c b?t tr?n b?i v? tay gi? phone, kh?c bi?u c?m nh?ng kh?ng th?m h?nh vi. P032 th?y m?n h?nh r? h?n; gi? P/N ?? duy?t."
+    },
+    {
+      "pair_id": "FD-026",
+      "action": "exclude_near_duplicate",
+      "remove": "V6-SB-010",
+      "retain": "V6-SB-003",
+      "reason": "C?ng c?i theo v?t tr?n b?i v? tay ??t c?nh v?t; thay ??i g?c m?y nh?. Gi? SB003 ?t nhi?u ??m h?n, kh?ng t?o hai m?u g?n l?p."
+    },
+    {
+      "pair_id": "FD-087",
+      "action": "exclude_near_duplicate",
+      "remove": "EXP-CM-022",
+      "retain": "EXP-CM-023",
+      "reason": "C?ng v? tr? h?ng sau, hai tay tr?n v?t v? ??u c?i; thay ??i gi?a hai frame r?t nh?. Gi? CM023 v?ng ??u/tay l?n h?n; gi? U/N, kh?ng suy phone t? t? th?."
+    },
+    {
+      "pair_id": "FD-166",
+      "action": "exclude_near_duplicate",
+      "remove": "V6R2-MP-080",
+      "retain": "V6-SB-013",
+      "reason": "Hai frame g?n nhau c?ng thao t?c tr?n phone h?ng ??t b?n, ??u c?i v? tay g?n nh? l?p. SB013 ?? c? ?? ??u/tay/phone v? ???c duy?t P/N; r?t R05 m?i."
+    },
+    {
+      "pair_id": "FD-257",
+      "action": "exclude_near_duplicate",
+      "remove": "EXP-CM-011",
+      "retain": "EXP-CM-009",
+      "reason": "C?ng c?i vi?t, m?t tay b?t v? m?t tay gi? gi?y; kh?c nh? ?? nghi?ng ??u. Gi? CM009 c? v?ng tay/b?i r?ng h?n; N/N ?? duy?t."
+    },
+    {
+      "pair_id": "FD-284",
+      "action": "exclude_near_duplicate",
+      "remove": "P007-person-02",
+      "retain": "P006-person-02",
+      "reason": "C?ng v?ng b?n gi?a v? thao t?c hai tay gi? v?t, h??ng ??u c?i g?n nh? kh?ng ??i. Gi? P006 v?i v?ng tay/b?n ??y ?? h?n; kh?ng g?p v?i person-01."
+    }
+  ],
+  "source_reviewed_sets": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    20,
+    23,
+    24,
+    25
+  ],
+  "native_comparison_viewed_sets": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "remaining_source_review_sets": [],
+  "remaining_decisions": [],
+  "closed_prior_pending": {
+    "EX034_EX035": "C? hai ?? r?t do geometry, kh?ng c?n ch?n ??i di?n kh?ng ??t.",
+    "S054_PFA006": "C? hai ?? r?t do source/geometry.",
+    "P038_P039": "C? hai ?? r?t do source/geometry.",
+    "additional": "??i chi?u to?n b? cohort cu?i qua 331 c?p, g?m crop m?i."
+  }
+}

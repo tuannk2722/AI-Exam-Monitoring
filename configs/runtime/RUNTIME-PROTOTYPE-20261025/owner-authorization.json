@@ -1,0 +1,18 @@
+{
+  "status": "approved",
+  "runtime_id": "RUNTIME-PROTOTYPE-20261025",
+  "config_sha256": "dbab350d2cebef75294a92d36b046615eed22242cae102b1f5513cdda6e08ddf",
+  "owner": "repository-owner",
+  "date": "2026-10-25",
+  "decision_ref": "configs/runtime/RUNTIME-PROTOTYPE-20261025/README.md",
+  "owner_message": "approve, hãy thực hiện đi!",
+  "scope": [
+    "detector_license",
+    "crop_and_output_design",
+    "software_implementation",
+    "official_weights_download",
+    "synthetic_tests"
+  ],
+  "media_access": "not_granted_no_clip",
+  "followup": "Chưa có clip; hoàn tất code và kiểm thử synthetic trước"
+}

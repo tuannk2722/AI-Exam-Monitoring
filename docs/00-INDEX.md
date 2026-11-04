@@ -5,6 +5,8 @@
 | Task | Contract / hướng dẫn | Context cần chọn |
 |---|---|---|
 | Phạm vi, kiến trúc, runtime/integration/UI | [System](system.md) | [Reference](reference.md), [decisions](decisions.md), capability ở status |
+| Demo camera/video trực tiếp và log review gọn | [Thiết kế live](live-monitoring.md) | [Adapter web](../configs/web/LIVE-VIDEO-WEB-20261028/README.md), [timing đã duyệt](../configs/tracking/LIVE-TIMING-20261028/README.md), [reference](reference.md); camera và persistence log còn mở |
+| Chuẩn bị máy GPU, batching và đo compute runtime | [System](system.md), [thiết kế live](live-monitoring.md) | [LIVE-COMPUTE-20261028](../configs/runtime/LIVE-COMPUTE-20261028/README.md): adapter/CLI, config riêng, protocol và giới hạn trước benchmark |
 | Semantics/schema, annotation/group/split/release | [Data](data.md) | [Reports index](../artifacts/reports/README.md) → nguồn/release/coverage đúng version; reference → công cụ data |
 | Loss/metrics, training/evaluation/promotion | [Training](training.md) | [Configs index](../configs/experiments/README.md) → proposal/config/approval; reports → kết quả run |
 | Coding/setup/checks/bàn giao | [Development](development.md) | [TASK template](templates/task-template.md), source/tests/CI liên quan |

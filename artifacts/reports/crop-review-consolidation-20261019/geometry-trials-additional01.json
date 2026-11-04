@@ -1,0 +1,10 @@
+[
+  {"parent":"ADD-Y01-F00004","id":"ADD-Y01-F00004-M01","person":[119,92,322,303],"context":[83,85,338,360],"states":["U","N"],"reason":"Marked tiền cảnh gile đen: kiểm vật đen trên bàn và hướng đầu cúi; crop từ original không có nét đánh dấu."},
+  {"parent":"ADD-Y01-F00007","id":"ADD-Y01-F00007-M01","person":[123,74,351,251],"context":[111,66,364,295],"states":["N","N"],"reason":"Marked áo polo tiền cảnh đang viết/highlight; hai tay trên giấy, xem khả năng tách mặt người sau."},
+  {"parent":"ADD-Y01-F00038","id":"ADD-Y01-F00038-M03","person":[415,46,568,194],"context":[405,37,580,225],"states":["P","N"],"reason":"Marked nam bàn sau phải: phone mặt kính trên bàn cạnh tay, hướng viết; so đại diện P/U cũ tại F98."},
+  {"parent":"ADD-Y01-F00050","id":"ADD-Y01-F00050-M01","person":[200,139,288,239],"context":[193,132,297,271],"states":["N","P"],"reason":"Marked người tóc ngắn ngẩng sau người đứng; giữ tay/bàn riêng, kiểm occlusion."},
+  {"parent":"ADD-Y01-F00051","id":"ADD-Y01-F00051-M01","person":[0,148,132,339],"context":[0,141,143,360],"states":["U","P"],"reason":"Marked áo kem mép trái ngẩng, một phần tay ngoài source nên U; không suy absence."},
+  {"parent":"ADD-Y01-F00094","id":"ADD-Y01-F00094-M01","person":[141,123,283,275],"context":[132,115,291,293],"states":["U","P"],"reason":"Marked nữ chống cằm nhìn trước; cần giữ tay/bàn và giảm người trước."},
+  {"parent":"ADD-Y01-F00096","id":"ADD-Y01-F00096-M02","person":[247,122,351,238],"context":[238,115,362,261],"states":["U","P"],"reason":"Marked nữ tóc sáng phía cửa sổ ngẩng; tay bị người trước che, xét direction và competing faces."},
+  {"parent":"ADD-Y01-F00099","id":"ADD-Y01-F00099-M01","person":[262,44,387,194],"context":[235,37,399,230],"states":["U","P"],"reason":"Marked áo kem ngẩng; giữ hai tay và bàn trái để kiểm vật trắng gần mép, không mặc định P."}
+]

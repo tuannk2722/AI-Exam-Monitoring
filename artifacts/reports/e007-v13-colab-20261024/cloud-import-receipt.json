@@ -1,0 +1,34 @@
+{
+  "status": "verified_import",
+  "date": "2026-10-24",
+  "via": "Chrome DevTools Google Drive UI download; original archive bytes",
+  "cloud_folder": "https://drive.google.com/drive/u/0/folders/1eud7CyzWnAV9s9vANJ0ERpDH2DMaoVoL",
+  "archives": [
+    {
+      "locator": "Downloads/runs-20261024T023538Z-1-001.zip",
+      "bytes": 1391881983,
+      "sha256": "f89fcfb4370320a32e2d07ff6b96b15f94d0c280f7e1b33c5fefb0e80b93de28"
+    },
+    {
+      "locator": "Downloads/runs-20261024T023538Z-1-002.zip",
+      "bytes": 1352102141,
+      "sha256": "da13cdcdc2daa5e4b50ea5dac0e43505f20de5e385651b4c3f5f417ccaa5ee97"
+    },
+    {
+      "locator": "Downloads/configs-20261024T023542Z-1-001.zip",
+      "bytes": 162979,
+      "sha256": "7c5a54a582543cd5eeb131fffb784d982f50f1dc0333500bb284787942520d4b"
+    }
+  ],
+  "run_files_imported": 277,
+  "config_files_imported": 27,
+  "overwrite": false,
+  "campaign_sha256": "fe914301c865cef73c1b208eb7b262e316983396453474ddf1dfa4c66ef91b5a",
+  "smoke_receipt_sha256": "a2156c9e1f26e0fb2a151395c6478f77121f08cfca70d924396147cbb40c1445",
+  "audit_script": {
+    "path": "outputs/_scratch/e007-cloud-audit.py",
+    "sha256": "d14f3a8d7f7e8260c161fe22a91d5f5f57351de4358f848d3c26e5b90b321943"
+  },
+  "initial_head_payloads": "not present in downloaded runs/configs; initialization tensor/file hashes preserved in run artifacts; full best/last checkpoints present",
+  "no_new_inference_training_or_test_access": true
+}

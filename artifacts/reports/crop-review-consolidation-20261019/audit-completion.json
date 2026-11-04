@@ -1,0 +1,17 @@
+{
+  "status": "audit_complete_pending_owner_review",
+  "evidence_sha256": {
+    "delta-review.json": "c0abccadee67331a5bfceda150f006ea700451191be7892fbc0d3982ed9f67c3",
+    "resolved-ledger.json": "b392793b841d075366086804d184bed0825c6a689eb90fd9d488300291fe29fa",
+    "geometry-review.json": "2672640f56d443e06d53bbf3759a9e46d4eee9d068421c72e2f7f146d0cb1f40",
+    "final-draft-cohort.json": "e36bc70a1fc3cdff01568f5463363cb8c636e3335df1068c406cb2eecf7d07a3",
+    "final-dispositions.json": "86fabd6abd198081a5d16dfae1d2bb43762296682fb91e5899cf8bc1ecfb29fa",
+    "additional-final-slots.json": "708e095f086a2fda09464fdedaa2e10849c922f8f9c1dda2b0c2dee8116b10e3",
+    "final-duplicate-review.json": "5f9323d0628220ad14cfd16cb0b5e06179b15e6b934b0fbe649bd70de32a1222",
+    "final-duplicate-review-post.json": "f97e1850bf88df50a365f5c82dc55f8bca2f65117ba84d763d03890fd060624e",
+    "source-pair-final-coverage.json": "3b3c665d342cc48f2c8afc9a9cee895b34438497bf2b7c2eb4547d5c9d649943",
+    "input-pins.json": "8178752cb39fd74bf1e82c76aec01e156a5073c88bf7aa7d1b7be7b8f7ae5fd9"
+  },
+  "gallery_sha256": "63cffc1c576aa01ac9d7147c73acb079100de377c2b148abfae2eacd5e1d7006",
+  "accepted_release_modified": false
+}

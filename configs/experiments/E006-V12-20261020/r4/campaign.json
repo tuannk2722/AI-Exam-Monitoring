@@ -1,0 +1,180 @@
+{
+  "title": "E006 ? K?t qu? training t? ??ng tr?n V12",
+  "code_sha256": "36b9cf836d66697faf94bd56fd372b019de4592c099f130dce40c358307c0d0b",
+  "report_dir": "artifacts/reports/e006-v12-20261020",
+  "smoke_result": "artifacts/reports/e006-v12-20261020/smoke-pass.json",
+  "smoke": {
+    "id": "E006-V12-SMOKE",
+    "recipe": "SMOKE",
+    "seed": 20261020,
+    "config": {
+      "path": "configs/experiments/E006-V12-20261020/r4/E006-V12-SMOKE.yaml",
+      "sha256": "e828afce07424e5c06943c210434bf77325c19856ade209b7e5efa068e5553a6"
+    }
+  },
+  "screening": [
+    {
+      "id": "E006-V12-LP-S20261020-R4",
+      "recipe": "LP",
+      "seed": 20261020,
+      "config": {
+        "path": "configs/experiments/E006-V12-20261020/r4/E006-V12-LP-S20261020-R4.yaml",
+        "sha256": "0625df10363b6a787f48acd2ccc325249ee01d07ef3dbf9f2608cd20284aaeb2"
+      }
+    },
+    {
+      "id": "E006-V12-S1-REF-S20261020-R4",
+      "recipe": "S1-REF",
+      "seed": 20261020,
+      "config": {
+        "path": "configs/experiments/E006-V12-20261020/r4/E006-V12-S1-REF-S20261020-R4.yaml",
+        "sha256": "45309d498ebbf287cfd267e00832ec5033be3ef0412f9df4ff7bb607d37127d9"
+      }
+    },
+    {
+      "id": "E006-V12-S1-SQRT-S20261020-R4",
+      "recipe": "S1-SQRT",
+      "seed": 20261020,
+      "config": {
+        "path": "configs/experiments/E006-V12-20261020/r4/E006-V12-S1-SQRT-S20261020-R4.yaml",
+        "sha256": "142e95080b052da85c62546f1be977980a6a53cf3558631088db2829f18bd13e"
+      }
+    },
+    {
+      "id": "E006-V12-S1-RATIO-S20261020-R4",
+      "recipe": "S1-RATIO",
+      "seed": 20261020,
+      "config": {
+        "path": "configs/experiments/E006-V12-20261020/r4/E006-V12-S1-RATIO-S20261020-R4.yaml",
+        "sha256": "c1ea8451f1253a91fe504f5dc657d469294636b150352296e50c21636a749832"
+      }
+    },
+    {
+      "id": "E006-V12-S1-FROZEN-S20261020-R4",
+      "recipe": "S1-FROZEN",
+      "seed": 20261020,
+      "config": {
+        "path": "configs/experiments/E006-V12-20261020/r4/E006-V12-S1-FROZEN-S20261020-R4.yaml",
+        "sha256": "1c4cb1608b8a0954324952b580e397ce4041f1d6b37db5c9fb9a4d3c49a5a05e"
+      }
+    }
+  ],
+  "confirmation": [
+    {
+      "id": "E006-V12-S1-REF-S20261021-R4",
+      "recipe": "S1-REF",
+      "seed": 20261021,
+      "config": {
+        "path": "configs/experiments/E006-V12-20261020/r4/E006-V12-S1-REF-S20261021-R4.yaml",
+        "sha256": "5ca29287e86129aa26f559ac23135e78906e124fb75778d316515505774a622b"
+      }
+    },
+    {
+      "id": "E006-V12-S1-REF-S20261022-R4",
+      "recipe": "S1-REF",
+      "seed": 20261022,
+      "config": {
+        "path": "configs/experiments/E006-V12-20261020/r4/E006-V12-S1-REF-S20261022-R4.yaml",
+        "sha256": "1984beb160b0885266b64e8b14d69b65e1d7f8a2b43411545d1e47591bb9cddd"
+      }
+    },
+    {
+      "id": "E006-V12-S1-SQRT-S20261021-R4",
+      "recipe": "S1-SQRT",
+      "seed": 20261021,
+      "config": {
+        "path": "configs/experiments/E006-V12-20261020/r4/E006-V12-S1-SQRT-S20261021-R4.yaml",
+        "sha256": "c1eb11ca48c8c7e5f2411418f49303ded76c7585e8943959ec144e4db4266815"
+      }
+    },
+    {
+      "id": "E006-V12-S1-SQRT-S20261022-R4",
+      "recipe": "S1-SQRT",
+      "seed": 20261022,
+      "config": {
+        "path": "configs/experiments/E006-V12-20261020/r4/E006-V12-S1-SQRT-S20261022-R4.yaml",
+        "sha256": "26eff39abca03be9cdf710800ab43957697de0cb7b8a031cdde092acb28cdea9"
+      }
+    },
+    {
+      "id": "E006-V12-S1-RATIO-S20261021-R4",
+      "recipe": "S1-RATIO",
+      "seed": 20261021,
+      "config": {
+        "path": "configs/experiments/E006-V12-20261020/r4/E006-V12-S1-RATIO-S20261021-R4.yaml",
+        "sha256": "c961801c13a7675e114dcd7b0f7608358a44202de045195eace58a03b5b0a4b7"
+      }
+    },
+    {
+      "id": "E006-V12-S1-RATIO-S20261022-R4",
+      "recipe": "S1-RATIO",
+      "seed": 20261022,
+      "config": {
+        "path": "configs/experiments/E006-V12-20261020/r4/E006-V12-S1-RATIO-S20261022-R4.yaml",
+        "sha256": "3e05fb453e491d064189f0cf48674bbfdcf2d6030df3879b16afe42f8ad6e2a6"
+      }
+    },
+    {
+      "id": "E006-V12-S1-FROZEN-S20261021-R4",
+      "recipe": "S1-FROZEN",
+      "seed": 20261021,
+      "config": {
+        "path": "configs/experiments/E006-V12-20261020/r4/E006-V12-S1-FROZEN-S20261021-R4.yaml",
+        "sha256": "01d47696b23d7d94af5989c5ef162f158adf3a3c0c3b72f8b0f7affc6602d925"
+      }
+    },
+    {
+      "id": "E006-V12-S1-FROZEN-S20261022-R4",
+      "recipe": "S1-FROZEN",
+      "seed": 20261022,
+      "config": {
+        "path": "configs/experiments/E006-V12-20261020/r4/E006-V12-S1-FROZEN-S20261022-R4.yaml",
+        "sha256": "fa5784907535d4d9c863d21e6159f2983b0b1eca26b9bec6779e2bc38b672317"
+      }
+    }
+  ],
+  "repeat_recipes": [
+    "S1-REF",
+    "S1-SQRT",
+    "S1-RATIO",
+    "S1-FROZEN"
+  ],
+  "verified_smoke": {
+    "path": "artifacts/reports/e006-v12-20261020/verified-smoke.json",
+    "sha256": "948f5b3acfe94c59489af968951cbf5465e70522a730d9db67c0f71c0c318fe2"
+  },
+  "evidence_pins": [
+    {
+      "path": "artifacts/reports/e006-v12-20261020/owner-authorization.json",
+      "sha256": "70f3bb029099bb6f7d52c32d0385b7f75d8bf2de400d34e3132a6857592041aa"
+    },
+    {
+      "path": "artifacts/reports/dataset-release-20261020-v12/package-pointers.json",
+      "sha256": "d8fb0c04d7b78443b1b28d0544df0560f9b626fcf747991cfacaf25bf1568772"
+    },
+    {
+      "path": "artifacts/reports/dataset-release-20261020-v12/owner-release-approval.json",
+      "sha256": "c03322c1dcdbe64d585fe4089eab81335235bf554d4d7534d8e0c3b3c2d3ed8a"
+    },
+    {
+      "path": "artifacts/reports/dataset-release-20261020-v12/allocation-proposal.json",
+      "sha256": "21255188e55201fb2e31c0c001327eda7e76c55120ba66c80b2a994954d6d920"
+    },
+    {
+      "path": "configs/experiments/E006-V12-20261020/r4/design.json",
+      "sha256": "0f6861ab486226667af8876bea6242eb8eb072a3ad5bb4adf67f99b926096150"
+    },
+    {
+      "path": "configs/experiments/E006-V12-20261020/r4/protocol.json",
+      "sha256": "18cf26a8fb07cd8b8f5ea8fd63cb8a6c6711d69e1e97cbc918c43bfc05d1a181"
+    },
+    {
+      "path": "configs/experiments/E006-V12-20261020/r4/smoke-approval.json",
+      "sha256": "1f1d98692661533e2d58e79dffb7cd408c505dd3a2ec0278b209328cb95995b2"
+    },
+    {
+      "path": "configs/experiments/E006-V12-20261020/r4/research-approval.json",
+      "sha256": "b0becef9923c649a0e75a223fca591da9f06fdf11ecd61d0b8de95cce019db51"
+    }
+  ]
+}

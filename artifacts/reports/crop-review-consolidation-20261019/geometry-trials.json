@@ -1,0 +1,15 @@
+[
+  {"parent":"V6-CA-012","id":"V6-CA-012-R03","person":[326,154,505,477],"context":[324,145,512,512],"states":["P","N"],"reason":"Thu hẹp bỏ mặt người trái; giữ đầu, hai tay và mặt sau máy có camera. Cần QA input mới."},
+  {"parent":"V6-CA-015","id":"V6-CA-015-R03","person":[126,25,462,510],"context":[118,18,472,512],"states":["U","P"],"reason":"Anchor phải nhìn ra ngoài sách; bỏ phần lớn người nền trái. Vật đen bị sách che chưa đủ nhận mobile."},
+  {"parent":"V6-CA-023","id":"V6-CA-023-R03","person":[142,163,298,512],"context":[136,155,300,512],"states":["N","N"],"reason":"Tách nam giữa hướng trang, giữ hai tay cầm giấy; cần kiểm tay mép và attribution ở input."},
+  {"parent":"V6-CA-014","id":"V6-CA-014-ADD01","person":[352,12,507,342],"context":[344,5,512,375],"states":["U","P"],"reason":"Đề xuất thêm nữ bên phải quay đầu khỏi thiết bị; chưa xác nhận camera của mặt lưng máy ở input."},
+  {"parent":"V6R2-EX-001","id":"V6R2-EX-001-R03","person":[73,138,354,640],"context":[56,128,360,640],"states":["U","P"],"reason":"Giảm người phải, giữ cả tay cầm vật và tay bút. Đại diện duy nhất cho cặp trùng S072/EX001; cần kiểm phần mặt nền còn lại."},
+  {"parent":"Y01-A09-F00037","id":"Y01-A09-F00037-R03","person":[206,20,347,175],"context":[202,12,350,232],"states":["U","N"],"reason":"Thử kéo xuống góc bàn để xem vật đen; vùng mở rộng có tóc tiền cảnh nên cần đánh giá trước khi đề xuất."},
+  {"parent":"V6-CA-011","id":"V6-CA-011-R03","person":[0,40,158,450],"context":[0,32,160,467],"states":["U","N"],"reason":"Thử cô lập nữ trái cùng tay cầm vật; còn phần người nền bên phải, cần QA."},
+  {"parent":"V6R2-CA-009","id":"V6R2-CA-009-R03","person":[0,5,449,500],"context":[0,0,450,512],"states":["U","P"],"reason":"Giảm mặt nữ phải nhưng giữ tay trái, đầu và vùng vật trên giấy."},
+  {"parent":"V7-B-003","id":"V7-B-003-R03","person":[275,24,512,475],"context":[268,15,512,505],"states":["U","N"],"reason":"Bỏ mặt nam trái; vẫn giữ tay người trái đang chạm vật để không che giấu attribution."},
+  {"parent":"V7-B-013","id":"V7-B-013-R03","person":[5,186,248,512],"context":[0,178,257,512],"states":["U","N"],"reason":"Tách nữ trái và máy đang cầm, loại mặt nữ phải; người nền nhỏ không tác động vùng tay."},
+  {"parent":"V7-B-023","id":"V7-B-023-R03","person":[0,224,80,376],"context":[0,214,84,417],"states":["U","P"],"reason":"Tách nữ trái, bỏ tay nâng máy của nam áo vàng; source đã cắt bên trái nên phone U."},
+  {"parent":"V7-B-031","id":"V7-B-031-R03","person":[320,103,425,307],"context":[312,97,430,337],"states":["U","N"],"reason":"Tách mặt nam phải, giữ vùng hai tay và vật; tay người cạnh còn chồng nên phone U."},
+  {"parent":"V7-D-015","id":"V7-D-015-R03","person":[300,80,410,300],"context":[291,70,413,321],"states":["U","N"],"reason":"Tách nam áo đen phía sau, giảm tay/thiết bị của nữ tiền cảnh ở mép phải."}
+]

@@ -1,0 +1,11 @@
+[
+  {"parent":"P007-extra-01","id":"P007-extra-01-R03","person":[213,62,267,213],"context":[205,51,277,235],"states":["N","P"],"reason":"Giảm mặt người sau ở bên trái, giữ đầu và hai tay khoanh của nam trước."},
+  {"parent":"P039-person-01","id":"P039-person-01-R03","person":[145,201,347,530],"context":[134,184,355,564],"states":["P","N"],"reason":"Đại diện thao tác cùng bàn với P038; person box chỉ nam trước, giảm phần bàn dưới để nhìn phone rõ hơn."},
+  {"parent":"V7-B-010","id":"V7-B-010-R03","person":[95,30,292,397],"context":[84,19,302,410],"states":["N","N"],"reason":"Tách nữ viết giữa, giảm hai mặt bên cạnh; giữ hai tay và trang."},
+  {"parent":"V7-C-059","id":"V7-C-059-R03","person":[132,150,186,207],"context":[126,144,192,216],"states":["U","P"],"reason":"Thử tách nam áo kẻ phía sau; nguồn nhỏ/méo nên cần kiểm kỹ ở input."},
+  {"parent":"V7-C-061","id":"V7-C-061-R03","person":[249,0,406,416],"context":[240,0,416,416],"states":["U","P"],"reason":"Tách nam đỏ tiền cảnh quay về người sau; tay vẫn khuất nên phone U."},
+  {"parent":"V7-C-063","id":"V7-C-063-R03","person":[273,0,416,416],"context":[263,0,416,416],"states":["U","P"],"reason":"Khung riêng người phải nhìn bài bên trái; tay thiếu ngay tại source, giữ U."},
+  {"parent":"V7-C-083","id":"V7-C-083-R03","person":[89,96,212,332],"context":[81,87,222,350],"states":["N","P"],"reason":"Nới đúng vùng tay nhận giấy, giữ hai tay và bài của nữ trái; không lấy mặt nam bên phải."},
+  {"parent":"V7-C-085","id":"V7-C-085-R03","person":[113,95,263,319],"context":[104,84,272,334],"states":["U","P"],"reason":"Tập trung nữ tóc đỏ nghiêng nhìn sang bàn khác, giảm mặt nam sau; tay riêng bị che nên U."},
+  {"parent":"V7-C-091","id":"V7-C-091-R03","person":[275,112,403,308],"context":[266,103,415,324],"states":["N","N"],"reason":"Lấy đủ mặt nam sau và hai tay bút/giấy, giảm phần nữ tiền cảnh ở trái."}
+]

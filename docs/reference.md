@@ -1,6 +1,6 @@
 # Reference implementation và công cụ
 
-Đối chiếu code/handoff đến 2026-10-11; cập nhật khi API, module hoặc giới hạn thực tế thay đổi, không thêm lịch sử task. Contract có thẩm quyền ở [system](system.md), [data](data.md), [training](training.md). Có module/schema không chứng minh pipeline đã nghiệm thu; tiến độ ở [status](status.md).
+Đối chiếu code/handoff đến 2026-10-18; cập nhật khi API, module hoặc giới hạn thực tế thay đổi, không thêm lịch sử task. Contract có thẩm quyền ở [system](system.md), [data](data.md), [training](training.md). Có module/schema không chứng minh pipeline đã nghiệm thu; tiến độ ở [status](status.md).
 
 Hardware tham chiếu lịch sử: local i7-1255U, RAM 8/16 GB, Intel UHD; không bảo đảm hiệu năng, không thay environment của run/benchmark cụ thể. Chưa có benchmark chứng minh B tốt hơn A; lựa chọn B là decision kiến trúc, không là kết quả so sánh thực nghiệm.
 
@@ -10,8 +10,9 @@ Hardware tham chiếu lịch sử: local i7-1255U, RAM 8/16 GB, Intel UHD; khôn
 |---|---|
 | `src/ai_exam_monitoring/data/` | Audit nguồn YOLO, overlay, similarity, codec `PilotRecord`, package và integrity; builder v7 historical có self-SHA pin |
 | `src/ai_exam_monitoring/training/` | Config/approval, loader/freeze, RGB letterbox, frozen encoder/cache, head training/resume, metrics và evaluator |
-| `src/ai_exam_monitoring/inference/` | Adapter generic đọc checkpoint có sẵn và xuất prediction theo taxonomy checkpoint; chưa lọc person hoặc suy luận classifier B |
+| `src/ai_exam_monitoring/inference/` | Adapter generic giữ nguyên; runtime mới lọc person YOLOv8n, crop context và classifier G0 có pins, timestamp, media rights và gallery QA |
 | `src/ai_exam_monitoring/contracts/` | Dataclass producer/consumer dùng chung; không phụ thuộc web framework |
+| `src/ai_exam_monitoring/web/` | FastAPI/Jinja2/JS/SQLite local: catalog evidence, media, review riêng và worker recorded-video; [scope web](../configs/web/README.md) |
 | `src/ai_exam_monitoring/common/` | Config/error/provenance và truy/khôi phục lịch sử theo SHA |
 | `configs/` | Biến dataset/experiment có version; phân biệt proposal với config thực thi được duyệt theo training spec |
 
@@ -19,17 +20,140 @@ Hardware tham chiếu lịch sử: local i7-1255U, RAM 8/16 GB, Intel UHD; khôn
 
 ## Adapter và giới hạn integration
 
-`Prediction` hiện biểu diễn một label/score/bbox. Adapter classifier B chưa có: khi nối hai score với person/crop/frame phải thiết kế producer/consumer tường minh và review nếu mở schema; không nhét dict tùy ý hoặc coi detection class ID là target order. `PilotRecord` là contract dataset riêng, được mô tả đầy đủ trong data spec.
+`python -m ai_exam_monitoring.web` mở UI loopback với light/dark. Khi có
+`configs/web/LIVE-VIDEO-WEB-20261028/monitor.yaml`, `/` là màn hình video online;
+`/review` giữ ba màn hình review offline. Cài web extra đã khai báo bằng
+`pip install -e ".[web]"` cùng môi trường runtime CPU hiện có nếu còn thiếu.
+Catalog đọc runtime/C10/events bằng provenance; worker tái dùng runtime,
+tracker association và event aggregation cho output mới theo [scope web](../configs/web/README.md).
+Review JSON/SQLite riêng không mutate BehaviorEvent hay session acceptance.
+Risk chưa mở; persistence review theo [scope web](../configs/web/README.md).
 
-Adapter hiện yêu cầu source/checkpoint tồn tại, output mới và FPS dương/hữu hạn trước predict; không tạo timestamp 0 để che metadata thiếu. JSONL mở đầu bằng metadata source/checkpoint SHA và FPS, tiếp theo là predictions. CLI confidence mặc định 0.25 là giá trị của adapter generic, không phải threshold hành vi hoặc risk được owner duyệt. Không có classifier video integration/session status persistence ở đường này.
+`inference/frame_processor.py` tách `FrameProcessor.detect/classify/process` dùng
+chung cho runtime offline và video online. Snapshot detection giữ đúng ảnh/anchors;
+classification giữ context geometry, target order, scores và flags. Writer QA/JSONL
+vẫn ở runtime offline; schema và CLI cũ giữ nguyên. `video.FrameSampler` chọn mẫu
+tăng dần theo cùng quy tắc first-at-or-after của `sample_indices`, giữ PTS gốc.
+
+`inference/online_video.py` cung cấp API nội bộ `create_online_video` và
+`OnlineVideoRunner`: file đã có sẵn được decode một lượt, phát theo media clock,
+AI chạy serial ở worker riêng, một pending frame và một pending result. Khi AI
+chậm, pending frame bị thay và có bộ đếm; không giả đủ mẫu cho temporal rule.
+`start/pause/resume/seek/stop/join`, `snapshot` và `take_result` dùng cho adapter
+web. `seek(frame_index)` mở epoch mới, bỏ pending/result cũ và decode lại
+từ đầu đến đúng index; chưa dùng seek nhanh theo keyframe vì cần exact PTS/index.
+EOF chờ AI xử lý mẫu cuối; stop ngắt wait và bỏ kết quả muộn, nhưng phải `join`
+để chờ model/native decode đang chạy trả về và giải phóng tài nguyên.
+
+Factory kiểm config/pins/receipt/deadline trước mở file, kiểm lại trước load model,
+SHA nguồn trước/sau phiên; chỉ load V8S/G0 thật khi `start`. Không ghi session hoặc
+evidence mới và không thay writer offline. Đây chưa là endpoint upload hoặc live
+artifact schema. `take_result` chuyển ownership ảnh/observations cho consumer;
+`result.annotated()` chỉ vẽ trên ảnh của chính kết quả đó. Consumer kiểm epoch
+còn hiện hành trước hiển thị và dùng `time.perf_counter_ns()` trừ `captured_ns`
+để tính tuổi frame. Clock này monotonic với độ phân giải cao trên Windows/Python
+3.11; source time vẫn là PTS, không dùng processing time thay timestamp video.
+
+`inference/streaming.py` giữ `FrameStamp`, `StreamFrame`, `LatestFrameBuffer` và
+`can_overlay` cho identity/clock/geometry, drop counters và epoch reset. Runner đã
+nối adapter web theo [scope được duyệt](../configs/web/LIVE-VIDEO-WEB-20261028/README.md).
+`web/monitor.py` giữ một session upload/runner, metadata/pins riêng, chặn chạy đồng
+thời với job offline, expiry và lifecycle; `monitor_routes.py` giới hạn request
+body, upload raw bytes, MJPEG và SSE full snapshots. `preview.py` fan-out một JPEG
+mới nhất, reset/close đánh thức subscribers, kiểm epoch lại sau encode. Không có
+queue ảnh riêng tăng vô hạn theo subscriber chậm. API không tự chạy model khi
+chỉ mở/refresh trang; receipt và video phải hợp lệ trước start.
+
+Upload hoàn tất mới bắt đầu AI, không đợi AI xử lý toàn clip trước xem kết quả.
+UI hiển thị source time và tuổi ảnh riêng; pause/seek/stop gửi về nguồn server.
+Lệnh có command ID tăng dần/epoch; retry lệnh cuối cùng không thực thi hai lần,
+request cũ khác trả conflict. Refresh chỉ reconnect; server restart không tự chạy
+model lại. `session.json` ở output root mới là metadata vận hành, chưa là artifact
+AI sealed; không ghi observations thành event hoặc review. Quan sát tức thời
+hiển thị riêng, không có nút confirmed cho một frame đơn lẻ. Review legacy tiếp
+tục đọc artifacts offline/SQLite cũ. Camera, GPU, tracking/events online và SQLite
+live vẫn chưa nối. Numeric jitter/gap đã được duyệt riêng ở phần dưới; camera receipt
+và nghiệm thu hiệu năng còn mở.
+
+GPU/batching có adapter nội bộ và CLI chuẩn bị theo
+[LIVE-COMPUTE-20261028](../configs/runtime/LIVE-COMPUTE-20261028/README.md).
+`inference.hardware_probe` chỉ đọc môi trường, không model/camera/download.
+`execution.py` giữ device/batch tường minh và FP32; `execution_processor.py` tái dùng
+V8S/G0 với package manifest riêng, giữ exact guards của receipt CPU cho caller cũ.
+`profiling.py` đo stage với đồng bộ CUDA, cửa sổ percentiles hữu hạn.
+`inference.profile_runtime` yêu cầu profile/config approval mới và receipt nguồn,
+tách warm-up khỏi đo tuần tự, ghi metadata/count/timing, không images/scores.
+Không dùng throughput tool này làm SLA playback/camera. Web chưa tự dùng GPU;
+cần environment máy đích, model parity và profile trước chọn cấu hình thực thi.
+
+`live_timing.py` chọn slot theo [LIVE-TIMING-20261028](../configs/tracking/LIVE-TIMING-20261028/README.md),
+giữ timestamp thật và count missing; continuity kiểm các slot thực sự được xử lý
+để cả dropped pending cũng reset tracker. `live_events.py` giữ segments hữu hạn,
+candidate/update/close, chặn late generation/epoch và khoảng thiếu mẫu. Chỉ metadata
+nội bộ, chưa ghi support images/full history hay SQLite và chưa bật log trên UI.
+Caller phải reset tracker trước token yêu cầu reset và persist evidence trước khi
+cho review; `initial_support` + latest không thay danh sách bằng chứng đầy đủ.
+
+`Prediction` hiện biểu diễn một label/score/bbox. Adapter classifier B ở `inference/classifier.py`; `runtime.py` xuất contract JSONL riêng có version và giữ target order từ config/calibration, không coi detection class ID là target order. `PilotRecord` là contract dataset riêng, được mô tả đầy đủ trong data spec.
+
+Adapter hiện yêu cầu source/checkpoint tồn tại, output mới và FPS dương/hữu hạn trước predict; không tạo timestamp 0 để che metadata thiếu. JSONL mở đầu bằng metadata source/checkpoint SHA và FPS, tiếp theo là predictions. CLI confidence mặc định 0.25 là giá trị của adapter generic, không phải threshold hành vi hoặc risk được owner duyệt. Đường generic này giữ nguyên. CLI `inference.runtime` có session outcome và pipeline riêng theo [runtime config/usage](../configs/runtime/RUNTIME-PROTOTYPE-20261025/README.md); `video.py` kiểm decode/timestamps, `person.py` giữ geometry policy, `runtime_config.py` kiểm approval/pins/rights. Reuse `AdaptationModel` và `letterbox` để reload full G0 bundle trên CPU với identity runtime mới; không gọi hoặc nới evaluator lịch sử.
+
+CLI `inference.tracking` replay detections của session completed theo authorization/pins, giữ assignment cho mọi anchor kể cả null; ByteTrack dùng original index qua high/low filtering. CLI `inference.tracking_review` decode đúng source đã pin để tạo gallery offline ba arms và draft review export. [Thiết kế được duyệt, dependencies và cách dùng](../configs/tracking/TRACKING-PROTOTYPE-20261026/execution.md); không chạy detector/classifier hoặc suy identity ground truth. Review export chưa tự là acceptance, chưa có metrics identity khi thiếu review coverage. Các arms dùng instance mới và chạy tuần tự do bộ đếm ID upstream dùng chung.
+
+CLI `inference.tracking_cadence --authorization <json> --source <video> --output <new-output>` thực thi ma trận detector-only C5/C10 theo [config đã pin](../configs/tracking/TRACKING-CADENCE-20261027/README.md). Cache `person-cadence-v1` giữ nguyên observations tại 60 parent samples; frame mới chỉ có box/confidence, không giả classifier scores. Projection về anchors parent phải exact; source, budget và deadline được kiểm. Không chạy lại ma trận đã hoàn tất chỉ để xem [gallery/kết quả](../artifacts/reports/tracking-cadence-20261027/README.md).
+
+CLI `inference.events --authorization <json> --output <approved-output>` join cached G0/C10 và tạo temporal candidates theo [rules/authorization](../configs/events/EVENTS-PROTOTYPE-20261027/execution.md). Không gọi model hoặc decode media; guards kiểm pins/rights/expiry, exact mapping và path replay duy nhất. Output chứa BehaviorEvent, support/provenance, accounting và completed/failed outcome; xem [report](../artifacts/reports/events-prototype-20261027/README.md) thay vì chạy lại để đọc kết quả.
 
 
+
+Runtime ghi `failed_frame_index` theo index nguồn của frame đang xử lý, không phải
+số frame đã hoàn tất; null khi iterator lỗi hoặc kết thúc thiếu trước khi cung cấp
+frame hiện hành. Khi đó không xuất ảnh frame trước đó làm ảnh lỗi. `completed_frames`
+vẫn là số frame xử lý xong; outcome cuối và `session.json` quyết định thành công.
 
 <a id="training-code"></a>
 
 ## Trainer/evaluator hiện có
 
+`training.diagnostics --config <JSON> --workspace .` phân tích nhiều run từ cached
+predictions train/selection, kiểm pins/membership/masks và confusion parity, lập
+coverage/consensus/shortlist và gallery source → crop → input; preview augmentation
+tái dùng `ImageCohort` theo đúng order config. Không forward/reload model hoặc mở
+media test. Report/interim output phải mới, gallery không hiển thị scores/nhãn;
+nhận xét thị giác và quyết định owner là bước riêng. [Ví dụ config](../configs/diagnostics/e006-v12-20261021.json),
+[evidence và giới hạn](../artifacts/reports/e006-v12-diagnostics-20261021/README.md).
+
+Diagnostics hỗ trợ runs nested qua `run_root` (mặc định `outputs`) và bổ sung ca cùng
+nhóm bằng `review_sample_ids` thuộc train/val. Preview dùng đúng `image_size`, gồm
+336 px của V4; endpoints calibration V4 và reuse threshold selection được kiểm
+riêng, không nới guard V3. `operating-envelopes.json` mô tả ngưỡng khả thi từ cached
+scores, không áp ngưỡng mới. [Config E007](../configs/diagnostics/e007-v13-looking-20261024.json),
+[audit looking](../artifacts/reports/looking-around-audit-20261024/README.md).
+
 Schema matched-adaptation-v2 thêm provenance random/learned head và diagnostic epoch0/first-epoch steps cho research/smoke. Model chỉ nhận learned FC từ parent checkpoint đã pin, reset backbone/optimizer; diagnostic giữ RNG/modes và không đổi best epoch rule. CLI train/evaluate dispatch cả v1/v2, research v2 không có final-test scope. [E004-RC1 execution](../configs/experiments/E004-RC1-20261014/EXECUTION.md) dẫn tới variables/approval/checks, không là default recipe mới.
+
+Schema `matched-adaptation-v3` thêm `E005AdaptationConfig`, single-crop hoặc dual-ROI anchor/context, MLP head, mở khóa hai giai đoạn, augmentation, Balanced Smoothed BCE, chọn checkpoint theo `val_macro_ap` và hiệu chỉnh ngưỡng trên validation. CLI train nhận v1/v2/v3; evaluator reload full bundle với code/config/runtime pins, không cấp quyền final test cho E005. Phạm vi đã thực thi là local CPU; các literal `auto`/`cuda` được parser nhận nhưng trainer chưa chuyển model/batch sang GPU, nên không xem đó là hỗ trợ GPU. Variables/approval ở [configs E005](../configs/experiments/E005-V11-20261018/README.md), kết quả và giới hạn ở [report E005](../artifacts/reports/e005-v11-adaptation-20261018/README.md).
+
+Schema `spatial-representation-v5` mở rộng representation V4 cho DINO: `pooling`
+nhận `global_mean`, `context_2x2`, `person_2x2`. `spatial_pooling.py` map rectangle
+native qua imported crop/rounded letterbox, mirror khi hflip và tính mean theo
+diện tích giao patch/bin; invalid/empty bin phải lỗi. V4 giữ global mean cũ;
+CLI train/evaluate dispatch V5 và tái dùng V4 calibration/runtime/resume guards.
+`representation_prepare/campaign` nhận control arm, smoke arms, epoch horizon
+và head dimension từ design/proposal đã pin; `colab_bundle` kiểm cả supporting
+inputs trong allowlist. [E008 launcher](../configs/experiments/E008-V14-LOOKING-20261024/README.md)
+materialize research chỉ sau actual GPU smoke cùng identity; software fixtures
+không thay GPU smoke hoặc model acceptance.
+
+`training.campaign_prepare --design <JSON> --workspace .` materialize một campaign
+được owner duyệt; từ chối ghi đè protocol/config đã tạo.
+`training.campaign --plan <JSON> --workspace .` điều phối smoke interruption/resume,
+chuyển stage, reload parity, screening, chọn hai recipe rồi xác nhận seed và sinh
+machine summary/JSON. README phân tích cuối do agent kiểm và viết.
+Research bị chặn bằng pin receipt smoke; lỗi dừng toàn queue, không tự đổi config.
+V3 `head_only` với `warmup_epochs > 0` giữ lịch LR head warmup/cosine giống fine-tune
+để đối chứng frozen; `warmup_epochs = 0` giữ behavior cũ.
+Phạm vi/variables hiện hành ở [E006](../configs/experiments/E006-V12-20261020/README.md).
 
 Recipe E001–E003 ở [baseline report](../artifacts/reports/baseline-review-20261011/README.md), không là default cho model mới. Biến nằm trong `configs/experiments/E001.yaml`/E002/E003 và smoke tương ứng. `ExperimentConfig` hiện từ chối keys thiếu/lạ, values unresolved/nonfinite, model/device/optimizer/loss/transform khác whitelist; chỉ hỗ trợ `resnet18_frozen_linear` CPU. Đổi tên YAML không triển khai fine-tune hoặc GPU.
 
@@ -56,7 +180,16 @@ Giới hạn evaluator hiện hành: `code_identity` hash toàn Python package (
 
 ## Công cụ dữ liệu và cách tái dùng
 
+`data.review_workspace --config <JSON> --workspace .` dựng UI review offline từ
+mọi record approved trong ledger đã pin (kể cả review-only). Test visual access
+phải được cấp rõ trong scope/config; không prediction. Kiểm SHA toàn crop, nhóm
+bố cục/màu/cạnh không dùng nhãn/split, tái dùng preview_input. Output mới, không
+overwrite; nháp export/import gắn cohort và SHA, chưa tự áp vào canonical ledger.
+[Config và bàn giao V12](../artifacts/reports/v12-full-audit-20261021/README.md).
+
 ### Đường thực thi cho expansion/release mới
+
+Release development không có test dùng protocol `test_freeze.status=not_applicable_zero_test`, `independent_holdout=future_separate_protocol`, dẫn owner approval qua `test_freeze_ref`. Loader chỉ nhận protocol này khi manifest có train và val, không có test hoặc record tự nhận test freeze; guards frozen/preservation của release cũ giữ nguyên. Đây không là quyền gọi development validation là holdout độc lập. Ví dụ đã duyệt: [V13](../artifacts/reports/dataset-release-20261023-v13/README.md).
 
 Mỗi release mới cần task có mục tiêu/failure mode và parent version tường minh, rồi lập bảng inputs → công cụ → outputs → checks theo bảng sau. Không suy quyền tạo release từ số version kế tiếp hoặc chạy config lịch sử với tên mới. Các module/commit cụ thể trong bảng là mapping implementation để tái dùng, không khóa workflow vào một release.
 
@@ -93,3 +226,17 @@ Pairing theo relative path bỏ extension, case-sensitive. Same stem khác thư 
 Audit schema v2 giữ input/layout/names, decode/resolution, missing/orphan/ambiguous, invalid files/lines, empty labels, class counts, normalized bbox stats, exact duplicate SHA và valid samples. Label file lỗi không đóng góp partial statistics; orphan hợp lệ có thể vào class count nhưng pixel stats chỉ dùng unique decoded pairs. Empty/missing annotation không xác nhận negative. Near duplicate/license/semantics/group acceptance cần QA riêng.
 
 Overlay dùng `--output-dir`, `--limit` (font tùy chọn); lấy N valid pairs đầu theo path và ghi manifest/audit, không gọi là mẫu đại diện/phân tầng. Dùng tọa độ pixel gốc, không tự xoay EXIF hoặc repair annotation. Output ngoài nguồn/raw; overlay từ chối directory đã có nội dung. Exit 0 pass checks thực hiện, exit 1 lỗi cấu trúc/không xuất mẫu, exit 2 input/output/arguments không hợp lệ.
+
+### Đối chứng detector-only
+
+`inference.review_batch --config <batch.yaml> --output <output mới>` tạo batch ngoại lệ từ evidence đã pin, không gọi model. [Batch hiện hành](../configs/runtime/RUNTIME-D2-RECONCILE-20261026/README.md).
+
+Thực thi `inference.runtime` mới yêu cầu receipt có `media_delete_by` tuyệt đối (timezone-aware, còn hạn, tối đa 7 ngày), không tự đặt deadline từ thời điểm chạy. Media receipt v2 có thể pin `parent_session` để kiểm cùng source và không gia hạn. V1 đọc lịch sử được nhưng thiếu deadline thì không chạy mới; tạo receipt mới đúng scope thay vì sửa bản đã pin. Completed/failed giữ deadline ban đầu.
+
+`python -m ai_exam_monitoring.inference.detector_review --config <stage-a.yaml> --preflight-only` kiểm pins/rights/retention mà không inference. Run cần `--review <census accepted>` và `--output <thư mục mới dưới outputs>`. D0 parity phải PASS trước candidates; không load classifier hoặc tự chọn winner. [Scope, config và review](../artifacts/reports/runtime-clip-qa-20261025/detector-stage-a-20261026.md).
+
+Schema `detector-ablation-config-v2` dành cho ngoại lệ diagnostic được owner duyệt riêng: `review_policy=diagnostic_unknown_no_selection`, pin exact draft/decision và scope approval tương ứng. `--review` giữ draft, không đổi thành accepted; output giữ unknown, quality not evaluated và winner null. V1 không được miễn census accepted bởi flag CLI.
+
+Runtime `recorded-runtime-config-v3` nhận detector D2 IoU 0,30 với pin `detector_selection` accepted khớp policy và weights; không đổi cách đọc v1/v2. [Config và decision](../configs/runtime/RUNTIME-D2-20261026/README.md). CLI `python -m ai_exam_monitoring.inference.selected_crop_review --config <config> --output <output mới>` kiểm selected arm, reuse cached scores chỉ khi geometry/confidence và crop/input SHA/pixels khớp, chạy G0 cho crop mới theo số lượng đã pin. Output phân biệt cached/new, không gọi cached là inference mới; chưa tự nghiệm thu attribution.
+
+Runtime `recorded-runtime-config-v4` nhận V8S với exact selection/decision/evidence pins, policy 640/conf0,25/IoU0,30 và explicit rect/augment/batch. `selected-crop-review-v2` tái dùng CLI review với comparison JSON và runtime config đã approved; v1/D2 giữ nguyên. [Revision V8S](../configs/runtime/RUNTIME-V8S-20261026/README.md).

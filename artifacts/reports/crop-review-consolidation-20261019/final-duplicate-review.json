@@ -1,0 +1,3410 @@
+{
+  "viewed_boards": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56
+  ],
+  "pairs": [
+    {
+      "a": "V7-OE-S068-A01-R03",
+      "b": "V7-OE-S068-A02",
+      "reasons": [
+        "same_source_overlapping_region"
+      ],
+      "pair_id": "FD-001",
+      "status": "exclude_near_duplicate",
+      "note": "C?ng frame v? v?ng ng??i ?o x?m tr??c ph?i vi?t; gi? R03 c?a S068-A01, kh?ng gi? b?n c?t r?ng A02 c?ng ng??i.",
+      "remove": "V7-OE-S068-A02",
+      "retain": "V7-OE-S068-A01",
+      "source_and_native_checked": true
+    },
+    {
+      "a": "P031-person-01",
+      "b": "V7-OE-S102-A01",
+      "reasons": [
+        "crop_fingerprint"
+      ],
+      "pair_id": "FD-002",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-002",
+      "b": "EXP-CM-003",
+      "reasons": [
+        "crop_fingerprint",
+        "source_pair_225"
+      ],
+      "pair_id": "FD-003",
+      "status": "retain_distinct",
+      "note": "Ngu?n v? native: ??u h??ng tr??c so v?i quay tr?i, g?c nh?n ngo?i b?i kh?c r?; gi? hai t? th?.",
+      "source_and_native_checked": true
+    },
+    {
+      "a": "EXP-CM-005",
+      "b": "EXP-CM-006",
+      "reasons": [
+        "crop_fingerprint",
+        "source_pair_60"
+      ],
+      "pair_id": "FD-004",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-005",
+      "b": "EXP-CM-009",
+      "reasons": [
+        "crop_fingerprint"
+      ],
+      "pair_id": "FD-005",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-018",
+      "b": "EXP-CM-019",
+      "reasons": [
+        "crop_fingerprint",
+        "source_pair_186"
+      ],
+      "pair_id": "FD-006",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-019",
+      "b": "EXP-CM-020",
+      "reasons": [
+        "crop_fingerprint"
+      ],
+      "pair_id": "FD-007",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-023",
+      "b": "EXP-CM-024",
+      "reasons": [
+        "crop_fingerprint"
+      ],
+      "pair_id": "FD-008",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V7-OE-S043-A03",
+      "b": "V7-OE-S043-A04",
+      "reasons": [
+        "same_source_overlapping_region"
+      ],
+      "pair_id": "FD-009",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V7-OE-S043-A04",
+      "b": "V7-OE-S044-A04",
+      "reasons": [
+        "crop_fingerprint"
+      ],
+      "pair_id": "FD-010",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V7-OE-S044-A01",
+      "b": "V7-OE-S044-A02",
+      "reasons": [
+        "same_source_overlapping_region"
+      ],
+      "pair_id": "FD-011",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V7-OE-S044-A03",
+      "b": "V7-OE-S044-A04",
+      "reasons": [
+        "same_source_overlapping_region"
+      ],
+      "pair_id": "FD-012",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "E004-EX-C152",
+      "b": "Y01-A16-F00039",
+      "reasons": [
+        "crop_fingerprint"
+      ],
+      "pair_id": "FD-013",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-EX-043",
+      "b": "V6R2-CA-008-ADD02",
+      "reasons": [
+        "crop_fingerprint"
+      ],
+      "pair_id": "FD-014",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-write-014",
+      "b": "V7-C-108",
+      "reasons": [
+        "crop_fingerprint"
+      ],
+      "pair_id": "FD-015",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V7-D-051",
+      "b": "V7-D-058-R03",
+      "reasons": [
+        "same_source_overlapping_region"
+      ],
+      "pair_id": "FD-016",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "E004-EX-C026",
+      "b": "E004-EX-C027",
+      "reasons": [
+        "same_source_overlapping_region"
+      ],
+      "pair_id": "FD-017",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "E004-EX-C193",
+      "b": "E004-EX-C194",
+      "reasons": [
+        "crop_fingerprint"
+      ],
+      "pair_id": "FD-018",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "P006-person-01",
+      "b": "P007-person-01",
+      "reasons": [
+        "crop_fingerprint",
+        "source_pair_205"
+      ],
+      "pair_id": "FD-019",
+      "status": "exclude_near_duplicate",
+      "note": "Hai frame g?n nhau: ng??i b?n tr?i v?n gi? v?t v? ch?ng c?m, h??ng ??u kh?ng ??i ??ng k?. Gi? P006; kh?ng g?p c?c ng??i kh?c trong c?ng frame.",
+      "remove": "P007-person-01",
+      "retain": "P006-person-01",
+      "source_and_native_checked": true
+    },
+    {
+      "a": "P029-person-01",
+      "b": "P029-person-02",
+      "reasons": [
+        "same_source_overlapping_region"
+      ],
+      "pair_id": "FD-020",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "P031-person-01",
+      "b": "P032-person-01",
+      "reasons": [
+        "crop_fingerprint",
+        "source_pair_92"
+      ],
+      "pair_id": "FD-021",
+      "status": "exclude_near_duplicate",
+      "note": "C?ng thao t?c b?t tr?n b?i v? tay gi? phone, kh?c bi?u c?m nh?ng kh?ng th?m h?nh vi. P032 th?y m?n h?nh r? h?n; gi? P/N ?? duy?t.",
+      "remove": "P031-person-01",
+      "retain": "P032-person-01",
+      "source_and_native_checked": true
+    },
+    {
+      "a": "P034-person-01",
+      "b": "P036-person-01",
+      "reasons": [
+        "crop_fingerprint",
+        "source_pair_37"
+      ],
+      "pair_id": "FD-022",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V7-C-069",
+      "b": "V7-C-090",
+      "reasons": [
+        "same_source_overlapping_region"
+      ],
+      "pair_id": "FD-023",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V7-OE-S114-A01",
+      "b": "V7-OE-S114-A02",
+      "reasons": [
+        "same_source_overlapping_region"
+      ],
+      "pair_id": "FD-024",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-read-020",
+      "b": "SCB-write-018-R05",
+      "reasons": [
+        "crop_fingerprint"
+      ],
+      "pair_id": "FD-025",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-003",
+      "b": "V6-SB-010",
+      "reasons": [
+        "crop_fingerprint"
+      ],
+      "pair_id": "FD-026",
+      "status": "exclude_near_duplicate",
+      "note": "C?ng c?i theo v?t tr?n b?i v? tay ??t c?nh v?t; thay ??i g?c m?y nh?. Gi? SB003 ?t nhi?u ??m h?n, kh?ng t?o hai m?u g?n l?p.",
+      "remove": "V6-SB-010",
+      "retain": "V6-SB-003",
+      "source_and_native_checked": true
+    },
+    {
+      "a": "V6-SB-011",
+      "b": "V6R2-MP-031",
+      "reasons": [
+        "same_source_overlapping_region"
+      ],
+      "pair_id": "FD-027",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-012",
+      "b": "V6R2-MP-034",
+      "reasons": [
+        "same_source_overlapping_region"
+      ],
+      "pair_id": "FD-028",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-014",
+      "b": "V6R2-MP-009",
+      "reasons": [
+        "crop_fingerprint"
+      ],
+      "pair_id": "FD-029",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-003-ADD01-R03",
+      "b": "V6R2-MP-006",
+      "reasons": [
+        "same_source_overlapping_region"
+      ],
+      "pair_id": "FD-030",
+      "status": "withdraw_duplicate_proposal",
+      "note": "C?ng frame v? thao t?c; MP006 ?? approved. Kh?ng th?m crop c?ng v?ng ch? v? bi?n r?ng h?n.",
+      "remove": "V6-SB-003-ADD01-R03",
+      "retain": "V6R2-MP-006",
+      "source_and_native_checked": true
+    },
+    {
+      "a": "V6R2-MP-009",
+      "b": "V6R2-MP-093",
+      "reasons": [
+        "crop_fingerprint"
+      ],
+      "pair_id": "FD-031",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-013",
+      "b": "V6R2-MP-085",
+      "reasons": [
+        "crop_fingerprint"
+      ],
+      "pair_id": "FD-032",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-014",
+      "b": "V6R2-MP-044",
+      "reasons": [
+        "crop_fingerprint"
+      ],
+      "pair_id": "FD-033",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-072",
+      "b": "V6R2-MP-073",
+      "reasons": [
+        "same_source_overlapping_region"
+      ],
+      "pair_id": "FD-034",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "E004-CN-044-R04",
+      "b": "E004-CN-045",
+      "reasons": [
+        "same_source_overlapping_region"
+      ],
+      "pair_id": "FD-035",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y01-A06-F00060",
+      "b": "Y01-A17-F00060",
+      "reasons": [
+        "same_source_overlapping_region"
+      ],
+      "pair_id": "FD-036",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y01-A07-F00060",
+      "b": "Y01-A17-F00060",
+      "reasons": [
+        "same_source_overlapping_region"
+      ],
+      "pair_id": "FD-037",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "ADD-Y01-F00099-M01-R02",
+      "b": "Y01-A11-F00099",
+      "reasons": [
+        "same_source_overlapping_region"
+      ],
+      "pair_id": "FD-038",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A01-F00001",
+      "b": "Y03-A02-F00001",
+      "reasons": [
+        "same_source_overlapping_region"
+      ],
+      "pair_id": "FD-039",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A06-F00001",
+      "b": "Y03-A07-F00001",
+      "reasons": [
+        "same_source_overlapping_region"
+      ],
+      "pair_id": "FD-040",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A08-F00001",
+      "b": "Y03-A09-F00001",
+      "reasons": [
+        "same_source_overlapping_region"
+      ],
+      "pair_id": "FD-041",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "ADD-Y04-F00030-M02",
+      "b": "Y04-A10-F00001",
+      "reasons": [
+        "crop_fingerprint"
+      ],
+      "pair_id": "FD-042",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V7-A-072-R03",
+      "b": "V7-D-050-R04",
+      "reasons": [
+        "same_source_overlapping_region"
+      ],
+      "pair_id": "FD-043",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V7-OE-S093-A01-ADD01-R02",
+      "b": "V7-OE-S093-A01-ADD02-R02",
+      "reasons": [
+        "same_source_overlapping_region"
+      ],
+      "pair_id": "FD-044",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V7-B-003-R03",
+      "b": "V7-D-022-R04",
+      "reasons": [
+        "same_source_overlapping_region"
+      ],
+      "pair_id": "FD-045",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "P033-person-01",
+      "b": "V7-OE-S102-A01",
+      "reasons": [
+        "source_pair_2"
+      ],
+      "pair_id": "FD-046",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-008",
+      "b": "EXP-CM-012",
+      "reasons": [
+        "source_pair_4"
+      ],
+      "pair_id": "FD-047",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-EX-007",
+      "b": "V6-EX-029-R04",
+      "reasons": [
+        "source_pair_5"
+      ],
+      "pair_id": "FD-048",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-write-001",
+      "b": "SCB-write-019-R05",
+      "reasons": [
+        "source_pair_6"
+      ],
+      "pair_id": "FD-049",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-CA-014",
+      "b": "V6-EX-003",
+      "reasons": [
+        "source_pair_8"
+      ],
+      "pair_id": "FD-050",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-CA-014-ADD02",
+      "b": "V6-EX-003",
+      "reasons": [
+        "source_pair_8"
+      ],
+      "pair_id": "FD-051",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-write-009",
+      "b": "SCB-write-027-R06",
+      "reasons": [
+        "source_pair_12"
+      ],
+      "pair_id": "FD-052",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A06-F00041",
+      "b": "Y03-A12-F00020",
+      "reasons": [
+        "source_pair_16"
+      ],
+      "pair_id": "FD-053",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y04-A02-F00022",
+      "b": "Y04-A10-F00075",
+      "reasons": [
+        "source_pair_17"
+      ],
+      "pair_id": "FD-054",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-008",
+      "b": "EXP-CM-011",
+      "reasons": [
+        "source_pair_19"
+      ],
+      "pair_id": "FD-055",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-011",
+      "b": "EXP-CM-012",
+      "reasons": [
+        "source_pair_20"
+      ],
+      "pair_id": "FD-056",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "P029-person-01",
+      "b": "P030-person-01",
+      "reasons": [
+        "source_pair_21"
+      ],
+      "pair_id": "FD-057",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "P029-person-02",
+      "b": "P030-person-01",
+      "reasons": [
+        "source_pair_21"
+      ],
+      "pair_id": "FD-058",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-write-014",
+      "b": "SCB-write-016",
+      "reasons": [
+        "source_pair_25"
+      ],
+      "pair_id": "FD-059",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-028",
+      "b": "V6R2-SB-010",
+      "reasons": [
+        "source_pair_27"
+      ],
+      "pair_id": "FD-060",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-079",
+      "b": "V6R2-SB-010",
+      "reasons": [
+        "source_pair_27"
+      ],
+      "pair_id": "FD-061",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-080-R05",
+      "b": "V6R2-SB-010",
+      "reasons": [
+        "source_pair_27"
+      ],
+      "pair_id": "FD-062",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-081",
+      "b": "V6R2-SB-010",
+      "reasons": [
+        "source_pair_27"
+      ],
+      "pair_id": "FD-063",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A05-F00045",
+      "b": "Y03-A06-F00041",
+      "reasons": [
+        "source_pair_28"
+      ],
+      "pair_id": "FD-064",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A06-F00041",
+      "b": "Y03-A08-F00042",
+      "reasons": [
+        "source_pair_29"
+      ],
+      "pair_id": "FD-065",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A09-F00024",
+      "b": "Y03-A12-F00020",
+      "reasons": [
+        "source_pair_30"
+      ],
+      "pair_id": "FD-066",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y04-A01-F00001",
+      "b": "Y04-A01-F00009",
+      "reasons": [
+        "source_pair_31"
+      ],
+      "pair_id": "FD-067",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y04-A01-F00009",
+      "b": "Y04-A02-F00001",
+      "reasons": [
+        "source_pair_31"
+      ],
+      "pair_id": "FD-068",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y04-A01-F00009",
+      "b": "Y04-A03-F00001",
+      "reasons": [
+        "source_pair_31"
+      ],
+      "pair_id": "FD-069",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y04-A01-F00009",
+      "b": "Y04-A08-F00001",
+      "reasons": [
+        "source_pair_31"
+      ],
+      "pair_id": "FD-070",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y04-A01-F00009",
+      "b": "Y04-A10-F00001",
+      "reasons": [
+        "source_pair_31"
+      ],
+      "pair_id": "FD-071",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y04-A01-F00009",
+      "b": "Y04-A14-F00001",
+      "reasons": [
+        "source_pair_31"
+      ],
+      "pair_id": "FD-072",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y04-A01-F00001",
+      "b": "Y04-A10-F00075",
+      "reasons": [
+        "source_pair_32"
+      ],
+      "pair_id": "FD-073",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y04-A02-F00001",
+      "b": "Y04-A10-F00075",
+      "reasons": [
+        "source_pair_32"
+      ],
+      "pair_id": "FD-074",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y04-A03-F00001",
+      "b": "Y04-A10-F00075",
+      "reasons": [
+        "source_pair_32"
+      ],
+      "pair_id": "FD-075",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y04-A08-F00001",
+      "b": "Y04-A10-F00075",
+      "reasons": [
+        "source_pair_32"
+      ],
+      "pair_id": "FD-076",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y04-A10-F00001",
+      "b": "Y04-A10-F00075",
+      "reasons": [
+        "source_pair_32"
+      ],
+      "pair_id": "FD-077",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y04-A10-F00075",
+      "b": "Y04-A14-F00001",
+      "reasons": [
+        "source_pair_32"
+      ],
+      "pair_id": "FD-078",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y04-A01-F00009",
+      "b": "Y04-A10-F00075",
+      "reasons": [
+        "source_pair_33"
+      ],
+      "pair_id": "FD-079",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y05-A01-F00001",
+      "b": "Y05-A07-F00033",
+      "reasons": [
+        "source_pair_34"
+      ],
+      "pair_id": "FD-080",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y05-A02-F00001",
+      "b": "Y05-A07-F00033",
+      "reasons": [
+        "source_pair_34"
+      ],
+      "pair_id": "FD-081",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y05-A03-F00001",
+      "b": "Y05-A07-F00033",
+      "reasons": [
+        "source_pair_34"
+      ],
+      "pair_id": "FD-082",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y05-A04-F00001",
+      "b": "Y05-A07-F00033",
+      "reasons": [
+        "source_pair_34"
+      ],
+      "pair_id": "FD-083",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y05-A07-F00001",
+      "b": "Y05-A07-F00033",
+      "reasons": [
+        "source_pair_34"
+      ],
+      "pair_id": "FD-084",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y05-A07-F00033",
+      "b": "Y05-A11-F00001",
+      "reasons": [
+        "source_pair_34"
+      ],
+      "pair_id": "FD-085",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-007",
+      "b": "EXP-CM-013",
+      "reasons": [
+        "source_pair_35"
+      ],
+      "pair_id": "FD-086",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-022",
+      "b": "EXP-CM-023",
+      "reasons": [
+        "source_pair_36"
+      ],
+      "pair_id": "FD-087",
+      "status": "exclude_near_duplicate",
+      "note": "C?ng v? tr? h?ng sau, hai tay tr?n v?t v? ??u c?i; thay ??i gi?a hai frame r?t nh?. Gi? CM023 v?ng ??u/tay l?n h?n; gi? U/N, kh?ng suy phone t? t? th?.",
+      "remove": "EXP-CM-022",
+      "retain": "EXP-CM-023",
+      "source_and_native_checked": true
+    },
+    {
+      "a": "EXP-SCB-003",
+      "b": "SCB-turnhead-027",
+      "reasons": [
+        "source_pair_39"
+      ],
+      "pair_id": "FD-088",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-turnhead-001",
+      "b": "SCB-turnhead-007",
+      "reasons": [
+        "source_pair_40"
+      ],
+      "pair_id": "FD-089",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-write-014",
+      "b": "SCB-write-021",
+      "reasons": [
+        "source_pair_46"
+      ],
+      "pair_id": "FD-090",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-021",
+      "b": "V6R2-MP-048-R03",
+      "reasons": [
+        "source_pair_47"
+      ],
+      "pair_id": "FD-091",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-021",
+      "b": "V6R2-MP-049",
+      "reasons": [
+        "source_pair_47"
+      ],
+      "pair_id": "FD-092",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-021",
+      "b": "V6R2-MP-050",
+      "reasons": [
+        "source_pair_47"
+      ],
+      "pair_id": "FD-093",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-023",
+      "b": "V6R2-MP-048-R03",
+      "reasons": [
+        "source_pair_47"
+      ],
+      "pair_id": "FD-094",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-023",
+      "b": "V6R2-MP-049",
+      "reasons": [
+        "source_pair_47"
+      ],
+      "pair_id": "FD-095",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-023",
+      "b": "V6R2-MP-050",
+      "reasons": [
+        "source_pair_47"
+      ],
+      "pair_id": "FD-096",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-016",
+      "b": "V6R2-SB-006",
+      "reasons": [
+        "source_pair_48"
+      ],
+      "pair_id": "FD-097",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-046-R03",
+      "b": "V6R2-SB-006",
+      "reasons": [
+        "source_pair_48"
+      ],
+      "pair_id": "FD-098",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-047",
+      "b": "V6R2-SB-006",
+      "reasons": [
+        "source_pair_48"
+      ],
+      "pair_id": "FD-099",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-019",
+      "b": "V6R2-SB-003",
+      "reasons": [
+        "source_pair_50"
+      ],
+      "pair_id": "FD-100",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-004-R03",
+      "b": "V6R2-MP-072",
+      "reasons": [
+        "source_pair_51"
+      ],
+      "pair_id": "FD-101",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-004-R03",
+      "b": "V6R2-MP-073",
+      "reasons": [
+        "source_pair_51"
+      ],
+      "pair_id": "FD-102",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-019",
+      "b": "V6R2-SB-009-R04",
+      "reasons": [
+        "source_pair_52"
+      ],
+      "pair_id": "FD-103",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-020",
+      "b": "V6R2-SB-009-R04",
+      "reasons": [
+        "source_pair_52"
+      ],
+      "pair_id": "FD-104",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A01-F00001",
+      "b": "Y03-A12-F00020",
+      "reasons": [
+        "source_pair_53"
+      ],
+      "pair_id": "FD-105",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A02-F00001",
+      "b": "Y03-A12-F00020",
+      "reasons": [
+        "source_pair_53"
+      ],
+      "pair_id": "FD-106",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A03-F00001",
+      "b": "Y03-A12-F00020",
+      "reasons": [
+        "source_pair_53"
+      ],
+      "pair_id": "FD-107",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A05-F00001",
+      "b": "Y03-A12-F00020",
+      "reasons": [
+        "source_pair_53"
+      ],
+      "pair_id": "FD-108",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A06-F00001",
+      "b": "Y03-A12-F00020",
+      "reasons": [
+        "source_pair_53"
+      ],
+      "pair_id": "FD-109",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A07-F00001",
+      "b": "Y03-A12-F00020",
+      "reasons": [
+        "source_pair_53"
+      ],
+      "pair_id": "FD-110",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A08-F00001",
+      "b": "Y03-A12-F00020",
+      "reasons": [
+        "source_pair_53"
+      ],
+      "pair_id": "FD-111",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A09-F00001",
+      "b": "Y03-A12-F00020",
+      "reasons": [
+        "source_pair_53"
+      ],
+      "pair_id": "FD-112",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A12-F00020",
+      "b": "Y03-A13-F00001",
+      "reasons": [
+        "source_pair_53"
+      ],
+      "pair_id": "FD-113",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A12-F00020",
+      "b": "Y03-A15-F00001",
+      "reasons": [
+        "source_pair_53"
+      ],
+      "pair_id": "FD-114",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A05-F00045",
+      "b": "Y03-A09-F00024",
+      "reasons": [
+        "source_pair_54"
+      ],
+      "pair_id": "FD-115",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A05-F00045",
+      "b": "Y03-A12-F00020",
+      "reasons": [
+        "source_pair_55"
+      ],
+      "pair_id": "FD-116",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A06-F00041",
+      "b": "Y03-A09-F00024",
+      "reasons": [
+        "source_pair_56"
+      ],
+      "pair_id": "FD-117",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A08-F00042",
+      "b": "Y03-A12-F00020",
+      "reasons": [
+        "source_pair_57"
+      ],
+      "pair_id": "FD-118",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y04-A01-F00001",
+      "b": "Y04-A02-F00022",
+      "reasons": [
+        "source_pair_58"
+      ],
+      "pair_id": "FD-119",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y04-A02-F00001",
+      "b": "Y04-A02-F00022",
+      "reasons": [
+        "source_pair_58"
+      ],
+      "pair_id": "FD-120",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y04-A02-F00022",
+      "b": "Y04-A03-F00001",
+      "reasons": [
+        "source_pair_58"
+      ],
+      "pair_id": "FD-121",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y04-A02-F00022",
+      "b": "Y04-A08-F00001",
+      "reasons": [
+        "source_pair_58"
+      ],
+      "pair_id": "FD-122",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y04-A02-F00022",
+      "b": "Y04-A10-F00001",
+      "reasons": [
+        "source_pair_58"
+      ],
+      "pair_id": "FD-123",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y04-A02-F00022",
+      "b": "Y04-A14-F00001",
+      "reasons": [
+        "source_pair_58"
+      ],
+      "pair_id": "FD-124",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y04-A01-F00009",
+      "b": "Y04-A02-F00022",
+      "reasons": [
+        "source_pair_59"
+      ],
+      "pair_id": "FD-125",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-008",
+      "b": "EXP-CM-013",
+      "reasons": [
+        "source_pair_61"
+      ],
+      "pair_id": "FD-126",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-012",
+      "b": "EXP-CM-013",
+      "reasons": [
+        "source_pair_62"
+      ],
+      "pair_id": "FD-127",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "E004-EX-C044",
+      "b": "E004-EX-C193",
+      "reasons": [
+        "source_pair_63"
+      ],
+      "pair_id": "FD-128",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-turnhead-003",
+      "b": "SCB-turnhead-012",
+      "reasons": [
+        "source_pair_64"
+      ],
+      "pair_id": "FD-129",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-read-012-R04",
+      "b": "SCB-turnhead-003",
+      "reasons": [
+        "source_pair_65"
+      ],
+      "pair_id": "FD-130",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-read-012-R04",
+      "b": "SCB-turnhead-012",
+      "reasons": [
+        "source_pair_67"
+      ],
+      "pair_id": "FD-131",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-SCB-020",
+      "b": "SCB-write-016",
+      "reasons": [
+        "source_pair_73"
+      ],
+      "pair_id": "FD-132",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-SCB-020",
+      "b": "SCB-write-028",
+      "reasons": [
+        "source_pair_74"
+      ],
+      "pair_id": "FD-133",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-read-023",
+      "b": "SCB-write-027-R06",
+      "reasons": [
+        "source_pair_76"
+      ],
+      "pair_id": "FD-134",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-write-016",
+      "b": "SCB-write-028",
+      "reasons": [
+        "source_pair_83"
+      ],
+      "pair_id": "FD-135",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-053-R04",
+      "b": "V6R2-SB-002-R04",
+      "reasons": [
+        "source_pair_85"
+      ],
+      "pair_id": "FD-136",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A01-F00001",
+      "b": "Y03-A06-F00041",
+      "reasons": [
+        "source_pair_86"
+      ],
+      "pair_id": "FD-137",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A02-F00001",
+      "b": "Y03-A06-F00041",
+      "reasons": [
+        "source_pair_86"
+      ],
+      "pair_id": "FD-138",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A03-F00001",
+      "b": "Y03-A06-F00041",
+      "reasons": [
+        "source_pair_86"
+      ],
+      "pair_id": "FD-139",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A05-F00001",
+      "b": "Y03-A06-F00041",
+      "reasons": [
+        "source_pair_86"
+      ],
+      "pair_id": "FD-140",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A06-F00001",
+      "b": "Y03-A06-F00041",
+      "reasons": [
+        "source_pair_86"
+      ],
+      "pair_id": "FD-141",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A06-F00041",
+      "b": "Y03-A07-F00001",
+      "reasons": [
+        "source_pair_86"
+      ],
+      "pair_id": "FD-142",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A06-F00041",
+      "b": "Y03-A08-F00001",
+      "reasons": [
+        "source_pair_86"
+      ],
+      "pair_id": "FD-143",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A06-F00041",
+      "b": "Y03-A09-F00001",
+      "reasons": [
+        "source_pair_86"
+      ],
+      "pair_id": "FD-144",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A06-F00041",
+      "b": "Y03-A13-F00001",
+      "reasons": [
+        "source_pair_86"
+      ],
+      "pair_id": "FD-145",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A06-F00041",
+      "b": "Y03-A15-F00001",
+      "reasons": [
+        "source_pair_86"
+      ],
+      "pair_id": "FD-146",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A05-F00045",
+      "b": "Y03-A08-F00042",
+      "reasons": [
+        "source_pair_87"
+      ],
+      "pair_id": "FD-147",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y05-A02-F00048",
+      "b": "Y05-A07-F00033",
+      "reasons": [
+        "source_pair_88"
+      ],
+      "pair_id": "FD-148",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-007",
+      "b": "EXP-CM-008",
+      "reasons": [
+        "source_pair_89"
+      ],
+      "pair_id": "FD-149",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-007",
+      "b": "EXP-CM-012",
+      "reasons": [
+        "source_pair_90"
+      ],
+      "pair_id": "FD-150",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-RF-023-R04",
+      "b": "V7-C-083-R03",
+      "reasons": [
+        "source_pair_91"
+      ],
+      "pair_id": "FD-151",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "P035-person-01",
+      "b": "P036-person-01",
+      "reasons": [
+        "source_pair_93"
+      ],
+      "pair_id": "FD-152",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-read-023",
+      "b": "SCB-turnhead-004",
+      "reasons": [
+        "source_pair_96"
+      ],
+      "pair_id": "FD-153",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-turnhead-004",
+      "b": "SCB-write-027-R06",
+      "reasons": [
+        "source_pair_97"
+      ],
+      "pair_id": "FD-154",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-SCB-020",
+      "b": "SCB-write-021",
+      "reasons": [
+        "source_pair_105"
+      ],
+      "pair_id": "FD-155",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-read-023",
+      "b": "SCB-write-009",
+      "reasons": [
+        "source_pair_107"
+      ],
+      "pair_id": "FD-156",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-write-016",
+      "b": "SCB-write-021",
+      "reasons": [
+        "source_pair_110"
+      ],
+      "pair_id": "FD-157",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-003",
+      "b": "V6-SB-019",
+      "reasons": [
+        "source_pair_114"
+      ],
+      "pair_id": "FD-158",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-003-ADD01-R03",
+      "b": "V6-SB-019",
+      "reasons": [
+        "source_pair_114"
+      ],
+      "pair_id": "FD-159",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-019",
+      "b": "V6R2-MP-006",
+      "reasons": [
+        "source_pair_114"
+      ],
+      "pair_id": "FD-160",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-009",
+      "b": "V6R2-SB-002-R04",
+      "reasons": [
+        "source_pair_115"
+      ],
+      "pair_id": "FD-161",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-024-R04",
+      "b": "V6R2-SB-002-R04",
+      "reasons": [
+        "source_pair_115"
+      ],
+      "pair_id": "FD-162",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-026",
+      "b": "V6R2-SB-002-R04",
+      "reasons": [
+        "source_pair_115"
+      ],
+      "pair_id": "FD-163",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-013",
+      "b": "V6-SB-028",
+      "reasons": [
+        "source_pair_116"
+      ],
+      "pair_id": "FD-164",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-013",
+      "b": "V6R2-MP-079",
+      "reasons": [
+        "source_pair_116"
+      ],
+      "pair_id": "FD-165",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-013",
+      "b": "V6R2-MP-080-R05",
+      "reasons": [
+        "source_pair_116"
+      ],
+      "pair_id": "FD-166",
+      "status": "exclude_near_duplicate",
+      "note": "Hai frame g?n nhau c?ng thao t?c tr?n phone h?ng ??t b?n, ??u c?i v? tay g?n nh? l?p. SB013 ?? c? ?? ??u/tay/phone v? ???c duy?t P/N; r?t R05 m?i.",
+      "remove": "V6R2-MP-080",
+      "retain": "V6-SB-013",
+      "source_and_native_checked": true
+    },
+    {
+      "a": "V6-SB-013",
+      "b": "V6R2-MP-081",
+      "reasons": [
+        "source_pair_116"
+      ],
+      "pair_id": "FD-167",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-028",
+      "b": "V6R2-MP-038",
+      "reasons": [
+        "source_pair_116"
+      ],
+      "pair_id": "FD-168",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-038",
+      "b": "V6R2-MP-079",
+      "reasons": [
+        "source_pair_116"
+      ],
+      "pair_id": "FD-169",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-038",
+      "b": "V6R2-MP-080-R05",
+      "reasons": [
+        "source_pair_116"
+      ],
+      "pair_id": "FD-170",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-038",
+      "b": "V6R2-MP-081",
+      "reasons": [
+        "source_pair_116"
+      ],
+      "pair_id": "FD-171",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-022-R04",
+      "b": "V6R2-SB-011",
+      "reasons": [
+        "source_pair_117"
+      ],
+      "pair_id": "FD-172",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A01-F00001",
+      "b": "Y03-A09-F00024",
+      "reasons": [
+        "source_pair_118"
+      ],
+      "pair_id": "FD-173",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A02-F00001",
+      "b": "Y03-A09-F00024",
+      "reasons": [
+        "source_pair_118"
+      ],
+      "pair_id": "FD-174",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A03-F00001",
+      "b": "Y03-A09-F00024",
+      "reasons": [
+        "source_pair_118"
+      ],
+      "pair_id": "FD-175",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A05-F00001",
+      "b": "Y03-A09-F00024",
+      "reasons": [
+        "source_pair_118"
+      ],
+      "pair_id": "FD-176",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A06-F00001",
+      "b": "Y03-A09-F00024",
+      "reasons": [
+        "source_pair_118"
+      ],
+      "pair_id": "FD-177",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A07-F00001",
+      "b": "Y03-A09-F00024",
+      "reasons": [
+        "source_pair_118"
+      ],
+      "pair_id": "FD-178",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A08-F00001",
+      "b": "Y03-A09-F00024",
+      "reasons": [
+        "source_pair_118"
+      ],
+      "pair_id": "FD-179",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A09-F00001",
+      "b": "Y03-A09-F00024",
+      "reasons": [
+        "source_pair_118"
+      ],
+      "pair_id": "FD-180",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A09-F00024",
+      "b": "Y03-A13-F00001",
+      "reasons": [
+        "source_pair_118"
+      ],
+      "pair_id": "FD-181",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A09-F00024",
+      "b": "Y03-A15-F00001",
+      "reasons": [
+        "source_pair_118"
+      ],
+      "pair_id": "FD-182",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A08-F00042",
+      "b": "Y03-A09-F00024",
+      "reasons": [
+        "source_pair_119"
+      ],
+      "pair_id": "FD-183",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-009",
+      "b": "EXP-CM-010",
+      "reasons": [
+        "source_pair_120"
+      ],
+      "pair_id": "FD-184",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-011",
+      "b": "EXP-CM-013",
+      "reasons": [
+        "source_pair_121"
+      ],
+      "pair_id": "FD-185",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-016",
+      "b": "EXP-CM-017",
+      "reasons": [
+        "source_pair_122"
+      ],
+      "pair_id": "FD-186",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "E004-CF-C009",
+      "b": "E004-EX-C124-R03",
+      "reasons": [
+        "source_pair_124"
+      ],
+      "pair_id": "FD-187",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "P031-person-01",
+      "b": "V7-OE-S116-A01",
+      "reasons": [
+        "source_pair_125"
+      ],
+      "pair_id": "FD-188",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "P031-person-01",
+      "b": "V7-OE-S116-A02",
+      "reasons": [
+        "source_pair_125"
+      ],
+      "pair_id": "FD-189",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "P034-person-01",
+      "b": "P035-person-01",
+      "reasons": [
+        "source_pair_126"
+      ],
+      "pair_id": "FD-190",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-SCB-021",
+      "b": "V7-C-007-R03",
+      "reasons": [
+        "source_pair_127"
+      ],
+      "pair_id": "FD-191",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-turnhead-004",
+      "b": "SCB-write-009",
+      "reasons": [
+        "source_pair_129"
+      ],
+      "pair_id": "FD-192",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-SCB-020",
+      "b": "SCB-write-014",
+      "reasons": [
+        "source_pair_133"
+      ],
+      "pair_id": "FD-193",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-write-014",
+      "b": "SCB-write-028",
+      "reasons": [
+        "source_pair_139"
+      ],
+      "pair_id": "FD-194",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-003",
+      "b": "V6R2-SB-003",
+      "reasons": [
+        "source_pair_142"
+      ],
+      "pair_id": "FD-195",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-003-ADD01-R03",
+      "b": "V6R2-SB-003",
+      "reasons": [
+        "source_pair_142"
+      ],
+      "pair_id": "FD-196",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-006",
+      "b": "V6R2-SB-003",
+      "reasons": [
+        "source_pair_142"
+      ],
+      "pair_id": "FD-197",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-059",
+      "b": "V6R2-SB-009-R04",
+      "reasons": [
+        "source_pair_143"
+      ],
+      "pair_id": "FD-198",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y02-A03-F00031",
+      "b": "Y02-A04-F00019",
+      "reasons": [
+        "source_pair_144"
+      ],
+      "pair_id": "FD-199",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y02-A01-F00031-R02",
+      "b": "Y02-A04-F00019",
+      "reasons": [
+        "source_pair_144"
+      ],
+      "pair_id": "FD-200",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y02-A01-F00018-R02",
+      "b": "Y02-A03-F00031",
+      "reasons": [
+        "source_pair_145"
+      ],
+      "pair_id": "FD-201",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y02-A01-F00018-R02",
+      "b": "Y02-A01-F00031-R02",
+      "reasons": [
+        "source_pair_145"
+      ],
+      "pair_id": "FD-202",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y02-A01-F00018-R02",
+      "b": "Y02-A04-F00019",
+      "reasons": [
+        "source_pair_146"
+      ],
+      "pair_id": "FD-203",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A01-F00001",
+      "b": "Y03-A05-F00045",
+      "reasons": [
+        "source_pair_147"
+      ],
+      "pair_id": "FD-204",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A02-F00001",
+      "b": "Y03-A05-F00045",
+      "reasons": [
+        "source_pair_147"
+      ],
+      "pair_id": "FD-205",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A03-F00001",
+      "b": "Y03-A05-F00045",
+      "reasons": [
+        "source_pair_147"
+      ],
+      "pair_id": "FD-206",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A05-F00001",
+      "b": "Y03-A05-F00045",
+      "reasons": [
+        "source_pair_147"
+      ],
+      "pair_id": "FD-207",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A05-F00045",
+      "b": "Y03-A06-F00001",
+      "reasons": [
+        "source_pair_147"
+      ],
+      "pair_id": "FD-208",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A05-F00045",
+      "b": "Y03-A07-F00001",
+      "reasons": [
+        "source_pair_147"
+      ],
+      "pair_id": "FD-209",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A05-F00045",
+      "b": "Y03-A08-F00001",
+      "reasons": [
+        "source_pair_147"
+      ],
+      "pair_id": "FD-210",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A05-F00045",
+      "b": "Y03-A09-F00001",
+      "reasons": [
+        "source_pair_147"
+      ],
+      "pair_id": "FD-211",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A05-F00045",
+      "b": "Y03-A13-F00001",
+      "reasons": [
+        "source_pair_147"
+      ],
+      "pair_id": "FD-212",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A05-F00045",
+      "b": "Y03-A15-F00001",
+      "reasons": [
+        "source_pair_147"
+      ],
+      "pair_id": "FD-213",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A01-F00001",
+      "b": "Y03-A08-F00042",
+      "reasons": [
+        "source_pair_148"
+      ],
+      "pair_id": "FD-214",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A02-F00001",
+      "b": "Y03-A08-F00042",
+      "reasons": [
+        "source_pair_148"
+      ],
+      "pair_id": "FD-215",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A03-F00001",
+      "b": "Y03-A08-F00042",
+      "reasons": [
+        "source_pair_148"
+      ],
+      "pair_id": "FD-216",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A05-F00001",
+      "b": "Y03-A08-F00042",
+      "reasons": [
+        "source_pair_148"
+      ],
+      "pair_id": "FD-217",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A06-F00001",
+      "b": "Y03-A08-F00042",
+      "reasons": [
+        "source_pair_148"
+      ],
+      "pair_id": "FD-218",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A07-F00001",
+      "b": "Y03-A08-F00042",
+      "reasons": [
+        "source_pair_148"
+      ],
+      "pair_id": "FD-219",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A08-F00001",
+      "b": "Y03-A08-F00042",
+      "reasons": [
+        "source_pair_148"
+      ],
+      "pair_id": "FD-220",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A08-F00042",
+      "b": "Y03-A09-F00001",
+      "reasons": [
+        "source_pair_148"
+      ],
+      "pair_id": "FD-221",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A08-F00042",
+      "b": "Y03-A13-F00001",
+      "reasons": [
+        "source_pair_148"
+      ],
+      "pair_id": "FD-222",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y03-A08-F00042",
+      "b": "Y03-A15-F00001",
+      "reasons": [
+        "source_pair_148"
+      ],
+      "pair_id": "FD-223",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y05-A01-F00001",
+      "b": "Y05-A02-F00048",
+      "reasons": [
+        "source_pair_149"
+      ],
+      "pair_id": "FD-224",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y05-A02-F00001",
+      "b": "Y05-A02-F00048",
+      "reasons": [
+        "source_pair_149"
+      ],
+      "pair_id": "FD-225",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y05-A02-F00048",
+      "b": "Y05-A03-F00001",
+      "reasons": [
+        "source_pair_149"
+      ],
+      "pair_id": "FD-226",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y05-A02-F00048",
+      "b": "Y05-A04-F00001",
+      "reasons": [
+        "source_pair_149"
+      ],
+      "pair_id": "FD-227",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y05-A02-F00048",
+      "b": "Y05-A07-F00001",
+      "reasons": [
+        "source_pair_149"
+      ],
+      "pair_id": "FD-228",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y05-A02-F00048",
+      "b": "Y05-A11-F00001",
+      "reasons": [
+        "source_pair_149"
+      ],
+      "pair_id": "FD-229",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-001",
+      "b": "EXP-CM-018",
+      "reasons": [
+        "source_pair_150"
+      ],
+      "pair_id": "FD-230",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-007",
+      "b": "EXP-CM-011",
+      "reasons": [
+        "source_pair_151"
+      ],
+      "pair_id": "FD-231",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-015",
+      "b": "EXP-CM-018",
+      "reasons": [
+        "source_pair_152"
+      ],
+      "pair_id": "FD-232",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "E004-CF-C010",
+      "b": "E004-EX-C125",
+      "reasons": [
+        "source_pair_153"
+      ],
+      "pair_id": "FD-233",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-EX-036",
+      "b": "V6R2-EX-007",
+      "reasons": [
+        "source_pair_154"
+      ],
+      "pair_id": "FD-234",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "E004-EX-C056",
+      "b": "E004-EX-C199-R03",
+      "reasons": [
+        "source_pair_155"
+      ],
+      "pair_id": "FD-235",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-write-001",
+      "b": "SCB-write-014",
+      "reasons": [
+        "source_pair_163"
+      ],
+      "pair_id": "FD-236",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-write-001",
+      "b": "SCB-write-016",
+      "reasons": [
+        "source_pair_164"
+      ],
+      "pair_id": "FD-237",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-write-002",
+      "b": "SCB-write-020",
+      "reasons": [
+        "source_pair_165"
+      ],
+      "pair_id": "FD-238",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-write-014",
+      "b": "SCB-write-019-R05",
+      "reasons": [
+        "source_pair_167"
+      ],
+      "pair_id": "FD-239",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-write-016",
+      "b": "SCB-write-019-R05",
+      "reasons": [
+        "source_pair_169"
+      ],
+      "pair_id": "FD-240",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-write-021",
+      "b": "SCB-write-028",
+      "reasons": [
+        "source_pair_170"
+      ],
+      "pair_id": "FD-241",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-009",
+      "b": "V6R2-MP-053-R04",
+      "reasons": [
+        "source_pair_171"
+      ],
+      "pair_id": "FD-242",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-024-R04",
+      "b": "V6R2-MP-053-R04",
+      "reasons": [
+        "source_pair_171"
+      ],
+      "pair_id": "FD-243",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-026",
+      "b": "V6R2-MP-053-R04",
+      "reasons": [
+        "source_pair_171"
+      ],
+      "pair_id": "FD-244",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-013",
+      "b": "V6R2-SB-010",
+      "reasons": [
+        "source_pair_172"
+      ],
+      "pair_id": "FD-245",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-038",
+      "b": "V6R2-SB-010",
+      "reasons": [
+        "source_pair_172"
+      ],
+      "pair_id": "FD-246",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-019",
+      "b": "V6R2-MP-059",
+      "reasons": [
+        "source_pair_173"
+      ],
+      "pair_id": "FD-247",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-020",
+      "b": "V6R2-MP-059",
+      "reasons": [
+        "source_pair_173"
+      ],
+      "pair_id": "FD-248",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-CA-001",
+      "b": "V7-OE-S104-A01",
+      "reasons": [
+        "source_pair_174"
+      ],
+      "pair_id": "FD-249",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-001",
+      "b": "EXP-CM-015",
+      "reasons": [
+        "source_pair_175"
+      ],
+      "pair_id": "FD-250",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-005",
+      "b": "EXP-CM-008",
+      "reasons": [
+        "source_pair_176"
+      ],
+      "pair_id": "FD-251",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-005",
+      "b": "EXP-CM-011",
+      "reasons": [
+        "source_pair_177"
+      ],
+      "pair_id": "FD-252",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-005",
+      "b": "EXP-CM-012",
+      "reasons": [
+        "source_pair_178"
+      ],
+      "pair_id": "FD-253",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-006",
+      "b": "EXP-CM-008",
+      "reasons": [
+        "source_pair_179"
+      ],
+      "pair_id": "FD-254",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-006",
+      "b": "EXP-CM-012",
+      "reasons": [
+        "source_pair_180"
+      ],
+      "pair_id": "FD-255",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-008",
+      "b": "EXP-CM-009",
+      "reasons": [
+        "source_pair_181"
+      ],
+      "pair_id": "FD-256",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-009",
+      "b": "EXP-CM-011",
+      "reasons": [
+        "source_pair_182"
+      ],
+      "pair_id": "FD-257",
+      "status": "exclude_near_duplicate",
+      "note": "C?ng c?i vi?t, m?t tay b?t v? m?t tay gi? gi?y; kh?c nh? ?? nghi?ng ??u. Gi? CM009 c? v?ng tay/b?i r?ng h?n; N/N ?? duy?t.",
+      "remove": "EXP-CM-011",
+      "retain": "EXP-CM-009",
+      "source_and_native_checked": true
+    },
+    {
+      "a": "EXP-CM-009",
+      "b": "EXP-CM-012",
+      "reasons": [
+        "source_pair_183"
+      ],
+      "pair_id": "FD-258",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-009",
+      "b": "EXP-CM-013",
+      "reasons": [
+        "source_pair_184"
+      ],
+      "pair_id": "FD-259",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-010",
+      "b": "EXP-CM-011",
+      "reasons": [
+        "source_pair_185"
+      ],
+      "pair_id": "FD-260",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-SCB-045",
+      "b": "SCB-turnhead-024",
+      "reasons": [
+        "source_pair_188"
+      ],
+      "pair_id": "FD-261",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-write-001",
+      "b": "V7-C-030",
+      "reasons": [
+        "source_pair_193"
+      ],
+      "pair_id": "FD-262",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-write-019-R05",
+      "b": "V7-C-030",
+      "reasons": [
+        "source_pair_194"
+      ],
+      "pair_id": "FD-263",
+      "status": "withdraw_duplicate_proposal",
+      "note": "V?ng n? ?o ?? tr??c ph?i ?? c? C030 v?i c?ng h?nh vi c?i vi?t, hai frame g?n nhau. Kh?ng th?m R05; gi? nh?n ?? duy?t c?a C030, kh?ng chuy?n nh?n gi?a crop.",
+      "remove": "SCB-write-019-R05",
+      "retain": "V7-C-030",
+      "source_and_native_checked": true
+    },
+    {
+      "a": "V6-SB-011",
+      "b": "V6R2-SB-011",
+      "reasons": [
+        "source_pair_195"
+      ],
+      "pair_id": "FD-264",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-030",
+      "b": "V6R2-SB-011",
+      "reasons": [
+        "source_pair_195"
+      ],
+      "pair_id": "FD-265",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-031",
+      "b": "V6R2-SB-011",
+      "reasons": [
+        "source_pair_195"
+      ],
+      "pair_id": "FD-266",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-032",
+      "b": "V6R2-SB-011",
+      "reasons": [
+        "source_pair_195"
+      ],
+      "pair_id": "FD-267",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-014",
+      "b": "V6R2-MP-092-R04",
+      "reasons": [
+        "source_pair_196"
+      ],
+      "pair_id": "FD-268",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-014",
+      "b": "V6R2-MP-093",
+      "reasons": [
+        "source_pair_196"
+      ],
+      "pair_id": "FD-269",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-040-R03",
+      "b": "V6R2-MP-092-R04",
+      "reasons": [
+        "source_pair_196"
+      ],
+      "pair_id": "FD-270",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-040-R03",
+      "b": "V6R2-MP-093",
+      "reasons": [
+        "source_pair_196"
+      ],
+      "pair_id": "FD-271",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-041",
+      "b": "V6R2-MP-092-R04",
+      "reasons": [
+        "source_pair_196"
+      ],
+      "pair_id": "FD-272",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-041",
+      "b": "V6R2-MP-093",
+      "reasons": [
+        "source_pair_196"
+      ],
+      "pair_id": "FD-273",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-003",
+      "b": "EXP-CM-005",
+      "reasons": [
+        "source_pair_197"
+      ],
+      "pair_id": "FD-274",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-003",
+      "b": "EXP-CM-006",
+      "reasons": [
+        "source_pair_198"
+      ],
+      "pair_id": "FD-275",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-004",
+      "b": "EXP-CM-007",
+      "reasons": [
+        "source_pair_199"
+      ],
+      "pair_id": "FD-276",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-005",
+      "b": "EXP-CM-007",
+      "reasons": [
+        "source_pair_200"
+      ],
+      "pair_id": "FD-277",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-006",
+      "b": "EXP-CM-007",
+      "reasons": [
+        "source_pair_201"
+      ],
+      "pair_id": "FD-278",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-007",
+      "b": "EXP-CM-009",
+      "reasons": [
+        "source_pair_202"
+      ],
+      "pair_id": "FD-279",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-015",
+      "b": "EXP-CM-019",
+      "reasons": [
+        "source_pair_203"
+      ],
+      "pair_id": "FD-280",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "E004-EX-C124-R03",
+      "b": "E004-EX-C125",
+      "reasons": [
+        "source_pair_204"
+      ],
+      "pair_id": "FD-281",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "P006-person-01",
+      "b": "P007-person-02",
+      "reasons": [
+        "source_pair_205"
+      ],
+      "pair_id": "FD-282",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "P006-person-02",
+      "b": "P007-person-01",
+      "reasons": [
+        "source_pair_205"
+      ],
+      "pair_id": "FD-283",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "P006-person-02",
+      "b": "P007-person-02",
+      "reasons": [
+        "source_pair_205"
+      ],
+      "pair_id": "FD-284",
+      "status": "exclude_near_duplicate",
+      "note": "C?ng v?ng b?n gi?a v? thao t?c hai tay gi? v?t, h??ng ??u c?i g?n nh? kh?ng ??i. Gi? P006 v?i v?ng tay/b?n ??y ?? h?n; kh?ng g?p v?i person-01.",
+      "remove": "P007-person-02",
+      "retain": "P006-person-02",
+      "source_and_native_checked": true
+    },
+    {
+      "a": "P032-person-01",
+      "b": "V7-OE-S116-A01",
+      "reasons": [
+        "source_pair_206"
+      ],
+      "pair_id": "FD-285",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "P032-person-01",
+      "b": "V7-OE-S116-A02",
+      "reasons": [
+        "source_pair_206"
+      ],
+      "pair_id": "FD-286",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-SCB-007",
+      "b": "V7-C-015-R03",
+      "reasons": [
+        "source_pair_207"
+      ],
+      "pair_id": "FD-287",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-SCB-020",
+      "b": "SCB-write-001",
+      "reasons": [
+        "source_pair_213"
+      ],
+      "pair_id": "FD-288",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-SCB-020",
+      "b": "SCB-write-019-R05",
+      "reasons": [
+        "source_pair_214"
+      ],
+      "pair_id": "FD-289",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-SCB-034",
+      "b": "SCB-read-028",
+      "reasons": [
+        "source_pair_215"
+      ],
+      "pair_id": "FD-290",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-write-001",
+      "b": "SCB-write-028",
+      "reasons": [
+        "source_pair_218"
+      ],
+      "pair_id": "FD-291",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-write-019-R05",
+      "b": "SCB-write-028",
+      "reasons": [
+        "source_pair_221"
+      ],
+      "pair_id": "FD-292",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-023",
+      "b": "V6R2-MP-009",
+      "reasons": [
+        "source_pair_222"
+      ],
+      "pair_id": "FD-293",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-009",
+      "b": "V6R2-MP-066",
+      "reasons": [
+        "source_pair_222"
+      ],
+      "pair_id": "FD-294",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-009",
+      "b": "V6R2-MP-067",
+      "reasons": [
+        "source_pair_222"
+      ],
+      "pair_id": "FD-295",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-009",
+      "b": "V6R2-MP-068",
+      "reasons": [
+        "source_pair_222"
+      ],
+      "pair_id": "FD-296",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-023",
+      "b": "V6R2-MP-010",
+      "reasons": [
+        "source_pair_222"
+      ],
+      "pair_id": "FD-297",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-010",
+      "b": "V6R2-MP-066",
+      "reasons": [
+        "source_pair_222"
+      ],
+      "pair_id": "FD-298",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-010",
+      "b": "V6R2-MP-067",
+      "reasons": [
+        "source_pair_222"
+      ],
+      "pair_id": "FD-299",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-010",
+      "b": "V6R2-MP-068",
+      "reasons": [
+        "source_pair_222"
+      ],
+      "pair_id": "FD-300",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-023",
+      "b": "V6R2-MP-011",
+      "reasons": [
+        "source_pair_222"
+      ],
+      "pair_id": "FD-301",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-011",
+      "b": "V6R2-MP-066",
+      "reasons": [
+        "source_pair_222"
+      ],
+      "pair_id": "FD-302",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-011",
+      "b": "V6R2-MP-067",
+      "reasons": [
+        "source_pair_222"
+      ],
+      "pair_id": "FD-303",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-011",
+      "b": "V6R2-MP-068",
+      "reasons": [
+        "source_pair_222"
+      ],
+      "pair_id": "FD-304",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-011",
+      "b": "V6-SB-022-R04",
+      "reasons": [
+        "source_pair_223"
+      ],
+      "pair_id": "FD-305",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-022-R04",
+      "b": "V6R2-MP-030",
+      "reasons": [
+        "source_pair_223"
+      ],
+      "pair_id": "FD-306",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-022-R04",
+      "b": "V6R2-MP-031",
+      "reasons": [
+        "source_pair_223"
+      ],
+      "pair_id": "FD-307",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-022-R04",
+      "b": "V6R2-MP-032",
+      "reasons": [
+        "source_pair_223"
+      ],
+      "pair_id": "FD-308",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-001",
+      "b": "EXP-CM-017",
+      "reasons": [
+        "source_pair_224"
+      ],
+      "pair_id": "FD-309",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-004",
+      "b": "EXP-CM-006",
+      "reasons": [
+        "source_pair_226"
+      ],
+      "pair_id": "FD-310",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-006",
+      "b": "EXP-CM-011",
+      "reasons": [
+        "source_pair_228"
+      ],
+      "pair_id": "FD-311",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-008",
+      "b": "EXP-CM-010",
+      "reasons": [
+        "source_pair_229"
+      ],
+      "pair_id": "FD-312",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-010",
+      "b": "EXP-CM-012",
+      "reasons": [
+        "source_pair_230"
+      ],
+      "pair_id": "FD-313",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-CM-013",
+      "b": "EXP-CM-020",
+      "reasons": [
+        "source_pair_231"
+      ],
+      "pair_id": "FD-314",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "E004-CF-C009",
+      "b": "E004-CF-C010",
+      "reasons": [
+        "source_pair_232"
+      ],
+      "pair_id": "FD-315",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "E004-CF-C010",
+      "b": "E004-EX-C124-R03",
+      "reasons": [
+        "source_pair_233"
+      ],
+      "pair_id": "FD-316",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "E004-EX-C152",
+      "b": "EXP-RF-019",
+      "reasons": [
+        "source_pair_234"
+      ],
+      "pair_id": "FD-317",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-SCB-021",
+      "b": "SCB-turnhead-016",
+      "reasons": [
+        "source_pair_235"
+      ],
+      "pair_id": "FD-318",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-turnhead-016",
+      "b": "V7-C-007-R03",
+      "reasons": [
+        "source_pair_238"
+      ],
+      "pair_id": "FD-319",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-read-027",
+      "b": "V7-OE-S088-A01-R04",
+      "reasons": [
+        "source_pair_239"
+      ],
+      "pair_id": "FD-320",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-SCB-027",
+      "b": "V7-OE-S099-A01-ADD01-R02",
+      "reasons": [
+        "source_pair_240"
+      ],
+      "pair_id": "FD-321",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-SCB-027",
+      "b": "V7-OE-S099-A01-ADD02-R02",
+      "reasons": [
+        "source_pair_240"
+      ],
+      "pair_id": "FD-322",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-SCB-027",
+      "b": "V7-OE-S099-A01-ADD03-R02",
+      "reasons": [
+        "source_pair_240"
+      ],
+      "pair_id": "FD-323",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "EXP-SCB-027",
+      "b": "V7-OE-S099-A01-ADD04-R02",
+      "reasons": [
+        "source_pair_240"
+      ],
+      "pair_id": "FD-324",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-write-001",
+      "b": "SCB-write-021",
+      "reasons": [
+        "source_pair_241"
+      ],
+      "pair_id": "FD-325",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "SCB-write-019-R05",
+      "b": "SCB-write-021",
+      "reasons": [
+        "source_pair_242"
+      ],
+      "pair_id": "FD-326",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6-SB-005",
+      "b": "V6R2-SB-006",
+      "reasons": [
+        "source_pair_243"
+      ],
+      "pair_id": "FD-327",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-012",
+      "b": "V6R2-SB-006",
+      "reasons": [
+        "source_pair_243"
+      ],
+      "pair_id": "FD-328",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-013",
+      "b": "V6R2-SB-006",
+      "reasons": [
+        "source_pair_243"
+      ],
+      "pair_id": "FD-329",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "V6R2-MP-014",
+      "b": "V6R2-SB-006",
+      "reasons": [
+        "source_pair_243"
+      ],
+      "pair_id": "FD-330",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    },
+    {
+      "a": "Y02-A03-F00012",
+      "b": "Y02-A04-F00011",
+      "reasons": [
+        "source_pair_244"
+      ],
+      "pair_id": "FD-331",
+      "status": "retain_distinct",
+      "note": "?? xem c?p input 224: kh?c v?ng ng??i, h??ng ??u ho?c thao t?c tay; kh?ng lo?i ch? theo similarity."
+    }
+  ],
+  "status": "complete"
+}

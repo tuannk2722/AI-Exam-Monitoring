@@ -1,0 +1,23 @@
+{
+  "selected_arm": "C10",
+  "status": "candidate_for_further_validation",
+  "quality_accepted": false,
+  "events": false,
+  "risk": false,
+  "web": false,
+  "decision_by": "assistant_under_owner_delegation",
+  "media_delete_by": "2026-11-01T08:55:06.308086+00:00",
+  "report": {
+    "path": "artifacts/reports/tracking-cadence-20261027/README.md",
+    "sha256": "5c5e9f5ed8ca263a011efabf78e8d427c7f80197ce72debbf5cd91ab783a3000"
+  },
+  "evidence": {
+    "path": "artifacts/reports/tracking-cadence-20261027/evidence.json",
+    "sha256": "1e706cb2cb2cc9534a8f86894f825185c05f78eca7b12ba8db9f8fab761e60e8"
+  },
+  "selected_assignments": {
+    "path": "outputs/tracking-cadence-20261027/C10/assignments.jsonl",
+    "sha256": "81b5b50b1ea690657b62ca053e192069e701a7ad810c98b2a9c2c0d5c01788cc"
+  },
+  "supersedes_scope": "preferred_candidate_only_B0_remains_immutable_baseline"
+}

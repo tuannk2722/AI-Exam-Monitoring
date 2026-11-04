@@ -1,0 +1,101 @@
+schema_version: runtime-exception-batch-v1
+pins:
+  predictions:
+    path: outputs/runtime-d2-crop-review-20261026/predictions.json
+    sha256: f04a3fb68ea059b1380e6fe8d33eca994c999f7a57df581e46fa2a3abe1aefd7
+  run:
+    path: outputs/runtime-d2-crop-review-20261026/run.json
+    sha256: f3fd32d394ef39708c0332fd08a871cfefa207d96c3065f9f486421f022ccf01
+  checksums:
+    path: outputs/runtime-d2-crop-review-20261026/checksums.json
+    sha256: 6a11f6118d95dcf8182bedee2573f70c15c5701e01c33c26f1e017e2b3c154f3
+  cohort:
+    path: outputs/runtime-detector-review-20261025/cohort.json
+    sha256: 44d3da6f3461199ea1506dad50c64ed5aff0398a2e55492497578ddb55a7fa6e
+  pair_audit:
+    path: outputs/runtime-d2-pair-audit-20261026/audit.json
+    sha256: 3ce7f7b03e55c95b95cf66a485c075b30204d114ae3aafce63c639e19cc729d7
+  pair_table:
+    path: outputs/runtime-d2-pair-audit-20261026/pairs.csv
+    sha256: 64dc52a025423eee62210e9d8015c1d390748db03ed06fb5cdeb9392255bfbf3
+cases:
+- id: P01
+  title: '29 giây: b004/b007'
+  anchors:
+  - f00000870-D2-b004
+  - f00000870-D2-b007
+  draft_observation: Quan hệ unknown. IoU=0.299967; giao trên box nhỏ=0.516861. Chọn
+    bằng hình học, chưa xác nhận khác người.
+  question: Hai box cùng người / khác người / chưa rõ? Đối chiếu box trên ảnh toàn
+    cảnh, không chỉ nhìn người xuất hiện trong context crop.
+  overlays:
+    '870':
+      path: outputs/runtime-detector-diagnostic-20261026/D2-f00000870.png
+      sha256: 3dbe7938cfa74c933aca852fd2d29fbbfc7a585b8dd6f56151ad6a46cb20cc33
+- id: P02
+  title: '16 giây: b002/b016'
+  anchors:
+  - f00000480-D2-b002
+  - f00000480-D2-b016
+  draft_observation: Quan hệ unknown. IoU=0.299949; giao trên box nhỏ=0.712652. Chọn
+    bằng hình học, chưa xác nhận khác người.
+  question: Hai box cùng người / khác người / chưa rõ? Đối chiếu box trên ảnh toàn
+    cảnh, không chỉ nhìn người xuất hiện trong context crop.
+  overlays:
+    '480':
+      path: outputs/runtime-detector-diagnostic-20261026/D2-f00000480.png
+      sha256: 85be2cef799af6038c4449b2d45372e97eb42af0821c1020703af4a0e2e7af16
+- id: P03
+  title: '39 giây: b003/b005'
+  anchors:
+  - f00001170-D2-b003
+  - f00001170-D2-b005
+  draft_observation: Quan hệ unknown. IoU=0.299236; giao trên box nhỏ=0.516096. Chọn
+    bằng hình học, chưa xác nhận khác người.
+  question: Hai box cùng người / khác người / chưa rõ? Đối chiếu box trên ảnh toàn
+    cảnh, không chỉ nhìn người xuất hiện trong context crop.
+  overlays:
+    '1170':
+      path: outputs/runtime-detector-diagnostic-20261026/D2-f00001170.png
+      sha256: a09a302a8752a6a764c9eb6e65f4526ecbdd0d40cc567d9f5a1ce8425b633bbb
+- id: P04
+  title: '56 giây: b006/b009'
+  anchors:
+  - f00001680-D2-b006
+  - f00001680-D2-b009
+  draft_observation: Quan hệ unknown. IoU=0.276874; giao trên box nhỏ=0.572640. Chọn
+    bằng hình học, chưa xác nhận khác người.
+  question: Hai box cùng người / khác người / chưa rõ? Đối chiếu box trên ảnh toàn
+    cảnh, không chỉ nhìn người xuất hiện trong context crop.
+  overlays:
+    '1680':
+      path: outputs/runtime-detector-diagnostic-20261026/D2-f00001680.png
+      sha256: 496a29d5b11c53b2131e2570b045112d3eda2915b318e2d441e161bc01bbfda7
+- id: P05
+  title: '0 giây: b005/b007'
+  anchors:
+  - f00000000-D2-b005
+  - f00000000-D2-b007
+  draft_observation: Quan hệ unknown. IoU=0.275975; giao trên box nhỏ=0.497560. Chọn
+    bằng hình học, chưa xác nhận khác người.
+  question: Hai box cùng người / khác người / chưa rõ? Đối chiếu box trên ảnh toàn
+    cảnh, không chỉ nhìn người xuất hiện trong context crop.
+  overlays:
+    '0':
+      path: outputs/runtime-detector-diagnostic-20261026/D2-f00000000.png
+      sha256: 8cb19e4b2c9fb6483422796666fa889097e2cd8d6c704d2cd47b65a0655e993e
+- id: P06
+  title: '26 giây: b015/b017'
+  anchors:
+  - f00000780-D2-b015
+  - f00000780-D2-b017
+  draft_observation: Quan hệ unknown. IoU=0.222368; giao trên box nhỏ=1.000000. Chọn
+    bằng hình học, chưa xác nhận khác người.
+  question: Hai box cùng người / khác người / chưa rõ? Đối chiếu box trên ảnh toàn
+    cảnh, không chỉ nhìn người xuất hiện trong context crop.
+  overlays:
+    '780':
+      path: outputs/runtime-detector-diagnostic-20261026/D2-f00000780.png
+      sha256: 74162f8f68d8396fee943c695d779e9265c7bb213047bc370ca3fe76fd93c74d
+selection: 5 cặp unknown có IoU lớn nhất và 1 cặp unknown có intersection_over_smaller
+  lớn nhất; chỉ shortlist review, không là ngưỡng suppression.

@@ -1,0 +1,54 @@
+{
+  "payload_sha256": "51fe689b7161737ddce1b6e2845c887a58e9c91fbcd01bb1dc0768b13f351f5b",
+  "counts": {
+    "train": 1199,
+    "val": 156
+  },
+  "person_equals_context": {
+    "train": 334,
+    "val": 69
+  },
+  "target_counts": {
+    "train": {
+      "phone_use": {
+        "positive": 369,
+        "negative": 735,
+        "unknown": 95
+      },
+      "looking_around": {
+        "negative": 980,
+        "positive": 210,
+        "unknown": 9
+      }
+    },
+    "val": {
+      "phone_use": {
+        "negative": 105,
+        "positive": 44,
+        "unknown": 7
+      },
+      "looking_around": {
+        "negative": 127,
+        "positive": 29
+      }
+    }
+  },
+  "independent_holdout": false,
+  "looking_quality_support_insufficient": true,
+  "pretrained_source_weights_license_reused_exactly": {
+    "dinov2_vits14": {
+      "weights": {
+        "path": "outputs/E007-V13-Colab-20261024/pretrained/dinov2_vits14_pretrain.pth",
+        "sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+      },
+      "license": {
+        "path": "artifacts/reports/e007-v13-colab-20261024/dinov2-pretrained.json",
+        "sha256": "0b19ff7fc61b59ef0350b655e71bb64e1ce8666607fc0ad7c2baedd2c8bb62e4"
+      },
+      "source": {
+        "path": "outputs/E007-V13-Colab-20261024/pretrained/dinov2-source.zip",
+        "sha256": "04276715cddb29d45d05bff3a6fc132224dc27749b279ac98ad2ce4620e20d48"
+      }
+    }
+  }
+}

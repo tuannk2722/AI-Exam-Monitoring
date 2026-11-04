@@ -1,0 +1,191 @@
+[
+  {
+    "id": "CB-0001",
+    "usage": "train",
+    "current_targets": [
+      null,
+      0
+    ],
+    "native_roi_size": [
+      290,
+      290
+    ],
+    "crop_size": [
+      224,
+      224
+    ],
+    "input_size": 224,
+    "crop_sha256": "5bf3b5199843e22f1ff7cea1088f6536345e8ffe873e3d2d6ba76ce58f012bfd",
+    "source_sha256": "309e7b997c15529987313ae7fb16b7547e275cb04bb5e9f103150d40847930d4",
+    "owner_example": "calculator",
+    "comparison": "data/interim/v12-audit-criteria-20261021/CB-0001-comparison.png"
+  },
+  {
+    "id": "CB-0006",
+    "usage": "train",
+    "current_targets": [
+      null,
+      1
+    ],
+    "native_roi_size": [
+      290,
+      290
+    ],
+    "crop_size": [
+      224,
+      224
+    ],
+    "input_size": 224,
+    "crop_sha256": "4cc02a8a2b825fdf4d1bed6f4267771a2217e17ca185fe1ff3a350cca5d1a7de",
+    "source_sha256": "df44940522ea9e52f834cd73d5bba31f556e1433ce9dfaf2cd6d9ec39710fddd",
+    "owner_example": "calculator",
+    "comparison": "data/interim/v12-audit-criteria-20261021/CB-0006-comparison.png"
+  },
+  {
+    "id": "CB-0024-R1",
+    "usage": "train",
+    "current_targets": [
+      null,
+      0
+    ],
+    "native_roi_size": [
+      230,
+      235
+    ],
+    "crop_size": [
+      230,
+      235
+    ],
+    "input_size": 224,
+    "crop_sha256": "c1e3685a3b9f9cdd9206ae43e2dcaba068262e3c44c15369f2cb19f4104a430e",
+    "source_sha256": "ae5263fb07adc386b76148d80be42fe57fa061a851eb44b5867df1f25971e24a",
+    "owner_example": "calculator",
+    "comparison": "data/interim/v12-audit-criteria-20261021/CB-0024-R1-comparison.png"
+  },
+  {
+    "id": "CB-0008",
+    "usage": "train",
+    "current_targets": [
+      null,
+      0
+    ],
+    "native_roi_size": [
+      290,
+      290
+    ],
+    "crop_size": [
+      224,
+      224
+    ],
+    "input_size": 224,
+    "crop_sha256": "ee61b3ccce05a2075e6f063e5de5372915bc5e3aea7a2f233941dab01ae18a1e",
+    "source_sha256": "69e78e0525b8b2446b44174d4797c3910d0429450597fa524914886c60ecfc4d",
+    "owner_example": "mobile",
+    "comparison": "data/interim/v12-audit-criteria-20261021/CB-0008-comparison.png"
+  },
+  {
+    "id": "CB-0017",
+    "usage": "train",
+    "current_targets": [
+      null,
+      1
+    ],
+    "native_roi_size": [
+      290,
+      290
+    ],
+    "crop_size": [
+      224,
+      224
+    ],
+    "input_size": 224,
+    "crop_sha256": "ba399273c4f989ff118ae1bda18b6eb294b29999208263ea97ab016882d41c75",
+    "source_sha256": "fe9c2b85e673cf8410d2b533caffd2e2b8423ca172595e66572672475cce4a49",
+    "owner_example": "mobile",
+    "comparison": "data/interim/v12-audit-criteria-20261021/CB-0017-comparison.png"
+  },
+  {
+    "id": "CB-0020-R1",
+    "usage": "train",
+    "current_targets": [
+      null,
+      0
+    ],
+    "native_roi_size": [
+      230,
+      235
+    ],
+    "crop_size": [
+      230,
+      235
+    ],
+    "input_size": 224,
+    "crop_sha256": "aa85923f16c1929d5043da87964e419c2247a70d1fcde7f226eefbe578c6020a",
+    "source_sha256": "f1083b8c796105eb6c8f131d70df6ce016ad176291844862d84122af90963a88",
+    "owner_example": "mobile",
+    "comparison": "data/interim/v12-audit-criteria-20261021/CB-0020-R1-comparison.png"
+  },
+  {
+    "id": "ADD-Y01-F00099-M01-R02",
+    "usage": "train",
+    "current_targets": [
+      null,
+      1
+    ],
+    "native_roi_size": [
+      191,
+      193
+    ],
+    "crop_size": [
+      191,
+      193
+    ],
+    "input_size": 224,
+    "crop_sha256": "07de355c9fc71493ecf01349311c62ba060b57e7e53ca3e85cb4f72c2d9d17c6",
+    "source_sha256": "2542d4de5907620a79424fd1abcfb67d81e1fb576f0d968a82347e801c5a13c8",
+    "owner_example": "mobile",
+    "comparison": "data/interim/v12-audit-criteria-20261021/ADD-Y01-F00099-M01-R02-comparison.png"
+  },
+  {
+    "id": "CB-0473",
+    "usage": "train",
+    "current_targets": [
+      1,
+      0
+    ],
+    "native_roi_size": [
+      430,
+      430
+    ],
+    "crop_size": [
+      224,
+      224
+    ],
+    "input_size": 224,
+    "crop_sha256": "f945d88d56dccb3616c43942b66b8945ba1fb9ee6276d4928d5b955597f26708",
+    "source_sha256": "c6c0b8676a9df0158c9dc7fe0178ac512c7183c061f58308917bb6456b3066c2",
+    "owner_example": "mobile",
+    "comparison": "data/interim/v12-audit-criteria-20261021/CB-0473-comparison.png"
+  },
+  {
+    "id": "CB-0543-R1",
+    "usage": "train",
+    "current_targets": [
+      1,
+      0
+    ],
+    "native_roi_size": [
+      320,
+      420
+    ],
+    "crop_size": [
+      320,
+      420
+    ],
+    "input_size": 224,
+    "crop_sha256": "00e6199ac5a1b622f8bbf671ab45255fddadcbf032d34210779159b2b3e3ce0c",
+    "source_sha256": "5c85180f29fc44e3f7e9b51838b886167cbab1a29ebe0568a46ec6eee559638c",
+    "owner_example": "mobile",
+    "comparison": "data/interim/v12-audit-criteria-20261021/CB-0543-R1-comparison.png"
+  }
+]

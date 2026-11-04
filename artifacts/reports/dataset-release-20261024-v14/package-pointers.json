@@ -1,0 +1,23 @@
+{
+  "dataset": "data/processed/pilot-b/pilot-b-20261024-v14",
+  "payload": {
+    "path": "data/processed/pilot-b/pilot-b-20261024-v14/checksums.sha256",
+    "sha256": "51fe689b7161737ddce1b6e2845c887a58e9c91fbcd01bb1dc0768b13f351f5b"
+  },
+  "manifest": {
+    "path": "data/processed/pilot-b/pilot-b-20261024-v14/manifest.jsonl",
+    "sha256": "0b4dc50d002120ac3a87f774fba2a167b2730d89e0d03cbfc68fc49396a10a8b"
+  },
+  "release": {
+    "path": "data/processed/pilot-b/pilot-b-20261024-v14/release.json",
+    "sha256": "83ffdecf5a1804c099dcb5223778e6908db100cdfd3e8cd4723022caef0665c2"
+  },
+  "ledger": {
+    "path": "data/processed/pilot-b/pilot-b-20261024-v14/review-ledger.jsonl",
+    "sha256": "8d24cde3e2f4d21e4ca17e9176dd3abe98d45a3f8e2f0bdd9d6b8bdd4cbe36e1"
+  },
+  "config": {
+    "path": "configs/datasets/pilot-b-20261024-v14.json",
+    "sha256": "e0081259feaae086577b9f125c59e0f8e74f5029c332db3177b9d0c614ef5196"
+  }
+}

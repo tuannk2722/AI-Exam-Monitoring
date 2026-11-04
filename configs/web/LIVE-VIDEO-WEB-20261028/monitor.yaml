@@ -1,0 +1,7 @@
+schema_version: online-video-web-config-v1
+runtime: configs/runtime/RUNTIME-V8S-20261026/runtime.yaml
+output_root: outputs/live-video-web
+max_upload_bytes: 536870912
+max_receipt_bytes: 65536
+jpeg_quality: 85
+transport_interval_ms: 250

@@ -1,0 +1,21 @@
+{
+  "status": "technical_audit_pass",
+  "session": {
+    "path": "outputs/runtime-v8s-session-20261026-r2/session.json",
+    "sha256": "b1cefa1520daacb15618701b857ce9c7e92ee4d0a4338d196049c552120b1b93"
+  },
+  "predictions_sha256": "56238162a07a9765c7a629cc1f222d2255a3f1269ef64b535aaea3c95b566d49",
+  "verified_files": 772,
+  "frames": 60,
+  "observations": 1162,
+  "phone_flags": 294,
+  "looking_flags": 256,
+  "both_flags": 39,
+  "reference_frames": 19,
+  "reference_crop_input_byte_matches": 728,
+  "reference_geometry_confidence_exact": true,
+  "reference_flag_changes": 0,
+  "reference_max_abs_score_delta": 6.407499313354492e-06,
+  "owner_acceptance": "19-frame reference batch accepted; no inference of labels or acceptance for other 41 samples",
+  "media_delete_by": "2026-11-01T08:55:06.308086+00:00"
+}

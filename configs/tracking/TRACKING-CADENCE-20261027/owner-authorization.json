@@ -1,0 +1,44 @@
+{
+  "schema_version": "tracking-cadence-authorization-v1",
+  "status": "approved_under_owner_delegation",
+  "experiment_id": "TRACKING-CADENCE-20261027",
+  "date": "2026-10-27",
+  "owner_basis": "Owner delegated technical choices, then explicitly requested executing the next steps in the research README and related files.",
+  "technical_design_by": "assistant",
+  "scope": "Finite local cadence diagnostic C5/C10; at most 540 new V8S detector forwards, no classifier forward.",
+  "allowed_actions": [
+    "implementation",
+    "synthetic_tests",
+    "detector_cadence_cache",
+    "C5_C10_replay",
+    "local_visual_audit",
+    "technical_selection"
+  ],
+  "config": {
+    "path": "configs/tracking/TRACKING-CADENCE-20261027/config.yaml",
+    "sha256": "6e12c8c355a1a0b22928ca14e497b284f97ab5f69f26d2ed7eb557acfd02e0cd"
+  },
+  "design": {
+    "path": "configs/tracking/TRACKING-CADENCE-20261027/README.md",
+    "sha256": "74fe0eff13a3d3bd7aad4508b1116c77a0ec5731b597e2c9ac52498390b53663"
+  },
+  "parent_authorization": {
+    "path": "configs/tracking/TRACKING-PROTOTYPE-20261026/owner-authorization.json",
+    "sha256": "8d60c4398e6f2f1080e6ee222d973517fcb29b7d008f6f99d383fdbf32ef0aa1"
+  },
+  "baseline_selection": {
+    "path": "configs/tracking/TRACKING-PROTOTYPE-20261026/selection-20261027.json",
+    "sha256": "7d8693a1bd1542596df86a1b733768453c665c6fea114b07995dc5fd4cb7cf05"
+  },
+  "runtime": {
+    "path": "configs/runtime/RUNTIME-V8S-20261026/runtime.yaml",
+    "sha256": "513dd60b2a83770914b6f5ad62a0ca9e4a3445b77701c869bcae86ec5de24dfc"
+  },
+  "source_sha256": "61972be2648d1551f61b739ea6a43c0e12aaa8923dba6d17ab0b89a74766ca70",
+  "media_delete_by": "2026-11-01T08:55:06.308086+00:00",
+  "access": "repository_owner",
+  "upload": false,
+  "events": false,
+  "risk": false,
+  "web": false
+}

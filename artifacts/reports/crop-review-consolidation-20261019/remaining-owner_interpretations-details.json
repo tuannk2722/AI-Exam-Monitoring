@@ -1,0 +1,2263 @@
+[
+  {
+    "id": "V6-CA-014",
+    "owner": {
+      "line": 18,
+      "cells": [
+        "V6-CA-014",
+        "P/U",
+        "U/N",
+        "keep",
+        "Vật cầm chưa có mặt/camera rõ; nữ trái vẫn trội.",
+        "Trong frame này tôi thấy có 2 người bên cạnh target anchor cũng có thể trở thành crop. Một là bạn nam bên cạnh P/N, nhưng crop phải không dính bạn nữ. Hai là bạn nữ bên cạnh, phone cần xem xét vì tôi thấy chấm đen của camera, looking_around P"
+      ],
+      "owner_comments": [
+        "Trong frame này tôi thấy có 2 người bên cạnh target anchor cũng có thể trở thành crop. Một là bạn nam bên cạnh P/N, nhưng crop phải không dính bạn nữ. Hai là bạn nữ bên cạnh, phone cần xem xét vì tôi thấy chấm đen của camera, looking_around P"
+      ],
+      "raw": "| V6-CA-014 | P/U | U/N | keep | Vật cầm chưa có mặt/camera rõ; nữ trái vẫn trội. | Trong frame này tôi thấy có 2 người bên cạnh target anchor cũng có thể trở thành crop. Một là bạn nam bên cạnh P/N, nhưng crop phải không dính bạn nữ. Hai là bạn nữ bên cạnh, phone cần xem xét vì tôi thấy chấm đen của camera, looking_around P |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 95,
+      "ymin": 0,
+      "xmax": 346,
+      "ymax": 369
+    },
+    "context": {
+      "xmin": 95,
+      "ymin": 0,
+      "xmax": 346,
+      "ymax": 369
+    },
+    "trials": [
+      {
+        "parent": "V6-CA-014",
+        "id": "V6-CA-014-ADD01",
+        "person": [
+          352,
+          12,
+          507,
+          342
+        ],
+        "context": [
+          344,
+          5,
+          512,
+          375
+        ],
+        "states": [
+          "U",
+          "P"
+        ],
+        "reason": "Đề xuất thêm nữ bên phải quay đầu khỏi thiết bị; chưa xác nhận camera của mặt lưng máy ở input."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V6-CA-014-ADD01",
+        "result": "withheld_duplicate",
+        "states": [
+          "U",
+          "P"
+        ],
+        "duplicate_of": "V6-EX-003",
+        "note": "Geometry đã xem nhưng khi rà cohort ở board 23 tìm thấy V6-EX-003 cùng người/vùng/frame. Không đưa crop mới trùng này vào gallery đề xuất; kiểm crop cũ và chọn một đại diện."
+      }
+    ]
+  },
+  {
+    "id": "V6-CA-025",
+    "owner": {
+      "line": 24,
+      "cells": [
+        "V6-CA-025",
+        "N/P",
+        "N/P",
+        "keep",
+        "Đầu hướng bài/người cạnh bên, không phải own-paper.",
+        "U/P, vì tay bị cắt mất, nếu recrop được rõ hết bộ phận thì xem xét lại"
+      ],
+      "owner_comments": [
+        "U/P, vì tay bị cắt mất, nếu recrop được rõ hết bộ phận thì xem xét lại"
+      ],
+      "raw": "| V6-CA-025 | N/P | N/P | keep | Đầu hướng bài/người cạnh bên, không phải own-paper. | U/P, vì tay bị cắt mất, nếu recrop được rõ hết bộ phận thì xem xét lại |"
+    },
+    "states": [
+      "N",
+      "P"
+    ],
+    "person": {
+      "xmin": 54,
+      "ymin": 0,
+      "xmax": 512,
+      "ymax": 512
+    },
+    "context": {
+      "xmin": 54,
+      "ymin": 0,
+      "xmax": 512,
+      "ymax": 512
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V6-CA-030",
+    "owner": {
+      "line": 27,
+      "cells": [
+        "V6-CA-030",
+        "N/P",
+        "N/P",
+        "keep",
+        "Tay/bàn rõ, đầu quay phải khỏi vùng bàn riêng.",
+        "U/P, crop bị cắt mất tay, nếu recrop được rõ hết bộ phận thì xem xét lại"
+      ],
+      "owner_comments": [
+        "U/P, crop bị cắt mất tay, nếu recrop được rõ hết bộ phận thì xem xét lại"
+      ],
+      "raw": "| V6-CA-030 | N/P | N/P | keep | Tay/bàn rõ, đầu quay phải khỏi vùng bàn riêng. | U/P, crop bị cắt mất tay, nếu recrop được rõ hết bộ phận thì xem xét lại |"
+    },
+    "states": [
+      "N",
+      "P"
+    ],
+    "person": {
+      "xmin": 0,
+      "ymin": 20,
+      "xmax": 233,
+      "ymax": 324
+    },
+    "context": {
+      "xmin": 0,
+      "ymin": 20,
+      "xmax": 233,
+      "ymax": 324
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V6R2-CA-008",
+    "owner": {
+      "line": 44,
+      "cells": [
+        "V6R2-CA-008",
+        "U/N",
+        "U/N",
+        "recrop",
+        "Nữ trái hướng trang, người sau và tay chồng; cần cô lập anchor.",
+        "Frame gốc của crop có thể tận dụng, tôi thấy có rất nhiều crop hữu ích. Hãy phân tích kỹ frame này sau đó đề xuất thêm nhiều crop ngon nhất có thể"
+      ],
+      "owner_comments": [
+        "Frame gốc của crop có thể tận dụng, tôi thấy có rất nhiều crop hữu ích. Hãy phân tích kỹ frame này sau đó đề xuất thêm nhiều crop ngon nhất có thể"
+      ],
+      "raw": "| V6R2-CA-008 | U/N | U/N | recrop | Nữ trái hướng trang, người sau và tay chồng; cần cô lập anchor. | Frame gốc của crop có thể tận dụng, tôi thấy có rất nhiều crop hữu ích. Hãy phân tích kỹ frame này sau đó đề xuất thêm nhiều crop ngon nhất có thể |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 0,
+      "ymin": 0,
+      "xmax": 109,
+      "ymax": 184
+    },
+    "context": {
+      "xmin": 0,
+      "ymin": 0,
+      "xmax": 109,
+      "ymax": 184
+    },
+    "trials": [
+      {
+        "parent": "V6R2-CA-008",
+        "id": "V6R2-CA-008-ADD01",
+        "person": [
+          166,
+          72,
+          266,
+          219
+        ],
+        "context": [
+          157,
+          65,
+          274,
+          257
+        ],
+        "states": [
+          "P",
+          "N"
+        ],
+        "reason": "Nam viết giữa, mobile trên bàn riêng và tay viết; kiểm đầu tiền cảnh chỉ còn tóc ở đáy."
+      },
+      {
+        "parent": "V6R2-CA-008",
+        "id": "V6R2-CA-008-ADD02",
+        "person": [
+          282,
+          83,
+          394,
+          275
+        ],
+        "context": [
+          276,
+          75,
+          400,
+          304
+        ],
+        "states": [
+          "U",
+          "N"
+        ],
+        "reason": "Người áo xám cầm vật giữa phải, vật chưa phân biệt phone/calculator; đầu hướng vật riêng."
+      },
+      {
+        "parent": "V6R2-CA-008",
+        "id": "V6R2-CA-008-ADD03",
+        "person": [
+          160,
+          217,
+          311,
+          512
+        ],
+        "context": [
+          152,
+          210,
+          317,
+          512
+        ],
+        "states": [
+          "U",
+          "N"
+        ],
+        "reason": "Người viết trước giữa, tay dưới sát biên source; giữ U, kiểm người sau và tay calculator."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V6R2-CA-008-ADD01",
+        "result": "pass_draft",
+        "states": [
+          "P",
+          "N"
+        ],
+        "note": "Mobile viền trắng trên bàn riêng, đầu theo bài viết; giữ đầu và tay, người tiền cảnh chỉ còn tóc ở đáy. Đã kiểm native và input 224."
+      },
+      {
+        "id": "V6R2-CA-008-ADD02",
+        "result": "pass_draft",
+        "states": [
+          "U",
+          "N"
+        ],
+        "note": "Vật trắng chưa phân biệt phone/calculator nên phone U; đầu hướng vật riêng. Mặt nền chỉ còn phần nhỏ ở mép trên phải; anchor trội ở native và input."
+      },
+      {
+        "id": "V6R2-CA-008-ADD03",
+        "result": "needs_revision",
+        "states": [
+          "U",
+          "N"
+        ],
+        "note": "Mobile của bàn sau nằm ngay trên đầu tạo nguy cơ gán nhầm; tay dưới còn thiếu ở biên nguồn. Chưa đề xuất bản này."
+      }
+    ]
+  },
+  {
+    "id": "V7-A-004",
+    "owner": {
+      "line": 52,
+      "cells": [
+        "V7-A-004",
+        "N/N",
+        "U/N",
+        "recrop",
+        "Vật đen trên bài thiếu ID; đầu người tiền cảnh chiếm đáy.",
+        "Frame gốc của crop có thể tận dụng, tôi thấy có rất nhiều crop hữu ích. Hãy phân tích kỹ frame này sau đó đề xuất thêm nhiều crop ngon nhất có thể"
+      ],
+      "owner_comments": [
+        "Frame gốc của crop có thể tận dụng, tôi thấy có rất nhiều crop hữu ích. Hãy phân tích kỹ frame này sau đó đề xuất thêm nhiều crop ngon nhất có thể"
+      ],
+      "raw": "| V7-A-004 | N/N | U/N | recrop | Vật đen trên bài thiếu ID; đầu người tiền cảnh chiếm đáy. | Frame gốc của crop có thể tận dụng, tôi thấy có rất nhiều crop hữu ích. Hãy phân tích kỹ frame này sau đó đề xuất thêm nhiều crop ngon nhất có thể |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 302,
+      "ymin": 61,
+      "xmax": 461,
+      "ymax": 328
+    },
+    "context": {
+      "xmin": 302,
+      "ymin": 61,
+      "xmax": 461,
+      "ymax": 328
+    },
+    "trials": [
+      {
+        "parent": "V7-A-004",
+        "id": "V7-A-004-ADD01",
+        "person": [
+          162,
+          192,
+          280,
+          408
+        ],
+        "context": [
+          153,
+          183,
+          288,
+          447
+        ],
+        "states": [
+          "P",
+          "N"
+        ],
+        "reason": "Áo xám trước giữa đang tương tác mobile mặt kính, giữ tay và giấy riêng; kiểm mặt hai bên."
+      },
+      {
+        "parent": "V7-A-004",
+        "id": "V7-A-004-ADD02",
+        "person": [
+          77,
+          144,
+          183,
+          333
+        ],
+        "context": [
+          70,
+          136,
+          190,
+          365
+        ],
+        "states": [
+          "U",
+          "N"
+        ],
+        "reason": "Áo đỏ trước trái cầm vật trên giấy; xem cấu trúc mobile và tách người cạnh."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V7-A-004-ADD01",
+        "result": "pass_draft",
+        "states": [
+          "P",
+          "N"
+        ],
+        "note": "Người áo xám trước giữa cầm mobile mặt kính bằng hai tay, đầu theo vật; người cạnh chỉ còn thân/tóc. Native và input giữ bằng chứng."
+      },
+      {
+        "id": "V7-A-004-ADD02",
+        "result": "pass_draft",
+        "states": [
+          "U",
+          "N"
+        ],
+        "note": "Người áo đỏ trước trái: vật chỉ lộ cạnh, không đủ xác định phone; đầu theo bài/vật riêng. Giữ hai tay và giấy, không có mặt cạnh tranh."
+      }
+    ]
+  },
+  {
+    "id": "V7-B-029",
+    "owner": {
+      "line": 70,
+      "cells": [
+        "V7-B-029",
+        "P/U",
+        "U/P",
+        "recrop",
+        "Nam trái và nam phải đều có mặt/thân rõ.",
+        "Đổi target anchor sang nam ngồi đi vì người này có looking_around P nên sẽ hữu ích hơn nam tiền cảnh chỉ có U/N"
+      ],
+      "owner_comments": [
+        "Đổi target anchor sang nam ngồi đi vì người này có looking_around P nên sẽ hữu ích hơn nam tiền cảnh chỉ có U/N"
+      ],
+      "raw": "| V7-B-029 | P/U | U/P | recrop | Nam trái và nam phải đều có mặt/thân rõ. | Đổi target anchor sang nam ngồi đi vì người này có looking_around P nên sẽ hữu ích hơn nam tiền cảnh chỉ có U/N |"
+    },
+    "states": [
+      "U",
+      "P"
+    ],
+    "person": {
+      "xmin": 146,
+      "ymin": 0,
+      "xmax": 512,
+      "ymax": 512
+    },
+    "context": {
+      "xmin": 146,
+      "ymin": 0,
+      "xmax": 512,
+      "ymax": 512
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-B-035",
+    "owner": {
+      "line": 72,
+      "cells": [
+        "V7-B-035",
+        "P/U",
+        "U/N",
+        "recrop",
+        "Nhiều đầu/tay chồng quanh nam cầm vật.",
+        "Frame gốc của crop này có thể tận dụng thêm bạn nam ngồi phía trước đang quay đầu, crop đó sẽ là N/P"
+      ],
+      "owner_comments": [
+        "Frame gốc của crop này có thể tận dụng thêm bạn nam ngồi phía trước đang quay đầu, crop đó sẽ là N/P"
+      ],
+      "raw": "| V7-B-035 | P/U | U/N | recrop | Nhiều đầu/tay chồng quanh nam cầm vật. | Frame gốc của crop này có thể tận dụng thêm bạn nam ngồi phía trước đang quay đầu, crop đó sẽ là N/P |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 14,
+      "ymin": 111,
+      "xmax": 121,
+      "ymax": 312
+    },
+    "context": {
+      "xmin": 14,
+      "ymin": 111,
+      "xmax": 121,
+      "ymax": 312
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-B-051",
+    "owner": {
+      "line": 79,
+      "cells": [
+        "V7-B-051",
+        "P/U",
+        "U/P",
+        "recrop",
+        "Nam ngẩng khỏi vật, người cạnh cũng trội.",
+        "Frame gốc của crop này có thể tách thành 2 crop, lần lượt cho 2 nam ngồi cạnh nhau, nam áo xanh da trời là U/P, còn nam áo xám là U/N"
+      ],
+      "owner_comments": [
+        "Frame gốc của crop này có thể tách thành 2 crop, lần lượt cho 2 nam ngồi cạnh nhau, nam áo xanh da trời là U/P, còn nam áo xám là U/N"
+      ],
+      "raw": "| V7-B-051 | P/U | U/P | recrop | Nam ngẩng khỏi vật, người cạnh cũng trội. | Frame gốc của crop này có thể tách thành 2 crop, lần lượt cho 2 nam ngồi cạnh nhau, nam áo xanh da trời là U/P, còn nam áo xám là U/N |"
+    },
+    "states": [
+      "U",
+      "P"
+    ],
+    "person": {
+      "xmin": 0,
+      "ymin": 174,
+      "xmax": 247,
+      "ymax": 512
+    },
+    "context": {
+      "xmin": 0,
+      "ymin": 174,
+      "xmax": 247,
+      "ymax": 512
+    },
+    "trials": [
+      {
+        "parent": "V7-B-051",
+        "id": "V7-B-051-ADD01",
+        "person": [
+          14,
+          118,
+          145,
+          291
+        ],
+        "context": [
+          8,
+          109,
+          151,
+          324
+        ],
+        "states": [
+          "U",
+          "P"
+        ],
+        "reason": "Nam áo xanh đầu quay sang phải, hai tay nâng vật, giữ U theo owner; kiểm đầu tiền cảnh và mặt xám bên cạnh."
+      },
+      {
+        "parent": "V7-B-051",
+        "id": "V7-B-051-ADD02",
+        "person": [
+          128,
+          129,
+          255,
+          373
+        ],
+        "context": [
+          123,
+          119,
+          264,
+          400
+        ],
+        "states": [
+          "U",
+          "N"
+        ],
+        "reason": "Nam áo xám nhìn vật đang cầm, giữ đầu/tay và giảm người trái; tay ngoài vùng không tự N."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V7-B-051-ADD01",
+        "result": "pass_draft",
+        "states": [
+          "U",
+          "P"
+        ],
+        "note": "Nam áo xanh quay đầu sang người bên phải, vật nâng chưa xác định ID; loại được mặt nam áo xám, phía trước chỉ còn tóc. Giữ U/P ở native và input."
+      },
+      {
+        "id": "V7-B-051-ADD02",
+        "result": "pass_draft",
+        "states": [
+          "U",
+          "N"
+        ],
+        "note": "Nam áo xám nhìn vật tối đang cầm, không đủ xác định phone. Giữ trọn đầu và tay, người trái chỉ còn tay/áo."
+      }
+    ]
+  },
+  {
+    "id": "V7-B-053",
+    "owner": {
+      "line": 80,
+      "cells": [
+        "V7-B-053",
+        "P/U",
+        "P/N",
+        "recrop",
+        "Máy xanh có cụm camera lớn nhưng còn nữ trước và thiết bị khác.",
+        "Xem lại giúp tôi bạn nữ tiền cảnh đã có crop chưa, nếu chưa thì đổi thành crop bạn nữ đó và gán là P/N"
+      ],
+      "owner_comments": [
+        "Xem lại giúp tôi bạn nữ tiền cảnh đã có crop chưa, nếu chưa thì đổi thành crop bạn nữ đó và gán là P/N"
+      ],
+      "raw": "| V7-B-053 | P/U | P/N | recrop | Máy xanh có cụm camera lớn nhưng còn nữ trước và thiết bị khác. | Xem lại giúp tôi bạn nữ tiền cảnh đã có crop chưa, nếu chưa thì đổi thành crop bạn nữ đó và gán là P/N |"
+    },
+    "states": [
+      "P",
+      "N"
+    ],
+    "person": {
+      "xmin": 158,
+      "ymin": 0,
+      "xmax": 378,
+      "ymax": 418
+    },
+    "context": {
+      "xmin": 158,
+      "ymin": 0,
+      "xmax": 378,
+      "ymax": 418
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-B-055",
+    "owner": {
+      "line": 81,
+      "cells": [
+        "V7-B-055",
+        "P/U",
+        "U/N",
+        "recrop",
+        "Kiểm lại PNG 224: vật cầm nghiêng chỉ còn cạnh và vùng tối, chưa tách chắc màn hình; hai nữ cùng rõ và cùng bàn.",
+        "Tách thành 2 crop, trong đó bạn cầm vật sẽ là U/N còn bạn ngồi cạnh sẽ là U/P, hai crop phải không được dính người khác vào"
+      ],
+      "owner_comments": [
+        "Tách thành 2 crop, trong đó bạn cầm vật sẽ là U/N còn bạn ngồi cạnh sẽ là U/P, hai crop phải không được dính người khác vào"
+      ],
+      "raw": "| V7-B-055 | P/U | U/N | recrop | Kiểm lại PNG 224: vật cầm nghiêng chỉ còn cạnh và vùng tối, chưa tách chắc màn hình; hai nữ cùng rõ và cùng bàn. | Tách thành 2 crop, trong đó bạn cầm vật sẽ là U/N còn bạn ngồi cạnh sẽ là U/P, hai crop phải không được dính người khác vào |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 63,
+      "ymin": 0,
+      "xmax": 366,
+      "ymax": 512
+    },
+    "context": {
+      "xmin": 63,
+      "ymin": 0,
+      "xmax": 366,
+      "ymax": 512
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-D-002",
+    "owner": {
+      "line": 86,
+      "cells": [
+        "V7-D-002",
+        "P/U",
+        "U/N",
+        "recrop",
+        "Hai nữ cùng lớn đang nhìn chung thiết bị.",
+        "Tách thành 2 crop, trong đó bạn cầm vật sẽ là U/N còn bạn ngồi cạnh sẽ là U/P, hai crop phải không được dính người khác vào"
+      ],
+      "owner_comments": [
+        "Tách thành 2 crop, trong đó bạn cầm vật sẽ là U/N còn bạn ngồi cạnh sẽ là U/P, hai crop phải không được dính người khác vào"
+      ],
+      "raw": "| V7-D-002 | P/U | U/N | recrop | Hai nữ cùng lớn đang nhìn chung thiết bị. | Tách thành 2 crop, trong đó bạn cầm vật sẽ là U/N còn bạn ngồi cạnh sẽ là U/P, hai crop phải không được dính người khác vào |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 124,
+      "ymin": 95,
+      "xmax": 391,
+      "ymax": 491
+    },
+    "context": {
+      "xmin": 124,
+      "ymin": 95,
+      "xmax": 391,
+      "ymax": 491
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-D-005",
+    "owner": {
+      "line": 88,
+      "cells": [
+        "V7-D-005",
+        "P/U",
+        "U/N",
+        "recrop",
+        "Nam và nữ sát nhau đều còn mặt, cùng vùng thiết bị.",
+        "Frame gốc của crop này có thể tách thành 4 crop, lần lượt là nam ngồi trên target anchor U/P, hai nữ ngồi cạnh target anchor lần lượt thành 2 crop U/P"
+      ],
+      "owner_comments": [
+        "Frame gốc của crop này có thể tách thành 4 crop, lần lượt là nam ngồi trên target anchor U/P, hai nữ ngồi cạnh target anchor lần lượt thành 2 crop U/P"
+      ],
+      "raw": "| V7-D-005 | P/U | U/N | recrop | Nam và nữ sát nhau đều còn mặt, cùng vùng thiết bị. | Frame gốc của crop này có thể tách thành 4 crop, lần lượt là nam ngồi trên target anchor U/P, hai nữ ngồi cạnh target anchor lần lượt thành 2 crop U/P |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 174,
+      "ymin": 0,
+      "xmax": 432,
+      "ymax": 512
+    },
+    "context": {
+      "xmin": 174,
+      "ymin": 0,
+      "xmax": 432,
+      "ymax": 512
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-D-008",
+    "owner": {
+      "line": 89,
+      "cells": [
+        "V7-D-008",
+        "P/U",
+        "U/N",
+        "recrop",
+        "Nữ cạnh phải còn mặt và tay tác động gần máy.",
+        "Tách thành 2 crop, trong đó bạn cầm vật sẽ là U/N còn bạn ngồi cạnh sẽ là U/P, hai crop phải không được dính người khác vào"
+      ],
+      "owner_comments": [
+        "Tách thành 2 crop, trong đó bạn cầm vật sẽ là U/N còn bạn ngồi cạnh sẽ là U/P, hai crop phải không được dính người khác vào"
+      ],
+      "raw": "| V7-D-008 | P/U | U/N | recrop | Nữ cạnh phải còn mặt và tay tác động gần máy. | Tách thành 2 crop, trong đó bạn cầm vật sẽ là U/N còn bạn ngồi cạnh sẽ là U/P, hai crop phải không được dính người khác vào |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 23,
+      "ymin": 33,
+      "xmax": 316,
+      "ymax": 509
+    },
+    "context": {
+      "xmin": 23,
+      "ymin": 33,
+      "xmax": 316,
+      "ymax": 509
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-D-013",
+    "owner": {
+      "line": 94,
+      "cells": [
+        "V7-D-013",
+        "P/U",
+        "U/N",
+        "recrop",
+        "Nam ngồi và nam đứng sát cùng rõ.",
+        "Tách thành 2 crop, trong đó bạn cầm vật sẽ là U/N còn bạn áo vàng đang ngồi sẽ là U/P, hai crop phải không được dính người khác vào"
+      ],
+      "owner_comments": [
+        "Tách thành 2 crop, trong đó bạn cầm vật sẽ là U/N còn bạn áo vàng đang ngồi sẽ là U/P, hai crop phải không được dính người khác vào"
+      ],
+      "raw": "| V7-D-013 | P/U | U/N | recrop | Nam ngồi và nam đứng sát cùng rõ. | Tách thành 2 crop, trong đó bạn cầm vật sẽ là U/N còn bạn áo vàng đang ngồi sẽ là U/P, hai crop phải không được dính người khác vào |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 0,
+      "ymin": 0,
+      "xmax": 223,
+      "ymax": 488
+    },
+    "context": {
+      "xmin": 0,
+      "ymin": 0,
+      "xmax": 223,
+      "ymax": 488
+    },
+    "trials": [
+      {
+        "parent": "V7-D-013",
+        "id": "V7-D-013-ADD01",
+        "person": [
+          269,
+          125,
+          445,
+          423
+        ],
+        "context": [
+          260,
+          116,
+          453,
+          437
+        ],
+        "states": [
+          "U",
+          "P"
+        ],
+        "reason": "Nam áo vàng ngồi quay trái, hai tay cầm vật; giữ U theo yêu cầu owner, kiểm mặt nữ sau và người phải."
+      }
+    ],
+    "qa": [
+      {
+        "id": "V7-D-013-ADD01",
+        "result": "pass_draft",
+        "states": [
+          "U",
+          "P"
+        ],
+        "note": "Nam áo vàng ngồi quay trái khỏi vùng làm việc riêng, hai tay cầm cốc; giữ phone U vì bàn chưa đủ. Người sau chỉ còn cằm/miệng ở mép trên, mặt anchor trội."
+      }
+    ]
+  },
+  {
+    "id": "V7-D-014",
+    "owner": {
+      "line": 95,
+      "cells": [
+        "V7-D-014",
+        "P/U",
+        "U/N",
+        "recrop",
+        "Nữ cạnh phải và tay chỉ vào máy ngang vai trò.",
+        "Tách thành 2 crop, trong đó bạn cầm vật sẽ là U/N còn bạn ngồi cạnh sẽ là U/P, hai crop phải không được dính người khác vào"
+      ],
+      "owner_comments": [
+        "Tách thành 2 crop, trong đó bạn cầm vật sẽ là U/N còn bạn ngồi cạnh sẽ là U/P, hai crop phải không được dính người khác vào"
+      ],
+      "raw": "| V7-D-014 | P/U | U/N | recrop | Nữ cạnh phải và tay chỉ vào máy ngang vai trò. | Tách thành 2 crop, trong đó bạn cầm vật sẽ là U/N còn bạn ngồi cạnh sẽ là U/P, hai crop phải không được dính người khác vào |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 47,
+      "ymin": 0,
+      "xmax": 307,
+      "ymax": 512
+    },
+    "context": {
+      "xmin": 47,
+      "ymin": 0,
+      "xmax": 307,
+      "ymax": 512
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-OE-S076-A01",
+    "owner": {
+      "line": 114,
+      "cells": [
+        "V7-OE-S076-A01",
+        "U/N",
+        "U/U",
+        "exclude",
+        "Tay che mắt/mặt và vùng tay còn lại thiếu evidence.",
+        "Sửa lại crop để quan sát toàn diện hơn, include, N/N"
+      ],
+      "owner_comments": [
+        "Sửa lại crop để quan sát toàn diện hơn, include, N/N"
+      ],
+      "raw": "| V7-OE-S076-A01 | U/N | U/U | exclude | Tay che mắt/mặt và vùng tay còn lại thiếu evidence. | Sửa lại crop để quan sát toàn diện hơn, include, N/N |"
+    },
+    "states": [
+      "U",
+      "U"
+    ],
+    "person": {
+      "xmin": 5,
+      "ymin": 0,
+      "xmax": 369,
+      "ymax": 392
+    },
+    "context": {
+      "xmin": 5,
+      "ymin": 0,
+      "xmax": 369,
+      "ymax": 392
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-OE-S077-A01",
+    "owner": {
+      "line": 115,
+      "cells": [
+        "V7-OE-S077-A01",
+        "U/P",
+        "N/P",
+        "recrop",
+        "Nam trước quay phải, nam sau cùng rõ và person box gộp.",
+        "U/P, nam trước bị che mất tay"
+      ],
+      "owner_comments": [
+        "U/P, nam trước bị che mất tay"
+      ],
+      "raw": "| V7-OE-S077-A01 | U/P | N/P | recrop | Nam trước quay phải, nam sau cùng rõ và person box gộp. | U/P, nam trước bị che mất tay |"
+    },
+    "states": [
+      "N",
+      "P"
+    ],
+    "person": {
+      "xmin": 164,
+      "ymin": 36,
+      "xmax": 486,
+      "ymax": 512
+    },
+    "context": {
+      "xmin": 164,
+      "ymin": 36,
+      "xmax": 486,
+      "ymax": 512
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-OE-S107-A01",
+    "owner": {
+      "line": 122,
+      "cells": [
+        "V7-OE-S107-A01",
+        "P/U",
+        "U/N",
+        "keep",
+        "Vật trong tay/mặt bàn chưa phân biệt, đầu hướng vùng riêng.",
+        "P/N, crop lại cho có thể nhìn hết vật cầm trên tay và màn hình phone có thể nhận diện rõ, nhưng không được dính người khác"
+      ],
+      "owner_comments": [
+        "P/N, crop lại cho có thể nhìn hết vật cầm trên tay và màn hình phone có thể nhận diện rõ, nhưng không được dính người khác"
+      ],
+      "raw": "| V7-OE-S107-A01 | P/U | U/N | keep | Vật trong tay/mặt bàn chưa phân biệt, đầu hướng vùng riêng. | P/N, crop lại cho có thể nhìn hết vật cầm trên tay và màn hình phone có thể nhận diện rõ, nhưng không được dính người khác |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 0,
+      "ymin": 31,
+      "xmax": 410,
+      "ymax": 512
+    },
+    "context": {
+      "xmin": 0,
+      "ymin": 31,
+      "xmax": 410,
+      "ymax": 512
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-OE-S043-A02",
+    "owner": {
+      "line": 200,
+      "cells": [
+        "V7-OE-S043-A02",
+        "P/P",
+        "U/U",
+        "exclude",
+        "Mắt nhắm, tay dưới bàn; calculator không cứu absence.",
+        "include, P/P"
+      ],
+      "owner_comments": [
+        "include, P/P"
+      ],
+      "raw": "| V7-OE-S043-A02 | P/P | U/U | exclude | Mắt nhắm, tay dưới bàn; calculator không cứu absence. | include, P/P |"
+    },
+    "states": [
+      "U",
+      "U"
+    ],
+    "person": {
+      "xmin": 1382,
+      "ymin": 346,
+      "xmax": 1920,
+      "ymax": 1238
+    },
+    "context": {
+      "xmin": 1382,
+      "ymin": 346,
+      "xmax": 1920,
+      "ymax": 1238
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-OE-S053-A01",
+    "owner": {
+      "line": 213,
+      "cells": [
+        "V7-OE-S053-A01",
+        "N/N",
+        "N/N",
+        "recrop",
+        "Nam áo xanh trái, nam giữa và nam phải cùng trội.",
+        "nam áo xanh đeo kính N/P"
+      ],
+      "owner_comments": [
+        "nam áo xanh đeo kính N/P"
+      ],
+      "raw": "| V7-OE-S053-A01 | N/N | N/N | recrop | Nam áo xanh trái, nam giữa và nam phải cùng trội. | nam áo xanh đeo kính N/P |"
+    },
+    "states": [
+      "N",
+      "N"
+    ],
+    "person": {
+      "xmin": 1018,
+      "ymin": 424,
+      "xmax": 1920,
+      "ymax": 1246
+    },
+    "context": {
+      "xmin": 1018,
+      "ymin": 424,
+      "xmax": 1920,
+      "ymax": 1246
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-OE-S061-A01",
+    "owner": {
+      "line": 221,
+      "cells": [
+        "V7-OE-S061-A01",
+        "U/P",
+        "U/P",
+        "recrop",
+        "Nhiều người cùng nhìn người hướng dẫn, tay bị chồng.",
+        "Nữ áo xanh là tiền cảnh U/P"
+      ],
+      "owner_comments": [
+        "Nữ áo xanh là tiền cảnh U/P"
+      ],
+      "raw": "| V7-OE-S061-A01 | U/P | U/P | recrop | Nhiều người cùng nhìn người hướng dẫn, tay bị chồng. | Nữ áo xanh là tiền cảnh U/P |"
+    },
+    "states": [
+      "U",
+      "P"
+    ],
+    "person": {
+      "xmin": 576,
+      "ymin": 709,
+      "xmax": 1402,
+      "ymax": 1403
+    },
+    "context": {
+      "xmin": 576,
+      "ymin": 709,
+      "xmax": 1402,
+      "ymax": 1403
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "E004-EX-C172",
+    "owner": {
+      "line": 278,
+      "cells": [
+        "E004-EX-C172",
+        "U/N",
+        "N/N",
+        "keep",
+        "Giấy, tay và phím calculator đủ quan sát.",
+        "Xem xét, vật giấu trong tay áo sáng là màn hình phone"
+      ],
+      "owner_comments": [
+        "Xem xét, vật giấu trong tay áo sáng là màn hình phone"
+      ],
+      "raw": "| E004-EX-C172 | U/N | N/N | keep | Giấy, tay và phím calculator đủ quan sát. | Xem xét, vật giấu trong tay áo sáng là màn hình phone |"
+    },
+    "states": [
+      "N",
+      "N"
+    ],
+    "person": {
+      "xmin": 0,
+      "ymin": 0,
+      "xmax": 154,
+      "ymax": 426
+    },
+    "context": {
+      "xmin": 0,
+      "ymin": 0,
+      "xmax": 240,
+      "ymax": 426
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V6-EX-012",
+    "owner": {
+      "line": 286,
+      "cells": [
+        "V6-EX-012",
+        "P/U",
+        "P/P",
+        "keep",
+        "Mobile mặt kính/viền rõ, đầu nhìn camera khỏi giấy.",
+        "Thêm 1 crop nữa cho bạn nữ bên cạnh P/P"
+      ],
+      "owner_comments": [
+        "Thêm 1 crop nữa cho bạn nữ bên cạnh P/P"
+      ],
+      "raw": "| V6-EX-012 | P/U | P/P | keep | Mobile mặt kính/viền rõ, đầu nhìn camera khỏi giấy. | Thêm 1 crop nữa cho bạn nữ bên cạnh P/P |"
+    },
+    "states": [
+      "P",
+      "P"
+    ],
+    "person": {
+      "xmin": 224,
+      "ymin": 102,
+      "xmax": 487,
+      "ymax": 608
+    },
+    "context": {
+      "xmin": 224,
+      "ymin": 102,
+      "xmax": 487,
+      "ymax": 608
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V6-EX-042",
+    "owner": {
+      "line": 310,
+      "cells": [
+        "V6-EX-042",
+        "N/N",
+        "U/N",
+        "keep",
+        "Đầu hướng giấy, tay còn lại dưới bàn thiếu absence.",
+        "Crop thêm bạn nữ ngồi trên U/P"
+      ],
+      "owner_comments": [
+        "Crop thêm bạn nữ ngồi trên U/P"
+      ],
+      "raw": "| V6-EX-042 | N/N | U/N | keep | Đầu hướng giấy, tay còn lại dưới bàn thiếu absence. | Crop thêm bạn nữ ngồi trên U/P |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 0,
+      "ymin": 46,
+      "xmax": 261,
+      "ymax": 606
+    },
+    "context": {
+      "xmin": 0,
+      "ymin": 46,
+      "xmax": 261,
+      "ymax": 606
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V6R2-EX-008",
+    "owner": {
+      "line": 317,
+      "cells": [
+        "V6R2-EX-008",
+        "N/P",
+        "U/N",
+        "keep",
+        "Đầu vào trang đang cầm, phần tay còn lại thiếu evidence.",
+        "N/P, crop lại cho thấy toàn cảnh target anchor hơn"
+      ],
+      "owner_comments": [
+        "N/P, crop lại cho thấy toàn cảnh target anchor hơn"
+      ],
+      "raw": "| V6R2-EX-008 | N/P | U/N | keep | Đầu vào trang đang cầm, phần tay còn lại thiếu evidence. | N/P, crop lại cho thấy toàn cảnh target anchor hơn |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 288,
+      "ymin": 32,
+      "xmax": 583,
+      "ymax": 551
+    },
+    "context": {
+      "xmin": 288,
+      "ymin": 32,
+      "xmax": 583,
+      "ymax": 551
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V6R2-EX-010",
+    "owner": {
+      "line": 319,
+      "cells": [
+        "V6R2-EX-010",
+        "N/P",
+        "U/P",
+        "keep",
+        "Đầu quay trái, một tay dưới bàn thiếu absence.",
+        "N/P, chỉ mất có tí tôi, nếu frame gốc có thì nên crop lại"
+      ],
+      "owner_comments": [
+        "N/P, chỉ mất có tí tôi, nếu frame gốc có thì nên crop lại"
+      ],
+      "raw": "| V6R2-EX-010 | N/P | U/P | keep | Đầu quay trái, một tay dưới bàn thiếu absence. | N/P, chỉ mất có tí tôi, nếu frame gốc có thì nên crop lại |"
+    },
+    "states": [
+      "U",
+      "P"
+    ],
+    "person": {
+      "xmin": 284,
+      "ymin": 321,
+      "xmax": 444,
+      "ymax": 640
+    },
+    "context": {
+      "xmin": 284,
+      "ymin": 321,
+      "xmax": 444,
+      "ymax": 640
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-C-087",
+    "owner": {
+      "line": 324,
+      "cells": [
+        "V7-C-087",
+        "U/N",
+        "N/N",
+        "keep",
+        "Cầm bút, giữ trang, đầu vào bài.",
+        "Crop thêm bạn nữ áo xanh N/P"
+      ],
+      "owner_comments": [
+        "Crop thêm bạn nữ áo xanh N/P"
+      ],
+      "raw": "| V7-C-087 | U/N | N/N | keep | Cầm bút, giữ trang, đầu vào bài. | Crop thêm bạn nữ áo xanh N/P |"
+    },
+    "states": [
+      "N",
+      "N"
+    ],
+    "person": {
+      "xmin": 429,
+      "ymin": 94,
+      "xmax": 640,
+      "ymax": 569
+    },
+    "context": {
+      "xmin": 429,
+      "ymin": 94,
+      "xmax": 640,
+      "ymax": 569
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-OE-S081-A01",
+    "owner": {
+      "line": 325,
+      "cells": [
+        "V7-OE-S081-A01",
+        "U/N",
+        "U/P",
+        "recrop",
+        "Nam sau nhìn nữ trước, thân/đầu nữ cắt vùng anchor.",
+        "Frame gốc của crop này có thể tận dụng thêm, có vài bạn đang looking_around P nên hãy phân tích kỹ đề thêm được crop hữu ích"
+      ],
+      "owner_comments": [
+        "Frame gốc của crop này có thể tận dụng thêm, có vài bạn đang looking_around P nên hãy phân tích kỹ đề thêm được crop hữu ích"
+      ],
+      "raw": "| V7-OE-S081-A01 | U/N | U/P | recrop | Nam sau nhìn nữ trước, thân/đầu nữ cắt vùng anchor. | Frame gốc của crop này có thể tận dụng thêm, có vài bạn đang looking_around P nên hãy phân tích kỹ đề thêm được crop hữu ích |"
+    },
+    "states": [
+      "U",
+      "P"
+    ],
+    "person": {
+      "xmin": 250,
+      "ymin": 211,
+      "xmax": 397,
+      "ymax": 480
+    },
+    "context": {
+      "xmin": 250,
+      "ymin": 211,
+      "xmax": 397,
+      "ymax": 480
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-C-125",
+    "owner": {
+      "line": 391,
+      "cells": [
+        "V7-C-125",
+        "N/N",
+        "U/N",
+        "keep",
+        "Tay ở mép khung thiếu evidence, đầu hướng trang.",
+        "N/N, crop lại để thấy được rõ tay"
+      ],
+      "owner_comments": [
+        "N/N, crop lại để thấy được rõ tay"
+      ],
+      "raw": "| V7-C-125 | N/N | U/N | keep | Tay ở mép khung thiếu evidence, đầu hướng trang. | N/N, crop lại để thấy được rõ tay |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 0,
+      "ymin": 294,
+      "xmax": 472,
+      "ymax": 679
+    },
+    "context": {
+      "xmin": 0,
+      "ymin": 294,
+      "xmax": 472,
+      "ymax": 679
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-OE-S009-A01",
+    "owner": {
+      "line": 422,
+      "cells": [
+        "V7-OE-S009-A01",
+        "U/P",
+        "U/P",
+        "recrop",
+        "Ba nam cùng rõ và hướng ra trước, tay/vùng bài không đủ riêng.",
+        "Frame gốc của crop này có thể tận dụng để cắt ra được nhiều crop hữu ích, hãy kiểm tra thật kỹ"
+      ],
+      "owner_comments": [
+        "Frame gốc của crop này có thể tận dụng để cắt ra được nhiều crop hữu ích, hãy kiểm tra thật kỹ"
+      ],
+      "raw": "| V7-OE-S009-A01 | U/P | U/P | recrop | Ba nam cùng rõ và hướng ra trước, tay/vùng bài không đủ riêng. | Frame gốc của crop này có thể tận dụng để cắt ra được nhiều crop hữu ích, hãy kiểm tra thật kỹ |"
+    },
+    "states": [
+      "U",
+      "P"
+    ],
+    "person": {
+      "xmin": 0,
+      "ymin": 150,
+      "xmax": 522,
+      "ymax": 524
+    },
+    "context": {
+      "xmin": 0,
+      "ymin": 150,
+      "xmax": 522,
+      "ymax": 524
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "E004-EX-C002",
+    "owner": {
+      "line": 434,
+      "cells": [
+        "E004-EX-C002",
+        "P/N",
+        "U/N",
+        "keep",
+        "Mặt/cạnh tối cầm chưa đủ ID.",
+        "Thu hẹp crop lại sao cho khít target anchor"
+      ],
+      "owner_comments": [
+        "Thu hẹp crop lại sao cho khít target anchor"
+      ],
+      "raw": "| E004-EX-C002 | P/N | U/N | keep | Mặt/cạnh tối cầm chưa đủ ID. | Thu hẹp crop lại sao cho khít target anchor |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 145,
+      "ymin": 327,
+      "xmax": 542,
+      "ymax": 703
+    },
+    "context": {
+      "xmin": 38,
+      "ymin": 277,
+      "xmax": 592,
+      "ymax": 710
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "EXP-RF-007",
+    "owner": {
+      "line": 471,
+      "cells": [
+        "EXP-RF-007",
+        "U/P",
+        "N/P",
+        "keep",
+        "Tay bút trên bàn và tay tựa ghế thấy rõ, đầu nhìn sang phải khỏi bài.",
+        "Crop lại sao cho thấy toàn bộ tay"
+      ],
+      "owner_comments": [
+        "Crop lại sao cho thấy toàn bộ tay"
+      ],
+      "raw": "| EXP-RF-007 | U/P | N/P | keep | Tay bút trên bàn và tay tựa ghế thấy rõ, đầu nhìn sang phải khỏi bài. | Crop lại sao cho thấy toàn bộ tay |"
+    },
+    "states": [
+      "N",
+      "P"
+    ],
+    "person": {
+      "xmin": 144,
+      "ymin": 236,
+      "xmax": 299,
+      "ymax": 403
+    },
+    "context": {
+      "xmin": 144,
+      "ymin": 236,
+      "xmax": 299,
+      "ymax": 403
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "EXP-RF-008",
+    "owner": {
+      "line": 472,
+      "cells": [
+        "EXP-RF-008",
+        "U/P",
+        "U/U",
+        "exclude",
+        "Tay thiếu, tóc che mặt và nguồn ít pixel không xác định hướng nhìn đáng tin.",
+        "include, U/P, crop rộng ra"
+      ],
+      "owner_comments": [
+        "include, U/P, crop rộng ra"
+      ],
+      "raw": "| EXP-RF-008 | U/P | U/U | exclude | Tay thiếu, tóc che mặt và nguồn ít pixel không xác định hướng nhìn đáng tin. | include, U/P, crop rộng ra |"
+    },
+    "states": [
+      "U",
+      "U"
+    ],
+    "person": {
+      "xmin": 135,
+      "ymin": 230,
+      "xmax": 193,
+      "ymax": 370
+    },
+    "context": {
+      "xmin": 135,
+      "ymin": 230,
+      "xmax": 193,
+      "ymax": 370
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "EXP-RF-021",
+    "owner": {
+      "line": 479,
+      "cells": [
+        "EXP-RF-021",
+        "U/P",
+        "U/P",
+        "recrop",
+        "Crop cắt tay và bài trong nguồn, mặt hướng sang trái; cần lấy lại ngữ cảnh riêng.",
+        "N/P, crop dài xuống dưới để thấy được tay"
+      ],
+      "owner_comments": [
+        "N/P, crop dài xuống dưới để thấy được tay"
+      ],
+      "raw": "| EXP-RF-021 | U/P | U/P | recrop | Crop cắt tay và bài trong nguồn, mặt hướng sang trái; cần lấy lại ngữ cảnh riêng. | N/P, crop dài xuống dưới để thấy được tay |"
+    },
+    "states": [
+      "U",
+      "P"
+    ],
+    "person": {
+      "xmin": 191,
+      "ymin": 115,
+      "xmax": 320,
+      "ymax": 332
+    },
+    "context": {
+      "xmin": 191,
+      "ymin": 115,
+      "xmax": 320,
+      "ymax": 332
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-OE-S089-A01",
+    "owner": {
+      "line": 598,
+      "cells": [
+        "V7-OE-S089-A01",
+        "U/N",
+        "U/U",
+        "recrop",
+        "Box cả nhóm không có một anchor rõ, chưa thể gán nhãn cho một người.",
+        "Tách thành 2 crop là 2 bạn nam và nữ đang cầm bút cúi đầu viết đi N/N"
+      ],
+      "owner_comments": [
+        "Tách thành 2 crop là 2 bạn nam và nữ đang cầm bút cúi đầu viết đi N/N"
+      ],
+      "raw": "| V7-OE-S089-A01 | U/N | U/U | recrop | Box cả nhóm không có một anchor rõ, chưa thể gán nhãn cho một người. | Tách thành 2 crop là 2 bạn nam và nữ đang cầm bút cúi đầu viết đi N/N |"
+    },
+    "states": [
+      "U",
+      "U"
+    ],
+    "person": {
+      "xmin": 408,
+      "ymin": 202,
+      "xmax": 744,
+      "ymax": 448
+    },
+    "context": {
+      "xmin": 408,
+      "ymin": 202,
+      "xmax": 744,
+      "ymax": 448
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-OE-S090-A01",
+    "owner": {
+      "line": 599,
+      "cells": [
+        "V7-OE-S090-A01",
+        "U/N",
+        "U/U",
+        "recrop",
+        "Hai người ngang nhau trong box, cần xác định target trước khi gán hai nhãn.",
+        "Crop bạn nam áo đen N/N"
+      ],
+      "owner_comments": [
+        "Crop bạn nam áo đen N/N"
+      ],
+      "raw": "| V7-OE-S090-A01 | U/N | U/U | recrop | Hai người ngang nhau trong box, cần xác định target trước khi gán hai nhãn. | Crop bạn nam áo đen N/N |"
+    },
+    "states": [
+      "U",
+      "U"
+    ],
+    "person": {
+      "xmin": 351,
+      "ymin": 232,
+      "xmax": 790,
+      "ymax": 463
+    },
+    "context": {
+      "xmin": 351,
+      "ymin": 232,
+      "xmax": 790,
+      "ymax": 463
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "SCB-read-004",
+    "owner": {
+      "line": 627,
+      "cells": [
+        "SCB-read-004",
+        "U/N",
+        "N/U",
+        "keep",
+        "Tay giữ sách và tay nghỉ đủ rõ, tóc che hoàn toàn mặt.",
+        "Chọn crop khác đi, hãy phân tích kỹ frame gốc và bạn sẽ thấy có rất nhiều người có thể quan sát rất rõ ràng và thích hợp hơn nhiều để trở thành crop, trong đó thì đa số là N/N"
+      ],
+      "owner_comments": [
+        "Chọn crop khác đi, hãy phân tích kỹ frame gốc và bạn sẽ thấy có rất nhiều người có thể quan sát rất rõ ràng và thích hợp hơn nhiều để trở thành crop, trong đó thì đa số là N/N"
+      ],
+      "raw": "| SCB-read-004 | U/N | N/U | keep | Tay giữ sách và tay nghỉ đủ rõ, tóc che hoàn toàn mặt. | Chọn crop khác đi, hãy phân tích kỹ frame gốc và bạn sẽ thấy có rất nhiều người có thể quan sát rất rõ ràng và thích hợp hơn nhiều để trở thành crop, trong đó thì đa số là N/N |"
+    },
+    "states": [
+      "N",
+      "U"
+    ],
+    "person": {
+      "xmin": 53,
+      "ymin": 128,
+      "xmax": 228,
+      "ymax": 355
+    },
+    "context": {
+      "xmin": 53,
+      "ymin": 128,
+      "xmax": 228,
+      "ymax": 355
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "SCB-read-015",
+    "owner": {
+      "line": 637,
+      "cells": [
+        "SCB-read-015",
+        "N/N",
+        "N/N",
+        "keep",
+        "Hai tay trên bài đủ rõ, hướng trang riêng.",
+        "Thêm một crop cho bạn nam ngồi đầu bàn phía gần cô giáo N/P"
+      ],
+      "owner_comments": [
+        "Thêm một crop cho bạn nam ngồi đầu bàn phía gần cô giáo N/P"
+      ],
+      "raw": "| SCB-read-015 | N/N | N/N | keep | Hai tay trên bài đủ rõ, hướng trang riêng. | Thêm một crop cho bạn nam ngồi đầu bàn phía gần cô giáo N/P | "
+    },
+    "states": [
+      "N",
+      "N"
+    ],
+    "person": {
+      "xmin": 564,
+      "ymin": 155,
+      "xmax": 653,
+      "ymax": 324
+    },
+    "context": {
+      "xmin": 564,
+      "ymin": 155,
+      "xmax": 653,
+      "ymax": 324
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "SCB-write-018",
+    "owner": {
+      "line": 664,
+      "cells": [
+        "SCB-write-018",
+        "U/N",
+        "U/N",
+        "recrop",
+        "Hướng trang riêng rõ, tay bị đầu tiền cảnh che; cần giảm người trước.",
+        "Frame gốc của crop có rất nhiều người có thể trở thành crop rõ ràng hơn, hãy phân tích thật kỹ frame và lựa chọn cho hợp lý nhất"
+      ],
+      "owner_comments": [
+        "Frame gốc của crop có rất nhiều người có thể trở thành crop rõ ràng hơn, hãy phân tích thật kỹ frame và lựa chọn cho hợp lý nhất"
+      ],
+      "raw": "| SCB-write-018 | U/N | U/N | recrop | Hướng trang riêng rõ, tay bị đầu tiền cảnh che; cần giảm người trước. | Frame gốc của crop có rất nhiều người có thể trở thành crop rõ ràng hơn, hãy phân tích thật kỹ frame và lựa chọn cho hợp lý nhất |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 21,
+      "ymin": 76,
+      "xmax": 172,
+      "ymax": 216
+    },
+    "context": {
+      "xmin": 21,
+      "ymin": 76,
+      "xmax": 172,
+      "ymax": 216
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "SCB-write-019",
+    "owner": {
+      "line": 665,
+      "cells": [
+        "SCB-write-019",
+        "U/N",
+        "U/N",
+        "keep",
+        "Tay/vật trên bàn chưa đủ chi tiết, hướng xuống bài riêng.",
+        "Frame gốc của crop có rất nhiều người có thể trở thành crop rõ ràng hơn, hãy phân tích thật kỹ frame và lựa chọn cho hợp lý nhất"
+      ],
+      "owner_comments": [
+        "Frame gốc của crop có rất nhiều người có thể trở thành crop rõ ràng hơn, hãy phân tích thật kỹ frame và lựa chọn cho hợp lý nhất"
+      ],
+      "raw": "| SCB-write-019 | U/N | U/N | keep | Tay/vật trên bàn chưa đủ chi tiết, hướng xuống bài riêng. | Frame gốc của crop có rất nhiều người có thể trở thành crop rõ ràng hơn, hãy phân tích thật kỹ frame và lựa chọn cho hợp lý nhất |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 206,
+      "ymin": 187,
+      "xmax": 264,
+      "ymax": 234
+    },
+    "context": {
+      "xmin": 206,
+      "ymin": 187,
+      "xmax": 264,
+      "ymax": 234
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "SCB-write-023",
+    "owner": {
+      "line": 669,
+      "cells": [
+        "SCB-write-023",
+        "U/N",
+        "N/P",
+        "keep",
+        "Hai tay đan trên bàn rõ, mặt ngẩng phía trước khỏi bài.",
+        "Frame gốc của crop có rất nhiều người có thể trở thành crop rõ ràng hơn, hãy phân tích thật kỹ frame và lựa chọn cho hợp lý nhất"
+      ],
+      "owner_comments": [
+        "Frame gốc của crop có rất nhiều người có thể trở thành crop rõ ràng hơn, hãy phân tích thật kỹ frame và lựa chọn cho hợp lý nhất"
+      ],
+      "raw": "| SCB-write-023 | U/N | N/P | keep | Hai tay đan trên bàn rõ, mặt ngẩng phía trước khỏi bài. | Frame gốc của crop có rất nhiều người có thể trở thành crop rõ ràng hơn, hãy phân tích thật kỹ frame và lựa chọn cho hợp lý nhất |"
+    },
+    "states": [
+      "N",
+      "P"
+    ],
+    "person": {
+      "xmin": 474,
+      "ymin": 257,
+      "xmax": 543,
+      "ymax": 324
+    },
+    "context": {
+      "xmin": 474,
+      "ymin": 257,
+      "xmax": 543,
+      "ymax": 324
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "SCB-write-027",
+    "owner": {
+      "line": 672,
+      "cells": [
+        "SCB-write-027",
+        "U/N",
+        "U/N",
+        "keep",
+        "Vật/tay gần trang thiếu chi tiết phân loại, đầu hướng trang riêng.",
+        "Frame gốc của crop có rất nhiều người có thể trở thành crop rõ ràng hơn, hãy phân tích thật kỹ frame và lựa chọn cho hợp lý nhất"
+      ],
+      "owner_comments": [
+        "Frame gốc của crop có rất nhiều người có thể trở thành crop rõ ràng hơn, hãy phân tích thật kỹ frame và lựa chọn cho hợp lý nhất"
+      ],
+      "raw": "| SCB-write-027 | U/N | U/N | keep | Vật/tay gần trang thiếu chi tiết phân loại, đầu hướng trang riêng. | Frame gốc của crop có rất nhiều người có thể trở thành crop rõ ràng hơn, hãy phân tích thật kỹ frame và lựa chọn cho hợp lý nhất |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 542,
+      "ymin": 155,
+      "xmax": 602,
+      "ymax": 204
+    },
+    "context": {
+      "xmin": 542,
+      "ymin": 155,
+      "xmax": 602,
+      "ymax": 204
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-C-004",
+    "owner": {
+      "line": 675,
+      "cells": [
+        "V7-C-004",
+        "U/N",
+        "U/U",
+        "recrop",
+        "Hai mặt cùng lớn, tay bị người trước che; cần tách anchor và lấy vùng bài.",
+        "Frame gốc của crop có rất nhiều người có thể trở thành crop rõ ràng hơn, hãy phân tích thật kỹ frame và lựa chọn cho hợp lý nhất"
+      ],
+      "owner_comments": [
+        "Frame gốc của crop có rất nhiều người có thể trở thành crop rõ ràng hơn, hãy phân tích thật kỹ frame và lựa chọn cho hợp lý nhất"
+      ],
+      "raw": "| V7-C-004 | U/N | U/U | recrop | Hai mặt cùng lớn, tay bị người trước che; cần tách anchor và lấy vùng bài. | Frame gốc của crop có rất nhiều người có thể trở thành crop rõ ràng hơn, hãy phân tích thật kỹ frame và lựa chọn cho hợp lý nhất |"
+    },
+    "states": [
+      "U",
+      "U"
+    ],
+    "person": {
+      "xmin": 72,
+      "ymin": 144,
+      "xmax": 147,
+      "ymax": 270
+    },
+    "context": {
+      "xmin": 72,
+      "ymin": 144,
+      "xmax": 147,
+      "ymax": 270
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-C-010",
+    "owner": {
+      "line": 678,
+      "cells": [
+        "V7-C-010",
+        "U/N",
+        "U/N",
+        "recrop",
+        "Nữ trước hướng sách, tay khuất mép bàn; hai người lớn trong khung.",
+        "Crop bạn khác rõ ràng hơn"
+      ],
+      "owner_comments": [
+        "Crop bạn khác rõ ràng hơn"
+      ],
+      "raw": "| V7-C-010 | U/N | U/N | recrop | Nữ trước hướng sách, tay khuất mép bàn; hai người lớn trong khung. | Crop bạn khác rõ ràng hơn |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 268,
+      "ymin": 121,
+      "xmax": 427,
+      "ymax": 277
+    },
+    "context": {
+      "xmin": 268,
+      "ymin": 121,
+      "xmax": 427,
+      "ymax": 277
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-C-028",
+    "owner": {
+      "line": 681,
+      "cells": [
+        "V7-C-028",
+        "U/N",
+        "U/U",
+        "recrop",
+        "Box bao nhiều học sinh tương đương; chưa có một target rõ.",
+        "Frame gốc của crop có rất nhiều người có thể trở thành crop rõ ràng hơn, hãy phân tích thật kỹ frame và lựa chọn cho hợp lý nhất"
+      ],
+      "owner_comments": [
+        "Frame gốc của crop có rất nhiều người có thể trở thành crop rõ ràng hơn, hãy phân tích thật kỹ frame và lựa chọn cho hợp lý nhất"
+      ],
+      "raw": "| V7-C-028 | U/N | U/U | recrop | Box bao nhiều học sinh tương đương; chưa có một target rõ. | Frame gốc của crop có rất nhiều người có thể trở thành crop rõ ràng hơn, hãy phân tích thật kỹ frame và lựa chọn cho hợp lý nhất |"
+    },
+    "states": [
+      "U",
+      "U"
+    ],
+    "person": {
+      "xmin": 161,
+      "ymin": 201,
+      "xmax": 253,
+      "ymax": 281
+    },
+    "context": {
+      "xmin": 161,
+      "ymin": 201,
+      "xmax": 253,
+      "ymax": 281
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-C-046",
+    "owner": {
+      "line": 686,
+      "cells": [
+        "V7-C-046",
+        "U/N",
+        "U/N",
+        "recrop",
+        "Vật/tay ở bàn chưa đủ nhận dạng, mặt hướng vùng riêng; nhiều người ngang nhau.",
+        "Thay bằng crop bạn áo đỏ ngồi dãy trên tiền cảnh P/P"
+      ],
+      "owner_comments": [
+        "Thay bằng crop bạn áo đỏ ngồi dãy trên tiền cảnh P/P"
+      ],
+      "raw": "| V7-C-046 | U/N | U/N | recrop | Vật/tay ở bàn chưa đủ nhận dạng, mặt hướng vùng riêng; nhiều người ngang nhau. | Thay bằng crop bạn áo đỏ ngồi dãy trên tiền cảnh P/P |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 806,
+      "ymin": 275,
+      "xmax": 1415,
+      "ymax": 704
+    },
+    "context": {
+      "xmin": 806,
+      "ymin": 275,
+      "xmax": 1415,
+      "ymax": 704
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-OE-S093-A01",
+    "owner": {
+      "line": 691,
+      "cells": [
+        "V7-OE-S093-A01",
+        "N/N",
+        "U/U",
+        "recrop",
+        "Box bao nhóm nhiều người, cần xác định một target trước gán nhãn.",
+        "Tách thành 2 crop là hai bạn nam tiền cảnh ngồi cạnh nhau, đều là N/N"
+      ],
+      "owner_comments": [
+        "Tách thành 2 crop là hai bạn nam tiền cảnh ngồi cạnh nhau, đều là N/N"
+      ],
+      "raw": "| V7-OE-S093-A01 | N/N | U/U | recrop | Box bao nhóm nhiều người, cần xác định một target trước gán nhãn. | Tách thành 2 crop là hai bạn nam tiền cảnh ngồi cạnh nhau, đều là N/N |"
+    },
+    "states": [
+      "U",
+      "U"
+    ],
+    "person": {
+      "xmin": 730,
+      "ymin": 317,
+      "xmax": 1709,
+      "ymax": 1013
+    },
+    "context": {
+      "xmin": 730,
+      "ymin": 317,
+      "xmax": 1709,
+      "ymax": 1013
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-OE-S099-A01",
+    "owner": {
+      "line": 694,
+      "cells": [
+        "V7-OE-S099-A01",
+        "N/N",
+        "U/U",
+        "recrop",
+        "Hai nữ ngang nhau, một nhìn bài một nhìn phải; không gán chung box nhóm.",
+        "Cả 4 bạn ngồi bàn đầu đều có thể trở thành 4 crop khác nhau, tình từ bạn nam trở đi sẽ là N/P, N/N, N/N, N/P"
+      ],
+      "owner_comments": [
+        "Cả 4 bạn ngồi bàn đầu đều có thể trở thành 4 crop khác nhau, tình từ bạn nam trở đi sẽ là N/P, N/N, N/N, N/P"
+      ],
+      "raw": "| V7-OE-S099-A01 | N/N | U/U | recrop | Hai nữ ngang nhau, một nhìn bài một nhìn phải; không gán chung box nhóm. | Cả 4 bạn ngồi bàn đầu đều có thể trở thành 4 crop khác nhau, tình từ bạn nam trở đi sẽ là N/P, N/N, N/N, N/P |"
+    },
+    "states": [
+      "U",
+      "U"
+    ],
+    "person": {
+      "xmin": 395,
+      "ymin": 184,
+      "xmax": 693,
+      "ymax": 477
+    },
+    "context": {
+      "xmin": 395,
+      "ymin": 184,
+      "xmax": 693,
+      "ymax": 477
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V6-SB-003",
+    "owner": {
+      "line": 696,
+      "cells": [
+        "V6-SB-003",
+        "P/U",
+        "U/N",
+        "keep",
+        "Vật phẳng trên bàn không đủ kính/camera ở input; hướng vùng bài riêng.",
+        "Frame gốc của crop này có nhiều người có thể trở thành crop hữu ích, hãy nghiên cứu thật kỹ và crop phù hợp nhất"
+      ],
+      "owner_comments": [
+        "Frame gốc của crop này có nhiều người có thể trở thành crop hữu ích, hãy nghiên cứu thật kỹ và crop phù hợp nhất"
+      ],
+      "raw": "| V6-SB-003 | P/U | U/N | keep | Vật phẳng trên bàn không đủ kính/camera ở input; hướng vùng bài riêng. | Frame gốc của crop này có nhiều người có thể trở thành crop hữu ích, hãy nghiên cứu thật kỹ và crop phù hợp nhất |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 69,
+      "ymin": 264,
+      "xmax": 162,
+      "ymax": 419
+    },
+    "context": {
+      "xmin": 69,
+      "ymin": 264,
+      "xmax": 162,
+      "ymax": 419
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V6-SB-022",
+    "owner": {
+      "line": 711,
+      "cells": [
+        "V6-SB-022",
+        "U/P",
+        "U/P",
+        "keep",
+        "Vật trong tay nhòe chưa xác định phone, mặt quay phải khỏi bài.",
+        "N/P, có thể chỉnh lại crop để có thể quan sát toàn diện hơn"
+      ],
+      "owner_comments": [
+        "N/P, có thể chỉnh lại crop để có thể quan sát toàn diện hơn"
+      ],
+      "raw": "| V6-SB-022 | U/P | U/P | keep | Vật trong tay nhòe chưa xác định phone, mặt quay phải khỏi bài. | N/P, có thể chỉnh lại crop để có thể quan sát toàn diện hơn |"
+    },
+    "states": [
+      "U",
+      "P"
+    ],
+    "person": {
+      "xmin": 201,
+      "ymin": 89,
+      "xmax": 249,
+      "ymax": 192
+    },
+    "context": {
+      "xmin": 201,
+      "ymin": 89,
+      "xmax": 249,
+      "ymax": 192
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V6-SB-045",
+    "owner": {
+      "line": 726,
+      "cells": [
+        "V6-SB-045",
+        "N/N",
+        "U/N",
+        "keep",
+        "Một tay bị cắt phía trái nguồn, hướng sách riêng.",
+        "Thay thành crop bạn ngồi cạnh tiền cảnh N/P"
+      ],
+      "owner_comments": [
+        "Thay thành crop bạn ngồi cạnh tiền cảnh N/P"
+      ],
+      "raw": "| V6-SB-045 | N/N | U/N | keep | Một tay bị cắt phía trái nguồn, hướng sách riêng. | Thay thành crop bạn ngồi cạnh tiền cảnh N/P |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 0,
+      "ymin": 255,
+      "xmax": 186,
+      "ymax": 600
+    },
+    "context": {
+      "xmin": 0,
+      "ymin": 255,
+      "xmax": 186,
+      "ymax": 600
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V6-SB-048",
+    "owner": {
+      "line": 729,
+      "cells": [
+        "V6-SB-048",
+        "N/N",
+        "U/U",
+        "recrop",
+        "Hai người cùng lớn và mặt/tay ít chi tiết; cần tách target rồi xét lại.",
+        "Frame gốc của crop này có nhiều người có thể trở thành crop hữu ích, hãy nghiên cứu thật kỹ và crop phù hợp nhất"
+      ],
+      "owner_comments": [
+        "Frame gốc của crop này có nhiều người có thể trở thành crop hữu ích, hãy nghiên cứu thật kỹ và crop phù hợp nhất"
+      ],
+      "raw": "| V6-SB-048 | N/N | U/U | recrop | Hai người cùng lớn và mặt/tay ít chi tiết; cần tách target rồi xét lại. | Frame gốc của crop này có nhiều người có thể trở thành crop hữu ích, hãy nghiên cứu thật kỹ và crop phù hợp nhất | "
+    },
+    "states": [
+      "U",
+      "U"
+    ],
+    "person": {
+      "xmin": 429,
+      "ymin": 198,
+      "xmax": 523,
+      "ymax": 374
+    },
+    "context": {
+      "xmin": 429,
+      "ymin": 198,
+      "xmax": 523,
+      "ymax": 374
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-B-016",
+    "owner": {
+      "line": 807,
+      "cells": [
+        "V7-B-016",
+        "N/N",
+        "U/N",
+        "recrop",
+        "Tay còn lại không tách rõ khỏi thân và bàn, đầu hướng bài; ba người chen trong crop.",
+        "Crop người khác dễ quan sát hơn"
+      ],
+      "owner_comments": [
+        "Crop người khác dễ quan sát hơn"
+      ],
+      "raw": "| V7-B-016 | N/N | U/N | recrop | Tay còn lại không tách rõ khỏi thân và bàn, đầu hướng bài; ba người chen trong crop. | Crop người khác dễ quan sát hơn |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 519,
+      "ymin": 259,
+      "xmax": 640,
+      "ymax": 461
+    },
+    "context": {
+      "xmin": 519,
+      "ymin": 259,
+      "xmax": 640,
+      "ymax": 461
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-B-022",
+    "owner": {
+      "line": 810,
+      "cells": [
+        "V7-B-022",
+        "N/N",
+        "U/N",
+        "keep",
+        "Đầu hướng bài rõ, một phần tay mất tại biên source; không suy absence hoặc nới ra ngoài ảnh gốc.",
+        "Frame gốc của crop này có nhiều người có thể trở thành crop hữu ích, hãy nghiên cứu thật kỹ và crop phù hợp nhất"
+      ],
+      "owner_comments": [
+        "Frame gốc của crop này có nhiều người có thể trở thành crop hữu ích, hãy nghiên cứu thật kỹ và crop phù hợp nhất"
+      ],
+      "raw": "| V7-B-022 | N/N | U/N | keep | Đầu hướng bài rõ, một phần tay mất tại biên source; không suy absence hoặc nới ra ngoài ảnh gốc. | Frame gốc của crop này có nhiều người có thể trở thành crop hữu ích, hãy nghiên cứu thật kỹ và crop phù hợp nhất |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 427,
+      "ymin": 266,
+      "xmax": 640,
+      "ymax": 640
+    },
+    "context": {
+      "xmin": 427,
+      "ymin": 266,
+      "xmax": 640,
+      "ymax": 640
+    },
+    "trials": [],
+    "qa": []
+  },
+  {
+    "id": "V7-B-042",
+    "owner": {
+      "line": 815,
+      "cells": [
+        "V7-B-042",
+        "N/N",
+        "U/N",
+        "keep",
+        "Hướng bài rõ nhưng phần tay mất tại cạnh phải source; chữ phía dưới không đè vùng hành vi.",
+        "Frame gốc của crop này có nhiều người có thể trở thành crop hữu ích, hãy nghiên cứu thật kỹ và crop phù hợp nhất"
+      ],
+      "owner_comments": [
+        "Frame gốc của crop này có nhiều người có thể trở thành crop hữu ích, hãy nghiên cứu thật kỹ và crop phù hợp nhất"
+      ],
+      "raw": "| V7-B-042 | N/N | U/N | keep | Hướng bài rõ nhưng phần tay mất tại cạnh phải source; chữ phía dưới không đè vùng hành vi. | Frame gốc của crop này có nhiều người có thể trở thành crop hữu ích, hãy nghiên cứu thật kỹ và crop phù hợp nhất |"
+    },
+    "states": [
+      "U",
+      "N"
+    ],
+    "person": {
+      "xmin": 491,
+      "ymin": 180,
+      "xmax": 640,
+      "ymax": 640
+    },
+    "context": {
+      "xmin": 491,
+      "ymin": 180,
+      "xmax": 640,
+      "ymax": 640
+    },
+    "trials": [],
+    "qa": []
+  }
+]

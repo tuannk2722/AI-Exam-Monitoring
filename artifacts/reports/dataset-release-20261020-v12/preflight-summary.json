@@ -1,0 +1,26 @@
+{
+  "parent_records": 1823,
+  "audited_legacy": 836,
+  "accepted_audit_crops": 681,
+  "audit_inherited_roles": {
+    "train": 461,
+    "val": 130,
+    "unassigned": 90
+  },
+  "preserved_outside_audit": {
+    "train": 541,
+    "review_only": 332,
+    "excluded": 29,
+    "val": 74,
+    "test": 11
+  },
+  "new_source_groups": {
+    "Y01": 33,
+    "Y02": 7,
+    "Y03": 15,
+    "Y04": 12,
+    "Y05": 9,
+    "Y06": 14
+  },
+  "source_G17_parent": []
+}

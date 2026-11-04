@@ -1,0 +1,12 @@
+schema_version: live-timing-policy-v1
+policy_id: LIVE-TIMING-20261028
+status: approved_for_implementation_and_fixtures
+detector_interval_ms: 100
+frame_tolerance_ms: 50
+classifier_stride: 10
+min_positive_observations: 3
+min_observed_span_ms: 2000
+reset_tracker_on_missing_slot: true
+break_on_missing_classifier: true
+bridge_negative_or_unknown: false
+propagate_behavior_labels: false

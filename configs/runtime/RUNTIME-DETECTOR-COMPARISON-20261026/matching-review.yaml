@@ -1,0 +1,13 @@
+pins:
+  run:
+    path: outputs/runtime-detector-comparison-20261026/run.json
+    sha256: 33ffbe63677652c0f0cfdd7c7aa8b294cb7d43045bf45b61fbcbd6dbcdfbb7a8
+  detections:
+    path: outputs/runtime-detector-comparison-20261026/detections.json
+    sha256: 3d5b979d307dfda700a34000109f8d57b8973a7e5162aa9946020e67387e38e3
+  census:
+    path: outputs/runtime-detector-comparison-20261026/census.json
+    sha256: 6620019896e7cad8378b297849c65c80e2d695fdb0b072444d723333bcde7ce7
+  checksums:
+    path: outputs/runtime-detector-comparison-20261026/checksums.json
+    sha256: 5234de22d1a1e7c6a34ef5923961b18edfd5ce7d19444af4ef52fddeaa93d446

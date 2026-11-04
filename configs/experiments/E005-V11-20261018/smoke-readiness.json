@@ -1,0 +1,33 @@
+{
+  "schema_version": "adaptation-readiness-v2",
+  "status": "approved",
+  "owner": "repository-owner",
+  "scope": "smoke",
+  "protocol_sha256": "733ec0e203af9b4c7c3870681de7a3f929830f85d29cab3381bd89bcb6874b74",
+  "cohorts_sha256": "8d7c75f0fe55332e0e008e1763bc7d428c681cc13c6fa9f5fbe083956d8c870f",
+  "decision_ref": "artifacts/reports/e005-v11-adaptation-20261018/owner-e005-approval.json",
+  "waiver_approval": {
+    "path": "artifacts/reports/e005-v11-adaptation-20261018/owner-e005-approval.json",
+    "sha256": "4163f919cc09609fc3f36f205fc949ba7a675cf26abf265187dd75507c43f1c7"
+  },
+  "gates": {
+    "G0": true,
+    "G1": true,
+    "G2": "owner_waived",
+    "G3": "owner_waived"
+  },
+  "evidence_pins": [
+    {
+      "path": "artifacts/reports/e005-v11-adaptation-20261018/owner-e005-approval.json",
+      "sha256": "4163f919cc09609fc3f36f205fc949ba7a675cf26abf265187dd75507c43f1c7"
+    },
+    {
+      "path": "artifacts/reports/train-val-plan-20261017/owner-acceptance.json",
+      "sha256": "18545e2f6eef97c0967f40f5d56ee867eacd70662185620a243562988a103eb5"
+    },
+    {
+      "path": "artifacts/reports/dataset-release-20261017/package-pointers.json",
+      "sha256": "8aec8ae1e361f6bc74073a91bd5d77808888c81f842195661300223b84abdca2"
+    }
+  ]
+}

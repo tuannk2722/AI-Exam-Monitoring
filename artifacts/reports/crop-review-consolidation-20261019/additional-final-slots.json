@@ -1,0 +1,816 @@
+{
+  "status": "audit_complete_pending_owner_acceptance",
+  "scope": "Đối chiếu vùng được đánh dấu theo vị trí và hành vi trong nguồn, không nhận dạng danh tính.",
+  "frame_count": 41,
+  "slot_count": 83,
+  "frames": [
+    {
+      "frame": "Y01-F00004",
+      "slots": [
+        {
+          "position": "gile đen tiền cảnh",
+          "candidate": "ADD-Y01-F00004-M01",
+          "action": "propose_candidate",
+          "reason": "Một người trội, hai tay cạnh đầu và sổ riêng giữ rõ; vật đen mép trái chưa đủ ID/attribution nên U. Đầu cúi theo sổ.",
+          "qa_status": "pass_draft",
+          "audit_complete": true
+        },
+        {
+          "position": "áo trắng viết giữa",
+          "action": "covered_existing",
+          "existing": "Y01-A11-F00099",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        },
+        {
+          "position": "gile nâu bàn sau",
+          "action": "covered_existing",
+          "existing": "Y01-A14-F00098",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        },
+        {
+          "position": "áo trắng kính sau phải",
+          "action": "covered_existing",
+          "existing": "Y01-A15-F00039",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y01-F00007",
+      "slots": [
+        {
+          "position": "áo sáng viết trái sau",
+          "action": "covered_existing",
+          "existing": "Y01-A06-F00102",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        },
+        {
+          "position": "polo trước giữa",
+          "candidate": "ADD-Y01-F00007-M01",
+          "action": "withhold_geometry",
+          "reason": "Mặt nữ kính phía sau còn nguyên và cùng cỡ; không đạt một anchor trội.",
+          "qa_status": "needs_revision",
+          "audit_complete": true
+        },
+        {
+          "position": "áo trắng kính sau phải",
+          "action": "withhold_geometry",
+          "reason": "Mặt và tay sát/chồng với polo trước; chưa tách đủ vùng tay.",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y01-F00038",
+      "slots": [
+        {
+          "position": "áo kem trái",
+          "action": "covered_existing",
+          "existing": "Y01-A10-F00038",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        },
+        {
+          "position": "áo trắng trước giữa",
+          "action": "covered_existing",
+          "existing": "Y01-A11-F00099",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        },
+        {
+          "position": "nam viết sau phải",
+          "candidate": "ADD-Y01-F00038-M03",
+          "action": "propose_candidate",
+          "reason": "Phone mặt kính và viền trên bàn giữ rõ, hai tay bút/giấy và đầu cúi theo bài. Không mặt cạnh tranh; bổ sung looking N so với ca P/U cũ F98.",
+          "qa_status": "pass_draft",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y01-F00039",
+      "slots": [
+        {
+          "position": "gile nâu trái",
+          "action": "covered_existing",
+          "existing": "Y01-A14-F00039",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y01-F00040",
+      "slots": [
+        {
+          "position": "áo trắng phối đen sau",
+          "action": "covered_existing",
+          "existing": "Y01-A07-F00060",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y01-F00041",
+      "slots": [
+        {
+          "position": "áo trắng kính trái sau",
+          "action": "withhold_source_boundary",
+          "reason": "Đầu thiếu tại biên trên nguồn, tay bị polo trước che.",
+          "audit_complete": true
+        },
+        {
+          "position": "tóc sáng trước",
+          "action": "covered_existing",
+          "existing": "Y01-A04-F00008",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y01-F00045",
+      "slots": [
+        {
+          "position": "áo trắng trước trái",
+          "action": "propose_candidate",
+          "reason": "Một người trội, tay trái giữ trên sách; tay còn lại khuất dưới bàn nên phone U. Đầu quay trái rõ khỏi sách; native và input giữ đủ đầu.",
+          "candidate": "ADD-Y01-F00045-M01",
+          "qa_status": "pass_draft",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y01-F00050",
+      "slots": [
+        {
+          "position": "tóc ngắn sau trái người đứng",
+          "candidate": "ADD-Y01-F00050-M01",
+          "action": "propose_candidate",
+          "reason": "Một mặt chính ngẩng trước, hai tay trên trang đủ thấy; không vật nghi phone. Khác hướng viết ở đại diện cũ.",
+          "qa_status": "pass_draft",
+          "audit_complete": true
+        },
+        {
+          "position": "áo trắng kính sau phải",
+          "action": "represented_by_candidate",
+          "reason": "Hai tay đan trước ngực, phone mặt kính trên bàn riêng được giữ trọn; đầu ngẩng trái khỏi trang. Không mặt khác cạnh tranh. Chọn đại diện ở frame khác đã so trong audit, không suy danh tính.",
+          "candidate": "ADD-Y01-F00125-M01",
+          "qa_status": "pass_draft",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y01-F00051",
+      "slots": [
+        {
+          "position": "áo kem mép trái",
+          "candidate": "ADD-Y01-F00099-M01-R02",
+          "action": "represented_by_candidate",
+          "reason": "Nới trái đã giữ toàn bộ vật chữ nhật xám trên giấy, nhưng ảnh gốc 640 px và input chưa cho chi tiết đủ phân biệt phone với vật giấy; giữ U. Hai tay đầy đủ, đầu ngẩng khỏi bài, không mặt cạnh tranh. Chọn đại diện ở frame khác đã so trong audit, không suy danh tính.",
+          "qa_status": "pass_draft",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y01-F00094",
+      "slots": [
+        {
+          "position": "nữ chống cằm giữa",
+          "candidate": "ADD-Y01-F00094-M01",
+          "action": "propose_candidate",
+          "reason": "Tay tựa cằm và tay đặt ngang trên bàn đều rõ; không mobile trong vùng riêng. Đầu hướng lên phải khỏi giấy; người sau chỉ còn tóc/thân.",
+          "qa_status": "pass_draft",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y01-F00096",
+      "slots": [
+        {
+          "position": "polo trái sau",
+          "action": "withhold_geometry",
+          "reason": "Mặt cạnh sát, tay bị người trước che; chưa hơn đại diện cũ.",
+          "audit_complete": true
+        },
+        {
+          "position": "tóc sáng giữa cửa sổ",
+          "candidate": "ADD-Y01-F00096-M02",
+          "action": "withhold_geometry",
+          "reason": "Mặt người trước lớn hơn anchor và đỉnh đầu chính bị cắt; không đạt.",
+          "qa_status": "needs_revision",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y01-F00099",
+      "slots": [
+        {
+          "position": "áo kem ngẩng giữa",
+          "candidate": "ADD-Y01-F00099-M01-R02",
+          "action": "propose_candidate",
+          "reason": "Nới trái đã giữ toàn bộ vật chữ nhật xám trên giấy, nhưng ảnh gốc 640 px và input chưa cho chi tiết đủ phân biệt phone với vật giấy; giữ U. Hai tay đầy đủ, đầu ngẩng khỏi bài, không mặt cạnh tranh.",
+          "qa_status": "pass_draft",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y01-F00125",
+      "slots": [
+        {
+          "position": "áo trắng kính sau phải",
+          "candidate": "ADD-Y01-F00125-M01",
+          "action": "propose_candidate",
+          "reason": "Hai tay đan trước ngực, phone mặt kính trên bàn riêng được giữ trọn; đầu ngẩng trái khỏi trang. Không mặt khác cạnh tranh.",
+          "qa_status": "pass_draft",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y01-F00133",
+      "slots": [
+        {
+          "position": "áo đen sau trái",
+          "action": "covered_existing",
+          "existing": "Y01-A16-F00060",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        },
+        {
+          "position": "tóc dài giơ tay cạnh cửa sổ",
+          "candidate": "ADD-Y01-F00133-M02",
+          "action": "withhold_geometry",
+          "reason": "Anchor rất nhỏ; tay phải và vùng bàn bị người đứng che, đầu sát biên trên. Cần so đại diện khác trước khi đề xuất thêm.",
+          "qa_status": "needs_revision",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y02-F00011",
+      "slots": [
+        {
+          "position": "nam giữa trái",
+          "action": "withhold_geometry",
+          "reason": "Muốn giữ cả hai tay phải kéo sang mặt người sau trái, hai mặt sát nhau.",
+          "audit_complete": true
+        },
+        {
+          "position": "nữ giữa phải",
+          "action": "withhold_geometry",
+          "reason": "Mặt/tay chồng người trước phải, không tách được crop đủ tay và một anchor rõ.",
+          "audit_complete": true
+        },
+        {
+          "position": "nữ trước phải",
+          "action": "withhold_geometry",
+          "reason": "Phone trên bàn rõ nhưng bàn tay vươn trái nằm dưới mặt người giữa phải; crop đủ tay kéo thêm mặt cạnh tranh.",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y02-F00012",
+      "slots": [
+        {
+          "position": "nữ trước phải",
+          "action": "withhold_source_boundary",
+          "reason": "Đầu sát và bị cắt ở biên phải nguồn; tay vươn trái vẫn lẫn người giữa.",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y02-F00018",
+      "slots": [
+        {
+          "position": "nam giữa trái",
+          "action": "withhold_geometry",
+          "reason": "Mặt người sau sát mặt chính trong vùng cần giữ tay/bàn.",
+          "audit_complete": true
+        },
+        {
+          "position": "nữ giữa phải",
+          "action": "withhold_geometry",
+          "reason": "Người trước che tay và mặt gần nhau; không có cải thiện rõ so với F11.",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y02-F00019",
+      "slots": [
+        {
+          "position": "nữ trước phải",
+          "action": "withhold_geometry",
+          "reason": "Giữ đầu cùng bàn tay trái phải bao cả mặt người giữa; chưa đủ một anchor trội.",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y02-F00024",
+      "slots": [
+        {
+          "position": "nữ kính trước trái",
+          "candidate": "ADD-Y02-F00024-M01-R02",
+          "action": "propose_candidate",
+          "reason": "Đầu và hai tay đủ sau nới lên, không mobile trong vùng riêng. Xem lại nguồn cho thấy đầu/hướng nhìn còn theo tay giơ và vùng giấy riêng, chưa đủ looking P; đề xuất N/N.",
+          "qa_status": "pass_draft",
+          "audit_complete": true
+        },
+        {
+          "position": "nam giữa trái",
+          "action": "withhold_geometry",
+          "reason": "Mặt nữ sau trái nằm trong hình chữ nhật giữ đầu và tay nam chính.",
+          "audit_complete": true
+        },
+        {
+          "position": "nữ trước phải",
+          "action": "withhold_geometry",
+          "reason": "Tay trái và phone trên bàn giữ được chỉ khi kéo vào vùng người giữa phải; hai mặt rõ cùng crop.",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y02-F00044",
+      "slots": [
+        {
+          "position": "nữ kính trước trái quay phải",
+          "action": "withhold_geometry",
+          "reason": "Mặt nam phía sau sát mặt người trước, tay/bàn đan vùng.",
+          "audit_complete": true
+        },
+        {
+          "position": "nữ kính sau trái",
+          "action": "covered_existing",
+          "existing": "Y02-A03-F00012",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        },
+        {
+          "position": "nữ sau phải",
+          "action": "covered_existing",
+          "existing": "Y02-A04-F00019",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        },
+        {
+          "position": "nữ giữa phải",
+          "action": "withhold_geometry",
+          "reason": "Tay bị người trước che và mặt cạnh tranh, chưa có đại diện tách tốt.",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y04-F00001",
+      "slots": [
+        {
+          "position": "dãy phải giữa ngẩng",
+          "candidate": "ADD-Y04-F00001-M01",
+          "action": "withhold_geometry",
+          "reason": "Nguồn nhỏ và mặt người sau gần bằng mặt chính; bản input không tách anchor đủ rõ.",
+          "qa_status": "needs_revision",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y04-F00002",
+      "slots": [
+        {
+          "position": "đầu dãy giữa trái",
+          "action": "represented_by_candidate",
+          "candidate": "ADD-Y04-F00008-M01",
+          "reason": "Một mặt trội, đầu ngẩng trước khỏi trang; tay/bàn giữ nhưng chi tiết vật quá nhỏ để xác nhận absence mobile. Input còn đủ hướng đầu cho looking P. Chọn đại diện ở frame khác đã so trong audit, không suy danh tính.",
+          "qa_status": "pass_draft",
+          "audit_complete": true
+        },
+        {
+          "position": "đầu dãy giữa phải",
+          "action": "covered_existing",
+          "existing": "Y04-A08-F00001",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        },
+        {
+          "position": "bàn sau cặp giữa",
+          "action": "covered_existing",
+          "existing": "Y04-A10-F00001",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        },
+        {
+          "position": "bàn đôi gần bên trái",
+          "action": "covered_existing",
+          "existing": "Y04-A03-F00001",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y04-F00007",
+      "slots": [
+        {
+          "position": "đầu dãy giữa phải",
+          "action": "covered_existing",
+          "existing": "Y04-A08-F00001",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        },
+        {
+          "position": "bàn đôi gần bên trái",
+          "action": "covered_existing",
+          "existing": "Y04-A03-F00001",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y04-F00008",
+      "slots": [
+        {
+          "position": "đầu dãy trái",
+          "action": "covered_existing",
+          "existing": "Y04-A14-F00001",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        },
+        {
+          "position": "đầu dãy giữa trái",
+          "candidate": "ADD-Y04-F00008-M01",
+          "action": "propose_candidate",
+          "reason": "Một mặt trội, đầu ngẩng trước khỏi trang; tay/bàn giữ nhưng chi tiết vật quá nhỏ để xác nhận absence mobile. Input còn đủ hướng đầu cho looking P.",
+          "qa_status": "pass_draft",
+          "audit_complete": true
+        },
+        {
+          "position": "dãy giữa trái lùi một bàn",
+          "candidate": "ADD-Y04-F00008-M02",
+          "action": "withhold_geometry",
+          "reason": "Hai mặt gần cùng cỡ ở hàng sau; không giữ bản này làm crop một anchor.",
+          "qa_status": "needs_revision",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y04-F00022",
+      "slots": [
+        {
+          "position": "đầu dãy giữa phải",
+          "action": "covered_existing",
+          "existing": "Y04-A08-F00001",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        },
+        {
+          "position": "bàn đôi gần bên trái",
+          "action": "propose_candidate",
+          "reason": "Đã so A03 F1: tư thế chống cằm và đầu quay trái khác, hai tay rõ (bút trên giấy và chống cằm), không thấy thiết bị. Native/input giữ một anchor trội; đề xuất thêm N/P.",
+          "candidate": "ADD-Y04-F00022-M01",
+          "qa_status": "pass_draft",
+          "audit_complete": true
+        },
+        {
+          "position": "bàn đôi gần bên phải",
+          "action": "covered_existing",
+          "existing": "Y04-A02-F00022",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y04-F00030",
+      "slots": [
+        {
+          "position": "bàn sau cặp giữa",
+          "action": "propose_candidate",
+          "reason": "So A10 F1 ngẩng: frame này đầu cúi theo bài, khác target looking. Vùng tay nhỏ/che chưa đủ absence nên U; mặt người sau chỉ phần nhỏ phía trên, native/input đủ looking N.",
+          "candidate": "ADD-Y04-F00030-M02",
+          "qa_status": "pass_draft",
+          "audit_complete": true
+        },
+        {
+          "position": "phải giữa",
+          "action": "withhold_geometry",
+          "candidate": "ADD-Y04-F00001-M01",
+          "reason": "Nguồn nhỏ và mặt người sau gần bằng mặt chính; bản input không tách anchor đủ rõ.",
+          "qa_status": "needs_revision",
+          "audit_complete": true
+        },
+        {
+          "position": "bàn đôi gần bên trái",
+          "action": "covered_existing",
+          "existing": "Y04-A03-F00001",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        },
+        {
+          "position": "phải phía sau gần tường",
+          "candidate": "ADD-Y04-F00030-M01",
+          "action": "withhold_geometry",
+          "reason": "Nhiều mặt sát nhau và cỡ gần bằng nhau, nguồn chỉ 480 px; không đạt tách anchor.",
+          "qa_status": "needs_revision",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y04-F00059",
+      "slots": [
+        {
+          "position": "bàn đơn gần nhất",
+          "action": "covered_existing",
+          "existing": "Y04-A01-F00001",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y04-F00066",
+      "slots": [
+        {
+          "position": "bàn đơn gần nhất",
+          "action": "covered_existing",
+          "existing": "Y04-A01-F00001",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        },
+        {
+          "position": "dãy phải giữa quay trái",
+          "candidate": "ADD-Y04-F00066-M01",
+          "action": "withhold_geometry",
+          "reason": "Mặt người sau nguyên, gần cỡ chính; đầu người trước và tay chồng vùng bàn. Cần đại diện khác hoặc không chọn.",
+          "qa_status": "needs_revision",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y05-F00002",
+      "slots": [
+        {
+          "position": "kính áo xanh bàn gần phải",
+          "action": "covered_existing",
+          "existing": "Y05-A02-F00001",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        },
+        {
+          "position": "dãy tường sau phải",
+          "action": "covered_existing",
+          "existing": "Y05-A04-F00001",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        },
+        {
+          "position": "cạnh phải áo tím đầu dãy giữa",
+          "action": "withhold_geometry",
+          "candidate": "ADD-Y05-F00071-M02",
+          "reason": "Mặt phía sau phải còn gần trọn và cạnh tranh với anchor, tay bàn cũng chồng; chưa phát hành.",
+          "qa_status": "needs_revision",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y05-F00010",
+      "slots": [
+        {
+          "position": "dãy tường sau phải",
+          "action": "covered_existing",
+          "existing": "Y05-A04-F00001",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y05-F00069",
+      "slots": [
+        {
+          "position": "áo tối bàn trái gần",
+          "action": "covered_existing",
+          "existing": "Y05-A01-F00001",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        },
+        {
+          "position": "dãy tường sau trái",
+          "action": "covered_existing",
+          "existing": "Y05-A03-F00001",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        },
+        {
+          "position": "dãy tường sau phải quay trái",
+          "candidate": "ADD-Y05-F00069-M02",
+          "action": "propose_candidate",
+          "reason": "Đầu quay trái rõ khác góc ngẩng phải của đại diện cũ; hai tay và phần bàn riêng đủ thấy, không vật mơ hồ. Người sau chỉ còn mảnh mặt ở biên trên, anchor trội.",
+          "qa_status": "pass_draft",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y05-F00071",
+      "slots": [
+        {
+          "position": "áo tím đầu dãy giữa",
+          "action": "covered_existing",
+          "existing": "Y05-A07-F00001",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        },
+        {
+          "position": "cạnh phải áo tím",
+          "candidate": "ADD-Y05-F00071-M02",
+          "action": "withhold_geometry",
+          "reason": "Mặt phía sau phải còn gần trọn và cạnh tranh với anchor, tay bàn cũng chồng; chưa phát hành.",
+          "qa_status": "needs_revision",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y06-F00003",
+      "slots": [
+        {
+          "position": "gile chống cằm trước trái",
+          "action": "represented_by_candidate",
+          "candidate": "ADD-Y06-F00012-M02",
+          "reason": "Tay tựa cằm và tay đặt bàn rõ; đầu nghiêng trái khỏi vùng bàn, không mobile. Người sau bị cắt ở biên chỉ còn mảnh mặt nhỏ, anchor trội. Chọn đại diện ở frame khác đã so trong audit, không suy danh tính.",
+          "qa_status": "pass_draft",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y06-F00004",
+      "slots": [
+        {
+          "position": "gile trước phải",
+          "action": "withhold_geometry",
+          "reason": "Mặt blouse trắng phía sau còn nguyên, sát và gần cỡ mặt gile chính. Thu trái để bỏ mặt sẽ cắt vùng tay/thân chính. Không đạt anchor trội.",
+          "candidate": "ADD-Y06-F00004-M01",
+          "qa_status": "withheld_geometry",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y06-F00012",
+      "slots": [
+        {
+          "position": "áo khoác tối trước trái",
+          "candidate": "ADD-Y06-F00012-M01",
+          "action": "propose_candidate",
+          "reason": "Đầu quay trái, tay đan trên bàn được giữ; chỉ còn mảnh áo người cạnh, không mặt cạnh tranh hoặc vật nghi mobile.",
+          "qa_status": "pass_draft",
+          "audit_complete": true
+        },
+        {
+          "position": "gile chống cằm giữa trái",
+          "candidate": "ADD-Y06-F00012-M02",
+          "action": "propose_candidate",
+          "reason": "Tay tựa cằm và tay đặt bàn rõ; đầu nghiêng trái khỏi vùng bàn, không mobile. Người sau bị cắt ở biên chỉ còn mảnh mặt nhỏ, anchor trội.",
+          "qa_status": "pass_draft",
+          "audit_complete": true
+        },
+        {
+          "position": "gile tóc dài trước phải",
+          "action": "propose_candidate",
+          "reason": "Hai tay đan trên bàn rõ, đầu quay trái khỏi vùng bàn. Mặt người sau chỉ còn phần nhỏ ở mép phải, anchor lớn và trội ở input.",
+          "candidate": "ADD-Y06-F00012-M03",
+          "qa_status": "pass_draft",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y06-F00027",
+      "slots": [
+        {
+          "position": "nam gile ngồi giữa",
+          "candidate": "ADD-Y06-F00027-M01",
+          "action": "propose_candidate",
+          "reason": "Một người trội và hướng đầu trước rõ. Vùng hai tay đặt đùi có vật/vệt tối không đủ phân biệt ở native và input; không chốt phone N từ việc không thấy màn hình.",
+          "qa_status": "pass_draft",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y06-F00029",
+      "slots": [
+        {
+          "position": "blouse trắng chống cằm trước phải",
+          "candidate": "ADD-Y06-F00029-M01",
+          "action": "propose_candidate",
+          "reason": "Hai tay đủ và không mobile, đầu quay trái về phía ngoài bàn riêng. Một mặt hậu cảnh nhỏ ở mép trên; mặt tiền cảnh chỉ còn mảnh ở góc, người chính vẫn trội tại input.",
+          "qa_status": "pass_draft",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y06-F00033",
+      "slots": [
+        {
+          "position": "gile trước trái",
+          "candidate": "ADD-Y06-F00033-M01",
+          "action": "propose_candidate",
+          "reason": "Một mặt chính và hai cẳng tay đan trên bàn, không vật nghi phone. Đầu nhìn trước khỏi bàn riêng; input giữ đủ bằng chứng.",
+          "qa_status": "pass_draft",
+          "audit_complete": true
+        },
+        {
+          "position": "blouse trắng chống cằm giữa trái",
+          "action": "represented_by_candidate",
+          "candidate": "ADD-Y06-F00029-M01",
+          "rejected_trial": "ADD-Y06-F00033-M02",
+          "reason": "Hai tay đủ và không mobile, đầu quay trái về phía ngoài bàn riêng. Một mặt hậu cảnh nhỏ ở mép trên; mặt tiền cảnh chỉ còn mảnh ở góc, người chính vẫn trội tại input. Chọn đại diện ở frame khác đã so trong audit, không suy danh tính.",
+          "qa_status": "pass_draft",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y06-F00060",
+      "slots": [
+        {
+          "position": "gile chống cằm trước phải",
+          "candidate": "ADD-Y06-F00060-M01",
+          "action": "propose_candidate",
+          "reason": "Hai tay tựa cằm và trên bàn giữ đủ, không mobile; đầu quay trái rõ. Người sau chỉ còn phần dưới mặt/thân tại biên, anchor trước trội.",
+          "qa_status": "pass_draft",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y06-F00072",
+      "slots": [
+        {
+          "position": "nam kính gile cạnh người đọc",
+          "action": "covered_existing",
+          "existing": "Y06-A03-F00001",
+          "reason": "Đại diện đã đối chiếu theo vị trí/hành vi cục bộ và được owner duyệt; không tạo thêm gần trùng.",
+          "audit_complete": true
+        },
+        {
+          "position": "blouse trắng chống cằm trước phải",
+          "action": "represented_by_candidate",
+          "candidate": "ADD-Y06-F00029-M01",
+          "reason": "Hai tay đủ và không mobile, đầu quay trái về phía ngoài bàn riêng. Một mặt hậu cảnh nhỏ ở mép trên; mặt tiền cảnh chỉ còn mảnh ở góc, người chính vẫn trội tại input. Chọn đại diện ở frame khác đã so trong audit, không suy danh tính.",
+          "qa_status": "pass_draft",
+          "audit_complete": true
+        }
+      ]
+    },
+    {
+      "frame": "Y06-F00095",
+      "slots": [
+        {
+          "position": "áo trắng quay lưng trước trái",
+          "action": "withhold_unknown",
+          "reason": "Quay lưng không rõ hướng mặt và tay bị che, không đủ target known.",
+          "audit_complete": true
+        },
+        {
+          "position": "gile quay lưng trước giữa",
+          "action": "withhold_unknown",
+          "reason": "Không rõ hướng mặt, tay phía trước khuất; không đủ target known.",
+          "audit_complete": true
+        },
+        {
+          "position": "blouse trắng trước phải",
+          "action": "withhold_geometry",
+          "reason": "Trial thu trái làm cắt mặt chính; nguồn cho thấy nới trái sẽ lấy mặt người gile sát phía sau. Khác tư thế đặt tay so F29 nhưng không có khung tách đủ rõ; không publish và không gọi là duplicate chỉ vì cùng vị trí.",
+          "candidate": "ADD-Y06-F00095-M03-R02",
+          "qa_status": "withheld_geometry",
+          "audit_complete": true
+        }
+      ]
+    }
+  ]
+}

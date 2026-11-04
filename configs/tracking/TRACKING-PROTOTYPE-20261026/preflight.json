@@ -1,0 +1,37 @@
+{
+  "status": "read_only_preflight",
+  "base_commit": "9805aef",
+  "input_pins": {
+    "session.json": {
+      "path": "outputs/runtime-v8s-session-20261026-r2/session.json",
+      "sha256": "b1cefa1520daacb15618701b857ce9c7e92ee4d0a4338d196049c552120b1b93"
+    },
+    "predictions.jsonl": {
+      "path": "outputs/runtime-v8s-session-20261026-r2/predictions.jsonl",
+      "sha256": "56238162a07a9765c7a629cc1f222d2255a3f1269ef64b535aaea3c95b566d49"
+    },
+    "runtime-config.json": {
+      "path": "outputs/runtime-v8s-session-20261026-r2/runtime-config.json",
+      "sha256": "c84811f8e06ec2011888dc537ef61da9f8cba6aab155da6a6a872a506aa88602"
+    }
+  },
+  "packages": {
+    "ultralytics": "8.3.221",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "lap": null,
+    "torch": "2.8.0+cpu"
+  },
+  "frame_count": 60,
+  "observation_count": 1162,
+  "confidence_min": 0.2501247227191925,
+  "confidence_max": 0.9281252026557922,
+  "below_0_25": 0,
+  "below_0_5": 395,
+  "video_time_deltas_ms": [
+    1000.0
+  ],
+  "cached_source_frames": 19,
+  "tracking_run_performed": false,
+  "media_created": false
+}

@@ -1,0 +1,1694 @@
+{
+  "selection": "Every looking error in at least 2/3 D1 seeds not in initial gallery",
+  "augmentation_epoch": 7,
+  "input_pins": {
+    "artifacts/reports/dataset-release-20261023-v13/source-roots.json": "97f20fbdb453a25d2b3e380f2d6a5a6e8e54a39ded1c98c20512ac31a4cd89a8",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/ADD-Y01-F00099-M01-R02.png": "07de355c9fc71493ecf01349311c62ba060b57e7e53ca3e85cb4f72c2d9d17c6",
+    "data/interim/v13-release-preparation-20261023/source-inputs/ADD-Y01-F00099-M01-R02.png": "07de355c9fc71493ecf01349311c62ba060b57e7e53ca3e85cb4f72c2d9d17c6",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/ADD-Y06-F00012-M03.png": "b7ced491423f1fb15843697925fdd0d9a176012e6775356902fcd25032076c02",
+    "data/interim/v13-release-preparation-20261023/source-inputs/ADD-Y06-F00012-M03.png": "b7ced491423f1fb15843697925fdd0d9a176012e6775356902fcd25032076c02",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/CB-0753.jpg": "b116331e01b5657d7900ffa827a28a0d526da2a46c2149df2ea7d17f2abc9e48",
+    "data/interim/v13-release-preparation-20261023/source-inputs/CB-0753.jpg": "b116331e01b5657d7900ffa827a28a0d526da2a46c2149df2ea7d17f2abc9e48",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/E004-CN-001.png": "c36707ce1ae2cdf2552d6b2a430a50c536b94794eb885d330a96f2b681681e83",
+    "data/interim/v13-release-preparation-20261023/source-inputs/E004-CN-001.png": "c36707ce1ae2cdf2552d6b2a430a50c536b94794eb885d330a96f2b681681e83",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/E004-CN-014.png": "402ea9503fb058a477f0e8e04d52467ac82fa580f7c31af60f5a658d7463858a",
+    "data/interim/v13-release-preparation-20261023/source-inputs/E004-CN-014.png": "402ea9503fb058a477f0e8e04d52467ac82fa580f7c31af60f5a658d7463858a",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/E004-CN-018.png": "126d5ce33bd563cc958652dbe7a0c19104ae4874f1f9ede195e79c283b1eed1c",
+    "data/interim/v13-release-preparation-20261023/source-inputs/E004-CN-018.png": "126d5ce33bd563cc958652dbe7a0c19104ae4874f1f9ede195e79c283b1eed1c",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/E004-CN-043.png": "14a313da8e8a8836fb10d513c224be459998c2202548296c863ed3335ca58126",
+    "data/interim/v13-release-preparation-20261023/source-inputs/E004-CN-043.png": "14a313da8e8a8836fb10d513c224be459998c2202548296c863ed3335ca58126",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/E004-EX-C049.png": "c6755aad5babb6d234adfb7ce7920a8b2fb51b905a813c114fd1e8640261316e",
+    "data/interim/v13-release-preparation-20261023/source-inputs/E004-EX-C049.png": "c6755aad5babb6d234adfb7ce7920a8b2fb51b905a813c114fd1e8640261316e",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/E004-EX-C125.png": "5500655e5bf045e86be44cadc96e8272538742e6c9e37541315ec95919eaee94",
+    "data/interim/v13-release-preparation-20261023/source-inputs/E004-EX-C125.png": "5500655e5bf045e86be44cadc96e8272538742e6c9e37541315ec95919eaee94",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/E004-EX-C184.png": "adcbce93e2addb6a8e4b85ae88aadc0b0ccb5636174f97dc825e3e6115cb37c5",
+    "data/interim/v13-release-preparation-20261023/source-inputs/E004-EX-C184.png": "adcbce93e2addb6a8e4b85ae88aadc0b0ccb5636174f97dc825e3e6115cb37c5",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/E004-SX-C001.png": "76c06fb3185ca921d0ce9a1b5f4e53dce40ac84bddd506cfdbe8ece4609af3a8",
+    "data/interim/v13-release-preparation-20261023/source-inputs/E004-SX-C001.png": "76c06fb3185ca921d0ce9a1b5f4e53dce40ac84bddd506cfdbe8ece4609af3a8",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/E004-SX-C002.png": "8a044fadc0fe94bcf4501b1eb1dc5bd442373091dc25847610824a6de994b52a",
+    "data/interim/v13-release-preparation-20261023/source-inputs/E004-SX-C002.png": "8a044fadc0fe94bcf4501b1eb1dc5bd442373091dc25847610824a6de994b52a",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/EXP-CM-004.png": "02e0979c1bc884df252945e2142a0ceebfd9d8966f548c8db0eb2cf295b6392b",
+    "data/interim/v13-release-preparation-20261023/source-inputs/EXP-CM-004.png": "02e0979c1bc884df252945e2142a0ceebfd9d8966f548c8db0eb2cf295b6392b",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/EXP-CM-013.png": "42d7b975175348099ee632aced91ccfeebb5cfd0c6334e1e83e20225038ec662",
+    "data/interim/v13-release-preparation-20261023/source-inputs/EXP-CM-013.png": "42d7b975175348099ee632aced91ccfeebb5cfd0c6334e1e83e20225038ec662",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/EXP-CM-024.png": "3b60f0d7babe6c2125a7b065757cc16d4536b7a4f8d3be998ee3d9d45138d49f",
+    "data/interim/v13-release-preparation-20261023/source-inputs/EXP-CM-024.png": "3b60f0d7babe6c2125a7b065757cc16d4536b7a4f8d3be998ee3d9d45138d49f",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/EXP-SCB-013.png": "fc72d6f3a6dce6f2741885fc30d3ed076ef5c397ae448392d6c3d376f7d71372",
+    "data/interim/v13-release-preparation-20261023/source-inputs/EXP-SCB-013.png": "fc72d6f3a6dce6f2741885fc30d3ed076ef5c397ae448392d6c3d376f7d71372",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/G04-B08-F00002.png": "04111f60176db99c20df6e9d7bdf944bfb0afa1ffcc0bf0f57d1df6319048add",
+    "data/interim/v13-release-preparation-20261023/source-inputs/G04-B08-F00002.png": "04111f60176db99c20df6e9d7bdf944bfb0afa1ffcc0bf0f57d1df6319048add",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/G08-B01-F00001.png": "c70c19465a22218479e30be81ad5b1022f03bac94856079834b01618ac6f7387",
+    "data/interim/v13-release-preparation-20261023/source-inputs/G08-B01-F00001.png": "c70c19465a22218479e30be81ad5b1022f03bac94856079834b01618ac6f7387",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/G11-B09-F00008.png": "be8c1bb82c3cfe353febdb10ec3d03b249344ef7d8d2bc10549aa0f7f14b3357",
+    "data/interim/v13-release-preparation-20261023/source-inputs/G11-B09-F00008.png": "be8c1bb82c3cfe353febdb10ec3d03b249344ef7d8d2bc10549aa0f7f14b3357",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/G19-A02-F00056.png": "2a9d254148e6e0baaabe2b7a5ad86ff01f3902761fd450a9ff53e1d2679097e4",
+    "data/interim/v13-release-preparation-20261023/source-inputs/G19-A02-F00056.png": "2a9d254148e6e0baaabe2b7a5ad86ff01f3902761fd450a9ff53e1d2679097e4",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/G24-B01-F00010.png": "6a3881339e08438f2dac74d9f1f44889e6ae9a2fc7434a874fce2ebf36086ce6",
+    "data/interim/v13-release-preparation-20261023/source-inputs/G24-B01-F00010.png": "6a3881339e08438f2dac74d9f1f44889e6ae9a2fc7434a874fce2ebf36086ce6",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/G3-A01-F014.png": "5fda9884ac4bccad1a9285ccdb0191a9cd9070f21f4cb84161cded95ff75d22e",
+    "data/interim/v13-release-preparation-20261023/source-inputs/G3-A01-F014.png": "5fda9884ac4bccad1a9285ccdb0191a9cd9070f21f4cb84161cded95ff75d22e",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/NB-0036-R1.png": "f4585baaacb3deb57ed2587278664b52cd08adea74af7575e2639e2d156926c6",
+    "data/interim/v13-release-preparation-20261023/source-inputs/NB-0036-R1.png": "f4585baaacb3deb57ed2587278664b52cd08adea74af7575e2639e2d156926c6",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/NB-0045.jpg": "c3a873d313e7a1393ed35a22c2313d17d6a35741a177d299528be2eae1edcb85",
+    "data/interim/v13-release-preparation-20261023/source-inputs/NB-0045.jpg": "c3a873d313e7a1393ed35a22c2313d17d6a35741a177d299528be2eae1edcb85",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/NB-0053.jpg": "b72ef85211513bf7328cad9e4aaf79e64e6a512343628b14c1db4f73850295eb",
+    "data/interim/v13-release-preparation-20261023/source-inputs/NB-0053.jpg": "b72ef85211513bf7328cad9e4aaf79e64e6a512343628b14c1db4f73850295eb",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/NB-0061.jpg": "7b1a811813bcda1adb57ca69bf9888bc95e3f00f407283308a8ed1868aff44f6",
+    "data/interim/v13-release-preparation-20261023/source-inputs/NB-0061.jpg": "7b1a811813bcda1adb57ca69bf9888bc95e3f00f407283308a8ed1868aff44f6",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/NEW-032.png": "e76f3d392661c54e8c4f7fbb0b7e3477069b9232dd2523a4b468ffbb63fd20eb",
+    "data/interim/v13-release-preparation-20261023/source-inputs/NEW-032.png": "e76f3d392661c54e8c4f7fbb0b7e3477069b9232dd2523a4b468ffbb63fd20eb",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/NEW-033.png": "d80dc05a395a6a0f2129a4857bb2b92e506308c170f24e013d04d9eacb4e8e7c",
+    "data/interim/v13-release-preparation-20261023/source-inputs/NEW-033.png": "d80dc05a395a6a0f2129a4857bb2b92e506308c170f24e013d04d9eacb4e8e7c",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/NEW-065.png": "943cff1039fec8735ba6986f5871ce714c07bccd187d7fe93efb2d49c7050b00",
+    "data/interim/v13-release-preparation-20261023/source-inputs/NEW-065.png": "943cff1039fec8735ba6986f5871ce714c07bccd187d7fe93efb2d49c7050b00",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/NEW-120.png": "81e42b8ae2146b73a5a65dcdcb100604a8edc0cd2a61949101f1a82c7edfd8b2",
+    "data/interim/v13-release-preparation-20261023/source-inputs/NEW-120.png": "81e42b8ae2146b73a5a65dcdcb100604a8edc0cd2a61949101f1a82c7edfd8b2",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/NEW-123.png": "5efcb5543677631ee300164082f046852b5a97b04270bd9dec526d0c1423a3b0",
+    "data/interim/v13-release-preparation-20261023/source-inputs/NEW-123.png": "5efcb5543677631ee300164082f046852b5a97b04270bd9dec526d0c1423a3b0",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/NEW-133.png": "f0a76ceaf262c5985c84f84bc2f8589f8d66814b7ac8b1798f5f13408567c015",
+    "data/interim/v13-release-preparation-20261023/source-inputs/NEW-133.png": "f0a76ceaf262c5985c84f84bc2f8589f8d66814b7ac8b1798f5f13408567c015",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/NEW-135.png": "04e79001f97cad195b3c50a6d210ec2c8ec7844039b6f0eee9806cfbfc299323",
+    "data/interim/v13-release-preparation-20261023/source-inputs/NEW-135.png": "04e79001f97cad195b3c50a6d210ec2c8ec7844039b6f0eee9806cfbfc299323",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/NEW-137.png": "de8d1df043f108d5670bcf2a86503dbff8a6cf3e8132e0c560c81c8347246c66",
+    "data/interim/v13-release-preparation-20261023/source-inputs/NEW-137.png": "de8d1df043f108d5670bcf2a86503dbff8a6cf3e8132e0c560c81c8347246c66",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/NEW-147.png": "aaeb8795aac382ea6b64e1fbd3e8e72e50c634d71f6c75f45699595d46efc329",
+    "data/interim/v13-release-preparation-20261023/source-inputs/NEW-147.png": "aaeb8795aac382ea6b64e1fbd3e8e72e50c634d71f6c75f45699595d46efc329",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/NEW-149.png": "1f65dba597615c5a55b5758d937201cecfc406269ca72b32615f2d1c6d9deb5b",
+    "data/interim/v13-release-preparation-20261023/source-inputs/NEW-149.png": "1f65dba597615c5a55b5758d937201cecfc406269ca72b32615f2d1c6d9deb5b",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/SCB-read-027.png": "2b54f1978b2e255b9b9ebf1b1c44589a0cf1988bdf9a8f08ecf854e21fafec75",
+    "data/interim/v13-release-preparation-20261023/source-inputs/SCB-read-027.png": "2b54f1978b2e255b9b9ebf1b1c44589a0cf1988bdf9a8f08ecf854e21fafec75",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/SCB-turnhead-013.png": "365bce353f7952b4b22907e55c5cb0c53f2ab769099d736de9627b7bb6ceaabb",
+    "data/interim/v13-release-preparation-20261023/source-inputs/SCB-turnhead-013.png": "365bce353f7952b4b22907e55c5cb0c53f2ab769099d736de9627b7bb6ceaabb",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/SCB-turnhead-027.png": "2e4dc7402863fc1c6caad100ed722eb4a5ec12ce60b5d6f7f51110ee7032bf44",
+    "data/interim/v13-release-preparation-20261023/source-inputs/SCB-turnhead-027.png": "2e4dc7402863fc1c6caad100ed722eb4a5ec12ce60b5d6f7f51110ee7032bf44",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/V6-SB-028.png": "27f86896088e77414e19b851ae7197b4086144edad510384956d694685016417",
+    "data/interim/v13-release-preparation-20261023/source-inputs/V6-SB-028.png": "27f86896088e77414e19b851ae7197b4086144edad510384956d694685016417",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/V7-B-061.png": "8ea6ff7e567363089efd2224597607d546f7cb9506952c63e42786d5c604fded",
+    "data/interim/v13-release-preparation-20261023/source-inputs/V7-B-061.png": "8ea6ff7e567363089efd2224597607d546f7cb9506952c63e42786d5c604fded",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/V7-C-009-R03.png": "6c86d6be1d82eba31c664aede6dfea89d5686a1b63e57271e3d6f3720b566d7c",
+    "data/interim/v13-release-preparation-20261023/source-inputs/V7-C-009-R03.png": "6c86d6be1d82eba31c664aede6dfea89d5686a1b63e57271e3d6f3720b566d7c",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/V7-C-069.png": "897d81132fe838600304160ec09222c5bb7197462b44d8220e5ff47d7a0280ed",
+    "data/interim/v13-release-preparation-20261023/source-inputs/V7-C-069.png": "897d81132fe838600304160ec09222c5bb7197462b44d8220e5ff47d7a0280ed",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/V7-D-009.png": "05925f323e5dd7409afe64694efc2283935f8f8950884731a940cbf0ebf4cb65",
+    "data/interim/v13-release-preparation-20261023/source-inputs/V7-D-009.png": "05925f323e5dd7409afe64694efc2283935f8f8950884731a940cbf0ebf4cb65",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/V7-D-026-R03.png": "f4318aed03d262ecbb41699f94c48e4be5220b61a228afc604cee5b9b2aef477",
+    "data/interim/v13-release-preparation-20261023/source-inputs/V7-D-026-R03.png": "f4318aed03d262ecbb41699f94c48e4be5220b61a228afc604cee5b9b2aef477",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/V7-OE-S099-A01-ADD04-R02.png": "0062584ff181a16d179361ef826e9813102e0959e7b175c87f1b3ebe7bbe3925",
+    "data/interim/v13-release-preparation-20261023/source-inputs/V7-OE-S099-A01-ADD04-R02.png": "0062584ff181a16d179361ef826e9813102e0959e7b175c87f1b3ebe7bbe3925",
+    "data/processed/pilot-b/pilot-b-20261023-v13/crops/Y02-A01-F00031-R02.png": "1f6889fcf71630fedef8c3596e5e411a805efae1f636c053a9c05b4a5e16d902",
+    "data/interim/v13-release-preparation-20261023/source-inputs/Y02-A01-F00031-R02.png": "1f6889fcf71630fedef8c3596e5e411a805efae1f636c053a9c05b4a5e16d902"
+  },
+  "samples": [
+    {
+      "sample_id": "ADD-Y01-F00099-M01-R02",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "07de355c9fc71493ecf01349311c62ba060b57e7e53ca3e85cb4f72c2d9d17c6",
+      "source_sha256": "07de355c9fc71493ecf01349311c62ba060b57e7e53ca3e85cb4f72c2d9d17c6",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        191,
+        193
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        1,
+        1
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 5,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-001.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-001.png",
+      "card_sha256": "db393291f04d9dc921071ed2ad5e9049209cb75aa577d0a051c37b5330ac7ac6"
+    },
+    {
+      "sample_id": "ADD-Y06-F00012-M03",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "b7ced491423f1fb15843697925fdd0d9a176012e6775356902fcd25032076c02",
+      "source_sha256": "b7ced491423f1fb15843697925fdd0d9a176012e6775356902fcd25032076c02",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        143,
+        262
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 12,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-002.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-002.png",
+      "card_sha256": "e7827d0d6816a185309ddcd28c8bf0ef76db0d646cbd596ea340a02552ab02b5"
+    },
+    {
+      "sample_id": "CB-0753",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "b116331e01b5657d7900ffa827a28a0d526da2a46c2149df2ea7d17f2abc9e48",
+      "source_sha256": "b116331e01b5657d7900ffa827a28a0d526da2a46c2149df2ea7d17f2abc9e48",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        224,
+        224
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        1
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 139,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-003.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-003.png",
+      "card_sha256": "a24ddd4b9a526a6f621c5175d66c9a4caa67c1853923c31fe48aec8be6e1da65"
+    },
+    {
+      "sample_id": "E004-CN-001",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "c36707ce1ae2cdf2552d6b2a430a50c536b94794eb885d330a96f2b681681e83",
+      "source_sha256": "c36707ce1ae2cdf2552d6b2a430a50c536b94794eb885d330a96f2b681681e83",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        255,
+        302
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        1,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 168,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-004.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-004.png",
+      "card_sha256": "2e6fadd921210b008d7244e5fc672c511f54fa0cb41322bec3ff8eb3b03bfe56"
+    },
+    {
+      "sample_id": "E004-CN-014",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "402ea9503fb058a477f0e8e04d52467ac82fa580f7c31af60f5a658d7463858a",
+      "source_sha256": "402ea9503fb058a477f0e8e04d52467ac82fa580f7c31af60f5a658d7463858a",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        490,
+        605
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 175,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-005.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-005.png",
+      "card_sha256": "19a1a7f0c7208bf2a1468397d70e4f51797eb252cf8c0474819265d4172614a3"
+    },
+    {
+      "sample_id": "E004-CN-018",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "126d5ce33bd563cc958652dbe7a0c19104ae4874f1f9ede195e79c283b1eed1c",
+      "source_sha256": "126d5ce33bd563cc958652dbe7a0c19104ae4874f1f9ede195e79c283b1eed1c",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        304,
+        232
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 178,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-006.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-006.png",
+      "card_sha256": "0e7a1a0c1591165b7a0a34e57e22a3c166241ca71a6434dc1136570aad64c272"
+    },
+    {
+      "sample_id": "E004-CN-043",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "14a313da8e8a8836fb10d513c224be459998c2202548296c863ed3335ca58126",
+      "source_sha256": "14a313da8e8a8836fb10d513c224be459998c2202548296c863ed3335ca58126",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        185,
+        186
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 190,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-007.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-007.png",
+      "card_sha256": "dfe90d028025503ca250b104846c044378644e67f4b65a1aa05650a9ca2da907"
+    },
+    {
+      "sample_id": "E004-EX-C049",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "c6755aad5babb6d234adfb7ce7920a8b2fb51b905a813c114fd1e8640261316e",
+      "source_sha256": "c6755aad5babb6d234adfb7ce7920a8b2fb51b905a813c114fd1e8640261316e",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        247,
+        281
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 217,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-008.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-008.png",
+      "card_sha256": "58b7a0b44e3b5a6394005e1effeff99365381372cc07a7b89560947abe6c9f1d"
+    },
+    {
+      "sample_id": "E004-EX-C125",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "5500655e5bf045e86be44cadc96e8272538742e6c9e37541315ec95919eaee94",
+      "source_sha256": "5500655e5bf045e86be44cadc96e8272538742e6c9e37541315ec95919eaee94",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        253,
+        272
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 250,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-009.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-009.png",
+      "card_sha256": "6f0652a3e0169e42d1aaaa359b8dd57a7100b3459e5aca6f742e787390442036"
+    },
+    {
+      "sample_id": "E004-EX-C184",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "adcbce93e2addb6a8e4b85ae88aadc0b0ccb5636174f97dc825e3e6115cb37c5",
+      "source_sha256": "adcbce93e2addb6a8e4b85ae88aadc0b0ccb5636174f97dc825e3e6115cb37c5",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        237,
+        462
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 268,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-010.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-010.png",
+      "card_sha256": "d541f4045e9987ce3c901e6019cc5d2e7a9f8bf49bf029677c976ae9e85a98b8"
+    },
+    {
+      "sample_id": "E004-SX-C001",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "76c06fb3185ca921d0ce9a1b5f4e53dce40ac84bddd506cfdbe8ece4609af3a8",
+      "source_sha256": "76c06fb3185ca921d0ce9a1b5f4e53dce40ac84bddd506cfdbe8ece4609af3a8",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        545,
+        600
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        1,
+        1
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 275,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-011.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-011.png",
+      "card_sha256": "8d450e851e6b517b81d4369e92f0320058683b501efb667b78b85b4bc5ff3576"
+    },
+    {
+      "sample_id": "E004-SX-C002",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "8a044fadc0fe94bcf4501b1eb1dc5bd442373091dc25847610824a6de994b52a",
+      "source_sha256": "8a044fadc0fe94bcf4501b1eb1dc5bd442373091dc25847610824a6de994b52a",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        430,
+        705
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 276,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-012.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-012.png",
+      "card_sha256": "16f12e8082ebda22929eebd023e20aa73022bc77e6bf6aa0e4eac3569a0c9eff"
+    },
+    {
+      "sample_id": "EXP-CM-004",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "02e0979c1bc884df252945e2142a0ceebfd9d8966f548c8db0eb2cf295b6392b",
+      "source_sha256": "02e0979c1bc884df252945e2142a0ceebfd9d8966f548c8db0eb2cf295b6392b",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        88,
+        133
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        1,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 290,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-013.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-013.png",
+      "card_sha256": "e8a4626bbb585567f320dd64dc0e7a382e3e0e4244a26d33f0e331ab96a7505d"
+    },
+    {
+      "sample_id": "EXP-CM-013",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "42d7b975175348099ee632aced91ccfeebb5cfd0c6334e1e83e20225038ec662",
+      "source_sha256": "42d7b975175348099ee632aced91ccfeebb5cfd0c6334e1e83e20225038ec662",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        119,
+        222
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 298,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-014.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-014.png",
+      "card_sha256": "25ae86141ed663483c8b9349e8b6cf248e83e757f42a6e17fff59ef996ef38aa"
+    },
+    {
+      "sample_id": "EXP-CM-024",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "3b60f0d7babe6c2125a7b065757cc16d4536b7a4f8d3be998ee3d9d45138d49f",
+      "source_sha256": "3b60f0d7babe6c2125a7b065757cc16d4536b7a4f8d3be998ee3d9d45138d49f",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        79,
+        127
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        null,
+        1
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 306,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-015.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-015.png",
+      "card_sha256": "be1e91e444e97145260fbb492a605d138f5642edef31e0f0e4295583b56c0759"
+    },
+    {
+      "sample_id": "EXP-SCB-013",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "fc72d6f3a6dce6f2741885fc30d3ed076ef5c397ae448392d6c3d376f7d71372",
+      "source_sha256": "fc72d6f3a6dce6f2741885fc30d3ed076ef5c397ae448392d6c3d376f7d71372",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        82,
+        179
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 320,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-016.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-016.png",
+      "card_sha256": "9a5eb2aa074fe3a844ff9961a40e669d078c9e0ef7bd88ca6130c4450ce272c8"
+    },
+    {
+      "sample_id": "G04-B08-F00002",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "04111f60176db99c20df6e9d7bdf944bfb0afa1ffcc0bf0f57d1df6319048add",
+      "source_sha256": "04111f60176db99c20df6e9d7bdf944bfb0afa1ffcc0bf0f57d1df6319048add",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        144,
+        293
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 361,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-017.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-017.png",
+      "card_sha256": "84e3da35b184ac071966e0f686eed7adb96f2542f1af0c86971f2c338dad22a6"
+    },
+    {
+      "sample_id": "G08-B01-F00001",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "val",
+      "crop_sha256": "c70c19465a22218479e30be81ad5b1022f03bac94856079834b01618ac6f7387",
+      "source_sha256": "c70c19465a22218479e30be81ad5b1022f03bac94856079834b01618ac6f7387",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        100,
+        104
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-018.png",
+      "card_sha256": "6175fbb15230cbcec69759675b52b8ed8bffd4eac1074eb98cc5a08511c11d7d"
+    },
+    {
+      "sample_id": "G11-B09-F00008",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "be8c1bb82c3cfe353febdb10ec3d03b249344ef7d8d2bc10549aa0f7f14b3357",
+      "source_sha256": "be8c1bb82c3cfe353febdb10ec3d03b249344ef7d8d2bc10549aa0f7f14b3357",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        122,
+        178
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        null,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 401,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-019.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-019.png",
+      "card_sha256": "7fb03d19ec525eca092525c8d9fcb65e4db4ca302d493781879d8f3cab08f7b2"
+    },
+    {
+      "sample_id": "G19-A02-F00056",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "val",
+      "crop_sha256": "2a9d254148e6e0baaabe2b7a5ad86ff01f3902761fd450a9ff53e1d2679097e4",
+      "source_sha256": "2a9d254148e6e0baaabe2b7a5ad86ff01f3902761fd450a9ff53e1d2679097e4",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        128,
+        178
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        1
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-020.png",
+      "card_sha256": "a5c278863926b1d4263025b309f6bd77d21d18bdaad022457be2861dceef1680"
+    },
+    {
+      "sample_id": "G24-B01-F00010",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "6a3881339e08438f2dac74d9f1f44889e6ae9a2fc7434a874fce2ebf36086ce6",
+      "source_sha256": "6a3881339e08438f2dac74d9f1f44889e6ae9a2fc7434a874fce2ebf36086ce6",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        108,
+        167
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 513,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-021.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-021.png",
+      "card_sha256": "3cbe57814de801ed2f5983842533dfeedfaed72161366532c1c9e2d81666efaa"
+    },
+    {
+      "sample_id": "G3-A01-F014",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "5fda9884ac4bccad1a9285ccdb0191a9cd9070f21f4cb84161cded95ff75d22e",
+      "source_sha256": "5fda9884ac4bccad1a9285ccdb0191a9cd9070f21f4cb84161cded95ff75d22e",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        140,
+        150
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 535,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-022.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-022.png",
+      "card_sha256": "5c987eb2ff7d1e8fed13bc5ce04898b9d155a0087fdc18306465b2ff4097fb7d"
+    },
+    {
+      "sample_id": "NB-0036-R1",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "f4585baaacb3deb57ed2587278664b52cd08adea74af7575e2639e2d156926c6",
+      "source_sha256": "f4585baaacb3deb57ed2587278664b52cd08adea74af7575e2639e2d156926c6",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        87,
+        124
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        null,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 598,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-023.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-023.png",
+      "card_sha256": "a8593c126b176411ad0d0640cb54cc57caf662bed4b37ce9ff272800bbafe90f"
+    },
+    {
+      "sample_id": "NB-0045",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "c3a873d313e7a1393ed35a22c2313d17d6a35741a177d299528be2eae1edcb85",
+      "source_sha256": "c3a873d313e7a1393ed35a22c2313d17d6a35741a177d299528be2eae1edcb85",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        224,
+        224
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        1
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 604,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-024.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-024.png",
+      "card_sha256": "0d45922eb180be29d5ec8f38a0df2f9cfb62399350b5f3d97c439929d1693503"
+    },
+    {
+      "sample_id": "NB-0053",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "b72ef85211513bf7328cad9e4aaf79e64e6a512343628b14c1db4f73850295eb",
+      "source_sha256": "b72ef85211513bf7328cad9e4aaf79e64e6a512343628b14c1db4f73850295eb",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        224,
+        224
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 608,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-025.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-025.png",
+      "card_sha256": "945fc9a0551f6dcc4b29897f9453ca5aaca2f6a88a38edb186efd164d3c8a378"
+    },
+    {
+      "sample_id": "NB-0061",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "7b1a811813bcda1adb57ca69bf9888bc95e3f00f407283308a8ed1868aff44f6",
+      "source_sha256": "7b1a811813bcda1adb57ca69bf9888bc95e3f00f407283308a8ed1868aff44f6",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        224,
+        224
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        null,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 615,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-026.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-026.png",
+      "card_sha256": "58c35b21bf9998ffc43345765aa9bd55e8177856dce939f15c3b5a598df1fd5a"
+    },
+    {
+      "sample_id": "NEW-032",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "e76f3d392661c54e8c4f7fbb0b7e3477069b9232dd2523a4b468ffbb63fd20eb",
+      "source_sha256": "e76f3d392661c54e8c4f7fbb0b7e3477069b9232dd2523a4b468ffbb63fd20eb",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        630,
+        828
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 676,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-027.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-027.png",
+      "card_sha256": "742a25a3d39f0bd1754f984e7da135e3ed9c0312365812cdd3df8775e4d3ac13"
+    },
+    {
+      "sample_id": "NEW-033",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "d80dc05a395a6a0f2129a4857bb2b92e506308c170f24e013d04d9eacb4e8e7c",
+      "source_sha256": "d80dc05a395a6a0f2129a4857bb2b92e506308c170f24e013d04d9eacb4e8e7c",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        595,
+        828
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 677,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-028.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-028.png",
+      "card_sha256": "9ede771614c8c777aa9b81c2df2b137c9c24a50a15a9ae8cb0b910e85e49b1e5"
+    },
+    {
+      "sample_id": "NEW-065",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "val",
+      "crop_sha256": "943cff1039fec8735ba6986f5871ce714c07bccd187d7fe93efb2d49c7050b00",
+      "source_sha256": "943cff1039fec8735ba6986f5871ce714c07bccd187d7fe93efb2d49c7050b00",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        301,
+        430
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        1
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-029.png",
+      "card_sha256": "dd4753a1a5cefb95523b02b82dda3ec371c08d957061165e540359d08dd07c70"
+    },
+    {
+      "sample_id": "NEW-120",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "81e42b8ae2146b73a5a65dcdcb100604a8edc0cd2a61949101f1a82c7edfd8b2",
+      "source_sha256": "81e42b8ae2146b73a5a65dcdcb100604a8edc0cd2a61949101f1a82c7edfd8b2",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        1448,
+        1086
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 754,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-030.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-030.png",
+      "card_sha256": "83510b620ae38c11376c2f44e21b07bfab59c7fd36af6541e16a5b2acf117883"
+    },
+    {
+      "sample_id": "NEW-123",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "5efcb5543677631ee300164082f046852b5a97b04270bd9dec526d0c1423a3b0",
+      "source_sha256": "5efcb5543677631ee300164082f046852b5a97b04270bd9dec526d0c1423a3b0",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        1448,
+        1086
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 757,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-031.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-031.png",
+      "card_sha256": "c8448799cdbf695a58d0467d16496b12cea36f413787b624340c642c9d138b9c"
+    },
+    {
+      "sample_id": "NEW-133",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "f0a76ceaf262c5985c84f84bc2f8589f8d66814b7ac8b1798f5f13408567c015",
+      "source_sha256": "f0a76ceaf262c5985c84f84bc2f8589f8d66814b7ac8b1798f5f13408567c015",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        1254,
+        1254
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 761,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-032.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-032.png",
+      "card_sha256": "963bda7cee1e23d04872d5475d2468e81942e383d1d4b3d1d8cde374cfa0a346"
+    },
+    {
+      "sample_id": "NEW-135",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "04e79001f97cad195b3c50a6d210ec2c8ec7844039b6f0eee9806cfbfc299323",
+      "source_sha256": "04e79001f97cad195b3c50a6d210ec2c8ec7844039b6f0eee9806cfbfc299323",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        1024,
+        1536
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 763,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-033.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-033.png",
+      "card_sha256": "6afc13714eb3d3fe5ade41e2079c445f547c590e56f396572fd987782f5c5391"
+    },
+    {
+      "sample_id": "NEW-137",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "de8d1df043f108d5670bcf2a86503dbff8a6cf3e8132e0c560c81c8347246c66",
+      "source_sha256": "de8d1df043f108d5670bcf2a86503dbff8a6cf3e8132e0c560c81c8347246c66",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        1024,
+        1536
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 765,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-034.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-034.png",
+      "card_sha256": "876f34f6977c9aae1471ac252aaebde0a0c6affff2a19551543436c29ae1dbf3"
+    },
+    {
+      "sample_id": "NEW-147",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "aaeb8795aac382ea6b64e1fbd3e8e72e50c634d71f6c75f45699595d46efc329",
+      "source_sha256": "aaeb8795aac382ea6b64e1fbd3e8e72e50c634d71f6c75f45699595d46efc329",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        1024,
+        1536
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        1,
+        1
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 775,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-035.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-035.png",
+      "card_sha256": "6de302b67de31eac0b4b1db7129a31769a2d1dfea31b1d34a6bf1a46644c685f"
+    },
+    {
+      "sample_id": "NEW-149",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "1f65dba597615c5a55b5758d937201cecfc406269ca72b32615f2d1c6d9deb5b",
+      "source_sha256": "1f65dba597615c5a55b5758d937201cecfc406269ca72b32615f2d1c6d9deb5b",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        1024,
+        1536
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        1,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 777,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-036.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-036.png",
+      "card_sha256": "d5b41881f82c3b03d69d217bf05ebeb3790669f654693d44e2f5e213ffe3689c"
+    },
+    {
+      "sample_id": "SCB-read-027",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "2b54f1978b2e255b9b9ebf1b1c44589a0cf1988bdf9a8f08ecf854e21fafec75",
+      "source_sha256": "2b54f1978b2e255b9b9ebf1b1c44589a0cf1988bdf9a8f08ecf854e21fafec75",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        174,
+        229
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 804,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-037.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-037.png",
+      "card_sha256": "d3b62146999946a9cb3625ba0d82b62d5f23f6b8a084c2683a2f9112a6327ec2"
+    },
+    {
+      "sample_id": "SCB-turnhead-013",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "365bce353f7952b4b22907e55c5cb0c53f2ab769099d736de9627b7bb6ceaabb",
+      "source_sha256": "365bce353f7952b4b22907e55c5cb0c53f2ab769099d736de9627b7bb6ceaabb",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        101,
+        250
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 812,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-038.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-038.png",
+      "card_sha256": "daf3b5e4e924e4da678fe173dbe25e84476eab66aac76f6963971b13b0d74372"
+    },
+    {
+      "sample_id": "SCB-turnhead-027",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "2e4dc7402863fc1c6caad100ed722eb4a5ec12ce60b5d6f7f51110ee7032bf44",
+      "source_sha256": "2e4dc7402863fc1c6caad100ed722eb4a5ec12ce60b5d6f7f51110ee7032bf44",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        126,
+        148
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 813,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-039.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-039.png",
+      "card_sha256": "5a1539dbebfa5aed9328120322092b47fb058a92912e3ed6e23f27a70fb2e3d4"
+    },
+    {
+      "sample_id": "V6-SB-028",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "27f86896088e77414e19b851ae7197b4086144edad510384956d694685016417",
+      "source_sha256": "27f86896088e77414e19b851ae7197b4086144edad510384956d694685016417",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        102,
+        164
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        1
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 868,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-040.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-040.png",
+      "card_sha256": "52b7bafd666d63aa681b0cb0b5b2f215b522baca01cc53f48ab51146c020e042"
+    },
+    {
+      "sample_id": "V7-B-061",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "8ea6ff7e567363089efd2224597607d546f7cb9506952c63e42786d5c604fded",
+      "source_sha256": "8ea6ff7e567363089efd2224597607d546f7cb9506952c63e42786d5c604fded",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        214,
+        461
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        null,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 954,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-041.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-041.png",
+      "card_sha256": "b46d23f24e43b2c43700844051c3b3cea787e29728236273bf0a51015ecdc013"
+    },
+    {
+      "sample_id": "V7-C-009-R03",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "val",
+      "crop_sha256": "6c86d6be1d82eba31c664aede6dfea89d5686a1b63e57271e3d6f3720b566d7c",
+      "source_sha256": "6c86d6be1d82eba31c664aede6dfea89d5686a1b63e57271e3d6f3720b566d7c",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        135,
+        160
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        1
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-042.png",
+      "card_sha256": "4c7427e8125bc4afa07f4deb801a3737016231fd1e55cb54d34a3df904caf89b"
+    },
+    {
+      "sample_id": "V7-C-069",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "val",
+      "crop_sha256": "897d81132fe838600304160ec09222c5bb7197462b44d8220e5ff47d7a0280ed",
+      "source_sha256": "897d81132fe838600304160ec09222c5bb7197462b44d8220e5ff47d7a0280ed",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        202,
+        375
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-043.png",
+      "card_sha256": "f3313e5948734b537aea722f4aa92c907885dc220e49e6d97203e4eaeb39f0a5"
+    },
+    {
+      "sample_id": "V7-D-009",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "val",
+      "crop_sha256": "05925f323e5dd7409afe64694efc2283935f8f8950884731a940cbf0ebf4cb65",
+      "source_sha256": "05925f323e5dd7409afe64694efc2283935f8f8950884731a940cbf0ebf4cb65",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        318,
+        512
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        1,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-044.png",
+      "card_sha256": "2d4d935f0e3d5bfb8661c0b2b2116e0a3f0f64171eb918a5327971527f034efb"
+    },
+    {
+      "sample_id": "V7-D-026-R03",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "f4318aed03d262ecbb41699f94c48e4be5220b61a228afc604cee5b9b2aef477",
+      "source_sha256": "f4318aed03d262ecbb41699f94c48e4be5220b61a228afc604cee5b9b2aef477",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        245,
+        392
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 1002,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-045.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-045.png",
+      "card_sha256": "0f90d5216974ce6f534f47781eb4d446639a083ddbe9572969e974f09b94c4c8"
+    },
+    {
+      "sample_id": "V7-OE-S099-A01-ADD04-R02",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "0062584ff181a16d179361ef826e9813102e0959e7b175c87f1b3ebe7bbe3925",
+      "source_sha256": "0062584ff181a16d179361ef826e9813102e0959e7b175c87f1b3ebe7bbe3925",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        133,
+        177
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 1043,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-046.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-046.png",
+      "card_sha256": "ede7c6583bb2956b9cbcd2917f0cc2ca3e74f6a6fc1e5427bc1d81705cb99ca1"
+    },
+    {
+      "sample_id": "Y02-A01-F00031-R02",
+      "reasons": [
+        "looking_recurrent_at_least_two_seeds"
+      ],
+      "split": "train",
+      "crop_sha256": "1f6889fcf71630fedef8c3596e5e411a805efae1f636c053a9c05b4a5e16d902",
+      "source_sha256": "1f6889fcf71630fedef8c3596e5e411a805efae1f636c053a9c05b4a5e16d902",
+      "source_id": "reviewed-crop-inputs-20261023",
+      "crop_size": [
+        137,
+        191
+      ],
+      "native_roi_equal": true,
+      "has_derivation": true,
+      "current_states": [
+        0,
+        0
+      ],
+      "reasons_current": [
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023",
+        "Owner final visual audit; scoped policy V12-RECONCILE-PHONE-20261023"
+      ],
+      "augmentation": {
+        "run": "E007-V13-D1-S20261023",
+        "epoch": 7,
+        "cohort_index": 1096,
+        "epochs": [
+          7
+        ],
+        "sheet": "data/interim/looking-around-audit-20261024/supplementary/augmentation-047.png"
+      },
+      "card": "data/interim/looking-around-audit-20261024/supplementary/card-047.png",
+      "card_sha256": "5999f00110a75c5aa10aafd5c611b594bac44786ced16d6b250a0568924e3d52"
+    }
+  ]
+}

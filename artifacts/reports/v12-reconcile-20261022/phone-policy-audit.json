@@ -1,0 +1,1827 @@
+{
+  "policy": "V12-RECONCILE-PHONE-20261023",
+  "input": "reconciled-review-r3.json",
+  "input_sha256": "f0c80452c8e7195811b6057cc76961c3456f86b77f3aabffeb20df6ca8f917ae",
+  "reviewed_old_phone_U": 121,
+  "changed_to_N": 22,
+  "proposed_P_not_applied": 10,
+  "retained_U_no_new_acceptance": 89,
+  "scope_note": "Screened all 121 prior U; details for absence and proposed P. No global release acceptance. New crop policy changes in additional-annotations-draft-r3.json.",
+  "rows": [
+    {
+      "id": "CB-0001",
+      "crop_sha256": "5bf3b5199843e22f1ff7cea1088f6536345e8ffe873e3d2d6ba76ce58f012bfd",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "CB-0006",
+      "crop_sha256": "4cc02a8a2b825fdf4d1bed6f4267771a2217e17ca185fe1ff3a350cca5d1a7de",
+      "before": [
+        "U",
+        "P"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "P"
+      ]
+    },
+    {
+      "id": "CB-0043",
+      "crop_sha256": "ebb7c1c2e4c40f13b016a6389400c5bfbc77bdcb8a1d86e9f7e82f6cb010cd2a",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "CB-0059",
+      "crop_sha256": "e22323cccf8653917d9368c88dfa5cd9e59c7ca5b7faafeccd97ca7161203673",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "CB-0224-R1",
+      "crop_sha256": "c0f8cac2391f3e2beb711e5c6ae739c475fc839362a3e6ae8f1d3a9266474868",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "CB-0238-R1",
+      "crop_sha256": "520186339e62a404950cf9b3d9706c1ba11f1c038019a8f6cd46a819878bd292",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "CB-0280",
+      "crop_sha256": "b2ee4a770e483a87b37f9e7401eb061a0882181f2f702c543fe6031c4de706ac",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "CB-0396",
+      "crop_sha256": "b2aad3dfa029d1ff0552c7aae4be7e8affb8b7c8c9f06cfe38554fbb3df0440d",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "CB-0487",
+      "crop_sha256": "408c42a0e38ed9df536a69a345392a74472b31ae6b06f68a56191c3c525ef44d",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "CB-0496",
+      "crop_sha256": "8a21dd58627638b8a4b3eaefec6c09d01dc5317eca9423c13e67f212fbee0700",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "CB-0644",
+      "crop_sha256": "3cf5c3d7380fdc9ac568d922ebb2f823a707a7ad1cefd86d4f12f0e319061431",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "CB-0653",
+      "crop_sha256": "51185b2a0f481450fd80422d4adff24a7d54c48a001f2d93f46cbc6b4c17f1fc",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "CB-0700",
+      "crop_sha256": "2990087efb43d6a086ad6968231c0443f6d075bbf7a1af58fd2c14d7c24259d1",
+      "before": [
+        "U",
+        "P"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "P"
+      ]
+    },
+    {
+      "id": "CB-NEW-01",
+      "crop_sha256": "5004b23aee1ca539e8e48b56949014d7aad0447fa12b5a1b83a9cd258621ef04",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "CB-NEW-02",
+      "crop_sha256": "58b22a3e2afdbe4958ef1c5501f5bd3521502f3ba10f036c8be334cd91649101",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "E004-CN-024",
+      "crop_sha256": "03a3b5da43b42ffb3562ff2c94d338f3ed9af2511af8007b011621acd6f90aac",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "E004-CN-043",
+      "crop_sha256": "14a313da8e8a8836fb10d513c224be459998c2202548296c863ed3335ca58126",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "apply_visible_absence_N",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "N",
+        "N"
+      ]
+    },
+    {
+      "id": "E004-EX-C021-R2",
+      "crop_sha256": "8a1a0542637fc8dc2660cf74e11cb2b735f9956e4f016abef0f160b2cf42de9e",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "E004-EX-C055",
+      "crop_sha256": "7c71022766048eb5154717554dfd51e41d12fa2964e97f3ca4b1a025c2c8c2be",
+      "before": [
+        "U",
+        "P"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "P"
+      ]
+    },
+    {
+      "id": "E004-EX-C184",
+      "crop_sha256": "9c4718f9ee8c0f51e72bf79c48a134fca94f3e58e5a612a328ccecf121a6dc17",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "apply_visible_absence_N",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "N",
+        "N"
+      ]
+    },
+    {
+      "id": "EXP-CM-002",
+      "crop_sha256": "b42b8227e7fa0f97d1ec5d9e7ac97f7d5ee7221d5e346617fde9cc79e95d504a",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "EXP-CM-012",
+      "crop_sha256": "5711e51833802c51faef81f58526cd741ebc389d06b595da7e18b6b5be8a21de",
+      "before": [
+        "U",
+        "P"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "P"
+      ]
+    },
+    {
+      "id": "EXP-CM-017",
+      "crop_sha256": "ca276e8e58c1c122eb1b9a731e030ac6ccba9ff292947abd70eaaad55b1a4ced",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "EXP-CM-023",
+      "crop_sha256": "379af04d4260021fbfb8eda351ee4cc5fe4e68b83e8b1717c1b9c9516bbb8e7a",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "EXP-CM-024",
+      "crop_sha256": "3b60f0d7babe6c2125a7b065757cc16d4536b7a4f8d3be998ee3d9d45138d49f",
+      "before": [
+        "U",
+        "P"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "P"
+      ]
+    },
+    {
+      "id": "EXP-SCB-030",
+      "crop_sha256": "60fe72b097ade1414f7218fb5006fa6b5e08af6b84a256bf0280231b95cabc4a",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "apply_visible_absence_N",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "N",
+        "N"
+      ]
+    },
+    {
+      "id": "G01-A02-F00001-R02",
+      "crop_sha256": "9c1b0be55af24c8e0fbddbcf828e236f1cad1d9236c727a309f361f20676488e",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "G01-A02-F00018-R02",
+      "crop_sha256": "7263c7e0e961efe977ab84195da23dbc39d331a8b77be4d09ebd4e987a1221b9",
+      "before": [
+        "U",
+        "P"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "P"
+      ]
+    },
+    {
+      "id": "G02-A02-F00009-R02",
+      "crop_sha256": "1e09a0334019c7d16a5eda8afb8984d7754ad6b540f7863933bd1805a4ecf20e",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "apply_visible_absence_N",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "N",
+        "N"
+      ]
+    },
+    {
+      "id": "G04-A03-F00074-R02",
+      "crop_sha256": "dc4b0a758df041a738ca24dab0f0bb2dc8e99cd2daf164f5412ebf2f49741621",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "G04-B13-F00001",
+      "crop_sha256": "8a4cb7d0a204037939342cf84ff65ececfec3ba9791b5b9d6dbd0d209d6a0bfb",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "G05-A01-F00065-R02",
+      "crop_sha256": "c9cd81c6977761381c05b2ae6f0b38be22b891ed750a80b7d5688f297ff99fa7",
+      "before": [
+        "U",
+        "P"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "P"
+      ]
+    },
+    {
+      "id": "G06-B07-F00005",
+      "crop_sha256": "1cc61d69d663af1a30537ce6b4a02d9b728e30d61871948efc19d1d5fc6f50fd",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "G1-A01-F001",
+      "crop_sha256": "2987832504e9de4c84d142cdb8c14c96a764ad42683b019aa0eafd14809ae588",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "G1-A01-F010",
+      "crop_sha256": "f7fca60329ec0a9ca4793093111ecbea8c7e56a80bf631fdd555e91e06fe448e",
+      "before": [
+        "U",
+        "P"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "P"
+      ]
+    },
+    {
+      "id": "G1-A06-F001",
+      "crop_sha256": "0caaf58d4180a76002af172b22cef46ea704174fd6fe1476da736d709b01c8ec",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "G1-A06-F014",
+      "crop_sha256": "fdc36314572511117b74d1f6b89df162e9ba235795ac34aa6f501aa6af9ca7af",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "G11-B02-F00008",
+      "crop_sha256": "a228077e5f4dea089f5e37342806efbea6a3d20742f27bf6b2c2246f0ddb0db0",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "G11-B05-F00008",
+      "crop_sha256": "bf8a98936ca09feb97c27246491a962dde25766c7c7193124d7e4a946960858c",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "G11-B09-F00008",
+      "crop_sha256": "be8c1bb82c3cfe353febdb10ec3d03b249344ef7d8d2bc10549aa0f7f14b3357",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "apply_visible_absence_N",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "N",
+        "N"
+      ]
+    },
+    {
+      "id": "G12-B04-F00001",
+      "crop_sha256": "dca893478023c06e01ecb8835d730700e2181e0264216b6dc30a3ecc1e0fe39d",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "G13-B01-F00009",
+      "crop_sha256": "dbd676cca6af9fb7d67d82060cec5695b7bfd7466426f702f2da14de974bd7ee",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "G13-B03-F00010",
+      "crop_sha256": "7f0f0959781493633c278401d42d10e34fdc66d095b7ee3ad0adcf23105a521b",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "G13-B10-F00034",
+      "crop_sha256": "04db5481ab913aa58f2d71d53f8da7bb4dd114c94d32a811be43523cb5e6b2a4",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "G18-A03-F00001",
+      "crop_sha256": "a64a36f0ead29aca05a2fe002f6a208112929fea2230edc8c3bf31210123fa09",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "G2-A01-F214",
+      "crop_sha256": "78506de798feb1f4e553d09b02414ab54f2eb4690060e5ab5c1e37b4af63e271",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "G2-A02-F005",
+      "crop_sha256": "a53ca6301ce03fd53de3f87e3dfb2a40593c5ce6e26d7ddc740144af3d8a11d2",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "G2-A03-F099",
+      "crop_sha256": "ea7193b32dd372c6d2762f038d022f31d4be22bb252490496657e4f63db1d165",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "G2-A06-F001",
+      "crop_sha256": "b8f04fd582378951c9b0ed962ddb3fde08649102ea6e41e4aeba15230d1a8d8a",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "G2-A09-F001",
+      "crop_sha256": "e544c3bebccfacec0cc5921c20d6840c50a7731a6fc03dad48abd84cc01ec3ca",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "apply_visible_absence_N",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "N",
+        "N"
+      ]
+    },
+    {
+      "id": "G2-A10-F001",
+      "crop_sha256": "6cdb16fbd0a2ab4b663acf9dd374993fac32e2455dbb1b7dec6a6a3ce08b4f8b",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "G2-A11-F001",
+      "crop_sha256": "10310c027710289b2023fbca4ec5e2c2dc5d59ccef7dea8c3c12c4f7833a17d2",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "G22-B10-F00028",
+      "crop_sha256": "f77d14719e25893433b083d6614bd534fd6cde7a7edd4d427a0848989ea55f38",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "G23-A04-F00014",
+      "crop_sha256": "3bc2e68ee0a707d8452b7992175540925cc09766859288bb14e4733bda36540e",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "G23-B13-F00013",
+      "crop_sha256": "9ee555dbe771e36d3a75b7cccea1f748b7b5d1d32fe0a066b49c98e41c1293b5",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "G26-B18-F00012",
+      "crop_sha256": "27a17204e45dbb0a406d6ffa9c8410bfbb87f43ce365df66349994b267d8fd3b",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "G3-A07-F014",
+      "crop_sha256": "06d7ce36dfde2e691d8c6e77bf68a3d0d33d299a4df60196440e2fcdefbd74f6",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "G4-A01-F125",
+      "crop_sha256": "60b615fc09827ba29fd7ee2c3d346d747811b775dc4baef2e86354a4bb5a0352",
+      "before": [
+        "U",
+        "P"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "P"
+      ]
+    },
+    {
+      "id": "G4-A02-F125",
+      "crop_sha256": "1764e4757e82114d0199ffe08782c06c294186bf784e186f22e7491ba1715342",
+      "before": [
+        "U",
+        "P"
+      ],
+      "result": "apply_visible_absence_N",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "N",
+        "P"
+      ]
+    },
+    {
+      "id": "G4-A04-F125",
+      "crop_sha256": "584d3a36eb683c10db2fdbe9aaac03b3ec733aa934b12d2c9ee6d4d2809ba25f",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "G5-A01-F001",
+      "crop_sha256": "a36b5816fe3197f29798696ebb2876709c8073fac7b8d73c9e239a42d71ae942",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "G5-A02-F109",
+      "crop_sha256": "57102c89cb9051ae993d449e262bb0d9ba4fa588d2bfc4f0961ee352c52e3102",
+      "before": [
+        "U",
+        "P"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "P"
+      ]
+    },
+    {
+      "id": "G5-A07-F001",
+      "crop_sha256": "2527bd7cd7fc212f391ab1c185052ef966d5dfa95ca0e2fd0bd9ff7f64756007",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "G5-A10-F065",
+      "crop_sha256": "c4183c9fc4e1995743a443a7723132df0f4b96caba9a23bf8353ecd0e7f816a0",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "G5-A11-F047",
+      "crop_sha256": "2fa0bb109886c166fdf93486728ac8ca991b378ea28eb8e6a443f1d32a6c2d99",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "apply_visible_absence_N",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "N",
+        "N"
+      ]
+    },
+    {
+      "id": "NB-0023",
+      "crop_sha256": "433bf0ceacb379fa5a4b8e89e30c836bc922858a77626a2045a7b963f2c87784",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "apply_visible_absence_N",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "N",
+        "N"
+      ]
+    },
+    {
+      "id": "NB-0036-R1",
+      "crop_sha256": "f4585baaacb3deb57ed2587278664b52cd08adea74af7575e2639e2d156926c6",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "NB-0061",
+      "crop_sha256": "7b1a811813bcda1adb57ca69bf9888bc95e3f00f407283308a8ed1868aff44f6",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "P002-person-01",
+      "crop_sha256": "c502039853a3c963540d09e06c868f67f7cbba224e652fd709955befa457d938",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "P006-person-02",
+      "crop_sha256": "222740a05e57ab84bcda1800ff5b83435c94e49a8075c33a157c70329afcac92",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "P022-person-01",
+      "crop_sha256": "d3fe94dce7554137de01367580ed72a3e3937394938ee0f6026f7ddfbc7d3006",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "P028-person-01",
+      "crop_sha256": "4c86d9fb09545175acd6dc0c9df5974a742ed6adae572a222fa48bf7e80bbd0d",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "P029-person-01",
+      "crop_sha256": "4d1cf907d9cf7cd4ec417cb83310410b8095d3196fdb997ff34a3d851c26fc2e",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "SCB-read-015",
+      "crop_sha256": "8e1231a6acfdc6801ee9235e990ec660ab24b81cc0e0b45309631c606500d009",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "apply_visible_absence_N",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "N",
+        "N"
+      ]
+    },
+    {
+      "id": "SCB-read-028",
+      "crop_sha256": "6f2b4f2c58cd32698deb52f6df8bd8aee22bcb1f73fd26aca09a03c317ebfc61",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "apply_visible_absence_N",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "N",
+        "N"
+      ]
+    },
+    {
+      "id": "SCB-turnhead-003",
+      "crop_sha256": "b0983adb31f5bd40d950bebaf004c35ff1a5ca87fbf57165ae153fd578d7b238",
+      "before": [
+        "U",
+        "P"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "P"
+      ]
+    },
+    {
+      "id": "SCB-turnhead-005",
+      "crop_sha256": "4cd2471369f6b2442bf719fabe27fb8622e38f8910e6175539d23c5ac36d16d1",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "apply_visible_absence_N",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "N",
+        "N"
+      ]
+    },
+    {
+      "id": "SCB-write-015",
+      "crop_sha256": "ed1e45814551dc17440b310b82495364873249228c03a2ed38c54a41ed2c39aa",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "apply_visible_absence_N",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "N",
+        "N"
+      ]
+    },
+    {
+      "id": "V6-CA-034",
+      "crop_sha256": "b3656ffb1a276f9158d5b8fc531cc0cd12e86a344bdbc887e35e34c7941b6430",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "apply_visible_absence_N",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "N",
+        "N"
+      ]
+    },
+    {
+      "id": "V6-CA-047",
+      "crop_sha256": "eeadd17a54ae319d6e3fefd9227af46712c671a136bc6da6cb3f2add73dda291",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "V6-EX-003",
+      "crop_sha256": "a86fca7b7d4b11ad0a874d05ffd452b0151beed286d4479b582f26c51b2e0049",
+      "before": [
+        "U",
+        "U"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "U"
+      ]
+    },
+    {
+      "id": "V6-EX-025",
+      "crop_sha256": "ef6b997073fb9e61270f4dc92f02b20c63cbe0f1bdfc53636e6d9a04388d89fe",
+      "before": [
+        "U",
+        "P"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "P"
+      ]
+    },
+    {
+      "id": "V6-EX-038",
+      "crop_sha256": "eaf2dc2a5a1a6ece489e0729536cdb05deee060baa922eb6b3f17c8a7ecc38ea",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "apply_visible_absence_N",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "N",
+        "N"
+      ]
+    },
+    {
+      "id": "V6-SB-005",
+      "crop_sha256": "beff66747ea0dae41ebc5bffe353aaea7499a4ed3fc5ff3f1046b110c54f1b92",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "V6-SB-015",
+      "crop_sha256": "a131fb74247ecebe9a1028aeb0b7bf5098c33fc69bb6438f833d7e6232a41fa9",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "V6R2-MP-003",
+      "crop_sha256": "ec330e747ec0a48f87a7c7326d57710c450ddba46933c1f10d34237edab5a3fb",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "V6R2-MP-009",
+      "crop_sha256": "6297d7e8cf1b3f6c9d2bfa335b722ce580f7ceacf1ef52bd29f4850411d566b2",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "V6R2-MP-017",
+      "crop_sha256": "01525b11952539872a3eba47eacea0579ba1b1ea630dc7d94bca2d9b4d7ffe83",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "apply_visible_absence_N",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "N",
+        "N"
+      ]
+    },
+    {
+      "id": "V6R2-MP-031",
+      "crop_sha256": "ef1fe7c192470be309342f253da688074d46d9cc65544b07a463c91b74005286",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "V6R2-MP-034",
+      "crop_sha256": "7f2a09ab46777b9edaf914ed32bddf0199bb2aba13fb551bbae6623bae9c08ed",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "V6R2-MP-035",
+      "crop_sha256": "828303d3f57d5ade248dcf337dc5602a25993cb0cddeb33f1786a2888b09913a",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "V6R2-MP-050",
+      "crop_sha256": "f43a7fc1eaa97d2bad751cdc677234422a1f6f92608fca7c6eee4bac9efbe214",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "apply_visible_absence_N",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "N",
+        "N"
+      ]
+    },
+    {
+      "id": "V6R2-MP-062",
+      "crop_sha256": "839d48e7d1fdc06033a81b4518cb5fade421cccfe4d6a2fec44a9ff4d9e32641",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "V6R2-MP-066",
+      "crop_sha256": "df23ee736baea3eb054fe77f003d42e13b5e4a938f4eb9552b96265a32e59d43",
+      "before": [
+        "U",
+        "P"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "P"
+      ]
+    },
+    {
+      "id": "V6R2-MP-067",
+      "crop_sha256": "ee73a8ec0403a1d9b3d4ab45839bc94de5322ec8804d059451397ab9426a32a3",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "V6R2-MP-068",
+      "crop_sha256": "f575865f7dad4e389c092be96e37f093cfd76ea41741557943d41b93ed022336",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "V6R2-MP-072",
+      "crop_sha256": "8e2da1cc3ff0e71d39d8443073151bb050e631d427a2fdaa2e083251f2d30543",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "apply_visible_absence_N",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "N",
+        "N"
+      ]
+    },
+    {
+      "id": "V6R2-MP-079",
+      "crop_sha256": "acb6518884f399265411d70ad63a1771041268873aa543c6d7db66d69301def2",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "V6R2-MP-089-R04",
+      "crop_sha256": "66c4b0d8ad76eecb5df6994d01a32d9903ac66151f472d658e2115c43bb7ca2c",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "V6R2-SB-010",
+      "crop_sha256": "896a07fd117075d2006812e17342ce64ac1d107d5c10c1a1c10e6ac41c66f870",
+      "before": [
+        "U",
+        "P"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "P"
+      ]
+    },
+    {
+      "id": "V7-A-004-ADD02",
+      "crop_sha256": "d3ebdce114c8cd218978130ffd44d1a8727ddccfda6dfe780e5ff57ccaf50da4",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "propose_P_owner_review",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "V7-B-001",
+      "crop_sha256": "c1ebf988da10da331f6aef5eff320d961b08382e962e79c75263a8802186b951",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "propose_P_owner_review",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "V7-B-031-R03",
+      "crop_sha256": "d6e4cc1f28a71ca20670f8e21ea029b0c3710ab19910cbcfd6e2b76dd7b6c680",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "propose_P_owner_review",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "V7-B-047",
+      "crop_sha256": "f01c75f74964e1c0468c0203ddb8af3510a492217302b98479bfe8b424409dbc",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "propose_P_owner_review",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "V7-B-051-ADD01",
+      "crop_sha256": "663a2aecefe0fa627f8529cdb4f2a37bfb383286038d33199a98e9b804886320",
+      "before": [
+        "U",
+        "P"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "P"
+      ]
+    },
+    {
+      "id": "V7-B-051-ADD02",
+      "crop_sha256": "bc448a3a616bbf8ba99f136bc3266e2d5e4a6249443af6d58f71f5affc4f568b",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "V7-B-057",
+      "crop_sha256": "3085b03f99b72a5e01fa6d090e745cbe6b9fe09495c6564db1ce32cf73c56946",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "propose_P_owner_review",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "V7-B-061",
+      "crop_sha256": "2f3f0358c57a4253038bf05efd715c523c93da16a677b72c15efc73356b8475f",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "V7-B-077-R03",
+      "crop_sha256": "6276d56d2cd46dc851ed1859180f6cd125726bec0407f4341f2730b6d4b7ac22",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "propose_P_owner_review",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "V7-C-001-R03",
+      "crop_sha256": "b86ab9845c202ca0c6f17addc838366d5eb13ed98368153d7bd536c3b777e201",
+      "before": [
+        "U",
+        "P"
+      ],
+      "result": "apply_visible_absence_N",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "N",
+        "P"
+      ]
+    },
+    {
+      "id": "V7-C-009-R03",
+      "crop_sha256": "6c86d6be1d82eba31c664aede6dfea89d5686a1b63e57271e3d6f3720b566d7c",
+      "before": [
+        "U",
+        "P"
+      ],
+      "result": "apply_visible_absence_N",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "N",
+        "P"
+      ]
+    },
+    {
+      "id": "V7-C-015-R03",
+      "crop_sha256": "e93ca60201fdaba6a79e470bfb92d345dbdc19ac3f500bc9d73aa4e44c0cb699",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "V7-C-039",
+      "crop_sha256": "0df8c4a14c4721eee5b092875edb35e433388dd6af84e37c13b34a78129b8476",
+      "before": [
+        "U",
+        "P"
+      ],
+      "result": "apply_visible_absence_N",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "N",
+        "P"
+      ]
+    },
+    {
+      "id": "V7-D-015-R03",
+      "crop_sha256": "0b834278b88b4e27344da7b8a7403acdd86847634cc35cf4329abb1c0569b5ab",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "V7-D-017-R03",
+      "crop_sha256": "114a97b53bed07c2facae467e036b246cadacbdff962bd3880a04cdbac89b30f",
+      "before": [
+        "U",
+        "P"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "P"
+      ]
+    },
+    {
+      "id": "V7-D-051",
+      "crop_sha256": "aeb296e4881ef46032a60601610cd2e9d26e7973f21ee6cb823baac4794e702a",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "propose_P_owner_review",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "V7-D-053",
+      "crop_sha256": "d91b3cb18568868bd16dbc13762ff8c19f22085b86400ee27ee04725a33148e5",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "apply_visible_absence_N",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "N",
+        "N"
+      ]
+    },
+    {
+      "id": "V7-OE-S104-A01",
+      "crop_sha256": "e6c16e0f937ccd30091732308e7d20d4582c1b3752449f2840ed66999c44732a",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "propose_P_owner_review",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "V7-OE-S108-A01",
+      "crop_sha256": "a6e5d270e1fed4dadd5c7b1dc72520eec5712f2364ffb8cb13a178c42a78c6f3",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "propose_P_owner_review",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "V7-OE-S111-A01-R03",
+      "crop_sha256": "67175e2226d2b86f282f4aae4621a64dce689fc1b4feddb04ee898ed502d4526",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "propose_P_owner_review",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": true,
+      "after": [
+        "U",
+        "N"
+      ]
+    },
+    {
+      "id": "V7-OE-S116-A01",
+      "crop_sha256": "829b58d55cfb56f76a1a9d406759b955131847f4d772940e7099f3d8d9d047ec",
+      "before": [
+        "U",
+        "N"
+      ],
+      "result": "retain_U_visible_object_needs_disambiguation",
+      "evidence": "phone-u-board-index.json",
+      "detail_review": false,
+      "after": [
+        "U",
+        "N"
+      ]
+    }
+  ]
+}

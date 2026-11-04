@@ -1,0 +1,47 @@
+<!doctype html><html lang="vi"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kiểm chứng cadence tracking</title>
+<style>
+body{font:16px system-ui;margin:24px;color:#18313d;background:#f3f6f9}
+table{border-collapse:collapse;background:white}td,th{border:1px solid #ccd6df;padding:8px 16px}
+.bar{position:sticky;top:0;padding:12px;background:white;border:1px solid #cbd5df;z-index:2}
+button,select,input{font:inherit;padding:7px;margin:4px}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+article{background:white;padding:12px}canvas{width:100%;cursor:zoom-in}
+canvas:fullscreen{width:100vw;height:100vh;object-fit:contain;background:#111}
+.note{padding:12px;background:#fff0d0}input[type=range]{width:30%}
+@media(max-width:850px){.grid{grid-template-columns:1fr}}
+</style>
+<h1>Cadence tracking · B0 1 Hz / C5 5 Hz / C10 10 Hz</h1>
+<p>Detections tại các mốc 1 Hz được giữ nguyên từ V8S/G0. Frame bổ sung chỉ chạy detector.
+Không có classifier scores mới. ID chỉ có nghĩa trong từng arm.</p>
+<p class="note">Đây là diagnostic trên clip đã biết, chưa nghiệm thu chất lượng.
+Khác ID tại hai đầu chưa chứng minh không nối nhầm ở giữa. Xem toàn đoạn 7–11 s và 35–40 s.</p>
+<div id="summary"></div>
+<div class="bar"><label>Phạm vi <select id="scope"><option value="parent">60 mốc 1 Hz chung</option>
+<option value="case">Case 7–11 s, nhịp dày</option><option value="motion">Đoạn 35–40 s, nhịp dày</option>
+<option value="all">Tất cả ảnh review</option></select></label>
+<button id="prev">←</button><button id="next">→</button><input type="range" id="slider" min="0" value="0">
+<strong id="stamp"></strong></div>
+<div class="grid" id="views"></div>
+<p>Nhấn ảnh để phóng to. Box gốc; “?” đỏ là chưa được tracker xuất ID.
+Ở frame không thuộc nhịp của arm, ảnh chỉ hiển thị source và ghi “không có sample”, không nội suy track.</p>
+<p id="deadline"></p>
+<script id="payload" type="application/json">__PAYLOAD__</script>
+<script>
+const d=JSON.parse(document.getElementById('payload').textContent),$=id=>document.getElementById(id);
+let shown=[],n=0,token=0;
+$('deadline').textContent='Local owner-only · deadline '+d.media_delete_by;
+$('summary').innerHTML='<table><tr><th>Arm</th><th>Assigned tại 60 mốc chung</th><th>ID tại 8s / 9s</th></tr>'+Object.entries(d.summary.arms).map(([a,r])=>
+`<tr><td>${a}</td><td>${r.common_1hz.assigned}/${r.common_1hz.observations}</td><td>${r.known_case.track_ids.join(' / ')}</td></tr>`).join('')+'</table>';
+for(const a of ['B0','C5','C10']){$('views').insertAdjacentHTML('beforeend',`<article><h2>${a}</h2><p id="info-${a}"></p><canvas id="c-${a}"></canvas></article>`);
+$('c-'+a).onclick=()=>$('c-'+a).requestFullscreen?.()}
+function select(){const mode=$('scope').value;shown=d.frames.filter(f=>mode==='all'||mode==='parent'&&d.parent_indices.includes(f.frame_index)||mode==='case'&&f.video_time_ms>=7000&&f.video_time_ms<=11000||mode==='motion'&&f.video_time_ms>=35000&&f.video_time_ms<=40000);n=0;$('slider').max=shown.length-1;render()}
+function render(){const f=shown[n],t=++token;$('slider').value=n;$('stamp').textContent=`${(f.video_time_ms/1000).toFixed(1)}s · frame ${f.frame_index} · ${n+1}/${shown.length}`;
+const image=new Image();image.onload=()=>{if(t!==token)return;for(const a of ['B0','C5','C10']){
+const c=$('c-'+a);c.width=image.width;c.height=image.height;const ctx=c.getContext('2d');ctx.drawImage(image,0,0);
+const row=f.arms[a];$('info-'+a).textContent=row?`${row.assignments.length} observations`:'Không có sample ở nhịp này';
+if(!row)continue;for(const r of row.assignments){const b=r.person_box,id=r.track_id;
+ctx.strokeStyle=id===null?'#ff3333':`hsl(${id*137.508%360} 95% 45%)`;ctx.lineWidth=3;ctx.strokeRect(b[0],b[1],b[2]-b[0],b[3]-b[1]);
+const label=`${id===null?'?':'T'+id} / ${r.anchor_id.split('-').pop()}`,y=Math.max(18,b[1]);ctx.font='bold 16px sans-serif';ctx.fillStyle='#000d';ctx.fillRect(b[0],y-18,ctx.measureText(label).width+6,21);ctx.fillStyle='white';ctx.fillText(label,b[0]+3,y)}}};image.src=f.image}
+$('scope').onchange=select;$('prev').onclick=()=>{n=Math.max(0,n-1);render()};$('next').onclick=()=>{n=Math.min(shown.length-1,n+1);render()};$('slider').oninput=e=>{n=Number(e.target.value);render()};select();
+</script></html>

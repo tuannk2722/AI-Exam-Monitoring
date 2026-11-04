@@ -1,0 +1,82 @@
+<!doctype html><html lang="vi"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Review tracking N0 / B0 / B1</title>
+<style>
+body{font:15px system-ui;margin:24px;color:#172d3b;background:#f5f7fa}
+h1{margin-bottom:8px}p{max-width:1100px}button,select,input{font:inherit;padding:7px;margin:3px}
+.bar{position:sticky;top:0;background:#fff;padding:10px;z-index:2;border:1px solid #ced8e0}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+article{background:white;padding:10px;border:1px solid #ced8e0}canvas{width:100%;cursor:zoom-in}
+canvas:fullscreen{width:100vw;height:100vh;object-fit:contain;background:#111}
+table{border-collapse:collapse;background:#fff;width:100%}td,th{padding:8px;border:1px solid #ccd5df}
+#cases{max-height:420px;overflow:auto;margin-top:12px}textarea{width:95%;min-height:45px}
+.muted{color:#526575}.warning{padding:10px;background:#fff0d1}input[type=range]{width:35%}
+@media(max-width:850px){.grid{grid-template-columns:1fr}}
+</style>
+<h1>Review tracking · N0 / B0 / B1</h1>
+<p>60 samples · 1 Hz · cùng detections V8S/G0. Mã track chỉ dùng trong session.
+Nhấn ảnh để phóng to. Box là detection gốc; màu đỏ và “?” là chưa được tracker xuất.</p>
+<p class="warning">Chưa nghiệm thu chất lượng. Nhóm track là đề xuất của thuật toán, không phải ground truth.
+Không suy số người từ số track. Xem đủ chuỗi trước khi xác nhận; đánh dấu không rõ khi bị che khuất.</p>
+<div id="summary"></div>
+<div class="bar"><button id="prev">← Trước</button><button id="next">Sau →</button>
+<input id="slider" type="range" min="0" max="59" value="0"><strong id="stamp"></strong>
+<label><input type="checkbox" id="seen">Đã xem sample này</label><span id="coverage"></span></div>
+<div class="grid" id="views"></div>
+<h2>Ghi nhận batch</h2><p>Ghi lỗi/ngoại lệ theo frame và anchor. Ghi nhận này chưa tự tạo nhãn identity
+hoặc metrics ID switch. Export JSON để bàn giao; dữ liệu nháp được lưu trong trình duyệt này.</p>
+<label>Đề xuất của owner: <select id="winner"><option value="pending">Chưa chọn</option>
+<option>N0</option><option>B0</option><option>B1</option><option value="none">Chưa đạt</option></select></label>
+<textarea id="note" placeholder="Nhận xét chung, lỗi còn chấp nhận, giới hạn cần xử lý"></textarea>
+<button id="export">Xuất review JSON</button><span id="saved"></span>
+<h2>Shortlist và nhóm track tự động</h2>
+<p>Mỗi nhóm có thể chọn để đi qua các samples liên quan. “Có vấn đề” cần ghi rõ đổi người,
+track trùng, mất detection, mất assignment hoặc phục hồi sau che khuất. Không cần annotate từng ảnh.</p>
+<label>Lọc: <select id="filter"><option value="all">Tất cả</option><option value="unassigned">Chưa gán</option>
+<option value="gap">Có gap</option><option value="draft_track_group">Nhóm track</option></select></label>
+<div id="cases"></div><p class="muted" id="retention"></p>
+<script id="payload" type="application/json">__PAYLOAD__</script>
+<script>
+const d=JSON.parse(document.getElementById('payload').textContent), key='tracking-review-'+d.benchmark_sha256;
+let saved;try{saved=JSON.parse(localStorage.getItem(key)||'null')}catch(e){}
+const state=saved||{schema_version:'tracking-owner-review-draft-v1',benchmark_sha256:d.benchmark_sha256,
+media_delete_by:d.media_delete_by,seen:[],cases:{},winner:'pending',note:''};
+const $=id=>document.getElementById(id);let sample=0, renderToken=0;
+function persist(){try{localStorage.setItem(key,JSON.stringify(state));$('saved').textContent='Đã lưu nháp'}
+catch(e){$('saved').textContent='Không lưu được tại máy; hãy xuất JSON'}}
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+$('retention').textContent='Deadline media: '+d.media_delete_by+' · local owner-only · không upload.';
+$('summary').innerHTML='<table><tr><th>Arm</th><th>Assigned</th><th>Chưa gán</th><th>Tracks (không phải số người)</th></tr>'+
+Object.entries(d.summaries).map(([a,s])=>`<tr><td>${a}</td><td>${s.assigned}/${s.observations}</td><td>${s.unassigned}</td><td>${s.track_count}</td></tr>`).join('')+'</table>';
+for(const arm of ['N0','B0','B1']){$('views').insertAdjacentHTML('beforeend',`<article><h2>${arm}</h2><canvas id="canvas-${arm}"></canvas></article>`);
+$('canvas-'+arm).onclick=()=>{$('canvas-'+arm).requestFullscreen?.()}}
+function render(){const token=++renderToken,f=d.frames[sample];$('slider').value=sample;
+$('stamp').textContent=`${sample+1}/60 · ${f.video_time_ms/1000}s · frame ${f.frame_index}`;
+$('seen').checked=state.seen.includes(sample);$('coverage').textContent=` Đã xem ${state.seen.length}/60`;
+const image=new Image();image.onload=()=>{if(token!==renderToken)return;for(const arm of ['N0','B0','B1']){
+const c=$('canvas-'+arm);c.width=image.width;c.height=image.height;const x=c.getContext('2d');x.drawImage(image,0,0);
+for(const r of d.arms[arm][sample].assignments){const b=r.person_box,t=r.track_id;
+x.strokeStyle=t===null?'#ff3333':`hsl(${(t*137.508)%360} 95% 45%)`;x.lineWidth=3;x.strokeRect(b[0],b[1],b[2]-b[0],b[3]-b[1]);
+const label=`${t===null?'?':'T'+t} / ${r.anchor_id.split('-').pop()}`;x.font='bold 15px sans-serif';
+const y=Math.max(17,b[1]);x.fillStyle='#000d';x.fillRect(b[0],y-17,x.measureText(label).width+6,20);
+x.fillStyle='white';x.fillText(label,b[0]+3,y)}}};image.src=f.image;}
+$('prev').onclick=()=>{sample=Math.max(0,sample-1);render()};$('next').onclick=()=>{sample=Math.min(59,sample+1);render()};
+$('slider').oninput=e=>{sample=Number(e.target.value);render()};$('seen').onchange=e=>{state.seen=state.seen.filter(n=>n!==sample);
+if(e.target.checked)state.seen.push(sample);persist();render()};
+$('winner').value=state.winner;$('note').value=state.note;
+$('winner').onchange=e=>{state.winner=e.target.value;persist()};$('note').oninput=e=>{state.note=e.target.value;persist()};
+function caseTable(){const filter=$('filter').value;const visible=d.cases.filter(c=>filter==='all'||c.kind===filter||(filter==='gap'&&c.gaps?.length));
+$('cases').innerHTML='<table><tr><th>Case / samples</th><th>Review</th><th>Ghi chú / frame / anchor</th></tr>'+visible.map(c=>{
+const r=state.cases[c.case_id]||{status:'pending',note:''};return `<tr><td>${esc(c.case_id)} · ${c.samples.length} samples<br>`+
+c.samples.map(n=>`<button data-sample="${n}">${n}s</button>`).join('')+`</td><td><select data-status="${esc(c.case_id)}">`+
+[['pending','Chưa xem'],['reviewed_ok','Đã xem, không thấy lỗi'],['issue','Có vấn đề'],['uncertain','Không rõ']].map(([v,t])=>
+`<option value="${v}" ${v===r.status?'selected':''}>${t}</option>`).join('')+`</select></td><td><textarea data-note="${esc(c.case_id)}">${esc(r.note)}</textarea></td></tr>`}).join('')+'</table>';
+$('cases').querySelectorAll('[data-sample]').forEach(b=>b.onclick=()=>{sample=Number(b.dataset.sample);render();$('views').scrollIntoView()});
+for(const type of ['status','note'])$('cases').querySelectorAll('[data-'+type+']').forEach(e=>e.onchange=()=>{const id=e.dataset[type];
+state.cases[id]??={status:'pending',note:''};state.cases[id][type]=e.value;persist()});}
+$('filter').onchange=caseTable;$('export').onclick=()=>{const payload={...state,exported_at:new Date().toISOString(),
+quality_acceptance:'owner_draft_requires_import',reviewed_sample_count:state.seen.length};
+const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([JSON.stringify(payload,null,2)],{type:'application/json'}));
+a.download='tracking-owner-review.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)};
+caseTable();render();
+</script></html>

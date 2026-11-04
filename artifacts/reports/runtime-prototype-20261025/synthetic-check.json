@@ -1,0 +1,17 @@
+{
+  "schema_version": "runtime-synthetic-check-v1",
+  "status": "PASS",
+  "input": "generated solid-colour images/video only; no dataset/media access",
+  "real_detector_empty_frame": true,
+  "real_classifier_finite_two_scores": true,
+  "synthetic_video_frames": 3,
+  "synthetic_video_observations": 0,
+  "crop_path_fixture_observations": 1,
+  "fixture_detector_used_only_for_crop_path": true,
+  "elapsed_seconds": 11.08518739999272,
+  "config_sha256": "dbab350d2cebef75294a92d36b046615eed22242cae102b1f5513cdda6e08ddf",
+  "checkpoint_sha256": "cb86da628495996a15135d0d1b400ef410d29383c49f20e6c763c838eb85b500",
+  "source_cache_preexisted": true,
+  "quality_acceptance": false,
+  "limitations": "No evidence of detection/behavior quality; no CUDA parity or real video QA."
+}

@@ -1,0 +1,23 @@
+{"geometry_qa":[
+{"id":"V7-OE-S061-A01-R05","result":"pass_draft","states":["U","P"],"note":"Native/input đủ tóc, đầu quay khỏi bài rõ, tay bị bàn che nên U; nền chỉ phần thân/tay nhỏ."},
+{"id":"V6R2-EX-010-R05","result":"needs_revision","states":["U","P"],"note":"Còn cắt đầu ngón trái sát biên; nới thêm trái trước khi chốt."},
+{"id":"V7-C-125-R05","result":"pass_draft","states":["N","N"],"note":"Tóc và hai tay viết đầy đủ, một đầu trội; các phần người nền không che hành vi. Đã kiểm input."},
+{"id":"SCB-read-015-ADD01-R02","result":"needs_revision","states":["N","P"],"note":"Nới trên quá rộng lấy cả mặt người sau; thu trên vừa đủ tóc người trước."},
+{"id":"SCB-write-018-R05","result":"pass_draft","states":["N","N"],"note":"Đúng anchor nữ kính, đủ đầu/tay viết/tay giữ giấy; không mặt cạnh tranh tại native/input."},
+{"id":"SCB-write-019-R05","result":"pass_draft","states":["U","N"],"note":"Đầu đầy đủ và tay viết rõ, đầu theo trang; phần tay tựa gần cằm khó phân định vật nên phone U. Native/input đã kiểm."},
+{"id":"SCB-write-023-R05","result":"needs_revision","states":["N","N"],"note":"Tay bên trái vẫn sát/cắt biên; cần nới trái."},
+{"id":"SCB-write-027-R05","result":"needs_revision","states":["N","P"],"note":"Tóc vẫn cắt trên; nới lên thêm. Hai tay rõ, đầu hướng khỏi bài."},
+{"id":"V7-C-004-R05","result":"needs_revision","states":["N","N"],"note":"Khung lệch khỏi mặt và lấy người bên cạnh; phải chọn lại anchor trên nguồn."},
+{"id":"V7-C-010-R05","result":"needs_revision","states":["U","N"],"note":"Đúng nữ đang viết nhưng tay phải sát biên; nới phải thêm và giữ U nếu vẫn khuất."},
+{"id":"V7-OE-S099-A01-ADD01-R02","result":"pass_draft","states":["N","P"],"note":"Đầu đủ, hai tay khoanh rõ, đầu quay trái khỏi giấy; input đạt."},
+{"id":"V7-OE-S099-A01-ADD02-R02","result":"pass_draft","states":["N","N"],"note":"Đầu đủ và hai tay viết/giữ trang rõ, không mặt khác trong khung; input đạt."},
+{"id":"V7-OE-S099-A01-ADD03-R02","result":"pass_draft","states":["N","N"],"note":"Tóc đủ, hai tay trên trang và đầu theo bài; chỉ thân/tay nền ở mép, input đạt."},
+{"id":"V7-OE-S099-A01-ADD04-R02","result":"pass_draft","states":["N","P"],"note":"Tóc đủ, hai tay chắp trên bàn không thiết bị, đầu quay phải khỏi trang; input đạt."},
+{"id":"V6-SB-003-ADD01-R02","result":"needs_revision","states":["U","P"],"note":"Tóc đủ nhưng mặt người sau vẫn cạnh đầu và crop dài làm target nhỏ tại input. Chưa publish."},
+{"id":"V7-B-016-R05","result":"pass_draft","states":["N","N"],"note":"Tóc, tay viết và tay giữ trang đầy đủ; mép phải chỉ phần người cạnh, không còn mặt cạnh tranh. Đã kiểm input."},
+{"id":"V7-B-022-R05","result":"needs_revision","states":["N","N"],"note":"Đầu/tay viết rõ nhưng đầu ngón tay phải bị biên cắt; cần nới phải."},
+{"id":"V7-OE-S081-A01-ADD01","result":"pass_draft","states":["N","P"],"note":"Một người đầy đủ tóc, hai tay trên trang, nhìn khỏi trang; native/input không mặt cạnh tranh."},
+{"id":"V7-D-005-ADD01","result":"needs_revision","states":["P","N"],"note":"Mobile và đầu chính đủ nhưng mặt hai nữ nền/cạnh cạnh tranh, không publish khung này."},
+{"id":"V7-D-005-ADD02","result":"pass_draft","states":["U","P"],"note":"Nữ tóc vàng trội, đầu quay sang bạn khỏi giấy; tay khuất nên U. Chỉ mảnh mặt nền ở góc, không che target; native/input đã kiểm."},
+{"id":"V7-OE-S077-A01-R04","result":"pass_draft","states":["U","P"],"note":"Kiểm lại ảnh crop riêng và lưới nguồn: tóc đã đầy đủ với khoảng trống trên, nhận định cắt tóc ở board trước không đúng. Đầu quay phải rõ, tay dưới bàn U; một người trội tại input."}
+]}

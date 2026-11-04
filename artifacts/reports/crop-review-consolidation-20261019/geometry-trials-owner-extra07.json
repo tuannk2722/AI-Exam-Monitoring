@@ -1,0 +1,86 @@
+[
+  {
+    "parent": "V7-OE-S090-A01",
+    "id": "V7-OE-S090-A01-R05",
+    "person": [
+      336,
+      250,
+      503,
+      406
+    ],
+    "context": [
+      336,
+      250,
+      503,
+      406
+    ],
+    "states": [
+      "N",
+      "N"
+    ],
+    "reason": "Chọn người áo đen ở giữa đầu hướng tay và sách; bỏ người bên trái quay đầu."
+  },
+  {
+    "parent": "V7-B-035",
+    "id": "V7-B-035-ADD01-R03",
+    "person": [
+      53,
+      183,
+      165,
+      385
+    ],
+    "context": [
+      53,
+      183,
+      165,
+      385
+    ],
+    "states": [
+      "N",
+      "P"
+    ],
+    "reason": "Bỏ chân dư, giữ tóc, hai tay và sách của người quay trái."
+  },
+  {
+    "parent": "V7-C-046",
+    "id": "V7-C-046-R05",
+    "person": [
+      0,
+      199,
+      429,
+      704
+    ],
+    "context": [
+      0,
+      199,
+      429,
+      704
+    ],
+    "states": [
+      "U",
+      "P"
+    ],
+    "reason": "Thu trên bỏ mặt nền, giữ người áo đỏ và vật nghiêng trong tay; kiểm riêng phone."
+  },
+  {
+    "parent": "V7-OE-S009-A01",
+    "id": "V7-OE-S009-A01-ADD03",
+    "person": [
+      406,
+      194,
+      538,
+      392
+    ],
+    "context": [
+      406,
+      194,
+      538,
+      392
+    ],
+    "states": [
+      "N",
+      "P"
+    ],
+    "reason": "Nam áo xanh đậm ở giữa dãy trước, hai tay trên bàn và đầu nhìn người hướng dẫn."
+  }
+]

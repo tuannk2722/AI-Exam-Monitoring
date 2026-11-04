@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="vi" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Exam Review · Bàn duyệt hành vi</title>
+    <link rel="stylesheet" href="/assets/style.css" />
+    <script src="/assets/app.js" defer></script>
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#hub"
+        ><span class="brand-mark">◈</span
+        ><span
+          >EXAM<span class="brand-light">REVIEW</span
+          ><small>AI ASSISTED · HUMAN DECIDED</small></span
+        ></a
+      >
+      <nav aria-label="Điều hướng">
+        <button data-view="hub" class="nav active">
+          01 <span>Phiên video</span></button
+        ><button data-view="work" class="nav" disabled>
+          02 <span>Bàn duyệt</span></button
+        ><button data-view="summary" class="nav" disabled>
+          03 <span>Tổng kết</span>
+        </button>
+      </nav>
+      <div class="top-actions">
+        <span class="local"><i></i> Local workspace</span
+        ><button id="help" class="icon" title="Quy tắc & phím tắt">?</button
+        ><button id="theme" title="Đổi giao diện sáng/tối">
+          ☀ <span>Giao diện sáng</span>
+        </button>
+      </div>
+    </header>
+    <div id="notice" role="status" class="toast hidden"></div>
+    <main id="hub" class="view hub">
+      <div class="page-heading">
+        <div>
+          <h1>Mỗi quyết định, một bằng chứng.</h1>
+        </div>
+        <button id="refresh">↻ Làm mới</button>
+      </div>
+      <div class="principle">
+        <span>◎</span>
+        <div>
+          AI hỗ trợ quan sát, bạn đưa ra đánh giá.<small
+            >Track là mã tạm thời trong phiên. Hệ thống không định danh, kết
+            luận gian lận hay tự động kỷ luật.</small
+          >
+        </div>
+        <span class="badge">PROTOTYPE</span>
+      </div>
+      <div class="hub-grid">
+        <aside class="panel launch">
+          <div class="section-label">BẮT ĐẦU PHIÊN MỚI</div>
+          <h2>Video ghi sẵn</h2>
+          <p class="muted">Xử lý trên máy này với pipeline đã chọn.</p>
+          <form id="job-form">
+            <label
+              >Đường dẫn video MP4 local<input
+                id="source"
+                required
+                placeholder="D:\videos\clip.mp4"
+                autocomplete="off" /></label
+            ><label
+              >Receipt quyền media (.json)<input
+                id="receipt"
+                required
+                placeholder="Đường dẫn receipt đã duyệt"
+                autocomplete="off"
+            /></label>
+            <div class="pipeline">
+              <span>V8S</span><b>→</b><span>G0 · 1 Hz</span><b>→</b
+              ><span>C10 · 10 Hz</span><b>→</b><span>Events</span>
+            </div>
+            <p class="muted small">
+              Giữ nguyên model, ngưỡng và rule: ≥ 3 mẫu dương liên tiếp, span ≥
+              2 giây.
+            </p>
+            <button id="preflight" type="button" class="wide">
+              Kiểm tra video & quyền media
+            </button>
+            <div id="preflight-result" class="small"></div>
+            <button type="submit" class="primary wide">
+              ＋ Xử lý & tạo phiên
+            </button>
+          </form>
+          <div class="local-note">
+            ⌂ <strong>Dữ liệu ở lại máy của bạn</strong>
+            <p>
+              Receipt phải khớp SHA256 và còn hạn. Phiên mới không ghi đè kết
+              quả cũ.
+            </p>
+          </div>
+        </aside>
+        <section>
+          <div class="section-top">
+            <h2>
+              Phiên trong workspace
+              <span id="session-count" class="badge">—</span>
+            </h2>
+            <select id="session-filter" aria-label="Lọc trạng thái phiên">
+              <option value="all">Tất cả trạng thái</option>
+              <option value="completed">Hoàn tất</option>
+              <option value="running">Đang chạy</option>
+              <option value="queued">Đang chờ</option>
+              <option value="failed">Thất bại</option>
+            </select>
+          </div>
+          <div id="jobs"></div>
+          <div id="sessions" class="session-list">
+            <div class="empty">Đang đọc các phiên local…</div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <main id="work" class="view hidden work">
+      <div class="session-bar">
+        <div>
+          <span class="eyebrow">PHIÊN ĐANG DUYỆT</span
+          ><strong id="session-name"></strong>
+        </div>
+        <div class="review-progress">
+          <span id="progress-text"></span
+          ><progress id="progress" max="100" value="0"></progress
+          ><small id="save-status">Đã tải</small>
+        </div>
+        <div class="bar-actions">
+          <button id="pins">⌘ Provenance</button
+          ><button id="connect">Kết nối video</button
+          ><button id="import">↑ Nhập JSON</button
+          ><button id="export" class="primary">↓ Xuất review</button>
+        </div>
+      </div>
+      <div class="retention">
+        <span id="retention"></span><span id="acceptance"></span>
+      </div>
+      <div class="work-grid">
+        <aside class="panel queue">
+          <div class="queue-heading">
+            <h2>Hàng đợi review</h2>
+            <span id="queue-count" class="badge"></span>
+          </div>
+          <div class="tabs" id="queue-tabs">
+            <button class="active" data-tab="events">Sự kiện</button
+            ><button data-tab="short">Chuỗi ngắn</button
+            ><button data-tab="tracks">Tracks</button>
+          </div>
+          <div class="filters">
+            <input
+              id="search"
+              aria-label="Tìm sự kiện"
+              placeholder="⌕  Event, track, ghi chú…"
+            />
+            <div class="filter-row">
+              <select id="behavior" aria-label="Lọc hành vi">
+                <option value="all">Mọi hành vi</option>
+                <option value="phone_use">Điện thoại</option>
+                <option value="looking_around">Nhìn quanh</option></select
+              ><select id="status" aria-label="Lọc quyết định">
+                <option value="all">Mọi trạng thái</option>
+                <option value="candidate">Chưa duyệt</option>
+                <option value="confirmed">Xác nhận</option>
+                <option value="dismissed">Bác bỏ</option>
+                <option value="uncertain">Chưa rõ</option>
+                <option value="flagged">Đánh dấu</option>
+              </select>
+            </div>
+            <select id="sort" aria-label="Sắp xếp">
+              <option value="time">Thời gian · sớm đến muộn</option>
+              <option value="score">Điểm classifier · giảm dần</option>
+              <option value="duration">Span · dài đến ngắn</option>
+              <option value="track">Track ID</option>
+            </select>
+          </div>
+          <div id="queue-list" class="queue-list"></div>
+          <div class="queue-footer">
+            Mã track không phải danh tính thí sinh.
+          </div>
+        </aside>
+        <section class="viewer-column">
+          <div class="panel viewer">
+            <div class="viewer-toolbar">
+              <div class="checks">
+                <label
+                  ><input
+                    id="person-overlay"
+                    type="checkbox"
+                    checked
+                  />Person</label
+                ><label
+                  ><input
+                    id="context-overlay"
+                    type="checkbox"
+                    checked
+                  />Context</label
+                ><label
+                  ><input id="spotlight" type="checkbox" checked />Focus</label
+                ><label
+                  ><input id="scores-overlay" type="checkbox" />Scores</label
+                >
+              </div>
+              <select id="cadence" aria-label="Nhịp xem">
+                <option value="1">1 Hz · Classifier</option>
+                <option value="10">10 Hz · Tracker</option></select
+              ><button id="zoom" title="Phóng to ảnh">⛶</button>
+            </div>
+            <div id="canvas-wrap">
+              <canvas
+                id="canvas"
+                width="1280"
+                height="720"
+                aria-label="Khung hình nguồn và bounding boxes"
+              ></canvas>
+              <div id="media-state" class="media-state hidden"></div>
+            </div>
+            <div class="frame-info">
+              <span id="frame-info"></span
+              ><span id="cadence-info" class="badge"></span>
+            </div>
+            <div class="transport">
+              <button id="first" title="Đầu đoạn">|◀</button
+              ><button id="prev" title="Mẫu trước">←</button
+              ><button id="play" class="primary">▶ Phát đoạn</button
+              ><button id="next" title="Mẫu sau">→</button
+              ><button id="last" title="Cuối đoạn">▶|</button
+              ><span id="clock" class="mono"></span>
+            </div>
+            <input
+              id="scrubber"
+              type="range"
+              min="0"
+              max="59"
+              value="0"
+              aria-label="Tua thời gian video"
+            />
+          </div>
+          <div class="panel timeline-panel">
+            <div class="section-top">
+              <h3>Timeline sự kiện</h3>
+              <span class="muted small">Bấm một đoạn để xem evidence</span>
+            </div>
+            <div id="timeline"></div>
+            <div id="track-strip"></div>
+          </div>
+          <div class="viewer-note">
+            <span>◉</span>
+            <p>
+              <strong>Bối cảnh là một phần của bằng chứng.</strong> Quan sát cả
+              vùng bàn, tay và người bên cạnh trước khi xác nhận hành vi.
+            </p>
+          </div>
+        </section>
+        <aside class="panel inspector">
+          <div class="inspector-title">
+            <span class="eyebrow">BẰNG CHỨNG & QUYẾT ĐỊNH</span>
+            <h2 id="event-title">Chọn một sự kiện</h2>
+            <div id="event-meta" class="muted small"></div>
+          </div>
+          <div class="inspector-section">
+            <div class="crop-grid">
+              <figure>
+                <figcaption>CONTEXT CROP <span>v1</span></figcaption>
+                <div class="crop-box">
+                  <canvas id="crop-canvas" width="336" height="336"></canvas
+                  ><span id="crop-state"></span>
+                </div>
+              </figure>
+              <figure>
+                <figcaption>MODEL INPUT <span>336 × 336</span></figcaption>
+                <div class="crop-box">
+                  <img
+                    id="input-image"
+                    alt="Ảnh RGB letterbox đưa vào G0"
+                  /><span id="input-state"></span>
+                </div>
+              </figure>
+            </div>
+            <div id="anchor-info" class="mono small"></div>
+            <div id="scores"></div>
+          </div>
+          <div class="inspector-section">
+            <h3>Mẫu hỗ trợ <span id="support-count" class="badge"></span></h3>
+            <div id="filmstrip"></div>
+          </div>
+          <div class="risk">
+            <span>◇</span>
+            <div>
+              <strong>Risk chưa mở</strong
+              ><small
+                >Điểm classifier không phải mức rủi ro hay xác suất gian
+                lận.</small
+              >
+            </div>
+          </div>
+          <div class="inspector-section decisions">
+            <div class="section-top">
+              <h3>Đánh giá của bạn</h3>
+              <span id="decision-status" class="badge">Chưa duyệt</span>
+            </div>
+            <div class="decision-buttons">
+              <button data-decision="confirmed">1 · ✓ Xác nhận</button
+              ><button data-decision="dismissed">2 · × Bác bỏ FP</button
+              ><button data-decision="uncertain">
+                3 · ? Chưa rõ / xem thêm
+              </button>
+            </div>
+            <label class="small muted">Lý do / ngữ cảnh</label>
+            <div id="reasons" class="chips"></div>
+            <label
+              >Ghi chú<textarea
+                id="note"
+                rows="2"
+                placeholder="Bằng chứng quan sát được, vị trí tay/bàn…"
+              ></textarea></label
+            ><label class="flag"
+              ><input id="flag" type="checkbox" /> Đánh dấu ca tiêu biểu / ngoại
+              lệ</label
+            >
+            <div class="decision-footer">
+              <button id="reset">Đặt lại</button
+              ><button id="save-next" class="primary">Lưu & tiếp theo →</button>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </main>
+    <main id="summary" class="view hidden summary">
+      <div class="page-heading">
+        <div>
+          <div class="eyebrow">ĐỐI SOÁT & BÀN GIAO</div>
+          <h1>Một phiên, đầy đủ ngữ cảnh.</h1>
+          <p id="summary-name"></p>
+        </div>
+        <div>
+          <button id="back-work">← Trở lại bàn duyệt</button
+          ><button id="summary-export" class="primary">↓ Xuất JSON</button>
+        </div>
+      </div>
+      <div id="summary-stats" class="stats"></div>
+      <section class="panel summary-panel">
+        <h2>Kết quả review theo hành vi</h2>
+        <div id="summary-table"></div>
+      </section>
+      <section class="panel summary-panel">
+        <div class="section-top">
+          <h2>Đối soát observations</h2>
+          <span id="accounting-pass" class="badge"></span>
+        </div>
+        <div id="accounting"></div>
+      </section>
+      <div class="summary-grid">
+        <section class="panel summary-panel">
+          <h2>Ca đánh dấu & ngoại lệ</h2>
+          <div id="flagged-list"></div>
+        </section>
+        <section class="panel summary-panel">
+          <h2>Ghi chú bàn giao</h2>
+          <label
+            >Đánh giá cấp phiên<select id="disposition">
+              <option value="pending">Chưa chốt</option>
+              <option value="accepted_with_limitations">
+                Chấp nhận prototype với giới hạn
+              </option>
+              <option value="revisit">Cần xem lại</option>
+            </select></label
+          ><label
+            >Nhận xét tổng kết<textarea
+              id="summary-note"
+              rows="5"
+              placeholder="Giới hạn classifier, fragmentation và các ca cần lưu ý…"
+            ></textarea>
+          </label>
+          <p class="muted small">
+            Đánh giá phiên không thay quyết định từng event hoặc nghiệm thu chất
+            lượng độc lập.
+          </p>
+          <button id="markdown" class="wide">↓ Tải báo cáo Markdown</button>
+        </section>
+      </div>
+    </main>
+    <dialog id="modal">
+      <div class="modal-header">
+        <h2 id="modal-title"></h2>
+        <button id="close-modal" aria-label="Đóng">×</button>
+      </div>
+      <div id="modal-body"></div>
+    </dialog>
+    <input
+      type="file"
+      id="import-file"
+      accept="application/json,.json"
+      hidden
+    />
+  </body>
+</html>

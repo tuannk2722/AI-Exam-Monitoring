@@ -1,0 +1,18 @@
+{
+  "status": "owner_approved",
+  "date": "2026-10-26",
+  "owner_statement": "tôi đồng ý với đề xuất các bước thực hiện tiếp theo mà bạn nêu ở trên. hãy làm tiếp đi!",
+  "scope": [
+    "V8S_runtime_revision",
+    "selected_arm_crop_g0_review_19_frames",
+    "prepare_integrated_session_after_QA"
+  ],
+  "detector_quality_review": {
+    "path": "artifacts/reports/runtime-clip-qa-20261025/v8s-owner-review-20261026-r2.json",
+    "sha256": "6289b9363548c1dd0a54fe4b823afebb9e62b58ad5d78a76e3073fe4ae3fe1ed"
+  },
+  "known_misses_duplicates_accepted": true,
+  "automatic_suppression": false,
+  "G0_changes": false,
+  "confirmation_protocol_yet_defined": false
+}

@@ -1,0 +1,45 @@
+{
+  "decision_id": "E006-V12-20261020",
+  "status": "approved",
+  "owner": "repository-owner",
+  "recorded_at": "2026-10-20",
+  "authority": "User: t?i ??ng ? v?i h??ng b?n ph?n t?ch; h?y th?c hi?n; ti?n tr?nh t? ??ng, kh?ng ph? thu?c usage; ch? c?n report cu?i. User tr? l?i c?u h?i ph?m vi: Duy?t t?i ?a 9 run + smoke.",
+  "scope": "local_classifier_research",
+  "dataset": "pilot-b-20261020-v12",
+  "max_research_runs": 9,
+  "compute": {
+    "device": "cpu",
+    "threads": 4,
+    "wall_time_seconds_per_run": 7200
+  },
+  "pos_weight_candidates": [
+    [
+      1.13,
+      1.46
+    ],
+    [
+      1.56,
+      1.48
+    ],
+    [
+      2.44,
+      2.19
+    ]
+  ],
+  "quality_gates": {
+    "precision_min": 0.8,
+    "recall_min": 0.8,
+    "fpr_max": 0.2,
+    "positive_min": 30,
+    "negative_min": 30,
+    "positive_groups_min": 5,
+    "negative_groups_min": 5
+  },
+  "waive_independence": true,
+  "waive_support_shortfalls": true,
+  "waiver_scope": "Development research only; unsupported slices INCONCLUSIVE, no promotion or independent holdout claim. Full validation support remains required for 80/80/20.",
+  "final_test_inference_authorized": false,
+  "initialization": "ImageNet IMAGENET1K_V1 + fresh head, no warm start",
+  "automation": "Smoke interruption/resume + stage transition + reload parity; fail closed; five screening runs then two best S1 recipes on two more seeds; no uploads",
+  "selection_rule": "Screen: calibrated gate pass first, Macro AP descending, BCE ascending, recipe ID tie-break. Confirm: gate pass count, mean Macro AP, SD, mean BCE. Research recommendation only."
+}

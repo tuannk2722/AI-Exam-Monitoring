@@ -1,0 +1,11 @@
+{
+  "geometry_qa": [
+    {"id":"ADD-Y04-F00001-M01","result":"needs_revision","states":["U","P"],"note":"Nguồn nhỏ và mặt người sau gần bằng mặt chính; bản input không tách anchor đủ rõ."},
+    {"id":"ADD-Y04-F00008-M01","result":"pass_draft","states":["U","P"],"note":"Một mặt trội, đầu ngẩng trước khỏi trang; tay/bàn giữ nhưng chi tiết vật quá nhỏ để xác nhận absence mobile. Input còn đủ hướng đầu cho looking P."},
+    {"id":"ADD-Y04-F00008-M02","result":"needs_revision","states":["U","P"],"note":"Hai mặt gần cùng cỡ ở hàng sau; không giữ bản này làm crop một anchor."},
+    {"id":"ADD-Y04-F00030-M01","result":"needs_revision","states":["U","P"],"note":"Nhiều mặt sát nhau và cỡ gần bằng nhau, nguồn chỉ 480 px; không đạt tách anchor."},
+    {"id":"ADD-Y04-F00066-M01","result":"needs_revision","states":["U","P"],"note":"Mặt người sau nguyên, gần cỡ chính; đầu người trước và tay chồng vùng bàn. Cần đại diện khác hoặc không chọn."},
+    {"id":"ADD-Y05-F00071-M02","result":"needs_revision","states":["U","P"],"note":"Mặt phía sau phải còn gần trọn và cạnh tranh với anchor, tay bàn cũng chồng; chưa phát hành."},
+    {"id":"ADD-Y05-F00069-M02","result":"pass_draft","states":["N","P"],"note":"Đầu quay trái rõ khác góc ngẩng phải của đại diện cũ; hai tay và phần bàn riêng đủ thấy, không vật mơ hồ. Người sau chỉ còn mảnh mặt ở biên trên, anchor trội."}
+  ]
+}

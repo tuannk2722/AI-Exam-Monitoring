@@ -1,0 +1,9 @@
+{
+  "status": "Draft",
+  "gallery": "data/interim/v11-legacy-crop-audit-20261018/index.html",
+  "media_in_git": false,
+  "source_original": "archive/e004-v9-consolidation-20261013.zip",
+  "source_original_sha256": "8883c176060c82b31c7436dea341867448204e157a20f111c3560eae389342b3",
+  "gallery_sha256": "5d14b77e92607f9a979a40d07b2f58fc02a133200783be17ad722117909355aa",
+  "rebuild": "Run prepare.py, deep_review.py, then package_review.py using .venv/Scripts/python.exe -X utf8"
+}

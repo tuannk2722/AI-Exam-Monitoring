@@ -1,0 +1,18 @@
+{
+  "decision": "accepted_local_release",
+  "dataset_version": "pilot-b-20261024-v14",
+  "counts": {
+    "train": 1199,
+    "val": 156,
+    "test": 0
+  },
+  "basis": "Enrollment attestation derived from accepted V14; not a replacement release approval.",
+  "original_release": {
+    "path": "data/processed/pilot-b/pilot-b-20261024-v14/release.json",
+    "sha256": "83ffdecf5a1804c099dcb5223778e6908db100cdfd3e8cd4723022caef0665c2"
+  },
+  "owner_direction": {
+    "path": "artifacts/reports/dataset-release-20261024-v14/owner-direction.json",
+    "sha256": "df4bf8563e53cad763a275abc6341f6d79029ba21f7c0e549abfea631fecb768"
+  }
+}

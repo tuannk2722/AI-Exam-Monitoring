@@ -1,0 +1,31 @@
+{
+  "code_sha256": "e7810ca31a9a1bf1d2f110f1b348dafe8130f7f2717cb504ff0736f9a23cc8f7",
+  "full_unittest": {
+    "status": "PASS",
+    "tests": 210,
+    "seconds": 188.912
+  },
+  "focused_v4_tests": {
+    "status": "PASS",
+    "tests": 10
+  },
+  "ruff": "PASS",
+  "mypy": "PASS (55 source files)",
+  "compileall": "PASS",
+  "diff_whitespace": "PASS",
+  "repository_checker": "PASS current Git index only; new files intentionally unstaged",
+  "bundle": {
+    "path": "outputs/E007-V13-Colab-20261024/e007-colab-bundle.zip",
+    "sha256": "254596ddc336e3516cb39a7b7cf82ec9e1a4c6172aa650686b2df57574174c5c"
+  },
+  "bundle_bytes": 475567233,
+  "bundle_members": 1386,
+  "bundle_inventory_checksums": "PASS",
+  "notebook_python_syntax": "PASS",
+  "notebook_sha256": "14d3884c991b3259ba1de44337d76c846f824afe95b3457459056a7f30eeb0f6",
+  "upload": "NOT_UPLOADED",
+  "gpu_smoke": "NOT_RUN",
+  "research": "NOT_RUN",
+  "browser_blocker": "helper_sandbox_lock_failed despite filesystem full access",
+  "scratch_cleanup": "blocked by automatic approval review: blocked by policy; retained task scratch"
+}

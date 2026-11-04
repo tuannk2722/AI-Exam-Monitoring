@@ -1,0 +1,8 @@
+{
+  "recipes": [
+    "S1-SQRT",
+    "S1-RATIO"
+  ],
+  "rule": "gate_pass, macro_ap desc, BCE asc, recipe name",
+  "selected_at": "2026-10-20T15:31:04.941886+00:00"
+}

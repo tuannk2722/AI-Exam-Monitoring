@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "code_sha256": "7ac8c00a62162010a71233c7c99b83a90f118792bb66222cea5cc17e63c00dd3",
+  "tests": {
+    "test_spatial_representation": 6,
+    "test_representation": 10,
+    "test_e005_anchor_context": 5,
+    "test_training_adaptation": 16
+  },
+  "ruff": "PASS",
+  "mypy": "PASS (56 source files)",
+  "v14_cohorts_and_materialized_smoke_approval": "PASS",
+  "research_without_actual_gpu_smoke": "BLOCKED_AS_EXPECTED",
+  "notebook_python_syntax": "PASS",
+  "actual_gpu_smoke": "NOT_RUN_OWNER_WILL_EXECUTE",
+  "research": "NOT_RUN",
+  "tests_are_synthetic_not_actual_model_acceptance": true
+}

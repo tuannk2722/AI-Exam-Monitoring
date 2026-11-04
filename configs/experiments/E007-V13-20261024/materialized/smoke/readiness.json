@@ -1,0 +1,40 @@
+{
+  "schema_version": "representation-readiness-v4",
+  "status": "approved",
+  "owner": "repository-owner",
+  "scope": "smoke",
+  "independence_claim": false,
+  "protocol_sha256": "622344ab76866498da5f35d49c01a01ee9dec3b030c740087295f91364205436",
+  "cohorts_sha256": "d9ed02f73cc44656cc450054d45e49084088b2687e7344d17bf860bcabe01f90",
+  "execution_authorization": {
+    "path": "configs/experiments/E007-V13-20261024/owner-authorization.json",
+    "sha256": "29a608201b7a9db4c4ef935d487cc1928f6bc51584e5547f9d461ebaf99ce92a"
+  },
+  "smoke_receipt": null,
+  "evidence_pins": [
+    {
+      "path": "configs/experiments/E007-V13-20261024/owner-authorization.json",
+      "sha256": "29a608201b7a9db4c4ef935d487cc1928f6bc51584e5547f9d461ebaf99ce92a"
+    },
+    {
+      "path": "configs/experiments/E007-V13-20261023/proposal.yaml",
+      "sha256": "c82e728d1f4f681302d14c350ab76569cb97336ed740a551e8d2619173d6b3b7"
+    },
+    {
+      "path": "artifacts/reports/dataset-release-20261023-v13/package-pointers.json",
+      "sha256": "66f7f216b692079fec8201062d5098b6d588365ac95bff4ae6ee5b493951da97"
+    },
+    {
+      "path": "artifacts/reports/v12-reconcile-20261022/allocation-approved.json",
+      "sha256": "e5fb4fb95dddd4c9666844bbe85a7fc438e4a562755272442ff804743b3d10d4"
+    },
+    {
+      "path": "artifacts/reports/v12-reconcile-20261022/candidate-source-provenance.json",
+      "sha256": "1fe6c4c632e6868969b2804ccc9c701fe85ab4437a5de55d6dcec95722a2dd52"
+    },
+    {
+      "path": "artifacts/reports/dataset-release-20261023-v13/owner-release-approval.json",
+      "sha256": "5a468b398037a0bc97e29e077caf41b8ac63a0f487d80a8b7921a40d1cf4f440"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "owner_extra_source_boards_viewed": [1, 2, 3],
+  "geometry_qa": [
+    {"id":"V6R2-CA-008-ADD01","result":"pass_draft","states":["P","N"],"note":"Mobile viền trắng trên bàn riêng, đầu theo bài viết; giữ đầu và tay, người tiền cảnh chỉ còn tóc ở đáy. Đã kiểm native và input 224."},
+    {"id":"V6R2-CA-008-ADD02","result":"pass_draft","states":["U","N"],"note":"Vật trắng chưa phân biệt phone/calculator nên phone U; đầu hướng vật riêng. Mặt nền chỉ còn phần nhỏ ở mép trên phải; anchor trội ở native và input."},
+    {"id":"V6R2-CA-008-ADD03","result":"needs_revision","states":["U","N"],"note":"Mobile của bàn sau nằm ngay trên đầu tạo nguy cơ gán nhầm; tay dưới còn thiếu ở biên nguồn. Chưa đề xuất bản này."},
+    {"id":"V7-A-004-ADD01","result":"pass_draft","states":["P","N"],"note":"Người áo xám trước giữa cầm mobile mặt kính bằng hai tay, đầu theo vật; người cạnh chỉ còn thân/tóc. Native và input giữ bằng chứng."},
+    {"id":"V7-A-004-ADD02","result":"pass_draft","states":["U","N"],"note":"Người áo đỏ trước trái: vật chỉ lộ cạnh, không đủ xác định phone; đầu theo bài/vật riêng. Giữ hai tay và giấy, không có mặt cạnh tranh."},
+    {"id":"V7-B-051-ADD01","result":"pass_draft","states":["U","P"],"note":"Nam áo xanh quay đầu sang người bên phải, vật nâng chưa xác định ID; loại được mặt nam áo xám, phía trước chỉ còn tóc. Giữ U/P ở native và input."},
+    {"id":"V7-B-051-ADD02","result":"pass_draft","states":["U","N"],"note":"Nam áo xám nhìn vật tối đang cầm, không đủ xác định phone. Giữ trọn đầu và tay, người trái chỉ còn tay/áo."},
+    {"id":"V7-D-013-ADD01","result":"pass_draft","states":["U","P"],"note":"Nam áo vàng ngồi quay trái khỏi vùng làm việc riêng, hai tay cầm cốc; giữ phone U vì bàn chưa đủ. Người sau chỉ còn cằm/miệng ở mép trên, mặt anchor trội."}
+  ],
+  "followup": {
+    "V7-B-029":"Người trái giữa đã cụt đầu tại biên nguồn; không thể phục hồi phần ngoài ảnh.",
+    "V7-B-053":"Người nữ tiền cảnh đã có V7-A-035 cùng nguồn; cần đối chiếu quyết định owner trước khi đóng yêu cầu thêm.",
+    "V7-B-055":"Người phải đã có D017-R03; người trái còn chồng lấn tay/mặt.",
+    "V7-D-002":"Hai mặt sát nhau, phone dưới mặt bên phải; cần kiểm phương án riêng.",
+    "V7-D-008":"Tay nam và nữ chỉ vật chồng lấn; chưa đóng.",
+    "V7-D-005":"Yêu cầu bốn anchor còn mở, một crop không thay kiểm cả bốn."
+  }
+}

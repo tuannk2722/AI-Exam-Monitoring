@@ -1,0 +1,4 @@
+# Runtime prototype; keep the existing CPU torch/torchvision installation.
+# Do not combine with requirements/ml.txt (different OpenCV distribution).
+ultralytics==8.3.221
+opencv-python==4.11.0.86

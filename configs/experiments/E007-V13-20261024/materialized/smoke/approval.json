@@ -1,0 +1,24 @@
+{
+  "status": "approved",
+  "owner": "repository-owner",
+  "scope": "local_classifier_research",
+  "run_kind": "smoke",
+  "code_sha256": "e7810ca31a9a1bf1d2f110f1b348dafe8130f7f2717cb504ff0736f9a23cc8f7",
+  "owner_authorization": {
+    "path": "configs/experiments/E007-V13-20261024/owner-authorization.json",
+    "sha256": "29a608201b7a9db4c4ef935d487cc1928f6bc51584e5547f9d461ebaf99ce92a"
+  },
+  "final_test_inference_authorized": false,
+  "configs": {
+    "E007-V13-SMOKE-R0-FULL": "599798acb76a67902262f9ea29b72c325e0a2ccb0692f92871265148884d4ced",
+    "E007-V13-SMOKE-R0-RESUME": "b6e1e25d88929e8e62ee4875b5cf3c0b9da1ce1fd633a232ef4c25d232272ac2",
+    "E007-V13-SMOKE-D1-FULL": "1d6139c687b3313b5db22641d37742ff017cc774653fc46fa5dce77f11eedc9d",
+    "E007-V13-SMOKE-D1-RESUME": "d60b766a3dccbdf08bcc85c62920d1111006032fc5ed92b13e9a761514ee21c1"
+  },
+  "config_signatures": {
+    "E007-V13-SMOKE-R0-FULL": "18b5c67475d809e0e848372f0687d4bb6538cd33fea005ef33d1ea32426f4bfc",
+    "E007-V13-SMOKE-R0-RESUME": "18b5c67475d809e0e848372f0687d4bb6538cd33fea005ef33d1ea32426f4bfc",
+    "E007-V13-SMOKE-D1-FULL": "a3bb47d490cf73a8b6deac4fd75f62f67aa59098499054f617b8b66e18c4fbd0",
+    "E007-V13-SMOKE-D1-RESUME": "a3bb47d490cf73a8b6deac4fd75f62f67aa59098499054f617b8b66e18c4fbd0"
+  }
+}

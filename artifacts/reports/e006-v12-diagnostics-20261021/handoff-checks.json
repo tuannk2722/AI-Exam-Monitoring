@@ -1,0 +1,39 @@
+{
+  "status": "software_and_diagnostic_checks_pass_owner_review_pending",
+  "date": "2026-10-21",
+  "branch": "research/e006-v12-diagnostics-20261021",
+  "input_pins_verified": 118,
+  "local_artifacts_verified": 61,
+  "confusion_comparisons_pass": 48,
+  "visual_rows": 37,
+  "draft_exceptions": 4,
+  "deterministic_rebuild": "all local artifacts byte-identical to preserved prior build",
+  "tests": {
+    "test_training_diagnostics": 9,
+    "test_error_audit": 6,
+    "test_e005_anchor_context": 5
+  },
+  "ruff": "PASS: new module and tests",
+  "mypy": "PASS: new source module",
+  "git_diff_check": "PASS",
+  "repository_checker": {
+    "status": "EXPECTED_NOT_IN_INDEX",
+    "failures": 4,
+    "paths": [
+      "configs/diagnostics/e006-v12-20261021.json",
+      "configs/experiments/E006-followup-20261021/README.md",
+      "src/ai_exam_monitoring/training/diagnostics.py",
+      "tests/test_training_diagnostics.py"
+    ],
+    "reason": "User requested new branch, not stage/commit. No index mutation to bypass gate."
+  },
+  "model_forward": false,
+  "training": false,
+  "test_media_access": false,
+  "dataset_mutation": false,
+  "limitations": [
+    "Shortlist is not prevalence estimate",
+    "No owner approval for proposed labels or next experiment",
+    "Historical model reload requires historical source identity"
+  ]
+}

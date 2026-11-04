@@ -1,0 +1,25 @@
+[
+  {
+    "path": ".dvc/cache/files/md5/b1/51694060a83fe5e3dc93e0e6386e11",
+    "bytes": 2472305147,
+    "sha256": "dac8a3ca91e9992906227741eb07af25199e9def15fd7cddd97b197c0a13878f",
+    "links": 2,
+    "reason": "duplicate_dvc_cache_retained_archive",
+    "restore_from": "archive/history-20261010.zip"
+  },
+  {
+    "path": ".dvc/cache/files/md5/bd/779612affbc853db6c0973fe451b6e",
+    "bytes": 387263004,
+    "sha256": "37df2d1d1a7ca297e446f08c82859578a655cfb99e37f6cc87bff70106d329eb",
+    "links": 1,
+    "reason": "duplicate_dvc_cache_retained_archive",
+    "restore_from": "archive/dataset-release-20261017-v11.zip"
+  },
+  {
+    "path": "archive/current-run-dependencies-20261016.zip",
+    "bytes": 156897977,
+    "sha256": "b70175983379dd1e4acd7c87453218acfa0ae54e5ec8cea357f10a8ecc9e0705",
+    "links": 1,
+    "reason": "superseded_resume_only_archive"
+  }
+]

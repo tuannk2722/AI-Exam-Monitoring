@@ -1,0 +1,15 @@
+[
+{"id":"V7-OE-S009-A01","reason":"Đã xét ba vị trí bàn trước: nam áo đen trái và áo xám có mặt nền sát đầu, nam xanh đậm giữa cũng có mặt nền trong vùng giữ tay. Các vị trí xa hơn nhỏ và tay chồng, chưa có rectangle một anchor rõ hơn; đề xuất rút crop nhóm."},
+{"id":"V7-C-028","reason":"Crop gốc gộp nhiều người. Đã đối chiếu toàn frame với SCB-write-023: người bàn đầu giữa cùng thao tác cúi viết đã có SCB-write-023-R06 rõ đầu/hai tay và nguồn lớn hơn. Không tạo thêm crop hành vi gần lặp; đề xuất rút crop nhóm gốc."},
+{"id":"V7-B-029","reason":"Đã xét nam ngồi bên trái theo owner: đầu bị cắt ngay ở biên trên ảnh gốc; nới crop không phục hồi được. Nam tiền cảnh còn chung vùng mặt/tay với người cạnh, không tạo bản thay thế đạt."},
+{"id":"V7-B-035","reason":"Anchor gốc nằm giữa nhiều đầu và tay/vật chồng nhau, không tách được đầy đủ vùng thao tác. Crop bổ sung người quay trái được xét riêng, không dùng để giữ lại crop nhóm gốc."},
+{"id":"V7-B-053","reason":"Anchor nam gốc còn mặt nữ và thiết bị tiền cảnh trong vùng phải giữ tay. Nữ mà owner yêu cầu kiểm đã có V7-A-035 được duyệt P/N; không tạo thêm bản lặp cho nữ đó."},
+{"id":"V7-B-055","reason":"Không tách được hai khung giữ đủ vùng tay mà hoàn toàn không dính người khác như yêu cầu riêng. Người bên phải đã có đề xuất D017-R03 trong scope khác; không dùng ngoại lệ đó để coi yêu cầu này đạt."},
+{"id":"V7-D-002","reason":"Hai đầu sát nhau và tay cùng vùng thiết bị/ghế; không có rectangle giữ đủ đầu/tay riêng mà không dính người khác. Các trial cắt đầu không được coi là đạt; đề xuất rút crop nhóm."},
+{"id":"V7-D-008","reason":"Khung nam còn tay nữ sát thiết bị; khung nữ còn một phần nam và người nền. Không đạt điều kiện riêng hai crop hoàn toàn không có người khác."},
+{"id":"V7-D-013","reason":"Khung nam cầm vật còn người đứng sát phải, khung nam áo vàng còn người nền. Thu tiếp sẽ mất vùng đầu/tay; không đáp ứng yêu cầu không dính người khác."},
+{"id":"V7-D-014","reason":"Tay người bên phải chỉ trực tiếp vào vật cạnh tay target, không thể loại bằng rectangle mà giữ vùng thao tác. Khung thứ hai cũng không tách được tay riêng hoàn toàn."},
+{"id":"V7-OE-S107-A01","reason":"Đã mở được phone và tay theo owner, nhưng vẫn chứa người nền trong cùng rectangle. Thu để loại người khác sẽ cắt phone/tay; không đạt yêu cầu riêng không dính người khác."},
+{"id":"V7-OE-S053-A01","reason":"Đã chọn đúng nam áo xanh kính nhìn phải: hai mặt nữ nền nằm sát hai bên đầu, kích thước cạnh tranh. Không thể thu khung giữ đầy đủ đầu và hai tay mà loại mặt nền; đề xuất rút."},
+{"id":"EXP-RF-021","reason":"Nới xuống đã lấy đủ hai tay và tablet của người tóc vàng, nhưng hai mặt nền sát đầu vẫn cạnh tranh. Thu trên/trái/phải sẽ cắt đầu hoặc vùng tay; không có bản thay thế đạt."}
+]

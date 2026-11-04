@@ -1,0 +1,11 @@
+[
+  {"parent":"V7-D-056","id":"V7-D-056-R03","person":[662,224,1010,609],"context":[647,208,1024,639],"states":["N","N"],"reason":"Tách nam áo xanh đỏ cà vạt ở keyboard, bỏ mặt nam phía sau."},
+  {"parent":"V7-D-058","id":"V7-D-058-R03","person":[65,83,540,671],"context":[48,70,555,683],"states":["P","N"],"reason":"Tách nữ trái và phone đang cầm; loại mặt nữ phải, kiểm thiết bị cạnh ở mép."},
+  {"parent":"V7-OE-S003-A01","id":"V7-OE-S003-A01-R03","person":[0,95,625,740],"context":[0,77,638,755],"states":["P","N"],"reason":"Giữ người áo hồng cùng phone screen/UI, bỏ đầu người phải."},
+  {"parent":"E004-EX-C041","id":"E004-EX-C041-R03","person":[360,290,620,659],"context":[348,278,638,685],"states":["P","N"],"reason":"Tách nữ giữa cùng phone/UI trên giấy, giảm nam trái."},
+  {"parent":"E004-EX-C042","id":"E004-EX-C042-R03","person":[812,265,1125,715],"context":[797,249,1125,740],"states":["P","P"],"reason":"Tách người áo đỏ quay trái, giữ phone trên bàn riêng và giấy đang cầm."},
+  {"parent":"E004-EX-C066","id":"E004-EX-C066-R03","person":[189,0,402,232],"context":[179,0,414,240],"states":["P","N"],"reason":"Tách nữ phải và phone trên trang, giữ tay chống má; tay nam cạnh ở mép dưới."},
+  {"parent":"E004-EX-C199","id":"E004-EX-C199-R03","person":[185,86,278,215],"context":[178,79,285,230],"states":["U","P"],"reason":"Tách nữ quay đầu sau, giữ vật đen ở bàn nhưng cần kiểm nhận dạng ở input."},
+  {"parent":"EXP-RF-010","id":"EXP-RF-010-R03","person":[206,0,416,345],"context":[196,0,416,356],"states":["N","N"],"reason":"Giảm phần trái và đáy có chữ, vẫn giữ đầu/hai tay và vùng trang riêng."},
+  {"parent":"P006-extra-01","id":"P006-extra-01-R03","person":[220,65,265,204],"context":[215,58,270,216],"states":["N","P"],"reason":"Tách mặt nam tiền cảnh quay trái, giữ hai bàn tay khoanh; kiểm mặt nam phía sau ở mép trái."}
+]

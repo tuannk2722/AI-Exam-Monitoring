@@ -1,0 +1,148 @@
+schema_version: runtime-exception-batch-v1
+pins:
+  predictions:
+    path: outputs/runtime-v8s-crop-review-20261026/predictions.json
+    sha256: 65016f4139f26862d626d29802ab1ca6d1b96fe1b582677d35fcfcbc94e12a2b
+  run:
+    path: outputs/runtime-v8s-crop-review-20261026/run.json
+    sha256: 0777315e263510698f6ddf6be8a8767a556678648d63aa5e63b1855092f5bff9
+  checksums:
+    path: outputs/runtime-v8s-crop-review-20261026/checksums.json
+    sha256: 03ef617127008169c5c28028dbfc630519e5e94b36ae3d29f083c073ce957e68
+  cohort:
+    path: outputs/runtime-detector-review-20261025/cohort.json
+    sha256: 44d3da6f3461199ea1506dad50c64ed5aff0398a2e55492497578ddb55a7fa6e
+cases:
+- id: Q01
+  title: '0 giây: người đội mũ ở xa'
+  anchors:
+  - f00000000-V8S-b011
+  draft_observation: V8S b011 → p019 đã được owner xác nhận. Nhãn hành vi crop mới
+    chưa chốt.
+  question: Crop có đúng anchor và đủ quan sát không? Ghi ngoại lệ mất bằng chứng/lẫn
+    người; phone/looking P/N/U nếu xác định được. Không rõ giữ U.
+  overlays:
+    '0':
+      path: outputs/runtime-detector-comparison-20261026/V8S-f00000000.png
+      sha256: 36a228a802718286aa554a4de7e6425e9d7a12037846220df843805dc04378ec
+- id: Q02
+  title: '23 giây: mép phải và người đội mũ cạnh bên'
+  anchors:
+  - f00000690-V8S-b008
+  - f00000690-V8S-b015
+  draft_observation: Ownership C01 đã xác nhận phone thuộc người đội mũ. Không tự
+    chuyển nhãn từ crop D2 sang crop V8S.
+  question: Crop có đúng anchor và đủ quan sát không? Ghi ngoại lệ mất bằng chứng/lẫn
+    người; phone/looking P/N/U nếu xác định được. Không rõ giữ U.
+  overlays:
+    '690':
+      path: outputs/runtime-detector-comparison-20261026/V8S-f00000690.png
+      sha256: b7f657d0a5190b331ba9f6ef59d734a8dbfea485c23d35332fbb0b40a318f3b9
+- id: Q03
+  title: '56 và 59 giây: tham chiếu người đội mũ'
+  anchors:
+  - f00001680-V8S-b004
+  - f00001770-V8S-b005
+  draft_observation: Tham chiếu D2 C03 U/N; matching V8S bằng overlap chỉ là shortlist,
+    chưa tự xác nhận anchor.
+  question: Crop có đúng anchor và đủ quan sát không? Ghi ngoại lệ mất bằng chứng/lẫn
+    người; phone/looking P/N/U nếu xác định được. Không rõ giữ U.
+  overlays:
+    '1680':
+      path: outputs/runtime-detector-comparison-20261026/V8S-f00001680.png
+      sha256: 643b2a0e44561e817f3d6a2717aafb6af2589338c333ad07fd97ce5846a6831e
+    '1770':
+      path: outputs/runtime-detector-comparison-20261026/V8S-f00001770.png
+      sha256: 65d553b9a91fa29c503c30cdf05aa94f217cdea480f65c776beb4ce802467f33
+- id: Q04
+  title: '36 và 59 giây: người di chuyển / phần đầu sát camera'
+  anchors:
+  - f00001080-V8S-b000
+  - f00001770-V8S-b003
+  draft_observation: 'Tham chiếu C05: 36 giây N/P; 59 giây U/U vì thiếu quan sát.
+    Runtime role vẫn unknown.'
+  question: Crop có đúng anchor và đủ quan sát không? Ghi ngoại lệ mất bằng chứng/lẫn
+    người; phone/looking P/N/U nếu xác định được. Không rõ giữ U.
+  overlays:
+    '1080':
+      path: outputs/runtime-detector-comparison-20261026/V8S-f00001080.png
+      sha256: aeddae07e3913a7b9ca6bd111926de47635005f779c5772d9eec784e99abfddc
+    '1770':
+      path: outputs/runtime-detector-comparison-20261026/V8S-f00001770.png
+      sha256: 65d553b9a91fa29c503c30cdf05aa94f217cdea480f65c776beb4ce802467f33
+- id: Q05
+  title: '36 và 39 giây: người áo trắng'
+  anchors:
+  - f00001080-V8S-b002
+  - f00001170-V8S-b001
+  draft_observation: Tham chiếu C06 N/N; cần kiểm crop mới có đúng người và có lẫn
+    evidence không.
+  question: Crop có đúng anchor và đủ quan sát không? Ghi ngoại lệ mất bằng chứng/lẫn
+    người; phone/looking P/N/U nếu xác định được. Không rõ giữ U.
+  overlays:
+    '1080':
+      path: outputs/runtime-detector-comparison-20261026/V8S-f00001080.png
+      sha256: aeddae07e3913a7b9ca6bd111926de47635005f779c5772d9eec784e99abfddc
+    '1170':
+      path: outputs/runtime-detector-comparison-20261026/V8S-f00001170.png
+      sha256: 68f3b2800abd4e7063f2454155fbe50326e0e45b92cf8617f7863c6bf6bde1a6
+- id: Q06
+  title: '46 giây: tham chiếu phone P/N'
+  anchors:
+  - f00001380-V8S-b000
+  draft_observation: Tham chiếu D2 C07 P/N, chưa chuyển nhãn tự động sang V8S.
+  question: Crop có đúng anchor và đủ quan sát không? Ghi ngoại lệ mất bằng chứng/lẫn
+    người; phone/looking P/N/U nếu xác định được. Không rõ giữ U.
+  overlays:
+    '1380':
+      path: outputs/runtime-detector-comparison-20261026/V8S-f00001380.png
+      sha256: cf919e4d6aa7157f72392f588437218379defee7d19f3010bf67135fd4f5186e
+- id: Q07
+  title: '33 giây: cặp trùng đã biết'
+  anchors:
+  - f00000990-V8S-b009
+  - f00000990-V8S-b012
+  draft_observation: Owner đã xác nhận cùng p006. Không hỏi lại quan hệ; chỉ kiểm
+    context và flags giữa hai crop.
+  question: Crop có đúng anchor và đủ quan sát không? Ghi ngoại lệ mất bằng chứng/lẫn
+    người; phone/looking P/N/U nếu xác định được. Không rõ giữ U.
+  overlays:
+    '990':
+      path: outputs/runtime-detector-comparison-20261026/V8S-f00000990.png
+      sha256: 8e50a730eaf0a454efe4d3e46a9e1657ed3241ca8780052a3cd92abffdf5d749
+- id: Q08
+  title: '36 giây: cặp trùng đã biết'
+  anchors:
+  - f00001080-V8S-b017
+  - f00001080-V8S-b018
+  draft_observation: Owner đã xác nhận cùng p015. Không tự gộp score hoặc chọn keeper.
+  question: Crop có đúng anchor và đủ quan sát không? Ghi ngoại lệ mất bằng chứng/lẫn
+    người; phone/looking P/N/U nếu xác định được. Không rõ giữ U.
+  overlays:
+    '1080':
+      path: outputs/runtime-detector-comparison-20261026/V8S-f00001080.png
+      sha256: aeddae07e3913a7b9ca6bd111926de47635005f779c5772d9eec784e99abfddc
+- id: Q09
+  title: '52 giây: cặp trùng đã biết'
+  anchors:
+  - f00001560-V8S-b019
+  - f00001560-V8S-b017
+  draft_observation: Owner đã xác nhận cùng p008. Không tự gộp score hoặc chọn keeper.
+  question: Crop có đúng anchor và đủ quan sát không? Ghi ngoại lệ mất bằng chứng/lẫn
+    người; phone/looking P/N/U nếu xác định được. Không rõ giữ U.
+  overlays:
+    '1560':
+      path: outputs/runtime-detector-comparison-20261026/V8S-f00001560.png
+      sha256: 92b3e1e1241a05b206cd5b822082a816932e77f591df21d49518403349d0900d
+- id: Q10
+  title: '0 giây: model bật đồng thời hai nhãn'
+  anchors:
+  - f00000000-V8S-b000
+  draft_observation: Shortlist để kiểm hai nhãn trên cùng crop, không coi scores là
+    ground truth.
+  question: Crop có đúng anchor và đủ quan sát không? Ghi ngoại lệ mất bằng chứng/lẫn
+    người; phone/looking P/N/U nếu xác định được. Không rõ giữ U.
+  overlays:
+    '0':
+      path: outputs/runtime-detector-comparison-20261026/V8S-f00000000.png
+      sha256: 36a228a802718286aa554a4de7e6425e9d7a12037846220df843805dc04378ec

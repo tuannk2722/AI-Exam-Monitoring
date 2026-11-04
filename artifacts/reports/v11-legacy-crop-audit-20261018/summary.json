@@ -1,0 +1,77 @@
+{
+  "status": "Draft; owner acceptance pending",
+  "count": 836,
+  "reviewed_native_and_input": 836,
+  "deep_source_native_input": 259,
+  "exclusion_confirmation_count": 38,
+  "actions": {
+    "keep": 707,
+    "recrop": 93,
+    "exclude": 36
+  },
+  "actions_by_current_role": {
+    "keep": {
+      "val": 155,
+      "train": 552
+    },
+    "recrop": {
+      "val": 30,
+      "train": 63
+    },
+    "exclude": {
+      "train": 29,
+      "val": 7
+    }
+  },
+  "kept_label_delta": 373,
+  "kept_no_label_delta": 334,
+  "current_states_all": {
+    "P/U": 201,
+    "N/U": 30,
+    "P/P": 46,
+    "U/P": 157,
+    "N/P": 55,
+    "N/N": 161,
+    "U/N": 143,
+    "P/N": 43
+  },
+  "proposed_states_kept": {
+    "P/U": 7,
+    "P/N": 108,
+    "N/N": 203,
+    "U/N": 137,
+    "U/P": 84,
+    "N/P": 114,
+    "N/U": 8,
+    "P/P": 46
+  },
+  "kept_target_transitions": {
+    "phone_use": {
+      "positive->positive": 158,
+      "negative->negative": 191,
+      "positive->unknown": 82,
+      "unknown->negative": 115,
+      "negative->unknown": 32,
+      "unknown->unknown": 107,
+      "positive->negative": 19,
+      "unknown->positive": 3
+    },
+    "looking_around": {
+      "unknown->unknown": 10,
+      "unknown->negative": 157,
+      "positive->positive": 201,
+      "negative->negative": 274,
+      "unknown->positive": 28,
+      "positive->negative": 17,
+      "negative->positive": 15,
+      "positive->unknown": 2,
+      "negative->unknown": 3
+    }
+  },
+  "exact_native_rgb_duplicate_groups": 0,
+  "exact_input_rgb_duplicate_groups": 0,
+  "same_source_cross_train_val_groups": 0,
+  "same_leakage_group_cross_train_val": 0,
+  "accepted_package_mutated": false,
+  "test_or_reserve_visual_access": false
+}

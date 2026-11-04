@@ -1,0 +1,98 @@
+{
+  "schema_version": "tracking-analyst-visual-audit-v1",
+  "date": "2026-10-27",
+  "reviewer": "assistant",
+  "authority": "owner_delegated_research_and_technical_selection",
+  "not_owner_ground_truth": true,
+  "sampling": "purposeful diagnostic; not exhaustive or random",
+  "coverage": {
+    "B0_exclusive_top_track_groups": 12,
+    "B0_exclusive_crops_viewed": 48,
+    "cross_partition_groups": 5,
+    "cross_partition_crops_viewed": 30,
+    "B1_exclusive_crops_viewed": 11,
+    "track8_context_crops_viewed": 12,
+    "largest_displacement_unique_pairs_viewed": 6,
+    "counts_overlap": true
+  },
+  "findings": [
+    {
+      "case_id": "shared-T10-8-9",
+      "status": "analyst_observed_cross_person_assignment",
+      "arms": [
+        "B0",
+        "B1"
+      ],
+      "track_id": 10,
+      "source_anchors": [
+        "f00000240-a004",
+        "f00000270-a000"
+      ],
+      "samples": [
+        8,
+        9
+      ],
+      "description": "Seated person in green clothing/cap followed by moving person in white clothing under the same track ID.",
+      "quality_gate": "do_not_aggregate_behavior_across_this_identity_transition"
+    },
+    {
+      "case_id": "B0-exclusive-persistent-people",
+      "status": "visible_people_in_selected_samples",
+      "track_ids": [
+        13,
+        30,
+        14,
+        58
+      ],
+      "limitation": "Not all group observations manually reviewed; not unique person counts."
+    },
+    {
+      "case_id": "B0-T55",
+      "status": "probable_duplicate_of_B0_T7_B1_T28",
+      "limitation": "Diagnostic visual attribution; parent detections unchanged."
+    },
+    {
+      "case_id": "B0-T57-B1-T37-36-39",
+      "status": "uncertain",
+      "limitation": "Full body to partial head near camera; no definitive identity label."
+    }
+  ],
+  "media_delete_by": "2026-11-01T08:55:06.308086+00:00",
+  "source_sha256": "61972be2648d1551f61b739ea6a43c0e12aaa8923dba6d17ab0b89a74766ca70",
+  "boards": [
+    {
+      "path": "outputs/tracking-research-20261027/B1-only.jpg",
+      "sha256": "9a27f9cb071dc0c2279cd40fb3015dfa83fafe0a0d5c4a59661555c687093d3b"
+    },
+    {
+      "path": "outputs/tracking-research-20261027/extra-0.jpg",
+      "sha256": "49e413c96fd5ae7f9827ba8de43afc4b7373a376e641884c56388bdde4d5fdea"
+    },
+    {
+      "path": "outputs/tracking-research-20261027/extra-1.jpg",
+      "sha256": "77a2604a35075eee5f8343fe035f7abd83672c7ffbee9c3f10e885cbb019c7a1"
+    },
+    {
+      "path": "outputs/tracking-research-20261027/largest-jumps.jpg",
+      "sha256": "a21c4d0261a41ac2137f875155d98a7c7c4b05592c1dc8c926cbe6106fab5786"
+    },
+    {
+      "path": "outputs/tracking-research-20261027/partition-cases.jpg",
+      "sha256": "df97f8b90726ceeac17c0b48a4a1ab8b65ffa6143d5b9f04edea811187807627"
+    },
+    {
+      "path": "outputs/tracking-research-20261027/track8-context.jpg",
+      "sha256": "a195fd3145b8e0b9e2b01b64155a27feaf772e8926ef801b4eb08c641317fdf5"
+    }
+  ],
+  "selection_metadata": [
+    {
+      "path": "outputs/tracking-research-20261027/partition-selection.json",
+      "sha256": "d0c039af78a10c8567253c31e410762db749e207f81b9aaf1aa4ab36c7103ef3"
+    },
+    {
+      "path": "outputs/tracking-research-20261027/visual-selection.json",
+      "sha256": "df990a2b7cb6849ea880c8662a465c574e2d2bb5d1810aa3fd24bbcbd82dca65"
+    }
+  ]
+}

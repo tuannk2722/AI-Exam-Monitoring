@@ -1,0 +1,23 @@
+{
+  "status": "approved",
+  "use_scope": "local_prototype_qa",
+  "source_sha256": "61972be2648d1551f61b739ea6a43c0e12aaa8923dba6d17ab0b89a74766ca70",
+  "test_or_holdout": false,
+  "rights_confirmed": true,
+  "third_party_processing": false,
+  "access": "repository_owner",
+  "retention_days": 7,
+  "schema_version": "runtime-media-approval-v2",
+  "runtime_id": "RUNTIME-V8S-20261026",
+  "decision_ref": "artifacts/reports/runtime-clip-qa-20261025/v8s-behavior-acceptance-20261026.json",
+  "decision_sha256": "8db290aa21b32adb705a013f6c55903ebf339795dd4574f83bad3ea66ca4f4b0",
+  "parent_session": {
+    "path": "outputs/runtime-clip-1hz-20261025/session/session.json",
+    "sha256": "ea5717fd9a87cfd3ef1487332ff8168cfdc347fb71275d150373b31a293bc120"
+  },
+  "previous_rights_receipt": {
+    "path": "outputs/runtime-clip-1hz-20261025/media-approval.json",
+    "sha256": "2fb48efb7031f7d4a26282e7e5fb2d66525def56abb1c7697c2dedfbf9fc41c6"
+  },
+  "media_delete_by": "2026-11-01T08:55:06.308086+00:00"
+}

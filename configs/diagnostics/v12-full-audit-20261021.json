@@ -1,0 +1,12 @@
+{
+  "package": "data/processed/pilot-b/pilot-b-20261020-v12",
+  "ledger_sha256": "c58a237594e76418bd0d0b78f629560b812a47dcef17d7f66f9e07a027ee662f",
+  "recipe": "outputs/E006-V12-S1-SQRT-S20261022-R4/resolved-config.json",
+  "recipe_sha256": "a609f9c4f00186bffde4b731223b5e3959257a6a9e91eb335f187b2d9b02342a",
+  "expected_accepted": 1639,
+  "allow_test_visual_review": true,
+  "authorization": "User request 2026-10-21: all accepted crops across train/val/test/holdout for visual re-audit; no prediction or resplit.",
+  "groups": 48,
+  "output": "data/interim/v12-full-audit-20261021",
+  "report": "artifacts/reports/v12-full-audit-20261021"
+}

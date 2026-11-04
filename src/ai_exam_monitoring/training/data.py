@@ -17,7 +17,12 @@ from torchvision.transforms import functional as TF
 from ai_exam_monitoring.common.errors import DataContractError
 from ai_exam_monitoring.common.provenance import sha256_file
 from ai_exam_monitoring.data.integrity import verify_payload
-from ai_exam_monitoring.data.pilot_schema import PilotRecord, read_records, record_to_dict
+from ai_exam_monitoring.data.pilot_schema import (
+    PilotRecord,
+    PixelBox,
+    read_records,
+    record_to_dict,
+)
 
 
 class DatasetVariables(Protocol):
@@ -186,6 +191,26 @@ def _verify_preservation(root: Path, config: DatasetVariables, release: dict[str
             raise DataContractError("Nội dung validation/test khác parent đã freeze")
 
 
+def _verify_no_test_release(release: dict[str, Any], records: list[PilotRecord]) -> None:
+    """Validate an explicitly approved development-only package, never a test freeze."""
+    expected = {
+        "status": "not_applicable_zero_test",
+        "independent_holdout": "future_separate_protocol",
+    }
+    if release.get("test_freeze") != expected:
+        raise DataContractError("Invalid zero-test protocol")
+    if {row.usage for row in records} != {"train", "val"}:
+        raise DataContractError("Zero-test release requires only nonempty train and val splits")
+    if any(row.test_freeze_ref is not None for row in records):
+        raise DataContractError("Zero-test records cannot claim a test freeze")
+    owner_ref = release.get("owner_decision_ref")
+    protocol_ref = release.get("test_freeze_ref")
+    if (not isinstance(owner_ref, str) or not owner_ref
+            or not isinstance(protocol_ref, str)
+            or not protocol_ref.startswith(owner_ref + "#no-test-")):
+        raise DataContractError("Zero-test protocol must reference explicit owner approval")
+
+
 def verify_dataset(root: Path, config: DatasetVariables) -> list[PilotRecord]:
     try:
         if sha256_file(root / "checksums.sha256") != config.payload_sha256:
@@ -204,7 +229,9 @@ def verify_dataset(root: Path, config: DatasetVariables) -> list[PilotRecord]:
                 raise DataContractError("Manifest version/scope/usage differs from config")
         ledger = _verify_membership(root, records)
         freeze = release["test_freeze"]
-        if isinstance(freeze, dict) and set(freeze) == {"path", "sha256"}:
+        if isinstance(freeze, dict) and freeze.get("status") == "not_applicable_zero_test":
+            _verify_no_test_release(release, records)
+        elif isinstance(freeze, dict) and set(freeze) == {"path", "sha256"}:
             _verify_preservation(root, config, release, records, ledger)
         else:
             _verify_inline_freeze(root, release, records)
@@ -242,6 +269,56 @@ def image_tensor(path: Path, config: ImageVariables) -> torch.Tensor:
     return TF.normalize(TF.to_tensor(prepared), config.mean, config.std)
 
 
+def compute_relative_anchor_geometry(
+    person_box: PixelBox, context_box: PixelBox
+) -> tuple[float, float, float, float, float, float]:
+    """Compute normalized [rx1, ry1, rx2, ry2, rw, rh] of person_box inside context_box."""
+    if not context_box.contains(person_box):
+        raise DataContractError("Context box must contain person box")
+    cw = float(context_box.xmax - context_box.xmin)
+    ch = float(context_box.ymax - context_box.ymin)
+    rx1 = max(0.0, min(1.0, (person_box.xmin - context_box.xmin) / cw))
+    ry1 = max(0.0, min(1.0, (person_box.ymin - context_box.ymin) / ch))
+    rx2 = max(rx1, min(1.0, (person_box.xmax - context_box.xmin) / cw))
+    ry2 = max(ry1, min(1.0, (person_box.ymax - context_box.ymin) / ch))
+    rw = max(1e-6, rx2 - rx1)
+    rh = max(1e-6, ry2 - ry1)
+    return (rx1, ry1, rx2, ry2, rw, rh)
+
+
+def extract_anchor_subcrop(
+    context_image: Image.Image,
+    person_box: PixelBox,
+    context_box: PixelBox,
+    *,
+    padding_ratio: float = 0.05,
+    relative_box_override: tuple[float, float, float, float] | None = None,
+) -> Image.Image:
+    """Extract the target student's ROI sub-crop directly from the context crop image."""
+    if padding_ratio < 0.0 or padding_ratio > 0.5:
+        raise DataContractError("Invalid anchor padding_ratio")
+    if relative_box_override is not None:
+        rx1, ry1, rx2, ry2 = relative_box_override
+        rw = max(1e-6, rx2 - rx1)
+        rh = max(1e-6, ry2 - ry1)
+    else:
+        rx1, ry1, rx2, ry2, rw, rh = compute_relative_anchor_geometry(person_box, context_box)
+    pad_x = padding_ratio * rw
+    pad_y = padding_ratio * rh
+    ex1 = max(0.0, min(1.0, rx1 - pad_x))
+    ey1 = max(0.0, min(1.0, ry1 - pad_y))
+    ex2 = max(ex1, min(1.0, rx2 + pad_x))
+    ey2 = max(ey1, min(1.0, ry2 + pad_y))
+    width, height = context_image.size
+    if width <= 0 or height <= 0:
+        raise DataContractError("Invalid context image dimensions")
+    left = max(0, min(width - 1, int(round(ex1 * width))))
+    top = max(0, min(height - 1, int(round(ey1 * height))))
+    right = max(left + 1, min(width, int(round(ex2 * width))))
+    bottom = max(top + 1, min(height, int(round(ey2 * height))))
+    return context_image.convert("RGB").crop((left, top, right, bottom))
+
+
 def labels(records: list[PilotRecord]) -> tuple[torch.Tensor, torch.Tensor]:
     # Finite placeholder only in memory; mask retains unknown semantics.
     values = torch.tensor([[0 if v is None else v for v in r.target_values] for r in records],
@@ -263,3 +340,4 @@ def crop_path(root: Path, row: PilotRecord) -> Path:
                     or image.format != derived.output_format):
                 raise DataContractError("Derived crop dimensions/format changed")
     return path
+

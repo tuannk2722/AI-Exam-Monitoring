@@ -1,0 +1,20 @@
+{
+  "geometry_qa": [
+    {"id":"V7-C-116-R03","result":"needs_revision","states":["N","P"],"note":"Đã bỏ mặt nam phải, đủ hai tay. Khung còn nhiều chân nên mặt quá nhỏ ở input; cắt bớt dưới đến ngang đùi để tăng chi tiết."},
+    {"id":"V7-D-038-R03","result":"needs_revision","states":["P","N"],"note":"Mặt trước phone rõ, nữ là anchor chính. Ngón tay chỉ sát mép phải cần nới; hai nam chỉ còn phần cằm/ngực ở phía trên."},
+    {"id":"V7-OE-S042-A01-R03","result":"pass_draft","states":["U","N"],"note":"Một người rõ, hai tay cầm vật sau laptop. Mặt lưng đen không đủ camera ở input, giữ U/N."},
+    {"id":"V7-OE-S054-A01-R03","result":"withheld_duplicate_and_geometry","duplicate_of":"V7-PF-A-006-R03","states":["N","N"],"note":"Phát hiện cùng frame lớp dùng tablet với PF-A-006; không cần hai crop mới. Cả hai bản còn mặt nữ lớn và tay/tablet sát phải."},
+    {"id":"V7-PF-A-006-R03","result":"needs_revision","states":["N","N"],"note":"Nam tiền cảnh trội thân nhưng mặt nữ sau còn lớn, tablet/tay sát phải. Cần xem phương án khác, không duyệt chỉ vì có một người tiền cảnh."},
+    {"id":"V7-PF-C-003-R03","result":"pass_draft","states":["N","P"],"note":"Giữ trọn tay giơ cao, tay tựa ghế và mặt anchor hướng ngoài bài. Người sau nhỏ, quay lưng, không tranh vùng hành vi."},
+    {"id":"E004-CF-C021-R03","result":"pass_draft","states":["P","P"],"note":"Chỉ một mặt chính, phone của anchor có màn hình rõ và nối với hai tay. Thiết bị/tay tiền cảnh vẫn còn nhưng attribution tách được; đầu nhìn sang phía người/thiết bị trước."}
+  ],
+  "recrop_source_boards_viewed": [7,8,9],
+  "source_only_followup": [
+    {"id":"V7-C-097","note":"Tay nam phải đưa ngang dưới mặt nam trái; box bỏ mặt trái sẽ cắt tay cần cho phone N. Chưa có geometry đạt."},
+    {"id":"V7-OE-S051-A01","note":"Hai mặt và vùng tay sát nhau; thu hẹp để bỏ nam trái sẽ cắt phone của nam phải. Cần xét loại hoặc đổi anchor."},
+    {"id":"V7-OE-S056-A01","note":"Muốn giữ phone trên bàn cạnh laptop phải giữ phần rộng có hai người phía sau; chưa có recrop đạt."},
+    {"id":"V7-PF-A-004","note":"Phone góc bàn nằm sát người kế bên; không tự gán thiết bị dùng chung cho anchor tiền cảnh."},
+    {"id":"V7-PF-D-002","note":"Giữ trọn phone của người phải sẽ đưa mặt người giữa vào khung. Chưa chốt recrop."},
+    {"id":"V7-B-069","note":"Tay/device của nam sau nằm dưới đầu nam tiền cảnh, không thể cô lập bằng cách thu hẹp đơn giản."}
+  ]
+}
