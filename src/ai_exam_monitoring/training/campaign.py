@@ -214,7 +214,7 @@ def execute(plan_path: Path, root: Path) -> None:
     logs = folder / "logs"
     logs.mkdir(exist_ok=True)
     write_json(folder / "campaign-state.json", state)
-    if os.name == "nt":
+    if sys.platform == "win32":
         ctypes.windll.kernel32.SetThreadExecutionState(0x80000001)
     try:
         if plan.get("verified_smoke"):
@@ -278,7 +278,7 @@ def execute(plan_path: Path, root: Path) -> None:
             report(root, plan, state)
         finally:
             lock.unlink()
-            if os.name == "nt":
+            if sys.platform == "win32":
                 ctypes.windll.kernel32.SetThreadExecutionState(0x80000000)
 
 

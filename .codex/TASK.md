@@ -1,31 +1,30 @@
-# LIVE-RUNTIME-20261028 — GPU/batching, profiling và timing online
+# CI-FIX-20261105 — Sửa hai job CI của commit runtime
 
-- Trạng thái: hoàn tất slice phần mềm GPU/batching/profiling và timing/candidate fixtures; owner yêu cầu cleanup codebase và commit slice này trước khi sang bước tiếp. Chưa hoàn tất tích hợp camera/log hoặc nghiệm thu máy thật.
+- Trạng thái: hoàn tất bản sửa và kiểm tra local; owner đã yêu cầu commit và push branch `feat/live-monitoring-demo`.
 
 ## Yêu cầu và hiện trạng
-- Baseline web/video đã chốt và commit `2c9d8fa`; runtime nền `6f4cbe3`. Full suite 349 tests PASS (2 skip), browser riêng PASS, Ruff/mypy 85 files/staged checker PASS. Clean checkout `2c9d8fa`: checker và web suite 19 tests PASS (2 skip); checkout đã dọn. Không push.
-- Cleanup source bỏ HTML/CSS tiêu đề đã ẩn, sửa test đúng UI owner review. Inventory 198 cache files / 49.495.030 bytes; lệnh xóa bị automatic approval review chặn `blocked by policy`, cache còn nguyên. Manifest tạm `exam-monitor-cache-cleanup-20261028.json` trong TEMP hệ điều hành. Không thử cách khác để vượt policy.
-- Đã đối chiếu index/status/system/live/reference/development/storage; code classifier/person/frame_processor/online_video/runtime_config, model/preprocessing/encoder/device training, web monitor/transport; runtime V8S receipt/selection/approval và report session r2, E008 prototype decision; C10/event rule cho ranh giới downstream.
-- Máy hiện tại Torch CPU, chưa có environment laptop mượn. Owner chốt tải demo: dưới 15 người, 5–10 phút; chuẩn bị kiểm tải 14 người / 10 phút, không gọi đây là capability đã đạt.
+- Baseline `cbff0f4d7fbe9deb204460734dcf56140ca83183`, working tree ban đầu sạch; đã fetch origin.
+- Đã đọc AGENTS, index, status, development, template và TASK cũ; đối chiếu workflow, dependencies, producer/consumer runtime và campaign cùng tests liên quan.
+- `quality` chỉ cài base/dev nhưng import frame processor đi qua `person.RuntimeConfig` tới training artifacts và Torch. `classifier-tests` chạy mypy trên Ubuntu, nơi `ctypes.windll` không tồn tại trong typeshed.
 
 ## Quyết định và inputs
-- Tiếp tục theo hướng owner đã duyệt: giữ V8S/context-v1/G0, checkpoint/preprocessing/thresholds; thêm device/batch adapter và profiling, sau đó camera/log. Không train hoặc thay rule C10/events.
-- API nội bộ execution/batch có tham số tường minh, FP32 trước; CUDA thiếu hoặc OOM phải fail, không âm thầm đổi batch/device. Receipt packages CPU cũ giữ exact guard; môi trường GPU phải có pin/authorization mới trước chạy thật.
-- Không materialize config GPU được nghiệm thu hoặc chuyển web mặc định sang GPU khi chưa có parity/profile trên máy đích. Không chạy model/media thật trong task kiểm phần mềm.
-- Owner duyệt tiếp LIVE-TIMING-20261028: “Duyệt policy để triển khai và kiểm bằng fixtures”. Detector slot 100 ms/tolerance 50 ms; G0 mỗi 10 slot, missing detector reset continuity, missing G0 ngắt segment, ≥ 3 positives/span thật ≥ 2 giây. Wire schema log/evidence camera và quyền media camera còn mở; không hỏi lại policy đã Accepted.
+- User đã cho phép sửa lỗi CI, commit và push branch hiện tại. Giữ các nhóm dependency và gate CI hiện có.
+- `RuntimeConfig` trong `person.py` chỉ dùng làm annotation; đặt trong `TYPE_CHECKING` đã có để fixtures không kéo dependency ML.
+- Campaign dùng `sys.platform == "win32"` cho hai lời gọi Windows API để mypy nhận diện đúng platform; giữ nguyên flags và logic thực thi.
+- Không train, load weights hoặc dùng media thật; không sửa dataset, model, pins, receipts hay approvals lịch sử.
 
 ## Outputs và vòng đời
-- Logic tái dùng ở inference; tests synthetic/temp tự dọn; hướng dẫn compute/protocol đúng ID ở configs/runtime/LIVE-COMPUTE-20261028. Không sửa source training hoặc runtime/config/receipt/artifact đã pin.
-- Hardware probe chỉ đọc thông tin máy/packages, không capture, load weights hoặc download; không đưa hostname/identity vào output.
+- Giữ code sửa, regression test và TASK; không tạo report/spec mới.
+- Môi trường base và cache mypy tạm ở `outputs/_scratch/ci-fix-20261105`; đã thử dọn bằng PowerShell sau khi xác minh target nằm trong workspace và không có file tracked, nhưng automatic approval review chặn lệnh với lý do `blocked by policy`. Giữ nguyên scratch, không thử cách khác để vượt policy; scratch bị Git ignore và không đưa vào commit.
 
 ## Contract impact và checks
-- Giữ contract web/offline events/review/runtime v1–v4; cập nhật live spec/registry đúng numeric timing được duyệt. Internal adapter giữ producer/consumer offline; cấu hình profile mới cần exact environment và approval trước chạy model thật.
-- Kiểm batching/order/tail/empty/nonfinite/shape, CPU scalar parity, device fail-fast, package guard, timing CUDA synchronization/rolling bounds và model state; consumer runtime/online/web, Ruff/mypy/checker/diff. CUDA thực và model parity chưa thể nghiệm thu bằng fixtures.
+- Không đổi contract — không sửa spec/status/index.
+- Tái hiện base thiếu Torch; kiểm fixtures runtime/timing, campaign, full synthetic suite, Ruff, strict mypy cho Windows và Linux, compile trong RAM, checker `--require-git`, diff và staged diff.
+- Software PASS không thay nghiệm thu model, dữ liệu hoặc GPU.
 
-## Checkpoint và bước tiếp
-- Đã có ExecutionSettings, classifier batch, processor chunking, guarded execution factory, bounded stage timings, hardware probe và profile CLI có approval/source/deadline/output guards. Không thay mặc định web/CLI cũ hoặc source training.
-- Đã triển khai timing/candidate primitives theo approval: slot selector, continuity theo mẫu thực xử lý, timestamp thật, bounded segments, ID ổn định, late result/gap/reset. Không tracker/camera thật, persistence evidence hoặc live review mới.
-- Full suite cuối 382 tests PASS (2 skip); browser opt-in PASS riêng. Sau đó bổ sung guard CUDA mất lúc đọc memory counters: profile suite 7 tests PASS; timing suite 12 tests PASS. Fixture 14 người / 10 phút kiểm bounded metadata, không phải phép đo hiệu năng thật. Ruff, strict mypy 92 source files, checker `--require-git` và diff PASS; compile 150 Python files trong RAM, không tạo bytecode.
-- Full suite sau GPU từng phát hiện race EOF ở monitor: trạng thái completed có thể đến sau take_result nhưng trước snapshot, bỏ frame cuối. Đã sửa drain trước công bố EOF và thêm test tái hiện deterministic; monitor suite 13 tests và full/browser cuối PASS. Không thay API hoặc UI.
-- Probe local xác nhận Torch 2.8.0+cpu, CUDA unavailable, RAM khoảng 8 GB; không chạy model thật hoặc camera. Policy numeric đã Accepted, không hỏi lại. Kế tiếp: inventory laptop để materialize profile/parity, adapter camera và wire/persistence evidence/review riêng trước nối UI; các phần độc lập vẫn có thể tiếp tục.
-- Đã dọn 16 thư mục cache (`.ruff_cache`, `.mypy_cache`, `__pycache__` trong `src`, `tests`, `scripts`, `outputs/encoder-source`: 222 files / 49.822.066 bytes) và 2 thư mục rỗng (`outputs/_scratch`, `outputs/live-video-web`), kiểm tra không chứa file được Git track hoặc artifact đã pin. Stage và commit đúng phạm vi slice `LIVE-RUNTIME-20261028`, không push. Dataset/model và inputs đã pin không có diff.
+## Checkpoint và bàn giao
+- Đã tái hiện chính xác hai lỗi trước sửa: base suite 354 tests lỗi import tại hai module; mypy Linux báo hai lỗi `windll`.
+- Bản sửa: chuyển import annotation của `RuntimeConfig` vào `TYPE_CHECKING`; dùng guard platform được mypy hiểu cho Windows API; thêm regression subprocess chặn import Torch, torchvision, Ultralytics và OpenCV cho frame/live primitives.
+- Sau sửa: base/dev mới cài, không Torch: 378 tests PASS, 212 skip; full suite có classifier/runtime/web: 383 tests PASS, 2 browser opt-in skip. Không chạy media/model thật.
+- Strict mypy với `--platform linux` và `--platform win32`: PASS, 92 source files mỗi lần; Ruff trên cả môi trường hiện có và base mới cài PASS; compile 150 Python files trong RAM PASS; checker `--require-git` và diff PASS.
+- Bàn giao bằng commit chỉ gồm TASK, hai module và regression test. Giữ workflow/dependencies hiện có; trạng thái push và CI từ xa tra commit/PR trên GitHub, không suy PASS từ kết quả local.

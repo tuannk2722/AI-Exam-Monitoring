@@ -2,7 +2,10 @@ from __future__ import annotations
 
 import importlib.util
 import json
+import subprocess
+import sys
 import tempfile
+import textwrap
 import unittest
 from pathlib import Path
 from types import SimpleNamespace
@@ -48,6 +51,25 @@ class FixtureClassifier:
 
 
 class FrameBatchTests(unittest.TestCase):
+    def test_frame_and_live_primitives_import_without_ml_dependencies(self):
+        code = textwrap.dedent("""
+            import importlib.abc
+            import sys
+
+            class BlockML(importlib.abc.MetaPathFinder):
+                def find_spec(self, fullname, path=None, target=None):
+                    if fullname.split('.')[0] in {'torch', 'torchvision', 'ultralytics', 'cv2'}:
+                        raise ModuleNotFoundError(f'Optional dependency imported: {fullname}')
+
+            sys.meta_path.insert(0, BlockML())
+            import ai_exam_monitoring.inference.frame_processor
+            import ai_exam_monitoring.inference.live_events
+            import ai_exam_monitoring.inference.live_timing
+        """)
+        result = subprocess.run([sys.executable, "-c", code], capture_output=True, text=True,
+                                check=False)
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+
     def processor(self, batch, classifier=None, profiler=None):
         return FrameProcessor(FixtureDetector(), classifier or FixtureClassifier(),
                               dict(left=0, right=0, top=0, bottom=0),

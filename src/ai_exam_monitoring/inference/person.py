@@ -15,10 +15,9 @@ from PIL import Image
 
 from ai_exam_monitoring.common.errors import DataContractError
 
-from .runtime_config import RuntimeConfig
-
 if TYPE_CHECKING:
     from .execution import ExecutionSettings
+    from .runtime_config import RuntimeConfig
 
 
 @dataclass(frozen=True)
