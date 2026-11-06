@@ -1,0 +1,94 @@
+{
+  "baseline_commit": "b915c08",
+  "references": [
+    {
+      "path": "docs/data.md",
+      "sha256": "8a66a6d0b1494074bc30acf0f4953cc11277032643451f8e9136857926ea4067"
+    },
+    {
+      "path": "docs/training.md",
+      "sha256": "82f3dd0e7147335c3dbca8116c350892ab5c8bd7561110301e5dee1e4e0f2b81"
+    },
+    {
+      "path": "docs/development.md",
+      "sha256": "fca1aef187ff95021d186ac026c6c5b2554a2f6ac1bdc4fcff5c41bd8473193e"
+    },
+    {
+      "path": "docs/reference.md",
+      "sha256": "62a3409c11376c7ab0b4eae1b64b8906a2e3a5c83fe9dcdb721b0b0115488ab9"
+    },
+    {
+      "path": "artifacts/reports/dataset-release-20261024-v14/package-pointers.json",
+      "sha256": "b419085c2d315ba28ca660b8d0ae0846eff8c81a44c57403da06983de0666065"
+    },
+    {
+      "path": "artifacts/reports/dataset-release-20261024-v14/README.md",
+      "sha256": "6cd0a7786e1b1c8a653a62814a849c68dea2c4d76d145cd6ad3870e1e4ff41cd"
+    },
+    {
+      "path": "artifacts/reports/dataset-release-20261023-v13/README.md",
+      "sha256": "2de3002123d9c6999e674261fea0a68112a33a98a5fd10f2ce1a3b7c65bf6650"
+    },
+    {
+      "path": "artifacts/reports/v12-reconcile-20261022/owner-policy-20261023.md",
+      "sha256": "c8f3782d084448387bf437f981b2c51338373b4dbe204adb5829de8c0f72c123"
+    },
+    {
+      "path": "artifacts/reports/e008-v14-colab-20261024/results-20261025.md",
+      "sha256": "d1d14935731eaf6846e4f490ff12776987bbc0d3b2960229eac148c2a6f5b53e"
+    },
+    {
+      "path": "artifacts/reports/e008-v14-colab-20261024/error-cohorts-20261025.json",
+      "sha256": "5c65d214659c32bb1e14aadb6d831b6c7a43d75dbf4dc670128c9ebe17d82edf"
+    },
+    {
+      "path": "artifacts/reports/e008-v14-colab-20261024/prototype-decision-20261025.md",
+      "sha256": "f9e72ea35533f442133641e6175478da2827fb6d91d191cc52b936ba588f7702"
+    },
+    {
+      "path": "artifacts/reports/looking-around-audit-20261024/README.md",
+      "sha256": "198cabac686995dab02a28995989d7dd268326d44ef8a1dc5d81eb719db09033"
+    },
+    {
+      "path": "artifacts/reports/looking-around-audit-20261024/visual-findings.json",
+      "sha256": "fe5300a99c9444f14ec52d04a3d2815c652be2aa146de4454e5034e5906ec4be"
+    },
+    {
+      "path": "artifacts/reports/e007-v13-research-20261023/README.md",
+      "sha256": "83618318ac57dc6e979663efc3874941e1c479b1514d814526e51a2794f82954"
+    },
+    {
+      "path": "artifacts/reports/e007-v13-colab-20261024/README.md",
+      "sha256": "c2dafd64afbb6cfe9e9828c775ee1d82f55dc0e4244938479a3f1b352547b2be"
+    },
+    {
+      "path": "artifacts/reports/e006-v12-diagnostics-20261021/README.md",
+      "sha256": "e9feb6d885c03c55815e77df5f9edbe552974b2c40e4aefccf993ccc381be9dc"
+    },
+    {
+      "path": "artifacts/reports/frame-crop-audit-20261016/README.md",
+      "sha256": "530bd915d601242ecc56eca284c1e414056390892d9e65f81b5c3c30f01a6f86"
+    },
+    {
+      "path": "artifacts/reports/youtube-frame-audit-20261018/README.md",
+      "sha256": "053c8eaca595fab1f3fc2cdf2b9a5916c176ea1f28de0c77432767270be1c3e2"
+    },
+    {
+      "path": "configs/experiments/E008-V14-LOOKING-20261024/README.md",
+      "sha256": "0e192b33872dc2e0c0236a11ba3e32f11549b2a5f7c3297dcfb99e48551ce71a"
+    },
+    {
+      "path": "configs/runtime/RUNTIME-V8S-20261026/runtime.yaml",
+      "sha256": "513dd60b2a83770914b6f5ad62a0ca9e4a3445b77701c869bcae86ec5de24dfc"
+    },
+    {
+      "path": "configs/runtime/RUNTIME-V8S-20261026/detector-acquisition.json",
+      "sha256": "0fe5eda3635ac537190ca7b8cd8b585dd02b6090892ba676d1b2bc286ed34d0f"
+    }
+  ],
+  "external_crop_guide": {
+    "path": "D:/dataset-foundry-starter/QUY_CHUAN_CAT_VA_THAM_DINH_CROP.md",
+    "sha256": "3bc62dc24799a278bed651fd6fc8b1ad38cd0a66b5c2edd90c9ce5b1d123d4db",
+    "resolution": "Owner chose project contract and per-crop QA in this conversation; G0 fill retained, no hard 120 px or 1-4 crop limit."
+  }
+}

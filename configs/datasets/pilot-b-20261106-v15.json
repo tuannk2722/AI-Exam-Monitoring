@@ -1,0 +1,38 @@
+{
+  "dataset_version": "pilot-b-20261106-v15",
+  "parent": "pilot-b-20261024-v14",
+  "parent_payload": {
+    "path": "data/processed/pilot-b/pilot-b-20261024-v14/checksums.sha256",
+    "sha256": "51fe689b7161737ddce1b6e2845c887a58e9c91fbcd01bb1dc0768b13f351f5b"
+  },
+  "owner_direction": {
+    "path": "artifacts/reports/dataset-merge-20261106/owner-direction.json",
+    "sha256": "9af0f197ee2011260b34d73438a4b8f5674ee326e79ec298292333a9545275c6"
+  },
+  "allocation": {
+    "path": "artifacts/reports/dataset-merge-20261106/allocation.json",
+    "sha256": "6b79f8476d6291d15dcae89c1ada6dff411adce0d217ddf841a5214bfb31bae9"
+  },
+  "visual_review": {
+    "path": "artifacts/reports/dataset-merge-20261106/visual-review.json",
+    "sha256": "faaaaa2c9fe71460310ae83dceeb8a1638074f8a43f9b8b603332d384a6f43d9"
+  },
+  "lineage": {
+    "path": "artifacts/reports/dataset-merge-20261106/group-lineage.json",
+    "sha256": "9553bbf48c446d4645cd2da32c953bb3c7c51a284cee611b58640a26a8b16c01"
+  },
+  "candidate_ledger": {
+    "path": "data/interim/dataset-merge-20261106/review-ledger.jsonl",
+    "sha256": "ec2c79e17460fe71d2d06f47becd35f03ff1a8e3ac9fe6e53767688c8f10b370"
+  },
+  "output": "data/processed/pilot-b/pilot-b-20261106-v15",
+  "use_scope": "local_classifier_research",
+  "split_version": "owner-delegated-group-train-val-20261106-v15",
+  "test_count": 0,
+  "counts": {
+    "train": 1377,
+    "val": 344,
+    "excluded": 278
+  },
+  "intended_next_experiment": "E009; recipe/run approval is separate"
+}

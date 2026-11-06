@@ -1,0 +1,11 @@
+{
+  "status": "blocked_by_automatic_approval_review",
+  "attempted_action": "PowerShell Remove-Item -LiteralPath on exact reviewed scratch target, recursively",
+  "reason": "blocked by policy",
+  "retried_with_alternate_method": false,
+  "scratch_still_exists": true,
+  "files_retained": 1847,
+  "bytes_retained": 999663758,
+  "manifest_sha256": "6286f36f16cbac2d527db841813c03b0cda224319095fc6c5b08dd12f5d58e5b",
+  "protected_dataset_payload_sha256": "d910b5999ef973fa04d5e3a50cd5d7e1338c3e041c7a3e82af5fc8efd0641564"
+}

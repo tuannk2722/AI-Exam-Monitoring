@@ -1,0 +1,86 @@
+{
+  "status": "PASS",
+  "crop_count": 390,
+  "source_frames": 373,
+  "used_frames": 229,
+  "native_numpy_roi_pixel_parity": true,
+  "previews_336_pixel_parity": true,
+  "geometry_bounds_and_containment": true,
+  "source_frame_sha": true,
+  "exact_crop_duplicate_groups": 0,
+  "rgb_crop_duplicate_groups": 0,
+  "native_short_side_below_120_advisory_only": 19,
+  "html_link_occurrences": 2697,
+  "missing_links": [],
+  "no_supervision_fields": true,
+  "v14_pins_preserved": {
+    "manifest": true,
+    "ledger": true,
+    "release": true,
+    "config": true
+  },
+  "browser": {
+    "chromium_local_file_render": "PASS",
+    "crop_cards": 390,
+    "source_frame_cards": 373,
+    "S06_filter_crops": 16,
+    "S06_filter_frames": 22,
+    "search_exact_id": "PASS",
+    "native_small_crop_display": {
+      "displayed": [
+        151,
+        208
+      ],
+      "native": [
+        151,
+        208
+      ],
+      "input_displayed": [
+        336,
+        336
+      ]
+    }
+  },
+  "software": {
+    "unittest_test_frame_crops": {
+      "methods": 1,
+      "status": "PASS",
+      "preflight_failure_subcases": 6
+    },
+    "unittest_test_source_review": {
+      "methods": 6,
+      "status": "PASS"
+    },
+    "ruff_changed_source_test_worksheet": "PASS",
+    "strict_mypy_changed_source": "PASS",
+    "repository_checker_actual_index": {
+      "status": "EXPECTED_UNTRACKED_DELIVERY_FILES",
+      "files": [
+        "src/ai_exam_monitoring/data/frame_crops.py",
+        "tests/test_frame_crops.py"
+      ],
+      "staging_requested": false
+    },
+    "repository_checker_temporary_index": "PASS; isolated GIT_INDEX_FILE snapshot, actual index unchanged",
+    "diff_check": "PASS"
+  },
+  "not_acceptance": [
+    "labels",
+    "rights_for_training_or_distribution",
+    "leakage_group_assignment",
+    "split",
+    "release",
+    "model_quality"
+  ],
+  "detector_proposal_evidence": {
+    "path": "data/interim/accepted-frames-crops-20261105/detector-proposals.json",
+    "sha256": "bdefdab1c8c68474c658e7a36279e94d3066a2668d52d507ad481f26ea9da454"
+  },
+  "cleanup": {
+    "scratch_path": "outputs/_scratch/accepted-frames-crops-20261105",
+    "status": "retained_policy_blocked",
+    "reason": "blocked by policy",
+    "preserved_before_attempt": true,
+    "bypass_attempted": false
+  }
+}
