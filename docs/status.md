@@ -1,6 +1,6 @@
 # Trạng thái dự án
 
-Đối chiếu code và hồ sơ bàn giao đến **2026-11-06**. Chỉ giữ trạng thái hiện hành, thay nội dung khi tiến độ đổi; không append nhật ký/metrics/mọi task. Không là approval. [Index](00-INDEX.md) định tuyến contracts; [reports](../artifacts/reports/README.md) giữ lịch sử/evidence.
+Đối chiếu code và hồ sơ bàn giao đến **2026-11-07**. Chỉ giữ trạng thái hiện hành, thay nội dung khi tiến độ đổi; không append nhật ký/metrics/mọi task. Không là approval. [Index](00-INDEX.md) định tuyến contracts; [reports](../artifacts/reports/README.md) giữ lịch sử/evidence.
 
 ## Capability
 
@@ -19,8 +19,9 @@ Owner đã review batch ngày 05/11 và bổ sung crop có nhãn ngày 06/11/202
 368 crop mới, nhập quyết định exclude/relabel và đóng
 [V15](../artifacts/reports/dataset-merge-20261106/README.md) theo ủy quyền hợp nhất/chia split.
 Val mới có composition khác và gồm 197 crop train lịch sử chuyển sang theo nguyên nhóm;
-chỉ là development, E009 cần khởi tạo mới theo recipe/protocol được duyệt riêng.
-Chưa train E009. V14 và model prototype hiện hành giữ nguyên. Phần dưới giữ trạng thái
+chỉ là development; E009 đã khởi tạo mới từ pretrained theo recipe/protocol được duyệt riêng.
+Owner đã approve [E009](../configs/experiments/E009-V15-20261106/README.md), trần 12 giờ GPU
+private Colab/Drive; campaign đã hoàn tất 6 smoke + 25 research sau recovery 45 phút/run, giữ đồng hồ gốc. [Audit E009 ngày 07/11](../artifacts/reports/e009-v15-colab-20261106/results-20261107.md) xác nhận B0 đứng đầu, nhưng có finding score sát ngưỡng và hạn chế looking trên cohort old-train chuyển sang val. [Checkpoint audit](../artifacts/reports/e009-v15-colab-20261106/checkpoints-20261107.md) đã nhận đủ best/last ba run đại diện và kiểm integrity/cấu trúc local. Chưa Selected/promotion hoặc test; không tự train thêm hoặc thay G0. V14 và model prototype hiện hành giữ nguyên. Phần dưới giữ trạng thái
 implementation runtime đã có, không là yêu cầu tiếp tục chạy trong task dữ liệu.
 
 Owner chuyển đích demo sang **camera trực tiếp (có thể từ điện thoại) và video

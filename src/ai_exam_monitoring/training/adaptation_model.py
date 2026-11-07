@@ -16,11 +16,13 @@ from ai_exam_monitoring.common.provenance import sha256_file
 
 from .adaptation_config import (
     AdaptationConfig,
+    DinoAdaptationConfig,
     E005AdaptationConfig,
     FilePin,
     RepresentationConfig,
     ResearchAdaptationConfig,
     SpatialConfig,
+    is_dino_config,
 )
 from .artifacts import save_checkpoint
 
@@ -35,6 +37,8 @@ def tensor_digest(state: Mapping[str, torch.Tensor]) -> str:
 
 
 def head_input_dim(config: AdaptationConfig) -> int:
+    if isinstance(config, DinoAdaptationConfig):
+        return 1536 if config.encoder_variant == "dinov2_vitb14" else 768
     if isinstance(config, SpatialConfig) and config.pooling != "global_mean":
         return 1920
     if isinstance(config, RepresentationConfig) and config.model == "dinov2_vits14_v4":
@@ -177,15 +181,19 @@ class AdaptationModel(nn.Module):
         in_dim = head_input_dim(config)
         hidden_dim = config.head_hidden_dim if isinstance(config, E005AdaptationConfig) else 0
         dropout = config.head_dropout if isinstance(config, E005AdaptationConfig) else 0.0
-        if isinstance(config, RepresentationConfig) and config.model == "dinov2_vits14_v4":
+        if isinstance(config, RepresentationConfig) and is_dino_config(config):
             from .encoders import DinoNetwork, load_dino_source
 
             if workspace is None or config.encoder_source is None:
                 raise DataContractError("DINO requires workspace and pinned local source")
-            self.network = DinoNetwork(
-                load_dino_source(config.encoder_source, workspace),
-                build_e005_head(in_dim, hidden_dim, dropout),
-            )
+            backbone = (load_dino_source(config.encoder_source, workspace,
+                                        variant=config.encoder_variant)
+                        if isinstance(config, DinoAdaptationConfig)
+                        else load_dino_source(config.encoder_source, workspace))
+            last_blocks = (config.train_last_blocks
+                           if isinstance(config, DinoAdaptationConfig) else 2)
+            self.network = DinoNetwork(backbone, build_e005_head(in_dim, hidden_dim, dropout),
+                                       train_last_blocks=last_blocks)
         if full_state is None:
             if (
                 weights is None
@@ -195,7 +203,7 @@ class AdaptationModel(nn.Module):
             ):
                 raise DataContractError("Missing or changed pretrained/head initialization")
             pretrained_model = (
-                self.network.backbone if self.policy == "dinov2_vits14_v4" else self.network
+                self.network.backbone if is_dino_config(config) else self.network
             )
             pretrained_model.load_state_dict(
                 torch.load(weights, map_location="cpu", weights_only=True)
@@ -249,10 +257,11 @@ class AdaptationModel(nn.Module):
             return "head_only"
         if epoch <= config.warmup_epochs:
             return "warmup_head_only"
-        if self.policy == "dinov2_vits14_v4":
-            self.network.backbone.blocks[10:].requires_grad_(True)
+        if is_dino_config(config):
+            self.network.backbone.blocks[self.network.prefix_blocks:].requires_grad_(True)
             self.network.backbone.norm.requires_grad_(True)
-            return "finetune_last_two_blocks"
+            return (f"finetune_last_{config.train_last_blocks}_blocks"
+                    if isinstance(config, DinoAdaptationConfig) else "finetune_last_two_blocks")
         if config.trainable_scope == "head_and_layer4_block1":
             self.network.layer4[1].requires_grad_(True)
             return "finetune_layer4_block1"
@@ -269,7 +278,7 @@ class AdaptationModel(nn.Module):
         return self
 
     def _extract_backbone_features(self, images: torch.Tensor) -> torch.Tensor:
-        if self.policy == "dinov2_vits14_v4":
+        if is_dino_config(self._config):
             return cast(torch.Tensor, self.network.features(images))
         net = self.network
         if images.requires_grad:
@@ -352,13 +361,15 @@ class AdaptationModel(nn.Module):
         names: dict[str, list[str]] = {"head": [], "layer4": []}
         params: dict[str, list[nn.Parameter]] = {"head": [], "layer4": []}
         if isinstance(config, E005AdaptationConfig):
+            dino_prefixes = (tuple(f"network.backbone.blocks.{i}." for i in range(
+                self.network.prefix_blocks, len(self.network.backbone.blocks)))
+                + ("network.backbone.norm.",) if is_dino_config(config) else ())
             for name, parameter in self.named_parameters():
                 if name.startswith("network.fc."):
                     names["head"].append(name)
                     params["head"].append(parameter)
-                elif (config.trainable_scope == "head_and_last_two_blocks" and
-                      name.startswith(("network.backbone.blocks.10.",
-                                       "network.backbone.blocks.11.", "network.backbone.norm."))):
+                elif (config.trainable_scope in {"head_and_last_two_blocks", "head_and_last_blocks"}
+                      and name.startswith(dino_prefixes)):
                     names["layer4"].append(name)
                     params["layer4"].append(parameter)
                 elif (

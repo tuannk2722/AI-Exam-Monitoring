@@ -1,30 +1,18 @@
-# CLEANUP-COMMIT-20261106 — Dọn và commit hồ sơ crop/V15
+﻿# E009-CLOSEOUT-WEB — Cleanup/commit E009 và tích hợp model đã chốt
 
-- Trạng thái: hoàn tất rà soát và chuẩn bị commit local theo yêu cầu owner; phần xóa cache bị automatic approval review chặn. Không push.
+- Trạng thái: pha 1 cleanup/commit E009; sau đó pha 2 nghiên cứu và tích hợp web.
 
 ## Yêu cầu và hiện trạng
-- Đã đọc AGENTS, index/status, development, storage và task template; đối chiếu Git và hồ sơ crop/V15 thực tế.
-- HEAD `b915c08`; có 11 file report crop ngày 05/11 đã staged từ trước, report/config V15 cùng docs chưa stage. Không có thay đổi active source.
-- Scratch `outputs/_scratch/dataset-merge-20261106` hiện không tồn tại. Receipt trước ghi lần xóa bị chặn; giữ nguyên receipt lịch sử, chỉ bổ sung trạng thái quan sát hiện tại, không nhận đã thực hiện xóa.
+Owner yêu cầu cleanup codebase rồi commit trước; tiếp theo đóng khung hai hành vi E009 để hoàn thiện demo và nghiên cứu hành vi mới sau. Owner đã chọn rõ: một phiên chọn B0 hoặc B448 chạy cả hai nhãn, B0 mặc định. Đã đọc AGENTS/index/status/TASK/development/storage/live design và đối chiếu Git. Worktree đang chứa toàn bộ E009 implementation/audit chưa commit từ baseline 79c04ce.
 
 ## Quyết định và inputs
-- Phạm vi: hoàn chỉnh bàn giao crop ngày 05/11 và `pilot-b-20261106-v15`, cleanup phần tạm không còn cần thiết và commit source/docs/config/metadata liên quan.
-- Giữ raw, crop/frame/gallery hiện hành, dataset/model và dependencies. Config/receipt/worksheet đã pin không sửa bytes hoặc reseal release. Không train, inference, upload hoặc push.
-- Inputs và quyết định nhãn/split: `artifacts/reports/dataset-merge-20261106/README.md`, `owner-direction.json`, `package-pointers.json` và release V15.
+Đủ best/last B0-S20261106, B448-S20261110, C0-S20261107; metadata audit có findings nhưng rank và gates giữ nguyên. Giữ checkpoint/calibration/preprocessing/seed của B0 và B448; C0 chỉ control. Không train thêm E009, không final test, không ensemble hoặc ghép hai model theo target. Cho phép prototype web tích hợp theo lựa chọn owner; không gọi kết quả development là nghiệm thu holdout tổng quát. Model/source/data và receipts đã pin bất biến.
 
 ## Outputs và vòng đời
-- Giữ snapshot worksheet đã thực thi trong report làm evidence; không biến thành API production hoặc chạy lại lên output đã tồn tại.
-- Dọn nhận định bàn giao đã lỗi thời trong README chưa seal; bổ sung checks/cleanup hiện tại trong hồ sơ cùng release, giữ receipts cũ.
-- Chỉ stage paths đã inspect; không media/model/cache/env/credentials. Commit local, không push.
-- Bổ sung `.gitattributes` bảo toàn bytes config V15 qua checkout Windows/Linux, theo convention V11–V14; không đổi bytes config.
+Commit pha 1 chỉ source/docs/config/metadata E009; không media/model/ZIP/env/cache vào Git. Dọn scratch đã xác nhận không còn dependencies; không retry tooling cũ bị policy chặn. Sau commit mới sửa runtime/web bằng config/authorization version mới, giữ G0 artifacts và phiên lịch sử. Không push/deploy/cloud/send messages.
 
 ## Contract impact và checks
-- Không đổi contract — không sửa spec. Không đổi membership/nhãn/split/config hoặc dataset bytes.
-- Kiểm pins/dependencies liên quan, JSON/syntax/links, Ruff active source, type check và regression tests đúng scope; kiểm staged diff và `check_repo.py --require-git` trước commit.
-- Không cần train/smoke hoặc rebuild dataset vì cleanup metadata; software checks không thay data/model acceptance.
+Cleanup giữ contract và source snapshot đã train; kiểm package identity và pins trước commit, Ruff/Mypy/targeted checks, index/registry --require-git, inspect staged diff và clean checkout. Bản source 68802787… đã có full-suite evidence 399 tests; không train/smoke lại chỉ vì cleanup. Integration: khảo sát classifier/runtime/factory/session/UI và consumer trước thay, ghi scope chọn model và provenance mỗi phiên; kiểm fixtures API/classifier/cross-session/browser thích hợp, không tự benchmark/claim real-time.
 
-## Checkpoint và bàn giao
-- Scratch task dữ liệu không còn từ lúc kiểm đầu. Đã lập manifest cho 172 file cache / 49.219.300 bytes; lệnh PowerShell xóa đúng cache bị từ chối `blocked by policy`, cache giữ nguyên, không thử phương thức khác.
-- PASS: 73 tests liên quan, Ruff active source, strict Mypy 92 files, 23 referenced pins và 8 tooling pins, JSON/syntax, 368 gallery cards / 736 links và source roots. Không đổi active source, nhãn/split hoặc payload dataset.
-- Đã stage và inspect hồ sơ crop ngày 05/11, V15, config và docs; checker `--require-git` không lỗi, staged diff check PASS. Kiểm bytes trong index và checkout filters trước commit; không cần dataset rebuild, train hoặc full ML suite.
-- Bàn giao tại `artifacts/reports/dataset-merge-20261106/README.md` và `cleanup-commit-validation.json`. Giữ snapshots/receipts đã pin, ghi giới hạn cleanup rõ ràng; tiếp theo chỉ thực hiện commit local và kiểm Git status.
+## Checkpoint và bước tiếp
+Đang rà pending E009 files, commit cleanup trước; chốt B0 mặc định/B448 tùy chọn đã có owner approval, không hỏi lại phần này.

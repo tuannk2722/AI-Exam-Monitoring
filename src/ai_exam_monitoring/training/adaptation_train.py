@@ -21,6 +21,7 @@ from ai_exam_monitoring.common.provenance import sha256_file
 
 from .adaptation_config import (
     AdaptationConfig,
+    DinoAdaptationConfig,
     E005AdaptationConfig,
     RepresentationConfig,
     ResearchAdaptationConfig,
@@ -556,6 +557,11 @@ def run_adaptation(
     torch.manual_seed(config.seed)
     configure_device(config)
     code, env = code_identity(), execution_environment(config)
+    if isinstance(config, DinoAdaptationConfig) and (workspace / "bundle-manifest.json").is_file():
+        source_bundle = json.loads((workspace / "bundle-manifest.json").read_text(encoding="utf-8"))
+        if source_bundle.get("code_sha256") != code["sha256"]:
+            raise DataContractError("V6 source differs from its verified portable bundle")
+        env["source_checkout"] = source_bundle.get("source_checkout")
     if isinstance(config, RepresentationConfig) and config.run_kind == "research":
         from .adaptation_config import FilePin
 
@@ -606,6 +612,10 @@ def run_adaptation(
         write_json(output / "environment.json", env)
     record.write(output)
     started = time.perf_counter()
+    telemetry: dict[str, Any] = {"epoch_sync_seconds": 0.0, "epoch_sync_count": 0}
+    if isinstance(config, DinoAdaptationConfig) and config.device == "cuda":
+        torch.cuda.reset_peak_memory_stats()
+
     def mirror(state: dict[str, Any]) -> None:
         destination = os.environ.get("E007_RECOVERY_DIR")
         if not isinstance(config, RepresentationConfig) or not destination:
@@ -620,7 +630,10 @@ def run_adaptation(
             error="Committed epoch recovery snapshot; live process may still be running",
             observation="Resume only after the original process has stopped.",
         )
+        sync_started = time.perf_counter()
         mirror_epoch(output, Path(destination), recovery_record)
+        telemetry["epoch_sync_seconds"] += time.perf_counter() - sync_started
+        telemetry["epoch_sync_count"] += 1
 
     try:
         config.weights_license.verify(workspace)
@@ -633,6 +646,8 @@ def run_adaptation(
             initial_head=config.head_initialization.verify(workspace),
             workspace=workspace,
         )
+        telemetry["input_and_model_setup_seconds"] = time.perf_counter() - started
+        train_started = time.perf_counter()
         result = train_images(
             model,
             train,
@@ -647,6 +662,8 @@ def run_adaptation(
             - (time.perf_counter() - started),
             checkpoint_hook=mirror if isinstance(config, RepresentationConfig) else None,
         )
+        telemetry["training_including_epoch_sync_seconds"] = time.perf_counter() - train_started
+        reporting_started = time.perf_counter()
         prevalence = (train.values * train.mask).sum(0) / train.mask.sum(0)
         metrics = {}
         thresholds = None
@@ -691,6 +708,7 @@ def run_adaptation(
         record.observation = (
             "Matched image experiment finished; no final test or promotion inferred."
         )
+        telemetry["reporting_seconds"] = time.perf_counter() - reporting_started
     except BaseException as error:
         record.status = (
             "INTERRUPTED" if isinstance(error, (KeyboardInterrupt, TimeoutError)) else "FAILED"
@@ -710,6 +728,17 @@ def run_adaptation(
         record.ended_at = now()
         record.elapsed_seconds += time.perf_counter() - started
         record.peak_rss_bytes = peak_rss()
+        if isinstance(config, DinoAdaptationConfig):
+            telemetry.update(schema_version="training-telemetry-v1",
+                             attempt_elapsed_seconds=time.perf_counter() - started,
+                             peak_rss_bytes=record.peak_rss_bytes)
+            if config.device == "cuda":
+                telemetry.update(
+                    peak_vram_allocated_bytes=torch.cuda.max_memory_allocated(),
+                    peak_vram_reserved_bytes=torch.cuda.max_memory_reserved(),
+                    total_vram_bytes=torch.cuda.get_device_properties(0).total_memory,
+                )
+            write_json(output / "telemetry.json", telemetry)
         record.write(output)
         checksum_artifacts(output)
     return record

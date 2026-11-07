@@ -1,0 +1,78 @@
+{
+  "status": "ready_for_owner_verified_recovery_45_minute_research_cap",
+  "owner_runs_notebook": true,
+  "notebook": {
+    "path": "notebooks/E009-V15-Colab.ipynb",
+    "sha256": "2d26b70000210014697f1508d8f57bc1d8ab6ca71d76d31a610c44889c87cb6e"
+  },
+  "bundle": {
+    "path": "outputs/E009-V15-Colab-20261106/e009-colab-execution-bundle.zip",
+    "sha256": "8125a39ba893624730193a219a4b3ab340592eb66e2f687f3bc1b55b3f7b95b1"
+  },
+  "bundle_bytes": 1273068741,
+  "bundle_members": 1854,
+  "design": {
+    "path": "configs/experiments/E009-V15-20261106/execution-design.json",
+    "sha256": "2315db2520bca969d818de6bc52712388e22655c8f60971fc30efea15d2eb557"
+  },
+  "authorization": {
+    "path": "configs/experiments/E009-V15-20261106/owner-authorization.json",
+    "sha256": "7e2f2c71abe5a96fcb713084e11e15b005264dc0454e1bf2cc7b9aa2669aa998"
+  },
+  "proposal": {
+    "path": "configs/experiments/E009-V15-20261106/proposal.yaml",
+    "sha256": "303e586587fe81277899edb69e9418a0cd8dd305493fb0f92da6a335aa02087e"
+  },
+  "code_sha256": "68802787f7ee3d892073ff46e6657d45f0d74d283fab5a8ad3582f0795876c29",
+  "source_checkout": {
+    "git_commit": "79c04ce427506f7c490c479ee8263e6d89ca3fe5",
+    "git_dirty": true,
+    "identity": "exact allowlisted source snapshot"
+  },
+  "dataset_version": "pilot-b-20261106-v15",
+  "payload_sha256": "d910b5999ef973fa04d5e3a50cd5d7e1338c3e041c7a3e82af5fc8efd0641564",
+  "destination": "private My Drive/E009/e009-colab-execution-bundle.zip",
+  "output": "private My Drive/E009/E009-V15-COLAB-20261106/",
+  "limits": {
+    "total_minutes": 720,
+    "full_research_runs_max": 25,
+    "core_research_runs_max": 19,
+    "actual_smoke_required": true,
+    "research_run_minutes": 45
+  },
+  "upload_status": "owner_uploaded_private_Drive_original_bundle",
+  "actual_GPU_smoke": "six_FINISHED_reload_PASS_stopped_at_original_projection_gate",
+  "research": "NOT_RUN",
+  "final_test_authorized": false,
+  "runtime_model_replaced": false,
+  "software_checks": {
+    "path": "artifacts/reports/e009-v15-colab-20261106/software-checks.json",
+    "sha256": "c565482edc53b834689b600cfd0db93996cb470462c2c6b05a0316077e2c73ee"
+  },
+  "portable_preflight": {
+    "path": "artifacts/reports/e009-v15-colab-20261106/portable-preflight.json",
+    "sha256": "7a7ae76faed5500bc363e66bc9ba31122f9cb2414eedb861e7e4e0f60aca48c0"
+  },
+  "superseded_initial_bundle": {
+    "bundle": {
+      "path": "outputs/E009-V15-Colab-20261106/e009-colab-bundle.zip",
+      "sha256": "ce1fc48d4ffde8b6bfcc601bd33a16f49af5ef9ea4570e187afad47dbfefcf59"
+    },
+    "status": "superseded_not_uploaded_retained_local",
+    "reason": "execution companion corrects origin tags for 26 old-val-to-train records; labels/splits/groups/recipe unchanged"
+  },
+  "recovery": {
+    "authorization": {
+      "path": "configs/experiments/E009-V15-20261106/recovery-authorization-20261107.json",
+      "sha256": "9c2c128c2754db364ef32f554ef1c19b050544e3a0652be4e0aba9b8eac1b5fb"
+    },
+    "extension": {
+      "path": "src/e009_recovery.py",
+      "sha256": "a7ec0d2287d04cb10b3787ee9f78ed212b938bfcc7210f4e721e651665d1bac9"
+    },
+    "research_run_minutes": 45,
+    "original_clock_preserved": true,
+    "completed_smoke_verification_required": true,
+    "research_status": "NOT_RUN_owner_runs_updated_notebook"
+  }
+}

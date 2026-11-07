@@ -1,0 +1,25 @@
+{
+  "source_repository": "https://github.com/facebookresearch/dinov2",
+  "revision": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+  "source": {
+    "path": "outputs/E007-V13-Colab-20261024/pretrained/dinov2-source.zip",
+    "sha256": "04276715cddb29d45d05bff3a6fc132224dc27749b279ac98ad2ce4620e20d48"
+  },
+  "weights": {
+    "path": "outputs/E009-V15-Colab-20261106/pretrained/dinov2_vitb14_pretrain.pth",
+    "sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73"
+  },
+  "bytes": 346378731,
+  "official_url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_pretrain.pth",
+  "variant": "DINOv2_VITB14 LVD142M without registers; backbone only",
+  "license": "Apache-2.0",
+  "license_basis": "Official DINOv2 README/LICENSE, shared pinned upstream source. Not XRay-DINO or DINOv3.",
+  "upstream_license_receipt": {
+    "path": "artifacts/reports/e007-v13-colab-20261024/dinov2-pretrained.json",
+    "sha256": "0b19ff7fc61b59ef0350b655e71bb64e1ce8666607fc0ad7c2baedd2c8bb62e4"
+  },
+  "download_authorized_by": {
+    "path": "configs/experiments/E009-V15-20261106/owner-authorization.json",
+    "sha256": "7e2f2c71abe5a96fcb713084e11e15b005264dc0454e1bf2cc7b9aa2669aa998"
+  }
+}

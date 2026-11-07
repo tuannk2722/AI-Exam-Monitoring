@@ -39,6 +39,7 @@ def evaluate(run_dir: Path, output: Path, workspace: Path, split: str,
         "matched-adaptation-v1", "matched-adaptation-v2", "matched-adaptation-v3",
         "representation-adaptation-v4",
         "spatial-representation-v5",
+        "dinov2-adaptation-v6",
     }:
         from .adaptation_evaluate import evaluate_adaptation
 

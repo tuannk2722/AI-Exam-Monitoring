@@ -1,0 +1,42 @@
+{
+  "id": "E009-RECOVERY-20261107",
+  "status": "approved",
+  "owner": "repository-owner",
+  "approved_on": "2026-11-07",
+  "owner_statement": "approve, hãy thực hiện đi!",
+  "scope": "continue_original_campaign_with_verified_completed_smoke_and_45_minute_research_cap",
+  "campaign_id": "E009-V15-COLAB-20261106",
+  "started_at": 1793989995.5354478,
+  "design": {
+    "path": "configs/experiments/E009-V15-20261106/execution-design.json",
+    "sha256": "2315db2520bca969d818de6bc52712388e22655c8f60971fc30efea15d2eb557"
+  },
+  "proposal": {
+    "path": "configs/experiments/E009-V15-20261106/proposal.yaml",
+    "sha256": "303e586587fe81277899edb69e9418a0cd8dd305493fb0f92da6a335aa02087e"
+  },
+  "code_sha256": "68802787f7ee3d892073ff46e6657d45f0d74d283fab5a8ad3582f0795876c29",
+  "bundle_sha256": "8125a39ba893624730193a219a4b3ab340592eb66e2f687f3bc1b55b3f7b95b1",
+  "runtime_sha256": "933510d07ad457d23d25c4525764591ee2fe45ce40fd495c0e2507bb9872288e",
+  "extension_sha256": "a7ec0d2287d04cb10b3787ee9f78ed212b938bfcc7210f4e721e651665d1bac9",
+  "original_mirror_sha256": "d478bf016b8b585926721f672401f2c93a9c7d387459741427504674634b0a19",
+  "original_campaign_sha256": "4cbe6c052cb1b80ec1c613c2c625bf68573c2a7b455c43eca1e00f1f1d7f16fb",
+  "smoke_runs": [
+    "E009-V15-SMOKE-C0-FULL",
+    "E009-V15-SMOKE-C0-RESUME",
+    "E009-V15-SMOKE-S4-FULL",
+    "E009-V15-SMOKE-S4-RESUME",
+    "E009-V15-SMOKE-B448-FULL",
+    "E009-V15-SMOKE-B448-RESUME"
+  ],
+  "research_run_minutes": 45,
+  "total_minutes": 720,
+  "research_pool_minutes": 500,
+  "training_deadline_minutes_from_first_launch": 610,
+  "verify_completed_smoke_after_original_window": true,
+  "repeat_smoke_training": false,
+  "reset_original_clock": false,
+  "training_recipe_changed": false,
+  "final_test_inference_authorized": false,
+  "owner_runs_notebook": true
+}

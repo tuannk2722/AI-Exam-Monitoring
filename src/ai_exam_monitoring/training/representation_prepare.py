@@ -28,7 +28,37 @@ def read_pin(root: Path, value: dict[str, str]) -> Any:
     return json.loads(FilePin(**value).verify(root).read_text(encoding="utf-8"))
 
 
-def prepare(design_path: Path, root: Path, phase: str) -> dict[str, Any]:
+def is_multiseed(design: dict[str, Any]) -> bool:
+    return bool(design.get("config_schema") == "dinov2-adaptation-v6")
+
+
+def campaign_budget(
+    design: dict[str, Any], proposal: dict[str, Any], profile: str | None = None
+) -> dict[str, Any]:
+    if not is_multiseed(design):
+        raise DataContractError("Hardware-selected profile budgets require V6")
+    if profile not in {"full", "core"}:
+        raise DataContractError("V6 requires an explicit hardware-selected profile")
+    selected, budget = proposal["profiles"][profile], proposal["budget"]
+    return {**budget, "screening_arms": selected["screening_arms"],
+            "smoke_arms": selected["smoke_arms"],
+            "screening_seeds": proposal["screening"]["seeds"],
+            "confirmation_seeds": proposal["confirmation"]["additional_seeds"],
+            "max_research_runs": selected["max_research_runs"],
+            "smoke_minutes": budget["actual_gpu_smoke_minutes"],
+            "run_including_reload_minutes": budget[
+                "per_research_run_including_reload_and_sync_minutes"]}
+
+
+def smoke_receipt_path(design: dict[str, Any], root: Path, profile: str | None = None) -> Path:
+    if is_multiseed(design) and profile not in {"full", "core"}:
+        raise DataContractError("Missing V6 profile")
+    return local_path(root, design["smoke_receipt"].replace("{profile}", profile or ""))
+
+
+def prepare(
+    design_path: Path, root: Path, phase: str, *, profile: str | None = None
+) -> dict[str, Any]:
     root = root.resolve()
     design = json.loads(design_path.read_text(encoding="utf-8"))
     if phase not in {"smoke", "research"}:
@@ -42,7 +72,9 @@ def prepare(design_path: Path, root: Path, phase: str) -> dict[str, Any]:
         raise DataContractError("Approved design/cloud execution scope required")
     proposal_path = FilePin(**design["proposal"]).verify(root)
     proposal = yaml.safe_load(proposal_path.read_text(encoding="utf-8"))
-    budget = proposal["budgets"][authority["budget_tier"]]
+    multi = is_multiseed(design)
+    budget = (campaign_budget(design, proposal, profile) if multi
+              else proposal["budgets"][authority["budget_tier"]])
     for value in design.get("supporting_inputs", []):
         FilePin(**value).verify(root)
     pointer = read_pin(root, design["dataset_pointer"])
@@ -71,16 +103,20 @@ def prepare(design_path: Path, root: Path, phase: str) -> dict[str, Any]:
             or release_approval.get("dataset_version") != spec.dataset_version
             or release_approval.get("counts") != expected):
         raise DataContractError("Release approval identity/counts mismatch")
-    folder = local_path(root, design["config_dir"]) / phase
+    folder = local_path(root, design["config_dir"])
+    if multi:
+        folder /= str(profile)
+    folder /= phase
     if folder.exists():
         raise DataContractError("Immutable phase exists; use its plan instead of preparing again")
     smoke_pin = None
     if phase == "research":
-        smoke_pin = pin(root, local_path(root, design["smoke_receipt"]))
+        smoke_pin = pin(root, smoke_receipt_path(design, root, profile))
         smoke = read_pin(root, smoke_pin)
         if (smoke.get("status") != "PASS" or smoke.get("code_sha256") != code_identity()["sha256"]
                 or smoke.get("payload_sha256") != spec.payload_sha256
-                or smoke.get("design_sha256") != sha256_file(design_path)):
+                or smoke.get("design_sha256") != sha256_file(design_path)
+                or (multi and smoke.get("profile") != profile)):
             raise DataContractError("Actual current smoke receipt required")
     cohorts, receipts, families = [], {}, {}
     slices: dict[str, dict[str, list[str]]] = {}
@@ -113,6 +149,18 @@ def prepare(design_path: Path, root: Path, phase: str) -> dict[str, Any]:
                         / ((cb.xmax-cb.xmin)*(cb.ymax-cb.ymin)))
             keys.append("small_anchor_fraction" if fraction < .7 else "large_anchor_fraction")
             size = max(row.source.image_width, row.source.image_height)
+            if multi:
+                size = max(cb.xmax-cb.xmin, cb.ymax-cb.ymin)
+                boundary = source.get("source_boundary", row.source.source_id)
+                keys.extend(["boundary:" + boundary,
+                             "cohort_origin:" + source["cohort_origin"]])
+                edge_bin = ("le224" if size <= 224 else "225to336" if size <= 336
+                            else "337to448" if size <= 448 else "gt448")
+                keys.append("native_edge:" + edge_bin)
+                if source.get("train_only_generated_or_imported"):
+                    keys.append("train_only_generated_or_imported")
+                if all(v is not None for v in row.target_values):
+                    keys.append("joint:" + "".join("P" if v else "N" for v in row.target_values))
             keys.append("native_long_edge_gt224" if size > 224 else "native_long_edge_le224")
             for key in keys:
                 slices[name].setdefault(key, []).append(row.sample_id)
@@ -152,9 +200,15 @@ def prepare(design_path: Path, root: Path, phase: str) -> dict[str, Any]:
         parent = arm.pop("same_as", None)
         return {**(resolved_arm(parent) if parent else {}), **arm}
 
-    items = (design["smoke_runs"] if phase == "smoke" else [
+    screening_seeds = (budget["screening_seeds"] if multi else [proposal["screening"]["seed"]])
+    smoke_items = ([{"arm": arm, "seed": screening_seeds[0],
+                     "id": f"{design['run_prefix']}-SMOKE-{arm}-{mode}",
+                     "epochs": proposal["smoke"]["epochs_per_run"]}
+                    for arm in budget["smoke_arms"] for mode in ("FULL", "RESUME")]
+                   if multi else design["smoke_runs"])
+    items = (smoke_items if phase == "smoke" else [
         {"arm": arm, "seed": seed}
-        for seed in [proposal["screening"]["seed"], *budget["confirmation_seeds"]]
+        for seed in [*screening_seeds, *budget["confirmation_seeds"]]
         for arm in budget["screening_arms"]
     ])
     plan_items = []
@@ -199,15 +253,35 @@ def prepare(design_path: Path, root: Path, phase: str) -> dict[str, Any]:
                "max_epochs": item.get("epochs", common["max_epochs"]),
                "warmup_epochs": common["warmup_head_only_epochs"],
                "pos_weight": common["loss"]["pos_weight"],
-               "trainable_scope": ("head_and_last_two_blocks" if encoder == "dinov2_vits14"
+               "trainable_scope": ("head_and_last_blocks" if multi else
+                                   "head_and_last_two_blocks" if encoder == "dinov2_vits14"
                                    and arm_name == "D1" else arm["trainable_scope"]),
                "augmentation": {**common["augmentation"],
-                                "random_erasing_prob": arm["random_erasing_prob"]},
+                                "random_erasing_prob": arm.get("random_erasing_prob",
+                                                              common["augmentation"].get(
+                                                                  "random_erasing_prob", 0.0))},
                "wall_time_seconds": (budget["smoke_minutes"]*60 if phase == "smoke"
                                      else budget["run_including_reload_minutes"]*60)}
         if "pooling" in arm:
             raw["pooling"] = arm["pooling"]
             raw["anchor_padding_ratio"] = 0.0
+        if multi:
+            raw.update(model=encoder+"_v6", encoder_variant=encoder,
+                       train_last_blocks=arm["train_last_blocks"],
+                       train_final_norm=arm["train_final_norm"], pooling=common["pooling"],
+                       anchor_padding_ratio=0.0,
+                       weights_id="DINOv2_VITB14" if encoder == "dinov2_vitb14"
+                       else "DINOv2_VITS14")
+            for key in ("device", "precision", "threads", "workers", "optimizer",
+                        "lr_scheduler", "min_lr_ratio"):
+                if key in common:
+                    raw[key] = common[key]
+            if "transform" in common:
+                raw.update(transform=common["transform"]["name"],
+                           **{key: common["transform"][key] for key in ("mean", "std", "fill")})
+            raw["objective"] = common["loss"].get("objective", raw["objective"])
+            raw["selection_metric"] = "val_macro_ap"
+            raw["threshold"] = proposal.get("analysis", {}).get("fixed_threshold_report", .5)
         config = config_from_dict(raw)
         path = folder / f"{ident}.yaml"
         path.write_text(yaml.safe_dump(config.to_dict(), sort_keys=False), encoding="utf-8")
@@ -217,6 +291,8 @@ def prepare(design_path: Path, root: Path, phase: str) -> dict[str, Any]:
     write_json(folder / "approval.json", approvals)
     plan = {"phase": phase, "design": pin(root, design_path), "items": plan_items,
             "code_sha256": code_identity()["sha256"], "budget": budget}
+    if multi:
+        plan["profile"] = profile
     write_json(folder / "plan.json", plan)
     return plan
 
@@ -226,8 +302,9 @@ def main() -> None:
     parser.add_argument("--design", type=Path, required=True)
     parser.add_argument("--workspace", type=Path, default=Path.cwd())
     parser.add_argument("--phase", choices=["smoke", "research"], required=True)
+    parser.add_argument("--profile", choices=["full", "core"])
     args = parser.parse_args()
-    prepare(args.design, args.workspace, args.phase)
+    prepare(args.design, args.workspace, args.phase, profile=args.profile)
 
 
 if __name__ == "__main__":

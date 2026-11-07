@@ -2,6 +2,8 @@
 
 [Training contract](../../docs/training.md) quy định loss/evaluation; [reference](../../docs/reference.md#training-code) mô tả trainer/CLI; [reports](../../artifacts/reports/README.md) giữ kết quả. Không lấy ID lớn nhất làm model được duyệt.
 
+[E009 V15 — Colab Pro](E009-V15-20261106/README.md): owner đã approve design và recovery 45 phút/run, giữ trần 12 giờ. Campaign hoàn tất; [audit kết quả](../../artifacts/reports/e009-v15-colab-20261106/results-20261107.md) có findings. Không mở test hoặc đổi model prototype.
+
 [E007 V13 — execution Colab](E007-V13-20261024/README.md): smoke và 9 research FINISHED trên L4, artifacts đã kiểm; D1 thắng, chưa Selected. [Proposal 23/10](E007-V13-20261023/README.md) giữ snapshot Draft đã pin; authorization và exact materialized configs nằm ở execution companion.
 
 [E008 V14 — Colab Pro](E008-V14-LOOKING-20261024/README.md): owner đã chạy 4 smoke + 5 research; G0 thắng screening, audit metadata PASS. Looking thiếu support và chưa đạt precision/recall; Continue research, chưa Selected.

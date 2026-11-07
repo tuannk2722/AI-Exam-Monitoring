@@ -218,7 +218,8 @@ def build(workspace: Path, config_path: Path) -> dict[str, Any]:
                 raise DataContractError("Dataset/cohort membership mismatch")
             mr = metrics[metric_key]
             ts = [mr["calibrated_thresholds"][target] for target in TARGET_ORDER]
-            is_v4 = rc["schema_version"] == "representation-adaptation-v4"
+            is_v4 = rc["schema_version"] in {
+                "representation-adaptation-v4", "dinov2-adaptation-v6"}
             if any(type(t) not in {int, float} or not math.isfinite(t)
                    or not (0 <= t <= math.nextafter(1., 2.) if is_v4 else 0 < t < 1)
                    for t in ts):

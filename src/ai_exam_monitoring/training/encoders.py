@@ -17,7 +17,11 @@ from ai_exam_monitoring.common.errors import DataContractError
 from .adaptation_config import FilePin
 
 
-def load_dino_source(pin: FilePin, workspace: Path) -> Any:
+def load_dino_source(
+    pin: FilePin, workspace: Path, *, variant: str = "dinov2_vits14"
+) -> Any:
+    if variant not in {"dinov2_vits14", "dinov2_vitb14"}:
+        raise DataContractError("Unsupported pinned DINO variant")
     archive = pin.verify(workspace)
     cache = workspace / "outputs" / "encoder-source" / pin.sha256
     with zipfile.ZipFile(archive) as zipped:
@@ -49,31 +53,32 @@ def load_dino_source(pin: FilePin, workspace: Path) -> Any:
     sys.path.insert(0, str(source))
     try:
         module = importlib.import_module("dinov2.hub.backbones")
-        return module.dinov2_vits14(pretrained=False, drop_path_rate=0.0)
+        return getattr(module, variant)(pretrained=False, drop_path_rate=0.0)
     finally:
         sys.path.remove(str(source))
 
 
 class DinoNetwork(nn.Module):
-    def __init__(self, backbone: Any, head: nn.Module):
+    def __init__(self, backbone: Any, head: nn.Module, *, train_last_blocks: int = 2):
         super().__init__()
         self.backbone = backbone
         self.fc = head
+        self.prefix_blocks = len(backbone.blocks) - train_last_blocks
 
     def tokens(self, images: torch.Tensor) -> torch.Tensor:
         net = self.backbone
-        # Blocks 0..9 and tokenization are always frozen in the approved policy.
+        # Legacy S uses the original ten-block prefix; V6 declares its suffix length.
         with torch.no_grad():
             x = net.prepare_tokens_with_masks(images)
-            for block in net.blocks[:10]:
+            for block in net.blocks[:self.prefix_blocks]:
                 x = block(x)
-        if any(p.requires_grad for p in net.blocks[10:].parameters()):
-            for block in net.blocks[10:]:
+        if any(p.requires_grad for p in net.blocks[self.prefix_blocks:].parameters()):
+            for block in net.blocks[self.prefix_blocks:]:
                 x = block(x)
             x = net.norm(x)
         else:
             with torch.no_grad():
-                for block in net.blocks[10:]:
+                for block in net.blocks[self.prefix_blocks:]:
                     x = block(x)
                 x = net.norm(x)
         return cast(torch.Tensor, x)

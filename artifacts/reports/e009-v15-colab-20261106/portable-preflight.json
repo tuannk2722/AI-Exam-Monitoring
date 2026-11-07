@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "code_sha256": "68802787f7ee3d892073ff46e6657d45f0d74d283fab5a8ad3582f0795876c29",
+  "profiles": {
+    "full": {
+      "strict_loader": true,
+      "train": 1377,
+      "val": 344,
+      "smoke_configs": 6,
+      "research_gate_refused_without_GPU_smoke": true,
+      "all_crop_member_names_case_exact": true,
+      "origin_slices": "PASS"
+    },
+    "core": {
+      "strict_loader": true,
+      "train": 1377,
+      "val": 344,
+      "smoke_configs": 6,
+      "research_gate_refused_without_GPU_smoke": true,
+      "all_crop_member_names_case_exact": true,
+      "origin_slices": "PASS"
+    }
+  },
+  "scope": "extracted source+inputs only; no inference/training",
+  "GPU_smoke": "NOT_RUN",
+  "bundle": {
+    "path": "outputs/E009-V15-Colab-20261106/e009-colab-execution-bundle.zip",
+    "sha256": "8125a39ba893624730193a219a4b3ab340592eb66e2f687f3bc1b55b3f7b95b1"
+  },
+  "all_1854_bundle_member_SHA_verified": true,
+  "isolated_source_import_verified": true,
+  "temporary_workspace_cleaned": true
+}

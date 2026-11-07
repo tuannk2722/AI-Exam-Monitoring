@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import Any
 
 from ai_exam_monitoring.common.errors import DataContractError
-from ai_exam_monitoring.common.provenance import sha256_file
+from ai_exam_monitoring.common.provenance import git_commit, git_is_dirty, sha256_file
 
 from .adaptation_config import FilePin, local_path
 from .artifacts import code_identity, write_json
@@ -46,6 +46,9 @@ def build(design_path: Path, root: Path, output: Path) -> dict[str, Any]:
                 "files": files, "code_sha256": code_identity()["sha256"],
                 "dataset_payload_sha256": pointer["payload_sha256"],
                 "visibility": "private", "cloud_authorization": design["authorization"]}
+    if design.get("config_schema") == "dinov2-adaptation-v6":
+        manifest["source_checkout"] = {"git_commit": git_commit(), "git_dirty": git_is_dirty(),
+                                       "identity": "exact allowlisted source snapshot"}
     output.parent.mkdir(parents=True, exist_ok=True)
     with zipfile.ZipFile(output, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=1) as archive:
         for name in files:
