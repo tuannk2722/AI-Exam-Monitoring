@@ -29,7 +29,8 @@ def create_app(workspace: Path = Path("."), config_path: Path | None = None) -> 
     catalog = Catalog(root)
     store = ReviewStore(catalog.path(config["output_root"]) / "reviews.sqlite3")
     jobs = Jobs(catalog, config)
-    monitor_path = root / "configs/web/LIVE-VIDEO-WEB-20261028/monitor.yaml"
+    monitor_path = catalog.path(config.get("monitor_config",
+                               "configs/web/LIVE-VIDEO-WEB-20261028/monitor.yaml"))
     monitor = Monitor(root, monitor_path) if monitor_path.is_file() else None
     execution_lock = threading.Lock()
 

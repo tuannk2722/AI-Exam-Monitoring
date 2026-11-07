@@ -85,3 +85,6 @@ configs/datasets/pilot-b-20261106-v15.json -text whitespace=trailing-space,space
 configs/experiments/E009-V15-20261106/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
 notebooks/E009-V15-Colab.ipynb -text whitespace=trailing-space,space-before-tab,cr-at-eol
 src/e009_recovery.py -text whitespace=trailing-space,space-before-tab,cr-at-eol
+
+# Immutable owner decision and model runtime pins for E009 monitor sessions.
+configs/runtime/RUNTIME-E009-20261107/** -text whitespace=trailing-space,space-before-tab,cr-at-eol

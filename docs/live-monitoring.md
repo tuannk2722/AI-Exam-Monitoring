@@ -32,6 +32,10 @@ hiệu năng/chất lượng live hoặc quyền thu nhận media mới từ app
 Primitives nội bộ không mở camera, gọi model hoặc thay artifacts đã pin. Không
 cần triển khai auth phức tạp, risk score, nhiều camera hoặc hệ thống nghiệp vụ mới.
 
+### Model cho phiên giám sát — 07/11/2026
+
+Owner đã đóng khung E009 cho hai hành vi hiện tại và chọn B0 hoặc B448 xử lý cả hai nhãn, B0 mặc định. [Runtime/model pins](../configs/runtime/RUNTIME-E009-20261107/README.md) và [web v2](../configs/web/E009-MODELS-20261107/README.md) cụ thể hóa lựa chọn này: chọn trước upload, khóa trong phiên, ghi checkpoint/calibration/preprocessing provenance. Model selection thay riêng G0 trên màn hình giám sát mới; references G0 trong thiết kế timing/tracking/events phía dưới giữ ngữ cảnh lịch sử. Không tự chuyển nghiệm thu G0/C10/events hoặc tốc độ live sang B0/B448; camera và log online tiếp tục là slice riêng.
+
 ### Cụ thể hóa timing — 28/10/2026
 
 Owner tiếp tục duyệt [LIVE-TIMING-20261028](../configs/tracking/LIVE-TIMING-20261028/README.md)

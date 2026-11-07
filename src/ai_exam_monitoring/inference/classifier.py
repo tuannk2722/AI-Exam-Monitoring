@@ -13,7 +13,11 @@ from PIL import Image
 from torchvision.transforms import functional as TF
 
 from ai_exam_monitoring.common.errors import DataContractError
-from ai_exam_monitoring.training.adaptation_config import SpatialConfig, config_from_dict
+from ai_exam_monitoring.training.adaptation_config import (
+    DinoAdaptationConfig,
+    SpatialConfig,
+    config_from_dict,
+)
 from ai_exam_monitoring.training.adaptation_model import AdaptationModel, tensor_digest
 from ai_exam_monitoring.training.artifacts import digest_json
 from ai_exam_monitoring.training.data import letterbox
@@ -40,11 +44,23 @@ class BundleClassifier:
         calibration = read_object(runtime.pin("calibration"))
         checkpoint = runtime.pin("checkpoint")
         checkpoint_sha = runtime.raw["pins"]["checkpoint"]["sha256"]
-        if (not isinstance(self.config, SpatialConfig)
-                or self.config.model != "dinov2_vits14_v4"
-                or self.config.pooling != "global_mean"
+        binding = runtime.raw["classifier"]
+        if runtime.raw.get("schema_version") == "recorded-runtime-config-v5":
+            approved_model = (isinstance(self.config, DinoAdaptationConfig)
+                              and self.config.model == binding["model"]
+                              and self.config.experiment_id == binding["experiment_id"]
+                              and self.config.image_size == binding["image_size"]
+                              and self.config.encoder_variant == "dinov2_vitb14"
+                              and self.config.train_last_blocks == 2
+                              and self.config.pooling == "global_mean")
+        else:
+            approved_model = (isinstance(self.config, SpatialConfig)
+                              and self.config.model == "dinov2_vits14_v4"
+                              and self.config.pooling == "global_mean"
+                              and self.config.experiment_id == "E008-V14-G0-S20261023")
+        if (not approved_model
                 or self.config.target_order != TARGETS
-                or self.config.experiment_id != "E008-V14-G0-S20261023"
+                or record["experiment_id"] != self.config.experiment_id
                 or record["status"] != "FINISHED"
                 or bundle["schema_version"] != "full-model-bundle-v1"
                 or bundle["checkpoint_sha256"] != checkpoint_sha
@@ -56,7 +72,8 @@ class BundleClassifier:
                 or calibration["checkpoint_sha256"] != checkpoint_sha):
             raise DataContractError("Prototype checkpoint/config/calibration identity mismatch")
         self.thresholds = [float(v) for v in calibration["thresholds"]]
-        if len(self.thresholds) != 2 or any(not math.isfinite(v) for v in self.thresholds):
+        if len(self.thresholds) != 2 or any(not math.isfinite(v) or not 0 <= v <= 1
+                                            for v in self.thresholds):
             raise DataContractError("Invalid classifier thresholds")
         self.config.weights_license.verify(runtime.workspace)
         payload = torch.load(checkpoint, map_location="cpu", weights_only=True)

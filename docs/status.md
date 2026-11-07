@@ -8,7 +8,7 @@
 |---|---|---|
 | Data engineering | V15 local accepted theo ủy quyền: 1.721 crop sử dụng, 1.377 train / 344 val development / 0 test; dùng đủ 368 crop mới sau QA | [V15 release/pointers](../artifacts/reports/dataset-merge-20261106/README.md) |
 | Baseline | E001–E003 FINISHED, Continue research; chưa model Selected | Reports → runs/baseline |
-| Model improvement | E008 V14: 4 smoke + 5 research FINISHED; audit metadata PASS. G0 thắng, phone qua gate 3/3 seed G0; looking chưa đạt, chưa Selected. Đã nhận đủ best/last ba run G0 và kiểm integrity local | [Kết quả E008](../artifacts/reports/e008-v14-colab-20261024/results-20261025.md), [checkpoint](../artifacts/reports/e008-v14-colab-20261024/checkpoints-20261025.md) |
+| Model improvement | E009 V15 FINISHED và đã đóng khung hai hành vi theo owner; đủ checkpoint đã audit. B0 mặc định, B448 tùy chọn cho prototype web; findings và giới hạn development validation giữ nguyên | [Kết quả E009](../artifacts/reports/e009-v15-colab-20261106/results-20261107.md), [model đã chốt](../configs/runtime/RUNTIME-E009-20261107/README.md) |
 | Runtime | Đã có CLI recorded-video → person → context crop → G0, pins/rights guards và gallery QA; có full-frame và sampling 1/2 Hz; stage V8S + G0 trên clip hiện tại đã nghiệm thu, chưa nghiệm thu tổng quát | [Reference](reference.md), [system](system.md) |
 | Tracking/events/risk/web | C10 và events đã được owner chấp nhận cho prototype trên clip hiện tại. Web Review local đã triển khai với light/dark và SQLite review riêng; risk chưa mở | [Tracking closeout](../artifacts/reports/tracking-cadence-20261027/closeout-20261027.md), [event acceptance](../artifacts/reports/events-prototype-20261027/acceptance-20261027.md), [scope web](../configs/web/README.md) |
 | Tooling/storage | Sau E007 đã nghỉ lưu payload lịch sử và bản trùng: 8.971 files, 9,959 GiB logical; giữ V13/nguồn độc nhất, ba best D1 và ba best R0 cùng metadata | [Cleanup/availability 24/10](../artifacts/reports/cleanup-20261024/README.md), [chính sách](storage.md) |
@@ -21,8 +21,7 @@ Owner đã review batch ngày 05/11 và bổ sung crop có nhãn ngày 06/11/202
 Val mới có composition khác và gồm 197 crop train lịch sử chuyển sang theo nguyên nhóm;
 chỉ là development; E009 đã khởi tạo mới từ pretrained theo recipe/protocol được duyệt riêng.
 Owner đã approve [E009](../configs/experiments/E009-V15-20261106/README.md), trần 12 giờ GPU
-private Colab/Drive; campaign đã hoàn tất 6 smoke + 25 research sau recovery 45 phút/run, giữ đồng hồ gốc. [Audit E009 ngày 07/11](../artifacts/reports/e009-v15-colab-20261106/results-20261107.md) xác nhận B0 đứng đầu, nhưng có finding score sát ngưỡng và hạn chế looking trên cohort old-train chuyển sang val. [Checkpoint audit](../artifacts/reports/e009-v15-colab-20261106/checkpoints-20261107.md) đã nhận đủ best/last ba run đại diện và kiểm integrity/cấu trúc local. Chưa Selected/promotion hoặc test; không tự train thêm hoặc thay G0. V14 và model prototype hiện hành giữ nguyên. Phần dưới giữ trạng thái
-implementation runtime đã có, không là yêu cầu tiếp tục chạy trong task dữ liệu.
+private Colab/Drive; campaign đã hoàn tất 6 smoke + 25 research sau recovery 45 phút/run, giữ đồng hồ gốc. [Audit E009 ngày 07/11](../artifacts/reports/e009-v15-colab-20261106/results-20261107.md) xác nhận B0 đứng đầu, nhưng có finding score sát ngưỡng và hạn chế looking trên cohort old-train chuyển sang val. [Checkpoint audit](../artifacts/reports/e009-v15-colab-20261106/checkpoints-20261107.md) đã nhận đủ best/last ba run đại diện và kiểm integrity/cấu trúc local. Owner đã đóng khung E009, chuyển sang hoàn thiện demo rồi nghiên cứu hành vi mới sau; không train thêm hoặc mở test. [Quyết định model web](../configs/runtime/RUNTIME-E009-20261107/README.md) cho chọn B0 hoặc B448 chạy cả hai nhãn, B0 mặc định. Đây là lựa chọn prototype, không sửa nghiệm thu nghiên cứu độc lập; V14/G0 và sessions lịch sử giữ nguyên.
 
 Owner chuyển đích demo sang **camera trực tiếp (có thể từ điện thoại) và video
 upload đang phát có detection**, bbox trên hình + log review gọn. Thiết kế/bộ khung
@@ -33,10 +32,10 @@ Baseline Web Review đã commit `996c52c`; branch mới `feat/live-monitoring-de
 Đã refactor processor từng frame dùng chung và có runner video online nội bộ:
 decode một lượt theo media clock, bounded pending/result, pause/seek/stop/EOF,
 epoch reset và loại kết quả muộn; kiểm bằng fixtures và MP4 synthetic. Factory
-giữ guards config/pins/receipt/deadline, CPU V8S/G0. Đã nối upload/UI/transport
+giữ guards config/pins/receipt/deadline, CPU V8S với classifier được chọn. Đã nối upload/UI/transport
 theo [LIVE-VIDEO-WEB-20261028 được owner duyệt](../configs/web/LIVE-VIDEO-WEB-20261028/README.md):
 màn hình giám sát light/dark tại `/`, MJPEG/SSE, điều khiển nguồn server và metadata
-phiên riêng; `/review` giữ review offline. Chỉ observations tức thời, chưa temporal
+phiên riêng; [selector E009](../configs/web/E009-MODELS-20261107/README.md) khóa model theo phiên và lưu checkpoint/calibration/preprocessing provenance, B0 mặc định/B448 tùy chọn. `/review` giữ review offline G0/C10/events. Chỉ observations tức thời, chưa temporal
 log/review mới hoặc tracking/events online; chưa chạy model thật để đo online.
 Owner đã review/chốt giao diện và logic slice web/video; baseline commit `2c9d8fa`.
 Có adapter device/batch FP32, timings hữu hạn và CLI probe/profile độc lập theo

@@ -1,0 +1,62 @@
+{
+  "status": "approved",
+  "decision_id": "E009-CLOSEOUT-WEB-20261107",
+  "runtime_id": "RUNTIME-E009-20261107",
+  "owner": "repository-owner",
+  "date": "2026-11-07",
+  "owner_direction": "Đóng khung hai hành vi E009 để hoàn thiện demo. Cho chọn B0 hoặc B448 để chạy cả hai nhãn; dùng B0 mặc định.",
+  "models": {
+    "B0": "E009-V15-B0-S20261106",
+    "B448": "E009-V15-B448-S20261110"
+  },
+  "default_model": "B0",
+  "target_order": [
+    "phone_use",
+    "looking_around"
+  ],
+  "scope": [
+    "local_prototype_web",
+    "one_model_per_session",
+    "preserve_checkpoint_preprocessing_calibration",
+    "close_E009_training"
+  ],
+  "preserved": [
+    "V8S detector and license policy",
+    "context-v1",
+    "CPU float32 batch 1 threads 4",
+    "sampling 1 Hz",
+    "source rights and deadline guards",
+    "G0 historical configs and artifacts",
+    "offline review/tracking/event rules"
+  ],
+  "excluded": [
+    "ensemble",
+    "per_target_model_stitching",
+    "new_training",
+    "final_test",
+    "independent_quality_acceptance",
+    "camera_capture",
+    "CUDA_selection",
+    "live_SLA"
+  ],
+  "findings_acknowledged": [
+    "Development validation reused for calibration; not an independent holdout.",
+    "Looking old-train-to-val cohort remains weaker.",
+    "Metadata threshold-edge findings retained; rankings and chosen checkpoints unchanged."
+  ],
+  "evidence": {
+    "metadata_audit": {
+      "path": "artifacts/reports/e009-v15-colab-20261106/results-audit-20261107.json",
+      "sha256": "35e70f3e99dfddc32994919420dfdbd58ca7c74bda7d9acfb60d8cb06ebb538d"
+    },
+    "checkpoint_import": {
+      "path": "artifacts/reports/e009-v15-colab-20261106/checkpoint-import-20261107.json",
+      "sha256": "12051ab8543017698440e685db1d96c817bac3974479630ccdb7e7fd0668c208"
+    }
+  },
+  "original_training_source": {
+    "git_commit": "da64704",
+    "package_sha256": "68802787f7ee3d892073ff46e6657d45f0d74d283fab5a8ad3582f0795876c29"
+  },
+  "supersedes": "G0 only as the default classifier for new monitor sessions; no retroactive change to offline sessions or model research status."
+}

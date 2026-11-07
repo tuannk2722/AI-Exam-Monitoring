@@ -21,7 +21,7 @@ Hardware tham chiếu lịch sử: local i7-1255U, RAM 8/16 GB, Intel UHD; khôn
 ## Adapter và giới hạn integration
 
 `python -m ai_exam_monitoring.web` mở UI loopback với light/dark. Khi có
-`configs/web/LIVE-VIDEO-WEB-20261028/monitor.yaml`, `/` là màn hình video online;
+config monitor được chọn bởi `monitor_config` trong `configs/web/review.yaml`, `/` là màn hình video online; mặc định [E009 B0/B448](../configs/web/E009-MODELS-20261107/README.md). Config không khai báo field này giữ locator monitor v1 lịch sử;
 `/review` giữ ba màn hình review offline. Cài web extra đã khai báo bằng
 `pip install -e ".[web]"` cùng môi trường runtime CPU hiện có nếu còn thiếu.
 Catalog đọc runtime/C10/events bằng provenance; worker tái dùng runtime,
@@ -46,7 +46,7 @@ EOF chờ AI xử lý mẫu cuối; stop ngắt wait và bỏ kết quả muộn
 để chờ model/native decode đang chạy trả về và giải phóng tài nguyên.
 
 Factory kiểm config/pins/receipt/deadline trước mở file, kiểm lại trước load model,
-SHA nguồn trước/sau phiên; chỉ load V8S/G0 thật khi `start`. Không ghi session hoặc
+SHA nguồn trước/sau phiên; chỉ load V8S và classifier đã chọn khi `start`. Không ghi session hoặc
 evidence mới và không thay writer offline. Đây chưa là endpoint upload hoặc live
 artifact schema. `take_result` chuyển ownership ảnh/observations cho consumer;
 `result.annotated()` chỉ vẽ trên ảnh của chính kết quả đó. Consumer kiểm epoch

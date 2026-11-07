@@ -91,9 +91,32 @@ class RuntimeSelectionTests(unittest.TestCase):
             config()
             with self.assertRaises(ConfigurationError):
                 load_runtime_config(root / "runtime.yaml", root)
+
             selection["winner"] = "V8S"
             raw["detector"] = {**policy, "iou": 0.7}
             config()
+            with self.assertRaises(ConfigurationError):
+                load_runtime_config(root / "runtime.yaml", root)
+
+            raw["detector"] = policy
+            raw["schema_version"] = "recorded-runtime-config-v5"
+            raw["classifier"].update(model_id="B0", experiment_id="fixture-B0",
+                                     model="dinov2_vitb14_v6", image_size=336)
+            config()
+            decision = write("model-decision.json", dict(status="approved", runtime_id="test",
+                                                          models={"B0": "fixture-B0"}))
+            write("approval.json", dict(status="approved", runtime_id="test",
+                                         config_sha256=digest_json(raw), decision_ref=decision))
+            self.assertEqual(load_runtime_config(root / "runtime.yaml", root)
+                             .raw["classifier"]["model_id"], "B0")
+            write("model-decision.json", dict(status="approved", runtime_id="test",
+                                              models={"B0": "different-run"}))
+            with self.assertRaises(ConfigurationError):
+                load_runtime_config(root / "runtime.yaml", root)
+            decision = write("model-decision.json", dict(status="approved", runtime_id="test",
+                                                          models={"B0": "different-run"}))
+            write("approval.json", dict(status="approved", runtime_id="test",
+                                         config_sha256=digest_json(raw), decision_ref=decision))
             with self.assertRaises(ConfigurationError):
                 load_runtime_config(root / "runtime.yaml", root)
 

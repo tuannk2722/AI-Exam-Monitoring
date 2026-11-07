@@ -1,6 +1,6 @@
 ﻿# E009-CLOSEOUT-WEB — Cleanup/commit E009 và tích hợp model đã chốt
 
-- Trạng thái: pha 1 cleanup/commit E009; sau đó pha 2 nghiên cứu và tích hợp web.
+- Trạng thái: hoàn tất cleanup/commit E009 và tích hợp B0/B448 vào giám sát web; checks bàn giao PASS.
 
 ## Yêu cầu và hiện trạng
 Owner yêu cầu cleanup codebase rồi commit trước; tiếp theo đóng khung hai hành vi E009 để hoàn thiện demo và nghiên cứu hành vi mới sau. Owner đã chọn rõ: một phiên chọn B0 hoặc B448 chạy cả hai nhãn, B0 mặc định. Đã đọc AGENTS/index/status/TASK/development/storage/live design và đối chiếu Git. Worktree đang chứa toàn bộ E009 implementation/audit chưa commit từ baseline 79c04ce.
@@ -15,4 +15,4 @@ Commit pha 1 chỉ source/docs/config/metadata E009; không media/model/ZIP/env/
 Cleanup giữ contract và source snapshot đã train; kiểm package identity và pins trước commit, Ruff/Mypy/targeted checks, index/registry --require-git, inspect staged diff và clean checkout. Bản source 68802787… đã có full-suite evidence 399 tests; không train/smoke lại chỉ vì cleanup. Integration: khảo sát classifier/runtime/factory/session/UI và consumer trước thay, ghi scope chọn model và provenance mỗi phiên; kiểm fixtures API/classifier/cross-session/browser thích hợp, không tự benchmark/claim real-time.
 
 ## Checkpoint và bước tiếp
-Đang rà pending E009 files, commit cleanup trước; chốt B0 mặc định/B448 tùy chọn đã có owner approval, không hỏi lại phần này.
+Cleanup đã commit `da64704`, Ruff/Mypy/9 recovery tests và checker index/checkout sạch PASS. Đã khảo sát classifier, runtime guards, factory online, upload/session, API/UI và consumer tests. Đã materialize quyết định owner/config runtime v5 và web v2: B0 mặc định/B448 tùy chọn, một model xử lý cả hai nhãn, khóa suốt phiên và lưu provenance; v1/legacy giữ tương thích. Giữ V8S/context-v1/CPU FP32/cadence hiện tại. Receipt video mới gắn runtime family E009; không tự đổi receipt cũ. Ruff/Mypy, 43 runtime tests, 2 classifier tests và 21 web tests (2 browser opt-in skipped) PASS; browser monitor chạy riêng trên Chrome PASS. Hai checkpoint thật load/forward ảnh tổng hợp PASS, không inference dataset/video người thật hoặc claim CUDA/SLA. Diff và staged diff đã rà, checker index thật PASS; training snapshot giữ ở commit trên, tích hợp được commit riêng, không push. Công việc sau task này là hoàn thiện demo theo scope riêng, không tự train thêm E009.

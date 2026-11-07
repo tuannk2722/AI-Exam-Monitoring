@@ -23,6 +23,7 @@ if AVAILABLE:
     from fastapi.testclient import TestClient
 
     from ai_exam_monitoring.common.errors import ConfigurationError
+    from ai_exam_monitoring.common.provenance import sha256_file
     from ai_exam_monitoring.inference.frame_processor import FrameProcessor
     from ai_exam_monitoring.inference.online_video import OnlineVideoRunner
     from ai_exam_monitoring.inference.person import PersonDetection
@@ -50,7 +51,7 @@ class SyntheticClassifier:
 def monitor_fixture(root: Path):
     """Shared with opt-in browser test. Only temporary synthetic inputs."""
     config_dir = root / "configs/web/LIVE-VIDEO-WEB-20261028"
-    config_dir.mkdir(parents=True)
+    config_dir.mkdir(parents=True, exist_ok=True)
     (root / "configs/web/review.yaml").write_text("output_root: outputs/web-review\n")
     config_path = config_dir / "monitor.yaml"
     config_path.write_text(yaml.safe_dump({
@@ -91,6 +92,35 @@ def synthetic_runner(runtime, count=5, interval=30.):
             sampling_hz=1000, guard=lambda: media_deadline(rights), verify_source=lambda: None,
         )
     return factory
+
+
+def monitor_models_fixture(root: Path):
+    runtime, payload, receipt, config_path = monitor_fixture(root)
+    config = yaml.safe_load(config_path.read_text())
+    config.pop("runtime")
+    config.update(schema_version="online-video-web-config-v2", default_model="B0",
+                  models={key: {"label": key, "runtime": f"{key}.yaml"}
+                          for key in ("B0", "B448")})
+    config_path.write_text(yaml.safe_dump(config))
+    runtimes = {}
+    for key, size in (("B0", 336), ("B448", 448)):
+        pins = {}
+        for name, value in {
+            "resolved_config": dict(transform="rgb_letterbox_bilinear_v1", image_size=size,
+                                    mean=[.485, .456, .406], std=[.229, .224, .225],
+                                    fill=[124, 116, 104]),
+            "calibration": dict(thresholds=[.207, .451] if key == "B0" else [.358, .5]),
+            "checkpoint": {},
+        }.items():
+            path = root / f"{key}-{name}.json"
+            path.write_text(json.dumps(value))
+            pins[name] = {"path": path.name, "sha256": sha256_file(path)}
+        raw = copy.deepcopy(runtime.raw)
+        raw.update(schema_version="recorded-runtime-config-v5", pins=pins,
+                   classifier=dict(model_id=key, experiment_id=f"fixture-{key}",
+                                   target_order=["phone_use", "looking_around"]))
+        runtimes[key] = RuntimeConfig(raw, root)
+    return runtimes, payload, receipt, config_path
 
 
 @unittest.skipUnless(AVAILABLE, "Install web and classifier dependencies")
@@ -328,3 +358,50 @@ class WebMonitorTests(unittest.TestCase):
         self.config_path.write_text(yaml.safe_dump(config))
         with self.assertRaises(ValueError):
             Monitor(self.root, self.config_path)
+
+    def test_model_choice_default_provenance_cross_session_and_restart(self):
+        runtimes, _, _, config_path = monitor_models_fixture(self.root)
+        with patch("ai_exam_monitoring.web.monitor.load_runtime_config",
+                   side_effect=lambda path, root: runtimes[path.stem]):
+            with TestClient(create_app(self.root)) as client:
+                monitor = client.app.state.monitor
+                self.assertEqual(client.get("/api/monitor/state").json()["default_model"], "B0")
+                for choice in ("../B0.yaml", 4):
+                    response = client.post("/api/monitor/uploads", json={
+                        "receipt": self.receipt, "size": len(self.payload), "model_id": choice})
+                    self.assertEqual(response.status_code, 400)
+                for choice in (None, "B448"):
+                    body = {"receipt": self.receipt, "size": len(self.payload)}
+                    if choice:
+                        body["model_id"] = choice
+                    response = client.post("/api/monitor/uploads", json=body)
+                    self.assertEqual(response.status_code, 201, response.text)
+                    record = response.json()["session"]
+                    selected = choice or "B0"
+                    self.assertEqual(record["schema_version"], "online-video-web-session-v2")
+                    self.assertEqual(record["model_id"], selected)
+                    self.assertEqual(record["classifier"]["preprocessing"]["image_size"],
+                                     336 if selected == "B0" else 448)
+                    self.assertEqual(record["classifier"]["thresholds"],
+                                     [.207, .451] if selected == "B0" else [.358, .5])
+                    identity = record["id"]
+                    # A second choice cannot replace a ready/uploading session.
+                    self.assertEqual(client.post("/api/monitor/uploads", json={
+                        **body, "model_id": "B0"}).status_code, 409)
+                    self.assertEqual(client.put(f"/api/monitor/uploads/{identity}",
+                                                content=self.payload).status_code, 200)
+                    if choice is None:
+                        restarted = Monitor(self.root, config_path)
+                        restarted.close()
+                        saved = json.loads((monitor.path(identity) / "session.json").read_text())
+                        self.assertEqual(saved["error_type"], "ServerInterrupted")
+                        self.assertEqual(saved["model_id"], "B0")
+                    else:
+                        self.assertEqual(client.post(
+                            f"/api/monitor/sessions/{identity}/start").status_code, 200)
+                        self.wait_for(lambda: monitor.state()["session"]["status"] == "completed")
+                        monitor.worker.join(2)
+                        self.assertEqual(self.factory.call_args.args[0], self.root / "B448.yaml")
+                        self.assertEqual(monitor.state()["session"]["model_id"], "B448")
+                    self.assertEqual(client.delete(
+                        f"/api/monitor/sessions/{identity}").status_code, 204)

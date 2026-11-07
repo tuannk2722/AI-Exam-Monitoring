@@ -13,7 +13,7 @@ from pathlib import Path
 from types import SimpleNamespace
 from unittest.mock import patch
 
-from test_web_monitor import AVAILABLE, monitor_fixture, synthetic_runner
+from test_web_monitor import AVAILABLE, monitor_models_fixture, synthetic_runner
 
 
 @unittest.skipUnless(AVAILABLE and os.environ.get("RUN_WEB_BROWSER_TESTS") == "1",
@@ -27,11 +27,13 @@ class MonitorBrowserTests(unittest.TestCase):
 
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)
-            runtime, payload, receipt, _ = monitor_fixture(root)
+            runtimes, payload, receipt, _ = monitor_models_fixture(root)
+            runtime = runtimes["B0"]
             source, rights = root / "synthetic.mp4", root / "synthetic-rights.json"
             source.write_bytes(payload)
             rights.write_text(json.dumps(receipt), encoding="utf-8")
-            with (patch("ai_exam_monitoring.web.monitor.load_runtime_config", return_value=runtime),
+            with (patch("ai_exam_monitoring.web.monitor.load_runtime_config",
+                        side_effect=lambda path, root: runtimes[path.stem]),
                   patch("ai_exam_monitoring.web.monitor.RecordedVideo",
                         return_value=SimpleNamespace(count=120, fps=10.)),
                   patch("ai_exam_monitoring.web.monitor.create_online_video",
@@ -56,15 +58,20 @@ class MonitorBrowserTests(unittest.TestCase):
                         page.on("pageerror", lambda error: errors.append(str(error)))
                         page.goto(f"http://127.0.0.1:{port}")
                         expect(page.get_by_role("region", name="Video giám sát")).to_be_visible()
+                        expect(page.locator("#model-select")).to_have_value("B0")
+                        page.locator("#model-select").select_option("B448")
                         page.locator("#video-file").set_input_files(source)
                         page.locator("#receipt-file").set_input_files(rights)
                         page.locator("#upload").click()
                         expect(page.locator("#session-state")).to_have_text("Video sẵn sàng",
                                                                            timeout=15000)
+                        expect(page.locator("#model-select")).to_be_disabled()
+                        expect(page.locator("#session-model")).to_have_text("Model B448")
                         page.locator("#start").click()
                         expect(page.locator("#preview")).to_be_visible(timeout=10000)
                         page.reload()
                         expect(page.locator("#session-state")).to_have_text("Đang phát & phân tích")
+                        expect(page.locator("#model-select")).to_have_value("B448")
                         expect(page.locator("#preview")).to_be_visible()
                         factory.assert_called_once()
                         page.locator("#pause").click()
@@ -113,6 +120,7 @@ class MonitorBrowserTests(unittest.TestCase):
                         self.assertFalse((app.state.monitor.path(identity) / "source.mp4").exists())
                         page.locator("#delete").click()
                         expect(page.locator("#session-state")).to_have_text("Chưa có nguồn")
+                        expect(page.locator("#model-select")).to_be_enabled()
                         page.goto(f"http://127.0.0.1:{port}/review")
                         expect(page.locator("#hub")).to_be_visible()
                         self.assertEqual(errors, [])
