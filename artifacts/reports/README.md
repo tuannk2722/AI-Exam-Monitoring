@@ -1,5 +1,11 @@
 # Tra cứu kết quả và bằng chứng
 
+[E009 V15 — kết quả và audit Colab](e009-v15-colab-20261106/results-20261107.md): campaign hoàn tất, B0 đứng đầu ranking; audit metadata có findings. [Checkpoint audit](e009-v15-colab-20261106/checkpoints-20261107.md) đã nhận/kiểm ba run đại diện; chưa promotion. [Implementation/handoff](e009-v15-colab-20261106/README.md) giữ hồ sơ launcher đã dùng.
+
+[V15 và hợp nhất crop ngày 06/11](dataset-merge-20261106/README.md): đã rà crop owner review/bổ sung, hợp nhất và chia train/val theo nguyên nhóm; release local đã dùng cho E009, kết quả campaign ở hồ sơ riêng phía trên.
+
+[Crop nguồn mới ngày 05/11](accepted-frames-crops-20261105/README.md): snapshot nghiên cứu V14/E008 và batch 390 crop native. Quyết định owner đã được nhập trong V15 ở trên; giữ evidence xuất ban đầu.
+
 [Nghiệm thu events prototype](events-prototype-20261027/acceptance-20261027.md): owner chấp nhận batch sau review và yêu cầu cleanup/hai commit; supersede trạng thái chờ review trong snapshot dưới đây.
 
 [Temporal events prototype ngày 27/10](events-prototype-20261027/README.md): rules đã duyệt, implementation/tests và một cached replay completed; candidates chưa human acceptance, risk/web chưa mở.

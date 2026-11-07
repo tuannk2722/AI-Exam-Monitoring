@@ -1,0 +1,196 @@
+{
+  "status": "planning_metadata_audit",
+  "dataset_version": "pilot-b-20261106-v15",
+  "git_baseline": "79c04ce",
+  "media_decoded_or_model_executed": false,
+  "full_payload_rehashed": false,
+  "inputs": [
+    {
+      "path": "data/processed/pilot-b/pilot-b-20261106-v15/manifest.jsonl",
+      "sha256": "18615631a00d0173831a993133d637a81b25d5b3dd69b8ebcc144d0497e2f494"
+    },
+    {
+      "path": "data/processed/pilot-b/pilot-b-20261106-v15/release.json",
+      "sha256": "1727172519085909d11178891e14a7428f573cc254a768d0c20e6aaaa4b51276"
+    },
+    {
+      "path": "data/processed/pilot-b/pilot-b-20261106-v15/checksums.sha256",
+      "sha256": "d910b5999ef973fa04d5e3a50cd5d7e1338c3e041c7a3e82af5fc8efd0641564"
+    },
+    {
+      "path": "artifacts/reports/dataset-merge-20261106/package-pointers.json",
+      "sha256": "a392a9a6f311608b5ae0479a0e26623f87ed96007ece53f63aa1465ed277214a"
+    },
+    {
+      "path": "artifacts/reports/dataset-merge-20261106/allocation.json",
+      "sha256": "6b79f8476d6291d15dcae89c1ada6dff411adce0d217ddf841a5214bfb31bae9"
+    },
+    {
+      "path": "artifacts/reports/dataset-merge-20261106/group-lineage.json",
+      "sha256": "9553bbf48c446d4645cd2da32c953bb3c7c51a284cee611b58640a26a8b16c01"
+    },
+    {
+      "path": "artifacts/reports/dataset-merge-20261106/input-pins.json",
+      "sha256": "9fe548922b9f3aa9c7ec25aba309c767e30512dad58d9d708315879f0f1721ef"
+    },
+    {
+      "path": "configs/datasets/pilot-b-20261106-v15.json",
+      "sha256": "c21db18b181ab0e9280121f32fd9a075dd173b8a21748f0f10a312665521ee1c"
+    }
+  ],
+  "cohorts": {
+    "train": {
+      "records": 1377,
+      "leakage_groups": 219,
+      "sources": {
+        "reviewed-crop-inputs-20261023": 975,
+        "owner-crops-20261106": 252,
+        "accepted-frames-20261105": 97,
+        "owner-generated-20261024": 53
+      },
+      "targets": {
+        "phone_use": {
+          "P": 397,
+          "N": 896,
+          "U": 84,
+          "positive_groups": 87,
+          "negative_groups": 152,
+          "sqrt_N_over_P": 1.502307209641576,
+          "prevalence_known": 0.30703789636504253
+        },
+        "looking_around": {
+          "P": 323,
+          "N": 1046,
+          "U": 8,
+          "positive_groups": 70,
+          "negative_groups": 194,
+          "sqrt_N_over_P": 1.7995527480124769,
+          "prevalence_known": 0.23593864134404674
+        }
+      },
+      "fully_known_joint": {
+        "PN": 340,
+        "NN": 636,
+        "NP": 255,
+        "PP": 54
+      },
+      "largest_groups": [
+        {
+          "group_id": "AUDIT-G-a42b68477bc4",
+          "records": 367,
+          "fraction": 0.2665214233841685
+        },
+        {
+          "group_id": "AUDIT-G-1be5c3aac6e1",
+          "records": 136,
+          "fraction": 0.09876543209876543
+        },
+        {
+          "group_id": "M15-FAMILY-S09-S10",
+          "records": 112,
+          "fraction": 0.0813362381989833
+        },
+        {
+          "group_id": "M15-FAMILY-S01-S07",
+          "records": 98,
+          "fraction": 0.07116920842411038
+        }
+      ],
+      "crop_geometry_metadata": {
+        "long_edge_le224": 378,
+        "long_edge_225_to336": 213,
+        "long_edge_337_to448": 121,
+        "long_edge_gt448": 665,
+        "short_edge_lt120": 119,
+        "basis": "native context box extent; no pixel inspection repeated"
+      }
+    },
+    "val": {
+      "records": 344,
+      "leakage_groups": 119,
+      "sources": {
+        "reviewed-crop-inputs-20261023": 325,
+        "accepted-frames-20261105": 19
+      },
+      "targets": {
+        "phone_use": {
+          "P": 100,
+          "N": 223,
+          "U": 21,
+          "positive_groups": 52,
+          "negative_groups": 72,
+          "sqrt_N_over_P": 1.493318452306808,
+          "prevalence_known": 0.30959752321981426
+        },
+        "looking_around": {
+          "P": 81,
+          "N": 261,
+          "U": 2,
+          "positive_groups": 41,
+          "negative_groups": 104,
+          "sqrt_N_over_P": 1.7950549357115013,
+          "prevalence_known": 0.23684210526315788
+        }
+      },
+      "fully_known_joint": {
+        "PN": 85,
+        "NN": 158,
+        "PP": 14,
+        "NP": 64
+      },
+      "largest_groups": [
+        {
+          "group_id": "AUDIT-G-90f8a6ebf178",
+          "records": 32,
+          "fraction": 0.09302325581395349
+        },
+        {
+          "group_id": "AUDIT-G-930bbb8d6579",
+          "records": 20,
+          "fraction": 0.05813953488372093
+        },
+        {
+          "group_id": "AUDIT-G-faf4d452ebb3",
+          "records": 19,
+          "fraction": 0.055232558139534885
+        },
+        {
+          "group_id": "M15-FRAMES-S03",
+          "records": 19,
+          "fraction": 0.055232558139534885
+        }
+      ],
+      "crop_geometry_metadata": {
+        "long_edge_le224": 84,
+        "long_edge_225_to336": 89,
+        "long_edge_337_to448": 56,
+        "long_edge_gt448": 115,
+        "short_edge_lt120": 44,
+        "basis": "native context box extent; no pixel inspection repeated"
+      }
+    }
+  },
+  "cross_split_group_overlap": 0,
+  "existing_dinov2_source": {
+    "revision": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+    "pin": {
+      "path": "outputs/E007-V13-Colab-20261024/pretrained/dinov2-source.zip",
+      "sha256": "04276715cddb29d45d05bff3a6fc132224dc27749b279ac98ad2ce4620e20d48"
+    },
+    "present": true,
+    "supports_vitb14_factory": true,
+    "bytes_hash_verification_deferred_to_materialization": true
+  },
+  "existing_small_weights": {
+    "path": "outputs/E007-V13-Colab-20261024/pretrained/dinov2_vits14_pretrain.pth",
+    "sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+    "present": true,
+    "bytes_hash_verification_deferred_to_materialization": true
+  },
+  "new_base_weights": {
+    "status": "not_downloaded_not_pinned",
+    "official_url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_pretrain.pth",
+    "sha256": null,
+    "materialization_gate": "fetch official weights after design approval; record exact SHA, license and source before runnable configs"
+  }
+}

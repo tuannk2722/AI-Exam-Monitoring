@@ -51,7 +51,7 @@ def install_monitor_routes(app: FastAPI, monitor: Monitor, jobs: Jobs,
                 size = value.get("size")
                 if type(size) is not int:
                     raise ValueError("Thiếu dung lượng video nguyên")
-                return monitor.create(value["receipt"], size)
+                return monitor.create(value["receipt"], size, value.get("model_id"))
 
         return await run_in_threadpool(prepare)
 

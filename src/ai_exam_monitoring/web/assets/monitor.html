@@ -16,6 +16,7 @@
     <div id="notice" role="status" aria-live="polite" class="monitor-notice" hidden></div>
     <section class="panel source-panel" aria-label="Nguồn video">
       <form id="upload-form">
+        <label>Model phân tích<select id="model-select" aria-label="Model phân tích"></select></label>
         <label>Video MP4<input id="video-file" type="file" accept="video/mp4,.mp4" required></label>
         <label>Receipt quyền sử dụng<input id="receipt-file" type="file" accept="application/json,.json" required></label>
         <button id="upload" type="submit">↑ Tải lên & kiểm tra</button>
@@ -24,7 +25,7 @@
     </section>
     <div class="monitor-grid">
       <section class="panel monitor-viewer" aria-label="Video giám sát">
-        <div class="monitor-toolbar"><strong id="session-state" role="status">Chưa có nguồn</strong><span id="connection-state" class="muted">Local</span></div>
+        <div class="monitor-toolbar"><strong id="session-state" role="status">Chưa có nguồn</strong><span id="session-model" class="muted"></span><span id="connection-state" class="muted">Local</span></div>
         <div class="monitor-screen">
           <img id="preview" alt="Khung hình đã phân tích với bounding boxes đúng nguồn" hidden>
           <div id="preview-placeholder"><span class="monitor-glyph">▣</span><h2>Chọn video để bắt đầu</h2><p>Hình có bbox sẽ xuất hiện khi AI hoàn tất mẫu đầu tiên.</p></div>

@@ -27,6 +27,7 @@ function clearPreview() {
 function controls() {
   const session = snapshot.session, status = session?.status;
   $("upload").disabled = pending || (session && !terminal(status));
+  $("model-select").disabled = pending || (session && !terminal(status));
   $("start").disabled = pending || status !== "ready";
   $("pause").disabled = pending || !["running", "paused"].includes(status);
   $("pause").textContent = status === "paused" ? "Tiếp tục" : "Tạm dừng";
@@ -42,6 +43,18 @@ function render(value) {
   const previousFrame = snapshot.observations?.frame_index;
   snapshot = value;
   const session = value.session;
+  const selector = $("model-select");
+  const models = value.models || [];
+  if (selector.dataset.models !== JSON.stringify(models)) {
+    selector.replaceChildren(...models.map((model) => {
+      const option = document.createElement("option");
+      option.value = model.id; option.textContent = model.label; return option;
+    }));
+    selector.dataset.models = JSON.stringify(models);
+    selector.value = value.default_model;
+  }
+  if (session && !terminal(session.status)) selector.value = session.model_id || value.default_model;
+  $("session-model").textContent = session ? `Model ${session.model_label || session.model_id || "G0"}` : "";
   if (!session || previous?.id !== session.id || previous?.epoch !== session.epoch || ["stopped", "stopping", "failed"].includes(session.status)) clearPreview();
   receivedAt = performance.now();
   ageAtReceive = value.result_age_ms;
@@ -106,7 +119,7 @@ $("upload-form").onsubmit = (event) => {
     const video = $("video-file").files[0], receipt = $("receipt-file").files[0];
     if (!video || !receipt) throw new Error("Chọn video và receipt quyền sử dụng.");
     if (video.size > snapshot.limits.upload_bytes || receipt.size > snapshot.limits.receipt_bytes) throw new Error("File vượt giới hạn dung lượng.");
-    render(await post("uploads", { receipt: JSON.parse(await receipt.text()), size: video.size }));
+    render(await post("uploads", { receipt: JSON.parse(await receipt.text()), size: video.size, model_id: $("model-select").value }));
     const identity = snapshot.session.id;
     render(await api(`uploads/${identity}`, { method: "PUT", headers: { "Content-Type": "video/mp4" }, body: video }));
   });

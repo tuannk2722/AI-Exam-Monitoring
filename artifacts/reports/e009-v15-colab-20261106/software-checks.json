@@ -1,0 +1,40 @@
+{
+  "status": "local_checks_PASS_with_unstaged_delivery_index_limit",
+  "code_sha256": "68802787f7ee3d892073ff46e6657d45f0d74d283fab5a8ad3582f0795876c29",
+  "full_unit_suite": {
+    "ran": 399,
+    "skipped": 2,
+    "status": "OK",
+    "elapsed_seconds": 280.397,
+    "command": ".venv/Scripts/python.exe -m unittest discover -s tests -q"
+  },
+  "ruff_src_tests_scripts": "PASS",
+  "strict_mypy": {
+    "status": "PASS",
+    "source_files": 96
+  },
+  "in_memory_compile": {
+    "status": "PASS",
+    "python_files": 158
+  },
+  "notebook_JSON_AST_and_bundle_pin": "PASS",
+  "report_JSON_and_local_links": "PASS",
+  "portable_preflight": {
+    "path": "artifacts/reports/e009-v15-colab-20261106/portable-preflight.json",
+    "sha256": "7a7ae76faed5500bc363e66bc9ba31122f9cb2414eedb861e7e4e0f60aca48c0"
+  },
+  "official_pretrained_synthetic_CPU_checks": {
+    "path": "artifacts/reports/e009-v15-colab-20261106/official-model-checks.json",
+    "sha256": "e2cd19c941f9004da79a6d59f2463dd6b83525fdc18f1588ca37c300d01698f0"
+  },
+  "git_require_git": {
+    "status": "FAIL_expected_untracked_delivery_files_no_staging_requested",
+    "failure_count": 19,
+    "only_errors": "required delivery file not in Git index"
+  },
+  "git_index_modified": false,
+  "GPU_smoke": "NOT_RUN",
+  "real_V15_model_training_or_inference": false,
+  "test_opened": false,
+  "uploaded": false
+}

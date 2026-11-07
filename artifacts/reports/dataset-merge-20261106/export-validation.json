@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "strict_codec": "PASS",
+  "exporter_source_crop_preflight": "PASS",
+  "payload_integrity": "PASS",
+  "strict_training_loader": "PASS",
+  "records": 1999,
+  "used": 1721,
+  "usage": {
+    "val": 344,
+    "train": 1377,
+    "excluded": 278
+  },
+  "parent_pins_source_geometry_targets_preserved_except_explicit_label": "PASS",
+  "all_368_new_crops_enrolled": true,
+  "native_excluded": 274,
+  "parent_excluded_total": 4,
+  "raw_import_snapshot_verified": true,
+  "new_test_records": 0,
+  "export_result_keys": [
+    "checksums_sha256",
+    "payload_checksums",
+    "records",
+    "reviewed_crops",
+    "status"
+  ]
+}

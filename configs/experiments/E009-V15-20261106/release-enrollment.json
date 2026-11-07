@@ -1,0 +1,22 @@
+{
+  "decision": "accepted_local_release",
+  "dataset_version": "pilot-b-20261106-v15",
+  "counts": {
+    "train": 1377,
+    "val": 344,
+    "test": 0
+  },
+  "release": {
+    "path": "data/processed/pilot-b/pilot-b-20261106-v15/release.json",
+    "sha256": "1727172519085909d11178891e14a7428f573cc254a768d0c20e6aaaa4b51276"
+  },
+  "release_direction": {
+    "path": "artifacts/reports/dataset-merge-20261106/owner-direction.json",
+    "sha256": "9af0f197ee2011260b34d73438a4b8f5674ee326e79ec298292333a9545275c6"
+  },
+  "E009_execution_direction": {
+    "path": "configs/experiments/E009-V15-20261106/owner-authorization.json",
+    "sha256": "7e2f2c71abe5a96fcb713084e11e15b005264dc0454e1bf2cc7b9aa2669aa998"
+  },
+  "original_release_not_modified": true
+}

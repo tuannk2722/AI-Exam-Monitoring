@@ -1,0 +1,15 @@
+{
+  "worksheet_syntax": "PASS",
+  "gallery_cards": 368,
+  "gallery_file_links": 736,
+  "gallery_links": "PASS",
+  "new_report_links": "PASS",
+  "all_json_parse": "PASS",
+  "as_executed_tooling_pins": "PASS",
+  "original_252_files_unchanged": "PASS",
+  "active_source_ruff": "PASS",
+  "git_diff_check": "PASS",
+  "git_require_git": "FAIL_expected_untracked_new_dataset_config_no_staging_requested",
+  "worksheet_style_lint": "85 style/import/unused-variable findings in immutable as-executed research snapshots; active production source lint PASS",
+  "tests_total_passed": 49
+}

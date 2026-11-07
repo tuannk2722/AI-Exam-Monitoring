@@ -77,3 +77,14 @@ configs/runtime/RUNTIME-DETECTOR-COMPARISON-20261026/** -text whitespace=trailin
 configs/runtime/RUNTIME-DETECTOR-REVIEW-20261025/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
 configs/runtime/RUNTIME-QA-PREP-20261025/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
 configs/runtime/RUNTIME-V8S-20261026/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+
+# Preserve the exact V15 release config SHA across Windows/Linux checkouts.
+configs/datasets/pilot-b-20261106-v15.json -text whitespace=trailing-space,space-before-tab,cr-at-eol
+
+# Preserve the approved E009 proposal, authorization and notebook bundle pin.
+configs/experiments/E009-V15-20261106/** -text whitespace=trailing-space,space-before-tab,cr-at-eol
+notebooks/E009-V15-Colab.ipynb -text whitespace=trailing-space,space-before-tab,cr-at-eol
+src/e009_recovery.py -text whitespace=trailing-space,space-before-tab,cr-at-eol
+
+# Immutable owner decision and model runtime pins for E009 monitor sessions.
+configs/runtime/RUNTIME-E009-20261107/** -text whitespace=trailing-space,space-before-tab,cr-at-eol

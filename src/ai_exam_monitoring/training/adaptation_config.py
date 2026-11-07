@@ -158,7 +158,8 @@ class AdaptationConfig:
         is_v4 = isinstance(self, RepresentationConfig)
         fixed = {
             "schema_version": (
-                ADAPTATION_CONFIG_SCHEMA_V5 if isinstance(self, SpatialConfig)
+                ADAPTATION_CONFIG_SCHEMA_V6 if isinstance(self, DinoAdaptationConfig)
+                else ADAPTATION_CONFIG_SCHEMA_V5 if isinstance(self, SpatialConfig)
                 else ADAPTATION_CONFIG_SCHEMA_V4 if is_v4 else ADAPTATION_CONFIG_SCHEMA_V3
                 if is_v3
                 else (
@@ -168,7 +169,10 @@ class AdaptationConfig:
                 )
             ),
             "weights_id": (
-                "DINOv2_VITS14" if is_v4 and self.model == "dinov2_vits14_v4"
+                "DINOv2_VITB14" if isinstance(self, DinoAdaptationConfig)
+                and self.encoder_variant == "dinov2_vitb14"
+                else "DINOv2_VITS14" if is_v4 and self.model in {
+                    "dinov2_vits14_v4", "dinov2_vits14_v6"}
                 else "IMAGENET1K_V1"
             ),
             "optimizer": "AdamW",
@@ -203,6 +207,8 @@ class AdaptationConfig:
                 "resnet18_single_crop_v3",
                 "resnet18_anchor_context",
                 *({"dinov2_vits14_v4"} if is_v4 else set()),
+                *({"dinov2_vits14_v6", "dinov2_vitb14_v6"}
+                  if isinstance(self, DinoAdaptationConfig) else set()),
             }:
                 raise ConfigurationError("Unsupported adaptation model")
         else:
@@ -295,6 +301,7 @@ ADAPTATION_CONFIG_SCHEMA_V2 = "matched-adaptation-v2"
 ADAPTATION_CONFIG_SCHEMA_V3 = "matched-adaptation-v3"
 ADAPTATION_CONFIG_SCHEMA_V4 = "representation-adaptation-v4"
 ADAPTATION_CONFIG_SCHEMA_V5 = "spatial-representation-v5"
+ADAPTATION_CONFIG_SCHEMA_V6 = "dinov2-adaptation-v6"
 
 
 @dataclass(frozen=True)
@@ -389,6 +396,7 @@ class E005AdaptationConfig(AdaptationConfig):
             "head_and_layer4_block1",
             "head_and_layer4",
             *({"head_and_last_two_blocks"} if isinstance(self, RepresentationConfig) else set()),
+            *({"head_and_last_blocks"} if isinstance(self, DinoAdaptationConfig) else set()),
         }:
             raise ConfigurationError("Unsupported trainable_scope")
         if type(self.head_hidden_dim) is not int or self.head_hidden_dim < 0:
@@ -457,13 +465,18 @@ class RepresentationConfig(E005AdaptationConfig):
             raise ConfigurationError("V4 requires explicit device and float32 precision")
         if not isinstance(self.execution_authorization, FilePin):
             raise ConfigurationError("V4 requires execution authorization pin")
-        if (self.model not in {"resnet18_single_crop_v3", "dinov2_vits14_v4"}
+        models = ({"dinov2_vits14_v6", "dinov2_vitb14_v6"}
+                  if isinstance(self, DinoAdaptationConfig)
+                  else {"resnet18_single_crop_v3", "dinov2_vits14_v4"})
+        if (self.model not in models
                 or self.transform != "rgb_letterbox_bilinear_v1"
                 or self.use_geometry_features or self.augmentation.box_jitter_ratio != 0):
             raise ConfigurationError("Unsupported V4 model/geometry policy")
-        if self.model == "dinov2_vits14_v4":
+        if is_dino_config(self):
+            scopes = ({"head_and_last_blocks"} if isinstance(self, DinoAdaptationConfig)
+                      else {"head_only", "head_and_last_two_blocks"})
             if (not isinstance(self.encoder_source, FilePin) or self.image_size % 14
-                    or self.trainable_scope not in {"head_only", "head_and_last_two_blocks"}):
+                    or self.trainable_scope not in scopes):
                 raise ConfigurationError("DINO requires pinned source, patch alignment and scope")
         elif self.encoder_source is not None or self.trainable_scope not in {
             "head_only", "head_and_layer4_block1"
@@ -484,10 +497,35 @@ class SpatialConfig(RepresentationConfig):
             raise ConfigurationError("Unsupported spatial pooling/augmentation policy")
 
 
+@dataclass(frozen=True)
+class DinoAdaptationConfig(RepresentationConfig):
+    """Explicit S/B and frozen-prefix policy; V4/V5 keep their original whitelist."""
+
+    encoder_variant: str
+    train_last_blocks: int
+    train_final_norm: bool
+    pooling: str
+
+    def __post_init__(self) -> None:
+        super().__post_init__()
+        models = {"dinov2_vits14": "dinov2_vits14_v6",
+                  "dinov2_vitb14": "dinov2_vitb14_v6"}
+        if (self.encoder_variant not in models or self.model != models[self.encoder_variant]
+                or type(self.train_last_blocks) is not int or self.train_last_blocks not in {2, 4}
+                or self.train_final_norm is not True or self.pooling != "global_mean"
+                or self.anchor_padding_ratio != 0 or self.augmentation.random_erasing_prob != 0):
+            raise ConfigurationError("Unsupported V6 encoder/freeze/pooling policy")
+
+
+def is_dino_config(config: AdaptationConfig) -> bool:
+    return isinstance(config, DinoAdaptationConfig) or config.model == "dinov2_vits14_v4"
+
+
 def config_from_dict(raw: Any) -> AdaptationConfig:
     schema = raw.get("schema_version") if isinstance(raw, dict) else None
     model: type[AdaptationConfig] = (
-        SpatialConfig if schema == ADAPTATION_CONFIG_SCHEMA_V5
+        DinoAdaptationConfig if schema == ADAPTATION_CONFIG_SCHEMA_V6
+        else SpatialConfig if schema == ADAPTATION_CONFIG_SCHEMA_V5
         else RepresentationConfig if schema == ADAPTATION_CONFIG_SCHEMA_V4 else E005AdaptationConfig
         if schema in {ADAPTATION_CONFIG_SCHEMA_V3, ADAPTATION_CONFIG_SCHEMA_V4}
         else (
@@ -520,14 +558,14 @@ def config_from_dict(raw: Any) -> AdaptationConfig:
         if not isinstance(value["diagnostic_steps"], list):
             raise ConfigurationError("Diagnostic steps must be an array")
         value["diagnostic_steps"] = tuple(value["diagnostic_steps"])
-    elif model in {E005AdaptationConfig, RepresentationConfig, SpatialConfig}:
+    elif model in {E005AdaptationConfig, RepresentationConfig, SpatialConfig, DinoAdaptationConfig}:
         if not isinstance(value["pos_weight"], list):
             raise ConfigurationError("pos_weight must be an array")
         value["pos_weight"] = tuple(float(w) for w in value["pos_weight"])
         value["augmentation"] = AdaptationAugmentationConfig(
             **strict_fields(value["augmentation"], AdaptationAugmentationConfig)
         )
-        if model in {RepresentationConfig, SpatialConfig}:
+        if model in {RepresentationConfig, SpatialConfig, DinoAdaptationConfig}:
             value["execution_authorization"] = FilePin(
                 **strict_fields(value["execution_authorization"], FilePin)
             )

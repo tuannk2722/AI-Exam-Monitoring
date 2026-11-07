@@ -41,9 +41,20 @@ def champion_key(arm: str, metrics: dict[str, Any]) -> tuple[Any, ...]:
             metrics["macro_masked_bce"], arm)
 
 
-def run_campaign(design_path: Path, root: Path, storage: Path, started_at: float) -> None:
+def run_campaign(
+    design_path: Path, root: Path, storage: Path, started_at: float,
+    *, resume: bool = False, prior_process_stopped: bool = False,
+) -> None:
     root, design_path, storage = root.resolve(), design_path.resolve(), storage.resolve()
     design = read(design_path)
+    if design.get("config_schema") == "dinov2-adaptation-v6":
+        from .research_campaign import run_multiseed_campaign
+
+        run_multiseed_campaign(design_path, root, storage, started_at, resume=resume,
+                              prior_process_stopped=prior_process_stopped)
+        return
+    if resume:
+        raise DataContractError("Legacy campaign has no automatic continuation")
     authority = read_pin(root, design["authorization"])
     if not torch.cuda.is_available():
         raise DataContractError("Actual CUDA GPU required before campaign; no CPU fallback")
@@ -222,8 +233,11 @@ def main() -> None:
     parser.add_argument("--workspace", type=Path, default=Path.cwd())
     parser.add_argument("--storage", type=Path, required=True)
     parser.add_argument("--gpu-started-at", type=float, required=True)
+    parser.add_argument("--resume", action="store_true")
+    parser.add_argument("--prior-process-stopped", action="store_true")
     args = parser.parse_args()
-    run_campaign(args.design, args.workspace, args.storage, args.gpu_started_at)
+    run_campaign(args.design, args.workspace, args.storage, args.gpu_started_at,
+                 resume=args.resume, prior_process_stopped=args.prior_process_stopped)
 
 
 if __name__ == "__main__":

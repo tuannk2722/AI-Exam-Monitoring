@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "code_sha256": "5328b7e05a3fa4ed7f3182d107356d67ffc5d9994e63963c9a8fa7453439ad4b",
+  "profiles": {
+    "full": {
+      "smoke_configs": 6,
+      "train": 1377,
+      "selection": 344,
+      "batch_shape": [
+        1,
+        3,
+        336,
+        336
+      ],
+      "strict_approval_readiness_loader": "PASS",
+      "research_before_actual_GPU_smoke": "REFUSED_AS_REQUIRED"
+    },
+    "core": {
+      "smoke_configs": 6,
+      "train": 1377,
+      "selection": 344,
+      "batch_shape": [
+        1,
+        3,
+        336,
+        336
+      ],
+      "strict_approval_readiness_loader": "PASS",
+      "research_before_actual_GPU_smoke": "REFUSED_AS_REQUIRED"
+    }
+  },
+  "scope": "loader/config/preprocess only; no model inference/training",
+  "GPU_smoke": "NOT_RUN",
+  "test_opened": false,
+  "scratch_fixture_cleaned": true
+}

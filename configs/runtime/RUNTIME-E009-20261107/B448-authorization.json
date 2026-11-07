@@ -1,0 +1,14 @@
+{
+  "status": "approved",
+  "runtime_id": "RUNTIME-E009-20261107",
+  "config_sha256": "43d0f78dbfa51003588e50547b74eab03919f2d7341a81c09e23a2414d0c9019",
+  "decision_ref": {
+    "path": "configs/runtime/RUNTIME-E009-20261107/decision.json",
+    "sha256": "b049aef4831a35b7b7cd1d2aa1a874e82621d53affe0bffc1749f87277790ad2"
+  },
+  "scope": [
+    "local_prototype_web",
+    "one_model_per_session"
+  ],
+  "video_quality_accepted": false
+}

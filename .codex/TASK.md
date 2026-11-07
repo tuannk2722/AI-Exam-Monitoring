@@ -1,30 +1,18 @@
-# CI-FIX-20261105 — Sửa hai job CI của commit runtime
+# CI-E009-RECOVERY — Sửa discovery khi không có Torch
 
-- Trạng thái: hoàn tất bản sửa và kiểm tra local; owner đã yêu cầu commit và push branch `feat/live-monitoring-demo`.
+- Trạng thái: đã sửa và kiểm local PASS; bàn giao bằng commit/push theo yêu cầu owner.
 
 ## Yêu cầu và hiện trạng
-- Baseline `cbff0f4d7fbe9deb204460734dcf56140ca83183`, working tree ban đầu sạch; đã fetch origin.
-- Đã đọc AGENTS, index, status, development, template và TASK cũ; đối chiếu workflow, dependencies, producer/consumer runtime và campaign cùng tests liên quan.
-- `quality` chỉ cài base/dev nhưng import frame processor đi qua `person.RuntimeConfig` tới training artifacts và Torch. `classifier-tests` chạy mypy trên Ubuntu, nơi `ctypes.windll` không tồn tại trong typeshed.
+Đã đọc AGENTS/index/status và đối chiếu source/workflow. Job quality chạy unittest với base/dev, không cài Torch. Test recovery import Torch, artifacts và recovery extension vô điều kiện, gây lỗi discovery. Worktree sạch trước task.
 
 ## Quyết định và inputs
-- User đã cho phép sửa lỗi CI, commit và push branch hiện tại. Giữ các nhóm dependency và gate CI hiện có.
-- `RuntimeConfig` trong `person.py` chỉ dùng làm annotation; đặt trong `TYPE_CHECKING` đã có để fixtures không kéo dependency ML.
-- Campaign dùng `sys.platform == "win32"` cho hai lời gọi Windows API để mypy nhận diện đúng platform; giữ nguyên flags và logic thực thi.
-- Không train, load weights hoặc dùng media thật; không sửa dataset, model, pins, receipts hay approvals lịch sử.
+Theo convention tests ML hiện có: guard imports và skip tests cần ML khi thiếu Torch/torchvision. Giữ tests notebook thuần standard library chạy trong quality. Không cài ML cho quality hoặc sửa recovery/notebook/config/checkpoint đã pin. User yêu cầu commit và push; không force push.
 
 ## Outputs và vòng đời
-- Giữ code sửa, regression test và TASK; không tạo report/spec mới.
-- Môi trường base và cache mypy tạm ở `outputs/_scratch/ci-fix-20261105`; đã thử dọn bằng PowerShell sau khi xác minh target nằm trong workspace và không có file tracked, nhưng automatic approval review chặn lệnh với lý do `blocked by policy`. Giữ nguyên scratch, không thử cách khác để vượt policy; scratch bị Git ignore và không đưa vào commit.
+TASK, test recovery và workflow classifier để tests ML không bị bỏ sót sau khi quality skip. Kiểm thiếu Torch bằng subprocess cô lập imports, không tạo env mới/tải weights hoặc data. Không thêm report/spec/status cho bug discovery.
 
 ## Contract impact và checks
-- Không đổi contract — không sửa spec/status/index.
-- Tái hiện base thiếu Torch; kiểm fixtures runtime/timing, campaign, full synthetic suite, Ruff, strict mypy cho Windows và Linux, compile trong RAM, checker `--require-git`, diff và staged diff.
-- Software PASS không thay nghiệm thu model, dữ liệu hoặc GPU.
+Không đổi contract. Kiểm recovery có Torch, full unittest discovery khi chặn Torch, Ruff/diff/checker index; inspect staged diff trước commit và push branch hiện tại.
 
 ## Checkpoint và bàn giao
-- Đã tái hiện chính xác hai lỗi trước sửa: base suite 354 tests lỗi import tại hai module; mypy Linux báo hai lỗi `windll`.
-- Bản sửa: chuyển import annotation của `RuntimeConfig` vào `TYPE_CHECKING`; dùng guard platform được mypy hiểu cho Windows API; thêm regression subprocess chặn import Torch, torchvision, Ultralytics và OpenCV cho frame/live primitives.
-- Sau sửa: base/dev mới cài, không Torch: 378 tests PASS, 212 skip; full suite có classifier/runtime/web: 383 tests PASS, 2 browser opt-in skip. Không chạy media/model thật.
-- Strict mypy với `--platform linux` và `--platform win32`: PASS, 92 source files mỗi lần; Ruff trên cả môi trường hiện có và base mới cài PASS; compile 150 Python files trong RAM PASS; checker `--require-git` và diff PASS.
-- Bàn giao bằng commit chỉ gồm TASK, hai module và regression test. Giữ workflow/dependencies hiện có; trạng thái push và CI từ xa tra commit/PR trên GitHub, không suy PASS từ kết quả local.
+Đã guard ML imports, giữ hai tests thuần standard library chạy khi thiếu Torch, skip bảy tests cần ML; thêm recovery suite vào job classifier-tests. Discovery mô phỏng không có Torch: 406 tests OK, skipped 234; có Torch: 9 recovery tests PASS. Ruff và diff check PASS. Không đổi source recovery/notebook/model/pins; chỉ ba file TASK/test/workflow. Kiểm index/staged diff trước commit, push branch hiện tại; kết quả CI remote phải đọc từ lượt chạy mới, không suy từ local PASS.

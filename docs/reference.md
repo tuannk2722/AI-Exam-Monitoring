@@ -21,7 +21,7 @@ Hardware tham chiếu lịch sử: local i7-1255U, RAM 8/16 GB, Intel UHD; khôn
 ## Adapter và giới hạn integration
 
 `python -m ai_exam_monitoring.web` mở UI loopback với light/dark. Khi có
-`configs/web/LIVE-VIDEO-WEB-20261028/monitor.yaml`, `/` là màn hình video online;
+config monitor được chọn bởi `monitor_config` trong `configs/web/review.yaml`, `/` là màn hình video online; mặc định [E009 B0/B448](../configs/web/E009-MODELS-20261107/README.md). Config không khai báo field này giữ locator monitor v1 lịch sử;
 `/review` giữ ba màn hình review offline. Cài web extra đã khai báo bằng
 `pip install -e ".[web]"` cùng môi trường runtime CPU hiện có nếu còn thiếu.
 Catalog đọc runtime/C10/events bằng provenance; worker tái dùng runtime,
@@ -46,7 +46,7 @@ EOF chờ AI xử lý mẫu cuối; stop ngắt wait và bỏ kết quả muộn
 để chờ model/native decode đang chạy trả về và giải phóng tài nguyên.
 
 Factory kiểm config/pins/receipt/deadline trước mở file, kiểm lại trước load model,
-SHA nguồn trước/sau phiên; chỉ load V8S/G0 thật khi `start`. Không ghi session hoặc
+SHA nguồn trước/sau phiên; chỉ load V8S và classifier đã chọn khi `start`. Không ghi session hoặc
 evidence mới và không thay writer offline. Đây chưa là endpoint upload hoặc live
 artifact schema. `take_result` chuyển ownership ảnh/observations cho consumer;
 `result.annotated()` chỉ vẽ trên ảnh của chính kết quả đó. Consumer kiểm epoch
@@ -144,6 +144,21 @@ và head dimension từ design/proposal đã pin; `colab_bundle` kiểm cả sup
 inputs trong allowlist. [E008 launcher](../configs/experiments/E008-V14-LOOKING-20261024/README.md)
 materialize research chỉ sau actual GPU smoke cùng identity; software fixtures
 không thay GPU smoke hoặc model acceptance.
+
+Schema `dinov2-adaptation-v6` mở DINOv2-S/B không registers, global CLS + mean patch
+features và suffix hai/bốn block + final norm; tokenization/prefix frozen chạy no-grad.
+V1–V5 giữ whitelist và semantics cũ. `representation_prepare --profile full|core`
+materialize phase có pins; `representation_campaign` dispatch runner paired-seed V6,
+chọn profile theo VRAM trước score, screening hai seed rồi top hai + control đủ năm seed.
+Variables, scopes và cách chạy ở [E009](../configs/experiments/E009-V15-20261106/README.md).
+
+`campaign_runtime.py` sync file thay đổi, verify publication và bảo toàn phiên bản trước
+để manifest cũ vẫn recover được khi ngắt giữa copy/commit. Continuation cần
+`--resume --prior-process-stopped`, cùng code/config/GPU/runtime và timestamp đầu;
+không reset cap hoặc tự đổi biến. `colab_launcher.py` chỉ dùng standard library để
+verify/extract bundle, setup environment riêng và gọi canonical CLI; notebook mount
+Drive và ngắt runtime. V6 ghi telemetry train/epoch-sync/VRAM; actual smoke kiểm
+full/resume/reload trước research. Đây là capability implementation, chưa là GPU PASS.
 
 `training.campaign_prepare --design <JSON> --workspace .` materialize một campaign
 được owner duyệt; từ chối ghi đè protocol/config đã tạo.

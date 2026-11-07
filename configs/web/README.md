@@ -1,5 +1,7 @@
 # WEB-REVIEW-20261027 — Phạm vi UI local
 
+Màn hình giám sát `/` hiện dùng [B0 mặc định/B448 tùy chọn](E009-MODELS-20261107/README.md) theo quyết định owner ngày 07/11/2026. Phạm vi bên dưới giữ pipeline review offline lịch sử tại `/review`.
+
 Owner yêu cầu triển khai UI end-to-end ngày 27/10/2026 theo bản phác thảo
 `AI-Exam-Monitoring-Web-Review-UI-Plan.md`, bổ sung light/dark và ưu tiên workflow AI.
 Trong hội thoại cùng task, owner chọn **SQLite local riêng** và trả lời

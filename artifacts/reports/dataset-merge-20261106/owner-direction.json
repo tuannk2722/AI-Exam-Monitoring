@@ -1,0 +1,28 @@
+{
+  "reviewer": "repository-owner",
+  "recorded_at": "2026-11-06",
+  "authorization_source": "Direct user instructions and two replies in this conversation",
+  "scope": "review crops, resolve clear label errors, merge new local dataset and allocate train/val for future E009",
+  "native_membership": "116 unique IDs in reviewed README; other 274 exclude",
+  "imports": "252 filename-labeled crops supplied by owner",
+  "named_lineage": "Owner confirms frame/crop-named files derive from exactly that frame/crop",
+  "thematic_28": "Generated to address model mistakes, no exact parent crop",
+  "label_exception": {
+    "S06-F00096-P01": "P/U; explicit owner reply"
+  },
+  "parent_exclude": [
+    "V6-SB-048-ADD01",
+    "G08-B01-F00001"
+  ],
+  "parent_relabel": {
+    "G09-B05-F00043": "N/P"
+  },
+  "allocation_delegated": true,
+  "approved_use_scope": [
+    "local_classifier_research"
+  ],
+  "rights_basis": "Owner provides inputs and explicitly requests their enrollment for local research; no public redistribution license asserted",
+  "training_authorized_by_this_receipt": false,
+  "media_uploaded": false,
+  "no_test_v15": true
+}

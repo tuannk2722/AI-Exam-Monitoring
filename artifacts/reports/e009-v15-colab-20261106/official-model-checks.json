@@ -1,0 +1,91 @@
+{
+  "status": "PASS",
+  "scope": "official_pretrained_on_synthetic_tensors_only",
+  "real_dataset_images_used": false,
+  "GPU_smoke": "NOT_RUN",
+  "checks": [
+    {
+      "encoder": "dinov2_vits14",
+      "image_size": 336,
+      "feature_dim": 768,
+      "exact_upstream_features": "PASS",
+      "device": "cpu",
+      "elapsed_seconds": 0.9545348000247031
+    },
+    {
+      "encoder": "dinov2_vits14",
+      "image_size": 448,
+      "feature_dim": 768,
+      "exact_upstream_features": "PASS",
+      "device": "cpu",
+      "elapsed_seconds": 1.5397980000125244
+    },
+    {
+      "encoder": "dinov2_vits14",
+      "image_size": 336,
+      "train_last_blocks": 2,
+      "frozen_prefix_and_trainable_gradients": "PASS",
+      "device": "cpu"
+    },
+    {
+      "encoder": "dinov2_vits14",
+      "image_size": 336,
+      "train_last_blocks": 4,
+      "frozen_prefix_and_trainable_gradients": "PASS",
+      "device": "cpu"
+    },
+    {
+      "encoder": "dinov2_vitb14",
+      "image_size": 336,
+      "feature_dim": 1536,
+      "exact_upstream_features": "PASS",
+      "device": "cpu",
+      "elapsed_seconds": 2.445014899945818
+    },
+    {
+      "encoder": "dinov2_vitb14",
+      "image_size": 448,
+      "feature_dim": 1536,
+      "exact_upstream_features": "PASS",
+      "device": "cpu",
+      "elapsed_seconds": 4.708993199979886
+    },
+    {
+      "encoder": "dinov2_vitb14",
+      "image_size": 336,
+      "train_last_blocks": 2,
+      "frozen_prefix_and_trainable_gradients": "PASS",
+      "device": "cpu"
+    }
+  ],
+  "pretrained_pins": {
+    "dinov2_vits14": {
+      "weights": {
+        "path": "outputs/E007-V13-Colab-20261024/pretrained/dinov2_vits14_pretrain.pth",
+        "sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+      },
+      "license": {
+        "path": "artifacts/reports/e007-v13-colab-20261024/dinov2-pretrained.json",
+        "sha256": "0b19ff7fc61b59ef0350b655e71bb64e1ce8666607fc0ad7c2baedd2c8bb62e4"
+      },
+      "source": {
+        "path": "outputs/E007-V13-Colab-20261024/pretrained/dinov2-source.zip",
+        "sha256": "04276715cddb29d45d05bff3a6fc132224dc27749b279ac98ad2ce4620e20d48"
+      }
+    },
+    "dinov2_vitb14": {
+      "weights": {
+        "path": "outputs/E009-V15-Colab-20261106/pretrained/dinov2_vitb14_pretrain.pth",
+        "sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73"
+      },
+      "license": {
+        "path": "artifacts/reports/e009-v15-colab-20261106/pretrained.json",
+        "sha256": "78dfd1ccf0fb168b7dabe208c8beb1694c2a08cd315edaf4ca71b26ddef7697e"
+      },
+      "source": {
+        "path": "outputs/E007-V13-Colab-20261024/pretrained/dinov2-source.zip",
+        "sha256": "04276715cddb29d45d05bff3a6fc132224dc27749b279ac98ad2ce4620e20d48"
+      }
+    }
+  }
+}

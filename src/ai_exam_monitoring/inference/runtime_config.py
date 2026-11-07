@@ -46,7 +46,8 @@ def load_runtime_config(path: Path, workspace: Path) -> RuntimeConfig:
     expected = {"schema_version", "runtime_id", "approval_ref", "pins", "detector",
                 "crop", "classifier", "gallery_frames"}
     selected_d2 = raw.get("schema_version") == "recorded-runtime-config-v3"
-    selected_v8s = raw.get("schema_version") == "recorded-runtime-config-v4"
+    e009 = raw.get("schema_version") == "recorded-runtime-config-v5"
+    selected_v8s = raw.get("schema_version") == "recorded-runtime-config-v4" or e009
     selected = selected_d2 or selected_v8s
     if raw.get("schema_version") == "recorded-runtime-config-v2" or selected:
         expected.add("sampling_hz")
@@ -54,7 +55,8 @@ def load_runtime_config(path: Path, workspace: Path) -> RuntimeConfig:
             raise ConfigurationError("Only approved 1 Hz or 2 Hz QA sampling is supported")
     if (set(raw) != expected or raw["schema_version"] not in
             {"recorded-runtime-config-v1", "recorded-runtime-config-v2",
-             "recorded-runtime-config-v3", "recorded-runtime-config-v4"}):
+             "recorded-runtime-config-v3", "recorded-runtime-config-v4",
+             "recorded-runtime-config-v5"}):
         raise ConfigurationError("Invalid runtime config schema")
     config = RuntimeConfig(raw, workspace.resolve())
     approval = json.loads(local_path(workspace, raw["approval_ref"]).read_text(encoding="utf-8"))
@@ -62,6 +64,13 @@ def load_runtime_config(path: Path, workspace: Path) -> RuntimeConfig:
             or approval.get("runtime_id") != raw["runtime_id"]
             or approval.get("config_sha256") != config.sha256):
         raise ConfigurationError("Runtime design approval/config mismatch")
+    if e009:
+        decision = FilePin(**approval["decision_ref"]).read_json(config.workspace)
+        if (decision.get("status") != "approved"
+                or decision.get("runtime_id") != raw["runtime_id"]
+                or decision.get("models", {}).get(raw["classifier"].get("model_id"))
+                != raw["classifier"].get("experiment_id")):
+            raise ConfigurationError("Model choice differs from owner decision")
     expected_pins = {"checkpoint", "resolved_config", "calibration", "bundle",
                      "run", "detector_weights", "detector_receipt"}
     if selected:
@@ -91,8 +100,18 @@ def load_runtime_config(path: Path, workspace: Path) -> RuntimeConfig:
     if raw["crop"] != {"version": "context-v1", "left": 0.2, "right": 0.2,
                        "top": 0.1, "bottom": 0.2}:
         raise ConfigurationError("Unsupported crop policy")
-    if (raw["classifier"] != {"device": "cpu", "batch_size": 1, "threads": 4,
-                              "precision": "float32", "target_order": TARGETS}
+    classifier = {"device": "cpu", "batch_size": 1, "threads": 4,
+                  "precision": "float32", "target_order": TARGETS}
+    if e009:
+        binding = raw["classifier"]
+        if (binding.get("model_id") not in {"B0", "B448"}
+                or not isinstance(binding.get("experiment_id"), str)
+                or binding.get("image_size") not in {336, 448}
+                or binding.get("model") != "dinov2_vitb14_v6"):
+            raise ConfigurationError("Unsupported E009 model binding")
+        classifier.update({key: binding[key] for key in
+                           ("model_id", "experiment_id", "image_size", "model")})
+    if (raw["classifier"] != classifier
             or type(raw["gallery_frames"]) is not int or not 1 <= raw["gallery_frames"] <= 20):
         raise ConfigurationError("Unsupported classifier/QA policy")
     return config

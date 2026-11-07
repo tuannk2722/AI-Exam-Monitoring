@@ -1,0 +1,256 @@
+{
+  "id": "E009-V15-COLAB-20261106",
+  "run_prefix": "E009-V15",
+  "config_schema": "dinov2-adaptation-v6",
+  "control_arm": "C0",
+  "research_max_epochs": 24,
+  "authorization": {
+    "path": "configs/experiments/E009-V15-20261106/owner-authorization.json",
+    "sha256": "7e2f2c71abe5a96fcb713084e11e15b005264dc0454e1bf2cc7b9aa2669aa998"
+  },
+  "proposal": {
+    "path": "configs/experiments/E009-V15-20261106/proposal.yaml",
+    "sha256": "303e586587fe81277899edb69e9418a0cd8dd305493fb0f92da6a335aa02087e"
+  },
+  "dataset_pointer": {
+    "path": "configs/experiments/E009-V15-20261106/dataset-pointer.json",
+    "sha256": "801629be8264614ed031dcc4ea1351a891a3e834480edd1c0d4f174c22295948"
+  },
+  "allocation": {
+    "path": "configs/experiments/E009-V15-20261106/enrollment.json",
+    "sha256": "f0b609899ce5861896135c3c418fc5c60f5791177a8765afb557274e92ea17c2"
+  },
+  "provenance": {
+    "path": "configs/experiments/E009-V15-20261106/provenance-execution.json",
+    "sha256": "851ef10909bfc624f57e9733013f81bd7c0364a17f0ddbb5a43e8dc5c86a18f8"
+  },
+  "release_approval": {
+    "path": "configs/experiments/E009-V15-20261106/release-enrollment.json",
+    "sha256": "ad3762509d97a0a2eb26eedbf46eb0b70e0c2e15ccacc1f21f634ce55310506e"
+  },
+  "template": {
+    "path": "configs/experiments/E006-V12-20261020/r4/E006-V12-S1-SQRT-S20261020-R4.yaml",
+    "sha256": "142e95080b052da85c62546f1be977980a6a53cf3558631088db2829f18bd13e"
+  },
+  "config_dir": "configs/experiments/E009-V15-20261106/materialized",
+  "run_dir": "outputs/E009-V15-Colab-20261106/runs",
+  "smoke_receipt": "artifacts/reports/e009-v15-colab-20261106/{profile}/gpu-smoke.json",
+  "initialization_dir": "outputs/E009-V15-Colab-20261106/initialization",
+  "owner_runs_notebook": true,
+  "pretrained": {
+    "dinov2_vits14": {
+      "weights": {
+        "path": "outputs/E007-V13-Colab-20261024/pretrained/dinov2_vits14_pretrain.pth",
+        "sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+      },
+      "license": {
+        "path": "artifacts/reports/e007-v13-colab-20261024/dinov2-pretrained.json",
+        "sha256": "0b19ff7fc61b59ef0350b655e71bb64e1ce8666607fc0ad7c2baedd2c8bb62e4"
+      },
+      "source": {
+        "path": "outputs/E007-V13-Colab-20261024/pretrained/dinov2-source.zip",
+        "sha256": "04276715cddb29d45d05bff3a6fc132224dc27749b279ac98ad2ce4620e20d48"
+      }
+    },
+    "dinov2_vitb14": {
+      "weights": {
+        "path": "outputs/E009-V15-Colab-20261106/pretrained/dinov2_vitb14_pretrain.pth",
+        "sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73"
+      },
+      "license": {
+        "path": "artifacts/reports/e009-v15-colab-20261106/pretrained.json",
+        "sha256": "78dfd1ccf0fb168b7dabe208c8beb1694c2a08cd315edaf4ca71b26ddef7697e"
+      },
+      "source": {
+        "path": "outputs/E007-V13-Colab-20261024/pretrained/dinov2-source.zip",
+        "sha256": "04276715cddb29d45d05bff3a6fc132224dc27749b279ac98ad2ce4620e20d48"
+      }
+    }
+  },
+  "supporting_inputs": [
+    {
+      "path": "configs/experiments/E009-V15-20261106/data-audit.json",
+      "sha256": "2796455024958633566de17b1873acc400e69c53e8b851d6328f4e44fa66158f"
+    },
+    {
+      "path": "configs/datasets/pilot-b-20261106-v15.json",
+      "sha256": "c21db18b181ab0e9280121f32fd9a075dd173b8a21748f0f10a312665521ee1c"
+    },
+    {
+      "path": "artifacts/reports/dataset-merge-20261106/owner-direction.json",
+      "sha256": "9af0f197ee2011260b34d73438a4b8f5674ee326e79ec298292333a9545275c6"
+    },
+    {
+      "path": "artifacts/reports/dataset-merge-20261106/allocation.json",
+      "sha256": "6b79f8476d6291d15dcae89c1ada6dff411adce0d217ddf841a5214bfb31bae9"
+    },
+    {
+      "path": "artifacts/reports/dataset-merge-20261106/visual-review.json",
+      "sha256": "faaaaa2c9fe71460310ae83dceeb8a1638074f8a43f9b8b603332d384a6f43d9"
+    },
+    {
+      "path": "artifacts/reports/dataset-merge-20261106/group-lineage.json",
+      "sha256": "9553bbf48c446d4645cd2da32c953bb3c7c51a284cee611b58640a26a8b16c01"
+    },
+    {
+      "path": "artifacts/reports/dataset-merge-20261106/package-pointers.json",
+      "sha256": "a392a9a6f311608b5ae0479a0e26623f87ed96007ece53f63aa1465ed277214a"
+    },
+    {
+      "path": "artifacts/reports/dataset-merge-20261106/input-pins.json",
+      "sha256": "9fe548922b9f3aa9c7ec25aba309c767e30512dad58d9d708315879f0f1721ef"
+    },
+    {
+      "path": "configs/experiments/E009-V15-20261106/design.json",
+      "sha256": "a4ec9c2b7f66152276001bdc430dc048a6f4dcd684e7d11faa0924b1dfc8e0cf"
+    },
+    {
+      "path": "configs/experiments/E009-V15-20261106/provenance.json",
+      "sha256": "59af87002e7d194d354c8b7b004a990b93b9fcade847dc972a70cd1df828bc0a"
+    }
+  ],
+  "supersedes_design": {
+    "path": "configs/experiments/E009-V15-20261106/design.json",
+    "sha256": "a4ec9c2b7f66152276001bdc430dc048a6f4dcd684e7d11faa0924b1dfc8e0cf"
+  },
+  "sidecar_revision": {
+    "scope": "metadata origin tags only; all V15 labels/splits/groups/bytes unchanged",
+    "changed_records": 26,
+    "original_provenance": {
+      "path": "configs/experiments/E009-V15-20261106/provenance.json",
+      "sha256": "59af87002e7d194d354c8b7b004a990b93b9fcade847dc972a70cd1df828bc0a"
+    },
+    "changes": [
+      {
+        "id": "E004-EX-C001",
+        "before": "old_val_kept",
+        "after": "old_val_moved_to_train"
+      },
+      {
+        "id": "E004-EX-C163",
+        "before": "old_val_kept",
+        "after": "old_val_moved_to_train"
+      },
+      {
+        "id": "EXP-SCB-021",
+        "before": "old_val_kept",
+        "after": "old_val_moved_to_train"
+      },
+      {
+        "id": "G01-A01-F00001-R02",
+        "before": "old_val_kept",
+        "after": "old_val_moved_to_train"
+      },
+      {
+        "id": "G01-A01-F00009-R02",
+        "before": "old_val_kept",
+        "after": "old_val_moved_to_train"
+      },
+      {
+        "id": "G01-A02-F00018-R02",
+        "before": "old_val_kept",
+        "after": "old_val_moved_to_train"
+      },
+      {
+        "id": "G08-A01-F00009-R02",
+        "before": "old_val_kept",
+        "after": "old_val_moved_to_train"
+      },
+      {
+        "id": "G08-A01-F00014-R02",
+        "before": "old_val_kept",
+        "after": "old_val_moved_to_train"
+      },
+      {
+        "id": "G08-B02-F00001",
+        "before": "old_val_kept",
+        "after": "old_val_moved_to_train"
+      },
+      {
+        "id": "G08-B02-F00009",
+        "before": "old_val_kept",
+        "after": "old_val_moved_to_train"
+      },
+      {
+        "id": "G08-B03-F00001",
+        "before": "old_val_kept",
+        "after": "old_val_moved_to_train"
+      },
+      {
+        "id": "G08-B05-F00001",
+        "before": "old_val_kept",
+        "after": "old_val_moved_to_train"
+      },
+      {
+        "id": "G10-A01-F00008",
+        "before": "old_val_kept",
+        "after": "old_val_moved_to_train"
+      },
+      {
+        "id": "G10-A01-F00013",
+        "before": "old_val_kept",
+        "after": "old_val_moved_to_train"
+      },
+      {
+        "id": "G10-B01-F00013",
+        "before": "old_val_kept",
+        "after": "old_val_moved_to_train"
+      },
+      {
+        "id": "G10-B03-F00001",
+        "before": "old_val_kept",
+        "after": "old_val_moved_to_train"
+      },
+      {
+        "id": "G10-B04-F00001",
+        "before": "old_val_kept",
+        "after": "old_val_moved_to_train"
+      },
+      {
+        "id": "G10-B05-F00001",
+        "before": "old_val_kept",
+        "after": "old_val_moved_to_train"
+      },
+      {
+        "id": "G10-B06-F00001",
+        "before": "old_val_kept",
+        "after": "old_val_moved_to_train"
+      },
+      {
+        "id": "G19-A01-F00039",
+        "before": "old_val_kept",
+        "after": "old_val_moved_to_train"
+      },
+      {
+        "id": "G19-A01-F00052",
+        "before": "old_val_kept",
+        "after": "old_val_moved_to_train"
+      },
+      {
+        "id": "G19-A02-F00056",
+        "before": "old_val_kept",
+        "after": "old_val_moved_to_train"
+      },
+      {
+        "id": "SCB-turnhead-016",
+        "before": "old_val_kept",
+        "after": "old_val_moved_to_train"
+      },
+      {
+        "id": "V6R2-EX-009",
+        "before": "old_val_kept",
+        "after": "old_val_moved_to_train"
+      },
+      {
+        "id": "V7-C-111",
+        "before": "old_val_kept",
+        "after": "old_val_moved_to_train"
+      },
+      {
+        "id": "V7-OE-S094-A01-R04",
+        "before": "old_val_kept",
+        "after": "old_val_moved_to_train"
+      }
+    ]
+  }
+}

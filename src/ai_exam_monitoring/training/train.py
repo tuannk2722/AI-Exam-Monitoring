@@ -189,6 +189,7 @@ def run(config_path: Path, output: Path, workspace: Path, *, resume: bool = Fals
         "matched-adaptation-v3",
         "representation-adaptation-v4",
         "spatial-representation-v5",
+        "dinov2-adaptation-v6",
     }:
         from .adaptation_train import run_adaptation
 

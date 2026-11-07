@@ -1,0 +1,46 @@
+{
+  "rebuild_reverse_order_exact_payload": "PASS",
+  "source_payload_checksum": "d910b5999ef973fa04d5e3a50cd5d7e1338c3e041c7a3e82af5fc8efd0641564",
+  "strict_training_loader": "PASS",
+  "schema_and_usage": "PASS",
+  "cross_split_group_leakage": 0,
+  "cross_split_crop_byte_duplicates": 0,
+  "cross_split_crop_rgb_duplicates": 0,
+  "cross_split_all_pairs_checked": 473688,
+  "cross_split_dhash_at_most_10": {
+    "candidate_pairs": 1,
+    "review": "visually distinct people, clothing and scenes; not duplicate",
+    "ids": [
+      "V6R2-CA-008-ADD02",
+      "V6-EX-043"
+    ]
+  },
+  "all_252_imports_train": true,
+  "all_74_inherited_generated_train": true,
+  "native_labels_including_U_masks": "PASS",
+  "parent_explicit_changes": "PASS",
+  "new_crop_label_counts": {
+    "NP": 147,
+    "NN": 134,
+    "PP": 17,
+    "PN": 66,
+    "UN": 3,
+    "PU": 1
+  },
+  "gallery_cards": 368,
+  "gallery_local_links": "generated from verified inputs",
+  "gallery_path": "data/interim/dataset-merge-20261106/index.html",
+  "tests": {
+    "pilot_schema": 22,
+    "pilot_package": 8,
+    "derived_crop": 2,
+    "training_no_test_release": 4,
+    "training_preservation": 10,
+    "image_similarity": 3
+  },
+  "tests_total_passed": 49,
+  "training_or_classifier_inference": false,
+  "test_opened": false,
+  "rebuild_scratch": "outputs/_scratch/dataset-merge-20261106/rebuild",
+  "rebuild_scratch_disposable_after_checksum_evidence": true
+}

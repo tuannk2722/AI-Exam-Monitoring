@@ -1,0 +1,260 @@
+schema_version: e009-training-proposal-v1
+experiment_family: E009-V15-20261106
+status: draft_for_owner_review
+executable: false
+owner: repository-owner
+purpose: improve_both_targets_on_fixed_V15_development_split
+targets: [phone_use, looking_around]
+current_authorization:
+  research_and_planning: true
+  user_selected_gpu_hours_cap: 12
+  user_reported_drive_free_space: approximately_5_TB_not_live_verified
+  scientific_design_approved: false
+  implementation_approved: false
+  real_data_smoke_approved: false
+  training_run_approved: false
+  V15_cloud_upload_approved: false
+  purchase_extra_credits: false
+  final_test_authorized: false
+  promotion_authorized: false
+dataset:
+  version: pilot-b-20261106-v15
+  package: data/processed/pilot-b/pilot-b-20261106-v15
+  pointer: artifacts/reports/dataset-merge-20261106/package-pointers.json
+  payload_sha256: d910b5999ef973fa04d5e3a50cd5d7e1338c3e041c7a3e82af5fc8efd0641564
+  split_version: owner-delegated-group-train-val-20261106-v15
+  encoding_version: pilot-b-targets-v1
+  expected_records: {train: 1377, val: 344, test: 0}
+  metadata_audit: data-audit.json
+  mutate_release: false
+  independence_claim: false
+initialization:
+  warm_start_historical_checkpoint: false
+  warm_start_other_E009_arm: false
+  reset_optimizer_and_head_each_arm_seed: true
+  share_head_initialization_within_encoder_by_seed: true
+  source_revision: 7764ea0f912e53c92e82eb78a2a1631e92725fc8
+  source_sha256: 04276715cddb29d45d05bff3a6fc132224dc27749b279ac98ad2ce4620e20d48
+  pretrained_small_sha256: b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9
+  pretrained_base_url: https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_pretrain.pth
+  pretrained_base_sha256: null
+  pretrained_base_status: fetch_and_pin_after_design_approval_before_materialization
+  pretrained_variant: LVD142M_no_registers_backbone_only
+  license: Apache-2.0
+common:
+  device: cuda
+  precision: float32
+  tf32: false
+  xformers: disabled
+  deterministic_algorithms: true
+  workers: 0
+  threads: 4
+  batch_size: 16
+  accumulation_steps: 1
+  optimizer: AdamW
+  head_learning_rate: 0.0003
+  weight_decay: 0.01
+  max_epochs: 24
+  warmup_head_only_epochs: 3
+  patience: 6
+  min_delta: 0.0001
+  lr_scheduler: cosine
+  min_lr_ratio: 0.1
+  gradient_clipping: null
+  pooling: global_mean
+  feature_rule: concat_final_normalized_CLS_and_mean_patch_tokens
+  head: {hidden_dim: 128, dropout: 0.3, output_dim: 2}
+  loss:
+    objective: balanced_smoothed_minibatch_bce_v3
+    pos_weight_formula: sqrt_train_known_N_over_P
+    pos_weight: [1.502307209641576, 1.7995527480124769]
+    label_smoothing: 0.05
+    unknown_mask: zero
+    normalization: per_target_train_known_population_then_mean_over_two_targets
+  sampling: uniform_permutation_without_replacement_each_epoch
+  transform:
+    name: rgb_letterbox_bilinear_v1
+    fill: [124, 116, 104]
+    mean: [0.485, 0.456, 0.406]
+    std: [0.229, 0.224, 0.225]
+  augmentation:
+    enabled: true
+    horizontal_flip_prob: 0.5
+    brightness_jitter: 0.15
+    contrast_jitter: 0.15
+    saturation_jitter: 0.1
+    box_jitter_ratio: 0.0
+    random_erasing_prob: 0.0
+arms:
+  C0:
+    encoder: dinov2_vits14
+    image_size: 336
+    feature_dim: 768
+    train_last_blocks: 2
+    train_final_norm: true
+    backbone_learning_rate: 0.00001
+    hypothesis: fresh_E008_G0_recipe_control_on_V15
+  S448:
+    same_as: C0
+    image_size: 448
+    hypothesis: retain_more_native_detail_before_patch_tokenization
+  SL:
+    same_as: C0
+    backbone_learning_rate: 0.000003
+    hypothesis: reduce_pretrained_feature_drift
+  SH:
+    same_as: C0
+    backbone_learning_rate: 0.00003
+    hypothesis: stronger_adaptation_to_new_training_examples
+  S4:
+    same_as: SL
+    train_last_blocks: 4
+    hypothesis: adapt_more_blocks_at_the_same_low_LR_as_SL
+  B0:
+    same_as: C0
+    encoder: dinov2_vitb14
+    feature_dim: 1536
+    hypothesis: compare_larger_pretrained_representation_with_C0
+  BL:
+    same_as: B0
+    backbone_learning_rate: 0.000003
+    hypothesis: compare_larger_representation_with_SL_at_matched_low_LR
+  B448:
+    same_as: BL
+    image_size: 448
+    hypothesis: compare_higher_resolution_with_BL
+profiles:
+  full:
+    selection_before_any_training_or_validation_scores: true
+    minimum_reported_vram_gib: 40
+    screening_arms: [C0, S448, SL, SH, S4, B0, BL, B448]
+    smoke_arms: [C0, S4, B448]
+    max_research_runs: 25
+  core:
+    selection_before_any_training_or_validation_scores: true
+    minimum_reported_vram_gib: 14
+    maximum_reported_vram_gib_exclusive: 40
+    screening_arms: [C0, S448, SL, SH, S4]
+    smoke_arms: [C0, S4, S448]
+    max_research_runs: 19
+  insufficient_gpu_policy: stop_without_CPU_fallback
+  smoke_failure_policy: stop_without_switching_profile_or_variables
+  minimum_private_drive_free_bytes_before_launch: 50000000000
+screening:
+  seeds: [20261106, 20261107]
+  paired_seed_order: complete_all_arms_first_seed_then_all_arms_second_seed
+  rank_over_two_seeds:
+    - max_seeds_both_targets_pass
+    - max_total_target_passes
+    - min_mean_total_80_80_20_gate_shortfall
+    - max_mean_macro_ap
+    - min_mean_raw_masked_bce
+    - min_encoder_parameter_count
+    - min_image_size
+    - arm_id_ascending
+  finalists: top_two_distinct_recipes
+  missing_metric_rank_values_only: {precision: 0.0, recall: 0.0, fpr: 1.0}
+confirmation:
+  additional_seeds: [20261108, 20261109, 20261110]
+  arms: union_of_screening_top_two_and_C0
+  reuse_finished_screening_runs_in_five_seed_summary: true
+  no_new_variables_after_screening: true
+selection:
+  checkpoint: max_val_macro_ap_then_min_raw_masked_bce_then_earliest_epoch
+  calibration: existing_exact_v4_val_once_after_checkpoint_selection
+  score_grid: unique_validation_scores_plus_0_0.5_nextafter_1
+  threshold_reuse: train_val_slices_bootstrap_reload
+  support: {positive_min: 30, negative_min: 30, positive_groups_min: 5, negative_groups_min: 5}
+  quality: {precision_min: 0.8, recall_min: 0.8, fpr_max: 0.2}
+  five_seed_stability_target:
+    both_targets_pass_seeds_min: 4
+    purpose: proposed_research_candidate_criterion_not_independent_acceptance
+  final_recipe_rank:
+    - max_seeds_both_targets_pass_over_five
+    - max_total_target_passes_over_five
+    - min_mean_total_80_80_20_gate_shortfall
+    - max_mean_macro_ap
+    - min_mean_raw_masked_bce
+    - min_encoder_parameter_count
+    - min_image_size
+    - arm_id_ascending
+  checkpoint_handoff:
+    prefer_seeds_passing_both_targets: true
+    rule: lower_median_by_macro_AP_among_passing_seeds_then_seed_ascending
+    if_no_seed_passes: research_only_no_automatic_candidate
+    one_checkpoint_for_both_targets: true
+  no_recalibration_after_results_review: true
+  no_ensemble_or_TTA: true
+budget:
+  total_minutes: 720
+  setup_and_environment_minutes: 40
+  actual_gpu_smoke_minutes: 70
+  research_pool_minutes: 500
+  per_research_run_including_reload_and_sync_minutes: 20
+  audit_and_final_export_minutes: 45
+  protected_reserve_minutes: 65
+  total_counter: wall_clock_since_first_launcher_start_persisted_across_recovery
+  count_setup_smoke_failed_attempts_and_recovery: true
+  forbid_resetting_counter_on_reconnect: true
+  training_deadline_minutes_from_first_launch: 610
+  stop_if_next_complete_run_cannot_fit: true
+  extra_trials_when_time_remains: false
+  purchase_extra_credits: false
+smoke:
+  max_runs: 6
+  epochs_per_run: 5
+  warmup_epochs: 3
+  full_vs_interrupt_after_epoch_3_then_resume: true
+  compare: [last_model_tensors, best_model_tensors, optimizer, history, permutations, RNG, reload_predictions, reload_metrics]
+  maximum_peak_vram_fraction: 0.85
+  projection: full_smoke_elapsed_times_24_over_5_times_1.25_plus_measured_reload_and_final_sync
+  projection_must_fit_run_cap: true
+  require_all_active_model_resolution_shape_checks: true
+analysis:
+  fixed_threshold_report: 0.5
+  calibrated_report: true
+  undefined_metrics_in_reports_remain_null: true
+  per_seed_and_mean_sample_SD: true
+  paired_whole_group_bootstrap:
+    replicates: 2000
+    seed: 20261106
+    groups: 119
+    resample_same_groups_for_C0_and_candidate_and_all_five_seeds: true
+    refit_thresholds: false
+    interpretation: descriptive_development_interval_after_selection
+  slices:
+    - source_boundary_and_resolved_upstream
+    - native_long_edge_bins_from_crop_extent
+    - anchor_to_context_area_fraction
+    - fully_known_joint_states
+    - old_val_kept_vs_old_train_moved_to_val_vs_new_native_S03
+    - train_only_owner_imports_and_known_inherited_generated
+  do_not_claim: [independent_holdout, causal_V14_to_V15_gain, runtime_acceptance, model_Selected]
+implementation_required:
+  proposed_new_schema: dinov2-adaptation-v6
+  preserve_existing_V1_to_V5_semantics_and_guards: true
+  modules:
+    - adaptation_config_model_encoders_train_evaluate_dispatch
+    - representation_prepare_two_screening_seeds_top_two_confirmation
+    - representation_campaign_budget_and_verified_continuation
+    - incremental_hash_verified_Drive_sync_without_recopying_finished_models
+    - measured_peak_VRAM_and_phase_train_reload_sync_elapsed_receipts
+    - E009_enrollment_and_provenance_adapters_from_pinned_V15
+    - private_allowlisted_bundle_and_thin_E009_Colab_launcher
+  legacy_runtime_model_change: separate_owner_decision_after_research
+storage:
+  user_reported_free_space: approximately_5_TB
+  minimum_free_bytes: 50000000000
+  allowlisted_E009_inputs_and_outputs_only: true
+  dataset_working_copy: ephemeral_Colab_local_disk
+  epoch_recovery: latest_atomic_snapshot_per_run_on_private_Drive
+  final_artifacts: all_runs_best_last_metadata_initialization_and_exact_source_bundle
+  sync_policy: changed_files_only_with_hash_verification_and_atomic_publication
+  keep_existing_models_and_other_campaigns: true
+environment:
+  python: '3.12.x; select compatible past Colab runtime before connecting GPU'
+  torch: 2.8.0+cu128
+  torchvision: 0.23.0+cu128
+  requirements_recipe: requirements/classifier-colab.txt
+  record_actual_driver_GPU_VRAM_python_pip_freeze: true
+  no_silent_upgrade_or_Python_3_13_guard_relaxation: true

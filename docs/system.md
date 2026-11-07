@@ -79,6 +79,8 @@ seal cuối phiên. [LIVE-VIDEO-WEB-20261028](../configs/web/LIVE-VIDEO-WEB-2026
 đã được owner duyệt riêng cho API upload/điều khiển/MJPEG/SSE và metadata
 `online-video-web-session-v1`: một phiên local, receipt/hash/deadline bắt buộc,
 snapshot trạng thái đầy đủ khi reconnect, command ID/epoch chống thực thi lặp.
+Lựa chọn [model E009 cho prototype](../configs/runtime/RUNTIME-E009-20261107/README.md) bổ sung web config/session v2: B0 mặc định hoặc B448, một model chạy cả hai nhãn, khóa theo phiên và lưu checkpoint/calibration/preprocessing provenance. API/state và tương thích v1 ở [web selector](../configs/web/E009-MODELS-20261107/README.md). Không chuyển nghiệm thu G0/tracking/events sang các model này.
+
 Giới hạn và config ở hồ sơ này. Metadata vận hành riêng không phải session AI
 đã seal hoặc event evidence; observations tức thời không được ghi thành quyết
 định review. SQLite live log/revision vẫn cần slice riêng, không sửa schema review

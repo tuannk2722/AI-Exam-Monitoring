@@ -1,0 +1,58 @@
+schema_version: recorded-runtime-config-v5
+runtime_id: RUNTIME-E009-20261107
+approval_ref: configs/runtime/RUNTIME-E009-20261107/B448-authorization.json
+pins:
+  checkpoint:
+    path: outputs/E009-V15-Colab-20261106/runs/E009-V15-B448-S20261110/best.pt
+    sha256: ee84f46be8cbe63b8651fd5ff83d7780de3f51d0ec820db8a1035857ac50f1d9
+  resolved_config:
+    path: outputs/E009-V15-Colab-20261106/runs/E009-V15-B448-S20261110/resolved-config.json
+    sha256: 8cde915bff1616cf9c92920df0156000ab54a30a6c679f740163349ff2c7115e
+  calibration:
+    path: outputs/E009-V15-Colab-20261106/runs/E009-V15-B448-S20261110/calibration.json
+    sha256: d3a3600641aa078c0a5b1243e057d6474bdea90988c9f675aed015e0fc7e7058
+  bundle:
+    path: outputs/E009-V15-Colab-20261106/runs/E009-V15-B448-S20261110/bundle.json
+    sha256: 94d84c743e853efea6d11784253607eb6047087c77e34b53f6501950ca59e644
+  run:
+    path: outputs/E009-V15-Colab-20261106/runs/E009-V15-B448-S20261110/run.json
+    sha256: e68f44ee8cc0aca956dbe0685cefadbb0e31c40b32aa9bc7e08a619b2e59fc5a
+  detector_weights:
+    path: outputs/runtime-detector-comparison-acquisition-20261026/yolov8s.pt
+    sha256: 1f47a78bf100391c2a140b7ac73a1caae18c32779be7d310658112f7ac9aa78a
+  detector_receipt:
+    path: configs/runtime/RUNTIME-V8S-20261026/detector-acquisition.json
+    sha256: 0fe5eda3635ac537190ca7b8cd8b585dd02b6090892ba676d1b2bc286ed34d0f
+  detector_selection:
+    path: configs/runtime/RUNTIME-V8S-20261026/selection.json
+    sha256: 3fe39976db39bcbb0787e4ce3f9547edb6dc054eaf349433abd851fc26ef0182
+detector:
+  imgsz: 640
+  conf: 0.25
+  iou: 0.3
+  max_det: 100
+  device: cpu
+  half: false
+  rect: true
+  augment: false
+  batch: 1
+crop:
+  version: context-v1
+  left: 0.2
+  right: 0.2
+  top: 0.1
+  bottom: 0.2
+classifier:
+  device: cpu
+  batch_size: 1
+  threads: 4
+  precision: float32
+  target_order:
+  - phone_use
+  - looking_around
+  model_id: B448
+  experiment_id: E009-V15-B448-S20261110
+  model: dinov2_vitb14_v6
+  image_size: 448
+gallery_frames: 20
+sampling_hz: 1

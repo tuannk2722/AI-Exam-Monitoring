@@ -41,11 +41,28 @@ class Monitor:
     def __init__(self, root: Path, config_path: Path):
         self.root = root.resolve()
         self.config = load_yaml(config_path)
+        self.multi_model = self.config.get("schema_version") == "online-video-web-config-v2"
         expected = {"schema_version", "runtime", "output_root", "max_upload_bytes",
                     "max_receipt_bytes", "jpeg_quality", "transport_interval_ms"}
+        if self.multi_model:
+            expected.remove("runtime")
+            expected.update({"default_model", "models"})
         if (set(self.config) != expected
-                or self.config["schema_version"] != "online-video-web-config-v1"):
+                or self.config["schema_version"] not in
+                {"online-video-web-config-v1", "online-video-web-config-v2"}):
             raise ValueError("Cấu hình giám sát không hợp lệ")
+        if self.multi_model:
+            models = self.config["models"]
+            if (not isinstance(models, dict) or set(models) != {"B0", "B448"}
+                    or self.config["default_model"] != "B0"
+                    or any(not isinstance(v, dict) or set(v) != {"label", "runtime"}
+                           or not isinstance(v["label"], str) for v in models.values())):
+                raise ValueError("Danh sách model giám sát không hợp lệ")
+            self.models = models
+            self.default_model = self.config["default_model"]
+        else:
+            self.models = {"G0": {"label": "G0", "runtime": self.config["runtime"]}}
+            self.default_model = "G0"
         for key in ("max_upload_bytes", "max_receipt_bytes", "transport_interval_ms"):
             if type(self.config[key]) is not int or self.config[key] <= 0:
                 raise ValueError("Giới hạn giám sát phải là số nguyên dương")
@@ -53,9 +70,8 @@ class Monitor:
         self.directory: Path = (self.root / self.config["output_root"]).resolve()
         if not self.directory.is_relative_to(self.root / "outputs"):
             raise ValueError("Phiên giám sát phải nằm trong outputs")
-        self.runtime_path: Path = (self.root / self.config["runtime"]).resolve()
-        if not self.runtime_path.is_relative_to(self.root):
-            raise ValueError("Cấu hình runtime phải nằm trong workspace")
+        for model_id in self.models:
+            self._runtime_path(model_id)
         self.directory.mkdir(parents=True, exist_ok=True)
         self.lock = threading.RLock()
         self.record: dict[str, Any] | None = None
@@ -68,6 +84,18 @@ class Monitor:
         self.closed = False
         self.last_command: dict[str, Any] | None = None
         self._recover()
+
+    def _runtime_path(self, model_id: str) -> Path:
+        if model_id not in self.models:
+            raise ValueError("Model không nằm trong danh sách được duyệt")
+        path: Path = (self.root / self.models[model_id]["runtime"]).resolve()
+        if not path.is_relative_to(self.root):
+            raise ValueError("Cấu hình runtime phải nằm trong workspace")
+        return path
+
+    def _session_runtime_path(self) -> Path:
+        assert self.record is not None
+        return self._runtime_path(self.record.get("model_id", self.default_model))
 
     def path(self, identity: str) -> Path:
         if not re.fullmatch(r"session-[0-9a-f]{32}", identity):
@@ -95,7 +123,8 @@ class Monitor:
             if not session.is_file():
                 continue
             record = json.loads(session.read_text(encoding="utf-8"))
-            if record.get("schema_version") != "online-video-web-session-v1":
+            if record.get("schema_version") not in {"online-video-web-session-v1",
+                                                     "online-video-web-session-v2"}:
                 continue
             self._remove(directory, {"source.part"})
             if record["status"] in ACTIVE:
@@ -120,7 +149,8 @@ class Monitor:
         if self.record is not None:
             write_json(self.path(self.record["id"]) / "session.json", self.record)
 
-    def create(self, receipt: dict[str, Any], size: int) -> dict[str, Any]:
+    def create(self, receipt: dict[str, Any], size: int,
+               model_id: str | None = None) -> dict[str, Any]:
         with self.lock:
             if self.closed or self.busy():
                 raise FileExistsError("Hãy dừng hoặc xóa phiên hiện tại trước khi chọn video mới")
@@ -132,7 +162,27 @@ class Monitor:
             source_sha = receipt.get("source_sha256")
             if not isinstance(source_sha, str) or not re.fullmatch(r"[0-9a-f]{64}", source_sha):
                 raise ValueError("Receipt thiếu SHA256 nguồn hợp lệ")
-            runtime = load_runtime_config(self.runtime_path, self.root)
+            selected = self.default_model if model_id is None else model_id
+            if not isinstance(selected, str):
+                raise ValueError("Mã model phải là chuỗi")
+            runtime = load_runtime_config(self._runtime_path(selected), self.root)
+            provenance = None
+            if self.multi_model:
+                binding = runtime.raw["classifier"]
+                if (runtime.raw["schema_version"] != "recorded-runtime-config-v5"
+                        or binding["model_id"] != selected):
+                    raise ValueError("Cấu hình runtime không khớp model đã chọn")
+                resolved = json.loads(runtime.pin("resolved_config").read_text(encoding="utf-8"))
+                calibration = json.loads(runtime.pin("calibration").read_text(encoding="utf-8"))
+                provenance = {
+                    "experiment_id": binding["experiment_id"],
+                    "checkpoint": runtime.raw["pins"]["checkpoint"],
+                    "calibration": runtime.raw["pins"]["calibration"],
+                    "thresholds": calibration["thresholds"],
+                    "target_order": binding["target_order"],
+                    "preprocessing": {key: resolved[key] for key in
+                                      ("transform", "image_size", "mean", "std", "fill")},
+                }
             verify_media_receipt(receipt, runtime, source_sha256=source_sha)
             media_deadline(receipt)
             identity = "session-" + uuid.uuid4().hex
@@ -149,7 +199,8 @@ class Monitor:
             self.runner, self.latest, self.captured_ns = None, None, None
             self.last_command = None
             self.record = {
-                "schema_version": "online-video-web-session-v1", "id": identity,
+                "schema_version": ("online-video-web-session-v2" if self.multi_model
+                                   else "online-video-web-session-v1"), "id": identity,
                 "status": "uploading", "created_at": now(), "epoch": 0,
                 "command_id": 0, "source_sha256": source_sha, "expected_bytes": size,
                 "received_bytes": 0, "media_delete_by": receipt["media_delete_by"],
@@ -159,6 +210,9 @@ class Monitor:
                     "code-provenance.json", "environment.json")},
                 "processed": 0, "dropped": 0, "stale_results": 0,
             }
+            if self.multi_model:
+                self.record.update(model_id=selected, model_label=self.models[selected]["label"],
+                                   classifier=provenance)
             self._save()
             return self.state()
 
@@ -191,7 +245,7 @@ class Monitor:
             if (record["received_bytes"] != record["expected_bytes"]
                     or digest != record["source_sha256"]):
                 raise ValueError("Dung lượng hoặc SHA256 video không khớp receipt")
-            runtime = load_runtime_config(self.runtime_path, self.root)
+            runtime = load_runtime_config(self._session_runtime_path(), self.root)
             if runtime.sha256 != record["runtime_sha256"]:
                 raise ValueError("Cấu hình runtime đã thay đổi")
             verify_media(directory / "source.part", directory / "receipt.json", runtime)
@@ -224,10 +278,11 @@ class Monitor:
             for name, digest in record["input_pins"].items():
                 if sha256_file(directory / name) != digest:
                     raise ValueError("Metadata phiên đã thay đổi")
-            runtime = load_runtime_config(self.runtime_path, self.root)
+            runtime_path = self._session_runtime_path()
+            runtime = load_runtime_config(runtime_path, self.root)
             if runtime.sha256 != record["runtime_sha256"]:
                 raise ValueError("Cấu hình runtime đã thay đổi")
-            self.runner = create_online_video(self.runtime_path, self.root,
+            self.runner = create_online_video(runtime_path, self.root,
                                               directory / "source.mp4",
                                               directory / "receipt.json", session_id=identity)
             record.update(status="starting", started_at=now())
@@ -339,6 +394,9 @@ class Monitor:
                                   if self.captured_ns is not None else None),
                 "preview_revision": self.preview.snapshot().revision if self.preview else 0,
                 "receiving": self.writing,
+                "default_model": self.default_model,
+                "models": [{"id": key, "label": value["label"]}
+                           for key, value in self.models.items()],
                 "limits": {"upload_bytes": self.config["max_upload_bytes"],
                            "receipt_bytes": self.config["max_receipt_bytes"]},
             }

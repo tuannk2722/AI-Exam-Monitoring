@@ -1,0 +1,58 @@
+schema_version: recorded-runtime-config-v5
+runtime_id: RUNTIME-E009-20261107
+approval_ref: configs/runtime/RUNTIME-E009-20261107/B0-authorization.json
+pins:
+  checkpoint:
+    path: outputs/E009-V15-Colab-20261106/runs/E009-V15-B0-S20261106/best.pt
+    sha256: 8fe21c79d9316ae078dc2ee2660f357e17fb2d07a50bcbf8aa6d2ad92e697044
+  resolved_config:
+    path: outputs/E009-V15-Colab-20261106/runs/E009-V15-B0-S20261106/resolved-config.json
+    sha256: 0a747347ceaeb8e593eefc8917e468246fa6bc3dbb74244c03fccad9a6b043e1
+  calibration:
+    path: outputs/E009-V15-Colab-20261106/runs/E009-V15-B0-S20261106/calibration.json
+    sha256: 33193bb875977ca6c437ff9d37a741c681a1f977eea7b67cca3472d75c79629f
+  bundle:
+    path: outputs/E009-V15-Colab-20261106/runs/E009-V15-B0-S20261106/bundle.json
+    sha256: 7b63ad39ee7c91d19e26bf72d1383497c74708bbf0d7bc8a84a55838b0fb3749
+  run:
+    path: outputs/E009-V15-Colab-20261106/runs/E009-V15-B0-S20261106/run.json
+    sha256: 0bd3b24f6f6928ab5da25c68a47809ee25fd4f476320c4adcef69693ab6cf71a
+  detector_weights:
+    path: outputs/runtime-detector-comparison-acquisition-20261026/yolov8s.pt
+    sha256: 1f47a78bf100391c2a140b7ac73a1caae18c32779be7d310658112f7ac9aa78a
+  detector_receipt:
+    path: configs/runtime/RUNTIME-V8S-20261026/detector-acquisition.json
+    sha256: 0fe5eda3635ac537190ca7b8cd8b585dd02b6090892ba676d1b2bc286ed34d0f
+  detector_selection:
+    path: configs/runtime/RUNTIME-V8S-20261026/selection.json
+    sha256: 3fe39976db39bcbb0787e4ce3f9547edb6dc054eaf349433abd851fc26ef0182
+detector:
+  imgsz: 640
+  conf: 0.25
+  iou: 0.3
+  max_det: 100
+  device: cpu
+  half: false
+  rect: true
+  augment: false
+  batch: 1
+crop:
+  version: context-v1
+  left: 0.2
+  right: 0.2
+  top: 0.1
+  bottom: 0.2
+classifier:
+  device: cpu
+  batch_size: 1
+  threads: 4
+  precision: float32
+  target_order:
+  - phone_use
+  - looking_around
+  model_id: B0
+  experiment_id: E009-V15-B0-S20261106
+  model: dinov2_vitb14_v6
+  image_size: 336
+gallery_frames: 20
+sampling_hz: 1

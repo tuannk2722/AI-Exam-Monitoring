@@ -1,0 +1,33 @@
+{
+  "status": "approved",
+  "owner": "repository-owner",
+  "decision_date": "2026-11-06",
+  "decision_text": "approve, h?y th?c hi?n ?i!",
+  "proposal": {
+    "path": "configs/experiments/E009-V15-20261106/proposal.yaml",
+    "sha256": "303e586587fe81277899edb69e9418a0cd8dd305493fb0f92da6a335aa02087e"
+  },
+  "dataset_version": "pilot-b-20261106-v15",
+  "payload_sha256": "d910b5999ef973fa04d5e3a50cd5d7e1338c3e041c7a3e82af5fc8efd0641564",
+  "implementation_authorized": true,
+  "smoke_authorized": true,
+  "research_authorized_after_smoke": true,
+  "cloud_upload_authorized": true,
+  "cloud_providers": [
+    "Google Colab"
+  ],
+  "private_Drive_only": true,
+  "budget_tier": "gpu_12h",
+  "max_gpu_seconds": 43200,
+  "max_research_runs": 25,
+  "profile_research_run_limits": {
+    "full": 25,
+    "core": 19
+  },
+  "purchase_extra_credits": false,
+  "final_test_inference_authorized": false,
+  "promotion_authorized": false,
+  "runtime_model_replacement_authorized": false,
+  "exact_config_materialization_delegated": true,
+  "note": "Proposal keeps its original Draft wording and bytes; this receipt records the subsequent owner approval."
+}

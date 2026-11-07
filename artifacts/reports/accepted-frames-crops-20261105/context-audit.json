@@ -1,0 +1,580 @@
+{
+  "dataset": {
+    "train": {
+      "records": 1199,
+      "groups": 245,
+      "person_equals_context": 334,
+      "targets": {
+        "phone_use": {
+          "positive": {
+            "records": 369,
+            "groups": 100
+          },
+          "negative": {
+            "records": 735,
+            "groups": 162
+          },
+          "unknown": {
+            "records": 95,
+            "groups": 23
+          }
+        },
+        "looking_around": {
+          "positive": {
+            "records": 210,
+            "groups": 80
+          },
+          "negative": {
+            "records": 980,
+            "groups": 213
+          },
+          "unknown": {
+            "records": 9,
+            "groups": 7
+          }
+        }
+      }
+    },
+    "val": {
+      "records": 156,
+      "groups": 86,
+      "person_equals_context": 69,
+      "targets": {
+        "phone_use": {
+          "positive": {
+            "records": 44,
+            "groups": 34
+          },
+          "negative": {
+            "records": 105,
+            "groups": 54
+          },
+          "unknown": {
+            "records": 7,
+            "groups": 5
+          }
+        },
+        "looking_around": {
+          "positive": {
+            "records": 29,
+            "groups": 19
+          },
+          "negative": {
+            "records": 127,
+            "groups": 76
+          },
+          "unknown": {
+            "records": 0,
+            "groups": 0
+          }
+        }
+      }
+    }
+  },
+  "runs": {
+    "20261023": {
+      "train": {
+        "phone_use": {
+          "confusion": {
+            "tp": 361,
+            "tn": 720,
+            "fn": 8,
+            "fp": 15
+          },
+          "fp": [
+            "CB-0030-R1",
+            "CB-0033",
+            "CB-0605",
+            "E004-EX-C030",
+            "G13-A01-F00042",
+            "NA-005",
+            "NB-0003",
+            "NEW-011",
+            "NEW-016",
+            "V14-GEN-026",
+            "V6-EX-024",
+            "V6R2-MP-033",
+            "V7-A-026",
+            "V7-C-083-R03",
+            "V7-D-042"
+          ],
+          "fn": [
+            "CB-0017",
+            "E004-EX-C006",
+            "EXP-CM-004",
+            "G14-B10-F00023",
+            "G2-A13-F003",
+            "NEW-073",
+            "V14-GEN-009",
+            "Y01-A01-F00128"
+          ]
+        },
+        "looking_around": {
+          "confusion": {
+            "tn": 945,
+            "fn": 7,
+            "tp": 203,
+            "fp": 35
+          },
+          "fp": [
+            "CB-0017",
+            "E004-CN-014",
+            "E004-CN-024",
+            "E004-CN-026",
+            "E004-CN-028",
+            "E004-CN-029",
+            "E004-CN-043",
+            "E004-EX-C003",
+            "E004-EX-C049",
+            "E004-EX-C118",
+            "E004-EX-C184",
+            "E004-SX-C002",
+            "E004-SX-C005",
+            "EXP-CM-004",
+            "EXP-SCB-013",
+            "G11-B09-F00008",
+            "G2-A01-F214",
+            "G3-A01-F014",
+            "NB-0053",
+            "NEW-032",
+            "NEW-033",
+            "NEW-120",
+            "NEW-123",
+            "NEW-128",
+            "NEW-133",
+            "NEW-149",
+            "SCB-read-027",
+            "SCB-turnhead-005",
+            "SCB-turnhead-013",
+            "SCB-turnhead-027",
+            "V14-GEN-034",
+            "V6R2-MP-020",
+            "V7-A-074",
+            "V7-OE-S099-A01-ADD04-R02",
+            "Y02-A01-F00031-R02"
+          ],
+          "fn": [
+            "ADD-Y01-F00099-M01-R02",
+            "CB-0753",
+            "E004-SX-C001",
+            "NB-0045",
+            "SCB-turnhead-007",
+            "V14-GEN-002",
+            "V6-SB-028"
+          ]
+        }
+      },
+      "selection": {
+        "phone_use": {
+          "confusion": {
+            "tn": 99,
+            "tp": 39,
+            "fp": 6,
+            "fn": 5
+          },
+          "fp": [
+            "E004-EX-C162",
+            "E004-EX-C163",
+            "E004-EX-C164-R03",
+            "SCB-turnhead-016",
+            "V6R2-CA-008-ADD02",
+            "V7-C-081"
+          ],
+          "fn": [
+            "V6-CA-011-R04",
+            "V6R2-CA-001",
+            "V6R2-EX-009",
+            "V7-B-031-R03",
+            "V7-OE-S105-A01"
+          ]
+        },
+        "looking_around": {
+          "confusion": {
+            "tn": 121,
+            "fp": 6,
+            "tp": 23,
+            "fn": 6
+          },
+          "fp": [
+            "E004-EX-C001",
+            "G08-B01-F00001",
+            "G08-B02-F00001",
+            "NEW-155",
+            "V6R2-EX-009",
+            "V7-OE-S094-A01-R04"
+          ],
+          "fn": [
+            "G01-A01-F00009-R02",
+            "G19-A01-F00052",
+            "G19-A02-F00056",
+            "V7-C-079",
+            "V7-C-081",
+            "V7-C-111"
+          ]
+        }
+      }
+    },
+    "20261024": {
+      "train": {
+        "phone_use": {
+          "confusion": {
+            "tp": 364,
+            "tn": 718,
+            "fp": 17,
+            "fn": 5
+          },
+          "fp": [
+            "CB-0026",
+            "CB-0030-R1",
+            "CB-0033",
+            "CB-0605",
+            "E004-EX-C022",
+            "E004-EX-C030",
+            "E004-EX-C045",
+            "G13-A01-F00042",
+            "G14-A02-F00047",
+            "NA-005",
+            "NEW-016",
+            "NEW-139",
+            "V6-CA-018",
+            "V6R2-MP-033",
+            "V7-A-026",
+            "V7-C-083-R03",
+            "V7-D-042"
+          ],
+          "fn": [
+            "G14-B10-F00023",
+            "G2-A13-F003",
+            "NEW-063",
+            "NEW-073",
+            "Y01-A01-F00128"
+          ]
+        },
+        "looking_around": {
+          "confusion": {
+            "tn": 956,
+            "fn": 7,
+            "tp": 203,
+            "fp": 24
+          },
+          "fp": [
+            "ADD-Y06-F00012-M03",
+            "CB-0017",
+            "E004-CN-001",
+            "E004-CN-014",
+            "E004-CN-029",
+            "E004-EX-C049",
+            "E004-EX-C091",
+            "E004-EX-C125",
+            "G11-B03-F00008",
+            "G11-B09-F00008",
+            "G2-A01-F214",
+            "NB-0053",
+            "NEW-120",
+            "NEW-123",
+            "NEW-133",
+            "NEW-137",
+            "NEW-149",
+            "SCB-read-027",
+            "SCB-turnhead-013",
+            "SCB-turnhead-027",
+            "V7-A-074",
+            "V7-OE-S099-A01-ADD04-R02",
+            "Y01-A08-F00037",
+            "Y02-A01-F00031-R02"
+          ],
+          "fn": [
+            "ADD-Y01-F00099-M01-R02",
+            "CB-0753",
+            "E004-SX-C001",
+            "EXP-CM-024",
+            "NB-0045",
+            "NB-0067",
+            "SCB-turnhead-007"
+          ]
+        }
+      },
+      "selection": {
+        "phone_use": {
+          "confusion": {
+            "tn": 99,
+            "tp": 39,
+            "fp": 6,
+            "fn": 5
+          },
+          "fp": [
+            "E004-EX-C163",
+            "E004-EX-C164-R03",
+            "SCB-turnhead-016",
+            "V6-SB-048-ADD01",
+            "V6R2-CA-008-ADD02",
+            "V7-C-081"
+          ],
+          "fn": [
+            "V6-CA-011-R04",
+            "V6R2-CA-001",
+            "V6R2-EX-009",
+            "V7-B-031-R03",
+            "V7-UNAPPROVED-C-004"
+          ]
+        },
+        "looking_around": {
+          "confusion": {
+            "tn": 122,
+            "fp": 5,
+            "tp": 23,
+            "fn": 6
+          },
+          "fp": [
+            "E004-EX-C001",
+            "G08-B02-F00001",
+            "G09-B05-F00043",
+            "V6R2-EX-009",
+            "V7-OE-S094-A01-R04"
+          ],
+          "fn": [
+            "G01-A01-F00009-R02",
+            "G19-A01-F00052",
+            "G19-A02-F00056",
+            "NEW-156",
+            "V7-C-009-R03",
+            "V7-C-111"
+          ]
+        }
+      }
+    },
+    "20261025": {
+      "train": {
+        "phone_use": {
+          "confusion": {
+            "tp": 366,
+            "tn": 730,
+            "fp": 5,
+            "fn": 3
+          },
+          "fp": [
+            "CB-0030-R1",
+            "CB-0033",
+            "E004-EX-C030",
+            "G13-A01-F00042",
+            "NEW-016"
+          ],
+          "fn": [
+            "G14-B10-F00023",
+            "NEW-073",
+            "Y01-A01-F00128"
+          ]
+        },
+        "looking_around": {
+          "confusion": {
+            "tn": 964,
+            "tp": 210,
+            "fp": 16
+          },
+          "fp": [
+            "ADD-Y06-F00012-M03",
+            "E004-CN-014",
+            "E004-EX-C049",
+            "E004-EX-C125",
+            "G11-B09-F00008",
+            "NB-0026",
+            "NB-0060",
+            "NEW-120",
+            "NEW-123",
+            "NEW-128",
+            "NEW-133",
+            "NEW-149",
+            "V14-GEN-034",
+            "V7-A-074",
+            "V7-OE-S099-A01-ADD04-R02",
+            "Y02-A01-F00031-R02"
+          ],
+          "fn": []
+        }
+      },
+      "selection": {
+        "phone_use": {
+          "confusion": {
+            "tn": 101,
+            "tp": 38,
+            "fp": 4,
+            "fn": 6
+          },
+          "fp": [
+            "E004-EX-C163",
+            "SCB-turnhead-016",
+            "V6R2-CA-008-ADD02",
+            "V7-C-081"
+          ],
+          "fn": [
+            "V6-CA-011-R04",
+            "V6R2-CA-001",
+            "V6R2-EX-009",
+            "V7-A-002",
+            "V7-B-031-R03",
+            "V7-UNAPPROVED-C-004"
+          ]
+        },
+        "looking_around": {
+          "confusion": {
+            "tn": 120,
+            "fp": 7,
+            "tp": 23,
+            "fn": 6
+          },
+          "fp": [
+            "E004-EX-C001",
+            "G08-B01-F00001",
+            "G08-B02-F00001",
+            "G09-A01-F00056",
+            "G09-B02-F00007",
+            "V6R2-EX-009",
+            "V7-OE-S094-A01-R04"
+          ],
+          "fn": [
+            "G08-A01-F00009-R02",
+            "G19-A01-F00052",
+            "G19-A02-F00056",
+            "G27-A02-F00022",
+            "V7-C-081",
+            "V7-C-111"
+          ]
+        }
+      }
+    }
+  },
+  "inputs": [
+    {
+      "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/metrics.json",
+      "sha256": "6c6d858e66f885f29852e97d1cbea55b9a8822784e5c1bb02c34e1211fe5cfaf"
+    },
+    {
+      "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/predictions-selection.json",
+      "sha256": "2cf95ae343a52d24bf35bb4608e5b74888b0c95611faab8133a04b003eae9da2"
+    },
+    {
+      "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/predictions-train.json",
+      "sha256": "5e95d3ae378bbb0b414b250197aaab291d0416e5b713f120a4ff47093b930dbe"
+    },
+    {
+      "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/resolved-config.json",
+      "sha256": "87f7b794caeb31a55ffcfdc73c5e3d171198d3f9c5f16ddfcb962a1658a6fcdc"
+    },
+    {
+      "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/run.json",
+      "sha256": "2abd62105e2ab912dd64ad430a60c37c11394f6687b8c77de6896e241bc4bf5b"
+    },
+    {
+      "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/calibration.json",
+      "sha256": "4d652d900c9ebb51cf975ff9931161147f2a341d75188af3f97b2346e3e1810f"
+    },
+    {
+      "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/environment.json",
+      "sha256": "83280244b52c6595047a3ee51cf34e9a99e1286600ef018f1f4153f28908d0a0"
+    },
+    {
+      "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/history.json",
+      "sha256": "de99e16b71c0e685cb27ba4c6260009763415e3f5f3f2ff313e837f3f10a6368"
+    },
+    {
+      "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261024/metrics.json",
+      "sha256": "12d3b8a44dcea10ccc2b5be6549463a8caef384abb7c075b3efb2576b2c74836"
+    },
+    {
+      "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261024/predictions-selection.json",
+      "sha256": "bfc404759baa567930a2d3e2543936840eea8f0fad4c125be33b79b2400c77ae"
+    },
+    {
+      "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261024/predictions-train.json",
+      "sha256": "37ce8f7e65ce61eebb5453f3167b02b88c41634ea757d7e5f27abafdc4f24463"
+    },
+    {
+      "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261024/resolved-config.json",
+      "sha256": "1ce8a111fd4b595366ddaa96c90269c4822f3ad4a1508df309444266ee9c4b27"
+    },
+    {
+      "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261024/run.json",
+      "sha256": "f43fbbcbb6400e521beb0b60fbcd71694ee73d7805733fdb8a2f70be79669c5c"
+    },
+    {
+      "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261024/calibration.json",
+      "sha256": "3bad5a394dc30f748eb4b0bc258ebf29b0db1b5a030e4fa84668c171941b1c61"
+    },
+    {
+      "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261024/environment.json",
+      "sha256": "c3a1fb700d93f6c85f3ed966cbb20809d75c747d259c440c28d19c5f10e9bb63"
+    },
+    {
+      "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261024/history.json",
+      "sha256": "07e46f8435dbd531f4ce3a83419b22e2ff5fd99ac2113137c140645ba4d4f011"
+    },
+    {
+      "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261025/metrics.json",
+      "sha256": "121bb301a77e403db8baf99dfb1765cca658e21bf434b8c0e98d772194dc82ef"
+    },
+    {
+      "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261025/predictions-selection.json",
+      "sha256": "3be7d2917e52059872b2265afcde4a45cabc4a443b60b1033a44bc9d1d267a09"
+    },
+    {
+      "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261025/predictions-train.json",
+      "sha256": "f1ca87f914211fe8f8537c729be4bd64a0d8e2cab2c8c407b9b2fd435397872a"
+    },
+    {
+      "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261025/resolved-config.json",
+      "sha256": "2f1b50c35867dc402d3eebe90b87ea19915be36cc15717019fd4f50ddc566e71"
+    },
+    {
+      "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261025/run.json",
+      "sha256": "609f4f6f2dfff6b7707d70b2b586206bdd751eca7a5ee7b0aede8251582f3248"
+    },
+    {
+      "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261025/calibration.json",
+      "sha256": "ee729fc0b0e343fe55749ef670531fc7da29374851a72e8efca8a6d452371e98"
+    },
+    {
+      "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261025/environment.json",
+      "sha256": "01eee07b5770c31080523f8c1baf159d29d0d1de13f1b331d9313329d0a6ea18"
+    },
+    {
+      "path": "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261025/history.json",
+      "sha256": "0a93026a7f4d3da8784e4186ea083d10e463f398557309bc0dce6b000ab70899"
+    }
+  ],
+  "stable_errors": {
+    "phone_use": {
+      "fp": [
+        "E004-EX-C163",
+        "SCB-turnhead-016",
+        "V6R2-CA-008-ADD02",
+        "V7-C-081"
+      ],
+      "fn": [
+        "V6-CA-011-R04",
+        "V6R2-CA-001",
+        "V6R2-EX-009",
+        "V7-B-031-R03"
+      ]
+    },
+    "looking_around": {
+      "fp": [
+        "E004-EX-C001",
+        "G08-B02-F00001",
+        "V6R2-EX-009",
+        "V7-OE-S094-A01-R04"
+      ],
+      "fn": [
+        "G19-A01-F00052",
+        "G19-A02-F00056",
+        "V7-C-111"
+      ]
+    }
+  },
+  "checks": {
+    "cached_prediction_membership_labels_masks_groups": true,
+    "stored_artifact_sha": true,
+    "stable_error_cohort_parity": true,
+    "classifier_inference_executed": false,
+    "training_executed": false
+  }
+}

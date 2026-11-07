@@ -1,0 +1,53 @@
+{
+  "parent": {
+    "dataset": "data/processed/pilot-b/pilot-b-20261024-v14",
+    "payload": {
+      "path": "data/processed/pilot-b/pilot-b-20261024-v14/checksums.sha256",
+      "sha256": "51fe689b7161737ddce1b6e2845c887a58e9c91fbcd01bb1dc0768b13f351f5b"
+    },
+    "manifest": {
+      "path": "data/processed/pilot-b/pilot-b-20261024-v14/manifest.jsonl",
+      "sha256": "0b4dc50d002120ac3a87f774fba2a167b2730d89e0d03cbfc68fc49396a10a8b"
+    },
+    "release": {
+      "path": "data/processed/pilot-b/pilot-b-20261024-v14/release.json",
+      "sha256": "83ffdecf5a1804c099dcb5223778e6908db100cdfd3e8cd4723022caef0665c2"
+    },
+    "ledger": {
+      "path": "data/processed/pilot-b/pilot-b-20261024-v14/review-ledger.jsonl",
+      "sha256": "8d24cde3e2f4d21e4ca17e9176dd3abe98d45a3f8e2f0bdd9d6b8bdd4cbe36e1"
+    },
+    "config": {
+      "path": "configs/datasets/pilot-b-20261024-v14.json",
+      "sha256": "e0081259feaae086577b9f125c59e0f8e74f5029c332db3177b9d0c614ef5196"
+    }
+  },
+  "readme": {
+    "path": "artifacts/reports/accepted-frames-crops-20261105/README.md",
+    "sha256": "aab2772cf4463bdf122ee4fc98bbdce5074235f8fa8dd1896d47a8ea8b53d937"
+  },
+  "raw_imports": {
+    "path": "data/raw/owner-crops-20261106/imports.zip",
+    "sha256": "f65be5cdb595ee2c985544951e06a1e7305594d7ee8c0972cfcf113b7403745e"
+  },
+  "raw_frames": {
+    "path": "D:\\dataset-foundry-starter\\exports\\accepted_frames.zip",
+    "sha256": "c836bfb05348ebb814d859c1d260beae5238dc3d94a0c3ee6c5f8a8e74f3d088"
+  },
+  "inventory": {
+    "path": "artifacts/reports/dataset-merge-20261106/inventory.json",
+    "sha256": "4a352451183eb3d26ede0dac14558859e7d1bc30e48186217b0ec48a8765d500"
+  },
+  "visual_review": {
+    "path": "artifacts/reports/dataset-merge-20261106/visual-review.json",
+    "sha256": "faaaaa2c9fe71460310ae83dceeb8a1638074f8a43f9b8b603332d384a6f43d9"
+  },
+  "allocation": {
+    "path": "artifacts/reports/dataset-merge-20261106/allocation.json",
+    "sha256": "6b79f8476d6291d15dcae89c1ada6dff411adce0d217ddf841a5214bfb31bae9"
+  },
+  "lineage": {
+    "path": "artifacts/reports/dataset-merge-20261106/group-lineage.json",
+    "sha256": "9553bbf48c446d4645cd2da32c953bb3c7c51a284cee611b58640a26a8b16c01"
+  }
+}

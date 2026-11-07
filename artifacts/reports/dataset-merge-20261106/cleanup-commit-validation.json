@@ -1,0 +1,64 @@
+{
+  "scope": "owner_requested_cleanup_and_local_commit_20261106",
+  "active_source_changed": false,
+  "pinned_config_dataset_and_worksheet_bytes_changed": false,
+  "pins": {
+    "referenced_sha256_checks": 23,
+    "tooling_sha256_checks": 8,
+    "status": "PASS"
+  },
+  "source_roots_present": 4,
+  "report_json_and_worksheet_syntax": "PASS",
+  "gallery": {
+    "cards": 368,
+    "existing_local_links": 736,
+    "status": "PASS"
+  },
+  "software": {
+    "regression_tests": 73,
+    "regression_tests_status": "PASS",
+    "test_patterns": [
+      "test_pilot_schema.py",
+      "test_pilot_package.py",
+      "test_derived_crop.py",
+      "test_training_no_test_release.py",
+      "test_training_preservation.py",
+      "test_image_similarity.py",
+      "test_check_repo.py",
+      "test_source_review.py",
+      "test_crop_bundle_audit.py"
+    ],
+    "ruff_active_src_tests_scripts": "PASS",
+    "mypy_strict_source_and_checker": "PASS; 92 source files",
+    "git_require_git": "PASS; failures=0",
+    "staged_diff_check": "PASS",
+    "staged_content_parity": "PASS; 45 delivery files; normal Git line-ending conversion permitted only for unpinned text",
+    "staged_pin_checks": 19,
+    "staged_json_and_worksheet_syntax": "PASS",
+    "V15_checkout_filter_autocrlf_true": "PASS; pinned SHA preserved",
+    "report_links": "PASS"
+  },
+  "scratch": {
+    "path": "outputs/_scratch/dataset-merge-20261106",
+    "exists_now": false,
+    "removed_by_this_task": false,
+    "removal_actor": "unknown; absent on initial inspection",
+    "prior_attempt_receipt": "scratch-cleanup-result.json"
+  },
+  "cache_cleanup": {
+    "status": "blocked_by_automatic_approval_review",
+    "reason": "blocked by policy",
+    "manifest": "cleanup-commit-manifest.json",
+    "manifest_sha256": "02d2dd0ed06419ac134d4c7181fbec67b308902b41c8bc49eac82c5633ff9c6e",
+    "planned_directories": 12,
+    "files_retained": 172,
+    "bytes_retained": 49219300,
+    "all_manifest_bytes_still_present": true,
+    "action": "PowerShell Remove-Item -LiteralPath for exact reviewed project cache directories",
+    "retried_with_alternate_method": false
+  },
+  "git_payload": "source/docs/config/metadata only; no media, models, caches, environments or credentials",
+  "training_or_model_inference": false,
+  "push_requested_or_performed": false,
+  "config_checkout_protection": ".gitattributes -text rule for V15; config bytes unchanged"
+}

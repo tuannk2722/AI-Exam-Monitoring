@@ -1,0 +1,14 @@
+schema_version: online-video-web-config-v2
+output_root: outputs/live-video-web
+max_upload_bytes: 536870912
+max_receipt_bytes: 65536
+jpeg_quality: 85
+transport_interval_ms: 250
+default_model: B0
+models:
+  B0:
+    label: B0 · ViT-B/14 · 336 px
+    runtime: configs/runtime/RUNTIME-E009-20261107/B0.yaml
+  B448:
+    label: B448 · ViT-B/14 · 448 px
+    runtime: configs/runtime/RUNTIME-E009-20261107/B448.yaml
