@@ -36,6 +36,7 @@ jobs:
       - run: python -c "import cv2; print(cv2.__version__)"
       - run: python -m mypy src/ai_exam_monitoring scripts/check_repo.py
       # Fixture phần mềm tự sinh; không dùng dataset thật, tải weights hoặc GPU.
+      - run: python -m unittest discover -s tests -p 'test_e009_recovery.py' -q
       - run: python -m unittest discover -s tests -p 'test_training*.py' -q
       - run: python -m unittest discover -s tests -p 'test_runtime.py' -q
       - run: python -m unittest discover -s tests -p 'test_runtime_execution.py' -q

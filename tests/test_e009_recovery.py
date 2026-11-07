@@ -15,22 +15,25 @@ import zlib
 from pathlib import Path
 from unittest.mock import Mock, patch
 
-import torch
-
-from ai_exam_monitoring.common.errors import DataContractError
-from ai_exam_monitoring.common.provenance import sha256_file
-from ai_exam_monitoring.training.artifacts import write_json
 from ai_exam_monitoring.training.colab_launcher import launch
 
-SPEC = importlib.util.spec_from_file_location(
-    "e009_recovery", Path(__file__).parents[1] / "src/e009_recovery.py"
-)
-assert SPEC is not None and SPEC.loader is not None
-recovery = importlib.util.module_from_spec(SPEC)
-SPEC.loader.exec_module(recovery)
+ML_AVAILABLE = all(importlib.util.find_spec(n) for n in ("torch", "torchvision"))
+if ML_AVAILABLE:
+    import torch
+
+    from ai_exam_monitoring.common.errors import DataContractError
+    from ai_exam_monitoring.common.provenance import sha256_file
+    from ai_exam_monitoring.training.artifacts import write_json
+
+    SPEC = importlib.util.spec_from_file_location(
+        "e009_recovery", Path(__file__).parents[1] / "src/e009_recovery.py"
+    )
+    assert SPEC is not None and SPEC.loader is not None
+    recovery = importlib.util.module_from_spec(SPEC)
+    SPEC.loader.exec_module(recovery)
 
 
-class RecoveryTests(unittest.TestCase):
+class RecoveryNotebookTests(unittest.TestCase):
     def test_worker_stdout_and_stderr_are_forwarded_before_exit_failure(self):
         notebook = json.loads(
             (Path(__file__).parents[1] / "notebooks/E009-V15-Colab.ipynb").read_text(
@@ -62,6 +65,7 @@ class RecoveryTests(unittest.TestCase):
             self.assertIn("child-out", output)
             self.assertIn("child-error", output)
 
+    @unittest.skipUnless(ML_AVAILABLE, "Install classifier dependencies")
     def test_notebook_adapter_runs_original_bootstrap_and_preserves_subprocess_constants(self):
         notebook = json.loads(
             (Path(__file__).parents[1] / "notebooks/E009-V15-Colab.ipynb").read_text(
@@ -153,6 +157,7 @@ class RecoveryTests(unittest.TestCase):
             self.assertEqual(journal["started_at"], first)
             self.assertEqual(runner.call_args.args[0][1], str(Path("/extension.py")))
 
+    @unittest.skipUnless(ML_AVAILABLE, "Install classifier dependencies")
     def test_research_preparer_binding_changes_cap_without_mutating_package_globals(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
@@ -247,6 +252,9 @@ class RecoveryTests(unittest.TestCase):
                 ["python", "-m", "ai_exam_monitoring.training.representation_campaign"]
             )
 
+
+@unittest.skipUnless(ML_AVAILABLE, "Install classifier dependencies")
+class RecoveryTests(unittest.TestCase):
     def test_cap_override_preserves_other_limits(self):
         old = {
             "total_minutes": 720,
