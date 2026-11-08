@@ -1,0 +1,14 @@
+schema_version: online-video-web-gpu-config-v1
+output_root: outputs/laptop-video-sessions
+max_upload_bytes: 536870912
+max_receipt_bytes: 65536
+jpeg_quality: 85
+transport_interval_ms: 250
+default_model: B0
+models:
+  B0:
+    label: B0 / ViT-B14 / 336 px / CUDA
+    runtime: configs/runtime/RUNTIME-E009-20261107/B0.yaml
+execution:
+  path: configs/web/LAPTOP-VIDEO-20261108/execution.json
+  sha256: 8f56f4f449fff8209c6e8f70a08a4502426229a26af928f258eb2e166f110674

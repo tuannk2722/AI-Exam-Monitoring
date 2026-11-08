@@ -111,6 +111,33 @@ class RepositoryCheckTests(unittest.TestCase):
         self.assertIn("not in Git index: docs/system.md", output)
         self.assertIn("not in Git index: src/new_module.py", output)
 
+    def test_web_delivery_requires_original_metadata_in_git_index(self) -> None:
+        self.init_git()
+        config = "configs/web/LAPTOP-VIDEO-20261108"
+        execution = {}
+        for key, name in {
+            "decision_ref": f"{config}/README.md",
+            "parity": "outputs/verify-b0-01/parity/parity.json",
+            "profile": "outputs/verify-b0-01/B1/profile.json",
+            "profile_code": "outputs/verify-b0-01/B1/code.json",
+        }.items():
+            self.write(name, "original metadata")
+            execution[key] = dict(path=name,
+                                  sha256=hashlib.sha256(b"original metadata").hexdigest())
+        self.write(f"{config}/execution.json", json.dumps(execution))
+        self.write(f"{config}/inputs.json", "{}")
+        self.write("RUN.ps1", "# synthetic launcher")
+        self.assertEqual(self.check()[0], 0)
+        self.assertEqual(self.check(strict=True)[0], 1)
+        self.git("add", ".")
+        self.assertEqual(self.check(strict=True)[0], 0)
+        parity = execution["parity"]["path"]
+        self.write(parity, "changed metadata")
+        self.assertIn("web metadata bytes differ", self.check()[1])
+        self.git("add", "--", parity)
+        self.write(parity, "original metadata")
+        self.assertIn("Git index web metadata bytes differ", self.check(strict=True)[1])
+
     def test_future_registered_archive_is_allowed_but_payload_is_not(self) -> None:
         self.registry("history-20261101")
         (self.root / "archive/history-20261010.zip.dvc").unlink()

@@ -60,8 +60,10 @@ def load_profile(path: Path, workspace: Path) -> tuple[dict[str, Any], RuntimeCo
             or not approval.get("decision_ref")):
         raise ConfigurationError("Execution profile approval/config mismatch")
     runtime = load_runtime_config(FilePin(**raw["runtime"]).verify(workspace), workspace)
-    if runtime.raw.get("schema_version") != "recorded-runtime-config-v4":
-        raise ConfigurationError("Profiling requires the selected V8S runtime parent")
+    if runtime.raw.get("schema_version") not in {
+        "recorded-runtime-config-v4", "recorded-runtime-config-v5",
+    }:
+        raise ConfigurationError("Profiling requires an approved V8S/E009 runtime parent")
     return raw, runtime, settings
 
 

@@ -15,12 +15,14 @@ from ai_exam_monitoring.common.config import load_yaml
 from ai_exam_monitoring.common.provenance import sha256_file
 from ai_exam_monitoring.inference.online_video import OnlineVideoRunner, create_online_video
 from ai_exam_monitoring.inference.runtime_config import (
+    RuntimeConfig,
     load_runtime_config,
     media_deadline,
     verify_media,
     verify_media_receipt,
 )
 from ai_exam_monitoring.inference.video import RecordedVideo
+from ai_exam_monitoring.training.adaptation_config import FilePin
 from ai_exam_monitoring.training.artifacts import (
     code_identity,
     environment,
@@ -35,25 +37,32 @@ TERMINAL = {"completed", "stopped", "failed"}
 SESSION_FILES = {"source.mp4", "source.part", "receipt.json", "session.json",
                  "runtime-config.json", "web-config.json", "code-provenance.json",
                  "environment.json", "checksums.json"}
+SESSION_FILES.add("execution-profile.json")
 
 
 class Monitor:
     def __init__(self, root: Path, config_path: Path):
         self.root = root.resolve()
         self.config = load_yaml(config_path)
-        self.multi_model = self.config.get("schema_version") == "online-video-web-config-v2"
+        self.gpu = self.config.get("schema_version") == "online-video-web-gpu-config-v1"
+        self.multi_model = (self.gpu or self.config.get("schema_version")
+                            == "online-video-web-config-v2")
         expected = {"schema_version", "runtime", "output_root", "max_upload_bytes",
                     "max_receipt_bytes", "jpeg_quality", "transport_interval_ms"}
         if self.multi_model:
             expected.remove("runtime")
             expected.update({"default_model", "models"})
+        if self.gpu:
+            expected.add("execution")
         if (set(self.config) != expected
                 or self.config["schema_version"] not in
-                {"online-video-web-config-v1", "online-video-web-config-v2"}):
+                {"online-video-web-config-v1", "online-video-web-config-v2",
+                 "online-video-web-gpu-config-v1"}):
             raise ValueError("Cấu hình giám sát không hợp lệ")
         if self.multi_model:
             models = self.config["models"]
-            if (not isinstance(models, dict) or set(models) != {"B0", "B448"}
+            if (not isinstance(models, dict)
+                    or set(models) != ({"B0"} if self.gpu else {"B0", "B448"})
                     or self.config["default_model"] != "B0"
                     or any(not isinstance(v, dict) or set(v) != {"label", "runtime"}
                            or not isinstance(v["label"], str) for v in models.values())):
@@ -124,7 +133,8 @@ class Monitor:
                 continue
             record = json.loads(session.read_text(encoding="utf-8"))
             if record.get("schema_version") not in {"online-video-web-session-v1",
-                                                     "online-video-web-session-v2"}:
+                                                     "online-video-web-session-v2",
+                                                     "online-video-web-gpu-session-v1"}:
                 continue
             self._remove(directory, {"source.part"})
             if record["status"] in ACTIVE:
@@ -185,6 +195,7 @@ class Monitor:
                 }
             verify_media_receipt(receipt, runtime, source_sha256=source_sha)
             media_deadline(receipt)
+            execution = self._execution(runtime)
             identity = "session-" + uuid.uuid4().hex
             directory = self.path(identity)
             directory.mkdir(exist_ok=False)
@@ -192,14 +203,20 @@ class Monitor:
             write_json(directory / "runtime-config.json", runtime.raw)
             write_json(directory / "web-config.json", self.config)
             write_json(directory / "code-provenance.json", code_identity())
-            write_json(directory / "environment.json", environment())
+            env = environment()
+            if execution is not None:
+                env.update(device=execution["device"], batch_size=execution["batch_size"],
+                           precision=execution["precision"])
+                write_json(directory / "execution-profile.json", execution)
+            write_json(directory / "environment.json", env)
             if self.preview is not None:
                 self.preview.close()
             self.preview = PreviewBuffer(identity, quality=self.config["jpeg_quality"])
             self.runner, self.latest, self.captured_ns = None, None, None
             self.last_command = None
             self.record = {
-                "schema_version": ("online-video-web-session-v2" if self.multi_model
+                "schema_version": ("online-video-web-gpu-session-v1" if self.gpu else
+                                   "online-video-web-session-v2" if self.multi_model
                                    else "online-video-web-session-v1"), "id": identity,
                 "status": "uploading", "created_at": now(), "epoch": 0,
                 "command_id": 0, "source_sha256": source_sha, "expected_bytes": size,
@@ -213,8 +230,21 @@ class Monitor:
             if self.multi_model:
                 self.record.update(model_id=selected, model_label=self.models[selected]["label"],
                                    classifier=provenance)
+            if execution is not None:
+                self.record["execution"] = {key: execution[key] for key in
+                                            ("device", "batch_size", "precision", "packages")}
+                self.record["input_pins"]["execution-profile.json"] = sha256_file(
+                    directory / "execution-profile.json")
             self._save()
             return self.state()
+
+    def _execution(self, runtime: RuntimeConfig) -> dict[str, Any] | None:
+        if not self.gpu:
+            return None
+        from ai_exam_monitoring.inference.execution_processor import load_execution_selection
+
+        path = FilePin(**self.config["execution"]).verify(self.root)
+        return load_execution_selection(path, self.root, runtime)[0]
 
     def begin_upload(self, identity: str) -> BinaryIO:
         with self.lock:
@@ -282,9 +312,17 @@ class Monitor:
             runtime = load_runtime_config(runtime_path, self.root)
             if runtime.sha256 != record["runtime_sha256"]:
                 raise ValueError("Cấu hình runtime đã thay đổi")
+            extra: dict[str, Any] = {}
+            if self.gpu:
+                selected = self._execution(runtime)
+                saved = json.loads((directory / "execution-profile.json").read_text("utf-8"))
+                if selected != saved:
+                    raise ValueError("Execution profile đã đổi sau khi tạo phiên")
+                extra["execution_selection"] = directory / "execution-profile.json"
             self.runner = create_online_video(runtime_path, self.root,
                                               directory / "source.mp4",
-                                              directory / "receipt.json", session_id=identity)
+                                              directory / "receipt.json",
+                                              session_id=identity, **extra)
             record.update(status="starting", started_at=now())
             self._save()
             self.runner.start()

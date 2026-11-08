@@ -20,10 +20,11 @@ Hardware tham chiếu lịch sử: local i7-1255U, RAM 8/16 GB, Intel UHD; khôn
 
 ## Adapter và giới hạn integration
 
-`python -m ai_exam_monitoring.web` mở UI loopback với light/dark. Khi có
-config monitor được chọn bởi `monitor_config` trong `configs/web/review.yaml`, `/` là màn hình video online; mặc định [E009 B0/B448](../configs/web/E009-MODELS-20261107/README.md). Config không khai báo field này giữ locator monitor v1 lịch sử;
-`/review` giữ ba màn hình review offline. Cài web extra đã khai báo bằng
-`pip install -e ".[web]"` cùng môi trường runtime CPU hiện có nếu còn thiếu.
+`python -m ai_exam_monitoring.web` mở UI loopback với light/dark, mặc định chọn
+profile laptop B0 GPU. [Hướng dẫn chạy từ repo](../README.md#chạy-web-trên-laptop-gpu)
+dùng `RUN.ps1` và môi trường CUDA đã kiểm. Đường CPU B0/B448 cũ chọn tường minh
+`--config configs/web/review.yaml` trong môi trường CPU phù hợp; config không có
+`monitor_config` giữ locator monitor v1 lịch sử. `/review` giữ ba màn hình offline.
 Catalog đọc runtime/C10/events bằng provenance; worker tái dùng runtime,
 tracker association và event aggregation cho output mới theo [scope web](../configs/web/README.md).
 Review JSON/SQLite riêng không mutate BehaviorEvent hay session acceptance.
@@ -71,20 +72,39 @@ request cũ khác trả conflict. Refresh chỉ reconnect; server restart không
 model lại. `session.json` ở output root mới là metadata vận hành, chưa là artifact
 AI sealed; không ghi observations thành event hoặc review. Quan sát tức thời
 hiển thị riêng, không có nút confirmed cho một frame đơn lẻ. Review legacy tiếp
-tục đọc artifacts offline/SQLite cũ. Camera, GPU, tracking/events online và SQLite
-live vẫn chưa nối. Numeric jitter/gap đã được duyệt riêng ở phần dưới; camera receipt
+tục đọc artifacts offline/SQLite cũ. Camera, tracking/events online và SQLite
+live chưa nối. Numeric jitter/gap đã được duyệt riêng ở phần dưới; camera receipt
 và nghiệm thu hiệu năng còn mở.
 
 GPU/batching có adapter nội bộ và CLI chuẩn bị theo
 [LIVE-COMPUTE-20261028](../configs/runtime/LIVE-COMPUTE-20261028/README.md).
 `inference.hardware_probe` chỉ đọc môi trường, không model/camera/download.
 `execution.py` giữ device/batch tường minh và FP32; `execution_processor.py` tái dùng
-V8S/G0 với package manifest riêng, giữ exact guards của receipt CPU cho caller cũ.
+V8S/G0 v4 hoặc E009 v5 với package manifest riêng, giữ exact guards của receipt CPU cho caller cũ.
 `profiling.py` đo stage với đồng bộ CUDA, cửa sổ percentiles hữu hạn.
 `inference.profile_runtime` yêu cầu profile/config approval mới và receipt nguồn,
 tách warm-up khỏi đo tuần tự, ghi metadata/count/timing, không images/scores.
-Không dùng throughput tool này làm SLA playback/camera. Web chưa tự dùng GPU;
-cần environment máy đích, model parity và profile trước chọn cấu hình thực thi.
+Không dùng throughput tool này làm SLA playback/camera.
+
+[LAPTOP-VIDEO-20261108](../configs/web/LAPTOP-VIDEO-20261108/README.md) chốt đường
+upload/phát video B0 trên RTX 3050: CUDA `cuda:0`, FP32, batch 1, 1 Hz; localhost
+8765. Config GPU riêng pin parity/profile/code và quyết định, không sửa runtime
+CPU đã pin. Factory kiểm lại execution/runtime/receipt ở Start, không CPU fallback;
+session giữ snapshot execution. UI upload/pause/resume/seek/stop và `/review` cũ
+giữ workflow riêng. Không mở camera hoặc ghi observations thành sự kiện online.
+
+`web.bundle restore --workspace . --archive <video-web.zip>` chỉ khôi phục các
+model dependencies còn thiếu trong `inputs.json`, kiểm toàn bộ thành viên cần lấy
+trước khi ghi, từ chối overwrite input khác checksum và không extract source/config.
+Ba JSON parity/profile/code ở `outputs/verify-b0-01` đi theo Git với bytes gốc.
+Model vẫn ngoài Git và không có remote đã xác minh; cần gói bàn giao một lần.
+
+`RUN.ps1` ở root repo và trong gói là cùng một launcher: dùng Python CUDA hiện có,
+restore input nếu cần, kiểm GPU, chỉ cài web-only dependencies đã pin bằng
+`--no-deps`, tạo receipt rồi mở server. `web.bundle build --workspace . --output
+<thư-mục-mới-dưới-outputs>` đóng source/assets/config/model dependencies và launcher
+này; không có bản launcher riêng trong Python. Không chép gói đè repository hoặc
+cài classifier-cpu lên môi trường CUDA; không chạy lại benchmark để mở web.
 
 `live_timing.py` chọn slot theo [LIVE-TIMING-20261028](../configs/tracking/LIVE-TIMING-20261028/README.md),
 giữ timestamp thật và count missing; continuity kiểm các slot thực sự được xử lý

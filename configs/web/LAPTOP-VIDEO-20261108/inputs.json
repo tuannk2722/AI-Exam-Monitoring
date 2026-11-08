@@ -1,0 +1,57 @@
+{
+  "schema_version": "video-web-inputs-v1",
+  "files": {
+    "outputs/E007-V13-Colab-20261024/pretrained/dinov2-source.zip": {
+      "sha256": "04276715cddb29d45d05bff3a6fc132224dc27749b279ac98ad2ce4620e20d48",
+      "bytes": 3001681
+    },
+    "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/best.pt": {
+      "sha256": "cb86da628495996a15135d0d1b400ef410d29383c49f20e6c763c838eb85b500",
+      "bytes": 88722399
+    },
+    "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/bundle.json": {
+      "sha256": "13c1e6d7c14a20a2131b825f387f0ba99057edad2156d7120127ebc47f242955",
+      "bytes": 791
+    },
+    "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/calibration.json": {
+      "sha256": "4d652d900c9ebb51cf975ff9931161147f2a341d75188af3f97b2346e3e1810f",
+      "bytes": 320
+    },
+    "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/resolved-config.json": {
+      "sha256": "87f7b794caeb31a55ffcfdc73c5e3d171198d3f9c5f16ddfcb962a1658a6fcdc",
+      "bytes": 35600
+    },
+    "outputs/E008-V14-Colab-20261024/runs/E008-V14-G0-S20261023/run.json": {
+      "sha256": "2abd62105e2ab912dd64ad430a60c37c11394f6687b8c77de6896e241bc4bf5b",
+      "bytes": 3050
+    },
+    "outputs/E009-V15-Colab-20261106/runs/E009-V15-B0-S20261106/best.pt": {
+      "sha256": "8fe21c79d9316ae078dc2ee2660f357e17fb2d07a50bcbf8aa6d2ad92e697044",
+      "bytes": 347224671
+    },
+    "outputs/E009-V15-Colab-20261106/runs/E009-V15-B0-S20261106/bundle.json": {
+      "sha256": "7b63ad39ee7c91d19e26bf72d1383497c74708bbf0d7bc8a84a55838b0fb3749",
+      "bytes": 784
+    },
+    "outputs/E009-V15-Colab-20261106/runs/E009-V15-B0-S20261106/calibration.json": {
+      "sha256": "33193bb875977ca6c437ff9d37a741c681a1f977eea7b67cca3472d75c79629f",
+      "bytes": 334
+    },
+    "outputs/E009-V15-Colab-20261106/runs/E009-V15-B0-S20261106/resolved-config.json": {
+      "sha256": "0a747347ceaeb8e593eefc8917e468246fa6bc3dbb74244c03fccad9a6b043e1",
+      "bytes": 43658
+    },
+    "outputs/E009-V15-Colab-20261106/runs/E009-V15-B0-S20261106/run.json": {
+      "sha256": "0bd3b24f6f6928ab5da25c68a47809ee25fd4f476320c4adcef69693ab6cf71a",
+      "bytes": 3281
+    },
+    "outputs/runtime-detector-comparison-20261026/run.json": {
+      "sha256": "33ffbe63677652c0f0cfdd7c7aa8b294cb7d43045bf45b61fbcbd6dbcdfbb7a8",
+      "bytes": 14800
+    },
+    "outputs/runtime-detector-comparison-acquisition-20261026/yolov8s.pt": {
+      "sha256": "1f47a78bf100391c2a140b7ac73a1caae18c32779be7d310658112f7ac9aa78a",
+      "bytes": 22588772
+    }
+  }
+}

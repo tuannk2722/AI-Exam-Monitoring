@@ -5,6 +5,7 @@
 | Task | Contract / hướng dẫn | Context cần chọn |
 |---|---|---|
 | Phạm vi, kiến trúc, runtime/integration/UI | [System](system.md) | [Reference](reference.md), [decisions](decisions.md), capability ở status |
+| Upload video và AI trên laptop RTX 3050 | [Cách chạy từ repo](../README.md#chạy-web-trên-laptop-gpu), [quyết định/config](../configs/web/LAPTOP-VIDEO-20261108/README.md) | [Reference](reference.md), `outputs/verify-b0-01`; B0 CUDA FP32 batch 1, web local |
 | Demo camera/video trực tiếp và log review gọn | [Thiết kế live](live-monitoring.md) | [Adapter web](../configs/web/LIVE-VIDEO-WEB-20261028/README.md), [timing đã duyệt](../configs/tracking/LIVE-TIMING-20261028/README.md), [reference](reference.md); camera và persistence log còn mở |
 | Chuẩn bị máy GPU, batching và đo compute runtime | [System](system.md), [thiết kế live](live-monitoring.md) | [LIVE-COMPUTE-20261028](../configs/runtime/LIVE-COMPUTE-20261028/README.md): adapter/CLI, config riêng, protocol và giới hạn trước benchmark |
 | Semantics/schema, annotation/group/split/release | [Data](data.md) | [Reports index](../artifacts/reports/README.md) → nguồn/release/coverage đúng version; reference → công cụ data |

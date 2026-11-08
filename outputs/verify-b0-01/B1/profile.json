@@ -1,0 +1,93 @@
+{
+  "schema_version": "runtime-compute-profile-result-v1",
+  "profile_id": "verify-b0-01-B0-CUDA-B1",
+  "status": "completed",
+  "started_at": "2026-11-07T10:24:10.824316+00:00",
+  "config_sha256": "dc542fa8acfcaf39b3c4a3da9bac78773d33383f1b52b97232d6baeccb07f727",
+  "runtime_sha256": "c298e3bc32d5a0663d15ee5d65225c743c4cfb3e7fc0f938990414d91ec73f60",
+  "source_sha256": "81289dfba28e2886ec863d62a532c67f8fc450444077a15b608e004996f014f9",
+  "media_delete_by": "2026-11-14T00:00:00+00:00",
+  "device": "cuda:0",
+  "batch_size": 1,
+  "precision": "float32",
+  "completed_samples": 10,
+  "warmup_completed": 3,
+  "observations": 182,
+  "model_quality_accepted": false,
+  "online_sla_accepted": false,
+  "startup_ms": 3433.0454,
+  "warmup_ms": 3293.1526,
+  "measured_wall_ms": 12614.3673,
+  "observed_peak_rss_bytes": 2016976896,
+  "cuda_peak_allocated_bytes": 452977152,
+  "cuda_peak_reserved_bytes": 522190848,
+  "input_pins": {
+    "code.json": "305b1605346830f313dd299b5a6022c4b12fe4e2cea1b8044f8f49f42034212b",
+    "config.json": "d9dd74ad42f3545a190280b882485aaca903df5eaeec10db63de9e5e7d74b6b4",
+    "hardware.json": "b03ae5bb557194822310fafdcf63993b633e342391d93d2954c26311383d1d0b",
+    "receipt.json": "b9f45250c1e3df1222e2229a703ef00a0f8cce1ff0c581658c946cad03279b31",
+    "runtime.json": "218a8fd94c3e17053d245ef0c367e1532405359a8f9d9238c3f4296648faaf2e"
+  },
+  "ended_at": "2026-11-07T10:24:31.533586+00:00",
+  "elapsed_ms": 20708.2828,
+  "timing": {
+    "window_capacity": 100,
+    "percentile_method": "nearest_rank",
+    "stages": {
+      "detect": {
+        "completed": 10,
+        "failed": 0,
+        "mean_ms": 28.073830000000005,
+        "max_ms": 33.4665,
+        "window_count": 10,
+        "window_p50_ms": 27.1686,
+        "window_p95_ms": 33.4665
+      },
+      "crop": {
+        "completed": 182,
+        "failed": 0,
+        "mean_ms": 0.08489560439560444,
+        "max_ms": 0.1643,
+        "window_count": 100,
+        "window_p50_ms": 0.0819,
+        "window_p95_ms": 0.1431
+      },
+      "classify": {
+        "completed": 182,
+        "failed": 0,
+        "mean_ms": 49.51664285714284,
+        "max_ms": 56.0281,
+        "window_count": 100,
+        "window_p50_ms": 51.1048,
+        "window_p95_ms": 52.1198
+      },
+      "frame": {
+        "completed": 10,
+        "failed": 0,
+        "mean_ms": 932.3345999999999,
+        "max_ms": 984.9198,
+        "window_count": 10,
+        "window_p50_ms": 930.9261,
+        "window_p95_ms": 984.9198
+      },
+      "decode": {
+        "completed": 300,
+        "failed": 0,
+        "mean_ms": 10.896867666666662,
+        "max_ms": 18.2183,
+        "window_count": 100,
+        "window_p50_ms": 10.7888,
+        "window_p95_ms": 13.3327
+      },
+      "encode": {
+        "completed": 0,
+        "failed": 0,
+        "mean_ms": null,
+        "max_ms": null,
+        "window_count": 0,
+        "window_p50_ms": null,
+        "window_p95_ms": null
+      }
+    }
+  }
+}
