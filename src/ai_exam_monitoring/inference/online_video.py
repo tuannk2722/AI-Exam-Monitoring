@@ -342,7 +342,7 @@ class OnlineVideoRunner:
 
 def create_online_video(
     config_path: Path, workspace: Path, source: Path, media_approval: Path,
-    *, session_id: str,
+    *, session_id: str, execution_selection: Path | None = None,
 ) -> OnlineVideoRunner:
     """Guarded production factory; no camera access, model fallback or artifact writes.
 
@@ -353,6 +353,11 @@ def create_online_video(
     if not source.is_file() or source.suffix.lower() != ".mp4":
         raise DataContractError("Require an existing local MP4")
     config = load_runtime_config(config_path, workspace)
+    execution = None
+    if execution_selection is not None:
+        from .execution_processor import load_execution_selection
+
+        execution = load_execution_selection(execution_selection, workspace, config)[0]
     rights = verify_media(source, media_approval, config)
     media_deadline(rights)
     hz = config.raw.get("sampling_hz")
@@ -377,6 +382,13 @@ def create_online_video(
         current_rights = verify_media(source, media_approval, current)
         if current_rights != rights:
             raise DataContractError("Media receipt changed before playback")
+        if execution_selection is not None:
+            from .execution_processor import create_execution_processor, load_execution_selection
+
+            selected, settings = load_execution_selection(execution_selection, workspace, current)
+            if selected != execution:
+                raise DataContractError("Execution selection changed before playback")
+            return create_execution_processor(current, settings, selected["packages"])
         classifier = BundleClassifier(current)
         return FrameProcessor(PersonDetector(current), classifier, current.raw["crop"])
 

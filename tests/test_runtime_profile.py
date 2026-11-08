@@ -168,6 +168,21 @@ class ProfileTests(unittest.TestCase):
             with self.assertRaises(ConfigurationError):
                 load_profile(self.config, self.root)
 
+    def test_e009_profile_keeps_exact_parent_and_rejects_other_runtime_versions(self):
+        for schema in ("recorded-runtime-config-v5", "recorded-runtime-config-v3"):
+            runtime = RuntimeConfig({**self.runtime.raw, "schema_version": schema}, self.root)
+            with self.subTest(schema=schema), patch(
+                "ai_exam_monitoring.inference.profile_runtime.load_runtime_config",
+                return_value=runtime,
+            ):
+                if schema.endswith("v5"):
+                    _, selected, settings = load_profile(self.config, self.root)
+                    self.assertIs(selected, runtime)
+                    self.assertEqual(settings, ExecutionSettings("cpu", 4))
+                else:
+                    with self.assertRaises(ConfigurationError):
+                        load_profile(self.config, self.root)
+
     def test_path_guard_and_existing_output_not_overwritten(self):
         self.output = self.root / "outside"
         with self.assertRaises(DataContractError):

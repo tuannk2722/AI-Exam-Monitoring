@@ -1,6 +1,6 @@
 # WEB-REVIEW-20261027 — Phạm vi UI local
 
-Màn hình giám sát `/` hiện dùng [B0 mặc định/B448 tùy chọn](E009-MODELS-20261107/README.md) theo quyết định owner ngày 07/11/2026. Phạm vi bên dưới giữ pipeline review offline lịch sử tại `/review`.
+CLI web mặc định mở profile laptop B0 GPU theo [hướng dẫn chạy từ repo](../../README.md#chạy-web-trên-laptop-gpu). Profile CPU [B0/B448](E009-MODELS-20261107/README.md) chọn tường minh bằng `--config configs/web/review.yaml`. Phạm vi bên dưới giữ pipeline review offline lịch sử tại `/review`.
 
 Owner yêu cầu triển khai UI end-to-end ngày 27/10/2026 theo bản phác thảo
 `AI-Exam-Monitoring-Web-Review-UI-Plan.md`, bổ sung light/dark và ưu tiên workflow AI.

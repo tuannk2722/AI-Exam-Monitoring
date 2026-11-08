@@ -109,6 +109,31 @@ def archive_registry(root: Path) -> set[str]:
     return pointers
 
 
+def web_delivery(root: Path, *, require_git: bool) -> set[str]:
+    """Verify the small measured inputs needed by the optional laptop deployment."""
+    execution = "configs/web/LAPTOP-VIDEO-20261108/execution.json"
+    if not (root / execution).is_file():
+        return set()
+    required = {execution, "RUN.ps1", "configs/web/LAPTOP-VIDEO-20261108/inputs.json"}
+    raw = json.loads((root / execution).read_text(encoding="utf-8"))
+    for key in ("decision_ref", "parity", "profile", "profile_code"):
+        pin = raw[key]
+        relative = pin["path"]
+        path = (root / relative).resolve()
+        if (not path.is_relative_to(root.resolve())
+                or (path.suffix != ".json" and key != "decision_ref")):
+            raise ValueError("invalid web metadata path")
+        if hashlib.sha256(path.read_bytes()).hexdigest() != pin["sha256"]:
+            raise ValueError(f"web metadata bytes differ: {relative}")
+        if require_git and (root / ".git").exists():
+            result = subprocess.run(["git", "-C", str(root), "show", f":{relative}"],
+                                    check=True, capture_output=True)
+            if hashlib.sha256(result.stdout).hexdigest() != pin["sha256"]:
+                raise ValueError(f"Git index web metadata bytes differ: {relative}")
+        required.add(relative)
+    return required
+
+
 def main(root: Path | None = None, *, require_git: bool = False) -> int:
     root = root or Path(__file__).resolve().parents[1]
     failures: list[str] = []
@@ -118,6 +143,10 @@ def main(root: Path | None = None, *, require_git: bool = False) -> int:
         pointers = set()
         failures.append(f"invalid archive registry/pointer: {error}")
     required = REQUIRED | pointers
+    try:
+        required |= web_delivery(root, require_git=require_git)
+    except (OSError, ValueError, KeyError, TypeError, subprocess.CalledProcessError) as error:
+        failures.append(f"invalid web delivery metadata: {error}")
     approval_path = "artifacts/reports/pilot-b-v5-release-20261007/owner-approval.json"
     try:
         approval = json.loads((root / approval_path).read_text(encoding="utf-8"))

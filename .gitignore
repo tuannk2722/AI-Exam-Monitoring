@@ -39,6 +39,14 @@ htmlcov/
 /runs/
 /outputs/*
 !/outputs/*.dvc
+# Exact metadata required by the measured B0 execution profile; no model/media.
+!/outputs/verify-b0-01/
+/outputs/verify-b0-01/**
+!/outputs/verify-b0-01/parity/
+!/outputs/verify-b0-01/parity/parity.json
+!/outputs/verify-b0-01/B1/
+!/outputs/verify-b0-01/B1/profile.json
+!/outputs/verify-b0-01/B1/code.json
 /artifacts/models/
 /artifacts/predictions/
 /artifacts/evidence/

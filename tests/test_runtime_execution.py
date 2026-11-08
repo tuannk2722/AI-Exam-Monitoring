@@ -253,3 +253,27 @@ class ExecutionTests(unittest.TestCase):
                 with self.assertRaises(DataContractError):
                     create_execution_processor(runtime, ExecutionSettings("cpu", 4), {})
                 load.assert_not_called()
+
+    def test_e009_factory_uses_same_execution_and_package_guards(self):
+        settings = ExecutionSettings("cpu", 4)
+        with tempfile.TemporaryDirectory() as folder:
+            receipt = Path(folder) / "receipt.json"
+            receipt.write_text(json.dumps({"packages": {"torch": "2.8.0+cpu"}}))
+            runtime = SimpleNamespace(
+                raw={"schema_version": "recorded-runtime-config-v5",
+                     "crop": dict(left=0, right=0, top=0, bottom=0)}, pin=lambda _: receipt)
+            with patch("ai_exam_monitoring.inference.execution_processor.verify_execution_packages"
+                       ) as verify, patch(
+                "ai_exam_monitoring.inference.execution_processor.BundleClassifier",
+                return_value=FixtureClassifier(),
+            ) as classifier, patch(
+                "ai_exam_monitoring.inference.execution_processor.PersonDetector",
+                return_value=FixtureDetector(),
+            ) as detector:
+                processor = create_execution_processor(runtime, settings, {"exact": "manifest"})
+                verify.assert_called_once_with({"torch": "2.8.0+cpu"},
+                                               {"exact": "manifest"}, settings)
+                classifier.assert_called_once_with(runtime, execution=settings)
+                detector.assert_called_once_with(runtime, execution=settings,
+                                                 packages={"exact": "manifest"})
+                self.assertEqual(processor.batch_size, 4)

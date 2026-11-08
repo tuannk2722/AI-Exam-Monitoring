@@ -1,6 +1,6 @@
 # Trạng thái dự án
 
-Đối chiếu code và hồ sơ bàn giao đến **2026-11-07**. Chỉ giữ trạng thái hiện hành, thay nội dung khi tiến độ đổi; không append nhật ký/metrics/mọi task. Không là approval. [Index](00-INDEX.md) định tuyến contracts; [reports](../artifacts/reports/README.md) giữ lịch sử/evidence.
+Đối chiếu code và hồ sơ bàn giao đến **2026-11-08**. Chỉ giữ trạng thái hiện hành, thay nội dung khi tiến độ đổi; không append nhật ký/metrics/mọi task. Không là approval. [Index](00-INDEX.md) định tuyến contracts; [reports](../artifacts/reports/README.md) giữ lịch sử/evidence.
 
 ## Capability
 
@@ -23,34 +23,25 @@ chỉ là development; E009 đã khởi tạo mới từ pretrained theo recipe/
 Owner đã approve [E009](../configs/experiments/E009-V15-20261106/README.md), trần 12 giờ GPU
 private Colab/Drive; campaign đã hoàn tất 6 smoke + 25 research sau recovery 45 phút/run, giữ đồng hồ gốc. [Audit E009 ngày 07/11](../artifacts/reports/e009-v15-colab-20261106/results-20261107.md) xác nhận B0 đứng đầu, nhưng có finding score sát ngưỡng và hạn chế looking trên cohort old-train chuyển sang val. [Checkpoint audit](../artifacts/reports/e009-v15-colab-20261106/checkpoints-20261107.md) đã nhận đủ best/last ba run đại diện và kiểm integrity/cấu trúc local. Owner đã đóng khung E009, chuyển sang hoàn thiện demo rồi nghiên cứu hành vi mới sau; không train thêm hoặc mở test. [Quyết định model web](../configs/runtime/RUNTIME-E009-20261107/README.md) cho chọn B0 hoặc B448 chạy cả hai nhãn, B0 mặc định. Đây là lựa chọn prototype, không sửa nghiệm thu nghiên cứu độc lập; V14/G0 và sessions lịch sử giữ nguyên.
 
-Owner chuyển đích demo sang **camera trực tiếp (có thể từ điện thoại) và video
-upload đang phát có detection**, bbox trên hình + log review gọn. Thiết kế/bộ khung
-theo [LIVE-DEMO-FOUNDATION-20261027](live-monitoring.md) đã được owner review và
-approve ngày 28/10/2026; [approval](live-monitoring.md#approval-của-owner--28102026).
-Owner tiếp tục yêu cầu refactor runtime và triển khai luồng video online.
-Baseline Web Review đã commit `996c52c`; branch mới `feat/live-monitoring-demo`.
-Đã refactor processor từng frame dùng chung và có runner video online nội bộ:
-decode một lượt theo media clock, bounded pending/result, pause/seek/stop/EOF,
-epoch reset và loại kết quả muộn; kiểm bằng fixtures và MP4 synthetic. Factory
-giữ guards config/pins/receipt/deadline, CPU V8S với classifier được chọn. Đã nối upload/UI/transport
-theo [LIVE-VIDEO-WEB-20261028 được owner duyệt](../configs/web/LIVE-VIDEO-WEB-20261028/README.md):
-màn hình giám sát light/dark tại `/`, MJPEG/SSE, điều khiển nguồn server và metadata
-phiên riêng; [selector E009](../configs/web/E009-MODELS-20261107/README.md) khóa model theo phiên và lưu checkpoint/calibration/preprocessing provenance, B0 mặc định/B448 tùy chọn. `/review` giữ review offline G0/C10/events. Chỉ observations tức thời, chưa temporal
-log/review mới hoặc tracking/events online; chưa chạy model thật để đo online.
-Owner đã review/chốt giao diện và logic slice web/video; baseline commit `2c9d8fa`.
-Có adapter device/batch FP32, timings hữu hạn và CLI probe/profile độc lập theo
-[LIVE-COMPUTE-20261028](../configs/runtime/LIVE-COMPUTE-20261028/README.md).
-Web vẫn CPU; chưa có model parity trên CUDA hoặc config GPU được chọn. Owner chốt
-tải demo dưới 15 người, 5–10 phút; mốc kiểm tải 14 người / 10 phút chưa là SLA.
-Owner xác nhận dùng iPhone và laptop mượn đáp ứng trên mức sàn của project, ưu tiên
-thiết kế ổn định; chưa có environment đo thực tế để chốt GPU config/SLA. Hướng
-USB/Camo nếu máy Windows giữ nguyên, camera backend chưa kiểm. Transport và log revision đã được
-duyệt; [numeric timing](../configs/tracking/LIVE-TIMING-20261028/README.md) tiếp tục
-được owner duyệt cho implementation/fixtures. Có primitives chọn slot, reset continuity
-và candidate tăng dần, chưa nối tracker thật hoặc lưu evidence/review online.
-Receipt camera và persistence live cụ thể còn mở. Chưa có camera runtime
-hoặc nghiệm thu hiệu năng/chất lượng live trên media thật. API và giới hạn runner
-ở [reference](reference.md).
+Owner yêu cầu chốt setup/config để upload video lên web và AI phân tích trên máy
+mượn. Giữ giao diện video/bbox và điều khiển phiên hiện có; không mở việc camera,
+log/review live hoặc hành vi mới trong phạm vi hiện hành.
+Phạm vi hiện hành là **upload MP4 và AI phân tích trên laptop mượn**, theo
+[LAPTOP-VIDEO-20261108](../configs/web/LAPTOP-VIDEO-20261108/README.md).
+Đã chốt B0, CUDA `cuda:0`, FP32, batch 1, 1 Hz trên RTX 3050 4 GB / RAM 16 GB,
+Python 3.11.9 và Torch 2.8.0+cu128. Parity/profile gốc ở `outputs/verify-b0-01`:
+không đổi flags CPU/CUDA trên mẫu kiểm, ba batch đều completed; batch 1 nhanh nhất.
+Web GPU dùng config riêng, giữ guards/pins và snapshot execution/model theo phiên;
+UI upload/phát/pause/seek/stop, MJPEG/SSE và `/review` offline hiện có được giữ.
+Repo có `RUN.ps1`, CLI mặc định chọn profile laptop GPU; profile CPU chọn tường minh.
+Ba JSON kiểm chứng đi theo Git ở đường dẫn gốc, model vẫn ngoài Git. Launcher có thể
+khôi phục đúng input còn thiếu từ `video-web.zip` theo manifest, không ghi đè
+source/config hoặc input khác checksum, không cài lại Torch. Xem cách chạy ở
+[README](../README.md#chạy-web-trên-laptop-gpu). Cần chạy trên laptop để xác nhận upload/phát bằng GPU thật;
+software tests trên máy development CPU không thay nghiệm thu đó.
+Không camera, tracking/events/review live, endurance hoặc hành vi mới trong task này.
+Model/dataset/thresholds và approvals runtime đã pin giữ nguyên. Hướng dẫn ở
+[setup](../configs/web/LAPTOP-VIDEO-20261108/README.md) và [reference](reference.md).
 
 Owner đã chốt C10 prototype, miễn audit toàn clip và [chấp nhận kết quả events](../artifacts/reports/events-prototype-20261027/acceptance-20261027.md). Web Review local đã có sảnh phiên, bàn duyệt light/dark, SQLite review riêng, tổng kết và nhập/xuất. Owner duyệt áp dụng nguyên pipeline cho video mới có receipt riêng theo [scope web](../configs/web/README.md). Giữ giới hạn fragmentation/duplicate/classifier, không biến batch acceptance thành confirmed từng event hoặc metrics độc lập. Risk chưa mở; chưa nghiệm thu chất lượng end-to-end trên clip mới.
 

@@ -1,18 +1,20 @@
-# CI-E009-RECOVERY — Sửa discovery khi không có Torch
+# LAPTOP-VIDEO-20261108 — Hoàn tất bàn giao baseline web GPU từ repository
 
-- Trạng thái: đã sửa và kiểm local PASS; bàn giao bằng commit/push theo yêu cầu owner.
+- Trạng thái: hoàn thành phần source/setup/bàn giao; chờ owner cấp quyền commit/merge. Chưa stage, commit, push hoặc merge. Xác nhận web GPU trên laptop thật vẫn là kiểm chứng riêng.
 
 ## Yêu cầu và hiện trạng
-Đã đọc AGENTS/index/status và đối chiếu source/workflow. Job quality chạy unittest với base/dev, không cài Torch. Test recovery import Torch, artifacts và recovery extension vô điều kiện, gây lỗi discovery. Worktree sạch trước task.
+Đã đọc AGENTS/index/status và đối chiếu nhánh feat/gpu-laptop-test tại c06c83a. Mục tiêu: bàn giao baseline upload MP4/B0 CUDA FP32 batch 1, sampling 1 Hz từ repo, có đủ metadata Git và đường khôi phục model, chọn đúng profile khi mở web và mô tả khớp capability thực tế.
 
 ## Quyết định và inputs
-Theo convention tests ML hiện có: guard imports và skip tests cần ML khi thiếu Torch/torchvision. Giữ tests notebook thuần standard library chạy trong quality. Không cài ML cho quality hoặc sửa recovery/notebook/config/checkpoint đã pin. User yêu cầu commit và push; không force push.
+User cho xử lý dứt điểm các điểm review để chuẩn bị merge. Giữ nguyên runtime E009, model, calibration, thresholds và các pins đã duyệt. Ba JSON parity/profile/code ở outputs/verify-b0-01 giữ nguyên bytes/path. Model vẫn ngoài Git; tái dùng video-web.zip hiện có, chỉ khôi phục đúng dependencies đã kiểm checksum, không chép source/config đè repo. CLI mặc định chọn profile laptop GPU, CPU chọn config tường minh. Không camera, tracking/events online hoặc thay kiến trúc AI. Giữ integrity guard numerical source; không suy profile B0 thành quyền chạy model E mới.
 
 ## Outputs và vòng đời
-TASK, test recovery và workflow classifier để tests ML không bị bỏ sót sau khi quality skip. Kiểm thiếu Torch bằng subprocess cô lập imports, không tạo env mới/tải weights hoặc data. Không thêm report/spec/status cho bug discovery.
+Source/tooling và hướng dẫn chạy từ repo; manifest input triển khai không chứa media/env/credentials. Metadata kiểm chứng được đưa vào phạm vi Git bằng ngoại lệ chính xác. Một launcher dùng chung repo/gói ZIP; giữ nguyên hồ sơ config/receipt đã pin. Scratch kiểm restore/checkout/package ở thư mục tạm và dọn sau kiểm. Không tạo report hoặc log cleanup mới.
 
 ## Contract impact và checks
-Không đổi contract. Kiểm recovery có Torch, full unittest discovery khi chặn Torch, Ruff/diff/checker index; inspect staged diff trước commit và push branch hiện tại.
+Không đổi contract AI, session hoặc scientific acceptance; không sửa spec. Kiểm restore thiếu input/sai checksum/không overwrite/sai path, CLI mặc định và override CPU, launcher, source hash guards, Git delivery metadata và dependency closure. Lint/type, tests consumers và browser; full suite trước bàn giao. Kiểm checkout tạm với Git index riêng, không stage index workspace. Máy development CPU không thay xác nhận web GPU trên laptop thật.
 
 ## Checkpoint và bàn giao
-Đã guard ML imports, giữ hai tests thuần standard library chạy khi thiếu Torch, skip bảy tests cần ML; thêm recovery suite vào job classifier-tests. Discovery mô phỏng không có Torch: 406 tests OK, skipped 234; có Torch: 9 recovery tests PASS. Ruff và diff check PASS. Không đổi source recovery/notebook/model/pins; chỉ ba file TASK/test/workflow. Kiểm index/staged diff trước commit, push branch hiện tại; kết quả CI remote phải đọc từ lượt chạy mới, không suy từ local PASS.
+`RUN.ps1` là launcher duy nhất dùng chung repo/ZIP, CLI mặc định profile GPU; CPU chọn config tường minh. `inputs.json` định danh 13 dependencies ngoài Git; restore từ gói cũ chỉ lấy input còn thiếu, từ chối sai hash/overwrite và không chép source/config. Ba JSON kiểm chứng được allowlist chính xác, giữ bytes bằng attributes; checker kiểm cả bytes Git index. Hướng dẫn hiện hành ở README root; hồ sơ config đã pin giữ nguyên.
+
+426 tests OK/skipped 2; browser monitor PASS; Ruff, strict Mypy 97 source files, syntax 163 files, checker và diff PASS. Bản sao sạch gồm 1.631 file bàn giao với index riêng đã qua `--require-git`, restore đủ 13 inputs từ ZIP cũ, kiểm runtime/execution pins, imports và web assets/API; source/metadata không đổi và index thật giữ nguyên. Gói duy nhất `outputs/laptop-video/video-web.zip` đã cập nhật, kiểm SHA mọi thành viên và launcher; manifest giữ checksum. Scratch checkout/restore/package/type đã dọn. Giữ numerical source guards, không thay model/ngưỡng hoặc tuyên bố nghiệm thu web GPU từ kiểm phần mềm CPU. Bước tiếp chỉ là owner review/cấp quyền commit/merge; không tự mở camera/tracking hoặc nghiên cứu AI mới.
