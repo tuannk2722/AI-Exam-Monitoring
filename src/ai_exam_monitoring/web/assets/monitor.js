@@ -1,7 +1,7 @@
 "use strict";
 const $ = (id) => document.getElementById(id);
 const states = { uploading: "Đang nhận video", ready: "Video sẵn sàng", starting: "Đang khởi tạo AI", running: "Đang phát & phân tích", paused: "Đã tạm dừng", stopping: "Đang dừng, chờ AI giải phóng", stopped: "Phiên đã dừng", completed: "Video đã kết thúc", failed: "Không hoàn tất phiên" };
-const labels = { phone_use: "Dùng điện thoại", looking_around: "Nhìn quanh" };
+const labels = { phone_use: "Dùng điện thoại", looking_around: "Nhìn quanh", sleeping: "Gục/ngủ biểu kiến", hand_raising: "Giơ tay", standing_up: "Đang đứng" };
 let snapshot = { session: null }, events = null, eventSession = null, imageKey = null;
 let pending = false, dragging = false, receivedAt = performance.now(), ageAtReceive = null;
 let expiryChecked = null;
@@ -74,8 +74,10 @@ function render(value) {
     for (const [index, observation] of (value.observations?.observations || []).entries()) {
       const row = document.createElement("div"); row.className = "observation";
       const title = document.createElement("strong"); title.textContent = `Vị trí ${index + 1} trong ảnh`; row.append(title);
-      const found = Object.keys(labels).filter((_, i) => observation.above_threshold[i]);
-      const text = document.createElement("span"); text.textContent = found.length ? found.map((key) => labels[key]).join(" · ") : "Chưa có nhãn hành vi vượt ngưỡng";
+      const order = session?.classifier?.target_order || ["phone_use", "looking_around"];
+      const valid = Array.isArray(order) && order.length === observation.above_threshold.length && order.every((key) => Object.hasOwn(labels, key));
+      const found = valid ? order.filter((_, i) => observation.above_threshold[i]) : [];
+      const text = document.createElement("span"); text.textContent = !valid ? "Kết quả không khớp metadata nhãn" : found.length ? found.map((key) => labels[key]).join(" · ") : "Chưa có nhãn hành vi vượt ngưỡng";
       row.append(text); $("observations").append(row);
     }
     if (!$("observations").children.length) $("observations").textContent = value.observations ? "Không có detection trong mẫu này." : "Chưa có kết quả.";

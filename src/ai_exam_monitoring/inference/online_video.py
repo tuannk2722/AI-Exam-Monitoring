@@ -18,9 +18,10 @@ from PIL import Image, ImageDraw
 
 from ai_exam_monitoring.common.errors import DataContractError
 from ai_exam_monitoring.common.provenance import sha256_file
+from ai_exam_monitoring.data.pilot_schema import TARGET_ORDER
 
 from .frame_processor import FrameProcessor
-from .runtime_config import TARGETS, load_runtime_config, media_deadline, verify_media
+from .runtime_config import load_runtime_config, media_deadline, verify_media
 from .streaming import BufferStats, FrameStamp, LatestFrameBuffer, StreamFrame
 from .video import FrameSampler, RecordedVideo, VideoFrame, validate_time
 
@@ -37,13 +38,15 @@ class OnlineResult:
     image: Image.Image
     observations: dict[str, Any]
     finished_ns: int
+    target_order: tuple[str, ...] = TARGET_ORDER
 
     def annotated(self) -> Image.Image:
         """Render only on the image owned by this result, never a newer preview."""
         image = self.image.copy()
         draw = ImageDraw.Draw(image)
         for obs in self.observations["observations"]:
-            labels = [name for name, above in zip(TARGETS, obs["above_threshold"], strict=True)
+            labels = [name for name, above in zip(self.target_order, obs["above_threshold"],
+                                                  strict=True)
                       if above]
             box = obs["person_box"]
             draw.rectangle(box, outline="orange" if labels else "lime", width=2)
@@ -315,7 +318,8 @@ class OnlineVideoRunner:
                 row = processor.process(VideoFrame(stamp.sequence, stamp.source_time_ms,
                                                    frame.payload))
                 self._guard()
-                result = OnlineResult(stamp, frame.payload, row, time.perf_counter_ns())
+                result = OnlineResult(stamp, frame.payload, row, time.perf_counter_ns(),
+                                      tuple(getattr(processor, "target_order", TARGET_ORDER)))
                 with self._condition:
                     self._processed += 1
                     if self._halt or stamp.epoch != self._epoch:

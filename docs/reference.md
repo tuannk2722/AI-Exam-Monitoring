@@ -1,6 +1,6 @@
 # Reference implementation và công cụ
 
-Đối chiếu code/handoff đến 2026-10-18; cập nhật khi API, module hoặc giới hạn thực tế thay đổi, không thêm lịch sử task. Contract có thẩm quyền ở [system](system.md), [data](data.md), [training](training.md). Có module/schema không chứng minh pipeline đã nghiệm thu; tiến độ ở [status](status.md).
+Đối chiếu code/handoff đến 2026-11-09; cập nhật khi API, module hoặc giới hạn thực tế thay đổi, không thêm lịch sử task. Contract có thẩm quyền ở [system](system.md), [data](data.md), [training](training.md). Có module/schema không chứng minh pipeline đã nghiệm thu; tiến độ ở [status](status.md).
 
 Hardware tham chiếu lịch sử: local i7-1255U, RAM 8/16 GB, Intel UHD; không bảo đảm hiệu năng, không thay environment của run/benchmark cụ thể. Chưa có benchmark chứng minh B tốt hơn A; lựa chọn B là decision kiến trúc, không là kết quả so sánh thực nghiệm.
 
@@ -114,7 +114,7 @@ nội bộ, chưa ghi support images/full history hay SQLite và chưa bật log
 Caller phải reset tracker trước token yêu cầu reset và persist evidence trước khi
 cho review; `initial_support` + latest không thay danh sách bằng chứng đầy đủ.
 
-`Prediction` hiện biểu diễn một label/score/bbox. Adapter classifier B ở `inference/classifier.py`; `runtime.py` xuất contract JSONL riêng có version và giữ target order từ config/calibration, không coi detection class ID là target order. `PilotRecord` là contract dataset riêng, được mô tả đầy đủ trong data spec.
+`Prediction` biểu diễn một label/score/bbox. Adapter B ở `inference/classifier.py`, frame processor và web video dùng target order từ config/bundle/calibration; binding năm nhãn cần cùng `semantics_version=LABEL-CONTRACT-20261109`. Head/output/thresholds phải đủ K, không lấy detection class ID hoặc thứ tự từ dictionary tên hiển thị. `runtime.py` xuất JSONL với metadata nhãn; `PilotRecord` là contract dataset riêng ở data spec. Temporal pipeline giữ hai nhãn và từ chối binding năm nhãn trước chạy model.
 
 Adapter hiện yêu cầu source/checkpoint tồn tại, output mới và FPS dương/hữu hạn trước predict; không tạo timestamp 0 để che metadata thiếu. JSONL mở đầu bằng metadata source/checkpoint SHA và FPS, tiếp theo là predictions. CLI confidence mặc định 0.25 là giá trị của adapter generic, không phải threshold hành vi hoặc risk được owner duyệt. Đường generic này giữ nguyên. CLI `inference.runtime` có session outcome và pipeline riêng theo [runtime config/usage](../configs/runtime/RUNTIME-PROTOTYPE-20261025/README.md); `video.py` kiểm decode/timestamps, `person.py` giữ geometry policy, `runtime_config.py` kiểm approval/pins/rights. Reuse `AdaptationModel` và `letterbox` để reload full G0 bundle trên CPU với identity runtime mới; không gọi hoặc nới evaluator lịch sử.
 
@@ -134,6 +134,8 @@ vẫn là số frame xử lý xong; outcome cuối và `session.json` quyết đ
 <a id="training-code"></a>
 
 ## Trainer/evaluator hiện có
+
+Đường representation V4–V6 dùng `target_order` hai/năm nhãn và encoding tương ứng; `create_e005_initial_head(..., target_order=...)` tạo đúng head, không mở rộng head cũ. Protocol năm nhãn cần `calibration_objectives` theo tên, mỗi target đủ `precision_min`, `recall_min`, `fpr_max`; giữ exact score-boundary/tie-breaking cũ, không kế thừa numerical gates. `group_bootstrap` chỉ tính khi có `samples` và `seed` tường minh. Canonical train/evaluate kiểm đúng target/encoding, masks, approval và reload/resume; reporting gồm từng target/source/slice và FP/FN. Campaign ranking/diagnostics lịch sử vẫn hai nhãn, không tự dùng làm protocol năm nhãn. Chưa tạo experiment hoặc config deployment mới.
 
 `training.diagnostics --config <JSON> --workspace .` phân tích nhiều run từ cached
 predictions train/selection, kiểm pins/membership/masks và confusion parity, lập
@@ -233,8 +235,8 @@ Mỗi release mới cần task có mục tiêu/failure mode và parent version t
 | Audit nguồn | Active `data.audit`, `data.validate_labels`, `data.overlay` | Snapshot đã pin → audit/overlay; kiểm decode, pairing, bbox, taxonomy; không tự repair raw |
 | Fingerprints/triage | Active `image_similarity.difference_hash`, `nearest_by_split` | Image metadata → nearest candidates; kết quả chỉ là cờ review, không auto group |
 | Pinned ZIP inspection | Active `source_review.PinnedYoloZip/fingerprint/diverse_inspection`, `scripts/prepare_source_review.py` | ZIP/config/source-audit/parent manifest pins → inventory/quarantine/inspection boards; source classes chỉ hints, whole-file YOLO reject, scene rank không là independence proof |
-| Pending crop/input review | Active `source_review.write_pending_crop/preview_input`, `scripts/build_source_review_batch.py` | Explicit geometry + exact source/geometry pins → source/native crop/input 224 và proposal null/mask 0; review-only, không tự label/split/accept; pixel parity với training letterbox có test |
-| Nhập nghiệm thu crop | Active `review_acceptance.accept_reviews`, `scripts/import_crop_review.py` | Pending ledger strict + owner decisions/pins → ledger mới đã có nhãn/geometry accepted; vẫn review-only/split null, không suy group/context/role/release approval; không overwrite |
+| Pending crop/input review | Active `source_review.write_pending_crop/preview_input`, `scripts/build_source_review_batch.py` | Explicit geometry + source pins → source/native crop/input theo recipe và proposal null/mask 0 cho hai/năm target; review-only, không tự label/split/accept; pixel parity với training letterbox có test |
+| Nhập nghiệm thu crop | Active `review_acceptance.accept_reviews`, `scripts/import_crop_review.py` | Pending ledger V1/V2/V3 + owner decisions/pins → ledger mới đã có nhãn/geometry accepted; vẫn review-only/split null, không suy group/context/role/release approval; không overwrite |
 | Graph quarantine nguồn | Active `source_lineage.lineage_components` | Inventory + source assessments + non-test parent fingerprints → exact-byte/export-lineage/reviewed-scene components và role conflicts; unknown IDs giữ null, không chứng minh independence |
 | Shortlist/anchor/context | Git `ab34b32`, `pilot_selection.inventory_anchors/select_round_robin`, `pilot_source_candidates.context_proposal/build_candidates` | Source audit + scope/budget được duyệt → candidates có provenance; kiểm anchor/device attribution, không auto label |
 | Targeted screening | Git `ab34b32`, `pilot_targeted_expansion.collect/build_screening` | Cached parent/evaluation fingerprints + source pins → screening; `validate_fingerprints` chặn thiếu evaluation evidence; không đọc test predictions |

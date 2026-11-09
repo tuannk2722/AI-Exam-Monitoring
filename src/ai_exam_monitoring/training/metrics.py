@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from collections.abc import Sequence
 from dataclasses import asdict, dataclass
 from typing import Any
 
@@ -9,23 +10,27 @@ import torch
 from torch.nn import functional as F
 
 from ai_exam_monitoring.common.errors import DataContractError
-from ai_exam_monitoring.data.pilot_schema import TARGET_ORDER
+from ai_exam_monitoring.data.pilot_schema import MULTILABEL_TARGET_ORDER, TARGET_ORDER
 
 
-def validate_arrays(scores: torch.Tensor, values: torch.Tensor, mask: torch.Tensor) -> None:
-    if (scores.ndim != 2 or scores.shape[1] != 2 or scores.shape != values.shape
+def validate_arrays(scores: torch.Tensor, values: torch.Tensor, mask: torch.Tensor,
+                    *, target_order: Sequence[str] = TARGET_ORDER) -> None:
+    if tuple(target_order) not in (TARGET_ORDER, MULTILABEL_TARGET_ORDER):
+        raise DataContractError("Unsupported target contract/order")
+    if (scores.ndim != 2 or scores.shape[1] != len(target_order) or scores.shape != values.shape
             or mask.shape != values.shape or mask.dtype != torch.bool or len(scores) == 0):
-        raise DataContractError("Expected nonempty [N,2] scores/values and boolean mask")
+        raise DataContractError("Expected nonempty [N,K] scores/values and boolean mask")
     if not torch.isfinite(scores).all() or not torch.isfinite(values[mask]).all():
         raise DataContractError("Nonfinite scores or known labels")
     if not ((values[mask] == 0) | (values[mask] == 1)).all():
         raise DataContractError("Known targets must be binary")
 
 
-def masked_loss(logits: torch.Tensor, values: torch.Tensor, mask: torch.Tensor) -> torch.Tensor:
-    validate_arrays(logits, values, mask)
+def masked_loss(logits: torch.Tensor, values: torch.Tensor, mask: torch.Tensor,
+                *, target_order: Sequence[str] = TARGET_ORDER) -> torch.Tensor:
+    validate_arrays(logits, values, mask, target_order=target_order)
     losses = []
-    for c in range(2):
+    for c in range(len(target_order)):
         known = mask[:, c]
         if not known.any():
             raise DataContractError("Full-batch objective needs known support for each target")
@@ -62,14 +67,15 @@ class TargetMetrics:
 
 
 def evaluate_scores(scores: torch.Tensor, values: torch.Tensor, mask: torch.Tensor,
-                    threshold: float) -> dict[str, Any]:
+                    threshold: float, *, target_order: Sequence[str] = TARGET_ORDER
+                    ) -> dict[str, Any]:
     scores, values, mask = scores.detach().cpu(), values.cpu(), mask.cpu()
-    validate_arrays(scores, values, mask)
+    validate_arrays(scores, values, mask, target_order=target_order)
     if not 0 < threshold < 1 or not ((scores >= 0) & (scores <= 1)).all():
         raise DataContractError("Scores and threshold must be probabilities")
     result = {}
     aps = []
-    for c, target in enumerate(TARGET_ORDER):
+    for c, target in enumerate(target_order):
         known = mask[:, c]
         y, s = values[known, c].bool(), scores[known, c]
         predicted = s >= threshold
@@ -89,7 +95,10 @@ def evaluate_scores(scores: torch.Tensor, values: torch.Tensor, mask: torch.Tens
             aps.append(ap)
     both = mask.all(1)
     co_positive = int((values[both].bool().all(1)).sum())
-    return {"targets": result, "macro_ap": sum(aps) / 2 if len(aps) == 2 else None,
+    return {"targets": result,
+            "macro_ap": sum(aps) / len(target_order) if len(aps) == len(target_order) else None,
             "threshold": threshold, "records": len(scores),
-            "cooccurrence": {"fully_known": int(both.sum()), "positive": co_positive,
-                             "metric": None, "reason": "insufficient_pilot_support"}}
+            "cooccurrence": ({"fully_known": int(both.sum()), "positive": co_positive,
+                              "metric": None, "reason": "insufficient_pilot_support"}
+                             if tuple(target_order) == TARGET_ORDER else
+                             {"metric": None, "reason": "not_defined_for_five_target_contract"})}

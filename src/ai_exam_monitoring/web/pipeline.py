@@ -53,6 +53,9 @@ class Jobs:
         if path.suffix.lower() != ".mp4" or not path.is_file():
             raise ValueError("Chọn file MP4 local tồn tại")
         runtime = load_runtime_config(self.catalog.path(self.config["runtime"]), self.catalog.root)
+        targets = ["phone_use", "looking_around"]
+        if runtime.raw.get("classifier", {}).get("target_order", targets) != targets:
+            raise ValueError("Temporal pipeline requires its approved two-target contract")
         rights = verify_media(path, Path(receipt).resolve(), runtime)
         media_deadline(rights)
         video = RecordedVideo(path)

@@ -10,6 +10,10 @@ if ML_AVAILABLE:
 
     from ai_exam_monitoring.common.errors import ConfigurationError, DataContractError
     from ai_exam_monitoring.common.provenance import sha256_file
+    from ai_exam_monitoring.data.pilot_schema import (
+        MULTILABEL_SEMANTICS_VERSION,
+        MULTILABEL_TARGET_ORDER,
+    )
     from ai_exam_monitoring.inference.runtime_config import load_runtime_config
     from ai_exam_monitoring.inference.selected_crop_review import normalize_comparison
     from ai_exam_monitoring.training.artifacts import digest_json
@@ -117,6 +121,25 @@ class RuntimeSelectionTests(unittest.TestCase):
                                                           models={"B0": "different-run"}))
             write("approval.json", dict(status="approved", runtime_id="test",
                                          config_sha256=digest_json(raw), decision_ref=decision))
+            with self.assertRaises(ConfigurationError):
+                load_runtime_config(root / "runtime.yaml", root)
+
+            raw["classifier"].update(model_id="SYNTHETIC-FIVE", image_size=28,
+                                     target_order=list(MULTILABEL_TARGET_ORDER),
+                                     semantics_version=MULTILABEL_SEMANTICS_VERSION)
+            decision = write("model-decision.json", dict(status="approved", runtime_id="test",
+                                 models={"SYNTHETIC-FIVE": "fixture-B0"}))
+
+            def five_config():
+                config()
+                write("approval.json", dict(status="approved", runtime_id="test",
+                                             config_sha256=digest_json(raw), decision_ref=decision))
+
+            five_config()
+            self.assertEqual(load_runtime_config(root / "runtime.yaml", root)
+                             .raw["classifier"]["target_order"], list(MULTILABEL_TARGET_ORDER))
+            raw["classifier"]["semantics_version"] = "wrong"
+            five_config()
             with self.assertRaises(ConfigurationError):
                 load_runtime_config(root / "runtime.yaml", root)
 

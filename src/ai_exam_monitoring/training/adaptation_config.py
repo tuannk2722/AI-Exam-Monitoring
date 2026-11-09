@@ -12,6 +12,12 @@ from typing import Any
 from ai_exam_monitoring.common.config import load_yaml
 from ai_exam_monitoring.common.errors import ConfigurationError
 from ai_exam_monitoring.common.provenance import sha256_file
+from ai_exam_monitoring.data.pilot_schema import (
+    MULTILABEL_ENCODING_VERSION,
+    MULTILABEL_TARGET_ORDER,
+    TARGET_ENCODING_VERSION,
+    TARGET_ORDER,
+)
 
 from .artifacts import digest_json
 
@@ -81,7 +87,7 @@ class DatasetSpec:
         for f in fields(self):
             text(getattr(self, f.name), f.name)
         sha(self.payload_sha256)
-        if self.encoding_version != "pilot-b-targets-v1":
+        if self.encoding_version not in {TARGET_ENCODING_VERSION, MULTILABEL_ENCODING_VERSION}:
             raise ConfigurationError("Unsupported target encoding")
 
 
@@ -176,7 +182,9 @@ class AdaptationConfig:
                 else "IMAGENET1K_V1"
             ),
             "optimizer": "AdamW",
-            "target_order": ["phone_use", "looking_around"],
+            "target_order": (list(MULTILABEL_TARGET_ORDER)
+                             if is_v4 and self.target_order == list(MULTILABEL_TARGET_ORDER)
+                             else list(TARGET_ORDER)),
             "bn_policy": "all_eval_affine_follows_model_policy",
             "sampling": "uniform_permutation_no_drop_v1",
         }
@@ -284,6 +292,10 @@ class AdaptationConfig:
             or sum(c.role == "selection" for c in self.cohorts) != 1
         ):
             raise ConfigurationError("Require one train and one selection cohort")
+        encoding = (MULTILABEL_ENCODING_VERSION if len(self.target_order) == 5
+                    else TARGET_ENCODING_VERSION)
+        if any(c.data.encoding_version != encoding for c in self.cohorts):
+            raise ConfigurationError("Cohort encoding differs from target contract")
 
     def to_dict(self) -> dict[str, Any]:
         # JSON-normalize tuples so YAML, JSON checkpoint and approval hashes agree.
@@ -383,7 +395,7 @@ class E005AdaptationConfig(AdaptationConfig):
     warmup_epochs: int
     lr_scheduler: str
     min_lr_ratio: float
-    pos_weight: tuple[float, float]
+    pos_weight: tuple[float, ...]
     label_smoothing: float
     selection_metric: str
     calibrate_thresholds_on_val: bool
@@ -427,7 +439,7 @@ class E005AdaptationConfig(AdaptationConfig):
             raise ConfigurationError("Invalid min_lr_ratio")
         if (
             not isinstance(self.pos_weight, tuple)
-            or len(self.pos_weight) != 2
+            or len(self.pos_weight) != len(self.target_order)
             or any(
                 type(w) not in (int, float) or not math.isfinite(w) or w <= 0
                 for w in self.pos_weight

@@ -15,6 +15,7 @@ from PIL import Image, ImageDraw
 
 from ai_exam_monitoring.common.errors import DataContractError
 from ai_exam_monitoring.common.provenance import sha256_file
+from ai_exam_monitoring.data.pilot_schema import MULTILABEL_SEMANTICS_VERSION
 from ai_exam_monitoring.training.artifacts import (
     checksum_artifacts,
     code_identity,
@@ -28,7 +29,6 @@ from .classifier import BundleClassifier
 from .frame_processor import Classifier, Detector, FrameProcessor
 from .person import PersonDetector
 from .runtime_config import (
-    TARGETS,
     RuntimeConfig,
     load_runtime_config,
     media_deadline,
@@ -63,6 +63,9 @@ def process_frames(
     sections: list[str] = []
     current: VideoFrame | None = None
     processor = FrameProcessor(detector, classifier, config.raw["crop"])
+    if config.raw.get("classifier", {}).get("target_order", list(processor.target_order)) != (
+            list(processor.target_order)):
+        raise DataContractError("Runtime processor target order mismatch")
     thresholds = processor.thresholds
     with (output / "predictions.jsonl").open("x", encoding="utf-8") as handle:
         def emit(row: dict[str, Any]) -> None:
@@ -70,7 +73,9 @@ def process_frames(
             handle.flush()
 
         emit({"record_type": "metadata", "schema_version": "recorded-observations-v1",
-              **metadata, "target_order": TARGETS, "thresholds": thresholds})
+              **metadata, "target_order": list(processor.target_order), "thresholds": thresholds,
+              **({"semantics_version": MULTILABEL_SEMANTICS_VERSION}
+                 if len(processor.target_order) != 2 else {})})
         try:
             for frame in frames:
                 if "media_delete_by" in metadata:
@@ -104,8 +109,10 @@ def process_frames(
                     draw.rectangle(person, outline="lime", width=2)
                     draw.rectangle(context, outline="orange", width=2)
                     draw.text((person[0], person[1]), anchor, fill="lime")
-                    figures.append(f"<figure><figcaption>{anchor}: {scores[0]:.4f}, "
-                                   f"{scores[1]:.4f}</figcaption><img src='{anchor}-crop.png'>"
+                    score_text = ", ".join(f"{html.escape(name)}: {score:.4f}" for name, score in
+                                           zip(processor.target_order, scores, strict=True))
+                    figures.append(f"<figure><figcaption>{anchor}: {score_text}"
+                                   f"</figcaption><img src='{anchor}-crop.png'>"
                                    f"<img src='{anchor}-input.png'></figure>")
 
                 row = processor.process(frame, save_qa if frame.index in selected else None)

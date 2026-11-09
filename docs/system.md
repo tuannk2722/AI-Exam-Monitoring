@@ -8,7 +8,7 @@ Sản phẩm là nghiên cứu/demo phát hiện **hành vi quan sát được**
 
 Yêu cầu owner `LIVE-DEMO-FOUNDATION-20261027` supersede riêng recorded-only/review-first, không hồi tố acceptance offline. [Thiết kế live](live-monitoring.md) đã được owner duyệt ở cấp thiết kế/bộ khung ngày 28/10/2026; inputs/numeric policy chưa xác định được ghi riêng. Spec là đích cần xây, không tuyên bố đã có live runtime.
 
-Hai hành vi đã chốt: `phone_use` và `looking_around`. Kiến trúc B đã được owner chọn; không mở lại A/B vì thiếu model đủ tốt. Classifier trên reviewed crops và automatic crop/video là các phạm vi nghiệm thu riêng.
+Năm nhãn đã chốt: `phone_use`, `looking_around`, `sleeping`, `hand_raising`, `standing_up`, theo [data contract](data.md#2-unit-và-semantics-đã-chốt). Nhận diện tư thế/hành vi trên crop từng người, không phân biệt vai trò; `sleeping` là gục/ngủ biểu kiến, `standing_up` là tư thế đang đứng. Kiến trúc B giữ nguyên; classifier trên reviewed crops và automatic crop/video là các phạm vi nghiệm thu riêng. Contract mục tiêu không thay capability hai nhãn của model/deployment đã có ở [status](status.md).
 
 ## 2. Kiến trúc và trách nhiệm
 
@@ -19,7 +19,7 @@ Camera hoặc video upload được phép sử dụng
   → frame + source time + session/epoch identity
   → detector person
   → crop context đúng người
-  → classifier [phone_use, looking_around]
+  → classifier đa nhãn theo tập target/version
   → track tạm thời trong session
   → temporal events
   → bbox/nhãn đúng frame + evidence + log phiên cập nhật
@@ -38,7 +38,7 @@ Các dòng dưới đây là yêu cầu/tiêu chí; có ID không có nghĩa đ�
 | ID | Requirement | Bằng chứng / điều kiện nghiệm thu |
 |---|---|---|
 | FR-DATA-01 | Dataset version rõ, có schema/ledger/manifest/rights/assignment/freeze/checksum và owner approval | Schema/inventory/pins/QA và receipt release; mutation tạo release mới |
-| FR-CLS-01 | Hai target độc lập, unknown masked; normal là metadata review | Codec/loss/metric tests bảo vệ target order/masks; không output normal hoặc softmax |
+| FR-CLS-01 | Scores sigmoid theo tập target/version; unknown masked, normal là metadata review; ground truth theo rubric và ràng buộc chéo đã chốt | Codec/loss/metric tests bảo vệ semantics/order/masks và tương thích hai nhãn cũ; không output normal hoặc softmax, không tự ép scores/nhãn demo từ rule ground truth |
 | FR-EXP-01 | Run có hypothesis, config/code/data/environment pins, status, checkpoints, metrics và decision | Run artifacts và resume checks cùng identity; OOM/interruption không tự đổi config |
 | FR-EVAL-01 | Model/epoch/threshold chọn bằng development; test chỉ mở theo protocol freeze riêng | Protocol/approval/pins và access evidence; guard holdout xuyên output theo protocol được duyệt |
 | FR-VID-01 | Recorded video có source checksum, frame index, video time và prediction có provenance | Integration kiểm source → frame/time → prediction và session outcome |
@@ -67,7 +67,7 @@ Contract liên bước dưới đây tương ứng `contracts/domain.py`; đây 
 | `TrackObservation` | `session_id,track_id,frame,bbox,source_prediction_ids`; track ID không là danh tính ngoài session |
 | `BehaviorEvent` | Event/session/track/behavior, frame/time window, aggregated confidence, model/rule versions, prediction refs; end không trước start; status hiện `candidate/confirmed/dismissed` |
 
-Slice prototype dùng contract `recorded-observations-v1` theo [thiết kế runtime được duyệt](../configs/runtime/RUNTIME-PROTOTYPE-20261025/README.md): metadata pins source/model/config/code/environment; mỗi frame có index/time, geometry và danh sách observation (có thể rỗng), mỗi anchor có hai score theo target order, ngưỡng và cờ vượt ngưỡng. Anchor ID chỉ trong frame, không là track hay danh tính. `session.json` có trạng thái cuối completed/failed; `frames_processed` chưa xác nhận session thành công. Không sửa dataclass `Prediction` để chứa payload riêng này.
+Runtime dùng `recorded-observations-v1`: metadata pins source/model/config/code/environment, `target_order`, ngưỡng; mỗi frame có index/time, geometry và observations (có thể rỗng), mỗi anchor có K scores/cờ theo đúng metadata. [Prototype cũ](../configs/runtime/RUNTIME-PROTOTYPE-20261025/README.md) giữ hai target; binding năm nhãn phải khớp config/bundle/calibration và `semantics_version`, không diễn giải model/profile cũ thành năm nhãn. Anchor ID chỉ trong frame, không là track hay danh tính. `session.json` completed/failed quyết định outcome; `frames_processed` chưa xác nhận thành công. Web video hiển thị theo metadata; temporal tracking/events vẫn theo contract hai nhãn đã duyệt. Không dùng dataclass `Prediction` chứa payload riêng này.
 
 Các entity tương lai như model registry và risk snapshot chỉ định fields/persistence
 khi thực hiện slice tương ứng; không thêm database schema hoặc service phụ trước scope.

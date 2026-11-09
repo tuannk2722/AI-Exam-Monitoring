@@ -125,7 +125,9 @@ def _evaluation_identity(row: PilotRecord) -> dict[str, Any]:
             "context": asdict(row.work_context_review), "rights": asdict(row.rights),
             "group": asdict(row.group), "values": row.target_values, "mask": row.target_mask,
             "usage": row.usage, "split": row.split, "encoding": row.target_encoding_version,
-            "test_freeze_ref": row.test_freeze_ref}
+            "test_freeze_ref": row.test_freeze_ref,
+            **({"targets": {name: asdict(review) for name, review in row.targets.items()},
+                "semantics_version": row.semantics_version} if row.targets is not None else {})}
 
 
 def _verify_preservation(root: Path, config: DatasetVariables, release: dict[str, Any],

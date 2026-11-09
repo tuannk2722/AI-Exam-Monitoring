@@ -13,7 +13,7 @@ from PIL import Image, ImageDraw, ImageFont
 from ai_exam_monitoring.common.config import load_yaml
 from ai_exam_monitoring.common.errors import DataContractError
 from ai_exam_monitoring.common.provenance import sha256_file
-from ai_exam_monitoring.data.pilot_schema import PixelBox
+from ai_exam_monitoring.data.pilot_schema import MULTILABEL_TARGET_ORDER, TARGET_ORDER, PixelBox
 from ai_exam_monitoring.data.source_review import PinnedYoloZip, write_pending_crop
 
 
@@ -32,7 +32,8 @@ def build(
     ):
         raise DataContractError("Review batch needs new output under data/interim")
     geometry = json.loads(geometry_path.read_text(encoding="utf-8"))
-    if geometry["target_order"] != ["phone_use", "looking_around"]:
+    order = tuple(geometry["target_order"])
+    if order not in (TARGET_ORDER, MULTILABEL_TARGET_ORDER):
         raise DataContractError("Draft target order mismatch")
     if geometry["input_size"] != config["input_size"] or geometry["fill"] != config["fill"]:
         raise DataContractError("Preview preprocessing mismatch")
@@ -53,9 +54,9 @@ def build(
             source = readers[draft["source_id"]].read(
                 draft["member_sha256"], draft["source_sha256"]
             )
-            if len(draft["draft_states"]) != 2 or len(config["fill"]) != 3:
+            if len(draft["draft_states"]) != len(order) or len(config["fill"]) != 3:
                 raise DataContractError("Draft states/fill dimensions mismatch")
-            states = (draft["draft_states"][0], draft["draft_states"][1])
+            states = tuple(draft["draft_states"])
             row = write_pending_crop(
                 source,
                 PixelBox(*draft["person_xyxy"]),
@@ -66,6 +67,7 @@ def build(
                 reason=draft["reason"],
                 input_size=config["input_size"],
                 fill=(config["fill"][0], config["fill"][1], config["fill"][2]),
+                target_order=order,
             )
             row.update(
                 {
@@ -79,7 +81,7 @@ def build(
                     )
                 }
             )
-            row["input224_qa"] = "pending_visual_review"
+            row[f"input{config['input_size']}_qa"] = "pending_visual_review"
             row["source_annotations_are_hints_only"] = True
             target = destination / row["candidate_id"]
             annotated = source.image.copy()
@@ -117,7 +119,8 @@ def build(
                     board.paste(picture, (x + offset, y + 65))
                 canvas.text(
                     (x, y + 292),
-                    "source: green context/red anchor | native crop preview | input 224",
+                    "source: green context/red anchor | native crop preview | "
+                    f"input {config['input_size']}",
                     fill="black",
                     font=font,
                 )
@@ -132,13 +135,14 @@ def build(
                 f'<div><a href="{ident}/source.png"><img class="source" '
                 f'src="{ident}/source-overlay.png"></a>'
                 f'<a href="{ident}/crop.png"><img src="{ident}/crop.png"></a>'
-                f'<img width="224" height="224" src="{ident}/input.png"></div>'
+                f'<a href="{ident}/input.png"><img width="224" height="224" '
+                f'src="{ident}/input.png"></a></div>'
                 f"<p>{html.escape(row['draft_reason'])}</p>"
                 f'<p><a href="{ident}/proposal.json">Metadata và hashes</a> '
-                "· source → crop native → input 224</p></article>"
+                f"· source → crop native → input {config['input_size']}</p></article>"
             )
         content = (
-            '<!doctype html><meta charset="utf-8"><title>E004 review batch</title><style>'
+            '<!doctype html><meta charset="utf-8"><title>Source review batch</title><style>'
             "body{font:16px system-ui;margin:24px;max-width:1400px}"
             "article{border-top:1px solid #ccc;padding:16px 0}"
             "img{max-width:300px;max-height:300px;object-fit:contain;"
@@ -146,9 +150,10 @@ def build(
             "h2{font-size:20px}</style>"
         )
         content += (
-            "<h1>E004 — Batch cần owner nghiệm thu</h1><p>Toàn bộ là Draft, canonical targets "
-            "null/mask 0, review_only; chưa train/development/test. Target order: phone_use / "
-            "looking_around. Khung đỏ: anchor; xanh: context. Bấm ảnh để xem native. "
+            "<h1>Batch cần owner nghiệm thu</h1><p>Toàn bộ là Draft, canonical targets "
+            "null/mask 0, review_only; chưa train/development/test. "
+            f"Target order: {' / '.join(order)}. "
+            "Khung đỏ: anchor; xanh: context. Bấm ảnh để xem native. "
             "Quyền sử dụng nguồn đã xác nhận; review ở đây tập trung crop/nhãn/group/role.</p>"
         )
         content += (

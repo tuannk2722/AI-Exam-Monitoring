@@ -12,7 +12,7 @@ Agent bắt đầu với AGENTS/index/TASK, không đọc mọi report/archive. 
 
 ## Chạy web trên laptop GPU
 
-Baseline hiện tại: upload MP4 có receipt → B0 CUDA FP32 batch 1 → ảnh phân tích/bbox
+Baseline đã đo: upload MP4 có receipt → B0 CUDA FP32 batch 1 → ảnh phân tích/bbox
 và hai hành vi → pause/resume/seek/stop. AI lấy mẫu 1 Hz; màn hình nhận các frame đã
 phân tích qua MJPEG, không phải video gốc 25–30 FPS hoặc bản phân tích mọi frame.
 Tracking/events online và camera chưa tích hợp; `/review` giữ pipeline offline riêng.
@@ -22,8 +22,10 @@ Dùng Python 3.11.9 và môi trường CUDA đã chạy B0: Torch 2.8.0+cu128,
 Torchvision 0.23.0+cu128, Ultralytics 8.3.221, OpenCV 4.11.0.86, NumPy 2.4.6,
 Pillow 12.3.0. Không cài requirements CPU hoặc extra ML tổng quát đè môi trường này.
 
-Sau khi clone/pull bản có các thay đổi này, mở PowerShell tại root repo. Lần đầu,
-cần gói `video-web.zip` đã bàn giao để lấy model ngoài Git; không giải nén gói đè repo:
+Các lệnh dưới cần source khớp profile B0. Source refactor năm nhãn hiện bị guard GPU
+chặn và cần kiểm chứng tích hợp riêng, xem [status](docs/status.md). Với source B0 gốc,
+mở PowerShell tại root; lần đầu cần `video-web.zip` đã bàn giao để lấy model ngoài Git.
+Không giải nén gói đè repo:
 
 ```powershell
 $python = 'D:\ky 7 ptit\PTHTTM\AI-Exam-Monitoring\.venv\Scripts\python.exe'
@@ -52,12 +54,12 @@ không có fallback GPU → CPU tự động.
 
 ### Phát triển AI tiếp
 
-Training vẫn độc lập với web. Profile hiện tại chỉ xác nhận B0 và phiên bản code
-suy luận đã đo. Sửa các file numerical dùng chung với training có thể làm profile
-B0 từ chối chạy; không sửa hash hoặc bỏ guards để vượt kiểm tra. Model E mới phải
+Training vẫn độc lập với web. Profile hiện tại chỉ xác nhận B0 và source đã đo;
+refactor năm nhãn đã đổi numerical source nên guard B0 từ chối source hiện tại.
+Không sửa hash hoặc bỏ guards để vượt kiểm tra. Model mới phải
 đi cùng checkpoint/config/calibration và profile tích hợp phù hợp; không ghi đè
-`best.pt` hoặc coi việc đổi tên file là đã tích hợp model. Thêm hành vi/đổi kiến trúc
-cần cập nhật adapter/UI tương ứng, không thuộc baseline này.
+`best.pt` hoặc coi việc đổi tên file là đã tích hợp model. Code đã hỗ trợ metadata
+hai/năm nhãn; model/release/profile thật chưa thuộc baseline này.
 
 [Quyết định gốc](configs/web/LAPTOP-VIDEO-20261108/README.md) và execution/runtime
 pins giữ nguyên; hướng dẫn chạy từ repo hiện hành ở mục này. Web GPU toàn luồng
