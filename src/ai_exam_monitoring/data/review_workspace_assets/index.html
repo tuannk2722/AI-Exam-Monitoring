@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="vi"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>V12 · Bàn review toàn bộ crop</title><link rel="stylesheet" href="review.css">
-<header><strong>V12 / REVIEW TOÀN BỘ</strong><span id="progress"></span><span id="saveStatus" role="status"></span>
+<title>Bàn review crop</title><link rel="stylesheet" href="review.css">
+<header><strong>REVIEW CROP</strong><span id="progress"></span><span id="saveStatus" role="status"></span>
 <button id="export">Xuất bản review JSON</button><label class="button">Nhập JSON<input type="file" id="import" accept=".json" hidden></label>
 <button id="help">Hướng dẫn</button></header>
 <div class="toolbar"><select id="group" aria-label="Nhóm hình ảnh"></select>
@@ -14,10 +14,9 @@
 </section>
 <section class="detail" id="detail"><div class="sectionTitle"><b id="sampleId"></b><span><button id="prev">←</button><button id="next">→</button></span></div>
 <div class="images"><figure><figcaption>Crop hiện tại · <span id="dimensions"></span></figcaption><a id="originalLink" target="_blank" rel="noopener"><img id="original" alt="Crop hiện tại"><span id="anchorBox"></span></a><small>Vừa khung; viền chỉ anchor, không vào train</small></figure>
-<figure><figcaption>Đầu vào train · 224 × 224</figcaption><img id="prepared" width="224" height="224" alt="Letterbox train 224"><small id="scale"></small></figure></div>
+<figure><figcaption id="input-caption">Đầu vào model</figcaption><img id="prepared" width="224" height="224" alt="Letterbox input"><small id="scale"></small></figure></div>
 <div class="hint" id="suggestion"></div><div id="old" hidden></div>
-<div class="fields"><label>Phone <select id="phone"><option value="">Chưa chọn</option><option>P</option><option>N</option><option>U</option></select></label>
-<label>Looking <select id="looking"><option value="">Chưa chọn</option><option>P</option><option>N</option><option>U</option></select></label>
+<div class="fields" id="target-fields"></div><div class="fields">
 <label>Xử lý crop <select id="action"><option value="">Chưa chọn</option><option value="keep">Giữ crop</option><option value="recrop">Cần crop lại</option><option value="remove">Đề xuất loại</option><option value="unsure">Cần xem thêm</option></select></label>
 <label><input type="checkbox" id="flag">Đánh dấu</label></div>
 <div class="fields"><label>Góc nhìn <select id="angle"><option value="">Chưa ghi</option><option>Trước</option><option>Bên / chéo</option><option>Sau</option><option>Trên cao</option><option>Không rõ</option></select></label>
@@ -26,10 +25,10 @@
 <div class="footer"><label><input type="checkbox" id="done">Đã chốt review crop này</label><button id="nextTodo">Crop chưa chốt tiếp theo →</button></div>
 <small id="draftState">Mọi lựa chọn là bản nháp, chưa sửa dataset.</small></section></main>
 <dialog id="helpDialog"><h2>Review theo hình ảnh, không theo split cũ</h2><p id="scope"></p>
-<p>Ảnh 224 dùng RGB letterbox bilinear, padding [124, 116, 104], trước normalization và augmentation ngẫu nhiên. Để browser zoom 100% khi so độ lớn; pixel CSS không nhất thiết bằng pixel vật lý màn hình.</p>
+<p id="preview-help"></p>
 <p>Nhóm dựa trên bố cục, màu, cạnh; không phải nhận định hành vi, camera hay nhóm chống leakage. Crop tương tự có thể khác nhãn. Nhóm không tự gán bất kỳ giá trị nào.</p>
-<p>Nhãn mới để trống. P/N/U và chất lượng crop là hai việc riêng. Looking mục tiêu đang review: quay đầu bên/sau so với hướng ngồi; nhìn phía trước không tính. Không dùng ghi chú gợi ý như quyết định loại hoặc gán nhãn.</p>
+<p>Nhãn mới để trống. P/N/U theo rubric và chất lượng crop là hai việc riêng. Thiếu evidence có thể giữ U hoặc yêu cầu recrop. Không dùng ghi chú gợi ý như quyết định loại hoặc gán nhãn.</p>
 <p>← / → chuyển crop khi không nhập liệu. Đánh dấu để quay lại; tìm kiếm cả ID, tag, ghi chú. Chọn nhóm “Tất cả” để tìm toàn bộ inventory. Sửa quyết định sẽ bỏ trạng thái chốt để bạn xác nhận lại.</p>
-<p>Lưu tự động trong browser chỉ là nháp. Hãy xuất JSON mỗi phiên để backup và chuyển máy/browser. Nhập JSON thay toàn bộ nháp sau xác nhận; chỉ nhận đúng cohort và SHA. Không tự áp vào V12 hoặc chia split mới. Không có chức năng xóa ảnh.</p>
+<p>Lưu tự động trong browser chỉ là nháp. Hãy xuất JSON mỗi phiên để backup và chuyển máy/browser. Nhập JSON thay toàn bộ nháp sau xác nhận; chỉ nhận đúng cohort và SHA. Không tự áp vào dataset hoặc chia split mới. Không có chức năng xóa ảnh.</p>
 <button id="closeHelp">Bắt đầu / Tiếp tục</button></dialog>
 <script src="inventory.js"></script><script src="review.js"></script></html>

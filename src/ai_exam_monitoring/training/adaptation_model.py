@@ -13,6 +13,7 @@ from torchvision.models import resnet18
 
 from ai_exam_monitoring.common.errors import DataContractError
 from ai_exam_monitoring.common.provenance import sha256_file
+from ai_exam_monitoring.data.pilot_schema import MULTILABEL_TARGET_ORDER, TARGET_ORDER
 
 from .adaptation_config import (
     AdaptationConfig,
@@ -48,16 +49,19 @@ def head_input_dim(config: AdaptationConfig) -> int:
     return 512
 
 
-def build_e005_head(in_dim: int, hidden_dim: int, dropout: float) -> nn.Module:
+def build_e005_head(in_dim: int, hidden_dim: int, dropout: float,
+                    num_targets: int = 2) -> nn.Module:
+    if num_targets not in {2, 5}:
+        raise DataContractError("Unsupported head target count")
     if hidden_dim <= 0:
-        return nn.Linear(in_dim, 2)
+        return nn.Linear(in_dim, num_targets)
     return nn.Sequential(
         nn.LayerNorm(in_dim),
         nn.Dropout(p=dropout),
         nn.Linear(in_dim, hidden_dim),
         nn.GELU(),
         nn.Dropout(p=dropout),
-        nn.Linear(hidden_dim, 2),
+        nn.Linear(hidden_dim, num_targets),
     )
 
 
@@ -87,14 +91,17 @@ def create_e005_initial_head(
     in_dim: int = 512,
     hidden_dim: int = 0,
     dropout: float = 0.0,
+    target_order: tuple[str, ...] = TARGET_ORDER,
 ) -> str:
     if path.exists():
         raise DataContractError("Head initialization must have a new immutable path")
-    if in_dim == 512 and hidden_dim == 0:
+    if target_order not in (TARGET_ORDER, MULTILABEL_TARGET_ORDER):
+        raise DataContractError("Unsupported head target contract")
+    if in_dim == 512 and hidden_dim == 0 and target_order == TARGET_ORDER:
         return create_initial_head(path, seed)
     with torch.random.fork_rng(devices=[]):
         torch.manual_seed(seed)
-        head = build_e005_head(in_dim, hidden_dim, dropout)
+        head = build_e005_head(in_dim, hidden_dim, dropout, len(target_order))
     path.parent.mkdir(parents=True, exist_ok=True)
     save_checkpoint(
         path,
@@ -106,6 +113,7 @@ def create_e005_initial_head(
             "dropout": dropout,
             "head": head.state_dict(),
             "tensor_sha256": tensor_digest(head.state_dict()),
+            **({"target_order": list(target_order)} if target_order != TARGET_ORDER else {}),
         },
     )
     return sha256_file(path)
@@ -181,6 +189,7 @@ class AdaptationModel(nn.Module):
         in_dim = head_input_dim(config)
         hidden_dim = config.head_hidden_dim if isinstance(config, E005AdaptationConfig) else 0
         dropout = config.head_dropout if isinstance(config, E005AdaptationConfig) else 0.0
+        num_targets = len(config.target_order)
         if isinstance(config, RepresentationConfig) and is_dino_config(config):
             from .encoders import DinoNetwork, load_dino_source
 
@@ -192,7 +201,8 @@ class AdaptationModel(nn.Module):
                         else load_dino_source(config.encoder_source, workspace))
             last_blocks = (config.train_last_blocks
                            if isinstance(config, DinoAdaptationConfig) else 2)
-            self.network = DinoNetwork(backbone, build_e005_head(in_dim, hidden_dim, dropout),
+            self.network = DinoNetwork(backbone, build_e005_head(
+                in_dim, hidden_dim, dropout, num_targets),
                                        train_last_blocks=last_blocks)
         if full_state is None:
             if (
@@ -208,9 +218,11 @@ class AdaptationModel(nn.Module):
             pretrained_model.load_state_dict(
                 torch.load(weights, map_location="cpu", weights_only=True)
             )
-            self.network.fc = cast(Any, build_e005_head(in_dim, hidden_dim, dropout))
+            self.network.fc = cast(Any, build_e005_head(in_dim, hidden_dim, dropout, num_targets))
             payload = torch.load(initial_head, map_location="cpu", weights_only=True)
-            if is_v3 and (in_dim != 512 or hidden_dim > 0):
+            if num_targets != 2 and payload.get("target_order") != config.target_order:
+                raise DataContractError("Head initialization target contract mismatch")
+            if is_v3 and (in_dim != 512 or hidden_dim > 0 or num_targets != 2):
                 validate_e005_head_state(payload.get("head"), self.network.fc)
                 if (
                     payload.get("schema_version") != "e005-head-init-v3"
@@ -241,7 +253,7 @@ class AdaptationModel(nn.Module):
         else:
             if weights is not None or initial_head is not None:
                 raise DataContractError("Standalone reload cannot also load external weights")
-            self.network.fc = cast(Any, build_e005_head(in_dim, hidden_dim, dropout))
+            self.network.fc = cast(Any, build_e005_head(in_dim, hidden_dim, dropout, num_targets))
             self.load_state_dict(full_state, strict=True)
         self.configure_trainable_stage(config, epoch=config.max_epochs)
         self.train()

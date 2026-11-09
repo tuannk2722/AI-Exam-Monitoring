@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import re
 from dataclasses import dataclass
 from datetime import UTC, datetime, timedelta
 from pathlib import Path
@@ -10,6 +11,10 @@ from typing import Any
 from ai_exam_monitoring.common.config import load_yaml
 from ai_exam_monitoring.common.errors import ConfigurationError
 from ai_exam_monitoring.common.provenance import sha256_file
+from ai_exam_monitoring.data.pilot_schema import (
+    MULTILABEL_SEMANTICS_VERSION,
+    MULTILABEL_TARGET_ORDER,
+)
 from ai_exam_monitoring.training.adaptation_config import FilePin, local_path
 from ai_exam_monitoring.training.artifacts import digest_json
 
@@ -104,10 +109,21 @@ def load_runtime_config(path: Path, workspace: Path) -> RuntimeConfig:
                   "precision": "float32", "target_order": TARGETS}
     if e009:
         binding = raw["classifier"]
-        if (binding.get("model_id") not in {"B0", "B448"}
+        multilabel = binding.get("target_order") == list(MULTILABEL_TARGET_ORDER)
+        if multilabel:
+            if (not isinstance(binding.get("model_id"), str)
+                    or re.fullmatch(r"[A-Za-z0-9_-]+", binding["model_id"]) is None
+                    or type(binding.get("image_size")) is not int or binding["image_size"] <= 0
+                    or binding["image_size"] % 14
+                    or binding.get("model") not in {"dinov2_vits14_v6", "dinov2_vitb14_v6"}
+                    or binding.get("semantics_version") != MULTILABEL_SEMANTICS_VERSION):
+                raise ConfigurationError("Invalid five-target model/semantics binding")
+            classifier.update(target_order=list(MULTILABEL_TARGET_ORDER),
+                              semantics_version=MULTILABEL_SEMANTICS_VERSION)
+        if ((not multilabel and binding.get("model_id") not in {"B0", "B448"})
                 or not isinstance(binding.get("experiment_id"), str)
-                or binding.get("image_size") not in {336, 448}
-                or binding.get("model") != "dinov2_vitb14_v6"):
+                or (not multilabel and (binding.get("image_size") not in {336, 448}
+                                       or binding.get("model") != "dinov2_vitb14_v6"))):
             raise ConfigurationError("Unsupported E009 model binding")
         classifier.update({key: binding[key] for key in
                            ("model_id", "experiment_id", "image_size", "model")})

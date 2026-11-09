@@ -20,7 +20,7 @@ from ai_exam_monitoring.common.errors import DataContractError
 from ai_exam_monitoring.common.provenance import sha256_file
 
 from .image_similarity import difference_hash
-from .pilot_schema import PixelBox
+from .pilot_schema import MULTILABEL_TARGET_ORDER, TARGET_ORDER, PixelBox
 from .source_layout import IMAGE_EXTENSIONS, validate_source_names
 from .yolo import YoloAnnotation
 
@@ -170,8 +170,12 @@ def descriptor_distance(a: Sequence[int], b: Sequence[int]) -> float:
     return sum(abs(x - y) for x, y in zip(a, b, strict=True)) / 288
 
 
-def fingerprint(source: SourceImage) -> dict[str, Any]:
-    return {
+def fingerprint(
+    source: SourceImage, *, target_order: tuple[str, ...] = TARGET_ORDER,
+) -> dict[str, Any]:
+    if target_order not in (TARGET_ORDER, MULTILABEL_TARGET_ORDER):
+        raise DataContractError("Unsupported canonical target order")
+    row = {
         "member_sha256": source.member_sha256,
         "source_sha256": source.image_sha256,
         "label_sha256": source.label_sha256,
@@ -181,11 +185,14 @@ def fingerprint(source: SourceImage) -> dict[str, Any]:
         "scene_descriptor": list(scene_descriptor(source.image)),
         "source_class_hints": sorted({a.class_name for a in source.annotations}),
         "source_annotation_count": len(source.annotations),
-        "canonical_targets": [None, None],
-        "canonical_mask": [0, 0],
+        "canonical_targets": [None] * len(target_order),
+        "canonical_mask": [0] * len(target_order),
         "usage": "review_only",
         "independence_proven": False,
     }
+    if target_order != TARGET_ORDER:
+        row["target_order"] = list(target_order)
+    return row
 
 
 def diverse_inspection(
@@ -244,15 +251,18 @@ def write_pending_crop(
     candidate_id: str,
     output: Path,
     *,
-    states: tuple[str, str],
+    states: tuple[str, ...],
     reason: str,
     input_size: int,
     fill: tuple[int, int, int],
+    target_order: tuple[str, ...] = TARGET_ORDER,
 ) -> dict[str, Any]:
     """Explicit geometry/state proposal only. Owner approval must be imported separately."""
     if re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9_-]*", candidate_id) is None:
         raise DataContractError("Unsafe candidate ID")
-    if len(states) != 2 or any(s not in {"P", "N", "U"} for s in states) or not reason.strip():
+    if (target_order not in (TARGET_ORDER, MULTILABEL_TARGET_ORDER)
+            or len(states) != len(target_order)
+            or any(s not in {"P", "N", "U"} for s in states) or not reason.strip()):
         raise DataContractError("Invalid draft states/reason")
     bounds = PixelBox(0, 0, source.image.width, source.image.height)
     if not bounds.contains(context) or not context.contains(person):
@@ -281,14 +291,16 @@ def write_pending_crop(
         "fill": list(fill),
         "draft_states": list(states),
         "draft_reason": reason,
-        "canonical_targets": [None, None],
-        "canonical_mask": [0, 0],
+        "canonical_targets": [None] * len(target_order),
+        "canonical_mask": [0] * len(target_order),
         "usage": "review_only",
         "split": None,
         "owner_approved": False,
         "independence_proven": False,
         "proposed_role": "unassigned_pending_family_review",
     }
+    if target_order != TARGET_ORDER:
+        row["target_order"] = list(target_order)
     (destination / "proposal.json").write_text(
         json.dumps(row, ensure_ascii=False, sort_keys=True, indent=2) + "\n", encoding="utf-8"
     )

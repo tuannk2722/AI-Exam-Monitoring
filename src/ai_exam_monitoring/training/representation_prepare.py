@@ -11,7 +11,13 @@ import yaml
 
 from ai_exam_monitoring.common.errors import DataContractError
 from ai_exam_monitoring.common.provenance import sha256_file
-from ai_exam_monitoring.data.pilot_schema import record_to_dict
+from ai_exam_monitoring.data.pilot_schema import (
+    MULTILABEL_ENCODING_VERSION,
+    MULTILABEL_TARGET_ORDER,
+    TARGET_ENCODING_VERSION,
+    TARGET_ORDER,
+    record_to_dict,
+)
 
 from .adaptation_config import DatasetSpec, FilePin, config_from_dict, local_path
 from .adaptation_model import create_e005_initial_head
@@ -72,6 +78,12 @@ def prepare(
         raise DataContractError("Approved design/cloud execution scope required")
     proposal_path = FilePin(**design["proposal"]).verify(root)
     proposal = yaml.safe_load(proposal_path.read_text(encoding="utf-8"))
+    if tuple(proposal["targets"]) not in (TARGET_ORDER, MULTILABEL_TARGET_ORDER):
+        raise DataContractError("Unsupported proposal target contract")
+    if proposal["targets"] == list(MULTILABEL_TARGET_ORDER):
+        from .calibration import validate_objectives
+
+        validate_objectives(proposal.get("calibration_objectives"), proposal["targets"])
     multi = is_multiseed(design)
     budget = (campaign_budget(design, proposal, profile) if multi
               else proposal["budgets"][authority["budget_tier"]])
@@ -82,7 +94,9 @@ def prepare(
             or pointer["payload_sha256"] != authority["payload_sha256"]):
         raise DataContractError("Authorized dataset identity mismatch")
     spec = DatasetSpec(pointer["package"], pointer["dataset_version"], pointer["split_version"],
-                       "pilot-b-targets-v1", pointer["payload_sha256"])
+                       MULTILABEL_ENCODING_VERSION
+                       if proposal["targets"] == list(MULTILABEL_TARGET_ORDER)
+                       else TARGET_ENCODING_VERSION, pointer["payload_sha256"])
     records = verify_dataset(local_path(root, spec.dataset), spec)
     expected = proposal["dataset"]["expected_records"]
     if any(sum(r.usage == role for r in records) != count for role, count in expected.items()):
@@ -174,6 +188,10 @@ def prepare(
                              "source_sha256": [], "family_ids": []},
         "independence_claim": False, "final_test_inference_authorized": False,
         "slice_enrollment": slices, "provenance_pin": design["provenance"],
+        **({"calibration_objectives": proposal["calibration_objectives"]}
+           if proposal["targets"] == list(MULTILABEL_TARGET_ORDER) else {}),
+        **({"group_bootstrap": proposal["group_bootstrap"]}
+           if "group_bootstrap" in proposal else {}),
     })
     readiness_path = folder / "readiness.json"
     write_json(readiness_path, {
@@ -226,12 +244,14 @@ def prepare(
         if not head_path.exists():
             create_e005_initial_head(head_path, seed, in_dim=arm["feature_dim"],
                                      hidden_dim=common["head"]["hidden_dim"],
-                                     dropout=common["head"]["dropout"])
+                                     dropout=common["head"]["dropout"],
+                                     target_order=tuple(proposal["targets"]))
         raw = {**template, "schema_version": design.get(
                    "config_schema", "representation-adaptation-v4"),
                "experiment_id": ident, "owner": authority["owner"], "run_kind": phase,
                "hypothesis": f"{spec.dataset_version} {arm_name}: study; seed {seed}",
                "cohorts": cohorts, "protocol": pin(root, protocol_path),
+               "target_order": proposal["targets"],
                "readiness": pin(root, readiness_path),
                "execution_authorization": design["authorization"],
                "approval_ref": (folder / "approval.json").relative_to(root).as_posix(),

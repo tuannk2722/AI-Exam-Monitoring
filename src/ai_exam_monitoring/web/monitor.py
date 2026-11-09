@@ -62,8 +62,10 @@ class Monitor:
         if self.multi_model:
             models = self.config["models"]
             if (not isinstance(models, dict)
-                    or set(models) != ({"B0"} if self.gpu else {"B0", "B448"})
-                    or self.config["default_model"] != "B0"
+                    or not models or (self.gpu and len(models) != 1)
+                    or self.config["default_model"] not in models
+                    or any(not isinstance(key, str)
+                           or re.fullmatch(r"[A-Za-z0-9_-]+", key) is None for key in models)
                     or any(not isinstance(v, dict) or set(v) != {"label", "runtime"}
                            or not isinstance(v["label"], str) for v in models.values())):
                 raise ValueError("Danh sách model giám sát không hợp lệ")
@@ -190,6 +192,8 @@ class Monitor:
                     "calibration": runtime.raw["pins"]["calibration"],
                     "thresholds": calibration["thresholds"],
                     "target_order": binding["target_order"],
+                    **({"semantics_version": binding["semantics_version"]}
+                       if "semantics_version" in binding else {}),
                     "preprocessing": {key: resolved[key] for key in
                                       ("transform", "image_size", "mean", "std", "fill")},
                 }

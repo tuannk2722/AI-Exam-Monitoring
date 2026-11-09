@@ -341,6 +341,17 @@ def prepare_cohorts(
     ready = validate_readiness(config, workspace)
     revised = ready["schema_version"] in {"adaptation-readiness-v2", "representation-readiness-v4"}
     protocol = config.protocol.read_json(workspace)
+    if len(config.target_order) != 2:
+        from .calibration import validate_objectives
+
+        if isinstance(config, E005AdaptationConfig) and config.calibrate_thresholds_on_val:
+            validate_objectives(protocol.get("calibration_objectives"), config.target_order)
+        bootstrap = protocol.get("group_bootstrap")
+        if bootstrap is not None and (
+                not isinstance(bootstrap, dict) or set(bootstrap) != {"samples", "seed"}
+                or type(bootstrap["samples"]) is not int or bootstrap["samples"] <= 0
+                or type(bootstrap["seed"]) is not int or not 0 <= bootstrap["seed"] < 2**32):
+            raise DataContractError("Bootstrap requires explicit samples and seed")
     if (
         protocol.get("schema_version")
         != ("representation-protocol-v4" if isinstance(config, RepresentationConfig)
@@ -373,6 +384,8 @@ def prepare_cohorts(
         if not set(spec.sample_ids) <= set(all_rows):
             raise DataContractError("Cohort member missing from accepted manifest")
         rows = [all_rows[s] for s in spec.sample_ids]
+        if any(tuple(config.target_order) != r.target_order for r in rows):
+            raise DataContractError("Cohort targets differ from experiment contract")
         expected_usage = "train" if spec.role == "train" else "val"
         if any(r.usage != expected_usage or not any(r.target_mask) for r in rows):
             raise DataContractError("Wrong split/review-only/test/all-unknown cohort member")

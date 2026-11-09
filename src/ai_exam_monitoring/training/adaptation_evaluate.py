@@ -13,6 +13,7 @@ import torch
 
 from ai_exam_monitoring.common.errors import DataContractError
 from ai_exam_monitoring.common.provenance import sha256_file
+from ai_exam_monitoring.data.pilot_schema import MULTILABEL_SEMANTICS_VERSION
 
 from . import holdout_access
 from .adaptation_config import (
@@ -51,6 +52,8 @@ def load_bundle(run_dir: Path, workspace: Path) -> tuple[AdaptationModel, dict[s
         or bundle["runtime_sha256"] != runtime_signature(execution_environment(config))
         or bundle["target_order"] != config.target_order
         or bundle["threshold"] != config.threshold
+        or (len(config.target_order) != 2
+            and bundle.get("semantics_version") != MULTILABEL_SEMANTICS_VERSION)
     ):
         raise DataContractError("Bundle/run/config/code/runtime mismatch")
     checks = json.loads((run_dir / "checksums.json").read_text(encoding="utf-8"))
@@ -266,7 +269,8 @@ def evaluate_adaptation(
             ]
         metrics = {}
         thresholds = None
-        if isinstance(config, RepresentationConfig):
+        if isinstance(config, RepresentationConfig) and (
+                len(config.target_order) == 2 or config.calibrate_thresholds_on_val):
             checks = json.loads((run_dir / "checksums.json").read_text(encoding="utf-8"))
             calibration_path = run_dir / "calibration.json"
             if sha256_file(calibration_path) != checks.get("calibration.json"):
@@ -277,7 +281,13 @@ def evaluate_adaptation(
                     or calibration.get("selection_ids_sha256") != digest_json(selection.ids)
                     or calibration.get("fit_cohort") != selection.name):
                 raise DataContractError("Calibration checkpoint/cohort mismatch")
-            thresholds = (float(calibration["thresholds"][0]), float(calibration["thresholds"][1]))
+            thresholds = tuple(float(t) for t in calibration["thresholds"])
+            if len(config.target_order) != 2 and (
+                    calibration.get("target_order") != config.target_order
+                    or calibration.get("semantics_version") != MULTILABEL_SEMANTICS_VERSION
+                    or calibration.get("calibration_objectives")
+                    != protocol.get("calibration_objectives")):
+                raise DataContractError("Calibration target/protocol mismatch")
         for cohort in selected:
             metrics[cohort.name], predictions = cohort_report(
                 model,

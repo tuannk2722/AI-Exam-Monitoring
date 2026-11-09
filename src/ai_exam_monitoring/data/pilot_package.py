@@ -132,6 +132,9 @@ def _preflight(
 
 def coverage_report(records: Sequence[PilotRecord]) -> dict[str, Any]:
     """Counts only reviewed states; metric support is reported without metrics."""
+    targets = records[0].target_order if records else TARGETS
+    if any(row.target_order != targets for row in records):
+        raise DataContractError("Coverage cannot mix target contracts")
     slices: dict[tuple[str, str, str], list[PilotRecord]] = defaultdict(list)
     for record in records:
         slices[
@@ -147,9 +150,10 @@ def coverage_report(records: Sequence[PilotRecord]) -> dict[str, Any]:
     def counts(rows: Sequence[PilotRecord]) -> dict[str, Any]:
         states = {
             target: {
-                state: sum(getattr(row, target).state == state for row in rows) for state in STATES
+                state: sum(row.target_review(target).state == state for row in rows)
+                for state in STATES
             }
-            for target in TARGETS
+            for target in targets
         }
         support = {
             target: {
@@ -161,20 +165,23 @@ def coverage_report(records: Sequence[PilotRecord]) -> dict[str, Any]:
                     else "unavailable_missing_positive_or_negative"
                 ),
             }
-            for target in TARGETS
+            for target in targets
         }
-        return {
+        result = {
             "records": len(rows),
             "targets": states,
             "support": support,
             "cooccurrence": sum(
-                all(getattr(row, t).state == "positive" for t in TARGETS) for row in rows
-            ),
+                all(row.target_review(t).state == "positive" for t in targets) for row in rows
+            ) if targets == TARGETS else None,
             "confirmed_normal": sum(row.normal_review == "confirmed_normal" for row in rows),
-            "fully_labeled": sum(sum(row.target_mask) == 2 for row in rows),
-            "partially_labeled": sum(sum(row.target_mask) == 1 for row in rows),
+            "fully_labeled": sum(sum(row.target_mask) == len(targets) for row in rows),
+            "partially_labeled": sum(0 < sum(row.target_mask) < len(targets) for row in rows),
             "fully_unknown": sum(sum(row.target_mask) == 0 for row in rows),
         }
+        if targets != TARGETS:
+            result["cooccurrence_reason"] = "not_defined_for_five_target_contract"
+        return result
 
     return {
         "all": counts(records),
@@ -264,8 +271,8 @@ def _release_gates(records: Sequence[PilotRecord], metadata: Mapping[str, Any]) 
     train = [row for row in used if row.usage == "train"]
     if not train:
         raise DataContractError("Accepted export requires reviewed training records")
-    for target in TARGETS:
-        states = {getattr(row, target).state for row in train}
+    for target in train[0].target_order:
+        states = {row.target_review(target).state for row in train}
         if not {"positive", "negative"}.issubset(states):
             raise DataContractError(f"Training coverage lacks reviewed P/N for {target}")
     identities: dict[str, set[str]] = defaultdict(set)
@@ -437,13 +444,15 @@ def build_pilot_package(
         output / "target-encoding.json",
         {
             "version": rows[0].target_encoding_version,
-            "target_order": list(TARGETS),
+            "target_order": list(rows[0].target_order),
             "states": {
                 "positive": {"value": 1, "mask": 1},
                 "negative": {"value": 0, "mask": 1},
                 "unknown": {"value": None, "mask": 0},
             },
-            "normal": "metadata: both targets negative and confirmed_working",
+            "normal": ("metadata: both targets negative and confirmed_working"
+                       if rows[0].target_order == TARGETS else
+                       "metadata: all five targets negative and confirmed_working"),
         },
     )
     _json(
@@ -479,7 +488,7 @@ def build_pilot_package(
         f"Reviewed crop files: {len(copied_crops)}.\n\n"
         + release_details
         +
-        "Person-context crops with targets `[phone_use, looking_around]`. "
+        f"Person-context crops with targets `[{', '.join(rows[0].target_order)}]`. "
         "Unknown remains null/mask=0; only reviewed known targets can supply supervision.\n\n"
         "Sources: " + ", ".join(sorted({row.source.source_id for row in rows})) + ".\n\n"
         "Coverage and support: `reports/coverage.json`. Provenance/review decisions: "

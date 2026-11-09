@@ -10,7 +10,7 @@ import torch
 from torch.nn import functional as F
 
 from ai_exam_monitoring.common.errors import DataContractError
-from ai_exam_monitoring.data.pilot_schema import TARGET_ORDER
+from ai_exam_monitoring.data.pilot_schema import MULTILABEL_TARGET_ORDER, TARGET_ORDER
 
 from .metrics import evaluate_scores, masked_loss, validate_arrays
 
@@ -22,14 +22,18 @@ def minibatch_loss(
     population: int,
     known_counts: torch.Tensor,
     *,
-    pos_weight: tuple[float, float] = (1.0, 1.0),
+    pos_weight: tuple[float, ...] = (1.0, 1.0),
     label_smoothing: float = 0.0,
+    target_order: Sequence[str] = TARGET_ORDER,
 ) -> torch.Tensor:
-    validate_arrays(logits, values, mask)
+    validate_arrays(logits, values, mask, target_order=target_order)
     if (
         type(population) is not int
         or population < len(logits)
-        or known_counts.shape != (2,)
+        or known_counts.shape != (len(target_order),)
+        or len(pos_weight) != len(target_order)
+        or any(not np.isfinite(w) or w <= 0 for w in pos_weight)
+        or not 0 <= label_smoothing < .5
         or not torch.isfinite(known_counts).all()
         or not ((known_counts > 0) & (known_counts <= population)).all()
         or not (known_counts == known_counts.round()).all()
@@ -38,7 +42,7 @@ def minibatch_loss(
     ):
         raise DataContractError("Invalid population support or all-unknown supervision record")
     loss = logits.sum() * 0
-    for target in range(2):
+    for target in range(len(target_order)):
         known = mask[:, target]
         if known.any():
             y = values[known, target]
@@ -55,7 +59,7 @@ def minibatch_loss(
                     logits[known, target], y, reduction="sum"
                 )
             loss = loss + term / known_counts[target]
-    return loss * population / (2 * len(logits))
+    return loss * population / (len(target_order) * len(logits))
 
 
 def enrich_v11_support_and_gates(
@@ -112,7 +116,7 @@ def evaluate_scores_per_target_thresholds(
     scores: torch.Tensor,
     values: torch.Tensor,
     mask: torch.Tensor,
-    thresholds: tuple[float, float],
+    thresholds: Sequence[float],
     groups: Sequence[str] | None = None,
 ) -> dict[str, Any]:
     scores, values, mask = scores.detach().cpu(), values.cpu(), mask.cpu()
@@ -206,15 +210,23 @@ def build_fp_fn_gallery(
     records: Sequence[Any],
     groups: Sequence[str],
     scores: torch.Tensor,
-    thresholds: tuple[float, float],
+    thresholds: Sequence[float],
     *,
     slice_membership: Mapping[str, Sequence[str]] | None = None,
+    target_order: Sequence[str] = TARGET_ORDER,
 ) -> dict[str, list[dict[str, Any]]]:
     scores_cpu = scores.detach().cpu()
     new270_set = set(slice_membership.get("new270_val_74", ())) if slice_membership else set()
     unexp_set = set(slice_membership.get("unexposed_val_88", ())) if slice_membership else set()
     gallery: dict[str, list[dict[str, Any]]] = {}
-    for c, target_name in enumerate(TARGET_ORDER):
+    if (tuple(target_order) not in (TARGET_ORDER, MULTILABEL_TARGET_ORDER)
+            or len(thresholds) != len(target_order) or scores_cpu.ndim != 2
+            or scores_cpu.shape != (len(records), len(target_order))
+            or len(groups) != len(records)
+            or not torch.isfinite(scores_cpu).all()
+            or not ((scores_cpu >= 0) & (scores_cpu <= 1)).all()):
+        raise DataContractError("Gallery target/score/threshold shape mismatch")
+    for c, target_name in enumerate(target_order):
         t = float(thresholds[c])
         errors: list[dict[str, Any]] = []
         for i, record in enumerate(records):
@@ -260,23 +272,26 @@ def report_scores(
     mask: torch.Tensor,
     threshold: float,
     prevalence: torch.Tensor,
+    *, target_order: Sequence[str] = TARGET_ORDER,
 ) -> dict[str, Any]:
-    result = evaluate_scores(logits.sigmoid(), values, mask, threshold)
+    result = evaluate_scores(logits.sigmoid(), values, mask, threshold, target_order=target_order)
     result["macro_masked_bce"] = (
-        float(masked_loss(logits, values, mask)) if mask.any(0).all() else None
+        float(masked_loss(logits, values, mask, target_order=target_order))
+        if mask.any(0).all() else None
     )
-    for target_name in TARGET_ORDER:
+    for target_name in target_order:
         row = result["targets"][target_name]
         row["fpr"] = row["fp"] / row["negative"] if row["negative"] else None
     if (
-        prevalence.shape != (2,)
+        prevalence.shape != (len(target_order),)
         or not torch.isfinite(prevalence).all()
         or not ((prevalence >= 0) & (prevalence <= 1)).all()
     ):
         raise DataContractError("Invalid train-only prevalence")
-    constant = evaluate_scores(prevalence.expand_as(logits), values, mask, threshold)
+    constant = evaluate_scores(prevalence.expand_as(logits), values, mask, threshold,
+                               target_order=target_order)
     losses = []
-    for target in range(2):
+    for target in range(len(target_order)):
         known = mask[:, target]
         if known.any():
             # Exact Bernoulli cross entropy: incompatible p=0/1 yields unavailable,
@@ -286,7 +301,8 @@ def report_scores(
             terms = torch.where(y.bool(), -p.log(), -torch.log1p(-p))
             losses.append(float(terms.mean()))
     constant["macro_masked_bce"] = (
-        sum(losses) / 2 if len(losses) == 2 and all(np.isfinite(v) for v in losses) else None
+        sum(losses) / len(target_order)
+        if len(losses) == len(target_order) and all(np.isfinite(v) for v in losses) else None
     )
     result["constant_train_prevalence"] = constant
     return result
@@ -301,8 +317,9 @@ def group_bootstrap(
     *,
     samples: int = 5000,
     seed: int = 42,
+    target_order: Sequence[str] = TARGET_ORDER,
 ) -> dict[str, Any]:
-    validate_arrays(scores, values, mask)
+    validate_arrays(scores, values, mask, target_order=target_order)
     if (
         len(groups) != len(scores)
         or any(not isinstance(g, str) or not g for g in groups)
@@ -314,10 +331,10 @@ def group_bootstrap(
         raise DataContractError("Invalid bootstrap groups/scores/protocol")
     unique = sorted(set(groups))
     # Aggregate confusion per whole group; repeated group draws repeat its entire mass.
-    statistics = np.zeros((len(unique), 2, 4), dtype=np.int64)
+    statistics = np.zeros((len(unique), len(target_order), 4), dtype=np.int64)
     for i, group in enumerate(unique):
         indices = [j for j, g in enumerate(groups) if g == group]
-        for target in range(2):
+        for target in range(len(target_order)):
             selected = mask[indices, target]
             y = values[indices, target][selected].bool()
             predicted = scores[indices, target][selected] >= threshold
@@ -337,7 +354,7 @@ def group_bootstrap(
         "method": "whole_group_percentile_95",
         "targets": {},
     }
-    for target, name in enumerate(TARGET_ORDER):
+    for target, name in enumerate(target_order):
         tp, fp, fn, tn = totals[:, target].T
         metrics = {}
         for metric, numerator, denominator in (
@@ -372,6 +389,7 @@ def slice_reports(
     enrollment: dict[str, list[str]],
     threshold: float,
     prevalence: torch.Tensor,
+    *, target_order: Sequence[str] = TARGET_ORDER,
 ) -> dict[str, Any]:
     result = {}
     for name, members in enrollment.items():
@@ -379,9 +397,10 @@ def slice_reports(
             raise DataContractError("Invalid frozen slice membership")
         indices = [i for i, ident in enumerate(ids) if ident in set(members)]
         report = report_scores(
-            logits[indices], values[indices], mask[indices], threshold, prevalence
+            logits[indices], values[indices], mask[indices], threshold, prevalence,
+            target_order=target_order,
         )
-        for target, target_name in enumerate(TARGET_ORDER):
+        for target, target_name in enumerate(target_order):
             row = report["targets"][target_name]
             known_groups = {groups[i] for i in indices if mask[i, target]}
             pos_groups = {
@@ -393,6 +412,8 @@ def slice_reports(
             row["evidenced_groups"] = len(known_groups)
             row["positive_groups"] = len(pos_groups)
             row["negative_groups"] = len(neg_groups)
+            if tuple(target_order) != TARGET_ORDER:
+                continue
             row["support_status"] = (
                 "AVAILABLE"
                 if row["positive"] >= 20 and row["negative"] >= 20 and len(known_groups) >= 3

@@ -72,7 +72,7 @@ def monitor_fixture(root: Path):
     return runtime, payload, receipt, config_path
 
 
-def synthetic_runner(runtime, count=5, interval=30.):
+def synthetic_runner(runtime, count=5, interval=30., classifier=None):
     def factory(config, root, source, receipt, *, session_id):
         rights = json.loads(receipt.read_text(encoding="utf-8"))
         class Source:
@@ -88,7 +88,8 @@ def synthetic_runner(runtime, count=5, interval=30.):
                     yield VideoFrame(index, index * interval, image)
         return OnlineVideoRunner(
             session_id, Source(),
-            lambda: FrameProcessor(SyntheticDetector(), SyntheticClassifier(), runtime.raw["crop"]),
+            lambda: FrameProcessor(SyntheticDetector(), classifier or SyntheticClassifier(),
+                                   runtime.raw["crop"]),
             sampling_hz=1000, guard=lambda: media_deadline(rights), verify_source=lambda: None,
         )
     return factory

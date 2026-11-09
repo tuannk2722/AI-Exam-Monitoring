@@ -15,8 +15,10 @@ from typing import Any
 
 import torch
 
+from ai_exam_monitoring.common.config import load_yaml
 from ai_exam_monitoring.common.errors import DataContractError
 from ai_exam_monitoring.common.provenance import sha256_file
+from ai_exam_monitoring.data.pilot_schema import TARGET_ORDER
 
 from .adaptation_config import FilePin, RepresentationConfig, load_adaptation_config, local_path
 from .adaptation_model import tensor_digest
@@ -33,6 +35,8 @@ def read(path: Path) -> Any:
 def champion_key(arm: str, metrics: dict[str, Any]) -> tuple[Any, ...]:
     calibrated = metrics["calibrated_evaluation"]
     rows = list(calibrated["targets"].values())
+    if len(rows) != len(TARGET_ORDER):
+        raise DataContractError("Legacy campaign ranking requires two target reports")
     passed = sum(row.get("v11_quality_gate_pass") is True for row in rows)
     gap = sum(max(0., .8 - (r["precision"] or 0.))
               + max(0., .8 - (r["recall"] or 0.))
@@ -56,6 +60,9 @@ def run_campaign(
     if resume:
         raise DataContractError("Legacy campaign has no automatic continuation")
     authority = read_pin(root, design["authorization"])
+    proposal = load_yaml(FilePin(**design["proposal"]).verify(root))
+    if proposal.get("targets") != list(TARGET_ORDER):
+        raise DataContractError("Legacy two-target campaign needs a new ranking protocol")
     if not torch.cuda.is_available():
         raise DataContractError("Actual CUDA GPU required before campaign; no CPU fallback")
     if not storage.is_dir() or storage.is_relative_to(root):

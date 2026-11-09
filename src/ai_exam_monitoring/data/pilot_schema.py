@@ -9,8 +9,9 @@ from __future__ import annotations
 import json
 import re
 from collections.abc import Mapping, Sequence
-from dataclasses import asdict, dataclass, fields
+from dataclasses import asdict, dataclass, fields, is_dataclass
 from pathlib import Path, PurePosixPath
+from types import MappingProxyType
 from typing import Any, Literal, TypeVar
 
 from ai_exam_monitoring.common.errors import DataContractError
@@ -19,6 +20,10 @@ SCHEMA_VERSION = "pilot-b-manifest-v1"
 DERIVED_SCHEMA_VERSION = "pilot-b-manifest-v2"
 TARGET_ENCODING_VERSION = "pilot-b-targets-v1"
 TARGET_ORDER = ("phone_use", "looking_around")
+MULTILABEL_SCHEMA_VERSION = "pilot-b-manifest-v3"
+MULTILABEL_ENCODING_VERSION = "pilot-b-targets-v2"
+MULTILABEL_TARGET_ORDER = (*TARGET_ORDER, "sleeping", "hand_raising", "standing_up")
+MULTILABEL_SEMANTICS_VERSION = "LABEL-CONTRACT-20261109"
 
 TargetState = Literal["positive", "negative", "unknown"]
 ContextState = Literal["confirmed_working", "confirmed_other", "unknown"]
@@ -303,12 +308,33 @@ class PilotRecord:
     use_scope: str | None = None
     schema_version: str = SCHEMA_VERSION
     target_encoding_version: str = TARGET_ENCODING_VERSION
+    targets: Mapping[str, TargetReview] | None = None
+    semantics_version: str | None = None
 
     def __post_init__(self) -> None:
-        if self.schema_version not in {SCHEMA_VERSION, DERIVED_SCHEMA_VERSION}:
+        multilabel = self.schema_version == MULTILABEL_SCHEMA_VERSION
+        if self.schema_version not in {
+            SCHEMA_VERSION, DERIVED_SCHEMA_VERSION, MULTILABEL_SCHEMA_VERSION,
+        }:
             raise DataContractError(f"Unsupported schema_version: {self.schema_version!r}")
-        if self.target_encoding_version != TARGET_ENCODING_VERSION:
+        expected_encoding = MULTILABEL_ENCODING_VERSION if multilabel else TARGET_ENCODING_VERSION
+        if self.target_encoding_version != expected_encoding:
             raise DataContractError("Unsupported target encoding version")
+        if multilabel:
+            if (not isinstance(self.targets, Mapping)
+                    or set(self.targets) != set(MULTILABEL_TARGET_ORDER)
+                    or any(not isinstance(v, TargetReview) for v in self.targets.values())
+                    or self.semantics_version != MULTILABEL_SEMANTICS_VERSION):
+                raise DataContractError("V3 requires five named targets and approved semantics")
+            if (self.phone_use != self.targets["phone_use"]
+                    or self.looking_around != self.targets["looking_around"]):
+                raise DataContractError("Legacy target accessors must match V3 targets")
+            object.__setattr__(self, "targets", MappingProxyType(dict(self.targets)))
+            if (self.targets["sleeping"].state == "positive"
+                    and self.targets["looking_around"].state != "negative"):
+                raise DataContractError("Ground truth sleeping P requires looking_around N")
+        elif self.targets is not None or self.semantics_version is not None:
+            raise DataContractError("V1/V2 cannot contain V3 target fields")
         for name in ("sample_id", "dataset_version", "selection_version", "crop_policy_version"):
             _text(getattr(self, name), name)
         if re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9._-]*", self.sample_id) is None:
@@ -349,14 +375,16 @@ class PilotRecord:
             raise DataContractError("Invalid split")
         if self.crop is not None:
             if self.crop.derivation is not None and (
-                self.schema_version != DERIVED_SCHEMA_VERSION
+                self.schema_version not in {DERIVED_SCHEMA_VERSION, MULTILABEL_SCHEMA_VERSION}
                 or self.crop.derivation.source_sha256 != self.source.image_sha256
             ):
-                raise DataContractError("Derived crop requires V2 and matching source SHA")
+                raise DataContractError("Derived crop requires V2/V3 and matching source SHA")
             bounds = PixelBox(0, 0, self.source.image_width, self.source.image_height)
             if not bounds.contains(self.crop.context_box):
                 raise DataContractError("Crop must be within source-image dimensions")
-        for reviewed in (self.phone_use, self.looking_around, self.work_context_review):
+        reviews: tuple[TargetReview | ContextReview, ...] = (
+            *self.target_reviews, self.work_context_review)
+        for reviewed in reviews:
             if reviewed.state != "unknown" and (
                 self.crop is None
                 or reviewed.review is None
@@ -386,7 +414,7 @@ class PilotRecord:
         if self.disposition != "approved" or self.crop is None or self.crop.review is None:
             raise DataContractError("Training/evaluation usage requires approved person/crop")
         if not any(self.target_mask):
-            raise DataContractError("Both-unknown crop cannot supply loss or metric supervision")
+            raise DataContractError("All-unknown crop cannot supply loss or metric supervision")
         if (
             self.rights.review is None
             or not self.rights.approved_use_scope
@@ -407,19 +435,34 @@ class PilotRecord:
             raise DataContractError("Test usage requires owner test-freeze evidence")
 
     @property
-    def target_values(self) -> tuple[int | None, int | None]:
-        return (self.phone_use.value, self.looking_around.value)
+    def target_order(self) -> tuple[str, ...]:
+        return MULTILABEL_TARGET_ORDER if self.schema_version == MULTILABEL_SCHEMA_VERSION else (
+            TARGET_ORDER)
 
     @property
-    def target_mask(self) -> tuple[int, int]:
-        return (self.phone_use.mask, self.looking_around.mask)
+    def target_reviews(self) -> tuple[TargetReview, ...]:
+        if self.schema_version == MULTILABEL_SCHEMA_VERSION:
+            assert self.targets is not None
+            return tuple(self.targets[name] for name in self.target_order)
+        return self.phone_use, self.looking_around
+
+    def target_review(self, name: str) -> TargetReview:
+        return self.target_reviews[self.target_order.index(name)]
+
+    @property
+    def target_values(self) -> tuple[int | None, ...]:
+        return tuple(target.value for target in self.target_reviews)
+
+    @property
+    def target_mask(self) -> tuple[int, ...]:
+        return tuple(target.mask for target in self.target_reviews)
 
     @property
     def normal_review(self) -> NormalState:
-        states = (self.phone_use.state, self.looking_around.state)
+        states = tuple(target.state for target in self.target_reviews)
         if "positive" in states or self.work_context_review.state == "confirmed_other":
             return "not_normal"
-        if states == ("negative", "negative") and (
+        if all(state == "negative" for state in states) and (
             self.work_context_review.state == "confirmed_working"
         ):
             return "confirmed_normal"
@@ -427,11 +470,25 @@ class PilotRecord:
 
 
 def record_to_dict(record: PilotRecord) -> dict[str, Any]:
-    payload = asdict(record)
+    # V1/V2 bytes stay unchanged; V3 serializes only named targets, not duplicate accessors.
+    payload: dict[str, Any] = {}
+    for field in fields(record):
+        if field.name == "targets":
+            continue
+        value = getattr(record, field.name)
+        payload[field.name] = (asdict(value) if is_dataclass(value)
+                               and not isinstance(value, type) else value)
+    if record.schema_version == MULTILABEL_SCHEMA_VERSION:
+        payload.pop("phone_use")
+        payload.pop("looking_around")
+        payload["targets"] = dict(zip(record.target_order,
+                                      (asdict(t) for t in record.target_reviews), strict=True))
+    else:
+        payload.pop("semantics_version")
     if record.schema_version == SCHEMA_VERSION and payload["crop"] is not None:
         # Frozen V1 serialization, including historical test hashes, is unchanged.
         payload["crop"].pop("derivation")
-    payload["target_order"] = list(TARGET_ORDER)
+    payload["target_order"] = list(record.target_order)
     payload["target_values"] = list(record.target_values)
     payload["target_mask"] = list(record.target_mask)
     payload["normal_review"] = record.normal_review
@@ -484,10 +541,24 @@ def record_from_dict(value: Mapping[str, Any]) -> PilotRecord:
     source = _object(payload.get("source"), "source")
     _tuple(source, "aliases")
     payload["source"] = _construct(SourceRef, source)
-    for name in TARGET_ORDER:
-        target = _object(payload.get(name), name)
+    multilabel = payload["schema_version"] == MULTILABEL_SCHEMA_VERSION
+    if multilabel:
+        if any(name in payload for name in TARGET_ORDER):
+            raise DataContractError("V3 stores labels in targets, not separate legacy fields")
+        targets = _object(payload.get("targets"), "targets")
+        if set(targets) != set(MULTILABEL_TARGET_ORDER):
+            raise DataContractError("V3 requires exactly the five canonical target IDs")
+    else:
+        if "targets" in payload or "semantics_version" in payload:
+            raise DataContractError("V1/V2 cannot contain V3 fields")
+        targets = {name: payload.get(name) for name in TARGET_ORDER}
+    for name in (MULTILABEL_TARGET_ORDER if multilabel else TARGET_ORDER):
+        target = _object(targets[name], name)
         target["review"] = _review(target.get("review"))
-        payload[name] = _construct(TargetReview, target)
+        targets[name] = _construct(TargetReview, target)
+    payload.update({name: targets[name] for name in TARGET_ORDER})
+    if multilabel:
+        payload["targets"] = targets
     context = _object(payload.get("work_context_review"), "work_context_review")
     context["review"] = _review(context.get("review"))
     payload["work_context_review"] = _construct(ContextReview, context)
@@ -516,7 +587,7 @@ def record_from_dict(value: Mapping[str, Any]) -> PilotRecord:
     _tuple(payload, "ineligibility_reasons")
     record = _construct(PilotRecord, payload)
     expected = {
-        "target_order": list(TARGET_ORDER),
+        "target_order": list(record.target_order),
         "target_values": list(record.target_values),
         "target_mask": list(record.target_mask),
         "normal_review": record.normal_review,
@@ -538,7 +609,8 @@ def validate_records(records: Sequence[PilotRecord]) -> None:
     identities: set[tuple[str, str, str | int | None]] = set()
     split_keys: dict[tuple[str, str], set[str]] = {}
     package_versions: dict[str, set[str]] = {
-        name: set() for name in ("dataset_version", "selection_version", "crop_policy_version")
+        name: set() for name in ("dataset_version", "selection_version", "crop_policy_version",
+                                "target_encoding_version")
     }
     split_versions: set[str] = set()
     for record in records:
@@ -589,13 +661,27 @@ def read_records(path: str | Path) -> list[PilotRecord]:
             if not line.strip():
                 raise DataContractError(f"Blank JSONL record at line {line_number}")
             try:
-                records.append(record_from_dict(json.loads(line)))
+                payload = json.loads(line)
+                if isinstance(payload, dict) and payload.get("schema_version") == (
+                    MULTILABEL_SCHEMA_VERSION
+                ):
+                    payload = json.loads(line, object_pairs_hook=_unique_object)
+                records.append(record_from_dict(payload))
             except (json.JSONDecodeError, DataContractError) as error:
                 raise DataContractError(
                     f"Invalid pilot record at line {line_number}: {error}"
                 ) from error
     validate_records(records)
     return records
+
+
+def _unique_object(pairs: list[tuple[str, Any]]) -> dict[str, Any]:
+    result: dict[str, Any] = {}
+    for name, value in pairs:
+        if name in result:
+            raise DataContractError(f"Duplicate JSON field: {name}")
+        result[name] = value
+    return result
 
 
 def write_records(path: str | Path, records: Sequence[PilotRecord]) -> None:

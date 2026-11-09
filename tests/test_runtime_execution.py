@@ -170,6 +170,7 @@ class ExecutionTests(unittest.TestCase):
                 return value.mean(dim=(2, 3))[:, :2]
 
         classifier = BundleClassifier.__new__(BundleClassifier)
+        classifier.target_order = ["phone_use", "looking_around"]
         classifier.execution = ExecutionSettings("cpu", batch)
         classifier.device = classifier.execution.resolve()
         classifier.threads = torch.get_num_threads()

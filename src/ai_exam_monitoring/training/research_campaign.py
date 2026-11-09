@@ -20,6 +20,7 @@ import yaml
 
 from ai_exam_monitoring.common.errors import DataContractError
 from ai_exam_monitoring.common.provenance import sha256_file
+from ai_exam_monitoring.data.pilot_schema import TARGET_ORDER
 
 from .adaptation_config import DinoAdaptationConfig, FilePin, load_adaptation_config, local_path
 from .adaptation_model import AdaptationModel
@@ -83,6 +84,8 @@ class ResearchCampaign:
         self.authority = read_pin(self.root, self.design["authorization"])
         proposal_path = FilePin(**self.design["proposal"]).verify(self.root)
         self.proposal = yaml.safe_load(proposal_path.read_text(encoding="utf-8"))
+        if self.proposal.get("targets") != list(TARGET_ORDER):
+            raise DataContractError("Legacy two-target campaign needs a new ranking protocol")
         if (self.authority.get("status") != "approved"
                 or self.authority.get("proposal") != self.design["proposal"]
                 or self.authority.get("cloud_upload_authorized") is not True

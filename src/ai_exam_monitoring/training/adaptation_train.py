@@ -8,7 +8,7 @@ import math
 import os
 import random
 import time
-from collections.abc import Callable
+from collections.abc import Callable, Sequence
 from dataclasses import asdict
 from pathlib import Path
 from typing import Any
@@ -18,6 +18,7 @@ import torch
 
 from ai_exam_monitoring.common.errors import DataContractError
 from ai_exam_monitoring.common.provenance import sha256_file
+from ai_exam_monitoring.data.pilot_schema import MULTILABEL_SEMANTICS_VERSION
 
 from .adaptation_config import (
     AdaptationConfig,
@@ -292,6 +293,7 @@ def train_images(
                     known,
                     pos_weight=config.pos_weight,
                     label_smoothing=config.label_smoothing,
+                    target_order=config.target_order,
                 )
             else:
                 logits = model(train.batch(indices, config))
@@ -316,8 +318,10 @@ def train_images(
                 diagnose(epoch, start // config.batch_size + 1)
         train_logits = infer(model, train, config)
         val_logits = infer(model, selection, config)
-        train_loss = float(masked_loss(train_logits, train.values, train.mask))
-        val_loss = float(masked_loss(val_logits, selection.values, selection.mask))
+        train_loss = float(masked_loss(train_logits, train.values, train.mask,
+                                       target_order=config.target_order))
+        val_loss = float(masked_loss(val_logits, selection.values, selection.mask,
+                                     target_order=config.target_order))
         if time.perf_counter() >= deadline:
             raise TimeoutError("Approved wall-time budget exhausted before epoch commit")
         history_entry: dict[str, Any] = {
@@ -328,13 +332,20 @@ def train_images(
         }
         if isinstance(config, E005AdaptationConfig):
             train_eval = evaluate_scores(
-                train_logits.sigmoid(), train.values, train.mask, config.threshold
+                train_logits.sigmoid(), train.values, train.mask, config.threshold,
+                target_order=config.target_order
             )
             val_eval = evaluate_scores(
-                val_logits.sigmoid(), selection.values, selection.mask, config.threshold
+                val_logits.sigmoid(), selection.values, selection.mask, config.threshold,
+                target_order=config.target_order
             )
-            train_ap = float(train_eval["macro_ap"] or 0.0)
-            val_ap = float(val_eval["macro_ap"] or 0.0)
+            if len(config.target_order) != 2 and use_ap_selection and (
+                    train_eval["macro_ap"] is None or val_eval["macro_ap"] is None):
+                raise DataContractError("AP selection requires P/N support for all targets")
+            train_ap = (float(train_eval["macro_ap"]) if train_eval["macro_ap"] is not None
+                        else 0.0 if len(config.target_order) == 2 else None)
+            val_ap = (float(val_eval["macro_ap"]) if val_eval["macro_ap"] is not None
+                      else 0.0 if len(config.target_order) == 2 else None)
             history_entry.update(
                 stage=stage_name,
                 head_lr=head_lr,
@@ -343,6 +354,8 @@ def train_images(
                 val_macro_ap=val_ap,
             )
             if use_ap_selection:
+                if val_ap is None:
+                    raise DataContractError("Cannot select a checkpoint on unavailable AP")
                 prev_best_ap = float(state.get("best_val_macro_ap", -float("inf")))
                 if val_ap > prev_best_ap or (
                     val_ap == prev_best_ap and val_loss < state["best_loss"]
@@ -413,13 +426,17 @@ def cohort_report(
     config: AdaptationConfig,
     prevalence: torch.Tensor,
     protocol: dict[str, Any],
-    *, thresholds: tuple[float, float] | None = None,
+    *, thresholds: Sequence[float] | None = None,
 ) -> tuple[dict[str, Any], list[dict[str, Any]]]:
     logits = infer(model, cohort, config)
-    metrics = report_scores(logits, cohort.values, cohort.mask, config.threshold, prevalence)
-    metrics["group_bootstrap"] = group_bootstrap(
-        logits.sigmoid(), cohort.values, cohort.mask, cohort.groups, config.threshold
-    )
+    metrics = report_scores(logits, cohort.values, cohort.mask, config.threshold, prevalence,
+                            target_order=config.target_order)
+    legacy_targets = len(config.target_order) == 2
+    bootstrap = protocol.get("group_bootstrap") if not legacy_targets else None
+    metrics["group_bootstrap"] = (group_bootstrap(
+        logits.sigmoid(), cohort.values, cohort.mask, cohort.groups, config.threshold,
+        target_order=config.target_order, **(bootstrap if bootstrap is not None else {})
+    ) if legacy_targets or bootstrap is not None else None)
     enrolled_slices = protocol.get("slice_enrollment", {}).get(cohort.name, {})
     metrics["slices"] = slice_reports(
         logits,
@@ -430,11 +447,13 @@ def cohort_report(
         enrolled_slices,
         config.threshold,
         prevalence,
+        target_order=config.target_order,
     )
-    calibrated_pair: tuple[float, float] | None = None
+    calibrated_pair: Sequence[float] | None = None
     if isinstance(config, E005AdaptationConfig):
-        enrich_v11_support_and_gates(metrics, cohort.values, cohort.mask, cohort.groups)
-        for s_name, members in enrolled_slices.items():
+        if legacy_targets:
+            enrich_v11_support_and_gates(metrics, cohort.values, cohort.mask, cohort.groups)
+        for s_name, members in (enrolled_slices.items() if legacy_targets else []):
             s_idx = [i for i, ident in enumerate(cohort.ids) if ident in set(members)]
             s_grp = [cohort.groups[i] for i in s_idx]
             enrich_v11_support_and_gates(
@@ -452,18 +471,20 @@ def cohort_report(
                 cohort.mask[src_indices],
                 config.threshold,
                 prevalence,
+                target_order=config.target_order,
             )
-            enrich_v11_support_and_gates(
-                src_rep, cohort.values[src_indices], cohort.mask[src_indices], src_groups
-            )
+            if legacy_targets:
+                enrich_v11_support_and_gates(
+                    src_rep, cohort.values[src_indices], cohort.mask[src_indices], src_groups
+                )
             by_source[source_id] = src_rep
         metrics["by_source"] = by_source
         metrics["fp_fn_gallery_default_threshold"] = build_fp_fn_gallery(
             cohort.records,
             cohort.groups,
             logits.sigmoid(),
-            (config.threshold, config.threshold),
-            slice_membership=enrolled_slices,
+            (config.threshold,) * len(config.target_order),
+            slice_membership=enrolled_slices, target_order=config.target_order,
         )
         if config.calibrate_thresholds_on_val:
             cal: dict[str, Any]
@@ -473,13 +494,14 @@ def cohort_report(
                 cal = {"threshold_list": list(thresholds),
                        "thresholds": dict(zip(config.target_order, thresholds, strict=True)),
                        "evaluation": evaluate_pair(logits.sigmoid(), cohort.values,
-                                                   cohort.mask, thresholds, cohort.groups)}
+                                                   cohort.mask, thresholds, cohort.groups,
+                                                   target_order=config.target_order)}
             else:
                 cal = calibrate_optimal_thresholds(
                     logits.sigmoid(), cohort.values, cohort.mask, groups=cohort.groups
                 )
             t_list = cal["threshold_list"]
-            calibrated_pair = (float(t_list[0]), float(t_list[1]))
+            calibrated_pair = tuple(float(t) for t in t_list)
             metrics["calibrated_thresholds"] = cal["thresholds"]
             metrics["calibrated_evaluation"] = cal["evaluation"]
             cal_slices: dict[str, Any] = {}
@@ -494,6 +516,8 @@ def cohort_report(
                     cohort.mask[s_idx],
                     calibrated_pair,
                     groups=s_grp,
+                    **({"target_order": config.target_order}
+                       if isinstance(config, RepresentationConfig) else {}),
                 )
             metrics["calibrated_slices"] = cal_slices
             metrics["fp_fn_gallery_calibrated_threshold"] = build_fp_fn_gallery(
@@ -501,7 +525,7 @@ def cohort_report(
                 cohort.groups,
                 logits.sigmoid(),
                 calibrated_pair,
-                slice_membership=enrolled_slices,
+                slice_membership=enrolled_slices, target_order=config.target_order,
             )
     rows = []
     for i, record in enumerate(cohort.records):
@@ -518,11 +542,9 @@ def cohort_report(
             "decisions": [s >= config.threshold for s in score],
         }
         if calibrated_pair is not None:
-            row_dict["calibrated_thresholds"] = [calibrated_pair[0], calibrated_pair[1]]
+            row_dict["calibrated_thresholds"] = list(calibrated_pair)
             row_dict["calibrated_decisions"] = [
-                score[0] >= calibrated_pair[0],
-                score[1] >= calibrated_pair[1],
-            ]
+                s >= t for s, t in zip(score, calibrated_pair, strict=True)]
         rows.append(row_dict)
     return metrics, rows
 
@@ -667,15 +689,22 @@ def run_adaptation(
         prevalence = (train.values * train.mask).sum(0) / train.mask.sum(0)
         metrics = {}
         thresholds = None
-        if isinstance(config, RepresentationConfig):
+        if isinstance(config, RepresentationConfig) and (
+                len(config.target_order) == 2 or config.calibrate_thresholds_on_val):
             thresholds = calibrate_exact(
-                infer(model, selection, config).sigmoid(), selection.values, selection.mask
+                infer(model, selection, config).sigmoid(), selection.values, selection.mask,
+                target_order=config.target_order,
+                objectives=protocol.get("calibration_objectives")
             )
             write_json(output / "calibration.json", {
                 "schema_version": "selection-calibration-v4", "fit_cohort": selection.name,
                 "thresholds": list(thresholds),
                 "checkpoint_sha256": sha256_file(output / "best.pt"),
                 "selection_ids_sha256": digest_json(selection.ids),
+                **({"target_order": config.target_order,
+                    "semantics_version": MULTILABEL_SEMANTICS_VERSION,
+                    "calibration_objectives": protocol["calibration_objectives"]}
+                   if len(config.target_order) != 2 else {}),
             })
         for cohort in cohorts:
             if record.elapsed_seconds + time.perf_counter() - started >= config.wall_time_seconds:
@@ -701,6 +730,8 @@ def run_adaptation(
                 "pretrained_required_for_reload": False,
                 "target_order": config.target_order,
                 "threshold": config.threshold,
+                **({"semantics_version": MULTILABEL_SEMANTICS_VERSION}
+                   if len(config.target_order) != 2 else {}),
             },
         )
         record.best_epoch, record.completed_epochs = result["best_epoch"], result["epoch"]

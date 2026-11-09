@@ -13,6 +13,10 @@ from PIL import Image
 from torchvision.transforms import functional as TF
 
 from ai_exam_monitoring.common.errors import DataContractError
+from ai_exam_monitoring.data.pilot_schema import (
+    MULTILABEL_SEMANTICS_VERSION,
+    MULTILABEL_TARGET_ORDER,
+)
 from ai_exam_monitoring.training.adaptation_config import (
     DinoAdaptationConfig,
     SpatialConfig,
@@ -45,13 +49,15 @@ class BundleClassifier:
         checkpoint = runtime.pin("checkpoint")
         checkpoint_sha = runtime.raw["pins"]["checkpoint"]["sha256"]
         binding = runtime.raw["classifier"]
+        self.target_order = list(self.config.target_order)
+        multilabel = tuple(self.target_order) == MULTILABEL_TARGET_ORDER
         if runtime.raw.get("schema_version") == "recorded-runtime-config-v5":
             approved_model = (isinstance(self.config, DinoAdaptationConfig)
                               and self.config.model == binding["model"]
                               and self.config.experiment_id == binding["experiment_id"]
                               and self.config.image_size == binding["image_size"]
-                              and self.config.encoder_variant == "dinov2_vitb14"
-                              and self.config.train_last_blocks == 2
+                              and (multilabel or self.config.encoder_variant == "dinov2_vitb14")
+                              and (multilabel or self.config.train_last_blocks == 2)
                               and self.config.pooling == "global_mean")
         else:
             approved_model = (isinstance(self.config, SpatialConfig)
@@ -59,7 +65,8 @@ class BundleClassifier:
                               and self.config.pooling == "global_mean"
                               and self.config.experiment_id == "E008-V14-G0-S20261023")
         if (not approved_model
-                or self.config.target_order != TARGETS
+                or self.target_order != (list(MULTILABEL_TARGET_ORDER) if multilabel else TARGETS)
+                or binding.get("target_order", self.target_order) != self.target_order
                 or record["experiment_id"] != self.config.experiment_id
                 or record["status"] != "FINISHED"
                 or bundle["schema_version"] != "full-model-bundle-v1"
@@ -67,12 +74,19 @@ class BundleClassifier:
                 or bundle["config_sha256"] != digest_json(resolved)
                 or record["config_sha256"] != bundle["config_sha256"]
                 or record["code_sha256"] != bundle["code_sha256"]
-                or bundle["target_order"] != TARGETS
+                or bundle["target_order"] != self.target_order
                 or calibration["schema_version"] != "selection-calibration-v4"
                 or calibration["checkpoint_sha256"] != checkpoint_sha):
             raise DataContractError("Prototype checkpoint/config/calibration identity mismatch")
+        if multilabel and (
+                binding.get("target_order") != self.target_order
+                or calibration.get("target_order") != self.target_order
+                or any(item.get("semantics_version") != MULTILABEL_SEMANTICS_VERSION
+                       for item in (binding, bundle, calibration))):
+            raise DataContractError("Classifier target/semantics metadata mismatch")
         self.thresholds = [float(v) for v in calibration["thresholds"]]
-        if len(self.thresholds) != 2 or any(not math.isfinite(v) or not 0 <= v <= 1
+        if len(self.thresholds) != len(self.target_order) or any(
+                not math.isfinite(v) or not 0 <= v <= math.nextafter(1., 2.)
                                             for v in self.thresholds):
             raise DataContractError("Invalid classifier thresholds")
         self.config.weights_license.verify(runtime.workspace)
@@ -100,7 +114,7 @@ class BundleClassifier:
         precision = self.execution.precision() if self.execution else nullcontext()
         with precision, torch.inference_mode():
             logits = self.model(tensor.unsqueeze(0).to(self.device))
-            if logits.shape != (1, 2) or not torch.isfinite(logits).all():
+            if logits.shape != (1, len(self.target_order)) or not torch.isfinite(logits).all():
                 raise DataContractError("Invalid classifier output")
             return [float(v) for v in torch.sigmoid(logits)[0].tolist()]
 
@@ -118,6 +132,7 @@ class BundleClassifier:
         precision = self.execution.precision() if self.execution else nullcontext()
         with precision, torch.inference_mode():
             logits = self.model(torch.stack(tensors).to(self.device))
-            if logits.shape != (len(images), 2) or not torch.isfinite(logits).all():
+            if (logits.shape != (len(images), len(self.target_order))
+                    or not torch.isfinite(logits).all()):
                 raise DataContractError("Invalid classifier batch output")
             return [[float(v) for v in row] for row in torch.sigmoid(logits).cpu().tolist()]

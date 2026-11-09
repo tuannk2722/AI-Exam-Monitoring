@@ -14,17 +14,20 @@ import numpy as np
 from PIL import Image
 
 from ai_exam_monitoring.common.provenance import sha256_file
-from ai_exam_monitoring.data.pilot_schema import PilotRecord, read_records
+from ai_exam_monitoring.data.pilot_schema import TARGET_ORDER, PilotRecord, read_records
 from ai_exam_monitoring.data.source_review import preview_input
 
 
-def accepted_records(records: list[PilotRecord]) -> list[PilotRecord]:
+def accepted_records(
+    records: list[PilotRecord], *, include_pending: bool = False,
+) -> list[PilotRecord]:
     """Include approved review-only and test too; never filter on old split."""
-    result = sorted((r for r in records if r.disposition == "approved"),
+    result = sorted((r for r in records if r.disposition == "approved" or (
+        include_pending and r.disposition == "pending" and r.usage == "review_only")),
                     key=lambda r: r.sample_id)
     if len({r.sample_id for r in records}) != len(records):
         raise ValueError("Duplicate sample ID")
-    if any(r.crop is None or r.crop.review is None for r in result):
+    if any(r.crop is None or (r.crop.review is None and not include_pending) for r in result):
         raise ValueError("Approved crop missing reviewed pixels")
     return result
 
@@ -98,9 +101,16 @@ def build(config_path: Path, workspace: Path) -> dict[str, Any]:
     if sha256_file(ledger) != config["ledger_sha256"]:
         raise ValueError("Ledger pin mismatch")
     records = read_records(ledger)
-    accepted = accepted_records(records)
-    if len(accepted) != config["expected_accepted"]:
+    include_pending = config.get("include_pending", False)
+    if type(include_pending) is not bool:
+        raise ValueError("include_pending must be boolean")
+    accepted = accepted_records(records, include_pending=include_pending)
+    expected = config["expected_review"] if include_pending else config["expected_accepted"]
+    if not accepted or len(accepted) != expected:
         raise ValueError("Accepted inventory mismatch")
+    order = accepted[0].target_order
+    if any(r.target_order != order for r in accepted):
+        raise ValueError("Review workspace cannot mix target contracts")
     if any(r.usage == "test" for r in accepted) and not config["allow_test_visual_review"]:
         raise ValueError("Test visual access not authorized")
     recipe_path = _path(workspace, config["recipe"])
@@ -108,8 +118,7 @@ def build(config_path: Path, workspace: Path) -> dict[str, Any]:
         raise ValueError("Recipe pin mismatch")
     recipe = json.loads(recipe_path.read_text(encoding="utf-8"))
     size, fill = recipe["image_size"], tuple(recipe["fill"])
-    if size != 224:
-        raise ValueError("UI currently requires a 224 pixel preview")
+    preview_input(Image.new("RGB", (1, 1)), size, fill)
     # Verify all input bytes before creating the workspace; do not silently skip failures.
     for r in accepted:
         assert r.crop is not None
@@ -131,7 +140,7 @@ def build(config_path: Path, workspace: Path) -> dict[str, Any]:
         assert r.crop is not None
         source = package / r.crop.crop_relpath
         original = f"images/{index:04d}-crop{source.suffix.lower()}"
-        prepared = f"images/{index:04d}-224.png"
+        prepared = f"images/{index:04d}-{size}.png"
         shutil.copyfile(source, output / original)
         with Image.open(source) as im:
             rgb = im.convert("RGB")
@@ -141,7 +150,7 @@ def build(config_path: Path, workspace: Path) -> dict[str, Any]:
         scale = size / max(w, h)
         notes = []
         if scale > 1:
-            notes.append(f"Phóng {scale:.2f}×: đối chiếu chi tiết đầu/tay/vật ở bản 224.")
+            notes.append(f"Phóng {scale:.2f}×: đối chiếu chi tiết đầu/tay/vật ở bản {size}.")
         if r.crop.derivation:
             notes.append("Crop là derivative: nếu cần thêm chi tiết, kiểm lại ROI từ frame gốc.")
         notes.append("Nếu thiếu vùng cần quan sát: ghi rõ cần mở rộng đầu/vai/tay/bàn; "
@@ -163,6 +172,8 @@ def build(config_path: Path, workspace: Path) -> dict[str, Any]:
                      "lineage": r.group.leakage_group_id if r.group else None,
                      "blockers": list(r.ineligibility_reasons),
                      "preview_sha256": sha256_file(output / prepared)})
+        if order != TARGET_ORDER or include_pending:
+            rows[-1]["old_disposition"] = r.disposition
     groups = []
     for i, members in enumerate(visual_groups(np.stack(features), config["groups"]), 1):
         group_id = f"G{i:02d}"
@@ -181,6 +192,10 @@ def build(config_path: Path, workspace: Path) -> dict[str, Any]:
     ).encode()).hexdigest()
     payload = {"schema": "crop-review-workspace-v1", "cohort": cohort,
                "image_size": size, "fill": fill, "records": rows, "groups": groups}
+    if order != TARGET_ORDER:
+        payload.update(schema="crop-review-workspace-v2", target_order=list(order))
+    if include_pending:
+        payload["include_pending"] = True
     _json(output / "inventory.json", payload)
     # Script data instead of fetch allows offline file:// use.
     (output / "inventory.js").write_text("window.AUDIT=" + json.dumps(
@@ -199,6 +214,13 @@ def build(config_path: Path, workspace: Path) -> dict[str, Any]:
                               config["recipe"]: sha256_file(recipe_path),
                               str(ledger.relative_to(workspace)): sha256_file(ledger)},
                "inventory_sha256": sha256_file(output / "inventory.json")}
+    if include_pending:
+        summary["total_review"] = len(rows)
+        summary["total_accepted"] = sum(r.disposition == "approved" for r in accepted)
+        summary["pending_review_ids"] = [
+            r.sample_id for r in accepted if r.disposition == "pending"]
+        summary["excluded"] = [r.sample_id for r in records if r.disposition == "excluded"]
+        summary["coverage"] = "Explicit pending/approved crop inventory; no label acceptance"
     _json(report / "inventory-check.json", summary)
     _json(report / "accepted-inventory.json", [
         {k: r[k] for k in ("id", "sha256", "group", "old_usage", "preview_sha256")}

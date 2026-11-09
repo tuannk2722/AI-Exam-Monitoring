@@ -11,6 +11,7 @@ from typing import Any, Protocol, runtime_checkable
 from PIL import Image
 
 from ai_exam_monitoring.common.errors import DataContractError
+from ai_exam_monitoring.data.pilot_schema import MULTILABEL_TARGET_ORDER, TARGET_ORDER
 
 from .person import PersonDetection, crop_boxes
 from .profiling import StageProfiler
@@ -71,8 +72,12 @@ class FrameProcessor:
         self.detector = detector
         self.classifier = classifier
         self.crop_policy = dict(crop_policy)
+        self.target_order = tuple(getattr(classifier, "target_order", TARGET_ORDER))
         self.thresholds = list(classifier.thresholds)
-        if len(self.thresholds) != 2 or any(not math.isfinite(v) for v in self.thresholds):
+        if (self.target_order not in (TARGET_ORDER, MULTILABEL_TARGET_ORDER)
+                or len(self.thresholds) != len(self.target_order)
+                or any(not math.isfinite(v) or not 0 <= v <= math.nextafter(1., 2.)
+                       for v in self.thresholds)):
             raise DataContractError("Invalid operating thresholds")
 
     def detect(self, frame: VideoFrame) -> DetectedFrame:
@@ -105,7 +110,8 @@ class FrameProcessor:
             if len(rows) != len(chunk):
                 raise DataContractError("Classifier batch count differs from anchors")
             for anchor, crop, scores in zip(chunk, crops, rows, strict=True):
-                if len(scores) != 2 or any(not math.isfinite(v) or not 0 <= v <= 1 for v in scores):
+                if (len(scores) != len(self.target_order)
+                        or any(not math.isfinite(v) or not 0 <= v <= 1 for v in scores)):
                     raise DataContractError("Invalid behavior scores")
                 observation = {
                     "anchor_id": anchor.anchor_id, "person_box": anchor.person_box,
